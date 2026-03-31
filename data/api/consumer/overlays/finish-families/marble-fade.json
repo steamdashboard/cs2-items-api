@@ -1,0 +1,168 @@
+{
+  "canonical_slug": "marble-fade",
+  "confidence": "high",
+  "description": "Collector family where fire-and-ice style tiers and tip color balance are seed-sensitive.",
+  "example_skins": [
+    {
+      "canonical_slug": "500-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-413",
+      "name": "Bayonet | Marble Fade",
+      "path": "data/api/consumer/cards/skins/500-413.json",
+      "search_slug": "bayonet-marble-fade"
+    },
+    {
+      "canonical_slug": "514-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-413",
+      "name": "Bowie Knife | Marble Fade",
+      "path": "data/api/consumer/cards/skins/514-413.json",
+      "search_slug": "bowie-knife-marble-fade"
+    },
+    {
+      "canonical_slug": "515-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-413",
+      "name": "Butterfly Knife | Marble Fade",
+      "path": "data/api/consumer/cards/skins/515-413.json",
+      "search_slug": "butterfly-knife-marble-fade"
+    },
+    {
+      "canonical_slug": "512-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-413",
+      "name": "Falchion Knife | Marble Fade",
+      "path": "data/api/consumer/cards/skins/512-413.json",
+      "search_slug": "falchion-knife-marble-fade"
+    },
+    {
+      "canonical_slug": "505-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-413",
+      "name": "Flip Knife | Marble Fade",
+      "path": "data/api/consumer/cards/skins/505-413.json",
+      "search_slug": "flip-knife-marble-fade"
+    },
+    {
+      "canonical_slug": "506-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-413",
+      "name": "Gut Knife | Marble Fade",
+      "path": "data/api/consumer/cards/skins/506-413.json",
+      "search_slug": "gut-knife-marble-fade"
+    },
+    {
+      "canonical_slug": "509-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-413",
+      "name": "Huntsman Knife | Marble Fade",
+      "path": "data/api/consumer/cards/skins/509-413.json",
+      "search_slug": "huntsman-knife-marble-fade"
+    },
+    {
+      "canonical_slug": "507-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "507-413",
+      "name": "Karambit | Marble Fade",
+      "path": "data/api/consumer/cards/skins/507-413.json",
+      "search_slug": "karambit-marble-fade"
+    },
+    {
+      "canonical_slug": "508-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "508-413",
+      "name": "M9 Bayonet | Marble Fade",
+      "path": "data/api/consumer/cards/skins/508-413.json",
+      "search_slug": "m9-bayonet-marble-fade"
+    },
+    {
+      "canonical_slug": "520-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "520-413",
+      "name": "Navaja Knife | Marble Fade",
+      "path": "data/api/consumer/cards/skins/520-413.json",
+      "search_slug": "navaja-knife-marble-fade"
+    },
+    {
+      "canonical_slug": "521-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "521-413",
+      "name": "Nomad Knife | Marble Fade",
+      "path": "data/api/consumer/cards/skins/521-413.json",
+      "search_slug": "nomad-knife-marble-fade"
+    },
+    {
+      "canonical_slug": "517-413",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "517-413",
+      "name": "Paracord Knife | Marble Fade",
+      "path": "data/api/consumer/cards/skins/517-413.json",
+      "search_slug": "paracord-knife-marble-fade"
+    }
+  ],
+  "finish_count": 2,
+  "finishes": [
+    {
+      "canonical_slug": "am-marble-fade",
+      "group": "finishes",
+      "id": "413",
+      "name": "Marble Fade",
+      "path": "data/api/reference/finishes/413.json",
+      "search_slug": "marble-fade"
+    },
+    {
+      "canonical_slug": "specialist-marble-fade",
+      "group": "finishes",
+      "id": "10065",
+      "name": "Marble Fade",
+      "path": "data/api/reference/finishes/10065.json",
+      "search_slug": "marble-fade"
+    }
+  ],
+  "id": "marble-fade",
+  "knowledge_source": "community-trading-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/marble-fade.json"
+  },
+  "name": "Marble Fade",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": true,
+  "pattern_sensitivity": "high",
+  "primary_mechanics": [
+    {
+      "canonical_slug": "fire-and-ice",
+      "group": "rare-patterns",
+      "id": "fire-and-ice",
+      "name": "Fire and Ice",
+      "path": "data/api/consumer/overlays/rare-patterns/fire-and-ice.json",
+      "search_slug": "fire-and-ice"
+    }
+  ],
+  "search_slug": "marble-fade",
+  "skin_count": 19,
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": true,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 73,
+  "weapon_groups": [
+    "glove",
+    "knife"
+  ]
+}

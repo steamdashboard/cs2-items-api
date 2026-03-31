@@ -17,5 +17,84 @@
   "quality_name": "StatTrak",
   "search_slug": "stattrak-skeleton-knife-gamma-doppler-factory-new",
   "skin_id": "525-571",
-  "skin_name": "Skeleton Knife | Gamma Doppler"
+  "skin_name": "Skeleton Knife | Gamma Doppler",
+  "trading": {
+    "finish_family": {
+      "canonical_slug": "gamma-doppler",
+      "group": "finish-families",
+      "id": "gamma-doppler",
+      "name": "Gamma Doppler",
+      "path": "data/api/consumer/overlays/finish-families/gamma-doppler.json",
+      "search_slug": "gamma-doppler"
+    },
+    "inspect_ref": {
+      "def_index": 525,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 571,
+      "paint_seed_field": "paint_seed",
+      "quality": "stattrak"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/StatTrak%E2%84%A2%20Skeleton%20Knife%20%7C%20Gamma%20Doppler%20%28Factory%20New%29.json",
+      "csfloat": {
+        "category": {
+          "code": 2,
+          "id": "stattrak"
+        },
+        "def_index": 525,
+        "market_hash_name": "StatTrak™ Skeleton Knife | Gamma Doppler (Factory New)",
+        "max_float": 0.07,
+        "min_float": 0.0,
+        "paint_index": 571,
+        "supports_paint_seed_filter": true
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/StatTrak%E2%84%A2%20Skeleton%20Knife%20%7C%20Gamma%20Doppler%20%28Factory%20New%29.json",
+      "market_hash_name": "StatTrak™ Skeleton Knife | Gamma Doppler (Factory New)"
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "phase",
+        "group": "rare-patterns",
+        "id": "phase",
+        "name": "Phase",
+        "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+        "search_slug": "phase"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "medium",
+    "phase": {
+      "canonical_slug": "am-gamma-doppler-phase3-phase-3",
+      "group": "phases",
+      "id": "571",
+      "name": "Gamma Doppler Phase 3",
+      "path": "data/api/consumer/overlays/phases/571.json",
+      "search_slug": "gamma-doppler-phase-3"
+    },
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": true,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.07,
+      "min_float": 0.0
+    }
+  }
 }

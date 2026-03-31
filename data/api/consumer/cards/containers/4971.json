@@ -600,6 +600,10 @@
     "ukrainian": "Сувенірний набір «Шанхай 2024 — Ancient»",
     "vietnamese": "Gói lưu niệm Ancient | Thượng Hải 2024"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4971",
     "images": [
@@ -711,5 +715,17 @@
     "8-1033"
   ],
   "special_pools": [],
-  "tournament_event_id": 23
+  "tournament_event_id": 23,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

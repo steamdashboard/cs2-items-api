@@ -479,6 +479,10 @@
     "ukrainian": "Сувенірний набір «Кельн 2016 — Cobblestone»",
     "vietnamese": "Gói lưu niệm Cologne 2016 Cobblestone"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4276",
     "images": [
@@ -584,5 +588,17 @@
     "9-344"
   ],
   "special_pools": [],
-  "tournament_event_id": 10
+  "tournament_event_id": 10,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

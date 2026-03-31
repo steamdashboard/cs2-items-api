@@ -1,0 +1,235 @@
+{
+  "affected_groups": {
+    "skin-variants": 12727,
+    "skins": 2081
+  },
+  "affected_item_count": 14808,
+  "canonical_slug": "live-item-market-state",
+  "description": "Exact float, paint seed, stickers, inspect link, and trade timers require a concrete live item or listing payload.",
+  "id": "live-item-market-state",
+  "knowledge_source": "external-listing-contract",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-market-constraint/live-item-market-state.json"
+  },
+  "name": "Live Item Market State Required",
+  "overlay_type": "market-constraint",
+  "sample_items": [
+    {
+      "canonical_slug": "7-1397",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "7-1397",
+      "name": "AK-47 | Aphrodite",
+      "path": "data/api/consumer/cards/skins/7-1397.json",
+      "search_slug": "ak-47-aphrodite"
+    },
+    {
+      "canonical_slug": "7-1397-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-1397__normal__battle-scarred",
+      "name": "AK-47 | Aphrodite (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/7-1397__normal__battle-scarred.json",
+      "search_slug": "ak-47-aphrodite-battle-scarred"
+    },
+    {
+      "canonical_slug": "7-1397-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-1397__normal__factory-new",
+      "name": "AK-47 | Aphrodite (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/7-1397__normal__factory-new.json",
+      "search_slug": "ak-47-aphrodite-factory-new"
+    },
+    {
+      "canonical_slug": "7-1397-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-1397__normal__field-tested",
+      "name": "AK-47 | Aphrodite (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/7-1397__normal__field-tested.json",
+      "search_slug": "ak-47-aphrodite-field-tested"
+    },
+    {
+      "canonical_slug": "7-1397-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-1397__normal__minimal-wear",
+      "name": "AK-47 | Aphrodite (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/7-1397__normal__minimal-wear.json",
+      "search_slug": "ak-47-aphrodite-minimal-wear"
+    },
+    {
+      "canonical_slug": "7-1397-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-1397__normal__well-worn",
+      "name": "AK-47 | Aphrodite (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/7-1397__normal__well-worn.json",
+      "search_slug": "ak-47-aphrodite-well-worn"
+    },
+    {
+      "canonical_slug": "7-474",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "7-474",
+      "name": "AK-47 | Aquamarine Revenge",
+      "path": "data/api/consumer/cards/skins/7-474.json",
+      "search_slug": "ak-47-aquamarine-revenge"
+    },
+    {
+      "canonical_slug": "7-474-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-474__normal__battle-scarred",
+      "name": "AK-47 | Aquamarine Revenge (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/7-474__normal__battle-scarred.json",
+      "search_slug": "ak-47-aquamarine-revenge-battle-scarred"
+    },
+    {
+      "canonical_slug": "7-474-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-474__normal__factory-new",
+      "name": "AK-47 | Aquamarine Revenge (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/7-474__normal__factory-new.json",
+      "search_slug": "ak-47-aquamarine-revenge-factory-new"
+    },
+    {
+      "canonical_slug": "7-474-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-474__normal__field-tested",
+      "name": "AK-47 | Aquamarine Revenge (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/7-474__normal__field-tested.json",
+      "search_slug": "ak-47-aquamarine-revenge-field-tested"
+    },
+    {
+      "canonical_slug": "7-474-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-474__normal__minimal-wear",
+      "name": "AK-47 | Aquamarine Revenge (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/7-474__normal__minimal-wear.json",
+      "search_slug": "ak-47-aquamarine-revenge-minimal-wear"
+    },
+    {
+      "canonical_slug": "7-474-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-474__normal__well-worn",
+      "name": "AK-47 | Aquamarine Revenge (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/7-474__normal__well-worn.json",
+      "search_slug": "ak-47-aquamarine-revenge-well-worn"
+    },
+    {
+      "canonical_slug": "7-801",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "7-801",
+      "name": "AK-47 | Asiimov",
+      "path": "data/api/consumer/cards/skins/7-801.json",
+      "search_slug": "ak-47-asiimov"
+    },
+    {
+      "canonical_slug": "7-801-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-801__normal__battle-scarred",
+      "name": "AK-47 | Asiimov (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/7-801__normal__battle-scarred.json",
+      "search_slug": "ak-47-asiimov-battle-scarred"
+    },
+    {
+      "canonical_slug": "7-801-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-801__normal__factory-new",
+      "name": "AK-47 | Asiimov (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/7-801__normal__factory-new.json",
+      "search_slug": "ak-47-asiimov-factory-new"
+    },
+    {
+      "canonical_slug": "7-801-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-801__normal__field-tested",
+      "name": "AK-47 | Asiimov (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/7-801__normal__field-tested.json",
+      "search_slug": "ak-47-asiimov-field-tested"
+    },
+    {
+      "canonical_slug": "7-801-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-801__normal__minimal-wear",
+      "name": "AK-47 | Asiimov (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/7-801__normal__minimal-wear.json",
+      "search_slug": "ak-47-asiimov-minimal-wear"
+    },
+    {
+      "canonical_slug": "7-801-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-801__normal__well-worn",
+      "name": "AK-47 | Asiimov (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/7-801__normal__well-worn.json",
+      "search_slug": "ak-47-asiimov-well-worn"
+    },
+    {
+      "canonical_slug": "7-142",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "7-142",
+      "name": "AK-47 | B the Monster",
+      "path": "data/api/consumer/cards/skins/7-142.json",
+      "search_slug": "ak-47-b-the-monster"
+    },
+    {
+      "canonical_slug": "7-142-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-142__normal__battle-scarred",
+      "name": "AK-47 | B the Monster (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/7-142__normal__battle-scarred.json",
+      "search_slug": "ak-47-b-the-monster-battle-scarred"
+    },
+    {
+      "canonical_slug": "7-142-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-142__normal__factory-new",
+      "name": "AK-47 | B the Monster (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/7-142__normal__factory-new.json",
+      "search_slug": "ak-47-b-the-monster-factory-new"
+    },
+    {
+      "canonical_slug": "7-142-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-142__normal__field-tested",
+      "name": "AK-47 | B the Monster (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/7-142__normal__field-tested.json",
+      "search_slug": "ak-47-b-the-monster-field-tested"
+    },
+    {
+      "canonical_slug": "7-142-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-142__normal__minimal-wear",
+      "name": "AK-47 | B the Monster (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/7-142__normal__minimal-wear.json",
+      "search_slug": "ak-47-b-the-monster-minimal-wear"
+    },
+    {
+      "canonical_slug": "7-142-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-142__normal__well-worn",
+      "name": "AK-47 | B the Monster (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/7-142__normal__well-worn.json",
+      "search_slug": "ak-47-b-the-monster-well-worn"
+    }
+  ],
+  "search_slug": "live-item-market-state-required"
+}

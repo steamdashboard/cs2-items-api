@@ -469,6 +469,10 @@
     "ukrainian": "Колекція «Крам м’ясника»",
     "vietnamese": "Bộ sưu tập Chop Shop"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4605",
     "images": [
@@ -575,5 +579,36 @@
     "63-453"
   ],
   "special_pools": [],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "rare_special_item_count": 0
+  }
 }

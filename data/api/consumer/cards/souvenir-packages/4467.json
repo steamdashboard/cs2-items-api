@@ -410,6 +410,10 @@
     "ukrainian": "Сувенірний набір «Бостон 2018 — Cache»",
     "vietnamese": "Gói lưu niệm Cache Boston 2018"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4467",
     "images": [
@@ -513,5 +517,17 @@
     "8-375"
   ],
   "special_pools": [],
-  "tournament_event_id": 13
+  "tournament_event_id": 13,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

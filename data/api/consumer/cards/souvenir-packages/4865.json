@@ -498,6 +498,10 @@
     "ukrainian": "Сувенірний набір «Ріо 2022 — Nuke»",
     "vietnamese": "Gói lưu niệm Nuke | Rio 2022"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4865",
     "images": [
@@ -606,5 +610,18 @@
     "9-788"
   ],
   "special_pools": [],
-  "tournament_event_id": 20
+  "tournament_event_id": 20,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

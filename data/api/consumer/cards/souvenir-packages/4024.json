@@ -394,6 +394,10 @@
     "ukrainian": "Сувенірний набір «ESL One Кельн 2014 — Mirage»",
     "vietnamese": "Gói lưu niệm ESL One Cologne 2014 Mirage"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4024",
     "images": [
@@ -499,5 +503,18 @@
     "8-47"
   ],
   "special_pools": [],
-  "tournament_event_id": 4
+  "tournament_event_id": 4,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

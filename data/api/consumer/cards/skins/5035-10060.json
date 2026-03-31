@@ -6,7 +6,7 @@
   },
   "available_exteriors": [],
   "canonical_slug": "5035-10060",
-  "card_type": "weapon-skin",
+  "card_type": "glove",
   "finish": {
     "canonical_slug": "bloodhound-hydra-case-hardened",
     "catalog_id": 10060,
@@ -148,6 +148,69 @@
         "source_backed": false
       }
     ]
+  },
+  "trading": {
+    "consumer_type": "glove",
+    "finish_family": {
+      "canonical_slug": "case-hardened",
+      "group": "finish-families",
+      "id": "case-hardened",
+      "name": "Case Hardened",
+      "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+      "search_slug": "case-hardened"
+    },
+    "float_window": {
+      "max_float": null,
+      "min_float": null
+    },
+    "inspect_ref": {
+      "def_index": 5035,
+      "live_item_required": true,
+      "paint_index": 10060,
+      "paint_seed_field": "paint_seed"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 5035,
+        "paint_index": 10060,
+        "supports_paint_seed_filter": true
+      },
+      "skin_name": "Hydra Gloves | Case Hardened",
+      "variant_ids": [
+        "5035-10060__normal__vanilla"
+      ]
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": true,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
   },
   "variant_ids": [
     "5035-10060__normal__vanilla"

@@ -35,6 +35,19 @@
     "ukrainian": "Графіті",
     "vietnamese": "Graffiti"
   },
+  "market": {
+    "market_constraints": [
+      {
+        "canonical_slug": "cannot-trade",
+        "group": "market-constraints",
+        "id": "cannot-trade",
+        "name": "Cannot Trade",
+        "path": "data/api/consumer/overlays/market-constraints/cannot-trade.json",
+        "search_slug": "cannot-trade"
+      }
+    ],
+    "trade_state": "cannot-trade"
+  },
   "media": {
     "asset_id": "tool__1349",
     "images": [],

@@ -5,7 +5,20 @@
   "description": null,
   "id": 6061,
   "localized_names": {
-    "english": "Item 6061"
+    "english": "Coin 6061"
+  },
+  "market": {
+    "market_constraints": [
+      {
+        "canonical_slug": "cannot-trade",
+        "group": "market-constraints",
+        "id": "cannot-trade",
+        "name": "Cannot Trade",
+        "path": "data/api/consumer/overlays/market-constraints/cannot-trade.json",
+        "search_slug": "cannot-trade"
+      }
+    ],
+    "trade_state": "cannot-trade"
   },
   "media": {
     "asset_id": "collectible__6061",
@@ -16,7 +29,7 @@
     "primary_image_png": null,
     "source_texture_path": null
   },
-  "name": "Item 6061",
+  "name": "Coin 6061",
   "rarity_ref": "ancient",
-  "search_slug": "item-6061"
+  "search_slug": "coin-6061"
 }

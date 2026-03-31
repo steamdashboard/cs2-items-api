@@ -17,5 +17,61 @@
   "quality_name": "StatTrak",
   "search_slug": "stattrak-flip-knife-freehand-field-tested",
   "skin_id": "505-582",
-  "skin_name": "Flip Knife | Freehand"
+  "skin_name": "Flip Knife | Freehand",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 505,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 582,
+      "paint_seed_field": null,
+      "quality": "stattrak"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/StatTrak%E2%84%A2%20Flip%20Knife%20%7C%20Freehand%20%28Field-Tested%29.json",
+      "csfloat": {
+        "category": {
+          "code": 2,
+          "id": "stattrak"
+        },
+        "def_index": 505,
+        "market_hash_name": "StatTrak™ Flip Knife | Freehand (Field-Tested)",
+        "max_float": 0.38,
+        "min_float": 0.15,
+        "paint_index": 582,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/StatTrak%E2%84%A2%20Flip%20Knife%20%7C%20Freehand%20%28Field-Tested%29.json",
+      "market_hash_name": "StatTrak™ Flip Knife | Freehand (Field-Tested)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.38,
+      "min_float": 0.15
+    }
+  }
 }

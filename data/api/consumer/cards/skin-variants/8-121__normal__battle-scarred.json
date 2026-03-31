@@ -4,7 +4,7 @@
   "exterior": "battle-scarred",
   "exterior_name": "Battle-Scarred",
   "id": "8-121__normal__battle-scarred",
-  "market_hash_name": "AUG | PaintKit_aug_puffer_Tag (Battle-Scarred)",
+  "market_hash_name": "AUG | Puffer (Battle-Scarred)",
   "media": {
     "image_png": "data/api/media/rendered/files/skins/8-121/heavy.png",
     "manifest_path": "data/api/media/rendered/manifests/skin-variants/8-121__normal__battle-scarred.json",
@@ -12,10 +12,66 @@
     "preview_tier": "heavy",
     "source_skin_manifest_path": "data/api/media/rendered/manifests/skins/8-121.json"
   },
-  "name": "AUG | PaintKit_aug_puffer_Tag (Battle-Scarred)",
+  "name": "AUG | Puffer (Battle-Scarred)",
   "quality": "normal",
   "quality_name": "Normal",
-  "search_slug": "aug-paintkit-aug-puffer-tag-battle-scarred",
+  "search_slug": "aug-puffer-battle-scarred",
   "skin_id": "8-121",
-  "skin_name": "AUG | PaintKit_aug_puffer_Tag"
+  "skin_name": "AUG | Puffer",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 8,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 121,
+      "paint_seed_field": null,
+      "quality": "normal"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/AUG%20%7C%20Puffer%20%28Battle-Scarred%29.json",
+      "csfloat": {
+        "category": {
+          "code": 1,
+          "id": "normal"
+        },
+        "def_index": 8,
+        "market_hash_name": "AUG | Puffer (Battle-Scarred)",
+        "max_float": 0.9,
+        "min_float": 0.45,
+        "paint_index": 121,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/AUG%20%7C%20Puffer%20%28Battle-Scarred%29.json",
+      "market_hash_name": "AUG | Puffer (Battle-Scarred)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.9,
+      "min_float": 0.45
+    }
+  }
 }

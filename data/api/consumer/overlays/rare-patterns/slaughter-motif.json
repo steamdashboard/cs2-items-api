@@ -1,0 +1,157 @@
+{
+  "canonical_slug": "slaughter-motif",
+  "description": "Pattern-sensitive motif grouping used by collectors to compare desirable Slaughter layouts.",
+  "example_skins": [
+    {
+      "canonical_slug": "500-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-59",
+      "name": "Bayonet | Slaughter",
+      "path": "data/api/consumer/cards/skins/500-59.json",
+      "search_slug": "bayonet-slaughter"
+    },
+    {
+      "canonical_slug": "514-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-59",
+      "name": "Bowie Knife | Slaughter",
+      "path": "data/api/consumer/cards/skins/514-59.json",
+      "search_slug": "bowie-knife-slaughter"
+    },
+    {
+      "canonical_slug": "515-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-59",
+      "name": "Butterfly Knife | Slaughter",
+      "path": "data/api/consumer/cards/skins/515-59.json",
+      "search_slug": "butterfly-knife-slaughter"
+    },
+    {
+      "canonical_slug": "503-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-59",
+      "name": "Classic Knife | Slaughter",
+      "path": "data/api/consumer/cards/skins/503-59.json",
+      "search_slug": "classic-knife-slaughter"
+    },
+    {
+      "canonical_slug": "512-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-59",
+      "name": "Falchion Knife | Slaughter",
+      "path": "data/api/consumer/cards/skins/512-59.json",
+      "search_slug": "falchion-knife-slaughter"
+    },
+    {
+      "canonical_slug": "505-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-59",
+      "name": "Flip Knife | Slaughter",
+      "path": "data/api/consumer/cards/skins/505-59.json",
+      "search_slug": "flip-knife-slaughter"
+    },
+    {
+      "canonical_slug": "506-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-59",
+      "name": "Gut Knife | Slaughter",
+      "path": "data/api/consumer/cards/skins/506-59.json",
+      "search_slug": "gut-knife-slaughter"
+    },
+    {
+      "canonical_slug": "5032-10021",
+      "card_type": "glove",
+      "group": "skins",
+      "id": "5032-10021",
+      "name": "Hand Wraps | Slaughter",
+      "path": "data/api/consumer/cards/skins/5032-10021.json",
+      "search_slug": "hand-wraps-slaughter"
+    },
+    {
+      "canonical_slug": "509-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-59",
+      "name": "Huntsman Knife | Slaughter",
+      "path": "data/api/consumer/cards/skins/509-59.json",
+      "search_slug": "huntsman-knife-slaughter"
+    },
+    {
+      "canonical_slug": "507-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "507-59",
+      "name": "Karambit | Slaughter",
+      "path": "data/api/consumer/cards/skins/507-59.json",
+      "search_slug": "karambit-slaughter"
+    },
+    {
+      "canonical_slug": "526-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "526-59",
+      "name": "Kukri Knife | Slaughter",
+      "path": "data/api/consumer/cards/skins/526-59.json",
+      "search_slug": "kukri-knife-slaughter"
+    },
+    {
+      "canonical_slug": "508-59",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "508-59",
+      "name": "M9 Bayonet | Slaughter",
+      "path": "data/api/consumer/cards/skins/508-59.json",
+      "search_slug": "m9-bayonet-slaughter"
+    }
+  ],
+  "finish_count": 2,
+  "finish_families": [
+    {
+      "canonical_slug": "slaughter",
+      "group": "finish-families",
+      "id": "slaughter",
+      "name": "Slaughter",
+      "path": "data/api/consumer/overlays/finish-families/slaughter.json",
+      "search_slug": "slaughter"
+    }
+  ],
+  "finishes": [
+    {
+      "canonical_slug": "am-zebra",
+      "group": "finishes",
+      "id": "59",
+      "name": "Slaughter",
+      "path": "data/api/reference/finishes/59.json",
+      "search_slug": "slaughter"
+    },
+    {
+      "canonical_slug": "handwrap-red-slaughter",
+      "group": "finishes",
+      "id": "10021",
+      "name": "Slaughter",
+      "path": "data/api/reference/finishes/10021.json",
+      "search_slug": "slaughter"
+    }
+  ],
+  "id": "slaughter-motif",
+  "knowledge_source": "community-trading-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-pattern-mechanic/slaughter-motif.json"
+  },
+  "live_item_requirements": [
+    "paint_seed",
+    "inspect_link"
+  ],
+  "name": "Slaughter Motif",
+  "overlay_type": "rare-pattern",
+  "search_slug": "slaughter-motif",
+  "skin_count": 21,
+  "variant_count": 121
+}

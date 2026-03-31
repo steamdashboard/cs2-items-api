@@ -394,6 +394,10 @@
     "ukrainian": "Сувенірний набір «Кельн 2016 — Mirage»",
     "vietnamese": "Gói lưu niệm Cologne 2016 Mirage"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4275",
     "images": [
@@ -499,5 +503,18 @@
     "8-47"
   ],
   "special_pools": [],
-  "tournament_event_id": 10
+  "tournament_event_id": 10,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

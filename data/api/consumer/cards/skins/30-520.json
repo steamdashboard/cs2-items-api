@@ -175,6 +175,62 @@
     "souvenir_packages": [],
     "special_pools": []
   },
+  "trading": {
+    "consumer_type": "weapon-skin",
+    "finish_family": null,
+    "float_window": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    },
+    "inspect_ref": {
+      "def_index": 30,
+      "live_item_required": true,
+      "paint_index": 520,
+      "paint_seed_field": null
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 30,
+        "paint_index": 520,
+        "supports_paint_seed_filter": false
+      },
+      "skin_name": "Tec-9 | Avalanche",
+      "variant_ids": [
+        "30-520__normal__battle-scarred",
+        "30-520__normal__factory-new",
+        "30-520__normal__field-tested",
+        "30-520__normal__minimal-wear",
+        "30-520__normal__well-worn",
+        "30-520__stattrak__battle-scarred",
+        "30-520__stattrak__factory-new",
+        "30-520__stattrak__field-tested",
+        "30-520__stattrak__minimal-wear",
+        "30-520__stattrak__well-worn"
+      ]
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
+  },
   "variant_ids": [
     "30-520__normal__battle-scarred",
     "30-520__normal__factory-new",

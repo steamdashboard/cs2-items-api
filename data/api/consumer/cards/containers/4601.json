@@ -441,6 +441,10 @@
     "ukrainian": "Колекція «Overpass»",
     "vietnamese": "Bộ sưu tập Overpass"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4601",
     "images": [
@@ -546,5 +550,18 @@
     "9-84"
   ],
   "special_pools": [],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

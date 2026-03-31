@@ -555,6 +555,10 @@
     "ukrainian": "Сувенірний набір «Шанхай 2024 — Dust II»",
     "vietnamese": "Gói lưu niệm Dust II | Thượng Hải 2024"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4970",
     "images": [
@@ -666,5 +670,52 @@
     "8-927"
   ],
   "special_pools": [],
-  "tournament_event_id": 23
+  "tournament_event_id": 23,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "case-hardened",
+        "group": "finish-families",
+        "id": "case-hardened",
+        "name": "Case Hardened",
+        "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+        "search_slug": "case-hardened"
+      },
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      },
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "rare_special_item_count": 0
+  }
 }

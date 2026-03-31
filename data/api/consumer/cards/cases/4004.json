@@ -439,6 +439,10 @@
     "ukrainian": "Футляр зі зброєю CS:GO, серія #2",
     "vietnamese": "Hòm vũ khí CS:GO 2"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4004",
     "images": [
@@ -555,5 +559,51 @@
       "search_slug": "unusual-revolving-special-item-pool"
     }
   ],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "case-hardened",
+        "group": "finish-families",
+        "id": "case-hardened",
+        "name": "Case Hardened",
+        "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+        "search_slug": "case-hardened"
+      },
+      {
+        "canonical_slug": "crimson-web",
+        "group": "finish-families",
+        "id": "crimson-web",
+        "name": "Crimson Web",
+        "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+        "search_slug": "crimson-web"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      },
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "rare_special_item_count": 1
+  }
 }

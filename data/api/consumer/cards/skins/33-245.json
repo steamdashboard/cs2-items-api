@@ -12,9 +12,9 @@
     "catalog_id": 245,
     "id": 245,
     "localized_names": {
-      "english": "sp_spray_army"
+      "english": "Spray Army"
     },
-    "name": "sp_spray_army",
+    "name": "Spray Army",
     "rarity_ref": null,
     "style_code": 3,
     "style_name": "Spray-Paint",
@@ -29,36 +29,36 @@
   },
   "id": "33-245",
   "localized_names": {
-    "brazilian": "MP7 | sp_spray_army",
-    "bulgarian": "MP7 | sp_spray_army",
-    "czech": "MP7 | sp_spray_army",
-    "danish": "MP7 | sp_spray_army",
-    "dutch": "MP7 | sp_spray_army",
-    "english": "MP7 | sp_spray_army",
-    "finnish": "MP7 | sp_spray_army",
-    "french": "MP7 | sp_spray_army",
-    "german": "MP7 | sp_spray_army",
-    "greek": "MP7 | sp_spray_army",
-    "hungarian": "MP7 | sp_spray_army",
-    "indonesian": "MP7 | sp_spray_army",
-    "italian": "MP7 | sp_spray_army",
-    "japanese": "MP7 | sp_spray_army",
-    "koreana": "MP7 | sp_spray_army",
-    "latam": "MP7 | sp_spray_army",
-    "norwegian": "MP7 | sp_spray_army",
-    "polish": "MP7 | sp_spray_army",
-    "portuguese": "MP7 | sp_spray_army",
-    "romanian": "MP7 | sp_spray_army",
-    "russian": "MP7 | sp_spray_army",
-    "schinese": "MP7 | sp_spray_army",
-    "schinese_pw": "MP7 | sp_spray_army",
-    "spanish": "MP7 | sp_spray_army",
-    "swedish": "MP7 | sp_spray_army",
-    "tchinese": "MP7 | sp_spray_army",
-    "thai": "MP7 | sp_spray_army",
-    "turkish": "MP7 | sp_spray_army",
-    "ukrainian": "МП7 | sp_spray_army",
-    "vietnamese": "MP7 | sp_spray_army"
+    "brazilian": "MP7 | Spray Army",
+    "bulgarian": "MP7 | Spray Army",
+    "czech": "MP7 | Spray Army",
+    "danish": "MP7 | Spray Army",
+    "dutch": "MP7 | Spray Army",
+    "english": "MP7 | Spray Army",
+    "finnish": "MP7 | Spray Army",
+    "french": "MP7 | Spray Army",
+    "german": "MP7 | Spray Army",
+    "greek": "MP7 | Spray Army",
+    "hungarian": "MP7 | Spray Army",
+    "indonesian": "MP7 | Spray Army",
+    "italian": "MP7 | Spray Army",
+    "japanese": "MP7 | Spray Army",
+    "koreana": "MP7 | Spray Army",
+    "latam": "MP7 | Spray Army",
+    "norwegian": "MP7 | Spray Army",
+    "polish": "MP7 | Spray Army",
+    "portuguese": "MP7 | Spray Army",
+    "romanian": "MP7 | Spray Army",
+    "russian": "MP7 | Spray Army",
+    "schinese": "MP7 | Spray Army",
+    "schinese_pw": "MP7 | Spray Army",
+    "spanish": "MP7 | Spray Army",
+    "swedish": "MP7 | Spray Army",
+    "tchinese": "MP7 | Spray Army",
+    "thai": "MP7 | Spray Army",
+    "turkish": "MP7 | Spray Army",
+    "ukrainian": "МП7 | Spray Army",
+    "vietnamese": "MP7 | Spray Army"
   },
   "media": {
     "asset_id": "skin__33-245",
@@ -83,8 +83,8 @@
       "medium": "panorama/images/econ/default_generated/weapon_mp7_sp_spray_army_medium_png.vtex_c"
     }
   },
-  "name": "MP7 | sp_spray_army",
-  "search_slug": "mp7-sp-spray-army",
+  "name": "MP7 | Spray Army",
+  "search_slug": "mp7-spray-army",
   "sources": {
     "capsules": [],
     "cases": [],
@@ -99,6 +99,53 @@
     "containers": [],
     "souvenir_packages": [],
     "special_pools": []
+  },
+  "trading": {
+    "consumer_type": "weapon-skin",
+    "finish_family": null,
+    "float_window": {
+      "max_float": null,
+      "min_float": null
+    },
+    "inspect_ref": {
+      "def_index": 33,
+      "live_item_required": true,
+      "paint_index": 245,
+      "paint_seed_field": null
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 33,
+        "paint_index": 245,
+        "supports_paint_seed_filter": false
+      },
+      "skin_name": "MP7 | Spray Army",
+      "variant_ids": [
+        "33-245__normal__vanilla"
+      ]
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
   },
   "variant_ids": [
     "33-245__normal__vanilla"

@@ -307,6 +307,10 @@
     "ukrainian": "Сувенірний набір «ESL One Кельн 2014 — Nuke»",
     "vietnamese": "Gói lưu niệm ESL One Cologne 2014 Nuke"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4025",
     "images": [
@@ -406,5 +410,16 @@
     "36-168"
   ],
   "special_pools": [],
-  "tournament_event_id": 4
+  "tournament_event_id": 4,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

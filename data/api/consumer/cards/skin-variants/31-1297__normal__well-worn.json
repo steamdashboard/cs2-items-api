@@ -17,5 +17,61 @@
   "quality_name": "Normal",
   "search_slug": "zeus-x27-swamp-ddpat-well-worn",
   "skin_id": "31-1297",
-  "skin_name": "Zeus x27 | Swamp DDPAT"
+  "skin_name": "Zeus x27 | Swamp DDPAT",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 31,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 1297,
+      "paint_seed_field": null,
+      "quality": "normal"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/Zeus%20x27%20%7C%20Swamp%20DDPAT%20%28Well-Worn%29.json",
+      "csfloat": {
+        "category": {
+          "code": 1,
+          "id": "normal"
+        },
+        "def_index": 31,
+        "market_hash_name": "Zeus x27 | Swamp DDPAT (Well-Worn)",
+        "max_float": 0.45,
+        "min_float": 0.38,
+        "paint_index": 1297,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Zeus%20x27%20%7C%20Swamp%20DDPAT%20%28Well-Worn%29.json",
+      "market_hash_name": "Zeus x27 | Swamp DDPAT (Well-Worn)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.45,
+      "min_float": 0.38
+    }
+  }
 }

@@ -17,5 +17,77 @@
   "quality_name": "StatTrak",
   "search_slug": "stattrak-falchion-knife-case-hardened-field-tested",
   "skin_id": "512-44",
-  "skin_name": "Falchion Knife | Case Hardened"
+  "skin_name": "Falchion Knife | Case Hardened",
+  "trading": {
+    "finish_family": {
+      "canonical_slug": "case-hardened",
+      "group": "finish-families",
+      "id": "case-hardened",
+      "name": "Case Hardened",
+      "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+      "search_slug": "case-hardened"
+    },
+    "inspect_ref": {
+      "def_index": 512,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 44,
+      "paint_seed_field": "paint_seed",
+      "quality": "stattrak"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/StatTrak%E2%84%A2%20Falchion%20Knife%20%7C%20Case%20Hardened%20%28Field-Tested%29.json",
+      "csfloat": {
+        "category": {
+          "code": 2,
+          "id": "stattrak"
+        },
+        "def_index": 512,
+        "market_hash_name": "StatTrak™ Falchion Knife | Case Hardened (Field-Tested)",
+        "max_float": 0.38,
+        "min_float": 0.15,
+        "paint_index": 44,
+        "supports_paint_seed_filter": true
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/StatTrak%E2%84%A2%20Falchion%20Knife%20%7C%20Case%20Hardened%20%28Field-Tested%29.json",
+      "market_hash_name": "StatTrak™ Falchion Knife | Case Hardened (Field-Tested)"
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": true,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.38,
+      "min_float": 0.15
+    }
+  }
 }

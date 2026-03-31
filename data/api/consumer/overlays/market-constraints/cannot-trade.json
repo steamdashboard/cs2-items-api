@@ -1,0 +1,237 @@
+{
+  "affected_groups": {
+    "capsules": 4,
+    "collectibles": 472,
+    "containers": 189,
+    "tools": 27
+  },
+  "affected_item_count": 692,
+  "canonical_slug": "cannot-trade",
+  "description": "Source item definition explicitly sets the `cannot trade` attribute.",
+  "id": "cannot-trade",
+  "knowledge_source": "source-backed-attribute",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-market-constraint/cannot-trade.json"
+  },
+  "name": "Cannot Trade",
+  "overlay_type": "market-constraint",
+  "sample_items": [
+    {
+      "canonical_slug": "communityseasonten2020-plusstars1",
+      "card_type": "tool",
+      "group": "tools",
+      "id": "4704",
+      "name": "1 Star for Operation Broken Fang",
+      "path": "data/api/consumer/cards/tools/4704.json",
+      "search_slug": "1-star-for-operation-broken-fang"
+    },
+    {
+      "canonical_slug": "communityseasoneleven2021-plusstars1",
+      "card_type": "tool",
+      "group": "tools",
+      "id": "4763",
+      "name": "1 Star for Operation Riptide",
+      "path": "data/api/consumer/cards/tools/4763.json",
+      "search_slug": "1-star-for-operation-riptide"
+    },
+    {
+      "canonical_slug": "communityseasonnine2019-plusstars1",
+      "card_type": "tool",
+      "group": "tools",
+      "id": "4671",
+      "name": "1 Star for Operation Shattered Web",
+      "path": "data/api/consumer/cards/tools/4671.json",
+      "search_slug": "1-star-for-operation-shattered-web"
+    },
+    {
+      "canonical_slug": "communityseasonten2020-plusstars10",
+      "card_type": "tool",
+      "group": "tools",
+      "id": "4705",
+      "name": "10 Stars for Operation Broken Fang",
+      "path": "data/api/consumer/cards/tools/4705.json",
+      "search_slug": "10-stars-for-operation-broken-fang"
+    },
+    {
+      "canonical_slug": "communityseasoneleven2021-plusstars10",
+      "card_type": "tool",
+      "group": "tools",
+      "id": "4764",
+      "name": "10 Stars for Operation Riptide",
+      "path": "data/api/consumer/cards/tools/4764.json",
+      "search_slug": "10-stars-for-operation-riptide"
+    },
+    {
+      "canonical_slug": "communityseasonnine2019-plusstars10",
+      "card_type": "tool",
+      "group": "tools",
+      "id": "4672",
+      "name": "10 Stars for Operation Shattered Web",
+      "path": "data/api/consumer/cards/tools/4672.json",
+      "search_slug": "10-stars-for-operation-shattered-web"
+    },
+    {
+      "canonical_slug": "csgo-ten-year-anniversary-memorabilia",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "987",
+      "name": "10 Year Birthday Coin",
+      "path": "data/api/consumer/cards/collectibles/987.json",
+      "search_slug": "10-year-birthday-coin"
+    },
+    {
+      "canonical_slug": "coupon-csgo10-sticker-capsule",
+      "card_type": "container",
+      "group": "containers",
+      "id": "20188",
+      "name": "10 Year Birthday Sticker Capsule",
+      "path": "data/api/consumer/cards/containers/20188.json",
+      "search_slug": "10-year-birthday-sticker-capsule"
+    },
+    {
+      "canonical_slug": "ten-year-service-coin",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "969",
+      "name": "10 Year Veteran Coin",
+      "path": "data/api/consumer/cards/collectibles/969.json",
+      "search_slug": "10-year-veteran-coin"
+    },
+    {
+      "canonical_slug": "communityseasonten2020-plusstars100",
+      "card_type": "tool",
+      "group": "tools",
+      "id": "4706",
+      "name": "100 Stars for Operation Broken Fang",
+      "path": "data/api/consumer/cards/tools/4706.json",
+      "search_slug": "100-stars-for-operation-broken-fang"
+    },
+    {
+      "canonical_slug": "communityseasoneleven2021-plusstars100",
+      "card_type": "tool",
+      "group": "tools",
+      "id": "4765",
+      "name": "100 Stars for Operation Riptide",
+      "path": "data/api/consumer/cards/tools/4765.json",
+      "search_slug": "100-stars-for-operation-riptide"
+    },
+    {
+      "canonical_slug": "communityseasonnine2019-plusstars100",
+      "card_type": "tool",
+      "group": "tools",
+      "id": "4673",
+      "name": "100 Stars for Operation Shattered Web",
+      "path": "data/api/consumer/cards/tools/4673.json",
+      "search_slug": "100-stars-for-operation-shattered-web"
+    },
+    {
+      "canonical_slug": "prestige-coin-2015",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1331",
+      "name": "2015 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1331.json",
+      "search_slug": "2015-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2015-level-2",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1332",
+      "name": "2015 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1332.json",
+      "search_slug": "2015-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2016",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1339",
+      "name": "2016 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1339.json",
+      "search_slug": "2016-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2016-level-2",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1340",
+      "name": "2016 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1340.json",
+      "search_slug": "2016-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2016-level-3",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1341",
+      "name": "2016 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1341.json",
+      "search_slug": "2016-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2016-level-4",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1342",
+      "name": "2016 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1342.json",
+      "search_slug": "2016-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2016-level-5",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1343",
+      "name": "2016 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1343.json",
+      "search_slug": "2016-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2016-level-6",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1344",
+      "name": "2016 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1344.json",
+      "search_slug": "2016-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2017",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1357",
+      "name": "2017 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1357.json",
+      "search_slug": "2017-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2017-level-2",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1358",
+      "name": "2017 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1358.json",
+      "search_slug": "2017-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2017-level-3",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1359",
+      "name": "2017 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1359.json",
+      "search_slug": "2017-service-medal"
+    },
+    {
+      "canonical_slug": "prestige-coin-2017-level-4",
+      "card_type": "collectible",
+      "group": "collectibles",
+      "id": "1360",
+      "name": "2017 Service Medal",
+      "path": "data/api/consumer/cards/collectibles/1360.json",
+      "search_slug": "2017-service-medal"
+    }
+  ],
+  "search_slug": "cannot-trade"
+}

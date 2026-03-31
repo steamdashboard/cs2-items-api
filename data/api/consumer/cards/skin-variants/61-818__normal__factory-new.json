@@ -17,5 +17,61 @@
   "quality_name": "Normal",
   "search_slug": "usp-s-purple-ddpat-factory-new",
   "skin_id": "61-818",
-  "skin_name": "USP-S | Purple DDPAT"
+  "skin_name": "USP-S | Purple DDPAT",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 61,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 818,
+      "paint_seed_field": null,
+      "quality": "normal"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/USP-S%20%7C%20Purple%20DDPAT%20%28Factory%20New%29.json",
+      "csfloat": {
+        "category": {
+          "code": 1,
+          "id": "normal"
+        },
+        "def_index": 61,
+        "market_hash_name": "USP-S | Purple DDPAT (Factory New)",
+        "max_float": 0.07,
+        "min_float": 0.0,
+        "paint_index": 818,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/USP-S%20%7C%20Purple%20DDPAT%20%28Factory%20New%29.json",
+      "market_hash_name": "USP-S | Purple DDPAT (Factory New)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.07,
+      "min_float": 0.0
+    }
+  }
 }

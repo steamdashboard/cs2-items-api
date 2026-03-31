@@ -553,6 +553,10 @@
     "ukrainian": "Сувенірний набір «Будапешт 2025 — Overpass»",
     "vietnamese": "Gói lưu niệm Overpass | Budapest 2025"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__5221",
     "images": [
@@ -669,5 +673,19 @@
       "search_slug": "match-highlight-reel-keychain-bonus"
     }
   ],
-  "tournament_event_id": 25
+  "tournament_event_id": 25,
+  "trading": {
+    "contains_weapon_groups": [
+      "equipment",
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 1
+  }
 }

@@ -17,5 +17,61 @@
   "quality_name": "StatTrak",
   "search_slug": "stattrak-g3sg1-keeping-tabs-battle-scarred",
   "skin_id": "11-1095",
-  "skin_name": "G3SG1 | Keeping Tabs"
+  "skin_name": "G3SG1 | Keeping Tabs",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 11,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 1095,
+      "paint_seed_field": null,
+      "quality": "stattrak"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/StatTrak%E2%84%A2%20G3SG1%20%7C%20Keeping%20Tabs%20%28Battle-Scarred%29.json",
+      "csfloat": {
+        "category": {
+          "code": 2,
+          "id": "stattrak"
+        },
+        "def_index": 11,
+        "market_hash_name": "StatTrak™ G3SG1 | Keeping Tabs (Battle-Scarred)",
+        "max_float": 0.7,
+        "min_float": 0.45,
+        "paint_index": 1095,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/StatTrak%E2%84%A2%20G3SG1%20%7C%20Keeping%20Tabs%20%28Battle-Scarred%29.json",
+      "market_hash_name": "StatTrak™ G3SG1 | Keeping Tabs (Battle-Scarred)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.7,
+      "min_float": 0.45
+    }
+  }
 }

@@ -6,7 +6,7 @@
   },
   "available_exteriors": [],
   "canonical_slug": "5034-10034",
-  "card_type": "weapon-skin",
+  "card_type": "glove",
   "finish": {
     "canonical_slug": "specialist-emerald-web",
     "catalog_id": 10034,
@@ -148,6 +148,69 @@
         "source_backed": false
       }
     ]
+  },
+  "trading": {
+    "consumer_type": "glove",
+    "finish_family": {
+      "canonical_slug": "emerald-web",
+      "group": "finish-families",
+      "id": "emerald-web",
+      "name": "Emerald Web",
+      "path": "data/api/consumer/overlays/finish-families/emerald-web.json",
+      "search_slug": "emerald-web"
+    },
+    "float_window": {
+      "max_float": null,
+      "min_float": null
+    },
+    "inspect_ref": {
+      "def_index": 5034,
+      "live_item_required": true,
+      "paint_index": 10034,
+      "paint_seed_field": "paint_seed"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 5034,
+        "paint_index": 10034,
+        "supports_paint_seed_filter": true
+      },
+      "skin_name": "Specialist Gloves | Emerald Web",
+      "variant_ids": [
+        "5034-10034__normal__vanilla"
+      ]
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": true
+    }
   },
   "variant_ids": [
     "5034-10034__normal__vanilla"

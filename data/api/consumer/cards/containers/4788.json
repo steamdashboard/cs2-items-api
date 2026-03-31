@@ -201,6 +201,10 @@
     "ukrainian": "Колекція «Train 2021»",
     "vietnamese": "Bộ sưu tập Train (2021)"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4788",
     "images": [
@@ -297,5 +301,32 @@
     "4-1123"
   ],
   "special_pools": [],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "gamma-doppler",
+        "group": "finish-families",
+        "id": "gamma-doppler",
+        "name": "Gamma Doppler",
+        "path": "data/api/consumer/overlays/finish-families/gamma-doppler.json",
+        "search_slug": "gamma-doppler"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "phase",
+        "group": "rare-patterns",
+        "id": "phase",
+        "name": "Phase",
+        "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+        "search_slug": "phase"
+      }
+    ],
+    "rare_special_item_count": 0
+  }
 }

@@ -8,6 +8,15 @@ The authoritative current generated contract is the checked-in dataset, `README.
 
 Some path names and object groupings below are early proposals and do not match the current emitted layout verbatim.
 
+As of the current snapshot, the emitted consumer contract already includes first-class overlay groups for:
+
+- `finish-families`
+- `rare-patterns`
+- `phases`
+- `market-constraints`
+
+Skin, skin-variant, and case cards also expose trading-oriented summaries that link back to those overlays.
+
 ## Goal
 
 The consumer layer must let downstream teams build a polished CS2 wiki, market explorer, database site, or trading-oriented UI without first reverse-engineering the canonical model.

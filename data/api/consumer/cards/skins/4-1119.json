@@ -175,6 +175,80 @@
     "souvenir_packages": [],
     "special_pools": []
   },
+  "trading": {
+    "consumer_type": "weapon-skin",
+    "finish_family": {
+      "canonical_slug": "gamma-doppler",
+      "group": "finish-families",
+      "id": "gamma-doppler",
+      "name": "Gamma Doppler",
+      "path": "data/api/consumer/overlays/finish-families/gamma-doppler.json",
+      "search_slug": "gamma-doppler"
+    },
+    "float_window": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    },
+    "inspect_ref": {
+      "def_index": 4,
+      "live_item_required": true,
+      "paint_index": 1119,
+      "paint_seed_field": "paint_seed"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 4,
+        "paint_index": 1119,
+        "supports_paint_seed_filter": true
+      },
+      "skin_name": "Glock-18 | Gamma Doppler",
+      "variant_ids": [
+        "4-1119__normal__battle-scarred",
+        "4-1119__normal__factory-new",
+        "4-1119__normal__field-tested",
+        "4-1119__normal__minimal-wear",
+        "4-1119__normal__well-worn"
+      ]
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "phase",
+        "group": "rare-patterns",
+        "id": "phase",
+        "name": "Phase",
+        "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+        "search_slug": "phase"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "medium",
+    "phase": {
+      "canonical_slug": "am-emerald-marbleized-glock-emerald",
+      "group": "phases",
+      "id": "1119",
+      "name": "Gamma Doppler Emerald",
+      "path": "data/api/consumer/overlays/phases/1119.json",
+      "search_slug": "gamma-doppler-emerald"
+    },
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": true,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
+  },
   "variant_ids": [
     "4-1119__normal__battle-scarred",
     "4-1119__normal__factory-new",

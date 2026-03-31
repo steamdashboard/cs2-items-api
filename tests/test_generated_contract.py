@@ -16,10 +16,11 @@ def load_json(path: Path) -> dict:
 class GeneratedContractTests(unittest.TestCase):
     def test_schema_exposes_layered_api(self) -> None:
         schema = load_json(ROOT / "data/api/meta/schema.json")
-        self.assertEqual(schema["version"], 8)
+        self.assertEqual(schema["version"], 9)
         self.assertEqual(set(schema["layers"]), {"reference", "graph", "consumer", "media"})
         self.assertIn("canonical_slug", schema["slug_policy"])
         self.assertIn("search_slug", schema["slug_policy"])
+        self.assertIn("overlays", schema["layout"]["consumer"])
 
     def test_reference_consumer_and_media_counts_match_stats(self) -> None:
         stats = load_json(ROOT / "data/api/meta/stats.json")
@@ -58,7 +59,14 @@ class GeneratedContractTests(unittest.TestCase):
             ROOT / "data/api/consumer/cards/cases/4001.json",
             ROOT / "data/api/consumer/cards/special-pools/unusual_revolving_list.json",
             ROOT / "data/api/consumer/cards/tools/4000.json",
+            ROOT / "data/api/consumer/cards/skin-variants/500-418__normal__factory-new.json",
+            ROOT / "data/api/consumer/overlays/finish-families/case-hardened.json",
+            ROOT / "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+            ROOT / "data/api/consumer/overlays/phases/418.json",
+            ROOT / "data/api/consumer/overlays/market-constraints/cannot-trade.json",
             ROOT / "data/api/consumer/meta/discovery.json",
+            ROOT / "data/api/consumer/meta/schema.json",
+            ROOT / "data/api/consumer/browse/trading.json",
             ROOT / "data/api/media/manifests/collectible__875.json",
             ROOT / "data/api/media/manifests/equipment__50.json",
             ROOT / "data/api/media/manifests/weapon__1.json",
@@ -118,12 +126,44 @@ class GeneratedContractTests(unittest.TestCase):
         self.assertTrue(knife_skin_card["generation_notes"]["derived_from_special_pool"])
         self.assertTrue(glove_skin_card["generation_notes"]["derived_from_special_pool"])
 
+    def test_consumer_variant_exposes_trading_phase_and_market_query(self) -> None:
+        variant_card = load_json(ROOT / "data/api/consumer/cards/skin-variants/500-418__normal__factory-new.json")
+        self.assertEqual(variant_card["trading"]["finish_family"]["id"], "doppler")
+        self.assertEqual(variant_card["trading"]["phase"]["id"], "418")
+        self.assertTrue(variant_card["trading"]["pattern_sensitive"])
+        self.assertEqual(variant_card["trading"]["market_query"]["csfloat"]["category"]["code"], 1)
+        self.assertTrue(variant_card["trading"]["market_query"]["csfloat"]["supports_paint_seed_filter"])
+
+    def test_consumer_overlays_link_back_to_cards_and_reference_finishes(self) -> None:
+        family = load_json(ROOT / "data/api/consumer/overlays/finish-families/case-hardened.json")
+        pattern = load_json(ROOT / "data/api/consumer/overlays/rare-patterns/blue-gem.json")
+        phase = load_json(ROOT / "data/api/consumer/overlays/phases/418.json")
+        constraint = load_json(ROOT / "data/api/consumer/overlays/market-constraints/cannot-trade.json")
+
+        self.assertEqual(family["overlay_type"], "finish-family")
+        self.assertTrue(any(item["group"] == "skins" for item in family["example_skins"]))
+        self.assertEqual(pattern["finish_families"][0]["group"], "finish-families")
+        self.assertEqual(phase["finish"]["group"], "finishes")
+        self.assertEqual(phase["phase_name"], "Phase 1")
+        self.assertEqual(constraint["affected_groups"]["collectibles"], 472)
+        self.assertEqual(constraint["affected_item_count"], 692)
+
     def test_consumer_case_uses_rendered_preview(self) -> None:
         case_card = load_json(ROOT / "data/api/consumer/cards/cases/4001.json")
         self.assertEqual(case_card["media"]["preview_status"], "rendered")
         self.assertEqual(
             case_card["media"]["primary_image_png"],
             "data/api/media/rendered/files/containers/4001/primary.png",
+        )
+
+    def test_consumer_case_summarizes_trading_relevant_families(self) -> None:
+        case_card = load_json(ROOT / "data/api/consumer/cards/cases/4001.json")
+        self.assertIn("contains_weapon_groups", case_card["trading"])
+        self.assertTrue(
+            any(item["id"] == "case-hardened" for item in case_card["trading"]["finish_families"])
+        )
+        self.assertTrue(
+            any(item["id"] == "blue-gem" for item in case_card["trading"]["pattern_mechanics"])
         )
 
     def test_consumer_agent_exposes_side(self) -> None:
@@ -160,6 +200,26 @@ class GeneratedContractTests(unittest.TestCase):
             discovery["entrypoints"]["search_slugs"],
             "data/api/consumer/lists/by-search-slug/<search_slug>.json",
         )
+        self.assertEqual(
+            discovery["entrypoints"]["finish_families"],
+            "data/api/consumer/overlays/finish-families/<family_id>.json",
+        )
+        self.assertEqual(
+            discovery["entrypoints"]["rare_patterns"],
+            "data/api/consumer/overlays/rare-patterns/<mechanic_id>.json",
+        )
+        self.assertEqual(
+            discovery["entrypoints"]["phases"],
+            "data/api/consumer/overlays/phases/<paint_kit_id>.json",
+        )
+        self.assertEqual(
+            discovery["entrypoints"]["market_constraints"],
+            "data/api/consumer/overlays/market-constraints/<constraint_id>.json",
+        )
+        self.assertEqual(discovery["overlay_counts"]["finish-families"], 9)
+        self.assertEqual(discovery["overlay_counts"]["phases"], 24)
+        self.assertEqual(discovery["list_counts"]["by-finish-family"], 9)
+        self.assertEqual(discovery["list_counts"]["by-market-constraint"], 2)
 
     def test_graph_and_consumer_side_indexes_exist(self) -> None:
         by_side = load_json(ROOT / "data/api/graph/indexes/by-side/terrorists.json")
@@ -198,6 +258,18 @@ class GeneratedContractTests(unittest.TestCase):
         collection = load_json(ROOT / "data/api/reference/collections/set_gamma_2.json")
         self.assertEqual(collection["name"], "The Gamma 2 Collection")
 
+    def test_placeholder_name_fallbacks_are_humanized(self) -> None:
+        finish = load_json(ROOT / "data/api/reference/finishes/120.json")
+        skin = load_json(ROOT / "data/api/consumer/cards/skins/14-120.json")
+        glove = load_json(ROOT / "data/api/consumer/cards/skins/5030-1407.json")
+        collectible = load_json(ROOT / "data/api/reference/collectibles/6046.json")
+
+        self.assertEqual(finish["name"], "Hypnosis")
+        self.assertEqual(finish["name_status"], "codename-fallback")
+        self.assertEqual(skin["name"], "M249 | Hypnosis")
+        self.assertEqual(glove["name"], "Sport Gloves | Flames Orange")
+        self.assertEqual(collectible["name"], "Coin 6046")
+
     def test_collectibles_and_equipment_are_exposed(self) -> None:
         collectible = load_json(ROOT / "data/api/reference/collectibles/875.json")
         self.assertEqual(collectible["collectible_group"], "trophy")
@@ -232,6 +304,11 @@ class GeneratedContractTests(unittest.TestCase):
             rendered_stats["generic_entities_with_rendered_preview"]
             + rendered_stats["generic_entities_without_rendered_preview"],
         )
+
+    def test_consumer_market_constraint_list_exists(self) -> None:
+        constraint_list = load_json(ROOT / "data/api/consumer/lists/by-market-constraint/cannot-trade.json")
+        self.assertEqual(constraint_list["key"], "cannot-trade")
+        self.assertTrue(any(item["group"] == "collectibles" for item in constraint_list["items"]))
 
     def test_public_build_metadata_does_not_expose_local_paths(self) -> None:
         for path in (

@@ -53,6 +53,19 @@
     "ukrainian": "Музичний альбом зі СтатТрек™ | Troels Folmann — Uber Blasto Phone",
     "vietnamese": "Gói âm thanh StatTrak™ | Troels Folmann, Uber Blasto Phone"
   },
+  "market": {
+    "market_constraints": [
+      {
+        "canonical_slug": "cannot-trade",
+        "group": "market-constraints",
+        "id": "cannot-trade",
+        "name": "Cannot Trade",
+        "path": "data/api/consumer/overlays/market-constraints/cannot-trade.json",
+        "search_slug": "cannot-trade"
+      }
+    ],
+    "trade_state": "cannot-trade"
+  },
   "media": {
     "asset_id": "container__20096",
     "images": [
@@ -142,5 +155,11 @@
   "series_id": null,
   "skin_ids": [],
   "special_pools": [],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

@@ -496,6 +496,10 @@
     "ukrainian": "Футляр «Хрома 2»",
     "vietnamese": "Hòm Chroma 2"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4089",
     "images": [
@@ -617,5 +621,18 @@
       "search_slug": "community-case-6-unusual"
     }
   ],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 1
+  }
 }

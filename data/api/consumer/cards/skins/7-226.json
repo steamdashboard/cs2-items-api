@@ -168,6 +168,60 @@
     "souvenir_packages": [],
     "special_pools": []
   },
+  "trading": {
+    "consumer_type": "weapon-skin",
+    "finish_family": null,
+    "float_window": {
+      "max_float": 0.4,
+      "min_float": 0.02
+    },
+    "inspect_ref": {
+      "def_index": 7,
+      "live_item_required": true,
+      "paint_index": 226,
+      "paint_seed_field": null
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 7,
+        "paint_index": 226,
+        "supports_paint_seed_filter": false
+      },
+      "skin_name": "AK-47 | Blue Laminate",
+      "variant_ids": [
+        "7-226__normal__factory-new",
+        "7-226__normal__field-tested",
+        "7-226__normal__minimal-wear",
+        "7-226__normal__well-worn",
+        "7-226__stattrak__factory-new",
+        "7-226__stattrak__field-tested",
+        "7-226__stattrak__minimal-wear",
+        "7-226__stattrak__well-worn"
+      ]
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
+  },
   "variant_ids": [
     "7-226__normal__factory-new",
     "7-226__normal__field-tested",

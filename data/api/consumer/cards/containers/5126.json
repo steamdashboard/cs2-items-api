@@ -553,6 +553,10 @@
     "ukrainian": "Сувенірний набір «Остін 2025 — Train»",
     "vietnamese": "Gói lưu niệm Train | Austin 2025"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__5126",
     "images": [
@@ -673,5 +677,18 @@
       "search_slug": "match-highlight-reel-keychain-bonus"
     }
   ],
-  "tournament_event_id": 24
+  "tournament_event_id": 24,
+  "trading": {
+    "contains_weapon_groups": [
+      "equipment",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 1
+  }
 }

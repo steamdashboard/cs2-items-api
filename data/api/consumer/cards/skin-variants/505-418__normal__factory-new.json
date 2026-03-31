@@ -17,5 +17,84 @@
   "quality_name": "Normal",
   "search_slug": "flip-knife-doppler-factory-new",
   "skin_id": "505-418",
-  "skin_name": "Flip Knife | Doppler"
+  "skin_name": "Flip Knife | Doppler",
+  "trading": {
+    "finish_family": {
+      "canonical_slug": "doppler",
+      "group": "finish-families",
+      "id": "doppler",
+      "name": "Doppler",
+      "path": "data/api/consumer/overlays/finish-families/doppler.json",
+      "search_slug": "doppler"
+    },
+    "inspect_ref": {
+      "def_index": 505,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 418,
+      "paint_seed_field": "paint_seed",
+      "quality": "normal"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/Flip%20Knife%20%7C%20Doppler%20%28Factory%20New%29.json",
+      "csfloat": {
+        "category": {
+          "code": 1,
+          "id": "normal"
+        },
+        "def_index": 505,
+        "market_hash_name": "Flip Knife | Doppler (Factory New)",
+        "max_float": 0.07,
+        "min_float": 0.0,
+        "paint_index": 418,
+        "supports_paint_seed_filter": true
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Flip%20Knife%20%7C%20Doppler%20%28Factory%20New%29.json",
+      "market_hash_name": "Flip Knife | Doppler (Factory New)"
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "phase",
+        "group": "rare-patterns",
+        "id": "phase",
+        "name": "Phase",
+        "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+        "search_slug": "phase"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "medium",
+    "phase": {
+      "canonical_slug": "am-doppler-phase1-phase-1",
+      "group": "phases",
+      "id": "418",
+      "name": "Doppler Phase 1",
+      "path": "data/api/consumer/overlays/phases/418.json",
+      "search_slug": "doppler-phase-1"
+    },
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": true,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.07,
+      "min_float": 0.0
+    }
+  }
 }

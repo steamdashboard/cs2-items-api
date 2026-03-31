@@ -600,6 +600,10 @@
     "ukrainian": "Сувенірний набір «Париж 2023 — Ancient»",
     "vietnamese": "Gói lưu niệm Paris 2023 - Ancient"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4897",
     "images": [
@@ -709,5 +713,17 @@
     "8-1033"
   ],
   "special_pools": [],
-  "tournament_event_id": 21
+  "tournament_event_id": 21,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

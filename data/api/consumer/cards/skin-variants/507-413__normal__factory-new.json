@@ -17,5 +17,77 @@
   "quality_name": "Normal",
   "search_slug": "karambit-marble-fade-factory-new",
   "skin_id": "507-413",
-  "skin_name": "Karambit | Marble Fade"
+  "skin_name": "Karambit | Marble Fade",
+  "trading": {
+    "finish_family": {
+      "canonical_slug": "marble-fade",
+      "group": "finish-families",
+      "id": "marble-fade",
+      "name": "Marble Fade",
+      "path": "data/api/consumer/overlays/finish-families/marble-fade.json",
+      "search_slug": "marble-fade"
+    },
+    "inspect_ref": {
+      "def_index": 507,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 413,
+      "paint_seed_field": "paint_seed",
+      "quality": "normal"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/Karambit%20%7C%20Marble%20Fade%20%28Factory%20New%29.json",
+      "csfloat": {
+        "category": {
+          "code": 1,
+          "id": "normal"
+        },
+        "def_index": 507,
+        "market_hash_name": "Karambit | Marble Fade (Factory New)",
+        "max_float": 0.07,
+        "min_float": 0.0,
+        "paint_index": 413,
+        "supports_paint_seed_filter": true
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Karambit%20%7C%20Marble%20Fade%20%28Factory%20New%29.json",
+      "market_hash_name": "Karambit | Marble Fade (Factory New)"
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fire-and-ice",
+        "group": "rare-patterns",
+        "id": "fire-and-ice",
+        "name": "Fire and Ice",
+        "path": "data/api/consumer/overlays/rare-patterns/fire-and-ice.json",
+        "search_slug": "fire-and-ice"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": true,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.07,
+      "min_float": 0.0
+    }
+  }
 }

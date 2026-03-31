@@ -496,6 +496,10 @@
     "ukrainian": "Футляр операції «Браво»",
     "vietnamese": "Hòm chiến dịch Bravo"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4003",
     "images": [
@@ -615,5 +619,17 @@
       "search_slug": "unusual-revolving-special-item-pool"
     }
   ],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 1
+  }
 }

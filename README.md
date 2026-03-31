@@ -47,7 +47,7 @@ The first implementation focuses on:
 - prefab resolution
 - core exports for items, paint kits, sticker kits, item sets, loot lists, music kits, keychains, locales
 - reference exports for finishes, weapons, skins, skin variants, collections, containers, stickers, patches, graffiti, special drops, sticker capsules, tournaments, teams, players, agents, charms, music kits, and tools
-- consumer exports for source-backed item pages, browse entrypoints, localized names, and deterministic prebuilt lists
+- consumer exports for source-backed item pages, localized names, deterministic prebuilt lists, and trading overlays for finish families, rare-pattern mechanics, phases, and market constraints
 - source asset manifests that resolve logical game refs to real VPK file paths
 - rendered PNG previews with semantic file paths for skins, skin variants, weapons, containers, stickers, patches, graffiti, agents, charms, music kits, and tools
 - reports for unknown blocks, unknown prefabs, and unresolved container sources
@@ -60,7 +60,7 @@ This makes the repository a raw API and data backbone for downstream products su
 - skin databases
 - market explorers
 - media pipelines
-- separate pricing, listing, or trading overlays that can be added later without changing the extraction-first core
+- separate pricing and liquidity overlays that can still be added later without changing the extraction-first core
 
 ## Install
 
@@ -150,6 +150,10 @@ Key entrypoints:
 - `data/api/consumer/cards/skins/<skin_id>.json`: page-ready consumer skin card
 - `data/api/consumer/cards/cases/<container_id>.json`: page-ready consumer case card
 - `data/api/consumer/cards/special-pools/<token>.json`: consumer special item pool card
+- `data/api/consumer/overlays/finish-families/<family_id>.json`: trading-oriented finish-family overlay
+- `data/api/consumer/overlays/rare-patterns/<mechanic_id>.json`: trading-oriented rare-pattern overlay
+- `data/api/consumer/overlays/phases/<paint_kit_id>.json`: phase overlay keyed by finish
+- `data/api/consumer/overlays/market-constraints/<constraint_id>.json`: market-state or tradability overlay
 - `data/api/consumer/meta/discovery.json`: consumer entrypoints and counts
 - `data/api/media/manifests/<entity_type>__<entity_id>.json`: resolved asset manifest
 - `data/api/media/rendered/manifests/<entity_group>/<id>.json`: rendered entity preview manifest
@@ -177,6 +181,8 @@ Useful raw URLs:
 - consumer discovery: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/meta/discovery.json`
 - sample skin card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/skins/1-37.json`
 - sample case card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/cases/4001.json`
+- sample finish-family overlay: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/overlays/finish-families/case-hardened.json`
+- sample rare-pattern overlay: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/overlays/rare-patterns/blue-gem.json`
 - sample agent card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/agents/5505.json`
 - sample collection card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/collections/set_anubis.json`
 - sample skin variant: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/reference/skin-variants/1-37__normal__factory-new.json`
@@ -241,8 +247,14 @@ const skin = await fetch(`${API_ROOT}/consumer/cards/skins/1-37.json`).then((res
   res.json(),
 );
 
+const finishFamily = await fetch(
+  `${API_ROOT}/consumer/overlays/finish-families/case-hardened.json`,
+).then((res) => res.json());
+
 console.log(discovery.counts.skins);
+console.log(discovery.overlay_counts["finish-families"]);
 console.log(skin.name);
+console.log(finishFamily.primary_mechanics[0].name);
 console.log(skin.media.primary_image_png);
 ```
 

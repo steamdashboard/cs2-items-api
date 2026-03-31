@@ -498,6 +498,10 @@
     "ukrainian": "Сувенірний набір «Катовіце 2019 — Nuke»",
     "vietnamese": "Gói lưu niệm Katowice 2019 Nuke"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4596",
     "images": [
@@ -606,5 +610,18 @@
     "9-788"
   ],
   "special_pools": [],
-  "tournament_event_id": 15
+  "tournament_event_id": 15,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

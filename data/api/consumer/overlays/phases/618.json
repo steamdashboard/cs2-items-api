@@ -1,0 +1,43 @@
+{
+  "canonical_slug": "am-doppler-phase2-b-phase-2",
+  "example_skins": [],
+  "finish": {
+    "canonical_slug": "am-doppler-phase2-b",
+    "group": "finishes",
+    "id": "618",
+    "name": "Doppler",
+    "path": "data/api/reference/finishes/618.json",
+    "search_slug": "doppler"
+  },
+  "finish_family": {
+    "canonical_slug": "doppler",
+    "group": "finish-families",
+    "id": "doppler",
+    "name": "Doppler",
+    "path": "data/api/consumer/overlays/finish-families/doppler.json",
+    "search_slug": "doppler"
+  },
+  "id": "618",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish/618.json"
+  },
+  "name": "Doppler Phase 2",
+  "overlay_type": "phase",
+  "pattern_mechanics": [
+    {
+      "canonical_slug": "phase",
+      "group": "rare-patterns",
+      "id": "phase",
+      "name": "Phase",
+      "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+      "search_slug": "phase"
+    }
+  ],
+  "phase_code": "phase-2",
+  "phase_group": "doppler",
+  "phase_kind": "numbered",
+  "phase_name": "Phase 2",
+  "search_slug": "doppler-phase-2",
+  "skin_count": 0,
+  "variant_count": 0
+}

@@ -21,7 +21,7 @@
     }
   ],
   "canonical_slug": "507-38",
-  "card_type": "weapon-skin",
+  "card_type": "knife",
   "finish": {
     "canonical_slug": "aa-fade",
     "catalog_id": 38,
@@ -235,6 +235,72 @@
         "source_backed": false
       }
     ]
+  },
+  "trading": {
+    "consumer_type": "knife",
+    "finish_family": {
+      "canonical_slug": "fade",
+      "group": "finish-families",
+      "id": "fade",
+      "name": "Fade",
+      "path": "data/api/consumer/overlays/finish-families/fade.json",
+      "search_slug": "fade"
+    },
+    "float_window": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    },
+    "inspect_ref": {
+      "def_index": 507,
+      "live_item_required": true,
+      "paint_index": 38,
+      "paint_seed_field": "paint_seed"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 507,
+        "paint_index": 38,
+        "supports_paint_seed_filter": true
+      },
+      "skin_name": "Karambit | Fade",
+      "variant_ids": [
+        "507-38__normal__factory-new",
+        "507-38__normal__minimal-wear",
+        "507-38__stattrak__factory-new",
+        "507-38__stattrak__minimal-wear"
+      ]
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": true,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
   },
   "variant_ids": [
     "507-38__normal__factory-new",

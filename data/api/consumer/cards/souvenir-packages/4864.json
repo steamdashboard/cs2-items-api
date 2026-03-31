@@ -600,6 +600,10 @@
     "ukrainian": "Сувенірний набір «Ріо 2022 — Ancient»",
     "vietnamese": "Gói lưu niệm Ancient | Rio 2022"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4864",
     "images": [
@@ -709,5 +713,17 @@
     "8-1033"
   ],
   "special_pools": [],
-  "tournament_event_id": 20
+  "tournament_event_id": 20,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

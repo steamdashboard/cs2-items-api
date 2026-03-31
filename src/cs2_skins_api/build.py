@@ -328,6 +328,8 @@ def write_api_layer(
     consumer_root = api_root / "consumer"
     for group_name, payload in consumer["cards"].items():
         write_entity_group(consumer_root / "cards" / group_name, payload)
+    for group_name, payload in consumer.get("overlays", {}).items():
+        write_entity_group(consumer_root / "overlays" / group_name, payload)
     write_consumer_indexes(consumer_root / "lists", consumer["lists"])
     for browse_name, payload in consumer["browse"].items():
         write_json(consumer_root / "browse" / f"{browse_name}.json", payload)
@@ -338,6 +340,10 @@ def write_api_layer(
             "cards": {
                 group_name: f"data/api/consumer/cards/{group_name}/<id>.json"
                 for group_name in sorted(consumer["cards"])
+            },
+            "overlays": {
+                group_name: f"data/api/consumer/overlays/{group_name}/<id>.json"
+                for group_name in sorted(consumer.get("overlays", {}))
             },
             "lists": {
                 list_name: f"data/api/consumer/lists/{list_name}/<key>.json"
@@ -353,12 +359,12 @@ def write_api_layer(
     write_json(consumer_root / "meta" / "facets.json", consumer["meta"]["facets"])
 
     schema = {
-        "version": 8,
+        "version": 9,
         "generated_at": generated_at,
         "layers": {
             "reference": "Canonical normalized entities and stable IDs.",
             "graph": "Machine-oriented relations and lookup indexes.",
-            "consumer": "Human-oriented cards, browse entrypoints, and ready-made lists.",
+            "consumer": "Human-oriented cards, trading overlays, browse entrypoints, and ready-made lists.",
             "media": "Resolved asset manifests, rendered previews, and asset file coverage.",
         },
         "layout": {
@@ -390,6 +396,7 @@ def write_api_layer(
             },
             "consumer": {
                 "cards": "data/api/consumer/cards/<group>/<id>.json",
+                "overlays": "data/api/consumer/overlays/<group>/<id>.json",
                 "lists": "data/api/consumer/lists/<list>/<key>.json",
                 "browse": "data/api/consumer/browse/<entrypoint>.json",
                 "meta": "data/api/consumer/meta/<file>.json",

@@ -12,9 +12,9 @@
     "catalog_id": 201,
     "id": 201,
     "localized_names": {
-      "english": "sp_palm_bravo"
+      "english": "Palm Bravo"
     },
-    "name": "sp_palm_bravo",
+    "name": "Palm Bravo",
     "rarity_ref": null,
     "style_code": 3,
     "style_name": "Spray-Paint",
@@ -29,36 +29,36 @@
   },
   "id": "28-201",
   "localized_names": {
-    "brazilian": "Negev | sp_palm_bravo",
-    "bulgarian": "Negev | sp_palm_bravo",
-    "czech": "Negev | sp_palm_bravo",
-    "danish": "Negev | sp_palm_bravo",
-    "dutch": "Negev | sp_palm_bravo",
-    "english": "Negev | sp_palm_bravo",
-    "finnish": "Negev | sp_palm_bravo",
-    "french": "Negev | sp_palm_bravo",
-    "german": "Negev | sp_palm_bravo",
-    "greek": "Negev | sp_palm_bravo",
-    "hungarian": "Negev | sp_palm_bravo",
-    "indonesian": "Negev | sp_palm_bravo",
-    "italian": "Negev | sp_palm_bravo",
-    "japanese": "Negev | sp_palm_bravo",
-    "koreana": "네게브 | sp_palm_bravo",
-    "latam": "Negev | sp_palm_bravo",
-    "norwegian": "Negev | sp_palm_bravo",
-    "polish": "Negev | sp_palm_bravo",
-    "portuguese": "Negev | sp_palm_bravo",
-    "romanian": "Negev | sp_palm_bravo",
-    "russian": "Негев | sp_palm_bravo",
-    "schinese": "内格夫 | sp_palm_bravo",
-    "schinese_pw": "Negev | sp_palm_bravo",
-    "spanish": "Negev | sp_palm_bravo",
-    "swedish": "Negev | sp_palm_bravo",
-    "tchinese": "Negev | sp_palm_bravo",
-    "thai": "Negev | sp_palm_bravo",
-    "turkish": "Negev | sp_palm_bravo",
-    "ukrainian": "Неґев | sp_palm_bravo",
-    "vietnamese": "Negev | sp_palm_bravo"
+    "brazilian": "Negev | Palm Bravo",
+    "bulgarian": "Negev | Palm Bravo",
+    "czech": "Negev | Palm Bravo",
+    "danish": "Negev | Palm Bravo",
+    "dutch": "Negev | Palm Bravo",
+    "english": "Negev | Palm Bravo",
+    "finnish": "Negev | Palm Bravo",
+    "french": "Negev | Palm Bravo",
+    "german": "Negev | Palm Bravo",
+    "greek": "Negev | Palm Bravo",
+    "hungarian": "Negev | Palm Bravo",
+    "indonesian": "Negev | Palm Bravo",
+    "italian": "Negev | Palm Bravo",
+    "japanese": "Negev | Palm Bravo",
+    "koreana": "네게브 | Palm Bravo",
+    "latam": "Negev | Palm Bravo",
+    "norwegian": "Negev | Palm Bravo",
+    "polish": "Negev | Palm Bravo",
+    "portuguese": "Negev | Palm Bravo",
+    "romanian": "Negev | Palm Bravo",
+    "russian": "Негев | Palm Bravo",
+    "schinese": "内格夫 | Palm Bravo",
+    "schinese_pw": "Negev | Palm Bravo",
+    "spanish": "Negev | Palm Bravo",
+    "swedish": "Negev | Palm Bravo",
+    "tchinese": "Negev | Palm Bravo",
+    "thai": "Negev | Palm Bravo",
+    "turkish": "Negev | Palm Bravo",
+    "ukrainian": "Неґев | Palm Bravo",
+    "vietnamese": "Negev | Palm Bravo"
   },
   "media": {
     "asset_id": "skin__28-201",
@@ -83,8 +83,8 @@
       "medium": "panorama/images/econ/default_generated/weapon_negev_sp_palm_bravo_medium_png.vtex_c"
     }
   },
-  "name": "Negev | sp_palm_bravo",
-  "search_slug": "negev-sp-palm-bravo",
+  "name": "Negev | Palm Bravo",
+  "search_slug": "negev-palm-bravo",
   "sources": {
     "capsules": [],
     "cases": [],
@@ -99,6 +99,53 @@
     "containers": [],
     "souvenir_packages": [],
     "special_pools": []
+  },
+  "trading": {
+    "consumer_type": "weapon-skin",
+    "finish_family": null,
+    "float_window": {
+      "max_float": null,
+      "min_float": null
+    },
+    "inspect_ref": {
+      "def_index": 28,
+      "live_item_required": true,
+      "paint_index": 201,
+      "paint_seed_field": null
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 28,
+        "paint_index": 201,
+        "supports_paint_seed_filter": false
+      },
+      "skin_name": "Negev | Palm Bravo",
+      "variant_ids": [
+        "28-201__normal__vanilla"
+      ]
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
   },
   "variant_ids": [
     "28-201__normal__vanilla"

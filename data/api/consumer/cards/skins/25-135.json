@@ -139,6 +139,54 @@
     ],
     "special_pools": []
   },
+  "trading": {
+    "consumer_type": "weapon-skin",
+    "finish_family": null,
+    "float_window": {
+      "max_float": null,
+      "min_float": null
+    },
+    "inspect_ref": {
+      "def_index": 25,
+      "live_item_required": true,
+      "paint_index": 135,
+      "paint_seed_field": null
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 25,
+        "paint_index": 135,
+        "supports_paint_seed_filter": false
+      },
+      "skin_name": "XM1014 | Urban Perforated",
+      "variant_ids": [
+        "25-135__normal__vanilla",
+        "25-135__souvenir__vanilla"
+      ]
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
+  },
   "variant_ids": [
     "25-135__normal__vanilla",
     "25-135__souvenir__vanilla"

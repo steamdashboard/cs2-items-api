@@ -783,6 +783,19 @@
     "ukrainian": "Сховище для зберігання «Ріо 2022» із сяйнистими наліпками",
     "vietnamese": "Thùng chứa riêng Rio 2022 với hình dán kim tuyến"
   },
+  "market": {
+    "market_constraints": [
+      {
+        "canonical_slug": "cannot-trade",
+        "group": "market-constraints",
+        "id": "cannot-trade",
+        "name": "Cannot Trade",
+        "path": "data/api/consumer/overlays/market-constraints/cannot-trade.json",
+        "search_slug": "cannot-trade"
+      }
+    ],
+    "trade_state": "cannot-trade"
+  },
   "media": {
     "asset_id": "container__4872",
     "images": [
@@ -884,5 +897,11 @@
       "search_slug": "all-entries-as-additional-drops"
     }
   ],
-  "tournament_event_id": 20
+  "tournament_event_id": 20,
+  "trading": {
+    "contains_weapon_groups": [],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 1
+  }
 }

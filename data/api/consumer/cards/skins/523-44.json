@@ -42,7 +42,7 @@
     }
   ],
   "canonical_slug": "523-44",
-  "card_type": "weapon-skin",
+  "card_type": "knife",
   "finish": {
     "canonical_slug": "aq-oiled",
     "catalog_id": 44,
@@ -184,6 +184,78 @@
         "source_backed": false
       }
     ]
+  },
+  "trading": {
+    "consumer_type": "knife",
+    "finish_family": {
+      "canonical_slug": "case-hardened",
+      "group": "finish-families",
+      "id": "case-hardened",
+      "name": "Case Hardened",
+      "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+      "search_slug": "case-hardened"
+    },
+    "float_window": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    },
+    "inspect_ref": {
+      "def_index": 523,
+      "live_item_required": true,
+      "paint_index": 44,
+      "paint_seed_field": "paint_seed"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 523,
+        "paint_index": 44,
+        "supports_paint_seed_filter": true
+      },
+      "skin_name": "Talon Knife | Case Hardened",
+      "variant_ids": [
+        "523-44__normal__battle-scarred",
+        "523-44__normal__factory-new",
+        "523-44__normal__field-tested",
+        "523-44__normal__minimal-wear",
+        "523-44__normal__well-worn",
+        "523-44__stattrak__battle-scarred",
+        "523-44__stattrak__factory-new",
+        "523-44__stattrak__field-tested",
+        "523-44__stattrak__minimal-wear",
+        "523-44__stattrak__well-worn"
+      ]
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": true,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
   },
   "variant_ids": [
     "523-44__normal__battle-scarred",

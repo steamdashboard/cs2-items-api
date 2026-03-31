@@ -17,5 +17,61 @@
   "quality_name": "Souvenir",
   "search_slug": "souvenir-galil-ar-amber-fade-field-tested",
   "skin_id": "13-246",
-  "skin_name": "Galil AR | Amber Fade"
+  "skin_name": "Galil AR | Amber Fade",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 13,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 246,
+      "paint_seed_field": null,
+      "quality": "souvenir"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/Souvenir%20Galil%20AR%20%7C%20Amber%20Fade%20%28Field-Tested%29.json",
+      "csfloat": {
+        "category": {
+          "code": 3,
+          "id": "souvenir"
+        },
+        "def_index": 13,
+        "market_hash_name": "Souvenir Galil AR | Amber Fade (Field-Tested)",
+        "max_float": 0.38,
+        "min_float": 0.15,
+        "paint_index": 246,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Souvenir%20Galil%20AR%20%7C%20Amber%20Fade%20%28Field-Tested%29.json",
+      "market_hash_name": "Souvenir Galil AR | Amber Fade (Field-Tested)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.38,
+      "min_float": 0.15
+    }
+  }
 }

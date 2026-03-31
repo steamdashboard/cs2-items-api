@@ -188,9 +188,9 @@
             "card_type": "weapon-skin",
             "group": "skins",
             "id": "17-157",
-            "name": "MAC-10 | sp_palm",
+            "name": "MAC-10 | Palm",
             "path": "data/api/consumer/cards/skins/17-157.json",
-            "search_slug": "mac-10-sp-palm"
+            "search_slug": "mac-10-palm"
           },
           {
             "canonical_slug": "29-30",
@@ -343,9 +343,9 @@
         "card_type": "weapon-skin",
         "group": "skins",
         "id": "17-157",
-        "name": "MAC-10 | sp_palm",
+        "name": "MAC-10 | Palm",
         "path": "data/api/consumer/cards/skins/17-157.json",
-        "search_slug": "mac-10-sp-palm",
+        "search_slug": "mac-10-palm",
         "tier": "uncommon"
       },
       {
@@ -450,6 +450,10 @@
     "turkish": "DreamHack 2014 Dust II Hatıra Paketi",
     "ukrainian": "Сувенірний набір «DreamHack 2014 — Dust II»",
     "vietnamese": "Gói lưu niệm DreamHack 2014 Dust II"
+  },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
   },
   "media": {
     "asset_id": "container__4031",
@@ -557,5 +561,17 @@
     "7-72"
   ],
   "special_pools": [],
-  "tournament_event_id": 5
+  "tournament_event_id": 5,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

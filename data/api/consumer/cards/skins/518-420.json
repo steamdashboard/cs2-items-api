@@ -21,7 +21,7 @@
     }
   ],
   "canonical_slug": "518-420",
-  "card_type": "weapon-skin",
+  "card_type": "knife",
   "finish": {
     "canonical_slug": "am-doppler-phase3",
     "catalog_id": 420,
@@ -155,6 +155,79 @@
         "source_backed": false
       }
     ]
+  },
+  "trading": {
+    "consumer_type": "knife",
+    "finish_family": {
+      "canonical_slug": "doppler",
+      "group": "finish-families",
+      "id": "doppler",
+      "name": "Doppler",
+      "path": "data/api/consumer/overlays/finish-families/doppler.json",
+      "search_slug": "doppler"
+    },
+    "float_window": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    },
+    "inspect_ref": {
+      "def_index": 518,
+      "live_item_required": true,
+      "paint_index": 420,
+      "paint_seed_field": "paint_seed"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 518,
+        "paint_index": 420,
+        "supports_paint_seed_filter": true
+      },
+      "skin_name": "Survival Knife | Doppler",
+      "variant_ids": [
+        "518-420__normal__factory-new",
+        "518-420__normal__minimal-wear",
+        "518-420__stattrak__factory-new",
+        "518-420__stattrak__minimal-wear"
+      ]
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "phase",
+        "group": "rare-patterns",
+        "id": "phase",
+        "name": "Phase",
+        "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+        "search_slug": "phase"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "medium",
+    "phase": {
+      "canonical_slug": "am-doppler-phase3-phase-3",
+      "group": "phases",
+      "id": "420",
+      "name": "Doppler Phase 3",
+      "path": "data/api/consumer/overlays/phases/420.json",
+      "search_slug": "doppler-phase-3"
+    },
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": true,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
   },
   "variant_ids": [
     "518-420__normal__factory-new",

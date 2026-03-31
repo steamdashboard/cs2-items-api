@@ -165,6 +165,57 @@
     "souvenir_packages": [],
     "special_pools": []
   },
+  "trading": {
+    "consumer_type": "weapon-skin",
+    "finish_family": null,
+    "float_window": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    },
+    "inspect_ref": {
+      "def_index": 32,
+      "live_item_required": true,
+      "paint_index": 1292,
+      "paint_seed_field": null
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 32,
+        "paint_index": 1292,
+        "supports_paint_seed_filter": false
+      },
+      "skin_name": "P2000 | Marsh",
+      "variant_ids": [
+        "32-1292__normal__battle-scarred",
+        "32-1292__normal__factory-new",
+        "32-1292__normal__field-tested",
+        "32-1292__normal__minimal-wear",
+        "32-1292__normal__well-worn"
+      ]
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
+  },
   "variant_ids": [
     "32-1292__normal__battle-scarred",
     "32-1292__normal__factory-new",

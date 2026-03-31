@@ -555,6 +555,10 @@
     "ukrainian": "Колекція «Хаос»",
     "vietnamese": "Bộ sưu tập Havoc"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4721",
     "images": [
@@ -664,5 +668,18 @@
     "9-1029"
   ],
   "special_pools": [],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

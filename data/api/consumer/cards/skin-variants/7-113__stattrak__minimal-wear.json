@@ -4,7 +4,7 @@
   "exterior": "minimal-wear",
   "exterior_name": "Minimal Wear",
   "id": "7-113__stattrak__minimal-wear",
-  "market_hash_name": "StatTrak™ AK-47 | PaintKit_ak47_t_bus_Tag (Minimal Wear)",
+  "market_hash_name": "StatTrak™ AK-47 | T Bus (Minimal Wear)",
   "media": {
     "image_png": "data/api/media/rendered/files/skins/7-113/light.png",
     "manifest_path": "data/api/media/rendered/manifests/skin-variants/7-113__stattrak__minimal-wear.json",
@@ -12,10 +12,66 @@
     "preview_tier": "light",
     "source_skin_manifest_path": "data/api/media/rendered/manifests/skins/7-113.json"
   },
-  "name": "StatTrak™ AK-47 | PaintKit_ak47_t_bus_Tag (Minimal Wear)",
+  "name": "StatTrak™ AK-47 | T Bus (Minimal Wear)",
   "quality": "stattrak",
   "quality_name": "StatTrak",
-  "search_slug": "stattrak-ak-47-paintkit-ak47-t-bus-tag-minimal-wear",
+  "search_slug": "stattrak-ak-47-t-bus-minimal-wear",
   "skin_id": "7-113",
-  "skin_name": "AK-47 | PaintKit_ak47_t_bus_Tag"
+  "skin_name": "AK-47 | T Bus",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 7,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 113,
+      "paint_seed_field": null,
+      "quality": "stattrak"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/StatTrak%E2%84%A2%20AK-47%20%7C%20T%20Bus%20%28Minimal%20Wear%29.json",
+      "csfloat": {
+        "category": {
+          "code": 2,
+          "id": "stattrak"
+        },
+        "def_index": 7,
+        "market_hash_name": "StatTrak™ AK-47 | T Bus (Minimal Wear)",
+        "max_float": 0.15,
+        "min_float": 0.07,
+        "paint_index": 113,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/StatTrak%E2%84%A2%20AK-47%20%7C%20T%20Bus%20%28Minimal%20Wear%29.json",
+      "market_hash_name": "StatTrak™ AK-47 | T Bus (Minimal Wear)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.15,
+      "min_float": 0.07
+    }
+  }
 }

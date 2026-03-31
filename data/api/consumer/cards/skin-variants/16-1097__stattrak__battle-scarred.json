@@ -17,5 +17,61 @@
   "quality_name": "StatTrak",
   "search_slug": "stattrak-m4a4-spider-lily-battle-scarred",
   "skin_id": "16-1097",
-  "skin_name": "M4A4 | Spider Lily"
+  "skin_name": "M4A4 | Spider Lily",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 16,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 1097,
+      "paint_seed_field": null,
+      "quality": "stattrak"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/StatTrak%E2%84%A2%20M4A4%20%7C%20Spider%20Lily%20%28Battle-Scarred%29.json",
+      "csfloat": {
+        "category": {
+          "code": 2,
+          "id": "stattrak"
+        },
+        "def_index": 16,
+        "market_hash_name": "StatTrak™ M4A4 | Spider Lily (Battle-Scarred)",
+        "max_float": 1.0,
+        "min_float": 0.45,
+        "paint_index": 1097,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/StatTrak%E2%84%A2%20M4A4%20%7C%20Spider%20Lily%20%28Battle-Scarred%29.json",
+      "market_hash_name": "StatTrak™ M4A4 | Spider Lily (Battle-Scarred)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 1.0,
+      "min_float": 0.45
+    }
+  }
 }

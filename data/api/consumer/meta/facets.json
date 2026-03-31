@@ -15,6 +15,25 @@
     "night-vision": 1,
     "rescue-kit": 1
   },
+  "exteriors": {
+    "battle-scarred": 2044,
+    "factory-new": 2749,
+    "field-tested": 2290,
+    "minimal-wear": 2804,
+    "vanilla": 680,
+    "well-worn": 2160
+  },
+  "finish_families": {
+    "case-hardened": 24,
+    "crimson-web": 25,
+    "doppler": 126,
+    "emerald-web": 1,
+    "fade": 28,
+    "gamma-doppler": 50,
+    "heat-treated": 2,
+    "marble-fade": 19,
+    "slaughter": 21
+  },
   "finish_styles": {
     "Anodized": 19,
     "Anodized Airbrushed": 58,
@@ -28,10 +47,40 @@
     "style-10": 4,
     "style-None": 94
   },
+  "market_constraints": {
+    "cannot-trade": 692,
+    "live-item-market-state": 14808
+  },
+  "pattern_mechanics": {
+    "blue-gem": 26,
+    "fade-percentage": 28,
+    "fire-and-ice": 19,
+    "phase": 176,
+    "slaughter-motif": 21,
+    "web-placement": 26
+  },
+  "pattern_sensitivity": {
+    "high": 99,
+    "medium": 197,
+    "none": 1785
+  },
+  "qualities": {
+    "normal": 7475,
+    "souvenir": 873,
+    "stattrak": 4379
+  },
   "special_pool_categories": {
     "bonus-rule": 2,
     "glove": 4,
     "knife": 16
+  },
+  "supports": {
+    "blue_gem_overlay": 26,
+    "fade_overlay": 28,
+    "fire_and_ice_overlay": 19,
+    "phase_overlay": 176,
+    "slaughter_overlay": 21,
+    "web_overlay": 26
   },
   "weapon_groups": {
     "equipment": 1,

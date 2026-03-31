@@ -42,7 +42,7 @@
     }
   ],
   "canonical_slug": "517-410",
-  "card_type": "weapon-skin",
+  "card_type": "knife",
   "finish": {
     "canonical_slug": "aq-damascus",
     "catalog_id": 410,
@@ -176,6 +176,62 @@
         "source_backed": false
       }
     ]
+  },
+  "trading": {
+    "consumer_type": "knife",
+    "finish_family": null,
+    "float_window": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    },
+    "inspect_ref": {
+      "def_index": 517,
+      "live_item_required": true,
+      "paint_index": 410,
+      "paint_seed_field": null
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 517,
+        "paint_index": 410,
+        "supports_paint_seed_filter": false
+      },
+      "skin_name": "Paracord Knife | Damascus Steel",
+      "variant_ids": [
+        "517-410__normal__battle-scarred",
+        "517-410__normal__factory-new",
+        "517-410__normal__field-tested",
+        "517-410__normal__minimal-wear",
+        "517-410__normal__well-worn",
+        "517-410__stattrak__battle-scarred",
+        "517-410__stattrak__factory-new",
+        "517-410__stattrak__field-tested",
+        "517-410__stattrak__minimal-wear",
+        "517-410__stattrak__well-worn"
+      ]
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
   },
   "variant_ids": [
     "517-410__normal__battle-scarred",

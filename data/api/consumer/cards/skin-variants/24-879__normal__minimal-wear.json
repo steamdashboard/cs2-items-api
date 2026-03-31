@@ -17,5 +17,77 @@
   "quality_name": "Normal",
   "search_slug": "ump-45-fade-minimal-wear",
   "skin_id": "24-879",
-  "skin_name": "UMP-45 | Fade"
+  "skin_name": "UMP-45 | Fade",
+  "trading": {
+    "finish_family": {
+      "canonical_slug": "fade",
+      "group": "finish-families",
+      "id": "fade",
+      "name": "Fade",
+      "path": "data/api/consumer/overlays/finish-families/fade.json",
+      "search_slug": "fade"
+    },
+    "inspect_ref": {
+      "def_index": 24,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 879,
+      "paint_seed_field": "paint_seed",
+      "quality": "normal"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/UMP-45%20%7C%20Fade%20%28Minimal%20Wear%29.json",
+      "csfloat": {
+        "category": {
+          "code": 1,
+          "id": "normal"
+        },
+        "def_index": 24,
+        "market_hash_name": "UMP-45 | Fade (Minimal Wear)",
+        "max_float": 0.08,
+        "min_float": 0.07,
+        "paint_index": 879,
+        "supports_paint_seed_filter": true
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/UMP-45%20%7C%20Fade%20%28Minimal%20Wear%29.json",
+      "market_hash_name": "UMP-45 | Fade (Minimal Wear)"
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": true,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.08,
+      "min_float": 0.07
+    }
+  }
 }

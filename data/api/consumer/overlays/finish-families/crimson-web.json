@@ -1,0 +1,178 @@
+{
+  "canonical_slug": "crimson-web",
+  "confidence": "high",
+  "description": "Collector family where web placement and web count are seed-sensitive, while float strongly affects visible wear.",
+  "example_skins": [
+    {
+      "canonical_slug": "500-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-12",
+      "name": "Bayonet | Crimson Web",
+      "path": "data/api/consumer/cards/skins/500-12.json",
+      "search_slug": "bayonet-crimson-web"
+    },
+    {
+      "canonical_slug": "514-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-12",
+      "name": "Bowie Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/514-12.json",
+      "search_slug": "bowie-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "515-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-12",
+      "name": "Butterfly Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/515-12.json",
+      "search_slug": "butterfly-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "63-12",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "63-12",
+      "name": "CZ75-Auto | Crimson Web",
+      "path": "data/api/consumer/cards/skins/63-12.json",
+      "search_slug": "cz75-auto-crimson-web"
+    },
+    {
+      "canonical_slug": "503-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-12",
+      "name": "Classic Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/503-12.json",
+      "search_slug": "classic-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "1-232",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "1-232",
+      "name": "Desert Eagle | Crimson Web",
+      "path": "data/api/consumer/cards/skins/1-232.json",
+      "search_slug": "desert-eagle-crimson-web"
+    },
+    {
+      "canonical_slug": "512-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-12",
+      "name": "Falchion Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/512-12.json",
+      "search_slug": "falchion-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "505-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-12",
+      "name": "Flip Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/505-12.json",
+      "search_slug": "flip-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "506-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-12",
+      "name": "Gut Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/506-12.json",
+      "search_slug": "gut-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "509-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-12",
+      "name": "Huntsman Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/509-12.json",
+      "search_slug": "huntsman-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "507-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "507-12",
+      "name": "Karambit | Crimson Web",
+      "path": "data/api/consumer/cards/skins/507-12.json",
+      "search_slug": "karambit-crimson-web"
+    },
+    {
+      "canonical_slug": "526-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "526-12",
+      "name": "Kukri Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/526-12.json",
+      "search_slug": "kukri-knife-crimson-web"
+    }
+  ],
+  "finish_count": 3,
+  "finishes": [
+    {
+      "canonical_slug": "hy-webs",
+      "group": "finishes",
+      "id": "12",
+      "name": "Crimson Web",
+      "path": "data/api/reference/finishes/12.json",
+      "search_slug": "crimson-web"
+    },
+    {
+      "canonical_slug": "hy-webs-darker",
+      "group": "finishes",
+      "id": "232",
+      "name": "Crimson Web",
+      "path": "data/api/reference/finishes/232.json",
+      "search_slug": "crimson-web"
+    },
+    {
+      "canonical_slug": "specialist-webs-red",
+      "group": "finishes",
+      "id": "10061",
+      "name": "Crimson Web",
+      "path": "data/api/reference/finishes/10061.json",
+      "search_slug": "crimson-web"
+    }
+  ],
+  "id": "crimson-web",
+  "knowledge_source": "community-trading-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/crimson-web.json"
+  },
+  "name": "Crimson Web",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": true,
+  "pattern_sensitivity": "high",
+  "primary_mechanics": [
+    {
+      "canonical_slug": "web-placement",
+      "group": "rare-patterns",
+      "id": "web-placement",
+      "name": "Web Placement",
+      "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+      "search_slug": "web-placement"
+    }
+  ],
+  "search_slug": "crimson-web",
+  "skin_count": 25,
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": true
+  },
+  "variant_count": 49,
+  "weapon_groups": [
+    "glove",
+    "knife",
+    "pistol",
+    "sniper-rifle"
+  ]
+}

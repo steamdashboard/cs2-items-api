@@ -9,7 +9,22 @@ from cs2_skins_api.special_pools import (
     special_pool_category,
     special_pool_expansion_status,
 )
-from cs2_skins_api.utils import build_canonical_slug, slugify, unique_list
+from cs2_skins_api.trading import (
+    FINISH_FAMILY_SPECS,
+    MARKET_CONSTRAINT_SPECS,
+    RARE_PATTERN_SPECS,
+    csfloat_category,
+    finish_family_id,
+    finish_family_spec,
+    is_placeholder_name,
+    pattern_sensitivity,
+    phase_metadata,
+    rare_pattern_mechanics,
+    source_market_flags,
+    support_flags,
+    variant_float_window,
+)
+from cs2_skins_api.utils import build_canonical_slug, encode_path_key, slugify, unique_list
 
 
 FINISH_STYLE_LABELS = {
@@ -45,6 +60,8 @@ def build_consumer_dataset(
     finish_name_map = build_finish_name_map(api["finishes"], localizer, locales)
     weapon_name_map = build_weapon_name_map(api["weapons"], localizer, locales)
     rarity_labels = build_rarity_label_map(core["enums"].get("rarities", {}), localizer, locales)
+    finish_taxonomy = build_finish_taxonomy(api["finishes"])
+    market_flags = build_market_flag_map(core.get("resolved_items", {}))
 
     special_pool_cards = build_special_pool_cards(core, api, localizer, locales, finish_name_map, weapon_name_map)
     weapon_cards = build_weapon_cards(
@@ -53,6 +70,7 @@ def build_consumer_dataset(
         api["relations"],
         special_pool_cards,
         rendered,
+        market_flags,
         localizer,
         locales,
     )
@@ -68,8 +86,9 @@ def build_consumer_dataset(
         locales,
         finish_name_map,
         weapon_name_map,
+        finish_taxonomy,
     )
-    variant_cards = build_variant_cards(api["skin_variants"], skin_cards, rendered)
+    variant_cards = build_variant_cards(api["skin_variants"], skin_cards, rendered, finish_taxonomy)
     container_cards = build_container_cards(
         api["containers"],
         api["assets"],
@@ -79,20 +98,21 @@ def build_consumer_dataset(
         skin_cards,
         special_pool_cards,
         rendered,
+        market_flags,
         localizer,
         locales,
         rarity_labels,
     )
     collection_cards = build_collection_cards(api["collections"], api["relations"], api["assets"], localizer, locales)
-    collectible_cards = build_simple_cards(api["collectibles"], api["assets"], rendered, "collectible", localizer, locales)
-    equipment_cards = build_simple_cards(api["equipment"], api["assets"], rendered, "equipment", localizer, locales)
+    collectible_cards = build_simple_cards(api["collectibles"], api["assets"], rendered, "collectible", market_flags, localizer, locales)
+    equipment_cards = build_simple_cards(api["equipment"], api["assets"], rendered, "equipment", market_flags, localizer, locales)
     sticker_cards = build_decal_cards(api["stickers"], api["assets"], rendered, "sticker", localizer, locales)
     patch_cards = build_decal_cards(api["patches"], api["assets"], rendered, "patch", localizer, locales)
     graffiti_cards = build_decal_cards(api["graffiti"], api["assets"], rendered, "graffiti", localizer, locales)
-    agent_cards = build_agent_cards(api["agents"], api["assets"], rendered, localizer, locales)
-    charm_cards = build_simple_cards(api["charms"], api["assets"], rendered, "charm", localizer, locales)
-    music_kit_cards = build_simple_cards(api["music_kits"], api["assets"], rendered, "music-kit", localizer, locales)
-    tool_cards = build_simple_cards(api["tools"], api["assets"], rendered, "tool", localizer, locales)
+    agent_cards = build_agent_cards(api["agents"], api["assets"], rendered, market_flags, localizer, locales)
+    charm_cards = build_simple_cards(api["charms"], api["assets"], rendered, "charm", market_flags, localizer, locales)
+    music_kit_cards = build_simple_cards(api["music_kits"], api["assets"], rendered, "music-kit", market_flags, localizer, locales)
+    tool_cards = build_simple_cards(api["tools"], api["assets"], rendered, "tool", market_flags, localizer, locales)
     tournament_cards = build_event_cards(api["tournaments"], api["relations"], localizer, locales)
     team_cards = build_team_cards(api["teams"], api["relations"], localizer, locales)
     player_cards = build_player_cards(api["players"], api["relations"])
@@ -118,23 +138,30 @@ def build_consumer_dataset(
         "players": player_cards,
     }
 
-    lists = build_consumer_lists(cards)
-    browse = build_consumer_browse(cards)
-    discovery = build_consumer_discovery(cards)
-    facets = build_consumer_facets(cards, special_pool_cards)
+    overlays = build_consumer_overlays(cards, api["finishes"], finish_taxonomy)
+    lists = build_consumer_lists(cards, overlays)
+    browse = build_consumer_browse(cards, overlays)
+    discovery = build_consumer_discovery(cards, overlays, lists)
+    facets = build_consumer_facets(cards, overlays, special_pool_cards)
+    stats = {
+        card_group: len(group_cards)
+        for card_group, group_cards in cards.items()
+    }
+    stats.update({
+        f"overlays.{overlay_group}": len(group_payload)
+        for overlay_group, group_payload in overlays.items()
+    })
 
     return {
         "cards": cards,
         "lists": lists,
         "browse": browse,
+        "overlays": overlays,
         "meta": {
             "discovery": discovery,
             "facets": facets,
         },
-        "stats": {
-            card_group: len(group_cards)
-            for card_group, group_cards in cards.items()
-        },
+        "stats": stats,
     }
 
 
@@ -329,12 +356,40 @@ def build_candidate_item(
     }
 
 
+def build_market_flag_map(resolved_items: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    return {
+        str(item_id): source_market_flags(record)
+        for item_id, record in resolved_items.items()
+    }
+
+
+def build_finish_taxonomy(finishes: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    family_by_finish: dict[str, dict[str, Any]] = {}
+    phase_by_finish: dict[str, dict[str, Any]] = {}
+    for finish_id, finish in finishes.items():
+        family_id = finish_family_id(finish)
+        family_by_finish[str(finish_id)] = {
+            "family_id": family_id,
+            "family_spec": finish_family_spec(family_id),
+            "mechanics": rare_pattern_mechanics(family_id),
+            "support_flags": support_flags(family_id),
+        }
+        phase = phase_metadata(finish, family_id)
+        if phase is not None:
+            phase_by_finish[str(finish_id)] = phase
+    return {
+        "family_by_finish": family_by_finish,
+        "phase_by_finish": phase_by_finish,
+    }
+
+
 def build_weapon_cards(
     weapons: dict[str, dict[str, Any]],
     assets: dict[str, dict[str, Any]],
     relations: dict[str, Any],
     special_pools: dict[str, dict[str, Any]],
     rendered: dict[str, Any],
+    market_flags: dict[str, dict[str, Any]],
     localizer: Localizer,
     locales: list[str],
 ) -> dict[str, dict[str, Any]]:
@@ -368,6 +423,7 @@ def build_weapon_cards(
             "type_name": weapon.get("type_name"),
             "description": weapon.get("description"),
             "media": generic_rendered_media_summary(rendered, "weapon", weapon_id, media_summary(assets, "weapon", weapon_id)),
+            "market": build_source_market_summary(market_flags.get(str(weapon_id))),
             "supports_vanilla": group == "knife",
             "regular_skin_ids": sorted(set(skins_by_weapon.get(weapon_id, []))),
             "special_pool_ids": sorted(set(special_pool_ids_by_weapon.get(weapon_id, []))),
@@ -387,6 +443,7 @@ def build_skin_cards(
     locales: list[str],
     finish_name_map: dict[str, dict[str, str]],
     weapon_name_map: dict[str, dict[str, str]],
+    finish_taxonomy: dict[str, dict[str, Any]],
 ) -> dict[str, dict[str, Any]]:
     cards = {}
     for skin_id, skin in skins.items():
@@ -396,9 +453,14 @@ def build_skin_cards(
         weapon = weapons[weapon_id]
         finish_style_code = finish.get("style_code")
         rendered_skin = rendered.get("skins", {}).get(skin_id)
+        card_type = "weapon-skin"
+        if weapon["weapon_group"] == "knife":
+            card_type = "knife"
+        elif weapon["weapon_group"] == "glove":
+            card_type = "glove"
         cards[skin_id] = {
             "id": skin_id,
-            "card_type": "weapon-skin",
+            "card_type": card_type,
             "name": skin["name"],
             "localized_names": combine_localized_maps(
                 weapon_name_map.get(weapon_id, {}),
@@ -433,6 +495,13 @@ def build_skin_cards(
             "sources": build_skin_sources(skin, special_drops, containers),
             "variant_ids": sorted(skin.get("variant_ids", [])),
             "media": skin_media_summary(assets, rendered, rendered_skin, weapon_id),
+            "trading": build_skin_trading_profile(
+                skin_id=skin_id,
+                skin=skin,
+                finish=finish,
+                card_type=card_type,
+                finish_taxonomy=finish_taxonomy,
+            ),
         }
     return cards
 
@@ -441,6 +510,7 @@ def build_variant_cards(
     variants: dict[str, dict[str, Any]],
     skin_cards: dict[str, dict[str, Any]],
     rendered: dict[str, Any],
+    finish_taxonomy: dict[str, dict[str, Any]],
 ) -> dict[str, dict[str, Any]]:
     cards = {}
     for variant_id, variant in variants.items():
@@ -460,6 +530,11 @@ def build_variant_cards(
             "exterior_name": variant["exterior_name"],
             "skin_name": skin["name"] if skin else None,
             "media": skin_variant_media_summary(rendered_variant, skin.get("media") if skin else None),
+            "trading": build_variant_trading_profile(
+                variant=variant,
+                skin_card=skin,
+                finish_taxonomy=finish_taxonomy,
+            ),
         }
     return cards
 
@@ -473,6 +548,7 @@ def build_container_cards(
     skin_cards: dict[str, dict[str, Any]],
     special_pools: dict[str, dict[str, Any]],
     rendered: dict[str, Any],
+    market_flags: dict[str, dict[str, Any]],
     localizer: Localizer,
     locales: list[str],
     rarity_labels: dict[str, dict[str, Any]],
@@ -568,8 +644,14 @@ def build_container_cards(
                 ],
                 "drops": drop_summaries,
             },
+            "market": build_source_market_summary(market_flags.get(str(container_id))),
             "skin_ids": sorted(relations.get("container-to-skins", {}).get(container_id, [])),
             "special_pools": sorted(special_pool_refs, key=lambda row: row["name"]),
+            "trading": build_container_trading_summary(
+                relations.get("container-to-skins", {}).get(container_id, []),
+                skin_cards,
+                special_pool_refs,
+            ),
         }
     return grouped_cards
 
@@ -631,6 +713,7 @@ def build_simple_cards(
     assets: dict[str, dict[str, Any]],
     rendered: dict[str, Any],
     card_type: str,
+    market_flags: dict[str, dict[str, Any]],
     localizer: Localizer,
     locales: list[str],
 ) -> dict[str, dict[str, Any]]:
@@ -645,6 +728,7 @@ def build_simple_cards(
             "search_slug": entity["search_slug"],
             "description": entity.get("description"),
             "media": generic_rendered_media_summary(rendered, card_type, entity_id, media_summary(assets, card_type, entity_id)),
+            "market": build_source_market_summary(market_flags.get(str(entity_id))),
         }
         for key in (
             "campaign_id",
@@ -666,6 +750,7 @@ def build_agent_cards(
     agents: dict[str, dict[str, Any]],
     assets: dict[str, dict[str, Any]],
     rendered: dict[str, Any],
+    market_flags: dict[str, dict[str, Any]],
     localizer: Localizer,
     locales: list[str],
 ) -> dict[str, dict[str, Any]]:
@@ -682,6 +767,7 @@ def build_agent_cards(
             "side": entity.get("side"),
             "rarity_ref": entity.get("rarity_ref"),
             "media": generic_rendered_media_summary(rendered, "agent", entity_id, media_summary(assets, "agent", entity_id)),
+            "market": build_source_market_summary(market_flags.get(str(entity_id))),
         }
     return cards
 
@@ -821,17 +907,552 @@ def build_skin_sources(
     }
 
 
-def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[str, dict[str, Any]]:
+def overlay_ref(group_name: str, entity_id: str | int, name: str, canonical_slug: str | None = None, search_slug: str | None = None) -> dict[str, Any]:
+    return {
+        "id": str(entity_id),
+        "name": name,
+        "group": group_name,
+        "canonical_slug": canonical_slug,
+        "search_slug": search_slug,
+        "path": f"data/api/consumer/overlays/{group_name}/{entity_id}.json",
+    }
+
+
+def reference_ref(
+    group_name: str,
+    entity_id: str | int,
+    name: str,
+    canonical_slug: str | None = None,
+    search_slug: str | None = None,
+) -> dict[str, Any]:
+    return {
+        "id": str(entity_id),
+        "name": name,
+        "group": group_name,
+        "canonical_slug": canonical_slug,
+        "search_slug": search_slug,
+        "path": f"data/api/reference/{group_name}/{entity_id}.json",
+    }
+
+
+def build_source_market_summary(flags: dict[str, Any] | None) -> dict[str, Any]:
+    flags = flags or {"trade_state": "not-explicit", "cannot_trade": False}
+    constraints = []
+    if flags.get("cannot_trade"):
+        spec = MARKET_CONSTRAINT_SPECS["cannot-trade"]
+        constraints.append(
+            overlay_ref(
+                "market-constraints",
+                "cannot-trade",
+                spec["name"],
+                build_canonical_slug("cannot-trade"),
+                slugify(spec["name"]),
+            )
+        )
+    return {
+        "trade_state": flags.get("trade_state", "not-explicit"),
+        "market_constraints": constraints,
+    }
+
+
+def build_skin_trading_profile(
+    skin_id: str,
+    skin: dict[str, Any],
+    finish: dict[str, Any],
+    card_type: str,
+    finish_taxonomy: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    finish_meta = finish_taxonomy["family_by_finish"].get(str(finish["id"]), {})
+    family_id = finish_meta.get("family_id")
+    family_spec = finish_meta.get("family_spec")
+    support_meta = finish_meta.get("support_flags", support_flags(family_id))
+    mechanics = finish_meta.get("mechanics", [])
+    phase = finish_taxonomy["phase_by_finish"].get(str(finish["id"]))
+    finish_family = None
+    if family_id and family_spec:
+        finish_family = overlay_ref(
+            "finish-families",
+            family_id,
+            family_spec["name"],
+            build_canonical_slug(family_id),
+            slugify(family_spec["name"]),
+        )
+    phase_ref = None
+    if phase:
+        phase_ref = overlay_ref(
+            "phases",
+            phase["id"],
+            phase["name"],
+            phase.get("canonical_slug"),
+            phase.get("search_slug"),
+        )
+    mechanic_refs = [
+        overlay_ref(
+            "rare-patterns",
+            mechanic_id,
+            RARE_PATTERN_SPECS[mechanic_id]["name"],
+            build_canonical_slug(mechanic_id),
+            slugify(RARE_PATTERN_SPECS[mechanic_id]["name"]),
+        )
+        for mechanic_id in mechanics
+        if mechanic_id in RARE_PATTERN_SPECS
+    ]
+    live_market_constraint = overlay_ref(
+        "market-constraints",
+        "live-item-market-state",
+        MARKET_CONSTRAINT_SPECS["live-item-market-state"]["name"],
+        build_canonical_slug("live-item-market-state"),
+        slugify(MARKET_CONSTRAINT_SPECS["live-item-market-state"]["name"]),
+    )
+    return {
+        "consumer_type": card_type,
+        "finish_family": finish_family,
+        "pattern_sensitive": bool(mechanics),
+        "pattern_sensitivity": pattern_sensitivity(family_id),
+        "pattern_mechanics": mechanic_refs,
+        "phase": phase_ref,
+        "supports": support_meta,
+        "float_window": {
+            "min_float": skin["wear"].get("min_float"),
+            "max_float": skin["wear"].get("max_float"),
+        },
+        "inspect_ref": {
+            "def_index": skin["weapon"]["id"],
+            "paint_index": finish["id"],
+            "paint_seed_field": "paint_seed" if mechanics else None,
+            "live_item_required": True,
+        },
+        "market_query": {
+            "skin_name": skin["name"],
+            "variant_ids": sorted(skin.get("variant_ids", [])),
+            "csfloat": {
+                "def_index": skin["weapon"]["id"],
+                "paint_index": finish["id"],
+                "supports_paint_seed_filter": bool(mechanics),
+            },
+        },
+        "market_constraints": [live_market_constraint],
+    }
+
+
+def build_variant_trading_profile(
+    variant: dict[str, Any],
+    skin_card: dict[str, Any] | None,
+    finish_taxonomy: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    if skin_card is None:
+        return {
+            "market_query": {
+                "market_hash_name": variant["market_hash_name"],
+                "consumer_list_path": f"data/api/consumer/lists/by-market-hash-name/{encode_path_key(variant['market_hash_name'])}.json",
+                "graph_index_path": f"data/api/graph/indexes/by-market-hash-name/{encode_path_key(variant['market_hash_name'])}.json",
+            }
+        }
+    finish_id = str(skin_card["finish"]["id"])
+    finish_meta = finish_taxonomy["family_by_finish"].get(finish_id, {})
+    family_id = finish_meta.get("family_id")
+    family_spec = finish_meta.get("family_spec")
+    support_meta = finish_meta.get("support_flags", support_flags(family_id))
+    mechanics = finish_meta.get("mechanics", [])
+    phase = finish_taxonomy["phase_by_finish"].get(finish_id)
+    finish_family = None
+    if family_id and family_spec:
+        finish_family = overlay_ref(
+            "finish-families",
+            family_id,
+            family_spec["name"],
+            build_canonical_slug(family_id),
+            slugify(family_spec["name"]),
+        )
+    phase_ref = None
+    if phase:
+        phase_ref = overlay_ref(
+            "phases",
+            phase["id"],
+            phase["name"],
+            phase.get("canonical_slug"),
+            phase.get("search_slug"),
+        )
+    mechanic_refs = [
+        overlay_ref(
+            "rare-patterns",
+            mechanic_id,
+            RARE_PATTERN_SPECS[mechanic_id]["name"],
+            build_canonical_slug(mechanic_id),
+            slugify(RARE_PATTERN_SPECS[mechanic_id]["name"]),
+        )
+        for mechanic_id in mechanics
+        if mechanic_id in RARE_PATTERN_SPECS
+    ]
+    exterior = next(
+        (
+            option
+            for option in skin_card.get("available_exteriors", [])
+            if option.get("id") == variant["exterior"]
+        ),
+        {"id": variant["exterior"], "name": variant["exterior_name"]},
+    )
+    float_window = variant_float_window(skin_card.get("wear", {}), exterior)
+    csfloat_payload = {
+        "def_index": skin_card["weapon"]["id"],
+        "paint_index": skin_card["finish"]["id"],
+        "market_hash_name": variant["market_hash_name"],
+        "category": {
+            "id": variant["quality"],
+            "code": csfloat_category(variant["quality"]),
+        },
+        "supports_paint_seed_filter": bool(mechanics),
+    }
+    if float_window is not None:
+        csfloat_payload["min_float"] = float_window["min_float"]
+        csfloat_payload["max_float"] = float_window["max_float"]
+    live_market_constraint = overlay_ref(
+        "market-constraints",
+        "live-item-market-state",
+        MARKET_CONSTRAINT_SPECS["live-item-market-state"]["name"],
+        build_canonical_slug("live-item-market-state"),
+        slugify(MARKET_CONSTRAINT_SPECS["live-item-market-state"]["name"]),
+    )
+    return {
+        "finish_family": finish_family,
+        "pattern_sensitive": bool(mechanics),
+        "pattern_sensitivity": pattern_sensitivity(family_id),
+        "pattern_mechanics": mechanic_refs,
+        "phase": phase_ref,
+        "supports": support_meta,
+        "variant_float_window": float_window,
+        "inspect_ref": {
+            "def_index": skin_card["weapon"]["id"],
+            "paint_index": skin_card["finish"]["id"],
+            "quality": variant["quality"],
+            "paint_seed_field": "paint_seed" if mechanics else None,
+            "live_item_required_fields": ["asset_id", "d_param"],
+        },
+        "market_query": {
+            "market_hash_name": variant["market_hash_name"],
+            "consumer_list_path": f"data/api/consumer/lists/by-market-hash-name/{encode_path_key(variant['market_hash_name'])}.json",
+            "graph_index_path": f"data/api/graph/indexes/by-market-hash-name/{encode_path_key(variant['market_hash_name'])}.json",
+            "csfloat": csfloat_payload,
+        },
+        "market_constraints": [live_market_constraint],
+    }
+
+
+def build_container_trading_summary(
+    skin_ids: list[str],
+    skin_cards: dict[str, dict[str, Any]],
+    special_pool_refs: list[dict[str, Any]],
+) -> dict[str, Any]:
+    finish_families = []
+    pattern_mechanics = []
+    contains_weapon_groups: set[str] = set()
+    for skin_id in skin_ids:
+        skin_card = skin_cards.get(skin_id)
+        if skin_card is None:
+            continue
+        contains_weapon_groups.add(str(skin_card.get("weapon", {}).get("weapon_group")))
+        trading = skin_card.get("trading", {})
+        finish_family = trading.get("finish_family")
+        if finish_family:
+            finish_families.append(finish_family)
+        pattern_mechanics.extend(trading.get("pattern_mechanics", []))
+    return {
+        "contains_weapon_groups": sorted(group for group in contains_weapon_groups if group),
+        "rare_special_item_count": len(special_pool_refs),
+        "finish_families": unique_list(sorted(finish_families, key=lambda row: row["name"])),
+        "pattern_mechanics": unique_list(sorted(pattern_mechanics, key=lambda row: row["name"])),
+    }
+
+
+def build_consumer_overlays(
+    cards: dict[str, dict[str, dict[str, Any]]],
+    finishes: dict[str, dict[str, Any]],
+    finish_taxonomy: dict[str, dict[str, Any]],
+) -> dict[str, dict[str, dict[str, Any]]]:
+    skin_refs_by_finish: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    skin_refs_by_family: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    variant_refs_by_finish: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    variant_refs_by_family: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    family_finish_ids: dict[str, set[str]] = defaultdict(set)
+    family_weapon_groups: dict[str, set[str]] = defaultdict(set)
+    mechanic_skin_refs: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    mechanic_variant_refs: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    mechanic_family_ids: dict[str, set[str]] = defaultdict(set)
+    constraint_refs: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    constraint_group_counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+
+    skins = cards.get("skins", {})
+    variants = cards.get("skin-variants", {})
+
+    for skin_id, card in skins.items():
+        ref = card_ref("skins", skin_id, card["name"], card.get("canonical_slug"), card["search_slug"], card["card_type"])
+        finish_id = str(card["finish"]["id"])
+        skin_refs_by_finish[finish_id].append(ref)
+        trading = card.get("trading", {})
+        family = trading.get("finish_family")
+        if family:
+            family_id = family["id"]
+            skin_refs_by_family[family_id].append(ref)
+            family_finish_ids[family_id].add(finish_id)
+            weapon_group = card.get("weapon", {}).get("weapon_group")
+            if weapon_group:
+                family_weapon_groups[family_id].add(weapon_group)
+        for mechanic in trading.get("pattern_mechanics", []):
+            mechanic_id = mechanic["id"]
+            mechanic_skin_refs[mechanic_id].append(ref)
+            if family:
+                mechanic_family_ids[mechanic_id].add(family["id"])
+        for constraint in trading.get("market_constraints", []):
+            constraint_id = constraint["id"]
+            constraint_refs[constraint_id].append(ref)
+            constraint_group_counts[constraint_id]["skins"] += 1
+
+    for variant_id, card in variants.items():
+        ref = card_ref(
+            "skin-variants",
+            variant_id,
+            card["name"],
+            card.get("canonical_slug"),
+            card["search_slug"],
+            card["card_type"],
+        )
+        skin = skins.get(card["skin_id"])
+        if skin is not None:
+            finish_id = str(skin["finish"]["id"])
+            variant_refs_by_finish[finish_id].append(ref)
+        trading = card.get("trading", {})
+        family = trading.get("finish_family")
+        if family:
+            variant_refs_by_family[family["id"]].append(ref)
+        for mechanic in trading.get("pattern_mechanics", []):
+            mechanic_id = mechanic["id"]
+            mechanic_variant_refs[mechanic_id].append(ref)
+            if family:
+                mechanic_family_ids[mechanic_id].add(family["id"])
+        for constraint in trading.get("market_constraints", []):
+            constraint_id = constraint["id"]
+            constraint_refs[constraint_id].append(ref)
+            constraint_group_counts[constraint_id]["skin-variants"] += 1
+
+    for group_name, group_cards in cards.items():
+        for card_id, card in group_cards.items():
+            market = card.get("market", {})
+            for constraint in market.get("market_constraints", []):
+                constraint_id = constraint["id"]
+                ref = card_ref(
+                    group_name,
+                    card_id,
+                    card.get("name") or str(card_id),
+                    card.get("canonical_slug"),
+                    card.get("search_slug"),
+                    card["card_type"],
+                )
+                constraint_refs[constraint_id].append(ref)
+                constraint_group_counts[constraint_id][group_name] += 1
+
+    overlays: dict[str, dict[str, dict[str, Any]]] = {
+        "finish-families": {},
+        "rare-patterns": {},
+        "phases": {},
+        "market-constraints": {},
+    }
+
+    for family_id, spec in sorted(FINISH_FAMILY_SPECS.items()):
+        finish_ids = sorted(family_finish_ids.get(family_id, set()), key=lambda value: int(value))
+        finish_refs = [
+            reference_ref(
+                "finishes",
+                finish_id,
+                finishes[finish_id]["name"],
+                finishes[finish_id].get("canonical_slug"),
+                finishes[finish_id].get("search_slug"),
+            )
+            for finish_id in finish_ids
+            if finish_id in finishes
+        ]
+        skin_refs = unique_list(sorted(skin_refs_by_family.get(family_id, []), key=lambda row: row["name"]))
+        variant_refs = unique_list(sorted(variant_refs_by_family.get(family_id, []), key=lambda row: row["name"]))
+        overlays["finish-families"][family_id] = {
+            "id": family_id,
+            "overlay_type": "finish-family",
+            "name": spec["name"],
+            "description": spec["description"],
+            "canonical_slug": build_canonical_slug(family_id),
+            "search_slug": slugify(spec["name"]),
+            "knowledge_source": spec.get("knowledge_source"),
+            "confidence": spec.get("confidence"),
+            "pattern_sensitive": spec.get("pattern_sensitive", False),
+            "pattern_sensitivity": spec.get("pattern_sensitivity", "none"),
+            "primary_mechanics": [
+                overlay_ref(
+                    "rare-patterns",
+                    mechanic_id,
+                    RARE_PATTERN_SPECS[mechanic_id]["name"],
+                    build_canonical_slug(mechanic_id),
+                    slugify(RARE_PATTERN_SPECS[mechanic_id]["name"]),
+                )
+                for mechanic_id in spec.get("primary_mechanics", [])
+                if mechanic_id in RARE_PATTERN_SPECS
+            ],
+            "supports": dict(spec.get("supports", {})),
+            "finish_count": len(finish_refs),
+            "skin_count": len(skin_refs),
+            "variant_count": len(variant_refs),
+            "weapon_groups": sorted(family_weapon_groups.get(family_id, set())),
+            "finishes": finish_refs,
+            "example_skins": skin_refs[:12],
+            "list_paths": {
+                "items": f"data/api/consumer/lists/by-finish-family/{encode_path_key(family_id)}.json",
+            },
+        }
+
+    for mechanic_id, spec in sorted(RARE_PATTERN_SPECS.items()):
+        family_ids = sorted(
+            {
+                family_id
+                for family_id, family_spec in FINISH_FAMILY_SPECS.items()
+                if mechanic_id in family_spec.get("primary_mechanics", [])
+            }
+            | mechanic_family_ids.get(mechanic_id, set())
+        )
+        finish_ids = sorted(
+            {
+                finish_id
+                for family_id in family_ids
+                for finish_id in family_finish_ids.get(family_id, set())
+            },
+            key=lambda value: int(value),
+        )
+        finish_refs = [
+            reference_ref(
+                "finishes",
+                finish_id,
+                finishes[finish_id]["name"],
+                finishes[finish_id].get("canonical_slug"),
+                finishes[finish_id].get("search_slug"),
+            )
+            for finish_id in finish_ids
+            if finish_id in finishes
+        ]
+        overlays["rare-patterns"][mechanic_id] = {
+            "id": mechanic_id,
+            "overlay_type": "rare-pattern",
+            "name": spec["name"],
+            "description": spec["description"],
+            "canonical_slug": build_canonical_slug(mechanic_id),
+            "search_slug": slugify(spec["name"]),
+            "knowledge_source": spec.get("knowledge_source"),
+            "live_item_requirements": list(spec.get("live_item_requirements", [])),
+            "finish_families": [
+                overlay_ref(
+                    "finish-families",
+                    family_id,
+                    FINISH_FAMILY_SPECS[family_id]["name"],
+                    build_canonical_slug(family_id),
+                    slugify(FINISH_FAMILY_SPECS[family_id]["name"]),
+                )
+                for family_id in family_ids
+            ],
+            "finish_count": len(finish_refs),
+            "skin_count": len(unique_list(mechanic_skin_refs.get(mechanic_id, []))),
+            "variant_count": len(unique_list(mechanic_variant_refs.get(mechanic_id, []))),
+            "finishes": finish_refs,
+            "example_skins": unique_list(sorted(mechanic_skin_refs.get(mechanic_id, []), key=lambda row: row["name"]))[:12],
+            "list_paths": {
+                "items": f"data/api/consumer/lists/by-pattern-mechanic/{encode_path_key(mechanic_id)}.json",
+            },
+        }
+
+    for finish_id, phase in sorted(finish_taxonomy.get("phase_by_finish", {}).items(), key=lambda pair: pair[1]["name"]):
+        finish = finishes.get(str(finish_id))
+        family_id = phase.get("phase_group")
+        family_spec = FINISH_FAMILY_SPECS.get(family_id) if family_id else None
+        overlays["phases"][str(finish_id)] = {
+            "id": str(finish_id),
+            "overlay_type": "phase",
+            "name": phase["name"],
+            "canonical_slug": phase.get("canonical_slug"),
+            "search_slug": phase.get("search_slug"),
+            "phase_code": phase.get("phase_code"),
+            "phase_name": phase.get("phase_name"),
+            "phase_kind": phase.get("phase_kind"),
+            "phase_group": phase.get("phase_group"),
+            "finish_family": (
+                overlay_ref(
+                    "finish-families",
+                    family_id,
+                    family_spec["name"],
+                    build_canonical_slug(family_id),
+                    slugify(family_spec["name"]),
+                )
+                if family_id and family_spec
+                else None
+            ),
+            "finish": (
+                reference_ref(
+                    "finishes",
+                    finish_id,
+                    finish["name"],
+                    finish.get("canonical_slug"),
+                    finish.get("search_slug"),
+                )
+                if finish is not None
+                else None
+            ),
+            "pattern_mechanics": [
+                overlay_ref(
+                    "rare-patterns",
+                    "phase",
+                    RARE_PATTERN_SPECS["phase"]["name"],
+                    build_canonical_slug("phase"),
+                    slugify(RARE_PATTERN_SPECS["phase"]["name"]),
+                )
+            ],
+            "skin_count": len(unique_list(skin_refs_by_finish.get(str(finish_id), []))),
+            "variant_count": len(unique_list(variant_refs_by_finish.get(str(finish_id), []))),
+            "example_skins": unique_list(sorted(skin_refs_by_finish.get(str(finish_id), []), key=lambda row: row["name"]))[:12],
+            "list_paths": {
+                "items": f"data/api/consumer/lists/by-finish/{encode_path_key(finish_id)}.json",
+            },
+        }
+
+    for constraint_id, spec in sorted(MARKET_CONSTRAINT_SPECS.items()):
+        affected_refs = unique_list(sorted(constraint_refs.get(constraint_id, []), key=lambda row: row["name"]))
+        overlays["market-constraints"][constraint_id] = {
+            "id": constraint_id,
+            "overlay_type": "market-constraint",
+            "name": spec["name"],
+            "description": spec["description"],
+            "canonical_slug": build_canonical_slug(constraint_id),
+            "search_slug": slugify(spec["name"]),
+            "knowledge_source": spec.get("knowledge_source"),
+            "affected_item_count": len(affected_refs),
+            "affected_groups": dict(sorted(constraint_group_counts.get(constraint_id, {}).items())),
+            "sample_items": affected_refs[:24],
+            "list_paths": {
+                "items": f"data/api/consumer/lists/by-market-constraint/{encode_path_key(constraint_id)}.json",
+            },
+        }
+
+    return overlays
+
+
+def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]], overlays: dict[str, dict[str, dict[str, Any]]]) -> dict[str, dict[str, Any]]:
     lists: dict[str, dict[str, Any]] = {
         "by-type": {},
         "by-weapon": defaultdict(list),
         "by-finish": defaultdict(list),
+        "by-finish-family": defaultdict(list),
         "by-case": defaultdict(list),
         "by-collection": defaultdict(list),
+        "by-exterior": defaultdict(list),
+        "by-pattern-mechanic": defaultdict(list),
+        "by-quality": defaultdict(list),
+        "by-market-constraint": defaultdict(list),
         "by-side": defaultdict(list),
         "by-canonical-slug": defaultdict(list),
         "by-search-slug": defaultdict(list),
-        "by-market-hash-name": {},
+        "by-market-hash-name": defaultdict(list),
     }
 
     for group_name, group_cards in cards.items():
@@ -850,7 +1471,23 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
                 lists["by-canonical-slug"][card["canonical_slug"]].append(ref)
             if card.get("search_slug"):
                 lists["by-search-slug"][card["search_slug"]].append(ref)
+            for constraint in card.get("market", {}).get("market_constraints", []):
+                lists["by-market-constraint"][constraint["id"]].append(ref)
         lists["by-type"][group_name] = sorted(refs, key=lambda row: row["name"])
+
+    for overlay_group, payload in overlays.items():
+        for overlay_id, overlay in payload.items():
+            ref = overlay_ref(
+                overlay_group,
+                overlay_id,
+                overlay.get("name") or str(overlay_id),
+                overlay.get("canonical_slug"),
+                overlay.get("search_slug"),
+            )
+            if overlay.get("canonical_slug"):
+                lists["by-canonical-slug"][overlay["canonical_slug"]].append(ref)
+            if overlay.get("search_slug"):
+                lists["by-search-slug"][overlay["search_slug"]].append(ref)
 
     for skin_id, card in cards.get("skins", {}).items():
         weapon_id = str(card["weapon"]["id"])
@@ -858,15 +1495,34 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
         ref = card_ref("skins", skin_id, card["name"], card.get("canonical_slug"), card["search_slug"], card["card_type"])
         lists["by-weapon"][weapon_id].append(ref)
         lists["by-finish"][finish_id].append(ref)
+        finish_family = card.get("trading", {}).get("finish_family")
+        if finish_family:
+            lists["by-finish-family"][finish_family["id"]].append(ref)
+        for mechanic in card.get("trading", {}).get("pattern_mechanics", []):
+            lists["by-pattern-mechanic"][mechanic["id"]].append(ref)
+        for constraint in card.get("trading", {}).get("market_constraints", []):
+            lists["by-market-constraint"][constraint["id"]].append(ref)
         for source in card.get("sources", {}).get("cases", []):
             lists["by-case"][str(source["id"])].append(ref)
         for source in card.get("sources", {}).get("collections", []):
             lists["by-collection"][str(source["id"])].append(ref)
 
     for variant_id, card in cards.get("skin-variants", {}).items():
-        lists["by-market-hash-name"][card["market_hash_name"]] = [
-            card_ref("skin-variants", variant_id, card["name"], card.get("canonical_slug"), card["search_slug"], card["card_type"])
-        ]
+        ref = card_ref("skin-variants", variant_id, card["name"], card.get("canonical_slug"), card["search_slug"], card["card_type"])
+        lists["by-market-hash-name"][card["market_hash_name"]].append(ref)
+        quality = card.get("quality")
+        if quality:
+            lists["by-quality"][quality].append(ref)
+        exterior = card.get("exterior")
+        if exterior:
+            lists["by-exterior"][exterior].append(ref)
+        finish_family = card.get("trading", {}).get("finish_family")
+        if finish_family:
+            lists["by-finish-family"][finish_family["id"]].append(ref)
+        for mechanic in card.get("trading", {}).get("pattern_mechanics", []):
+            lists["by-pattern-mechanic"][mechanic["id"]].append(ref)
+        for constraint in card.get("trading", {}).get("market_constraints", []):
+            lists["by-market-constraint"][constraint["id"]].append(ref)
 
     for agent_id, card in cards.get("agents", {}).items():
         side = card.get("side")
@@ -882,7 +1538,10 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
     }
 
 
-def build_consumer_browse(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[str, Any]:
+def build_consumer_browse(
+    cards: dict[str, dict[str, dict[str, Any]]],
+    overlays: dict[str, dict[str, dict[str, Any]]],
+) -> dict[str, Any]:
     def refs(group_name: str) -> list[dict[str, Any]]:
         group_cards = cards.get(group_name, {})
         return sorted(
@@ -900,29 +1559,75 @@ def build_consumer_browse(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[s
             key=lambda row: row["name"],
         )
 
+    def filtered_refs(group_name: str, *, card_type: str | None = None, weapon_group: str | None = None) -> list[dict[str, Any]]:
+        group_cards = cards.get(group_name, {})
+        items = []
+        for card_id, card in group_cards.items():
+            if card_type and card.get("card_type") != card_type:
+                continue
+            if weapon_group and card.get("weapon_group") != weapon_group:
+                continue
+            items.append(
+                card_ref(
+                    group_name,
+                    card_id,
+                    card.get("name") or str(card_id),
+                    card.get("canonical_slug"),
+                    card.get("search_slug"),
+                    card["card_type"],
+                )
+            )
+        return sorted(items, key=lambda row: row["name"])
+
+    def overlay_refs(group_name: str) -> list[dict[str, Any]]:
+        payload = overlays.get(group_name, {})
+        return sorted(
+            [
+                overlay_ref(
+                    group_name,
+                    overlay_id,
+                    overlay.get("name") or str(overlay_id),
+                    overlay.get("canonical_slug"),
+                    overlay.get("search_slug"),
+                )
+                for overlay_id, overlay in payload.items()
+            ],
+            key=lambda row: row["name"],
+        )
+
     return {
         "home": {
             "categories": [
                 {"id": "skins", "count": len(cards.get("skins", {})), "path": "data/api/consumer/cards/skins/"},
                 {"id": "cases", "count": len(cards.get("cases", {})), "path": "data/api/consumer/cards/cases/"},
+                {"id": "knives", "count": len(filtered_refs("weapons", card_type="knife")), "path": "data/api/consumer/browse/knives.json"},
+                {"id": "gloves", "count": len(filtered_refs("weapons", card_type="glove")), "path": "data/api/consumer/browse/gloves.json"},
                 {"id": "capsules", "count": len(cards.get("capsules", {})), "path": "data/api/consumer/cards/capsules/"},
                 {"id": "souvenir-packages", "count": len(cards.get("souvenir-packages", {})), "path": "data/api/consumer/cards/souvenir-packages/"},
                 {"id": "weapons", "count": len(cards.get("weapons", {})), "path": "data/api/consumer/cards/weapons/"},
                 {"id": "collections", "count": len(cards.get("collections", {})), "path": "data/api/consumer/cards/collections/"},
                 {"id": "stickers", "count": len(cards.get("stickers", {})), "path": "data/api/consumer/cards/stickers/"},
                 {"id": "special-pools", "count": len(cards.get("special-pools", {})), "path": "data/api/consumer/cards/special-pools/"},
+                {"id": "finish-families", "count": len(overlays.get("finish-families", {})), "path": "data/api/consumer/browse/finish-families.json"},
+                {"id": "rare-patterns", "count": len(overlays.get("rare-patterns", {})), "path": "data/api/consumer/browse/rare-patterns.json"},
             ]
         },
         "categories": {
             "groups": [
                 {"id": group_name, "count": len(group_cards)}
                 for group_name, group_cards in sorted(cards.items())
-            ]
+            ],
+            "overlay_groups": [
+                {"id": group_name, "count": len(group_cards)}
+                for group_name, group_cards in sorted(overlays.items())
+            ],
         },
         "collectibles": {"items": refs("collectibles")},
         "containers": {"items": refs("containers")},
         "equipment": {"items": refs("equipment")},
         "skins": {"items": refs("skins")},
+        "knives": {"items": filtered_refs("weapons", card_type="knife")},
+        "gloves": {"items": filtered_refs("weapons", card_type="glove")},
         "cases": {"items": refs("cases")},
         "capsules": {"items": refs("capsules")},
         "souvenir-packages": {"items": refs("souvenir-packages")},
@@ -939,10 +1644,35 @@ def build_consumer_browse(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[s
         "players": {"items": refs("players")},
         "special-pools": {"items": refs("special-pools")},
         "tools": {"items": refs("tools")},
+        "finish-families": {"items": overlay_refs("finish-families")},
+        "rare-patterns": {"items": overlay_refs("rare-patterns")},
+        "phases": {"items": overlay_refs("phases")},
+        "market-constraints": {"items": overlay_refs("market-constraints")},
+        "trading": {
+            "overlay_groups": [
+                {
+                    "id": group_name,
+                    "count": len(group_cards),
+                    "path": f"data/api/consumer/browse/{group_name}.json",
+                }
+                for group_name, group_cards in sorted(overlays.items())
+            ],
+            "pattern_sensitive_skin_count": sum(
+                1
+                for card in cards.get("skins", {}).values()
+                if card.get("trading", {}).get("pattern_sensitive")
+            ),
+            "finish_family_count": len(overlays.get("finish-families", {})),
+            "phase_count": len(overlays.get("phases", {})),
+        },
     }
 
 
-def build_consumer_discovery(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[str, Any]:
+def build_consumer_discovery(
+    cards: dict[str, dict[str, dict[str, Any]]],
+    overlays: dict[str, dict[str, dict[str, Any]]],
+    lists: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
     placeholders = {
         "agents": "<item_definition_id>",
         "capsules": "<container_id>",
@@ -966,6 +1696,12 @@ def build_consumer_discovery(cards: dict[str, dict[str, dict[str, Any]]]) -> dic
         "tools": "<item_definition_id>",
         "weapons": "<weapon_id>",
     }
+    overlay_placeholders = {
+        "finish-families": "<family_id>",
+        "market-constraints": "<constraint_id>",
+        "phases": "<paint_kit_id>",
+        "rare-patterns": "<mechanic_id>",
+    }
     return {
         "entrypoints": {
             "home": "data/api/consumer/browse/home.json",
@@ -973,22 +1709,52 @@ def build_consumer_discovery(cards: dict[str, dict[str, dict[str, Any]]]) -> dic
                 group_name.replace("-", "_"): f"data/api/consumer/cards/{group_name}/{placeholders[group_name]}.json"
                 for group_name in sorted(cards)
             },
+            **{
+                group_name.replace("-", "_"): f"data/api/consumer/overlays/{group_name}/{overlay_placeholders[group_name]}.json"
+                for group_name in sorted(overlays)
+            },
             "agent_sides": "data/api/consumer/lists/by-side/<side>.json",
             "canonical_slugs": "data/api/consumer/lists/by-canonical-slug/<canonical_slug>.json",
+            "finish_family_items": "data/api/consumer/lists/by-finish-family/<family_id>.json",
+            "finish_items": "data/api/consumer/lists/by-finish/<paint_kit_id>.json",
+            "market_constraints_list": "data/api/consumer/lists/by-market-constraint/<constraint_id>.json",
+            "market_hash_names": "data/api/consumer/lists/by-market-hash-name/<market_hash_name>.json",
+            "pattern_mechanics": "data/api/consumer/lists/by-pattern-mechanic/<mechanic_id>.json",
+            "qualities": "data/api/consumer/lists/by-quality/<quality>.json",
             "search_slugs": "data/api/consumer/lists/by-search-slug/<search_slug>.json",
+            "skin_exteriors": "data/api/consumer/lists/by-exterior/<exterior>.json",
+            "weapon_skins": "data/api/consumer/lists/by-weapon/<weapon_id>.json",
         },
         "counts": {
             group_name: len(group_cards)
             for group_name, group_cards in cards.items()
         },
+        "overlay_counts": {
+            group_name: len(group_cards)
+            for group_name, group_cards in overlays.items()
+        },
+        "list_counts": {
+            list_name: len(payload)
+            for list_name, payload in lists.items()
+        },
     }
 
 
-def build_consumer_facets(cards: dict[str, dict[str, dict[str, Any]]], special_pools: dict[str, dict[str, Any]]) -> dict[str, Any]:
+def build_consumer_facets(
+    cards: dict[str, dict[str, dict[str, Any]]],
+    overlays: dict[str, dict[str, dict[str, Any]]],
+    special_pools: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
     collectible_groups = defaultdict(int)
     equipment_groups = defaultdict(int)
     weapon_groups = defaultdict(int)
     finish_styles = defaultdict(int)
+    finish_families = defaultdict(int)
+    pattern_mechanics = defaultdict(int)
+    pattern_sensitivity_levels = defaultdict(int)
+    support_counts = defaultdict(int)
+    qualities = defaultdict(int)
+    exteriors = defaultdict(int)
     pool_categories = defaultdict(int)
     for card in cards.get("collectibles", {}).values():
         collectible_groups[card["collectible_group"]] += 1
@@ -999,6 +1765,21 @@ def build_consumer_facets(cards: dict[str, dict[str, dict[str, Any]]], special_p
     for card in cards.get("skins", {}).values():
         style_name = card["finish"].get("style_name") or f"style-{card['finish'].get('style_code')}"
         finish_styles[style_name] += 1
+        trading = card.get("trading", {})
+        finish_family = trading.get("finish_family")
+        if finish_family:
+            finish_families[finish_family["id"]] += 1
+        pattern_sensitivity_levels[trading.get("pattern_sensitivity", "none")] += 1
+        for mechanic in trading.get("pattern_mechanics", []):
+            pattern_mechanics[mechanic["id"]] += 1
+        for support_name, enabled in trading.get("supports", {}).items():
+            if enabled:
+                support_counts[support_name] += 1
+    for card in cards.get("skin-variants", {}).values():
+        if card.get("quality"):
+            qualities[card["quality"]] += 1
+        if card.get("exterior"):
+            exteriors[card["exterior"]] += 1
     for pool in special_pools.values():
         pool_categories[pool["pool_category"]] += 1
     return {
@@ -1006,6 +1787,16 @@ def build_consumer_facets(cards: dict[str, dict[str, dict[str, Any]]], special_p
         "equipment_groups": dict(sorted(equipment_groups.items())),
         "weapon_groups": dict(sorted(weapon_groups.items())),
         "finish_styles": dict(sorted(finish_styles.items())),
+        "finish_families": dict(sorted(finish_families.items())),
+        "pattern_mechanics": dict(sorted(pattern_mechanics.items())),
+        "pattern_sensitivity": dict(sorted(pattern_sensitivity_levels.items())),
+        "supports": dict(sorted(support_counts.items())),
+        "qualities": dict(sorted(qualities.items())),
+        "exteriors": dict(sorted(exteriors.items())),
+        "market_constraints": {
+            constraint_id: overlay.get("affected_item_count", 0)
+            for constraint_id, overlay in sorted(overlays.get("market-constraints", {}).items())
+        },
         "special_pool_categories": dict(sorted(pool_categories.items())),
     }
 
@@ -1163,8 +1954,9 @@ def rendered_folder_name(entity_type: str) -> str | None:
 
 def localized_values(localizer: Localizer, token: str | None, fallback: str | None, locales: list[str]) -> dict[str, str]:
     values = {}
+    resolved_token = token if token and not is_placeholder_name(token) else None
     for locale in locales:
-        value = localizer.resolve(token, locale) if token else None
+        value = localizer.resolve(resolved_token, locale) if resolved_token else None
         if value:
             values[locale] = value
     if fallback and localizer.default_locale not in values:

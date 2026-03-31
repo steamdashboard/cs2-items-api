@@ -17,5 +17,61 @@
   "quality_name": "StatTrak",
   "search_slug": "stattrak-m4a4-dragon-king-minimal-wear",
   "skin_id": "16-400",
-  "skin_name": "M4A4 | 龍王 (Dragon King)"
+  "skin_name": "M4A4 | 龍王 (Dragon King)",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 16,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 400,
+      "paint_seed_field": null,
+      "quality": "stattrak"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/StatTrak%E2%84%A2%20M4A4%20%7C%20%E9%BE%8D%E7%8E%8B%20%28Dragon%20King%29%20%28Minimal%20Wear%29.json",
+      "csfloat": {
+        "category": {
+          "code": 2,
+          "id": "stattrak"
+        },
+        "def_index": 16,
+        "market_hash_name": "StatTrak™ M4A4 | 龍王 (Dragon King) (Minimal Wear)",
+        "max_float": 0.15,
+        "min_float": 0.07,
+        "paint_index": 400,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/StatTrak%E2%84%A2%20M4A4%20%7C%20%E9%BE%8D%E7%8E%8B%20%28Dragon%20King%29%20%28Minimal%20Wear%29.json",
+      "market_hash_name": "StatTrak™ M4A4 | 龍王 (Dragon King) (Minimal Wear)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.15,
+      "min_float": 0.07
+    }
+  }
 }

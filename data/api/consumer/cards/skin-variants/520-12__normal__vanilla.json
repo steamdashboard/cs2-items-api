@@ -17,5 +17,72 @@
   "quality_name": "Normal",
   "search_slug": "navaja-knife-crimson-web",
   "skin_id": "520-12",
-  "skin_name": "Navaja Knife | Crimson Web"
+  "skin_name": "Navaja Knife | Crimson Web",
+  "trading": {
+    "finish_family": {
+      "canonical_slug": "crimson-web",
+      "group": "finish-families",
+      "id": "crimson-web",
+      "name": "Crimson Web",
+      "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+      "search_slug": "crimson-web"
+    },
+    "inspect_ref": {
+      "def_index": 520,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 12,
+      "paint_seed_field": "paint_seed",
+      "quality": "normal"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/Navaja%20Knife%20%7C%20Crimson%20Web.json",
+      "csfloat": {
+        "category": {
+          "code": 1,
+          "id": "normal"
+        },
+        "def_index": 520,
+        "market_hash_name": "Navaja Knife | Crimson Web",
+        "paint_index": 12,
+        "supports_paint_seed_filter": true
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Navaja%20Knife%20%7C%20Crimson%20Web.json",
+      "market_hash_name": "Navaja Knife | Crimson Web"
+    },
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": true
+    },
+    "variant_float_window": null
+  }
 }

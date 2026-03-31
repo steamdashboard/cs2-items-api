@@ -394,6 +394,10 @@
     "ukrainian": "Сувенірний набір «Берлін 2019 — Mirage»",
     "vietnamese": "Gói lưu niệm Berlin 2019 Mirage"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4661",
     "images": [
@@ -499,5 +503,18 @@
     "8-47"
   ],
   "special_pools": [],
-  "tournament_event_id": 16
+  "tournament_event_id": 16,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

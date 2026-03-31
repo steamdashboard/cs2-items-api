@@ -17,5 +17,56 @@
   "quality_name": "Normal",
   "search_slug": "sport-gloves-vice",
   "skin_id": "5030-10048",
-  "skin_name": "Sport Gloves | Vice"
+  "skin_name": "Sport Gloves | Vice",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 5030,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 10048,
+      "paint_seed_field": null,
+      "quality": "normal"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/Sport%20Gloves%20%7C%20Vice.json",
+      "csfloat": {
+        "category": {
+          "code": 1,
+          "id": "normal"
+        },
+        "def_index": 5030,
+        "market_hash_name": "Sport Gloves | Vice",
+        "paint_index": 10048,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Sport%20Gloves%20%7C%20Vice.json",
+      "market_hash_name": "Sport Gloves | Vice"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": null
+  }
 }

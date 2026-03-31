@@ -1,0 +1,53 @@
+{
+  "canonical_slug": "am-gamma-doppler-phase2-glock-phase-2",
+  "example_skins": [
+    {
+      "canonical_slug": "4-1121",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "4-1121",
+      "name": "Glock-18 | Gamma Doppler",
+      "path": "data/api/consumer/cards/skins/4-1121.json",
+      "search_slug": "glock-18-gamma-doppler"
+    }
+  ],
+  "finish": {
+    "canonical_slug": "am-gamma-doppler-phase2-glock",
+    "group": "finishes",
+    "id": "1121",
+    "name": "Gamma Doppler",
+    "path": "data/api/reference/finishes/1121.json",
+    "search_slug": "gamma-doppler"
+  },
+  "finish_family": {
+    "canonical_slug": "gamma-doppler",
+    "group": "finish-families",
+    "id": "gamma-doppler",
+    "name": "Gamma Doppler",
+    "path": "data/api/consumer/overlays/finish-families/gamma-doppler.json",
+    "search_slug": "gamma-doppler"
+  },
+  "id": "1121",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish/1121.json"
+  },
+  "name": "Gamma Doppler Phase 2",
+  "overlay_type": "phase",
+  "pattern_mechanics": [
+    {
+      "canonical_slug": "phase",
+      "group": "rare-patterns",
+      "id": "phase",
+      "name": "Phase",
+      "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+      "search_slug": "phase"
+    }
+  ],
+  "phase_code": "phase-2",
+  "phase_group": "gamma-doppler",
+  "phase_kind": "numbered",
+  "phase_name": "Phase 2",
+  "search_slug": "gamma-doppler-phase-2",
+  "skin_count": 1,
+  "variant_count": 5
+}

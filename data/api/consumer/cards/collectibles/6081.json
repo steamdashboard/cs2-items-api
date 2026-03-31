@@ -5,7 +5,20 @@
   "description": null,
   "id": 6081,
   "localized_names": {
-    "english": "Item 6081"
+    "english": "Coin 6081"
+  },
+  "market": {
+    "market_constraints": [
+      {
+        "canonical_slug": "cannot-trade",
+        "group": "market-constraints",
+        "id": "cannot-trade",
+        "name": "Cannot Trade",
+        "path": "data/api/consumer/overlays/market-constraints/cannot-trade.json",
+        "search_slug": "cannot-trade"
+      }
+    ],
+    "trade_state": "cannot-trade"
   },
   "media": {
     "asset_id": "collectible__6081",
@@ -16,7 +29,7 @@
     "primary_image_png": null,
     "source_texture_path": null
   },
-  "name": "Item 6081",
+  "name": "Coin 6081",
   "rarity_ref": "ancient",
-  "search_slug": "item-6081"
+  "search_slug": "coin-6081"
 }

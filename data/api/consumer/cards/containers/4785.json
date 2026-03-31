@@ -220,6 +220,10 @@
     "ukrainian": "Колекція «Train 2021»",
     "vietnamese": "Bộ sưu tập Train (2021)"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4785",
     "images": [
@@ -317,5 +321,16 @@
     "8-246"
   ],
   "special_pools": [],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

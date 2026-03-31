@@ -1,0 +1,43 @@
+{
+  "canonical_slug": "am-sapphire-marbleized-b-sapphire",
+  "example_skins": [],
+  "finish": {
+    "canonical_slug": "am-sapphire-marbleized-b",
+    "group": "finishes",
+    "id": "619",
+    "name": "Doppler",
+    "path": "data/api/reference/finishes/619.json",
+    "search_slug": "doppler"
+  },
+  "finish_family": {
+    "canonical_slug": "doppler",
+    "group": "finish-families",
+    "id": "doppler",
+    "name": "Doppler",
+    "path": "data/api/consumer/overlays/finish-families/doppler.json",
+    "search_slug": "doppler"
+  },
+  "id": "619",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish/619.json"
+  },
+  "name": "Doppler Sapphire",
+  "overlay_type": "phase",
+  "pattern_mechanics": [
+    {
+      "canonical_slug": "phase",
+      "group": "rare-patterns",
+      "id": "phase",
+      "name": "Phase",
+      "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+      "search_slug": "phase"
+    }
+  ],
+  "phase_code": "sapphire",
+  "phase_group": "doppler",
+  "phase_kind": "gem",
+  "phase_name": "Sapphire",
+  "search_slug": "doppler-sapphire",
+  "skin_count": 0,
+  "variant_count": 0
+}

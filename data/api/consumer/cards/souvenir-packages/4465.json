@@ -479,6 +479,10 @@
     "ukrainian": "Сувенірний набір «Бостон 2018 — Cobblestone»",
     "vietnamese": "Gói lưu niệm Cobblestone Boston 2018"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4465",
     "images": [
@@ -584,5 +588,17 @@
     "9-344"
   ],
   "special_pools": [],
-  "tournament_event_id": 13
+  "tournament_event_id": 13,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

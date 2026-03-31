@@ -13,6 +13,7 @@ from cs2_skins_api.constants import (
     WEAPON_GROUPS,
 )
 from cs2_skins_api.special_pools import build_special_pool_candidate_specs
+from cs2_skins_api.trading import is_placeholder_name, normalized_finish_name
 from cs2_skins_api.utils import build_canonical_slug, deep_merge, parse_float, parse_int, slugify, unique_list
 
 
@@ -190,6 +191,11 @@ def humanize_identifier(value: str | None, drop_prefixes: tuple[str, ...] = ()) 
 def fallback_collection_name(collection_id: str) -> str:
     base = humanize_identifier(collection_id, drop_prefixes=("set_",)) or collection_id
     return f"The {base} Collection"
+
+
+def fallback_collectible_name(item_id: str, group: str | None) -> str:
+    group_name = humanize_identifier(group) or "Collectible"
+    return f"{group_name} {item_id}"
 
 
 def fallback_agent_name(codename: str) -> str:
@@ -641,12 +647,17 @@ def build_core_dataset(items_game: dict[str, Any], localizer: Localizer) -> dict
     paint_kits_by_name = {}
     for paint_kit_id, raw_paint_kit in items_game.get("paint_kits", {}).items():
         rarity_ref = items_game.get("paint_kits_rarity", {}).get(paint_kit_id)
+        display_name, display_name_status = normalized_finish_name(
+            localizer.resolve(raw_paint_kit.get("description_tag")),
+            raw_paint_kit.get("name"),
+        )
         record = {
             "id": parse_int(paint_kit_id),
             "game_id": parse_int(paint_kit_id),
             "name": raw_paint_kit.get("name"),
             "display_name_token": raw_paint_kit.get("description_tag"),
-            "display_name": localizer.resolve(raw_paint_kit.get("description_tag")),
+            "display_name": display_name,
+            "display_name_status": display_name_status,
             "wear_min": parse_float(raw_paint_kit.get("wear_remap_min")),
             "wear_max": parse_float(raw_paint_kit.get("wear_remap_max")),
             "style_code": parse_int(raw_paint_kit.get("style")),
@@ -1034,6 +1045,7 @@ def build_finish_entities(paint_kits: dict[str, dict[str, Any]]) -> dict[str, di
             "codename": record["name"],
             "name_token": record["display_name_token"],
             "name": record["display_name"] or record["name"],
+            "name_status": record.get("display_name_status"),
             "wear": {
                 "min_float": record["wear_min"],
                 "max_float": record["wear_max"],
@@ -1801,7 +1813,10 @@ def build_collectible_entities(
         if classification["kind"] != "collectible":
             continue
         resolved = record["resolved"]
-        name = localizer.resolve(resolved.get("item_name")) or humanize_identifier(record["name"]) or record["name"]
+        localized_name = localizer.resolve(resolved.get("item_name"))
+        name = localized_name or humanize_identifier(record["name"]) or record["name"]
+        if is_placeholder_name(name):
+            name = fallback_collectible_name(item_id, classification.get("group"))
         collectibles[item_id] = {
             "id": record["id"],
             "game_id": record["game_id"],

@@ -394,6 +394,10 @@
     "ukrainian": "Сувенірний набір «Бостон 2018 — Mirage»",
     "vietnamese": "Gói lưu niệm Mirage Boston 2018"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4464",
     "images": [
@@ -499,5 +503,18 @@
     "8-47"
   ],
   "special_pools": [],
-  "tournament_event_id": 13
+  "tournament_event_id": 13,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

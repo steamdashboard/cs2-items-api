@@ -498,6 +498,10 @@
     "ukrainian": "Сувенірний набір «Шанхай 2024 — Inferno»",
     "vietnamese": "Gói lưu niệm Inferno | Thượng Hải 2024"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4967",
     "images": [
@@ -608,5 +612,35 @@
     "8-794"
   ],
   "special_pools": [],
-  "tournament_event_id": 23
+  "tournament_event_id": 23,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "rare_special_item_count": 0
+  }
 }

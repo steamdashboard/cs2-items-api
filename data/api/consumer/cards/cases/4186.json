@@ -534,6 +534,10 @@
     "ukrainian": "Револьверний футляр",
     "vietnamese": "Hòm Revolver"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4186",
     "images": [
@@ -657,5 +661,52 @@
       "search_slug": "unusual-revolving-special-item-pool"
     }
   ],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "crimson-web",
+        "group": "finish-families",
+        "id": "crimson-web",
+        "name": "Crimson Web",
+        "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+        "search_slug": "crimson-web"
+      },
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      },
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "rare_special_item_count": 1
+  }
 }

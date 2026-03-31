@@ -394,6 +394,10 @@
     "ukrainian": "Сувенірний набір «Краків 2017 — Mirage»",
     "vietnamese": "Gói lưu niệm Krakow 2017 Mirage"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4397",
     "images": [
@@ -499,5 +503,18 @@
     "8-47"
   ],
   "special_pools": [],
-  "tournament_event_id": 12
+  "tournament_event_id": 12,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

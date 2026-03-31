@@ -17,5 +17,61 @@
   "quality_name": "Souvenir",
   "search_slug": "souvenir-ssg-08-hand-brake-factory-new",
   "skin_id": "40-751",
-  "skin_name": "SSG 08 | Hand Brake"
+  "skin_name": "SSG 08 | Hand Brake",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 40,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 751,
+      "paint_seed_field": null,
+      "quality": "souvenir"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/Souvenir%20SSG%2008%20%7C%20Hand%20Brake%20%28Factory%20New%29.json",
+      "csfloat": {
+        "category": {
+          "code": 3,
+          "id": "souvenir"
+        },
+        "def_index": 40,
+        "market_hash_name": "Souvenir SSG 08 | Hand Brake (Factory New)",
+        "max_float": 0.07,
+        "min_float": 0.0,
+        "paint_index": 751,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Souvenir%20SSG%2008%20%7C%20Hand%20Brake%20%28Factory%20New%29.json",
+      "market_hash_name": "Souvenir SSG 08 | Hand Brake (Factory New)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.07,
+      "min_float": 0.0
+    }
+  }
 }

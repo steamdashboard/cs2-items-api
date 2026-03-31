@@ -36,6 +36,19 @@
     "ukrainian": "Медаль другого сезону прем’єр-режиму",
     "vietnamese": "Huy chương Premier mùa 2"
   },
+  "market": {
+    "market_constraints": [
+      {
+        "canonical_slug": "cannot-trade",
+        "group": "market-constraints",
+        "id": "cannot-trade",
+        "name": "Cannot Trade",
+        "path": "data/api/consumer/overlays/market-constraints/cannot-trade.json",
+        "search_slug": "cannot-trade"
+      }
+    ],
+    "trade_state": "cannot-trade"
+  },
   "media": {
     "asset_id": "collectible__5018",
     "images": [

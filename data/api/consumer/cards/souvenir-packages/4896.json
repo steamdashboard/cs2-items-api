@@ -441,6 +441,10 @@
     "ukrainian": "Сувенірний набір «Париж 2023 — Overpass»",
     "vietnamese": "Gói lưu niệm Paris 2023 - Overpass"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4896",
     "images": [
@@ -546,5 +550,18 @@
     "9-84"
   ],
   "special_pools": [],
-  "tournament_event_id": 21
+  "tournament_event_id": 21,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

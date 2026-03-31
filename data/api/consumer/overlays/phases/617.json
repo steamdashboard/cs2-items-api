@@ -1,0 +1,43 @@
+{
+  "canonical_slug": "am-blackpearl-marbleized-b-black-pearl",
+  "example_skins": [],
+  "finish": {
+    "canonical_slug": "am-blackpearl-marbleized-b",
+    "group": "finishes",
+    "id": "617",
+    "name": "Doppler",
+    "path": "data/api/reference/finishes/617.json",
+    "search_slug": "doppler"
+  },
+  "finish_family": {
+    "canonical_slug": "doppler",
+    "group": "finish-families",
+    "id": "doppler",
+    "name": "Doppler",
+    "path": "data/api/consumer/overlays/finish-families/doppler.json",
+    "search_slug": "doppler"
+  },
+  "id": "617",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish/617.json"
+  },
+  "name": "Doppler Black Pearl",
+  "overlay_type": "phase",
+  "pattern_mechanics": [
+    {
+      "canonical_slug": "phase",
+      "group": "rare-patterns",
+      "id": "phase",
+      "name": "Phase",
+      "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+      "search_slug": "phase"
+    }
+  ],
+  "phase_code": "black-pearl",
+  "phase_group": "doppler",
+  "phase_kind": "gem",
+  "phase_name": "Black Pearl",
+  "search_slug": "doppler-black-pearl",
+  "skin_count": 0,
+  "variant_count": 0
+}

@@ -37,6 +37,19 @@
     "ukrainian": "Срібна монета «Остін 2025»",
     "vietnamese": "Huy chương bạc Austin 2025"
   },
+  "market": {
+    "market_constraints": [
+      {
+        "canonical_slug": "cannot-trade",
+        "group": "market-constraints",
+        "id": "cannot-trade",
+        "name": "Cannot Trade",
+        "path": "data/api/consumer/overlays/market-constraints/cannot-trade.json",
+        "search_slug": "cannot-trade"
+      }
+    ],
+    "trade_state": "cannot-trade"
+  },
   "media": {
     "asset_id": "collectible__5112",
     "images": [

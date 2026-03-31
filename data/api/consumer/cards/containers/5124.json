@@ -610,6 +610,10 @@
     "ukrainian": "Сувенірний набір «Остін 2025 — Ancient»",
     "vietnamese": "Gói lưu niệm Ancient | Austin 2025"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__5124",
     "images": [
@@ -733,5 +737,17 @@
       "search_slug": "match-highlight-reel-keychain-bonus"
     }
   ],
-  "tournament_event_id": 24
+  "tournament_event_id": 24,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 1
+  }
 }

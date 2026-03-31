@@ -58,6 +58,10 @@
     "ukrainian": "Набір «Рентген П250»",
     "vietnamese": "Gói X-Ray P250"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4668",
     "images": [
@@ -149,5 +153,13 @@
     "36-125"
   ],
   "special_pools": [],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

@@ -524,6 +524,10 @@
     "ukrainian": "Запечатаний термінал «Генезис»",
     "vietnamese": "Thiết bị đầu nối Genesis (Nguyên bọc)"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__5176",
     "images": [
@@ -633,5 +637,17 @@
     "9-1346"
   ],
   "special_pools": [],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

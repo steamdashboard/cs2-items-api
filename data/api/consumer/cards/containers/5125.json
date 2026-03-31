@@ -508,6 +508,10 @@
     "ukrainian": "Сувенірний набір «Остін 2025 — Nuke»",
     "vietnamese": "Gói lưu niệm Nuke | Austin 2025"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__5125",
     "images": [
@@ -630,5 +634,18 @@
       "search_slug": "match-highlight-reel-keychain-bonus"
     }
   ],
-  "tournament_event_id": 24
+  "tournament_event_id": 24,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 1
+  }
 }

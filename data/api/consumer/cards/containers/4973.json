@@ -555,6 +555,10 @@
     "ukrainian": "Сувенірний набір «Шанхай 2024 — Vertigo»",
     "vietnamese": "Gói lưu niệm Vertigo | Thượng Hải 2024"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4973",
     "images": [
@@ -666,5 +670,18 @@
     "7-1070"
   ],
   "special_pools": [],
-  "tournament_event_id": 23
+  "tournament_event_id": 23,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

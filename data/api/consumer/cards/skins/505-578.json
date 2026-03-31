@@ -42,7 +42,7 @@
     }
   ],
   "canonical_slug": "505-578",
-  "card_type": "weapon-skin",
+  "card_type": "knife",
   "finish": {
     "canonical_slug": "hy-ocean-knife",
     "catalog_id": 578,
@@ -184,6 +184,62 @@
         "source_backed": false
       }
     ]
+  },
+  "trading": {
+    "consumer_type": "knife",
+    "finish_family": null,
+    "float_window": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    },
+    "inspect_ref": {
+      "def_index": 505,
+      "live_item_required": true,
+      "paint_index": 578,
+      "paint_seed_field": null
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 505,
+        "paint_index": 578,
+        "supports_paint_seed_filter": false
+      },
+      "skin_name": "Flip Knife | Bright Water",
+      "variant_ids": [
+        "505-578__normal__battle-scarred",
+        "505-578__normal__factory-new",
+        "505-578__normal__field-tested",
+        "505-578__normal__minimal-wear",
+        "505-578__normal__well-worn",
+        "505-578__stattrak__battle-scarred",
+        "505-578__stattrak__factory-new",
+        "505-578__stattrak__field-tested",
+        "505-578__stattrak__minimal-wear",
+        "505-578__stattrak__well-worn"
+      ]
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
   },
   "variant_ids": [
     "505-578__normal__battle-scarred",

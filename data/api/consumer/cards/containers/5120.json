@@ -508,6 +508,10 @@
     "ukrainian": "Сувенірний набір «Остін 2025 — Inferno»",
     "vietnamese": "Gói lưu niệm Inferno | Austin 2025"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__5120",
     "images": [
@@ -630,5 +634,35 @@
       "search_slug": "match-highlight-reel-keychain-bonus"
     }
   ],
-  "tournament_event_id": 24
+  "tournament_event_id": 24,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "rare_special_item_count": 1
+  }
 }

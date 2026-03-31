@@ -534,6 +534,10 @@
     "ukrainian": "Футляр «Призма 2»",
     "vietnamese": "Hòm Prisma 2"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4695",
     "images": [
@@ -657,5 +661,18 @@
       "search_slug": "set-community-22-unusual"
     }
   ],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 1
+  }
 }

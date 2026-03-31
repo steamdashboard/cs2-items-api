@@ -221,6 +221,10 @@
     "ukrainian": "Сувенірний набір «Колумбус 2016 — Inferno»",
     "vietnamese": "Gói lưu niệm MLG Columbus 2016 Inferno"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4227",
     "images": [
@@ -317,5 +321,15 @@
     "36-15"
   ],
   "special_pools": [],
-  "tournament_event_id": 9
+  "tournament_event_id": 9,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

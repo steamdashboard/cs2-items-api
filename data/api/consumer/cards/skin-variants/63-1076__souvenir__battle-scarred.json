@@ -17,5 +17,61 @@
   "quality_name": "Souvenir",
   "search_slug": "souvenir-cz75-auto-framework-battle-scarred",
   "skin_id": "63-1076",
-  "skin_name": "CZ75-Auto | Framework"
+  "skin_name": "CZ75-Auto | Framework",
+  "trading": {
+    "finish_family": null,
+    "inspect_ref": {
+      "def_index": 63,
+      "live_item_required_fields": [
+        "asset_id",
+        "d_param"
+      ],
+      "paint_index": 1076,
+      "paint_seed_field": null,
+      "quality": "souvenir"
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "consumer_list_path": "data/api/consumer/lists/by-market-hash-name/Souvenir%20CZ75-Auto%20%7C%20Framework%20%28Battle-Scarred%29.json",
+      "csfloat": {
+        "category": {
+          "code": 3,
+          "id": "souvenir"
+        },
+        "def_index": 63,
+        "market_hash_name": "Souvenir CZ75-Auto | Framework (Battle-Scarred)",
+        "max_float": 0.8,
+        "min_float": 0.45,
+        "paint_index": 1076,
+        "supports_paint_seed_filter": false
+      },
+      "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Souvenir%20CZ75-Auto%20%7C%20Framework%20%28Battle-Scarred%29.json",
+      "market_hash_name": "Souvenir CZ75-Auto | Framework (Battle-Scarred)"
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    },
+    "variant_float_window": {
+      "max_float": 0.8,
+      "min_float": 0.45
+    }
+  }
 }

@@ -12,9 +12,9 @@
     "catalog_id": 157,
     "id": 157,
     "localized_names": {
-      "english": "sp_palm"
+      "english": "Palm"
     },
-    "name": "sp_palm",
+    "name": "Palm",
     "rarity_ref": null,
     "style_code": 3,
     "style_name": "Spray-Paint",
@@ -29,36 +29,36 @@
   },
   "id": "17-157",
   "localized_names": {
-    "brazilian": "MAC-10 | sp_palm",
-    "bulgarian": "MAC-10 | sp_palm",
-    "czech": "MAC-10 | sp_palm",
-    "danish": "MAC-10 | sp_palm",
-    "dutch": "MAC-10 | sp_palm",
-    "english": "MAC-10 | sp_palm",
-    "finnish": "MAC-10 | sp_palm",
-    "french": "MAC-10 | sp_palm",
-    "german": "MAC-10 | sp_palm",
-    "greek": "MAC-10 | sp_palm",
-    "hungarian": "MAC-10 | sp_palm",
-    "indonesian": "MAC-10 | sp_palm",
-    "italian": "MAC-10 | sp_palm",
-    "japanese": "MAC-10 | sp_palm",
-    "koreana": "MAC-10 | sp_palm",
-    "latam": "MAC-10 | sp_palm",
-    "norwegian": "MAC-10 | sp_palm",
-    "polish": "MAC-10 | sp_palm",
-    "portuguese": "MAC-10 | sp_palm",
-    "romanian": "MAC-10 | sp_palm",
-    "russian": "MAC-10 | sp_palm",
-    "schinese": "MAC-10 | sp_palm",
-    "schinese_pw": "MAC-10 | sp_palm",
-    "spanish": "MAC-10 | sp_palm",
-    "swedish": "MAC-10 | sp_palm",
-    "tchinese": "MAC-10 | sp_palm",
-    "thai": "MAC-10 | sp_palm",
-    "turkish": "MAC-10 | sp_palm",
-    "ukrainian": "МАК-10 | sp_palm",
-    "vietnamese": "MAC-10 | sp_palm"
+    "brazilian": "MAC-10 | Palm",
+    "bulgarian": "MAC-10 | Palm",
+    "czech": "MAC-10 | Palm",
+    "danish": "MAC-10 | Palm",
+    "dutch": "MAC-10 | Palm",
+    "english": "MAC-10 | Palm",
+    "finnish": "MAC-10 | Palm",
+    "french": "MAC-10 | Palm",
+    "german": "MAC-10 | Palm",
+    "greek": "MAC-10 | Palm",
+    "hungarian": "MAC-10 | Palm",
+    "indonesian": "MAC-10 | Palm",
+    "italian": "MAC-10 | Palm",
+    "japanese": "MAC-10 | Palm",
+    "koreana": "MAC-10 | Palm",
+    "latam": "MAC-10 | Palm",
+    "norwegian": "MAC-10 | Palm",
+    "polish": "MAC-10 | Palm",
+    "portuguese": "MAC-10 | Palm",
+    "romanian": "MAC-10 | Palm",
+    "russian": "MAC-10 | Palm",
+    "schinese": "MAC-10 | Palm",
+    "schinese_pw": "MAC-10 | Palm",
+    "spanish": "MAC-10 | Palm",
+    "swedish": "MAC-10 | Palm",
+    "tchinese": "MAC-10 | Palm",
+    "thai": "MAC-10 | Palm",
+    "turkish": "MAC-10 | Palm",
+    "ukrainian": "МАК-10 | Palm",
+    "vietnamese": "MAC-10 | Palm"
   },
   "media": {
     "asset_id": "skin__17-157",
@@ -83,8 +83,8 @@
       "medium": "panorama/images/econ/default_generated/weapon_mac10_sp_palm_medium_png.vtex_c"
     }
   },
-  "name": "MAC-10 | sp_palm",
-  "search_slug": "mac-10-sp-palm",
+  "name": "MAC-10 | Palm",
+  "search_slug": "mac-10-palm",
   "sources": {
     "capsules": [],
     "cases": [],
@@ -199,6 +199,54 @@
       }
     ],
     "special_pools": []
+  },
+  "trading": {
+    "consumer_type": "weapon-skin",
+    "finish_family": null,
+    "float_window": {
+      "max_float": null,
+      "min_float": null
+    },
+    "inspect_ref": {
+      "def_index": 17,
+      "live_item_required": true,
+      "paint_index": 157,
+      "paint_seed_field": null
+    },
+    "market_constraints": [
+      {
+        "canonical_slug": "live-item-market-state",
+        "group": "market-constraints",
+        "id": "live-item-market-state",
+        "name": "Live Item Market State Required",
+        "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
+        "search_slug": "live-item-market-state-required"
+      }
+    ],
+    "market_query": {
+      "csfloat": {
+        "def_index": 17,
+        "paint_index": 157,
+        "supports_paint_seed_filter": false
+      },
+      "skin_name": "MAC-10 | Palm",
+      "variant_ids": [
+        "17-157__normal__vanilla",
+        "17-157__souvenir__vanilla"
+      ]
+    },
+    "pattern_mechanics": [],
+    "pattern_sensitive": false,
+    "pattern_sensitivity": "none",
+    "phase": null,
+    "supports": {
+      "blue_gem_overlay": false,
+      "fade_overlay": false,
+      "fire_and_ice_overlay": false,
+      "phase_overlay": false,
+      "slaughter_overlay": false,
+      "web_overlay": false
+    }
   },
   "variant_ids": [
     "17-157__normal__vanilla",

@@ -1,0 +1,181 @@
+{
+  "canonical_slug": "blue-gem",
+  "description": "Seed-based blue-dominant patterns that trade at collector overpay tiers.",
+  "example_skins": [
+    {
+      "canonical_slug": "7-44",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "7-44",
+      "name": "AK-47 | Case Hardened",
+      "path": "data/api/consumer/cards/skins/7-44.json",
+      "search_slug": "ak-47-case-hardened"
+    },
+    {
+      "canonical_slug": "500-44",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-44",
+      "name": "Bayonet | Case Hardened",
+      "path": "data/api/consumer/cards/skins/500-44.json",
+      "search_slug": "bayonet-case-hardened"
+    },
+    {
+      "canonical_slug": "514-44",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-44",
+      "name": "Bowie Knife | Case Hardened",
+      "path": "data/api/consumer/cards/skins/514-44.json",
+      "search_slug": "bowie-knife-case-hardened"
+    },
+    {
+      "canonical_slug": "515-44",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-44",
+      "name": "Butterfly Knife | Case Hardened",
+      "path": "data/api/consumer/cards/skins/515-44.json",
+      "search_slug": "butterfly-knife-case-hardened"
+    },
+    {
+      "canonical_slug": "503-44",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-44",
+      "name": "Classic Knife | Case Hardened",
+      "path": "data/api/consumer/cards/skins/503-44.json",
+      "search_slug": "classic-knife-case-hardened"
+    },
+    {
+      "canonical_slug": "1-1054",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "1-1054",
+      "name": "Desert Eagle | Heat Treated",
+      "path": "data/api/consumer/cards/skins/1-1054.json",
+      "search_slug": "desert-eagle-heat-treated"
+    },
+    {
+      "canonical_slug": "512-44",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-44",
+      "name": "Falchion Knife | Case Hardened",
+      "path": "data/api/consumer/cards/skins/512-44.json",
+      "search_slug": "falchion-knife-case-hardened"
+    },
+    {
+      "canonical_slug": "3-44",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "3-44",
+      "name": "Five-SeveN | Case Hardened",
+      "path": "data/api/consumer/cards/skins/3-44.json",
+      "search_slug": "five-seven-case-hardened"
+    },
+    {
+      "canonical_slug": "3-831",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "3-831",
+      "name": "Five-SeveN | Heat Treated",
+      "path": "data/api/consumer/cards/skins/3-831.json",
+      "search_slug": "five-seven-heat-treated"
+    },
+    {
+      "canonical_slug": "505-44",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-44",
+      "name": "Flip Knife | Case Hardened",
+      "path": "data/api/consumer/cards/skins/505-44.json",
+      "search_slug": "flip-knife-case-hardened"
+    },
+    {
+      "canonical_slug": "506-44",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-44",
+      "name": "Gut Knife | Case Hardened",
+      "path": "data/api/consumer/cards/skins/506-44.json",
+      "search_slug": "gut-knife-case-hardened"
+    },
+    {
+      "canonical_slug": "509-44",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-44",
+      "name": "Huntsman Knife | Case Hardened",
+      "path": "data/api/consumer/cards/skins/509-44.json",
+      "search_slug": "huntsman-knife-case-hardened"
+    }
+  ],
+  "finish_count": 4,
+  "finish_families": [
+    {
+      "canonical_slug": "case-hardened",
+      "group": "finish-families",
+      "id": "case-hardened",
+      "name": "Case Hardened",
+      "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+      "search_slug": "case-hardened"
+    },
+    {
+      "canonical_slug": "heat-treated",
+      "group": "finish-families",
+      "id": "heat-treated",
+      "name": "Heat Treated",
+      "path": "data/api/consumer/overlays/finish-families/heat-treated.json",
+      "search_slug": "heat-treated"
+    }
+  ],
+  "finishes": [
+    {
+      "canonical_slug": "aq-oiled",
+      "group": "finishes",
+      "id": "44",
+      "name": "Case Hardened",
+      "path": "data/api/reference/finishes/44.json",
+      "search_slug": "case-hardened"
+    },
+    {
+      "canonical_slug": "aq-case-hardened-fiveseven",
+      "group": "finishes",
+      "id": "831",
+      "name": "Heat Treated",
+      "path": "data/api/reference/finishes/831.json",
+      "search_slug": "heat-treated"
+    },
+    {
+      "canonical_slug": "aq-deagle-case-hardened-2",
+      "group": "finishes",
+      "id": "1054",
+      "name": "Heat Treated",
+      "path": "data/api/reference/finishes/1054.json",
+      "search_slug": "heat-treated"
+    },
+    {
+      "canonical_slug": "bloodhound-hydra-case-hardened",
+      "group": "finishes",
+      "id": "10060",
+      "name": "Case Hardened",
+      "path": "data/api/reference/finishes/10060.json",
+      "search_slug": "case-hardened"
+    }
+  ],
+  "id": "blue-gem",
+  "knowledge_source": "community-trading-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-pattern-mechanic/blue-gem.json"
+  },
+  "live_item_requirements": [
+    "paint_seed",
+    "inspect_link"
+  ],
+  "name": "Blue Gem",
+  "overlay_type": "rare-pattern",
+  "search_slug": "blue-gem",
+  "skin_count": 26,
+  "variant_count": 241
+}

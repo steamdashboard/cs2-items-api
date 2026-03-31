@@ -221,6 +221,10 @@
     "ukrainian": "Сувенірний набір «ESL One Кельн 2015 — Inferno»",
     "vietnamese": "Gói lưu niệm ESL One Cologne 2015 Inferno"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4133",
     "images": [
@@ -317,5 +321,15 @@
     "36-15"
   ],
   "special_pools": [],
-  "tournament_event_id": 7
+  "tournament_event_id": 7,
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

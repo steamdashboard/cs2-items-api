@@ -441,6 +441,10 @@
     "ukrainian": "Сувенірний набір «Берлін 2019 — Overpass»",
     "vietnamese": "Gói lưu niệm Berlin 2019 Overpass"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4663",
     "images": [
@@ -546,5 +550,18 @@
     "9-84"
   ],
   "special_pools": [],
-  "tournament_event_id": 16
+  "tournament_event_id": 16,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

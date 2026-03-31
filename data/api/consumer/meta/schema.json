@@ -9,11 +9,17 @@
     "collections": "data/api/consumer/browse/collections.json",
     "containers": "data/api/consumer/browse/containers.json",
     "equipment": "data/api/consumer/browse/equipment.json",
+    "finish-families": "data/api/consumer/browse/finish-families.json",
+    "gloves": "data/api/consumer/browse/gloves.json",
     "graffiti": "data/api/consumer/browse/graffiti.json",
     "home": "data/api/consumer/browse/home.json",
+    "knives": "data/api/consumer/browse/knives.json",
+    "market-constraints": "data/api/consumer/browse/market-constraints.json",
     "music-kits": "data/api/consumer/browse/music-kits.json",
     "patches": "data/api/consumer/browse/patches.json",
+    "phases": "data/api/consumer/browse/phases.json",
     "players": "data/api/consumer/browse/players.json",
+    "rare-patterns": "data/api/consumer/browse/rare-patterns.json",
     "skins": "data/api/consumer/browse/skins.json",
     "souvenir-packages": "data/api/consumer/browse/souvenir-packages.json",
     "special-pools": "data/api/consumer/browse/special-pools.json",
@@ -21,6 +27,7 @@
     "teams": "data/api/consumer/browse/teams.json",
     "tools": "data/api/consumer/browse/tools.json",
     "tournaments": "data/api/consumer/browse/tournaments.json",
+    "trading": "data/api/consumer/browse/trading.json",
     "weapons": "data/api/consumer/browse/weapons.json"
   },
   "cards": {
@@ -46,16 +53,27 @@
     "tournaments": "data/api/consumer/cards/tournaments/<id>.json",
     "weapons": "data/api/consumer/cards/weapons/<id>.json"
   },
-  "generated_at": "2026-03-31T15:09:35.187576+00:00",
+  "generated_at": "2026-03-31T16:07:53.621461+00:00",
   "lists": {
     "by-canonical-slug": "data/api/consumer/lists/by-canonical-slug/<key>.json",
     "by-case": "data/api/consumer/lists/by-case/<key>.json",
     "by-collection": "data/api/consumer/lists/by-collection/<key>.json",
+    "by-exterior": "data/api/consumer/lists/by-exterior/<key>.json",
     "by-finish": "data/api/consumer/lists/by-finish/<key>.json",
+    "by-finish-family": "data/api/consumer/lists/by-finish-family/<key>.json",
+    "by-market-constraint": "data/api/consumer/lists/by-market-constraint/<key>.json",
     "by-market-hash-name": "data/api/consumer/lists/by-market-hash-name/<key>.json",
+    "by-pattern-mechanic": "data/api/consumer/lists/by-pattern-mechanic/<key>.json",
+    "by-quality": "data/api/consumer/lists/by-quality/<key>.json",
     "by-search-slug": "data/api/consumer/lists/by-search-slug/<key>.json",
     "by-side": "data/api/consumer/lists/by-side/<key>.json",
     "by-type": "data/api/consumer/lists/by-type/<key>.json",
     "by-weapon": "data/api/consumer/lists/by-weapon/<key>.json"
+  },
+  "overlays": {
+    "finish-families": "data/api/consumer/overlays/finish-families/<id>.json",
+    "market-constraints": "data/api/consumer/overlays/market-constraints/<id>.json",
+    "phases": "data/api/consumer/overlays/phases/<id>.json",
+    "rare-patterns": "data/api/consumer/overlays/rare-patterns/<id>.json"
   }
 }

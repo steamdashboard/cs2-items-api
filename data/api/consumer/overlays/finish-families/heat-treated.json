@@ -1,0 +1,77 @@
+{
+  "canonical_slug": "heat-treated",
+  "confidence": "medium",
+  "description": "Case-Hardened-adjacent family tracked by the community for blue-dominant, seed-driven overpay patterns.",
+  "example_skins": [
+    {
+      "canonical_slug": "1-1054",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "1-1054",
+      "name": "Desert Eagle | Heat Treated",
+      "path": "data/api/consumer/cards/skins/1-1054.json",
+      "search_slug": "desert-eagle-heat-treated"
+    },
+    {
+      "canonical_slug": "3-831",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "3-831",
+      "name": "Five-SeveN | Heat Treated",
+      "path": "data/api/consumer/cards/skins/3-831.json",
+      "search_slug": "five-seven-heat-treated"
+    }
+  ],
+  "finish_count": 2,
+  "finishes": [
+    {
+      "canonical_slug": "aq-case-hardened-fiveseven",
+      "group": "finishes",
+      "id": "831",
+      "name": "Heat Treated",
+      "path": "data/api/reference/finishes/831.json",
+      "search_slug": "heat-treated"
+    },
+    {
+      "canonical_slug": "aq-deagle-case-hardened-2",
+      "group": "finishes",
+      "id": "1054",
+      "name": "Heat Treated",
+      "path": "data/api/reference/finishes/1054.json",
+      "search_slug": "heat-treated"
+    }
+  ],
+  "id": "heat-treated",
+  "knowledge_source": "community-trading-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/heat-treated.json"
+  },
+  "name": "Heat Treated",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": true,
+  "pattern_sensitivity": "high",
+  "primary_mechanics": [
+    {
+      "canonical_slug": "blue-gem",
+      "group": "rare-patterns",
+      "id": "blue-gem",
+      "name": "Blue Gem",
+      "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+      "search_slug": "blue-gem"
+    }
+  ],
+  "search_slug": "heat-treated",
+  "skin_count": 2,
+  "supports": {
+    "blue_gem_overlay": true,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 10,
+  "weapon_groups": [
+    "pistol"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "canonical_slug": "emerald-web",
+  "confidence": "medium",
+  "description": "Glove family where web placement remains pattern-sensitive and clean symmetry can matter to collectors.",
+  "example_skins": [
+    {
+      "canonical_slug": "5034-10034",
+      "card_type": "glove",
+      "group": "skins",
+      "id": "5034-10034",
+      "name": "Specialist Gloves | Emerald Web",
+      "path": "data/api/consumer/cards/skins/5034-10034.json",
+      "search_slug": "specialist-gloves-emerald-web"
+    }
+  ],
+  "finish_count": 1,
+  "finishes": [
+    {
+      "canonical_slug": "specialist-emerald-web",
+      "group": "finishes",
+      "id": "10034",
+      "name": "Emerald Web",
+      "path": "data/api/reference/finishes/10034.json",
+      "search_slug": "emerald-web"
+    }
+  ],
+  "id": "emerald-web",
+  "knowledge_source": "community-trading-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/emerald-web.json"
+  },
+  "name": "Emerald Web",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": true,
+  "pattern_sensitivity": "high",
+  "primary_mechanics": [
+    {
+      "canonical_slug": "web-placement",
+      "group": "rare-patterns",
+      "id": "web-placement",
+      "name": "Web Placement",
+      "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+      "search_slug": "web-placement"
+    }
+  ],
+  "search_slug": "emerald-web",
+  "skin_count": 1,
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": true
+  },
+  "variant_count": 1,
+  "weapon_groups": [
+    "glove"
+  ]
+}

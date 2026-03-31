@@ -36,6 +36,19 @@
     "ukrainian": "Золота нагорода змагання «Fantasy Team» на «Columbus 2016»",
     "vietnamese": "Huy hiệu vàng đội tuyển trong mơ - Columbus 2016"
   },
+  "market": {
+    "market_constraints": [
+      {
+        "canonical_slug": "cannot-trade",
+        "group": "market-constraints",
+        "id": "cannot-trade",
+        "name": "Cannot Trade",
+        "path": "data/api/consumer/overlays/market-constraints/cannot-trade.json",
+        "search_slug": "cannot-trade"
+      }
+    ],
+    "trade_state": "cannot-trade"
+  },
   "media": {
     "asset_id": "collectible__926",
     "images": [

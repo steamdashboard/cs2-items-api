@@ -534,6 +534,10 @@
     "ukrainian": "Запечатаний термінал «Мертва рука»",
     "vietnamese": "Thiết bị đầu nối Dead Hand (Nguyên bọc)"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__5181",
     "images": [
@@ -655,5 +659,18 @@
       "search_slug": "set-community-37-unusual"
     }
   ],
-  "tournament_event_id": null
+  "tournament_event_id": null,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 1
+  }
 }

@@ -441,6 +441,10 @@
     "ukrainian": "Сувенірний набір «Копенгаген 2024 — Overpass»",
     "vietnamese": "Gói lưu niệm Overpass | Copenhagen 2024"
   },
+  "market": {
+    "market_constraints": [],
+    "trade_state": "not-explicit"
+  },
   "media": {
     "asset_id": "container__4929",
     "images": [
@@ -548,5 +552,18 @@
     "9-84"
   ],
   "special_pools": [],
-  "tournament_event_id": 22
+  "tournament_event_id": 22,
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }
