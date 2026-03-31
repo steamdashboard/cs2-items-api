@@ -156,3 +156,110 @@ Key entrypoints:
 - `data/api/media/rendered/manifests/skins/<skin_id>.json`: rendered skin preview manifest
 - `data/api/media/rendered/manifests/skin-variants/<variant_id>.json`: rendered skin variant manifest
 - `data/api/media/rendered/files/<entity_group>/<id>/<name>.png`: semantic PNG preview file
+
+## Consuming Over Raw GitHub
+
+The generated dataset can be consumed directly from GitHub raw URLs.
+
+Base URLs:
+
+- repository: `https://github.com/steamdashboard/cs2-items-api`
+- raw root: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main`
+- API root: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api`
+
+If you need immutable responses, replace `main` with a commit SHA or tag instead of following the moving branch tip.
+
+Useful raw URLs:
+
+- schema: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/meta/schema.json`
+- consumer discovery: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/meta/discovery.json`
+- sample skin card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/skins/1-37.json`
+- sample case card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/cases/4001.json`
+- sample skin variant: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/reference/skin-variants/1-37__normal__factory-new.json`
+- sample slug index: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/graph/indexes/by-slug/desert-eagle-blaze.json`
+- sample rendered PNG: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/media/rendered/files/skins/1-37/light.png`
+
+### `curl`
+
+Fetch the discovery document:
+
+```bash
+curl -L \
+  https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/meta/discovery.json
+```
+
+Fetch a skin card:
+
+```bash
+curl -L \
+  https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/skins/1-37.json
+```
+
+Fetch a case card:
+
+```bash
+curl -L \
+  https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/cases/4001.json
+```
+
+### JavaScript / TypeScript
+
+```ts
+const API_ROOT =
+  "https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api";
+
+const discovery = await fetch(`${API_ROOT}/consumer/meta/discovery.json`).then((res) =>
+  res.json(),
+);
+
+const skin = await fetch(`${API_ROOT}/consumer/cards/skins/1-37.json`).then((res) =>
+  res.json(),
+);
+
+console.log(discovery.counts.skins);
+console.log(skin.name);
+console.log(skin.media.primary_image_png);
+```
+
+Resolve a slug to an entity ID, then fetch the page-ready card:
+
+```ts
+const API_ROOT =
+  "https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api";
+
+const slugIndex = await fetch(
+  `${API_ROOT}/graph/indexes/by-slug/desert-eagle-blaze.json`,
+).then((res) => res.json());
+
+const skinId = slugIndex.items.find((item: { kind: string; id: string }) => item.kind === "skin")?.id;
+
+if (skinId) {
+  const skin = await fetch(`${API_ROOT}/consumer/cards/skins/${skinId}.json`).then((res) =>
+    res.json(),
+  );
+  console.log(skin.name);
+}
+```
+
+### Python
+
+```python
+import requests
+
+API_ROOT = "https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api"
+
+discovery = requests.get(f"{API_ROOT}/consumer/meta/discovery.json", timeout=30).json()
+skin = requests.get(f"{API_ROOT}/consumer/cards/skins/1-37.json", timeout=30).json()
+
+print(discovery["counts"]["skins"])
+print(skin["name"])
+print(skin["media"]["primary_image_png"])
+```
+
+### Common Access Patterns
+
+- Start with `consumer/meta/discovery.json` to learn the main entrypoints and current counts.
+- Use `consumer/cards/*` when you want page-ready objects for apps, sites, or bots.
+- Use `reference/*` when you want canonical normalized entities and stable IDs.
+- Use `graph/indexes/*` to resolve by slug, rarity, weapon, collection, tournament, and other lookup dimensions.
+- Use `media/rendered/files/*` when you need a direct PNG URL for display.
