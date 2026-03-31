@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "60-257",
   "finish": {
     "codename": "cu_m4a1-s_elegant",
     "id": 257,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-community-1",
         "id": "set_community_1",
-        "name": "The Winter Offensive Collection"
+        "name": "The Winter Offensive Collection",
+        "search_slug": "the-winter-offensive-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-1",
         "flags": [],
         "id": "4009",
         "kind": "weapon-case",
         "name": "Winter Offensive Weapon Case",
+        "search_slug": "winter-offensive-weapon-case",
         "tier": "legendary"
       }
     ]

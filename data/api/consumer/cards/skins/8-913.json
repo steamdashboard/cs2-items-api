@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "8-913",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-aug-death-by-doggy",
     "catalog_id": 913,
     "id": 913,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-24",
         "flags": [],
         "id": "4669",
         "kind": "weapon-case",
         "name": "CS20 Case",
+        "search_slug": "cs20-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-24",
         "id": "set_community_24",
-        "name": "The CS20 Collection"
+        "name": "The CS20 Collection",
+        "search_slug": "the-cs20-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "8-913__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-aug",
     "id": 8,
     "localized_names": {
       "brazilian": "AUG",

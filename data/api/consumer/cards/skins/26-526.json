@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "26-526",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-bizon-citizen",
     "catalog_id": 526,
     "id": 526,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-11",
         "flags": [],
         "id": "4187",
         "kind": "weapon-case",
         "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-11",
         "id": "set_community_11",
-        "name": "The Wildfire Collection"
+        "name": "The Wildfire Collection",
+        "search_slug": "the-wildfire-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "26-526__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-bizon",
     "id": 26,
     "localized_names": {
       "brazilian": "PP-Bizon",

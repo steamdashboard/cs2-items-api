@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "10-904",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-famas-nuke-tension",
     "catalog_id": 904,
     "id": 904,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-24",
         "flags": [],
         "id": "4669",
         "kind": "weapon-case",
         "name": "CS20 Case",
+        "search_slug": "cs20-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-24",
         "id": "set_community_24",
-        "name": "The CS20 Collection"
+        "name": "The CS20 Collection",
+        "search_slug": "the-cs20-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "10-904__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-famas",
     "id": 10,
     "localized_names": {
       "brazilian": "FAMAS",

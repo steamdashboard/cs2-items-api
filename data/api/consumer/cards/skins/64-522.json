@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "64-522",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aa-fade-revolver",
     "catalog_id": 522,
     "id": 522,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-10",
         "flags": [],
         "id": "4186",
         "kind": "weapon-case",
         "name": "Revolver Case",
+        "search_slug": "revolver-case",
         "tier": "ancient"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-10",
         "id": "set_community_10",
-        "name": "The Revolver Case Collection"
+        "name": "The Revolver Case Collection",
+        "search_slug": "the-revolver-case-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "64-522__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-revolver",
     "id": 64,
     "localized_names": {
       "brazilian": "Revólver R8",

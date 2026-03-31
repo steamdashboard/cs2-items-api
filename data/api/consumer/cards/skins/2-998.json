@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "2-998",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-numbers-green",
     "catalog_id": 998,
     "id": 998,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-ct",
         "id": "set_op10_ct",
-        "name": "The Control Collection"
+        "name": "The Control Collection",
+        "search_slug": "the-control-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-ct",
         "flags": [],
         "id": "4720",
         "kind": "container",
         "name": "The Control Collection",
+        "search_slug": "the-control-collection",
         "tier": "uncommon"
       }
     ],
@@ -172,6 +178,7 @@
     "2-998__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-elite",
     "id": 2,
     "localized_names": {
       "brazilian": "Berettas Duplas",

@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "24-392",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-ump45-d-visions",
     "catalog_id": 392,
     "id": 392,
     "localized_names": {
@@ -134,17 +136,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-operation-vanguard",
         "flags": [],
         "id": "4029",
         "kind": "weapon-case",
         "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-5",
         "id": "set_community_5",
-        "name": "The Vanguard Collection"
+        "name": "The Vanguard Collection",
+        "search_slug": "the-vanguard-collection"
       }
     ],
     "containers": [],
@@ -159,6 +165,7 @@
     "24-392__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ump45",
     "id": 24,
     "localized_names": {
       "brazilian": "UMP-45",

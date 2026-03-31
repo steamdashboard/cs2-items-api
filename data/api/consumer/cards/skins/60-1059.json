@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "60-1059",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-technowar-red",
     "catalog_id": 1059,
     "id": 1059,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2021",
         "id": "set_train_2021",
-        "name": "The 2021 Train Collection"
+        "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-train-2021-rare-standalone",
         "flags": [],
         "id": "4785",
         "kind": "container",
         "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection",
         "tier": "rare"
       }
     ],
@@ -172,6 +178,7 @@
     "60-1059__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

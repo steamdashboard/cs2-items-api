@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "19-1154",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-p90-tangled",
     "catalog_id": 1154,
     "id": 1154,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-31",
         "flags": [],
         "id": "4846",
         "kind": "weapon-case",
         "name": "Recoil Case",
+        "search_slug": "recoil-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-31",
         "id": "set_community_31",
-        "name": "The Recoil Collection"
+        "name": "The Recoil Collection",
+        "search_slug": "the-recoil-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "19-1154__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-p90",
     "id": 19,
     "localized_names": {
       "brazilian": "P90",

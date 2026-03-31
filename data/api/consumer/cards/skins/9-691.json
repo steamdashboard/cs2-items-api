@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "9-691",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-awp-death",
     "catalog_id": 691,
     "id": 691,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-19",
         "flags": [],
         "id": "4471",
         "kind": "weapon-case",
         "name": "Clutch Case",
+        "search_slug": "clutch-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-19",
         "id": "set_community_19",
-        "name": "The Clutch Collection"
+        "name": "The Clutch Collection",
+        "search_slug": "the-clutch-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "9-691__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-awp",
     "id": 9,
     "localized_names": {
       "brazilian": "AWP",

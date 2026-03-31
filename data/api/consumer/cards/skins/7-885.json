@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-885",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-ak47-nibbler",
     "catalog_id": 885,
     "id": 885,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-23",
         "flags": [],
         "id": "4620",
         "kind": "weapon-case",
         "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-23",
         "id": "set_community_23",
-        "name": "The Shattered Web Collection"
+        "name": "The Shattered Web Collection",
+        "search_slug": "the-shattered-web-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "7-885__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

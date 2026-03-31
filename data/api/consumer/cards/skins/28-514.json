@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "28-514",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-negev-impact",
     "catalog_id": 514,
     "id": 514,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-10",
         "flags": [],
         "id": "4186",
         "kind": "weapon-case",
         "name": "Revolver Case",
+        "search_slug": "revolver-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-10",
         "id": "set_community_10",
-        "name": "The Revolver Case Collection"
+        "name": "The Revolver Case Collection",
+        "search_slug": "the-revolver-case-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "28-514__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-negev",
     "id": 28,
     "localized_names": {
       "brazilian": "Negev",

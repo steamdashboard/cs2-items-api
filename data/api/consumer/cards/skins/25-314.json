@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "25-314",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-xm1014-heaven-guard",
     "catalog_id": 314,
     "id": 314,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-3",
         "flags": [],
         "id": "4017",
         "kind": "weapon-case",
         "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-3",
         "id": "set_community_3",
-        "name": "The Huntsman Collection"
+        "name": "The Huntsman Collection",
+        "search_slug": "the-huntsman-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "25-314__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-xm1014",
     "id": 25,
     "localized_names": {
       "brazilian": "XM1014",

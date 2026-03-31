@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "33-536",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-mp7-impire",
     "catalog_id": 536,
     "id": 536,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-11",
         "flags": [],
         "id": "4187",
         "kind": "weapon-case",
         "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-11",
         "id": "set_community_11",
-        "name": "The Wildfire Collection"
+        "name": "The Wildfire Collection",
+        "search_slug": "the-wildfire-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "33-536__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp7",
     "id": 33,
     "localized_names": {
       "brazilian": "MP7",

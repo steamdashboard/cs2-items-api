@@ -34,8 +34,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "28-610",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-negev-dazzle",
     "catalog_id": 610,
     "id": 610,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-gamma-2",
         "flags": [],
         "id": "4281",
         "kind": "weapon-case",
         "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-gamma-2",
         "id": "set_gamma_2",
-        "name": "The Gamma 2 Collection"
+        "name": "The Gamma 2 Collection",
+        "search_slug": "the-gamma-2-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "28-610__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-negev",
     "id": 28,
     "localized_names": {
       "brazilian": "Negev",

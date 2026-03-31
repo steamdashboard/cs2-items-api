@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "33-500",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-mp7-classified",
     "catalog_id": 500,
     "id": 500,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-9",
         "flags": [],
         "id": "4138",
         "kind": "weapon-case",
         "name": "Shadow Case",
+        "search_slug": "shadow-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-9",
         "id": "set_community_9",
-        "name": "The Shadow Collection"
+        "name": "The Shadow Collection",
+        "search_slug": "the-shadow-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "33-500__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp7",
     "id": 33,
     "localized_names": {
       "brazilian": "MP7",

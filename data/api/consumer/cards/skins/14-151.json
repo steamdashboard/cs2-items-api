@@ -5,8 +5,10 @@
     "stattrak": false
   },
   "available_exteriors": [],
+  "canonical_slug": "14-151",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "so-jungle",
     "catalog_id": 151,
     "id": 151,
     "localized_names": {
@@ -113,16 +115,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-stmarc",
         "id": "set_stmarc",
-        "name": "The St. Marc Collection"
+        "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-stmarc",
         "flags": [],
         "id": "4612",
         "kind": "container",
         "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection",
         "tier": null
       }
     ],
@@ -132,6 +138,7 @@
     "14-151__normal__vanilla"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m249",
     "id": 14,
     "localized_names": {
       "brazilian": "M249",

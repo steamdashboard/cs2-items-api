@@ -4,6 +4,7 @@
     "souvenir": true,
     "stattrak": false
   },
+  "canonical_slug": "25-135",
   "finish": {
     "codename": "sp_tape_dots_urban",
     "id": 135,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-vertigo",
         "id": "set_vertigo",
-        "name": "The Vertigo Collection"
+        "name": "The Vertigo Collection",
+        "search_slug": "the-vertigo-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-berlin2019-promo-de-vertigo",
         "flags": [],
         "id": "4666",
         "kind": "souvenir-package",
         "name": "Berlin 2019 Vertigo Souvenir Package",
+        "search_slug": "berlin-2019-vertigo-souvenir-package",
         "tier": null
       }
     ]

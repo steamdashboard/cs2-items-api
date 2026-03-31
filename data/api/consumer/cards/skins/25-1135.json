@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "25-1135",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-xm-zombie-offensive",
     "catalog_id": 1135,
     "id": 1135,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-30",
         "flags": [],
         "id": "4818",
         "kind": "weapon-case",
         "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-30",
         "id": "set_community_30",
-        "name": "The Dreams & Nightmares Collection"
+        "name": "The Dreams & Nightmares Collection",
+        "search_slug": "the-dreams-nightmares-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "25-1135__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-xm1014",
     "id": 25,
     "localized_names": {
       "brazilian": "XM1014",

@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "25-706",
   "finish": {
     "codename": "cu_xm1014_oxide_blaze",
     "id": 706,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-community-19",
         "id": "set_community_19",
-        "name": "The Clutch Collection"
+        "name": "The Clutch Collection",
+        "search_slug": "the-clutch-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-19",
         "flags": [],
         "id": "4471",
         "kind": "weapon-case",
         "name": "Clutch Case",
+        "search_slug": "clutch-case",
         "tier": "rare"
       }
     ]

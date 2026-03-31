@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "11-1129",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-g3sg1-glade",
     "catalog_id": 1129,
     "id": 1129,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-30",
         "flags": [],
         "id": "4818",
         "kind": "weapon-case",
         "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-30",
         "id": "set_community_30",
-        "name": "The Dreams & Nightmares Collection"
+        "name": "The Dreams & Nightmares Collection",
+        "search_slug": "the-dreams-nightmares-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "11-1129__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-g3sg1",
     "id": 11,
     "localized_names": {
       "brazilian": "G3SG1",

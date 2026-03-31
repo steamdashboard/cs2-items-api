@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "32-1224",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-p2000-decline",
     "catalog_id": 1224,
     "id": 1224,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-32",
         "flags": [],
         "id": "4880",
         "kind": "weapon-case",
         "name": "Revolution Case",
+        "search_slug": "revolution-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-32",
         "id": "set_community_32",
-        "name": "The Revolution Collection"
+        "name": "The Revolution Collection",
+        "search_slug": "the-revolution-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "32-1224__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-hkp2000",
     "id": 32,
     "localized_names": {
       "brazilian": "P2000",

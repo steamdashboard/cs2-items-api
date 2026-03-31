@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-44",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aq-oiled",
     "catalog_id": 44,
     "id": 44,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-1",
         "flags": [],
         "id": "4001",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case",
+        "search_slug": "cs-go-weapon-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-i",
         "id": "set_weapons_i",
-        "name": "The Arms Deal Collection"
+        "name": "The Arms Deal Collection",
+        "search_slug": "the-arms-deal-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "7-44__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

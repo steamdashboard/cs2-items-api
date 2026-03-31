@@ -5,8 +5,10 @@
     "stattrak": true
   },
   "available_exteriors": [],
+  "canonical_slug": "40-222",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-shark",
     "catalog_id": 222,
     "id": 222,
     "localized_names": {
@@ -112,17 +114,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-2",
         "flags": [],
         "id": "4004",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
         "tier": "ancient"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-ii",
         "id": "set_weapons_ii",
-        "name": "The Arms Deal 2 Collection"
+        "name": "The Arms Deal 2 Collection",
+        "search_slug": "the-arms-deal-2-collection"
       }
     ],
     "containers": [],
@@ -133,6 +139,7 @@
     "40-222__stattrak__vanilla"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ssg08",
     "id": 40,
     "localized_names": {
       "brazilian": "SSG 08",

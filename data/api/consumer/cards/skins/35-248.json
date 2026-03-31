@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "35-248",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-crystallized",
     "catalog_id": 248,
     "id": 248,
     "localized_names": {
@@ -142,16 +144,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2021",
         "id": "set_train_2021",
-        "name": "The 2021 Train Collection"
+        "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-train-2021-mythical-standalone",
         "flags": [],
         "id": "4786",
         "kind": "container",
         "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection",
         "tier": "mythical"
       }
     ],
@@ -164,6 +170,7 @@
     "35-248__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-nova",
     "id": 35,
     "localized_names": {
       "brazilian": "Nova",

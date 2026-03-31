@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "38-298",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-army-shine",
     "catalog_id": 298,
     "id": 298,
     "localized_names": {
@@ -135,16 +137,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-chopshop",
         "id": "set_chopshop",
-        "name": "The Chop Shop Collection"
+        "name": "The Chop Shop Collection",
+        "search_slug": "the-chop-shop-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-chopshop",
         "flags": [],
         "id": "4605",
         "kind": "container",
         "name": "The Chop Shop Collection",
+        "search_slug": "the-chop-shop-collection",
         "tier": null
       }
     ],
@@ -156,6 +162,7 @@
     "38-298__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-scar20",
     "id": 38,
     "localized_names": {
       "brazilian": "SCAR-20",

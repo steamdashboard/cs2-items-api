@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "3-223",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-flowers",
     "catalog_id": 223,
     "id": 223,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-esports-2013-winter",
         "flags": [],
         "id": "4005",
         "kind": "weapon-case",
         "name": "eSports 2013 Winter Case",
+        "search_slug": "esports-2013-winter-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-esports-ii",
         "id": "set_esports_ii",
-        "name": "The eSports 2013 Winter Collection"
+        "name": "The eSports 2013 Winter Collection",
+        "search_slug": "the-esports-2013-winter-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "3-223__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-fiveseven",
     "id": 3,
     "localized_names": {
       "brazilian": "Five-SeveN",

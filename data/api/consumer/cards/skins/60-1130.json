@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "60-1130",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-m4a1s-insomnia",
     "catalog_id": 1130,
     "id": 1130,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-30",
         "flags": [],
         "id": "4818",
         "kind": "weapon-case",
         "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-30",
         "id": "set_community_30",
-        "name": "The Dreams & Nightmares Collection"
+        "name": "The Dreams & Nightmares Collection",
+        "search_slug": "the-dreams-nightmares-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "60-1130__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "39-966",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-sg553-rusty",
     "catalog_id": 966,
     "id": 966,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-26",
         "flags": [],
         "id": "4698",
         "kind": "weapon-case",
         "name": "Fracture Case",
+        "search_slug": "fracture-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-26",
         "id": "set_community_26",
-        "name": "The Fracture Collection"
+        "name": "The Fracture Collection",
+        "search_slug": "the-fracture-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "39-966__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-sg556",
     "id": 39,
     "localized_names": {
       "brazilian": "SG 553",

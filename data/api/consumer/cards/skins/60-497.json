@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "60-497",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-m4a1s-snakebite-gold",
     "catalog_id": 497,
     "id": 497,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-9",
         "flags": [],
         "id": "4138",
         "kind": "weapon-case",
         "name": "Shadow Case",
+        "search_slug": "shadow-case",
         "tier": "ancient"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-9",
         "id": "set_community_9",
-        "name": "The Shadow Collection"
+        "name": "The Shadow Collection",
+        "search_slug": "the-shadow-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "60-497__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

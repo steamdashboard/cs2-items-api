@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "61-339",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-kaiman",
     "catalog_id": 339,
     "id": 339,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-3",
         "flags": [],
         "id": "4017",
         "kind": "weapon-case",
         "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-3",
         "id": "set_community_3",
-        "name": "The Huntsman Collection"
+        "name": "The Huntsman Collection",
+        "search_slug": "the-huntsman-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "61-339__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-usp-silencer",
     "id": 61,
     "localized_names": {
       "brazilian": "USP-S",

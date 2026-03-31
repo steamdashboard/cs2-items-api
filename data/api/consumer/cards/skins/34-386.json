@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "34-386",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-mp9-chevron",
     "catalog_id": 386,
     "id": 386,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-operation-vanguard",
         "flags": [],
         "id": "4029",
         "kind": "weapon-case",
         "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-5",
         "id": "set_community_5",
-        "name": "The Vanguard Collection"
+        "name": "The Vanguard Collection",
+        "search_slug": "the-vanguard-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "34-386__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp9",
     "id": 34,
     "localized_names": {
       "brazilian": "MP9",

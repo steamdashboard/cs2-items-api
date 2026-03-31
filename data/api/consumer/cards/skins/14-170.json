@@ -5,8 +5,10 @@
     "stattrak": false
   },
   "available_exteriors": [],
+  "canonical_slug": "14-170",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-zebracam",
     "catalog_id": 170,
     "id": 170,
     "localized_names": {
@@ -113,16 +115,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-t",
         "id": "set_op10_t",
-        "name": "The Havoc Collection"
+        "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-t",
         "flags": [],
         "id": "4721",
         "kind": "container",
         "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection",
         "tier": null
       }
     ],
@@ -132,6 +138,7 @@
     "14-170__normal__vanilla"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m249",
     "id": 14,
     "localized_names": {
       "brazilian": "M249",

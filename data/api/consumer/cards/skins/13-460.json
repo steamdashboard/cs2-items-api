@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "13-460",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-geometric-steps",
     "catalog_id": 460,
     "id": 460,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-kimono",
         "id": "set_kimono",
-        "name": "The Rising Sun Collection"
+        "name": "The Rising Sun Collection",
+        "search_slug": "the-rising-sun-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-kimono",
         "flags": [],
         "id": "4606",
         "kind": "container",
         "name": "The Rising Sun Collection",
+        "search_slug": "the-rising-sun-collection",
         "tier": "rare"
       }
     ],
@@ -172,6 +178,7 @@
     "13-460__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-galilar",
     "id": 13,
     "localized_names": {
       "brazilian": "Galil AR",

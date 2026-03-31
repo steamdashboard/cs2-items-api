@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "33-1436",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "mp7-amberline",
     "catalog_id": 1436,
     "id": 1436,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-community-37",
         "id": "set_community_37",
-        "name": "The Dead Hand Collection"
+        "name": "The Dead Hand Collection",
+        "search_slug": "the-dead-hand-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-37",
         "flags": [],
         "id": "5181",
         "kind": "container",
         "name": "Sealed Dead Hand Terminal",
+        "search_slug": "sealed-dead-hand-terminal",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "33-1436__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp7",
     "id": 33,
     "localized_names": {
       "brazilian": "MP7",

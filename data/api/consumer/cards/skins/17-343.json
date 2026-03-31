@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "17-343",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-luggage-mac10",
     "catalog_id": 343,
     "id": 343,
     "localized_names": {
@@ -149,8 +151,10 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-baggage",
         "id": "set_baggage",
-        "name": "The Baggage Collection"
+        "name": "The Baggage Collection",
+        "search_slug": "the-baggage-collection"
       }
     ],
     "containers": [],
@@ -164,6 +168,7 @@
     "17-343__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mac10",
     "id": 17,
     "localized_names": {
       "brazilian": "MAC-10",

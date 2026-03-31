@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "34-867",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-stained-glass",
     "catalog_id": 867,
     "id": 867,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-canals",
         "id": "set_canals",
-        "name": "The Canals Collection"
+        "name": "The Canals Collection",
+        "search_slug": "the-canals-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-canals",
         "flags": [],
         "id": "4608",
         "kind": "container",
         "name": "The Canals Collection",
+        "search_slug": "the-canals-collection",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "34-867__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp9",
     "id": 34,
     "localized_names": {
       "brazilian": "MP9",

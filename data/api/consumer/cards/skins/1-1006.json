@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "1-1006",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-heist-plans-purple",
     "catalog_id": 1006,
     "id": 1006,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-t",
         "id": "set_op10_t",
-        "name": "The Havoc Collection"
+        "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-t",
         "flags": [],
         "id": "4721",
         "kind": "container",
         "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection",
         "tier": "rare"
       }
     ],
@@ -172,6 +178,7 @@
     "1-1006__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-deagle",
     "id": 1,
     "localized_names": {
       "brazilian": "Desert Eagle",

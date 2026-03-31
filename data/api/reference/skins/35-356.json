@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "35-356",
   "finish": {
     "codename": "cu_nova_koi",
     "id": 356,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-community-4",
         "id": "set_community_4",
-        "name": "The Breakout Collection"
+        "name": "The Breakout Collection",
+        "search_slug": "the-breakout-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-4",
         "flags": [],
         "id": "4018",
         "kind": "weapon-case",
         "name": "Operation Breakout Weapon Case",
+        "search_slug": "operation-breakout-weapon-case",
         "tier": "mythical"
       }
     ]

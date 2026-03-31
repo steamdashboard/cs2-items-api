@@ -180,9 +180,15 @@ Useful raw URLs:
 - sample agent card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/agents/5505.json`
 - sample collection card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/collections/set_anubis.json`
 - sample skin variant: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/reference/skin-variants/1-37__normal__factory-new.json`
+- sample canonical slug index: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/graph/indexes/by-canonical-slug/set-gamma-2.json`
 - sample slug index: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/graph/indexes/by-slug/desert-eagle-blaze.json`
 - sample market hash name index: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/graph/indexes/by-market-hash-name/Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29.json`
 - sample rendered PNG: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/media/rendered/files/skins/1-37/light.png`
+
+Slug fields:
+
+- `canonical_slug`: stable alias built from `codename` when present, otherwise from stable `id`
+- `search_slug`: human-friendly slug built from display names or market names
 
 ### `curl`
 
@@ -240,7 +246,27 @@ console.log(skin.name);
 console.log(skin.media.primary_image_png);
 ```
 
-Resolve a slug to an entity ID, then fetch the page-ready card:
+Resolve a stable canonical slug to an entity ID, then fetch the page-ready card:
+
+```ts
+const API_ROOT =
+  "https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api";
+
+const slugIndex = await fetch(
+  `${API_ROOT}/graph/indexes/by-canonical-slug/set-gamma-2.json`,
+).then((res) => res.json());
+
+const collectionId = slugIndex.items.find((item: { kind: string; id: string }) => item.kind === "collection")?.id;
+
+if (collectionId) {
+  const collection = await fetch(`${API_ROOT}/consumer/cards/collections/${collectionId}.json`).then((res) =>
+    res.json(),
+  );
+  console.log(collection.name);
+}
+```
+
+Resolve a human-friendly search slug:
 
 ```ts
 const API_ROOT =

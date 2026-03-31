@@ -34,8 +34,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "39-287",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-sg553-pulse",
     "catalog_id": 287,
     "id": 287,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-2",
         "flags": [],
         "id": "4011",
         "kind": "weapon-case",
         "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-2",
         "id": "set_community_2",
-        "name": "The Phoenix Collection"
+        "name": "The Phoenix Collection",
+        "search_slug": "the-phoenix-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "39-287__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-sg556",
     "id": 39,
     "localized_names": {
       "brazilian": "SG 553",

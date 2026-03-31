@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-1004",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-ak-xray",
     "catalog_id": 1004,
     "id": 1004,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-t",
         "id": "set_op10_t",
-        "name": "The Havoc Collection"
+        "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-t",
         "flags": [],
         "id": "4721",
         "kind": "container",
         "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection",
         "tier": "ancient"
       }
     ],
@@ -172,6 +178,7 @@
     "7-1004__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

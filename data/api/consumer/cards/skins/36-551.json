@@ -34,8 +34,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "36-551",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-p250-asiimov",
     "catalog_id": 551,
     "id": 551,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-12",
         "flags": [],
         "id": "4233",
         "kind": "weapon-case",
         "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-12",
         "id": "set_community_12",
-        "name": "The Chroma 3 Collection"
+        "name": "The Chroma 3 Collection",
+        "search_slug": "the-chroma-3-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "36-551__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-p250",
     "id": 36,
     "localized_names": {
       "brazilian": "P250",

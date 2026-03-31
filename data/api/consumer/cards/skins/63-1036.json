@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "63-1036",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-cz75-whirlwind",
     "catalog_id": 1036,
     "id": 1036,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-28",
         "flags": [],
         "id": "4747",
         "kind": "weapon-case",
         "name": "Snakebite Case",
+        "search_slug": "snakebite-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-28",
         "id": "set_community_28",
-        "name": "The Snakebite Collection"
+        "name": "The Snakebite Collection",
+        "search_slug": "the-snakebite-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "63-1036__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-cz75a",
     "id": 63,
     "localized_names": {
       "brazilian": "CZ75-Auto",

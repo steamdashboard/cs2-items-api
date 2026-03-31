@@ -58,6 +58,13 @@ def slugify(value: str) -> str:
     return lowered.strip("-") or "item"
 
 
+def build_canonical_slug(primary: Any, fallback: Any | None = None) -> str:
+    value = primary
+    if value in (None, ""):
+        value = fallback
+    return slugify(str(value))
+
+
 def encode_path_key(value: Any) -> str:
     return quote(str(value), safe="")
 

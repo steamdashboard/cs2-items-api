@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "32-338",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-p2000-pulse",
     "catalog_id": 338,
     "id": 338,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-3",
         "flags": [],
         "id": "4017",
         "kind": "weapon-case",
         "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-3",
         "id": "set_community_3",
-        "name": "The Huntsman Collection"
+        "name": "The Huntsman Collection",
+        "search_slug": "the-huntsman-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "32-338__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-hkp2000",
     "id": 32,
     "localized_names": {
       "brazilian": "P2000",

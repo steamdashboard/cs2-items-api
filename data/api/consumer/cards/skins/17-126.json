@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "17-126",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "mac10-ozaki",
     "catalog_id": 126,
     "id": 126,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-34",
         "flags": [],
         "id": "7003",
         "kind": "weapon-case",
         "name": "Gallery Case",
+        "search_slug": "gallery-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-34",
         "id": "set_community_34",
-        "name": "The Gallery Collection"
+        "name": "The Gallery Collection",
+        "search_slug": "the-gallery-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "17-126__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mac10",
     "id": 17,
     "localized_names": {
       "brazilian": "MAC-10",

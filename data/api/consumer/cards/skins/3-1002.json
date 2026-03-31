@@ -20,8 +20,10 @@
       "short_name": "MW"
     }
   ],
+  "canonical_slug": "3-1002",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aa-fade-red-blue",
     "catalog_id": 1002,
     "id": 1002,
     "localized_names": {
@@ -128,16 +130,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-ct",
         "id": "set_op10_ct",
-        "name": "The Control Collection"
+        "name": "The Control Collection",
+        "search_slug": "the-control-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-ct",
         "flags": [],
         "id": "4720",
         "kind": "container",
         "name": "The Control Collection",
+        "search_slug": "the-control-collection",
         "tier": "mythical"
       }
     ],
@@ -148,6 +154,7 @@
     "3-1002__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-fiveseven",
     "id": 3,
     "localized_names": {
       "brazilian": "Five-SeveN",

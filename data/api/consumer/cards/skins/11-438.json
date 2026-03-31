@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "11-438",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-chronos-g3sg1",
     "catalog_id": 438,
     "id": 438,
     "localized_names": {
@@ -142,16 +144,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-gods-and-monsters",
         "id": "set_gods_and_monsters",
-        "name": "The Gods and Monsters Collection"
+        "name": "The Gods and Monsters Collection",
+        "search_slug": "the-gods-and-monsters-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-gods-and-monsters",
         "flags": [],
         "id": "4604",
         "kind": "container",
         "name": "The Gods and Monsters Collection",
+        "search_slug": "the-gods-and-monsters-collection",
         "tier": "mythical"
       }
     ],
@@ -164,6 +170,7 @@
     "11-438__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-g3sg1",
     "id": 11,
     "localized_names": {
       "brazilian": "G3SG1",

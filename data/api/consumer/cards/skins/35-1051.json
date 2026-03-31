@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "35-1051",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-nova-wind-dispersal",
     "catalog_id": 1051,
     "id": 1051,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-28",
         "flags": [],
         "id": "4747",
         "kind": "weapon-case",
         "name": "Snakebite Case",
+        "search_slug": "snakebite-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-28",
         "id": "set_community_28",
-        "name": "The Snakebite Collection"
+        "name": "The Snakebite Collection",
+        "search_slug": "the-snakebite-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "35-1051__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-nova",
     "id": 35,
     "localized_names": {
       "brazilian": "Nova",

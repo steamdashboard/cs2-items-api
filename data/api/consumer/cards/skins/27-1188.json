@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "27-1188",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "mag7-ammo-box",
     "catalog_id": 1188,
     "id": 1188,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-35",
         "flags": [],
         "id": "7007",
         "kind": "weapon-case",
         "name": "Fever Case",
+        "search_slug": "fever-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-35",
         "id": "set_community_35",
-        "name": "The Fever Collection"
+        "name": "The Fever Collection",
+        "search_slug": "the-fever-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "27-1188__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mag7",
     "id": 27,
     "localized_names": {
       "brazilian": "MAG-7",

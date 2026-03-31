@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "34-448",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aa-pandora",
     "catalog_id": 448,
     "id": 448,
     "localized_names": {
@@ -135,16 +137,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-gods-and-monsters",
         "id": "set_gods_and_monsters",
-        "name": "The Gods and Monsters Collection"
+        "name": "The Gods and Monsters Collection",
+        "search_slug": "the-gods-and-monsters-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-gods-and-monsters",
         "flags": [],
         "id": "4604",
         "kind": "container",
         "name": "The Gods and Monsters Collection",
+        "search_slug": "the-gods-and-monsters-collection",
         "tier": "rare"
       }
     ],
@@ -156,6 +162,7 @@
     "34-448__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp9",
     "id": 34,
     "localized_names": {
       "brazilian": "MP9",

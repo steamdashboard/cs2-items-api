@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "4-732",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-leaf-blue",
     "catalog_id": 732,
     "id": 732,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-stmarc",
         "id": "set_stmarc",
-        "name": "The St. Marc Collection"
+        "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-stmarc",
         "flags": [],
         "id": "4612",
         "kind": "container",
         "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "4-732__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-glock",
     "id": 4,
     "localized_names": {
       "brazilian": "Glock-18",

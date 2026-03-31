@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "10-626",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-famas-mecha",
     "catalog_id": 626,
     "id": 626,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-15",
         "flags": [],
         "id": "4288",
         "kind": "weapon-case",
         "name": "Glove Case",
+        "search_slug": "glove-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-15",
         "id": "set_community_15",
-        "name": "The Glove Collection"
+        "name": "The Glove Collection",
+        "search_slug": "the-glove-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "10-626__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-famas",
     "id": 10,
     "localized_names": {
       "brazilian": "FAMAS",

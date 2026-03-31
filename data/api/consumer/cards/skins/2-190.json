@@ -5,8 +5,10 @@
     "stattrak": true
   },
   "available_exteriors": [],
+  "canonical_slug": "2-190",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-season-elites-bravo",
     "catalog_id": 190,
     "id": 190,
     "localized_names": {
@@ -112,17 +114,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-operation-ii",
         "flags": [],
         "id": "4003",
         "kind": "weapon-case",
         "name": "Operation Bravo Case",
+        "search_slug": "operation-bravo-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-bravo-i",
         "id": "set_bravo_i",
-        "name": "The Bravo Collection"
+        "name": "The Bravo Collection",
+        "search_slug": "the-bravo-collection"
       }
     ],
     "containers": [],
@@ -133,6 +139,7 @@
     "2-190__stattrak__vanilla"
   ],
   "weapon": {
+    "canonical_slug": "weapon-elite",
     "id": 2,
     "localized_names": {
       "brazilian": "Berettas Duplas",

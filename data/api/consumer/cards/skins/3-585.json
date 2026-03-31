@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "3-585",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-five-seven-daimyo",
     "catalog_id": 585,
     "id": 585,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-13",
         "flags": [],
         "id": "4236",
         "kind": "weapon-case",
         "name": "Gamma Case",
+        "search_slug": "gamma-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-13",
         "id": "set_community_13",
-        "name": "The Gamma Collection"
+        "name": "The Gamma Collection",
+        "search_slug": "the-gamma-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "3-585__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-fiveseven",
     "id": 3,
     "localized_names": {
       "brazilian": "Five-SeveN",

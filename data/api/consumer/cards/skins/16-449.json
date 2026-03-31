@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "16-449",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-poseidon",
     "catalog_id": 449,
     "id": 449,
     "localized_names": {
@@ -135,16 +137,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-gods-and-monsters",
         "id": "set_gods_and_monsters",
-        "name": "The Gods and Monsters Collection"
+        "name": "The Gods and Monsters Collection",
+        "search_slug": "the-gods-and-monsters-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-gods-and-monsters",
         "flags": [],
         "id": "4604",
         "kind": "container",
         "name": "The Gods and Monsters Collection",
+        "search_slug": "the-gods-and-monsters-collection",
         "tier": "legendary"
       }
     ],
@@ -156,6 +162,7 @@
     "16-449__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1",
     "id": 16,
     "localized_names": {
       "brazilian": "M4A4",

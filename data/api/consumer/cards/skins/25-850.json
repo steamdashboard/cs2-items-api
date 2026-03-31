@@ -34,8 +34,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "25-850",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-xm1014-incinerator",
     "catalog_id": 850,
     "id": 850,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-22",
         "flags": [],
         "id": "4598",
         "kind": "weapon-case",
         "name": "Prisma Case",
+        "search_slug": "prisma-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-22",
         "id": "set_community_22",
-        "name": "The Prisma Collection"
+        "name": "The Prisma Collection",
+        "search_slug": "the-prisma-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "25-850__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-xm1014",
     "id": 25,
     "localized_names": {
       "brazilian": "XM1014",

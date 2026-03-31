@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "61-443",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-labyrinth2",
     "catalog_id": 443,
     "id": 443,
     "localized_names": {
@@ -135,16 +137,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-norse",
         "id": "set_norse",
-        "name": "The Norse Collection"
+        "name": "The Norse Collection",
+        "search_slug": "the-norse-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-norse",
         "flags": [],
         "id": "4611",
         "kind": "container",
         "name": "The Norse Collection",
+        "search_slug": "the-norse-collection",
         "tier": "uncommon"
       }
     ],
@@ -156,6 +162,7 @@
     "61-443__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-usp-silencer",
     "id": 61,
     "localized_names": {
       "brazilian": "USP-S",

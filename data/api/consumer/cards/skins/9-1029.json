@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "9-1029",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-tigers-blue",
     "catalog_id": 1029,
     "id": 1029,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-t",
         "id": "set_op10_t",
-        "name": "The Havoc Collection"
+        "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-t",
         "flags": [],
         "id": "4721",
         "kind": "container",
         "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection",
         "tier": "legendary"
       }
     ],
@@ -172,6 +178,7 @@
     "9-1029__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-awp",
     "id": 9,
     "localized_names": {
       "brazilian": "AWP",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "8-845",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-aug-momentum",
     "catalog_id": 845,
     "id": 845,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-22",
         "flags": [],
         "id": "4598",
         "kind": "weapon-case",
         "name": "Prisma Case",
+        "search_slug": "prisma-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-22",
         "id": "set_community_22",
-        "name": "The Prisma Collection"
+        "name": "The Prisma Collection",
+        "search_slug": "the-prisma-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "8-845__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-aug",
     "id": 8,
     "localized_names": {
       "brazilian": "AUG",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "4-495",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-glock18-wrathys",
     "catalog_id": 495,
     "id": 495,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-9",
         "flags": [],
         "id": "4138",
         "kind": "weapon-case",
         "name": "Shadow Case",
+        "search_slug": "shadow-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-9",
         "id": "set_community_9",
-        "name": "The Shadow Collection"
+        "name": "The Shadow Collection",
+        "search_slug": "the-shadow-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "4-495__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-glock",
     "id": 4,
     "localized_names": {
       "brazilian": "Glock-18",

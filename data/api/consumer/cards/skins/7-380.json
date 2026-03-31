@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-380",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-tribute-ak47",
     "catalog_id": 380,
     "id": 380,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-operation-vanguard",
         "flags": [],
         "id": "4029",
         "kind": "weapon-case",
         "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
         "tier": "ancient"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-5",
         "id": "set_community_5",
-        "name": "The Vanguard Collection"
+        "name": "The Vanguard Collection",
+        "search_slug": "the-vanguard-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "7-380__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

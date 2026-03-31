@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "11-980",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-g3sg1-disrupt",
     "catalog_id": 980,
     "id": 980,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-27",
         "flags": [],
         "id": "4717",
         "kind": "weapon-case",
         "name": "Operation Broken Fang Case",
+        "search_slug": "operation-broken-fang-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-27",
         "id": "set_community_27",
-        "name": "The Operation Broken Fang Collection"
+        "name": "The Operation Broken Fang Collection",
+        "search_slug": "the-operation-broken-fang-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "11-980__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-g3sg1",
     "id": 11,
     "localized_names": {
       "brazilian": "G3SG1",

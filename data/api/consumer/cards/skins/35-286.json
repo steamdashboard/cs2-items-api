@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "35-286",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-nova-antique",
     "catalog_id": 286,
     "id": 286,
     "localized_names": {
@@ -134,17 +136,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-2",
         "flags": [],
         "id": "4011",
         "kind": "weapon-case",
         "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-2",
         "id": "set_community_2",
-        "name": "The Phoenix Collection"
+        "name": "The Phoenix Collection",
+        "search_slug": "the-phoenix-collection"
       }
     ],
     "containers": [],
@@ -159,6 +165,7 @@
     "35-286__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-nova",
     "id": 35,
     "localized_names": {
       "brazilian": "Nova",

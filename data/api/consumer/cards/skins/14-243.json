@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "14-243",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-mesh-python",
     "catalog_id": 243,
     "id": 243,
     "localized_names": {
@@ -149,8 +151,10 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-safehouse",
         "id": "set_safehouse",
-        "name": "The Safehouse Collection"
+        "name": "The Safehouse Collection",
+        "search_slug": "the-safehouse-collection"
       }
     ],
     "containers": [],
@@ -164,6 +168,7 @@
     "14-243__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m249",
     "id": 14,
     "localized_names": {
       "brazilian": "M249",

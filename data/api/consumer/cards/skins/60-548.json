@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "60-548",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-m4a1s-soultaker",
     "catalog_id": 548,
     "id": 548,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-12",
         "flags": [],
         "id": "4233",
         "kind": "weapon-case",
         "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
         "tier": "ancient"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-12",
         "id": "set_community_12",
-        "name": "The Chroma 3 Collection"
+        "name": "The Chroma 3 Collection",
+        "search_slug": "the-chroma-3-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "60-548__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

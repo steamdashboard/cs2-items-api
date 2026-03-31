@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "1-992",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-numbers-bronze",
     "catalog_id": 992,
     "id": 992,
     "localized_names": {
@@ -135,16 +137,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-ct",
         "id": "set_op10_ct",
-        "name": "The Control Collection"
+        "name": "The Control Collection",
+        "search_slug": "the-control-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-ct",
         "flags": [],
         "id": "4720",
         "kind": "container",
         "name": "The Control Collection",
+        "search_slug": "the-control-collection",
         "tier": "uncommon"
       }
     ],
@@ -156,6 +162,7 @@
     "1-992__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-deagle",
     "id": 1,
     "localized_names": {
       "brazilian": "Desert Eagle",

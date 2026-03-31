@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": false
   },
+  "canonical_slug": "1-469",
   "finish": {
     "codename": "am_seastorm_blood",
     "id": 469,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-kimono",
         "id": "set_kimono",
-        "name": "The Rising Sun Collection"
+        "name": "The Rising Sun Collection",
+        "search_slug": "the-rising-sun-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-kimono",
         "flags": [],
         "id": "4606",
         "kind": "container",
         "name": "The Rising Sun Collection",
+        "search_slug": "the-rising-sun-collection",
         "tier": "mythical"
       }
     ]

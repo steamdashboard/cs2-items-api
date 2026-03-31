@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "4-1120",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-gamma-doppler-phase1-glock",
     "catalog_id": 1120,
     "id": 1120,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2021",
         "id": "set_train_2021",
-        "name": "The 2021 Train Collection"
+        "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-train-2021-ancient-standalone",
         "flags": [],
         "id": "4788",
         "kind": "container",
         "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection",
         "tier": "ancient"
       }
     ],
@@ -172,6 +178,7 @@
     "4-1120__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-glock",
     "id": 4,
     "localized_names": {
       "brazilian": "Glock-18",

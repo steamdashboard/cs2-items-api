@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "24-488",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-ump45-uproar",
     "catalog_id": 488,
     "id": 488,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-8",
         "flags": [],
         "id": "4091",
         "kind": "weapon-case",
         "name": "Falchion Case",
+        "search_slug": "falchion-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-8",
         "id": "set_community_8",
-        "name": "The Falchion Collection"
+        "name": "The Falchion Collection",
+        "search_slug": "the-falchion-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "24-488__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ump45",
     "id": 24,
     "localized_names": {
       "brazilian": "UMP-45",

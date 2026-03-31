@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "16-118",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "m4a4-fusion",
     "catalog_id": 118,
     "id": 118,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-34",
         "flags": [],
         "id": "7003",
         "kind": "weapon-case",
         "name": "Gallery Case",
+        "search_slug": "gallery-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-34",
         "id": "set_community_34",
-        "name": "The Gallery Collection"
+        "name": "The Gallery Collection",
+        "search_slug": "the-gallery-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "16-118__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1",
     "id": 16,
     "localized_names": {
       "brazilian": "M4A4",

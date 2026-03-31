@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "36-848",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aq-p250-verdigris",
     "catalog_id": 848,
     "id": 848,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-22",
         "flags": [],
         "id": "4598",
         "kind": "weapon-case",
         "name": "Prisma Case",
+        "search_slug": "prisma-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-22",
         "id": "set_community_22",
-        "name": "The Prisma Collection"
+        "name": "The Prisma Collection",
+        "search_slug": "the-prisma-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "36-848__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-p250",
     "id": 36,
     "localized_names": {
       "brazilian": "P250",

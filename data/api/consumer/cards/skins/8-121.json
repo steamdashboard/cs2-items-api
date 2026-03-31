@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "8-121",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aug-puffer",
     "catalog_id": 121,
     "id": 121,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-34",
         "flags": [],
         "id": "7003",
         "kind": "weapon-case",
         "name": "Gallery Case",
+        "search_slug": "gallery-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-34",
         "id": "set_community_34",
-        "name": "The Gallery Collection"
+        "name": "The Gallery Collection",
+        "search_slug": "the-gallery-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "8-121__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-aug",
     "id": 8,
     "localized_names": {
       "brazilian": "AUG",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-656",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-ak-colony01-red",
     "catalog_id": 656,
     "id": 656,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-17",
         "flags": [],
         "id": "4352",
         "kind": "weapon-case",
         "name": "Operation Hydra Case",
+        "search_slug": "operation-hydra-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-17",
         "id": "set_community_17",
-        "name": "The Operation Hydra Collection"
+        "name": "The Operation Hydra Collection",
+        "search_slug": "the-operation-hydra-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "7-656__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "13-807",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-galil-signal-red",
     "catalog_id": 807,
     "id": 807,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-21",
         "flags": [],
         "id": "4548",
         "kind": "weapon-case",
         "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-21",
         "id": "set_community_21",
-        "name": "The Danger Zone Collection"
+        "name": "The Danger Zone Collection",
+        "search_slug": "the-danger-zone-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "13-807__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-galilar",
     "id": 13,
     "localized_names": {
       "brazilian": "Galil AR",

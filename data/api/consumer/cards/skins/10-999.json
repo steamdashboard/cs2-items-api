@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "10-999",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-numbers-magenta",
     "catalog_id": 999,
     "id": 999,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-ct",
         "id": "set_op10_ct",
-        "name": "The Control Collection"
+        "name": "The Control Collection",
+        "search_slug": "the-control-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-ct",
         "flags": [],
         "id": "4720",
         "kind": "container",
         "name": "The Control Collection",
+        "search_slug": "the-control-collection",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "10-999__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-famas",
     "id": 10,
     "localized_names": {
       "brazilian": "FAMAS",

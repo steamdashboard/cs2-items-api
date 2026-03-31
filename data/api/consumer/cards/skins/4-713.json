@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "4-713",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-glock-thunder-dust",
     "catalog_id": 713,
     "id": 713,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-20",
         "flags": [],
         "id": "4482",
         "kind": "weapon-case",
         "name": "Horizon Case",
+        "search_slug": "horizon-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-20",
         "id": "set_community_20",
-        "name": "The Horizon Collection"
+        "name": "The Horizon Collection",
+        "search_slug": "the-horizon-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "4-713__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-glock",
     "id": 4,
     "localized_names": {
       "brazilian": "Glock-18",

@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "61-221",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-electric-red",
     "catalog_id": 221,
     "id": 221,
     "localized_names": {
@@ -134,17 +136,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-2",
         "flags": [],
         "id": "4004",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-ii",
         "id": "set_weapons_ii",
-        "name": "The Arms Deal 2 Collection"
+        "name": "The Arms Deal 2 Collection",
+        "search_slug": "the-arms-deal-2-collection"
       }
     ],
     "containers": [],
@@ -159,6 +165,7 @@
     "61-221__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-usp-silencer",
     "id": 61,
     "localized_names": {
       "brazilian": "USP-S",

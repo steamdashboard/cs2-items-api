@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "7-14",
   "finish": {
     "codename": "hy_ak47lam",
     "id": 14,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-esports",
         "id": "set_esports",
-        "name": "The eSports 2013 Collection"
+        "name": "The eSports 2013 Collection",
+        "search_slug": "the-esports-2013-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-esports-2013",
         "flags": [],
         "id": "4002",
         "kind": "weapon-case",
         "name": "eSports 2013 Case",
+        "search_slug": "esports-2013-case",
         "tier": "legendary"
       }
     ]

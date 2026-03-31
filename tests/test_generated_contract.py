@@ -16,8 +16,10 @@ def load_json(path: Path) -> dict:
 class GeneratedContractTests(unittest.TestCase):
     def test_schema_exposes_layered_api(self) -> None:
         schema = load_json(ROOT / "data/api/meta/schema.json")
-        self.assertEqual(schema["version"], 6)
+        self.assertEqual(schema["version"], 7)
         self.assertEqual(set(schema["layers"]), {"reference", "graph", "consumer", "media"})
+        self.assertIn("canonical_slug", schema["slug_policy"])
+        self.assertIn("search_slug", schema["slug_policy"])
 
     def test_reference_consumer_and_media_counts_match_stats(self) -> None:
         stats = load_json(ROOT / "data/api/meta/stats.json")
@@ -115,6 +117,14 @@ class GeneratedContractTests(unittest.TestCase):
             discovery["entrypoints"]["agent_sides"],
             "data/api/consumer/lists/by-side/<side>.json",
         )
+        self.assertEqual(
+            discovery["entrypoints"]["canonical_slugs"],
+            "data/api/consumer/lists/by-canonical-slug/<canonical_slug>.json",
+        )
+        self.assertEqual(
+            discovery["entrypoints"]["search_slugs"],
+            "data/api/consumer/lists/by-search-slug/<search_slug>.json",
+        )
 
     def test_graph_and_consumer_side_indexes_exist(self) -> None:
         by_side = load_json(ROOT / "data/api/graph/indexes/by-side/terrorists.json")
@@ -122,6 +132,32 @@ class GeneratedContractTests(unittest.TestCase):
         self.assertIn("agents", by_side["items"])
         consumer_side = load_json(ROOT / "data/api/consumer/lists/by-side/terrorists.json")
         self.assertTrue(consumer_side["items"], "Expected agent refs for terrorists side list")
+
+    def test_reference_and_consumer_canonical_slug_indexes_exist(self) -> None:
+        collection = load_json(ROOT / "data/api/reference/collections/set_gamma_2.json")
+        self.assertEqual(collection["canonical_slug"], "set-gamma-2")
+
+        graph_index = load_json(
+            ROOT / "data/api/graph/indexes/by-canonical-slug" / f"{collection['canonical_slug']}.json"
+        )
+        self.assertIn({"kind": "collection", "id": "set_gamma_2"}, graph_index["items"])
+
+        agent = load_json(ROOT / "data/api/reference/agents/5505.json")
+        agent_card = load_json(ROOT / "data/api/consumer/cards/agents/5505.json")
+        self.assertEqual(agent_card["canonical_slug"], agent["canonical_slug"])
+
+        consumer_index = load_json(
+            ROOT / "data/api/consumer/lists/by-canonical-slug" / f"{agent_card['canonical_slug']}.json"
+        )
+        self.assertTrue(
+            any(item["id"] == "5505" and item["group"] == "agents" for item in consumer_index["items"]),
+            "Expected canonical slug consumer list to resolve agent card refs",
+        )
+
+        graph_agent_index = load_json(
+            ROOT / "data/api/graph/indexes/by-canonical-slug" / f"{agent['canonical_slug']}.json"
+        )
+        self.assertIn({"kind": "agent", "id": "5505"}, graph_agent_index["items"])
 
     def test_collection_name_fallback_is_humanized(self) -> None:
         collection = load_json(ROOT / "data/api/reference/collections/set_gamma_2.json")

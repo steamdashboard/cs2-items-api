@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "26-224",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-water-crest",
     "catalog_id": 224,
     "id": 224,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-esports-2013-winter",
         "flags": [],
         "id": "4005",
         "kind": "weapon-case",
         "name": "eSports 2013 Winter Case",
+        "search_slug": "esports-2013-winter-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-esports-ii",
         "id": "set_esports_ii",
-        "name": "The eSports 2013 Winter Collection"
+        "name": "The eSports 2013 Winter Collection",
+        "search_slug": "the-esports-2013-winter-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "26-224__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-bizon",
     "id": 26,
     "localized_names": {
       "brazilian": "PP-Bizon",

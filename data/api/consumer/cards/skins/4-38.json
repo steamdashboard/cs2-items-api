@@ -20,8 +20,10 @@
       "short_name": "MW"
     }
   ],
+  "canonical_slug": "4-38",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aa-fade",
     "catalog_id": 38,
     "id": 38,
     "localized_names": {
@@ -128,8 +130,10 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-assault",
         "id": "set_assault",
-        "name": "The Assault Collection"
+        "name": "The Assault Collection",
+        "search_slug": "the-assault-collection"
       }
     ],
     "containers": [],
@@ -140,6 +144,7 @@
     "4-38__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-glock",
     "id": 4,
     "localized_names": {
       "brazilian": "Glock-18",

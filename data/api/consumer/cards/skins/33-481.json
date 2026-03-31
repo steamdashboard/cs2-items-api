@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "33-481",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-mp7-nemsis",
     "catalog_id": 481,
     "id": 481,
     "localized_names": {
@@ -134,17 +136,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-8",
         "flags": [],
         "id": "4091",
         "kind": "weapon-case",
         "name": "Falchion Case",
+        "search_slug": "falchion-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-8",
         "id": "set_community_8",
-        "name": "The Falchion Collection"
+        "name": "The Falchion Collection",
+        "search_slug": "the-falchion-collection"
       }
     ],
     "containers": [],
@@ -159,6 +165,7 @@
     "33-481__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp7",
     "id": 33,
     "localized_names": {
       "brazilian": "MP7",

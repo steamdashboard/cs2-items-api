@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "27-608",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-mag7-tribal",
     "catalog_id": 608,
     "id": 608,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-gamma-2",
         "flags": [],
         "id": "4281",
         "kind": "weapon-case",
         "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-gamma-2",
         "id": "set_gamma_2",
-        "name": "The Gamma 2 Collection"
+        "name": "The Gamma 2 Collection",
+        "search_slug": "the-gamma-2-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "27-608__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mag7",
     "id": 27,
     "localized_names": {
       "brazilian": "MAG-7",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "1-1056",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-spacerace-blue",
     "catalog_id": 1056,
     "id": 1056,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2021",
         "id": "set_train_2021",
-        "name": "The 2021 Train Collection"
+        "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-train-2021-rare-standalone",
         "flags": [],
         "id": "4785",
         "kind": "container",
         "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection",
         "tier": "rare"
       }
     ],
@@ -172,6 +178,7 @@
     "1-1056__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-deagle",
     "id": 1,
     "localized_names": {
       "brazilian": "Desert Eagle",

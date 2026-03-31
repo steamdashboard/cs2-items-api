@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "7-506",
   "finish": {
     "codename": "cu_ak47_point_disarray",
     "id": 506,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-community-10",
         "id": "set_community_10",
-        "name": "The Revolver Case Collection"
+        "name": "The Revolver Case Collection",
+        "search_slug": "the-revolver-case-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-10",
         "flags": [],
         "id": "4186",
         "kind": "weapon-case",
         "name": "Revolver Case",
+        "search_slug": "revolver-case",
         "tier": "legendary"
       }
     ]

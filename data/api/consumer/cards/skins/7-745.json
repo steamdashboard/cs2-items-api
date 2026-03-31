@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-745",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-veneto-purple",
     "catalog_id": 745,
     "id": 745,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-canals",
         "id": "set_canals",
-        "name": "The Canals Collection"
+        "name": "The Canals Collection",
+        "search_slug": "the-canals-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-canals",
         "flags": [],
         "id": "4608",
         "kind": "container",
         "name": "The Canals Collection",
+        "search_slug": "the-canals-collection",
         "tier": "uncommon"
       }
     ],
@@ -172,6 +178,7 @@
     "7-745__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

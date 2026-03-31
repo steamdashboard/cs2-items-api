@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "27-535",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-mag7-praetorian",
     "catalog_id": 535,
     "id": 535,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-11",
         "flags": [],
         "id": "4187",
         "kind": "weapon-case",
         "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-11",
         "id": "set_community_11",
-        "name": "The Wildfire Collection"
+        "name": "The Wildfire Collection",
+        "search_slug": "the-wildfire-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "27-535__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mag7",
     "id": 27,
     "localized_names": {
       "brazilian": "MAG-7",

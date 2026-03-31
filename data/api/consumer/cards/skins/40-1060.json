@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "40-1060",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-trainarchitect-green",
     "catalog_id": 1060,
     "id": 1060,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2021",
         "id": "set_train_2021",
-        "name": "The 2021 Train Collection"
+        "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-train-2021-rare-standalone",
         "flags": [],
         "id": "4785",
         "kind": "container",
         "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection",
         "tier": "rare"
       }
     ],
@@ -172,6 +178,7 @@
     "40-1060__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ssg08",
     "id": 40,
     "localized_names": {
       "brazilian": "SSG 08",

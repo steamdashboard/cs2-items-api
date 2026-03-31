@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "36-258",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-p250-refined",
     "catalog_id": 258,
     "id": 258,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-1",
         "flags": [],
         "id": "4009",
         "kind": "weapon-case",
         "name": "Winter Offensive Weapon Case",
+        "search_slug": "winter-offensive-weapon-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-1",
         "id": "set_community_1",
-        "name": "The Winter Offensive Collection"
+        "name": "The Winter Offensive Collection",
+        "search_slug": "the-winter-offensive-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "36-258__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-p250",
     "id": 36,
     "localized_names": {
       "brazilian": "P250",

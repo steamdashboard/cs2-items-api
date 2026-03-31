@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "25-994",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-authority-brown",
     "catalog_id": 994,
     "id": 994,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-ct",
         "id": "set_op10_ct",
-        "name": "The Control Collection"
+        "name": "The Control Collection",
+        "search_slug": "the-control-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-ct",
         "flags": [],
         "id": "4720",
         "kind": "container",
         "name": "The Control Collection",
+        "search_slug": "the-control-collection",
         "tier": null
       }
     ],
@@ -172,6 +178,7 @@
     "25-994__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-xm1014",
     "id": 25,
     "localized_names": {
       "brazilian": "XM1014",

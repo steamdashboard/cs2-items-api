@@ -27,8 +27,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "2-153",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "so-tangerine",
     "catalog_id": 153,
     "id": 153,
     "localized_names": {
@@ -135,17 +137,21 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-vertigo",
         "id": "set_vertigo",
-        "name": "The Vertigo Collection"
+        "name": "The Vertigo Collection",
+        "search_slug": "the-vertigo-collection"
       }
     ],
     "containers": [],
     "souvenir_packages": [
       {
+        "canonical_slug": "crate-berlin2019-promo-de-vertigo",
         "flags": [],
         "id": "4666",
         "kind": "souvenir-package",
         "name": "Berlin 2019 Vertigo Souvenir Package",
+        "search_slug": "berlin-2019-vertigo-souvenir-package",
         "tier": "mythical"
       }
     ]
@@ -159,6 +165,7 @@
     "2-153__souvenir__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-elite",
     "id": 2,
     "localized_names": {
       "brazilian": "Berettas Duplas",

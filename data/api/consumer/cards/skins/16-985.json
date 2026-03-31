@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "16-985",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-m4a4-cyberpunk",
     "catalog_id": 985,
     "id": 985,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-27",
         "flags": [],
         "id": "4717",
         "kind": "weapon-case",
         "name": "Operation Broken Fang Case",
+        "search_slug": "operation-broken-fang-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-27",
         "id": "set_community_27",
-        "name": "The Operation Broken Fang Collection"
+        "name": "The Operation Broken Fang Collection",
+        "search_slug": "the-operation-broken-fang-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "16-985__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1",
     "id": 16,
     "localized_names": {
       "brazilian": "M4A4",

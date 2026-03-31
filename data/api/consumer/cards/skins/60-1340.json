@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "60-1340",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "m4a1s-quick-liquidation",
     "catalog_id": 1340,
     "id": 1340,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-community-36",
         "id": "set_community_36",
-        "name": "The Genesis Collection"
+        "name": "The Genesis Collection",
+        "search_slug": "the-genesis-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-36",
         "flags": [],
         "id": "5176",
         "kind": "container",
         "name": "Sealed Genesis Terminal",
+        "search_slug": "sealed-genesis-terminal",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "60-1340__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

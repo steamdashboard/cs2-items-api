@@ -5,8 +5,10 @@
     "stattrak": false
   },
   "available_exteriors": [],
+  "canonical_slug": "7-172",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-ak47lam-bw",
     "catalog_id": 172,
     "id": 172,
     "localized_names": {
@@ -113,17 +115,21 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-vertigo",
         "id": "set_vertigo",
-        "name": "The Vertigo Collection"
+        "name": "The Vertigo Collection",
+        "search_slug": "the-vertigo-collection"
       }
     ],
     "containers": [],
     "souvenir_packages": [
       {
+        "canonical_slug": "crate-berlin2019-promo-de-vertigo",
         "flags": [],
         "id": "4666",
         "kind": "souvenir-package",
         "name": "Berlin 2019 Vertigo Souvenir Package",
+        "search_slug": "berlin-2019-vertigo-souvenir-package",
         "tier": "rare"
       }
     ]
@@ -133,6 +139,7 @@
     "7-172__souvenir__vanilla"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

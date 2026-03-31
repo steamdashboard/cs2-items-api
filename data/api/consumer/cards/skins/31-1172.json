@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "31-1172",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "zeus-thunder-god",
     "catalog_id": 1172,
     "id": 1172,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-33",
         "flags": [],
         "id": "4904",
         "kind": "weapon-case",
         "name": "Kilowatt Case",
+        "search_slug": "kilowatt-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-33",
         "id": "set_community_33",
-        "name": "The Kilowatt Collection"
+        "name": "The Kilowatt Collection",
+        "search_slug": "the-kilowatt-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "31-1172__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-taser",
     "id": 31,
     "localized_names": {
       "brazilian": "Zeus x27",

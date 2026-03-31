@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "11-465",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-kimono-diamonds-orange",
     "catalog_id": 465,
     "id": 465,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-kimono",
         "id": "set_kimono",
-        "name": "The Rising Sun Collection"
+        "name": "The Rising Sun Collection",
+        "search_slug": "the-rising-sun-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-kimono",
         "flags": [],
         "id": "4606",
         "kind": "container",
         "name": "The Rising Sun Collection",
+        "search_slug": "the-rising-sun-collection",
         "tier": null
       }
     ],
@@ -172,6 +178,7 @@
     "11-465__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-g3sg1",
     "id": 11,
     "localized_names": {
       "brazilian": "G3SG1",

@@ -20,8 +20,10 @@
       "short_name": "MW"
     }
   ],
+  "canonical_slug": "4-48",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-dragon-glock",
     "catalog_id": 48,
     "id": 48,
     "localized_names": {
@@ -127,17 +129,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-1",
         "flags": [],
         "id": "4001",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case",
+        "search_slug": "cs-go-weapon-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-i",
         "id": "set_weapons_i",
-        "name": "The Arms Deal Collection"
+        "name": "The Arms Deal Collection",
+        "search_slug": "the-arms-deal-collection"
       }
     ],
     "containers": [],
@@ -150,6 +156,7 @@
     "4-48__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-glock",
     "id": 4,
     "localized_names": {
       "brazilian": "Glock-18",

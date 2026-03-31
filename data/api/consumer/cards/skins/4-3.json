@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "4-3",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "so-red",
     "catalog_id": 3,
     "id": 3,
     "localized_names": {
@@ -135,8 +137,10 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-italy",
         "id": "set_italy",
-        "name": "The Italy Collection"
+        "name": "The Italy Collection",
+        "search_slug": "the-italy-collection"
       }
     ],
     "containers": [],
@@ -148,6 +152,7 @@
     "4-3__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-glock",
     "id": 4,
     "localized_names": {
       "brazilian": "Glock-18",

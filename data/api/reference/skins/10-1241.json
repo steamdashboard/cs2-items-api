@@ -4,6 +4,7 @@
     "souvenir": true,
     "stattrak": false
   },
+  "canonical_slug": "10-1241",
   "finish": {
     "codename": "cu_famas_holo_ocean",
     "id": 1241,
@@ -21,44 +22,56 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-anubis",
         "id": "set_anubis",
-        "name": "The Anubis Collection"
+        "name": "The Anubis Collection",
+        "search_slug": "the-anubis-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-anubis-storepromo",
         "flags": [],
         "id": "4882",
         "kind": "container",
         "name": "Anubis Collection Package",
+        "search_slug": "anubis-collection-package",
         "tier": "legendary"
       },
       {
+        "canonical_slug": "crate-paris2023-promo-de-anubis",
         "flags": [],
         "id": "4895",
         "kind": "souvenir-package",
         "name": "Paris 2023 Anubis Souvenir Package",
+        "search_slug": "paris-2023-anubis-souvenir-package",
         "tier": "legendary"
       },
       {
+        "canonical_slug": "crate-cph2024-promo-de-anubis",
         "flags": [],
         "id": "4928",
         "kind": "souvenir-package",
         "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "search_slug": "copenhagen-2024-anubis-souvenir-package",
         "tier": "legendary"
       },
       {
+        "canonical_slug": "crate-sha2024-promo-de-anubis",
         "flags": [],
         "id": "4969",
         "kind": "container",
         "name": "Shanghai 2024 Anubis Souvenir Package",
+        "search_slug": "shanghai-2024-anubis-souvenir-package",
         "tier": "legendary"
       },
       {
+        "canonical_slug": "crate-aus2025-promo-de-anubis",
         "flags": [],
         "id": "5122",
         "kind": "container",
         "name": "Austin 2025 Anubis Souvenir Package",
+        "search_slug": "austin-2025-anubis-souvenir-package",
         "tier": "legendary"
       }
     ]

@@ -34,8 +34,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "30-816",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-tec9-fubar",
     "catalog_id": 816,
     "id": 816,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-21",
         "flags": [],
         "id": "4548",
         "kind": "weapon-case",
         "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-21",
         "id": "set_community_21",
-        "name": "The Danger Zone Collection"
+        "name": "The Danger Zone Collection",
+        "search_slug": "the-danger-zone-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "30-816__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-tec9",
     "id": 30,
     "localized_names": {
       "brazilian": "Tec-9",

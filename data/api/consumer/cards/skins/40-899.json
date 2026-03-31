@@ -34,8 +34,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "40-899",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-ssg08-tickler",
     "catalog_id": 899,
     "id": 899,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-23",
         "flags": [],
         "id": "4620",
         "kind": "weapon-case",
         "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-23",
         "id": "set_community_23",
-        "name": "The Shattered Web Collection"
+        "name": "The Shattered Web Collection",
+        "search_slug": "the-shattered-web-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "40-899__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ssg08",
     "id": 40,
     "localized_names": {
       "brazilian": "SSG 08",

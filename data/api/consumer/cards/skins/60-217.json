@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "60-217",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-redtiger",
     "catalog_id": 217,
     "id": 217,
     "localized_names": {
@@ -134,17 +136,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-2",
         "flags": [],
         "id": "4004",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-ii",
         "id": "set_weapons_ii",
-        "name": "The Arms Deal 2 Collection"
+        "name": "The Arms Deal 2 Collection",
+        "search_slug": "the-arms-deal-2-collection"
       }
     ],
     "containers": [],
@@ -159,6 +165,7 @@
     "60-217__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

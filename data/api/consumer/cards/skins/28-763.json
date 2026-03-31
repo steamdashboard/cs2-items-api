@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "28-763",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-negev-thor",
     "catalog_id": 763,
     "id": 763,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-norse",
         "id": "set_norse",
-        "name": "The Norse Collection"
+        "name": "The Norse Collection",
+        "search_slug": "the-norse-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-norse",
         "flags": [],
         "id": "4611",
         "kind": "container",
         "name": "The Norse Collection",
+        "search_slug": "the-norse-collection",
         "tier": "legendary"
       }
     ],
@@ -172,6 +178,7 @@
     "28-763__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-negev",
     "id": 28,
     "localized_names": {
       "brazilian": "Negev",

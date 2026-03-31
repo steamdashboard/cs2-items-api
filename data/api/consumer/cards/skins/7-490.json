@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-490",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-ak47-winter-sport",
     "catalog_id": 490,
     "id": 490,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-9",
         "flags": [],
         "id": "4138",
         "kind": "weapon-case",
         "name": "Shadow Case",
+        "search_slug": "shadow-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-9",
         "id": "set_community_9",
-        "name": "The Shadow Collection"
+        "name": "The Shadow Collection",
+        "search_slug": "the-shadow-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "7-490__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

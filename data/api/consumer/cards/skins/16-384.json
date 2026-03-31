@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "16-384",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-m4a4-griffin",
     "catalog_id": 384,
     "id": 384,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-operation-vanguard",
         "flags": [],
         "id": "4029",
         "kind": "weapon-case",
         "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-5",
         "id": "set_community_5",
-        "name": "The Vanguard Collection"
+        "name": "The Vanguard Collection",
+        "search_slug": "the-vanguard-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "16-384__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1",
     "id": 16,
     "localized_names": {
       "brazilian": "M4A4",

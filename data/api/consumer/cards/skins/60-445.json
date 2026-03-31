@@ -20,8 +20,10 @@
       "short_name": "MW"
     }
   ],
+  "canonical_slug": "60-445",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "an-red-m4a1s",
     "catalog_id": 445,
     "id": 445,
     "localized_names": {
@@ -128,16 +130,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-chopshop",
         "id": "set_chopshop",
-        "name": "The Chop Shop Collection"
+        "name": "The Chop Shop Collection",
+        "search_slug": "the-chop-shop-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-chopshop",
         "flags": [],
         "id": "4605",
         "kind": "container",
         "name": "The Chop Shop Collection",
+        "search_slug": "the-chop-shop-collection",
         "tier": "legendary"
       }
     ],
@@ -148,6 +154,7 @@
     "60-445__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

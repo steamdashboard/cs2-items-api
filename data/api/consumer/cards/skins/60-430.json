@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "60-430",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-m4a1-hyper-beast",
     "catalog_id": 430,
     "id": 430,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-7",
         "flags": [],
         "id": "4089",
         "kind": "weapon-case",
         "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
         "tier": "ancient"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-7",
         "id": "set_community_7",
-        "name": "The Chroma 2 Collection"
+        "name": "The Chroma 2 Collection",
+        "search_slug": "the-chroma-2-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "60-430__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

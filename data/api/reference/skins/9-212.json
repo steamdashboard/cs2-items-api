@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "9-212",
   "finish": {
     "codename": "am_crumple_bravo",
     "id": 212,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-bravo-i",
         "id": "set_bravo_i",
-        "name": "The Bravo Collection"
+        "name": "The Bravo Collection",
+        "search_slug": "the-bravo-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-operation-ii",
         "flags": [],
         "id": "4003",
         "kind": "weapon-case",
         "name": "Operation Bravo Case",
+        "search_slug": "operation-bravo-case",
         "tier": "legendary"
       }
     ]

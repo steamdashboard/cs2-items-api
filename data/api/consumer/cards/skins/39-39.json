@@ -5,8 +5,10 @@
     "stattrak": false
   },
   "available_exteriors": [],
+  "canonical_slug": "39-39",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "so-yellow",
     "catalog_id": 39,
     "id": 39,
     "localized_names": {
@@ -113,16 +115,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-chopshop",
         "id": "set_chopshop",
-        "name": "The Chop Shop Collection"
+        "name": "The Chop Shop Collection",
+        "search_slug": "the-chop-shop-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-chopshop",
         "flags": [],
         "id": "4605",
         "kind": "container",
         "name": "The Chop Shop Collection",
+        "search_slug": "the-chop-shop-collection",
         "tier": "mythical"
       }
     ],
@@ -132,6 +138,7 @@
     "39-39__normal__vanilla"
   ],
   "weapon": {
+    "canonical_slug": "weapon-sg556",
     "id": 39,
     "localized_names": {
       "brazilian": "SG 553",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "64-1011",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-phoenix-tags-blue",
     "catalog_id": 1011,
     "id": 1011,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-t",
         "id": "set_op10_t",
-        "name": "The Havoc Collection"
+        "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-t",
         "flags": [],
         "id": "4721",
         "kind": "container",
         "name": "The Havoc Collection",
+        "search_slug": "the-havoc-collection",
         "tier": "uncommon"
       }
     ],
@@ -172,6 +178,7 @@
     "64-1011__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-revolver",
     "id": 64,
     "localized_names": {
       "brazilian": "Revólver R8",

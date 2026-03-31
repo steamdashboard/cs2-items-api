@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": false
   },
+  "canonical_slug": "9-756",
   "finish": {
     "codename": "gs_awp_gungnir",
     "id": 756,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-norse",
         "id": "set_norse",
-        "name": "The Norse Collection"
+        "name": "The Norse Collection",
+        "search_slug": "the-norse-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-norse",
         "flags": [],
         "id": "4611",
         "kind": "container",
         "name": "The Norse Collection",
+        "search_slug": "the-norse-collection",
         "tier": "ancient"
       }
     ]

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "32-635",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-p2000-sport",
     "catalog_id": 635,
     "id": 635,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-15",
         "flags": [],
         "id": "4288",
         "kind": "weapon-case",
         "name": "Glove Case",
+        "search_slug": "glove-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-15",
         "id": "set_community_15",
-        "name": "The Glove Collection"
+        "name": "The Glove Collection",
+        "search_slug": "the-glove-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "32-635__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-hkp2000",
     "id": 32,
     "localized_names": {
       "brazilian": "P2000",

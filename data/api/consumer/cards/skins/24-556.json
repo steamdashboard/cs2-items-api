@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "24-556",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-ump45-primalsaber",
     "catalog_id": 556,
     "id": 556,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-12",
         "flags": [],
         "id": "4233",
         "kind": "weapon-case",
         "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-12",
         "id": "set_community_12",
-        "name": "The Chroma 3 Collection"
+        "name": "The Chroma 3 Collection",
+        "search_slug": "the-chroma-3-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "24-556__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ump45",
     "id": 24,
     "localized_names": {
       "brazilian": "UMP-45",

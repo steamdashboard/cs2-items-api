@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "60-1223",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-m4a1s-feeding-frenzy",
     "catalog_id": 1223,
     "id": 1223,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-32",
         "flags": [],
         "id": "4880",
         "kind": "weapon-case",
         "name": "Revolution Case",
+        "search_slug": "revolution-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-32",
         "id": "set_community_32",
-        "name": "The Revolution Collection"
+        "name": "The Revolution Collection",
+        "search_slug": "the-revolution-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "60-1223__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

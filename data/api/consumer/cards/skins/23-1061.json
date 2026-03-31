@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "23-1061",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-trainarchitect",
     "catalog_id": 1061,
     "id": 1061,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2021",
         "id": "set_train_2021",
-        "name": "The 2021 Train Collection"
+        "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-train-2021-mythical-standalone",
         "flags": [],
         "id": "4786",
         "kind": "container",
         "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "23-1061__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp5sd",
     "id": 23,
     "localized_names": {
       "brazilian": "MP5-SD",

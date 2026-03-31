@@ -20,8 +20,10 @@
       "short_name": "MW"
     }
   ],
+  "canonical_slug": "35-214",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-crumple",
     "catalog_id": 214,
     "id": 214,
     "localized_names": {
@@ -127,17 +129,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-2",
         "flags": [],
         "id": "4004",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-ii",
         "id": "set_weapons_ii",
-        "name": "The Arms Deal 2 Collection"
+        "name": "The Arms Deal 2 Collection",
+        "search_slug": "the-arms-deal-2-collection"
       }
     ],
     "containers": [],
@@ -150,6 +156,7 @@
     "35-214__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-nova",
     "id": 35,
     "localized_names": {
       "brazilian": "Nova",

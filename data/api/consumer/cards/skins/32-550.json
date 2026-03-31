@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "32-550",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-p2000-oceani",
     "catalog_id": 550,
     "id": 550,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-12",
         "flags": [],
         "id": "4233",
         "kind": "weapon-case",
         "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-12",
         "id": "set_community_12",
-        "name": "The Chroma 3 Collection"
+        "name": "The Chroma 3 Collection",
+        "search_slug": "the-chroma-3-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "32-550__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-hkp2000",
     "id": 32,
     "localized_names": {
       "brazilian": "P2000",

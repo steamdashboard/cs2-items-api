@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "8-758",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-jorm-orange",
     "catalog_id": 758,
     "id": 758,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-norse",
         "id": "set_norse",
-        "name": "The Norse Collection"
+        "name": "The Norse Collection",
+        "search_slug": "the-norse-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-norse",
         "flags": [],
         "id": "4611",
         "kind": "container",
         "name": "The Norse Collection",
+        "search_slug": "the-norse-collection",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "8-758__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-aug",
     "id": 8,
     "localized_names": {
       "brazilian": "AUG",

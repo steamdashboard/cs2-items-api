@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": false
   },
+  "canonical_slug": "29-870",
   "finish": {
     "codename": "sp_palm_green",
     "id": 870,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-stmarc",
         "id": "set_stmarc",
-        "name": "The St. Marc Collection"
+        "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-stmarc",
         "flags": [],
         "id": "4612",
         "kind": "container",
         "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection",
         "tier": null
       }
     ]

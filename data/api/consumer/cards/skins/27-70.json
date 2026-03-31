@@ -20,8 +20,10 @@
       "short_name": "MW"
     }
   ],
+  "canonical_slug": "27-70",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-carbon-fiber",
     "catalog_id": 70,
     "id": 70,
     "localized_names": {
@@ -128,16 +130,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-ct",
         "id": "set_op10_ct",
-        "name": "The Control Collection"
+        "name": "The Control Collection",
+        "search_slug": "the-control-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-ct",
         "flags": [],
         "id": "4720",
         "kind": "container",
         "name": "The Control Collection",
+        "search_slug": "the-control-collection",
         "tier": "uncommon"
       }
     ],
@@ -148,6 +154,7 @@
     "27-70__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mag7",
     "id": 27,
     "localized_names": {
       "brazilian": "MAG-7",

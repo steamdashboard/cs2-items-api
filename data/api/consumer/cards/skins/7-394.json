@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-394",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aq-ak47-cartel",
     "catalog_id": 394,
     "id": 394,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-6",
         "flags": [],
         "id": "4061",
         "kind": "weapon-case",
         "name": "Chroma Case",
+        "search_slug": "chroma-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-6",
         "id": "set_community_6",
-        "name": "The Chroma Collection"
+        "name": "The Chroma Collection",
+        "search_slug": "the-chroma-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "7-394__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

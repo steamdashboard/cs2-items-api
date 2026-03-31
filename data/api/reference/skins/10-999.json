@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": false
   },
+  "canonical_slug": "10-999",
   "finish": {
     "codename": "am_numbers_magenta",
     "id": 999,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-op10-ct",
         "id": "set_op10_ct",
-        "name": "The Control Collection"
+        "name": "The Control Collection",
+        "search_slug": "the-control-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-ct",
         "flags": [],
         "id": "4720",
         "kind": "container",
         "name": "The Control Collection",
+        "search_slug": "the-control-collection",
         "tier": "mythical"
       }
     ]

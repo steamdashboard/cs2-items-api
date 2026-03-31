@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "34-482",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-mp9-nitrogen",
     "catalog_id": 482,
     "id": 482,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-8",
         "flags": [],
         "id": "4091",
         "kind": "weapon-case",
         "name": "Falchion Case",
+        "search_slug": "falchion-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-8",
         "id": "set_community_8",
-        "name": "The Falchion Collection"
+        "name": "The Falchion Collection",
+        "search_slug": "the-falchion-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "34-482__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp9",
     "id": 34,
     "localized_names": {
       "brazilian": "MP9",

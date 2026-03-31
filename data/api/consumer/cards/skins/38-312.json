@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "38-312",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-scar-cyrex",
     "catalog_id": 312,
     "id": 312,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-3",
         "flags": [],
         "id": "4017",
         "kind": "weapon-case",
         "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-3",
         "id": "set_community_3",
-        "name": "The Huntsman Collection"
+        "name": "The Huntsman Collection",
+        "search_slug": "the-huntsman-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "38-312__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-scar20",
     "id": 38,
     "localized_names": {
       "brazilian": "SCAR-20",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "60-383",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aq-m4a1s-basilisk",
     "catalog_id": 383,
     "id": 383,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-operation-vanguard",
         "flags": [],
         "id": "4029",
         "kind": "weapon-case",
         "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-5",
         "id": "set_community_5",
-        "name": "The Vanguard Collection"
+        "name": "The Vanguard Collection",
+        "search_slug": "the-vanguard-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "60-383__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1-silencer",
     "id": 60,
     "localized_names": {
       "brazilian": "M4A1-S",

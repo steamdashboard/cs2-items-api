@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "39-861",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-asgard-wall",
     "catalog_id": 861,
     "id": 861,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-norse",
         "id": "set_norse",
-        "name": "The Norse Collection"
+        "name": "The Norse Collection",
+        "search_slug": "the-norse-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-norse",
         "flags": [],
         "id": "4611",
         "kind": "container",
         "name": "The Norse Collection",
+        "search_slug": "the-norse-collection",
         "tier": null
       }
     ],
@@ -172,6 +178,7 @@
     "39-861__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-sg556",
     "id": 39,
     "localized_names": {
       "brazilian": "SG 553",

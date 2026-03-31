@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "19-726",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-bloom-orange",
     "catalog_id": 726,
     "id": 726,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-stmarc",
         "id": "set_stmarc",
-        "name": "The St. Marc Collection"
+        "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-stmarc",
         "flags": [],
         "id": "4612",
         "kind": "container",
         "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection",
         "tier": "uncommon"
       }
     ],
@@ -172,6 +178,7 @@
     "19-726__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-p90",
     "id": 19,
     "localized_names": {
       "brazilian": "P90",

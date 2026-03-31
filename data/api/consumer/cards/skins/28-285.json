@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "28-285",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-negev-turq-terrain",
     "catalog_id": 285,
     "id": 285,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-2",
         "flags": [],
         "id": "4011",
         "kind": "weapon-case",
         "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-2",
         "id": "set_community_2",
-        "name": "The Phoenix Collection"
+        "name": "The Phoenix Collection",
+        "search_slug": "the-phoenix-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "28-285__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-negev",
     "id": 28,
     "localized_names": {
       "brazilian": "Negev",

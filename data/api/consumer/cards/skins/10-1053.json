@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "10-1053",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-nuclear-pattern4-famas",
     "catalog_id": 1053,
     "id": 1053,
     "localized_names": {
@@ -142,16 +144,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2021",
         "id": "set_train_2021",
-        "name": "The 2021 Train Collection"
+        "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-train-2021-legendary-standalone",
         "flags": [],
         "id": "4787",
         "kind": "container",
         "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection",
         "tier": "legendary"
       }
     ],
@@ -164,6 +170,7 @@
     "10-1053__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-famas",
     "id": 10,
     "localized_names": {
       "brazilian": "FAMAS",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "11-739",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-murano-violet",
     "catalog_id": 739,
     "id": 739,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-canals",
         "id": "set_canals",
-        "name": "The Canals Collection"
+        "name": "The Canals Collection",
+        "search_slug": "the-canals-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-canals",
         "flags": [],
         "id": "4608",
         "kind": "container",
         "name": "The Canals Collection",
+        "search_slug": "the-canals-collection",
         "tier": "rare"
       }
     ],
@@ -172,6 +178,7 @@
     "11-739__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-g3sg1",
     "id": 11,
     "localized_names": {
       "brazilian": "G3SG1",

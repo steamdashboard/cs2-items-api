@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "26-1418",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "bizon-rmx",
     "catalog_id": 1418,
     "id": 1418,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-community-37",
         "id": "set_community_37",
-        "name": "The Dead Hand Collection"
+        "name": "The Dead Hand Collection",
+        "search_slug": "the-dead-hand-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-37",
         "flags": [],
         "id": "5181",
         "kind": "container",
         "name": "Sealed Dead Hand Terminal",
+        "search_slug": "sealed-dead-hand-terminal",
         "tier": "rare"
       }
     ],
@@ -172,6 +178,7 @@
     "26-1418__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-bizon",
     "id": 26,
     "localized_names": {
       "brazilian": "PP-Bizon",

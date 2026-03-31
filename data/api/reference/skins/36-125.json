@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": false
   },
+  "canonical_slug": "36-125",
   "finish": {
     "codename": "cu_xray_p250",
     "id": 125,
@@ -21,18 +22,22 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-xraymachine",
         "id": "set_xraymachine",
-        "name": "The X-Ray Collection"
+        "name": "The X-Ray Collection",
+        "search_slug": "the-x-ray-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-xray-p250",
         "flags": [
           "item_set_fallback"
         ],
         "id": "4668",
         "kind": "container",
         "name": "X-Ray P250 Package",
+        "search_slug": "x-ray-p250-package",
         "tier": null
       }
     ]

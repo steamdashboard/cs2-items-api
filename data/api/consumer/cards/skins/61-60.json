@@ -20,8 +20,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "61-60",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-zebra-dark",
     "catalog_id": 60,
     "id": 60,
     "localized_names": {
@@ -127,17 +129,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-1",
         "flags": [],
         "id": "4001",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case",
+        "search_slug": "cs-go-weapon-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-i",
         "id": "set_weapons_i",
-        "name": "The Arms Deal Collection"
+        "name": "The Arms Deal Collection",
+        "search_slug": "the-arms-deal-collection"
       }
     ],
     "containers": [],
@@ -150,6 +156,7 @@
     "61-60__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-usp-silencer",
     "id": 61,
     "localized_names": {
       "brazilian": "USP-S",

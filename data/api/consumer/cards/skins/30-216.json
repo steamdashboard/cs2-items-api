@@ -13,8 +13,10 @@
       "short_name": "FN"
     }
   ],
+  "canonical_slug": "30-216",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "an-titanium30v",
     "catalog_id": 216,
     "id": 216,
     "localized_names": {
@@ -120,17 +122,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-2",
         "flags": [],
         "id": "4004",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-ii",
         "id": "set_weapons_ii",
-        "name": "The Arms Deal 2 Collection"
+        "name": "The Arms Deal 2 Collection",
+        "search_slug": "the-arms-deal-2-collection"
       }
     ],
     "containers": [],
@@ -141,6 +147,7 @@
     "30-216__stattrak__factory-new"
   ],
   "weapon": {
+    "canonical_slug": "weapon-tec9",
     "id": 30,
     "localized_names": {
       "brazilian": "Tec-9",

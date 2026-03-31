@@ -353,7 +353,7 @@ def write_api_layer(
     write_json(consumer_root / "meta" / "facets.json", consumer["meta"]["facets"])
 
     schema = {
-        "version": 6,
+        "version": 7,
         "generated_at": generated_at,
         "layers": {
             "reference": "Canonical normalized entities and stable IDs.",
@@ -410,6 +410,10 @@ def write_api_layer(
         "id_policy": {
             "skin": "<weapon_id>-<paint_kit_id>",
             "skin_variant": "<skin_id>__<quality>__<exterior>",
+        },
+        "slug_policy": {
+            "canonical_slug": "slug(codename) when codename exists, otherwise slug(id); stable alias layer and not guaranteed unique across kinds.",
+            "search_slug": "slug(human-readable name or market hash name); search-friendly layer and not a stable identity contract.",
         },
     }
     stats = build_stats(core, api, consumer, rendered)

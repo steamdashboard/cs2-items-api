@@ -20,8 +20,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "40-60",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-zebra-dark",
     "catalog_id": 60,
     "id": 60,
     "localized_names": {
@@ -127,17 +129,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-esports-2014-summer",
         "flags": [],
         "id": "4019",
         "kind": "weapon-case",
         "name": "eSports 2014 Summer Case",
+        "search_slug": "esports-2014-summer-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-esports-iii",
         "id": "set_esports_iii",
-        "name": "The eSports 2014 Summer Collection"
+        "name": "The eSports 2014 Summer Collection",
+        "search_slug": "the-esports-2014-summer-collection"
       }
     ],
     "containers": [],
@@ -150,6 +156,7 @@
     "40-60__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ssg08",
     "id": 40,
     "localized_names": {
       "brazilian": "SSG 08",

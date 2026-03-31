@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "14-452",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-zodiac3",
     "catalog_id": 452,
     "id": 452,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-gods-and-monsters",
         "id": "set_gods_and_monsters",
-        "name": "The Gods and Monsters Collection"
+        "name": "The Gods and Monsters Collection",
+        "search_slug": "the-gods-and-monsters-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-gods-and-monsters",
         "flags": [],
         "id": "4604",
         "kind": "container",
         "name": "The Gods and Monsters Collection",
+        "search_slug": "the-gods-and-monsters-collection",
         "tier": "uncommon"
       }
     ],
@@ -172,6 +178,7 @@
     "14-452__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m249",
     "id": 14,
     "localized_names": {
       "brazilian": "M249",

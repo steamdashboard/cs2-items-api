@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "39-598",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-sg553-aerial",
     "catalog_id": 598,
     "id": 598,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-13",
         "flags": [],
         "id": "4236",
         "kind": "weapon-case",
         "name": "Gamma Case",
+        "search_slug": "gamma-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-13",
         "id": "set_community_13",
-        "name": "The Gamma Collection"
+        "name": "The Gamma Collection",
+        "search_slug": "the-gamma-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "39-598__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-sg556",
     "id": 39,
     "localized_names": {
       "brazilian": "SG 553",

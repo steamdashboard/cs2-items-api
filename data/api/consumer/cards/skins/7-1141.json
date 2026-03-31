@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-1141",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-ak47-nightwish",
     "catalog_id": 1141,
     "id": 1141,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-30",
         "flags": [],
         "id": "4818",
         "kind": "weapon-case",
         "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
         "tier": "ancient"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-30",
         "id": "set_community_30",
-        "name": "The Dreams & Nightmares Collection"
+        "name": "The Dreams & Nightmares Collection",
+        "search_slug": "the-dreams-nightmares-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "7-1141__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

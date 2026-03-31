@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "1-425",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-bronze-sparkle",
     "catalog_id": 425,
     "id": 425,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-7",
         "flags": [],
         "id": "4089",
         "kind": "weapon-case",
         "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-7",
         "id": "set_community_7",
-        "name": "The Chroma 2 Collection"
+        "name": "The Chroma 2 Collection",
+        "search_slug": "the-chroma-2-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "1-425__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-deagle",
     "id": 1,
     "localized_names": {
       "brazilian": "Desert Eagle",

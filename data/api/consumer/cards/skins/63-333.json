@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "63-333",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "so-indigo-and-grey",
     "catalog_id": 333,
     "id": 333,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-canals",
         "id": "set_canals",
-        "name": "The Canals Collection"
+        "name": "The Canals Collection",
+        "search_slug": "the-canals-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-canals",
         "flags": [],
         "id": "4608",
         "kind": "container",
         "name": "The Canals Collection",
+        "search_slug": "the-canals-collection",
         "tier": null
       }
     ],
@@ -172,6 +178,7 @@
     "63-333__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-cz75a",
     "id": 63,
     "localized_names": {
       "brazilian": "CZ75-Auto",

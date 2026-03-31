@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "40-624",
   "finish": {
     "codename": "cu_ssg08_dragonfire_scope",
     "id": 624,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-community-15",
         "id": "set_community_15",
-        "name": "The Glove Collection"
+        "name": "The Glove Collection",
+        "search_slug": "the-glove-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-15",
         "flags": [],
         "id": "4288",
         "kind": "weapon-case",
         "name": "Glove Case",
+        "search_slug": "glove-case",
         "tier": "ancient"
       }
     ]

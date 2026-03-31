@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "19-611",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-p90-grimm",
     "catalog_id": 611,
     "id": 611,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-gamma-2",
         "flags": [],
         "id": "4281",
         "kind": "weapon-case",
         "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-gamma-2",
         "id": "set_gamma_2",
-        "name": "The Gamma 2 Collection"
+        "name": "The Gamma 2 Collection",
+        "search_slug": "the-gamma-2-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "19-611__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-p90",
     "id": 19,
     "localized_names": {
       "brazilian": "P90",

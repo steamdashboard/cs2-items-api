@@ -20,8 +20,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "29-552",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-sawedoff-fubar",
     "catalog_id": 552,
     "id": 552,
     "localized_names": {
@@ -127,17 +129,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-12",
         "flags": [],
         "id": "4233",
         "kind": "weapon-case",
         "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-12",
         "id": "set_community_12",
-        "name": "The Chroma 3 Collection"
+        "name": "The Chroma 3 Collection",
+        "search_slug": "the-chroma-3-collection"
       }
     ],
     "containers": [],
@@ -150,6 +156,7 @@
     "29-552__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-sawedoff",
     "id": 29,
     "localized_names": {
       "brazilian": "Cano Curto",

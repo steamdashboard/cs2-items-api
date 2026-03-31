@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "30-539",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-tec9-jambiya",
     "catalog_id": 539,
     "id": 539,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-11",
         "flags": [],
         "id": "4187",
         "kind": "weapon-case",
         "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-11",
         "id": "set_community_11",
-        "name": "The Wildfire Collection"
+        "name": "The Wildfire Collection",
+        "search_slug": "the-wildfire-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "30-539__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-tec9",
     "id": 30,
     "localized_names": {
       "brazilian": "Tec-9",

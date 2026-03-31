@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "11-628",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-g3sg1-viper-yellow",
     "catalog_id": 628,
     "id": 628,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-15",
         "flags": [],
         "id": "4288",
         "kind": "weapon-case",
         "name": "Glove Case",
+        "search_slug": "glove-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-15",
         "id": "set_community_15",
-        "name": "The Glove Collection"
+        "name": "The Glove Collection",
+        "search_slug": "the-glove-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "11-628__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-g3sg1",
     "id": 11,
     "localized_names": {
       "brazilian": "G3SG1",

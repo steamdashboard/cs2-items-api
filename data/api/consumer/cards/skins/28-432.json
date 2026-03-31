@@ -20,8 +20,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "28-432",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-negev-glory",
     "catalog_id": 432,
     "id": 432,
     "localized_names": {
@@ -127,17 +129,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-7",
         "flags": [],
         "id": "4089",
         "kind": "weapon-case",
         "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-7",
         "id": "set_community_7",
-        "name": "The Chroma 2 Collection"
+        "name": "The Chroma 2 Collection",
+        "search_slug": "the-chroma-2-collection"
       }
     ],
     "containers": [],
@@ -150,6 +156,7 @@
     "28-432__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-negev",
     "id": 28,
     "localized_names": {
       "brazilian": "Negev",

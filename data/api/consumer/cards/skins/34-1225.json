@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "34-1225",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-mp9-superlight",
     "catalog_id": 1225,
     "id": 1225,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-32",
         "flags": [],
         "id": "4880",
         "kind": "weapon-case",
         "name": "Revolution Case",
+        "search_slug": "revolution-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-32",
         "id": "set_community_32",
-        "name": "The Revolution Collection"
+        "name": "The Revolution Collection",
+        "search_slug": "the-revolution-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "34-1225__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp9",
     "id": 34,
     "localized_names": {
       "brazilian": "MP9",

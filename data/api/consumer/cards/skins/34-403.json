@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "34-403",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-mp9-deadly-poison",
     "catalog_id": 403,
     "id": 403,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-6",
         "flags": [],
         "id": "4061",
         "kind": "weapon-case",
         "name": "Chroma Case",
+        "search_slug": "chroma-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-6",
         "id": "set_community_6",
-        "name": "The Chroma Collection"
+        "name": "The Chroma Collection",
+        "search_slug": "the-chroma-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "34-403__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp9",
     "id": 34,
     "localized_names": {
       "brazilian": "MP9",

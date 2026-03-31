@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-456",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-bamboo-jungle",
     "catalog_id": 456,
     "id": 456,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-kimono",
         "id": "set_kimono",
-        "name": "The Rising Sun Collection"
+        "name": "The Rising Sun Collection",
+        "search_slug": "the-rising-sun-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-kimono",
         "flags": [],
         "id": "4606",
         "kind": "container",
         "name": "The Rising Sun Collection",
+        "search_slug": "the-rising-sun-collection",
         "tier": "legendary"
       }
     ],
@@ -172,6 +178,7 @@
     "7-456__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

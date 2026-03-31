@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "17-1150",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-mac10-monkeyflage",
     "catalog_id": 1150,
     "id": 1150,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-31",
         "flags": [],
         "id": "4846",
         "kind": "weapon-case",
         "name": "Recoil Case",
+        "search_slug": "recoil-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-31",
         "id": "set_community_31",
-        "name": "The Recoil Collection"
+        "name": "The Recoil Collection",
+        "search_slug": "the-recoil-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "17-1150__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mac10",
     "id": 17,
     "localized_names": {
       "brazilian": "MAC-10",

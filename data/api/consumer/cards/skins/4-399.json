@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "4-399",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-glock-deathtoll",
     "catalog_id": 399,
     "id": 399,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-6",
         "flags": [],
         "id": "4061",
         "kind": "weapon-case",
         "name": "Chroma Case",
+        "search_slug": "chroma-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-6",
         "id": "set_community_6",
-        "name": "The Chroma Collection"
+        "name": "The Chroma Collection",
+        "search_slug": "the-chroma-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "4-399__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-glock",
     "id": 4,
     "localized_names": {
       "brazilian": "Glock-18",

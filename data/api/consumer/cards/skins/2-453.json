@@ -20,8 +20,10 @@
       "short_name": "MW"
     }
   ],
+  "canonical_slug": "2-453",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "an-emerald",
     "catalog_id": 453,
     "id": 453,
     "localized_names": {
@@ -128,16 +130,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-canals",
         "id": "set_canals",
-        "name": "The Canals Collection"
+        "name": "The Canals Collection",
+        "search_slug": "the-canals-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-canals",
         "flags": [],
         "id": "4608",
         "kind": "container",
         "name": "The Canals Collection",
+        "search_slug": "the-canals-collection",
         "tier": "rare"
       }
     ],
@@ -148,6 +154,7 @@
     "2-453__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-elite",
     "id": 2,
     "localized_names": {
       "brazilian": "Berettas Duplas",

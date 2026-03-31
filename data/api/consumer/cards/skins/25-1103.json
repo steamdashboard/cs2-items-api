@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "25-1103",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-xm1014-watchdog",
     "catalog_id": 1103,
     "id": 1103,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-29",
         "flags": [],
         "id": "4790",
         "kind": "weapon-case",
         "name": "Operation Riptide Case",
+        "search_slug": "operation-riptide-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-29",
         "id": "set_community_29",
-        "name": "The Operation Riptide Collection"
+        "name": "The Operation Riptide Collection",
+        "search_slug": "the-operation-riptide-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "25-1103__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-xm1014",
     "id": 25,
     "localized_names": {
       "brazilian": "XM1014",

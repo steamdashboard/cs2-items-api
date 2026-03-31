@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "19-1199",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "p90-steelcraft",
     "catalog_id": 1199,
     "id": 1199,
     "localized_names": {
@@ -149,23 +151,29 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2025",
         "id": "set_train_2025",
-        "name": "The Train 2025 Collection"
+        "name": "The Train 2025 Collection",
+        "search_slug": "the-train-2025-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-aus2025-promo-de-train",
         "flags": [],
         "id": "5126",
         "kind": "container",
         "name": "Austin 2025 Train Souvenir Package",
+        "search_slug": "austin-2025-train-souvenir-package",
         "tier": "uncommon"
       },
       {
+        "canonical_slug": "crate-bud2025-promo-de-train",
         "flags": [],
         "id": "5225",
         "kind": "container",
         "name": "Budapest 2025 Train Souvenir Package",
+        "search_slug": "budapest-2025-train-souvenir-package",
         "tier": "uncommon"
       }
     ],
@@ -179,6 +187,7 @@
     "19-1199__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-p90",
     "id": 19,
     "localized_names": {
       "brazilian": "P90",

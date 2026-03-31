@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "35-1162",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "nova-drakkar",
     "catalog_id": 1162,
     "id": 1162,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-33",
         "flags": [],
         "id": "4904",
         "kind": "weapon-case",
         "name": "Kilowatt Case",
+        "search_slug": "kilowatt-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-33",
         "id": "set_community_33",
-        "name": "The Kilowatt Collection"
+        "name": "The Kilowatt Collection",
+        "search_slug": "the-kilowatt-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "35-1162__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-nova",
     "id": 35,
     "localized_names": {
       "brazilian": "Nova",

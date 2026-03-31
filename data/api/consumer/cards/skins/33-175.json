@@ -5,8 +5,10 @@
     "stattrak": false
   },
   "available_exteriors": [],
+  "canonical_slug": "33-175",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-dapple",
     "catalog_id": 175,
     "id": 175,
     "localized_names": {
@@ -113,16 +115,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-norse",
         "id": "set_norse",
-        "name": "The Norse Collection"
+        "name": "The Norse Collection",
+        "search_slug": "the-norse-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-norse",
         "flags": [],
         "id": "4611",
         "kind": "container",
         "name": "The Norse Collection",
+        "search_slug": "the-norse-collection",
         "tier": null
       }
     ],
@@ -132,6 +138,7 @@
     "33-175__normal__vanilla"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp7",
     "id": 33,
     "localized_names": {
       "brazilian": "MP7",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "36-741",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-ren-dark",
     "catalog_id": 741,
     "id": 741,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-canals",
         "id": "set_canals",
-        "name": "The Canals Collection"
+        "name": "The Canals Collection",
+        "search_slug": "the-canals-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-canals",
         "flags": [],
         "id": "4608",
         "kind": "container",
         "name": "The Canals Collection",
+        "search_slug": "the-canals-collection",
         "tier": "uncommon"
       }
     ],
@@ -172,6 +178,7 @@
     "36-741__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-p250",
     "id": 36,
     "localized_names": {
       "brazilian": "P250",

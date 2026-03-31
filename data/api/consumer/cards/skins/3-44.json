@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "3-44",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aq-oiled",
     "catalog_id": 44,
     "id": 44,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-2",
         "flags": [],
         "id": "4004",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-ii",
         "id": "set_weapons_ii",
-        "name": "The Arms Deal 2 Collection"
+        "name": "The Arms Deal 2 Collection",
+        "search_slug": "the-arms-deal-2-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "3-44__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-fiveseven",
     "id": 3,
     "localized_names": {
       "brazilian": "Five-SeveN",

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "16-588",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-m4a4-desolate-space",
     "catalog_id": 588,
     "id": 588,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-13",
         "flags": [],
         "id": "4236",
         "kind": "weapon-case",
         "name": "Gamma Case",
+        "search_slug": "gamma-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-13",
         "id": "set_community_13",
-        "name": "The Gamma Collection"
+        "name": "The Gamma Collection",
+        "search_slug": "the-gamma-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "16-588__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1",
     "id": 16,
     "localized_names": {
       "brazilian": "M4A4",

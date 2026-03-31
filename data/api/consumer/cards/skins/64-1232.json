@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "64-1232",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-r8-banana",
     "catalog_id": 1232,
     "id": 1232,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-32",
         "flags": [],
         "id": "4880",
         "kind": "weapon-case",
         "name": "Revolution Case",
+        "search_slug": "revolution-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-32",
         "id": "set_community_32",
-        "name": "The Revolution Collection"
+        "name": "The Revolution Collection",
+        "search_slug": "the-revolution-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "64-1232__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-revolver",
     "id": 64,
     "localized_names": {
       "brazilian": "Revólver R8",

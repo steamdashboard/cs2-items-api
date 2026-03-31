@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "40-868",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-flowers-stmarc",
     "catalog_id": 868,
     "id": 868,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-stmarc",
         "id": "set_stmarc",
-        "name": "The St. Marc Collection"
+        "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-stmarc",
         "flags": [],
         "id": "4612",
         "kind": "container",
         "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "40-868__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ssg08",
     "id": 40,
     "localized_names": {
       "brazilian": "SSG 08",

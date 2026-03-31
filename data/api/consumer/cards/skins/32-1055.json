@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "32-1055",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aa-spacerace-orange",
     "catalog_id": 1055,
     "id": 1055,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2021",
         "id": "set_train_2021",
-        "name": "The 2021 Train Collection"
+        "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-train-2021-mythical-standalone",
         "flags": [],
         "id": "4786",
         "kind": "container",
         "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "32-1055__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-hkp2000",
     "id": 32,
     "localized_names": {
       "brazilian": "P2000",

@@ -25,6 +25,7 @@
   "entrypoints": {
     "agent_sides": "data/api/consumer/lists/by-side/<side>.json",
     "agents": "data/api/consumer/cards/agents/<item_definition_id>.json",
+    "canonical_slugs": "data/api/consumer/lists/by-canonical-slug/<canonical_slug>.json",
     "capsules": "data/api/consumer/cards/capsules/<container_id>.json",
     "cases": "data/api/consumer/cards/cases/<container_id>.json",
     "charms": "data/api/consumer/cards/charms/<keychain_definition_id>.json",
@@ -37,6 +38,7 @@
     "music_kits": "data/api/consumer/cards/music-kits/<music_definition_id>.json",
     "patches": "data/api/consumer/cards/patches/<sticker_kit_id>.json",
     "players": "data/api/consumer/cards/players/<player_id>.json",
+    "search_slugs": "data/api/consumer/lists/by-search-slug/<search_slug>.json",
     "skin_variants": "data/api/consumer/cards/skin-variants/<variant_id>.json",
     "skins": "data/api/consumer/cards/skins/<skin_id>.json",
     "souvenir_packages": "data/api/consumer/cards/souvenir-packages/<container_id>.json",

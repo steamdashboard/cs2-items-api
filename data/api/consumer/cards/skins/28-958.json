@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "28-958",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-negev-ultralight",
     "catalog_id": 958,
     "id": 958,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-26",
         "flags": [],
         "id": "4698",
         "kind": "weapon-case",
         "name": "Fracture Case",
+        "search_slug": "fracture-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-26",
         "id": "set_community_26",
-        "name": "The Fracture Collection"
+        "name": "The Fracture Collection",
+        "search_slug": "the-fracture-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "28-958__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-negev",
     "id": 28,
     "localized_names": {
       "brazilian": "Negev",

@@ -20,8 +20,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "9-395",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-awp-glory",
     "catalog_id": 395,
     "id": 395,
     "localized_names": {
@@ -127,17 +129,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-6",
         "flags": [],
         "id": "4061",
         "kind": "weapon-case",
         "name": "Chroma Case",
+        "search_slug": "chroma-case",
         "tier": "ancient"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-6",
         "id": "set_community_6",
-        "name": "The Chroma Collection"
+        "name": "The Chroma Collection",
+        "search_slug": "the-chroma-collection"
       }
     ],
     "containers": [],
@@ -150,6 +156,7 @@
     "9-395__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-awp",
     "id": 9,
     "localized_names": {
       "brazilian": "AWP",

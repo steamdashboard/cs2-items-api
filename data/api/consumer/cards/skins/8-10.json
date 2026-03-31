@@ -20,8 +20,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "8-10",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-copperhead",
     "catalog_id": 10,
     "id": 10,
     "localized_names": {
@@ -128,8 +130,10 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-dust",
         "id": "set_dust",
-        "name": "The Dust Collection"
+        "name": "The Dust Collection",
+        "search_slug": "the-dust-collection"
       }
     ],
     "containers": [],
@@ -140,6 +144,7 @@
     "8-10__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-aug",
     "id": 8,
     "localized_names": {
       "brazilian": "AUG",

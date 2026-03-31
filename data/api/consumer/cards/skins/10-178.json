@@ -20,8 +20,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "10-178",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-doomkitty",
     "catalog_id": 178,
     "id": 178,
     "localized_names": {
@@ -127,17 +129,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-esports-2013",
         "flags": [],
         "id": "4002",
         "kind": "weapon-case",
         "name": "eSports 2013 Case",
+        "search_slug": "esports-2013-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-esports",
         "id": "set_esports",
-        "name": "The eSports 2013 Collection"
+        "name": "The eSports 2013 Collection",
+        "search_slug": "the-esports-2013-collection"
       }
     ],
     "containers": [],
@@ -150,6 +156,7 @@
     "10-178__stattrak__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-famas",
     "id": 10,
     "localized_names": {
       "brazilian": "FAMAS",

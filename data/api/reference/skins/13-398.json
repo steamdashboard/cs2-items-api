@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "13-398",
   "finish": {
     "codename": "cu_galil_abrasion",
     "id": 398,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-community-6",
         "id": "set_community_6",
-        "name": "The Chroma Collection"
+        "name": "The Chroma Collection",
+        "search_slug": "the-chroma-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-6",
         "flags": [],
         "id": "4061",
         "kind": "weapon-case",
         "name": "Chroma Case",
+        "search_slug": "chroma-case",
         "tier": "ancient"
       }
     ]

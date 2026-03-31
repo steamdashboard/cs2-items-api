@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "1-273",
   "finish": {
     "codename": "aq_engraved_deagle",
     "id": 273,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-weapons-iii",
         "id": "set_weapons_iii",
-        "name": "The Arms Deal 3 Collection"
+        "name": "The Arms Deal 3 Collection",
+        "search_slug": "the-arms-deal-3-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-valve-3",
         "flags": [],
         "id": "4010",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case 3",
+        "search_slug": "cs-go-weapon-case-3",
         "tier": "mythical"
       }
     ]

@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "8-601",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-aug-syd-mead",
     "catalog_id": 601,
     "id": 601,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-gamma-2",
         "flags": [],
         "id": "4281",
         "kind": "weapon-case",
         "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-gamma-2",
         "id": "set_gamma_2",
-        "name": "The Gamma 2 Collection"
+        "name": "The Gamma 2 Collection",
+        "search_slug": "the-gamma-2-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "8-601__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-aug",
     "id": 8,
     "localized_names": {
       "brazilian": "AUG",

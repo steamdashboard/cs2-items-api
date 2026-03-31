@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "38-642",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-blueprint-scar",
     "catalog_id": 642,
     "id": 642,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-16",
         "flags": [],
         "id": "4351",
         "kind": "weapon-case",
         "name": "Spectrum Case",
+        "search_slug": "spectrum-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-16",
         "id": "set_community_16",
-        "name": "The Spectrum Collection"
+        "name": "The Spectrum Collection",
+        "search_slug": "the-spectrum-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "38-642__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-scar20",
     "id": 38,
     "localized_names": {
       "brazilian": "SCAR-20",

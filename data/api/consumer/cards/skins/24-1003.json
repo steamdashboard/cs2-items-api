@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "24-1003",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-ump-crime-scene",
     "catalog_id": 1003,
     "id": 1003,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-op10-ct",
         "id": "set_op10_ct",
-        "name": "The Control Collection"
+        "name": "The Control Collection",
+        "search_slug": "the-control-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-op10-ct",
         "flags": [],
         "id": "4720",
         "kind": "container",
         "name": "The Control Collection",
+        "search_slug": "the-control-collection",
         "tier": "mythical"
       }
     ],
@@ -172,6 +178,7 @@
     "24-1003__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ump45",
     "id": 24,
     "localized_names": {
       "brazilian": "UMP-45",

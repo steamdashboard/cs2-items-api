@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "23-872",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "hy-bamboo-stmarc",
     "catalog_id": 872,
     "id": 872,
     "localized_names": {
@@ -149,16 +151,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-stmarc",
         "id": "set_stmarc",
-        "name": "The St. Marc Collection"
+        "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-stmarc",
         "flags": [],
         "id": "4612",
         "kind": "container",
         "name": "The St. Marc Collection",
+        "search_slug": "the-st-marc-collection",
         "tier": null
       }
     ],
@@ -172,6 +178,7 @@
     "23-872__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp5sd",
     "id": 23,
     "localized_names": {
       "brazilian": "MP5-SD",

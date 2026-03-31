@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "14-1042",
   "finish": {
     "codename": "gs_m249_combine",
     "id": 1042,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-community-28",
         "id": "set_community_28",
-        "name": "The Snakebite Collection"
+        "name": "The Snakebite Collection",
+        "search_slug": "the-snakebite-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-28",
         "flags": [],
         "id": "4747",
         "kind": "weapon-case",
         "name": "Snakebite Case",
+        "search_slug": "snakebite-case",
         "tier": "rare"
       }
     ]

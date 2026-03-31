@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "16-1149",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-m4a4-elite-tactical",
     "catalog_id": 1149,
     "id": 1149,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-31",
         "flags": [],
         "id": "4846",
         "kind": "weapon-case",
         "name": "Recoil Case",
+        "search_slug": "recoil-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-31",
         "id": "set_community_31",
-        "name": "The Recoil Collection"
+        "name": "The Recoil Collection",
+        "search_slug": "the-recoil-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "16-1149__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-m4a1",
     "id": 16,
     "localized_names": {
       "brazilian": "M4A4",

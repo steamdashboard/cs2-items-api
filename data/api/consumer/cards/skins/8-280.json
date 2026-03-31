@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "8-280",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-aug-chameleonaire",
     "catalog_id": 280,
     "id": 280,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-2",
         "flags": [],
         "id": "4011",
         "kind": "weapon-case",
         "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
         "tier": "ancient"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-2",
         "id": "set_community_2",
-        "name": "The Phoenix Collection"
+        "name": "The Phoenix Collection",
+        "search_slug": "the-phoenix-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "8-280__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-aug",
     "id": 8,
     "localized_names": {
       "brazilian": "AUG",

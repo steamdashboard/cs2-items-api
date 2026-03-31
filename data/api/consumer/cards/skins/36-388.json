@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "36-388",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aq-p250-cartel",
     "catalog_id": 388,
     "id": 388,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-operation-vanguard",
         "flags": [],
         "id": "4029",
         "kind": "weapon-case",
         "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-5",
         "id": "set_community_5",
-        "name": "The Vanguard Collection"
+        "name": "The Vanguard Collection",
+        "search_slug": "the-vanguard-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "36-388__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-p250",
     "id": 36,
     "localized_names": {
       "brazilian": "P250",

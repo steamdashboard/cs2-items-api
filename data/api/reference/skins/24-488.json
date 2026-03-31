@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "24-488",
   "finish": {
     "codename": "cu_ump45_uproar",
     "id": 488,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-community-8",
         "id": "set_community_8",
-        "name": "The Falchion Collection"
+        "name": "The Falchion Collection",
+        "search_slug": "the-falchion-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-8",
         "flags": [],
         "id": "4091",
         "kind": "weapon-case",
         "name": "Falchion Case",
+        "search_slug": "falchion-case",
         "tier": "rare"
       }
     ]

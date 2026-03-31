@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "30-614",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-tec9-supercharged",
     "catalog_id": 614,
     "id": 614,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-gamma-2",
         "flags": [],
         "id": "4281",
         "kind": "weapon-case",
         "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
         "tier": "legendary"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-gamma-2",
         "id": "set_gamma_2",
-        "name": "The Gamma 2 Collection"
+        "name": "The Gamma 2 Collection",
+        "search_slug": "the-gamma-2-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "30-614__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-tec9",
     "id": 30,
     "localized_names": {
       "brazilian": "Tec-9",

@@ -27,8 +27,10 @@
       "short_name": "FT"
     }
   ],
+  "canonical_slug": "13-294",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "so-green",
     "catalog_id": 294,
     "id": 294,
     "localized_names": {
@@ -135,23 +137,29 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2025",
         "id": "set_train_2025",
-        "name": "The Train 2025 Collection"
+        "name": "The Train 2025 Collection",
+        "search_slug": "the-train-2025-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-aus2025-promo-de-train",
         "flags": [],
         "id": "5126",
         "kind": "container",
         "name": "Austin 2025 Train Souvenir Package",
+        "search_slug": "austin-2025-train-souvenir-package",
         "tier": "uncommon"
       },
       {
+        "canonical_slug": "crate-bud2025-promo-de-train",
         "flags": [],
         "id": "5225",
         "kind": "container",
         "name": "Budapest 2025 Train Souvenir Package",
+        "search_slug": "budapest-2025-train-souvenir-package",
         "tier": "uncommon"
       }
     ],
@@ -163,6 +171,7 @@
     "13-294__normal__minimal-wear"
   ],
   "weapon": {
+    "canonical_slug": "weapon-galilar",
     "id": 13,
     "localized_names": {
       "brazilian": "Galil AR",

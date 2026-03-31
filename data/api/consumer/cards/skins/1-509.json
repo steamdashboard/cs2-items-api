@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "1-509",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aq-deagle-corinthian",
     "catalog_id": 509,
     "id": 509,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-10",
         "flags": [],
         "id": "4186",
         "kind": "weapon-case",
         "name": "Revolver Case",
+        "search_slug": "revolver-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-10",
         "id": "set_community_10",
-        "name": "The Revolver Case Collection"
+        "name": "The Revolver Case Collection",
+        "search_slug": "the-revolver-case-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "1-509__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-deagle",
     "id": 1,
     "localized_names": {
       "brazilian": "Desert Eagle",

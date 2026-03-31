@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "26-267",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "am-turqoise-halftone",
     "catalog_id": 267,
     "id": 267,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-1",
         "flags": [],
         "id": "4009",
         "kind": "weapon-case",
         "name": "Winter Offensive Weapon Case",
+        "search_slug": "winter-offensive-weapon-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-1",
         "id": "set_community_1",
-        "name": "The Winter Offensive Collection"
+        "name": "The Winter Offensive Collection",
+        "search_slug": "the-winter-offensive-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "26-267__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-bizon",
     "id": 26,
     "localized_names": {
       "brazilian": "PP-Bizon",

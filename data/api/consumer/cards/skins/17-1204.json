@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "17-1204",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "mac10-train-crash",
     "catalog_id": 1204,
     "id": 1204,
     "localized_names": {
@@ -149,23 +151,29 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2025",
         "id": "set_train_2025",
-        "name": "The Train 2025 Collection"
+        "name": "The Train 2025 Collection",
+        "search_slug": "the-train-2025-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-aus2025-promo-de-train",
         "flags": [],
         "id": "5126",
         "kind": "container",
         "name": "Austin 2025 Train Souvenir Package",
+        "search_slug": "austin-2025-train-souvenir-package",
         "tier": "mythical"
       },
       {
+        "canonical_slug": "crate-bud2025-promo-de-train",
         "flags": [],
         "id": "5225",
         "kind": "container",
         "name": "Budapest 2025 Train Souvenir Package",
+        "search_slug": "budapest-2025-train-souvenir-package",
         "tier": "mythical"
       }
     ],
@@ -179,6 +187,7 @@
     "17-1204__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mac10",
     "id": 17,
     "localized_names": {
       "brazilian": "MAC-10",

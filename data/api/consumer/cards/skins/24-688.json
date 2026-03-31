@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "24-688",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-ump45-x-ray-machine",
     "catalog_id": 688,
     "id": 688,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-18",
         "flags": [],
         "id": "4403",
         "kind": "weapon-case",
         "name": "Spectrum 2 Case",
+        "search_slug": "spectrum-2-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-18",
         "id": "set_community_18",
-        "name": "The Spectrum 2 Collection"
+        "name": "The Spectrum 2 Collection",
+        "search_slug": "the-spectrum-2-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "24-688__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ump45",
     "id": 24,
     "localized_names": {
       "brazilian": "UMP-45",

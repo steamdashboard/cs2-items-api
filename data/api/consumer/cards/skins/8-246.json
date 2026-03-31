@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "8-246",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aa-fade-metallic",
     "catalog_id": 246,
     "id": 246,
     "localized_names": {
@@ -142,16 +144,20 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-train-2021",
         "id": "set_train_2021",
-        "name": "The 2021 Train Collection"
+        "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "selfopeningitem-set-train-2021-rare-standalone",
         "flags": [],
         "id": "4785",
         "kind": "container",
         "name": "The 2021 Train Collection",
+        "search_slug": "the-2021-train-collection",
         "tier": "rare"
       }
     ],
@@ -164,6 +170,7 @@
     "8-246__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-aug",
     "id": 8,
     "localized_names": {
       "brazilian": "AUG",

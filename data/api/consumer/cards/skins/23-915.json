@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "23-915",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "gs-mp5-fbi",
     "catalog_id": 915,
     "id": 915,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-community-24",
         "flags": [],
         "id": "4669",
         "kind": "weapon-case",
         "name": "CS20 Case",
+        "search_slug": "cs20-case",
         "tier": "mythical"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-community-24",
         "id": "set_community_24",
-        "name": "The CS20 Collection"
+        "name": "The CS20 Collection",
+        "search_slug": "the-cs20-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "23-915__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-mp5sd",
     "id": 23,
     "localized_names": {
       "brazilian": "MP5-SD",

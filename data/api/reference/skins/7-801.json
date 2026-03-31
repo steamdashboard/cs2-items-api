@@ -4,6 +4,7 @@
     "souvenir": false,
     "stattrak": true
   },
+  "canonical_slug": "7-801",
   "finish": {
     "codename": "cu_ak47_asiimov",
     "id": 801,
@@ -21,16 +22,20 @@
   "sources": {
     "collections": [
       {
+        "canonical_slug": "set-community-21",
         "id": "set_community_21",
-        "name": "The Danger Zone Collection"
+        "name": "The Danger Zone Collection",
+        "search_slug": "the-danger-zone-collection"
       }
     ],
     "containers": [
       {
+        "canonical_slug": "crate-community-21",
         "flags": [],
         "id": "4548",
         "kind": "weapon-case",
         "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
         "tier": "ancient"
       }
     ]

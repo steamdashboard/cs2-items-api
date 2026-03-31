@@ -12,7 +12,7 @@ from cs2_skins_api.constants import (
     STICKER_FINISH_ORDER,
     WEAPON_GROUPS,
 )
-from cs2_skins_api.utils import deep_merge, parse_float, parse_int, slugify, unique_list
+from cs2_skins_api.utils import build_canonical_slug, deep_merge, parse_float, parse_int, slugify, unique_list
 
 
 LEAF_ENTRY_RE = re.compile(r"^\[(?P<token>[^\]]+)\](?P<target>[A-Za-z0-9_]+)$")
@@ -987,6 +987,7 @@ def build_weapon_entities(
             "weapon_group": classification["group"],
             "side": classification.get("side"),
             "prefab_chain": record["prefab_chain"],
+            "canonical_slug": build_canonical_slug(record["name"], item_id),
             "search_slug": slugify(localizer.resolve(resolved.get("item_name")) or record["name"] or item_id),
             "resolved": resolved,
         }
@@ -1015,6 +1016,7 @@ def build_equipment_entities(
             "equipment_group": classification["group"],
             "side": classification.get("side"),
             "rarity_ref": resolved.get("item_rarity") or resolved.get("item_quality"),
+            "canonical_slug": build_canonical_slug(record["name"], item_id),
             "search_slug": slugify(name or item_id),
         }
     return equipment
@@ -1036,6 +1038,7 @@ def build_finish_entities(paint_kits: dict[str, dict[str, Any]]) -> dict[str, di
             "style_code": record["style_code"],
             "pattern": record["pattern"],
             "rarity_ref": record["rarity_ref"],
+            "canonical_slug": build_canonical_slug(record["name"], paint_kit_id),
             "search_slug": slugify(record["display_name"] or record["name"] or paint_kit_id),
             "resolved": record["resolved"],
         }
@@ -1074,6 +1077,7 @@ def build_collection_entities(
             "description": record["description"],
             "kind": "item-set",
             "skin_refs": skin_refs,
+            "canonical_slug": build_canonical_slug(None, collection_id),
             "search_slug": slugify(display_name),
         }
     return collections
@@ -1144,6 +1148,7 @@ def build_container_entities(
             },
             "loot_list_candidates": candidates,
             "contents": contents,
+            "canonical_slug": build_canonical_slug(record["name"], item_id),
             "search_slug": slugify(localizer.resolve(resolved.get("item_name")) or record["name"] or item_id),
         }
         containers[item_id] = container
@@ -1377,7 +1382,12 @@ def build_skin_entities(
                 weapons,
                 paint_kits_by_id,
                 items_by_name,
-                collection_source={"id": collection_id, "name": collection["name"]},
+                collection_source={
+                    "id": collection_id,
+                    "name": collection["name"],
+                    "canonical_slug": collection["canonical_slug"],
+                    "search_slug": collection["search_slug"],
+                },
                 container_source=None,
                 localizer=localizer,
             )
@@ -1404,6 +1414,8 @@ def build_skin_entities(
                     "kind": container["container_kind"],
                     "tier": content.get("tier"),
                     "flags": content.get("flags", []),
+                    "canonical_slug": container["canonical_slug"],
+                    "search_slug": container["search_slug"],
                 },
                 localizer=localizer,
             )
@@ -1440,6 +1452,7 @@ def build_skin_entities(
                     "exterior": exterior["id"],
                     "exterior_name": exterior["name"],
                     "market_hash_name": market_name,
+                    "canonical_slug": build_canonical_slug(None, variant_id),
                     "search_slug": slugify(market_name),
                 }
                 variant_ids.append(variant_id)
@@ -1522,6 +1535,7 @@ def add_skin_source(
                 "collections": [],
                 "containers": [],
             },
+            "canonical_slug": build_canonical_slug(None, skin_id),
             "search_slug": slugify(f"{weapon['name']} {paint_kit['display_name'] or paint_kit['name']}"),
         }
     if collection_source is not None:
@@ -1608,6 +1622,7 @@ def build_decal_entities(
             "team_name": resolve_pro_name(pro_teams.get(str(team_id))),
             "player_name": resolve_pro_name(pro_players.get(str(player_id))),
             "material": resolved.get("patch_material") or resolved.get("sticker_material"),
+            "canonical_slug": build_canonical_slug(record["name"], sticker_id),
             "search_slug": slugify(record["display_name"] or record["name"] or sticker_id),
         }
     return decals
@@ -1632,6 +1647,7 @@ def build_special_drop_entities(containers: dict[str, dict[str, Any]]) -> dict[s
                     "footers": [],
                     "footer_tokens": [],
                     "source_container_ids": [],
+                    "canonical_slug": build_canonical_slug(special_drop_id, special_drop_id),
                     "search_slug": slugify(special_drop_name(special_drop_id)),
                 },
             )
@@ -1691,6 +1707,7 @@ def build_agents(resolved_items: dict[str, dict[str, Any]], localizer: Localizer
             "description": localizer.resolve(resolved.get("item_description")),
             "side": record["classification"].get("side"),
             "rarity_ref": resolved.get("item_rarity") or resolved.get("item_quality"),
+            "canonical_slug": build_canonical_slug(record["name"], item_id),
             "search_slug": slugify(name or item_id),
         }
     return agents
@@ -1720,6 +1737,7 @@ def build_collectible_entities(
             "tournament_event_id": extract_tournament_event_id(resolved),
             "campaign_id": extract_attribute_int(resolved, "campaign id"),
             "upgrade_level": extract_attribute_int(resolved, "upgrade level"),
+            "canonical_slug": build_canonical_slug(record["name"], item_id),
             "search_slug": slugify(name or item_id),
         }
     return collectibles
@@ -1736,6 +1754,7 @@ def build_charm_entities(keychains: dict[str, dict[str, Any]]) -> dict[str, dict
             "name": record["display_name"] or record["name"],
             "description": record["description"],
             "rarity_ref": resolved.get("item_rarity"),
+            "canonical_slug": build_canonical_slug(record["name"], keychain_id),
             "search_slug": slugify(record["display_name"] or record["name"] or keychain_id),
         }
     return charms
@@ -1769,6 +1788,7 @@ def build_music_entities(
             "description": record["description"],
             "supports_stattrak": any("will_produce_stattrak" in source["flags"] for source in sources),
             "sources": unique_list(sources),
+            "canonical_slug": build_canonical_slug(record["name"], music_id),
             "search_slug": slugify(record["display_name"] or record["name"] or music_id),
         }
     return music_kits
@@ -1798,6 +1818,7 @@ def build_tool_entities(
             "description": localizer.resolve(resolved.get("item_description")),
             "tool_type": tool_type,
             "rarity_ref": resolved.get("item_rarity") or resolved.get("item_quality"),
+            "canonical_slug": build_canonical_slug(record["name"], item_id),
             "search_slug": slugify(name or item_id),
         }
     return tools
@@ -1837,6 +1858,7 @@ def build_player_entities(
                 if isinstance(event_payload, dict) and event_payload.get("team")
             },
             "sticker_ids": sorted(set(player_stickers.get(player_id, []))),
+            "canonical_slug": build_canonical_slug(None, player_id),
             "search_slug": slugify(payload.get("name") or payload.get("code") or player_id),
         }
     return players
@@ -1897,6 +1919,7 @@ def build_team_entities(
             "sticker_ids": sorted(set(team_stickers.get(team_id, []))),
             "patch_ids": sorted(set(team_patches.get(team_id, []))),
             "graffiti_ids": sorted(set(team_graffiti.get(team_id, []))),
+            "canonical_slug": build_canonical_slug(None, team_id),
             "search_slug": slugify(display_name or payload.get("tag") or team_id),
         }
     return teams
@@ -2011,6 +2034,7 @@ def build_tournament_entities(
             "sticker_ids": sorted(set(event_stickers.get(event_id, []))),
             "patch_ids": sorted(set(event_patches.get(event_id, []))),
             "graffiti_ids": sorted(set(event_graffiti.get(event_id, []))),
+            "canonical_slug": build_canonical_slug(None, event_id),
             "search_slug": slugify(display_name or slug or event_id),
         }
     return tournaments
@@ -2254,6 +2278,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
     by_team = defaultdict(lambda: defaultdict(list))
     by_player = defaultdict(lambda: defaultdict(list))
     by_side = defaultdict(lambda: defaultdict(list))
+    by_canonical_slug = defaultdict(list)
     by_slug = defaultdict(list)
     by_market_hash_name = defaultdict(list)
 
@@ -2264,6 +2289,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
         style_code = finish.get("style_code")
         if style_code is not None:
             by_finish_style[str(style_code)].append(str(finish_id))
+        by_canonical_slug[finish["canonical_slug"]].append({"kind": "finish", "id": str(finish_id)})
         by_slug[finish["search_slug"]].append({"kind": "finish", "id": str(finish_id)})
         by_market_hash_name[finish["name"]].append({"kind": "finish", "id": str(finish_id)})
 
@@ -2275,16 +2301,19 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_rarity[str(rarity_ref)]["skins"].append(skin_id)
         for source in skin["sources"]["collections"]:
             by_collection[source["id"]].append(skin_id)
+        by_canonical_slug[skin["canonical_slug"]].append({"kind": "skin", "id": skin_id})
         by_slug[skin["search_slug"]].append({"kind": "skin", "id": skin_id})
         by_market_hash_name[skin["name"]].append({"kind": "skin", "id": skin_id})
 
     for variant_id, variant in skin_variants.items():
         by_quality[variant["quality"]].append(variant_id)
         by_exterior[variant["exterior"]].append(variant_id)
+        by_canonical_slug[variant["canonical_slug"]].append({"kind": "skin-variant", "id": variant_id})
         by_slug[variant["search_slug"]].append({"kind": "skin-variant", "id": variant_id})
         by_market_hash_name[variant["market_hash_name"]].append({"kind": "skin-variant", "id": variant_id})
 
     for collection_id, collection in collections.items():
+        by_canonical_slug[collection["canonical_slug"]].append({"kind": "collection", "id": collection_id})
         by_slug[collection["search_slug"]].append({"kind": "collection", "id": collection_id})
         by_market_hash_name[collection["name"]].append({"kind": "collection", "id": collection_id})
 
@@ -2292,6 +2321,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
         by_container[str(container_id)] = container["contents"]
         if container.get("tournament_event_id") is not None:
             by_tournament[str(container["tournament_event_id"])]["containers"].append(str(container_id))
+        by_canonical_slug[container["canonical_slug"]].append({"kind": "container", "id": str(container_id)})
         by_slug[container["search_slug"]].append({"kind": "container", "id": str(container_id)})
         by_market_hash_name[container["name"]].append({"kind": "container", "id": str(container_id)})
 
@@ -2301,6 +2331,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_rarity[str(rarity_ref)]["collectibles"].append(str(collectible_id))
         if collectible.get("tournament_event_id") is not None:
             by_tournament[str(collectible["tournament_event_id"])]["collectibles"].append(str(collectible_id))
+        by_canonical_slug[collectible["canonical_slug"]].append({"kind": "collectible", "id": str(collectible_id)})
         by_slug[collectible["search_slug"]].append({"kind": "collectible", "id": str(collectible_id)})
         by_market_hash_name[collectible["name"]].append({"kind": "collectible", "id": str(collectible_id)})
 
@@ -2310,6 +2341,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_rarity[str(rarity_ref)]["equipment"].append(str(equipment_id))
         if equipment_item.get("side"):
             by_side[str(equipment_item["side"])]["equipment"].append(str(equipment_id))
+        by_canonical_slug[equipment_item["canonical_slug"]].append({"kind": "equipment", "id": str(equipment_id)})
         by_slug[equipment_item["search_slug"]].append({"kind": "equipment", "id": str(equipment_id)})
         by_market_hash_name[equipment_item["name"]].append({"kind": "equipment", "id": str(equipment_id)})
 
@@ -2323,6 +2355,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_team[str(sticker["team_id"])]["stickers"].append(str(sticker_id))
         if sticker.get("player_id") is not None:
             by_player[str(sticker["player_id"])]["stickers"].append(str(sticker_id))
+        by_canonical_slug[sticker["canonical_slug"]].append({"kind": "sticker", "id": str(sticker_id)})
         by_slug[sticker["search_slug"]].append({"kind": "sticker", "id": str(sticker_id)})
         by_market_hash_name[sticker["name"]].append({"kind": "sticker", "id": str(sticker_id)})
 
@@ -2336,6 +2369,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_team[str(patch["team_id"])]["patches"].append(str(patch_id))
         if patch.get("player_id") is not None:
             by_player[str(patch["player_id"])]["patches"].append(str(patch_id))
+        by_canonical_slug[patch["canonical_slug"]].append({"kind": "patch", "id": str(patch_id)})
         by_slug[patch["search_slug"]].append({"kind": "patch", "id": str(patch_id)})
         by_market_hash_name[patch["name"]].append({"kind": "patch", "id": str(patch_id)})
 
@@ -2349,10 +2383,12 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_team[str(graffiti_item["team_id"])]["graffiti"].append(str(graffiti_id))
         if graffiti_item.get("player_id") is not None:
             by_player[str(graffiti_item["player_id"])]["graffiti"].append(str(graffiti_id))
+        by_canonical_slug[graffiti_item["canonical_slug"]].append({"kind": "graffiti", "id": str(graffiti_id)})
         by_slug[graffiti_item["search_slug"]].append({"kind": "graffiti", "id": str(graffiti_id)})
         by_market_hash_name[graffiti_item["name"]].append({"kind": "graffiti", "id": str(graffiti_id)})
 
     for special_drop_id, special_drop in special_drops.items():
+        by_canonical_slug[special_drop["canonical_slug"]].append({"kind": "special-drop", "id": str(special_drop_id)})
         by_slug[special_drop["search_slug"]].append({"kind": "special-drop", "id": str(special_drop_id)})
         by_market_hash_name[special_drop["name"]].append({"kind": "special-drop", "id": str(special_drop_id)})
 
@@ -2362,6 +2398,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_tournament[str(tournament_id)]["teams"].append(str(team_id))
         for player_id in tournament["player_ids"]:
             by_tournament[str(tournament_id)]["players"].append(str(player_id))
+        by_canonical_slug[tournament["canonical_slug"]].append({"kind": "tournament", "id": str(tournament_id)})
         by_slug[tournament["search_slug"]].append({"kind": "tournament", "id": str(tournament_id)})
         by_market_hash_name[tournament["name"]].append({"kind": "tournament", "id": str(tournament_id)})
 
@@ -2371,6 +2408,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_team[str(team_id)]["players"].append(str(player_id))
         for event_id in team["tournament_event_ids"]:
             by_team[str(team_id)]["tournaments"].append(str(event_id))
+        by_canonical_slug[team["canonical_slug"]].append({"kind": "team", "id": str(team_id)})
         by_slug[team["search_slug"]].append({"kind": "team", "id": str(team_id)})
         by_market_hash_name[team["name"]].append({"kind": "team", "id": str(team_id)})
         if team.get("tag"):
@@ -2382,6 +2420,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_player[str(player_id)]["teams"].append(str(team_id))
         for event_id in player["tournament_event_ids"]:
             by_player[str(player_id)]["tournaments"].append(str(event_id))
+        by_canonical_slug[player["canonical_slug"]].append({"kind": "player", "id": str(player_id)})
         by_slug[player["search_slug"]].append({"kind": "player", "id": str(player_id)})
         by_market_hash_name[player["name"]].append({"kind": "player", "id": str(player_id)})
         if player.get("code"):
@@ -2393,6 +2432,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_rarity[str(rarity_ref)]["agents"].append(str(agent_id))
         if agent.get("side"):
             by_side[str(agent["side"])]["agents"].append(str(agent_id))
+        by_canonical_slug[agent["canonical_slug"]].append({"kind": "agent", "id": str(agent_id)})
         by_slug[agent["search_slug"]].append({"kind": "agent", "id": str(agent_id)})
         by_market_hash_name[agent["name"]].append({"kind": "agent", "id": str(agent_id)})
 
@@ -2400,16 +2440,19 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
         rarity_ref = charm.get("rarity_ref")
         if rarity_ref:
             by_rarity[str(rarity_ref)]["charms"].append(str(charm_id))
+        by_canonical_slug[charm["canonical_slug"]].append({"kind": "charm", "id": str(charm_id)})
         by_slug[charm["search_slug"]].append({"kind": "charm", "id": str(charm_id)})
         by_market_hash_name[charm["name"]].append({"kind": "charm", "id": str(charm_id)})
 
     for music_id, music in music_kits.items():
+        by_canonical_slug[music["canonical_slug"]].append({"kind": "music-kit", "id": str(music_id)})
         by_slug[music["search_slug"]].append({"kind": "music-kit", "id": str(music_id)})
         by_market_hash_name[music["name"]].append({"kind": "music-kit", "id": str(music_id)})
 
     for weapon_id, weapon in weapons.items():
         if weapon.get("side"):
             by_side[str(weapon["side"])]["weapons"].append(str(weapon_id))
+        by_canonical_slug[weapon["canonical_slug"]].append({"kind": "weapon", "id": str(weapon_id)})
         by_slug[weapon["search_slug"]].append({"kind": "weapon", "id": str(weapon_id)})
         by_market_hash_name[weapon["name"]].append({"kind": "weapon", "id": str(weapon_id)})
 
@@ -2441,6 +2484,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             key: {kind: sorted(set(ids)) for kind, ids in buckets.items()}
             for key, buckets in by_side.items()
         },
+        "by-canonical-slug": {key: unique_list(value) for key, value in by_canonical_slug.items()},
         "by-slug": {key: unique_list(value) for key, value in by_slug.items()},
         "by-market-hash-name": {key: unique_list(value) for key, value in by_market_hash_name.items()},
     }

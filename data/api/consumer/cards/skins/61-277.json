@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "61-277",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "aq-usp-stainless",
     "catalog_id": 277,
     "id": 277,
     "localized_names": {
@@ -148,17 +150,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-valve-3",
         "flags": [],
         "id": "4010",
         "kind": "weapon-case",
         "name": "CS:GO Weapon Case 3",
+        "search_slug": "cs-go-weapon-case-3",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-weapons-iii",
         "id": "set_weapons_iii",
-        "name": "The Arms Deal 3 Collection"
+        "name": "The Arms Deal 3 Collection",
+        "search_slug": "the-arms-deal-3-collection"
       }
     ],
     "containers": [],
@@ -177,6 +183,7 @@
     "61-277__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-usp-silencer",
     "id": 61,
     "localized_names": {
       "brazilian": "USP-S",

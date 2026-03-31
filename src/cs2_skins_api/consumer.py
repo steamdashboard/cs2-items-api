@@ -4,7 +4,7 @@ from collections import defaultdict
 from typing import Any
 
 from cs2_skins_api.normalize import Localizer
-from cs2_skins_api.utils import slugify, unique_list
+from cs2_skins_api.utils import build_canonical_slug, slugify, unique_list
 
 
 FINISH_STYLE_LABELS = {
@@ -312,12 +312,14 @@ def build_special_pool_cards(
             "localized_names": localized_values(localizer, name_token, pool["name"], locales),
             "footer": first_nonempty(pool.get("footers", [])),
             "localized_footers": localized_values(localizer, footer_token, first_nonempty(pool.get("footers", [])), locales),
+            "canonical_slug": build_canonical_slug(token, token),
             "search_slug": pool.get("search_slug") or slugify(pool["name"]),
             "source_cases": [
                 card_ref(
                     "cases",
                     container_id,
                     api["containers"][container_id]["name"],
+                    api["containers"][container_id].get("canonical_slug"),
                     api["containers"][container_id]["search_slug"],
                     "case",
                 )
@@ -329,6 +331,7 @@ def build_special_pool_cards(
                     CONSUMER_CONTAINER_GROUPS.get(api["containers"][container_id]["container_kind"], "containers"),
                     container_id,
                     api["containers"][container_id]["name"],
+                    api["containers"][container_id].get("canonical_slug"),
                     api["containers"][container_id]["search_slug"],
                     api["containers"][container_id]["container_kind"],
                 )
@@ -341,6 +344,7 @@ def build_special_pool_cards(
                     "name": api["weapons"][str(weapon_id)]["name"],
                     "localized_names": weapon_name_map.get(str(weapon_id), {}),
                     "weapon_group": api["weapons"][str(weapon_id)]["weapon_group"],
+                    "canonical_slug": api["weapons"][str(weapon_id)]["canonical_slug"],
                     "search_slug": api["weapons"][str(weapon_id)]["search_slug"],
                 }
                 for weapon_id in eligible_weapon_ids
@@ -444,12 +448,14 @@ def build_candidate_item(
         "category": item_category,
         "name": f"{weapon['name']} | {paint_kit['display_name'] or paint_kit['name']}",
         "localized_names": localized_names,
+        "canonical_slug": build_canonical_slug(None, f"{weapon_id}-{paint_kit['id']}"),
         "search_slug": slugify(f"{weapon['name']} {paint_kit['display_name'] or paint_kit['name']}"),
         "source_pool_id": source_pool_id,
         "weapon": {
             "id": weapon_id,
             "name": weapon["name"],
             "weapon_group": weapon["weapon_group"],
+            "canonical_slug": weapon["canonical_slug"],
             "search_slug": weapon["search_slug"],
         },
         "finish": {
@@ -458,6 +464,7 @@ def build_candidate_item(
             "style_code": finish_style_code,
             "style_name": FINISH_STYLE_LABELS.get(finish_style_code),
             "rarity_ref": paint_kit.get("rarity_ref"),
+            "canonical_slug": build_canonical_slug(paint_kit.get("name"), paint_kit["id"]),
         },
         "wear": {
             "min_float": paint_kit.get("wear_min"),
@@ -485,6 +492,7 @@ def build_finish_profile(profile_id: str, label: str, paint_kit_ids: list[int], 
             {
                 "id": finish["id"],
                 "name": finish["name"],
+                "canonical_slug": finish["canonical_slug"],
                 "search_slug": finish["search_slug"],
             }
         )
@@ -529,6 +537,7 @@ def build_weapon_cards(
             "card_type": card_type,
             "name": weapon["name"],
             "localized_names": localized_values(localizer, weapon.get("name_token"), weapon["name"], locales),
+            "canonical_slug": weapon["canonical_slug"],
             "search_slug": weapon["search_slug"],
             "weapon_group": group,
             "side": weapon.get("side"),
@@ -570,12 +579,14 @@ def build_skin_cards(
                 finish_name_map.get(finish_id, {}),
                 locales,
             ),
+            "canonical_slug": skin["canonical_slug"],
             "search_slug": skin["search_slug"],
             "weapon": {
                 "id": weapon["id"],
                 "name": weapon["name"],
                 "localized_names": weapon_name_map.get(weapon_id, {}),
                 "weapon_group": weapon["weapon_group"],
+                "canonical_slug": weapon["canonical_slug"],
                 "search_slug": weapon["search_slug"],
             },
             "finish": {
@@ -587,6 +598,7 @@ def build_skin_cards(
                 "catalog_id": finish["id"],
                 "rarity_ref": finish.get("rarity_ref"),
                 "wear": finish.get("wear"),
+                "canonical_slug": finish["canonical_slug"],
             },
             "wear": skin["wear"],
             "available_exteriors": skin.get("supported_exteriors", []),
@@ -612,6 +624,7 @@ def build_variant_cards(
             "card_type": "skin-variant",
             "skin_id": variant["skin_id"],
             "name": variant["market_hash_name"],
+            "canonical_slug": variant["canonical_slug"],
             "search_slug": variant["search_slug"],
             "market_hash_name": variant["market_hash_name"],
             "quality": variant["quality"],
@@ -657,16 +670,16 @@ def build_container_cards(
                     weapon = weapons.get(str(drop["weapon_id"]))
                     finish = finishes.get(str(drop["paint_kit_id"]))
                     name = f"{weapon['name']} | {finish['name']}" if weapon and finish else skin_id
-                    item = card_ref("skins", skin_id, name, slugify(name), "weapon-skin")
+                    item = card_ref("skins", skin_id, name, build_canonical_slug(None, skin_id), slugify(name), "weapon-skin")
                 else:
-                    item = card_ref("skins", skin_id, skin_card["name"], skin_card["search_slug"], skin_card["card_type"])
+                    item = card_ref("skins", skin_id, skin_card["name"], skin_card.get("canonical_slug"), skin_card["search_slug"], skin_card["card_type"])
                 if drop.get("tier"):
                     by_rarity[drop["tier"]].append(item)
                 drop_summaries.append({**item, "tier": drop.get("tier")})
             elif drop["kind"] == "special-drop":
                 pool = special_pools.get(drop["special_drop_id"])
                 if pool:
-                    item = card_ref("special-pools", pool["id"], pool["name"], pool["search_slug"], pool["card_type"])
+                    item = card_ref("special-pools", pool["id"], pool["name"], pool.get("canonical_slug"), pool["search_slug"], pool["card_type"])
                     special_pool_refs.append(item)
                     drop_summaries.append({**item, "tier": drop.get("tier")})
             else:
@@ -683,6 +696,7 @@ def build_container_cards(
             "card_type": card_type,
             "name": container["name"],
             "localized_names": localized_values(localizer, container.get("name_token"), container["name"], locales),
+            "canonical_slug": container["canonical_slug"],
             "search_slug": container["search_slug"],
             "container_kind": container["container_kind"],
             "series_id": container.get("series_id"),
@@ -747,6 +761,7 @@ def build_collection_cards(
             "card_type": "collection",
             "name": collection["name"],
             "localized_names": localized_values(localizer, collection.get("name_token"), collection["name"], locales),
+            "canonical_slug": collection["canonical_slug"],
             "search_slug": collection["search_slug"],
             "description": collection.get("description"),
             "skin_ids": sorted(relations.get("collection-to-skins", {}).get(collection_id, [])),
@@ -770,6 +785,7 @@ def build_decal_cards(
             "card_type": card_type,
             "name": entity["name"],
             "localized_names": localized_values(localizer, None, entity["name"], locales),
+            "canonical_slug": entity["canonical_slug"],
             "search_slug": entity["search_slug"],
             "description": entity.get("description"),
             "association": entity.get("association"),
@@ -798,6 +814,7 @@ def build_simple_cards(
             "card_type": card_type,
             "name": entity["name"],
             "localized_names": localized_values(localizer, entity.get("name_token"), entity["name"], locales),
+            "canonical_slug": entity["canonical_slug"],
             "search_slug": entity["search_slug"],
             "description": entity.get("description"),
             "media": generic_rendered_media_summary(rendered, card_type, entity_id, media_summary(assets, card_type, entity_id)),
@@ -832,6 +849,7 @@ def build_agent_cards(
             "card_type": "agent",
             "name": entity["name"],
             "localized_names": localized_values(localizer, None, entity["name"], locales),
+            "canonical_slug": entity["canonical_slug"],
             "search_slug": entity["search_slug"],
             "description": entity.get("description"),
             "side": entity.get("side"),
@@ -854,6 +872,7 @@ def build_event_cards(
             "card_type": "tournament",
             "name": tournament["name"],
             "localized_names": localized_values(localizer, None, tournament["name"], locales),
+            "canonical_slug": tournament["canonical_slug"],
             "search_slug": tournament["search_slug"],
             "year": tournament.get("year"),
             "team_ids": sorted(relations.get("tournament-to-teams", {}).get(tournament_id, [])),
@@ -877,6 +896,7 @@ def build_team_cards(
             "card_type": "team",
             "name": team["name"],
             "localized_names": localized_values(localizer, None, team["name"], locales),
+            "canonical_slug": team["canonical_slug"],
             "search_slug": team["search_slug"],
             "code": team.get("code"),
             "country_code": team.get("country_code"),
@@ -893,6 +913,7 @@ def build_player_cards(players: dict[str, dict[str, Any]], relations: dict[str, 
             "id": player["id"],
             "card_type": "player",
             "name": player["name"],
+            "canonical_slug": player["canonical_slug"],
             "search_slug": player["search_slug"],
             "code": player.get("code"),
             "country_code": player.get("country_code"),
@@ -914,6 +935,8 @@ def build_skin_sources(skin: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
             "kind": container["kind"],
             "tier": container.get("tier"),
             "flags": container.get("flags", []),
+            "canonical_slug": container.get("canonical_slug"),
+            "search_slug": container.get("search_slug"),
         }
         if container["kind"] == "weapon-case":
             cases.append(ref)
@@ -940,6 +963,7 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
         "by-case": defaultdict(list),
         "by-collection": defaultdict(list),
         "by-side": defaultdict(list),
+        "by-canonical-slug": defaultdict(list),
         "by-search-slug": defaultdict(list),
         "by-market-hash-name": {},
     }
@@ -947,8 +971,17 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
     for group_name, group_cards in cards.items():
         refs = []
         for card_id, card in group_cards.items():
-            ref = card_ref(group_name, card_id, card.get("name") or str(card_id), card.get("search_slug"), card["card_type"])
+            ref = card_ref(
+                group_name,
+                card_id,
+                card.get("name") or str(card_id),
+                card.get("canonical_slug"),
+                card.get("search_slug"),
+                card["card_type"],
+            )
             refs.append(ref)
+            if card.get("canonical_slug"):
+                lists["by-canonical-slug"][card["canonical_slug"]].append(ref)
             if card.get("search_slug"):
                 lists["by-search-slug"][card["search_slug"]].append(ref)
         lists["by-type"][group_name] = sorted(refs, key=lambda row: row["name"])
@@ -956,7 +989,7 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
     for skin_id, card in cards.get("skins", {}).items():
         weapon_id = str(card["weapon"]["id"])
         finish_id = str(card["finish"]["id"])
-        ref = card_ref("skins", skin_id, card["name"], card["search_slug"], card["card_type"])
+        ref = card_ref("skins", skin_id, card["name"], card.get("canonical_slug"), card["search_slug"], card["card_type"])
         lists["by-weapon"][weapon_id].append(ref)
         lists["by-finish"][finish_id].append(ref)
         for source in card.get("sources", {}).get("cases", []):
@@ -966,7 +999,7 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
 
     for variant_id, card in cards.get("skin-variants", {}).items():
         lists["by-market-hash-name"][card["market_hash_name"]] = [
-            card_ref("skin-variants", variant_id, card["name"], card["search_slug"], card["card_type"])
+            card_ref("skin-variants", variant_id, card["name"], card.get("canonical_slug"), card["search_slug"], card["card_type"])
         ]
 
     for agent_id, card in cards.get("agents", {}).items():
@@ -974,7 +1007,7 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
         if not side:
             continue
         lists["by-side"][side].append(
-            card_ref("agents", agent_id, card["name"], card["search_slug"], card["card_type"])
+            card_ref("agents", agent_id, card["name"], card.get("canonical_slug"), card["search_slug"], card["card_type"])
         )
 
     return {
@@ -988,7 +1021,14 @@ def build_consumer_browse(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[s
         group_cards = cards.get(group_name, {})
         return sorted(
             [
-                card_ref(group_name, card_id, card.get("name") or str(card_id), card.get("search_slug"), card["card_type"])
+                card_ref(
+                    group_name,
+                    card_id,
+                    card.get("name") or str(card_id),
+                    card.get("canonical_slug"),
+                    card.get("search_slug"),
+                    card["card_type"],
+                )
                 for card_id, card in group_cards.items()
             ],
             key=lambda row: row["name"],
@@ -1068,6 +1108,8 @@ def build_consumer_discovery(cards: dict[str, dict[str, dict[str, Any]]]) -> dic
                 for group_name in sorted(cards)
             },
             "agent_sides": "data/api/consumer/lists/by-side/<side>.json",
+            "canonical_slugs": "data/api/consumer/lists/by-canonical-slug/<canonical_slug>.json",
+            "search_slugs": "data/api/consumer/lists/by-search-slug/<search_slug>.json",
         },
         "counts": {
             group_name: len(group_cards)
@@ -1266,12 +1308,20 @@ def combine_localized_maps(left: dict[str, str], right: dict[str, str], locales:
     return values
 
 
-def card_ref(group_name: str, entity_id: str | int, name: str, search_slug: str | None, card_type: str) -> dict[str, Any]:
+def card_ref(
+    group_name: str,
+    entity_id: str | int,
+    name: str,
+    canonical_slug: str | None,
+    search_slug: str | None,
+    card_type: str,
+) -> dict[str, Any]:
     return {
         "id": str(entity_id),
         "name": name,
         "card_type": card_type,
         "group": group_name,
+        "canonical_slug": canonical_slug,
         "search_slug": search_slug,
         "path": f"data/api/consumer/cards/{group_name}/{entity_id}.json",
     }

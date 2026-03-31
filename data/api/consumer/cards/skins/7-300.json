@@ -41,8 +41,10 @@
       "short_name": "BS"
     }
   ],
+  "canonical_slug": "7-300",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "cu-pinstripe-ak47",
     "catalog_id": 300,
     "id": 300,
     "localized_names": {
@@ -149,8 +151,10 @@
     "cases": [],
     "collections": [
       {
+        "canonical_slug": "set-bank",
         "id": "set_bank",
-        "name": "The Bank Collection"
+        "name": "The Bank Collection",
+        "search_slug": "the-bank-collection"
       }
     ],
     "containers": [],
@@ -164,6 +168,7 @@
     "7-300__normal__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-ak47",
     "id": 7,
     "localized_names": {
       "brazilian": "AK-47",

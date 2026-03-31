@@ -34,8 +34,10 @@
       "short_name": "WW"
     }
   ],
+  "canonical_slug": "35-225",
   "card_type": "weapon-skin",
   "finish": {
+    "canonical_slug": "sp-camo-wood-blue",
     "catalog_id": 225,
     "id": 225,
     "localized_names": {
@@ -141,17 +143,21 @@
     "capsules": [],
     "cases": [
       {
+        "canonical_slug": "crate-esports-2013-winter",
         "flags": [],
         "id": "4005",
         "kind": "weapon-case",
         "name": "eSports 2013 Winter Case",
+        "search_slug": "esports-2013-winter-case",
         "tier": "rare"
       }
     ],
     "collections": [
       {
+        "canonical_slug": "set-esports-ii",
         "id": "set_esports_ii",
-        "name": "The eSports 2013 Winter Collection"
+        "name": "The eSports 2013 Winter Collection",
+        "search_slug": "the-esports-2013-winter-collection"
       }
     ],
     "containers": [],
@@ -168,6 +174,7 @@
     "35-225__stattrak__well-worn"
   ],
   "weapon": {
+    "canonical_slug": "weapon-nova",
     "id": 35,
     "localized_names": {
       "brazilian": "Nova",
