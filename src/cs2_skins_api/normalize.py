@@ -20,12 +20,53 @@ SIGNATURE_PACK_RE = re.compile(r"^crate_signature_pack_(?P<event>[a-z0-9]+)_(?P<
 EVENT_SLUG_TOKEN_RE = re.compile(r"^[a-z]+[0-9]{2,4}$")
 EVENT_NAME_RE = re.compile(r"([A-Z0-9][A-Za-z0-9'&.+-]*(?: [A-Z0-9][A-Za-z0-9'&.+-]*)* (?:19|20)\d{2})")
 AGGREGATE_LOOT_TIERS = ("uncommon", "rare", "mythical", "legendary", "ancient")
+AGENT_VARIANT_SUFFIX_RE = re.compile(r"_(?:variant|var)[a-z0-9]+$")
 IGNORED_LOOT_ENTRIES = {
     "public_list_contents",
     "contains_stickers_representing_organizations",
     "contains_patches_representing_organizations",
     "contains_stickers_autographed_by_proplayers",
     "limit_description_to_number_rnd",
+}
+ACRONYM_TOKEN_MAP = {
+    "api": "API",
+    "ct": "CT",
+    "ctm": "CT",
+    "fbi": "FBI",
+    "gign": "GIGN",
+    "gsg9": "GSG 9",
+    "idf": "IDF",
+    "ii": "II",
+    "iii": "III",
+    "iv": "IV",
+    "sas": "SAS",
+    "st6": "SEAL Team 6",
+    "swat": "SWAT",
+    "t": "T",
+    "tm": "T",
+    "vi": "VI",
+}
+AGENT_NAME_FALLBACKS = {
+    "anarchist": "Anarchist",
+    "balkan": "Balkan",
+    "diver": "Diver",
+    "fbi": "FBI",
+    "gendarmerie": "Gendarmerie",
+    "gign": "GIGN",
+    "gsg9": "GSG 9",
+    "heavy": "Heavy Assault Suit",
+    "idf": "IDF",
+    "jumpsuit": "Jumpsuit",
+    "jungle_raider": "Jungle Raider",
+    "leet": "Elite Crew",
+    "phoenix": "Phoenix",
+    "phoenix_heavy": "Phoenix Heavy",
+    "pirate": "Pirate",
+    "professional": "Professional",
+    "sas": "SAS",
+    "separatist": "Separatist",
+    "st6": "SEAL Team 6",
+    "swat": "SWAT",
 }
 ITEM_ASSET_KEYS = (
     "image_inventory",
@@ -95,6 +136,45 @@ def extract_event_slug_from_codename(value: str | None) -> str | None:
         if EVENT_SLUG_TOKEN_RE.match(token):
             return token
     return None
+
+
+def humanize_identifier(value: str | None, drop_prefixes: tuple[str, ...] = ()) -> str | None:
+    if not value:
+        return None
+    normalized = str(value).strip()
+    for prefix in drop_prefixes:
+        if normalized.startswith(prefix):
+            normalized = normalized[len(prefix) :]
+            break
+    normalized = normalized.strip("_")
+    if not normalized:
+        return None
+
+    parts = []
+    for token in normalized.split("_"):
+        token = token.strip()
+        if not token:
+            continue
+        lowered = token.lower()
+        parts.append(ACRONYM_TOKEN_MAP.get(lowered, token.capitalize()))
+    if not parts:
+        return None
+    return " ".join(parts)
+
+
+def fallback_collection_name(collection_id: str) -> str:
+    base = humanize_identifier(collection_id, drop_prefixes=("set_",)) or collection_id
+    return f"The {base} Collection"
+
+
+def fallback_agent_name(codename: str) -> str:
+    root = str(codename).removeprefix("customplayer_")
+    for prefix in ("ctm_", "tm_"):
+        if root.startswith(prefix):
+            root = root[len(prefix) :]
+            break
+    root = AGENT_VARIANT_SUFFIX_RE.sub("", root)
+    return AGENT_NAME_FALLBACKS.get(root, humanize_identifier(root) or codename)
 
 
 def extract_item_asset_refs(resolved: dict[str, Any]) -> dict[str, Any]:
@@ -855,6 +935,7 @@ def build_collection_entities(
 ) -> dict[str, dict[str, Any]]:
     collections = {}
     for collection_id, record in item_sets.items():
+        display_name = record["display_name"] or fallback_collection_name(collection_id)
         skin_refs = []
         for item in record["items"]:
             weapon = items_by_name.get(item["target"])
@@ -873,12 +954,12 @@ def build_collection_entities(
             "id": collection_id,
             "game_id": collection_id,
             "name_token": record["display_name_token"],
-            "name": record["display_name"] or collection_id,
+            "name": display_name,
             "description_token": record["description_token"],
             "description": record["description"],
             "kind": "item-set",
             "skin_refs": skin_refs,
-            "search_slug": slugify(record["display_name"] or collection_id),
+            "search_slug": slugify(display_name),
         }
     return collections
 
@@ -920,6 +1001,11 @@ def build_container_entities(
             if fallback_contents:
                 contents = fallback_contents
                 contents_source = {"type": "item-set", "id": fallback_item_set}
+            else:
+                series_id = extract_supply_crate_series(resolved)
+                fallback_revolving = revolving_loot_lists.get(str(series_id)) if series_id is not None else None
+                if fallback_revolving and fallback_revolving in candidates:
+                    contents_source = {"type": "revolving-loot-list", "id": fallback_revolving}
 
         container_kind = determine_container_kind(resolved)
         container = {
@@ -1473,15 +1559,16 @@ def build_agents(resolved_items: dict[str, dict[str, Any]], localizer: Localizer
         if record["classification"]["kind"] != "agent":
             continue
         resolved = record["resolved"]
+        name = localizer.resolve(resolved.get("item_name")) or fallback_agent_name(record["name"])
         agents[item_id] = {
             "id": record["id"],
             "game_id": record["game_id"],
             "codename": record["name"],
-            "name": localizer.resolve(resolved.get("item_name")) or record["name"],
+            "name": name,
             "description": localizer.resolve(resolved.get("item_description")),
             "side": record["classification"].get("side"),
             "rarity_ref": resolved.get("item_rarity") or resolved.get("item_quality"),
-            "search_slug": slugify(localizer.resolve(resolved.get("item_name")) or record["name"] or item_id),
+            "search_slug": slugify(name or item_id),
         }
     return agents
 
@@ -1990,6 +2077,7 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
     by_tournament = defaultdict(lambda: defaultdict(list))
     by_team = defaultdict(lambda: defaultdict(list))
     by_player = defaultdict(lambda: defaultdict(list))
+    by_side = defaultdict(lambda: defaultdict(list))
     by_slug = defaultdict(list)
     by_market_hash_name = defaultdict(list)
 
@@ -2109,6 +2197,8 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
         rarity_ref = agent.get("rarity_ref")
         if rarity_ref:
             by_rarity[str(rarity_ref)]["agents"].append(str(agent_id))
+        if agent.get("side"):
+            by_side[str(agent["side"])]["agents"].append(str(agent_id))
         by_slug[agent["search_slug"]].append({"kind": "agent", "id": str(agent_id)})
         by_market_hash_name[agent["name"]].append({"kind": "agent", "id": str(agent_id)})
 
@@ -2124,6 +2214,8 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
         by_market_hash_name[music["name"]].append({"kind": "music-kit", "id": str(music_id)})
 
     for weapon_id, weapon in weapons.items():
+        if weapon.get("side"):
+            by_side[str(weapon["side"])]["weapons"].append(str(weapon_id))
         by_slug[weapon["search_slug"]].append({"kind": "weapon", "id": str(weapon_id)})
         by_market_hash_name[weapon["name"]].append({"kind": "weapon", "id": str(weapon_id)})
 
@@ -2150,6 +2242,10 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
         "by-player": {
             key: {kind: sorted(set(ids)) for kind, ids in buckets.items()}
             for key, buckets in by_player.items()
+        },
+        "by-side": {
+            key: {kind: sorted(set(ids)) for kind, ids in buckets.items()}
+            for key, buckets in by_side.items()
         },
         "by-slug": {key: unique_list(value) for key, value in by_slug.items()},
         "by-market-hash-name": {key: unique_list(value) for key, value in by_market_hash_name.items()},

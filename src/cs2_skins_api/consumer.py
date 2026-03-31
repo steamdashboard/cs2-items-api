@@ -127,7 +127,7 @@ def build_consumer_dataset(
     sticker_cards = build_decal_cards(api["stickers"], api["assets"], rendered, "sticker", localizer, locales)
     patch_cards = build_decal_cards(api["patches"], api["assets"], rendered, "patch", localizer, locales)
     graffiti_cards = build_decal_cards(api["graffiti"], api["assets"], rendered, "graffiti", localizer, locales)
-    agent_cards = build_simple_cards(api["agents"], api["assets"], rendered, "agent", localizer, locales)
+    agent_cards = build_agent_cards(api["agents"], api["assets"], rendered, localizer, locales)
     charm_cards = build_simple_cards(api["charms"], api["assets"], rendered, "charm", localizer, locales)
     music_kit_cards = build_simple_cards(api["music_kits"], api["assets"], rendered, "music-kit", localizer, locales)
     tournament_cards = build_event_cards(api["tournaments"], api["relations"], localizer, locales)
@@ -799,6 +799,29 @@ def build_simple_cards(
     return cards
 
 
+def build_agent_cards(
+    agents: dict[str, dict[str, Any]],
+    assets: dict[str, dict[str, Any]],
+    rendered: dict[str, Any],
+    localizer: Localizer,
+    locales: list[str],
+) -> dict[str, dict[str, Any]]:
+    cards = {}
+    for entity_id, entity in agents.items():
+        cards[entity_id] = {
+            "id": entity["id"],
+            "card_type": "agent",
+            "name": entity["name"],
+            "localized_names": localized_values(localizer, None, entity["name"], locales),
+            "search_slug": entity["search_slug"],
+            "description": entity.get("description"),
+            "side": entity.get("side"),
+            "rarity_ref": entity.get("rarity_ref"),
+            "media": generic_rendered_media_summary(rendered, "agent", entity_id, media_summary(assets, "agent", entity_id)),
+        }
+    return cards
+
+
 def build_event_cards(
     tournaments: dict[str, dict[str, Any]],
     relations: dict[str, Any],
@@ -896,6 +919,7 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
         "by-finish": defaultdict(list),
         "by-case": defaultdict(list),
         "by-collection": defaultdict(list),
+        "by-side": defaultdict(list),
         "by-search-slug": defaultdict(list),
         "by-market-hash-name": {},
     }
@@ -924,6 +948,14 @@ def build_consumer_lists(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[st
         lists["by-market-hash-name"][card["market_hash_name"]] = [
             card_ref("skin-variants", variant_id, card["name"], card["search_slug"], card["card_type"])
         ]
+
+    for agent_id, card in cards.get("agents", {}).items():
+        side = card.get("side")
+        if not side:
+            continue
+        lists["by-side"][side].append(
+            card_ref("agents", agent_id, card["name"], card["search_slug"], card["card_type"])
+        )
 
     return {
         list_name: normalize_list_payload(payload)
@@ -977,17 +1009,34 @@ def build_consumer_browse(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[s
 
 
 def build_consumer_discovery(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[str, Any]:
+    placeholders = {
+        "agents": "<item_definition_id>",
+        "capsules": "<container_id>",
+        "cases": "<container_id>",
+        "charms": "<keychain_definition_id>",
+        "collections": "<collection_id>",
+        "containers": "<container_id>",
+        "graffiti": "<sticker_kit_id>",
+        "music-kits": "<music_definition_id>",
+        "patches": "<sticker_kit_id>",
+        "players": "<player_id>",
+        "skin-variants": "<variant_id>",
+        "skins": "<skin_id>",
+        "souvenir-packages": "<container_id>",
+        "special-pools": "<token>",
+        "stickers": "<sticker_kit_id>",
+        "teams": "<team_id>",
+        "tournaments": "<event_id>",
+        "weapons": "<weapon_id>",
+    }
     return {
         "entrypoints": {
             "home": "data/api/consumer/browse/home.json",
-            "skins": "data/api/consumer/cards/skins/<skin_id>.json",
-            "skin_variants": "data/api/consumer/cards/skin-variants/<variant_id>.json",
-            "cases": "data/api/consumer/cards/cases/<container_id>.json",
-            "capsules": "data/api/consumer/cards/capsules/<container_id>.json",
-            "souvenir_packages": "data/api/consumer/cards/souvenir-packages/<container_id>.json",
-            "weapons": "data/api/consumer/cards/weapons/<weapon_id>.json",
-            "collections": "data/api/consumer/cards/collections/<collection_id>.json",
-            "special_pools": "data/api/consumer/cards/special-pools/<token>.json",
+            **{
+                group_name.replace("-", "_"): f"data/api/consumer/cards/{group_name}/{placeholders[group_name]}.json"
+                for group_name in sorted(cards)
+            },
+            "agent_sides": "data/api/consumer/lists/by-side/<side>.json",
         },
         "counts": {
             group_name: len(group_cards)

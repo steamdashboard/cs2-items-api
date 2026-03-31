@@ -82,6 +82,32 @@ class GeneratedContractTests(unittest.TestCase):
             "data/api/media/rendered/files/containers/4001/primary.png",
         )
 
+    def test_consumer_agent_exposes_side(self) -> None:
+        agent_card = load_json(ROOT / "data/api/consumer/cards/agents/5505.json")
+        self.assertEqual(agent_card["side"], "terrorists")
+
+    def test_discovery_exposes_agents_and_agent_sides(self) -> None:
+        discovery = load_json(ROOT / "data/api/consumer/meta/discovery.json")
+        self.assertEqual(
+            discovery["entrypoints"]["agents"],
+            "data/api/consumer/cards/agents/<item_definition_id>.json",
+        )
+        self.assertEqual(
+            discovery["entrypoints"]["agent_sides"],
+            "data/api/consumer/lists/by-side/<side>.json",
+        )
+
+    def test_graph_and_consumer_side_indexes_exist(self) -> None:
+        by_side = load_json(ROOT / "data/api/graph/indexes/by-side/terrorists.json")
+        self.assertIn("items", by_side)
+        self.assertIn("agents", by_side["items"])
+        consumer_side = load_json(ROOT / "data/api/consumer/lists/by-side/terrorists.json")
+        self.assertTrue(consumer_side["items"], "Expected agent refs for terrorists side list")
+
+    def test_collection_name_fallback_is_humanized(self) -> None:
+        collection = load_json(ROOT / "data/api/reference/collections/set_gamma_2.json")
+        self.assertEqual(collection["name"], "The Gamma 2 Collection")
+
     def test_public_build_metadata_does_not_expose_local_paths(self) -> None:
         for path in (
             ROOT / "data/api/meta/build.json",
