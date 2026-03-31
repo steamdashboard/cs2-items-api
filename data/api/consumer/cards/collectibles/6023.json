@@ -51,6 +51,7 @@
   },
   "media": {
     "asset_id": "collectible__6023",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/status_icons/collectible_pin_guardian_3_png.vtex_c"
     ],
@@ -58,12 +59,52 @@
       "data/api/media/rendered/files/collectibles/6023/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/collectibles/6023.json",
+    "media_scope": "rendered-entity",
     "models": [],
     "preview_status": "rendered",
     "primary_image_png": "data/api/media/rendered/files/collectibles/6023/primary.png",
     "source_texture_path": "panorama/images/econ/status_icons/collectible_pin_guardian_3_png.vtex_c"
   },
   "name": "Guardian 3 Pin",
+  "rarity": {
+    "color_ref": "desc_rare",
+    "id": "rare",
+    "localized_names": {
+      "brazilian": "Nível Militar",
+      "bulgarian": "Стандартен военен клас",
+      "czech": "Armádní",
+      "danish": "Mil-spec-kvalitet",
+      "dutch": "Militair",
+      "english": "Mil-Spec Grade",
+      "finnish": "Armeijatason",
+      "french": "Militaire",
+      "german": "Militärstandard",
+      "greek": "Mil-Spec Grade",
+      "hungarian": "Katonai fokozatú",
+      "indonesian": "Kelas Militer",
+      "italian": "Militare",
+      "japanese": "MIL規格",
+      "koreana": "군용",
+      "latam": "de grado militar",
+      "norwegian": "Militær standard",
+      "polish": "wojskowej jakości",
+      "portuguese": "Padrão Militar",
+      "romanian": "Calitate militară",
+      "russian": "Армейское качество",
+      "schinese": "军规级",
+      "schinese_pw": "Mil-Spec Grade",
+      "spanish": "de grado militar",
+      "swedish": "Militärklass",
+      "tchinese": "軍規級",
+      "thai": "เกรดมาตรฐานทางทหาร",
+      "turkish": "Askeri Sınıf",
+      "ukrainian": "армійського ґатунку",
+      "vietnamese": "Hạng Mil-Spec"
+    },
+    "name": "Mil-Spec Grade",
+    "source": "rarity-ref",
+    "value": "3"
+  },
   "rarity_ref": "rare",
   "search_slug": "guardian-3-pin"
 }

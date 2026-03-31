@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__17",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_mac10_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/17/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/17.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/mac10/weapon_smg_mac10.vmdl_c",
       "phase2/weapons/models/mac10/weapon_smg_mac10_ag2.vmdl_c"
@@ -117,6 +119,63 @@
   "search_slug": "mac-10",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 55,
+      "souvenir": 12,
+      "stattrak": 25
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "case-hardened",
+        "group": "finish-families",
+        "id": "case-hardened",
+        "name": "Case Hardened",
+        "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+        "search_slug": "case-hardened"
+      },
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      },
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 55
+  },
   "supports_vanilla": false,
   "type_name": "SMG",
   "weapon_group": "smg"

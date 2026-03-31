@@ -12,6 +12,7 @@
   },
   "media": {
     "asset_id": "charm__69",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/keychains/drboom/kc_db_bombacat_png.vtex_c"
     ],
@@ -19,12 +20,52 @@
       "data/api/media/rendered/files/charms/69/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/charms/69.json",
+    "media_scope": "rendered-entity",
     "models": [],
     "preview_status": "rendered",
     "primary_image_png": "data/api/media/rendered/files/charms/69/primary.png",
     "source_texture_path": "panorama/images/econ/keychains/drboom/kc_db_bombacat_png.vtex_c"
   },
   "name": "Lil' Chomper",
+  "rarity": {
+    "color_ref": "desc_mythical",
+    "id": "mythical",
+    "localized_names": {
+      "brazilian": "Restrito",
+      "bulgarian": "Ограничено оръжие",
+      "czech": "Zakázaná",
+      "danish": "Begrænset",
+      "dutch": "Verboden",
+      "english": "Restricted",
+      "finnish": "Rajoitettu",
+      "french": "Limitée",
+      "german": "Limitiert",
+      "greek": "Restricted",
+      "hungarian": "Korlátozott",
+      "indonesian": "Terbatas",
+      "italian": "Riservato",
+      "japanese": "部外秘",
+      "koreana": "제한",
+      "latam": "de tipo restringido",
+      "norwegian": "Begrenset",
+      "polish": "spoza obiegu",
+      "portuguese": "Restrito",
+      "romanian": "Restricționat(ă)",
+      "russian": "Запрещённое",
+      "schinese": "受限级",
+      "schinese_pw": "Restricted",
+      "spanish": "de tipo restringido",
+      "swedish": "Begränsad",
+      "tchinese": "受管制",
+      "thai": "หวงห้าม",
+      "turkish": "Sınırlı",
+      "ukrainian": "зброя спецслужб",
+      "vietnamese": "Hàng hạn chế"
+    },
+    "name": "Restricted",
+    "source": "rarity-ref",
+    "value": "4"
+  },
   "rarity_ref": "mythical",
   "search_slug": "lil-chomper"
 }

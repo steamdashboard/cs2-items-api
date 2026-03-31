@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-dust",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 9
+  },
   "description": "",
   "id": "set_dust",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_dust",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_dust.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -54,5 +61,16 @@
     "7-170",
     "8-10",
     "9-30"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

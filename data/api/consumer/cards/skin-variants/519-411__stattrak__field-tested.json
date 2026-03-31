@@ -6,8 +6,10 @@
   "id": "519-411__stattrak__field-tested",
   "market_hash_name": "StatTrak™ Ursus Knife | Damascus Steel (Field-Tested)",
   "media": {
+    "coverage_status": "fallback-only",
     "image_png": "data/api/media/rendered/files/weapons/519/primary.png",
     "manifest_path": null,
+    "media_scope": "skin-render-fallback",
     "preview_status": "rendered",
     "preview_tier": null,
     "source_skin_manifest_path": "data/api/media/rendered/manifests/weapons/519.json"
@@ -15,16 +17,25 @@
   "name": "StatTrak™ Ursus Knife | Damascus Steel (Field-Tested)",
   "quality": "stattrak",
   "quality_name": "StatTrak",
+  "rarity": null,
   "search_slug": "stattrak-ursus-knife-damascus-steel-field-tested",
   "skin_id": "519-411",
   "skin_name": "Ursus Knife | Damascus Steel",
   "trading": {
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 519,
       "live_item_required_fields": [
         "asset_id",
-        "d_param"
+        "d_param",
+        "float_value",
+        "paint_seed",
+        "stickers",
+        "tradable"
       ],
       "paint_index": 411,
       "paint_seed_field": null,
@@ -61,6 +72,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

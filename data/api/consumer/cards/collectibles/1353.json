@@ -51,6 +51,7 @@
   },
   "media": {
     "asset_id": "collectible__1353",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/status_icons/collectible_pin_tactics_png.vtex_c"
     ],
@@ -58,12 +59,52 @@
       "data/api/media/rendered/files/collectibles/1353/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/collectibles/1353.json",
+    "media_scope": "rendered-entity",
     "models": [],
     "preview_status": "rendered",
     "primary_image_png": "data/api/media/rendered/files/collectibles/1353/primary.png",
     "source_texture_path": "panorama/images/econ/status_icons/collectible_pin_tactics_png.vtex_c"
   },
   "name": "Counter-Strike Game License",
+  "rarity": {
+    "color_ref": "desc_common",
+    "id": "common",
+    "localized_names": {
+      "brazilian": "Nível Consumidor",
+      "bulgarian": "Потребителски клас",
+      "czech": "Neotestovaná",
+      "danish": "Forbrugerkvalitet",
+      "dutch": "Consumenten",
+      "english": "Consumer Grade",
+      "finnish": "Kuluttajatason",
+      "french": "Artisanale",
+      "german": "Verbraucherklasse",
+      "greek": "Consumer Grade",
+      "hungarian": "Fogyasztói fokozatú",
+      "indonesian": "Kelas Konsumen",
+      "italian": "Amatoriale",
+      "japanese": "コンシューマーグレード",
+      "koreana": "기본",
+      "latam": "de grado de consumidor",
+      "norwegian": "Forbrukerklasse",
+      "polish": "konsumenckiej jakości",
+      "portuguese": "Padrão Doméstico",
+      "romanian": "Calitate obișnuită",
+      "russian": "Ширпотреб",
+      "schinese": "消费级",
+      "schinese_pw": "Consumer Grade",
+      "spanish": "de grado de consumidor",
+      "swedish": "Konsumentklass",
+      "tchinese": "消費級",
+      "thai": "เกรดผู้บริโภค",
+      "turkish": "Tüketici Sınıfı",
+      "ukrainian": "роздрібного ґатунку",
+      "vietnamese": "Hạng tiêu dùng"
+    },
+    "name": "Consumer Grade",
+    "source": "rarity-ref",
+    "value": "1"
+  },
   "rarity_ref": "common",
   "search_slug": "counter-strike-game-license"
 }

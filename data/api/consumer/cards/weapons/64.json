@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__64",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_revolver_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/64/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/64.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/revolver/weapon_pist_revolver.vmdl_c",
       "phase2/weapons/models/revolver/weapon_pist_revolver_ag2.vmdl_c"
@@ -88,6 +90,63 @@
   "search_slug": "r8-revolver",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 26,
+      "souvenir": 5,
+      "stattrak": 13
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "crimson-web",
+        "group": "finish-families",
+        "id": "crimson-web",
+        "name": "Crimson Web",
+        "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+        "search_slug": "crimson-web"
+      },
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      },
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 26
+  },
   "supports_vanilla": false,
   "type_name": "Pistol",
   "weapon_group": "pistol"

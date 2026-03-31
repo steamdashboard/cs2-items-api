@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__23",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/23/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/23.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/mp5sd/weapon_smg_mp5sd.vmdl_c",
       "phase2/weapons/models/mp5sd/weapon_smg_mp5sd_ag2.vmdl_c"
@@ -86,6 +88,29 @@
   "search_slug": "mp5-sd",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 24,
+      "souvenir": 3,
+      "stattrak": 10
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 24
+  },
   "supports_vanilla": false,
   "type_name": "SMG",
   "weapon_group": "smg"

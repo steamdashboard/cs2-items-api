@@ -106,12 +106,14 @@
   },
   "media": {
     "asset_id": "skin__508-418",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/508-418/light.png",
       "data/api/media/rendered/files/skins/508-418/medium.png",
       "data/api/media/rendered/files/skins/508-418/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/508-418.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/508-418/heavy.png",
@@ -128,6 +130,7 @@
     }
   },
   "name": "M9 Bayonet | Doppler",
+  "rarity": null,
   "search_slug": "m9-bayonet-doppler",
   "sources": {
     "capsules": [],
@@ -174,6 +177,9 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": {
       "canonical_slug": "doppler",
       "group": "finish-families",
@@ -182,6 +188,7 @@
       "path": "data/api/consumer/overlays/finish-families/doppler.json",
       "search_slug": "doppler"
     },
+    "float_relevance": "low",
     "float_window": {
       "max_float": 0.08,
       "min_float": 0.0
@@ -190,7 +197,7 @@
       "def_index": 508,
       "live_item_required": true,
       "paint_index": 418,
-      "paint_seed_field": "paint_seed"
+      "paint_seed_field": null
     },
     "market_constraints": [
       {
@@ -206,7 +213,7 @@
       "csfloat": {
         "def_index": 508,
         "paint_index": 418,
-        "supports_paint_seed_filter": true
+        "supports_paint_seed_filter": false
       },
       "skin_name": "M9 Bayonet | Doppler",
       "variant_ids": [
@@ -236,6 +243,9 @@
       "path": "data/api/consumer/overlays/phases/418.json",
       "search_slug": "doppler-phase-1"
     },
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

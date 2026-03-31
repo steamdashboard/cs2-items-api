@@ -1,6 +1,162 @@
 {
   "canonical_slug": "set-vertigo",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [
+      {
+        "items": [
+          {
+            "canonical_slug": "2-153",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "2-153",
+            "name": "Dual Berettas | Demolition",
+            "path": "data/api/consumer/cards/skins/2-153.json",
+            "search_slug": "dual-berettas-demolition"
+          }
+        ],
+        "label": "Restricted",
+        "localized_labels": {
+          "brazilian": "Restrito",
+          "bulgarian": "Ограничено оръжие",
+          "czech": "Zakázaná",
+          "danish": "Begrænset",
+          "dutch": "Verboden",
+          "english": "Restricted",
+          "finnish": "Rajoitettu",
+          "french": "Limitée",
+          "german": "Limitiert",
+          "greek": "Restricted",
+          "hungarian": "Korlátozott",
+          "indonesian": "Terbatas",
+          "italian": "Riservato",
+          "japanese": "部外秘",
+          "koreana": "제한",
+          "latam": "de tipo restringido",
+          "norwegian": "Begrenset",
+          "polish": "spoza obiegu",
+          "portuguese": "Restrito",
+          "romanian": "Restricționat(ă)",
+          "russian": "Запрещённое",
+          "schinese": "受限级",
+          "schinese_pw": "Restricted",
+          "spanish": "de tipo restringido",
+          "swedish": "Begränsad",
+          "tchinese": "受管制",
+          "thai": "หวงห้าม",
+          "turkish": "Sınırlı",
+          "ukrainian": "зброя спецслужб",
+          "vietnamese": "Hàng hạn chế"
+        },
+        "tier": "mythical"
+      },
+      {
+        "items": [
+          {
+            "canonical_slug": "7-172",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "7-172",
+            "name": "AK-47 | Black Laminate",
+            "path": "data/api/consumer/cards/skins/7-172.json",
+            "search_slug": "ak-47-black-laminate"
+          },
+          {
+            "canonical_slug": "19-111",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "19-111",
+            "name": "P90 | Glacier Mesh",
+            "path": "data/api/consumer/cards/skins/19-111.json",
+            "search_slug": "p90-glacier-mesh"
+          }
+        ],
+        "label": "Mil-Spec Grade",
+        "localized_labels": {
+          "brazilian": "Nível Militar",
+          "bulgarian": "Стандартен военен клас",
+          "czech": "Armádní",
+          "danish": "Mil-spec-kvalitet",
+          "dutch": "Militair",
+          "english": "Mil-Spec Grade",
+          "finnish": "Armeijatason",
+          "french": "Militaire",
+          "german": "Militärstandard",
+          "greek": "Mil-Spec Grade",
+          "hungarian": "Katonai fokozatú",
+          "indonesian": "Kelas Militer",
+          "italian": "Militare",
+          "japanese": "MIL規格",
+          "koreana": "군용",
+          "latam": "de grado militar",
+          "norwegian": "Militær standard",
+          "polish": "wojskowej jakości",
+          "portuguese": "Padrão Militar",
+          "romanian": "Calitate militară",
+          "russian": "Армейское качество",
+          "schinese": "军规级",
+          "schinese_pw": "Mil-Spec Grade",
+          "spanish": "de grado militar",
+          "swedish": "Militärklass",
+          "tchinese": "軍規級",
+          "thai": "เกรดมาตรฐานทางทหาร",
+          "turkish": "Askeri Sınıf",
+          "ukrainian": "армійського ґатунку",
+          "vietnamese": "Hạng Mil-Spec"
+        },
+        "tier": "rare"
+      },
+      {
+        "items": [
+          {
+            "canonical_slug": "26-70",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "26-70",
+            "name": "PP-Bizon | Carbon Fiber",
+            "path": "data/api/consumer/cards/skins/26-70.json",
+            "search_slug": "pp-bizon-carbon-fiber"
+          }
+        ],
+        "label": "Industrial Grade",
+        "localized_labels": {
+          "brazilian": "Nível Industrial",
+          "bulgarian": "Индустриален клас",
+          "czech": "Prověřená",
+          "danish": "Industrikvalitet",
+          "dutch": "Industrieel",
+          "english": "Industrial Grade",
+          "finnish": "Teollistason",
+          "french": "Industrielle",
+          "german": "Industriequalität",
+          "greek": "Industrial Grade",
+          "hungarian": "Ipari fokozatú",
+          "indonesian": "Kelas Industri",
+          "italian": "Industriale",
+          "japanese": "インダストリアルグレード",
+          "koreana": "고급",
+          "latam": "de grado industrial",
+          "norwegian": "Industriklasse",
+          "polish": "przemysłowej jakości",
+          "portuguese": "Padrão Industrial",
+          "romanian": "Calitate industrială",
+          "russian": "Промышленное качество",
+          "schinese": "工业级",
+          "schinese_pw": "Industrial Grade",
+          "spanish": "de grado industrial",
+          "swedish": "Industriklass",
+          "tchinese": "工業級",
+          "thai": "เกรดอุตสาหกรรม",
+          "turkish": "Endüstri Sınıfı",
+          "ukrainian": "промислового ґатунку",
+          "vietnamese": "Hạng công nghiệp"
+        },
+        "tier": "uncommon"
+      }
+    ],
+    "known_rarity_skin_count": 4,
+    "skin_count": 6
+  },
   "description": "",
   "id": "set_vertigo",
   "localized_names": {
@@ -37,8 +193,10 @@
   },
   "media": {
     "asset_id": "collection__set_vertigo",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_vertigo.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -51,5 +209,16 @@
     "25-135",
     "26-70",
     "7-172"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

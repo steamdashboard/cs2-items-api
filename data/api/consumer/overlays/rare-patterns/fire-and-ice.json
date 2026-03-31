@@ -1,6 +1,14 @@
 {
+  "availability": {
+    "normal": 19,
+    "stattrak": 18
+  },
   "canonical_slug": "fire-and-ice",
   "description": "Seed-sensitive Marble Fade taxonomy focused on red-blue dominance and clean tip balance.",
+  "deterministic_inputs": [
+    "paint_index",
+    "paint_seed"
+  ],
   "example_skins": [
     {
       "canonical_slug": "500-413",
@@ -111,6 +119,121 @@
       "search_slug": "paracord-knife-marble-fade"
     }
   ],
+  "example_variants": [
+    {
+      "canonical_slug": "500-413-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-413__normal__factory-new",
+      "name": "Bayonet | Marble Fade (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-413__normal__factory-new.json",
+      "search_slug": "bayonet-marble-fade-factory-new"
+    },
+    {
+      "canonical_slug": "500-413-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-413__normal__minimal-wear",
+      "name": "Bayonet | Marble Fade (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-413__normal__minimal-wear.json",
+      "search_slug": "bayonet-marble-fade-minimal-wear"
+    },
+    {
+      "canonical_slug": "514-413-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-413__normal__factory-new",
+      "name": "Bowie Knife | Marble Fade (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/514-413__normal__factory-new.json",
+      "search_slug": "bowie-knife-marble-fade-factory-new"
+    },
+    {
+      "canonical_slug": "514-413-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-413__normal__minimal-wear",
+      "name": "Bowie Knife | Marble Fade (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/514-413__normal__minimal-wear.json",
+      "search_slug": "bowie-knife-marble-fade-minimal-wear"
+    },
+    {
+      "canonical_slug": "515-413-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-413__normal__factory-new",
+      "name": "Butterfly Knife | Marble Fade (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/515-413__normal__factory-new.json",
+      "search_slug": "butterfly-knife-marble-fade-factory-new"
+    },
+    {
+      "canonical_slug": "515-413-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-413__normal__minimal-wear",
+      "name": "Butterfly Knife | Marble Fade (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/515-413__normal__minimal-wear.json",
+      "search_slug": "butterfly-knife-marble-fade-minimal-wear"
+    },
+    {
+      "canonical_slug": "512-413-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "512-413__normal__factory-new",
+      "name": "Falchion Knife | Marble Fade (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/512-413__normal__factory-new.json",
+      "search_slug": "falchion-knife-marble-fade-factory-new"
+    },
+    {
+      "canonical_slug": "512-413-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "512-413__normal__minimal-wear",
+      "name": "Falchion Knife | Marble Fade (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/512-413__normal__minimal-wear.json",
+      "search_slug": "falchion-knife-marble-fade-minimal-wear"
+    },
+    {
+      "canonical_slug": "505-413-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-413__normal__factory-new",
+      "name": "Flip Knife | Marble Fade (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/505-413__normal__factory-new.json",
+      "search_slug": "flip-knife-marble-fade-factory-new"
+    },
+    {
+      "canonical_slug": "505-413-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-413__normal__minimal-wear",
+      "name": "Flip Knife | Marble Fade (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/505-413__normal__minimal-wear.json",
+      "search_slug": "flip-knife-marble-fade-minimal-wear"
+    },
+    {
+      "canonical_slug": "506-413-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "506-413__normal__factory-new",
+      "name": "Gut Knife | Marble Fade (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/506-413__normal__factory-new.json",
+      "search_slug": "gut-knife-marble-fade-factory-new"
+    },
+    {
+      "canonical_slug": "506-413-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "506-413__normal__minimal-wear",
+      "name": "Gut Knife | Marble Fade (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/506-413__normal__minimal-wear.json",
+      "search_slug": "gut-knife-marble-fade-minimal-wear"
+    }
+  ],
+  "exteriors": [
+    "factory-new",
+    "minimal-wear",
+    "vanilla"
+  ],
   "finish_count": 2,
   "finish_families": [
     {
@@ -140,6 +263,7 @@
       "search_slug": "marble-fade"
     }
   ],
+  "float_relevance": "low",
   "id": "fire-and-ice",
   "knowledge_source": "community-trading-taxonomy",
   "list_paths": {
@@ -151,7 +275,121 @@
   ],
   "name": "Fire and Ice",
   "overlay_type": "rare-pattern",
+  "qualities": [
+    "normal",
+    "stattrak"
+  ],
+  "resolution_level": "paint-seed",
   "search_slug": "fire-and-ice",
+  "seed_domain": {
+    "cardinality": 1000,
+    "deterministic": true,
+    "field": "paint_seed",
+    "maximum": 999,
+    "minimum": 0
+  },
   "skin_count": 19,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-7",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4089",
+      "name": "Chroma 2 Case",
+      "path": "data/api/consumer/cards/cases/4089.json",
+      "search_slug": "chroma-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-12",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4233",
+      "name": "Chroma 3 Case",
+      "path": "data/api/consumer/cards/cases/4233.json",
+      "search_slug": "chroma-3-case"
+    },
+    {
+      "canonical_slug": "crate-community-6",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4061",
+      "name": "Chroma Case",
+      "path": "data/api/consumer/cards/cases/4061.json",
+      "search_slug": "chroma-case"
+    },
+    {
+      "canonical_slug": "crate-community-35",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7007",
+      "name": "Fever Case",
+      "path": "data/api/consumer/cards/cases/7007.json",
+      "search_slug": "fever-case"
+    },
+    {
+      "canonical_slug": "crate-community-27",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4717",
+      "name": "Operation Broken Fang Case",
+      "path": "data/api/consumer/cards/cases/4717.json",
+      "search_slug": "operation-broken-fang-case"
+    },
+    {
+      "canonical_slug": "crate-community-25",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4695",
+      "name": "Prisma 2 Case",
+      "path": "data/api/consumer/cards/cases/4695.json",
+      "search_slug": "prisma-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-22",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4598",
+      "name": "Prisma Case",
+      "path": "data/api/consumer/cards/cases/4598.json",
+      "search_slug": "prisma-case"
+    },
+    {
+      "canonical_slug": "crate-community-31",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4846",
+      "name": "Recoil Case",
+      "path": "data/api/consumer/cards/cases/4846.json",
+      "search_slug": "recoil-case"
+    },
+    {
+      "canonical_slug": "crate-community-28",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4747",
+      "name": "Snakebite Case",
+      "path": "data/api/consumer/cards/cases/4747.json",
+      "search_slug": "snakebite-case"
+    },
+    {
+      "canonical_slug": "crate-community-18",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4403",
+      "name": "Spectrum 2 Case",
+      "path": "data/api/consumer/cards/cases/4403.json",
+      "search_slug": "spectrum-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-16",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4351",
+      "name": "Spectrum Case",
+      "path": "data/api/consumer/cards/cases/4351.json",
+      "search_slug": "spectrum-case"
+    }
+  ],
+  "source_collections": [],
   "variant_count": 73
 }

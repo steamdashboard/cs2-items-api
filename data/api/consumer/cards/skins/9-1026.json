@@ -106,12 +106,14 @@
   },
   "media": {
     "asset_id": "skin__9-1026",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/9-1026/light.png",
       "data/api/media/rendered/files/skins/9-1026/medium.png",
       "data/api/media/rendered/files/skins/9-1026/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/9-1026.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/9-1026/heavy.png",
@@ -128,6 +130,45 @@
     }
   },
   "name": "AWP | Fade",
+  "rarity": {
+    "color_ref": "desc_ancient",
+    "id": "ancient",
+    "localized_names": {
+      "brazilian": "Oculto",
+      "bulgarian": "Секретно оръжие",
+      "czech": "Skrytá",
+      "danish": "Tilsløret",
+      "dutch": "Clandestien",
+      "english": "Covert",
+      "finnish": "Salainen",
+      "french": "Secrète",
+      "german": "Verdeckt",
+      "greek": "Covert",
+      "hungarian": "Fedett",
+      "indonesian": "Tersembunyi",
+      "italian": "Segreto",
+      "japanese": "秘密",
+      "koreana": "극비",
+      "latam": "de aspecto encubierto",
+      "norwegian": "Hemmelig",
+      "polish": "klasy „tajne”",
+      "portuguese": "Secreto",
+      "romanian": "Clandestin(ă)",
+      "russian": "Тайное",
+      "schinese": "隐秘级",
+      "schinese_pw": "Covert",
+      "spanish": "de aspecto encubierto",
+      "swedish": "Konfidentiell",
+      "tchinese": "隱蔽",
+      "thai": "ลึกลับ",
+      "turkish": "Çok Gizli",
+      "ukrainian": "надсекретна зброя",
+      "vietnamese": "Mật vụ"
+    },
+    "name": "Covert",
+    "source": "container-tier",
+    "value": "6"
+  },
   "search_slug": "awp-fade",
   "sources": {
     "capsules": [],
@@ -156,6 +197,10 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed"
+    ],
     "finish_family": {
       "canonical_slug": "fade",
       "group": "finish-families",
@@ -164,6 +209,7 @@
       "path": "data/api/consumer/overlays/finish-families/fade.json",
       "search_slug": "fade"
     },
+    "float_relevance": "low",
     "float_window": {
       "max_float": 0.08,
       "min_float": 0.0
@@ -209,6 +255,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "high",
     "phase": null,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": true,

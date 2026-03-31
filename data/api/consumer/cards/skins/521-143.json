@@ -91,12 +91,14 @@
   },
   "media": {
     "asset_id": "skin__521-143",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/521-143/light.png",
       "data/api/media/rendered/files/skins/521-143/medium.png",
       "data/api/media/rendered/files/skins/521-143/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/521-143.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/521-143/heavy.png",
@@ -113,6 +115,7 @@
     }
   },
   "name": "Nomad Knife | Urban Masked",
+  "rarity": null,
   "search_slug": "nomad-knife-urban-masked",
   "sources": {
     "capsules": [],
@@ -151,7 +154,11 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -188,6 +195,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

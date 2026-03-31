@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-italy",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 15
+  },
   "description": "",
   "id": "set_italy",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_italy",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_italy.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -60,5 +67,17 @@
     "60-77",
     "8-46",
     "9-251"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

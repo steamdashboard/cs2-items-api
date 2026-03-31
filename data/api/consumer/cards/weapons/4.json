@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__4",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_glock_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/4/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/4.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/glock18/weapon_pist_glock18.vmdl_c",
       "phase2/weapons/models/glock18/weapon_pist_glock18_ag2.vmdl_c"
@@ -119,6 +121,63 @@
   "search_slug": "glock-18",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 57,
+      "souvenir": 8,
+      "stattrak": 27
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      },
+      {
+        "canonical_slug": "gamma-doppler",
+        "group": "finish-families",
+        "id": "gamma-doppler",
+        "name": "Gamma Doppler",
+        "path": "data/api/consumer/overlays/finish-families/gamma-doppler.json",
+        "search_slug": "gamma-doppler"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      },
+      {
+        "canonical_slug": "phase",
+        "group": "rare-patterns",
+        "id": "phase",
+        "name": "Phase",
+        "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+        "search_slug": "phase"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 57
+  },
   "supports_vanilla": false,
   "type_name": "Pistol",
   "weapon_group": "pistol"

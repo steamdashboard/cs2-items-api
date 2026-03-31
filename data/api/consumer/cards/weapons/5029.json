@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__5029",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/ct_gloves_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/5029/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/5029.json",
+    "media_scope": "rendered-entity",
     "models": [
       "characters/models/shared/arms/glove_hardknuckle/v_glove_hardknuckle.vmdl_c"
     ],
@@ -60,6 +62,14 @@
   "search_slug": "default-ct-gloves",
   "side": "counter-terrorists",
   "special_pool_ids": [],
+  "summary": {
+    "availability": {},
+    "exteriors": [],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [],
+    "skin_count": 0
+  },
   "supports_vanilla": false,
   "type_name": "Gloves",
   "weapon_group": "glove"

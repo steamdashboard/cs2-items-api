@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__39",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_sg556_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/39/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/39.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/sg556/weapon_rif_sg556.vmdl_c",
       "phase2/weapons/models/sg556/weapon_rif_sg556_ag2.vmdl_c"
@@ -100,6 +102,29 @@
   "search_slug": "sg-553",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 38,
+      "souvenir": 8,
+      "stattrak": 17
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 38
+  },
   "supports_vanilla": false,
   "type_name": "Rifle",
   "weapon_group": "rifle"

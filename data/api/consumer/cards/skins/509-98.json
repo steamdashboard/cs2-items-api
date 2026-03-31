@@ -91,6 +91,7 @@
   },
   "media": {
     "asset_id": "weapon__509",
+    "coverage_status": "fallback-only",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_knife_tactical_png.vtex_c"
     ],
@@ -98,6 +99,7 @@
       "data/api/media/rendered/files/weapons/509/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/509.json",
+    "media_scope": "weapon-base-fallback",
     "models": [
       "weapons/models/knife/knife_tactical/weapon_knife_tactical.vmdl_c",
       "phase2/weapons/models/knife/knife_tactical/weapon_knife_tactical_ag2.vmdl_c"
@@ -110,6 +112,7 @@
     "source_texture_paths": {}
   },
   "name": "Huntsman Knife | Ultraviolet",
+  "rarity": null,
   "search_slug": "huntsman-knife-ultraviolet",
   "sources": {
     "capsules": [],
@@ -165,7 +168,11 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -202,6 +209,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

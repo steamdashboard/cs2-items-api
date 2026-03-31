@@ -120,12 +120,14 @@
   },
   "media": {
     "asset_id": "skin__4-293",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/4-293/light.png",
       "data/api/media/rendered/files/skins/4-293/medium.png",
       "data/api/media/rendered/files/skins/4-293/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/4-293.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/4-293/heavy.png",
@@ -142,6 +144,7 @@
     }
   },
   "name": "Glock-18 | Death Rattle",
+  "rarity": null,
   "search_slug": "glock-18-death-rattle",
   "sources": {
     "capsules": [],
@@ -160,7 +163,11 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 0.5,
       "min_float": 0.08
@@ -199,6 +206,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

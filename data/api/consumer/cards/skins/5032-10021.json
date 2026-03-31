@@ -91,12 +91,14 @@
   },
   "media": {
     "asset_id": "skin__5032-10021",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/5032-10021/light.png",
       "data/api/media/rendered/files/skins/5032-10021/medium.png",
       "data/api/media/rendered/files/skins/5032-10021/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/5032-10021.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/5032-10021/heavy.png",
@@ -113,6 +115,7 @@
     }
   },
   "name": "Hand Wraps | Slaughter",
+  "rarity": null,
   "search_slug": "hand-wraps-slaughter",
   "sources": {
     "capsules": [],
@@ -151,6 +154,10 @@
   },
   "trading": {
     "consumer_type": "glove",
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed"
+    ],
     "finish_family": {
       "canonical_slug": "slaughter",
       "group": "finish-families",
@@ -159,6 +166,7 @@
       "path": "data/api/consumer/overlays/finish-families/slaughter.json",
       "search_slug": "slaughter"
     },
+    "float_relevance": "medium",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -203,6 +211,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "medium",
     "phase": null,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

@@ -1,7 +1,14 @@
 {
+  "availability": {
+    "normal": 50,
+    "stattrak": 45
+  },
   "canonical_slug": "gamma-doppler",
   "confidence": "high",
   "description": "Phase-driven finish family with numbered phases and Emerald variants that matter to trading-oriented browse flows.",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
   "example_skins": [
     {
       "canonical_slug": "500-568",
@@ -112,6 +119,123 @@
       "search_slug": "glock-18-gamma-doppler"
     }
   ],
+  "example_variants": [
+    {
+      "canonical_slug": "500-568-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-568__normal__factory-new",
+      "name": "Bayonet | Gamma Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-568__normal__factory-new.json",
+      "search_slug": "bayonet-gamma-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "500-569-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-569__normal__factory-new",
+      "name": "Bayonet | Gamma Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-569__normal__factory-new.json",
+      "search_slug": "bayonet-gamma-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "500-570-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-570__normal__factory-new",
+      "name": "Bayonet | Gamma Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-570__normal__factory-new.json",
+      "search_slug": "bayonet-gamma-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "500-571-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-571__normal__factory-new",
+      "name": "Bayonet | Gamma Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-571__normal__factory-new.json",
+      "search_slug": "bayonet-gamma-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "500-572-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-572__normal__factory-new",
+      "name": "Bayonet | Gamma Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-572__normal__factory-new.json",
+      "search_slug": "bayonet-gamma-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "500-568-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-568__normal__minimal-wear",
+      "name": "Bayonet | Gamma Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-568__normal__minimal-wear.json",
+      "search_slug": "bayonet-gamma-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "500-569-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-569__normal__minimal-wear",
+      "name": "Bayonet | Gamma Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-569__normal__minimal-wear.json",
+      "search_slug": "bayonet-gamma-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "500-570-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-570__normal__minimal-wear",
+      "name": "Bayonet | Gamma Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-570__normal__minimal-wear.json",
+      "search_slug": "bayonet-gamma-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "500-571-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-571__normal__minimal-wear",
+      "name": "Bayonet | Gamma Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-571__normal__minimal-wear.json",
+      "search_slug": "bayonet-gamma-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "500-572-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-572__normal__minimal-wear",
+      "name": "Bayonet | Gamma Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-572__normal__minimal-wear.json",
+      "search_slug": "bayonet-gamma-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "505-568-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-568__normal__factory-new",
+      "name": "Flip Knife | Gamma Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/505-568__normal__factory-new.json",
+      "search_slug": "flip-knife-gamma-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "505-569-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-569__normal__factory-new",
+      "name": "Flip Knife | Gamma Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/505-569__normal__factory-new.json",
+      "search_slug": "flip-knife-gamma-doppler-factory-new"
+    }
+  ],
+  "exteriors": [
+    "battle-scarred",
+    "factory-new",
+    "field-tested",
+    "minimal-wear",
+    "well-worn"
+  ],
   "finish_count": 10,
   "finishes": [
     {
@@ -195,6 +319,7 @@
       "search_slug": "gamma-doppler"
     }
   ],
+  "float_relevance": "low",
   "id": "gamma-doppler",
   "knowledge_source": "community-trading-taxonomy",
   "list_paths": {
@@ -214,8 +339,63 @@
       "search_slug": "phase"
     }
   ],
+  "qualities": [
+    "normal",
+    "stattrak"
+  ],
+  "resolution_level": "finish",
   "search_slug": "gamma-doppler",
+  "seed_domain": null,
   "skin_count": 50,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-30",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4818",
+      "name": "Dreams & Nightmares Case",
+      "path": "data/api/consumer/cards/cases/4818.json",
+      "search_slug": "dreams-nightmares-case"
+    },
+    {
+      "canonical_slug": "crate-community-13",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4236",
+      "name": "Gamma Case",
+      "path": "data/api/consumer/cards/cases/4236.json",
+      "search_slug": "gamma-case"
+    },
+    {
+      "canonical_slug": "crate-community-29",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4790",
+      "name": "Operation Riptide Case",
+      "path": "data/api/consumer/cards/cases/4790.json",
+      "search_slug": "operation-riptide-case"
+    },
+    {
+      "canonical_slug": "crate-gamma-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4281",
+      "name": "crate_gamma_2",
+      "path": "data/api/consumer/cards/cases/4281.json",
+      "search_slug": "crate-gamma-2"
+    }
+  ],
+  "source_collections": [
+    {
+      "canonical_slug": "set-train-2021",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_train_2021",
+      "name": "The 2021 Train Collection",
+      "path": "data/api/consumer/cards/collections/set_train_2021.json",
+      "search_slug": "the-2021-train-collection"
+    }
+  ],
   "supports": {
     "blue_gem_overlay": false,
     "fade_overlay": false,

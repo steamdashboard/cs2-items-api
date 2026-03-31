@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__59",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_knife_t_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/59/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/59.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/knife/knife_default_t/weapon_knife_default_t.vmdl_c",
       "phase2/weapons/models/knife/knife_default_t/weapon_knife_default_t_ag2.vmdl_c"
@@ -61,6 +63,14 @@
   "search_slug": "knife",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {},
+    "exteriors": [],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [],
+    "skin_count": 0
+  },
   "supports_vanilla": true,
   "type_name": "Knife",
   "weapon_group": "knife"

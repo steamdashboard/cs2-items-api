@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-xraymachine",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 1
+  },
   "description": "",
   "id": "set_xraymachine",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_xraymachine",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_xraymachine.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -46,5 +53,13 @@
   "search_slug": "the-x-ray-collection",
   "skin_ids": [
     "36-125"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__26",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_bizon_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/26/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/26.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/bizon/weapon_smg_bizon.vmdl_c",
       "phase2/weapons/models/bizon/weapon_smg_bizon_ag2.vmdl_c"
@@ -100,6 +102,29 @@
   "search_slug": "pp-bizon",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 38,
+      "souvenir": 9,
+      "stattrak": 16
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 38
+  },
   "supports_vanilla": false,
   "type_name": "SMG",
   "weapon_group": "smg"

@@ -12,6 +12,7 @@
   },
   "media": {
     "asset_id": "agent__5402",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/characters/customplayer_ctm_st6_variantg_png.vtex_c",
       "panorama/images/econ/characters/customplayer_ctm_st6_variantg_square_png.vtex_c"
@@ -20,6 +21,7 @@
       "data/api/media/rendered/files/agents/5402/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/agents/5402.json",
+    "media_scope": "rendered-entity",
     "models": [
       "characters/models/ctm_st6/ctm_st6_variantg.vmdl_c",
       "phase2/characters/models/ctm_sas/ctm_sas_ag2.vmdl_c",
@@ -30,6 +32,45 @@
     "source_texture_path": "panorama/images/econ/characters/customplayer_ctm_st6_variantg_png.vtex_c"
   },
   "name": "Buckshot | NSWC SEAL",
+  "rarity": {
+    "color_ref": "desc_mythical",
+    "id": "mythical",
+    "localized_names": {
+      "brazilian": "Restrito",
+      "bulgarian": "Ограничено оръжие",
+      "czech": "Zakázaná",
+      "danish": "Begrænset",
+      "dutch": "Verboden",
+      "english": "Restricted",
+      "finnish": "Rajoitettu",
+      "french": "Limitée",
+      "german": "Limitiert",
+      "greek": "Restricted",
+      "hungarian": "Korlátozott",
+      "indonesian": "Terbatas",
+      "italian": "Riservato",
+      "japanese": "部外秘",
+      "koreana": "제한",
+      "latam": "de tipo restringido",
+      "norwegian": "Begrenset",
+      "polish": "spoza obiegu",
+      "portuguese": "Restrito",
+      "romanian": "Restricționat(ă)",
+      "russian": "Запрещённое",
+      "schinese": "受限级",
+      "schinese_pw": "Restricted",
+      "spanish": "de tipo restringido",
+      "swedish": "Begränsad",
+      "tchinese": "受管制",
+      "thai": "หวงห้าม",
+      "turkish": "Sınırlı",
+      "ukrainian": "зброя спецслужб",
+      "vietnamese": "Hàng hạn chế"
+    },
+    "name": "Restricted",
+    "source": "rarity-ref",
+    "value": "4"
+  },
   "rarity_ref": "mythical",
   "search_slug": "buckshot-nswc-seal",
   "side": "counter-terrorists"

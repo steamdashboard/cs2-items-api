@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-safehouse",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 15
+  },
   "description": "",
   "id": "set_safehouse",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_safehouse",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_safehouse.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -60,5 +67,17 @@
     "60-254",
     "61-25",
     "8-110"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

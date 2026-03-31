@@ -15,7 +15,14 @@ As of the current snapshot, the emitted consumer contract already includes first
 - `phases`
 - `market-constraints`
 
-Skin, skin-variant, and case cards also expose trading-oriented summaries that link back to those overlays.
+Skin, skin-variant, case, collection, and weapon cards also expose deterministic trading-oriented summaries that link back to those overlays.
+
+The current generated contract additionally emits:
+
+- `browse/finishes.json` as a first-class consumer browse entrypoint
+- `lists/by-rarity/*.json` across consumer-facing cards
+- trading semantics such as `resolution_level`, `deterministic_inputs`, `seed_domain`, and `float_relevance`
+- explicit media honesty fields such as `media_scope` and `coverage_status`
 
 ## Goal
 
@@ -497,7 +504,7 @@ Current implementation now guarantees:
 If no skin-specific media is currently derivable from game files, the contract must say so explicitly:
 
 - `media_scope = weapon-base-fallback`
-- `media_status = incomplete`
+- `coverage_status = fallback-only`
 
 Do not silently pretend that a base weapon icon is a skin preview.
 

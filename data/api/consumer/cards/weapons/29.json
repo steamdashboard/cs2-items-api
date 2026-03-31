@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__29",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_sawedoff_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/29/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/29.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/sawedoff/weapon_shot_sawedoff.vmdl_c",
       "phase2/weapons/models/sawedoff/weapon_shot_sawedoff_ag2.vmdl_c"
@@ -97,6 +99,29 @@
   "search_slug": "sawed-off",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 35,
+      "souvenir": 7,
+      "stattrak": 17
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 35
+  },
   "supports_vanilla": false,
   "type_name": "Shotgun",
   "weapon_group": "shotgun"

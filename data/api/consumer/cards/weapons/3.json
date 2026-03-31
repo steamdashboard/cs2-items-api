@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__3",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_fiveseven_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/3/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/3.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/fiveseven/weapon_pist_fiveseven.vmdl_c",
       "phase2/weapons/models/fiveseven/weapon_pist_fiveseven_ag2.vmdl_c"
@@ -103,6 +105,55 @@
   "search_slug": "five-seven",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 41,
+      "souvenir": 7,
+      "stattrak": 20
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "case-hardened",
+        "group": "finish-families",
+        "id": "case-hardened",
+        "name": "Case Hardened",
+        "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+        "search_slug": "case-hardened"
+      },
+      {
+        "canonical_slug": "heat-treated",
+        "group": "finish-families",
+        "id": "heat-treated",
+        "name": "Heat Treated",
+        "path": "data/api/consumer/overlays/finish-families/heat-treated.json",
+        "search_slug": "heat-treated"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 41
+  },
   "supports_vanilla": false,
   "type_name": "Pistol",
   "weapon_group": "pistol"

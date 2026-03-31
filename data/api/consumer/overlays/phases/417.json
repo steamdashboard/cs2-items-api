@@ -1,5 +1,8 @@
 {
   "canonical_slug": "am-blackpearl-marbleized-black-pearl",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
   "example_skins": [
     {
       "canonical_slug": "500-417",
@@ -110,6 +113,120 @@
       "search_slug": "paracord-knife-doppler"
     }
   ],
+  "example_variants": [
+    {
+      "canonical_slug": "500-417-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-417__normal__factory-new",
+      "name": "Bayonet | Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-417__normal__factory-new.json",
+      "search_slug": "bayonet-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "500-417-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-417__normal__minimal-wear",
+      "name": "Bayonet | Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-417__normal__minimal-wear.json",
+      "search_slug": "bayonet-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "514-417-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-417__normal__factory-new",
+      "name": "Bowie Knife | Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/514-417__normal__factory-new.json",
+      "search_slug": "bowie-knife-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "514-417-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-417__normal__minimal-wear",
+      "name": "Bowie Knife | Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/514-417__normal__minimal-wear.json",
+      "search_slug": "bowie-knife-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "515-417-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-417__normal__factory-new",
+      "name": "Butterfly Knife | Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/515-417__normal__factory-new.json",
+      "search_slug": "butterfly-knife-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "515-417-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-417__normal__minimal-wear",
+      "name": "Butterfly Knife | Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/515-417__normal__minimal-wear.json",
+      "search_slug": "butterfly-knife-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "512-417-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "512-417__normal__factory-new",
+      "name": "Falchion Knife | Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/512-417__normal__factory-new.json",
+      "search_slug": "falchion-knife-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "512-417-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "512-417__normal__minimal-wear",
+      "name": "Falchion Knife | Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/512-417__normal__minimal-wear.json",
+      "search_slug": "falchion-knife-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "505-417-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-417__normal__factory-new",
+      "name": "Flip Knife | Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/505-417__normal__factory-new.json",
+      "search_slug": "flip-knife-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "505-417-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-417__normal__minimal-wear",
+      "name": "Flip Knife | Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/505-417__normal__minimal-wear.json",
+      "search_slug": "flip-knife-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "506-417-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "506-417__normal__factory-new",
+      "name": "Gut Knife | Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/506-417__normal__factory-new.json",
+      "search_slug": "gut-knife-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "506-417-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "506-417__normal__minimal-wear",
+      "name": "Gut Knife | Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/506-417__normal__minimal-wear.json",
+      "search_slug": "gut-knife-doppler-minimal-wear"
+    }
+  ],
+  "exteriors": [
+    "factory-new",
+    "minimal-wear"
+  ],
   "finish": {
     "canonical_slug": "am-blackpearl-marbleized",
     "group": "finishes",
@@ -126,6 +243,7 @@
     "path": "data/api/consumer/overlays/finish-families/doppler.json",
     "search_slug": "doppler"
   },
+  "float_relevance": "low",
   "id": "417",
   "list_paths": {
     "items": "data/api/consumer/lists/by-finish/417.json"
@@ -146,7 +264,88 @@
   "phase_group": "doppler",
   "phase_kind": "gem",
   "phase_name": "Black Pearl",
+  "qualities": [
+    "normal",
+    "stattrak"
+  ],
+  "resolution_level": "finish",
   "search_slug": "doppler-black-pearl",
+  "seed_domain": null,
   "skin_count": 18,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-7",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4089",
+      "name": "Chroma 2 Case",
+      "path": "data/api/consumer/cards/cases/4089.json",
+      "search_slug": "chroma-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-12",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4233",
+      "name": "Chroma 3 Case",
+      "path": "data/api/consumer/cards/cases/4233.json",
+      "search_slug": "chroma-3-case"
+    },
+    {
+      "canonical_slug": "crate-community-6",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4061",
+      "name": "Chroma Case",
+      "path": "data/api/consumer/cards/cases/4061.json",
+      "search_slug": "chroma-case"
+    },
+    {
+      "canonical_slug": "crate-community-35",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7007",
+      "name": "Fever Case",
+      "path": "data/api/consumer/cards/cases/7007.json",
+      "search_slug": "fever-case"
+    },
+    {
+      "canonical_slug": "crate-community-25",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4695",
+      "name": "Prisma 2 Case",
+      "path": "data/api/consumer/cards/cases/4695.json",
+      "search_slug": "prisma-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-22",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4598",
+      "name": "Prisma Case",
+      "path": "data/api/consumer/cards/cases/4598.json",
+      "search_slug": "prisma-case"
+    },
+    {
+      "canonical_slug": "crate-community-18",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4403",
+      "name": "Spectrum 2 Case",
+      "path": "data/api/consumer/cards/cases/4403.json",
+      "search_slug": "spectrum-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-16",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4351",
+      "name": "Spectrum Case",
+      "path": "data/api/consumer/cards/cases/4351.json",
+      "search_slug": "spectrum-case"
+    }
+  ],
+  "source_collections": [],
   "variant_count": 72
 }

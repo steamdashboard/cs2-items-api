@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__14",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_m249_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/14/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/14.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/m249/weapon_mach_m249.vmdl_c",
       "phase2/weapons/models/m249/weapon_mach_m249_ag2.vmdl_c"
@@ -88,6 +90,29 @@
   "search_slug": "m249",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 26,
+      "souvenir": 4,
+      "stattrak": 11
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 26
+  },
   "supports_vanilla": false,
   "type_name": "Machinegun",
   "weapon_group": "machinegun"

@@ -1,6 +1,11 @@
 {
   "canonical_slug": "am-doppler-phase1-widow-phase-1",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
   "example_skins": [],
+  "example_variants": [],
+  "exteriors": [],
   "finish": {
     "canonical_slug": "am-doppler-phase1-widow",
     "group": "finishes",
@@ -17,6 +22,7 @@
     "path": "data/api/consumer/overlays/finish-families/doppler.json",
     "search_slug": "doppler"
   },
+  "float_relevance": "low",
   "id": "852",
   "list_paths": {
     "items": "data/api/consumer/lists/by-finish/852.json"
@@ -37,7 +43,12 @@
   "phase_group": "doppler",
   "phase_kind": "numbered",
   "phase_name": "Phase 1",
+  "qualities": [],
+  "resolution_level": "finish",
   "search_slug": "doppler-phase-1",
+  "seed_domain": null,
   "skin_count": 0,
+  "source_cases": [],
+  "source_collections": [],
   "variant_count": 0
 }

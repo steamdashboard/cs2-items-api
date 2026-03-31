@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__16",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_m4a1_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/16/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/16.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/m4a4/weapon_rif_m4a4.vmdl_c",
       "phase2/weapons/models/m4a4/weapon_rif_m4a4_ag2.vmdl_c"
@@ -111,6 +113,29 @@
   "search_slug": "m4a4",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 49,
+      "souvenir": 7,
+      "stattrak": 26
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 49
+  },
   "supports_vanilla": false,
   "type_name": "Rifle",
   "weapon_group": "rifle"

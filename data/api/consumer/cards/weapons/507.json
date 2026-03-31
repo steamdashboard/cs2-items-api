@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__507",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_knife_karambit_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/507/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/507.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/knife/knife_karambit/weapon_knife_karambit.vmdl_c",
       "phase2/weapons/models/knife/knife_karambit/weapon_knife_karambit_ag2.vmdl_c"
@@ -101,6 +103,133 @@
     "community_case_6_unusual",
     "unusual_revolving_list"
   ],
+  "summary": {
+    "availability": {
+      "normal": 35,
+      "stattrak": 35
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "case-hardened",
+        "group": "finish-families",
+        "id": "case-hardened",
+        "name": "Case Hardened",
+        "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+        "search_slug": "case-hardened"
+      },
+      {
+        "canonical_slug": "crimson-web",
+        "group": "finish-families",
+        "id": "crimson-web",
+        "name": "Crimson Web",
+        "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+        "search_slug": "crimson-web"
+      },
+      {
+        "canonical_slug": "doppler",
+        "group": "finish-families",
+        "id": "doppler",
+        "name": "Doppler",
+        "path": "data/api/consumer/overlays/finish-families/doppler.json",
+        "search_slug": "doppler"
+      },
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      },
+      {
+        "canonical_slug": "gamma-doppler",
+        "group": "finish-families",
+        "id": "gamma-doppler",
+        "name": "Gamma Doppler",
+        "path": "data/api/consumer/overlays/finish-families/gamma-doppler.json",
+        "search_slug": "gamma-doppler"
+      },
+      {
+        "canonical_slug": "marble-fade",
+        "group": "finish-families",
+        "id": "marble-fade",
+        "name": "Marble Fade",
+        "path": "data/api/consumer/overlays/finish-families/marble-fade.json",
+        "search_slug": "marble-fade"
+      },
+      {
+        "canonical_slug": "slaughter",
+        "group": "finish-families",
+        "id": "slaughter",
+        "name": "Slaughter",
+        "path": "data/api/consumer/overlays/finish-families/slaughter.json",
+        "search_slug": "slaughter"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      },
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      },
+      {
+        "canonical_slug": "fire-and-ice",
+        "group": "rare-patterns",
+        "id": "fire-and-ice",
+        "name": "Fire and Ice",
+        "path": "data/api/consumer/overlays/rare-patterns/fire-and-ice.json",
+        "search_slug": "fire-and-ice"
+      },
+      {
+        "canonical_slug": "phase",
+        "group": "rare-patterns",
+        "id": "phase",
+        "name": "Phase",
+        "path": "data/api/consumer/overlays/rare-patterns/phase.json",
+        "search_slug": "phase"
+      },
+      {
+        "canonical_slug": "slaughter-motif",
+        "group": "rare-patterns",
+        "id": "slaughter-motif",
+        "name": "Slaughter Motif",
+        "path": "data/api/consumer/overlays/rare-patterns/slaughter-motif.json",
+        "search_slug": "slaughter-motif"
+      },
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "stattrak"
+    ],
+    "skin_count": 35
+  },
   "supports_vanilla": true,
   "type_name": "Knife",
   "weapon_group": "knife"

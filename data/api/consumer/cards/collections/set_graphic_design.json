@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-graphic-design",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 16
+  },
   "description": "",
   "id": "set_graphic_design",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_graphic_design",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_graphic_design.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -61,5 +68,18 @@
     "7-912",
     "8-173",
     "9-163"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

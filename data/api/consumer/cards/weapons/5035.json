@@ -41,11 +41,13 @@
   },
   "media": {
     "asset_id": "weapon__5035",
+    "coverage_status": "rendered",
     "images": [],
     "images_png": [
       "data/api/media/rendered/files/weapons/5035/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/5035.json",
+    "media_scope": "rendered-entity",
     "models": [
       "characters/models/shared/arms/glove_hydra/v_glove_hydra.vmdl_c",
       "characters/models/shared/arms/glove_hydra/w_glove_hydra.vmdl_c"
@@ -66,6 +68,38 @@
   "special_pool_ids": [
     "set_community_19_unusual"
   ],
+  "summary": {
+    "availability": {
+      "normal": 4
+    },
+    "exteriors": [
+      "vanilla"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "case-hardened",
+        "group": "finish-families",
+        "id": "case-hardened",
+        "name": "Case Hardened",
+        "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+        "search_slug": "case-hardened"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      }
+    ],
+    "qualities": [
+      "normal"
+    ],
+    "skin_count": 4
+  },
   "supports_vanilla": false,
   "type_name": "Gloves",
   "weapon_group": "glove"

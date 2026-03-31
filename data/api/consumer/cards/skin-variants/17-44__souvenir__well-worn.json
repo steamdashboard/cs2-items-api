@@ -6,8 +6,10 @@
   "id": "17-44__souvenir__well-worn",
   "market_hash_name": "Souvenir MAC-10 | Case Hardened (Well-Worn)",
   "media": {
+    "coverage_status": "rendered",
     "image_png": "data/api/media/rendered/files/skins/17-44/heavy.png",
     "manifest_path": "data/api/media/rendered/manifests/skin-variants/17-44__souvenir__well-worn.json",
+    "media_scope": "skin-variant-rendered",
     "preview_status": "shared-skin-render",
     "preview_tier": "heavy",
     "source_skin_manifest_path": "data/api/media/rendered/manifests/skins/17-44.json"
@@ -15,10 +17,53 @@
   "name": "Souvenir MAC-10 | Case Hardened (Well-Worn)",
   "quality": "souvenir",
   "quality_name": "Souvenir",
+  "rarity": {
+    "color_ref": "desc_mythical",
+    "id": "mythical",
+    "localized_names": {
+      "brazilian": "Restrito",
+      "bulgarian": "Ограничено оръжие",
+      "czech": "Zakázaná",
+      "danish": "Begrænset",
+      "dutch": "Verboden",
+      "english": "Restricted",
+      "finnish": "Rajoitettu",
+      "french": "Limitée",
+      "german": "Limitiert",
+      "greek": "Restricted",
+      "hungarian": "Korlátozott",
+      "indonesian": "Terbatas",
+      "italian": "Riservato",
+      "japanese": "部外秘",
+      "koreana": "제한",
+      "latam": "de tipo restringido",
+      "norwegian": "Begrenset",
+      "polish": "spoza obiegu",
+      "portuguese": "Restrito",
+      "romanian": "Restricționat(ă)",
+      "russian": "Запрещённое",
+      "schinese": "受限级",
+      "schinese_pw": "Restricted",
+      "spanish": "de tipo restringido",
+      "swedish": "Begränsad",
+      "tchinese": "受管制",
+      "thai": "หวงห้าม",
+      "turkish": "Sınırlı",
+      "ukrainian": "зброя спецслужб",
+      "vietnamese": "Hàng hạn chế"
+    },
+    "name": "Restricted",
+    "source": "container-tier",
+    "value": "4"
+  },
   "search_slug": "souvenir-mac-10-case-hardened-well-worn",
   "skin_id": "17-44",
   "skin_name": "MAC-10 | Case Hardened",
   "trading": {
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed"
+    ],
     "finish_family": {
       "canonical_slug": "case-hardened",
       "group": "finish-families",
@@ -27,11 +72,16 @@
       "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
       "search_slug": "case-hardened"
     },
+    "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 17,
       "live_item_required_fields": [
         "asset_id",
-        "d_param"
+        "d_param",
+        "float_value",
+        "paint_seed",
+        "stickers",
+        "tradable"
       ],
       "paint_index": 44,
       "paint_seed_field": "paint_seed",
@@ -77,6 +127,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "high",
     "phase": null,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": true,
       "fade_overlay": false,

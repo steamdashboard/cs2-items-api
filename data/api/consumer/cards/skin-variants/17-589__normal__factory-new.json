@@ -6,8 +6,10 @@
   "id": "17-589__normal__factory-new",
   "market_hash_name": "MAC-10 | Carnivore (Factory New)",
   "media": {
+    "coverage_status": "rendered",
     "image_png": "data/api/media/rendered/files/skins/17-589/light.png",
     "manifest_path": "data/api/media/rendered/manifests/skin-variants/17-589__normal__factory-new.json",
+    "media_scope": "skin-variant-rendered",
     "preview_status": "shared-skin-render",
     "preview_tier": "light",
     "source_skin_manifest_path": "data/api/media/rendered/manifests/skins/17-589.json"
@@ -15,16 +17,63 @@
   "name": "MAC-10 | Carnivore (Factory New)",
   "quality": "normal",
   "quality_name": "Normal",
+  "rarity": {
+    "color_ref": "desc_rare",
+    "id": "rare",
+    "localized_names": {
+      "brazilian": "Nível Militar",
+      "bulgarian": "Стандартен военен клас",
+      "czech": "Armádní",
+      "danish": "Mil-spec-kvalitet",
+      "dutch": "Militair",
+      "english": "Mil-Spec Grade",
+      "finnish": "Armeijatason",
+      "french": "Militaire",
+      "german": "Militärstandard",
+      "greek": "Mil-Spec Grade",
+      "hungarian": "Katonai fokozatú",
+      "indonesian": "Kelas Militer",
+      "italian": "Militare",
+      "japanese": "MIL規格",
+      "koreana": "군용",
+      "latam": "de grado militar",
+      "norwegian": "Militær standard",
+      "polish": "wojskowej jakości",
+      "portuguese": "Padrão Militar",
+      "romanian": "Calitate militară",
+      "russian": "Армейское качество",
+      "schinese": "军规级",
+      "schinese_pw": "Mil-Spec Grade",
+      "spanish": "de grado militar",
+      "swedish": "Militärklass",
+      "tchinese": "軍規級",
+      "thai": "เกรดมาตรฐานทางทหาร",
+      "turkish": "Askeri Sınıf",
+      "ukrainian": "армійського ґатунку",
+      "vietnamese": "Hạng Mil-Spec"
+    },
+    "name": "Mil-Spec Grade",
+    "source": "container-tier",
+    "value": "3"
+  },
   "search_slug": "mac-10-carnivore-factory-new",
   "skin_id": "17-589",
   "skin_name": "MAC-10 | Carnivore",
   "trading": {
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 17,
       "live_item_required_fields": [
         "asset_id",
-        "d_param"
+        "d_param",
+        "float_value",
+        "paint_seed",
+        "stickers",
+        "tradable"
       ],
       "paint_index": 589,
       "paint_seed_field": null,
@@ -61,6 +110,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

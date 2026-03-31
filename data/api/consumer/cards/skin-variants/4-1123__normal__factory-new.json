@@ -6,8 +6,10 @@
   "id": "4-1123__normal__factory-new",
   "market_hash_name": "Glock-18 | Gamma Doppler (Factory New)",
   "media": {
+    "coverage_status": "rendered",
     "image_png": "data/api/media/rendered/files/skins/4-1123/light.png",
     "manifest_path": "data/api/media/rendered/manifests/skin-variants/4-1123__normal__factory-new.json",
+    "media_scope": "skin-variant-rendered",
     "preview_status": "shared-skin-render",
     "preview_tier": "light",
     "source_skin_manifest_path": "data/api/media/rendered/manifests/skins/4-1123.json"
@@ -15,10 +17,52 @@
   "name": "Glock-18 | Gamma Doppler (Factory New)",
   "quality": "normal",
   "quality_name": "Normal",
+  "rarity": {
+    "color_ref": "desc_ancient",
+    "id": "ancient",
+    "localized_names": {
+      "brazilian": "Oculto",
+      "bulgarian": "Секретно оръжие",
+      "czech": "Skrytá",
+      "danish": "Tilsløret",
+      "dutch": "Clandestien",
+      "english": "Covert",
+      "finnish": "Salainen",
+      "french": "Secrète",
+      "german": "Verdeckt",
+      "greek": "Covert",
+      "hungarian": "Fedett",
+      "indonesian": "Tersembunyi",
+      "italian": "Segreto",
+      "japanese": "秘密",
+      "koreana": "극비",
+      "latam": "de aspecto encubierto",
+      "norwegian": "Hemmelig",
+      "polish": "klasy „tajne”",
+      "portuguese": "Secreto",
+      "romanian": "Clandestin(ă)",
+      "russian": "Тайное",
+      "schinese": "隐秘级",
+      "schinese_pw": "Covert",
+      "spanish": "de aspecto encubierto",
+      "swedish": "Konfidentiell",
+      "tchinese": "隱蔽",
+      "thai": "ลึกลับ",
+      "turkish": "Çok Gizli",
+      "ukrainian": "надсекретна зброя",
+      "vietnamese": "Mật vụ"
+    },
+    "name": "Covert",
+    "source": "container-tier",
+    "value": "6"
+  },
   "search_slug": "glock-18-gamma-doppler-factory-new",
   "skin_id": "4-1123",
   "skin_name": "Glock-18 | Gamma Doppler",
   "trading": {
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": {
       "canonical_slug": "gamma-doppler",
       "group": "finish-families",
@@ -27,14 +71,19 @@
       "path": "data/api/consumer/overlays/finish-families/gamma-doppler.json",
       "search_slug": "gamma-doppler"
     },
+    "float_relevance": "low",
     "inspect_ref": {
       "def_index": 4,
       "live_item_required_fields": [
         "asset_id",
-        "d_param"
+        "d_param",
+        "float_value",
+        "paint_seed",
+        "stickers",
+        "tradable"
       ],
       "paint_index": 1123,
-      "paint_seed_field": "paint_seed",
+      "paint_seed_field": null,
       "quality": "normal"
     },
     "market_constraints": [
@@ -59,7 +108,7 @@
         "max_float": 0.07,
         "min_float": 0.0,
         "paint_index": 1123,
-        "supports_paint_seed_filter": true
+        "supports_paint_seed_filter": false
       },
       "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Glock-18%20%7C%20Gamma%20Doppler%20%28Factory%20New%29.json",
       "market_hash_name": "Glock-18 | Gamma Doppler (Factory New)"
@@ -84,6 +133,9 @@
       "path": "data/api/consumer/overlays/phases/1123.json",
       "search_slug": "gamma-doppler-phase-4"
     },
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

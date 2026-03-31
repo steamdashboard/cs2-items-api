@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__7",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_ak47_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/7/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/7.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/ak47/weapon_rif_ak47.vmdl_c",
       "phase2/weapons/models/ak47/weapon_rif_ak47_ag2.vmdl_c"
@@ -121,6 +123,47 @@
   "search_slug": "ak-47",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 59,
+      "souvenir": 7,
+      "stattrak": 32
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "case-hardened",
+        "group": "finish-families",
+        "id": "case-hardened",
+        "name": "Case Hardened",
+        "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
+        "search_slug": "case-hardened"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 59
+  },
   "supports_vanilla": false,
   "type_name": "Rifle",
   "weapon_group": "rifle"

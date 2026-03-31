@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__10",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_famas_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/10/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/10.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/famas/weapon_rif_famas.vmdl_c",
       "phase2/weapons/models/famas/weapon_rif_famas_ag2.vmdl_c"
@@ -104,6 +106,29 @@
   "search_slug": "famas",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 42,
+      "souvenir": 5,
+      "stattrak": 20
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 42
+  },
   "supports_vanilla": false,
   "type_name": "Rifle",
   "weapon_group": "rifle"

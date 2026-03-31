@@ -91,12 +91,14 @@
   },
   "media": {
     "asset_id": "skin__29-119",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/29-119/light.png",
       "data/api/media/rendered/files/skins/29-119/medium.png",
       "data/api/media/rendered/files/skins/29-119/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/29-119.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/29-119/heavy.png",
@@ -113,6 +115,7 @@
     }
   },
   "name": "Sawed-Off | Sage Spray",
+  "rarity": null,
   "search_slug": "sawed-off-sage-spray",
   "sources": {
     "capsules": [],
@@ -304,7 +307,11 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -341,6 +348,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

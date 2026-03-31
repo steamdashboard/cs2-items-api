@@ -16,7 +16,7 @@ def load_json(path: Path) -> dict:
 class GeneratedContractTests(unittest.TestCase):
     def test_schema_exposes_layered_api(self) -> None:
         schema = load_json(ROOT / "data/api/meta/schema.json")
-        self.assertEqual(schema["version"], 9)
+        self.assertEqual(schema["version"], 10)
         self.assertEqual(set(schema["layers"]), {"reference", "graph", "consumer", "media"})
         self.assertIn("canonical_slug", schema["slug_policy"])
         self.assertIn("search_slug", schema["slug_policy"])
@@ -67,6 +67,8 @@ class GeneratedContractTests(unittest.TestCase):
             ROOT / "data/api/consumer/meta/discovery.json",
             ROOT / "data/api/consumer/meta/schema.json",
             ROOT / "data/api/consumer/browse/trading.json",
+            ROOT / "data/api/consumer/browse/finishes.json",
+            ROOT / "data/api/consumer/lists/by-rarity/legendary.json",
             ROOT / "data/api/media/manifests/collectible__875.json",
             ROOT / "data/api/media/manifests/equipment__50.json",
             ROOT / "data/api/media/manifests/weapon__1.json",
@@ -108,6 +110,8 @@ class GeneratedContractTests(unittest.TestCase):
     def test_consumer_skin_uses_rendered_preview(self) -> None:
         skin_card = load_json(ROOT / "data/api/consumer/cards/skins/1-37.json")
         self.assertEqual(skin_card["media"]["preview_status"], "rendered")
+        self.assertEqual(skin_card["media"]["media_scope"], "skin-rendered")
+        self.assertEqual(skin_card["media"]["coverage_status"], "rendered")
         self.assertEqual(
             skin_card["media"]["primary_image_png"],
             "data/api/media/rendered/files/skins/1-37/light.png",
@@ -131,8 +135,13 @@ class GeneratedContractTests(unittest.TestCase):
         self.assertEqual(variant_card["trading"]["finish_family"]["id"], "doppler")
         self.assertEqual(variant_card["trading"]["phase"]["id"], "418")
         self.assertTrue(variant_card["trading"]["pattern_sensitive"])
+        self.assertEqual(variant_card["trading"]["resolution_level"], "finish")
+        self.assertEqual(variant_card["trading"]["deterministic_inputs"], ["paint_index"])
+        self.assertFalse(variant_card["trading"]["seed_sensitive"])
         self.assertEqual(variant_card["trading"]["market_query"]["csfloat"]["category"]["code"], 1)
-        self.assertTrue(variant_card["trading"]["market_query"]["csfloat"]["supports_paint_seed_filter"])
+        self.assertFalse(variant_card["trading"]["market_query"]["csfloat"]["supports_paint_seed_filter"])
+        self.assertEqual(variant_card["media"]["media_scope"], "skin-variant-rendered")
+        self.assertEqual(variant_card["media"]["coverage_status"], "rendered")
 
     def test_consumer_overlays_link_back_to_cards_and_reference_finishes(self) -> None:
         family = load_json(ROOT / "data/api/consumer/overlays/finish-families/case-hardened.json")
@@ -141,10 +150,14 @@ class GeneratedContractTests(unittest.TestCase):
         constraint = load_json(ROOT / "data/api/consumer/overlays/market-constraints/cannot-trade.json")
 
         self.assertEqual(family["overlay_type"], "finish-family")
+        self.assertEqual(family["resolution_level"], "paint-seed")
+        self.assertEqual(family["seed_domain"]["maximum"], 999)
         self.assertTrue(any(item["group"] == "skins" for item in family["example_skins"]))
         self.assertEqual(pattern["finish_families"][0]["group"], "finish-families")
+        self.assertEqual(pattern["resolution_level"], "paint-seed")
         self.assertEqual(phase["finish"]["group"], "finishes")
         self.assertEqual(phase["phase_name"], "Phase 1")
+        self.assertEqual(phase["resolution_level"], "finish")
         self.assertEqual(constraint["affected_groups"]["collectibles"], 472)
         self.assertEqual(constraint["affected_item_count"], 692)
 
@@ -216,9 +229,22 @@ class GeneratedContractTests(unittest.TestCase):
             discovery["entrypoints"]["market_constraints"],
             "data/api/consumer/overlays/market-constraints/<constraint_id>.json",
         )
+        self.assertEqual(
+            discovery["entrypoints"]["rarities"],
+            "data/api/consumer/lists/by-rarity/<rarity>.json",
+        )
+        self.assertEqual(
+            discovery["browse_entrypoints"]["finishes"],
+            "data/api/consumer/browse/finishes.json",
+        )
+        self.assertEqual(
+            discovery["browse_entrypoints"]["trading"],
+            "data/api/consumer/browse/trading.json",
+        )
         self.assertEqual(discovery["overlay_counts"]["finish-families"], 9)
         self.assertEqual(discovery["overlay_counts"]["phases"], 24)
         self.assertEqual(discovery["list_counts"]["by-finish-family"], 9)
+        self.assertEqual(discovery["list_counts"]["by-rarity"], 7)
         self.assertEqual(discovery["list_counts"]["by-market-constraint"], 2)
 
     def test_graph_and_consumer_side_indexes_exist(self) -> None:
@@ -309,6 +335,20 @@ class GeneratedContractTests(unittest.TestCase):
         constraint_list = load_json(ROOT / "data/api/consumer/lists/by-market-constraint/cannot-trade.json")
         self.assertEqual(constraint_list["key"], "cannot-trade")
         self.assertTrue(any(item["group"] == "collectibles" for item in constraint_list["items"]))
+
+    def test_skin_rarity_and_collection_breakdowns_use_deterministic_source_tiers(self) -> None:
+        skin = load_json(ROOT / "data/api/consumer/cards/skins/7-44.json")
+        collection = load_json(ROOT / "data/api/consumer/cards/collections/set_gamma_2.json")
+        rarity_list = load_json(ROOT / "data/api/consumer/lists/by-rarity/legendary.json")
+
+        self.assertEqual(skin["rarity"]["id"], "legendary")
+        self.assertEqual(skin["rarity"]["source"], "container-tier")
+        self.assertGreater(collection["contents"]["known_rarity_skin_count"], 0)
+        self.assertTrue(any(entry["tier"] == "ancient" for entry in collection["contents"]["by_rarity"]))
+        self.assertTrue(
+            any(item["id"] == "7-44" and item["group"] == "skins" for item in rarity_list["items"]),
+            "Expected skin cards with deterministic source tiers to appear in rarity lists",
+        )
 
     def test_public_build_metadata_does_not_expose_local_paths(self) -> None:
         for path in (

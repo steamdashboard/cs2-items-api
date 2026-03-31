@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__7-1218",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/7-1218/light.png",
       "data/api/media/rendered/files/skins/7-1218/medium.png",
       "data/api/media/rendered/files/skins/7-1218/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/7-1218.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/7-1218/heavy.png",
@@ -149,6 +151,7 @@
     }
   },
   "name": "AK-47 | Midnight Laminate",
+  "rarity": null,
   "search_slug": "ak-47-midnight-laminate",
   "sources": {
     "capsules": [],
@@ -167,7 +170,11 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 0.75,
       "min_float": 0.0
@@ -207,6 +214,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

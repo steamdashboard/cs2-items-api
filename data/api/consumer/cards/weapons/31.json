@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__31",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_taser_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/31/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/31.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/taser/weapon_pist_taser.vmdl_c",
       "phase2/weapons/models/taser/weapon_pist_taser_ag2.vmdl_c"
@@ -69,6 +71,26 @@
   "search_slug": "zeus-x27",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 7,
+      "stattrak": 2
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "stattrak"
+    ],
+    "skin_count": 7
+  },
   "supports_vanilla": false,
   "type_name": "Equipment",
   "weapon_group": "equipment"

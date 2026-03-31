@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-bravo-ii",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 16
+  },
   "description": "This item was granted during Operation Bravo to an Operation Bravo Coin owner.",
   "id": "set_bravo_ii",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_bravo_ii",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_bravo_ii.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -61,5 +68,18 @@
     "4-208",
     "40-200",
     "8-197"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

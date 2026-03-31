@@ -41,11 +41,13 @@
   },
   "media": {
     "asset_id": "weapon__5034",
+    "coverage_status": "rendered",
     "images": [],
     "images_png": [
       "data/api/media/rendered/files/weapons/5034/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/5034.json",
+    "media_scope": "rendered-entity",
     "models": [
       "characters/models/shared/arms/glove_specialist/v_glove_specialist.vmdl_c",
       "characters/models/shared/arms/glove_specialist/w_glove_specialist.vmdl_c"
@@ -84,6 +86,78 @@
     "set_community_37_unusual",
     "set_glove_3_unusual"
   ],
+  "summary": {
+    "availability": {
+      "normal": 19
+    },
+    "exteriors": [
+      "vanilla"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "crimson-web",
+        "group": "finish-families",
+        "id": "crimson-web",
+        "name": "Crimson Web",
+        "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+        "search_slug": "crimson-web"
+      },
+      {
+        "canonical_slug": "emerald-web",
+        "group": "finish-families",
+        "id": "emerald-web",
+        "name": "Emerald Web",
+        "path": "data/api/consumer/overlays/finish-families/emerald-web.json",
+        "search_slug": "emerald-web"
+      },
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      },
+      {
+        "canonical_slug": "marble-fade",
+        "group": "finish-families",
+        "id": "marble-fade",
+        "name": "Marble Fade",
+        "path": "data/api/consumer/overlays/finish-families/marble-fade.json",
+        "search_slug": "marble-fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      },
+      {
+        "canonical_slug": "fire-and-ice",
+        "group": "rare-patterns",
+        "id": "fire-and-ice",
+        "name": "Fire and Ice",
+        "path": "data/api/consumer/overlays/rare-patterns/fire-and-ice.json",
+        "search_slug": "fire-and-ice"
+      },
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "qualities": [
+      "normal"
+    ],
+    "skin_count": 19
+  },
   "supports_vanilla": false,
   "type_name": "Gloves",
   "weapon_group": "glove"

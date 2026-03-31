@@ -130,6 +130,13 @@ CSFLOAT_CATEGORY_BY_QUALITY = {
     "stattrak": 2,
     "souvenir": 3,
 }
+PATTERN_SEED_DOMAIN = {
+    "field": "paint_seed",
+    "minimum": 0,
+    "maximum": 999,
+    "cardinality": 1000,
+    "deterministic": True,
+}
 
 FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
     "case-hardened": {
@@ -139,6 +146,9 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "confidence": "high",
         "pattern_sensitive": True,
         "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "medium",
         "primary_mechanics": ["blue-gem"],
         "supports": {
             "phase_overlay": False,
@@ -156,6 +166,9 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "confidence": "high",
         "pattern_sensitive": True,
         "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed-and-float",
+        "deterministic_inputs": ["paint_index", "paint_seed", "float_value"],
+        "float_relevance": "high",
         "primary_mechanics": ["web-placement"],
         "supports": {
             "phase_overlay": False,
@@ -173,6 +186,9 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "confidence": "high",
         "pattern_sensitive": True,
         "pattern_sensitivity": "medium",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "low",
         "primary_mechanics": ["phase"],
         "supports": {
             "phase_overlay": True,
@@ -190,6 +206,9 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "confidence": "medium",
         "pattern_sensitive": True,
         "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed-and-float",
+        "deterministic_inputs": ["paint_index", "paint_seed", "float_value"],
+        "float_relevance": "high",
         "primary_mechanics": ["web-placement"],
         "supports": {
             "phase_overlay": False,
@@ -207,6 +226,9 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "confidence": "high",
         "pattern_sensitive": True,
         "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "low",
         "primary_mechanics": ["fade-percentage"],
         "supports": {
             "phase_overlay": False,
@@ -224,6 +246,9 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "confidence": "high",
         "pattern_sensitive": True,
         "pattern_sensitivity": "medium",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "low",
         "primary_mechanics": ["phase"],
         "supports": {
             "phase_overlay": True,
@@ -241,6 +266,9 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "confidence": "medium",
         "pattern_sensitive": True,
         "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "medium",
         "primary_mechanics": ["blue-gem"],
         "supports": {
             "phase_overlay": False,
@@ -258,6 +286,9 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "confidence": "high",
         "pattern_sensitive": True,
         "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "low",
         "primary_mechanics": ["fire-and-ice"],
         "supports": {
             "phase_overlay": False,
@@ -275,6 +306,9 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "confidence": "medium",
         "pattern_sensitive": True,
         "pattern_sensitivity": "medium",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "medium",
         "primary_mechanics": ["slaughter-motif"],
         "supports": {
             "phase_overlay": False,
@@ -292,36 +326,54 @@ RARE_PATTERN_SPECS: dict[str, dict[str, Any]] = {
         "name": "Blue Gem",
         "description": "Seed-based blue-dominant patterns that trade at collector overpay tiers.",
         "knowledge_source": "community-trading-taxonomy",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "medium",
         "live_item_requirements": ["paint_seed", "inspect_link"],
     },
     "fade-percentage": {
         "name": "Fade Percentage",
         "description": "Seed-based fade coverage metric used to compare premium gradient variants.",
         "knowledge_source": "community-trading-taxonomy",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "low",
         "live_item_requirements": ["paint_seed", "inspect_link"],
     },
     "fire-and-ice": {
         "name": "Fire and Ice",
         "description": "Seed-sensitive Marble Fade taxonomy focused on red-blue dominance and clean tip balance.",
         "knowledge_source": "community-trading-taxonomy",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "low",
         "live_item_requirements": ["paint_seed", "inspect_link"],
     },
     "phase": {
         "name": "Phase",
         "description": "Phase grouping for Doppler and Gamma Doppler finishes, including numbered phases and gem variants.",
         "knowledge_source": "derived-name-taxonomy",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "low",
         "live_item_requirements": [],
     },
     "slaughter-motif": {
         "name": "Slaughter Motif",
         "description": "Pattern-sensitive motif grouping used by collectors to compare desirable Slaughter layouts.",
         "knowledge_source": "community-trading-taxonomy",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "medium",
         "live_item_requirements": ["paint_seed", "inspect_link"],
     },
     "web-placement": {
         "name": "Web Placement",
         "description": "Pattern-sensitive web count and placement mechanic tracked on web-based finishes.",
         "knowledge_source": "community-trading-taxonomy",
+        "resolution_level": "paint-seed-and-float",
+        "deterministic_inputs": ["paint_index", "paint_seed", "float_value"],
+        "float_relevance": "high",
         "live_item_requirements": ["paint_seed", "inspect_link"],
     },
 }
@@ -331,11 +383,13 @@ MARKET_CONSTRAINT_SPECS: dict[str, dict[str, Any]] = {
         "name": "Cannot Trade",
         "description": "Source item definition explicitly sets the `cannot trade` attribute.",
         "knowledge_source": "source-backed-attribute",
+        "source_attributes": ["cannot trade"],
     },
     "live-item-market-state": {
         "name": "Live Item Market State Required",
         "description": "Exact float, paint seed, stickers, inspect link, and trade timers require a concrete live item or listing payload.",
         "knowledge_source": "external-listing-contract",
+        "required_instance_fields": ["asset_id", "d_param", "float_value", "paint_seed", "stickers", "tradable"],
     },
 }
 
@@ -441,6 +495,70 @@ def support_flags(family_id: str | None) -> dict[str, bool]:
             "slaughter_overlay": False,
         }
     return dict(spec.get("supports", {}))
+
+
+def family_resolution_level(family_id: str | None) -> str:
+    spec = finish_family_spec(family_id)
+    if spec is None:
+        return "finish"
+    return spec.get("resolution_level", "finish")
+
+
+def family_deterministic_inputs(family_id: str | None) -> list[str]:
+    spec = finish_family_spec(family_id)
+    if spec is None:
+        return ["paint_index"]
+    return list(spec.get("deterministic_inputs", ["paint_index"]))
+
+
+def family_seed_domain(family_id: str | None) -> dict[str, Any] | None:
+    if family_resolution_level(family_id) not in {"paint-seed", "paint-seed-and-float"}:
+        return None
+    return dict(PATTERN_SEED_DOMAIN)
+
+
+def family_float_relevance(family_id: str | None) -> str:
+    spec = finish_family_spec(family_id)
+    if spec is None:
+        return "medium"
+    return spec.get("float_relevance", "medium")
+
+
+def supports_paint_seed_filter(family_id: str | None) -> bool:
+    return family_resolution_level(family_id) in {"paint-seed", "paint-seed-and-float"}
+
+
+def rare_pattern_spec(mechanic_id: str | None) -> dict[str, Any] | None:
+    if mechanic_id is None:
+        return None
+    return RARE_PATTERN_SPECS.get(mechanic_id)
+
+
+def rare_pattern_resolution_level(mechanic_id: str | None) -> str:
+    spec = rare_pattern_spec(mechanic_id)
+    if spec is None:
+        return "finish"
+    return spec.get("resolution_level", "finish")
+
+
+def rare_pattern_deterministic_inputs(mechanic_id: str | None) -> list[str]:
+    spec = rare_pattern_spec(mechanic_id)
+    if spec is None:
+        return ["paint_index"]
+    return list(spec.get("deterministic_inputs", ["paint_index"]))
+
+
+def rare_pattern_seed_domain(mechanic_id: str | None) -> dict[str, Any] | None:
+    if rare_pattern_resolution_level(mechanic_id) not in {"paint-seed", "paint-seed-and-float"}:
+        return None
+    return dict(PATTERN_SEED_DOMAIN)
+
+
+def rare_pattern_float_relevance(mechanic_id: str | None) -> str:
+    spec = rare_pattern_spec(mechanic_id)
+    if spec is None:
+        return "medium"
+    return spec.get("float_relevance", "medium")
 
 
 def phase_metadata(finish: dict[str, Any], family_id: str | None) -> dict[str, Any] | None:

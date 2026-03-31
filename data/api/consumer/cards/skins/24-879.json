@@ -106,12 +106,14 @@
   },
   "media": {
     "asset_id": "skin__24-879",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/24-879/light.png",
       "data/api/media/rendered/files/skins/24-879/medium.png",
       "data/api/media/rendered/files/skins/24-879/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/24-879.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/24-879/heavy.png",
@@ -128,6 +130,45 @@
     }
   },
   "name": "UMP-45 | Fade",
+  "rarity": {
+    "color_ref": "desc_legendary",
+    "id": "legendary",
+    "localized_names": {
+      "brazilian": "Secreto",
+      "bulgarian": "Класифицирано оръжие",
+      "czech": "Tajná",
+      "danish": "Klassificeret",
+      "dutch": "Geheim",
+      "english": "Classified",
+      "finnish": "Luottamuksellinen",
+      "french": "Classifiée",
+      "german": "Vertraulich",
+      "greek": "Classified",
+      "hungarian": "Bizalmas",
+      "indonesian": "Rahasia",
+      "italian": "Confidenziale",
+      "japanese": "機密",
+      "koreana": "기밀",
+      "latam": "de tipo clasificado",
+      "norwegian": "Klassifisert",
+      "polish": "klasy „poufne”",
+      "portuguese": "Confidencial",
+      "romanian": "Secret(ă)",
+      "russian": "Засекреченное",
+      "schinese": "保密级",
+      "schinese_pw": "Classified",
+      "spanish": "de tipo clasificado",
+      "swedish": "Sekretessbelagd",
+      "tchinese": "機密",
+      "thai": "ลับเฉพาะ",
+      "turkish": "Gizli",
+      "ukrainian": "секретна зброя",
+      "vietnamese": "Hạng tuyệt mật"
+    },
+    "name": "Classified",
+    "source": "container-tier",
+    "value": "5"
+  },
   "search_slug": "ump-45-fade",
   "sources": {
     "capsules": [],
@@ -211,6 +252,10 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed"
+    ],
     "finish_family": {
       "canonical_slug": "fade",
       "group": "finish-families",
@@ -219,6 +264,7 @@
       "path": "data/api/consumer/overlays/finish-families/fade.json",
       "search_slug": "fade"
     },
+    "float_relevance": "low",
     "float_window": {
       "max_float": 0.08,
       "min_float": 0.0
@@ -266,6 +312,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "high",
     "phase": null,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": true,

@@ -120,12 +120,14 @@
   },
   "media": {
     "asset_id": "skin__2-249",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/2-249/light.png",
       "data/api/media/rendered/files/skins/2-249/medium.png",
       "data/api/media/rendered/files/skins/2-249/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/2-249.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/2-249/heavy.png",
@@ -142,6 +144,7 @@
     }
   },
   "name": "Dual Berettas | Cobalt Quartz",
+  "rarity": null,
   "search_slug": "dual-berettas-cobalt-quartz",
   "sources": {
     "capsules": [],
@@ -160,7 +163,11 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 0.4,
       "min_float": 0.0
@@ -199,6 +206,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

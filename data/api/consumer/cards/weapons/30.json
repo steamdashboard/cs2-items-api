@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__30",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_tec9_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/30/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/30.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/tec9/weapon_pist_tec9.vmdl_c",
       "phase2/weapons/models/tec9/weapon_pist_tec9_ag2.vmdl_c"
@@ -108,6 +110,29 @@
   "search_slug": "tec-9",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 46,
+      "souvenir": 8,
+      "stattrak": 19
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 46
+  },
   "supports_vanilla": false,
   "type_name": "Pistol",
   "weapon_group": "pistol"

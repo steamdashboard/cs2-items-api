@@ -22,6 +22,7 @@
   },
   "media": {
     "asset_id": "collectible__989",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/status_icons/trophy_majors_finalists_png.vtex_c"
     ],
@@ -29,12 +30,52 @@
       "data/api/media/rendered/files/collectibles/989/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/collectibles/989.json",
+    "media_scope": "rendered-entity",
     "models": [],
     "preview_status": "rendered",
     "primary_image_png": "data/api/media/rendered/files/collectibles/989/primary.png",
     "source_texture_path": "panorama/images/econ/status_icons/trophy_majors_finalists_png.vtex_c"
   },
   "name": "Pgl rio 2022 cs:go finalist",
+  "rarity": {
+    "color_ref": "desc_ancient",
+    "id": "ancient",
+    "localized_names": {
+      "brazilian": "Oculto",
+      "bulgarian": "Секретно оръжие",
+      "czech": "Skrytá",
+      "danish": "Tilsløret",
+      "dutch": "Clandestien",
+      "english": "Covert",
+      "finnish": "Salainen",
+      "french": "Secrète",
+      "german": "Verdeckt",
+      "greek": "Covert",
+      "hungarian": "Fedett",
+      "indonesian": "Tersembunyi",
+      "italian": "Segreto",
+      "japanese": "秘密",
+      "koreana": "극비",
+      "latam": "de aspecto encubierto",
+      "norwegian": "Hemmelig",
+      "polish": "klasy „tajne”",
+      "portuguese": "Secreto",
+      "romanian": "Clandestin(ă)",
+      "russian": "Тайное",
+      "schinese": "隐秘级",
+      "schinese_pw": "Covert",
+      "spanish": "de aspecto encubierto",
+      "swedish": "Konfidentiell",
+      "tchinese": "隱蔽",
+      "thai": "ลึกลับ",
+      "turkish": "Çok Gizli",
+      "ukrainian": "надсекретна зброя",
+      "vietnamese": "Mật vụ"
+    },
+    "name": "Covert",
+    "source": "rarity-ref",
+    "value": "6"
+  },
   "rarity_ref": "ancient",
   "search_slug": "pgl-rio-2022-cs-go-finalist",
   "tournament_event_id": 20

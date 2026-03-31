@@ -6,8 +6,10 @@
   "id": "520-43__stattrak__factory-new",
   "market_hash_name": "StatTrak™ Navaja Knife | Stained (Factory New)",
   "media": {
+    "coverage_status": "rendered",
     "image_png": "data/api/media/rendered/files/skins/520-43/light.png",
     "manifest_path": "data/api/media/rendered/manifests/skin-variants/520-43__stattrak__factory-new.json",
+    "media_scope": "skin-variant-rendered",
     "preview_status": "shared-skin-render",
     "preview_tier": "light",
     "source_skin_manifest_path": "data/api/media/rendered/manifests/skins/520-43.json"
@@ -15,16 +17,25 @@
   "name": "StatTrak™ Navaja Knife | Stained (Factory New)",
   "quality": "stattrak",
   "quality_name": "StatTrak",
+  "rarity": null,
   "search_slug": "stattrak-navaja-knife-stained-factory-new",
   "skin_id": "520-43",
   "skin_name": "Navaja Knife | Stained",
   "trading": {
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 520,
       "live_item_required_fields": [
         "asset_id",
-        "d_param"
+        "d_param",
+        "float_value",
+        "paint_seed",
+        "stickers",
+        "tradable"
       ],
       "paint_index": 43,
       "paint_seed_field": null,
@@ -61,6 +72,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

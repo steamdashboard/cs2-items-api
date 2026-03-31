@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-timed-drops-cool",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 28
+  },
   "description": "",
   "id": "set_timed_drops_cool",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_timed_drops_cool",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_timed_drops_cool.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -73,5 +80,19 @@
     "61-1217",
     "64-1276",
     "7-1218"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "equipment",
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

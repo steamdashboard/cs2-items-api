@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-blacksite",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 1
+  },
   "description": "",
   "id": "set_blacksite",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_blacksite",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_blacksite.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -46,5 +53,13 @@
   "search_slug": "the-blacksite-collection",
   "skin_ids": [
     "23-800"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "smg"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

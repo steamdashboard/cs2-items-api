@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__63",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_cz75a_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/63/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/63.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/cz75a/weapon_pist_cz75a.vmdl_c",
       "phase2/weapons/models/cz75a/weapon_pist_cz75a_ag2.vmdl_c"
@@ -98,6 +100,47 @@
   "search_slug": "cz75-auto",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 36,
+      "souvenir": 5,
+      "stattrak": 18
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "crimson-web",
+        "group": "finish-families",
+        "id": "crimson-web",
+        "name": "Crimson Web",
+        "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+        "search_slug": "crimson-web"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 36
+  },
   "supports_vanilla": false,
   "type_name": "Pistol",
   "weapon_group": "pistol"

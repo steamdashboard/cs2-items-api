@@ -1,7 +1,15 @@
 {
+  "availability": {
+    "normal": 1
+  },
   "canonical_slug": "emerald-web",
   "confidence": "medium",
   "description": "Glove family where web placement remains pattern-sensitive and clean symmetry can matter to collectors.",
+  "deterministic_inputs": [
+    "paint_index",
+    "paint_seed",
+    "float_value"
+  ],
   "example_skins": [
     {
       "canonical_slug": "5034-10034",
@@ -12,6 +20,20 @@
       "path": "data/api/consumer/cards/skins/5034-10034.json",
       "search_slug": "specialist-gloves-emerald-web"
     }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "5034-10034-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "5034-10034__normal__vanilla",
+      "name": "Specialist Gloves | Emerald Web",
+      "path": "data/api/consumer/cards/skin-variants/5034-10034__normal__vanilla.json",
+      "search_slug": "specialist-gloves-emerald-web"
+    }
+  ],
+  "exteriors": [
+    "vanilla"
   ],
   "finish_count": 1,
   "finishes": [
@@ -24,6 +46,7 @@
       "search_slug": "emerald-web"
     }
   ],
+  "float_relevance": "high",
   "id": "emerald-web",
   "knowledge_source": "community-trading-taxonomy",
   "list_paths": {
@@ -43,8 +66,40 @@
       "search_slug": "web-placement"
     }
   ],
+  "qualities": [
+    "normal"
+  ],
+  "resolution_level": "paint-seed-and-float",
   "search_slug": "emerald-web",
+  "seed_domain": {
+    "cardinality": 1000,
+    "deterministic": true,
+    "field": "paint_seed",
+    "maximum": 999,
+    "minimum": 0
+  },
   "skin_count": 1,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-15",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4288",
+      "name": "Glove Case",
+      "path": "data/api/consumer/cards/cases/4288.json",
+      "search_slug": "glove-case"
+    },
+    {
+      "canonical_slug": "crate-community-17",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4352",
+      "name": "Operation Hydra Case",
+      "path": "data/api/consumer/cards/cases/4352.json",
+      "search_slug": "operation-hydra-case"
+    }
+  ],
+  "source_collections": [],
   "supports": {
     "blue_gem_overlay": false,
     "fade_overlay": false,

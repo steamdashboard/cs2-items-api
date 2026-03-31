@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__61-1040",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/61-1040/light.png",
       "data/api/media/rendered/files/skins/61-1040/medium.png",
       "data/api/media/rendered/files/skins/61-1040/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/61-1040.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/61-1040/heavy.png",
@@ -149,6 +151,45 @@
     }
   },
   "name": "USP-S | The Traitor",
+  "rarity": {
+    "color_ref": "desc_ancient",
+    "id": "ancient",
+    "localized_names": {
+      "brazilian": "Oculto",
+      "bulgarian": "Секретно оръжие",
+      "czech": "Skrytá",
+      "danish": "Tilsløret",
+      "dutch": "Clandestien",
+      "english": "Covert",
+      "finnish": "Salainen",
+      "french": "Secrète",
+      "german": "Verdeckt",
+      "greek": "Covert",
+      "hungarian": "Fedett",
+      "indonesian": "Tersembunyi",
+      "italian": "Segreto",
+      "japanese": "秘密",
+      "koreana": "극비",
+      "latam": "de aspecto encubierto",
+      "norwegian": "Hemmelig",
+      "polish": "klasy „tajne”",
+      "portuguese": "Secreto",
+      "romanian": "Clandestin(ă)",
+      "russian": "Тайное",
+      "schinese": "隐秘级",
+      "schinese_pw": "Covert",
+      "spanish": "de aspecto encubierto",
+      "swedish": "Konfidentiell",
+      "tchinese": "隱蔽",
+      "thai": "ลึกลับ",
+      "turkish": "Çok Gizli",
+      "ukrainian": "надсекретна зброя",
+      "vietnamese": "Mật vụ"
+    },
+    "name": "Covert",
+    "source": "container-tier",
+    "value": "6"
+  },
   "search_slug": "usp-s-the-traitor",
   "sources": {
     "capsules": [],
@@ -177,7 +218,11 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 1.0,
       "min_float": 0.0
@@ -222,6 +267,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

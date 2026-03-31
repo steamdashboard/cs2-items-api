@@ -127,6 +127,7 @@
   },
   "media": {
     "asset_id": "weapon__521",
+    "coverage_status": "fallback-only",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.vtex_c"
     ],
@@ -134,6 +135,7 @@
       "data/api/media/rendered/files/weapons/521/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/521.json",
+    "media_scope": "weapon-base-fallback",
     "models": [
       "weapons/models/knife/knife_outdoor/weapon_knife_outdoor.vmdl_c",
       "phase2/weapons/models/knife/knife_outdoor/weapon_knife_outdoor_ag2.vmdl_c"
@@ -146,6 +148,7 @@
     "source_texture_paths": {}
   },
   "name": "Nomad Knife | Damascus Steel",
+  "rarity": null,
   "search_slug": "nomad-knife-damascus-steel",
   "sources": {
     "capsules": [],
@@ -176,7 +179,11 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 0.5,
       "min_float": 0.0
@@ -221,6 +228,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

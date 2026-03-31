@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__38",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_scar20_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/38/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/38.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/scar20/weapon_snip_scar20.vmdl_c",
       "phase2/weapons/models/scar20/weapon_snip_scar20_ag2.vmdl_c"
@@ -93,6 +95,47 @@
   "search_slug": "scar-20",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 31,
+      "souvenir": 3,
+      "stattrak": 16
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "crimson-web",
+        "group": "finish-families",
+        "id": "crimson-web",
+        "name": "Crimson Web",
+        "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+        "search_slug": "crimson-web"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 31
+  },
   "supports_vanilla": false,
   "type_name": "Sniper Rifle",
   "weapon_group": "sniper-rifle"

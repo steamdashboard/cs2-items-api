@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__525-43",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/525-43/light.png",
       "data/api/media/rendered/files/skins/525-43/medium.png",
       "data/api/media/rendered/files/skins/525-43/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/525-43.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/525-43/heavy.png",
@@ -149,6 +151,7 @@
     }
   },
   "name": "Skeleton Knife | Stained",
+  "rarity": null,
   "search_slug": "skeleton-knife-stained",
   "sources": {
     "capsules": [],
@@ -187,7 +190,11 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 1.0,
       "min_float": 0.0
@@ -232,6 +239,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

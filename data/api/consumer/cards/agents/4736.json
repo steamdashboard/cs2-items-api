@@ -12,6 +12,7 @@
   },
   "media": {
     "asset_id": "agent__4736",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/characters/customplayer_tm_professional_varf4_png.vtex_c",
       "panorama/images/econ/characters/customplayer_tm_professional_varf4_square_png.vtex_c"
@@ -20,6 +21,7 @@
       "data/api/media/rendered/files/agents/4736/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/agents/4736.json",
+    "media_scope": "rendered-entity",
     "models": [
       "characters/models/tm_professional/tm_professional_varf4.vmdl_c",
       "phase2/characters/models/tm_phoenix/tm_phoenix_ag2.vmdl_c",
@@ -30,6 +32,45 @@
     "source_texture_path": "panorama/images/econ/characters/customplayer_tm_professional_varf4_png.vtex_c"
   },
   "name": "Professional",
+  "rarity": {
+    "color_ref": "desc_ancient",
+    "id": "ancient",
+    "localized_names": {
+      "brazilian": "Oculto",
+      "bulgarian": "Секретно оръжие",
+      "czech": "Skrytá",
+      "danish": "Tilsløret",
+      "dutch": "Clandestien",
+      "english": "Covert",
+      "finnish": "Salainen",
+      "french": "Secrète",
+      "german": "Verdeckt",
+      "greek": "Covert",
+      "hungarian": "Fedett",
+      "indonesian": "Tersembunyi",
+      "italian": "Segreto",
+      "japanese": "秘密",
+      "koreana": "극비",
+      "latam": "de aspecto encubierto",
+      "norwegian": "Hemmelig",
+      "polish": "klasy „tajne”",
+      "portuguese": "Secreto",
+      "romanian": "Clandestin(ă)",
+      "russian": "Тайное",
+      "schinese": "隐秘级",
+      "schinese_pw": "Covert",
+      "spanish": "de aspecto encubierto",
+      "swedish": "Konfidentiell",
+      "tchinese": "隱蔽",
+      "thai": "ลึกลับ",
+      "turkish": "Çok Gizli",
+      "ukrainian": "надсекретна зброя",
+      "vietnamese": "Mật vụ"
+    },
+    "name": "Covert",
+    "source": "rarity-ref",
+    "value": "6"
+  },
   "rarity_ref": "ancient",
   "search_slug": "professional",
   "side": "terrorists"

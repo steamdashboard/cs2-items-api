@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__39-487",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/39-487/light.png",
       "data/api/media/rendered/files/skins/39-487/medium.png",
       "data/api/media/rendered/files/skins/39-487/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/39-487.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/39-487/heavy.png",
@@ -149,6 +151,45 @@
     }
   },
   "name": "SG 553 | Cyrex",
+  "rarity": {
+    "color_ref": "desc_legendary",
+    "id": "legendary",
+    "localized_names": {
+      "brazilian": "Secreto",
+      "bulgarian": "Класифицирано оръжие",
+      "czech": "Tajná",
+      "danish": "Klassificeret",
+      "dutch": "Geheim",
+      "english": "Classified",
+      "finnish": "Luottamuksellinen",
+      "french": "Classifiée",
+      "german": "Vertraulich",
+      "greek": "Classified",
+      "hungarian": "Bizalmas",
+      "indonesian": "Rahasia",
+      "italian": "Confidenziale",
+      "japanese": "機密",
+      "koreana": "기밀",
+      "latam": "de tipo clasificado",
+      "norwegian": "Klassifisert",
+      "polish": "klasy „poufne”",
+      "portuguese": "Confidencial",
+      "romanian": "Secret(ă)",
+      "russian": "Засекреченное",
+      "schinese": "保密级",
+      "schinese_pw": "Classified",
+      "spanish": "de tipo clasificado",
+      "swedish": "Sekretessbelagd",
+      "tchinese": "機密",
+      "thai": "ลับเฉพาะ",
+      "turkish": "Gizli",
+      "ukrainian": "секретна зброя",
+      "vietnamese": "Hạng tuyệt mật"
+    },
+    "name": "Classified",
+    "source": "container-tier",
+    "value": "5"
+  },
   "search_slug": "sg-553-cyrex",
   "sources": {
     "capsules": [],
@@ -177,7 +218,11 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 1.0,
       "min_float": 0.0
@@ -222,6 +267,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

@@ -91,12 +91,14 @@
   },
   "media": {
     "asset_id": "skin__500-98",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/500-98/light.png",
       "data/api/media/rendered/files/skins/500-98/medium.png",
       "data/api/media/rendered/files/skins/500-98/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/500-98.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/500-98/heavy.png",
@@ -113,6 +115,7 @@
     }
   },
   "name": "Bayonet | Ultraviolet",
+  "rarity": null,
   "search_slug": "bayonet-ultraviolet",
   "sources": {
     "capsules": [],
@@ -256,7 +259,11 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -293,6 +300,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

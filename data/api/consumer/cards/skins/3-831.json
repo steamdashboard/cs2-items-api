@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__3-831",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/3-831/light.png",
       "data/api/media/rendered/files/skins/3-831/medium.png",
       "data/api/media/rendered/files/skins/3-831/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/3-831.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/3-831/heavy.png",
@@ -149,6 +151,7 @@
     }
   },
   "name": "Five-SeveN | Heat Treated",
+  "rarity": null,
   "search_slug": "five-seven-heat-treated",
   "sources": {
     "capsules": [],
@@ -167,6 +170,10 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed"
+    ],
     "finish_family": {
       "canonical_slug": "heat-treated",
       "group": "finish-families",
@@ -175,6 +182,7 @@
       "path": "data/api/consumer/overlays/finish-families/heat-treated.json",
       "search_slug": "heat-treated"
     },
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 1.0,
       "min_float": 0.0
@@ -223,6 +231,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "high",
     "phase": null,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": true,
       "fade_overlay": false,

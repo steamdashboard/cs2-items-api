@@ -106,6 +106,7 @@
   },
   "media": {
     "asset_id": "weapon__523",
+    "coverage_status": "fallback-only",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.vtex_c"
     ],
@@ -113,6 +114,7 @@
       "data/api/media/rendered/files/weapons/523/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/523.json",
+    "media_scope": "weapon-base-fallback",
     "models": [
       "weapons/models/knife/knife_talon/weapon_knife_talon.vmdl_c",
       "phase2/weapons/models/knife/knife_talon/weapon_knife_talon_ag2.vmdl_c"
@@ -125,6 +127,7 @@
     "source_texture_paths": {}
   },
   "name": "Talon Knife | Doppler",
+  "rarity": null,
   "search_slug": "talon-knife-doppler",
   "sources": {
     "capsules": [],
@@ -163,6 +166,9 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": {
       "canonical_slug": "doppler",
       "group": "finish-families",
@@ -171,6 +177,7 @@
       "path": "data/api/consumer/overlays/finish-families/doppler.json",
       "search_slug": "doppler"
     },
+    "float_relevance": "low",
     "float_window": {
       "max_float": 0.08,
       "min_float": 0.0
@@ -179,7 +186,7 @@
       "def_index": 523,
       "live_item_required": true,
       "paint_index": 420,
-      "paint_seed_field": "paint_seed"
+      "paint_seed_field": null
     },
     "market_constraints": [
       {
@@ -195,7 +202,7 @@
       "csfloat": {
         "def_index": 523,
         "paint_index": 420,
-        "supports_paint_seed_filter": true
+        "supports_paint_seed_filter": false
       },
       "skin_name": "Talon Knife | Doppler",
       "variant_ids": [
@@ -225,6 +232,9 @@
       "path": "data/api/consumer/overlays/phases/420.json",
       "search_slug": "doppler-phase-3"
     },
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

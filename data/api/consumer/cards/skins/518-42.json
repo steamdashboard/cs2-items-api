@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__518-42",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/518-42/light.png",
       "data/api/media/rendered/files/skins/518-42/medium.png",
       "data/api/media/rendered/files/skins/518-42/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/518-42.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/518-42/heavy.png",
@@ -149,6 +151,7 @@
     }
   },
   "name": "Survival Knife | Blue Steel",
+  "rarity": null,
   "search_slug": "survival-knife-blue-steel",
   "sources": {
     "capsules": [],
@@ -187,7 +190,11 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 1.0,
       "min_float": 0.0
@@ -232,6 +239,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

@@ -1,5 +1,8 @@
 {
   "canonical_slug": "am-emerald-marbleized-glock-emerald",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
   "example_skins": [
     {
       "canonical_slug": "4-1119",
@@ -10,6 +13,60 @@
       "path": "data/api/consumer/cards/skins/4-1119.json",
       "search_slug": "glock-18-gamma-doppler"
     }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "4-1119-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "4-1119__normal__battle-scarred",
+      "name": "Glock-18 | Gamma Doppler (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/4-1119__normal__battle-scarred.json",
+      "search_slug": "glock-18-gamma-doppler-battle-scarred"
+    },
+    {
+      "canonical_slug": "4-1119-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "4-1119__normal__factory-new",
+      "name": "Glock-18 | Gamma Doppler (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/4-1119__normal__factory-new.json",
+      "search_slug": "glock-18-gamma-doppler-factory-new"
+    },
+    {
+      "canonical_slug": "4-1119-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "4-1119__normal__field-tested",
+      "name": "Glock-18 | Gamma Doppler (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/4-1119__normal__field-tested.json",
+      "search_slug": "glock-18-gamma-doppler-field-tested"
+    },
+    {
+      "canonical_slug": "4-1119-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "4-1119__normal__minimal-wear",
+      "name": "Glock-18 | Gamma Doppler (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/4-1119__normal__minimal-wear.json",
+      "search_slug": "glock-18-gamma-doppler-minimal-wear"
+    },
+    {
+      "canonical_slug": "4-1119-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "4-1119__normal__well-worn",
+      "name": "Glock-18 | Gamma Doppler (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/4-1119__normal__well-worn.json",
+      "search_slug": "glock-18-gamma-doppler-well-worn"
+    }
+  ],
+  "exteriors": [
+    "battle-scarred",
+    "factory-new",
+    "field-tested",
+    "minimal-wear",
+    "well-worn"
   ],
   "finish": {
     "canonical_slug": "am-emerald-marbleized-glock",
@@ -27,6 +84,7 @@
     "path": "data/api/consumer/overlays/finish-families/gamma-doppler.json",
     "search_slug": "gamma-doppler"
   },
+  "float_relevance": "low",
   "id": "1119",
   "list_paths": {
     "items": "data/api/consumer/lists/by-finish/1119.json"
@@ -47,7 +105,24 @@
   "phase_group": "gamma-doppler",
   "phase_kind": "gem",
   "phase_name": "Emerald",
+  "qualities": [
+    "normal"
+  ],
+  "resolution_level": "finish",
   "search_slug": "gamma-doppler-emerald",
+  "seed_domain": null,
   "skin_count": 1,
+  "source_cases": [],
+  "source_collections": [
+    {
+      "canonical_slug": "set-train-2021",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_train_2021",
+      "name": "The 2021 Train Collection",
+      "path": "data/api/consumer/cards/collections/set_train_2021.json",
+      "search_slug": "the-2021-train-collection"
+    }
+  ],
   "variant_count": 5
 }

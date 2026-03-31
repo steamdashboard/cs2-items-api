@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__500-44",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/500-44/light.png",
       "data/api/media/rendered/files/skins/500-44/medium.png",
       "data/api/media/rendered/files/skins/500-44/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/500-44.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/500-44/heavy.png",
@@ -149,6 +151,7 @@
     }
   },
   "name": "Bayonet | Case Hardened",
+  "rarity": null,
   "search_slug": "bayonet-case-hardened",
   "sources": {
     "capsules": [],
@@ -259,6 +262,10 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed"
+    ],
     "finish_family": {
       "canonical_slug": "case-hardened",
       "group": "finish-families",
@@ -267,6 +274,7 @@
       "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
       "search_slug": "case-hardened"
     },
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 1.0,
       "min_float": 0.0
@@ -320,6 +328,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "high",
     "phase": null,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": true,
       "fade_overlay": false,

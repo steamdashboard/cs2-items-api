@@ -1,6 +1,317 @@
 {
   "canonical_slug": "set-community-10",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [
+      {
+        "items": [
+          {
+            "canonical_slug": "16-512",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "16-512",
+            "name": "M4A4 | Royal Paladin",
+            "path": "data/api/consumer/cards/skins/16-512.json",
+            "search_slug": "m4a4-royal-paladin"
+          },
+          {
+            "canonical_slug": "64-522",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "64-522",
+            "name": "R8 Revolver | Fade",
+            "path": "data/api/consumer/cards/skins/64-522.json",
+            "search_slug": "r8-revolver-fade"
+          }
+        ],
+        "label": "Covert",
+        "localized_labels": {
+          "brazilian": "Oculto",
+          "bulgarian": "Секретно оръжие",
+          "czech": "Skrytá",
+          "danish": "Tilsløret",
+          "dutch": "Clandestien",
+          "english": "Covert",
+          "finnish": "Salainen",
+          "french": "Secrète",
+          "german": "Verdeckt",
+          "greek": "Covert",
+          "hungarian": "Fedett",
+          "indonesian": "Tersembunyi",
+          "italian": "Segreto",
+          "japanese": "秘密",
+          "koreana": "극비",
+          "latam": "de aspecto encubierto",
+          "norwegian": "Hemmelig",
+          "polish": "klasy „tajne”",
+          "portuguese": "Secreto",
+          "romanian": "Clandestin(ă)",
+          "russian": "Тайное",
+          "schinese": "隐秘级",
+          "schinese_pw": "Covert",
+          "spanish": "de aspecto encubierto",
+          "swedish": "Konfidentiell",
+          "tchinese": "隱蔽",
+          "thai": "ลึกลับ",
+          "turkish": "Çok Gizli",
+          "ukrainian": "надсекретна зброя",
+          "vietnamese": "Mật vụ"
+        },
+        "tier": "ancient"
+      },
+      {
+        "items": [
+          {
+            "canonical_slug": "7-506",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "7-506",
+            "name": "AK-47 | Point Disarray",
+            "path": "data/api/consumer/cards/skins/7-506.json",
+            "search_slug": "ak-47-point-disarray"
+          },
+          {
+            "canonical_slug": "11-511",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "11-511",
+            "name": "G3SG1 | The Executioner",
+            "path": "data/api/consumer/cards/skins/11-511.json",
+            "search_slug": "g3sg1-the-executioner"
+          },
+          {
+            "canonical_slug": "19-516",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "19-516",
+            "name": "P90 | Shapewood",
+            "path": "data/api/consumer/cards/skins/19-516.json",
+            "search_slug": "p90-shapewood"
+          }
+        ],
+        "label": "Classified",
+        "localized_labels": {
+          "brazilian": "Secreto",
+          "bulgarian": "Класифицирано оръжие",
+          "czech": "Tajná",
+          "danish": "Klassificeret",
+          "dutch": "Geheim",
+          "english": "Classified",
+          "finnish": "Luottamuksellinen",
+          "french": "Classifiée",
+          "german": "Vertraulich",
+          "greek": "Classified",
+          "hungarian": "Bizalmas",
+          "indonesian": "Rahasia",
+          "italian": "Confidenziale",
+          "japanese": "機密",
+          "koreana": "기밀",
+          "latam": "de tipo clasificado",
+          "norwegian": "Klassifisert",
+          "polish": "klasy „poufne”",
+          "portuguese": "Confidencial",
+          "romanian": "Secret(ă)",
+          "russian": "Засекреченное",
+          "schinese": "保密级",
+          "schinese_pw": "Classified",
+          "spanish": "de tipo clasificado",
+          "swedish": "Sekretessbelagd",
+          "tchinese": "機密",
+          "thai": "ลับเฉพาะ",
+          "turkish": "Gizli",
+          "ukrainian": "секретна зброя",
+          "vietnamese": "Hạng tuyệt mật"
+        },
+        "tier": "legendary"
+      },
+      {
+        "items": [
+          {
+            "canonical_slug": "3-510",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "3-510",
+            "name": "Five-SeveN | Retrobution",
+            "path": "data/api/consumer/cards/skins/3-510.json",
+            "search_slug": "five-seven-retrobution"
+          },
+          {
+            "canonical_slug": "28-514",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "28-514",
+            "name": "Negev | Power Loader",
+            "path": "data/api/consumer/cards/skins/28-514.json",
+            "search_slug": "negev-power-loader"
+          },
+          {
+            "canonical_slug": "26-508",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "26-508",
+            "name": "PP-Bizon | Fuel Rod",
+            "path": "data/api/consumer/cards/skins/26-508.json",
+            "search_slug": "pp-bizon-fuel-rod"
+          },
+          {
+            "canonical_slug": "39-519",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "39-519",
+            "name": "SG 553 | Tiger Moth",
+            "path": "data/api/consumer/cards/skins/39-519.json",
+            "search_slug": "sg-553-tiger-moth"
+          },
+          {
+            "canonical_slug": "30-520",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "30-520",
+            "name": "Tec-9 | Avalanche",
+            "path": "data/api/consumer/cards/skins/30-520.json",
+            "search_slug": "tec-9-avalanche"
+          },
+          {
+            "canonical_slug": "25-521",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "25-521",
+            "name": "XM1014 | Teclu Burner",
+            "path": "data/api/consumer/cards/skins/25-521.json",
+            "search_slug": "xm1014-teclu-burner"
+          }
+        ],
+        "label": "Restricted",
+        "localized_labels": {
+          "brazilian": "Restrito",
+          "bulgarian": "Ограничено оръжие",
+          "czech": "Zakázaná",
+          "danish": "Begrænset",
+          "dutch": "Verboden",
+          "english": "Restricted",
+          "finnish": "Rajoitettu",
+          "french": "Limitée",
+          "german": "Limitiert",
+          "greek": "Restricted",
+          "hungarian": "Korlátozott",
+          "indonesian": "Terbatas",
+          "italian": "Riservato",
+          "japanese": "部外秘",
+          "koreana": "제한",
+          "latam": "de tipo restringido",
+          "norwegian": "Begrenset",
+          "polish": "spoza obiegu",
+          "portuguese": "Restrito",
+          "romanian": "Restricționat(ă)",
+          "russian": "Запрещённое",
+          "schinese": "受限级",
+          "schinese_pw": "Restricted",
+          "spanish": "de tipo restringido",
+          "swedish": "Begränsad",
+          "tchinese": "受管制",
+          "thai": "หวงห้าม",
+          "turkish": "Sınırlı",
+          "ukrainian": "зброя спецслужб",
+          "vietnamese": "Hàng hạn chế"
+        },
+        "tier": "mythical"
+      },
+      {
+        "items": [
+          {
+            "canonical_slug": "8-507",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "8-507",
+            "name": "AUG | Ricochet",
+            "path": "data/api/consumer/cards/skins/8-507.json",
+            "search_slug": "aug-ricochet"
+          },
+          {
+            "canonical_slug": "1-509",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "1-509",
+            "name": "Desert Eagle | Corinthian",
+            "path": "data/api/consumer/cards/skins/1-509.json",
+            "search_slug": "desert-eagle-corinthian"
+          },
+          {
+            "canonical_slug": "32-515",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "32-515",
+            "name": "P2000 | Imperial",
+            "path": "data/api/consumer/cards/skins/32-515.json",
+            "search_slug": "p2000-imperial"
+          },
+          {
+            "canonical_slug": "64-12",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "64-12",
+            "name": "R8 Revolver | Crimson Web",
+            "path": "data/api/consumer/cards/skins/64-12.json",
+            "search_slug": "r8-revolver-crimson-web"
+          },
+          {
+            "canonical_slug": "38-518",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "38-518",
+            "name": "SCAR-20 | Outbreak",
+            "path": "data/api/consumer/cards/skins/38-518.json",
+            "search_slug": "scar-20-outbreak"
+          },
+          {
+            "canonical_slug": "29-517",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "29-517",
+            "name": "Sawed-Off | Yorick",
+            "path": "data/api/consumer/cards/skins/29-517.json",
+            "search_slug": "sawed-off-yorick"
+          }
+        ],
+        "label": "Mil-Spec Grade",
+        "localized_labels": {
+          "brazilian": "Nível Militar",
+          "bulgarian": "Стандартен военен клас",
+          "czech": "Armádní",
+          "danish": "Mil-spec-kvalitet",
+          "dutch": "Militair",
+          "english": "Mil-Spec Grade",
+          "finnish": "Armeijatason",
+          "french": "Militaire",
+          "german": "Militärstandard",
+          "greek": "Mil-Spec Grade",
+          "hungarian": "Katonai fokozatú",
+          "indonesian": "Kelas Militer",
+          "italian": "Militare",
+          "japanese": "MIL規格",
+          "koreana": "군용",
+          "latam": "de grado militar",
+          "norwegian": "Militær standard",
+          "polish": "wojskowej jakości",
+          "portuguese": "Padrão Militar",
+          "romanian": "Calitate militară",
+          "russian": "Армейское качество",
+          "schinese": "军规级",
+          "schinese_pw": "Mil-Spec Grade",
+          "spanish": "de grado militar",
+          "swedish": "Militärklass",
+          "tchinese": "軍規級",
+          "thai": "เกรดมาตรฐานทางทหาร",
+          "turkish": "Askeri Sınıf",
+          "ukrainian": "армійського ґатунку",
+          "vietnamese": "Hạng Mil-Spec"
+        },
+        "tier": "rare"
+      }
+    ],
+    "known_rarity_skin_count": 17,
+    "skin_count": 17
+  },
   "description": "",
   "id": "set_community_10",
   "localized_names": {
@@ -37,8 +348,10 @@
   },
   "media": {
     "asset_id": "collection__set_community_10",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_community_10.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -62,5 +375,52 @@
     "64-522",
     "7-506",
     "8-507"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "machinegun",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "crimson-web",
+        "group": "finish-families",
+        "id": "crimson-web",
+        "name": "Crimson Web",
+        "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+        "search_slug": "crimson-web"
+      },
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      },
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "rare_special_item_count": 0
+  }
 }

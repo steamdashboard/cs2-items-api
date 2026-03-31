@@ -41,11 +41,13 @@
   },
   "media": {
     "asset_id": "weapon__5032",
+    "coverage_status": "rendered",
     "images": [],
     "images_png": [
       "data/api/media/rendered/files/weapons/5032/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/5032.json",
+    "media_scope": "rendered-entity",
     "models": [
       "characters/models/shared/arms/glove_handwrap/v_glove_handwrap.vmdl_c",
       "characters/models/shared/arms/glove_handwrap/w_glove_handwrap.vmdl_c"
@@ -76,6 +78,38 @@
     "set_community_19_unusual",
     "set_glove_3_unusual"
   ],
+  "summary": {
+    "availability": {
+      "normal": 12
+    },
+    "exteriors": [
+      "vanilla"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "slaughter",
+        "group": "finish-families",
+        "id": "slaughter",
+        "name": "Slaughter",
+        "path": "data/api/consumer/overlays/finish-families/slaughter.json",
+        "search_slug": "slaughter"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "slaughter-motif",
+        "group": "rare-patterns",
+        "id": "slaughter-motif",
+        "name": "Slaughter Motif",
+        "path": "data/api/consumer/overlays/rare-patterns/slaughter-motif.json",
+        "search_slug": "slaughter-motif"
+      }
+    ],
+    "qualities": [
+      "normal"
+    ],
+    "skin_count": 12
+  },
   "supports_vanilla": false,
   "type_name": "Gloves",
   "weapon_group": "glove"

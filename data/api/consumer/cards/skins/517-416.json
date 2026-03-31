@@ -106,12 +106,14 @@
   },
   "media": {
     "asset_id": "skin__517-416",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/517-416/light.png",
       "data/api/media/rendered/files/skins/517-416/medium.png",
       "data/api/media/rendered/files/skins/517-416/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/517-416.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/517-416/heavy.png",
@@ -128,6 +130,7 @@
     }
   },
   "name": "Paracord Knife | Doppler",
+  "rarity": null,
   "search_slug": "paracord-knife-doppler",
   "sources": {
     "capsules": [],
@@ -158,6 +161,9 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": {
       "canonical_slug": "doppler",
       "group": "finish-families",
@@ -166,6 +172,7 @@
       "path": "data/api/consumer/overlays/finish-families/doppler.json",
       "search_slug": "doppler"
     },
+    "float_relevance": "low",
     "float_window": {
       "max_float": 0.08,
       "min_float": 0.0
@@ -174,7 +181,7 @@
       "def_index": 517,
       "live_item_required": true,
       "paint_index": 416,
-      "paint_seed_field": "paint_seed"
+      "paint_seed_field": null
     },
     "market_constraints": [
       {
@@ -190,7 +197,7 @@
       "csfloat": {
         "def_index": 517,
         "paint_index": 416,
-        "supports_paint_seed_filter": true
+        "supports_paint_seed_filter": false
       },
       "skin_name": "Paracord Knife | Doppler",
       "variant_ids": [
@@ -220,6 +227,9 @@
       "path": "data/api/consumer/overlays/phases/416.json",
       "search_slug": "doppler-sapphire"
     },
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

@@ -1,6 +1,11 @@
 {
   "canonical_slug": "am-doppler-phase2-b-phase-2",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
   "example_skins": [],
+  "example_variants": [],
+  "exteriors": [],
   "finish": {
     "canonical_slug": "am-doppler-phase2-b",
     "group": "finishes",
@@ -17,6 +22,7 @@
     "path": "data/api/consumer/overlays/finish-families/doppler.json",
     "search_slug": "doppler"
   },
+  "float_relevance": "low",
   "id": "618",
   "list_paths": {
     "items": "data/api/consumer/lists/by-finish/618.json"
@@ -37,7 +43,12 @@
   "phase_group": "doppler",
   "phase_kind": "numbered",
   "phase_name": "Phase 2",
+  "qualities": [],
+  "resolution_level": "finish",
   "search_slug": "doppler-phase-2",
+  "seed_domain": null,
   "skin_count": 0,
+  "source_cases": [],
+  "source_collections": [],
   "variant_count": 0
 }

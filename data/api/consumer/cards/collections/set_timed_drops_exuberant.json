@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-timed-drops-exuberant",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 19
+  },
   "description": "",
   "id": "set_timed_drops_exuberant",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_timed_drops_exuberant",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_timed_drops_exuberant.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -64,5 +71,18 @@
     "63-1390",
     "64-1389",
     "9-1378"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "equipment",
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

@@ -62,12 +62,14 @@
   },
   "media": {
     "asset_id": "skin__5030-1407",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/5030-1407/light.png",
       "data/api/media/rendered/files/skins/5030-1407/medium.png",
       "data/api/media/rendered/files/skins/5030-1407/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/5030-1407.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/5030-1407/heavy.png",
@@ -84,6 +86,7 @@
     }
   },
   "name": "Sport Gloves | Flames Orange",
+  "rarity": null,
   "search_slug": "sport-gloves-flames-orange",
   "sources": {
     "capsules": [],
@@ -114,7 +117,11 @@
   },
   "trading": {
     "consumer_type": "glove",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -150,6 +157,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

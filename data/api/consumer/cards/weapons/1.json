@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__1",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_deagle_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/1/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/1.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/deagle/weapon_pist_deagle.vmdl_c",
       "phase2/weapons/models/deagle/weapon_pist_deagle_ag2.vmdl_c"
@@ -106,6 +108,63 @@
   "search_slug": "desert-eagle",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 44,
+      "souvenir": 4,
+      "stattrak": 21
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "crimson-web",
+        "group": "finish-families",
+        "id": "crimson-web",
+        "name": "Crimson Web",
+        "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
+        "search_slug": "crimson-web"
+      },
+      {
+        "canonical_slug": "heat-treated",
+        "group": "finish-families",
+        "id": "heat-treated",
+        "name": "Heat Treated",
+        "path": "data/api/consumer/overlays/finish-families/heat-treated.json",
+        "search_slug": "heat-treated"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      },
+      {
+        "canonical_slug": "web-placement",
+        "group": "rare-patterns",
+        "id": "web-placement",
+        "name": "Web Placement",
+        "path": "data/api/consumer/overlays/rare-patterns/web-placement.json",
+        "search_slug": "web-placement"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 44
+  },
   "supports_vanilla": false,
   "type_name": "Pistol",
   "weapon_group": "pistol"

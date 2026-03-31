@@ -106,6 +106,7 @@
   },
   "media": {
     "asset_id": "weapon__523",
+    "coverage_status": "fallback-only",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.vtex_c"
     ],
@@ -113,6 +114,7 @@
       "data/api/media/rendered/files/weapons/523/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/523.json",
+    "media_scope": "weapon-base-fallback",
     "models": [
       "weapons/models/knife/knife_talon/weapon_knife_talon.vmdl_c",
       "phase2/weapons/models/knife/knife_talon/weapon_knife_talon_ag2.vmdl_c"
@@ -125,6 +127,7 @@
     "source_texture_paths": {}
   },
   "name": "Talon Knife | Marble Fade",
+  "rarity": null,
   "search_slug": "talon-knife-marble-fade",
   "sources": {
     "capsules": [],
@@ -163,6 +166,10 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed"
+    ],
     "finish_family": {
       "canonical_slug": "marble-fade",
       "group": "finish-families",
@@ -171,6 +178,7 @@
       "path": "data/api/consumer/overlays/finish-families/marble-fade.json",
       "search_slug": "marble-fade"
     },
+    "float_relevance": "low",
     "float_window": {
       "max_float": 0.08,
       "min_float": 0.0
@@ -218,6 +226,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "high",
     "phase": null,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

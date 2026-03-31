@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__61",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_usp_silencer_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/61/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/61.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/usp_silencer/weapon_pist_usp_silencer.vmdl_c",
       "phase2/weapons/models/usp_silencer/weapon_pist_usp_silencer_ag2.vmdl_c"
@@ -106,6 +108,29 @@
   "search_slug": "usp-s",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 44,
+      "souvenir": 7,
+      "stattrak": 23
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 44
+  },
   "supports_vanilla": false,
   "type_name": "Pistol",
   "weapon_group": "pistol"

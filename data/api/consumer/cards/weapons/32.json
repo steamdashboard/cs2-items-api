@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__32",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_hkp2000_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/32/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/32.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/hkp2000/weapon_pist_hkp2000.vmdl_c",
       "phase2/weapons/models/hkp2000/weapon_pist_hkp2000_ag2.vmdl_c"
@@ -98,6 +100,29 @@
   "search_slug": "p2000",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 36,
+      "souvenir": 4,
+      "stattrak": 19
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 36
+  },
   "supports_vanilla": false,
   "type_name": "Pistol",
   "weapon_group": "pistol"

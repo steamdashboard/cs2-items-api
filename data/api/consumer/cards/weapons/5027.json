@@ -41,11 +41,13 @@
   },
   "media": {
     "asset_id": "weapon__5027",
+    "coverage_status": "rendered",
     "images": [],
     "images_png": [
       "data/api/media/rendered/files/weapons/5027/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/5027.json",
+    "media_scope": "rendered-entity",
     "models": [
       "characters/models/shared/arms/glove_bloodhound/v_glove_bloodhound.vmdl_c",
       "characters/models/shared/arms/glove_bloodhound/w_glove_bloodhound.vmdl_c"
@@ -67,6 +69,20 @@
     "community_case_15_unusual",
     "set_community_19_unusual"
   ],
+  "summary": {
+    "availability": {
+      "normal": 4
+    },
+    "exteriors": [
+      "vanilla"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal"
+    ],
+    "skin_count": 4
+  },
   "supports_vanilla": false,
   "type_name": "Gloves",
   "weapon_group": "glove"

@@ -42,8 +42,10 @@
   },
   "media": {
     "asset_id": "equipment__50",
+    "coverage_status": "fallback-only",
     "images": [],
     "manifest_path": "data/api/media/manifests/equipment__50.json",
+    "media_scope": "asset-manifest-fallback",
     "models": [
       "models/weapons/w_eq_armor.vmdl_c"
     ],
@@ -52,6 +54,45 @@
     "source_texture_path": null
   },
   "name": "Kevlar Vest",
+  "rarity": {
+    "color_ref": "desc_common",
+    "id": "common",
+    "localized_names": {
+      "brazilian": "Nível Consumidor",
+      "bulgarian": "Потребителски клас",
+      "czech": "Neotestovaná",
+      "danish": "Forbrugerkvalitet",
+      "dutch": "Consumenten",
+      "english": "Consumer Grade",
+      "finnish": "Kuluttajatason",
+      "french": "Artisanale",
+      "german": "Verbraucherklasse",
+      "greek": "Consumer Grade",
+      "hungarian": "Fogyasztói fokozatú",
+      "indonesian": "Kelas Konsumen",
+      "italian": "Amatoriale",
+      "japanese": "コンシューマーグレード",
+      "koreana": "기본",
+      "latam": "de grado de consumidor",
+      "norwegian": "Forbrukerklasse",
+      "polish": "konsumenckiej jakości",
+      "portuguese": "Padrão Doméstico",
+      "romanian": "Calitate obișnuită",
+      "russian": "Ширпотреб",
+      "schinese": "消费级",
+      "schinese_pw": "Consumer Grade",
+      "spanish": "de grado de consumidor",
+      "swedish": "Konsumentklass",
+      "tchinese": "消費級",
+      "thai": "เกรดผู้บริโภค",
+      "turkish": "Tüketici Sınıfı",
+      "ukrainian": "роздрібного ґатунку",
+      "vietnamese": "Hạng tiêu dùng"
+    },
+    "name": "Consumer Grade",
+    "source": "rarity-ref",
+    "value": "1"
+  },
   "rarity_ref": "common",
   "search_slug": "kevlar-vest"
 }

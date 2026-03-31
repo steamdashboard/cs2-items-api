@@ -13,6 +13,14 @@
   },
   "name": "Live Item Market State Required",
   "overlay_type": "market-constraint",
+  "required_instance_fields": [
+    "asset_id",
+    "d_param",
+    "float_value",
+    "paint_seed",
+    "stickers",
+    "tradable"
+  ],
   "sample_items": [
     {
       "canonical_slug": "7-1397",
@@ -231,5 +239,6 @@
       "search_slug": "ak-47-b-the-monster-well-worn"
     }
   ],
-  "search_slug": "live-item-market-state-required"
+  "search_slug": "live-item-market-state-required",
+  "source_attributes": []
 }

@@ -47,7 +47,7 @@ The first implementation focuses on:
 - prefab resolution
 - core exports for items, paint kits, sticker kits, item sets, loot lists, music kits, keychains, locales
 - reference exports for finishes, weapons, skins, skin variants, collections, containers, stickers, patches, graffiti, special drops, sticker capsules, tournaments, teams, players, agents, charms, music kits, and tools
-- consumer exports for source-backed item pages, localized names, deterministic prebuilt lists, and trading overlays for finish families, rare-pattern mechanics, phases, and market constraints
+- consumer exports for source-backed item pages, localized names, deterministic prebuilt lists, source-tier rarity summaries, and trading overlays for finish families, rare-pattern mechanics, phases, and market constraints
 - source asset manifests that resolve logical game refs to real VPK file paths
 - rendered PNG previews with semantic file paths for skins, skin variants, weapons, containers, stickers, patches, graffiti, agents, charms, music kits, and tools
 - reports for unknown blocks, unknown prefabs, and unresolved container sources
@@ -150,6 +150,8 @@ Key entrypoints:
 - `data/api/consumer/cards/skins/<skin_id>.json`: page-ready consumer skin card
 - `data/api/consumer/cards/cases/<container_id>.json`: page-ready consumer case card
 - `data/api/consumer/cards/special-pools/<token>.json`: consumer special item pool card
+- `data/api/consumer/browse/finishes.json`: finish browse entrypoint backed by reference finishes
+- `data/api/consumer/lists/by-rarity/<rarity>.json`: deterministic rarity list across consumer cards
 - `data/api/consumer/overlays/finish-families/<family_id>.json`: trading-oriented finish-family overlay
 - `data/api/consumer/overlays/rare-patterns/<mechanic_id>.json`: trading-oriented rare-pattern overlay
 - `data/api/consumer/overlays/phases/<paint_kit_id>.json`: phase overlay keyed by finish
@@ -160,6 +162,13 @@ Key entrypoints:
 - `data/api/media/rendered/manifests/skins/<skin_id>.json`: rendered skin preview manifest
 - `data/api/media/rendered/manifests/skin-variants/<variant_id>.json`: rendered skin variant manifest
 - `data/api/media/rendered/files/<entity_group>/<id>/<name>.png`: semantic PNG preview file
+
+Consumer cards and overlays now carry deterministic expert-facing semantics where the game data supports them, including:
+
+- source-backed or source-tier rarity summaries
+- `resolution_level`, `deterministic_inputs`, and `seed_domain` for trading-sensitive finishes
+- `float_relevance` and inspect-ready refs for skin variants
+- explicit media honesty fields such as `media_scope` and `coverage_status`
 
 ## Consuming Over Raw GitHub
 
@@ -183,6 +192,8 @@ Useful raw URLs:
 - sample case card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/cases/4001.json`
 - sample finish-family overlay: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/overlays/finish-families/case-hardened.json`
 - sample rare-pattern overlay: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/overlays/rare-patterns/blue-gem.json`
+- sample finishes browse: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/browse/finishes.json`
+- sample rarity list: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/lists/by-rarity/legendary.json`
 - sample agent card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/agents/5505.json`
 - sample collection card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/collections/set_anubis.json`
 - sample skin variant: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/reference/skin-variants/1-37__normal__factory-new.json`

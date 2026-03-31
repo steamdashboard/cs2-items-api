@@ -12,6 +12,7 @@
   },
   "media": {
     "asset_id": "agent__5088",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/characters/customplayer_tm_balkan_variante_png.vtex_c",
       "panorama/images/econ/characters/customplayer_tm_balkan_variante_square_png.vtex_c"
@@ -20,6 +21,7 @@
       "data/api/media/rendered/files/agents/5088/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/agents/5088.json",
+    "media_scope": "rendered-entity",
     "models": [
       "characters/models/tm_phoenix/tm_phoenix.vmdl_c",
       "phase2/characters/models/tm_phoenix/tm_phoenix_ag2.vmdl_c",
@@ -30,6 +32,45 @@
     "source_texture_path": "panorama/images/econ/characters/customplayer_tm_balkan_variante_png.vtex_c"
   },
   "name": "Balkan",
+  "rarity": {
+    "color_ref": "desc_common",
+    "id": "common",
+    "localized_names": {
+      "brazilian": "Nível Consumidor",
+      "bulgarian": "Потребителски клас",
+      "czech": "Neotestovaná",
+      "danish": "Forbrugerkvalitet",
+      "dutch": "Consumenten",
+      "english": "Consumer Grade",
+      "finnish": "Kuluttajatason",
+      "french": "Artisanale",
+      "german": "Verbraucherklasse",
+      "greek": "Consumer Grade",
+      "hungarian": "Fogyasztói fokozatú",
+      "indonesian": "Kelas Konsumen",
+      "italian": "Amatoriale",
+      "japanese": "コンシューマーグレード",
+      "koreana": "기본",
+      "latam": "de grado de consumidor",
+      "norwegian": "Forbrukerklasse",
+      "polish": "konsumenckiej jakości",
+      "portuguese": "Padrão Doméstico",
+      "romanian": "Calitate obișnuită",
+      "russian": "Ширпотреб",
+      "schinese": "消费级",
+      "schinese_pw": "Consumer Grade",
+      "spanish": "de grado de consumidor",
+      "swedish": "Konsumentklass",
+      "tchinese": "消費級",
+      "thai": "เกรดผู้บริโภค",
+      "turkish": "Tüketici Sınıfı",
+      "ukrainian": "роздрібного ґатунку",
+      "vietnamese": "Hạng tiêu dùng"
+    },
+    "name": "Consumer Grade",
+    "source": "rarity-ref",
+    "value": "1"
+  },
   "rarity_ref": "common",
   "search_slug": "balkan",
   "side": "terrorists"

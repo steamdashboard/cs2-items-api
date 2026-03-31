@@ -91,12 +91,14 @@
   },
   "media": {
     "asset_id": "skin__5032-10054",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/5032-10054/light.png",
       "data/api/media/rendered/files/skins/5032-10054/medium.png",
       "data/api/media/rendered/files/skins/5032-10054/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/5032-10054.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/5032-10054/heavy.png",
@@ -113,6 +115,7 @@
     }
   },
   "name": "Hand Wraps | Overprint",
+  "rarity": null,
   "search_slug": "hand-wraps-overprint",
   "sources": {
     "capsules": [],
@@ -151,7 +154,11 @@
   },
   "trading": {
     "consumer_type": "glove",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -187,6 +194,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

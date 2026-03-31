@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__24-615",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/24-615/light.png",
       "data/api/media/rendered/files/skins/24-615/medium.png",
       "data/api/media/rendered/files/skins/24-615/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/24-615.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/24-615/heavy.png",
@@ -149,6 +151,45 @@
     }
   },
   "name": "UMP-45 | Briefing",
+  "rarity": {
+    "color_ref": "desc_rare",
+    "id": "rare",
+    "localized_names": {
+      "brazilian": "Nível Militar",
+      "bulgarian": "Стандартен военен клас",
+      "czech": "Armádní",
+      "danish": "Mil-spec-kvalitet",
+      "dutch": "Militair",
+      "english": "Mil-Spec Grade",
+      "finnish": "Armeijatason",
+      "french": "Militaire",
+      "german": "Militärstandard",
+      "greek": "Mil-Spec Grade",
+      "hungarian": "Katonai fokozatú",
+      "indonesian": "Kelas Militer",
+      "italian": "Militare",
+      "japanese": "MIL規格",
+      "koreana": "군용",
+      "latam": "de grado militar",
+      "norwegian": "Militær standard",
+      "polish": "wojskowej jakości",
+      "portuguese": "Padrão Militar",
+      "romanian": "Calitate militară",
+      "russian": "Армейское качество",
+      "schinese": "军规级",
+      "schinese_pw": "Mil-Spec Grade",
+      "spanish": "de grado militar",
+      "swedish": "Militärklass",
+      "tchinese": "軍規級",
+      "thai": "เกรดมาตรฐานทางทหาร",
+      "turkish": "Askeri Sınıf",
+      "ukrainian": "армійського ґатунку",
+      "vietnamese": "Hạng Mil-Spec"
+    },
+    "name": "Mil-Spec Grade",
+    "source": "container-tier",
+    "value": "3"
+  },
   "search_slug": "ump-45-briefing",
   "sources": {
     "capsules": [],
@@ -177,7 +218,11 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 1.0,
       "min_float": 0.0
@@ -222,6 +267,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

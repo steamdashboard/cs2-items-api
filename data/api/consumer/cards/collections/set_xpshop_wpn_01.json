@@ -1,6 +1,11 @@
 {
   "canonical_slug": "set-xpshop-wpn-01",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [],
+    "known_rarity_skin_count": 0,
+    "skin_count": 4
+  },
   "description": "",
   "id": "set_xpshop_wpn_01",
   "localized_names": {
@@ -37,8 +42,10 @@
   },
   "media": {
     "asset_id": "collection__set_xpshop_wpn_01",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_xpshop_wpn_01.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -49,5 +56,33 @@
     "25-1215",
     "60-1338",
     "7-1397"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "heat-treated",
+        "group": "finish-families",
+        "id": "heat-treated",
+        "name": "Heat Treated",
+        "path": "data/api/consumer/overlays/finish-families/heat-treated.json",
+        "search_slug": "heat-treated"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "blue-gem",
+        "group": "rare-patterns",
+        "id": "blue-gem",
+        "name": "Blue Gem",
+        "path": "data/api/consumer/overlays/rare-patterns/blue-gem.json",
+        "search_slug": "blue-gem"
+      }
+    ],
+    "rare_special_item_count": 0
+  }
 }

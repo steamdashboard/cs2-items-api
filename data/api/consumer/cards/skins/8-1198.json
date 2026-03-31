@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__8-1198",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/8-1198/light.png",
       "data/api/media/rendered/files/skins/8-1198/medium.png",
       "data/api/media/rendered/files/skins/8-1198/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/8-1198.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/8-1198/heavy.png",
@@ -149,6 +151,45 @@
     }
   },
   "name": "AUG | Steel Sentinel",
+  "rarity": {
+    "color_ref": "desc_uncommon",
+    "id": "uncommon",
+    "localized_names": {
+      "brazilian": "Nível Industrial",
+      "bulgarian": "Индустриален клас",
+      "czech": "Prověřená",
+      "danish": "Industrikvalitet",
+      "dutch": "Industrieel",
+      "english": "Industrial Grade",
+      "finnish": "Teollistason",
+      "french": "Industrielle",
+      "german": "Industriequalität",
+      "greek": "Industrial Grade",
+      "hungarian": "Ipari fokozatú",
+      "indonesian": "Kelas Industri",
+      "italian": "Industriale",
+      "japanese": "インダストリアルグレード",
+      "koreana": "고급",
+      "latam": "de grado industrial",
+      "norwegian": "Industriklasse",
+      "polish": "przemysłowej jakości",
+      "portuguese": "Padrão Industrial",
+      "romanian": "Calitate industrială",
+      "russian": "Промышленное качество",
+      "schinese": "工业级",
+      "schinese_pw": "Industrial Grade",
+      "spanish": "de grado industrial",
+      "swedish": "Industriklass",
+      "tchinese": "工業級",
+      "thai": "เกรดอุตสาหกรรม",
+      "turkish": "Endüstri Sınıfı",
+      "ukrainian": "промислового ґатунку",
+      "vietnamese": "Hạng công nghiệp"
+    },
+    "name": "Industrial Grade",
+    "source": "container-tier",
+    "value": "2"
+  },
   "search_slug": "aug-steel-sentinel",
   "sources": {
     "capsules": [],
@@ -186,7 +227,11 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 1.0,
       "min_float": 0.0
@@ -226,6 +271,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

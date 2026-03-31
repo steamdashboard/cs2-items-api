@@ -42,6 +42,7 @@
   },
   "media": {
     "asset_id": "collectible__6104",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/status_icons/collectible_pin_inferno_png.vtex_c"
     ],
@@ -49,12 +50,52 @@
       "data/api/media/rendered/files/collectibles/6104/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/collectibles/6104.json",
+    "media_scope": "rendered-entity",
     "models": [],
     "preview_status": "rendered",
     "primary_image_png": "data/api/media/rendered/files/collectibles/6104/primary.png",
     "source_texture_path": "panorama/images/econ/status_icons/collectible_pin_inferno_png.vtex_c"
   },
   "name": "Inferno Pin",
+  "rarity": {
+    "color_ref": "desc_legendary",
+    "id": "legendary",
+    "localized_names": {
+      "brazilian": "Secreto",
+      "bulgarian": "Класифицирано оръжие",
+      "czech": "Tajná",
+      "danish": "Klassificeret",
+      "dutch": "Geheim",
+      "english": "Classified",
+      "finnish": "Luottamuksellinen",
+      "french": "Classifiée",
+      "german": "Vertraulich",
+      "greek": "Classified",
+      "hungarian": "Bizalmas",
+      "indonesian": "Rahasia",
+      "italian": "Confidenziale",
+      "japanese": "機密",
+      "koreana": "기밀",
+      "latam": "de tipo clasificado",
+      "norwegian": "Klassifisert",
+      "polish": "klasy „poufne”",
+      "portuguese": "Confidencial",
+      "romanian": "Secret(ă)",
+      "russian": "Засекреченное",
+      "schinese": "保密级",
+      "schinese_pw": "Classified",
+      "spanish": "de tipo clasificado",
+      "swedish": "Sekretessbelagd",
+      "tchinese": "機密",
+      "thai": "ลับเฉพาะ",
+      "turkish": "Gizli",
+      "ukrainian": "секретна зброя",
+      "vietnamese": "Hạng tuyệt mật"
+    },
+    "name": "Classified",
+    "source": "rarity-ref",
+    "value": "5"
+  },
   "rarity_ref": "legendary",
   "search_slug": "inferno-pin"
 }

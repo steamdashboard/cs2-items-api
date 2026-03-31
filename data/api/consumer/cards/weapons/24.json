@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__24",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_ump45_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/24/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/24.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/ump45/weapon_smg_ump45.vmdl_c",
       "phase2/weapons/models/ump45/weapon_smg_ump45_ag2.vmdl_c"
@@ -107,6 +109,47 @@
   "search_slug": "ump-45",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 45,
+      "souvenir": 9,
+      "stattrak": 22
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [
+      {
+        "canonical_slug": "fade",
+        "group": "finish-families",
+        "id": "fade",
+        "name": "Fade",
+        "path": "data/api/consumer/overlays/finish-families/fade.json",
+        "search_slug": "fade"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 45
+  },
   "supports_vanilla": false,
   "type_name": "SMG",
   "weapon_group": "smg"

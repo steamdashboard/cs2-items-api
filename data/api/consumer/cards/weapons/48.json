@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__48",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/48/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/48.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/grenade/incendiary/weapon_incendiarygrenade.vmdl_c",
       "phase2/weapons/models/grenade/incendiary/weapon_incendiarygrenade_ag2.vmdl_c"
@@ -61,6 +63,14 @@
   "search_slug": "incendiary-grenade",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {},
+    "exteriors": [],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [],
+    "skin_count": 0
+  },
   "supports_vanilla": false,
   "type_name": "Grenade",
   "weapon_group": "other-weapon"

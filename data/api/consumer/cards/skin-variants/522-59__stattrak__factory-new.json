@@ -6,8 +6,10 @@
   "id": "522-59__stattrak__factory-new",
   "market_hash_name": "StatTrak™ Stiletto Knife | Slaughter (Factory New)",
   "media": {
+    "coverage_status": "rendered",
     "image_png": "data/api/media/rendered/files/skins/522-59/light.png",
     "manifest_path": "data/api/media/rendered/manifests/skin-variants/522-59__stattrak__factory-new.json",
+    "media_scope": "skin-variant-rendered",
     "preview_status": "shared-skin-render",
     "preview_tier": "light",
     "source_skin_manifest_path": "data/api/media/rendered/manifests/skins/522-59.json"
@@ -15,10 +17,15 @@
   "name": "StatTrak™ Stiletto Knife | Slaughter (Factory New)",
   "quality": "stattrak",
   "quality_name": "StatTrak",
+  "rarity": null,
   "search_slug": "stattrak-stiletto-knife-slaughter-factory-new",
   "skin_id": "522-59",
   "skin_name": "Stiletto Knife | Slaughter",
   "trading": {
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed"
+    ],
     "finish_family": {
       "canonical_slug": "slaughter",
       "group": "finish-families",
@@ -27,11 +34,16 @@
       "path": "data/api/consumer/overlays/finish-families/slaughter.json",
       "search_slug": "slaughter"
     },
+    "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 522,
       "live_item_required_fields": [
         "asset_id",
-        "d_param"
+        "d_param",
+        "float_value",
+        "paint_seed",
+        "stickers",
+        "tradable"
       ],
       "paint_index": 59,
       "paint_seed_field": "paint_seed",
@@ -77,6 +89,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "medium",
     "phase": null,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

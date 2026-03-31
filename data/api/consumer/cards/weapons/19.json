@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__19",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_p90_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/19/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/19.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/p90/weapon_smg_p90.vmdl_c",
       "phase2/weapons/models/p90/weapon_smg_p90_ag2.vmdl_c"
@@ -114,6 +116,29 @@
   "search_slug": "p90",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 52,
+      "souvenir": 13,
+      "stattrak": 23
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 52
+  },
   "supports_vanilla": false,
   "type_name": "SMG",
   "weapon_group": "smg"

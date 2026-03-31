@@ -6,8 +6,10 @@
   "id": "500-418__normal__factory-new",
   "market_hash_name": "Bayonet | Doppler (Factory New)",
   "media": {
+    "coverage_status": "rendered",
     "image_png": "data/api/media/rendered/files/skins/500-418/light.png",
     "manifest_path": "data/api/media/rendered/manifests/skin-variants/500-418__normal__factory-new.json",
+    "media_scope": "skin-variant-rendered",
     "preview_status": "shared-skin-render",
     "preview_tier": "light",
     "source_skin_manifest_path": "data/api/media/rendered/manifests/skins/500-418.json"
@@ -15,10 +17,14 @@
   "name": "Bayonet | Doppler (Factory New)",
   "quality": "normal",
   "quality_name": "Normal",
+  "rarity": null,
   "search_slug": "bayonet-doppler-factory-new",
   "skin_id": "500-418",
   "skin_name": "Bayonet | Doppler",
   "trading": {
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": {
       "canonical_slug": "doppler",
       "group": "finish-families",
@@ -27,14 +33,19 @@
       "path": "data/api/consumer/overlays/finish-families/doppler.json",
       "search_slug": "doppler"
     },
+    "float_relevance": "low",
     "inspect_ref": {
       "def_index": 500,
       "live_item_required_fields": [
         "asset_id",
-        "d_param"
+        "d_param",
+        "float_value",
+        "paint_seed",
+        "stickers",
+        "tradable"
       ],
       "paint_index": 418,
-      "paint_seed_field": "paint_seed",
+      "paint_seed_field": null,
       "quality": "normal"
     },
     "market_constraints": [
@@ -59,7 +70,7 @@
         "max_float": 0.07,
         "min_float": 0.0,
         "paint_index": 418,
-        "supports_paint_seed_filter": true
+        "supports_paint_seed_filter": false
       },
       "graph_index_path": "data/api/graph/indexes/by-market-hash-name/Bayonet%20%7C%20Doppler%20%28Factory%20New%29.json",
       "market_hash_name": "Bayonet | Doppler (Factory New)"
@@ -84,6 +95,9 @@
       "path": "data/api/consumer/overlays/phases/418.json",
       "search_slug": "doppler-phase-1"
     },
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

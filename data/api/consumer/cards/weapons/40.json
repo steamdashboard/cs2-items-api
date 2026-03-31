@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__40",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/40/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/40.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/ssg08/weapon_snip_ssg08.vmdl_c",
       "phase2/weapons/models/ssg08/weapon_snip_ssg08_ag2.vmdl_c"
@@ -105,6 +107,29 @@
   "search_slug": "ssg-08",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 43,
+      "souvenir": 8,
+      "stattrak": 17
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 43
+  },
   "supports_vanilla": false,
   "type_name": "Sniper Rifle",
   "weapon_group": "sniper-rifle"

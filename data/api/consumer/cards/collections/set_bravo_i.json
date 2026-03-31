@@ -1,6 +1,299 @@
 {
   "canonical_slug": "set-bravo-i",
   "card_type": "collection",
+  "contents": {
+    "by_rarity": [
+      {
+        "items": [
+          {
+            "canonical_slug": "7-180",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "7-180",
+            "name": "AK-47 | Fire Serpent",
+            "path": "data/api/consumer/cards/skins/7-180.json",
+            "search_slug": "ak-47-fire-serpent"
+          },
+          {
+            "canonical_slug": "1-185",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "1-185",
+            "name": "Desert Eagle | Golden Koi",
+            "path": "data/api/consumer/cards/skins/1-185.json",
+            "search_slug": "desert-eagle-golden-koi"
+          }
+        ],
+        "label": "Covert",
+        "localized_labels": {
+          "brazilian": "Oculto",
+          "bulgarian": "Секретно оръжие",
+          "czech": "Skrytá",
+          "danish": "Tilsløret",
+          "dutch": "Clandestien",
+          "english": "Covert",
+          "finnish": "Salainen",
+          "french": "Secrète",
+          "german": "Verdeckt",
+          "greek": "Covert",
+          "hungarian": "Fedett",
+          "indonesian": "Tersembunyi",
+          "italian": "Segreto",
+          "japanese": "秘密",
+          "koreana": "극비",
+          "latam": "de aspecto encubierto",
+          "norwegian": "Hemmelig",
+          "polish": "klasy „tajne”",
+          "portuguese": "Secreto",
+          "romanian": "Clandestin(ă)",
+          "russian": "Тайное",
+          "schinese": "隐秘级",
+          "schinese_pw": "Covert",
+          "spanish": "de aspecto encubierto",
+          "swedish": "Konfidentiell",
+          "tchinese": "隱蔽",
+          "thai": "ลึกลับ",
+          "turkish": "Çok Gizli",
+          "ukrainian": "надсекретна зброя",
+          "vietnamese": "Mật vụ"
+        },
+        "tier": "ancient"
+      },
+      {
+        "items": [
+          {
+            "canonical_slug": "9-212",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "9-212",
+            "name": "AWP | Graphite",
+            "path": "data/api/consumer/cards/skins/9-212.json",
+            "search_slug": "awp-graphite"
+          },
+          {
+            "canonical_slug": "32-211",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "32-211",
+            "name": "P2000 | Ocean Foam",
+            "path": "data/api/consumer/cards/skins/32-211.json",
+            "search_slug": "p2000-ocean-foam"
+          },
+          {
+            "canonical_slug": "19-182",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "19-182",
+            "name": "P90 | Emerald Dragon",
+            "path": "data/api/consumer/cards/skins/19-182.json",
+            "search_slug": "p90-emerald-dragon"
+          }
+        ],
+        "label": "Classified",
+        "localized_labels": {
+          "brazilian": "Secreto",
+          "bulgarian": "Класифицирано оръжие",
+          "czech": "Tajná",
+          "danish": "Klassificeret",
+          "dutch": "Geheim",
+          "english": "Classified",
+          "finnish": "Luottamuksellinen",
+          "french": "Classifiée",
+          "german": "Vertraulich",
+          "greek": "Classified",
+          "hungarian": "Bizalmas",
+          "indonesian": "Rahasia",
+          "italian": "Confidenziale",
+          "japanese": "機密",
+          "koreana": "기밀",
+          "latam": "de tipo clasificado",
+          "norwegian": "Klassifisert",
+          "polish": "klasy „poufne”",
+          "portuguese": "Confidencial",
+          "romanian": "Secret(ă)",
+          "russian": "Засекреченное",
+          "schinese": "保密级",
+          "schinese_pw": "Classified",
+          "spanish": "de tipo clasificado",
+          "swedish": "Sekretessbelagd",
+          "tchinese": "機密",
+          "thai": "ลับเฉพาะ",
+          "turkish": "Gizli",
+          "ukrainian": "секретна зброя",
+          "vietnamese": "Hạng tuyệt mật"
+        },
+        "tier": "legendary"
+      },
+      {
+        "items": [
+          {
+            "canonical_slug": "60-189",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "60-189",
+            "name": "M4A1-S | Bright Water",
+            "path": "data/api/consumer/cards/skins/60-189.json",
+            "search_slug": "m4a1-s-bright-water"
+          },
+          {
+            "canonical_slug": "16-187",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "16-187",
+            "name": "M4A4 | Zirka",
+            "path": "data/api/consumer/cards/skins/16-187.json",
+            "search_slug": "m4a4-zirka"
+          },
+          {
+            "canonical_slug": "17-188",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "17-188",
+            "name": "MAC-10 | Graven",
+            "path": "data/api/consumer/cards/skins/17-188.json",
+            "search_slug": "mac-10-graven"
+          },
+          {
+            "canonical_slug": "61-183",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "61-183",
+            "name": "USP-S | Overgrowth",
+            "path": "data/api/consumer/cards/skins/61-183.json",
+            "search_slug": "usp-s-overgrowth"
+          }
+        ],
+        "label": "Restricted",
+        "localized_labels": {
+          "brazilian": "Restrito",
+          "bulgarian": "Ограничено оръжие",
+          "czech": "Zakázaná",
+          "danish": "Begrænset",
+          "dutch": "Verboden",
+          "english": "Restricted",
+          "finnish": "Rajoitettu",
+          "french": "Limitée",
+          "german": "Limitiert",
+          "greek": "Restricted",
+          "hungarian": "Korlátozott",
+          "indonesian": "Terbatas",
+          "italian": "Riservato",
+          "japanese": "部外秘",
+          "koreana": "제한",
+          "latam": "de tipo restringido",
+          "norwegian": "Begrenset",
+          "polish": "spoza obiegu",
+          "portuguese": "Restrito",
+          "romanian": "Restricționat(ă)",
+          "russian": "Запрещённое",
+          "schinese": "受限级",
+          "schinese_pw": "Restricted",
+          "spanish": "de tipo restringido",
+          "swedish": "Begränsad",
+          "tchinese": "受管制",
+          "thai": "หวงห้าม",
+          "turkish": "Sınırlı",
+          "ukrainian": "зброя спецслужб",
+          "vietnamese": "Hàng hạn chế"
+        },
+        "tier": "mythical"
+      },
+      {
+        "items": [
+          {
+            "canonical_slug": "2-190",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "2-190",
+            "name": "Dual Berettas | Black Limba",
+            "path": "data/api/consumer/cards/skins/2-190.json",
+            "search_slug": "dual-berettas-black-limba"
+          },
+          {
+            "canonical_slug": "11-195",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "11-195",
+            "name": "G3SG1 | Demeter",
+            "path": "data/api/consumer/cards/skins/11-195.json",
+            "search_slug": "g3sg1-demeter"
+          },
+          {
+            "canonical_slug": "13-192",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "13-192",
+            "name": "Galil AR | Shattered",
+            "path": "data/api/consumer/cards/skins/13-192.json",
+            "search_slug": "galil-ar-shattered"
+          },
+          {
+            "canonical_slug": "35-191",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "35-191",
+            "name": "Nova | Tempest",
+            "path": "data/api/consumer/cards/skins/35-191.json",
+            "search_slug": "nova-tempest"
+          },
+          {
+            "canonical_slug": "39-186",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "39-186",
+            "name": "SG 553 | Wave Spray",
+            "path": "data/api/consumer/cards/skins/39-186.json",
+            "search_slug": "sg-553-wave-spray"
+          },
+          {
+            "canonical_slug": "24-193",
+            "card_type": "weapon-skin",
+            "group": "skins",
+            "id": "24-193",
+            "name": "UMP-45 | Bone Pile",
+            "path": "data/api/consumer/cards/skins/24-193.json",
+            "search_slug": "ump-45-bone-pile"
+          }
+        ],
+        "label": "Mil-Spec Grade",
+        "localized_labels": {
+          "brazilian": "Nível Militar",
+          "bulgarian": "Стандартен военен клас",
+          "czech": "Armádní",
+          "danish": "Mil-spec-kvalitet",
+          "dutch": "Militair",
+          "english": "Mil-Spec Grade",
+          "finnish": "Armeijatason",
+          "french": "Militaire",
+          "german": "Militärstandard",
+          "greek": "Mil-Spec Grade",
+          "hungarian": "Katonai fokozatú",
+          "indonesian": "Kelas Militer",
+          "italian": "Militare",
+          "japanese": "MIL規格",
+          "koreana": "군용",
+          "latam": "de grado militar",
+          "norwegian": "Militær standard",
+          "polish": "wojskowej jakości",
+          "portuguese": "Padrão Militar",
+          "romanian": "Calitate militară",
+          "russian": "Армейское качество",
+          "schinese": "军规级",
+          "schinese_pw": "Mil-Spec Grade",
+          "spanish": "de grado militar",
+          "swedish": "Militärklass",
+          "tchinese": "軍規級",
+          "thai": "เกรดมาตรฐานทางทหาร",
+          "turkish": "Askeri Sınıf",
+          "ukrainian": "армійського ґатунку",
+          "vietnamese": "Hạng Mil-Spec"
+        },
+        "tier": "rare"
+      }
+    ],
+    "known_rarity_skin_count": 15,
+    "skin_count": 15
+  },
   "description": "This item was granted during Operation Bravo to celebrate the Operation's community maps.",
   "id": "set_bravo_i",
   "localized_names": {
@@ -37,8 +330,10 @@
   },
   "media": {
     "asset_id": "collection__set_bravo_i",
+    "coverage_status": "unavailable",
     "images": [],
     "manifest_path": "data/api/media/manifests/collection__set_bravo_i.json",
+    "media_scope": "asset-manifest-only",
     "models": [],
     "preview_status": "unavailable"
   },
@@ -60,5 +355,17 @@
     "61-183",
     "7-180",
     "9-212"
-  ]
+  ],
+  "trading": {
+    "contains_weapon_groups": [
+      "pistol",
+      "rifle",
+      "shotgun",
+      "smg",
+      "sniper-rifle"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "rare_special_item_count": 0
+  }
 }

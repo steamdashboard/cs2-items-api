@@ -41,6 +41,7 @@
   },
   "media": {
     "asset_id": "weapon__11",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/weapons/base_weapons/weapon_g3sg1_png.vtex_c"
     ],
@@ -48,6 +49,7 @@
       "data/api/media/rendered/files/weapons/11/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/weapons/11.json",
+    "media_scope": "rendered-entity",
     "models": [
       "weapons/models/g3sg1/weapon_snip_g3sg1.vmdl_c",
       "phase2/weapons/models/g3sg1/weapon_snip_g3sg1_ag2.vmdl_c"
@@ -92,6 +94,29 @@
   "search_slug": "g3sg1",
   "side": null,
   "special_pool_ids": [],
+  "summary": {
+    "availability": {
+      "normal": 30,
+      "souvenir": 5,
+      "stattrak": 15
+    },
+    "exteriors": [
+      "battle-scarred",
+      "factory-new",
+      "field-tested",
+      "minimal-wear",
+      "vanilla",
+      "well-worn"
+    ],
+    "finish_families": [],
+    "pattern_mechanics": [],
+    "qualities": [
+      "normal",
+      "souvenir",
+      "stattrak"
+    ],
+    "skin_count": 30
+  },
   "supports_vanilla": false,
   "type_name": "Sniper Rifle",
   "weapon_group": "sniper-rifle"

@@ -91,12 +91,14 @@
   },
   "media": {
     "asset_id": "skin__512-12",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/512-12/light.png",
       "data/api/media/rendered/files/skins/512-12/medium.png",
       "data/api/media/rendered/files/skins/512-12/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/512-12.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/512-12/heavy.png",
@@ -113,6 +115,7 @@
     }
   },
   "name": "Falchion Knife | Crimson Web",
+  "rarity": null,
   "search_slug": "falchion-knife-crimson-web",
   "sources": {
     "capsules": [],
@@ -143,6 +146,11 @@
   },
   "trading": {
     "consumer_type": "knife",
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed",
+      "float_value"
+    ],
     "finish_family": {
       "canonical_slug": "crimson-web",
       "group": "finish-families",
@@ -151,6 +159,7 @@
       "path": "data/api/consumer/overlays/finish-families/crimson-web.json",
       "search_slug": "crimson-web"
     },
+    "float_relevance": "high",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -196,6 +205,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "high",
     "phase": null,
+    "resolution_level": "paint-seed-and-float",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

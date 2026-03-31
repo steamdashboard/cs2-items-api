@@ -127,12 +127,14 @@
   },
   "media": {
     "asset_id": "skin__28-1300",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/28-1300/light.png",
       "data/api/media/rendered/files/skins/28-1300/medium.png",
       "data/api/media/rendered/files/skins/28-1300/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/28-1300.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/28-1300/heavy.png",
@@ -149,6 +151,7 @@
     }
   },
   "name": "Negev | Raw Ceramic",
+  "rarity": null,
   "search_slug": "negev-raw-ceramic",
   "sources": {
     "capsules": [],
@@ -167,7 +170,11 @@
   },
   "trading": {
     "consumer_type": "weapon-skin",
+    "deterministic_inputs": [
+      "paint_index"
+    ],
     "finish_family": null,
+    "float_relevance": "medium",
     "float_window": {
       "max_float": 0.75,
       "min_float": 0.0
@@ -207,6 +214,9 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
+    "resolution_level": "finish",
+    "seed_domain": null,
+    "seed_sensitive": false,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,

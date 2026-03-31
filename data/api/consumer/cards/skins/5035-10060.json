@@ -91,12 +91,14 @@
   },
   "media": {
     "asset_id": "skin__5035-10060",
+    "coverage_status": "rendered",
     "images_png": [
       "data/api/media/rendered/files/skins/5035-10060/light.png",
       "data/api/media/rendered/files/skins/5035-10060/medium.png",
       "data/api/media/rendered/files/skins/5035-10060/heavy.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/skins/5035-10060.json",
+    "media_scope": "skin-rendered",
     "models": [],
     "preview_images": {
       "heavy": "data/api/media/rendered/files/skins/5035-10060/heavy.png",
@@ -113,6 +115,7 @@
     }
   },
   "name": "Hydra Gloves | Case Hardened",
+  "rarity": null,
   "search_slug": "hydra-gloves-case-hardened",
   "sources": {
     "capsules": [],
@@ -151,6 +154,10 @@
   },
   "trading": {
     "consumer_type": "glove",
+    "deterministic_inputs": [
+      "paint_index",
+      "paint_seed"
+    ],
     "finish_family": {
       "canonical_slug": "case-hardened",
       "group": "finish-families",
@@ -159,6 +166,7 @@
       "path": "data/api/consumer/overlays/finish-families/case-hardened.json",
       "search_slug": "case-hardened"
     },
+    "float_relevance": "medium",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -203,6 +211,15 @@
     "pattern_sensitive": true,
     "pattern_sensitivity": "high",
     "phase": null,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1000,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 999,
+      "minimum": 0
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": true,
       "fade_overlay": false,

@@ -12,6 +12,7 @@
   },
   "media": {
     "asset_id": "agent__4750",
+    "coverage_status": "rendered",
     "images": [
       "panorama/images/econ/characters/customplayer_ctm_gendarmerie_variantb_png.vtex_c",
       "panorama/images/econ/characters/customplayer_ctm_gendarmerie_variantb_square_png.vtex_c"
@@ -20,6 +21,7 @@
       "data/api/media/rendered/files/agents/4750/primary.png"
     ],
     "manifest_path": "data/api/media/rendered/manifests/agents/4750.json",
+    "media_scope": "rendered-entity",
     "models": [
       "characters/models/ctm_gendarmerie/ctm_gendarmerie_variantb.vmdl_c",
       "phase2/characters/models/ctm_sas/ctm_sas_ag2.vmdl_c",
@@ -30,6 +32,45 @@
     "source_texture_path": "panorama/images/econ/characters/customplayer_ctm_gendarmerie_variantb_png.vtex_c"
   },
   "name": "Gendarmerie",
+  "rarity": {
+    "color_ref": "desc_legendary",
+    "id": "legendary",
+    "localized_names": {
+      "brazilian": "Secreto",
+      "bulgarian": "Класифицирано оръжие",
+      "czech": "Tajná",
+      "danish": "Klassificeret",
+      "dutch": "Geheim",
+      "english": "Classified",
+      "finnish": "Luottamuksellinen",
+      "french": "Classifiée",
+      "german": "Vertraulich",
+      "greek": "Classified",
+      "hungarian": "Bizalmas",
+      "indonesian": "Rahasia",
+      "italian": "Confidenziale",
+      "japanese": "機密",
+      "koreana": "기밀",
+      "latam": "de tipo clasificado",
+      "norwegian": "Klassifisert",
+      "polish": "klasy „poufne”",
+      "portuguese": "Confidencial",
+      "romanian": "Secret(ă)",
+      "russian": "Засекреченное",
+      "schinese": "保密级",
+      "schinese_pw": "Classified",
+      "spanish": "de tipo clasificado",
+      "swedish": "Sekretessbelagd",
+      "tchinese": "機密",
+      "thai": "ลับเฉพาะ",
+      "turkish": "Gizli",
+      "ukrainian": "секретна зброя",
+      "vietnamese": "Hạng tuyệt mật"
+    },
+    "name": "Classified",
+    "source": "rarity-ref",
+    "value": "5"
+  },
   "rarity_ref": "legendary",
   "search_slug": "gendarmerie",
   "side": "counter-terrorists"
