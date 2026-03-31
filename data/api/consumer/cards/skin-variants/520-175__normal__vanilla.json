@@ -25,7 +25,14 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
+    "finish_family": {
+      "canonical_slug": "scorched",
+      "group": "finish-families",
+      "id": "scorched",
+      "name": "Scorched",
+      "path": "data/api/consumer/overlays/finish-families/scorched.json",
+      "search_slug": "scorched"
+    },
     "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 520,
@@ -41,6 +48,7 @@
       "paint_seed_field": null,
       "quality": "normal"
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

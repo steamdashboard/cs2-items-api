@@ -1,0 +1,239 @@
+{
+  "affected_groups": {
+    "skin-variants": 633,
+    "skins": 123
+  },
+  "affected_item_count": 756,
+  "canonical_slug": "requires-inspect-link",
+  "description": "This mechanic commonly requires a concrete inspect link or equivalent live item payload to resolve instance-level state.",
+  "id": "requires-inspect-link",
+  "knowledge_source": "derived-instance-requirement",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-market-constraint/requires-inspect-link.json"
+  },
+  "name": "Inspect Link Required",
+  "overlay_type": "market-constraint",
+  "required_instance_fields": [
+    "d_param"
+  ],
+  "sample_items": [
+    {
+      "canonical_slug": "7-44",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "7-44",
+      "name": "AK-47 | Case Hardened",
+      "path": "data/api/consumer/cards/skins/7-44.json",
+      "search_slug": "ak-47-case-hardened"
+    },
+    {
+      "canonical_slug": "7-44-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-44__normal__battle-scarred",
+      "name": "AK-47 | Case Hardened (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/7-44__normal__battle-scarred.json",
+      "search_slug": "ak-47-case-hardened-battle-scarred"
+    },
+    {
+      "canonical_slug": "7-44-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-44__normal__factory-new",
+      "name": "AK-47 | Case Hardened (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/7-44__normal__factory-new.json",
+      "search_slug": "ak-47-case-hardened-factory-new"
+    },
+    {
+      "canonical_slug": "7-44-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-44__normal__field-tested",
+      "name": "AK-47 | Case Hardened (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/7-44__normal__field-tested.json",
+      "search_slug": "ak-47-case-hardened-field-tested"
+    },
+    {
+      "canonical_slug": "7-44-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-44__normal__minimal-wear",
+      "name": "AK-47 | Case Hardened (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/7-44__normal__minimal-wear.json",
+      "search_slug": "ak-47-case-hardened-minimal-wear"
+    },
+    {
+      "canonical_slug": "7-44-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-44__normal__well-worn",
+      "name": "AK-47 | Case Hardened (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/7-44__normal__well-worn.json",
+      "search_slug": "ak-47-case-hardened-well-worn"
+    },
+    {
+      "canonical_slug": "8-246",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "8-246",
+      "name": "AUG | Amber Fade",
+      "path": "data/api/consumer/cards/skins/8-246.json",
+      "search_slug": "aug-amber-fade"
+    },
+    {
+      "canonical_slug": "8-246-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "8-246__normal__factory-new",
+      "name": "AUG | Amber Fade (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/8-246__normal__factory-new.json",
+      "search_slug": "aug-amber-fade-factory-new"
+    },
+    {
+      "canonical_slug": "8-246-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "8-246__normal__field-tested",
+      "name": "AUG | Amber Fade (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/8-246__normal__field-tested.json",
+      "search_slug": "aug-amber-fade-field-tested"
+    },
+    {
+      "canonical_slug": "8-246-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "8-246__normal__minimal-wear",
+      "name": "AUG | Amber Fade (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/8-246__normal__minimal-wear.json",
+      "search_slug": "aug-amber-fade-minimal-wear"
+    },
+    {
+      "canonical_slug": "8-246-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "8-246__normal__well-worn",
+      "name": "AUG | Amber Fade (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/8-246__normal__well-worn.json",
+      "search_slug": "aug-amber-fade-well-worn"
+    },
+    {
+      "canonical_slug": "9-1026",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "9-1026",
+      "name": "AWP | Fade",
+      "path": "data/api/consumer/cards/skins/9-1026.json",
+      "search_slug": "awp-fade"
+    },
+    {
+      "canonical_slug": "9-1026-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "9-1026__normal__factory-new",
+      "name": "AWP | Fade (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/9-1026__normal__factory-new.json",
+      "search_slug": "awp-fade-factory-new"
+    },
+    {
+      "canonical_slug": "9-1026-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "9-1026__normal__minimal-wear",
+      "name": "AWP | Fade (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/9-1026__normal__minimal-wear.json",
+      "search_slug": "awp-fade-minimal-wear"
+    },
+    {
+      "canonical_slug": "500-44",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-44",
+      "name": "Bayonet | Case Hardened",
+      "path": "data/api/consumer/cards/skins/500-44.json",
+      "search_slug": "bayonet-case-hardened"
+    },
+    {
+      "canonical_slug": "500-44-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-44__normal__battle-scarred",
+      "name": "Bayonet | Case Hardened (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/500-44__normal__battle-scarred.json",
+      "search_slug": "bayonet-case-hardened-battle-scarred"
+    },
+    {
+      "canonical_slug": "500-44-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-44__normal__factory-new",
+      "name": "Bayonet | Case Hardened (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-44__normal__factory-new.json",
+      "search_slug": "bayonet-case-hardened-factory-new"
+    },
+    {
+      "canonical_slug": "500-44-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-44__normal__field-tested",
+      "name": "Bayonet | Case Hardened (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/500-44__normal__field-tested.json",
+      "search_slug": "bayonet-case-hardened-field-tested"
+    },
+    {
+      "canonical_slug": "500-44-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-44__normal__minimal-wear",
+      "name": "Bayonet | Case Hardened (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-44__normal__minimal-wear.json",
+      "search_slug": "bayonet-case-hardened-minimal-wear"
+    },
+    {
+      "canonical_slug": "500-44-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-44__normal__well-worn",
+      "name": "Bayonet | Case Hardened (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/500-44__normal__well-worn.json",
+      "search_slug": "bayonet-case-hardened-well-worn"
+    },
+    {
+      "canonical_slug": "500-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-12",
+      "name": "Bayonet | Crimson Web",
+      "path": "data/api/consumer/cards/skins/500-12.json",
+      "search_slug": "bayonet-crimson-web"
+    },
+    {
+      "canonical_slug": "500-12-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-12__normal__vanilla",
+      "name": "Bayonet | Crimson Web",
+      "path": "data/api/consumer/cards/skin-variants/500-12__normal__vanilla.json",
+      "search_slug": "bayonet-crimson-web"
+    },
+    {
+      "canonical_slug": "500-38",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-38",
+      "name": "Bayonet | Fade",
+      "path": "data/api/consumer/cards/skins/500-38.json",
+      "search_slug": "bayonet-fade"
+    },
+    {
+      "canonical_slug": "500-38-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-38__normal__factory-new",
+      "name": "Bayonet | Fade (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-38__normal__factory-new.json",
+      "search_slug": "bayonet-fade-factory-new"
+    }
+  ],
+  "search_slug": "inspect-link-required",
+  "source_attributes": []
+}

@@ -1,0 +1,239 @@
+{
+  "affected_groups": {
+    "skin-variants": 184,
+    "skins": 70
+  },
+  "affected_item_count": 254,
+  "canonical_slug": "requires-float-value",
+  "description": "Precise instance evaluation for this mechanic needs the concrete float value from a live item payload.",
+  "id": "requires-float-value",
+  "knowledge_source": "derived-instance-requirement",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-market-constraint/requires-float-value.json"
+  },
+  "name": "Exact Float Value Required",
+  "overlay_type": "market-constraint",
+  "required_instance_fields": [
+    "float_value"
+  ],
+  "sample_items": [
+    {
+      "canonical_slug": "500-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-12",
+      "name": "Bayonet | Crimson Web",
+      "path": "data/api/consumer/cards/skins/500-12.json",
+      "search_slug": "bayonet-crimson-web"
+    },
+    {
+      "canonical_slug": "500-12-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-12__normal__vanilla",
+      "name": "Bayonet | Crimson Web",
+      "path": "data/api/consumer/cards/skin-variants/500-12__normal__vanilla.json",
+      "search_slug": "bayonet-crimson-web"
+    },
+    {
+      "canonical_slug": "500-414",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-414",
+      "name": "Bayonet | Rust Coat",
+      "path": "data/api/consumer/cards/skins/500-414.json",
+      "search_slug": "bayonet-rust-coat"
+    },
+    {
+      "canonical_slug": "500-414-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-414__normal__battle-scarred",
+      "name": "Bayonet | Rust Coat (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/500-414__normal__battle-scarred.json",
+      "search_slug": "bayonet-rust-coat-battle-scarred"
+    },
+    {
+      "canonical_slug": "500-414-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-414__normal__well-worn",
+      "name": "Bayonet | Rust Coat (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/500-414__normal__well-worn.json",
+      "search_slug": "bayonet-rust-coat-well-worn"
+    },
+    {
+      "canonical_slug": "500-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-98",
+      "name": "Bayonet | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/500-98.json",
+      "search_slug": "bayonet-ultraviolet"
+    },
+    {
+      "canonical_slug": "500-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-98__normal__vanilla",
+      "name": "Bayonet | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/500-98__normal__vanilla.json",
+      "search_slug": "bayonet-ultraviolet"
+    },
+    {
+      "canonical_slug": "514-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-12",
+      "name": "Bowie Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/514-12.json",
+      "search_slug": "bowie-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "514-12-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-12__normal__vanilla",
+      "name": "Bowie Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skin-variants/514-12__normal__vanilla.json",
+      "search_slug": "bowie-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "514-414",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-414",
+      "name": "Bowie Knife | Rust Coat",
+      "path": "data/api/consumer/cards/skins/514-414.json",
+      "search_slug": "bowie-knife-rust-coat"
+    },
+    {
+      "canonical_slug": "514-414-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-414__normal__battle-scarred",
+      "name": "Bowie Knife | Rust Coat (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/514-414__normal__battle-scarred.json",
+      "search_slug": "bowie-knife-rust-coat-battle-scarred"
+    },
+    {
+      "canonical_slug": "514-414-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-414__normal__well-worn",
+      "name": "Bowie Knife | Rust Coat (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/514-414__normal__well-worn.json",
+      "search_slug": "bowie-knife-rust-coat-well-worn"
+    },
+    {
+      "canonical_slug": "514-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-98",
+      "name": "Bowie Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/514-98.json",
+      "search_slug": "bowie-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "514-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-98__normal__vanilla",
+      "name": "Bowie Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/514-98__normal__vanilla.json",
+      "search_slug": "bowie-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "515-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-12",
+      "name": "Butterfly Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/515-12.json",
+      "search_slug": "butterfly-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "515-12-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-12__normal__vanilla",
+      "name": "Butterfly Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skin-variants/515-12__normal__vanilla.json",
+      "search_slug": "butterfly-knife-crimson-web"
+    },
+    {
+      "canonical_slug": "515-414",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-414",
+      "name": "Butterfly Knife | Rust Coat",
+      "path": "data/api/consumer/cards/skins/515-414.json",
+      "search_slug": "butterfly-knife-rust-coat"
+    },
+    {
+      "canonical_slug": "515-414-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-414__normal__battle-scarred",
+      "name": "Butterfly Knife | Rust Coat (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/515-414__normal__battle-scarred.json",
+      "search_slug": "butterfly-knife-rust-coat-battle-scarred"
+    },
+    {
+      "canonical_slug": "515-414-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-414__normal__well-worn",
+      "name": "Butterfly Knife | Rust Coat (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/515-414__normal__well-worn.json",
+      "search_slug": "butterfly-knife-rust-coat-well-worn"
+    },
+    {
+      "canonical_slug": "515-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-98",
+      "name": "Butterfly Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/515-98.json",
+      "search_slug": "butterfly-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "515-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-98__normal__vanilla",
+      "name": "Butterfly Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/515-98__normal__vanilla.json",
+      "search_slug": "butterfly-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "63-12",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "63-12",
+      "name": "CZ75-Auto | Crimson Web",
+      "path": "data/api/consumer/cards/skins/63-12.json",
+      "search_slug": "cz75-auto-crimson-web"
+    },
+    {
+      "canonical_slug": "63-12-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "63-12__normal__vanilla",
+      "name": "CZ75-Auto | Crimson Web",
+      "path": "data/api/consumer/cards/skin-variants/63-12__normal__vanilla.json",
+      "search_slug": "cz75-auto-crimson-web"
+    },
+    {
+      "canonical_slug": "503-12",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-12",
+      "name": "Classic Knife | Crimson Web",
+      "path": "data/api/consumer/cards/skins/503-12.json",
+      "search_slug": "classic-knife-crimson-web"
+    }
+  ],
+  "search_slug": "exact-float-value-required",
+  "source_attributes": []
+}

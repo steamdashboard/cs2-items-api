@@ -1,0 +1,521 @@
+{
+  "availability": {
+    "normal": 23,
+    "souvenir": 2,
+    "stattrak": 20
+  },
+  "canonical_slug": "safari-mesh",
+  "confidence": "medium",
+  "description": "Safari Mesh knife family where finish identity and wear bands dominate consumer use cases.",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
+  "example_lookups": [],
+  "example_skins": [
+    {
+      "canonical_slug": "7-72",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "7-72",
+      "name": "AK-47 | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/7-72.json",
+      "search_slug": "ak-47-safari-mesh"
+    },
+    {
+      "canonical_slug": "9-72",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "9-72",
+      "name": "AWP | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/9-72.json",
+      "search_slug": "awp-safari-mesh"
+    },
+    {
+      "canonical_slug": "500-72",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-72",
+      "name": "Bayonet | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/500-72.json",
+      "search_slug": "bayonet-safari-mesh"
+    },
+    {
+      "canonical_slug": "514-72",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-72",
+      "name": "Bowie Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/514-72.json",
+      "search_slug": "bowie-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "515-72",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-72",
+      "name": "Butterfly Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/515-72.json",
+      "search_slug": "butterfly-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "503-72",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-72",
+      "name": "Classic Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/503-72.json",
+      "search_slug": "classic-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "512-72",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-72",
+      "name": "Falchion Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/512-72.json",
+      "search_slug": "falchion-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "505-72",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-72",
+      "name": "Flip Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/505-72.json",
+      "search_slug": "flip-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "11-72",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "11-72",
+      "name": "G3SG1 | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/11-72.json",
+      "search_slug": "g3sg1-safari-mesh"
+    },
+    {
+      "canonical_slug": "506-72",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-72",
+      "name": "Gut Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/506-72.json",
+      "search_slug": "gut-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "509-72",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-72",
+      "name": "Huntsman Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/509-72.json",
+      "search_slug": "huntsman-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "507-72",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "507-72",
+      "name": "Karambit | Safari Mesh",
+      "path": "data/api/consumer/cards/skins/507-72.json",
+      "search_slug": "karambit-safari-mesh"
+    }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "7-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "7-72__normal__vanilla",
+      "name": "AK-47 | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/7-72__normal__vanilla.json",
+      "search_slug": "ak-47-safari-mesh"
+    },
+    {
+      "canonical_slug": "9-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "9-72__normal__vanilla",
+      "name": "AWP | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/9-72__normal__vanilla.json",
+      "search_slug": "awp-safari-mesh"
+    },
+    {
+      "canonical_slug": "500-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-72__normal__vanilla",
+      "name": "Bayonet | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/500-72__normal__vanilla.json",
+      "search_slug": "bayonet-safari-mesh"
+    },
+    {
+      "canonical_slug": "514-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-72__normal__vanilla",
+      "name": "Bowie Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/514-72__normal__vanilla.json",
+      "search_slug": "bowie-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "515-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-72__normal__vanilla",
+      "name": "Butterfly Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/515-72__normal__vanilla.json",
+      "search_slug": "butterfly-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "503-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "503-72__normal__vanilla",
+      "name": "Classic Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/503-72__normal__vanilla.json",
+      "search_slug": "classic-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "512-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "512-72__normal__vanilla",
+      "name": "Falchion Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/512-72__normal__vanilla.json",
+      "search_slug": "falchion-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "505-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-72__normal__vanilla",
+      "name": "Flip Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/505-72__normal__vanilla.json",
+      "search_slug": "flip-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "11-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "11-72__normal__vanilla",
+      "name": "G3SG1 | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/11-72__normal__vanilla.json",
+      "search_slug": "g3sg1-safari-mesh"
+    },
+    {
+      "canonical_slug": "506-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "506-72__normal__vanilla",
+      "name": "Gut Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/506-72__normal__vanilla.json",
+      "search_slug": "gut-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "509-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "509-72__normal__vanilla",
+      "name": "Huntsman Knife | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/509-72__normal__vanilla.json",
+      "search_slug": "huntsman-knife-safari-mesh"
+    },
+    {
+      "canonical_slug": "507-72-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "507-72__normal__vanilla",
+      "name": "Karambit | Safari Mesh",
+      "path": "data/api/consumer/cards/skin-variants/507-72__normal__vanilla.json",
+      "search_slug": "karambit-safari-mesh"
+    }
+  ],
+  "exteriors": [
+    "vanilla"
+  ],
+  "finish_count": 1,
+  "finishes": [
+    {
+      "canonical_slug": "sp-mesh-tan",
+      "group": "finishes",
+      "id": "72",
+      "name": "Safari Mesh",
+      "path": "data/api/reference/finishes/72.json",
+      "search_slug": "safari-mesh"
+    }
+  ],
+  "float_relevance": "medium",
+  "id": "safari-mesh",
+  "knowledge_source": "consumer-finish-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/safari-mesh.json"
+  },
+  "lookup_count": 0,
+  "name": "Safari Mesh",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": false,
+  "pattern_sensitivity": "none",
+  "primary_mechanics": [],
+  "qualities": [
+    "normal",
+    "souvenir",
+    "stattrak"
+  ],
+  "resolution_level": "finish",
+  "search_slug": "safari-mesh",
+  "seed_domain": null,
+  "skin_count": 23,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-24",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4669",
+      "name": "CS20 Case",
+      "path": "data/api/consumer/cards/cases/4669.json",
+      "search_slug": "cs20-case"
+    },
+    {
+      "canonical_slug": "crate-valve-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4001",
+      "name": "CS:GO Weapon Case",
+      "path": "data/api/consumer/cards/cases/4001.json",
+      "search_slug": "cs-go-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-valve-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4004",
+      "name": "CS:GO Weapon Case 2",
+      "path": "data/api/consumer/cards/cases/4004.json",
+      "search_slug": "cs-go-weapon-case-2"
+    },
+    {
+      "canonical_slug": "crate-valve-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4010",
+      "name": "CS:GO Weapon Case 3",
+      "path": "data/api/consumer/cards/cases/4010.json",
+      "search_slug": "cs-go-weapon-case-3"
+    },
+    {
+      "canonical_slug": "crate-community-21",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4548",
+      "name": "Danger Zone Case",
+      "path": "data/api/consumer/cards/cases/4548.json",
+      "search_slug": "danger-zone-case"
+    },
+    {
+      "canonical_slug": "crate-community-8",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4091",
+      "name": "Falchion Case",
+      "path": "data/api/consumer/cards/cases/4091.json",
+      "search_slug": "falchion-case"
+    },
+    {
+      "canonical_slug": "crate-community-26",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4698",
+      "name": "Fracture Case",
+      "path": "data/api/consumer/cards/cases/4698.json",
+      "search_slug": "fracture-case"
+    },
+    {
+      "canonical_slug": "crate-community-34",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7003",
+      "name": "Gallery Case",
+      "path": "data/api/consumer/cards/cases/7003.json",
+      "search_slug": "gallery-case"
+    },
+    {
+      "canonical_slug": "crate-community-20",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4482",
+      "name": "Horizon Case",
+      "path": "data/api/consumer/cards/cases/4482.json",
+      "search_slug": "horizon-case"
+    },
+    {
+      "canonical_slug": "crate-community-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4017",
+      "name": "Huntsman Weapon Case",
+      "path": "data/api/consumer/cards/cases/4017.json",
+      "search_slug": "huntsman-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-33",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4904",
+      "name": "Kilowatt Case",
+      "path": "data/api/consumer/cards/cases/4904.json",
+      "search_slug": "kilowatt-case"
+    },
+    {
+      "canonical_slug": "crate-operation-ii",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4003",
+      "name": "Operation Bravo Case",
+      "path": "data/api/consumer/cards/cases/4003.json",
+      "search_slug": "operation-bravo-case"
+    },
+    {
+      "canonical_slug": "crate-community-4",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4018",
+      "name": "Operation Breakout Weapon Case",
+      "path": "data/api/consumer/cards/cases/4018.json",
+      "search_slug": "operation-breakout-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4011",
+      "name": "Operation Phoenix Weapon Case",
+      "path": "data/api/consumer/cards/cases/4011.json",
+      "search_slug": "operation-phoenix-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-operation-vanguard",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4029",
+      "name": "Operation Vanguard Weapon Case",
+      "path": "data/api/consumer/cards/cases/4029.json",
+      "search_slug": "operation-vanguard-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-11",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4187",
+      "name": "Operation Wildfire Case",
+      "path": "data/api/consumer/cards/cases/4187.json",
+      "search_slug": "operation-wildfire-case"
+    },
+    {
+      "canonical_slug": "crate-community-10",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4186",
+      "name": "Revolver Case",
+      "path": "data/api/consumer/cards/cases/4186.json",
+      "search_slug": "revolver-case"
+    },
+    {
+      "canonical_slug": "crate-community-9",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4138",
+      "name": "Shadow Case",
+      "path": "data/api/consumer/cards/cases/4138.json",
+      "search_slug": "shadow-case"
+    },
+    {
+      "canonical_slug": "crate-community-23",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4620",
+      "name": "Shattered Web Case",
+      "path": "data/api/consumer/cards/cases/4620.json",
+      "search_slug": "shattered-web-case"
+    },
+    {
+      "canonical_slug": "crate-community-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4009",
+      "name": "Winter Offensive Weapon Case",
+      "path": "data/api/consumer/cards/cases/4009.json",
+      "search_slug": "winter-offensive-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4002",
+      "name": "eSports 2013 Case",
+      "path": "data/api/consumer/cards/cases/4002.json",
+      "search_slug": "esports-2013-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013-winter",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4005",
+      "name": "eSports 2013 Winter Case",
+      "path": "data/api/consumer/cards/cases/4005.json",
+      "search_slug": "esports-2013-winter-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2014-summer",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4019",
+      "name": "eSports 2014 Summer Case",
+      "path": "data/api/consumer/cards/cases/4019.json",
+      "search_slug": "esports-2014-summer-case"
+    }
+  ],
+  "source_collections": [
+    {
+      "canonical_slug": "set-dust-2",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_dust_2",
+      "name": "The Dust 2 Collection",
+      "path": "data/api/consumer/cards/collections/set_dust_2.json",
+      "search_slug": "the-dust-2-collection"
+    },
+    {
+      "canonical_slug": "set-lake",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_lake",
+      "name": "The Lake Collection",
+      "path": "data/api/consumer/cards/collections/set_lake.json",
+      "search_slug": "the-lake-collection"
+    },
+    {
+      "canonical_slug": "set-mirage",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_mirage",
+      "name": "The Mirage Collection",
+      "path": "data/api/consumer/cards/collections/set_mirage.json",
+      "search_slug": "the-mirage-collection"
+    }
+  ],
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 45,
+  "weapon_groups": [
+    "knife",
+    "rifle",
+    "sniper-rifle"
+  ]
+}

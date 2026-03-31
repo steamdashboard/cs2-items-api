@@ -76,7 +76,32 @@
       "smg",
       "sniper-rifle"
     ],
-    "finish_families": [],
+    "finish_families": [
+      {
+        "canonical_slug": "blue-steel",
+        "group": "finish-families",
+        "id": "blue-steel",
+        "name": "Blue Steel",
+        "path": "data/api/consumer/overlays/finish-families/blue-steel.json",
+        "search_slug": "blue-steel"
+      },
+      {
+        "canonical_slug": "boreal-forest",
+        "group": "finish-families",
+        "id": "boreal-forest",
+        "name": "Boreal Forest",
+        "path": "data/api/consumer/overlays/finish-families/boreal-forest.json",
+        "search_slug": "boreal-forest"
+      },
+      {
+        "canonical_slug": "safari-mesh",
+        "group": "finish-families",
+        "id": "safari-mesh",
+        "name": "Safari Mesh",
+        "path": "data/api/consumer/overlays/finish-families/safari-mesh.json",
+        "search_slug": "safari-mesh"
+      }
+    ],
     "pattern_mechanics": [],
     "rare_special_item_count": 0
   }

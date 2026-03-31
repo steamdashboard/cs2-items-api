@@ -16,7 +16,7 @@ def load_json(path: Path) -> dict:
 class GeneratedContractTests(unittest.TestCase):
     def test_schema_exposes_layered_api(self) -> None:
         schema = load_json(ROOT / "data/api/meta/schema.json")
-        self.assertEqual(schema["version"], 10)
+        self.assertEqual(schema["version"], 11)
         self.assertEqual(set(schema["layers"]), {"reference", "graph", "consumer", "media"})
         self.assertIn("canonical_slug", schema["slug_policy"])
         self.assertIn("search_slug", schema["slug_policy"])
@@ -64,10 +64,13 @@ class GeneratedContractTests(unittest.TestCase):
             ROOT / "data/api/consumer/overlays/rare-patterns/blue-gem.json",
             ROOT / "data/api/consumer/overlays/phases/418.json",
             ROOT / "data/api/consumer/overlays/market-constraints/cannot-trade.json",
+            ROOT / "data/api/consumer/overlays/market-constraints/requires-paint-seed.json",
+            ROOT / "data/api/consumer/overlays/seed-lookups/500-38__fade-percentage.json",
             ROOT / "data/api/consumer/meta/discovery.json",
             ROOT / "data/api/consumer/meta/schema.json",
             ROOT / "data/api/consumer/browse/trading.json",
             ROOT / "data/api/consumer/browse/finishes.json",
+            ROOT / "data/api/consumer/browse/seed-lookups.json",
             ROOT / "data/api/consumer/lists/by-rarity/legendary.json",
             ROOT / "data/api/media/manifests/collectible__875.json",
             ROOT / "data/api/media/manifests/equipment__50.json",
@@ -151,7 +154,8 @@ class GeneratedContractTests(unittest.TestCase):
 
         self.assertEqual(family["overlay_type"], "finish-family")
         self.assertEqual(family["resolution_level"], "paint-seed")
-        self.assertEqual(family["seed_domain"]["maximum"], 999)
+        self.assertEqual(family["seed_domain"]["maximum"], 1000)
+        self.assertEqual(family["seed_domain"]["tradeup_only_seed_values"], [1000])
         self.assertTrue(any(item["group"] == "skins" for item in family["example_skins"]))
         self.assertEqual(pattern["finish_families"][0]["group"], "finish-families")
         self.assertEqual(pattern["resolution_level"], "paint-seed")
@@ -230,6 +234,10 @@ class GeneratedContractTests(unittest.TestCase):
             "data/api/consumer/overlays/market-constraints/<constraint_id>.json",
         )
         self.assertEqual(
+            discovery["entrypoints"]["seed_lookups"],
+            "data/api/consumer/overlays/seed-lookups/<lookup_id>.json",
+        )
+        self.assertEqual(
             discovery["entrypoints"]["rarities"],
             "data/api/consumer/lists/by-rarity/<rarity>.json",
         )
@@ -241,11 +249,16 @@ class GeneratedContractTests(unittest.TestCase):
             discovery["browse_entrypoints"]["trading"],
             "data/api/consumer/browse/trading.json",
         )
-        self.assertEqual(discovery["overlay_counts"]["finish-families"], 9)
+        self.assertEqual(
+            discovery["browse_entrypoints"]["seed_lookups"],
+            "data/api/consumer/browse/seed-lookups.json",
+        )
+        self.assertEqual(discovery["overlay_counts"]["finish-families"], 29)
+        self.assertEqual(discovery["overlay_counts"]["seed-lookups"], 34)
         self.assertEqual(discovery["overlay_counts"]["phases"], 24)
-        self.assertEqual(discovery["list_counts"]["by-finish-family"], 9)
+        self.assertEqual(discovery["list_counts"]["by-finish-family"], 29)
         self.assertEqual(discovery["list_counts"]["by-rarity"], 7)
-        self.assertEqual(discovery["list_counts"]["by-market-constraint"], 2)
+        self.assertEqual(discovery["list_counts"]["by-market-constraint"], 5)
 
     def test_graph_and_consumer_side_indexes_exist(self) -> None:
         by_side = load_json(ROOT / "data/api/graph/indexes/by-side/terrorists.json")
@@ -336,6 +349,10 @@ class GeneratedContractTests(unittest.TestCase):
         self.assertEqual(constraint_list["key"], "cannot-trade")
         self.assertTrue(any(item["group"] == "collectibles" for item in constraint_list["items"]))
 
+        seed_constraint_list = load_json(ROOT / "data/api/consumer/lists/by-market-constraint/requires-paint-seed.json")
+        self.assertEqual(seed_constraint_list["key"], "requires-paint-seed")
+        self.assertTrue(any(item["group"] == "skins" for item in seed_constraint_list["items"]))
+
     def test_skin_rarity_and_collection_breakdowns_use_deterministic_source_tiers(self) -> None:
         skin = load_json(ROOT / "data/api/consumer/cards/skins/7-44.json")
         collection = load_json(ROOT / "data/api/consumer/cards/collections/set_gamma_2.json")
@@ -349,6 +366,29 @@ class GeneratedContractTests(unittest.TestCase):
             any(item["id"] == "7-44" and item["group"] == "skins" for item in rarity_list["items"]),
             "Expected skin cards with deterministic source tiers to appear in rarity lists",
         )
+
+    def test_glove_fade_is_not_mislabeled_as_knife_fade_percentage(self) -> None:
+        glove = load_json(ROOT / "data/api/consumer/cards/skins/5034-10063.json")
+
+        self.assertEqual(glove["trading"]["finish_family"]["id"], "glove-fade")
+        self.assertTrue(glove["trading"]["pattern_sensitive"])
+        self.assertTrue(glove["trading"]["seed_sensitive"])
+        self.assertEqual(glove["trading"]["pattern_mechanics"], [])
+        self.assertEqual(glove["trading"]["lookup_overlays"], [])
+
+    def test_seed_lookup_overlay_exposes_fade_tables_and_card_links(self) -> None:
+        skin = load_json(ROOT / "data/api/consumer/cards/skins/500-38.json")
+        lookup = load_json(ROOT / "data/api/consumer/overlays/seed-lookups/500-38__fade-percentage.json")
+        trading_browse = load_json(ROOT / "data/api/consumer/browse/trading.json")
+
+        self.assertEqual(skin["trading"]["lookup_overlays"][0]["id"], "500-38__fade-percentage")
+        self.assertEqual(lookup["overlay_type"], "seed-lookup")
+        self.assertEqual(lookup["metric"]["id"], "fade-percentage")
+        self.assertEqual(lookup["seed_count"], 1001)
+        self.assertEqual(lookup["value_range"]["maximum"], 100.0)
+        self.assertEqual(lookup["value_range"]["minimum"], 80.0)
+        self.assertEqual(lookup["best_seeds"][0]["seed"], 763)
+        self.assertEqual(trading_browse["seed_lookup_count"], 34)
 
     def test_public_build_metadata_does_not_expose_local_paths(self) -> None:
         for path in (

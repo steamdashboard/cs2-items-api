@@ -25,7 +25,14 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
+    "finish_family": {
+      "canonical_slug": "safari-mesh",
+      "group": "finish-families",
+      "id": "safari-mesh",
+      "name": "Safari Mesh",
+      "path": "data/api/consumer/overlays/finish-families/safari-mesh.json",
+      "search_slug": "safari-mesh"
+    },
     "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 520,
@@ -41,6 +48,7 @@
       "paint_seed_field": null,
       "quality": "stattrak"
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

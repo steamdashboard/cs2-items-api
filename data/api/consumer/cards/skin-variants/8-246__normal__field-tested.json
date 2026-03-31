@@ -61,10 +61,18 @@
   "skin_name": "AUG | Amber Fade",
   "trading": {
     "deterministic_inputs": [
-      "paint_index"
+      "paint_index",
+      "paint_seed"
     ],
-    "finish_family": null,
-    "float_relevance": "medium",
+    "finish_family": {
+      "canonical_slug": "amber-fade",
+      "group": "finish-families",
+      "id": "amber-fade",
+      "name": "Amber Fade",
+      "path": "data/api/consumer/overlays/finish-families/amber-fade.json",
+      "search_slug": "amber-fade"
+    },
+    "float_relevance": "low",
     "inspect_ref": {
       "def_index": 8,
       "live_item_required_fields": [
@@ -76,9 +84,19 @@
         "tradable"
       ],
       "paint_index": 246,
-      "paint_seed_field": null,
+      "paint_seed_field": "paint_seed",
       "quality": "normal"
     },
+    "lookup_overlays": [
+      {
+        "canonical_slug": "8-246-fade-percentage-lookup",
+        "group": "seed-lookups",
+        "id": "8-246__fade-percentage",
+        "name": "AUG | Amber Fade Seed Lookup",
+        "path": "data/api/consumer/overlays/seed-lookups/8-246__fade-percentage.json",
+        "search_slug": "aug-amber-fade-seed-lookup"
+      }
+    ],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",
@@ -87,6 +105,22 @@
         "name": "Live Item Market State Required",
         "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
         "search_slug": "live-item-market-state-required"
+      },
+      {
+        "canonical_slug": "requires-paint-seed",
+        "group": "market-constraints",
+        "id": "requires-paint-seed",
+        "name": "Paint Seed Required",
+        "path": "data/api/consumer/overlays/market-constraints/requires-paint-seed.json",
+        "search_slug": "paint-seed-required"
+      },
+      {
+        "canonical_slug": "requires-inspect-link",
+        "group": "market-constraints",
+        "id": "requires-inspect-link",
+        "name": "Inspect Link Required",
+        "path": "data/api/consumer/overlays/market-constraints/requires-inspect-link.json",
+        "search_slug": "inspect-link-required"
       }
     ],
     "market_query": {
@@ -101,21 +135,40 @@
         "max_float": 0.38,
         "min_float": 0.15,
         "paint_index": 246,
-        "supports_paint_seed_filter": false
+        "supports_paint_seed_filter": true
       },
       "graph_index_path": "data/api/graph/indexes/by-market-hash-name/AUG%20%7C%20Amber%20Fade%20%28Field-Tested%29.json",
       "market_hash_name": "AUG | Amber Fade (Field-Tested)"
     },
-    "pattern_mechanics": [],
-    "pattern_sensitive": false,
-    "pattern_sensitivity": "none",
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
     "phase": null,
-    "resolution_level": "finish",
-    "seed_domain": null,
-    "seed_sensitive": false,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1001,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 1000,
+      "minimum": 0,
+      "standard_opening_maximum": 999,
+      "tradeup_only_seed_values": [
+        1000
+      ]
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": false,
-      "fade_overlay": false,
+      "fade_overlay": true,
       "fire_and_ice_overlay": false,
       "phase_overlay": false,
       "slaughter_overlay": false,

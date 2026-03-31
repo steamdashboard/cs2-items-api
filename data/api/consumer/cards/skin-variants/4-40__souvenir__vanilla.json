@@ -63,7 +63,14 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
+    "finish_family": {
+      "canonical_slug": "night",
+      "group": "finish-families",
+      "id": "night",
+      "name": "Night",
+      "path": "data/api/consumer/overlays/finish-families/night.json",
+      "search_slug": "night"
+    },
     "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 4,
@@ -79,6 +86,7 @@
       "paint_seed_field": null,
       "quality": "souvenir"
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

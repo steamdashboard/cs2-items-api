@@ -25,7 +25,14 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
+    "finish_family": {
+      "canonical_slug": "boreal-forest",
+      "group": "finish-families",
+      "id": "boreal-forest",
+      "name": "Boreal Forest",
+      "path": "data/api/consumer/overlays/finish-families/boreal-forest.json",
+      "search_slug": "boreal-forest"
+    },
     "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 518,
@@ -41,6 +48,7 @@
       "paint_seed_field": null,
       "quality": "stattrak"
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

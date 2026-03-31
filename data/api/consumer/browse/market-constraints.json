@@ -9,12 +9,36 @@
       "search_slug": "cannot-trade"
     },
     {
+      "canonical_slug": "requires-float-value",
+      "group": "market-constraints",
+      "id": "requires-float-value",
+      "name": "Exact Float Value Required",
+      "path": "data/api/consumer/overlays/market-constraints/requires-float-value.json",
+      "search_slug": "exact-float-value-required"
+    },
+    {
+      "canonical_slug": "requires-inspect-link",
+      "group": "market-constraints",
+      "id": "requires-inspect-link",
+      "name": "Inspect Link Required",
+      "path": "data/api/consumer/overlays/market-constraints/requires-inspect-link.json",
+      "search_slug": "inspect-link-required"
+    },
+    {
       "canonical_slug": "live-item-market-state",
       "group": "market-constraints",
       "id": "live-item-market-state",
       "name": "Live Item Market State Required",
       "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
       "search_slug": "live-item-market-state-required"
+    },
+    {
+      "canonical_slug": "requires-paint-seed",
+      "group": "market-constraints",
+      "id": "requires-paint-seed",
+      "name": "Paint Seed Required",
+      "path": "data/api/consumer/overlays/market-constraints/requires-paint-seed.json",
+      "search_slug": "paint-seed-required"
     }
   ]
 }

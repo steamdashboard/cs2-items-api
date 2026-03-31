@@ -21,6 +21,7 @@
     "phases": "data/api/consumer/browse/phases.json",
     "players": "data/api/consumer/browse/players.json",
     "rare-patterns": "data/api/consumer/browse/rare-patterns.json",
+    "seed-lookups": "data/api/consumer/browse/seed-lookups.json",
     "skins": "data/api/consumer/browse/skins.json",
     "souvenir-packages": "data/api/consumer/browse/souvenir-packages.json",
     "special-pools": "data/api/consumer/browse/special-pools.json",
@@ -54,7 +55,7 @@
     "tournaments": "data/api/consumer/cards/tournaments/<id>.json",
     "weapons": "data/api/consumer/cards/weapons/<id>.json"
   },
-  "generated_at": "2026-03-31T21:30:45.060684+00:00",
+  "generated_at": "2026-03-31T22:06:03.786525+00:00",
   "lists": {
     "by-canonical-slug": "data/api/consumer/lists/by-canonical-slug/<key>.json",
     "by-case": "data/api/consumer/lists/by-case/<key>.json",
@@ -76,6 +77,7 @@
     "finish-families": "data/api/consumer/overlays/finish-families/<id>.json",
     "market-constraints": "data/api/consumer/overlays/market-constraints/<id>.json",
     "phases": "data/api/consumer/overlays/phases/<id>.json",
-    "rare-patterns": "data/api/consumer/overlays/rare-patterns/<id>.json"
+    "rare-patterns": "data/api/consumer/overlays/rare-patterns/<id>.json",
+    "seed-lookups": "data/api/consumer/overlays/seed-lookups/<id>.json"
   }
 }

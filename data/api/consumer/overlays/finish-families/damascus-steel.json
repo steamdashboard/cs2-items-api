@@ -1,0 +1,387 @@
+{
+  "availability": {
+    "normal": 37,
+    "souvenir": 1,
+    "stattrak": 36
+  },
+  "canonical_slug": "damascus-steel",
+  "confidence": "medium",
+  "description": "Layered knife finish family typically valued for finish identity, wear window, and model rather than seed-ranked patterns.",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
+  "example_lookups": [],
+  "example_skins": [
+    {
+      "canonical_slug": "500-410",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-410",
+      "name": "Bayonet | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/500-410.json",
+      "search_slug": "bayonet-damascus-steel"
+    },
+    {
+      "canonical_slug": "500-411",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-411",
+      "name": "Bayonet | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/500-411.json",
+      "search_slug": "bayonet-damascus-steel"
+    },
+    {
+      "canonical_slug": "514-410",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-410",
+      "name": "Bowie Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/514-410.json",
+      "search_slug": "bowie-knife-damascus-steel"
+    },
+    {
+      "canonical_slug": "514-411",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-411",
+      "name": "Bowie Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/514-411.json",
+      "search_slug": "bowie-knife-damascus-steel"
+    },
+    {
+      "canonical_slug": "515-410",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-410",
+      "name": "Butterfly Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/515-410.json",
+      "search_slug": "butterfly-knife-damascus-steel"
+    },
+    {
+      "canonical_slug": "515-411",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-411",
+      "name": "Butterfly Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/515-411.json",
+      "search_slug": "butterfly-knife-damascus-steel"
+    },
+    {
+      "canonical_slug": "512-410",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-410",
+      "name": "Falchion Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/512-410.json",
+      "search_slug": "falchion-knife-damascus-steel"
+    },
+    {
+      "canonical_slug": "512-411",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-411",
+      "name": "Falchion Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/512-411.json",
+      "search_slug": "falchion-knife-damascus-steel"
+    },
+    {
+      "canonical_slug": "505-410",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-410",
+      "name": "Flip Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/505-410.json",
+      "search_slug": "flip-knife-damascus-steel"
+    },
+    {
+      "canonical_slug": "505-411",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-411",
+      "name": "Flip Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/505-411.json",
+      "search_slug": "flip-knife-damascus-steel"
+    },
+    {
+      "canonical_slug": "506-410",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-410",
+      "name": "Gut Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/506-410.json",
+      "search_slug": "gut-knife-damascus-steel"
+    },
+    {
+      "canonical_slug": "506-411",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-411",
+      "name": "Gut Knife | Damascus Steel",
+      "path": "data/api/consumer/cards/skins/506-411.json",
+      "search_slug": "gut-knife-damascus-steel"
+    }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "500-410-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-410__normal__battle-scarred",
+      "name": "Bayonet | Damascus Steel (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/500-410__normal__battle-scarred.json",
+      "search_slug": "bayonet-damascus-steel-battle-scarred"
+    },
+    {
+      "canonical_slug": "500-411-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-411__normal__battle-scarred",
+      "name": "Bayonet | Damascus Steel (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/500-411__normal__battle-scarred.json",
+      "search_slug": "bayonet-damascus-steel-battle-scarred"
+    },
+    {
+      "canonical_slug": "500-410-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-410__normal__factory-new",
+      "name": "Bayonet | Damascus Steel (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-410__normal__factory-new.json",
+      "search_slug": "bayonet-damascus-steel-factory-new"
+    },
+    {
+      "canonical_slug": "500-411-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-411__normal__factory-new",
+      "name": "Bayonet | Damascus Steel (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-411__normal__factory-new.json",
+      "search_slug": "bayonet-damascus-steel-factory-new"
+    },
+    {
+      "canonical_slug": "500-410-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-410__normal__field-tested",
+      "name": "Bayonet | Damascus Steel (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/500-410__normal__field-tested.json",
+      "search_slug": "bayonet-damascus-steel-field-tested"
+    },
+    {
+      "canonical_slug": "500-411-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-411__normal__field-tested",
+      "name": "Bayonet | Damascus Steel (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/500-411__normal__field-tested.json",
+      "search_slug": "bayonet-damascus-steel-field-tested"
+    },
+    {
+      "canonical_slug": "500-410-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-410__normal__minimal-wear",
+      "name": "Bayonet | Damascus Steel (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-410__normal__minimal-wear.json",
+      "search_slug": "bayonet-damascus-steel-minimal-wear"
+    },
+    {
+      "canonical_slug": "500-411-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-411__normal__minimal-wear",
+      "name": "Bayonet | Damascus Steel (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-411__normal__minimal-wear.json",
+      "search_slug": "bayonet-damascus-steel-minimal-wear"
+    },
+    {
+      "canonical_slug": "500-410-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-410__normal__well-worn",
+      "name": "Bayonet | Damascus Steel (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/500-410__normal__well-worn.json",
+      "search_slug": "bayonet-damascus-steel-well-worn"
+    },
+    {
+      "canonical_slug": "500-411-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-411__normal__well-worn",
+      "name": "Bayonet | Damascus Steel (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/500-411__normal__well-worn.json",
+      "search_slug": "bayonet-damascus-steel-well-worn"
+    },
+    {
+      "canonical_slug": "514-410-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-410__normal__battle-scarred",
+      "name": "Bowie Knife | Damascus Steel (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/514-410__normal__battle-scarred.json",
+      "search_slug": "bowie-knife-damascus-steel-battle-scarred"
+    },
+    {
+      "canonical_slug": "514-411-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-411__normal__battle-scarred",
+      "name": "Bowie Knife | Damascus Steel (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/514-411__normal__battle-scarred.json",
+      "search_slug": "bowie-knife-damascus-steel-battle-scarred"
+    }
+  ],
+  "exteriors": [
+    "battle-scarred",
+    "factory-new",
+    "field-tested",
+    "minimal-wear",
+    "well-worn"
+  ],
+  "finish_count": 3,
+  "finishes": [
+    {
+      "canonical_slug": "aq-damascus-sg553",
+      "group": "finishes",
+      "id": "247",
+      "name": "Damascus Steel",
+      "path": "data/api/reference/finishes/247.json",
+      "search_slug": "damascus-steel"
+    },
+    {
+      "canonical_slug": "aq-damascus",
+      "group": "finishes",
+      "id": "410",
+      "name": "Damascus Steel",
+      "path": "data/api/reference/finishes/410.json",
+      "search_slug": "damascus-steel"
+    },
+    {
+      "canonical_slug": "aq-damascus-90",
+      "group": "finishes",
+      "id": "411",
+      "name": "Damascus Steel",
+      "path": "data/api/reference/finishes/411.json",
+      "search_slug": "damascus-steel"
+    }
+  ],
+  "float_relevance": "medium",
+  "id": "damascus-steel",
+  "knowledge_source": "consumer-finish-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/damascus-steel.json"
+  },
+  "lookup_count": 0,
+  "name": "Damascus Steel",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": false,
+  "pattern_sensitivity": "none",
+  "primary_mechanics": [],
+  "qualities": [
+    "normal",
+    "souvenir",
+    "stattrak"
+  ],
+  "resolution_level": "finish",
+  "search_slug": "damascus-steel",
+  "seed_domain": null,
+  "skin_count": 37,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-7",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4089",
+      "name": "Chroma 2 Case",
+      "path": "data/api/consumer/cards/cases/4089.json",
+      "search_slug": "chroma-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-12",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4233",
+      "name": "Chroma 3 Case",
+      "path": "data/api/consumer/cards/cases/4233.json",
+      "search_slug": "chroma-3-case"
+    },
+    {
+      "canonical_slug": "crate-community-6",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4061",
+      "name": "Chroma Case",
+      "path": "data/api/consumer/cards/cases/4061.json",
+      "search_slug": "chroma-case"
+    },
+    {
+      "canonical_slug": "crate-community-35",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7007",
+      "name": "Fever Case",
+      "path": "data/api/consumer/cards/cases/7007.json",
+      "search_slug": "fever-case"
+    },
+    {
+      "canonical_slug": "crate-community-25",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4695",
+      "name": "Prisma 2 Case",
+      "path": "data/api/consumer/cards/cases/4695.json",
+      "search_slug": "prisma-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-22",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4598",
+      "name": "Prisma Case",
+      "path": "data/api/consumer/cards/cases/4598.json",
+      "search_slug": "prisma-case"
+    },
+    {
+      "canonical_slug": "crate-community-18",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4403",
+      "name": "Spectrum 2 Case",
+      "path": "data/api/consumer/cards/cases/4403.json",
+      "search_slug": "spectrum-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-16",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4351",
+      "name": "Spectrum Case",
+      "path": "data/api/consumer/cards/cases/4351.json",
+      "search_slug": "spectrum-case"
+    }
+  ],
+  "source_collections": [
+    {
+      "canonical_slug": "set-dust-2",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_dust_2",
+      "name": "The Dust 2 Collection",
+      "path": "data/api/consumer/cards/collections/set_dust_2.json",
+      "search_slug": "the-dust-2-collection"
+    }
+  ],
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 370,
+  "weapon_groups": [
+    "knife",
+    "rifle"
+  ]
+}

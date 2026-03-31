@@ -14,6 +14,7 @@ As of the current snapshot, the emitted consumer contract already includes first
 - `rare-patterns`
 - `phases`
 - `market-constraints`
+- `seed-lookups`
 
 Skin, skin-variant, case, collection, and weapon cards also expose deterministic trading-oriented summaries that link back to those overlays.
 
@@ -22,6 +23,7 @@ The current generated contract additionally emits:
 - `browse/finishes.json` as a first-class consumer browse entrypoint
 - `lists/by-rarity/*.json` across consumer-facing cards
 - trading semantics such as `resolution_level`, `deterministic_inputs`, `seed_domain`, and `float_relevance`
+- deterministic per-skin seed lookup overlays for supported Fade / Amber Fade / Acid Fade mechanics
 - explicit media honesty fields such as `media_scope` and `coverage_status`
 
 ## Goal
@@ -219,6 +221,7 @@ data/api/consumer/
     finish-families/
     rare-patterns/
     phases/
+    seed-lookups/
     fade-percentages/
     blue-gems/
     release-history/
@@ -462,6 +465,8 @@ Examples:
 - doppler phases
 - blue gem tiers
 - notable high-value seeds
+
+When a mechanic has a reproducible offline algorithm, the consumer layer may also emit per-skin `seed-lookups` overlays rather than stopping at taxonomy-only descriptions.
 
 ### Release overlays
 

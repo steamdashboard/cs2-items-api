@@ -116,7 +116,24 @@
       "vanilla",
       "well-worn"
     ],
-    "finish_families": [],
+    "finish_families": [
+      {
+        "canonical_slug": "damascus-steel",
+        "group": "finish-families",
+        "id": "damascus-steel",
+        "name": "Damascus Steel",
+        "path": "data/api/consumer/overlays/finish-families/damascus-steel.json",
+        "search_slug": "damascus-steel"
+      },
+      {
+        "canonical_slug": "ultraviolet",
+        "group": "finish-families",
+        "id": "ultraviolet",
+        "name": "Ultraviolet",
+        "path": "data/api/consumer/overlays/finish-families/ultraviolet.json",
+        "search_slug": "ultraviolet"
+      }
+    ],
     "pattern_mechanics": [],
     "qualities": [
       "normal",

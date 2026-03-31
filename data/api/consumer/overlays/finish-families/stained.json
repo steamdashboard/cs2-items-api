@@ -1,0 +1,504 @@
+{
+  "availability": {
+    "normal": 21,
+    "stattrak": 20
+  },
+  "canonical_slug": "stained",
+  "confidence": "medium",
+  "description": "Stained knife family where finish identity and exact wear band are more important than seed-specific pattern tiers.",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
+  "example_lookups": [],
+  "example_skins": [
+    {
+      "canonical_slug": "500-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-43",
+      "name": "Bayonet | Stained",
+      "path": "data/api/consumer/cards/skins/500-43.json",
+      "search_slug": "bayonet-stained"
+    },
+    {
+      "canonical_slug": "514-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-43",
+      "name": "Bowie Knife | Stained",
+      "path": "data/api/consumer/cards/skins/514-43.json",
+      "search_slug": "bowie-knife-stained"
+    },
+    {
+      "canonical_slug": "515-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-43",
+      "name": "Butterfly Knife | Stained",
+      "path": "data/api/consumer/cards/skins/515-43.json",
+      "search_slug": "butterfly-knife-stained"
+    },
+    {
+      "canonical_slug": "503-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-43",
+      "name": "Classic Knife | Stained",
+      "path": "data/api/consumer/cards/skins/503-43.json",
+      "search_slug": "classic-knife-stained"
+    },
+    {
+      "canonical_slug": "2-43",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "2-43",
+      "name": "Dual Berettas | Stained",
+      "path": "data/api/consumer/cards/skins/2-43.json",
+      "search_slug": "dual-berettas-stained"
+    },
+    {
+      "canonical_slug": "512-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-43",
+      "name": "Falchion Knife | Stained",
+      "path": "data/api/consumer/cards/skins/512-43.json",
+      "search_slug": "falchion-knife-stained"
+    },
+    {
+      "canonical_slug": "505-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-43",
+      "name": "Flip Knife | Stained",
+      "path": "data/api/consumer/cards/skins/505-43.json",
+      "search_slug": "flip-knife-stained"
+    },
+    {
+      "canonical_slug": "506-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-43",
+      "name": "Gut Knife | Stained",
+      "path": "data/api/consumer/cards/skins/506-43.json",
+      "search_slug": "gut-knife-stained"
+    },
+    {
+      "canonical_slug": "509-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-43",
+      "name": "Huntsman Knife | Stained",
+      "path": "data/api/consumer/cards/skins/509-43.json",
+      "search_slug": "huntsman-knife-stained"
+    },
+    {
+      "canonical_slug": "507-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "507-43",
+      "name": "Karambit | Stained",
+      "path": "data/api/consumer/cards/skins/507-43.json",
+      "search_slug": "karambit-stained"
+    },
+    {
+      "canonical_slug": "526-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "526-43",
+      "name": "Kukri Knife | Stained",
+      "path": "data/api/consumer/cards/skins/526-43.json",
+      "search_slug": "kukri-knife-stained"
+    },
+    {
+      "canonical_slug": "508-43",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "508-43",
+      "name": "M9 Bayonet | Stained",
+      "path": "data/api/consumer/cards/skins/508-43.json",
+      "search_slug": "m9-bayonet-stained"
+    }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "500-43-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-43__normal__battle-scarred",
+      "name": "Bayonet | Stained (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/500-43__normal__battle-scarred.json",
+      "search_slug": "bayonet-stained-battle-scarred"
+    },
+    {
+      "canonical_slug": "500-43-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-43__normal__factory-new",
+      "name": "Bayonet | Stained (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/500-43__normal__factory-new.json",
+      "search_slug": "bayonet-stained-factory-new"
+    },
+    {
+      "canonical_slug": "500-43-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-43__normal__field-tested",
+      "name": "Bayonet | Stained (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/500-43__normal__field-tested.json",
+      "search_slug": "bayonet-stained-field-tested"
+    },
+    {
+      "canonical_slug": "500-43-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-43__normal__minimal-wear",
+      "name": "Bayonet | Stained (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/500-43__normal__minimal-wear.json",
+      "search_slug": "bayonet-stained-minimal-wear"
+    },
+    {
+      "canonical_slug": "500-43-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-43__normal__well-worn",
+      "name": "Bayonet | Stained (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/500-43__normal__well-worn.json",
+      "search_slug": "bayonet-stained-well-worn"
+    },
+    {
+      "canonical_slug": "514-43-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-43__normal__battle-scarred",
+      "name": "Bowie Knife | Stained (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/514-43__normal__battle-scarred.json",
+      "search_slug": "bowie-knife-stained-battle-scarred"
+    },
+    {
+      "canonical_slug": "514-43-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-43__normal__factory-new",
+      "name": "Bowie Knife | Stained (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/514-43__normal__factory-new.json",
+      "search_slug": "bowie-knife-stained-factory-new"
+    },
+    {
+      "canonical_slug": "514-43-normal-field-tested",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-43__normal__field-tested",
+      "name": "Bowie Knife | Stained (Field-Tested)",
+      "path": "data/api/consumer/cards/skin-variants/514-43__normal__field-tested.json",
+      "search_slug": "bowie-knife-stained-field-tested"
+    },
+    {
+      "canonical_slug": "514-43-normal-minimal-wear",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-43__normal__minimal-wear",
+      "name": "Bowie Knife | Stained (Minimal Wear)",
+      "path": "data/api/consumer/cards/skin-variants/514-43__normal__minimal-wear.json",
+      "search_slug": "bowie-knife-stained-minimal-wear"
+    },
+    {
+      "canonical_slug": "514-43-normal-well-worn",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-43__normal__well-worn",
+      "name": "Bowie Knife | Stained (Well-Worn)",
+      "path": "data/api/consumer/cards/skin-variants/514-43__normal__well-worn.json",
+      "search_slug": "bowie-knife-stained-well-worn"
+    },
+    {
+      "canonical_slug": "515-43-normal-battle-scarred",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-43__normal__battle-scarred",
+      "name": "Butterfly Knife | Stained (Battle-Scarred)",
+      "path": "data/api/consumer/cards/skin-variants/515-43__normal__battle-scarred.json",
+      "search_slug": "butterfly-knife-stained-battle-scarred"
+    },
+    {
+      "canonical_slug": "515-43-normal-factory-new",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-43__normal__factory-new",
+      "name": "Butterfly Knife | Stained (Factory New)",
+      "path": "data/api/consumer/cards/skin-variants/515-43__normal__factory-new.json",
+      "search_slug": "butterfly-knife-stained-factory-new"
+    }
+  ],
+  "exteriors": [
+    "battle-scarred",
+    "factory-new",
+    "field-tested",
+    "minimal-wear",
+    "well-worn"
+  ],
+  "finish_count": 1,
+  "finishes": [
+    {
+      "canonical_slug": "aq-forced",
+      "group": "finishes",
+      "id": "43",
+      "name": "Stained",
+      "path": "data/api/reference/finishes/43.json",
+      "search_slug": "stained"
+    }
+  ],
+  "float_relevance": "medium",
+  "id": "stained",
+  "knowledge_source": "consumer-finish-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/stained.json"
+  },
+  "lookup_count": 0,
+  "name": "Stained",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": false,
+  "pattern_sensitivity": "none",
+  "primary_mechanics": [],
+  "qualities": [
+    "normal",
+    "stattrak"
+  ],
+  "resolution_level": "finish",
+  "search_slug": "stained",
+  "seed_domain": null,
+  "skin_count": 21,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-24",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4669",
+      "name": "CS20 Case",
+      "path": "data/api/consumer/cards/cases/4669.json",
+      "search_slug": "cs20-case"
+    },
+    {
+      "canonical_slug": "crate-valve-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4001",
+      "name": "CS:GO Weapon Case",
+      "path": "data/api/consumer/cards/cases/4001.json",
+      "search_slug": "cs-go-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-valve-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4004",
+      "name": "CS:GO Weapon Case 2",
+      "path": "data/api/consumer/cards/cases/4004.json",
+      "search_slug": "cs-go-weapon-case-2"
+    },
+    {
+      "canonical_slug": "crate-valve-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4010",
+      "name": "CS:GO Weapon Case 3",
+      "path": "data/api/consumer/cards/cases/4010.json",
+      "search_slug": "cs-go-weapon-case-3"
+    },
+    {
+      "canonical_slug": "crate-community-21",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4548",
+      "name": "Danger Zone Case",
+      "path": "data/api/consumer/cards/cases/4548.json",
+      "search_slug": "danger-zone-case"
+    },
+    {
+      "canonical_slug": "crate-community-8",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4091",
+      "name": "Falchion Case",
+      "path": "data/api/consumer/cards/cases/4091.json",
+      "search_slug": "falchion-case"
+    },
+    {
+      "canonical_slug": "crate-community-26",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4698",
+      "name": "Fracture Case",
+      "path": "data/api/consumer/cards/cases/4698.json",
+      "search_slug": "fracture-case"
+    },
+    {
+      "canonical_slug": "crate-community-34",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7003",
+      "name": "Gallery Case",
+      "path": "data/api/consumer/cards/cases/7003.json",
+      "search_slug": "gallery-case"
+    },
+    {
+      "canonical_slug": "crate-community-20",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4482",
+      "name": "Horizon Case",
+      "path": "data/api/consumer/cards/cases/4482.json",
+      "search_slug": "horizon-case"
+    },
+    {
+      "canonical_slug": "crate-community-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4017",
+      "name": "Huntsman Weapon Case",
+      "path": "data/api/consumer/cards/cases/4017.json",
+      "search_slug": "huntsman-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-33",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4904",
+      "name": "Kilowatt Case",
+      "path": "data/api/consumer/cards/cases/4904.json",
+      "search_slug": "kilowatt-case"
+    },
+    {
+      "canonical_slug": "crate-operation-ii",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4003",
+      "name": "Operation Bravo Case",
+      "path": "data/api/consumer/cards/cases/4003.json",
+      "search_slug": "operation-bravo-case"
+    },
+    {
+      "canonical_slug": "crate-community-4",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4018",
+      "name": "Operation Breakout Weapon Case",
+      "path": "data/api/consumer/cards/cases/4018.json",
+      "search_slug": "operation-breakout-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4011",
+      "name": "Operation Phoenix Weapon Case",
+      "path": "data/api/consumer/cards/cases/4011.json",
+      "search_slug": "operation-phoenix-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-operation-vanguard",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4029",
+      "name": "Operation Vanguard Weapon Case",
+      "path": "data/api/consumer/cards/cases/4029.json",
+      "search_slug": "operation-vanguard-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-11",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4187",
+      "name": "Operation Wildfire Case",
+      "path": "data/api/consumer/cards/cases/4187.json",
+      "search_slug": "operation-wildfire-case"
+    },
+    {
+      "canonical_slug": "crate-community-10",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4186",
+      "name": "Revolver Case",
+      "path": "data/api/consumer/cards/cases/4186.json",
+      "search_slug": "revolver-case"
+    },
+    {
+      "canonical_slug": "crate-community-9",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4138",
+      "name": "Shadow Case",
+      "path": "data/api/consumer/cards/cases/4138.json",
+      "search_slug": "shadow-case"
+    },
+    {
+      "canonical_slug": "crate-community-23",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4620",
+      "name": "Shattered Web Case",
+      "path": "data/api/consumer/cards/cases/4620.json",
+      "search_slug": "shattered-web-case"
+    },
+    {
+      "canonical_slug": "crate-community-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4009",
+      "name": "Winter Offensive Weapon Case",
+      "path": "data/api/consumer/cards/cases/4009.json",
+      "search_slug": "winter-offensive-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4002",
+      "name": "eSports 2013 Case",
+      "path": "data/api/consumer/cards/cases/4002.json",
+      "search_slug": "esports-2013-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013-winter",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4005",
+      "name": "eSports 2013 Winter Case",
+      "path": "data/api/consumer/cards/cases/4005.json",
+      "search_slug": "esports-2013-winter-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2014-summer",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4019",
+      "name": "eSports 2014 Summer Case",
+      "path": "data/api/consumer/cards/cases/4019.json",
+      "search_slug": "esports-2014-summer-case"
+    }
+  ],
+  "source_collections": [
+    {
+      "canonical_slug": "set-italy",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_italy",
+      "name": "The Italy Collection",
+      "path": "data/api/consumer/cards/collections/set_italy.json",
+      "search_slug": "the-italy-collection"
+    }
+  ],
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 205,
+  "weapon_groups": [
+    "knife",
+    "pistol"
+  ]
+}

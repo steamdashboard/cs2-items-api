@@ -320,7 +320,24 @@
       "smg",
       "sniper-rifle"
     ],
-    "finish_families": [],
+    "finish_families": [
+      {
+        "canonical_slug": "night",
+        "group": "finish-families",
+        "id": "night",
+        "name": "Night",
+        "path": "data/api/consumer/overlays/finish-families/night.json",
+        "search_slug": "night"
+      },
+      {
+        "canonical_slug": "scorched",
+        "group": "finish-families",
+        "id": "scorched",
+        "name": "Scorched",
+        "path": "data/api/consumer/overlays/finish-families/scorched.json",
+        "search_slug": "scorched"
+      }
+    ],
     "pattern_mechanics": [],
     "rare_special_item_count": 0
   }

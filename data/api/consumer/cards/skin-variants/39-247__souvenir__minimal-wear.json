@@ -63,7 +63,14 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
+    "finish_family": {
+      "canonical_slug": "damascus-steel",
+      "group": "finish-families",
+      "id": "damascus-steel",
+      "name": "Damascus Steel",
+      "path": "data/api/consumer/overlays/finish-families/damascus-steel.json",
+      "search_slug": "damascus-steel"
+    },
     "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 39,
@@ -79,6 +86,7 @@
       "paint_seed_field": null,
       "quality": "souvenir"
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

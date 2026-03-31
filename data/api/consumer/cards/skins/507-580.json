@@ -190,7 +190,14 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
+    "finish_family": {
+      "canonical_slug": "freehand",
+      "group": "finish-families",
+      "id": "freehand",
+      "name": "Freehand",
+      "path": "data/api/consumer/overlays/finish-families/freehand.json",
+      "search_slug": "freehand"
+    },
     "float_relevance": "medium",
     "float_window": {
       "max_float": 0.48,
@@ -202,6 +209,7 @@
       "paint_index": 580,
       "paint_seed_field": null
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

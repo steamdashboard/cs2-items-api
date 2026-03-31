@@ -25,7 +25,14 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
+    "finish_family": {
+      "canonical_slug": "forest-ddpat",
+      "group": "finish-families",
+      "id": "forest-ddpat",
+      "name": "Forest DDPAT",
+      "path": "data/api/consumer/overlays/finish-families/forest-ddpat.json",
+      "search_slug": "forest-ddpat"
+    },
     "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 526,
@@ -41,6 +48,7 @@
       "paint_seed_field": null,
       "quality": "stattrak"
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

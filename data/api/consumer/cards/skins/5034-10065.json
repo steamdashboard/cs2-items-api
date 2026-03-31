@@ -167,14 +167,14 @@
       "paint_seed"
     ],
     "finish_family": {
-      "canonical_slug": "marble-fade",
+      "canonical_slug": "glove-marble-fade",
       "group": "finish-families",
-      "id": "marble-fade",
-      "name": "Marble Fade",
-      "path": "data/api/consumer/overlays/finish-families/marble-fade.json",
-      "search_slug": "marble-fade"
+      "id": "glove-marble-fade",
+      "name": "Glove Marble Fade",
+      "path": "data/api/consumer/overlays/finish-families/glove-marble-fade.json",
+      "search_slug": "glove-marble-fade"
     },
-    "float_relevance": "low",
+    "float_relevance": "medium",
     "float_window": {
       "max_float": null,
       "min_float": null
@@ -185,6 +185,7 @@
       "paint_index": 10065,
       "paint_seed_field": "paint_seed"
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",
@@ -193,6 +194,14 @@
         "name": "Live Item Market State Required",
         "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
         "search_slug": "live-item-market-state-required"
+      },
+      {
+        "canonical_slug": "requires-paint-seed",
+        "group": "market-constraints",
+        "id": "requires-paint-seed",
+        "name": "Paint Seed Required",
+        "path": "data/api/consumer/overlays/market-constraints/requires-paint-seed.json",
+        "search_slug": "paint-seed-required"
       }
     ],
     "market_query": {
@@ -206,32 +215,27 @@
         "5034-10065__normal__vanilla"
       ]
     },
-    "pattern_mechanics": [
-      {
-        "canonical_slug": "fire-and-ice",
-        "group": "rare-patterns",
-        "id": "fire-and-ice",
-        "name": "Fire and Ice",
-        "path": "data/api/consumer/overlays/rare-patterns/fire-and-ice.json",
-        "search_slug": "fire-and-ice"
-      }
-    ],
+    "pattern_mechanics": [],
     "pattern_sensitive": true,
-    "pattern_sensitivity": "high",
+    "pattern_sensitivity": "medium",
     "phase": null,
     "resolution_level": "paint-seed",
     "seed_domain": {
-      "cardinality": 1000,
+      "cardinality": 1001,
       "deterministic": true,
       "field": "paint_seed",
-      "maximum": 999,
-      "minimum": 0
+      "maximum": 1000,
+      "minimum": 0,
+      "standard_opening_maximum": 999,
+      "tradeup_only_seed_values": [
+        1000
+      ]
     },
     "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": false,
       "fade_overlay": false,
-      "fire_and_ice_overlay": true,
+      "fire_and_ice_overlay": false,
       "phase_overlay": false,
       "slaughter_overlay": false,
       "web_overlay": false

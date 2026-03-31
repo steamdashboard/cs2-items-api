@@ -1,0 +1,111 @@
+{
+  "availability": {
+    "normal": 1
+  },
+  "canonical_slug": "glove-case-hardened",
+  "confidence": "medium",
+  "description": "Glove Case Hardened family where pattern distribution matters, but glove collectors do not use the same knife-oriented Blue Gem taxonomy as a universal contract.",
+  "deterministic_inputs": [
+    "paint_index",
+    "paint_seed"
+  ],
+  "example_lookups": [],
+  "example_skins": [
+    {
+      "canonical_slug": "5035-10060",
+      "card_type": "glove",
+      "group": "skins",
+      "id": "5035-10060",
+      "name": "Hydra Gloves | Case Hardened",
+      "path": "data/api/consumer/cards/skins/5035-10060.json",
+      "search_slug": "hydra-gloves-case-hardened"
+    }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "5035-10060-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "5035-10060__normal__vanilla",
+      "name": "Hydra Gloves | Case Hardened",
+      "path": "data/api/consumer/cards/skin-variants/5035-10060__normal__vanilla.json",
+      "search_slug": "hydra-gloves-case-hardened"
+    }
+  ],
+  "exteriors": [
+    "vanilla"
+  ],
+  "finish_count": 1,
+  "finishes": [
+    {
+      "canonical_slug": "bloodhound-hydra-case-hardened",
+      "group": "finishes",
+      "id": "10060",
+      "name": "Case Hardened",
+      "path": "data/api/reference/finishes/10060.json",
+      "search_slug": "case-hardened"
+    }
+  ],
+  "float_relevance": "medium",
+  "id": "glove-case-hardened",
+  "knowledge_source": "community-trading-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/glove-case-hardened.json"
+  },
+  "lookup_count": 0,
+  "name": "Glove Case Hardened",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": true,
+  "pattern_sensitivity": "high",
+  "primary_mechanics": [],
+  "qualities": [
+    "normal"
+  ],
+  "resolution_level": "paint-seed",
+  "search_slug": "glove-case-hardened",
+  "seed_domain": {
+    "cardinality": 1001,
+    "deterministic": true,
+    "field": "paint_seed",
+    "maximum": 1000,
+    "minimum": 0,
+    "standard_opening_maximum": 999,
+    "tradeup_only_seed_values": [
+      1000
+    ]
+  },
+  "skin_count": 1,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-19",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4471",
+      "name": "Clutch Case",
+      "path": "data/api/consumer/cards/cases/4471.json",
+      "search_slug": "clutch-case"
+    },
+    {
+      "canonical_slug": "crate-community-32",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4880",
+      "name": "Revolution Case",
+      "path": "data/api/consumer/cards/cases/4880.json",
+      "search_slug": "revolution-case"
+    }
+  ],
+  "source_collections": [],
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 1,
+  "weapon_groups": [
+    "glove"
+  ]
+}

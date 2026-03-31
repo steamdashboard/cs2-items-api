@@ -1,0 +1,111 @@
+{
+  "availability": {
+    "normal": 1
+  },
+  "canonical_slug": "glove-slaughter",
+  "confidence": "medium",
+  "description": "Glove Slaughter family where pattern layout can matter, but the classic knife motif taxonomy is not a stable universal overlay.",
+  "deterministic_inputs": [
+    "paint_index",
+    "paint_seed"
+  ],
+  "example_lookups": [],
+  "example_skins": [
+    {
+      "canonical_slug": "5032-10021",
+      "card_type": "glove",
+      "group": "skins",
+      "id": "5032-10021",
+      "name": "Hand Wraps | Slaughter",
+      "path": "data/api/consumer/cards/skins/5032-10021.json",
+      "search_slug": "hand-wraps-slaughter"
+    }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "5032-10021-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "5032-10021__normal__vanilla",
+      "name": "Hand Wraps | Slaughter",
+      "path": "data/api/consumer/cards/skin-variants/5032-10021__normal__vanilla.json",
+      "search_slug": "hand-wraps-slaughter"
+    }
+  ],
+  "exteriors": [
+    "vanilla"
+  ],
+  "finish_count": 1,
+  "finishes": [
+    {
+      "canonical_slug": "handwrap-red-slaughter",
+      "group": "finishes",
+      "id": "10021",
+      "name": "Slaughter",
+      "path": "data/api/reference/finishes/10021.json",
+      "search_slug": "slaughter"
+    }
+  ],
+  "float_relevance": "medium",
+  "id": "glove-slaughter",
+  "knowledge_source": "community-trading-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/glove-slaughter.json"
+  },
+  "lookup_count": 0,
+  "name": "Glove Slaughter",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": true,
+  "pattern_sensitivity": "medium",
+  "primary_mechanics": [],
+  "qualities": [
+    "normal"
+  ],
+  "resolution_level": "paint-seed",
+  "search_slug": "glove-slaughter",
+  "seed_domain": {
+    "cardinality": 1001,
+    "deterministic": true,
+    "field": "paint_seed",
+    "maximum": 1000,
+    "minimum": 0,
+    "standard_opening_maximum": 999,
+    "tradeup_only_seed_values": [
+      1000
+    ]
+  },
+  "skin_count": 1,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-15",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4288",
+      "name": "Glove Case",
+      "path": "data/api/consumer/cards/cases/4288.json",
+      "search_slug": "glove-case"
+    },
+    {
+      "canonical_slug": "crate-community-17",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4352",
+      "name": "Operation Hydra Case",
+      "path": "data/api/consumer/cards/cases/4352.json",
+      "search_slug": "operation-hydra-case"
+    }
+  ],
+  "source_collections": [],
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 1,
+  "weapon_groups": [
+    "glove"
+  ]
+}

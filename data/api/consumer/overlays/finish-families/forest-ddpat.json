@@ -1,0 +1,528 @@
+{
+  "availability": {
+    "normal": 23,
+    "stattrak": 20
+  },
+  "canonical_slug": "forest-ddpat",
+  "confidence": "medium",
+  "description": "Forest DDPAT knife family where finish identity and exterior matter more than tracked seed tiers.",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
+  "example_lookups": [],
+  "example_skins": [
+    {
+      "canonical_slug": "500-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-5",
+      "name": "Bayonet | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/500-5.json",
+      "search_slug": "bayonet-forest-ddpat"
+    },
+    {
+      "canonical_slug": "514-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-5",
+      "name": "Bowie Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/514-5.json",
+      "search_slug": "bowie-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "515-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-5",
+      "name": "Butterfly Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/515-5.json",
+      "search_slug": "butterfly-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "503-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-5",
+      "name": "Classic Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/503-5.json",
+      "search_slug": "classic-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "512-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-5",
+      "name": "Falchion Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/512-5.json",
+      "search_slug": "falchion-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "505-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-5",
+      "name": "Flip Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/505-5.json",
+      "search_slug": "flip-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "506-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-5",
+      "name": "Gut Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/506-5.json",
+      "search_slug": "gut-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "509-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-5",
+      "name": "Huntsman Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/509-5.json",
+      "search_slug": "huntsman-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "507-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "507-5",
+      "name": "Karambit | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/507-5.json",
+      "search_slug": "karambit-forest-ddpat"
+    },
+    {
+      "canonical_slug": "526-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "526-5",
+      "name": "Kukri Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/526-5.json",
+      "search_slug": "kukri-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "508-5",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "508-5",
+      "name": "M9 Bayonet | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/508-5.json",
+      "search_slug": "m9-bayonet-forest-ddpat"
+    },
+    {
+      "canonical_slug": "33-5",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "33-5",
+      "name": "MP7 | Forest DDPAT",
+      "path": "data/api/consumer/cards/skins/33-5.json",
+      "search_slug": "mp7-forest-ddpat"
+    }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "500-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-5__normal__vanilla",
+      "name": "Bayonet | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/500-5__normal__vanilla.json",
+      "search_slug": "bayonet-forest-ddpat"
+    },
+    {
+      "canonical_slug": "514-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-5__normal__vanilla",
+      "name": "Bowie Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/514-5__normal__vanilla.json",
+      "search_slug": "bowie-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "515-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-5__normal__vanilla",
+      "name": "Butterfly Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/515-5__normal__vanilla.json",
+      "search_slug": "butterfly-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "503-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "503-5__normal__vanilla",
+      "name": "Classic Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/503-5__normal__vanilla.json",
+      "search_slug": "classic-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "512-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "512-5__normal__vanilla",
+      "name": "Falchion Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/512-5__normal__vanilla.json",
+      "search_slug": "falchion-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "505-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-5__normal__vanilla",
+      "name": "Flip Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/505-5__normal__vanilla.json",
+      "search_slug": "flip-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "506-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "506-5__normal__vanilla",
+      "name": "Gut Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/506-5__normal__vanilla.json",
+      "search_slug": "gut-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "509-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "509-5__normal__vanilla",
+      "name": "Huntsman Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/509-5__normal__vanilla.json",
+      "search_slug": "huntsman-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "507-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "507-5__normal__vanilla",
+      "name": "Karambit | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/507-5__normal__vanilla.json",
+      "search_slug": "karambit-forest-ddpat"
+    },
+    {
+      "canonical_slug": "526-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "526-5__normal__vanilla",
+      "name": "Kukri Knife | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/526-5__normal__vanilla.json",
+      "search_slug": "kukri-knife-forest-ddpat"
+    },
+    {
+      "canonical_slug": "508-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "508-5__normal__vanilla",
+      "name": "M9 Bayonet | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/508-5__normal__vanilla.json",
+      "search_slug": "m9-bayonet-forest-ddpat"
+    },
+    {
+      "canonical_slug": "33-5-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "33-5__normal__vanilla",
+      "name": "MP7 | Forest DDPAT",
+      "path": "data/api/consumer/cards/skin-variants/33-5__normal__vanilla.json",
+      "search_slug": "mp7-forest-ddpat"
+    }
+  ],
+  "exteriors": [
+    "vanilla"
+  ],
+  "finish_count": 2,
+  "finishes": [
+    {
+      "canonical_slug": "hy-ddpat",
+      "group": "finishes",
+      "id": "5",
+      "name": "Forest DDPAT",
+      "path": "data/api/reference/finishes/5.json",
+      "search_slug": "forest-ddpat"
+    },
+    {
+      "canonical_slug": "specialist-ddpat-green-camo",
+      "group": "finishes",
+      "id": "10030",
+      "name": "Forest DDPAT",
+      "path": "data/api/reference/finishes/10030.json",
+      "search_slug": "forest-ddpat"
+    }
+  ],
+  "float_relevance": "medium",
+  "id": "forest-ddpat",
+  "knowledge_source": "consumer-finish-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/forest-ddpat.json"
+  },
+  "lookup_count": 0,
+  "name": "Forest DDPAT",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": false,
+  "pattern_sensitivity": "none",
+  "primary_mechanics": [],
+  "qualities": [
+    "normal",
+    "stattrak"
+  ],
+  "resolution_level": "finish",
+  "search_slug": "forest-ddpat",
+  "seed_domain": null,
+  "skin_count": 23,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-24",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4669",
+      "name": "CS20 Case",
+      "path": "data/api/consumer/cards/cases/4669.json",
+      "search_slug": "cs20-case"
+    },
+    {
+      "canonical_slug": "crate-valve-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4001",
+      "name": "CS:GO Weapon Case",
+      "path": "data/api/consumer/cards/cases/4001.json",
+      "search_slug": "cs-go-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-valve-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4004",
+      "name": "CS:GO Weapon Case 2",
+      "path": "data/api/consumer/cards/cases/4004.json",
+      "search_slug": "cs-go-weapon-case-2"
+    },
+    {
+      "canonical_slug": "crate-valve-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4010",
+      "name": "CS:GO Weapon Case 3",
+      "path": "data/api/consumer/cards/cases/4010.json",
+      "search_slug": "cs-go-weapon-case-3"
+    },
+    {
+      "canonical_slug": "crate-community-21",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4548",
+      "name": "Danger Zone Case",
+      "path": "data/api/consumer/cards/cases/4548.json",
+      "search_slug": "danger-zone-case"
+    },
+    {
+      "canonical_slug": "crate-community-8",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4091",
+      "name": "Falchion Case",
+      "path": "data/api/consumer/cards/cases/4091.json",
+      "search_slug": "falchion-case"
+    },
+    {
+      "canonical_slug": "crate-community-26",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4698",
+      "name": "Fracture Case",
+      "path": "data/api/consumer/cards/cases/4698.json",
+      "search_slug": "fracture-case"
+    },
+    {
+      "canonical_slug": "crate-community-34",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7003",
+      "name": "Gallery Case",
+      "path": "data/api/consumer/cards/cases/7003.json",
+      "search_slug": "gallery-case"
+    },
+    {
+      "canonical_slug": "crate-community-15",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4288",
+      "name": "Glove Case",
+      "path": "data/api/consumer/cards/cases/4288.json",
+      "search_slug": "glove-case"
+    },
+    {
+      "canonical_slug": "crate-community-20",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4482",
+      "name": "Horizon Case",
+      "path": "data/api/consumer/cards/cases/4482.json",
+      "search_slug": "horizon-case"
+    },
+    {
+      "canonical_slug": "crate-community-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4017",
+      "name": "Huntsman Weapon Case",
+      "path": "data/api/consumer/cards/cases/4017.json",
+      "search_slug": "huntsman-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-33",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4904",
+      "name": "Kilowatt Case",
+      "path": "data/api/consumer/cards/cases/4904.json",
+      "search_slug": "kilowatt-case"
+    },
+    {
+      "canonical_slug": "crate-operation-ii",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4003",
+      "name": "Operation Bravo Case",
+      "path": "data/api/consumer/cards/cases/4003.json",
+      "search_slug": "operation-bravo-case"
+    },
+    {
+      "canonical_slug": "crate-community-4",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4018",
+      "name": "Operation Breakout Weapon Case",
+      "path": "data/api/consumer/cards/cases/4018.json",
+      "search_slug": "operation-breakout-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-17",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4352",
+      "name": "Operation Hydra Case",
+      "path": "data/api/consumer/cards/cases/4352.json",
+      "search_slug": "operation-hydra-case"
+    },
+    {
+      "canonical_slug": "crate-community-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4011",
+      "name": "Operation Phoenix Weapon Case",
+      "path": "data/api/consumer/cards/cases/4011.json",
+      "search_slug": "operation-phoenix-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-operation-vanguard",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4029",
+      "name": "Operation Vanguard Weapon Case",
+      "path": "data/api/consumer/cards/cases/4029.json",
+      "search_slug": "operation-vanguard-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-11",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4187",
+      "name": "Operation Wildfire Case",
+      "path": "data/api/consumer/cards/cases/4187.json",
+      "search_slug": "operation-wildfire-case"
+    },
+    {
+      "canonical_slug": "crate-community-10",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4186",
+      "name": "Revolver Case",
+      "path": "data/api/consumer/cards/cases/4186.json",
+      "search_slug": "revolver-case"
+    },
+    {
+      "canonical_slug": "crate-community-9",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4138",
+      "name": "Shadow Case",
+      "path": "data/api/consumer/cards/cases/4138.json",
+      "search_slug": "shadow-case"
+    },
+    {
+      "canonical_slug": "crate-community-23",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4620",
+      "name": "Shattered Web Case",
+      "path": "data/api/consumer/cards/cases/4620.json",
+      "search_slug": "shattered-web-case"
+    },
+    {
+      "canonical_slug": "crate-community-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4009",
+      "name": "Winter Offensive Weapon Case",
+      "path": "data/api/consumer/cards/cases/4009.json",
+      "search_slug": "winter-offensive-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4002",
+      "name": "eSports 2013 Case",
+      "path": "data/api/consumer/cards/cases/4002.json",
+      "search_slug": "esports-2013-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013-winter",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4005",
+      "name": "eSports 2013 Winter Case",
+      "path": "data/api/consumer/cards/cases/4005.json",
+      "search_slug": "esports-2013-winter-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2014-summer",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4019",
+      "name": "eSports 2014 Summer Case",
+      "path": "data/api/consumer/cards/cases/4019.json",
+      "search_slug": "esports-2014-summer-case"
+    }
+  ],
+  "source_collections": [
+    {
+      "canonical_slug": "set-bank",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_bank",
+      "name": "The Bank Collection",
+      "path": "data/api/consumer/cards/collections/set_bank.json",
+      "search_slug": "the-bank-collection"
+    }
+  ],
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 43,
+  "weapon_groups": [
+    "glove",
+    "knife",
+    "shotgun",
+    "smg"
+  ]
+}

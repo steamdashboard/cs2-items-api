@@ -21,6 +21,7 @@
     "phases": "data/api/consumer/browse/phases.json",
     "players": "data/api/consumer/browse/players.json",
     "rare_patterns": "data/api/consumer/browse/rare-patterns.json",
+    "seed_lookups": "data/api/consumer/browse/seed-lookups.json",
     "skins": "data/api/consumer/browse/skins.json",
     "souvenir_packages": "data/api/consumer/browse/souvenir-packages.json",
     "special_pools": "data/api/consumer/browse/special-pools.json",
@@ -82,6 +83,7 @@
     "rare_patterns": "data/api/consumer/overlays/rare-patterns/<mechanic_id>.json",
     "rarities": "data/api/consumer/lists/by-rarity/<rarity>.json",
     "search_slugs": "data/api/consumer/lists/by-search-slug/<search_slug>.json",
+    "seed_lookups": "data/api/consumer/overlays/seed-lookups/<lookup_id>.json",
     "skin_exteriors": "data/api/consumer/lists/by-exterior/<exterior>.json",
     "skin_variants": "data/api/consumer/cards/skin-variants/<variant_id>.json",
     "skins": "data/api/consumer/cards/skins/<skin_id>.json",
@@ -95,26 +97,27 @@
     "weapons": "data/api/consumer/cards/weapons/<weapon_id>.json"
   },
   "list_counts": {
-    "by-canonical-slug": 28169,
+    "by-canonical-slug": 28226,
     "by-case": 42,
     "by-collection": 92,
     "by-exterior": 6,
     "by-finish": 1401,
-    "by-finish-family": 9,
-    "by-market-constraint": 2,
+    "by-finish-family": 29,
+    "by-market-constraint": 5,
     "by-market-hash-name": 11681,
     "by-pattern-mechanic": 6,
     "by-quality": 3,
     "by-rarity": 7,
-    "by-search-slug": 25551,
+    "by-search-slug": 25608,
     "by-side": 2,
     "by-type": 21,
     "by-weapon": 63
   },
   "overlay_counts": {
-    "finish-families": 9,
-    "market-constraints": 2,
+    "finish-families": 29,
+    "market-constraints": 5,
     "phases": 24,
-    "rare-patterns": 6
+    "rare-patterns": 6,
+    "seed-lookups": 34
   }
 }

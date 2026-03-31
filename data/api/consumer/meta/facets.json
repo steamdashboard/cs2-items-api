@@ -24,15 +24,35 @@
     "well-worn": 2160
   },
   "finish_families": {
-    "case-hardened": 24,
+    "acid-fade": 1,
+    "amber-fade": 6,
+    "blue-steel": 21,
+    "boreal-forest": 22,
+    "bright-water": 19,
+    "case-hardened": 23,
     "crimson-web": 25,
+    "damascus-steel": 37,
     "doppler": 126,
     "emerald-web": 1,
-    "fade": 28,
+    "fade": 27,
+    "forest-ddpat": 23,
+    "freehand": 27,
     "gamma-doppler": 50,
+    "glove-case-hardened": 1,
+    "glove-fade": 1,
+    "glove-marble-fade": 1,
+    "glove-slaughter": 1,
     "heat-treated": 2,
-    "marble-fade": 19,
-    "slaughter": 21
+    "marble-fade": 18,
+    "night": 23,
+    "rust-coat": 22,
+    "safari-mesh": 23,
+    "scorched": 23,
+    "slaughter": 20,
+    "stained": 21,
+    "tiger-tooth": 18,
+    "ultraviolet": 22,
+    "urban-masked": 20
   },
   "finish_styles": {
     "Anodized": 19,
@@ -48,26 +68,29 @@
     "style-None": 94
   },
   "float_relevance": {
-    "high": 26,
-    "low": 223,
-    "medium": 1832
+    "high": 70,
+    "low": 246,
+    "medium": 1765
   },
   "market_constraints": {
     "cannot-trade": 692,
-    "live-item-market-state": 14808
+    "live-item-market-state": 14808,
+    "requires-float-value": 254,
+    "requires-inspect-link": 756,
+    "requires-paint-seed": 764
   },
   "pattern_mechanics": {
-    "blue-gem": 26,
-    "fade-percentage": 28,
-    "fire-and-ice": 19,
+    "blue-gem": 25,
+    "fade-percentage": 34,
+    "fire-and-ice": 18,
     "phase": 176,
-    "slaughter-motif": 21,
+    "slaughter-motif": 20,
     "web-placement": 26
   },
   "pattern_sensitivity": {
-    "high": 99,
-    "medium": 197,
-    "none": 1785
+    "high": 105,
+    "medium": 198,
+    "none": 1778
   },
   "qualities": {
     "normal": 7475,
@@ -84,13 +107,14 @@
     "uncommon": 701
   },
   "resolution_levels": {
-    "finish": 1961,
-    "paint-seed": 94,
+    "finish": 1910,
+    "finish-and-float": 44,
+    "paint-seed": 101,
     "paint-seed-and-float": 26
   },
   "seed_sensitivity": {
-    "not-seed-sensitive": 1961,
-    "seed-sensitive": 120
+    "not-seed-sensitive": 1954,
+    "seed-sensitive": 127
   },
   "special_pool_categories": {
     "bonus-rule": 2,
@@ -98,11 +122,11 @@
     "knife": 16
   },
   "supports": {
-    "blue_gem_overlay": 26,
-    "fade_overlay": 28,
-    "fire_and_ice_overlay": 19,
+    "blue_gem_overlay": 25,
+    "fade_overlay": 34,
+    "fire_and_ice_overlay": 18,
     "phase_overlay": 176,
-    "slaughter_overlay": 21,
+    "slaughter_overlay": 20,
     "web_overlay": 26
   },
   "weapon_groups": {

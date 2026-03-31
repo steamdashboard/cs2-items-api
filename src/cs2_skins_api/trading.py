@@ -133,12 +133,93 @@ CSFLOAT_CATEGORY_BY_QUALITY = {
 PATTERN_SEED_DOMAIN = {
     "field": "paint_seed",
     "minimum": 0,
-    "maximum": 999,
-    "cardinality": 1000,
+    "maximum": 1000,
+    "cardinality": 1001,
+    "standard_opening_maximum": 999,
+    "tradeup_only_seed_values": [1000],
     "deterministic": True,
+}
+DEFAULT_SUPPORT_FLAGS = {
+    "phase_overlay": False,
+    "fade_overlay": False,
+    "blue_gem_overlay": False,
+    "fire_and_ice_overlay": False,
+    "web_overlay": False,
+    "slaughter_overlay": False,
 }
 
 FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
+    "acid-fade": {
+        "name": "Acid Fade",
+        "description": "Acid Fade family where deterministic seed offsets can be converted into fade-style coverage rankings.",
+        "knowledge_source": "open-source-pattern-algorithm",
+        "confidence": "high",
+        "pattern_sensitive": True,
+        "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "low",
+        "primary_mechanics": ["fade-percentage"],
+        "supports": {
+            **DEFAULT_SUPPORT_FLAGS,
+            "fade_overlay": True,
+        },
+    },
+    "amber-fade": {
+        "name": "Amber Fade",
+        "description": "Amber Fade family where deterministic seed offsets can be converted into fade-style coverage rankings.",
+        "knowledge_source": "open-source-pattern-algorithm",
+        "confidence": "high",
+        "pattern_sensitive": True,
+        "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "low",
+        "primary_mechanics": ["fade-percentage"],
+        "supports": {
+            **DEFAULT_SUPPORT_FLAGS,
+            "fade_overlay": True,
+        },
+    },
+    "blue-steel": {
+        "name": "Blue Steel",
+        "description": "Classic knife finish family where condition and model matter more than seed-specific overpay patterns.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "boreal-forest": {
+        "name": "Boreal Forest",
+        "description": "Legacy camouflage knife family where consumers usually browse by finish identity and wear band rather than notable seed tiers.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "bright-water": {
+        "name": "Bright Water",
+        "description": "Bright Water knife family where finish identity and wear dominate consumer browse flows.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
     "case-hardened": {
         "name": "Case Hardened",
         "description": "Community trading family for seed-driven, blue-dominant patterns commonly called Blue Gems.",
@@ -151,12 +232,8 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "float_relevance": "medium",
         "primary_mechanics": ["blue-gem"],
         "supports": {
-            "phase_overlay": False,
-            "fade_overlay": False,
+            **DEFAULT_SUPPORT_FLAGS,
             "blue_gem_overlay": True,
-            "fire_and_ice_overlay": False,
-            "web_overlay": False,
-            "slaughter_overlay": False,
         },
     },
     "crimson-web": {
@@ -171,13 +248,22 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "float_relevance": "high",
         "primary_mechanics": ["web-placement"],
         "supports": {
-            "phase_overlay": False,
-            "fade_overlay": False,
-            "blue_gem_overlay": False,
-            "fire_and_ice_overlay": False,
+            **DEFAULT_SUPPORT_FLAGS,
             "web_overlay": True,
-            "slaughter_overlay": False,
         },
+    },
+    "damascus-steel": {
+        "name": "Damascus Steel",
+        "description": "Layered knife finish family typically valued for finish identity, wear window, and model rather than seed-ranked patterns.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
     },
     "doppler": {
         "name": "Doppler",
@@ -191,12 +277,8 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "float_relevance": "low",
         "primary_mechanics": ["phase"],
         "supports": {
+            **DEFAULT_SUPPORT_FLAGS,
             "phase_overlay": True,
-            "fade_overlay": False,
-            "blue_gem_overlay": False,
-            "fire_and_ice_overlay": False,
-            "web_overlay": False,
-            "slaughter_overlay": False,
         },
     },
     "emerald-web": {
@@ -211,12 +293,8 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "float_relevance": "high",
         "primary_mechanics": ["web-placement"],
         "supports": {
-            "phase_overlay": False,
-            "fade_overlay": False,
-            "blue_gem_overlay": False,
-            "fire_and_ice_overlay": False,
+            **DEFAULT_SUPPORT_FLAGS,
             "web_overlay": True,
-            "slaughter_overlay": False,
         },
     },
     "fade": {
@@ -231,13 +309,35 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "float_relevance": "low",
         "primary_mechanics": ["fade-percentage"],
         "supports": {
-            "phase_overlay": False,
+            **DEFAULT_SUPPORT_FLAGS,
             "fade_overlay": True,
-            "blue_gem_overlay": False,
-            "fire_and_ice_overlay": False,
-            "web_overlay": False,
-            "slaughter_overlay": False,
         },
+    },
+    "forest-ddpat": {
+        "name": "Forest DDPAT",
+        "description": "Forest DDPAT knife family where finish identity and exterior matter more than tracked seed tiers.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "freehand": {
+        "name": "Freehand",
+        "description": "Freehand knife family that is typically consumed as a finish identity rather than a seed-tier market mechanic.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
     },
     "gamma-doppler": {
         "name": "Gamma Doppler",
@@ -251,13 +351,61 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "float_relevance": "low",
         "primary_mechanics": ["phase"],
         "supports": {
+            **DEFAULT_SUPPORT_FLAGS,
             "phase_overlay": True,
-            "fade_overlay": False,
-            "blue_gem_overlay": False,
-            "fire_and_ice_overlay": False,
-            "web_overlay": False,
-            "slaughter_overlay": False,
         },
+    },
+    "glove-case-hardened": {
+        "name": "Glove Case Hardened",
+        "description": "Glove Case Hardened family where pattern distribution matters, but glove collectors do not use the same knife-oriented Blue Gem taxonomy as a universal contract.",
+        "knowledge_source": "community-trading-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": True,
+        "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "glove-fade": {
+        "name": "Glove Fade",
+        "description": "Pattern-sensitive glove family where color split and playside distribution matter, but knife-style fade percentages are not a stable cross-platform contract.",
+        "knowledge_source": "community-trading-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": True,
+        "pattern_sensitivity": "high",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "glove-marble-fade": {
+        "name": "Glove Marble Fade",
+        "description": "Pattern-sensitive glove family that should not be conflated with knife Fire and Ice taxonomy.",
+        "knowledge_source": "community-trading-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": True,
+        "pattern_sensitivity": "medium",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "glove-slaughter": {
+        "name": "Glove Slaughter",
+        "description": "Glove Slaughter family where pattern layout can matter, but the classic knife motif taxonomy is not a stable universal overlay.",
+        "knowledge_source": "community-trading-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": True,
+        "pattern_sensitivity": "medium",
+        "resolution_level": "paint-seed",
+        "deterministic_inputs": ["paint_index", "paint_seed"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
     },
     "heat-treated": {
         "name": "Heat Treated",
@@ -271,12 +419,8 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "float_relevance": "medium",
         "primary_mechanics": ["blue-gem"],
         "supports": {
-            "phase_overlay": False,
-            "fade_overlay": False,
+            **DEFAULT_SUPPORT_FLAGS,
             "blue_gem_overlay": True,
-            "fire_and_ice_overlay": False,
-            "web_overlay": False,
-            "slaughter_overlay": False,
         },
     },
     "marble-fade": {
@@ -291,13 +435,61 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "float_relevance": "low",
         "primary_mechanics": ["fire-and-ice"],
         "supports": {
-            "phase_overlay": False,
-            "fade_overlay": False,
-            "blue_gem_overlay": False,
+            **DEFAULT_SUPPORT_FLAGS,
             "fire_and_ice_overlay": True,
-            "web_overlay": False,
-            "slaughter_overlay": False,
         },
+    },
+    "night": {
+        "name": "Night",
+        "description": "Night knife family where finish identity and clean condition matter more than tracked seed tiers.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "rust-coat": {
+        "name": "Rust Coat",
+        "description": "Rust Coat knife family where finish identity is stable but visible appeal is strongly driven by exact float.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "high",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish-and-float",
+        "deterministic_inputs": ["paint_index", "float_value"],
+        "float_relevance": "high",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "safari-mesh": {
+        "name": "Safari Mesh",
+        "description": "Safari Mesh knife family where finish identity and wear bands dominate consumer use cases.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "scorched": {
+        "name": "Scorched",
+        "description": "Scorched knife family where finish identity and wear dominate consumer browse flows.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
     },
     "slaughter": {
         "name": "Slaughter",
@@ -311,13 +503,61 @@ FINISH_FAMILY_SPECS: dict[str, dict[str, Any]] = {
         "float_relevance": "medium",
         "primary_mechanics": ["slaughter-motif"],
         "supports": {
-            "phase_overlay": False,
-            "fade_overlay": False,
-            "blue_gem_overlay": False,
-            "fire_and_ice_overlay": False,
-            "web_overlay": False,
+            **DEFAULT_SUPPORT_FLAGS,
             "slaughter_overlay": True,
         },
+    },
+    "stained": {
+        "name": "Stained",
+        "description": "Stained knife family where finish identity and exact wear band are more important than seed-specific pattern tiers.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "tiger-tooth": {
+        "name": "Tiger Tooth",
+        "description": "Tiger Tooth family where finish identity is the collector-facing contract and seed-level differentiation is not a standard overlay surface.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "high",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "low",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "ultraviolet": {
+        "name": "Ultraviolet",
+        "description": "Ultraviolet knife family where wear cleanliness matters more than seed-ranked pattern analytics.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "high",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish-and-float",
+        "deterministic_inputs": ["paint_index", "float_value"],
+        "float_relevance": "high",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
+    },
+    "urban-masked": {
+        "name": "Urban Masked",
+        "description": "Urban Masked knife family where finish identity and wear range dominate consumer-facing browse flows.",
+        "knowledge_source": "consumer-finish-taxonomy",
+        "confidence": "medium",
+        "pattern_sensitive": False,
+        "pattern_sensitivity": "none",
+        "resolution_level": "finish",
+        "deterministic_inputs": ["paint_index"],
+        "float_relevance": "medium",
+        "primary_mechanics": [],
+        "supports": dict(DEFAULT_SUPPORT_FLAGS),
     },
 }
 
@@ -385,6 +625,24 @@ MARKET_CONSTRAINT_SPECS: dict[str, dict[str, Any]] = {
         "knowledge_source": "source-backed-attribute",
         "source_attributes": ["cannot trade"],
     },
+    "requires-float-value": {
+        "name": "Exact Float Value Required",
+        "description": "Precise instance evaluation for this mechanic needs the concrete float value from a live item payload.",
+        "knowledge_source": "derived-instance-requirement",
+        "required_instance_fields": ["float_value"],
+    },
+    "requires-inspect-link": {
+        "name": "Inspect Link Required",
+        "description": "This mechanic commonly requires a concrete inspect link or equivalent live item payload to resolve instance-level state.",
+        "knowledge_source": "derived-instance-requirement",
+        "required_instance_fields": ["d_param"],
+    },
+    "requires-paint-seed": {
+        "name": "Paint Seed Required",
+        "description": "Precise pattern classification for this mechanic needs the live paint seed value.",
+        "knowledge_source": "derived-instance-requirement",
+        "required_instance_fields": ["paint_seed"],
+    },
     "live-item-market-state": {
         "name": "Live Item Market State Required",
         "description": "Exact float, paint seed, stickers, inspect link, and trade timers require a concrete live item or listing payload.",
@@ -440,8 +698,22 @@ def normalized_finish_name(display_name: str | None, codename: str | None) -> tu
     return None, "missing"
 
 
-def finish_family_id(finish: dict[str, Any]) -> str | None:
+def finish_family_id(finish: dict[str, Any], weapon_group: str | None = None) -> str | None:
     name = str(finish.get("name") or "").strip().lower()
+    group = str(weapon_group or "").strip().lower()
+    if name == "acid fade":
+        return "acid-fade"
+    if name == "amber fade":
+        return "amber-fade"
+    if group == "glove":
+        if name == "fade":
+            return "glove-fade"
+        if name == "marble fade":
+            return "glove-marble-fade"
+        if name == "case hardened":
+            return "glove-case-hardened"
+        if name == "slaughter":
+            return "glove-slaughter"
     if name == "gamma doppler":
         return "gamma-doppler"
     if name == "doppler":
@@ -450,16 +722,44 @@ def finish_family_id(finish: dict[str, Any]) -> str | None:
         return "marble-fade"
     if name == "fade":
         return "fade"
+    if name == "blue steel":
+        return "blue-steel"
+    if name == "boreal forest":
+        return "boreal-forest"
+    if name == "bright water":
+        return "bright-water"
     if name == "case hardened":
         return "case-hardened"
+    if name == "damascus steel":
+        return "damascus-steel"
+    if name == "forest ddpat":
+        return "forest-ddpat"
+    if name == "freehand":
+        return "freehand"
     if name == "heat treated":
         return "heat-treated"
+    if name == "night":
+        return "night"
+    if name == "rust coat":
+        return "rust-coat"
+    if name == "safari mesh":
+        return "safari-mesh"
+    if name == "scorched":
+        return "scorched"
     if "crimson web" in name:
         return "crimson-web"
     if "emerald web" in name:
         return "emerald-web"
     if name == "slaughter":
         return "slaughter"
+    if name == "stained":
+        return "stained"
+    if name == "tiger tooth":
+        return "tiger-tooth"
+    if name == "ultraviolet":
+        return "ultraviolet"
+    if name == "urban masked":
+        return "urban-masked"
     return None
 
 
@@ -486,14 +786,7 @@ def pattern_sensitivity(family_id: str | None) -> str:
 def support_flags(family_id: str | None) -> dict[str, bool]:
     spec = finish_family_spec(family_id)
     if spec is None:
-        return {
-            "phase_overlay": False,
-            "fade_overlay": False,
-            "blue_gem_overlay": False,
-            "fire_and_ice_overlay": False,
-            "web_overlay": False,
-            "slaughter_overlay": False,
-        }
+        return dict(DEFAULT_SUPPORT_FLAGS)
     return dict(spec.get("supports", {}))
 
 

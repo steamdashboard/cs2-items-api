@@ -1,0 +1,489 @@
+{
+  "availability": {
+    "normal": 20,
+    "stattrak": 20
+  },
+  "canonical_slug": "urban-masked",
+  "confidence": "medium",
+  "description": "Urban Masked knife family where finish identity and wear range dominate consumer-facing browse flows.",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
+  "example_lookups": [],
+  "example_skins": [
+    {
+      "canonical_slug": "500-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-143",
+      "name": "Bayonet | Urban Masked",
+      "path": "data/api/consumer/cards/skins/500-143.json",
+      "search_slug": "bayonet-urban-masked"
+    },
+    {
+      "canonical_slug": "514-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-143",
+      "name": "Bowie Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skins/514-143.json",
+      "search_slug": "bowie-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "515-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-143",
+      "name": "Butterfly Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skins/515-143.json",
+      "search_slug": "butterfly-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "503-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-143",
+      "name": "Classic Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skins/503-143.json",
+      "search_slug": "classic-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "512-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-143",
+      "name": "Falchion Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skins/512-143.json",
+      "search_slug": "falchion-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "505-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-143",
+      "name": "Flip Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skins/505-143.json",
+      "search_slug": "flip-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "506-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-143",
+      "name": "Gut Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skins/506-143.json",
+      "search_slug": "gut-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "509-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-143",
+      "name": "Huntsman Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skins/509-143.json",
+      "search_slug": "huntsman-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "507-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "507-143",
+      "name": "Karambit | Urban Masked",
+      "path": "data/api/consumer/cards/skins/507-143.json",
+      "search_slug": "karambit-urban-masked"
+    },
+    {
+      "canonical_slug": "526-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "526-143",
+      "name": "Kukri Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skins/526-143.json",
+      "search_slug": "kukri-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "508-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "508-143",
+      "name": "M9 Bayonet | Urban Masked",
+      "path": "data/api/consumer/cards/skins/508-143.json",
+      "search_slug": "m9-bayonet-urban-masked"
+    },
+    {
+      "canonical_slug": "520-143",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "520-143",
+      "name": "Navaja Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skins/520-143.json",
+      "search_slug": "navaja-knife-urban-masked"
+    }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "500-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-143__normal__vanilla",
+      "name": "Bayonet | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/500-143__normal__vanilla.json",
+      "search_slug": "bayonet-urban-masked"
+    },
+    {
+      "canonical_slug": "514-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-143__normal__vanilla",
+      "name": "Bowie Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/514-143__normal__vanilla.json",
+      "search_slug": "bowie-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "515-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-143__normal__vanilla",
+      "name": "Butterfly Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/515-143__normal__vanilla.json",
+      "search_slug": "butterfly-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "503-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "503-143__normal__vanilla",
+      "name": "Classic Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/503-143__normal__vanilla.json",
+      "search_slug": "classic-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "512-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "512-143__normal__vanilla",
+      "name": "Falchion Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/512-143__normal__vanilla.json",
+      "search_slug": "falchion-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "505-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-143__normal__vanilla",
+      "name": "Flip Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/505-143__normal__vanilla.json",
+      "search_slug": "flip-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "506-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "506-143__normal__vanilla",
+      "name": "Gut Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/506-143__normal__vanilla.json",
+      "search_slug": "gut-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "509-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "509-143__normal__vanilla",
+      "name": "Huntsman Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/509-143__normal__vanilla.json",
+      "search_slug": "huntsman-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "507-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "507-143__normal__vanilla",
+      "name": "Karambit | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/507-143__normal__vanilla.json",
+      "search_slug": "karambit-urban-masked"
+    },
+    {
+      "canonical_slug": "526-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "526-143__normal__vanilla",
+      "name": "Kukri Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/526-143__normal__vanilla.json",
+      "search_slug": "kukri-knife-urban-masked"
+    },
+    {
+      "canonical_slug": "508-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "508-143__normal__vanilla",
+      "name": "M9 Bayonet | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/508-143__normal__vanilla.json",
+      "search_slug": "m9-bayonet-urban-masked"
+    },
+    {
+      "canonical_slug": "520-143-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "520-143__normal__vanilla",
+      "name": "Navaja Knife | Urban Masked",
+      "path": "data/api/consumer/cards/skin-variants/520-143__normal__vanilla.json",
+      "search_slug": "navaja-knife-urban-masked"
+    }
+  ],
+  "exteriors": [
+    "vanilla"
+  ],
+  "finish_count": 1,
+  "finishes": [
+    {
+      "canonical_slug": "sp-tape-urban",
+      "group": "finishes",
+      "id": "143",
+      "name": "Urban Masked",
+      "path": "data/api/reference/finishes/143.json",
+      "search_slug": "urban-masked"
+    }
+  ],
+  "float_relevance": "medium",
+  "id": "urban-masked",
+  "knowledge_source": "consumer-finish-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/urban-masked.json"
+  },
+  "lookup_count": 0,
+  "name": "Urban Masked",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": false,
+  "pattern_sensitivity": "none",
+  "primary_mechanics": [],
+  "qualities": [
+    "normal",
+    "stattrak"
+  ],
+  "resolution_level": "finish",
+  "search_slug": "urban-masked",
+  "seed_domain": null,
+  "skin_count": 20,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-24",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4669",
+      "name": "CS20 Case",
+      "path": "data/api/consumer/cards/cases/4669.json",
+      "search_slug": "cs20-case"
+    },
+    {
+      "canonical_slug": "crate-valve-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4001",
+      "name": "CS:GO Weapon Case",
+      "path": "data/api/consumer/cards/cases/4001.json",
+      "search_slug": "cs-go-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-valve-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4004",
+      "name": "CS:GO Weapon Case 2",
+      "path": "data/api/consumer/cards/cases/4004.json",
+      "search_slug": "cs-go-weapon-case-2"
+    },
+    {
+      "canonical_slug": "crate-valve-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4010",
+      "name": "CS:GO Weapon Case 3",
+      "path": "data/api/consumer/cards/cases/4010.json",
+      "search_slug": "cs-go-weapon-case-3"
+    },
+    {
+      "canonical_slug": "crate-community-21",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4548",
+      "name": "Danger Zone Case",
+      "path": "data/api/consumer/cards/cases/4548.json",
+      "search_slug": "danger-zone-case"
+    },
+    {
+      "canonical_slug": "crate-community-8",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4091",
+      "name": "Falchion Case",
+      "path": "data/api/consumer/cards/cases/4091.json",
+      "search_slug": "falchion-case"
+    },
+    {
+      "canonical_slug": "crate-community-26",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4698",
+      "name": "Fracture Case",
+      "path": "data/api/consumer/cards/cases/4698.json",
+      "search_slug": "fracture-case"
+    },
+    {
+      "canonical_slug": "crate-community-34",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7003",
+      "name": "Gallery Case",
+      "path": "data/api/consumer/cards/cases/7003.json",
+      "search_slug": "gallery-case"
+    },
+    {
+      "canonical_slug": "crate-community-20",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4482",
+      "name": "Horizon Case",
+      "path": "data/api/consumer/cards/cases/4482.json",
+      "search_slug": "horizon-case"
+    },
+    {
+      "canonical_slug": "crate-community-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4017",
+      "name": "Huntsman Weapon Case",
+      "path": "data/api/consumer/cards/cases/4017.json",
+      "search_slug": "huntsman-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-33",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4904",
+      "name": "Kilowatt Case",
+      "path": "data/api/consumer/cards/cases/4904.json",
+      "search_slug": "kilowatt-case"
+    },
+    {
+      "canonical_slug": "crate-operation-ii",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4003",
+      "name": "Operation Bravo Case",
+      "path": "data/api/consumer/cards/cases/4003.json",
+      "search_slug": "operation-bravo-case"
+    },
+    {
+      "canonical_slug": "crate-community-4",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4018",
+      "name": "Operation Breakout Weapon Case",
+      "path": "data/api/consumer/cards/cases/4018.json",
+      "search_slug": "operation-breakout-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4011",
+      "name": "Operation Phoenix Weapon Case",
+      "path": "data/api/consumer/cards/cases/4011.json",
+      "search_slug": "operation-phoenix-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-operation-vanguard",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4029",
+      "name": "Operation Vanguard Weapon Case",
+      "path": "data/api/consumer/cards/cases/4029.json",
+      "search_slug": "operation-vanguard-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-11",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4187",
+      "name": "Operation Wildfire Case",
+      "path": "data/api/consumer/cards/cases/4187.json",
+      "search_slug": "operation-wildfire-case"
+    },
+    {
+      "canonical_slug": "crate-community-10",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4186",
+      "name": "Revolver Case",
+      "path": "data/api/consumer/cards/cases/4186.json",
+      "search_slug": "revolver-case"
+    },
+    {
+      "canonical_slug": "crate-community-9",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4138",
+      "name": "Shadow Case",
+      "path": "data/api/consumer/cards/cases/4138.json",
+      "search_slug": "shadow-case"
+    },
+    {
+      "canonical_slug": "crate-community-23",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4620",
+      "name": "Shattered Web Case",
+      "path": "data/api/consumer/cards/cases/4620.json",
+      "search_slug": "shattered-web-case"
+    },
+    {
+      "canonical_slug": "crate-community-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4009",
+      "name": "Winter Offensive Weapon Case",
+      "path": "data/api/consumer/cards/cases/4009.json",
+      "search_slug": "winter-offensive-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4002",
+      "name": "eSports 2013 Case",
+      "path": "data/api/consumer/cards/cases/4002.json",
+      "search_slug": "esports-2013-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013-winter",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4005",
+      "name": "eSports 2013 Winter Case",
+      "path": "data/api/consumer/cards/cases/4005.json",
+      "search_slug": "esports-2013-winter-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2014-summer",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4019",
+      "name": "eSports 2014 Summer Case",
+      "path": "data/api/consumer/cards/cases/4019.json",
+      "search_slug": "esports-2014-summer-case"
+    }
+  ],
+  "source_collections": [],
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 40,
+  "weapon_groups": [
+    "knife"
+  ]
+}

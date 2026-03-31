@@ -1,0 +1,583 @@
+{
+  "availability": {
+    "normal": 22,
+    "stattrak": 22
+  },
+  "canonical_slug": "ultraviolet",
+  "confidence": "high",
+  "description": "Ultraviolet knife family where wear cleanliness matters more than seed-ranked pattern analytics.",
+  "deterministic_inputs": [
+    "paint_index",
+    "float_value"
+  ],
+  "example_lookups": [],
+  "example_skins": [
+    {
+      "canonical_slug": "500-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-98",
+      "name": "Bayonet | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/500-98.json",
+      "search_slug": "bayonet-ultraviolet"
+    },
+    {
+      "canonical_slug": "514-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-98",
+      "name": "Bowie Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/514-98.json",
+      "search_slug": "bowie-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "515-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-98",
+      "name": "Butterfly Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/515-98.json",
+      "search_slug": "butterfly-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "503-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-98",
+      "name": "Classic Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/503-98.json",
+      "search_slug": "classic-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "512-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-98",
+      "name": "Falchion Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/512-98.json",
+      "search_slug": "falchion-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "505-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-98",
+      "name": "Flip Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/505-98.json",
+      "search_slug": "flip-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "506-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-98",
+      "name": "Gut Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/506-98.json",
+      "search_slug": "gut-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "509-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-98",
+      "name": "Huntsman Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/509-98.json",
+      "search_slug": "huntsman-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "507-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "507-98",
+      "name": "Karambit | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/507-98.json",
+      "search_slug": "karambit-ultraviolet"
+    },
+    {
+      "canonical_slug": "526-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "526-98",
+      "name": "Kukri Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/526-98.json",
+      "search_slug": "kukri-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "508-98",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "508-98",
+      "name": "M9 Bayonet | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/508-98.json",
+      "search_slug": "m9-bayonet-ultraviolet"
+    },
+    {
+      "canonical_slug": "17-98",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "17-98",
+      "name": "MAC-10 | Ultraviolet",
+      "path": "data/api/consumer/cards/skins/17-98.json",
+      "search_slug": "mac-10-ultraviolet"
+    }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "500-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-98__normal__vanilla",
+      "name": "Bayonet | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/500-98__normal__vanilla.json",
+      "search_slug": "bayonet-ultraviolet"
+    },
+    {
+      "canonical_slug": "514-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-98__normal__vanilla",
+      "name": "Bowie Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/514-98__normal__vanilla.json",
+      "search_slug": "bowie-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "515-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-98__normal__vanilla",
+      "name": "Butterfly Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/515-98__normal__vanilla.json",
+      "search_slug": "butterfly-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "503-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "503-98__normal__vanilla",
+      "name": "Classic Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/503-98__normal__vanilla.json",
+      "search_slug": "classic-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "512-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "512-98__normal__vanilla",
+      "name": "Falchion Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/512-98__normal__vanilla.json",
+      "search_slug": "falchion-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "505-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-98__normal__vanilla",
+      "name": "Flip Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/505-98__normal__vanilla.json",
+      "search_slug": "flip-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "506-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "506-98__normal__vanilla",
+      "name": "Gut Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/506-98__normal__vanilla.json",
+      "search_slug": "gut-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "509-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "509-98__normal__vanilla",
+      "name": "Huntsman Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/509-98__normal__vanilla.json",
+      "search_slug": "huntsman-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "507-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "507-98__normal__vanilla",
+      "name": "Karambit | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/507-98__normal__vanilla.json",
+      "search_slug": "karambit-ultraviolet"
+    },
+    {
+      "canonical_slug": "526-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "526-98__normal__vanilla",
+      "name": "Kukri Knife | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/526-98__normal__vanilla.json",
+      "search_slug": "kukri-knife-ultraviolet"
+    },
+    {
+      "canonical_slug": "508-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "508-98__normal__vanilla",
+      "name": "M9 Bayonet | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/508-98__normal__vanilla.json",
+      "search_slug": "m9-bayonet-ultraviolet"
+    },
+    {
+      "canonical_slug": "17-98-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "17-98__normal__vanilla",
+      "name": "MAC-10 | Ultraviolet",
+      "path": "data/api/consumer/cards/skin-variants/17-98__normal__vanilla.json",
+      "search_slug": "mac-10-ultraviolet"
+    }
+  ],
+  "exteriors": [
+    "vanilla"
+  ],
+  "finish_count": 1,
+  "finishes": [
+    {
+      "canonical_slug": "so-purple",
+      "group": "finishes",
+      "id": "98",
+      "name": "Ultraviolet",
+      "path": "data/api/reference/finishes/98.json",
+      "search_slug": "ultraviolet"
+    }
+  ],
+  "float_relevance": "high",
+  "id": "ultraviolet",
+  "knowledge_source": "consumer-finish-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/ultraviolet.json"
+  },
+  "lookup_count": 0,
+  "name": "Ultraviolet",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": false,
+  "pattern_sensitivity": "none",
+  "primary_mechanics": [],
+  "qualities": [
+    "normal",
+    "stattrak"
+  ],
+  "resolution_level": "finish-and-float",
+  "search_slug": "ultraviolet",
+  "seed_domain": null,
+  "skin_count": 22,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-24",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4669",
+      "name": "CS20 Case",
+      "path": "data/api/consumer/cards/cases/4669.json",
+      "search_slug": "cs20-case"
+    },
+    {
+      "canonical_slug": "crate-valve-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4001",
+      "name": "CS:GO Weapon Case",
+      "path": "data/api/consumer/cards/cases/4001.json",
+      "search_slug": "cs-go-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-valve-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4004",
+      "name": "CS:GO Weapon Case 2",
+      "path": "data/api/consumer/cards/cases/4004.json",
+      "search_slug": "cs-go-weapon-case-2"
+    },
+    {
+      "canonical_slug": "crate-valve-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4010",
+      "name": "CS:GO Weapon Case 3",
+      "path": "data/api/consumer/cards/cases/4010.json",
+      "search_slug": "cs-go-weapon-case-3"
+    },
+    {
+      "canonical_slug": "crate-community-7",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4089",
+      "name": "Chroma 2 Case",
+      "path": "data/api/consumer/cards/cases/4089.json",
+      "search_slug": "chroma-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-12",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4233",
+      "name": "Chroma 3 Case",
+      "path": "data/api/consumer/cards/cases/4233.json",
+      "search_slug": "chroma-3-case"
+    },
+    {
+      "canonical_slug": "crate-community-6",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4061",
+      "name": "Chroma Case",
+      "path": "data/api/consumer/cards/cases/4061.json",
+      "search_slug": "chroma-case"
+    },
+    {
+      "canonical_slug": "crate-community-21",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4548",
+      "name": "Danger Zone Case",
+      "path": "data/api/consumer/cards/cases/4548.json",
+      "search_slug": "danger-zone-case"
+    },
+    {
+      "canonical_slug": "crate-community-8",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4091",
+      "name": "Falchion Case",
+      "path": "data/api/consumer/cards/cases/4091.json",
+      "search_slug": "falchion-case"
+    },
+    {
+      "canonical_slug": "crate-community-35",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7007",
+      "name": "Fever Case",
+      "path": "data/api/consumer/cards/cases/7007.json",
+      "search_slug": "fever-case"
+    },
+    {
+      "canonical_slug": "crate-community-26",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4698",
+      "name": "Fracture Case",
+      "path": "data/api/consumer/cards/cases/4698.json",
+      "search_slug": "fracture-case"
+    },
+    {
+      "canonical_slug": "crate-community-34",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7003",
+      "name": "Gallery Case",
+      "path": "data/api/consumer/cards/cases/7003.json",
+      "search_slug": "gallery-case"
+    },
+    {
+      "canonical_slug": "crate-community-20",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4482",
+      "name": "Horizon Case",
+      "path": "data/api/consumer/cards/cases/4482.json",
+      "search_slug": "horizon-case"
+    },
+    {
+      "canonical_slug": "crate-community-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4017",
+      "name": "Huntsman Weapon Case",
+      "path": "data/api/consumer/cards/cases/4017.json",
+      "search_slug": "huntsman-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-33",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4904",
+      "name": "Kilowatt Case",
+      "path": "data/api/consumer/cards/cases/4904.json",
+      "search_slug": "kilowatt-case"
+    },
+    {
+      "canonical_slug": "crate-operation-ii",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4003",
+      "name": "Operation Bravo Case",
+      "path": "data/api/consumer/cards/cases/4003.json",
+      "search_slug": "operation-bravo-case"
+    },
+    {
+      "canonical_slug": "crate-community-4",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4018",
+      "name": "Operation Breakout Weapon Case",
+      "path": "data/api/consumer/cards/cases/4018.json",
+      "search_slug": "operation-breakout-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4011",
+      "name": "Operation Phoenix Weapon Case",
+      "path": "data/api/consumer/cards/cases/4011.json",
+      "search_slug": "operation-phoenix-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-operation-vanguard",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4029",
+      "name": "Operation Vanguard Weapon Case",
+      "path": "data/api/consumer/cards/cases/4029.json",
+      "search_slug": "operation-vanguard-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-11",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4187",
+      "name": "Operation Wildfire Case",
+      "path": "data/api/consumer/cards/cases/4187.json",
+      "search_slug": "operation-wildfire-case"
+    },
+    {
+      "canonical_slug": "crate-community-25",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4695",
+      "name": "Prisma 2 Case",
+      "path": "data/api/consumer/cards/cases/4695.json",
+      "search_slug": "prisma-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-22",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4598",
+      "name": "Prisma Case",
+      "path": "data/api/consumer/cards/cases/4598.json",
+      "search_slug": "prisma-case"
+    },
+    {
+      "canonical_slug": "crate-community-10",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4186",
+      "name": "Revolver Case",
+      "path": "data/api/consumer/cards/cases/4186.json",
+      "search_slug": "revolver-case"
+    },
+    {
+      "canonical_slug": "crate-community-9",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4138",
+      "name": "Shadow Case",
+      "path": "data/api/consumer/cards/cases/4138.json",
+      "search_slug": "shadow-case"
+    },
+    {
+      "canonical_slug": "crate-community-23",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4620",
+      "name": "Shattered Web Case",
+      "path": "data/api/consumer/cards/cases/4620.json",
+      "search_slug": "shattered-web-case"
+    },
+    {
+      "canonical_slug": "crate-community-18",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4403",
+      "name": "Spectrum 2 Case",
+      "path": "data/api/consumer/cards/cases/4403.json",
+      "search_slug": "spectrum-2-case"
+    },
+    {
+      "canonical_slug": "crate-community-16",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4351",
+      "name": "Spectrum Case",
+      "path": "data/api/consumer/cards/cases/4351.json",
+      "search_slug": "spectrum-case"
+    },
+    {
+      "canonical_slug": "crate-community-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4009",
+      "name": "Winter Offensive Weapon Case",
+      "path": "data/api/consumer/cards/cases/4009.json",
+      "search_slug": "winter-offensive-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4002",
+      "name": "eSports 2013 Case",
+      "path": "data/api/consumer/cards/cases/4002.json",
+      "search_slug": "esports-2013-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013-winter",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4005",
+      "name": "eSports 2013 Winter Case",
+      "path": "data/api/consumer/cards/cases/4005.json",
+      "search_slug": "esports-2013-winter-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2014-summer",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4019",
+      "name": "eSports 2014 Summer Case",
+      "path": "data/api/consumer/cards/cases/4019.json",
+      "search_slug": "esports-2014-summer-case"
+    }
+  ],
+  "source_collections": [
+    {
+      "canonical_slug": "set-weapons-i",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_weapons_i",
+      "name": "The Arms Deal Collection",
+      "path": "data/api/consumer/cards/collections/set_weapons_i.json",
+      "search_slug": "the-arms-deal-collection"
+    },
+    {
+      "canonical_slug": "set-esports-iii",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_esports_iii",
+      "name": "The eSports 2014 Summer Collection",
+      "path": "data/api/consumer/cards/collections/set_esports_iii.json",
+      "search_slug": "the-esports-2014-summer-collection"
+    }
+  ],
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 44,
+  "weapon_groups": [
+    "knife",
+    "rifle",
+    "smg"
+  ]
+}

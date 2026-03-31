@@ -23,10 +23,18 @@
   "skin_name": "SSG 08 | Acid Fade",
   "trading": {
     "deterministic_inputs": [
-      "paint_index"
+      "paint_index",
+      "paint_seed"
     ],
-    "finish_family": null,
-    "float_relevance": "medium",
+    "finish_family": {
+      "canonical_slug": "acid-fade",
+      "group": "finish-families",
+      "id": "acid-fade",
+      "name": "Acid Fade",
+      "path": "data/api/consumer/overlays/finish-families/acid-fade.json",
+      "search_slug": "acid-fade"
+    },
+    "float_relevance": "low",
     "inspect_ref": {
       "def_index": 40,
       "live_item_required_fields": [
@@ -38,9 +46,19 @@
         "tradable"
       ],
       "paint_index": 253,
-      "paint_seed_field": null,
+      "paint_seed_field": "paint_seed",
       "quality": "normal"
     },
+    "lookup_overlays": [
+      {
+        "canonical_slug": "40-253-fade-percentage-lookup",
+        "group": "seed-lookups",
+        "id": "40-253__fade-percentage",
+        "name": "SSG 08 | Acid Fade Seed Lookup",
+        "path": "data/api/consumer/overlays/seed-lookups/40-253__fade-percentage.json",
+        "search_slug": "ssg-08-acid-fade-seed-lookup"
+      }
+    ],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",
@@ -49,6 +67,22 @@
         "name": "Live Item Market State Required",
         "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
         "search_slug": "live-item-market-state-required"
+      },
+      {
+        "canonical_slug": "requires-paint-seed",
+        "group": "market-constraints",
+        "id": "requires-paint-seed",
+        "name": "Paint Seed Required",
+        "path": "data/api/consumer/overlays/market-constraints/requires-paint-seed.json",
+        "search_slug": "paint-seed-required"
+      },
+      {
+        "canonical_slug": "requires-inspect-link",
+        "group": "market-constraints",
+        "id": "requires-inspect-link",
+        "name": "Inspect Link Required",
+        "path": "data/api/consumer/overlays/market-constraints/requires-inspect-link.json",
+        "search_slug": "inspect-link-required"
       }
     ],
     "market_query": {
@@ -63,21 +97,40 @@
         "max_float": 0.03,
         "min_float": 0.0,
         "paint_index": 253,
-        "supports_paint_seed_filter": false
+        "supports_paint_seed_filter": true
       },
       "graph_index_path": "data/api/graph/indexes/by-market-hash-name/SSG%2008%20%7C%20Acid%20Fade%20%28Factory%20New%29.json",
       "market_hash_name": "SSG 08 | Acid Fade (Factory New)"
     },
-    "pattern_mechanics": [],
-    "pattern_sensitive": false,
-    "pattern_sensitivity": "none",
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
+    "pattern_sensitive": true,
+    "pattern_sensitivity": "high",
     "phase": null,
-    "resolution_level": "finish",
-    "seed_domain": null,
-    "seed_sensitive": false,
+    "resolution_level": "paint-seed",
+    "seed_domain": {
+      "cardinality": 1001,
+      "deterministic": true,
+      "field": "paint_seed",
+      "maximum": 1000,
+      "minimum": 0,
+      "standard_opening_maximum": 999,
+      "tradeup_only_seed_values": [
+        1000
+      ]
+    },
+    "seed_sensitive": true,
     "supports": {
       "blue_gem_overlay": false,
-      "fade_overlay": false,
+      "fade_overlay": true,
       "fire_and_ice_overlay": false,
       "phase_overlay": false,
       "slaughter_overlay": false,

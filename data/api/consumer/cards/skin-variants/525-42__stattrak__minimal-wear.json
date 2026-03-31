@@ -25,7 +25,14 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
+    "finish_family": {
+      "canonical_slug": "blue-steel",
+      "group": "finish-families",
+      "id": "blue-steel",
+      "name": "Blue Steel",
+      "path": "data/api/consumer/overlays/finish-families/blue-steel.json",
+      "search_slug": "blue-steel"
+    },
     "float_relevance": "medium",
     "inspect_ref": {
       "def_index": 525,
@@ -41,6 +48,7 @@
       "paint_seed_field": null,
       "quality": "stattrak"
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

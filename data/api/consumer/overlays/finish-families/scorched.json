@@ -1,0 +1,520 @@
+{
+  "availability": {
+    "normal": 23,
+    "souvenir": 2,
+    "stattrak": 20
+  },
+  "canonical_slug": "scorched",
+  "confidence": "medium",
+  "description": "Scorched knife family where finish identity and wear dominate consumer browse flows.",
+  "deterministic_inputs": [
+    "paint_index"
+  ],
+  "example_lookups": [],
+  "example_skins": [
+    {
+      "canonical_slug": "500-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "500-175",
+      "name": "Bayonet | Scorched",
+      "path": "data/api/consumer/cards/skins/500-175.json",
+      "search_slug": "bayonet-scorched"
+    },
+    {
+      "canonical_slug": "514-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "514-175",
+      "name": "Bowie Knife | Scorched",
+      "path": "data/api/consumer/cards/skins/514-175.json",
+      "search_slug": "bowie-knife-scorched"
+    },
+    {
+      "canonical_slug": "515-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "515-175",
+      "name": "Butterfly Knife | Scorched",
+      "path": "data/api/consumer/cards/skins/515-175.json",
+      "search_slug": "butterfly-knife-scorched"
+    },
+    {
+      "canonical_slug": "503-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "503-175",
+      "name": "Classic Knife | Scorched",
+      "path": "data/api/consumer/cards/skins/503-175.json",
+      "search_slug": "classic-knife-scorched"
+    },
+    {
+      "canonical_slug": "512-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "512-175",
+      "name": "Falchion Knife | Scorched",
+      "path": "data/api/consumer/cards/skins/512-175.json",
+      "search_slug": "falchion-knife-scorched"
+    },
+    {
+      "canonical_slug": "505-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "505-175",
+      "name": "Flip Knife | Scorched",
+      "path": "data/api/consumer/cards/skins/505-175.json",
+      "search_slug": "flip-knife-scorched"
+    },
+    {
+      "canonical_slug": "506-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "506-175",
+      "name": "Gut Knife | Scorched",
+      "path": "data/api/consumer/cards/skins/506-175.json",
+      "search_slug": "gut-knife-scorched"
+    },
+    {
+      "canonical_slug": "509-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "509-175",
+      "name": "Huntsman Knife | Scorched",
+      "path": "data/api/consumer/cards/skins/509-175.json",
+      "search_slug": "huntsman-knife-scorched"
+    },
+    {
+      "canonical_slug": "507-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "507-175",
+      "name": "Karambit | Scorched",
+      "path": "data/api/consumer/cards/skins/507-175.json",
+      "search_slug": "karambit-scorched"
+    },
+    {
+      "canonical_slug": "526-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "526-175",
+      "name": "Kukri Knife | Scorched",
+      "path": "data/api/consumer/cards/skins/526-175.json",
+      "search_slug": "kukri-knife-scorched"
+    },
+    {
+      "canonical_slug": "508-175",
+      "card_type": "knife",
+      "group": "skins",
+      "id": "508-175",
+      "name": "M9 Bayonet | Scorched",
+      "path": "data/api/consumer/cards/skins/508-175.json",
+      "search_slug": "m9-bayonet-scorched"
+    },
+    {
+      "canonical_slug": "33-175",
+      "card_type": "weapon-skin",
+      "group": "skins",
+      "id": "33-175",
+      "name": "MP7 | Scorched",
+      "path": "data/api/consumer/cards/skins/33-175.json",
+      "search_slug": "mp7-scorched"
+    }
+  ],
+  "example_variants": [
+    {
+      "canonical_slug": "500-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "500-175__normal__vanilla",
+      "name": "Bayonet | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/500-175__normal__vanilla.json",
+      "search_slug": "bayonet-scorched"
+    },
+    {
+      "canonical_slug": "514-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "514-175__normal__vanilla",
+      "name": "Bowie Knife | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/514-175__normal__vanilla.json",
+      "search_slug": "bowie-knife-scorched"
+    },
+    {
+      "canonical_slug": "515-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "515-175__normal__vanilla",
+      "name": "Butterfly Knife | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/515-175__normal__vanilla.json",
+      "search_slug": "butterfly-knife-scorched"
+    },
+    {
+      "canonical_slug": "503-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "503-175__normal__vanilla",
+      "name": "Classic Knife | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/503-175__normal__vanilla.json",
+      "search_slug": "classic-knife-scorched"
+    },
+    {
+      "canonical_slug": "512-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "512-175__normal__vanilla",
+      "name": "Falchion Knife | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/512-175__normal__vanilla.json",
+      "search_slug": "falchion-knife-scorched"
+    },
+    {
+      "canonical_slug": "505-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "505-175__normal__vanilla",
+      "name": "Flip Knife | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/505-175__normal__vanilla.json",
+      "search_slug": "flip-knife-scorched"
+    },
+    {
+      "canonical_slug": "506-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "506-175__normal__vanilla",
+      "name": "Gut Knife | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/506-175__normal__vanilla.json",
+      "search_slug": "gut-knife-scorched"
+    },
+    {
+      "canonical_slug": "509-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "509-175__normal__vanilla",
+      "name": "Huntsman Knife | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/509-175__normal__vanilla.json",
+      "search_slug": "huntsman-knife-scorched"
+    },
+    {
+      "canonical_slug": "507-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "507-175__normal__vanilla",
+      "name": "Karambit | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/507-175__normal__vanilla.json",
+      "search_slug": "karambit-scorched"
+    },
+    {
+      "canonical_slug": "526-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "526-175__normal__vanilla",
+      "name": "Kukri Knife | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/526-175__normal__vanilla.json",
+      "search_slug": "kukri-knife-scorched"
+    },
+    {
+      "canonical_slug": "508-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "508-175__normal__vanilla",
+      "name": "M9 Bayonet | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/508-175__normal__vanilla.json",
+      "search_slug": "m9-bayonet-scorched"
+    },
+    {
+      "canonical_slug": "33-175-normal-vanilla",
+      "card_type": "skin-variant",
+      "group": "skin-variants",
+      "id": "33-175__normal__vanilla",
+      "name": "MP7 | Scorched",
+      "path": "data/api/consumer/cards/skin-variants/33-175__normal__vanilla.json",
+      "search_slug": "mp7-scorched"
+    }
+  ],
+  "exteriors": [
+    "vanilla"
+  ],
+  "finish_count": 1,
+  "finishes": [
+    {
+      "canonical_slug": "sp-dapple",
+      "group": "finishes",
+      "id": "175",
+      "name": "Scorched",
+      "path": "data/api/reference/finishes/175.json",
+      "search_slug": "scorched"
+    }
+  ],
+  "float_relevance": "medium",
+  "id": "scorched",
+  "knowledge_source": "consumer-finish-taxonomy",
+  "list_paths": {
+    "items": "data/api/consumer/lists/by-finish-family/scorched.json"
+  },
+  "lookup_count": 0,
+  "name": "Scorched",
+  "overlay_type": "finish-family",
+  "pattern_sensitive": false,
+  "pattern_sensitivity": "none",
+  "primary_mechanics": [],
+  "qualities": [
+    "normal",
+    "souvenir",
+    "stattrak"
+  ],
+  "resolution_level": "finish",
+  "search_slug": "scorched",
+  "seed_domain": null,
+  "skin_count": 23,
+  "source_cases": [
+    {
+      "canonical_slug": "crate-community-24",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4669",
+      "name": "CS20 Case",
+      "path": "data/api/consumer/cards/cases/4669.json",
+      "search_slug": "cs20-case"
+    },
+    {
+      "canonical_slug": "crate-valve-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4001",
+      "name": "CS:GO Weapon Case",
+      "path": "data/api/consumer/cards/cases/4001.json",
+      "search_slug": "cs-go-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-valve-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4004",
+      "name": "CS:GO Weapon Case 2",
+      "path": "data/api/consumer/cards/cases/4004.json",
+      "search_slug": "cs-go-weapon-case-2"
+    },
+    {
+      "canonical_slug": "crate-valve-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4010",
+      "name": "CS:GO Weapon Case 3",
+      "path": "data/api/consumer/cards/cases/4010.json",
+      "search_slug": "cs-go-weapon-case-3"
+    },
+    {
+      "canonical_slug": "crate-community-21",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4548",
+      "name": "Danger Zone Case",
+      "path": "data/api/consumer/cards/cases/4548.json",
+      "search_slug": "danger-zone-case"
+    },
+    {
+      "canonical_slug": "crate-community-8",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4091",
+      "name": "Falchion Case",
+      "path": "data/api/consumer/cards/cases/4091.json",
+      "search_slug": "falchion-case"
+    },
+    {
+      "canonical_slug": "crate-community-26",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4698",
+      "name": "Fracture Case",
+      "path": "data/api/consumer/cards/cases/4698.json",
+      "search_slug": "fracture-case"
+    },
+    {
+      "canonical_slug": "crate-community-34",
+      "card_type": "case",
+      "group": "cases",
+      "id": "7003",
+      "name": "Gallery Case",
+      "path": "data/api/consumer/cards/cases/7003.json",
+      "search_slug": "gallery-case"
+    },
+    {
+      "canonical_slug": "crate-community-20",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4482",
+      "name": "Horizon Case",
+      "path": "data/api/consumer/cards/cases/4482.json",
+      "search_slug": "horizon-case"
+    },
+    {
+      "canonical_slug": "crate-community-3",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4017",
+      "name": "Huntsman Weapon Case",
+      "path": "data/api/consumer/cards/cases/4017.json",
+      "search_slug": "huntsman-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-33",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4904",
+      "name": "Kilowatt Case",
+      "path": "data/api/consumer/cards/cases/4904.json",
+      "search_slug": "kilowatt-case"
+    },
+    {
+      "canonical_slug": "crate-operation-ii",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4003",
+      "name": "Operation Bravo Case",
+      "path": "data/api/consumer/cards/cases/4003.json",
+      "search_slug": "operation-bravo-case"
+    },
+    {
+      "canonical_slug": "crate-community-4",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4018",
+      "name": "Operation Breakout Weapon Case",
+      "path": "data/api/consumer/cards/cases/4018.json",
+      "search_slug": "operation-breakout-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-2",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4011",
+      "name": "Operation Phoenix Weapon Case",
+      "path": "data/api/consumer/cards/cases/4011.json",
+      "search_slug": "operation-phoenix-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-operation-vanguard",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4029",
+      "name": "Operation Vanguard Weapon Case",
+      "path": "data/api/consumer/cards/cases/4029.json",
+      "search_slug": "operation-vanguard-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-community-11",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4187",
+      "name": "Operation Wildfire Case",
+      "path": "data/api/consumer/cards/cases/4187.json",
+      "search_slug": "operation-wildfire-case"
+    },
+    {
+      "canonical_slug": "crate-community-10",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4186",
+      "name": "Revolver Case",
+      "path": "data/api/consumer/cards/cases/4186.json",
+      "search_slug": "revolver-case"
+    },
+    {
+      "canonical_slug": "crate-community-9",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4138",
+      "name": "Shadow Case",
+      "path": "data/api/consumer/cards/cases/4138.json",
+      "search_slug": "shadow-case"
+    },
+    {
+      "canonical_slug": "crate-community-23",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4620",
+      "name": "Shattered Web Case",
+      "path": "data/api/consumer/cards/cases/4620.json",
+      "search_slug": "shattered-web-case"
+    },
+    {
+      "canonical_slug": "crate-community-1",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4009",
+      "name": "Winter Offensive Weapon Case",
+      "path": "data/api/consumer/cards/cases/4009.json",
+      "search_slug": "winter-offensive-weapon-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4002",
+      "name": "eSports 2013 Case",
+      "path": "data/api/consumer/cards/cases/4002.json",
+      "search_slug": "esports-2013-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2013-winter",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4005",
+      "name": "eSports 2013 Winter Case",
+      "path": "data/api/consumer/cards/cases/4005.json",
+      "search_slug": "esports-2013-winter-case"
+    },
+    {
+      "canonical_slug": "crate-esports-2014-summer",
+      "card_type": "case",
+      "group": "cases",
+      "id": "4019",
+      "name": "eSports 2014 Summer Case",
+      "path": "data/api/consumer/cards/cases/4019.json",
+      "search_slug": "esports-2014-summer-case"
+    }
+  ],
+  "source_collections": [
+    {
+      "canonical_slug": "set-mirage",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_mirage",
+      "name": "The Mirage Collection",
+      "path": "data/api/consumer/cards/collections/set_mirage.json",
+      "search_slug": "the-mirage-collection"
+    },
+    {
+      "canonical_slug": "set-norse",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_norse",
+      "name": "The Norse Collection",
+      "path": "data/api/consumer/cards/collections/set_norse.json",
+      "search_slug": "the-norse-collection"
+    },
+    {
+      "canonical_slug": "set-overpass",
+      "card_type": "collection",
+      "group": "collections",
+      "id": "set_overpass",
+      "name": "The Overpass Collection",
+      "path": "data/api/consumer/cards/collections/set_overpass.json",
+      "search_slug": "the-overpass-collection"
+    }
+  ],
+  "supports": {
+    "blue_gem_overlay": false,
+    "fade_overlay": false,
+    "fire_and_ice_overlay": false,
+    "phase_overlay": false,
+    "slaughter_overlay": false,
+    "web_overlay": false
+  },
+  "variant_count": 45,
+  "weapon_groups": [
+    "knife",
+    "smg"
+  ]
+}

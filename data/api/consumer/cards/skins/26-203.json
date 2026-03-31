@@ -171,10 +171,18 @@
   "trading": {
     "consumer_type": "weapon-skin",
     "deterministic_inputs": [
-      "paint_index"
+      "paint_index",
+      "float_value"
     ],
-    "finish_family": null,
-    "float_relevance": "medium",
+    "finish_family": {
+      "canonical_slug": "rust-coat",
+      "group": "finish-families",
+      "id": "rust-coat",
+      "name": "Rust Coat",
+      "path": "data/api/consumer/overlays/finish-families/rust-coat.json",
+      "search_slug": "rust-coat"
+    },
+    "float_relevance": "high",
     "float_window": {
       "max_float": 1.0,
       "min_float": 0.0
@@ -185,6 +193,7 @@
       "paint_index": 203,
       "paint_seed_field": null
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",
@@ -193,6 +202,14 @@
         "name": "Live Item Market State Required",
         "path": "data/api/consumer/overlays/market-constraints/live-item-market-state.json",
         "search_slug": "live-item-market-state-required"
+      },
+      {
+        "canonical_slug": "requires-float-value",
+        "group": "market-constraints",
+        "id": "requires-float-value",
+        "name": "Exact Float Value Required",
+        "path": "data/api/consumer/overlays/market-constraints/requires-float-value.json",
+        "search_slug": "exact-float-value-required"
       }
     ],
     "market_query": {
@@ -214,7 +231,7 @@
     "pattern_sensitive": false,
     "pattern_sensitivity": "none",
     "phase": null,
-    "resolution_level": "finish",
+    "resolution_level": "finish-and-float",
     "seed_domain": null,
     "seed_sensitive": false,
     "supports": {

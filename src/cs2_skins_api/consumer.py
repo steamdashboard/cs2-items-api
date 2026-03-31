@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import defaultdict
 from typing import Any
 
+from cs2_skins_api.fade import build_fade_lookup, has_fade_lookup
 from cs2_skins_api.normalize import Localizer
 from cs2_skins_api.special_pools import (
     build_special_pool_candidate_specs,
@@ -1040,6 +1041,33 @@ def build_source_market_summary(flags: dict[str, Any] | None) -> dict[str, Any]:
     }
 
 
+def market_constraint_ref(constraint_id: str) -> dict[str, Any]:
+    spec = MARKET_CONSTRAINT_SPECS[constraint_id]
+    return overlay_ref(
+        "market-constraints",
+        constraint_id,
+        spec["name"],
+        build_canonical_slug(constraint_id),
+        slugify(spec["name"]),
+    )
+
+
+def build_trading_market_constraints(
+    deterministic_inputs: list[str],
+    mechanics: list[str],
+    *,
+    seed_sensitive: bool,
+) -> list[dict[str, Any]]:
+    constraints = [market_constraint_ref("live-item-market-state")]
+    if seed_sensitive:
+        constraints.append(market_constraint_ref("requires-paint-seed"))
+    if "float_value" in deterministic_inputs:
+        constraints.append(market_constraint_ref("requires-float-value"))
+    if any("inspect_link" in RARE_PATTERN_SPECS.get(mechanic_id, {}).get("live_item_requirements", []) for mechanic_id in mechanics):
+        constraints.append(market_constraint_ref("requires-inspect-link"))
+    return unique_list(constraints)
+
+
 def build_skin_trading_profile(
     skin_id: str,
     skin: dict[str, Any],
@@ -1047,11 +1075,10 @@ def build_skin_trading_profile(
     card_type: str,
     finish_taxonomy: dict[str, dict[str, Any]],
 ) -> dict[str, Any]:
-    finish_meta = finish_taxonomy["family_by_finish"].get(str(finish["id"]), {})
-    family_id = finish_meta.get("family_id")
-    family_spec = finish_meta.get("family_spec")
-    support_meta = finish_meta.get("support_flags", support_flags(family_id))
-    mechanics = finish_meta.get("mechanics", [])
+    family_id = finish_family_id(finish, skin["weapon"].get("weapon_group"))
+    family_spec = finish_family_spec(family_id)
+    support_meta = support_flags(family_id)
+    mechanics = rare_pattern_mechanics(family_id)
     phase = finish_taxonomy["phase_by_finish"].get(str(finish["id"]))
     resolution = family_resolution_level(family_id)
     seed_domain = family_seed_domain(family_id)
@@ -1087,17 +1114,10 @@ def build_skin_trading_profile(
         for mechanic_id in mechanics
         if mechanic_id in RARE_PATTERN_SPECS
     ]
-    live_market_constraint = overlay_ref(
-        "market-constraints",
-        "live-item-market-state",
-        MARKET_CONSTRAINT_SPECS["live-item-market-state"]["name"],
-        build_canonical_slug("live-item-market-state"),
-        slugify(MARKET_CONSTRAINT_SPECS["live-item-market-state"]["name"]),
-    )
     return {
         "consumer_type": card_type,
         "finish_family": finish_family,
-        "pattern_sensitive": bool(mechanics),
+        "pattern_sensitive": bool(family_spec and family_spec.get("pattern_sensitive")),
         "seed_sensitive": seed_sensitive,
         "pattern_sensitivity": pattern_sensitivity(family_id),
         "resolution_level": resolution,
@@ -1126,7 +1146,12 @@ def build_skin_trading_profile(
                 "supports_paint_seed_filter": seed_sensitive,
             },
         },
-        "market_constraints": [live_market_constraint],
+        "market_constraints": build_trading_market_constraints(
+            deterministic_inputs,
+            mechanics,
+            seed_sensitive=seed_sensitive,
+        ),
+        "lookup_overlays": [],
     }
 
 
@@ -1144,11 +1169,10 @@ def build_variant_trading_profile(
             }
         }
     finish_id = str(skin_card["finish"]["id"])
-    finish_meta = finish_taxonomy["family_by_finish"].get(finish_id, {})
-    family_id = finish_meta.get("family_id")
-    family_spec = finish_meta.get("family_spec")
-    support_meta = finish_meta.get("support_flags", support_flags(family_id))
-    mechanics = finish_meta.get("mechanics", [])
+    family_id = ((skin_card.get("trading", {}) or {}).get("finish_family") or {}).get("id")
+    family_spec = finish_family_spec(family_id)
+    support_meta = support_flags(family_id)
+    mechanics = rare_pattern_mechanics(family_id)
     phase = finish_taxonomy["phase_by_finish"].get(finish_id)
     resolution = family_resolution_level(family_id)
     seed_domain = family_seed_domain(family_id)
@@ -1206,16 +1230,9 @@ def build_variant_trading_profile(
     if float_window is not None:
         csfloat_payload["min_float"] = float_window["min_float"]
         csfloat_payload["max_float"] = float_window["max_float"]
-    live_market_constraint = overlay_ref(
-        "market-constraints",
-        "live-item-market-state",
-        MARKET_CONSTRAINT_SPECS["live-item-market-state"]["name"],
-        build_canonical_slug("live-item-market-state"),
-        slugify(MARKET_CONSTRAINT_SPECS["live-item-market-state"]["name"]),
-    )
     return {
         "finish_family": finish_family,
-        "pattern_sensitive": bool(mechanics),
+        "pattern_sensitive": bool(family_spec and family_spec.get("pattern_sensitive")),
         "seed_sensitive": seed_sensitive,
         "pattern_sensitivity": pattern_sensitivity(family_id),
         "resolution_level": resolution,
@@ -1239,7 +1256,12 @@ def build_variant_trading_profile(
             "graph_index_path": f"data/api/graph/indexes/by-market-hash-name/{encode_path_key(variant['market_hash_name'])}.json",
             "csfloat": csfloat_payload,
         },
-        "market_constraints": [live_market_constraint],
+        "market_constraints": build_trading_market_constraints(
+            deterministic_inputs,
+            mechanics,
+            seed_sensitive=seed_sensitive,
+        ),
+        "lookup_overlays": [],
     }
 
 
@@ -1377,6 +1399,8 @@ def build_consumer_overlays(
     mechanic_variant_qualities: dict[str, set[str]] = defaultdict(set)
     mechanic_variant_exteriors: dict[str, set[str]] = defaultdict(set)
     mechanic_availability: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+    lookup_refs_by_family: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    lookup_refs_by_mechanic: dict[str, list[dict[str, Any]]] = defaultdict(list)
     finish_case_refs: dict[str, list[dict[str, Any]]] = defaultdict(list)
     finish_collection_refs: dict[str, list[dict[str, Any]]] = defaultdict(list)
     finish_variant_qualities: dict[str, set[str]] = defaultdict(set)
@@ -1501,8 +1525,94 @@ def build_consumer_overlays(
                 constraint_refs[constraint_id].append(ref)
                 constraint_group_counts[constraint_id][group_name] += 1
 
+    seed_lookup_overlays: dict[str, dict[str, Any]] = {}
+    for skin_id, card in skins.items():
+        trading = card.get("trading", {})
+        finish_family = trading.get("finish_family")
+        family_id = finish_family["id"] if finish_family else None
+        weapon_name = card.get("weapon", {}).get("name")
+        if not has_fade_lookup(family_id, weapon_name):
+            continue
+
+        lookup = build_fade_lookup(str(family_id), str(weapon_name))
+        metric_id = lookup["metric_id"]
+        lookup_id = f"{skin_id}__{metric_id}"
+        lookup_name = f"{card['name']} Seed Lookup"
+        lookup_canonical_slug = build_canonical_slug(
+            f"{card.get('canonical_slug')}-{metric_id}-lookup",
+            lookup_id,
+        )
+        lookup_search_slug = slugify(lookup_name)
+        lookup_ref = overlay_ref(
+            "seed-lookups",
+            lookup_id,
+            lookup_name,
+            lookup_canonical_slug,
+            lookup_search_slug,
+        )
+        mechanic_ref = overlay_ref(
+            "rare-patterns",
+            metric_id,
+            RARE_PATTERN_SPECS[metric_id]["name"],
+            build_canonical_slug(metric_id),
+            slugify(RARE_PATTERN_SPECS[metric_id]["name"]),
+        )
+        trading["lookup_overlays"] = unique_list(list(trading.get("lookup_overlays", [])) + [lookup_ref])
+        for variant_id in card.get("variant_ids", []):
+            variant_card = variants.get(variant_id)
+            if variant_card is None:
+                continue
+            variant_trading = variant_card.setdefault("trading", {})
+            variant_trading["lookup_overlays"] = unique_list(list(variant_trading.get("lookup_overlays", [])) + [lookup_ref])
+
+        lookup_refs_by_family[str(family_id)].append(lookup_ref)
+        lookup_refs_by_mechanic[metric_id].append(lookup_ref)
+
+        seed_lookup_overlays[lookup_id] = {
+            "id": lookup_id,
+            "overlay_type": "seed-lookup",
+            "name": lookup_name,
+            "description": f"Deterministic {lookup['metric_name'].lower()} lookup for {card['name']}.",
+            "canonical_slug": lookup_canonical_slug,
+            "search_slug": lookup_search_slug,
+            "knowledge_source": lookup["knowledge_source"],
+            "source_repo": lookup["source_repo"],
+            "source_license": lookup["source_license"],
+            "mechanic": mechanic_ref,
+            "finish_family": finish_family,
+            "skin": card_ref("skins", skin_id, card["name"], card.get("canonical_slug"), card["search_slug"], card["card_type"]),
+            "seed_domain": family_seed_domain(family_id),
+            "metric": {
+                "id": metric_id,
+                "name": lookup["metric_name"],
+                "unit": "percent",
+                "higher_is_better": True,
+            },
+            "seed_count": lookup["seed_count"],
+            "unique_value_count": lookup["unique_percentage_count"],
+            "value_range": {
+                "minimum": lookup["minimum_percentage"],
+                "maximum": lookup["maximum_percentage"],
+                "median": lookup["median_percentage"],
+            },
+            "top_thresholds": lookup["top_thresholds"],
+            "bottom_thresholds": lookup["bottom_thresholds"],
+            "available_exteriors": list(card.get("available_exteriors", [])),
+            "qualities": sorted(
+                {
+                    variants[variant_id]["quality"]
+                    for variant_id in card.get("variant_ids", [])
+                    if variant_id in variants and variants[variant_id].get("quality")
+                }
+            ),
+            "best_seeds": lookup["best_seeds"],
+            "worst_seeds": lookup["worst_seeds"],
+            "entries": lookup["entries"],
+        }
+
     overlays: dict[str, dict[str, dict[str, Any]]] = {
         "finish-families": {},
+        "seed-lookups": seed_lookup_overlays,
         "rare-patterns": {},
         "phases": {},
         "market-constraints": {},
@@ -1557,9 +1667,11 @@ def build_consumer_overlays(
             "qualities": sorted(family_variant_qualities.get(family_id, set())),
             "exteriors": sorted(family_variant_exteriors.get(family_id, set())),
             "availability": dict(sorted(family_availability.get(family_id, {}).items())),
+            "lookup_count": len(unique_list(lookup_refs_by_family.get(family_id, []))),
             "finishes": finish_refs,
             "example_skins": skin_refs[:12],
             "example_variants": variant_refs[:12],
+            "example_lookups": unique_list(sorted(lookup_refs_by_family.get(family_id, []), key=lambda row: row["name"]))[:12],
             "source_cases": unique_list(sorted(family_case_refs.get(family_id, []), key=lambda row: row["name"])),
             "source_collections": unique_list(sorted(family_collection_refs.get(family_id, []), key=lambda row: row["name"])),
             "list_paths": {
@@ -1624,9 +1736,11 @@ def build_consumer_overlays(
             "qualities": sorted(mechanic_variant_qualities.get(mechanic_id, set())),
             "exteriors": sorted(mechanic_variant_exteriors.get(mechanic_id, set())),
             "availability": dict(sorted(mechanic_availability.get(mechanic_id, {}).items())),
+            "lookup_count": len(unique_list(lookup_refs_by_mechanic.get(mechanic_id, []))),
             "finishes": finish_refs,
             "example_skins": unique_list(sorted(mechanic_skin_refs.get(mechanic_id, []), key=lambda row: row["name"]))[:12],
             "example_variants": unique_list(sorted(mechanic_variant_refs.get(mechanic_id, []), key=lambda row: row["name"]))[:12],
+            "example_lookups": unique_list(sorted(lookup_refs_by_mechanic.get(mechanic_id, []), key=lambda row: row["name"]))[:12],
             "source_cases": unique_list(sorted(mechanic_case_refs.get(mechanic_id, []), key=lambda row: row["name"])),
             "source_collections": unique_list(sorted(mechanic_collection_refs.get(mechanic_id, []), key=lambda row: row["name"])),
             "list_paths": {
@@ -1949,6 +2063,7 @@ def build_consumer_browse(
         "special-pools": {"items": refs("special-pools")},
         "tools": {"items": refs("tools")},
         "finish-families": {"items": overlay_refs("finish-families")},
+        "seed-lookups": {"items": overlay_refs("seed-lookups")},
         "rare-patterns": {"items": overlay_refs("rare-patterns")},
         "phases": {"items": overlay_refs("phases")},
         "market-constraints": {"items": overlay_refs("market-constraints")},
@@ -1974,6 +2089,7 @@ def build_consumer_browse(
             "finish_family_count": len(overlays.get("finish-families", {})),
             "finish_count": len(finishes),
             "phase_count": len(overlays.get("phases", {})),
+            "seed_lookup_count": len(overlays.get("seed-lookups", {})),
         },
     }
 
@@ -2012,6 +2128,7 @@ def build_consumer_discovery(
         "market-constraints": "<constraint_id>",
         "phases": "<paint_kit_id>",
         "rare-patterns": "<mechanic_id>",
+        "seed-lookups": "<lookup_id>",
     }
     return {
         "entrypoints": {

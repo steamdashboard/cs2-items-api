@@ -76,7 +76,24 @@
       "smg",
       "sniper-rifle"
     ],
-    "finish_families": [],
+    "finish_families": [
+      {
+        "canonical_slug": "boreal-forest",
+        "group": "finish-families",
+        "id": "boreal-forest",
+        "name": "Boreal Forest",
+        "path": "data/api/consumer/overlays/finish-families/boreal-forest.json",
+        "search_slug": "boreal-forest"
+      },
+      {
+        "canonical_slug": "stained",
+        "group": "finish-families",
+        "id": "stained",
+        "name": "Stained",
+        "path": "data/api/consumer/overlays/finish-families/stained.json",
+        "search_slug": "stained"
+      }
+    ],
     "pattern_mechanics": [],
     "rare_special_item_count": 0
   }

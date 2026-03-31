@@ -193,7 +193,14 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
+    "finish_family": {
+      "canonical_slug": "bright-water",
+      "group": "finish-families",
+      "id": "bright-water",
+      "name": "Bright Water",
+      "path": "data/api/consumer/overlays/finish-families/bright-water.json",
+      "search_slug": "bright-water"
+    },
     "float_relevance": "medium",
     "float_window": {
       "max_float": 0.5,
@@ -205,6 +212,7 @@
       "paint_index": 579,
       "paint_seed_field": null
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

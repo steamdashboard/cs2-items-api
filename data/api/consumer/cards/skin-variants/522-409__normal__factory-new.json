@@ -25,8 +25,15 @@
     "deterministic_inputs": [
       "paint_index"
     ],
-    "finish_family": null,
-    "float_relevance": "medium",
+    "finish_family": {
+      "canonical_slug": "tiger-tooth",
+      "group": "finish-families",
+      "id": "tiger-tooth",
+      "name": "Tiger Tooth",
+      "path": "data/api/consumer/overlays/finish-families/tiger-tooth.json",
+      "search_slug": "tiger-tooth"
+    },
+    "float_relevance": "low",
     "inspect_ref": {
       "def_index": 522,
       "live_item_required_fields": [
@@ -41,6 +48,7 @@
       "paint_seed_field": null,
       "quality": "normal"
     },
+    "lookup_overlays": [],
     "market_constraints": [
       {
         "canonical_slug": "live-item-market-state",

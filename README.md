@@ -47,7 +47,7 @@ The first implementation focuses on:
 - prefab resolution
 - core exports for items, paint kits, sticker kits, item sets, loot lists, music kits, keychains, locales
 - reference exports for finishes, weapons, skins, skin variants, collections, containers, stickers, patches, graffiti, special drops, sticker capsules, tournaments, teams, players, agents, charms, music kits, and tools
-- consumer exports for source-backed item pages, localized names, deterministic prebuilt lists, source-tier rarity summaries, and trading overlays for finish families, rare-pattern mechanics, phases, and market constraints
+- consumer exports for source-backed item pages, localized names, deterministic prebuilt lists, source-tier rarity summaries, and trading overlays for finish families, rare-pattern mechanics, phases, market constraints, and seed lookup overlays where the mechanic can be reproduced offline
 - source asset manifests that resolve logical game refs to real VPK file paths
 - rendered PNG previews with semantic file paths for skins, skin variants, weapons, containers, stickers, patches, graffiti, agents, charms, music kits, and tools
 - reports for unknown blocks, unknown prefabs, and unresolved container sources
@@ -156,6 +156,7 @@ Key entrypoints:
 - `data/api/consumer/overlays/rare-patterns/<mechanic_id>.json`: trading-oriented rare-pattern overlay
 - `data/api/consumer/overlays/phases/<paint_kit_id>.json`: phase overlay keyed by finish
 - `data/api/consumer/overlays/market-constraints/<constraint_id>.json`: market-state or tradability overlay
+- `data/api/consumer/overlays/seed-lookups/<lookup_id>.json`: deterministic per-skin seed lookup overlay for supported mechanics
 - `data/api/consumer/meta/discovery.json`: consumer entrypoints and counts
 - `data/api/media/manifests/<entity_type>__<entity_id>.json`: resolved asset manifest
 - `data/api/media/rendered/manifests/<entity_group>/<id>.json`: rendered entity preview manifest
@@ -167,7 +168,9 @@ Consumer cards and overlays now carry deterministic expert-facing semantics wher
 
 - source-backed or source-tier rarity summaries
 - `resolution_level`, `deterministic_inputs`, and `seed_domain` for trading-sensitive finishes
+- trade-up aware seed domains that distinguish the common `0..999` opening range from the full `0..1000` deterministic pattern space
 - `float_relevance` and inspect-ready refs for skin variants
+- native deterministic seed lookup overlays for supported Fade / Amber Fade / Acid Fade skins
 - explicit media honesty fields such as `media_scope` and `coverage_status`
 
 ## Consuming Over Raw GitHub
@@ -192,6 +195,7 @@ Useful raw URLs:
 - sample case card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/cases/4001.json`
 - sample finish-family overlay: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/overlays/finish-families/case-hardened.json`
 - sample rare-pattern overlay: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/overlays/rare-patterns/blue-gem.json`
+- sample seed lookup overlay: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/overlays/seed-lookups/500-38__fade-percentage.json`
 - sample finishes browse: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/browse/finishes.json`
 - sample rarity list: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/lists/by-rarity/legendary.json`
 - sample agent card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/agents/5505.json`

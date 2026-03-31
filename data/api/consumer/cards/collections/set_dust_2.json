@@ -320,8 +320,42 @@
       "smg",
       "sniper-rifle"
     ],
-    "finish_families": [],
-    "pattern_mechanics": [],
+    "finish_families": [
+      {
+        "canonical_slug": "amber-fade",
+        "group": "finish-families",
+        "id": "amber-fade",
+        "name": "Amber Fade",
+        "path": "data/api/consumer/overlays/finish-families/amber-fade.json",
+        "search_slug": "amber-fade"
+      },
+      {
+        "canonical_slug": "damascus-steel",
+        "group": "finish-families",
+        "id": "damascus-steel",
+        "name": "Damascus Steel",
+        "path": "data/api/consumer/overlays/finish-families/damascus-steel.json",
+        "search_slug": "damascus-steel"
+      },
+      {
+        "canonical_slug": "safari-mesh",
+        "group": "finish-families",
+        "id": "safari-mesh",
+        "name": "Safari Mesh",
+        "path": "data/api/consumer/overlays/finish-families/safari-mesh.json",
+        "search_slug": "safari-mesh"
+      }
+    ],
+    "pattern_mechanics": [
+      {
+        "canonical_slug": "fade-percentage",
+        "group": "rare-patterns",
+        "id": "fade-percentage",
+        "name": "Fade Percentage",
+        "path": "data/api/consumer/overlays/rare-patterns/fade-percentage.json",
+        "search_slug": "fade-percentage"
+      }
+    ],
     "rare_special_item_count": 0
   }
 }

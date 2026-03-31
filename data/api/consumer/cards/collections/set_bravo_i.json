@@ -364,7 +364,16 @@
       "smg",
       "sniper-rifle"
     ],
-    "finish_families": [],
+    "finish_families": [
+      {
+        "canonical_slug": "bright-water",
+        "group": "finish-families",
+        "id": "bright-water",
+        "name": "Bright Water",
+        "path": "data/api/consumer/overlays/finish-families/bright-water.json",
+        "search_slug": "bright-water"
+      }
+    ],
     "pattern_mechanics": [],
     "rare_special_item_count": 0
   }
