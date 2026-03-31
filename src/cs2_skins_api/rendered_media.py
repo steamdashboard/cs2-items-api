@@ -43,7 +43,9 @@ EXTERIOR_TO_TIER = {
 RENDERED_GENERIC_ENTITY_FOLDERS = {
     "agent": "agents",
     "charm": "charms",
+    "collectible": "collectibles",
     "container": "containers",
+    "equipment": "equipment",
     "graffiti": "graffiti",
     "music-kit": "music-kits",
     "patch": "patches",
@@ -346,7 +348,7 @@ def resolve_primary_entity_texture(asset: dict[str, Any]) -> str | None:
     entity_type = asset["entity_type"]
     resolved_refs = asset.get("resolved_refs", {})
 
-    if entity_type in {"weapon", "container", "charm", "music-kit", "tool"}:
+    if entity_type in {"weapon", "equipment", "collectible", "container", "charm", "music-kit", "tool"}:
         path = choose_preferred_texture(
             resolved_refs.get("image_inventory", []),
             exclude_tokens=("_store_png.vtex_c", "_square_png.vtex_c"),

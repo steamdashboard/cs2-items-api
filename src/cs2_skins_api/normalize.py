@@ -68,6 +68,30 @@ AGENT_NAME_FALLBACKS = {
     "st6": "SEAL Team 6",
     "swat": "SWAT",
 }
+COLLECTIBLE_GROUP_HINTS = (
+    ("map_token", "map-token"),
+    ("journal", "tournament-journal"),
+    ("attendance_pin", "pin"),
+    ("commodity_pin", "pin"),
+    ("pickem", "pickem-trophy"),
+    ("trophy", "trophy"),
+    ("collectible_untradable_coin", "coin"),
+    ("coin", "coin"),
+)
+EQUIPMENT_GROUP_MAP = {
+    "item_assaultsuit": "kevlar-helmet",
+    "item_cutters": "rescue-kit",
+    "item_defuser": "defuse-kit",
+    "item_heavyassaultsuit": "heavy-assault-suit",
+    "item_kevlar": "kevlar",
+    "item_nvg": "night-vision",
+}
+PREFAB_TOOL_TYPE_HINTS = (
+    ("campaign_prefab", "campaign-pass"),
+    ("quest_prefab", "quest"),
+    ("csgo_tool", "display-case"),
+    ("musickit_prefab", "music-kit-item"),
+)
 ITEM_ASSET_KEYS = (
     "image_inventory",
     "image_unusual_item",
@@ -175,6 +199,43 @@ def fallback_agent_name(codename: str) -> str:
             break
     root = AGENT_VARIANT_SUFFIX_RE.sub("", root)
     return AGENT_NAME_FALLBACKS.get(root, humanize_identifier(root) or codename)
+
+
+def resolve_used_by_side(resolved: dict[str, Any]) -> str | None:
+    classes = resolved.get("used_by_classes") if isinstance(resolved.get("used_by_classes"), dict) else {}
+    normalized = sorted(str(key) for key in classes.keys())
+    if normalized == ["counter-terrorists"]:
+        return "counter-terrorists"
+    if normalized == ["terrorists"]:
+        return "terrorists"
+    return None
+
+
+def detect_collectible_group(name: str, prefab_spec: str, prefab_tokens: set[str]) -> str | None:
+    lowered_name = name.lower()
+    lowered_prefabs = " ".join(token.lower() for token in prefab_tokens)
+    for token, group in COLLECTIBLE_GROUP_HINTS:
+        if token in prefab_spec or token in lowered_prefabs or token in lowered_name:
+            return group
+    return None
+
+
+def detect_equipment_group(name: str, prefab_spec: str) -> str | None:
+    if prefab_spec and "equipment" not in prefab_spec and name not in EQUIPMENT_GROUP_MAP:
+        return None
+    return EQUIPMENT_GROUP_MAP.get(name)
+
+
+def detect_tool_type(name: str, prefab_spec: str) -> str | None:
+    lowered_name = name.lower()
+    for token, tool_type in PREFAB_TOOL_TYPE_HINTS:
+        if token in prefab_spec:
+            return tool_type
+    if lowered_name.startswith("campaign "):
+        return "campaign-pass"
+    if lowered_name == "quest":
+        return "quest"
+    return None
 
 
 def extract_item_asset_refs(resolved: dict[str, Any]) -> dict[str, Any]:
@@ -285,6 +346,8 @@ def classify_item(raw_item: dict[str, Any], resolved: dict[str, Any], prefab_cha
     attributes = resolved.get("attributes") if isinstance(resolved.get("attributes"), dict) else {}
     tags = raw_item.get("tags") if isinstance(raw_item.get("tags"), dict) else {}
     prefab_tokens = set(prefab_chain + str(raw_item.get("prefab", "")).split())
+    prefab_spec = str(raw_item.get("prefab", "")).strip().lower()
+    side = resolve_used_by_side(resolved)
 
     if name.startswith("Gift -"):
         return {
@@ -325,23 +388,17 @@ def classify_item(raw_item: dict[str, Any], resolved: dict[str, Any], prefab_cha
         }
 
     if any(token.startswith("customplayer") for token in prefab_tokens):
-        side = None
-        if isinstance(resolved.get("used_by_classes"), dict):
-            classes = sorted(resolved["used_by_classes"].keys())
-            if classes == ["counter-terrorists"]:
-                side = "counter-terrorists"
-            elif classes == ["terrorists"]:
-                side = "terrorists"
         return {
             "kind": "agent",
             "group": "agent",
             "side": side,
         }
 
-    if "hands_paintable" in prefab_tokens:
+    if "hands_paintable" in prefab_tokens or "hands" in prefab_tokens:
         return {
             "kind": "weapon",
             "group": "glove",
+            "side": side,
         }
 
     if "melee" in prefab_tokens or name.startswith("weapon_knife") or name == "weapon_bayonet":
@@ -356,16 +413,27 @@ def classify_item(raw_item: dict[str, Any], resolved: dict[str, Any], prefab_cha
             "group": WEAPON_GROUPS.get(name, "other-weapon"),
         }
 
-    if "commodity_pin" in prefab_tokens:
+    equipment_group = detect_equipment_group(name, prefab_spec)
+    if equipment_group:
         return {
-            "kind": "collectible",
-            "group": "pin",
+            "kind": "equipment",
+            "group": equipment_group,
+            "side": side,
         }
 
-    if "coin" in name.lower() or "trophy" in prefab_tokens or "pickem" in prefab_tokens:
+    tool_type = detect_tool_type(name, prefab_spec)
+    if tool_type:
+        return {
+            "kind": "tool",
+            "tool_type": tool_type,
+            "group": "tool",
+        }
+
+    collectible_group = detect_collectible_group(name, prefab_spec, prefab_tokens)
+    if collectible_group:
         return {
             "kind": "collectible",
-            "group": "collectible",
+            "group": collectible_group,
         }
 
     return {
@@ -735,7 +803,7 @@ def summarize_unknown_prefabs(
     unknown: Counter[str] = Counter()
     examples: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for item_id, record in resolved_items.items():
-        if record["classification"]["kind"] != "other":
+        if record["classification"]["kind"] != "other" or record.get("id") is None:
             continue
         prefab_spec = record.get("prefab_spec") or "<none>"
         unknown[prefab_spec] += 1
@@ -768,6 +836,7 @@ def derive_api_dataset(core: dict[str, Any], localizer: Localizer) -> dict[str, 
 
     finishes = build_finish_entities(core["paint_kits"])
     weapons = build_weapon_entities(resolved_items, localizer)
+    equipment = build_equipment_entities(resolved_items, localizer)
     collections = build_collection_entities(item_sets, items_by_name, paint_kits_by_name, localizer)
     containers, unresolved_containers = build_container_entities(
         resolved_items,
@@ -792,6 +861,7 @@ def derive_api_dataset(core: dict[str, Any], localizer: Localizer) -> dict[str, 
     patches = build_patch_entities(core["sticker_kits"], core["raw"], localizer)
     graffiti = build_graffiti_entities(core["sticker_kits"], core["raw"], localizer)
     special_drops = build_special_drop_entities(containers)
+    collectibles = build_collectible_entities(resolved_items, localizer)
     players = build_player_entities(core["raw"]["pro_players"], stickers)
     teams = build_team_entities(core["raw"]["pro_teams"], core["raw"]["pro_players"], stickers, patches, graffiti, localizer)
     tournaments = build_tournament_entities(
@@ -813,13 +883,27 @@ def derive_api_dataset(core: dict[str, Any], localizer: Localizer) -> dict[str, 
     charms = build_charm_entities(core["keychains"])
     music_kits = build_music_entities(core["music_definitions"], containers)
     tools = build_tool_entities(resolved_items, localizer)
-    assets = build_asset_entities(core, weapons, containers, agents, tools, charms, music_kits, stickers, patches, graffiti)
+    assets = build_asset_entities(
+        core,
+        weapons,
+        equipment,
+        collectibles,
+        containers,
+        agents,
+        tools,
+        charms,
+        music_kits,
+        stickers,
+        patches,
+        graffiti,
+    )
 
     relations = build_relations(
         skins,
         skin_variants,
         collections,
         containers,
+        collectibles,
         stickers,
         patches,
         graffiti,
@@ -834,6 +918,8 @@ def derive_api_dataset(core: dict[str, Any], localizer: Localizer) -> dict[str, 
         skin_variants=skin_variants,
         collections=collections,
         containers=containers,
+        collectibles=collectibles,
+        equipment=equipment,
         stickers=stickers,
         patches=patches,
         graffiti=graffiti,
@@ -850,10 +936,12 @@ def derive_api_dataset(core: dict[str, Any], localizer: Localizer) -> dict[str, 
     return {
         "finishes": finishes,
         "weapons": weapons,
+        "equipment": equipment,
         "collections": collections,
         "containers": containers,
         "skins": skins,
         "skin_variants": skin_variants,
+        "collectibles": collectibles,
         "stickers": stickers,
         "patches": patches,
         "graffiti": graffiti,
@@ -903,6 +991,33 @@ def build_weapon_entities(
             "resolved": resolved,
         }
     return weapons
+
+
+def build_equipment_entities(
+    resolved_items: dict[str, dict[str, Any]],
+    localizer: Localizer,
+) -> dict[str, dict[str, Any]]:
+    equipment = {}
+    for item_id, record in resolved_items.items():
+        classification = record["classification"]
+        if classification["kind"] != "equipment":
+            continue
+        resolved = record["resolved"]
+        name = localizer.resolve(resolved.get("item_name")) or humanize_identifier(record["name"], drop_prefixes=("item_",)) or record["name"]
+        equipment[item_id] = {
+            "id": record["id"],
+            "game_id": record["game_id"],
+            "codename": record["name"],
+            "name_token": resolved.get("item_name"),
+            "name": name,
+            "description_token": resolved.get("item_description"),
+            "description": localizer.resolve(resolved.get("item_description")),
+            "equipment_group": classification["group"],
+            "side": classification.get("side"),
+            "rarity_ref": resolved.get("item_rarity") or resolved.get("item_quality"),
+            "search_slug": slugify(name or item_id),
+        }
+    return equipment
 
 
 def build_finish_entities(paint_kits: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
@@ -1080,6 +1195,14 @@ def resolve_container_item_set_fallback(
 def extract_supply_crate_series(resolved: dict[str, Any]) -> int | None:
     attributes = resolved.get("attributes") if isinstance(resolved.get("attributes"), dict) else {}
     entry = attributes.get("set supply crate series")
+    if isinstance(entry, dict):
+        return parse_int(entry.get("value"))
+    return parse_int(entry)
+
+
+def extract_attribute_int(resolved: dict[str, Any], key: str) -> int | None:
+    attributes = resolved.get("attributes") if isinstance(resolved.get("attributes"), dict) else {}
+    entry = attributes.get(key)
     if isinstance(entry, dict):
         return parse_int(entry.get("value"))
     return parse_int(entry)
@@ -1573,6 +1696,35 @@ def build_agents(resolved_items: dict[str, dict[str, Any]], localizer: Localizer
     return agents
 
 
+def build_collectible_entities(
+    resolved_items: dict[str, dict[str, Any]],
+    localizer: Localizer,
+) -> dict[str, dict[str, Any]]:
+    collectibles = {}
+    for item_id, record in resolved_items.items():
+        classification = record["classification"]
+        if classification["kind"] != "collectible":
+            continue
+        resolved = record["resolved"]
+        name = localizer.resolve(resolved.get("item_name")) or humanize_identifier(record["name"]) or record["name"]
+        collectibles[item_id] = {
+            "id": record["id"],
+            "game_id": record["game_id"],
+            "codename": record["name"],
+            "name_token": resolved.get("item_name"),
+            "name": name,
+            "description_token": resolved.get("item_description"),
+            "description": localizer.resolve(resolved.get("item_description")),
+            "collectible_group": classification.get("group"),
+            "rarity_ref": resolved.get("item_rarity") or resolved.get("item_quality"),
+            "tournament_event_id": extract_tournament_event_id(resolved),
+            "campaign_id": extract_attribute_int(resolved, "campaign id"),
+            "upgrade_level": extract_attribute_int(resolved, "upgrade level"),
+            "search_slug": slugify(name or item_id),
+        }
+    return collectibles
+
+
 def build_charm_entities(keychains: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
     charms = {}
     for keychain_id, record in keychains.items():
@@ -1631,14 +1783,22 @@ def build_tool_entities(
         if record["classification"]["kind"] != "tool":
             continue
         resolved = record["resolved"]
+        tool_type = record["classification"].get("tool_type")
+        fallback_name = humanize_identifier(record["name"]) or record["name"]
+        name = localizer.resolve(resolved.get("item_name")) or fallback_name
+        if tool_type == "display-case" and fallback_name:
+            name = fallback_name
         tools[item_id] = {
             "id": record["id"],
             "game_id": record["game_id"],
             "codename": record["name"],
-            "name": localizer.resolve(resolved.get("item_name")) or record["name"],
+            "name_token": resolved.get("item_name"),
+            "name": name,
+            "description_token": resolved.get("item_description"),
             "description": localizer.resolve(resolved.get("item_description")),
-            "tool_type": record["classification"].get("tool_type"),
-            "search_slug": slugify(localizer.resolve(resolved.get("item_name")) or record["name"] or item_id),
+            "tool_type": tool_type,
+            "rarity_ref": resolved.get("item_rarity") or resolved.get("item_quality"),
+            "search_slug": slugify(name or item_id),
         }
     return tools
 
@@ -1859,6 +2019,8 @@ def build_tournament_entities(
 def build_asset_entities(
     core: dict[str, Any],
     weapons: dict[str, dict[str, Any]],
+    equipment: dict[str, dict[str, Any]],
+    collectibles: dict[str, dict[str, Any]],
     containers: dict[str, dict[str, Any]],
     agents: dict[str, dict[str, Any]],
     tools: dict[str, dict[str, Any]],
@@ -1886,6 +2048,8 @@ def build_asset_entities(
 
     for entity_type, entities in (
         ("weapon", weapons),
+        ("equipment", equipment),
+        ("collectible", collectibles),
         ("container", containers),
         ("agent", agents),
         ("tool", tools),
@@ -1921,6 +2085,7 @@ def build_relations(
     skin_variants: dict[str, dict[str, Any]],
     collections: dict[str, dict[str, Any]],
     containers: dict[str, dict[str, Any]],
+    collectibles: dict[str, dict[str, Any]],
     stickers: dict[str, dict[str, Any]],
     patches: dict[str, dict[str, Any]],
     graffiti: dict[str, dict[str, Any]],
@@ -1943,6 +2108,7 @@ def build_relations(
     graffiti_to_team = defaultdict(list)
     graffiti_to_player = defaultdict(list)
     graffiti_to_tournament = defaultdict(list)
+    tournament_to_collectibles = defaultdict(list)
     tournament_to_teams = {}
     tournament_to_players = {}
     tournament_to_containers = {}
@@ -1971,6 +2137,10 @@ def build_relations(
 
     for container_id, container in containers.items():
         container_to_drops[container_id] = container["contents"]
+
+    for collectible_id, collectible in collectibles.items():
+        if collectible.get("tournament_event_id") is not None:
+            tournament_to_collectibles[str(collectible["tournament_event_id"])].append(str(collectible_id))
 
     for group_name, entities, to_team, to_player, to_tournament in (
         ("sticker", stickers, sticker_to_team, sticker_to_player, sticker_to_tournament),
@@ -2001,6 +2171,10 @@ def build_relations(
         "graffiti-to-tournament": dict(graffiti_to_tournament),
         "graffiti-to-team": dict(graffiti_to_team),
         "graffiti-to-player": dict(graffiti_to_player),
+        "tournament-to-collectibles": {
+            tournament_id: sorted(set(ids))
+            for tournament_id, ids in tournament_to_collectibles.items()
+        },
         "tournament-to-teams": {
             tournament_id: sorted(set(tournament["team_ids"]))
             for tournament_id, tournament in tournaments.items()
@@ -2054,6 +2228,8 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
     skin_variants = entity_groups["skin_variants"]
     collections = entity_groups["collections"]
     containers = entity_groups["containers"]
+    collectibles = entity_groups["collectibles"]
+    equipment = entity_groups["equipment"]
     stickers = entity_groups["stickers"]
     patches = entity_groups["patches"]
     graffiti = entity_groups["graffiti"]
@@ -2118,6 +2294,24 @@ def build_indexes(**entity_groups: dict[str, dict[str, Any]]) -> dict[str, Any]:
             by_tournament[str(container["tournament_event_id"])]["containers"].append(str(container_id))
         by_slug[container["search_slug"]].append({"kind": "container", "id": str(container_id)})
         by_market_hash_name[container["name"]].append({"kind": "container", "id": str(container_id)})
+
+    for collectible_id, collectible in collectibles.items():
+        rarity_ref = collectible.get("rarity_ref")
+        if rarity_ref:
+            by_rarity[str(rarity_ref)]["collectibles"].append(str(collectible_id))
+        if collectible.get("tournament_event_id") is not None:
+            by_tournament[str(collectible["tournament_event_id"])]["collectibles"].append(str(collectible_id))
+        by_slug[collectible["search_slug"]].append({"kind": "collectible", "id": str(collectible_id)})
+        by_market_hash_name[collectible["name"]].append({"kind": "collectible", "id": str(collectible_id)})
+
+    for equipment_id, equipment_item in equipment.items():
+        rarity_ref = equipment_item.get("rarity_ref")
+        if rarity_ref:
+            by_rarity[str(rarity_ref)]["equipment"].append(str(equipment_id))
+        if equipment_item.get("side"):
+            by_side[str(equipment_item["side"])]["equipment"].append(str(equipment_id))
+        by_slug[equipment_item["search_slug"]].append({"kind": "equipment", "id": str(equipment_id)})
+        by_market_hash_name[equipment_item["name"]].append({"kind": "equipment", "id": str(equipment_id)})
 
     for sticker_id, sticker in stickers.items():
         rarity_ref = sticker.get("rarity_ref")

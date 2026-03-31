@@ -1,0 +1,73 @@
+{
+  "codename": "ct_gloves",
+  "description": "General-purpose tactical combat gloves designed for military or security personnel.",
+  "description_token": "#CSGO_Wearable_ct_defaultgloves_Desc",
+  "game_id": 5029,
+  "id": 5029,
+  "name": "Default CT Gloves",
+  "name_token": "#CSGO_Wearable_ct_defaultgloves",
+  "prefab_chain": [
+    "wearable",
+    "hands"
+  ],
+  "resolved": {
+    "baseitem": "1",
+    "capabilities": {
+      "nameable": "0"
+    },
+    "drop_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "flexible_loadout_category": "clothing",
+    "flexible_loadout_default": "1",
+    "flexible_loadout_group": "clothing_hands",
+    "flexible_loadout_slot": "clothing_hands",
+    "image_inventory": "econ/weapons/base_weapons/ct_gloves",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_group_equipment": "clothing_hands",
+    "inventory_image_data": {
+      "camera_angles": "2.0 -130.0 0.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "0.0 1.0 -2.0",
+      "override_default_light": "1",
+      "spot_light_key": {
+        "color": "2.1 2.1 2.1",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-120 120 180"
+      },
+      "spot_light_rim": {
+        "color": "4 4 4",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "10.0 -90.0 -60.0"
+      }
+    },
+    "item_class": "wearable_item",
+    "item_description": "#CSGO_Wearable_ct_defaultgloves_Desc",
+    "item_name": "#CSGO_Wearable_ct_defaultgloves",
+    "item_quality": "normal",
+    "item_rarity": "common",
+    "item_type_name": "#Type_Hands",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "model_player": "characters/models/shared/arms/glove_hardknuckle/v_glove_hardknuckle.vmdl",
+    "mouse_pressed_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "name": "ct_gloves",
+    "prefab": "hands",
+    "used_by_classes": {
+      "counter-terrorists": "1"
+    },
+    "visuals": {
+      "player_bodygroups": {
+        "gloves": "0"
+      }
+    }
+  },
+  "search_slug": "default-ct-gloves",
+  "side": "counter-terrorists",
+  "type_name": "Gloves",
+  "type_token": "#Type_Hands",
+  "weapon_group": "glove"
+}

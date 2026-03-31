@@ -124,12 +124,15 @@ def build_consumer_dataset(
         rarity_labels,
     )
     collection_cards = build_collection_cards(api["collections"], api["relations"], api["assets"], localizer, locales)
+    collectible_cards = build_simple_cards(api["collectibles"], api["assets"], rendered, "collectible", localizer, locales)
+    equipment_cards = build_simple_cards(api["equipment"], api["assets"], rendered, "equipment", localizer, locales)
     sticker_cards = build_decal_cards(api["stickers"], api["assets"], rendered, "sticker", localizer, locales)
     patch_cards = build_decal_cards(api["patches"], api["assets"], rendered, "patch", localizer, locales)
     graffiti_cards = build_decal_cards(api["graffiti"], api["assets"], rendered, "graffiti", localizer, locales)
     agent_cards = build_agent_cards(api["agents"], api["assets"], rendered, localizer, locales)
     charm_cards = build_simple_cards(api["charms"], api["assets"], rendered, "charm", localizer, locales)
     music_kit_cards = build_simple_cards(api["music_kits"], api["assets"], rendered, "music-kit", localizer, locales)
+    tool_cards = build_simple_cards(api["tools"], api["assets"], rendered, "tool", localizer, locales)
     tournament_cards = build_event_cards(api["tournaments"], api["relations"], localizer, locales)
     team_cards = build_team_cards(api["teams"], api["relations"], localizer, locales)
     player_cards = build_player_cards(api["players"], api["relations"])
@@ -140,6 +143,8 @@ def build_consumer_dataset(
         "skin-variants": variant_cards,
         **container_cards,
         "collections": collection_cards,
+        "collectibles": collectible_cards,
+        "equipment": equipment_cards,
         "stickers": sticker_cards,
         "patches": patch_cards,
         "graffiti": graffiti_cards,
@@ -147,6 +152,7 @@ def build_consumer_dataset(
         "agents": agent_cards,
         "charms": charm_cards,
         "music-kits": music_kit_cards,
+        "tools": tool_cards,
         "tournaments": tournament_cards,
         "teams": team_cards,
         "players": player_cards,
@@ -787,15 +793,28 @@ def build_simple_cards(
 ) -> dict[str, dict[str, Any]]:
     cards = {}
     for entity_id, entity in entities.items():
-        cards[entity_id] = {
+        card = {
             "id": entity["id"],
             "card_type": card_type,
             "name": entity["name"],
-            "localized_names": localized_values(localizer, None, entity["name"], locales),
+            "localized_names": localized_values(localizer, entity.get("name_token"), entity["name"], locales),
             "search_slug": entity["search_slug"],
             "description": entity.get("description"),
             "media": generic_rendered_media_summary(rendered, card_type, entity_id, media_summary(assets, card_type, entity_id)),
         }
+        for key in (
+            "campaign_id",
+            "collectible_group",
+            "equipment_group",
+            "rarity_ref",
+            "side",
+            "tool_type",
+            "tournament_event_id",
+            "upgrade_level",
+        ):
+            if entity.get(key) is not None:
+                card[key] = entity.get(key)
+        cards[entity_id] = card
     return cards
 
 
@@ -840,6 +859,7 @@ def build_event_cards(
             "team_ids": sorted(relations.get("tournament-to-teams", {}).get(tournament_id, [])),
             "player_ids": sorted(relations.get("tournament-to-players", {}).get(tournament_id, [])),
             "container_ids": sorted(relations.get("tournament-to-containers", {}).get(tournament_id, [])),
+            "collectible_ids": sorted(relations.get("tournament-to-collectibles", {}).get(tournament_id, [])),
         }
     return cards
 
@@ -993,6 +1013,9 @@ def build_consumer_browse(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[s
                 for group_name, group_cards in sorted(cards.items())
             ]
         },
+        "collectibles": {"items": refs("collectibles")},
+        "containers": {"items": refs("containers")},
+        "equipment": {"items": refs("equipment")},
         "skins": {"items": refs("skins")},
         "cases": {"items": refs("cases")},
         "capsules": {"items": refs("capsules")},
@@ -1000,11 +1023,16 @@ def build_consumer_browse(cards: dict[str, dict[str, dict[str, Any]]]) -> dict[s
         "weapons": {"items": refs("weapons")},
         "collections": {"items": refs("collections")},
         "stickers": {"items": refs("stickers")},
+        "patches": {"items": refs("patches")},
+        "graffiti": {"items": refs("graffiti")},
         "agents": {"items": refs("agents")},
         "charms": {"items": refs("charms")},
         "music-kits": {"items": refs("music-kits")},
         "tournaments": {"items": refs("tournaments")},
+        "teams": {"items": refs("teams")},
+        "players": {"items": refs("players")},
         "special-pools": {"items": refs("special-pools")},
+        "tools": {"items": refs("tools")},
     }
 
 
@@ -1014,8 +1042,10 @@ def build_consumer_discovery(cards: dict[str, dict[str, dict[str, Any]]]) -> dic
         "capsules": "<container_id>",
         "cases": "<container_id>",
         "charms": "<keychain_definition_id>",
+        "collectibles": "<item_definition_id>",
         "collections": "<collection_id>",
         "containers": "<container_id>",
+        "equipment": "<item_definition_id>",
         "graffiti": "<sticker_kit_id>",
         "music-kits": "<music_definition_id>",
         "patches": "<sticker_kit_id>",
@@ -1027,6 +1057,7 @@ def build_consumer_discovery(cards: dict[str, dict[str, dict[str, Any]]]) -> dic
         "stickers": "<sticker_kit_id>",
         "teams": "<team_id>",
         "tournaments": "<event_id>",
+        "tools": "<item_definition_id>",
         "weapons": "<weapon_id>",
     }
     return {
@@ -1046,9 +1077,15 @@ def build_consumer_discovery(cards: dict[str, dict[str, dict[str, Any]]]) -> dic
 
 
 def build_consumer_facets(cards: dict[str, dict[str, dict[str, Any]]], special_pools: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    collectible_groups = defaultdict(int)
+    equipment_groups = defaultdict(int)
     weapon_groups = defaultdict(int)
     finish_styles = defaultdict(int)
     pool_categories = defaultdict(int)
+    for card in cards.get("collectibles", {}).values():
+        collectible_groups[card["collectible_group"]] += 1
+    for card in cards.get("equipment", {}).values():
+        equipment_groups[card["equipment_group"]] += 1
     for card in cards.get("weapons", {}).values():
         weapon_groups[card["weapon_group"]] += 1
     for card in cards.get("skins", {}).values():
@@ -1057,6 +1094,8 @@ def build_consumer_facets(cards: dict[str, dict[str, dict[str, Any]]], special_p
     for pool in special_pools.values():
         pool_categories[pool["pool_category"]] += 1
     return {
+        "collectible_groups": dict(sorted(collectible_groups.items())),
+        "equipment_groups": dict(sorted(equipment_groups.items())),
         "weapon_groups": dict(sorted(weapon_groups.items())),
         "finish_styles": dict(sorted(finish_styles.items())),
         "special_pool_categories": dict(sorted(pool_categories.items())),
@@ -1191,7 +1230,9 @@ def rendered_folder_name(entity_type: str) -> str | None:
     mapping = {
         "agent": "agents",
         "charm": "charms",
+        "collectible": "collectibles",
         "container": "containers",
+        "equipment": "equipment",
         "graffiti": "graffiti",
         "music-kit": "music-kits",
         "patch": "patches",

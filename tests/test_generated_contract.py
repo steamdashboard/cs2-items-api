@@ -16,7 +16,7 @@ def load_json(path: Path) -> dict:
 class GeneratedContractTests(unittest.TestCase):
     def test_schema_exposes_layered_api(self) -> None:
         schema = load_json(ROOT / "data/api/meta/schema.json")
-        self.assertEqual(schema["version"], 5)
+        self.assertEqual(schema["version"], 6)
         self.assertEqual(set(schema["layers"]), {"reference", "graph", "consumer", "media"})
 
     def test_reference_consumer_and_media_counts_match_stats(self) -> None:
@@ -37,13 +37,20 @@ class GeneratedContractTests(unittest.TestCase):
 
     def test_sample_reference_consumer_and_media_files_exist(self) -> None:
         sample_paths = [
+            ROOT / "data/api/reference/collectibles/875.json",
+            ROOT / "data/api/reference/equipment/50.json",
             ROOT / "data/api/reference/skins/1-1006.json",
             ROOT / "data/api/reference/containers/4001.json",
             ROOT / "data/api/reference/stickers/10.json",
+            ROOT / "data/api/consumer/cards/collectibles/875.json",
+            ROOT / "data/api/consumer/cards/equipment/50.json",
             ROOT / "data/api/consumer/cards/skins/1-37.json",
             ROOT / "data/api/consumer/cards/cases/4001.json",
             ROOT / "data/api/consumer/cards/special-pools/unusual_revolving_list.json",
+            ROOT / "data/api/consumer/cards/tools/4000.json",
             ROOT / "data/api/consumer/meta/discovery.json",
+            ROOT / "data/api/media/manifests/collectible__875.json",
+            ROOT / "data/api/media/manifests/equipment__50.json",
             ROOT / "data/api/media/manifests/weapon__1.json",
             ROOT / "data/api/media/manifests/container__4001.json",
             ROOT / "data/api/media/rendered/manifests/skins/1-37.json",
@@ -86,11 +93,23 @@ class GeneratedContractTests(unittest.TestCase):
         agent_card = load_json(ROOT / "data/api/consumer/cards/agents/5505.json")
         self.assertEqual(agent_card["side"], "terrorists")
 
-    def test_discovery_exposes_agents_and_agent_sides(self) -> None:
+    def test_discovery_exposes_agents_side_lists_and_new_groups(self) -> None:
         discovery = load_json(ROOT / "data/api/consumer/meta/discovery.json")
         self.assertEqual(
             discovery["entrypoints"]["agents"],
             "data/api/consumer/cards/agents/<item_definition_id>.json",
+        )
+        self.assertEqual(
+            discovery["entrypoints"]["collectibles"],
+            "data/api/consumer/cards/collectibles/<item_definition_id>.json",
+        )
+        self.assertEqual(
+            discovery["entrypoints"]["equipment"],
+            "data/api/consumer/cards/equipment/<item_definition_id>.json",
+        )
+        self.assertEqual(
+            discovery["entrypoints"]["tools"],
+            "data/api/consumer/cards/tools/<item_definition_id>.json",
         )
         self.assertEqual(
             discovery["entrypoints"]["agent_sides"],
@@ -107,6 +126,26 @@ class GeneratedContractTests(unittest.TestCase):
     def test_collection_name_fallback_is_humanized(self) -> None:
         collection = load_json(ROOT / "data/api/reference/collections/set_gamma_2.json")
         self.assertEqual(collection["name"], "The Gamma 2 Collection")
+
+    def test_collectibles_and_equipment_are_exposed(self) -> None:
+        collectible = load_json(ROOT / "data/api/reference/collectibles/875.json")
+        self.assertEqual(collectible["collectible_group"], "trophy")
+        self.assertEqual(collectible["tournament_event_id"], 1)
+
+        equipment = load_json(ROOT / "data/api/reference/equipment/50.json")
+        self.assertEqual(equipment["equipment_group"], "kevlar")
+
+        tool = load_json(ROOT / "data/api/reference/tools/4000.json")
+        self.assertEqual(tool["tool_type"], "display-case")
+
+        tournament = load_json(ROOT / "data/api/consumer/cards/tournaments/15.json")
+        self.assertTrue(tournament["collectible_ids"], "Expected tournament cards to reference collectibles")
+
+    def test_unknown_prefabs_are_resolved(self) -> None:
+        stats = load_json(ROOT / "data/api/meta/stats.json")
+        report = load_json(ROOT / "data/reports/unknown-prefabs.json")
+        self.assertEqual(stats["unknown_prefabs"], 0)
+        self.assertEqual(report, [])
 
     def test_public_build_metadata_does_not_expose_local_paths(self) -> None:
         for path in (

@@ -122,7 +122,9 @@ def capture_previous_state(root: Path) -> dict[str, list[str]]:
         "skins",
         "skin-variants",
         "collections",
+        "collectibles",
         "containers",
+        "equipment",
         "stickers",
         "patches",
         "graffiti",
@@ -283,7 +285,9 @@ def write_api_layer(
     write_entity_group(reference_root / "finishes", api["finishes"])
     write_entity_group(reference_root / "weapons", api["weapons"])
     write_entity_group(reference_root / "collections", api["collections"])
+    write_entity_group(reference_root / "collectibles", api["collectibles"])
     write_entity_group(reference_root / "containers", api["containers"])
+    write_entity_group(reference_root / "equipment", api["equipment"])
     write_entity_group(reference_root / "skins", api["skins"])
     write_entity_group(reference_root / "skin-variants", api["skin_variants"])
     write_entity_group(reference_root / "stickers", api["stickers"])
@@ -349,7 +353,7 @@ def write_api_layer(
     write_json(consumer_root / "meta" / "facets.json", consumer["meta"]["facets"])
 
     schema = {
-        "version": 5,
+        "version": 6,
         "generated_at": generated_at,
         "layers": {
             "reference": "Canonical normalized entities and stable IDs.",
@@ -364,7 +368,9 @@ def write_api_layer(
                 "skins": "data/api/reference/skins/<weapon_id>-<paint_kit_id>.json",
                 "skin_variants": "data/api/reference/skin-variants/<skin_id>__<quality>__<exterior>.json",
                 "collections": "data/api/reference/collections/<item_set_id>.json",
+                "collectibles": "data/api/reference/collectibles/<item_definition_id>.json",
                 "containers": "data/api/reference/containers/<item_definition_id>.json",
+                "equipment": "data/api/reference/equipment/<item_definition_id>.json",
                 "stickers": "data/api/reference/stickers/<sticker_kit_id>.json",
                 "patches": "data/api/reference/patches/<sticker_kit_id>.json",
                 "graffiti": "data/api/reference/graffiti/<sticker_kit_id>.json",
@@ -452,7 +458,9 @@ def write_reports(
         "skins": sorted(api["skins"].keys()),
         "skin-variants": sorted(api["skin_variants"].keys()),
         "collections": sorted(api["collections"].keys()),
+        "collectibles": sorted(str(key) for key in api["collectibles"].keys()),
         "containers": sorted(str(key) for key in api["containers"].keys()),
+        "equipment": sorted(str(key) for key in api["equipment"].keys()),
         "stickers": sorted(str(key) for key in api["stickers"].keys()),
         "patches": sorted(str(key) for key in api["patches"].keys()),
         "graffiti": sorted(str(key) for key in api["graffiti"].keys()),
@@ -495,7 +503,9 @@ def build_stats(
         "finishes": len(api["finishes"]),
         "weapons": len(api["weapons"]),
         "collections": len(api["collections"]),
+        "collectibles": len(api["collectibles"]),
         "containers": len(api["containers"]),
+        "equipment": len(api["equipment"]),
         "skins": len(api["skins"]),
         "skin_variants": len(api["skin_variants"]),
         "stickers": len(api["stickers"]),

@@ -1,0 +1,56 @@
+{
+  "card_type": "tool",
+  "description": "This item will rename a weapon. A custom engraved nameplate will be applied to the weapon and viewable in game.",
+  "id": 1200,
+  "localized_names": {
+    "brazilian": "Etiqueta de Nome",
+    "bulgarian": "Етикет за име",
+    "czech": "Štítek",
+    "danish": "Navneskilt",
+    "dutch": "Naamplaat",
+    "english": "Name Tag",
+    "finnish": "Nimitunniste",
+    "french": "Étiquette",
+    "german": "Namensschild",
+    "greek": "Ετικέτα ονόματος",
+    "hungarian": "Névcédula",
+    "indonesian": "Tag Nama",
+    "italian": "Targhetta nome",
+    "japanese": "ネームタグ",
+    "koreana": "이름표",
+    "latam": "Etiqueta de nombre",
+    "norwegian": "Navnelapp",
+    "polish": "Tabliczka z nazwą",
+    "portuguese": "Placa de Nome",
+    "romanian": "Etichetă",
+    "russian": "Именной ярлык",
+    "schinese": "名称标签",
+    "schinese_pw": "Name Tag",
+    "spanish": "Etiqueta de nombre",
+    "swedish": "Namnplåt",
+    "tchinese": "名稱標籤",
+    "thai": "ป้ายชื่อ",
+    "turkish": "İsim Etiketi",
+    "ukrainian": "Бирка",
+    "vietnamese": "Nhãn tên"
+  },
+  "media": {
+    "asset_id": "tool__1200",
+    "images": [
+      "panorama/images/econ/tools/tag_png.vtex_c",
+      "panorama/images/econ/tools/tag_store_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/tools/1200/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/tools/1200.json",
+    "models": [],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/tools/1200/primary.png",
+    "source_texture_path": "panorama/images/econ/tools/tag_png.vtex_c"
+  },
+  "name": "Name Tag",
+  "rarity_ref": "common",
+  "search_slug": "name-tag",
+  "tool_type": "name"
+}

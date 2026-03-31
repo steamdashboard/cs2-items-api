@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T14:00:40.857460+00:00",
+  "generated_at": "2026-03-31T14:13:08.910312+00:00",
   "id_policy": {
     "skin": "<weapon_id>-<paint_kit_id>",
     "skin_variant": "<skin_id>__<quality>__<exterior>"
@@ -36,8 +36,10 @@
     "reference": {
       "agents": "data/api/reference/agents/<item_definition_id>.json",
       "charms": "data/api/reference/charms/<keychain_definition_id>.json",
+      "collectibles": "data/api/reference/collectibles/<item_definition_id>.json",
       "collections": "data/api/reference/collections/<item_set_id>.json",
       "containers": "data/api/reference/containers/<item_definition_id>.json",
+      "equipment": "data/api/reference/equipment/<item_definition_id>.json",
       "finishes": "data/api/reference/finishes/<paint_kit_id>.json",
       "graffiti": "data/api/reference/graffiti/<sticker_kit_id>.json",
       "music_kits": "data/api/reference/music-kits/<music_definition_id>.json",
@@ -54,5 +56,5 @@
       "weapons": "data/api/reference/weapons/<item_definition_id>.json"
     }
   },
-  "version": 5
+  "version": 6
 }

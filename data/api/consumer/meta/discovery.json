@@ -4,8 +4,10 @@
     "capsules": 486,
     "cases": 42,
     "charms": 81,
+    "collectibles": 613,
     "collections": 95,
     "containers": 358,
+    "equipment": 6,
     "graffiti": 351,
     "music-kits": 95,
     "patches": 112,
@@ -16,8 +18,9 @@
     "special-pools": 22,
     "stickers": 9828,
     "teams": 144,
+    "tools": 125,
     "tournaments": 24,
-    "weapons": 74
+    "weapons": 76
   },
   "entrypoints": {
     "agent_sides": "data/api/consumer/lists/by-side/<side>.json",
@@ -25,8 +28,10 @@
     "capsules": "data/api/consumer/cards/capsules/<container_id>.json",
     "cases": "data/api/consumer/cards/cases/<container_id>.json",
     "charms": "data/api/consumer/cards/charms/<keychain_definition_id>.json",
+    "collectibles": "data/api/consumer/cards/collectibles/<item_definition_id>.json",
     "collections": "data/api/consumer/cards/collections/<collection_id>.json",
     "containers": "data/api/consumer/cards/containers/<container_id>.json",
+    "equipment": "data/api/consumer/cards/equipment/<item_definition_id>.json",
     "graffiti": "data/api/consumer/cards/graffiti/<sticker_kit_id>.json",
     "home": "data/api/consumer/browse/home.json",
     "music_kits": "data/api/consumer/cards/music-kits/<music_definition_id>.json",
@@ -38,6 +43,7 @@
     "special_pools": "data/api/consumer/cards/special-pools/<token>.json",
     "stickers": "data/api/consumer/cards/stickers/<sticker_kit_id>.json",
     "teams": "data/api/consumer/cards/teams/<team_id>.json",
+    "tools": "data/api/consumer/cards/tools/<item_definition_id>.json",
     "tournaments": "data/api/consumer/cards/tournaments/<event_id>.json",
     "weapons": "data/api/consumer/cards/weapons/<weapon_id>.json"
   }
