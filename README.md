@@ -161,6 +161,8 @@ Key entrypoints:
 
 The generated dataset can be consumed directly from GitHub raw URLs.
 
+These examples assume the repository is public. For private repositories, `raw.githubusercontent.com` requires authenticated access through GitHub APIs or another authenticated distribution layer.
+
 Base URLs:
 
 - repository: `https://github.com/steamdashboard/cs2-items-api`
@@ -175,8 +177,11 @@ Useful raw URLs:
 - consumer discovery: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/meta/discovery.json`
 - sample skin card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/skins/1-37.json`
 - sample case card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/cases/4001.json`
+- sample agent card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/agents/5505.json`
+- sample collection card: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/collections/set_anubis.json`
 - sample skin variant: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/reference/skin-variants/1-37__normal__factory-new.json`
 - sample slug index: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/graph/indexes/by-slug/desert-eagle-blaze.json`
+- sample market hash name index: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/graph/indexes/by-market-hash-name/Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29.json`
 - sample rendered PNG: `https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/media/rendered/files/skins/1-37/light.png`
 
 ### `curl`
@@ -200,6 +205,20 @@ Fetch a case card:
 ```bash
 curl -L \
   https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/cases/4001.json
+```
+
+Fetch an agent card:
+
+```bash
+curl -L \
+  https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/agents/5505.json
+```
+
+Fetch a collection card:
+
+```bash
+curl -L \
+  https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/collections/set_anubis.json
 ```
 
 ### JavaScript / TypeScript
@@ -254,6 +273,57 @@ skin = requests.get(f"{API_ROOT}/consumer/cards/skins/1-37.json", timeout=30).js
 print(discovery["counts"]["skins"])
 print(skin["name"])
 print(skin["media"]["primary_image_png"])
+```
+
+Resolve a market hash name to a canonical skin variant:
+
+```python
+import requests
+from urllib.parse import quote
+
+API_ROOT = "https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api"
+market_hash_name = "Desert Eagle | Blaze (Factory New)"
+encoded = quote(market_hash_name, safe="")
+
+index_payload = requests.get(
+    f"{API_ROOT}/graph/indexes/by-market-hash-name/{encoded}.json",
+    timeout=30,
+).json()
+
+variant_id = index_payload["items"][0]["id"]
+variant = requests.get(
+    f"{API_ROOT}/reference/skin-variants/{variant_id}.json",
+    timeout=30,
+).json()
+
+print(variant["market_hash_name"])
+print(variant["skin_id"])
+```
+
+### More Examples
+
+Get a page-ready agent card:
+
+```text
+https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/agents/5505.json
+```
+
+Get a page-ready collection card:
+
+```text
+https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/consumer/cards/collections/set_anubis.json
+```
+
+Resolve a market hash name to a skin variant:
+
+```text
+https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/graph/indexes/by-market-hash-name/Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29.json
+```
+
+Then load the referenced variant:
+
+```text
+https://raw.githubusercontent.com/steamdashboard/cs2-items-api/main/data/api/reference/skin-variants/1-37__normal__factory-new.json
 ```
 
 ### Common Access Patterns
