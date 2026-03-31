@@ -1,0 +1,213 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "521-570",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-gamma-doppler-phase2",
+    "catalog_id": 570,
+    "id": 570,
+    "localized_names": {
+      "brazilian": "Doppler Gama",
+      "bulgarian": "Доплеров гама ефект",
+      "czech": "Gamma Doppler",
+      "danish": "Gamma Doppler",
+      "dutch": "Gamma Doppler",
+      "english": "Gamma Doppler",
+      "finnish": "Gamma Doppler",
+      "french": "Doppler Gamma",
+      "german": "Gamma Doppler",
+      "greek": "Gamma Doppler",
+      "hungarian": "Gamma Doppler",
+      "indonesian": "Gamma Doppler",
+      "italian": "Gamma Doppler",
+      "japanese": "Gamma Doppler",
+      "koreana": "감마 도플러",
+      "latam": "Doppler gamma",
+      "norwegian": "Gamma Doppler",
+      "polish": "Gamma Doppler",
+      "portuguese": "Gamma Doppler",
+      "romanian": "Gamma Doppler",
+      "russian": "Гамма-волны",
+      "schinese": "伽玛多普勒",
+      "schinese_pw": "Gamma Doppler",
+      "spanish": "Doppler gamma",
+      "swedish": "Gamma Doppler",
+      "tchinese": "伽傌都卜勒",
+      "thai": "Gamma Doppler",
+      "turkish": "Gamma Doppler",
+      "ukrainian": "Гамма-ефект Доплера",
+      "vietnamese": "Gamma Doppler"
+    },
+    "name": "Gamma Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "521-570",
+  "localized_names": {
+    "brazilian": "Faca Nômade | Doppler Gama",
+    "bulgarian": "Номадският нож | Доплеров гама ефект",
+    "czech": "Outdoorový nůž | Gamma Doppler",
+    "danish": "Nomadekniv | Gamma Doppler",
+    "dutch": "Nomademes | Gamma Doppler",
+    "english": "Nomad Knife | Gamma Doppler",
+    "finnish": "Nomad-puukko | Gamma Doppler",
+    "french": "Couteau de nomade | Doppler Gamma",
+    "german": "Nomadenmesser | Gamma Doppler",
+    "greek": "Μαχαίρι Nomad | Gamma Doppler",
+    "hungarian": "Nomád kés | Gamma Doppler",
+    "indonesian": "Pisau Nomad | Gamma Doppler",
+    "italian": "Coltello Nomade | Gamma Doppler",
+    "japanese": "Nomad ナイフ | Gamma Doppler",
+    "koreana": "노매드 칼 | 감마 도플러",
+    "latam": "Cuchillo nómada | Doppler gamma",
+    "norwegian": "Nomadekniv | Gamma Doppler",
+    "polish": "Nóż nomada | Gamma Doppler",
+    "portuguese": "Faca Nomad | Gamma Doppler",
+    "romanian": "Cuțit Nomad | Gamma Doppler",
+    "russian": "Нож «Бродяга» | Гамма-волны",
+    "schinese": "流浪者匕首 | 伽玛多普勒",
+    "schinese_pw": "Nomad Knife | Gamma Doppler",
+    "spanish": "Cuchillo nómada | Doppler gamma",
+    "swedish": "Nomad-kniv | Gamma Doppler",
+    "tchinese": "流浪者小刀 | 伽傌都卜勒",
+    "thai": "มีดโนแมด | Gamma Doppler",
+    "turkish": "Göçebe Bıçağı | Gamma Doppler",
+    "ukrainian": "Польовий ніж | Гамма-ефект Доплера",
+    "vietnamese": "Dao Nomad | Gamma Doppler"
+  },
+  "media": {
+    "asset_id": "weapon__521",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/521/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/521.json",
+    "models": [
+      "weapons/models/knife/knife_outdoor/weapon_knife_outdoor.vmdl_c",
+      "phase2/weapons/models/knife/knife_outdoor/weapon_knife_outdoor_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/521/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Nomad Knife | Gamma Doppler",
+  "search_slug": "nomad-knife-gamma-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-29",
+        "id": 4790,
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "search_slug": "operation-riptide-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-30",
+        "id": 4818,
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "gamma2-knives2-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "gamma2_knives2_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "gamma2-knives2-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "521-570__normal__factory-new",
+    "521-570__normal__minimal-wear",
+    "521-570__stattrak__factory-new",
+    "521-570__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-outdoor",
+    "id": 521,
+    "localized_names": {
+      "brazilian": "Faca Nômade",
+      "bulgarian": "Номадският нож",
+      "czech": "Outdoorový nůž",
+      "danish": "Nomadekniv",
+      "dutch": "Nomademes",
+      "english": "Nomad Knife",
+      "finnish": "Nomad-puukko",
+      "french": "Couteau de nomade",
+      "german": "Nomadenmesser",
+      "greek": "Μαχαίρι Nomad",
+      "hungarian": "Nomád kés",
+      "indonesian": "Pisau Nomad",
+      "italian": "Coltello Nomade",
+      "japanese": "Nomad ナイフ",
+      "koreana": "노매드 칼",
+      "latam": "Cuchillo nómada",
+      "norwegian": "Nomadekniv",
+      "polish": "Nóż nomada",
+      "portuguese": "Faca Nomad",
+      "romanian": "Cuțit Nomad",
+      "russian": "Нож «Бродяга»",
+      "schinese": "流浪者匕首",
+      "schinese_pw": "Nomad Knife",
+      "spanish": "Cuchillo nómada",
+      "swedish": "Nomad-kniv",
+      "tchinese": "流浪者小刀",
+      "thai": "มีดโนแมด",
+      "turkish": "Göçebe Bıçağı",
+      "ukrainian": "Польовий ніж",
+      "vietnamese": "Dao Nomad"
+    },
+    "name": "Nomad Knife",
+    "search_slug": "nomad-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

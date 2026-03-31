@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "526-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "526-44",
+  "localized_names": {
+    "brazilian": "Faca Kukri | Aquecimento de Aço",
+    "bulgarian": "Кукри нож | Закалено",
+    "czech": "Nůž Kukri | Case Hardened",
+    "danish": "Kukrikniv | Case Hardened",
+    "dutch": "Kukri | Case Hardened",
+    "english": "Kukri Knife | Case Hardened",
+    "finnish": "Kukri-veitsi | Hiiletyskarkaistu",
+    "french": "Couteau Kukri | Cémenté",
+    "german": "Kukri-Messer | Einsatzgehärtet",
+    "greek": "Μαχαίρι Kukri | Case Hardened",
+    "hungarian": "Kukri kés | Edzett",
+    "indonesian": "Pisau Kukri | Case Hardened",
+    "italian": "Coltello Kukri | Case Hardened",
+    "japanese": "ククリナイフ | Case Hardened",
+    "koreana": "쿠크리 칼 | 표면 경화",
+    "latam": "Cuchillo kukri | Acero templado",
+    "norwegian": "Kukrikniv | Case Hardened",
+    "polish": "Nóż kukri | Stal nawęglana",
+    "portuguese": "Faca Kukri | Case Hardened",
+    "romanian": "Cuțit Kukri | Case Hardened",
+    "russian": "Кукри | Поверхностная закалка",
+    "schinese": "廓尔喀刀 | 表面淬火",
+    "schinese_pw": "Kukri Knife | Case Hardened",
+    "spanish": "Cuchillo kukri | Acero templado",
+    "swedish": "Kukrikniv | Case Hardened",
+    "tchinese": "反曲刀 | 外殼硬化",
+    "thai": "มีดคูครี | Case Hardened",
+    "turkish": "Kukri Bıçağı | Sertleştirilmiş Kasa",
+    "ukrainian": "Ніж кукрі | Поверхневий гарт",
+    "vietnamese": "Dao Kukri | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__526-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/526-44/light.png",
+      "data/api/media/rendered/files/skins/526-44/medium.png",
+      "data/api/media/rendered/files/skins/526-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/526-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/526-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/526-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/526-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/526-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_kukri_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_kukri_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_kukri_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Kukri Knife | Case Hardened",
+  "search_slug": "kukri-knife-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-33",
+        "id": 4904,
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "search_slug": "kilowatt-case",
+        "via_special_pool": "set_community_33_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-34",
+        "id": 7003,
+        "kind": "weapon-case",
+        "name": "Gallery Case",
+        "search_slug": "gallery-case",
+        "via_special_pool": "set_community_33_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-33-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_33_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Kukri Knife ★",
+        "search_slug": "set-community-33-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "526-44__normal__battle-scarred",
+    "526-44__normal__factory-new",
+    "526-44__normal__field-tested",
+    "526-44__normal__minimal-wear",
+    "526-44__normal__well-worn",
+    "526-44__stattrak__battle-scarred",
+    "526-44__stattrak__factory-new",
+    "526-44__stattrak__field-tested",
+    "526-44__stattrak__minimal-wear",
+    "526-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-kukri",
+    "id": 526,
+    "localized_names": {
+      "brazilian": "Faca Kukri",
+      "bulgarian": "Кукри нож",
+      "czech": "Nůž Kukri",
+      "danish": "Kukrikniv",
+      "dutch": "Kukri",
+      "english": "Kukri Knife",
+      "finnish": "Kukri-veitsi",
+      "french": "Couteau Kukri",
+      "german": "Kukri-Messer",
+      "greek": "Μαχαίρι Kukri",
+      "hungarian": "Kukri kés",
+      "indonesian": "Pisau Kukri",
+      "italian": "Coltello Kukri",
+      "japanese": "ククリナイフ",
+      "koreana": "쿠크리 칼",
+      "latam": "Cuchillo kukri",
+      "norwegian": "Kukrikniv",
+      "polish": "Nóż kukri",
+      "portuguese": "Faca Kukri",
+      "romanian": "Cuțit Kukri",
+      "russian": "Кукри",
+      "schinese": "廓尔喀刀",
+      "schinese_pw": "Kukri Knife",
+      "spanish": "Cuchillo kukri",
+      "swedish": "Kukrikniv",
+      "tchinese": "反曲刀",
+      "thai": "มีดคูครี",
+      "turkish": "Kukri Bıçağı",
+      "ukrainian": "Ніж кукрі",
+      "vietnamese": "Dao Kukri"
+    },
+    "name": "Kukri Knife",
+    "search_slug": "kukri-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

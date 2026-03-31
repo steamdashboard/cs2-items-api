@@ -1,0 +1,65 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "503-5",
+  "finish": {
+    "codename": "hy_ddpat",
+    "id": 5,
+    "name": "Forest DDPAT",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 5,
+    "weapon_id": 503
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "503-5",
+  "name": "Classic Knife | Forest DDPAT",
+  "search_slug": "classic-knife-forest-ddpat",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-24-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_24_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Classic Knife ★",
+        "search_slug": "set-community-24-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-24",
+            "id": 4669,
+            "kind": "weapon-case",
+            "name": "CS20 Case",
+            "search_slug": "cs20-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "503-5__normal__vanilla",
+    "503-5__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_css",
+    "id": 503,
+    "name": "Classic Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

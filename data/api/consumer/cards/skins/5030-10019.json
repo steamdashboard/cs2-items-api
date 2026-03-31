@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5030-10019",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sporty-military",
+    "catalog_id": 10019,
+    "id": 10019,
+    "localized_names": {
+      "brazilian": "Árida",
+      "bulgarian": "Суша",
+      "czech": "Arid",
+      "danish": "Arid",
+      "dutch": "Arid",
+      "english": "Arid",
+      "finnish": "Aavikko",
+      "french": "Aride",
+      "german": "Dürr",
+      "greek": "Arid",
+      "hungarian": "Száraz",
+      "indonesian": "Arid",
+      "italian": "Arid",
+      "japanese": "Arid",
+      "koreana": "불모의 땅",
+      "latam": "Árido",
+      "norwegian": "Arid",
+      "polish": "Pustynne",
+      "portuguese": "Arid",
+      "romanian": "Arid",
+      "russian": "Засуха",
+      "schinese": "干旱",
+      "schinese_pw": "Arid",
+      "spanish": "Árido",
+      "swedish": "Arid",
+      "tchinese": "乾旱褐",
+      "thai": "Arid",
+      "turkish": "Kurak",
+      "ukrainian": "Сухий",
+      "vietnamese": "Arid"
+    },
+    "name": "Arid",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5030-10019",
+  "localized_names": {
+    "brazilian": "Luvas Esportivas | Árida",
+    "bulgarian": "Спортни ръкавици | Суша",
+    "czech": "Sportovní rukavice | Arid",
+    "danish": "Sportshandsker | Arid",
+    "dutch": "Sporthandschoenen | Arid",
+    "english": "Sport Gloves | Arid",
+    "finnish": "Urheiluhanskat | Aavikko",
+    "french": "Gants de sport | Aride",
+    "german": "Sporthandschuhe | Dürr",
+    "greek": "Σπορ γάντια | Arid",
+    "hungarian": "Sportkesztyűk | Száraz",
+    "indonesian": "Sarung Tangan Olahraga | Arid",
+    "italian": "Guanti sportivi | Arid",
+    "japanese": "Sport Gloves | Arid",
+    "koreana": "스포츠 장갑 | 불모의 땅",
+    "latam": "Guantes de deporte | Árido",
+    "norwegian": "Sportshansker | Arid",
+    "polish": "Rękawice sportowe | Pustynne",
+    "portuguese": "Luvas Desportivas | Arid",
+    "romanian": "Mănuși sport | Arid",
+    "russian": "Спортивные перчатки | Засуха",
+    "schinese": "运动手套 | 干旱",
+    "schinese_pw": "Sport Gloves | Arid",
+    "spanish": "Guantes de deporte | Árido",
+    "swedish": "Sporthandskar | Arid",
+    "tchinese": "運動員手套 | 乾旱褐",
+    "thai": "ถุงมือกีฬา | Arid",
+    "turkish": "Spor Eldivenler | Kurak",
+    "ukrainian": "Спортивні рукавиці | Сухий",
+    "vietnamese": "Găng tay thể thao | Arid"
+  },
+  "media": {
+    "asset_id": "skin__5030-10019",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5030-10019/light.png",
+      "data/api/media/rendered/files/skins/5030-10019/medium.png",
+      "data/api/media/rendered/files/skins/5030-10019/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5030-10019.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5030-10019/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5030-10019/light.png",
+      "medium": "data/api/media/rendered/files/skins/5030-10019/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5030-10019/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/sporty_gloves_sporty_military_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/sporty_gloves_sporty_military_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/sporty_gloves_sporty_military_medium_png.vtex_c"
+    }
+  },
+  "name": "Sport Gloves | Arid",
+  "search_slug": "sport-gloves-arid",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-15",
+        "id": 4288,
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "search_slug": "glove-case",
+        "via_special_pool": "community_case_15_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-17",
+        "id": 4352,
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "search_slug": "operation-hydra-case",
+        "via_special_pool": "community_case_15_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-15-unusual",
+        "expansion_rule": "legacy-gloves",
+        "id": "community_case_15_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "community-case-15-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5030-10019__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "sporty-gloves",
+    "id": 5030,
+    "localized_names": {
+      "brazilian": "Luvas Esportivas",
+      "bulgarian": "Спортни ръкавици",
+      "czech": "Sportovní rukavice",
+      "danish": "Sportshandsker",
+      "dutch": "Sporthandschoenen",
+      "english": "Sport Gloves",
+      "finnish": "Urheiluhanskat",
+      "french": "Gants de sport",
+      "german": "Sporthandschuhe",
+      "greek": "Σπορ γάντια",
+      "hungarian": "Sportkesztyűk",
+      "indonesian": "Sarung Tangan Olahraga",
+      "italian": "Guanti sportivi",
+      "japanese": "Sport Gloves",
+      "koreana": "스포츠 장갑",
+      "latam": "Guantes de deporte",
+      "norwegian": "Sportshansker",
+      "polish": "Rękawice sportowe",
+      "portuguese": "Luvas Desportivas",
+      "romanian": "Mănuși sport",
+      "russian": "Спортивные перчатки",
+      "schinese": "运动手套",
+      "schinese_pw": "Sport Gloves",
+      "spanish": "Guantes de deporte",
+      "swedish": "Sporthandskar",
+      "tchinese": "運動員手套",
+      "thai": "ถุงมือกีฬา",
+      "turkish": "Spor Eldivenler",
+      "ukrainian": "Спортивні рукавиці",
+      "vietnamese": "Găng tay thể thao"
+    },
+    "name": "Sport Gloves",
+    "search_slug": "sport-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

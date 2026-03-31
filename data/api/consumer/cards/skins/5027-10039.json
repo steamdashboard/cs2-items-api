@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5027-10039",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "bloodhound-guerrilla",
+    "catalog_id": 10039,
+    "id": 10039,
+    "localized_names": {
+      "brazilian": "Guerrilha",
+      "bulgarian": "Партизански",
+      "czech": "Guerrilla",
+      "danish": "Guerrilla",
+      "dutch": "Guerrilla",
+      "english": "Guerrilla",
+      "finnish": "Sissi",
+      "french": "Guérilla",
+      "german": "Guerilla",
+      "greek": "Guerrilla",
+      "hungarian": "Gerilla",
+      "indonesian": "Guerrilla",
+      "italian": "Guerrilla",
+      "japanese": "Guerrilla",
+      "koreana": "게릴라",
+      "latam": "Guerrilla",
+      "norwegian": "Guerrilla",
+      "polish": "Partyzantka",
+      "portuguese": "Guerrilla",
+      "romanian": "Guerrilla",
+      "russian": "Диверсант",
+      "schinese": "游击队",
+      "schinese_pw": "Guerrilla",
+      "spanish": "Guerrilla",
+      "swedish": "Guerrilla",
+      "tchinese": "游擊隊",
+      "thai": "Guerrilla",
+      "turkish": "Gerilla",
+      "ukrainian": "Партизанські",
+      "vietnamese": "Guerrilla"
+    },
+    "name": "Guerrilla",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5027-10039",
+  "localized_names": {
+    "brazilian": "Luvas do Cão de Caça | Guerrilha",
+    "bulgarian": "Ръкавици „Хрътка“ | Партизански",
+    "czech": "Extrémistické rukavice | Guerrilla",
+    "danish": "Bloodhound-handsker | Guerrilla",
+    "dutch": "Bloodhound-handschoenen | Guerrilla",
+    "english": "Bloodhound Gloves | Guerrilla",
+    "finnish": "Verikoira-hanskat | Sissi",
+    "french": "Gants Bloodhound | Guérilla",
+    "german": "Bloodhound-Handschuhe | Guerilla",
+    "greek": "Γάντια Bloodhound | Guerrilla",
+    "hungarian": "Véreb-kesztyűk | Gerilla",
+    "indonesian": "Sarung Tangan Bloodhound | Guerrilla",
+    "italian": "Guanti Bloodhound | Guerrilla",
+    "japanese": "Bloodhound Gloves | Guerrilla",
+    "koreana": "블러드하운드 장갑 | 게릴라",
+    "latam": "Guantes Bloodhound | Guerrilla",
+    "norwegian": "Bloodhound-hansker | Guerrilla",
+    "polish": "Rękawice Bloodhound | Partyzantka",
+    "portuguese": "Luvas Bloodhound | Guerrilla",
+    "romanian": "Mănuși Bloodhound | Guerrilla",
+    "russian": "Перчатки «Бладхаунд» | Диверсант",
+    "schinese": "血猎手套 | 游击队",
+    "schinese_pw": "Bloodhound Gloves | Guerrilla",
+    "spanish": "Guantes Bloodhound | Guerrilla",
+    "swedish": "Bloodhound-handskar | Guerrilla",
+    "tchinese": "獵犬手套 | 游擊隊",
+    "thai": "ถุงมือ Bloodhound | Guerrilla",
+    "turkish": "Kan Tazısı Eldivenleri | Gerilla",
+    "ukrainian": "Рукавиці «Дойда» | Партизанські",
+    "vietnamese": "Găng tay Bloodhound | Guerrilla"
+  },
+  "media": {
+    "asset_id": "skin__5027-10039",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5027-10039/light.png",
+      "data/api/media/rendered/files/skins/5027-10039/medium.png",
+      "data/api/media/rendered/files/skins/5027-10039/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5027-10039.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5027-10039/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5027-10039/light.png",
+      "medium": "data/api/media/rendered/files/skins/5027-10039/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5027-10039/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/studded_bloodhound_gloves_bloodhound_guerrilla_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/studded_bloodhound_gloves_bloodhound_guerrilla_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/studded_bloodhound_gloves_bloodhound_guerrilla_medium_png.vtex_c"
+    }
+  },
+  "name": "Bloodhound Gloves | Guerrilla",
+  "search_slug": "bloodhound-gloves-guerrilla",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-19",
+        "id": 4471,
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "search_slug": "clutch-case",
+        "via_special_pool": "set_community_19_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-32",
+        "id": 4880,
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "search_slug": "revolution-case",
+        "via_special_pool": "set_community_19_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-19-unusual",
+        "expansion_rule": "hydra-era-gloves",
+        "id": "set_community_19_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-19-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5027-10039__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "studded-bloodhound-gloves",
+    "id": 5027,
+    "localized_names": {
+      "brazilian": "Luvas do Cão de Caça",
+      "bulgarian": "Ръкавици „Хрътка“",
+      "czech": "Extrémistické rukavice",
+      "danish": "Bloodhound-handsker",
+      "dutch": "Bloodhound-handschoenen",
+      "english": "Bloodhound Gloves",
+      "finnish": "Verikoira-hanskat",
+      "french": "Gants Bloodhound",
+      "german": "Bloodhound-Handschuhe",
+      "greek": "Γάντια Bloodhound",
+      "hungarian": "Véreb-kesztyűk",
+      "indonesian": "Sarung Tangan Bloodhound",
+      "italian": "Guanti Bloodhound",
+      "japanese": "Bloodhound Gloves",
+      "koreana": "블러드하운드 장갑",
+      "latam": "Guantes Bloodhound",
+      "norwegian": "Bloodhound-hansker",
+      "polish": "Rękawice Bloodhound",
+      "portuguese": "Luvas Bloodhound",
+      "romanian": "Mănuși Bloodhound",
+      "russian": "Перчатки «Бладхаунд»",
+      "schinese": "血猎手套",
+      "schinese_pw": "Bloodhound Gloves",
+      "spanish": "Guantes Bloodhound",
+      "swedish": "Bloodhound-handskar",
+      "tchinese": "獵犬手套",
+      "thai": "ถุงมือ Bloodhound",
+      "turkish": "Kan Tazısı Eldivenleri",
+      "ukrainian": "Рукавиці «Дойда»",
+      "vietnamese": "Găng tay Bloodhound"
+    },
+    "name": "Bloodhound Gloves",
+    "search_slug": "bloodhound-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "500-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "500-409",
+  "localized_names": {
+    "brazilian": "Baioneta | Dente de Tigre",
+    "bulgarian": "Щик | Тигров зъб",
+    "czech": "Bajonet | Tiger Tooth",
+    "danish": "Bajonet | Tiger Tooth",
+    "dutch": "Bajonet | Tiger Tooth",
+    "english": "Bayonet | Tiger Tooth",
+    "finnish": "Pistin | Tiikerinhammas",
+    "french": "Baïonnette | Dent de tigre",
+    "german": "Bajonett | Tigerzahn",
+    "greek": "Mπαγιονέτα | Tiger Tooth",
+    "hungarian": "Bajonett | Tigrisfog",
+    "indonesian": "Bayonet | Tiger Tooth",
+    "italian": "Baionetta | Tiger Tooth",
+    "japanese": "銃剣 | Tiger Tooth",
+    "koreana": "총검 | 호랑이 이빨",
+    "latam": "Bayoneta | Diente de tigre",
+    "norwegian": "Bajonett | Tiger Tooth",
+    "polish": "Bagnet | Tygrysi kieł",
+    "portuguese": "Bayonet | Tiger Tooth",
+    "romanian": "Baionetă | Tiger Tooth",
+    "russian": "Штык-нож | Зуб тигра",
+    "schinese": "刺刀 | 虎牙",
+    "schinese_pw": "Bayonet | Tiger Tooth",
+    "spanish": "Bayoneta | Diente de tigre",
+    "swedish": "Bajonett | Tiger Tooth",
+    "tchinese": "刺刀 | 虎牙",
+    "thai": "มีดเบโยเน็ต | Tiger Tooth",
+    "turkish": "Bayonet | Kaplan Dişi",
+    "ukrainian": "Штик-ніж | Тигряче ікло",
+    "vietnamese": "Bayonet | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__500-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/500-409/light.png",
+      "data/api/media/rendered/files/skins/500-409/medium.png",
+      "data/api/media/rendered/files/skins/500-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/500-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/500-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/500-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/500-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/500-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bayonet_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bayonet_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bayonet_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Bayonet | Tiger Tooth",
+  "search_slug": "bayonet-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "500-409__normal__factory-new",
+    "500-409__normal__minimal-wear",
+    "500-409__stattrak__factory-new",
+    "500-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-bayonet",
+    "id": 500,
+    "localized_names": {
+      "brazilian": "Baioneta",
+      "bulgarian": "Щик",
+      "czech": "Bajonet",
+      "danish": "Bajonet",
+      "dutch": "Bajonet",
+      "english": "Bayonet",
+      "finnish": "Pistin",
+      "french": "Baïonnette",
+      "german": "Bajonett",
+      "greek": "Mπαγιονέτα",
+      "hungarian": "Bajonett",
+      "indonesian": "Bayonet",
+      "italian": "Baionetta",
+      "japanese": "銃剣",
+      "koreana": "총검",
+      "latam": "Bayoneta",
+      "norwegian": "Bajonett",
+      "polish": "Bagnet",
+      "portuguese": "Bayonet",
+      "romanian": "Baionetă",
+      "russian": "Штык-нож",
+      "schinese": "刺刀",
+      "schinese_pw": "Bayonet",
+      "spanish": "Bayoneta",
+      "swedish": "Bajonett",
+      "tchinese": "刺刀",
+      "thai": "มีดเบโยเน็ต",
+      "turkish": "Bayonet",
+      "ukrainian": "Штик-ніж",
+      "vietnamese": "Bayonet"
+    },
+    "name": "Bayonet",
+    "search_slug": "bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

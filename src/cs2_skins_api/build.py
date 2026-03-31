@@ -353,7 +353,7 @@ def write_api_layer(
     write_json(consumer_root / "meta" / "facets.json", consumer["meta"]["facets"])
 
     schema = {
-        "version": 7,
+        "version": 8,
         "generated_at": generated_at,
         "layers": {
             "reference": "Canonical normalized entities and stable IDs.",

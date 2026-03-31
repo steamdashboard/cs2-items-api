@@ -1,0 +1,71 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "canonical_slug": "5033-10050",
+  "finish": {
+    "codename": "motorcycle_basic_green_orange",
+    "id": 10050,
+    "name": "Turtle",
+    "rarity_ref": null,
+    "style_code": null
+  },
+  "game_ref": {
+    "paint_kit_id": 10050,
+    "weapon_id": 5033
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5033-10050",
+  "name": "Moto Gloves | Turtle",
+  "search_slug": "moto-gloves-turtle",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-19-unusual",
+        "expansion_rule": "hydra-era-gloves",
+        "id": "set_community_19_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-19-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-19",
+            "id": 4471,
+            "kind": "weapon-case",
+            "name": "Clutch Case",
+            "search_slug": "clutch-case"
+          },
+          {
+            "canonical_slug": "crate-community-32",
+            "id": 4880,
+            "kind": "weapon-case",
+            "name": "Revolution Case",
+            "search_slug": "revolution-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "5033-10050__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "motorcycle_gloves",
+    "id": 5033,
+    "name": "Moto Gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

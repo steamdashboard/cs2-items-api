@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "512-72",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-mesh-tan",
+    "catalog_id": 72,
+    "id": 72,
+    "localized_names": {
+      "brazilian": "Grade de Safári",
+      "bulgarian": "Мрежа за сафари",
+      "czech": "Safari Mesh",
+      "danish": "Safari Mesh",
+      "dutch": "Safari Mesh",
+      "english": "Safari Mesh",
+      "finnish": "Safariverkko",
+      "french": "Maillage safari",
+      "german": "Safarinetz",
+      "greek": "Safari Mesh",
+      "hungarian": "Szafari Háló",
+      "indonesian": "Safari Mesh",
+      "italian": "Safari Mesh",
+      "japanese": "Safari Mesh",
+      "koreana": "사파리 격자 무늬",
+      "latam": "Malla de safari",
+      "norwegian": "Safari Mesh",
+      "polish": "Siatka safari",
+      "portuguese": "Safari Mesh",
+      "romanian": "Safari Mesh",
+      "russian": "Африканская сетка",
+      "schinese": "狩猎网格",
+      "schinese_pw": "Safari Mesh",
+      "spanish": "Malla de safari",
+      "swedish": "Safari Mesh",
+      "tchinese": "狩獵網格",
+      "thai": "Safari Mesh",
+      "turkish": "Safari Ağı",
+      "ukrainian": "Сітка сафарі",
+      "vietnamese": "Safari Mesh"
+    },
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-72",
+  "localized_names": {
+    "brazilian": "Canivete Falchion | Grade de Safári",
+    "bulgarian": "Нож „Фалчион“ | Мрежа за сафари",
+    "czech": "Falchion | Safari Mesh",
+    "danish": "Falchion-kniv | Safari Mesh",
+    "dutch": "Falchion-mes | Safari Mesh",
+    "english": "Falchion Knife | Safari Mesh",
+    "finnish": "Falchion-veitsi | Safariverkko",
+    "french": "Couteau fauchon | Maillage safari",
+    "german": "Falchion-Messer | Safarinetz",
+    "greek": "Μαχαίρι Falchion | Safari Mesh",
+    "hungarian": "Handzsárkés | Szafari Háló",
+    "indonesian": "Pisau Falchion | Safari Mesh",
+    "italian": "Coltello falchion | Safari Mesh",
+    "japanese": "Falchion ナイフ | Safari Mesh",
+    "koreana": "파르치온 칼 | 사파리 격자 무늬",
+    "latam": "Cuchillo alfanje | Malla de safari",
+    "norwegian": "Falchion-kniv | Safari Mesh",
+    "polish": "Nóż falcjon | Siatka safari",
+    "portuguese": "Faca Falchion | Safari Mesh",
+    "romanian": "Cuțit Falchion | Safari Mesh",
+    "russian": "Фальшион | Африканская сетка",
+    "schinese": "弯刀 | 狩猎网格",
+    "schinese_pw": "Falchion Knife | Safari Mesh",
+    "spanish": "Cuchillo Alfanje | Malla de safari",
+    "swedish": "Falchionkniv | Safari Mesh",
+    "tchinese": "彎刃匕首 | 狩獵網格",
+    "thai": "มีดฟัลชิออน | Safari Mesh",
+    "turkish": "Pala Bıçağı | Safari Ağı",
+    "ukrainian": "Ніж-фальшіон | Сітка сафарі",
+    "vietnamese": "Dao Falchion | Safari Mesh"
+  },
+  "media": {
+    "asset_id": "skin__512-72",
+    "images_png": [
+      "data/api/media/rendered/files/skins/512-72/light.png",
+      "data/api/media/rendered/files/skins/512-72/medium.png",
+      "data/api/media/rendered/files/skins/512-72/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/512-72.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/512-72/heavy.png",
+      "light": "data/api/media/rendered/files/skins/512-72/light.png",
+      "medium": "data/api/media/rendered/files/skins/512-72/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/512-72/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_falchion_sp_mesh_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_falchion_sp_mesh_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_falchion_sp_mesh_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "Falchion Knife | Safari Mesh",
+  "search_slug": "falchion-knife-safari-mesh",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-8",
+        "id": 4091,
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "search_slug": "falchion-case",
+        "via_special_pool": "community_case_8_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-8-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_8_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Falchion Knife ★",
+        "search_slug": "community-case-8-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "512-72__normal__vanilla",
+    "512-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-falchion",
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Canivete Falchion",
+      "bulgarian": "Нож „Фалчион“",
+      "czech": "Falchion",
+      "danish": "Falchion-kniv",
+      "dutch": "Falchion-mes",
+      "english": "Falchion Knife",
+      "finnish": "Falchion-veitsi",
+      "french": "Couteau fauchon",
+      "german": "Falchion-Messer",
+      "greek": "Μαχαίρι Falchion",
+      "hungarian": "Handzsárkés",
+      "indonesian": "Pisau Falchion",
+      "italian": "Coltello falchion",
+      "japanese": "Falchion ナイフ",
+      "koreana": "파르치온 칼",
+      "latam": "Cuchillo alfanje",
+      "norwegian": "Falchion-kniv",
+      "polish": "Nóż falcjon",
+      "portuguese": "Faca Falchion",
+      "romanian": "Cuțit Falchion",
+      "russian": "Фальшион",
+      "schinese": "弯刀",
+      "schinese_pw": "Falchion Knife",
+      "spanish": "Cuchillo Alfanje",
+      "swedish": "Falchionkniv",
+      "tchinese": "彎刃匕首",
+      "thai": "มีดฟัลชิออน",
+      "turkish": "Pala Bıçağı",
+      "ukrainian": "Ніж-фальшіон",
+      "vietnamese": "Dao Falchion"
+    },
+    "name": "Falchion Knife",
+    "search_slug": "falchion-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

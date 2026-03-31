@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5033-10051",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "motorcycle-yellow-camo",
+    "catalog_id": 10051,
+    "id": 10051,
+    "localized_names": {
+      "brazilian": "Transporte",
+      "bulgarian": "Транспорт",
+      "czech": "Transport",
+      "danish": "Transport",
+      "dutch": "Transport",
+      "english": "Transport",
+      "finnish": "Kuljettajanhanskat",
+      "french": "Transport",
+      "german": "Transport",
+      "greek": "Transport",
+      "hungarian": "Fuvar",
+      "indonesian": "Transport",
+      "italian": "Transport",
+      "japanese": "Transport",
+      "koreana": "수송",
+      "latam": "Transporte",
+      "norwegian": "Transport",
+      "polish": "Transport",
+      "portuguese": "Transport",
+      "romanian": "Transport",
+      "russian": "Транспорт",
+      "schinese": "交运",
+      "schinese_pw": "Transport",
+      "spanish": "Transporte",
+      "swedish": "Transport",
+      "tchinese": "運輸",
+      "thai": "Transport",
+      "turkish": "Nakil",
+      "ukrainian": "Транспорт",
+      "vietnamese": "Transport"
+    },
+    "name": "Transport",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5033-10051",
+  "localized_names": {
+    "brazilian": "Luvas de Motociclismo | Transporte",
+    "bulgarian": "Мотористки ръкавици | Транспорт",
+    "czech": "Motorkářské rukavice | Transport",
+    "danish": "Motorcykelhandsker | Transport",
+    "dutch": "Motorhandschoenen | Transport",
+    "english": "Moto Gloves | Transport",
+    "finnish": "Moottoripyöräilyhanskat | Kuljettajanhanskat",
+    "french": "Gants de moto | Transport",
+    "german": "Motorradhandschuhe | Transport",
+    "greek": "Γάντια μηχανής | Transport",
+    "hungarian": "Motoroskesztyűk | Fuvar",
+    "indonesian": "Sarung Tangan Motor | Transport",
+    "italian": "Guanti da centauro | Transport",
+    "japanese": "Moto Gloves | Transport",
+    "koreana": "자동차 경주 장갑 | 수송",
+    "latam": "Guantes para moto | Transporte",
+    "norwegian": "Motorsykkelhansker | Transport",
+    "polish": "Rękawice motocyklisty | Transport",
+    "portuguese": "Luvas de Motociclista | Transport",
+    "romanian": "Mănuși de motociclist | Transport",
+    "russian": "Мотоциклетные перчатки | Транспорт",
+    "schinese": "摩托手套 | 交运",
+    "schinese_pw": "Moto Gloves | Transport",
+    "spanish": "Guantes de motorista | Transporte",
+    "swedish": "Moto-handskar | Transport",
+    "tchinese": "機車手套 | 運輸",
+    "thai": "ถุงมือมอเตอร์ไซค์ | Transport",
+    "turkish": "Motorcu Eldivenleri | Nakil",
+    "ukrainian": "Рукавиці мотоцикліста | Транспорт",
+    "vietnamese": "Găng tay mô tô | Transport"
+  },
+  "media": {
+    "asset_id": "skin__5033-10051",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5033-10051/light.png",
+      "data/api/media/rendered/files/skins/5033-10051/medium.png",
+      "data/api/media/rendered/files/skins/5033-10051/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5033-10051.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5033-10051/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5033-10051/light.png",
+      "medium": "data/api/media/rendered/files/skins/5033-10051/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5033-10051/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/motorcycle_gloves_motorcycle_yellow_camo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/motorcycle_gloves_motorcycle_yellow_camo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/motorcycle_gloves_motorcycle_yellow_camo_medium_png.vtex_c"
+    }
+  },
+  "name": "Moto Gloves | Transport",
+  "search_slug": "moto-gloves-transport",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-19",
+        "id": 4471,
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "search_slug": "clutch-case",
+        "via_special_pool": "set_community_19_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-32",
+        "id": 4880,
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "search_slug": "revolution-case",
+        "via_special_pool": "set_community_19_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-19-unusual",
+        "expansion_rule": "hydra-era-gloves",
+        "id": "set_community_19_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-19-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5033-10051__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "motorcycle-gloves",
+    "id": 5033,
+    "localized_names": {
+      "brazilian": "Luvas de Motociclismo",
+      "bulgarian": "Мотористки ръкавици",
+      "czech": "Motorkářské rukavice",
+      "danish": "Motorcykelhandsker",
+      "dutch": "Motorhandschoenen",
+      "english": "Moto Gloves",
+      "finnish": "Moottoripyöräilyhanskat",
+      "french": "Gants de moto",
+      "german": "Motorradhandschuhe",
+      "greek": "Γάντια μηχανής",
+      "hungarian": "Motoroskesztyűk",
+      "indonesian": "Sarung Tangan Motor",
+      "italian": "Guanti da centauro",
+      "japanese": "Moto Gloves",
+      "koreana": "자동차 경주 장갑",
+      "latam": "Guantes para moto",
+      "norwegian": "Motorsykkelhansker",
+      "polish": "Rękawice motocyklisty",
+      "portuguese": "Luvas de Motociclista",
+      "romanian": "Mănuși de motociclist",
+      "russian": "Мотоциклетные перчатки",
+      "schinese": "摩托手套",
+      "schinese_pw": "Moto Gloves",
+      "spanish": "Guantes de motorista",
+      "swedish": "Moto-handskar",
+      "tchinese": "機車手套",
+      "thai": "ถุงมือมอเตอร์ไซค์",
+      "turkish": "Motorcu Eldivenleri",
+      "ukrainian": "Рукавиці мотоцикліста",
+      "vietnamese": "Găng tay mô tô"
+    },
+    "name": "Moto Gloves",
+    "search_slug": "moto-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "500-416",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-sapphire-marbleized",
+    "catalog_id": 416,
+    "id": 416,
+    "localized_names": {
+      "brazilian": "Doppler",
+      "bulgarian": "Доплер",
+      "czech": "Doppler",
+      "danish": "Doppler",
+      "dutch": "Doppler",
+      "english": "Doppler",
+      "finnish": "Doppler",
+      "french": "Doppler",
+      "german": "Doppler",
+      "greek": "Doppler",
+      "hungarian": "Doppler",
+      "indonesian": "Doppler",
+      "italian": "Doppler",
+      "japanese": "Doppler",
+      "koreana": "도플러",
+      "latam": "Doppler",
+      "norwegian": "Doppler",
+      "polish": "Doppler",
+      "portuguese": "Doppler",
+      "romanian": "Doppler",
+      "russian": "Волны",
+      "schinese": "多普勒",
+      "schinese_pw": "Doppler",
+      "spanish": "Doppler",
+      "swedish": "Doppler",
+      "tchinese": "都卜勒",
+      "thai": "Doppler",
+      "turkish": "Doppler",
+      "ukrainian": "Доплер",
+      "vietnamese": "Doppler"
+    },
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "500-416",
+  "localized_names": {
+    "brazilian": "Baioneta | Doppler",
+    "bulgarian": "Щик | Доплер",
+    "czech": "Bajonet | Doppler",
+    "danish": "Bajonet | Doppler",
+    "dutch": "Bajonet | Doppler",
+    "english": "Bayonet | Doppler",
+    "finnish": "Pistin | Doppler",
+    "french": "Baïonnette | Doppler",
+    "german": "Bajonett | Doppler",
+    "greek": "Mπαγιονέτα | Doppler",
+    "hungarian": "Bajonett | Doppler",
+    "indonesian": "Bayonet | Doppler",
+    "italian": "Baionetta | Doppler",
+    "japanese": "銃剣 | Doppler",
+    "koreana": "총검 | 도플러",
+    "latam": "Bayoneta | Doppler",
+    "norwegian": "Bajonett | Doppler",
+    "polish": "Bagnet | Doppler",
+    "portuguese": "Bayonet | Doppler",
+    "romanian": "Baionetă | Doppler",
+    "russian": "Штык-нож | Волны",
+    "schinese": "刺刀 | 多普勒",
+    "schinese_pw": "Bayonet | Doppler",
+    "spanish": "Bayoneta | Doppler",
+    "swedish": "Bajonett | Doppler",
+    "tchinese": "刺刀 | 都卜勒",
+    "thai": "มีดเบโยเน็ต | Doppler",
+    "turkish": "Bayonet | Doppler",
+    "ukrainian": "Штик-ніж | Доплер",
+    "vietnamese": "Bayonet | Doppler"
+  },
+  "media": {
+    "asset_id": "skin__500-416",
+    "images_png": [
+      "data/api/media/rendered/files/skins/500-416/light.png",
+      "data/api/media/rendered/files/skins/500-416/medium.png",
+      "data/api/media/rendered/files/skins/500-416/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/500-416.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/500-416/heavy.png",
+      "light": "data/api/media/rendered/files/skins/500-416/light.png",
+      "medium": "data/api/media/rendered/files/skins/500-416/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/500-416/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bayonet_am_sapphire_marbleized_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bayonet_am_sapphire_marbleized_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bayonet_am_sapphire_marbleized_medium_png.vtex_c"
+    }
+  },
+  "name": "Bayonet | Doppler",
+  "search_slug": "bayonet-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "500-416__normal__factory-new",
+    "500-416__normal__minimal-wear",
+    "500-416__stattrak__factory-new",
+    "500-416__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-bayonet",
+    "id": 500,
+    "localized_names": {
+      "brazilian": "Baioneta",
+      "bulgarian": "Щик",
+      "czech": "Bajonet",
+      "danish": "Bajonet",
+      "dutch": "Bajonet",
+      "english": "Bayonet",
+      "finnish": "Pistin",
+      "french": "Baïonnette",
+      "german": "Bajonett",
+      "greek": "Mπαγιονέτα",
+      "hungarian": "Bajonett",
+      "indonesian": "Bayonet",
+      "italian": "Baionetta",
+      "japanese": "銃剣",
+      "koreana": "총검",
+      "latam": "Bayoneta",
+      "norwegian": "Bajonett",
+      "polish": "Bagnet",
+      "portuguese": "Bayonet",
+      "romanian": "Baionetă",
+      "russian": "Штык-нож",
+      "schinese": "刺刀",
+      "schinese_pw": "Bayonet",
+      "spanish": "Bayoneta",
+      "swedish": "Bajonett",
+      "tchinese": "刺刀",
+      "thai": "มีดเบโยเน็ต",
+      "turkish": "Bayonet",
+      "ukrainian": "Штик-ніж",
+      "vietnamese": "Bayonet"
+    },
+    "name": "Bayonet",
+    "search_slug": "bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

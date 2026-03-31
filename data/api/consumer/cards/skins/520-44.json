@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "520-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "520-44",
+  "localized_names": {
+    "brazilian": "Faca Navaja | Aquecimento de Aço",
+    "bulgarian": "Наваха нож | Закалено",
+    "czech": "Nůž Navaja | Case Hardened",
+    "danish": "Navaja-kniv | Case Hardened",
+    "dutch": "Navaja | Case Hardened",
+    "english": "Navaja Knife | Case Hardened",
+    "finnish": "Linkkuveitsi | Hiiletyskarkaistu",
+    "french": "Navaja | Cémenté",
+    "german": "Navaja-Messer | Einsatzgehärtet",
+    "greek": "Μαχαίρι Navaja | Case Hardened",
+    "hungarian": "Navaja kés | Edzett",
+    "indonesian": "Pisau Navaja | Case Hardened",
+    "italian": "Coltello Navaja | Case Hardened",
+    "japanese": "Navaja ナイフ | Case Hardened",
+    "koreana": "나바하 칼 | 표면 경화",
+    "latam": "Navaja | Acero templado",
+    "norwegian": "Navaja | Case Hardened",
+    "polish": "Navaja | Stal nawęglana",
+    "portuguese": "Faca Navaja | Case Hardened",
+    "romanian": "Cuțit Navaja | Case Hardened",
+    "russian": "Наваха | Поверхностная закалка",
+    "schinese": "折刀 | 表面淬火",
+    "schinese_pw": "Navaja Knife | Case Hardened",
+    "spanish": "Navaja | Acero templado",
+    "swedish": "Navajakniv | Case Hardened",
+    "tchinese": "西班牙折刀 | 外殼硬化",
+    "thai": "มีดนาวาฮา | Case Hardened",
+    "turkish": "Navaja Bıçağı | Sertleştirilmiş Kasa",
+    "ukrainian": "Наваха | Поверхневий гарт",
+    "vietnamese": "Dao Navaja | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__520-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/520-44/light.png",
+      "data/api/media/rendered/files/skins/520-44/medium.png",
+      "data/api/media/rendered/files/skins/520-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/520-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/520-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/520-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/520-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/520-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Navaja Knife | Case Hardened",
+  "search_slug": "navaja-knife-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "520-44__normal__battle-scarred",
+    "520-44__normal__factory-new",
+    "520-44__normal__field-tested",
+    "520-44__normal__minimal-wear",
+    "520-44__normal__well-worn",
+    "520-44__stattrak__battle-scarred",
+    "520-44__stattrak__factory-new",
+    "520-44__stattrak__field-tested",
+    "520-44__stattrak__minimal-wear",
+    "520-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gypsy-jackknife",
+    "id": 520,
+    "localized_names": {
+      "brazilian": "Faca Navaja",
+      "bulgarian": "Наваха нож",
+      "czech": "Nůž Navaja",
+      "danish": "Navaja-kniv",
+      "dutch": "Navaja",
+      "english": "Navaja Knife",
+      "finnish": "Linkkuveitsi",
+      "french": "Navaja",
+      "german": "Navaja-Messer",
+      "greek": "Μαχαίρι Navaja",
+      "hungarian": "Navaja kés",
+      "indonesian": "Pisau Navaja",
+      "italian": "Coltello Navaja",
+      "japanese": "Navaja ナイフ",
+      "koreana": "나바하 칼",
+      "latam": "Navaja",
+      "norwegian": "Navaja",
+      "polish": "Navaja",
+      "portuguese": "Faca Navaja",
+      "romanian": "Cuțit Navaja",
+      "russian": "Наваха",
+      "schinese": "折刀",
+      "schinese_pw": "Navaja Knife",
+      "spanish": "Navaja",
+      "swedish": "Navajakniv",
+      "tchinese": "西班牙折刀",
+      "thai": "มีดนาวาฮา",
+      "turkish": "Navaja Bıçağı",
+      "ukrainian": "Наваха",
+      "vietnamese": "Dao Navaja"
+    },
+    "name": "Navaja Knife",
+    "search_slug": "navaja-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

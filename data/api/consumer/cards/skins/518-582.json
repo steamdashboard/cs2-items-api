@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "518-582",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marked-up-fine",
+    "catalog_id": 582,
+    "id": 582,
+    "localized_names": {
+      "brazilian": "Mão Livre",
+      "bulgarian": "Скицирано",
+      "czech": "Freehand",
+      "danish": "Freehand",
+      "dutch": "Freehand",
+      "english": "Freehand",
+      "finnish": "Vapaa käsi",
+      "french": "Signature",
+      "german": "Freihändig",
+      "greek": "Freehand",
+      "hungarian": "Szabad Kéz",
+      "indonesian": "Freehand",
+      "italian": "Freehand",
+      "japanese": "Freehand",
+      "koreana": "자유형",
+      "latam": "Mano alzada",
+      "norwegian": "Freehand",
+      "polish": "Rękodzieło",
+      "portuguese": "Freehand",
+      "romanian": "Freehand",
+      "russian": "Ручная роспись",
+      "schinese": "自由之手",
+      "schinese_pw": "Freehand",
+      "spanish": "Mano alzada",
+      "swedish": "Freehand",
+      "tchinese": "手繪紋",
+      "thai": "Freehand",
+      "turkish": "Boşel",
+      "ukrainian": "Ручний розпис",
+      "vietnamese": "Freehand"
+    },
+    "name": "Freehand",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.48,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "518-582",
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência | Mão Livre",
+    "bulgarian": "Нож за оцеляване | Скицирано",
+    "czech": "Záchranářský nůž | Freehand",
+    "danish": "Overlevelseskniv | Freehand",
+    "dutch": "Overlevingsmes | Freehand",
+    "english": "Survival Knife | Freehand",
+    "finnish": "Selviytymisveitsi | Vapaa käsi",
+    "french": "Couteau de survie | Signature",
+    "german": "Survival-Messer | Freihändig",
+    "greek": "Μαχαίρι Survival | Freehand",
+    "hungarian": "Túlélőkés | Szabad Kéz",
+    "indonesian": "Pisau Survival | Freehand",
+    "italian": "Coltello da sopravvivenza | Freehand",
+    "japanese": "サバイバルナイフ | Freehand",
+    "koreana": "서바이벌 칼 | 자유형",
+    "latam": "Cuchillo de supervivencia | Mano alzada",
+    "norwegian": "Overlevelseskniv | Freehand",
+    "polish": "Nóż survivalowy | Rękodzieło",
+    "portuguese": "Faca Survival | Freehand",
+    "romanian": "Cuțit de supraviețuire | Freehand",
+    "russian": "Нож выживания | Ручная роспись",
+    "schinese": "求生匕首 | 自由之手",
+    "schinese_pw": "Survival Knife | Freehand",
+    "spanish": "Cuchillo de supervivencia | Mano alzada",
+    "swedish": "Överlevnadskniv | Freehand",
+    "tchinese": "求生刀 | 手繪紋",
+    "thai": "มีดเซอร์ไวเวอร์ | Freehand",
+    "turkish": "Hayatta Kalma Bıçağı | Boşel",
+    "ukrainian": "Ніж для виживання | Ручний розпис",
+    "vietnamese": "Dao sinh tồn | Freehand"
+  },
+  "media": {
+    "asset_id": "weapon__518",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/518/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/518.json",
+    "models": [
+      "weapons/models/knife/knife_canis/weapon_knife_canis.vmdl_c",
+      "phase2/weapons/models/knife/knife_canis/weapon_knife_canis_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/518/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Survival Knife | Freehand",
+  "search_slug": "survival-knife-freehand",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-29",
+        "id": 4790,
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "search_slug": "operation-riptide-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-30",
+        "id": 4818,
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "gamma2-knives2-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "gamma2_knives2_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "gamma2-knives2-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "518-582__normal__battle-scarred",
+    "518-582__normal__factory-new",
+    "518-582__normal__field-tested",
+    "518-582__normal__minimal-wear",
+    "518-582__normal__well-worn",
+    "518-582__stattrak__battle-scarred",
+    "518-582__stattrak__factory-new",
+    "518-582__stattrak__field-tested",
+    "518-582__stattrak__minimal-wear",
+    "518-582__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-canis",
+    "id": 518,
+    "localized_names": {
+      "brazilian": "Faca de Sobrevivência",
+      "bulgarian": "Нож за оцеляване",
+      "czech": "Záchranářský nůž",
+      "danish": "Overlevelseskniv",
+      "dutch": "Overlevingsmes",
+      "english": "Survival Knife",
+      "finnish": "Selviytymisveitsi",
+      "french": "Couteau de survie",
+      "german": "Survival-Messer",
+      "greek": "Μαχαίρι Survival",
+      "hungarian": "Túlélőkés",
+      "indonesian": "Pisau Survival",
+      "italian": "Coltello da sopravvivenza",
+      "japanese": "サバイバルナイフ",
+      "koreana": "서바이벌 칼",
+      "latam": "Cuchillo de supervivencia",
+      "norwegian": "Overlevelseskniv",
+      "polish": "Nóż survivalowy",
+      "portuguese": "Faca Survival",
+      "romanian": "Cuțit de supraviețuire",
+      "russian": "Нож выживания",
+      "schinese": "求生匕首",
+      "schinese_pw": "Survival Knife",
+      "spanish": "Cuchillo de supervivencia",
+      "swedish": "Överlevnadskniv",
+      "tchinese": "求生刀",
+      "thai": "มีดเซอร์ไวเวอร์",
+      "turkish": "Hayatta Kalma Bıçağı",
+      "ukrainian": "Ніж для виживання",
+      "vietnamese": "Dao sinh tồn"
+    },
+    "name": "Survival Knife",
+    "search_slug": "survival-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.48,
+    "min_float": 0.0
+  }
+}

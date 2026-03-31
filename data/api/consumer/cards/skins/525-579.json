@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "525-579",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-ocean-knife-90",
+    "catalog_id": 579,
+    "id": 579,
+    "localized_names": {
+      "brazilian": "Águas Claras",
+      "bulgarian": "Бистра вода",
+      "czech": "Bright Water",
+      "danish": "Bright Water",
+      "dutch": "Bright Water",
+      "english": "Bright Water",
+      "finnish": "Kirkas vesi",
+      "french": "Eau vive",
+      "german": "Klares Wasser",
+      "greek": "Bright Water",
+      "hungarian": "Fényes Víz",
+      "indonesian": "Bright Water",
+      "italian": "Bright Water",
+      "japanese": "Bright Water",
+      "koreana": "밝은 물결",
+      "latam": "Aguas brillantes",
+      "norwegian": "Bright Water",
+      "polish": "Jasne wody",
+      "portuguese": "Bright Water",
+      "romanian": "Bright Water",
+      "russian": "Чистая вода",
+      "schinese": "澄澈之水",
+      "schinese_pw": "Bright Water",
+      "spanish": "Aguas brillantes",
+      "swedish": "Bright Water",
+      "tchinese": "澄水",
+      "thai": "Bright Water",
+      "turkish": "Parlak Su",
+      "ukrainian": "Чиста вода",
+      "vietnamese": "Bright Water"
+    },
+    "name": "Bright Water",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "525-579",
+  "localized_names": {
+    "brazilian": "Faca Esqueleto | Águas Claras",
+    "bulgarian": "Скелетен нож | Бистра вода",
+    "czech": "Skeletový nůž | Bright Water",
+    "danish": "Skeletkniv | Bright Water",
+    "dutch": "Skeletonmes | Bright Water",
+    "english": "Skeleton Knife | Bright Water",
+    "finnish": "Skeleton-puukko | Kirkas vesi",
+    "french": "Couteau squelettique | Eau vive",
+    "german": "Skelettmesser | Klares Wasser",
+    "greek": "Μαχαίρι Skeleton | Bright Water",
+    "hungarian": "Csontváz kés | Fényes Víz",
+    "indonesian": "Pisau Skeleton | Bright Water",
+    "italian": "Coltello Scheletro | Bright Water",
+    "japanese": "Skeleton ナイフ | Bright Water",
+    "koreana": "스켈레톤 칼 | 밝은 물결",
+    "latam": "Cuchillo esqueletizado | Aguas brillantes",
+    "norwegian": "Skjelettkniv | Bright Water",
+    "polish": "Nóż szkieletowy | Jasne wody",
+    "portuguese": "Faca Skeleton | Bright Water",
+    "romanian": "Cuțit scheletic | Bright Water",
+    "russian": "Скелетный нож | Чистая вода",
+    "schinese": "骷髅匕首 | 澄澈之水",
+    "schinese_pw": "Skeleton Knife | Bright Water",
+    "spanish": "Cuchillo esqueletizado | Aguas brillantes",
+    "swedish": "Skeleton-kniv | Bright Water",
+    "tchinese": "骷顱刀 | 澄水",
+    "thai": "มีดสเกเลตัน | Bright Water",
+    "turkish": "İskelet Bıçak | Parlak Su",
+    "ukrainian": "Скелетний ніж | Чиста вода",
+    "vietnamese": "Dao Skeleton | Bright Water"
+  },
+  "media": {
+    "asset_id": "weapon__525",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_skeleton_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/525/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/525.json",
+    "models": [
+      "weapons/models/knife/knife_skeleton/weapon_knife_skeleton.vmdl_c",
+      "phase2/weapons/models/knife/knife_skeleton/weapon_knife_skeleton_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/525/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_skeleton_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Skeleton Knife | Bright Water",
+  "search_slug": "skeleton-knife-bright-water",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-29",
+        "id": 4790,
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "search_slug": "operation-riptide-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-30",
+        "id": 4818,
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "gamma2-knives2-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "gamma2_knives2_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "gamma2-knives2-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "525-579__normal__battle-scarred",
+    "525-579__normal__factory-new",
+    "525-579__normal__field-tested",
+    "525-579__normal__minimal-wear",
+    "525-579__normal__well-worn",
+    "525-579__stattrak__battle-scarred",
+    "525-579__stattrak__factory-new",
+    "525-579__stattrak__field-tested",
+    "525-579__stattrak__minimal-wear",
+    "525-579__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-skeleton",
+    "id": 525,
+    "localized_names": {
+      "brazilian": "Faca Esqueleto",
+      "bulgarian": "Скелетен нож",
+      "czech": "Skeletový nůž",
+      "danish": "Skeletkniv",
+      "dutch": "Skeletonmes",
+      "english": "Skeleton Knife",
+      "finnish": "Skeleton-puukko",
+      "french": "Couteau squelettique",
+      "german": "Skelettmesser",
+      "greek": "Μαχαίρι Skeleton",
+      "hungarian": "Csontváz kés",
+      "indonesian": "Pisau Skeleton",
+      "italian": "Coltello Scheletro",
+      "japanese": "Skeleton ナイフ",
+      "koreana": "스켈레톤 칼",
+      "latam": "Cuchillo esqueletizado",
+      "norwegian": "Skjelettkniv",
+      "polish": "Nóż szkieletowy",
+      "portuguese": "Faca Skeleton",
+      "romanian": "Cuțit scheletic",
+      "russian": "Скелетный нож",
+      "schinese": "骷髅匕首",
+      "schinese_pw": "Skeleton Knife",
+      "spanish": "Cuchillo esqueletizado",
+      "swedish": "Skeleton-kniv",
+      "tchinese": "骷顱刀",
+      "thai": "มีดสเกเลตัน",
+      "turkish": "İskelet Bıçak",
+      "ukrainian": "Скелетний ніж",
+      "vietnamese": "Dao Skeleton"
+    },
+    "name": "Skeleton Knife",
+    "search_slug": "skeleton-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

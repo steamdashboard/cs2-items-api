@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "514-38",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aa-fade",
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-38",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Degradê",
+    "bulgarian": "Боуи нож | Избледняване",
+    "czech": "Nůž Bowie | Fade",
+    "danish": "Bowie-kniv | Fade",
+    "dutch": "Bowiemes | Fade",
+    "english": "Bowie Knife | Fade",
+    "finnish": "Bowie-puukko | Häivytys",
+    "french": "Couteau Bowie | Dégradé",
+    "german": "Bowiemesser | Farbverlauf",
+    "greek": "Μαχαίρι Bowie | Fade",
+    "hungarian": "Bowie kés | Halványulás",
+    "indonesian": "Pisau Bowie | Fade",
+    "italian": "Coltello Bowie | Fade",
+    "japanese": "Bowie ナイフ | Fade",
+    "koreana": "보위 칼 | 흐릿함",
+    "latam": "Cuchillo Bowie | Desteñido",
+    "norwegian": "Bowiekniv | Fade",
+    "polish": "Nóż Bowie | Gradient",
+    "portuguese": "Faca Bowie | Fade",
+    "romanian": "Cuțit Bowie | Fade",
+    "russian": "Нож Боуи | Градиент",
+    "schinese": "鲍伊猎刀 | 渐变之色",
+    "schinese_pw": "Bowie Knife | Fade",
+    "spanish": "Cuchillo Bowie | Desteñido",
+    "swedish": "Bowiekniv | Fade",
+    "tchinese": "布伊刀 | 漸層彩虹",
+    "thai": "มีดโบวี | Fade",
+    "turkish": "Bowie Bıçağı | Solgun",
+    "ukrainian": "Ніж Бові | Градієнт",
+    "vietnamese": "Dao Bowie | Fade"
+  },
+  "media": {
+    "asset_id": "skin__514-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-38/light.png",
+      "data/api/media/rendered/files/skins/514-38/medium.png",
+      "data/api/media/rendered/files/skins/514-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Fade",
+  "search_slug": "bowie-knife-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-38__normal__factory-new",
+    "514-38__normal__minimal-wear",
+    "514-38__stattrak__factory-new",
+    "514-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

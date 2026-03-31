@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "509-38",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aa-fade",
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "509-38",
+  "localized_names": {
+    "brazilian": "Faca do Caçador | Degradê",
+    "bulgarian": "Ловджийски нож | Избледняване",
+    "czech": "Lovecký nůž | Fade",
+    "danish": "Huntsman-kniv | Fade",
+    "dutch": "Jagersmes | Fade",
+    "english": "Huntsman Knife | Fade",
+    "finnish": "Metsämiehen veitsi | Häivytys",
+    "french": "Couteau de chasse | Dégradé",
+    "german": "Jagdmesser | Farbverlauf",
+    "greek": "Μαχαίρι Huntsman | Fade",
+    "hungarian": "Vadászkés | Halványulás",
+    "indonesian": "Pisau Pemburu | Fade",
+    "italian": "Coltello da cacciatore | Fade",
+    "japanese": "Huntsman ナイフ | Fade",
+    "koreana": "헌츠맨 칼 | 흐릿함",
+    "latam": "Cuchillo de cazador | Desteñido",
+    "norwegian": "Jegerkniv | Fade",
+    "polish": "Nóż myśliwski | Gradient",
+    "portuguese": "Faca Huntsman | Fade",
+    "romanian": "Cuțit Huntsman | Fade",
+    "russian": "Охотничий нож | Градиент",
+    "schinese": "猎杀者匕首 | 渐变之色",
+    "schinese_pw": "Huntsman Knife | Fade",
+    "spanish": "Cuchillo del Cazador | Desteñido",
+    "swedish": "Huntsmankniv | Fade",
+    "tchinese": "獵刀 | 漸層彩虹",
+    "thai": "มีดนายพราน | Fade",
+    "turkish": "Avcı Bıçağı | Solgun",
+    "ukrainian": "Мисливський ніж | Градієнт",
+    "vietnamese": "Dao Huntsman | Fade"
+  },
+  "media": {
+    "asset_id": "skin__509-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/509-38/light.png",
+      "data/api/media/rendered/files/skins/509-38/medium.png",
+      "data/api/media/rendered/files/skins/509-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/509-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/509-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/509-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/509-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/509-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_tactical_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_tactical_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_tactical_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Huntsman Knife | Fade",
+  "search_slug": "huntsman-knife-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-3",
+        "id": 4017,
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
+        "via_special_pool": "community_case_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-3-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Huntsman Knife ★",
+        "search_slug": "community-case-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "509-38__normal__factory-new",
+    "509-38__normal__minimal-wear",
+    "509-38__stattrak__factory-new",
+    "509-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-tactical",
+    "id": 509,
+    "localized_names": {
+      "brazilian": "Faca do Caçador",
+      "bulgarian": "Ловджийски нож",
+      "czech": "Lovecký nůž",
+      "danish": "Huntsman-kniv",
+      "dutch": "Jagersmes",
+      "english": "Huntsman Knife",
+      "finnish": "Metsämiehen veitsi",
+      "french": "Couteau de chasse",
+      "german": "Jagdmesser",
+      "greek": "Μαχαίρι Huntsman",
+      "hungarian": "Vadászkés",
+      "indonesian": "Pisau Pemburu",
+      "italian": "Coltello da cacciatore",
+      "japanese": "Huntsman ナイフ",
+      "koreana": "헌츠맨 칼",
+      "latam": "Cuchillo de cazador",
+      "norwegian": "Jegerkniv",
+      "polish": "Nóż myśliwski",
+      "portuguese": "Faca Huntsman",
+      "romanian": "Cuțit Huntsman",
+      "russian": "Охотничий нож",
+      "schinese": "猎杀者匕首",
+      "schinese_pw": "Huntsman Knife",
+      "spanish": "Cuchillo del Cazador",
+      "swedish": "Huntsmankniv",
+      "tchinese": "獵刀",
+      "thai": "มีดนายพราน",
+      "turkish": "Avcı Bıçağı",
+      "ukrainian": "Мисливський ніж",
+      "vietnamese": "Dao Huntsman"
+    },
+    "name": "Huntsman Knife",
+    "search_slug": "huntsman-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "514-143",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-tape-urban",
+    "catalog_id": 143,
+    "id": 143,
+    "localized_names": {
+      "brazilian": "Máscara Urbana",
+      "bulgarian": "Градска маскировка",
+      "czech": "Urban Masked",
+      "danish": "Urban Masked",
+      "dutch": "Urban Masked",
+      "english": "Urban Masked",
+      "finnish": "Kaupunkilaisnaamioitu",
+      "french": "Masque urbain",
+      "german": "Städtisch maskiert",
+      "greek": "Urban Masked",
+      "hungarian": "Városi Maszkolt",
+      "indonesian": "Urban Masked",
+      "italian": "Urban Masked",
+      "japanese": "Urban Masked",
+      "koreana": "도시의 위장",
+      "latam": "Pátina urbana",
+      "norwegian": "Urban Masked",
+      "polish": "Miejski zamaskowany",
+      "portuguese": "Urban Masked",
+      "romanian": "Urban Masked",
+      "russian": "Городская маскировка",
+      "schinese": "都市伪装",
+      "schinese_pw": "Urban Masked",
+      "spanish": "Pátina urbana",
+      "swedish": "Urban Masked",
+      "tchinese": "都市偽裝",
+      "thai": "Urban Masked",
+      "turkish": "Gizli Şehir",
+      "ukrainian": "Міське маскування",
+      "vietnamese": "Urban Masked"
+    },
+    "name": "Urban Masked",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-143",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Máscara Urbana",
+    "bulgarian": "Боуи нож | Градска маскировка",
+    "czech": "Nůž Bowie | Urban Masked",
+    "danish": "Bowie-kniv | Urban Masked",
+    "dutch": "Bowiemes | Urban Masked",
+    "english": "Bowie Knife | Urban Masked",
+    "finnish": "Bowie-puukko | Kaupunkilaisnaamioitu",
+    "french": "Couteau Bowie | Masque urbain",
+    "german": "Bowiemesser | Städtisch maskiert",
+    "greek": "Μαχαίρι Bowie | Urban Masked",
+    "hungarian": "Bowie kés | Városi Maszkolt",
+    "indonesian": "Pisau Bowie | Urban Masked",
+    "italian": "Coltello Bowie | Urban Masked",
+    "japanese": "Bowie ナイフ | Urban Masked",
+    "koreana": "보위 칼 | 도시의 위장",
+    "latam": "Cuchillo Bowie | Pátina urbana",
+    "norwegian": "Bowiekniv | Urban Masked",
+    "polish": "Nóż Bowie | Miejski zamaskowany",
+    "portuguese": "Faca Bowie | Urban Masked",
+    "romanian": "Cuțit Bowie | Urban Masked",
+    "russian": "Нож Боуи | Городская маскировка",
+    "schinese": "鲍伊猎刀 | 都市伪装",
+    "schinese_pw": "Bowie Knife | Urban Masked",
+    "spanish": "Cuchillo Bowie | Pátina urbana",
+    "swedish": "Bowiekniv | Urban Masked",
+    "tchinese": "布伊刀 | 都市偽裝",
+    "thai": "มีดโบวี | Urban Masked",
+    "turkish": "Bowie Bıçağı | Gizli Şehir",
+    "ukrainian": "Ніж Бові | Міське маскування",
+    "vietnamese": "Dao Bowie | Urban Masked"
+  },
+  "media": {
+    "asset_id": "skin__514-143",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-143/light.png",
+      "data/api/media/rendered/files/skins/514-143/medium.png",
+      "data/api/media/rendered/files/skins/514-143/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-143.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-143/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-143/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-143/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-143/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_sp_tape_urban_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_sp_tape_urban_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_sp_tape_urban_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Urban Masked",
+  "search_slug": "bowie-knife-urban-masked",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-143__normal__vanilla",
+    "514-143__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

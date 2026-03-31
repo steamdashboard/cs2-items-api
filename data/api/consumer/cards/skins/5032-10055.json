@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5032-10055",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "handwrap-leathery-ducttape",
+    "catalog_id": 10055,
+    "id": 10055,
+    "localized_names": {
+      "brazilian": "Fita Adesiva",
+      "bulgarian": "Изолирбанд",
+      "czech": "Duct Tape",
+      "danish": "Duct Tape",
+      "dutch": "Duct Tape",
+      "english": "Duct Tape",
+      "finnish": "Ilmastointiteippi",
+      "french": "Ruban adhésif",
+      "german": "Klebeband",
+      "greek": "Duct Tape",
+      "hungarian": "Szigszalag",
+      "indonesian": "Duct Tape",
+      "italian": "Duct Tape",
+      "japanese": "Duct Tape",
+      "koreana": "접착 테이프",
+      "latam": "Cinta adhesiva",
+      "norwegian": "Duct Tape",
+      "polish": "Taśma izolacyjna",
+      "portuguese": "Duct Tape",
+      "romanian": "Duct Tape",
+      "russian": "Скотч",
+      "schinese": "防水布胶带",
+      "schinese_pw": "Duct Tape",
+      "spanish": "Cinta adhesiva",
+      "swedish": "Duct Tape",
+      "tchinese": "強力膠帶",
+      "thai": "Duct Tape",
+      "turkish": "Koli Bandı",
+      "ukrainian": "Скотч",
+      "vietnamese": "Duct Tape"
+    },
+    "name": "Duct Tape",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5032-10055",
+  "localized_names": {
+    "brazilian": "Faixas | Fita Adesiva",
+    "bulgarian": "Превръзки за ръце | Изолирбанд",
+    "czech": "Bandáže | Duct Tape",
+    "danish": "Håndbind | Duct Tape",
+    "dutch": "Bandages | Duct Tape",
+    "english": "Hand Wraps | Duct Tape",
+    "finnish": "Käsisiteet | Ilmastointiteippi",
+    "french": "Bandages | Ruban adhésif",
+    "german": "Handbandagen | Klebeband",
+    "greek": "Περιτυλίγματα χεριών | Duct Tape",
+    "hungarian": "Kézkötések | Szigszalag",
+    "indonesian": "Hand Wraps | Duct Tape",
+    "italian": "Fasce per le mani | Duct Tape",
+    "japanese": "Hand Wraps | Duct Tape",
+    "koreana": "핸드랩 | 접착 테이프",
+    "latam": "Vendas de cuero | Cinta adhesiva",
+    "norwegian": "Boksebandasje | Duct Tape",
+    "polish": "Bandaże bokserskie | Taśma izolacyjna",
+    "portuguese": "Faixas de Mão | Duct Tape",
+    "romanian": "Feșe pentru mâini | Duct Tape",
+    "russian": "Обмотки рук | Скотч",
+    "schinese": "裹手 | 防水布胶带",
+    "schinese_pw": "Hand Wraps | Duct Tape",
+    "spanish": "Vendas de cuero | Cinta adhesiva",
+    "swedish": "Handlindor | Duct Tape",
+    "tchinese": "手綁帶 | 強力膠帶",
+    "thai": "ผ้าพันมือ | Duct Tape",
+    "turkish": "El Sargıları | Koli Bandı",
+    "ukrainian": "Бинти на руки | Скотч",
+    "vietnamese": "Bọc tay | Duct Tape"
+  },
+  "media": {
+    "asset_id": "skin__5032-10055",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5032-10055/light.png",
+      "data/api/media/rendered/files/skins/5032-10055/medium.png",
+      "data/api/media/rendered/files/skins/5032-10055/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5032-10055.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5032-10055/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5032-10055/light.png",
+      "medium": "data/api/media/rendered/files/skins/5032-10055/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5032-10055/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/leather_handwraps_handwrap_leathery_ducttape_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/leather_handwraps_handwrap_leathery_ducttape_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/leather_handwraps_handwrap_leathery_ducttape_medium_png.vtex_c"
+    }
+  },
+  "name": "Hand Wraps | Duct Tape",
+  "search_slug": "hand-wraps-duct-tape",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-19",
+        "id": 4471,
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "search_slug": "clutch-case",
+        "via_special_pool": "set_community_19_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-32",
+        "id": 4880,
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "search_slug": "revolution-case",
+        "via_special_pool": "set_community_19_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-19-unusual",
+        "expansion_rule": "hydra-era-gloves",
+        "id": "set_community_19_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-19-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5032-10055__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "leather-handwraps",
+    "id": 5032,
+    "localized_names": {
+      "brazilian": "Faixas",
+      "bulgarian": "Превръзки за ръце",
+      "czech": "Bandáže",
+      "danish": "Håndbind",
+      "dutch": "Bandages",
+      "english": "Hand Wraps",
+      "finnish": "Käsisiteet",
+      "french": "Bandages",
+      "german": "Handbandagen",
+      "greek": "Περιτυλίγματα χεριών",
+      "hungarian": "Kézkötések",
+      "indonesian": "Hand Wraps",
+      "italian": "Fasce per le mani",
+      "japanese": "Hand Wraps",
+      "koreana": "핸드랩",
+      "latam": "Vendas de cuero",
+      "norwegian": "Boksebandasje",
+      "polish": "Bandaże bokserskie",
+      "portuguese": "Faixas de Mão",
+      "romanian": "Feșe pentru mâini",
+      "russian": "Обмотки рук",
+      "schinese": "裹手",
+      "schinese_pw": "Hand Wraps",
+      "spanish": "Vendas de cuero",
+      "swedish": "Handlindor",
+      "tchinese": "手綁帶",
+      "thai": "ผ้าพันมือ",
+      "turkish": "El Sargıları",
+      "ukrainian": "Бинти на руки",
+      "vietnamese": "Bọc tay"
+    },
+    "name": "Hand Wraps",
+    "search_slug": "hand-wraps",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

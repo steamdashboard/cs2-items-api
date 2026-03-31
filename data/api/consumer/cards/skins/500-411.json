@@ -1,0 +1,248 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "500-411",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-damascus-90",
+    "catalog_id": 411,
+    "id": 411,
+    "localized_names": {
+      "brazilian": "Aço de Damasco",
+      "bulgarian": "Дамаска стомана",
+      "czech": "Damascus Steel",
+      "danish": "Damascus Steel",
+      "dutch": "Damascus Steel",
+      "english": "Damascus Steel",
+      "finnish": "Damaskiteräs",
+      "french": "Acier de Damas",
+      "german": "Damaszener Stahl",
+      "greek": "Damascus Steel",
+      "hungarian": "Damaszkuszi Acél",
+      "indonesian": "Damascus Steel",
+      "italian": "Damascus Steel",
+      "japanese": "Damascus Steel",
+      "koreana": "다마스크 강철",
+      "latam": "Acero de damasco",
+      "norwegian": "Damascus Steel",
+      "polish": "Stal damasceńska",
+      "portuguese": "Damascus Steel",
+      "romanian": "Damascus Steel",
+      "russian": "Дамасская сталь",
+      "schinese": "大马士革钢",
+      "schinese_pw": "Damascus Steel",
+      "spanish": "Acero de damasco",
+      "swedish": "Damascus Steel",
+      "tchinese": "大馬士革鋼",
+      "thai": "Damascus Steel",
+      "turkish": "Şam Çeliği",
+      "ukrainian": "Дамаська сталь",
+      "vietnamese": "Damascus Steel"
+    },
+    "name": "Damascus Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "500-411",
+  "localized_names": {
+    "brazilian": "Baioneta | Aço de Damasco",
+    "bulgarian": "Щик | Дамаска стомана",
+    "czech": "Bajonet | Damascus Steel",
+    "danish": "Bajonet | Damascus Steel",
+    "dutch": "Bajonet | Damascus Steel",
+    "english": "Bayonet | Damascus Steel",
+    "finnish": "Pistin | Damaskiteräs",
+    "french": "Baïonnette | Acier de Damas",
+    "german": "Bajonett | Damaszener Stahl",
+    "greek": "Mπαγιονέτα | Damascus Steel",
+    "hungarian": "Bajonett | Damaszkuszi Acél",
+    "indonesian": "Bayonet | Damascus Steel",
+    "italian": "Baionetta | Damascus Steel",
+    "japanese": "銃剣 | Damascus Steel",
+    "koreana": "총검 | 다마스크 강철",
+    "latam": "Bayoneta | Acero de damasco",
+    "norwegian": "Bajonett | Damascus Steel",
+    "polish": "Bagnet | Stal damasceńska",
+    "portuguese": "Bayonet | Damascus Steel",
+    "romanian": "Baionetă | Damascus Steel",
+    "russian": "Штык-нож | Дамасская сталь",
+    "schinese": "刺刀 | 大马士革钢",
+    "schinese_pw": "Bayonet | Damascus Steel",
+    "spanish": "Bayoneta | Acero de damasco",
+    "swedish": "Bajonett | Damascus Steel",
+    "tchinese": "刺刀 | 大馬士革鋼",
+    "thai": "มีดเบโยเน็ต | Damascus Steel",
+    "turkish": "Bayonet | Şam Çeliği",
+    "ukrainian": "Штик-ніж | Дамаська сталь",
+    "vietnamese": "Bayonet | Damascus Steel"
+  },
+  "media": {
+    "asset_id": "weapon__500",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/500/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/500.json",
+    "models": [
+      "weapons/models/knife/knife_bayonet/weapon_knife_bayonet.vmdl_c",
+      "phase2/weapons/models/knife/knife_bayonet/weapon_knife_bayonet_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/500/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Bayonet | Damascus Steel",
+  "search_slug": "bayonet-damascus-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "500-411__normal__battle-scarred",
+    "500-411__normal__factory-new",
+    "500-411__normal__field-tested",
+    "500-411__normal__minimal-wear",
+    "500-411__normal__well-worn",
+    "500-411__stattrak__battle-scarred",
+    "500-411__stattrak__factory-new",
+    "500-411__stattrak__field-tested",
+    "500-411__stattrak__minimal-wear",
+    "500-411__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-bayonet",
+    "id": 500,
+    "localized_names": {
+      "brazilian": "Baioneta",
+      "bulgarian": "Щик",
+      "czech": "Bajonet",
+      "danish": "Bajonet",
+      "dutch": "Bajonet",
+      "english": "Bayonet",
+      "finnish": "Pistin",
+      "french": "Baïonnette",
+      "german": "Bajonett",
+      "greek": "Mπαγιονέτα",
+      "hungarian": "Bajonett",
+      "indonesian": "Bayonet",
+      "italian": "Baionetta",
+      "japanese": "銃剣",
+      "koreana": "총검",
+      "latam": "Bayoneta",
+      "norwegian": "Bajonett",
+      "polish": "Bagnet",
+      "portuguese": "Bayonet",
+      "romanian": "Baionetă",
+      "russian": "Штык-нож",
+      "schinese": "刺刀",
+      "schinese_pw": "Bayonet",
+      "spanish": "Bayoneta",
+      "swedish": "Bajonett",
+      "tchinese": "刺刀",
+      "thai": "มีดเบโยเน็ต",
+      "turkish": "Bayonet",
+      "ukrainian": "Штик-ніж",
+      "vietnamese": "Bayonet"
+    },
+    "name": "Bayonet",
+    "search_slug": "bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

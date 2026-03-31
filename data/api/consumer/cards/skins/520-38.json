@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "520-38",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aa-fade",
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "520-38",
+  "localized_names": {
+    "brazilian": "Faca Navaja | Degradê",
+    "bulgarian": "Наваха нож | Избледняване",
+    "czech": "Nůž Navaja | Fade",
+    "danish": "Navaja-kniv | Fade",
+    "dutch": "Navaja | Fade",
+    "english": "Navaja Knife | Fade",
+    "finnish": "Linkkuveitsi | Häivytys",
+    "french": "Navaja | Dégradé",
+    "german": "Navaja-Messer | Farbverlauf",
+    "greek": "Μαχαίρι Navaja | Fade",
+    "hungarian": "Navaja kés | Halványulás",
+    "indonesian": "Pisau Navaja | Fade",
+    "italian": "Coltello Navaja | Fade",
+    "japanese": "Navaja ナイフ | Fade",
+    "koreana": "나바하 칼 | 흐릿함",
+    "latam": "Navaja | Desteñido",
+    "norwegian": "Navaja | Fade",
+    "polish": "Navaja | Gradient",
+    "portuguese": "Faca Navaja | Fade",
+    "romanian": "Cuțit Navaja | Fade",
+    "russian": "Наваха | Градиент",
+    "schinese": "折刀 | 渐变之色",
+    "schinese_pw": "Navaja Knife | Fade",
+    "spanish": "Navaja | Desteñido",
+    "swedish": "Navajakniv | Fade",
+    "tchinese": "西班牙折刀 | 漸層彩虹",
+    "thai": "มีดนาวาฮา | Fade",
+    "turkish": "Navaja Bıçağı | Solgun",
+    "ukrainian": "Наваха | Градієнт",
+    "vietnamese": "Dao Navaja | Fade"
+  },
+  "media": {
+    "asset_id": "skin__520-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/520-38/light.png",
+      "data/api/media/rendered/files/skins/520-38/medium.png",
+      "data/api/media/rendered/files/skins/520-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/520-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/520-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/520-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/520-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/520-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Navaja Knife | Fade",
+  "search_slug": "navaja-knife-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "520-38__normal__factory-new",
+    "520-38__normal__minimal-wear",
+    "520-38__stattrak__factory-new",
+    "520-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gypsy-jackknife",
+    "id": 520,
+    "localized_names": {
+      "brazilian": "Faca Navaja",
+      "bulgarian": "Наваха нож",
+      "czech": "Nůž Navaja",
+      "danish": "Navaja-kniv",
+      "dutch": "Navaja",
+      "english": "Navaja Knife",
+      "finnish": "Linkkuveitsi",
+      "french": "Navaja",
+      "german": "Navaja-Messer",
+      "greek": "Μαχαίρι Navaja",
+      "hungarian": "Navaja kés",
+      "indonesian": "Pisau Navaja",
+      "italian": "Coltello Navaja",
+      "japanese": "Navaja ナイフ",
+      "koreana": "나바하 칼",
+      "latam": "Navaja",
+      "norwegian": "Navaja",
+      "polish": "Navaja",
+      "portuguese": "Faca Navaja",
+      "romanian": "Cuțit Navaja",
+      "russian": "Наваха",
+      "schinese": "折刀",
+      "schinese_pw": "Navaja Knife",
+      "spanish": "Navaja",
+      "swedish": "Navajakniv",
+      "tchinese": "西班牙折刀",
+      "thai": "มีดนาวาฮา",
+      "turkish": "Navaja Bıçağı",
+      "ukrainian": "Наваха",
+      "vietnamese": "Dao Navaja"
+    },
+    "name": "Navaja Knife",
+    "search_slug": "navaja-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

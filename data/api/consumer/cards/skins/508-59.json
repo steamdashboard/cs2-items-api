@@ -1,0 +1,297 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "canonical_slug": "508-59",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-zebra",
+    "catalog_id": 59,
+    "id": 59,
+    "localized_names": {
+      "brazilian": "Massacre",
+      "bulgarian": "Клане",
+      "czech": "Slaughter",
+      "danish": "Slaughter",
+      "dutch": "Slaughter",
+      "english": "Slaughter",
+      "finnish": "Teurastus",
+      "french": "Carnage",
+      "german": "Metzelei",
+      "greek": "Slaughter",
+      "hungarian": "Mészárlás",
+      "indonesian": "Slaughter",
+      "italian": "Slaughter",
+      "japanese": "Slaughter",
+      "koreana": "살인마",
+      "latam": "Masacre",
+      "norwegian": "Slaughter",
+      "polish": "Rzeź",
+      "portuguese": "Slaughter",
+      "romanian": "Slaughter",
+      "russian": "Убийство",
+      "schinese": "屠夫",
+      "schinese_pw": "Slaughter",
+      "spanish": "Masacre",
+      "swedish": "Slaughter",
+      "tchinese": "屠夫",
+      "thai": "Slaughter",
+      "turkish": "Katliam",
+      "ukrainian": "Бійня",
+      "vietnamese": "Slaughter"
+    },
+    "name": "Slaughter",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.01
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "508-59",
+  "localized_names": {
+    "brazilian": "Baioneta M9 | Massacre",
+    "bulgarian": "M9 щик | Клане",
+    "czech": "Bajonet M9 | Slaughter",
+    "danish": "M9-bajonet | Slaughter",
+    "dutch": "M9 Bajonet | Slaughter",
+    "english": "M9 Bayonet | Slaughter",
+    "finnish": "M9-pistin | Teurastus",
+    "french": "Baïonnette M9 | Carnage",
+    "german": "M9-Bajonett | Metzelei",
+    "greek": "Mπαγιονέτα M9 | Slaughter",
+    "hungarian": "M9 bajonett | Mészárlás",
+    "indonesian": "M9 Bayonet | Slaughter",
+    "italian": "Baionetta M9 | Slaughter",
+    "japanese": "M9バヨネット | Slaughter",
+    "koreana": "M9 총검 | 살인마",
+    "latam": "Bayoneta M9 | Masacre",
+    "norwegian": "M9-bajonett | Slaughter",
+    "polish": "Bagnet M9 | Rzeź",
+    "portuguese": "M9 Bayonet | Slaughter",
+    "romanian": "Baionetă M9 | Slaughter",
+    "russian": "Штык-нож M9 | Убийство",
+    "schinese": "M9 刺刀 | 屠夫",
+    "schinese_pw": "M9 Bayonet | Slaughter",
+    "spanish": "Bayoneta M9 | Masacre",
+    "swedish": "M9-bajonett | Slaughter",
+    "tchinese": "M9 刺刀 | 屠夫",
+    "thai": "มีดเบโยเน็ตเอ็ม9 | Slaughter",
+    "turkish": "M9 Bayonet | Katliam",
+    "ukrainian": "Штик-ніж М9 | Бійня",
+    "vietnamese": "M9 Bayonet | Slaughter"
+  },
+  "media": {
+    "asset_id": "skin__508-59",
+    "images_png": [
+      "data/api/media/rendered/files/skins/508-59/light.png",
+      "data/api/media/rendered/files/skins/508-59/medium.png",
+      "data/api/media/rendered/files/skins/508-59/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/508-59.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/508-59/heavy.png",
+      "light": "data/api/media/rendered/files/skins/508-59/light.png",
+      "medium": "data/api/media/rendered/files/skins/508-59/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/508-59/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_m9_bayonet_am_zebra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_m9_bayonet_am_zebra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_m9_bayonet_am_zebra_medium_png.vtex_c"
+    }
+  },
+  "name": "M9 Bayonet | Slaughter",
+  "search_slug": "m9-bayonet-slaughter",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-valve-1",
+        "id": 4001,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "search_slug": "cs-go-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013",
+        "id": 4002,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "search_slug": "esports-2013-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-ii",
+        "id": 4003,
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "search_slug": "operation-bravo-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-2",
+        "id": 4004,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013-winter",
+        "id": 4005,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "search_slug": "esports-2013-winter-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-1",
+        "id": 4009,
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "search_slug": "winter-offensive-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-3",
+        "id": 4010,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "search_slug": "cs-go-weapon-case-3",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-2",
+        "id": 4011,
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2014-summer",
+        "id": 4019,
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "search_slug": "esports-2014-summer-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-vanguard",
+        "id": 4029,
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-10",
+        "id": 4186,
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "search_slug": "revolver-case",
+        "via_special_pool": "unusual_revolving_list"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "unusual-revolving-list",
+        "expansion_rule": "legacy-knives",
+        "id": "unusual_revolving_list",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "unusual-revolving-special-item-pool",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "508-59__normal__factory-new",
+    "508-59__normal__field-tested",
+    "508-59__normal__minimal-wear",
+    "508-59__stattrak__factory-new",
+    "508-59__stattrak__field-tested",
+    "508-59__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-m9-bayonet",
+    "id": 508,
+    "localized_names": {
+      "brazilian": "Baioneta M9",
+      "bulgarian": "M9 щик",
+      "czech": "Bajonet M9",
+      "danish": "M9-bajonet",
+      "dutch": "M9 Bajonet",
+      "english": "M9 Bayonet",
+      "finnish": "M9-pistin",
+      "french": "Baïonnette M9",
+      "german": "M9-Bajonett",
+      "greek": "Mπαγιονέτα M9",
+      "hungarian": "M9 bajonett",
+      "indonesian": "M9 Bayonet",
+      "italian": "Baionetta M9",
+      "japanese": "M9バヨネット",
+      "koreana": "M9 총검",
+      "latam": "Bayoneta M9",
+      "norwegian": "M9-bajonett",
+      "polish": "Bagnet M9",
+      "portuguese": "M9 Bayonet",
+      "romanian": "Baionetă M9",
+      "russian": "Штык-нож M9",
+      "schinese": "M9 刺刀",
+      "schinese_pw": "M9 Bayonet",
+      "spanish": "Bayoneta M9",
+      "swedish": "M9-bajonett",
+      "tchinese": "M9 刺刀",
+      "thai": "มีดเบโยเน็ตเอ็ม9",
+      "turkish": "M9 Bayonet",
+      "ukrainian": "Штик-ніж М9",
+      "vietnamese": "M9 Bayonet"
+    },
+    "name": "M9 Bayonet",
+    "search_slug": "m9-bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.01
+  }
+}

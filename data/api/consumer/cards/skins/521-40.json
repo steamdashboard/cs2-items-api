@@ -1,0 +1,196 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "521-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "521-40",
+  "localized_names": {
+    "brazilian": "Faca Nômade | Noite",
+    "bulgarian": "Номадският нож | Нощно",
+    "czech": "Outdoorový nůž | Night",
+    "danish": "Nomadekniv | Night",
+    "dutch": "Nomademes | Night",
+    "english": "Nomad Knife | Night",
+    "finnish": "Nomad-puukko | Yö",
+    "french": "Couteau de nomade | Nuit",
+    "german": "Nomadenmesser | Nacht",
+    "greek": "Μαχαίρι Nomad | Night",
+    "hungarian": "Nomád kés | Éjszaka",
+    "indonesian": "Pisau Nomad | Night",
+    "italian": "Coltello Nomade | Night",
+    "japanese": "Nomad ナイフ | Night",
+    "koreana": "노매드 칼 | 밤",
+    "latam": "Cuchillo nómada | Nocturno",
+    "norwegian": "Nomadekniv | Night",
+    "polish": "Nóż nomada | Noc",
+    "portuguese": "Faca Nomad | Night",
+    "romanian": "Cuțit Nomad | Night",
+    "russian": "Нож «Бродяга» | Ночь",
+    "schinese": "流浪者匕首 | 噩梦之夜",
+    "schinese_pw": "Nomad Knife | Night",
+    "spanish": "Cuchillo nómada | Noche cerrada",
+    "swedish": "Nomad-kniv | Night",
+    "tchinese": "流浪者小刀 | 惡夢之夜",
+    "thai": "มีดโนแมด | Night",
+    "turkish": "Göçebe Bıçağı | Gece",
+    "ukrainian": "Польовий ніж | Ніч",
+    "vietnamese": "Dao Nomad | Night"
+  },
+  "media": {
+    "asset_id": "weapon__521",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/521/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/521.json",
+    "models": [
+      "weapons/models/knife/knife_outdoor/weapon_knife_outdoor.vmdl_c",
+      "phase2/weapons/models/knife/knife_outdoor/weapon_knife_outdoor_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/521/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Nomad Knife | Night",
+  "search_slug": "nomad-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "521-40__normal__vanilla",
+    "521-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-outdoor",
+    "id": 521,
+    "localized_names": {
+      "brazilian": "Faca Nômade",
+      "bulgarian": "Номадският нож",
+      "czech": "Outdoorový nůž",
+      "danish": "Nomadekniv",
+      "dutch": "Nomademes",
+      "english": "Nomad Knife",
+      "finnish": "Nomad-puukko",
+      "french": "Couteau de nomade",
+      "german": "Nomadenmesser",
+      "greek": "Μαχαίρι Nomad",
+      "hungarian": "Nomád kés",
+      "indonesian": "Pisau Nomad",
+      "italian": "Coltello Nomade",
+      "japanese": "Nomad ナイフ",
+      "koreana": "노매드 칼",
+      "latam": "Cuchillo nómada",
+      "norwegian": "Nomadekniv",
+      "polish": "Nóż nomada",
+      "portuguese": "Faca Nomad",
+      "romanian": "Cuțit Nomad",
+      "russian": "Нож «Бродяга»",
+      "schinese": "流浪者匕首",
+      "schinese_pw": "Nomad Knife",
+      "spanish": "Cuchillo nómada",
+      "swedish": "Nomad-kniv",
+      "tchinese": "流浪者小刀",
+      "thai": "มีดโนแมด",
+      "turkish": "Göçebe Bıçağı",
+      "ukrainian": "Польовий ніж",
+      "vietnamese": "Dao Nomad"
+    },
+    "name": "Nomad Knife",
+    "search_slug": "nomad-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

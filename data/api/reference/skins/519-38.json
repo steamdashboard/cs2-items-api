@@ -1,0 +1,89 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "519-38",
+  "finish": {
+    "codename": "aa_fade",
+    "id": 38,
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6
+  },
+  "game_ref": {
+    "paint_kit_id": 38,
+    "weapon_id": 519
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "519-38",
+  "name": "Ursus Knife | Fade",
+  "search_slug": "ursus-knife-fade",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-20",
+            "id": 4482,
+            "kind": "weapon-case",
+            "name": "Horizon Case",
+            "search_slug": "horizon-case"
+          },
+          {
+            "canonical_slug": "crate-community-21",
+            "id": 4548,
+            "kind": "weapon-case",
+            "name": "Danger Zone Case",
+            "search_slug": "danger-zone-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "519-38__normal__factory-new",
+    "519-38__normal__minimal-wear",
+    "519-38__stattrak__factory-new",
+    "519-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_ursus",
+    "id": 519,
+    "name": "Ursus Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

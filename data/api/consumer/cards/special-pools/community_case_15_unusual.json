@@ -6,74 +6,6 @@
         "souvenir": false,
         "stattrak": false
       },
-      "canonical_slug": "5027-10008",
-      "category": "glove",
-      "finish": {
-        "canonical_slug": "bloodhound-metallic",
-        "id": 10008,
-        "name": "Bronzed",
-        "rarity_ref": null,
-        "style_code": null,
-        "style_name": null
-      },
-      "generation_notes": {
-        "consumer_derived_from_pool": true,
-        "source_backed": false
-      },
-      "id": "5027-10008",
-      "localized_names": {
-        "brazilian": "Luvas do Cão de Caça | Bronzeada",
-        "bulgarian": "Ръкавици „Хрътка“ | Бронзови",
-        "czech": "Extrémistické rukavice | Bronzed",
-        "danish": "Bloodhound-handsker | Bronzed",
-        "dutch": "Bloodhound-handschoenen | Bronzed",
-        "english": "Bloodhound Gloves | Bronzed",
-        "finnish": "Verikoira-hanskat | Pronssattu",
-        "french": "Gants Bloodhound | Bronze",
-        "german": "Bloodhound-Handschuhe | Brüniert",
-        "greek": "Γάντια Bloodhound | Bronzed",
-        "hungarian": "Véreb-kesztyűk | Bronzosított",
-        "indonesian": "Sarung Tangan Bloodhound | Bronzed",
-        "italian": "Guanti Bloodhound | Bronzed",
-        "japanese": "Bloodhound Gloves | Bronzed",
-        "koreana": "블러드하운드 장갑 | 구리",
-        "latam": "Guantes Bloodhound | Bronceado",
-        "norwegian": "Bloodhound-hansker | Bronzed",
-        "polish": "Rękawice Bloodhound | Brązowe",
-        "portuguese": "Luvas Bloodhound | Bronzed",
-        "romanian": "Mănuși Bloodhound | Bronzed",
-        "russian": "Перчатки «Бладхаунд» | Бронза",
-        "schinese": "血猎手套 | 染铜",
-        "schinese_pw": "Bloodhound Gloves | Bronzed",
-        "spanish": "Guantes Bloodhound | Bronceado",
-        "swedish": "Bloodhound-handskar | Bronzed",
-        "tchinese": "獵犬手套 | 銅膚",
-        "thai": "ถุงมือ Bloodhound | Bronzed",
-        "turkish": "Kan Tazısı Eldivenleri | Bronzlaştırılmış",
-        "ukrainian": "Рукавиці «Дойда» | Засмаглі",
-        "vietnamese": "Găng tay Bloodhound | Bronzed"
-      },
-      "name": "Bloodhound Gloves | Bronzed",
-      "search_slug": "bloodhound-gloves-bronzed",
-      "source_pool_id": "community_case_15_unusual",
-      "weapon": {
-        "canonical_slug": "studded-bloodhound-gloves",
-        "id": 5027,
-        "name": "Bloodhound Gloves",
-        "search_slug": "bloodhound-gloves",
-        "weapon_group": "glove"
-      },
-      "wear": {
-        "max_float": null,
-        "min_float": null
-      }
-    },
-    {
-      "availability": {
-        "normal": true,
-        "souvenir": false,
-        "stattrak": false
-      },
       "canonical_slug": "5027-10006",
       "category": "glove",
       "finish": {
@@ -86,6 +18,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5027-10006",
@@ -154,6 +87,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5027-10007",
@@ -210,6 +144,420 @@
         "souvenir": false,
         "stattrak": false
       },
+      "canonical_slug": "5027-10008",
+      "category": "glove",
+      "finish": {
+        "canonical_slug": "bloodhound-metallic",
+        "id": 10008,
+        "name": "Bronzed",
+        "rarity_ref": null,
+        "style_code": null,
+        "style_name": null
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
+        "source_backed": false
+      },
+      "id": "5027-10008",
+      "localized_names": {
+        "brazilian": "Luvas do Cão de Caça | Bronzeada",
+        "bulgarian": "Ръкавици „Хрътка“ | Бронзови",
+        "czech": "Extrémistické rukavice | Bronzed",
+        "danish": "Bloodhound-handsker | Bronzed",
+        "dutch": "Bloodhound-handschoenen | Bronzed",
+        "english": "Bloodhound Gloves | Bronzed",
+        "finnish": "Verikoira-hanskat | Pronssattu",
+        "french": "Gants Bloodhound | Bronze",
+        "german": "Bloodhound-Handschuhe | Brüniert",
+        "greek": "Γάντια Bloodhound | Bronzed",
+        "hungarian": "Véreb-kesztyűk | Bronzosított",
+        "indonesian": "Sarung Tangan Bloodhound | Bronzed",
+        "italian": "Guanti Bloodhound | Bronzed",
+        "japanese": "Bloodhound Gloves | Bronzed",
+        "koreana": "블러드하운드 장갑 | 구리",
+        "latam": "Guantes Bloodhound | Bronceado",
+        "norwegian": "Bloodhound-hansker | Bronzed",
+        "polish": "Rękawice Bloodhound | Brązowe",
+        "portuguese": "Luvas Bloodhound | Bronzed",
+        "romanian": "Mănuși Bloodhound | Bronzed",
+        "russian": "Перчатки «Бладхаунд» | Бронза",
+        "schinese": "血猎手套 | 染铜",
+        "schinese_pw": "Bloodhound Gloves | Bronzed",
+        "spanish": "Guantes Bloodhound | Bronceado",
+        "swedish": "Bloodhound-handskar | Bronzed",
+        "tchinese": "獵犬手套 | 銅膚",
+        "thai": "ถุงมือ Bloodhound | Bronzed",
+        "turkish": "Kan Tazısı Eldivenleri | Bronzlaştırılmış",
+        "ukrainian": "Рукавиці «Дойда» | Засмаглі",
+        "vietnamese": "Găng tay Bloodhound | Bronzed"
+      },
+      "name": "Bloodhound Gloves | Bronzed",
+      "search_slug": "bloodhound-gloves-bronzed",
+      "source_pool_id": "community_case_15_unusual",
+      "weapon": {
+        "canonical_slug": "studded-bloodhound-gloves",
+        "id": 5027,
+        "name": "Bloodhound Gloves",
+        "search_slug": "bloodhound-gloves",
+        "weapon_group": "glove"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": false
+      },
+      "canonical_slug": "5030-10018",
+      "category": "glove",
+      "finish": {
+        "canonical_slug": "sporty-light-blue",
+        "id": 10018,
+        "name": "Superconductor",
+        "rarity_ref": null,
+        "style_code": null,
+        "style_name": null
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
+        "source_backed": false
+      },
+      "id": "5030-10018",
+      "localized_names": {
+        "brazilian": "Luvas Esportivas | Supercondutora",
+        "bulgarian": "Спортни ръкавици | Свръхпроводник",
+        "czech": "Sportovní rukavice | Superconductor",
+        "danish": "Sportshandsker | Superconductor",
+        "dutch": "Sporthandschoenen | Superconductor",
+        "english": "Sport Gloves | Superconductor",
+        "finnish": "Urheiluhanskat | Suprajohde",
+        "french": "Gants de sport | Supraconducteur",
+        "german": "Sporthandschuhe | Supraleiter",
+        "greek": "Σπορ γάντια | Superconductor",
+        "hungarian": "Sportkesztyűk | Szupravezető",
+        "indonesian": "Sarung Tangan Olahraga | Superconductor",
+        "italian": "Guanti sportivi | Superconductor",
+        "japanese": "Sport Gloves | Superconductor",
+        "koreana": "스포츠 장갑 | 초전도체",
+        "latam": "Guantes de deporte | Superconductor",
+        "norwegian": "Sportshansker | Superconductor",
+        "polish": "Rękawice sportowe | Nadprzewodnik",
+        "portuguese": "Luvas Desportivas | Superconductor",
+        "romanian": "Mănuși sport | Superconductor",
+        "russian": "Спортивные перчатки | Сверхпроводник",
+        "schinese": "运动手套 | 超导体",
+        "schinese_pw": "Sport Gloves | Superconductor",
+        "spanish": "Guantes de deporte | Superconductor",
+        "swedish": "Sporthandskar | Superconductor",
+        "tchinese": "運動員手套 | 超導體",
+        "thai": "ถุงมือกีฬา | Superconductor",
+        "turkish": "Spor Eldivenler | Süper İletken",
+        "ukrainian": "Спортивні рукавиці | Надпровідник",
+        "vietnamese": "Găng tay thể thao | Superconductor"
+      },
+      "name": "Sport Gloves | Superconductor",
+      "search_slug": "sport-gloves-superconductor",
+      "source_pool_id": "community_case_15_unusual",
+      "weapon": {
+        "canonical_slug": "sporty-gloves",
+        "id": 5030,
+        "name": "Sport Gloves",
+        "search_slug": "sport-gloves",
+        "weapon_group": "glove"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": false
+      },
+      "canonical_slug": "5030-10019",
+      "category": "glove",
+      "finish": {
+        "canonical_slug": "sporty-military",
+        "id": 10019,
+        "name": "Arid",
+        "rarity_ref": null,
+        "style_code": null,
+        "style_name": null
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
+        "source_backed": false
+      },
+      "id": "5030-10019",
+      "localized_names": {
+        "brazilian": "Luvas Esportivas | Árida",
+        "bulgarian": "Спортни ръкавици | Суша",
+        "czech": "Sportovní rukavice | Arid",
+        "danish": "Sportshandsker | Arid",
+        "dutch": "Sporthandschoenen | Arid",
+        "english": "Sport Gloves | Arid",
+        "finnish": "Urheiluhanskat | Aavikko",
+        "french": "Gants de sport | Aride",
+        "german": "Sporthandschuhe | Dürr",
+        "greek": "Σπορ γάντια | Arid",
+        "hungarian": "Sportkesztyűk | Száraz",
+        "indonesian": "Sarung Tangan Olahraga | Arid",
+        "italian": "Guanti sportivi | Arid",
+        "japanese": "Sport Gloves | Arid",
+        "koreana": "스포츠 장갑 | 불모의 땅",
+        "latam": "Guantes de deporte | Árido",
+        "norwegian": "Sportshansker | Arid",
+        "polish": "Rękawice sportowe | Pustynne",
+        "portuguese": "Luvas Desportivas | Arid",
+        "romanian": "Mănuși sport | Arid",
+        "russian": "Спортивные перчатки | Засуха",
+        "schinese": "运动手套 | 干旱",
+        "schinese_pw": "Sport Gloves | Arid",
+        "spanish": "Guantes de deporte | Árido",
+        "swedish": "Sporthandskar | Arid",
+        "tchinese": "運動員手套 | 乾旱褐",
+        "thai": "ถุงมือกีฬา | Arid",
+        "turkish": "Spor Eldivenler | Kurak",
+        "ukrainian": "Спортивні рукавиці | Сухий",
+        "vietnamese": "Găng tay thể thao | Arid"
+      },
+      "name": "Sport Gloves | Arid",
+      "search_slug": "sport-gloves-arid",
+      "source_pool_id": "community_case_15_unusual",
+      "weapon": {
+        "canonical_slug": "sporty-gloves",
+        "id": 5030,
+        "name": "Sport Gloves",
+        "search_slug": "sport-gloves",
+        "weapon_group": "glove"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": false
+      },
+      "canonical_slug": "5030-10037",
+      "category": "glove",
+      "finish": {
+        "canonical_slug": "sporty-purple",
+        "id": 10037,
+        "name": "Pandora's Box",
+        "rarity_ref": null,
+        "style_code": null,
+        "style_name": null
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
+        "source_backed": false
+      },
+      "id": "5030-10037",
+      "localized_names": {
+        "brazilian": "Luvas Esportivas | Caixa de Pandora",
+        "bulgarian": "Спортни ръкавици | Кутията на Пандора",
+        "czech": "Sportovní rukavice | Pandora's Box",
+        "danish": "Sportshandsker | Pandora's Box",
+        "dutch": "Sporthandschoenen | Pandora's Box",
+        "english": "Sport Gloves | Pandora's Box",
+        "finnish": "Urheiluhanskat | Pandoran lipas",
+        "french": "Gants de sport | Boîte de Pandore",
+        "german": "Sporthandschuhe | Pandoras Büchse",
+        "greek": "Σπορ γάντια | Pandora's Box",
+        "hungarian": "Sportkesztyűk | Pandóra Szelencéje",
+        "indonesian": "Sarung Tangan Olahraga | Pandora's Box",
+        "italian": "Guanti sportivi | Pandora's Box",
+        "japanese": "Sport Gloves | Pandora's Box",
+        "koreana": "스포츠 장갑 | 판도라의 상자",
+        "latam": "Guantes de deporte | Caja de Pandora",
+        "norwegian": "Sportshansker | Pandora's Box",
+        "polish": "Rękawice sportowe | Puszka Pandory",
+        "portuguese": "Luvas Desportivas | Pandora's Box",
+        "romanian": "Mănuși sport | Pandora's Box",
+        "russian": "Спортивные перчатки | Ящик Пандоры",
+        "schinese": "运动手套 | 潘多拉之盒",
+        "schinese_pw": "Sport Gloves | Pandora's Box",
+        "spanish": "Guantes de deporte | Caja de Pandora",
+        "swedish": "Sporthandskar | Pandora's Box",
+        "tchinese": "運動員手套 | 潘朵拉之盒",
+        "thai": "ถุงมือกีฬา | Pandora's Box",
+        "turkish": "Spor Eldivenler | Pandora'nın Kutusu",
+        "ukrainian": "Спортивні рукавиці | Скриня Пандори",
+        "vietnamese": "Găng tay thể thao | Pandora's Box"
+      },
+      "name": "Sport Gloves | Pandora's Box",
+      "search_slug": "sport-gloves-pandora-s-box",
+      "source_pool_id": "community_case_15_unusual",
+      "weapon": {
+        "canonical_slug": "sporty-gloves",
+        "id": 5030,
+        "name": "Sport Gloves",
+        "search_slug": "sport-gloves",
+        "weapon_group": "glove"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": false
+      },
+      "canonical_slug": "5030-10038",
+      "category": "glove",
+      "finish": {
+        "canonical_slug": "sporty-green",
+        "id": 10038,
+        "name": "Hedge Maze",
+        "rarity_ref": null,
+        "style_code": null,
+        "style_name": null
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
+        "source_backed": false
+      },
+      "id": "5030-10038",
+      "localized_names": {
+        "brazilian": "Luvas Esportivas | Labirinto Vivo",
+        "bulgarian": "Спортни ръкавици | Лабиринт от жив плет",
+        "czech": "Sportovní rukavice | Hedge Maze",
+        "danish": "Sportshandsker | Hedge Maze",
+        "dutch": "Sporthandschoenen | Hedge Maze",
+        "english": "Sport Gloves | Hedge Maze",
+        "finnish": "Urheiluhanskat | Pensaslabyrintti",
+        "french": "Gants de sport | Labyrinthe de haies",
+        "german": "Sporthandschuhe | Heckenirrgarten",
+        "greek": "Σπορ γάντια | Hedge Maze",
+        "hungarian": "Sportkesztyűk | Sövényútvesztő",
+        "indonesian": "Sarung Tangan Olahraga | Hedge Maze",
+        "italian": "Guanti sportivi | Hedge Maze",
+        "japanese": "Sport Gloves | Hedge Maze",
+        "koreana": "스포츠 장갑 | 미로 정원",
+        "latam": "Guantes de deporte | Laberinto de setos",
+        "norwegian": "Sportshansker | Hedge Maze",
+        "polish": "Rękawice sportowe | Labirynt ogrodowy",
+        "portuguese": "Luvas Desportivas | Hedge Maze",
+        "romanian": "Mănuși sport | Labirint din gard viu",
+        "russian": "Спортивные перчатки | Живая изгородь",
+        "schinese": "运动手套 | 树篱迷宫",
+        "schinese_pw": "Sport Gloves | Hedge Maze",
+        "spanish": "Guantes de deporte | Laberinto de setos",
+        "swedish": "Sporthandskar | Hedge Maze",
+        "tchinese": "運動員手套 | 樹籬迷宮",
+        "thai": "ถุงมือกีฬา | Hedge Maze",
+        "turkish": "Spor Eldivenler | Labirent",
+        "ukrainian": "Спортивні рукавиці | Живий лабіринт",
+        "vietnamese": "Găng tay thể thao | Hedge Maze"
+      },
+      "name": "Sport Gloves | Hedge Maze",
+      "search_slug": "sport-gloves-hedge-maze",
+      "source_pool_id": "community_case_15_unusual",
+      "weapon": {
+        "canonical_slug": "sporty-gloves",
+        "id": 5030,
+        "name": "Sport Gloves",
+        "search_slug": "sport-gloves",
+        "weapon_group": "glove"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": false
+      },
+      "canonical_slug": "5031-10013",
+      "category": "glove",
+      "finish": {
+        "canonical_slug": "slick-black",
+        "id": 10013,
+        "name": "Lunar Weave",
+        "rarity_ref": null,
+        "style_code": null,
+        "style_name": null
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
+        "source_backed": false
+      },
+      "id": "5031-10013",
+      "localized_names": {
+        "brazilian": "Luvas de Motorista | Entrelaçamento Lunar",
+        "bulgarian": "Шофьорски ръкавици | Лунно вплитане",
+        "czech": "Řidičské rukavice | Lunar Weave",
+        "danish": "Kørehandsker | Lunar Weave",
+        "dutch": "Rijhandschoenen | Lunar Weave",
+        "english": "Driver Gloves | Lunar Weave",
+        "finnish": "Ajohanskat | Kuukudos",
+        "french": "Gants de pilote | Tissage lunaire",
+        "german": "Chauffeurshandschuhe | Mondgewebe",
+        "greek": "Γάντια οδηγού | Lunar Weave",
+        "hungarian": "Sofőrkesztyű | Hold-szövet",
+        "indonesian": "Sarung Tangan Pengemudi | Lunar Weave",
+        "italian": "Guanti da autista | Lunar Weave",
+        "japanese": "Driver Gloves | Lunar Weave",
+        "koreana": "운전용 장갑 | 달빛 직조",
+        "latam": "Guantes de conductor | Entrelazado lunar",
+        "norwegian": "Kjørehansker | Lunar Weave",
+        "polish": "Rękawiczki samochodowe | Splot księżycowy",
+        "portuguese": "Luvas de Condutor | Lunar Weave",
+        "romanian": "Mănuși de condus | Țesătură selenică",
+        "russian": "Водительские перчатки | Лунный узор",
+        "schinese": "驾驶手套 | 月色织物",
+        "schinese_pw": "Driver Gloves | Lunar Weave",
+        "spanish": "Guantes de conductor | Entrelazado lunar",
+        "swedish": "Förarhandskar | Lunar Weave",
+        "tchinese": "駕駛手套 | 靛藍編織",
+        "thai": "ถุงมือขับรถ | Lunar Weave",
+        "turkish": "Sürücü Eldivenleri | Gümüş Örgü",
+        "ukrainian": "Рукавиці водія | Місячний візерунок",
+        "vietnamese": "Găng tay lái xe | Lunar Weave"
+      },
+      "name": "Driver Gloves | Lunar Weave",
+      "search_slug": "driver-gloves-lunar-weave",
+      "source_pool_id": "community_case_15_unusual",
+      "weapon": {
+        "canonical_slug": "slick-gloves",
+        "id": 5031,
+        "name": "Driver Gloves",
+        "search_slug": "driver-gloves",
+        "weapon_group": "glove"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": false
+      },
       "canonical_slug": "5031-10015",
       "category": "glove",
       "finish": {
@@ -222,6 +570,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5031-10015",
@@ -290,6 +639,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5031-10016",
@@ -346,142 +696,6 @@
         "souvenir": false,
         "stattrak": false
       },
-      "canonical_slug": "5031-10013",
-      "category": "glove",
-      "finish": {
-        "canonical_slug": "slick-black",
-        "id": 10013,
-        "name": "Lunar Weave",
-        "rarity_ref": null,
-        "style_code": null,
-        "style_name": null
-      },
-      "generation_notes": {
-        "consumer_derived_from_pool": true,
-        "source_backed": false
-      },
-      "id": "5031-10013",
-      "localized_names": {
-        "brazilian": "Luvas de Motorista | Entrelaçamento Lunar",
-        "bulgarian": "Шофьорски ръкавици | Лунно вплитане",
-        "czech": "Řidičské rukavice | Lunar Weave",
-        "danish": "Kørehandsker | Lunar Weave",
-        "dutch": "Rijhandschoenen | Lunar Weave",
-        "english": "Driver Gloves | Lunar Weave",
-        "finnish": "Ajohanskat | Kuukudos",
-        "french": "Gants de pilote | Tissage lunaire",
-        "german": "Chauffeurshandschuhe | Mondgewebe",
-        "greek": "Γάντια οδηγού | Lunar Weave",
-        "hungarian": "Sofőrkesztyű | Hold-szövet",
-        "indonesian": "Sarung Tangan Pengemudi | Lunar Weave",
-        "italian": "Guanti da autista | Lunar Weave",
-        "japanese": "Driver Gloves | Lunar Weave",
-        "koreana": "운전용 장갑 | 달빛 직조",
-        "latam": "Guantes de conductor | Entrelazado lunar",
-        "norwegian": "Kjørehansker | Lunar Weave",
-        "polish": "Rękawiczki samochodowe | Splot księżycowy",
-        "portuguese": "Luvas de Condutor | Lunar Weave",
-        "romanian": "Mănuși de condus | Țesătură selenică",
-        "russian": "Водительские перчатки | Лунный узор",
-        "schinese": "驾驶手套 | 月色织物",
-        "schinese_pw": "Driver Gloves | Lunar Weave",
-        "spanish": "Guantes de conductor | Entrelazado lunar",
-        "swedish": "Förarhandskar | Lunar Weave",
-        "tchinese": "駕駛手套 | 靛藍編織",
-        "thai": "ถุงมือขับรถ | Lunar Weave",
-        "turkish": "Sürücü Eldivenleri | Gümüş Örgü",
-        "ukrainian": "Рукавиці водія | Місячний візерунок",
-        "vietnamese": "Găng tay lái xe | Lunar Weave"
-      },
-      "name": "Driver Gloves | Lunar Weave",
-      "search_slug": "driver-gloves-lunar-weave",
-      "source_pool_id": "community_case_15_unusual",
-      "weapon": {
-        "canonical_slug": "slick-gloves",
-        "id": 5031,
-        "name": "Driver Gloves",
-        "search_slug": "driver-gloves",
-        "weapon_group": "glove"
-      },
-      "wear": {
-        "max_float": null,
-        "min_float": null
-      }
-    },
-    {
-      "availability": {
-        "normal": true,
-        "souvenir": false,
-        "stattrak": false
-      },
-      "canonical_slug": "5032-10036",
-      "category": "glove",
-      "finish": {
-        "canonical_slug": "handwrap-fabric-orange-camo",
-        "id": 10036,
-        "name": "Badlands",
-        "rarity_ref": null,
-        "style_code": null,
-        "style_name": null
-      },
-      "generation_notes": {
-        "consumer_derived_from_pool": true,
-        "source_backed": false
-      },
-      "id": "5032-10036",
-      "localized_names": {
-        "brazilian": "Faixas | Terra Batida",
-        "bulgarian": "Превръзки за ръце | Пущинаци",
-        "czech": "Bandáže | Badlands",
-        "danish": "Håndbind | Badlands",
-        "dutch": "Bandages | Badlands",
-        "english": "Hand Wraps | Badlands",
-        "finnish": "Käsisiteet | Julma maa",
-        "french": "Bandages | Badlands",
-        "german": "Handbandagen | Ödland",
-        "greek": "Περιτυλίγματα χεριών | Badlands",
-        "hungarian": "Kézkötések | Terméketlen Vidék",
-        "indonesian": "Hand Wraps | Badlands",
-        "italian": "Fasce per le mani | Badlands",
-        "japanese": "Hand Wraps | Badlands",
-        "koreana": "핸드랩 | 황무지",
-        "latam": "Vendas de cuero | Tierra yerma",
-        "norwegian": "Boksebandasje | Badlands",
-        "polish": "Bandaże bokserskie | Badlandy",
-        "portuguese": "Faixas de Mão | Badlands",
-        "romanian": "Feșe pentru mâini | Badlands",
-        "russian": "Обмотки рук | Пустошь",
-        "schinese": "裹手 | 恶土",
-        "schinese_pw": "Hand Wraps | Badlands",
-        "spanish": "Vendas de cuero | Tierra yerma",
-        "swedish": "Handlindor | Badlands",
-        "tchinese": "手綁帶 | 不毛荒漠",
-        "thai": "ผ้าพันมือ | Badlands",
-        "turkish": "El Sargıları | Çorak Arazi",
-        "ukrainian": "Бинти на руки | Дикі землі",
-        "vietnamese": "Bọc tay | Badlands"
-      },
-      "name": "Hand Wraps | Badlands",
-      "search_slug": "hand-wraps-badlands",
-      "source_pool_id": "community_case_15_unusual",
-      "weapon": {
-        "canonical_slug": "leather-handwraps",
-        "id": 5032,
-        "name": "Hand Wraps",
-        "search_slug": "hand-wraps",
-        "weapon_group": "glove"
-      },
-      "wear": {
-        "max_float": null,
-        "min_float": null
-      }
-    },
-    {
-      "availability": {
-        "normal": true,
-        "souvenir": false,
-        "stattrak": false
-      },
       "canonical_slug": "5032-10009",
       "category": "glove",
       "finish": {
@@ -494,6 +708,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5032-10009",
@@ -550,74 +765,6 @@
         "souvenir": false,
         "stattrak": false
       },
-      "canonical_slug": "5032-10021",
-      "category": "glove",
-      "finish": {
-        "canonical_slug": "handwrap-red-slaughter",
-        "id": 10021,
-        "name": "Slaughter",
-        "rarity_ref": null,
-        "style_code": null,
-        "style_name": null
-      },
-      "generation_notes": {
-        "consumer_derived_from_pool": true,
-        "source_backed": false
-      },
-      "id": "5032-10021",
-      "localized_names": {
-        "brazilian": "Faixas | Abate",
-        "bulgarian": "Превръзки за ръце | Клане",
-        "czech": "Bandáže | Slaughter",
-        "danish": "Håndbind | Slaughter",
-        "dutch": "Bandages | Slaughter",
-        "english": "Hand Wraps | Slaughter",
-        "finnish": "Käsisiteet | Teurastus",
-        "french": "Bandages | Carnage",
-        "german": "Handbandagen | Metzelei",
-        "greek": "Περιτυλίγματα χεριών | Slaughter",
-        "hungarian": "Kézkötések | Mészárlás",
-        "indonesian": "Hand Wraps | Slaughter",
-        "italian": "Fasce per le mani | Slaughter",
-        "japanese": "Hand Wraps | Slaughter",
-        "koreana": "핸드랩 | 살인마",
-        "latam": "Vendas de cuero | Masacre",
-        "norwegian": "Boksebandasje | Slaughter",
-        "polish": "Bandaże bokserskie | Rzeź",
-        "portuguese": "Faixas de Mão | Slaughter",
-        "romanian": "Feșe pentru mâini | Măcel",
-        "russian": "Обмотки рук | Бойня",
-        "schinese": "裹手 | 屠夫",
-        "schinese_pw": "Hand Wraps | Slaughter",
-        "spanish": "Vendas de cuero | Masacre",
-        "swedish": "Handlindor | Slaughter",
-        "tchinese": "手綁帶 | 殺戮斑紋",
-        "thai": "ผ้าพันมือ | Slaughter",
-        "turkish": "El Sargıları | Katliam",
-        "ukrainian": "Бинти на руки | Бійня",
-        "vietnamese": "Bọc tay | Slaughter"
-      },
-      "name": "Hand Wraps | Slaughter",
-      "search_slug": "hand-wraps-slaughter",
-      "source_pool_id": "community_case_15_unusual",
-      "weapon": {
-        "canonical_slug": "leather-handwraps",
-        "id": 5032,
-        "name": "Hand Wraps",
-        "search_slug": "hand-wraps",
-        "weapon_group": "glove"
-      },
-      "wear": {
-        "max_float": null,
-        "min_float": null
-      }
-    },
-    {
-      "availability": {
-        "normal": true,
-        "souvenir": false,
-        "stattrak": false
-      },
       "canonical_slug": "5032-10010",
       "category": "glove",
       "finish": {
@@ -630,6 +777,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5032-10010",
@@ -686,61 +834,62 @@
         "souvenir": false,
         "stattrak": false
       },
-      "canonical_slug": "5033-10027",
+      "canonical_slug": "5032-10021",
       "category": "glove",
       "finish": {
-        "canonical_slug": "motorcycle-mono-boom",
-        "id": 10027,
-        "name": "Boom!",
+        "canonical_slug": "handwrap-red-slaughter",
+        "id": 10021,
+        "name": "Slaughter",
         "rarity_ref": null,
         "style_code": null,
         "style_name": null
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
-      "id": "5033-10027",
+      "id": "5032-10021",
       "localized_names": {
-        "brazilian": "Luvas de Motociclismo | Bum!",
-        "bulgarian": "Мотористки ръкавици | Бум!",
-        "czech": "Motorkářské rukavice | Boom!",
-        "danish": "Motorcykelhandsker | Boom!",
-        "dutch": "Motorhandschoenen | Boom!",
-        "english": "Moto Gloves | Boom!",
-        "finnish": "Moottoripyöräilyhanskat | PAM!",
-        "french": "Gants de moto | Boum !",
-        "german": "Motorradhandschuhe | Bumm!",
-        "greek": "Γάντια μηχανής | Boom!",
-        "hungarian": "Motoroskesztyűk | Bumm!",
-        "indonesian": "Sarung Tangan Motor | Boom!",
-        "italian": "Guanti da centauro | Boom!",
-        "japanese": "Moto Gloves | Boom!",
-        "koreana": "자동차 경주 장갑 | 쾅!",
-        "latam": "Guantes para moto | ¡Bum!",
-        "norwegian": "Motorsykkelhansker | Boom!",
-        "polish": "Rękawice motocyklisty | Bum!",
-        "portuguese": "Luvas de Motociclista | Boom!",
-        "romanian": "Mănuși de motociclist | Boom!",
-        "russian": "Мотоциклетные перчатки | Бах!",
-        "schinese": "摩托手套 | *嘣！*",
-        "schinese_pw": "Moto Gloves | Boom!",
-        "spanish": "Guantes de motorista | ¡Bum!",
-        "swedish": "Moto-handskar | Boom!",
-        "tchinese": "機車手套 | Boom!",
-        "thai": "ถุงมือมอเตอร์ไซค์ | Boom!",
-        "turkish": "Motorcu Eldivenleri | Boom!",
-        "ukrainian": "Рукавиці мотоцикліста | БАХ!",
-        "vietnamese": "Găng tay mô tô | Boom!"
+        "brazilian": "Faixas | Abate",
+        "bulgarian": "Превръзки за ръце | Клане",
+        "czech": "Bandáže | Slaughter",
+        "danish": "Håndbind | Slaughter",
+        "dutch": "Bandages | Slaughter",
+        "english": "Hand Wraps | Slaughter",
+        "finnish": "Käsisiteet | Teurastus",
+        "french": "Bandages | Carnage",
+        "german": "Handbandagen | Metzelei",
+        "greek": "Περιτυλίγματα χεριών | Slaughter",
+        "hungarian": "Kézkötések | Mészárlás",
+        "indonesian": "Hand Wraps | Slaughter",
+        "italian": "Fasce per le mani | Slaughter",
+        "japanese": "Hand Wraps | Slaughter",
+        "koreana": "핸드랩 | 살인마",
+        "latam": "Vendas de cuero | Masacre",
+        "norwegian": "Boksebandasje | Slaughter",
+        "polish": "Bandaże bokserskie | Rzeź",
+        "portuguese": "Faixas de Mão | Slaughter",
+        "romanian": "Feșe pentru mâini | Măcel",
+        "russian": "Обмотки рук | Бойня",
+        "schinese": "裹手 | 屠夫",
+        "schinese_pw": "Hand Wraps | Slaughter",
+        "spanish": "Vendas de cuero | Masacre",
+        "swedish": "Handlindor | Slaughter",
+        "tchinese": "手綁帶 | 殺戮斑紋",
+        "thai": "ผ้าพันมือ | Slaughter",
+        "turkish": "El Sargıları | Katliam",
+        "ukrainian": "Бинти на руки | Бійня",
+        "vietnamese": "Bọc tay | Slaughter"
       },
-      "name": "Moto Gloves | Boom!",
-      "search_slug": "moto-gloves-boom",
+      "name": "Hand Wraps | Slaughter",
+      "search_slug": "hand-wraps-slaughter",
       "source_pool_id": "community_case_15_unusual",
       "weapon": {
-        "canonical_slug": "motorcycle-gloves",
-        "id": 5033,
-        "name": "Moto Gloves",
-        "search_slug": "moto-gloves",
+        "canonical_slug": "leather-handwraps",
+        "id": 5032,
+        "name": "Hand Wraps",
+        "search_slug": "hand-wraps",
         "weapon_group": "glove"
       },
       "wear": {
@@ -754,61 +903,62 @@
         "souvenir": false,
         "stattrak": false
       },
-      "canonical_slug": "5033-10028",
+      "canonical_slug": "5032-10036",
       "category": "glove",
       "finish": {
-        "canonical_slug": "motorcycle-triangle-blue",
-        "id": 10028,
-        "name": "Cool Mint",
+        "canonical_slug": "handwrap-fabric-orange-camo",
+        "id": 10036,
+        "name": "Badlands",
         "rarity_ref": null,
         "style_code": null,
         "style_name": null
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
-      "id": "5033-10028",
+      "id": "5032-10036",
       "localized_names": {
-        "brazilian": "Luvas de Motociclismo | Hortelã",
-        "bulgarian": "Мотористки ръкавици | Освежаваща мента",
-        "czech": "Motorkářské rukavice | Cool Mint",
-        "danish": "Motorcykelhandsker | Cool Mint",
-        "dutch": "Motorhandschoenen | Cool Mint",
-        "english": "Moto Gloves | Cool Mint",
-        "finnish": "Moottoripyöräilyhanskat | Jääminttu",
-        "french": "Gants de moto | Menthe fraîche",
-        "german": "Motorradhandschuhe | Kühle Minze",
-        "greek": "Γάντια μηχανής | Cool Mint",
-        "hungarian": "Motoroskesztyűk | Hűsítő Menta",
-        "indonesian": "Sarung Tangan Motor | Cool Mint",
-        "italian": "Guanti da centauro | Cool Mint",
-        "japanese": "Moto Gloves | Cool Mint",
-        "koreana": "자동차 경주 장갑 | 쿨민트",
-        "latam": "Guantes para moto | Menta fresca",
-        "norwegian": "Motorsykkelhansker | Cool Mint",
-        "polish": "Rękawice motocyklisty | Orzeźwiająca mięta",
-        "portuguese": "Luvas de Motociclista | Cool Mint",
-        "romanian": "Mănuși de motociclist | Cool Mint",
-        "russian": "Мотоциклетные перчатки | Мятная прохлада",
-        "schinese": "摩托手套 | 清凉薄荷",
-        "schinese_pw": "Moto Gloves | Cool Mint",
-        "spanish": "Guantes de motorista | Menta fresca",
-        "swedish": "Moto-handskar | Cool Mint",
-        "tchinese": "機車手套 | 酷清新",
-        "thai": "ถุงมือมอเตอร์ไซค์ | Cool Mint",
-        "turkish": "Motorcu Eldivenleri | Serin Esinti",
-        "ukrainian": "Рукавиці мотоцикліста | Свіжа м’ята",
-        "vietnamese": "Găng tay mô tô | Cool Mint"
+        "brazilian": "Faixas | Terra Batida",
+        "bulgarian": "Превръзки за ръце | Пущинаци",
+        "czech": "Bandáže | Badlands",
+        "danish": "Håndbind | Badlands",
+        "dutch": "Bandages | Badlands",
+        "english": "Hand Wraps | Badlands",
+        "finnish": "Käsisiteet | Julma maa",
+        "french": "Bandages | Badlands",
+        "german": "Handbandagen | Ödland",
+        "greek": "Περιτυλίγματα χεριών | Badlands",
+        "hungarian": "Kézkötések | Terméketlen Vidék",
+        "indonesian": "Hand Wraps | Badlands",
+        "italian": "Fasce per le mani | Badlands",
+        "japanese": "Hand Wraps | Badlands",
+        "koreana": "핸드랩 | 황무지",
+        "latam": "Vendas de cuero | Tierra yerma",
+        "norwegian": "Boksebandasje | Badlands",
+        "polish": "Bandaże bokserskie | Badlandy",
+        "portuguese": "Faixas de Mão | Badlands",
+        "romanian": "Feșe pentru mâini | Badlands",
+        "russian": "Обмотки рук | Пустошь",
+        "schinese": "裹手 | 恶土",
+        "schinese_pw": "Hand Wraps | Badlands",
+        "spanish": "Vendas de cuero | Tierra yerma",
+        "swedish": "Handlindor | Badlands",
+        "tchinese": "手綁帶 | 不毛荒漠",
+        "thai": "ผ้าพันมือ | Badlands",
+        "turkish": "El Sargıları | Çorak Arazi",
+        "ukrainian": "Бинти на руки | Дикі землі",
+        "vietnamese": "Bọc tay | Badlands"
       },
-      "name": "Moto Gloves | Cool Mint",
-      "search_slug": "moto-gloves-cool-mint",
+      "name": "Hand Wraps | Badlands",
+      "search_slug": "hand-wraps-badlands",
       "source_pool_id": "community_case_15_unusual",
       "weapon": {
-        "canonical_slug": "motorcycle-gloves",
-        "id": 5033,
-        "name": "Moto Gloves",
-        "search_slug": "moto-gloves",
+        "canonical_slug": "leather-handwraps",
+        "id": 5032,
+        "name": "Hand Wraps",
+        "search_slug": "hand-wraps",
         "weapon_group": "glove"
       },
       "wear": {
@@ -834,6 +984,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5033-10024",
@@ -902,6 +1053,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5033-10026",
@@ -958,6 +1110,213 @@
         "souvenir": false,
         "stattrak": false
       },
+      "canonical_slug": "5033-10027",
+      "category": "glove",
+      "finish": {
+        "canonical_slug": "motorcycle-mono-boom",
+        "id": 10027,
+        "name": "Boom!",
+        "rarity_ref": null,
+        "style_code": null,
+        "style_name": null
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
+        "source_backed": false
+      },
+      "id": "5033-10027",
+      "localized_names": {
+        "brazilian": "Luvas de Motociclismo | Bum!",
+        "bulgarian": "Мотористки ръкавици | Бум!",
+        "czech": "Motorkářské rukavice | Boom!",
+        "danish": "Motorcykelhandsker | Boom!",
+        "dutch": "Motorhandschoenen | Boom!",
+        "english": "Moto Gloves | Boom!",
+        "finnish": "Moottoripyöräilyhanskat | PAM!",
+        "french": "Gants de moto | Boum !",
+        "german": "Motorradhandschuhe | Bumm!",
+        "greek": "Γάντια μηχανής | Boom!",
+        "hungarian": "Motoroskesztyűk | Bumm!",
+        "indonesian": "Sarung Tangan Motor | Boom!",
+        "italian": "Guanti da centauro | Boom!",
+        "japanese": "Moto Gloves | Boom!",
+        "koreana": "자동차 경주 장갑 | 쾅!",
+        "latam": "Guantes para moto | ¡Bum!",
+        "norwegian": "Motorsykkelhansker | Boom!",
+        "polish": "Rękawice motocyklisty | Bum!",
+        "portuguese": "Luvas de Motociclista | Boom!",
+        "romanian": "Mănuși de motociclist | Boom!",
+        "russian": "Мотоциклетные перчатки | Бах!",
+        "schinese": "摩托手套 | *嘣！*",
+        "schinese_pw": "Moto Gloves | Boom!",
+        "spanish": "Guantes de motorista | ¡Bum!",
+        "swedish": "Moto-handskar | Boom!",
+        "tchinese": "機車手套 | Boom!",
+        "thai": "ถุงมือมอเตอร์ไซค์ | Boom!",
+        "turkish": "Motorcu Eldivenleri | Boom!",
+        "ukrainian": "Рукавиці мотоцикліста | БАХ!",
+        "vietnamese": "Găng tay mô tô | Boom!"
+      },
+      "name": "Moto Gloves | Boom!",
+      "search_slug": "moto-gloves-boom",
+      "source_pool_id": "community_case_15_unusual",
+      "weapon": {
+        "canonical_slug": "motorcycle-gloves",
+        "id": 5033,
+        "name": "Moto Gloves",
+        "search_slug": "moto-gloves",
+        "weapon_group": "glove"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": false
+      },
+      "canonical_slug": "5033-10028",
+      "category": "glove",
+      "finish": {
+        "canonical_slug": "motorcycle-triangle-blue",
+        "id": 10028,
+        "name": "Cool Mint",
+        "rarity_ref": null,
+        "style_code": null,
+        "style_name": null
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
+        "source_backed": false
+      },
+      "id": "5033-10028",
+      "localized_names": {
+        "brazilian": "Luvas de Motociclismo | Hortelã",
+        "bulgarian": "Мотористки ръкавици | Освежаваща мента",
+        "czech": "Motorkářské rukavice | Cool Mint",
+        "danish": "Motorcykelhandsker | Cool Mint",
+        "dutch": "Motorhandschoenen | Cool Mint",
+        "english": "Moto Gloves | Cool Mint",
+        "finnish": "Moottoripyöräilyhanskat | Jääminttu",
+        "french": "Gants de moto | Menthe fraîche",
+        "german": "Motorradhandschuhe | Kühle Minze",
+        "greek": "Γάντια μηχανής | Cool Mint",
+        "hungarian": "Motoroskesztyűk | Hűsítő Menta",
+        "indonesian": "Sarung Tangan Motor | Cool Mint",
+        "italian": "Guanti da centauro | Cool Mint",
+        "japanese": "Moto Gloves | Cool Mint",
+        "koreana": "자동차 경주 장갑 | 쿨민트",
+        "latam": "Guantes para moto | Menta fresca",
+        "norwegian": "Motorsykkelhansker | Cool Mint",
+        "polish": "Rękawice motocyklisty | Orzeźwiająca mięta",
+        "portuguese": "Luvas de Motociclista | Cool Mint",
+        "romanian": "Mănuși de motociclist | Cool Mint",
+        "russian": "Мотоциклетные перчатки | Мятная прохлада",
+        "schinese": "摩托手套 | 清凉薄荷",
+        "schinese_pw": "Moto Gloves | Cool Mint",
+        "spanish": "Guantes de motorista | Menta fresca",
+        "swedish": "Moto-handskar | Cool Mint",
+        "tchinese": "機車手套 | 酷清新",
+        "thai": "ถุงมือมอเตอร์ไซค์ | Cool Mint",
+        "turkish": "Motorcu Eldivenleri | Serin Esinti",
+        "ukrainian": "Рукавиці мотоцикліста | Свіжа м’ята",
+        "vietnamese": "Găng tay mô tô | Cool Mint"
+      },
+      "name": "Moto Gloves | Cool Mint",
+      "search_slug": "moto-gloves-cool-mint",
+      "source_pool_id": "community_case_15_unusual",
+      "weapon": {
+        "canonical_slug": "motorcycle-gloves",
+        "id": 5033,
+        "name": "Moto Gloves",
+        "search_slug": "moto-gloves",
+        "weapon_group": "glove"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": false
+      },
+      "canonical_slug": "5034-10030",
+      "category": "glove",
+      "finish": {
+        "canonical_slug": "specialist-ddpat-green-camo",
+        "id": 10030,
+        "name": "Forest DDPAT",
+        "rarity_ref": null,
+        "style_code": null,
+        "style_name": null
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
+        "source_backed": false
+      },
+      "id": "5034-10030",
+      "localized_names": {
+        "brazilian": "Luvas de Especialista | Camuflagem Digital — Floresta",
+        "bulgarian": "Специализирани ръкавици | Горска разпокъсана цифрова шарка",
+        "czech": "Profesionální rukavice | Forest DDPAT",
+        "danish": "Specialisthandsker | Forest DDPAT",
+        "dutch": "Specialisthandschoenen | Forest DDPAT",
+        "english": "Specialist Gloves | Forest DDPAT",
+        "finnish": "Ammattilaishanskat | Kesämaasto",
+        "french": "Gants de spécialiste | Tempéré numérique",
+        "german": "Spezialistenhandschuhe | Wald-DDPAT",
+        "greek": "Γάντια ειδικού | Forest DDPAT",
+        "hungarian": "Specialista kesztyűk | Erdei DDPAT",
+        "indonesian": "Sarung Tangan Spesialis | Forest DDPAT",
+        "italian": "Guanti dello specialista | Forest DDPAT",
+        "japanese": "Specialist Gloves | Forest DDPAT",
+        "koreana": "전문가 장갑 | 숲 디지털 위장",
+        "latam": "Guantes de especialista | DDPAT de bosque",
+        "norwegian": "Spesialisthansker | Forest DDPAT",
+        "polish": "Rękawice specjalistyczne | Leśny DDPAT",
+        "portuguese": "Luvas de Especialista | Forest DDPAT",
+        "romanian": "Mănuși de specialist | Forest DDPAT",
+        "russian": "Перчатки спецназа | Пиксельный камуфляж «Лес»",
+        "schinese": "专业手套 | 森林 DDPAT",
+        "schinese_pw": "Specialist Gloves | Forest DDPAT",
+        "spanish": "Guantes de especialista | DDPAT boscoso",
+        "swedish": "Specialisthandskar | Forest DDPAT",
+        "tchinese": "技術士手套 | 森林數位迷彩",
+        "thai": "ถุงมือผู้เชี่ยวชาญ | Forest DDPAT",
+        "turkish": "Uzman Eldivenleri | Orman DDPAT",
+        "ukrainian": "Рукавиці спеціаліста | Пікс. камуфляж «Ліс»",
+        "vietnamese": "Găng tay chuyên viên | Forest DDPAT"
+      },
+      "name": "Specialist Gloves | Forest DDPAT",
+      "search_slug": "specialist-gloves-forest-ddpat",
+      "source_pool_id": "community_case_15_unusual",
+      "weapon": {
+        "canonical_slug": "specialist-gloves",
+        "id": 5034,
+        "name": "Specialist Gloves",
+        "search_slug": "specialist-gloves",
+        "weapon_group": "glove"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": false
+      },
       "canonical_slug": "5034-10033",
       "category": "glove",
       "finish": {
@@ -970,6 +1329,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5034-10033",
@@ -1038,6 +1398,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5034-10034",
@@ -1094,74 +1455,6 @@
         "souvenir": false,
         "stattrak": false
       },
-      "canonical_slug": "5034-10030",
-      "category": "glove",
-      "finish": {
-        "canonical_slug": "specialist-ddpat-green-camo",
-        "id": 10030,
-        "name": "Forest DDPAT",
-        "rarity_ref": null,
-        "style_code": null,
-        "style_name": null
-      },
-      "generation_notes": {
-        "consumer_derived_from_pool": true,
-        "source_backed": false
-      },
-      "id": "5034-10030",
-      "localized_names": {
-        "brazilian": "Luvas de Especialista | Camuflagem Digital — Floresta",
-        "bulgarian": "Специализирани ръкавици | Горска разпокъсана цифрова шарка",
-        "czech": "Profesionální rukavice | Forest DDPAT",
-        "danish": "Specialisthandsker | Forest DDPAT",
-        "dutch": "Specialisthandschoenen | Forest DDPAT",
-        "english": "Specialist Gloves | Forest DDPAT",
-        "finnish": "Ammattilaishanskat | Kesämaasto",
-        "french": "Gants de spécialiste | Tempéré numérique",
-        "german": "Spezialistenhandschuhe | Wald-DDPAT",
-        "greek": "Γάντια ειδικού | Forest DDPAT",
-        "hungarian": "Specialista kesztyűk | Erdei DDPAT",
-        "indonesian": "Sarung Tangan Spesialis | Forest DDPAT",
-        "italian": "Guanti dello specialista | Forest DDPAT",
-        "japanese": "Specialist Gloves | Forest DDPAT",
-        "koreana": "전문가 장갑 | 숲 디지털 위장",
-        "latam": "Guantes de especialista | DDPAT de bosque",
-        "norwegian": "Spesialisthansker | Forest DDPAT",
-        "polish": "Rękawice specjalistyczne | Leśny DDPAT",
-        "portuguese": "Luvas de Especialista | Forest DDPAT",
-        "romanian": "Mănuși de specialist | Forest DDPAT",
-        "russian": "Перчатки спецназа | Пиксельный камуфляж «Лес»",
-        "schinese": "专业手套 | 森林 DDPAT",
-        "schinese_pw": "Specialist Gloves | Forest DDPAT",
-        "spanish": "Guantes de especialista | DDPAT boscoso",
-        "swedish": "Specialisthandskar | Forest DDPAT",
-        "tchinese": "技術士手套 | 森林數位迷彩",
-        "thai": "ถุงมือผู้เชี่ยวชาญ | Forest DDPAT",
-        "turkish": "Uzman Eldivenleri | Orman DDPAT",
-        "ukrainian": "Рукавиці спеціаліста | Пікс. камуфляж «Ліс»",
-        "vietnamese": "Găng tay chuyên viên | Forest DDPAT"
-      },
-      "name": "Specialist Gloves | Forest DDPAT",
-      "search_slug": "specialist-gloves-forest-ddpat",
-      "source_pool_id": "community_case_15_unusual",
-      "weapon": {
-        "canonical_slug": "specialist-gloves",
-        "id": 5034,
-        "name": "Specialist Gloves",
-        "search_slug": "specialist-gloves",
-        "weapon_group": "glove"
-      },
-      "wear": {
-        "max_float": null,
-        "min_float": null
-      }
-    },
-    {
-      "availability": {
-        "normal": true,
-        "souvenir": false,
-        "stattrak": false
-      },
       "canonical_slug": "5034-10035",
       "category": "glove",
       "finish": {
@@ -1174,6 +1467,7 @@
       },
       "generation_notes": {
         "consumer_derived_from_pool": true,
+        "expansion_rule": "legacy-gloves",
         "source_backed": false
       },
       "id": "5034-10035",
@@ -1223,278 +1517,6 @@
         "max_float": null,
         "min_float": null
       }
-    },
-    {
-      "availability": {
-        "normal": true,
-        "souvenir": false,
-        "stattrak": false
-      },
-      "canonical_slug": "5030-10019",
-      "category": "glove",
-      "finish": {
-        "canonical_slug": "sporty-military",
-        "id": 10019,
-        "name": "Arid",
-        "rarity_ref": null,
-        "style_code": null,
-        "style_name": null
-      },
-      "generation_notes": {
-        "consumer_derived_from_pool": true,
-        "source_backed": false
-      },
-      "id": "5030-10019",
-      "localized_names": {
-        "brazilian": "Luvas Esportivas | Árida",
-        "bulgarian": "Спортни ръкавици | Суша",
-        "czech": "Sportovní rukavice | Arid",
-        "danish": "Sportshandsker | Arid",
-        "dutch": "Sporthandschoenen | Arid",
-        "english": "Sport Gloves | Arid",
-        "finnish": "Urheiluhanskat | Aavikko",
-        "french": "Gants de sport | Aride",
-        "german": "Sporthandschuhe | Dürr",
-        "greek": "Σπορ γάντια | Arid",
-        "hungarian": "Sportkesztyűk | Száraz",
-        "indonesian": "Sarung Tangan Olahraga | Arid",
-        "italian": "Guanti sportivi | Arid",
-        "japanese": "Sport Gloves | Arid",
-        "koreana": "스포츠 장갑 | 불모의 땅",
-        "latam": "Guantes de deporte | Árido",
-        "norwegian": "Sportshansker | Arid",
-        "polish": "Rękawice sportowe | Pustynne",
-        "portuguese": "Luvas Desportivas | Arid",
-        "romanian": "Mănuși sport | Arid",
-        "russian": "Спортивные перчатки | Засуха",
-        "schinese": "运动手套 | 干旱",
-        "schinese_pw": "Sport Gloves | Arid",
-        "spanish": "Guantes de deporte | Árido",
-        "swedish": "Sporthandskar | Arid",
-        "tchinese": "運動員手套 | 乾旱褐",
-        "thai": "ถุงมือกีฬา | Arid",
-        "turkish": "Spor Eldivenler | Kurak",
-        "ukrainian": "Спортивні рукавиці | Сухий",
-        "vietnamese": "Găng tay thể thao | Arid"
-      },
-      "name": "Sport Gloves | Arid",
-      "search_slug": "sport-gloves-arid",
-      "source_pool_id": "community_case_15_unusual",
-      "weapon": {
-        "canonical_slug": "sporty-gloves",
-        "id": 5030,
-        "name": "Sport Gloves",
-        "search_slug": "sport-gloves",
-        "weapon_group": "glove"
-      },
-      "wear": {
-        "max_float": null,
-        "min_float": null
-      }
-    },
-    {
-      "availability": {
-        "normal": true,
-        "souvenir": false,
-        "stattrak": false
-      },
-      "canonical_slug": "5030-10038",
-      "category": "glove",
-      "finish": {
-        "canonical_slug": "sporty-green",
-        "id": 10038,
-        "name": "Hedge Maze",
-        "rarity_ref": null,
-        "style_code": null,
-        "style_name": null
-      },
-      "generation_notes": {
-        "consumer_derived_from_pool": true,
-        "source_backed": false
-      },
-      "id": "5030-10038",
-      "localized_names": {
-        "brazilian": "Luvas Esportivas | Labirinto Vivo",
-        "bulgarian": "Спортни ръкавици | Лабиринт от жив плет",
-        "czech": "Sportovní rukavice | Hedge Maze",
-        "danish": "Sportshandsker | Hedge Maze",
-        "dutch": "Sporthandschoenen | Hedge Maze",
-        "english": "Sport Gloves | Hedge Maze",
-        "finnish": "Urheiluhanskat | Pensaslabyrintti",
-        "french": "Gants de sport | Labyrinthe de haies",
-        "german": "Sporthandschuhe | Heckenirrgarten",
-        "greek": "Σπορ γάντια | Hedge Maze",
-        "hungarian": "Sportkesztyűk | Sövényútvesztő",
-        "indonesian": "Sarung Tangan Olahraga | Hedge Maze",
-        "italian": "Guanti sportivi | Hedge Maze",
-        "japanese": "Sport Gloves | Hedge Maze",
-        "koreana": "스포츠 장갑 | 미로 정원",
-        "latam": "Guantes de deporte | Laberinto de setos",
-        "norwegian": "Sportshansker | Hedge Maze",
-        "polish": "Rękawice sportowe | Labirynt ogrodowy",
-        "portuguese": "Luvas Desportivas | Hedge Maze",
-        "romanian": "Mănuși sport | Labirint din gard viu",
-        "russian": "Спортивные перчатки | Живая изгородь",
-        "schinese": "运动手套 | 树篱迷宫",
-        "schinese_pw": "Sport Gloves | Hedge Maze",
-        "spanish": "Guantes de deporte | Laberinto de setos",
-        "swedish": "Sporthandskar | Hedge Maze",
-        "tchinese": "運動員手套 | 樹籬迷宮",
-        "thai": "ถุงมือกีฬา | Hedge Maze",
-        "turkish": "Spor Eldivenler | Labirent",
-        "ukrainian": "Спортивні рукавиці | Живий лабіринт",
-        "vietnamese": "Găng tay thể thao | Hedge Maze"
-      },
-      "name": "Sport Gloves | Hedge Maze",
-      "search_slug": "sport-gloves-hedge-maze",
-      "source_pool_id": "community_case_15_unusual",
-      "weapon": {
-        "canonical_slug": "sporty-gloves",
-        "id": 5030,
-        "name": "Sport Gloves",
-        "search_slug": "sport-gloves",
-        "weapon_group": "glove"
-      },
-      "wear": {
-        "max_float": null,
-        "min_float": null
-      }
-    },
-    {
-      "availability": {
-        "normal": true,
-        "souvenir": false,
-        "stattrak": false
-      },
-      "canonical_slug": "5030-10037",
-      "category": "glove",
-      "finish": {
-        "canonical_slug": "sporty-purple",
-        "id": 10037,
-        "name": "Pandora's Box",
-        "rarity_ref": null,
-        "style_code": null,
-        "style_name": null
-      },
-      "generation_notes": {
-        "consumer_derived_from_pool": true,
-        "source_backed": false
-      },
-      "id": "5030-10037",
-      "localized_names": {
-        "brazilian": "Luvas Esportivas | Caixa de Pandora",
-        "bulgarian": "Спортни ръкавици | Кутията на Пандора",
-        "czech": "Sportovní rukavice | Pandora's Box",
-        "danish": "Sportshandsker | Pandora's Box",
-        "dutch": "Sporthandschoenen | Pandora's Box",
-        "english": "Sport Gloves | Pandora's Box",
-        "finnish": "Urheiluhanskat | Pandoran lipas",
-        "french": "Gants de sport | Boîte de Pandore",
-        "german": "Sporthandschuhe | Pandoras Büchse",
-        "greek": "Σπορ γάντια | Pandora's Box",
-        "hungarian": "Sportkesztyűk | Pandóra Szelencéje",
-        "indonesian": "Sarung Tangan Olahraga | Pandora's Box",
-        "italian": "Guanti sportivi | Pandora's Box",
-        "japanese": "Sport Gloves | Pandora's Box",
-        "koreana": "스포츠 장갑 | 판도라의 상자",
-        "latam": "Guantes de deporte | Caja de Pandora",
-        "norwegian": "Sportshansker | Pandora's Box",
-        "polish": "Rękawice sportowe | Puszka Pandory",
-        "portuguese": "Luvas Desportivas | Pandora's Box",
-        "romanian": "Mănuși sport | Pandora's Box",
-        "russian": "Спортивные перчатки | Ящик Пандоры",
-        "schinese": "运动手套 | 潘多拉之盒",
-        "schinese_pw": "Sport Gloves | Pandora's Box",
-        "spanish": "Guantes de deporte | Caja de Pandora",
-        "swedish": "Sporthandskar | Pandora's Box",
-        "tchinese": "運動員手套 | 潘朵拉之盒",
-        "thai": "ถุงมือกีฬา | Pandora's Box",
-        "turkish": "Spor Eldivenler | Pandora'nın Kutusu",
-        "ukrainian": "Спортивні рукавиці | Скриня Пандори",
-        "vietnamese": "Găng tay thể thao | Pandora's Box"
-      },
-      "name": "Sport Gloves | Pandora's Box",
-      "search_slug": "sport-gloves-pandora-s-box",
-      "source_pool_id": "community_case_15_unusual",
-      "weapon": {
-        "canonical_slug": "sporty-gloves",
-        "id": 5030,
-        "name": "Sport Gloves",
-        "search_slug": "sport-gloves",
-        "weapon_group": "glove"
-      },
-      "wear": {
-        "max_float": null,
-        "min_float": null
-      }
-    },
-    {
-      "availability": {
-        "normal": true,
-        "souvenir": false,
-        "stattrak": false
-      },
-      "canonical_slug": "5030-10018",
-      "category": "glove",
-      "finish": {
-        "canonical_slug": "sporty-light-blue",
-        "id": 10018,
-        "name": "Superconductor",
-        "rarity_ref": null,
-        "style_code": null,
-        "style_name": null
-      },
-      "generation_notes": {
-        "consumer_derived_from_pool": true,
-        "source_backed": false
-      },
-      "id": "5030-10018",
-      "localized_names": {
-        "brazilian": "Luvas Esportivas | Supercondutora",
-        "bulgarian": "Спортни ръкавици | Свръхпроводник",
-        "czech": "Sportovní rukavice | Superconductor",
-        "danish": "Sportshandsker | Superconductor",
-        "dutch": "Sporthandschoenen | Superconductor",
-        "english": "Sport Gloves | Superconductor",
-        "finnish": "Urheiluhanskat | Suprajohde",
-        "french": "Gants de sport | Supraconducteur",
-        "german": "Sporthandschuhe | Supraleiter",
-        "greek": "Σπορ γάντια | Superconductor",
-        "hungarian": "Sportkesztyűk | Szupravezető",
-        "indonesian": "Sarung Tangan Olahraga | Superconductor",
-        "italian": "Guanti sportivi | Superconductor",
-        "japanese": "Sport Gloves | Superconductor",
-        "koreana": "스포츠 장갑 | 초전도체",
-        "latam": "Guantes de deporte | Superconductor",
-        "norwegian": "Sportshansker | Superconductor",
-        "polish": "Rękawice sportowe | Nadprzewodnik",
-        "portuguese": "Luvas Desportivas | Superconductor",
-        "romanian": "Mănuși sport | Superconductor",
-        "russian": "Спортивные перчатки | Сверхпроводник",
-        "schinese": "运动手套 | 超导体",
-        "schinese_pw": "Sport Gloves | Superconductor",
-        "spanish": "Guantes de deporte | Superconductor",
-        "swedish": "Sporthandskar | Superconductor",
-        "tchinese": "運動員手套 | 超導體",
-        "thai": "ถุงมือกีฬา | Superconductor",
-        "turkish": "Spor Eldivenler | Süper İletken",
-        "ukrainian": "Спортивні рукавиці | Надпровідник",
-        "vietnamese": "Găng tay thể thao | Superconductor"
-      },
-      "name": "Sport Gloves | Superconductor",
-      "search_slug": "sport-gloves-superconductor",
-      "source_pool_id": "community_case_15_unusual",
-      "weapon": {
-        "canonical_slug": "sporty-gloves",
-        "id": 5030,
-        "name": "Sport Gloves",
-        "search_slug": "sport-gloves",
-        "weapon_group": "glove"
-      },
-      "wear": {
-        "max_float": null,
-        "min_float": null
-      }
     }
   ],
   "canonical_slug": "community-case-15-unusual",
@@ -1537,6 +1559,45 @@
       },
       "name": "Bloodhound Gloves",
       "search_slug": "bloodhound-gloves",
+      "weapon_group": "glove"
+    },
+    {
+      "canonical_slug": "sporty-gloves",
+      "id": 5030,
+      "localized_names": {
+        "brazilian": "Luvas Esportivas",
+        "bulgarian": "Спортни ръкавици",
+        "czech": "Sportovní rukavice",
+        "danish": "Sportshandsker",
+        "dutch": "Sporthandschoenen",
+        "english": "Sport Gloves",
+        "finnish": "Urheiluhanskat",
+        "french": "Gants de sport",
+        "german": "Sporthandschuhe",
+        "greek": "Σπορ γάντια",
+        "hungarian": "Sportkesztyűk",
+        "indonesian": "Sarung Tangan Olahraga",
+        "italian": "Guanti sportivi",
+        "japanese": "Sport Gloves",
+        "koreana": "스포츠 장갑",
+        "latam": "Guantes de deporte",
+        "norwegian": "Sportshansker",
+        "polish": "Rękawice sportowe",
+        "portuguese": "Luvas Desportivas",
+        "romanian": "Mănuși sport",
+        "russian": "Спортивные перчатки",
+        "schinese": "运动手套",
+        "schinese_pw": "Sport Gloves",
+        "spanish": "Guantes de deporte",
+        "swedish": "Sporthandskar",
+        "tchinese": "運動員手套",
+        "thai": "ถุงมือกีฬา",
+        "turkish": "Spor Eldivenler",
+        "ukrainian": "Спортивні рукавиці",
+        "vietnamese": "Găng tay thể thao"
+      },
+      "name": "Sport Gloves",
+      "search_slug": "sport-gloves",
       "weapon_group": "glove"
     },
     {
@@ -1693,45 +1754,6 @@
       },
       "name": "Specialist Gloves",
       "search_slug": "specialist-gloves",
-      "weapon_group": "glove"
-    },
-    {
-      "canonical_slug": "sporty-gloves",
-      "id": 5030,
-      "localized_names": {
-        "brazilian": "Luvas Esportivas",
-        "bulgarian": "Спортни ръкавици",
-        "czech": "Sportovní rukavice",
-        "danish": "Sportshandsker",
-        "dutch": "Sporthandschoenen",
-        "english": "Sport Gloves",
-        "finnish": "Urheiluhanskat",
-        "french": "Gants de sport",
-        "german": "Sporthandschuhe",
-        "greek": "Σπορ γάντια",
-        "hungarian": "Sportkesztyűk",
-        "indonesian": "Sarung Tangan Olahraga",
-        "italian": "Guanti sportivi",
-        "japanese": "Sport Gloves",
-        "koreana": "스포츠 장갑",
-        "latam": "Guantes de deporte",
-        "norwegian": "Sportshansker",
-        "polish": "Rękawice sportowe",
-        "portuguese": "Luvas Desportivas",
-        "romanian": "Mănuși sport",
-        "russian": "Спортивные перчатки",
-        "schinese": "运动手套",
-        "schinese_pw": "Sport Gloves",
-        "spanish": "Guantes de deporte",
-        "swedish": "Sporthandskar",
-        "tchinese": "運動員手套",
-        "thai": "ถุงมือกีฬา",
-        "turkish": "Spor Eldivenler",
-        "ukrainian": "Спортивні рукавиці",
-        "vietnamese": "Găng tay thể thao"
-      },
-      "name": "Sport Gloves",
-      "search_slug": "sport-gloves",
       "weapon_group": "glove"
     }
   ],

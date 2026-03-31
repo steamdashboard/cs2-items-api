@@ -1,0 +1,206 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5031-10072",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "slick-stitched-black-white",
+    "catalog_id": 10072,
+    "id": 10072,
+    "localized_names": {
+      "brazilian": "Black Tie",
+      "bulgarian": "Черна вратовръзка",
+      "czech": "Black Tie",
+      "danish": "Black Tie",
+      "dutch": "Black Tie",
+      "english": "Black Tie",
+      "finnish": "Smokki",
+      "french": "Smoking",
+      "german": "Schwarze Fliege",
+      "greek": "Black Tie",
+      "hungarian": "Fekete Nyakkendő",
+      "indonesian": "Black Tie",
+      "italian": "Black Tie",
+      "japanese": "Black Tie",
+      "koreana": "검은 속박",
+      "latam": "De punta en blanco",
+      "norwegian": "Black Tie",
+      "polish": "Strój galowy",
+      "portuguese": "Black Tie",
+      "romanian": "Black Tie",
+      "russian": "Чёрный галстук",
+      "schinese": "西装革履",
+      "schinese_pw": "Black Tie",
+      "spanish": "De punta en blanco",
+      "swedish": "Black Tie",
+      "tchinese": "黑色領帶",
+      "thai": "Black Tie",
+      "turkish": "Siyah Kravat",
+      "ukrainian": "Чорна краватка",
+      "vietnamese": "Black Tie"
+    },
+    "name": "Black Tie",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5031-10072",
+  "localized_names": {
+    "brazilian": "Luvas de Motorista | Black Tie",
+    "bulgarian": "Шофьорски ръкавици | Черна вратовръзка",
+    "czech": "Řidičské rukavice | Black Tie",
+    "danish": "Kørehandsker | Black Tie",
+    "dutch": "Rijhandschoenen | Black Tie",
+    "english": "Driver Gloves | Black Tie",
+    "finnish": "Ajohanskat | Smokki",
+    "french": "Gants de pilote | Smoking",
+    "german": "Chauffeurshandschuhe | Schwarze Fliege",
+    "greek": "Γάντια οδηγού | Black Tie",
+    "hungarian": "Sofőrkesztyű | Fekete Nyakkendő",
+    "indonesian": "Sarung Tangan Pengemudi | Black Tie",
+    "italian": "Guanti da autista | Black Tie",
+    "japanese": "Driver Gloves | Black Tie",
+    "koreana": "운전용 장갑 | 검은 속박",
+    "latam": "Guantes de conductor | De punta en blanco",
+    "norwegian": "Kjørehansker | Black Tie",
+    "polish": "Rękawiczki samochodowe | Strój galowy",
+    "portuguese": "Luvas de Condutor | Black Tie",
+    "romanian": "Mănuși de condus | Black Tie",
+    "russian": "Водительские перчатки | Чёрный галстук",
+    "schinese": "驾驶手套 | 西装革履",
+    "schinese_pw": "Driver Gloves | Black Tie",
+    "spanish": "Guantes de conductor | De punta en blanco",
+    "swedish": "Förarhandskar | Black Tie",
+    "tchinese": "駕駛手套 | 黑色領帶",
+    "thai": "ถุงมือขับรถ | Black Tie",
+    "turkish": "Sürücü Eldivenleri | Siyah Kravat",
+    "ukrainian": "Рукавиці водія | Чорна краватка",
+    "vietnamese": "Găng tay lái xe | Black Tie"
+  },
+  "media": {
+    "asset_id": "skin__5031-10072",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5031-10072/light.png",
+      "data/api/media/rendered/files/skins/5031-10072/medium.png",
+      "data/api/media/rendered/files/skins/5031-10072/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5031-10072.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5031-10072/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5031-10072/light.png",
+      "medium": "data/api/media/rendered/files/skins/5031-10072/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5031-10072/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/slick_gloves_slick_stitched_black_white_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/slick_gloves_slick_stitched_black_white_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/slick_gloves_slick_stitched_black_white_medium_png.vtex_c"
+    }
+  },
+  "name": "Driver Gloves | Black Tie",
+  "search_slug": "driver-gloves-black-tie",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-27",
+        "id": 4717,
+        "kind": "weapon-case",
+        "name": "Operation Broken Fang Case",
+        "search_slug": "operation-broken-fang-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-28",
+        "id": 4747,
+        "kind": "weapon-case",
+        "name": "Snakebite Case",
+        "search_slug": "snakebite-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-31",
+        "id": 4846,
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "search_slug": "recoil-case",
+        "via_special_pool": "set_glove_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-glove-3-unusual",
+        "expansion_rule": "broken-fang-gloves",
+        "id": "set_glove_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-glove-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5031-10072__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "slick-gloves",
+    "id": 5031,
+    "localized_names": {
+      "brazilian": "Luvas de Motorista",
+      "bulgarian": "Шофьорски ръкавици",
+      "czech": "Řidičské rukavice",
+      "danish": "Kørehandsker",
+      "dutch": "Rijhandschoenen",
+      "english": "Driver Gloves",
+      "finnish": "Ajohanskat",
+      "french": "Gants de pilote",
+      "german": "Chauffeurshandschuhe",
+      "greek": "Γάντια οδηγού",
+      "hungarian": "Sofőrkesztyű",
+      "indonesian": "Sarung Tangan Pengemudi",
+      "italian": "Guanti da autista",
+      "japanese": "Driver Gloves",
+      "koreana": "운전용 장갑",
+      "latam": "Guantes de conductor",
+      "norwegian": "Kjørehansker",
+      "polish": "Rękawiczki samochodowe",
+      "portuguese": "Luvas de Condutor",
+      "romanian": "Mănuși de condus",
+      "russian": "Водительские перчатки",
+      "schinese": "驾驶手套",
+      "schinese_pw": "Driver Gloves",
+      "spanish": "Guantes de conductor",
+      "swedish": "Förarhandskar",
+      "tchinese": "駕駛手套",
+      "thai": "ถุงมือขับรถ",
+      "turkish": "Sürücü Eldivenleri",
+      "ukrainian": "Рукавиці водія",
+      "vietnamese": "Găng tay lái xe"
+    },
+    "name": "Driver Gloves",
+    "search_slug": "driver-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

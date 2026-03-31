@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "505-581",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marked-up-90",
+    "catalog_id": 581,
+    "id": 581,
+    "localized_names": {
+      "brazilian": "Mão Livre",
+      "bulgarian": "Скицирано",
+      "czech": "Freehand",
+      "danish": "Freehand",
+      "dutch": "Freehand",
+      "english": "Freehand",
+      "finnish": "Vapaa käsi",
+      "french": "Signature",
+      "german": "Freihändig",
+      "greek": "Freehand",
+      "hungarian": "Szabad Kéz",
+      "indonesian": "Freehand",
+      "italian": "Freehand",
+      "japanese": "Freehand",
+      "koreana": "자유형",
+      "latam": "Mano alzada",
+      "norwegian": "Freehand",
+      "polish": "Rękodzieło",
+      "portuguese": "Freehand",
+      "romanian": "Freehand",
+      "russian": "Ручная роспись",
+      "schinese": "自由之手",
+      "schinese_pw": "Freehand",
+      "spanish": "Mano alzada",
+      "swedish": "Freehand",
+      "tchinese": "手繪紋",
+      "thai": "Freehand",
+      "turkish": "Boşel",
+      "ukrainian": "Ручний розпис",
+      "vietnamese": "Freehand"
+    },
+    "name": "Freehand",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.48,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "505-581",
+  "localized_names": {
+    "brazilian": "Canivete | Mão Livre",
+    "bulgarian": "Сгъваем нож | Скицирано",
+    "czech": "Skládací nůž | Freehand",
+    "danish": "Foldekniv | Freehand",
+    "dutch": "Knipmes | Freehand",
+    "english": "Flip Knife | Freehand",
+    "finnish": "Taittoveitsi | Vapaa käsi",
+    "french": "Couteau pliant | Signature",
+    "german": "Klappmesser | Freihändig",
+    "greek": "Flip Knife | Freehand",
+    "hungarian": "Összecsukható kés | Szabad Kéz",
+    "indonesian": "Pisau Lipat | Freehand",
+    "italian": "Coltello ricurvo | Freehand",
+    "japanese": "Flip ナイフ | Freehand",
+    "koreana": "접이식 칼 | 자유형",
+    "latam": "Navaja | Mano alzada",
+    "norwegian": "Foldekniv | Freehand",
+    "polish": "Nóż składany | Rękodzieło",
+    "portuguese": "Flip Knife | Freehand",
+    "romanian": "Briceag | Freehand",
+    "russian": "Складной нож | Ручная роспись",
+    "schinese": "折叠刀 | 自由之手",
+    "schinese_pw": "Flip Knife | Freehand",
+    "spanish": "Cuchillo plegable | Mano alzada",
+    "swedish": "Fällkniv | Freehand",
+    "tchinese": "折疊式軍刀 | 手繪紋",
+    "thai": "มีดพับ | Freehand",
+    "turkish": "Sustalı Bıçak | Boşel",
+    "ukrainian": "Складаний ніж | Ручний розпис",
+    "vietnamese": "Dao bấm | Freehand"
+  },
+  "media": {
+    "asset_id": "weapon__505",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/505/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/505.json",
+    "models": [
+      "weapons/models/knife/knife_flip/weapon_knife_flip.vmdl_c",
+      "phase2/weapons/models/knife/knife_flip/weapon_knife_flip_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/505/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Flip Knife | Freehand",
+  "search_slug": "flip-knife-freehand",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-13",
+        "id": 4236,
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "search_slug": "gamma-case",
+        "via_special_pool": "community_case_13_unusual"
+      },
+      {
+        "canonical_slug": "crate-gamma-2",
+        "id": 4281,
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
+        "via_special_pool": "community_case_13_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "505-581__normal__battle-scarred",
+    "505-581__normal__factory-new",
+    "505-581__normal__field-tested",
+    "505-581__normal__minimal-wear",
+    "505-581__normal__well-worn",
+    "505-581__stattrak__battle-scarred",
+    "505-581__stattrak__factory-new",
+    "505-581__stattrak__field-tested",
+    "505-581__stattrak__minimal-wear",
+    "505-581__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-flip",
+    "id": 505,
+    "localized_names": {
+      "brazilian": "Canivete",
+      "bulgarian": "Сгъваем нож",
+      "czech": "Skládací nůž",
+      "danish": "Foldekniv",
+      "dutch": "Knipmes",
+      "english": "Flip Knife",
+      "finnish": "Taittoveitsi",
+      "french": "Couteau pliant",
+      "german": "Klappmesser",
+      "greek": "Flip Knife",
+      "hungarian": "Összecsukható kés",
+      "indonesian": "Pisau Lipat",
+      "italian": "Coltello ricurvo",
+      "japanese": "Flip ナイフ",
+      "koreana": "접이식 칼",
+      "latam": "Navaja",
+      "norwegian": "Foldekniv",
+      "polish": "Nóż składany",
+      "portuguese": "Flip Knife",
+      "romanian": "Briceag",
+      "russian": "Складной нож",
+      "schinese": "折叠刀",
+      "schinese_pw": "Flip Knife",
+      "spanish": "Cuchillo plegable",
+      "swedish": "Fällkniv",
+      "tchinese": "折疊式軍刀",
+      "thai": "มีดพับ",
+      "turkish": "Sustalı Bıçak",
+      "ukrainian": "Складаний ніж",
+      "vietnamese": "Dao bấm"
+    },
+    "name": "Flip Knife",
+    "search_slug": "flip-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.48,
+    "min_float": 0.0
+  }
+}

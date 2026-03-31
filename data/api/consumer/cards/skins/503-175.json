@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "503-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "503-175",
+  "localized_names": {
+    "brazilian": "Faca Clássica | Brasas",
+    "bulgarian": "Класически нож | Обгорено",
+    "czech": "Klasický nůž | Scorched",
+    "danish": "Klassisk kniv | Scorched",
+    "dutch": "Klassiek mes | Scorched",
+    "english": "Classic Knife | Scorched",
+    "finnish": "Klassinen veitsi | Korventunut",
+    "french": "Couteau classique | Brûlé",
+    "german": "Klassisches Messer | Versengt",
+    "greek": "Κλασικό Μαχαίρι | Scorched",
+    "hungarian": "Klasszikus Kés | Megperzselt",
+    "indonesian": "Pisau Klasik | Scorched",
+    "italian": "Coltello classico | Scorched",
+    "japanese": "クラシックナイフ | Scorched",
+    "koreana": "클래식 칼 | 그을림",
+    "latam": "Cuchillo clásico | Chamuscado",
+    "norwegian": "Klassisk kniv | Scorched",
+    "polish": "Klasyczny nóż | Popiół",
+    "portuguese": "Faca Clássica | Scorched",
+    "romanian": "Cuțit clasic | Scorched",
+    "russian": "Классический нож | Сажа",
+    "schinese": "海豹短刀 | 枯焦之色",
+    "schinese_pw": "Classic Knife | Scorched",
+    "spanish": "Cuchillo clásico | Chamuscado",
+    "swedish": "Klassisk kniv | Scorched",
+    "tchinese": "經典軍刀 | 熾灼",
+    "thai": "มีดคลาสสิก | Scorched",
+    "turkish": "Klasik Bıçak | Alazlanmış",
+    "ukrainian": "Класичний ніж | Випалення",
+    "vietnamese": "Classic Knife | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__503-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/503-175/light.png",
+      "data/api/media/rendered/files/skins/503-175/medium.png",
+      "data/api/media/rendered/files/skins/503-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/503-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/503-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/503-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/503-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/503-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_css_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_css_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_css_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Classic Knife | Scorched",
+  "search_slug": "classic-knife-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-24",
+        "id": 4669,
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "search_slug": "cs20-case",
+        "via_special_pool": "set_community_24_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-24-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_24_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Classic Knife ★",
+        "search_slug": "set-community-24-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "503-175__normal__vanilla",
+    "503-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-css",
+    "id": 503,
+    "localized_names": {
+      "brazilian": "Faca Clássica",
+      "bulgarian": "Класически нож",
+      "czech": "Klasický nůž",
+      "danish": "Klassisk kniv",
+      "dutch": "Klassiek mes",
+      "english": "Classic Knife",
+      "finnish": "Klassinen veitsi",
+      "french": "Couteau classique",
+      "german": "Klassisches Messer",
+      "greek": "Κλασικό Μαχαίρι",
+      "hungarian": "Klasszikus Kés",
+      "indonesian": "Pisau Klasik",
+      "italian": "Coltello classico",
+      "japanese": "クラシックナイフ",
+      "koreana": "클래식 칼",
+      "latam": "Cuchillo clásico",
+      "norwegian": "Klassisk kniv",
+      "polish": "Klasyczny nóż",
+      "portuguese": "Faca Clássica",
+      "romanian": "Cuțit clasic",
+      "russian": "Классический нож",
+      "schinese": "海豹短刀",
+      "schinese_pw": "Classic Knife",
+      "spanish": "Cuchillo clásico",
+      "swedish": "Klassisk kniv",
+      "tchinese": "經典軍刀",
+      "thai": "มีดคลาสสิก",
+      "turkish": "Klasik Bıçak",
+      "ukrainian": "Класичний ніж",
+      "vietnamese": "Classic Knife"
+    },
+    "name": "Classic Knife",
+    "search_slug": "classic-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

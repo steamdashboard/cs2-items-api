@@ -1,0 +1,190 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5030-1417",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "glove-sport-velvet-red",
+    "catalog_id": 1417,
+    "id": 1417,
+    "localized_names": {
+      "brazilian": "Ocultas",
+      "bulgarian": "Окултно",
+      "czech": "Occult",
+      "danish": "Occult",
+      "dutch": "Occult",
+      "english": "Occult",
+      "finnish": "Salaperäinen",
+      "french": "Occulte",
+      "german": "Okkultismus",
+      "greek": "Occult",
+      "hungarian": "Okkult",
+      "indonesian": "Occult",
+      "italian": "Occult",
+      "japanese": "Occult",
+      "koreana": "오컬트",
+      "latam": "Ocultismo",
+      "norwegian": "Occult",
+      "polish": "Okultyzm",
+      "portuguese": "Occult",
+      "romanian": "Occult",
+      "russian": "Оккультизм",
+      "schinese": "隐知",
+      "schinese_pw": "Occult",
+      "spanish": "Ocultismo",
+      "swedish": "Occult",
+      "tchinese": "神秘隱晦",
+      "thai": "Occult",
+      "turkish": "Ezoterik Motif",
+      "ukrainian": "Окультизм",
+      "vietnamese": "Occult"
+    },
+    "name": "Occult",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5030-1417",
+  "localized_names": {
+    "brazilian": "Luvas Esportivas | Ocultas",
+    "bulgarian": "Спортни ръкавици | Окултно",
+    "czech": "Sportovní rukavice | Occult",
+    "danish": "Sportshandsker | Occult",
+    "dutch": "Sporthandschoenen | Occult",
+    "english": "Sport Gloves | Occult",
+    "finnish": "Urheiluhanskat | Salaperäinen",
+    "french": "Gants de sport | Occulte",
+    "german": "Sporthandschuhe | Okkultismus",
+    "greek": "Σπορ γάντια | Occult",
+    "hungarian": "Sportkesztyűk | Okkult",
+    "indonesian": "Sarung Tangan Olahraga | Occult",
+    "italian": "Guanti sportivi | Occult",
+    "japanese": "Sport Gloves | Occult",
+    "koreana": "스포츠 장갑 | 오컬트",
+    "latam": "Guantes de deporte | Ocultismo",
+    "norwegian": "Sportshansker | Occult",
+    "polish": "Rękawice sportowe | Okultyzm",
+    "portuguese": "Luvas Desportivas | Occult",
+    "romanian": "Mănuși sport | Occult",
+    "russian": "Спортивные перчатки | Оккультизм",
+    "schinese": "运动手套 | 隐知",
+    "schinese_pw": "Sport Gloves | Occult",
+    "spanish": "Guantes de deporte | Ocultismo",
+    "swedish": "Sporthandskar | Occult",
+    "tchinese": "運動員手套 | 神秘隱晦",
+    "thai": "ถุงมือกีฬา | Occult",
+    "turkish": "Spor Eldivenler | Ezoterik Motif",
+    "ukrainian": "Спортивні рукавиці | Окультизм",
+    "vietnamese": "Găng tay thể thao | Occult"
+  },
+  "media": {
+    "asset_id": "skin__5030-1417",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5030-1417/light.png",
+      "data/api/media/rendered/files/skins/5030-1417/medium.png",
+      "data/api/media/rendered/files/skins/5030-1417/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5030-1417.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5030-1417/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5030-1417/light.png",
+      "medium": "data/api/media/rendered/files/skins/5030-1417/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5030-1417/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/sporty_gloves_glove_sport_velvet_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/sporty_gloves_glove_sport_velvet_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/sporty_gloves_glove_sport_velvet_red_medium_png.vtex_c"
+    }
+  },
+  "name": "Sport Gloves | Occult",
+  "search_slug": "sport-gloves-occult",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [],
+    "containers": [
+      {
+        "canonical_slug": "crate-community-37",
+        "id": 5181,
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "search_slug": "sealed-dead-hand-terminal",
+        "via_special_pool": "set_community_37_unusual"
+      }
+    ],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-37-unusual",
+        "expansion_rule": "volatile-gloves",
+        "id": "set_community_37_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-37-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5030-1417__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "sporty-gloves",
+    "id": 5030,
+    "localized_names": {
+      "brazilian": "Luvas Esportivas",
+      "bulgarian": "Спортни ръкавици",
+      "czech": "Sportovní rukavice",
+      "danish": "Sportshandsker",
+      "dutch": "Sporthandschoenen",
+      "english": "Sport Gloves",
+      "finnish": "Urheiluhanskat",
+      "french": "Gants de sport",
+      "german": "Sporthandschuhe",
+      "greek": "Σπορ γάντια",
+      "hungarian": "Sportkesztyűk",
+      "indonesian": "Sarung Tangan Olahraga",
+      "italian": "Guanti sportivi",
+      "japanese": "Sport Gloves",
+      "koreana": "스포츠 장갑",
+      "latam": "Guantes de deporte",
+      "norwegian": "Sportshansker",
+      "polish": "Rękawice sportowe",
+      "portuguese": "Luvas Desportivas",
+      "romanian": "Mănuși sport",
+      "russian": "Спортивные перчатки",
+      "schinese": "运动手套",
+      "schinese_pw": "Sport Gloves",
+      "spanish": "Guantes de deporte",
+      "swedish": "Sporthandskar",
+      "tchinese": "運動員手套",
+      "thai": "ถุงมือกีฬา",
+      "turkish": "Spor Eldivenler",
+      "ukrainian": "Спортивні рукавиці",
+      "vietnamese": "Găng tay thể thao"
+    },
+    "name": "Sport Gloves",
+    "search_slug": "sport-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

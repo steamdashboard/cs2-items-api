@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "506-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "506-409",
+  "localized_names": {
+    "brazilian": "Faca Gut Hook | Dente de Tigre",
+    "bulgarian": "Касапски нож | Тигров зъб",
+    "czech": "Rozparovací nůž | Tiger Tooth",
+    "danish": "Jagtkniv | Tiger Tooth",
+    "dutch": "Ingewandenmes | Tiger Tooth",
+    "english": "Gut Knife | Tiger Tooth",
+    "finnish": "Metsästysveitsi | Tiikerinhammas",
+    "french": "Couteau à éviscérer | Dent de tigre",
+    "german": "Aufbrechmesser | Tigerzahn",
+    "greek": "Gut Knife | Tiger Tooth",
+    "hungarian": "Zsigerelőkés | Tigrisfog",
+    "indonesian": "Pisau Pengait | Tiger Tooth",
+    "italian": "Coltello da sventramento | Tiger Tooth",
+    "japanese": "ガットナイフ | Tiger Tooth",
+    "koreana": "갈고리 칼 | 호랑이 이빨",
+    "latam": "Cuchillo destripador | Diente de tigre",
+    "norwegian": "Sløyekniv | Tiger Tooth",
+    "polish": "Nóż z hakiem | Tygrysi kieł",
+    "portuguese": "Gut Knife | Tiger Tooth",
+    "romanian": "Cuțit de eviscerat | Tiger Tooth",
+    "russian": "Нож с лезвием-крюком | Зуб тигра",
+    "schinese": "穿肠刀 | 虎牙",
+    "schinese_pw": "Gut Knife | Tiger Tooth",
+    "spanish": "Cuchillo Destripador | Diente de tigre",
+    "swedish": "Buköppnare | Tiger Tooth",
+    "tchinese": "穿腸刀 | 虎牙",
+    "thai": "มีดแล่หนัง | Tiger Tooth",
+    "turkish": "Kancalı Bıçak | Kaplan Dişi",
+    "ukrainian": "Білувальний ніж | Тигряче ікло",
+    "vietnamese": "Dao móc | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__506-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/506-409/light.png",
+      "data/api/media/rendered/files/skins/506-409/medium.png",
+      "data/api/media/rendered/files/skins/506-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/506-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/506-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/506-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/506-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/506-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gut_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gut_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gut_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Gut Knife | Tiger Tooth",
+  "search_slug": "gut-knife-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "506-409__normal__factory-new",
+    "506-409__normal__minimal-wear",
+    "506-409__stattrak__factory-new",
+    "506-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gut",
+    "id": 506,
+    "localized_names": {
+      "brazilian": "Faca Gut Hook",
+      "bulgarian": "Касапски нож",
+      "czech": "Rozparovací nůž",
+      "danish": "Jagtkniv",
+      "dutch": "Ingewandenmes",
+      "english": "Gut Knife",
+      "finnish": "Metsästysveitsi",
+      "french": "Couteau à éviscérer",
+      "german": "Aufbrechmesser",
+      "greek": "Gut Knife",
+      "hungarian": "Zsigerelőkés",
+      "indonesian": "Pisau Pengait",
+      "italian": "Coltello da sventramento",
+      "japanese": "ガットナイフ",
+      "koreana": "갈고리 칼",
+      "latam": "Cuchillo destripador",
+      "norwegian": "Sløyekniv",
+      "polish": "Nóż z hakiem",
+      "portuguese": "Gut Knife",
+      "romanian": "Cuțit de eviscerat",
+      "russian": "Нож с лезвием-крюком",
+      "schinese": "穿肠刀",
+      "schinese_pw": "Gut Knife",
+      "spanish": "Cuchillo Destripador",
+      "swedish": "Buköppnare",
+      "tchinese": "穿腸刀",
+      "thai": "มีดแล่หนัง",
+      "turkish": "Kancalı Bıçak",
+      "ukrainian": "Білувальний ніж",
+      "vietnamese": "Dao móc"
+    },
+    "name": "Gut Knife",
+    "search_slug": "gut-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

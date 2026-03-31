@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "522-410",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-damascus",
+    "catalog_id": 410,
+    "id": 410,
+    "localized_names": {
+      "brazilian": "Aço de Damasco",
+      "bulgarian": "Дамаска стомана",
+      "czech": "Damascus Steel",
+      "danish": "Damascus Steel",
+      "dutch": "Damascus Steel",
+      "english": "Damascus Steel",
+      "finnish": "Damaskiteräs",
+      "french": "Acier de Damas",
+      "german": "Damaszener Stahl",
+      "greek": "Damascus Steel",
+      "hungarian": "Damaszkuszi Acél",
+      "indonesian": "Damascus Steel",
+      "italian": "Damascus Steel",
+      "japanese": "Damascus Steel",
+      "koreana": "다마스크 강철",
+      "latam": "Acero de damasco",
+      "norwegian": "Damascus Steel",
+      "polish": "Stal damasceńska",
+      "portuguese": "Damascus Steel",
+      "romanian": "Damascus Steel",
+      "russian": "Дамасская сталь",
+      "schinese": "大马士革钢",
+      "schinese_pw": "Damascus Steel",
+      "spanish": "Acero de damasco",
+      "swedish": "Damascus Steel",
+      "tchinese": "大馬士革鋼",
+      "thai": "Damascus Steel",
+      "turkish": "Şam Çeliği",
+      "ukrainian": "Дамаська сталь",
+      "vietnamese": "Damascus Steel"
+    },
+    "name": "Damascus Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "522-410",
+  "localized_names": {
+    "brazilian": "Faca Stiletto | Aço de Damasco",
+    "bulgarian": "Нож стилет | Дамаска стомана",
+    "czech": "Vystřelovací nůž | Damascus Steel",
+    "danish": "Stiletto-kniv | Damascus Steel",
+    "dutch": "Stiletto | Damascus Steel",
+    "english": "Stiletto Knife | Damascus Steel",
+    "finnish": "Stiletti | Damaskiteräs",
+    "french": "Stylet | Acier de Damas",
+    "german": "Stilett | Damaszener Stahl",
+    "greek": "Μαχαίρι Stiletto | Damascus Steel",
+    "hungarian": "Stiletto kés | Damaszkuszi Acél",
+    "indonesian": "Pisau Stiletto | Damascus Steel",
+    "italian": "Stiletto | Damascus Steel",
+    "japanese": "Stiletto ナイフ | Damascus Steel",
+    "koreana": "스틸레토 칼 | 다마스크 강철",
+    "latam": "Estilete | Acero de damasco",
+    "norwegian": "Springkniv | Damascus Steel",
+    "polish": "Sztylet | Stal damasceńska",
+    "portuguese": "Faca Stiletto | Damascus Steel",
+    "romanian": "Cuțit Stiletto | Damascus Steel",
+    "russian": "Стилет | Дамасская сталь",
+    "schinese": "短剑 | 大马士革钢",
+    "schinese_pw": "Stiletto Knife | Damascus Steel",
+    "spanish": "Estilete | Acero de damasco",
+    "swedish": "Stilettkniv | Damascus Steel",
+    "tchinese": "彈簧刀 | 大馬士革鋼",
+    "thai": "มีดสติลเล็ตโต | Damascus Steel",
+    "turkish": "Stiletto Bıçak | Şam Çeliği",
+    "ukrainian": "Ніж-стилет | Дамаська сталь",
+    "vietnamese": "Dao Stiletto | Damascus Steel"
+  },
+  "media": {
+    "asset_id": "weapon__522",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/522/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/522.json",
+    "models": [
+      "weapons/models/knife/knife_stiletto/weapon_knife_stiletto.vmdl_c",
+      "phase2/weapons/models/knife/knife_stiletto/weapon_knife_stiletto_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/522/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Stiletto Knife | Damascus Steel",
+  "search_slug": "stiletto-knife-damascus-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-22",
+        "id": 4598,
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "search_slug": "prisma-case",
+        "via_special_pool": "set_community_22_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-25",
+        "id": 4695,
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "search_slug": "prisma-2-case",
+        "via_special_pool": "set_community_22_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-22-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_22_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-22-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "522-410__normal__battle-scarred",
+    "522-410__normal__factory-new",
+    "522-410__normal__field-tested",
+    "522-410__normal__minimal-wear",
+    "522-410__normal__well-worn",
+    "522-410__stattrak__battle-scarred",
+    "522-410__stattrak__factory-new",
+    "522-410__stattrak__field-tested",
+    "522-410__stattrak__minimal-wear",
+    "522-410__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-stiletto",
+    "id": 522,
+    "localized_names": {
+      "brazilian": "Faca Stiletto",
+      "bulgarian": "Нож стилет",
+      "czech": "Vystřelovací nůž",
+      "danish": "Stiletto-kniv",
+      "dutch": "Stiletto",
+      "english": "Stiletto Knife",
+      "finnish": "Stiletti",
+      "french": "Stylet",
+      "german": "Stilett",
+      "greek": "Μαχαίρι Stiletto",
+      "hungarian": "Stiletto kés",
+      "indonesian": "Pisau Stiletto",
+      "italian": "Stiletto",
+      "japanese": "Stiletto ナイフ",
+      "koreana": "스틸레토 칼",
+      "latam": "Estilete",
+      "norwegian": "Springkniv",
+      "polish": "Sztylet",
+      "portuguese": "Faca Stiletto",
+      "romanian": "Cuțit Stiletto",
+      "russian": "Стилет",
+      "schinese": "短剑",
+      "schinese_pw": "Stiletto Knife",
+      "spanish": "Estilete",
+      "swedish": "Stilettkniv",
+      "tchinese": "彈簧刀",
+      "thai": "มีดสติลเล็ตโต",
+      "turkish": "Stiletto Bıçak",
+      "ukrainian": "Ніж-стилет",
+      "vietnamese": "Dao Stiletto"
+    },
+    "name": "Stiletto Knife",
+    "search_slug": "stiletto-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

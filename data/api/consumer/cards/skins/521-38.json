@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "521-38",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aa-fade",
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "521-38",
+  "localized_names": {
+    "brazilian": "Faca Nômade | Degradê",
+    "bulgarian": "Номадският нож | Избледняване",
+    "czech": "Outdoorový nůž | Fade",
+    "danish": "Nomadekniv | Fade",
+    "dutch": "Nomademes | Fade",
+    "english": "Nomad Knife | Fade",
+    "finnish": "Nomad-puukko | Häivytys",
+    "french": "Couteau de nomade | Dégradé",
+    "german": "Nomadenmesser | Farbverlauf",
+    "greek": "Μαχαίρι Nomad | Fade",
+    "hungarian": "Nomád kés | Halványulás",
+    "indonesian": "Pisau Nomad | Fade",
+    "italian": "Coltello Nomade | Fade",
+    "japanese": "Nomad ナイフ | Fade",
+    "koreana": "노매드 칼 | 흐릿함",
+    "latam": "Cuchillo nómada | Desteñido",
+    "norwegian": "Nomadekniv | Fade",
+    "polish": "Nóż nomada | Gradient",
+    "portuguese": "Faca Nomad | Fade",
+    "romanian": "Cuțit Nomad | Fade",
+    "russian": "Нож «Бродяга» | Градиент",
+    "schinese": "流浪者匕首 | 渐变之色",
+    "schinese_pw": "Nomad Knife | Fade",
+    "spanish": "Cuchillo nómada | Desteñido",
+    "swedish": "Nomad-kniv | Fade",
+    "tchinese": "流浪者小刀 | 漸層彩虹",
+    "thai": "มีดโนแมด | Fade",
+    "turkish": "Göçebe Bıçağı | Solgun",
+    "ukrainian": "Польовий ніж | Градієнт",
+    "vietnamese": "Dao Nomad | Fade"
+  },
+  "media": {
+    "asset_id": "skin__521-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/521-38/light.png",
+      "data/api/media/rendered/files/skins/521-38/medium.png",
+      "data/api/media/rendered/files/skins/521-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/521-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/521-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/521-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/521-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/521-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_outdoor_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_outdoor_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_outdoor_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Nomad Knife | Fade",
+  "search_slug": "nomad-knife-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "521-38__normal__factory-new",
+    "521-38__normal__minimal-wear",
+    "521-38__stattrak__factory-new",
+    "521-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-outdoor",
+    "id": 521,
+    "localized_names": {
+      "brazilian": "Faca Nômade",
+      "bulgarian": "Номадският нож",
+      "czech": "Outdoorový nůž",
+      "danish": "Nomadekniv",
+      "dutch": "Nomademes",
+      "english": "Nomad Knife",
+      "finnish": "Nomad-puukko",
+      "french": "Couteau de nomade",
+      "german": "Nomadenmesser",
+      "greek": "Μαχαίρι Nomad",
+      "hungarian": "Nomád kés",
+      "indonesian": "Pisau Nomad",
+      "italian": "Coltello Nomade",
+      "japanese": "Nomad ナイフ",
+      "koreana": "노매드 칼",
+      "latam": "Cuchillo nómada",
+      "norwegian": "Nomadekniv",
+      "polish": "Nóż nomada",
+      "portuguese": "Faca Nomad",
+      "romanian": "Cuțit Nomad",
+      "russian": "Нож «Бродяга»",
+      "schinese": "流浪者匕首",
+      "schinese_pw": "Nomad Knife",
+      "spanish": "Cuchillo nómada",
+      "swedish": "Nomad-kniv",
+      "tchinese": "流浪者小刀",
+      "thai": "มีดโนแมด",
+      "turkish": "Göçebe Bıçağı",
+      "ukrainian": "Польовий ніж",
+      "vietnamese": "Dao Nomad"
+    },
+    "name": "Nomad Knife",
+    "search_slug": "nomad-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "525-42",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-blued",
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "525-42",
+  "localized_names": {
+    "brazilian": "Faca Esqueleto | Aço Azul",
+    "bulgarian": "Скелетен нож | Синя стомана",
+    "czech": "Skeletový nůž | Blue Steel",
+    "danish": "Skeletkniv | Blue Steel",
+    "dutch": "Skeletonmes | Blue Steel",
+    "english": "Skeleton Knife | Blue Steel",
+    "finnish": "Skeleton-puukko | Sininen teräs",
+    "french": "Couteau squelettique | Acier bleui",
+    "german": "Skelettmesser | Blauer Stahl",
+    "greek": "Μαχαίρι Skeleton | Blue Steel",
+    "hungarian": "Csontváz kés | Kék Acél",
+    "indonesian": "Pisau Skeleton | Blue Steel",
+    "italian": "Coltello Scheletro | Blue Steel",
+    "japanese": "Skeleton ナイフ | Blue Steel",
+    "koreana": "스켈레톤 칼 | 푸른 강철",
+    "latam": "Cuchillo esqueletizado | Azul metalizado",
+    "norwegian": "Skjelettkniv | Blue Steel",
+    "polish": "Nóż szkieletowy | Niebieska stal",
+    "portuguese": "Faca Skeleton | Blue Steel",
+    "romanian": "Cuțit scheletic | Blue Steel",
+    "russian": "Скелетный нож | Вороненая сталь",
+    "schinese": "骷髅匕首 | 蓝钢",
+    "schinese_pw": "Skeleton Knife | Blue Steel",
+    "spanish": "Cuchillo esqueletizado | Azul metalizado",
+    "swedish": "Skeleton-kniv | Blue Steel",
+    "tchinese": "骷顱刀 | 藍鋼",
+    "thai": "มีดสเกเลตัน | Blue Steel",
+    "turkish": "İskelet Bıçak | Mavi Çelik",
+    "ukrainian": "Скелетний ніж | Блакитна сталь",
+    "vietnamese": "Dao Skeleton | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__525-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/525-42/light.png",
+      "data/api/media/rendered/files/skins/525-42/medium.png",
+      "data/api/media/rendered/files/skins/525-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/525-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/525-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/525-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/525-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/525-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_skeleton_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_skeleton_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_skeleton_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "Skeleton Knife | Blue Steel",
+  "search_slug": "skeleton-knife-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "525-42__normal__battle-scarred",
+    "525-42__normal__factory-new",
+    "525-42__normal__field-tested",
+    "525-42__normal__minimal-wear",
+    "525-42__normal__well-worn",
+    "525-42__stattrak__battle-scarred",
+    "525-42__stattrak__factory-new",
+    "525-42__stattrak__field-tested",
+    "525-42__stattrak__minimal-wear",
+    "525-42__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-skeleton",
+    "id": 525,
+    "localized_names": {
+      "brazilian": "Faca Esqueleto",
+      "bulgarian": "Скелетен нож",
+      "czech": "Skeletový nůž",
+      "danish": "Skeletkniv",
+      "dutch": "Skeletonmes",
+      "english": "Skeleton Knife",
+      "finnish": "Skeleton-puukko",
+      "french": "Couteau squelettique",
+      "german": "Skelettmesser",
+      "greek": "Μαχαίρι Skeleton",
+      "hungarian": "Csontváz kés",
+      "indonesian": "Pisau Skeleton",
+      "italian": "Coltello Scheletro",
+      "japanese": "Skeleton ナイフ",
+      "koreana": "스켈레톤 칼",
+      "latam": "Cuchillo esqueletizado",
+      "norwegian": "Skjelettkniv",
+      "polish": "Nóż szkieletowy",
+      "portuguese": "Faca Skeleton",
+      "romanian": "Cuțit scheletic",
+      "russian": "Скелетный нож",
+      "schinese": "骷髅匕首",
+      "schinese_pw": "Skeleton Knife",
+      "spanish": "Cuchillo esqueletizado",
+      "swedish": "Skeleton-kniv",
+      "tchinese": "骷顱刀",
+      "thai": "มีดสเกเลตัน",
+      "turkish": "İskelet Bıçak",
+      "ukrainian": "Скелетний ніж",
+      "vietnamese": "Dao Skeleton"
+    },
+    "name": "Skeleton Knife",
+    "search_slug": "skeleton-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

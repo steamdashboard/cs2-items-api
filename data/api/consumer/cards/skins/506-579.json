@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "506-579",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-ocean-knife-90",
+    "catalog_id": 579,
+    "id": 579,
+    "localized_names": {
+      "brazilian": "Águas Claras",
+      "bulgarian": "Бистра вода",
+      "czech": "Bright Water",
+      "danish": "Bright Water",
+      "dutch": "Bright Water",
+      "english": "Bright Water",
+      "finnish": "Kirkas vesi",
+      "french": "Eau vive",
+      "german": "Klares Wasser",
+      "greek": "Bright Water",
+      "hungarian": "Fényes Víz",
+      "indonesian": "Bright Water",
+      "italian": "Bright Water",
+      "japanese": "Bright Water",
+      "koreana": "밝은 물결",
+      "latam": "Aguas brillantes",
+      "norwegian": "Bright Water",
+      "polish": "Jasne wody",
+      "portuguese": "Bright Water",
+      "romanian": "Bright Water",
+      "russian": "Чистая вода",
+      "schinese": "澄澈之水",
+      "schinese_pw": "Bright Water",
+      "spanish": "Aguas brillantes",
+      "swedish": "Bright Water",
+      "tchinese": "澄水",
+      "thai": "Bright Water",
+      "turkish": "Parlak Su",
+      "ukrainian": "Чиста вода",
+      "vietnamese": "Bright Water"
+    },
+    "name": "Bright Water",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "506-579",
+  "localized_names": {
+    "brazilian": "Faca Gut Hook | Águas Claras",
+    "bulgarian": "Касапски нож | Бистра вода",
+    "czech": "Rozparovací nůž | Bright Water",
+    "danish": "Jagtkniv | Bright Water",
+    "dutch": "Ingewandenmes | Bright Water",
+    "english": "Gut Knife | Bright Water",
+    "finnish": "Metsästysveitsi | Kirkas vesi",
+    "french": "Couteau à éviscérer | Eau vive",
+    "german": "Aufbrechmesser | Klares Wasser",
+    "greek": "Gut Knife | Bright Water",
+    "hungarian": "Zsigerelőkés | Fényes Víz",
+    "indonesian": "Pisau Pengait | Bright Water",
+    "italian": "Coltello da sventramento | Bright Water",
+    "japanese": "ガットナイフ | Bright Water",
+    "koreana": "갈고리 칼 | 밝은 물결",
+    "latam": "Cuchillo destripador | Aguas brillantes",
+    "norwegian": "Sløyekniv | Bright Water",
+    "polish": "Nóż z hakiem | Jasne wody",
+    "portuguese": "Gut Knife | Bright Water",
+    "romanian": "Cuțit de eviscerat | Bright Water",
+    "russian": "Нож с лезвием-крюком | Чистая вода",
+    "schinese": "穿肠刀 | 澄澈之水",
+    "schinese_pw": "Gut Knife | Bright Water",
+    "spanish": "Cuchillo Destripador | Aguas brillantes",
+    "swedish": "Buköppnare | Bright Water",
+    "tchinese": "穿腸刀 | 澄水",
+    "thai": "มีดแล่หนัง | Bright Water",
+    "turkish": "Kancalı Bıçak | Parlak Su",
+    "ukrainian": "Білувальний ніж | Чиста вода",
+    "vietnamese": "Dao móc | Bright Water"
+  },
+  "media": {
+    "asset_id": "weapon__506",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_gut_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/506/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/506.json",
+    "models": [
+      "weapons/models/knife/knife_gut/weapon_knife_gut.vmdl_c",
+      "phase2/weapons/models/knife/knife_gut/weapon_knife_gut_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/506/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_gut_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Gut Knife | Bright Water",
+  "search_slug": "gut-knife-bright-water",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-13",
+        "id": 4236,
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "search_slug": "gamma-case",
+        "via_special_pool": "community_case_13_unusual"
+      },
+      {
+        "canonical_slug": "crate-gamma-2",
+        "id": 4281,
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
+        "via_special_pool": "community_case_13_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "506-579__normal__battle-scarred",
+    "506-579__normal__factory-new",
+    "506-579__normal__field-tested",
+    "506-579__normal__minimal-wear",
+    "506-579__normal__well-worn",
+    "506-579__stattrak__battle-scarred",
+    "506-579__stattrak__factory-new",
+    "506-579__stattrak__field-tested",
+    "506-579__stattrak__minimal-wear",
+    "506-579__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gut",
+    "id": 506,
+    "localized_names": {
+      "brazilian": "Faca Gut Hook",
+      "bulgarian": "Касапски нож",
+      "czech": "Rozparovací nůž",
+      "danish": "Jagtkniv",
+      "dutch": "Ingewandenmes",
+      "english": "Gut Knife",
+      "finnish": "Metsästysveitsi",
+      "french": "Couteau à éviscérer",
+      "german": "Aufbrechmesser",
+      "greek": "Gut Knife",
+      "hungarian": "Zsigerelőkés",
+      "indonesian": "Pisau Pengait",
+      "italian": "Coltello da sventramento",
+      "japanese": "ガットナイフ",
+      "koreana": "갈고리 칼",
+      "latam": "Cuchillo destripador",
+      "norwegian": "Sløyekniv",
+      "polish": "Nóż z hakiem",
+      "portuguese": "Gut Knife",
+      "romanian": "Cuțit de eviscerat",
+      "russian": "Нож с лезвием-крюком",
+      "schinese": "穿肠刀",
+      "schinese_pw": "Gut Knife",
+      "spanish": "Cuchillo Destripador",
+      "swedish": "Buköppnare",
+      "tchinese": "穿腸刀",
+      "thai": "มีดแล่หนัง",
+      "turkish": "Kancalı Bıçak",
+      "ukrainian": "Білувальний ніж",
+      "vietnamese": "Dao móc"
+    },
+    "name": "Gut Knife",
+    "search_slug": "gut-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

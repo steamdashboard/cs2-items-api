@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "507-421",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-doppler-phase4",
+    "catalog_id": 421,
+    "id": 421,
+    "localized_names": {
+      "brazilian": "Doppler",
+      "bulgarian": "Доплер",
+      "czech": "Doppler",
+      "danish": "Doppler",
+      "dutch": "Doppler",
+      "english": "Doppler",
+      "finnish": "Doppler",
+      "french": "Doppler",
+      "german": "Doppler",
+      "greek": "Doppler",
+      "hungarian": "Doppler",
+      "indonesian": "Doppler",
+      "italian": "Doppler",
+      "japanese": "Doppler",
+      "koreana": "도플러",
+      "latam": "Doppler",
+      "norwegian": "Doppler",
+      "polish": "Doppler",
+      "portuguese": "Doppler",
+      "romanian": "Doppler",
+      "russian": "Волны",
+      "schinese": "多普勒",
+      "schinese_pw": "Doppler",
+      "spanish": "Doppler",
+      "swedish": "Doppler",
+      "tchinese": "都卜勒",
+      "thai": "Doppler",
+      "turkish": "Doppler",
+      "ukrainian": "Доплер",
+      "vietnamese": "Doppler"
+    },
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "507-421",
+  "localized_names": {
+    "brazilian": "Karambit | Doppler",
+    "bulgarian": "Карамбит | Доплер",
+    "czech": "Karambit | Doppler",
+    "danish": "Karambit | Doppler",
+    "dutch": "Karambit | Doppler",
+    "english": "Karambit | Doppler",
+    "finnish": "Karambit | Doppler",
+    "french": "Karambit | Doppler",
+    "german": "Karambit | Doppler",
+    "greek": "Karambit | Doppler",
+    "hungarian": "Karambit | Doppler",
+    "indonesian": "Karambit | Doppler",
+    "italian": "Karambit | Doppler",
+    "japanese": "カランビット | Doppler",
+    "koreana": "카람빗 | 도플러",
+    "latam": "Karambit | Doppler",
+    "norwegian": "Karambit | Doppler",
+    "polish": "Karambit | Doppler",
+    "portuguese": "Karambit | Doppler",
+    "romanian": "Karambit | Doppler",
+    "russian": "Керамбит | Волны",
+    "schinese": "爪子刀 | 多普勒",
+    "schinese_pw": "Karambit | Doppler",
+    "spanish": "Karambit | Doppler",
+    "swedish": "Karambit | Doppler",
+    "tchinese": "爪刀 | 都卜勒",
+    "thai": "มีดคารัมบิต | Doppler",
+    "turkish": "Karambit | Doppler",
+    "ukrainian": "Керамбіт | Доплер",
+    "vietnamese": "Karambit | Doppler"
+  },
+  "media": {
+    "asset_id": "skin__507-421",
+    "images_png": [
+      "data/api/media/rendered/files/skins/507-421/light.png",
+      "data/api/media/rendered/files/skins/507-421/medium.png",
+      "data/api/media/rendered/files/skins/507-421/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/507-421.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/507-421/heavy.png",
+      "light": "data/api/media/rendered/files/skins/507-421/light.png",
+      "medium": "data/api/media/rendered/files/skins/507-421/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/507-421/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_karambit_am_doppler_phase4_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_karambit_am_doppler_phase4_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_karambit_am_doppler_phase4_medium_png.vtex_c"
+    }
+  },
+  "name": "Karambit | Doppler",
+  "search_slug": "karambit-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "507-421__normal__factory-new",
+    "507-421__normal__minimal-wear",
+    "507-421__stattrak__factory-new",
+    "507-421__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-karambit",
+    "id": 507,
+    "localized_names": {
+      "brazilian": "Karambit",
+      "bulgarian": "Карамбит",
+      "czech": "Karambit",
+      "danish": "Karambit",
+      "dutch": "Karambit",
+      "english": "Karambit",
+      "finnish": "Karambit",
+      "french": "Karambit",
+      "german": "Karambit",
+      "greek": "Karambit",
+      "hungarian": "Karambit",
+      "indonesian": "Karambit",
+      "italian": "Karambit",
+      "japanese": "カランビット",
+      "koreana": "카람빗",
+      "latam": "Karambit",
+      "norwegian": "Karambit",
+      "polish": "Karambit",
+      "portuguese": "Karambit",
+      "romanian": "Karambit",
+      "russian": "Керамбит",
+      "schinese": "爪子刀",
+      "schinese_pw": "Karambit",
+      "spanish": "Karambit",
+      "swedish": "Karambit",
+      "tchinese": "爪刀",
+      "thai": "มีดคารัมบิต",
+      "turkish": "Karambit",
+      "ukrainian": "Керамбіт",
+      "vietnamese": "Karambit"
+    },
+    "name": "Karambit",
+    "search_slug": "karambit",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

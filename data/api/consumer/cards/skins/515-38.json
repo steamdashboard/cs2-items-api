@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "515-38",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aa-fade",
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-38",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Degradê",
+    "bulgarian": "Нож „Пеперуда“ | Избледняване",
+    "czech": "Motýlek | Fade",
+    "danish": "Butterfly-kniv | Fade",
+    "dutch": "Vlindermes | Fade",
+    "english": "Butterfly Knife | Fade",
+    "finnish": "Perhosveitsi | Häivytys",
+    "french": "Couteau papillon | Dégradé",
+    "german": "Butterflymesser | Farbverlauf",
+    "greek": "Μαχαίρι Butterfly | Fade",
+    "hungarian": "Pillangókés | Halványulás",
+    "indonesian": "Pisau Kupu-kupu | Fade",
+    "italian": "Coltello a farfalla | Fade",
+    "japanese": "バタフライナイフ | Fade",
+    "koreana": "버터플라이 나이프 | 흐릿함",
+    "latam": "Cuchillo mariposa | Desteñido",
+    "norwegian": "Butterflykniv | Fade",
+    "polish": "Nóż motylkowy | Gradient",
+    "portuguese": "Faca Butterfly | Fade",
+    "romanian": "Cuțit fluture | Fade",
+    "russian": "Нож-бабочка | Градиент",
+    "schinese": "蝴蝶刀 | 渐变之色",
+    "schinese_pw": "Butterfly Knife | Fade",
+    "spanish": "Cuchillo Mariposa | Desteñido",
+    "swedish": "Butterflykniv | Fade",
+    "tchinese": "蝴蝶刀 | 漸層彩虹",
+    "thai": "มีดบัตเตอร์ฟลาย | Fade",
+    "turkish": "Kelebek Bıçak | Solgun",
+    "ukrainian": "Балісонг | Градієнт",
+    "vietnamese": "Dao bướm | Fade"
+  },
+  "media": {
+    "asset_id": "skin__515-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-38/light.png",
+      "data/api/media/rendered/files/skins/515-38/medium.png",
+      "data/api/media/rendered/files/skins/515-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Fade",
+  "search_slug": "butterfly-knife-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-4",
+        "id": 4018,
+        "kind": "weapon-case",
+        "name": "Operation Breakout Weapon Case",
+        "search_slug": "operation-breakout-weapon-case",
+        "via_special_pool": "community_case_4_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-4-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_4_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Butterfly Knife ★",
+        "search_slug": "community-case-4-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-38__normal__factory-new",
+    "515-38__normal__minimal-wear",
+    "515-38__stattrak__factory-new",
+    "515-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

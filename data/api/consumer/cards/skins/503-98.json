@@ -1,0 +1,188 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "503-98",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-purple",
+    "catalog_id": 98,
+    "id": 98,
+    "localized_names": {
+      "brazilian": "Ultravioleta",
+      "bulgarian": "Ултра виолетово",
+      "czech": "Ultraviolet",
+      "danish": "Ultraviolet",
+      "dutch": "Ultraviolet",
+      "english": "Ultraviolet",
+      "finnish": "Ultravioletti",
+      "french": "Ultraviolet",
+      "german": "Ultraviolett",
+      "greek": "Ultraviolet",
+      "hungarian": "Ultraibolya",
+      "indonesian": "Ultraviolet",
+      "italian": "Ultraviolet",
+      "japanese": "Ultraviolet",
+      "koreana": "자외선",
+      "latam": "Ultravioleta",
+      "norwegian": "Ultraviolet",
+      "polish": "Ultrafiolet",
+      "portuguese": "Ultraviolet",
+      "romanian": "Ultraviolet",
+      "russian": "Ультрафиолет",
+      "schinese": "致命紫罗兰",
+      "schinese_pw": "Ultraviolet",
+      "spanish": "Ultravioleta",
+      "swedish": "Ultraviolet",
+      "tchinese": "致命紫羅蘭",
+      "thai": "Ultraviolet",
+      "turkish": "Morötesi",
+      "ukrainian": "Ультрафіолет",
+      "vietnamese": "Ultraviolet"
+    },
+    "name": "Ultraviolet",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "503-98",
+  "localized_names": {
+    "brazilian": "Faca Clássica | Ultravioleta",
+    "bulgarian": "Класически нож | Ултра виолетово",
+    "czech": "Klasický nůž | Ultraviolet",
+    "danish": "Klassisk kniv | Ultraviolet",
+    "dutch": "Klassiek mes | Ultraviolet",
+    "english": "Classic Knife | Ultraviolet",
+    "finnish": "Klassinen veitsi | Ultravioletti",
+    "french": "Couteau classique | Ultraviolet",
+    "german": "Klassisches Messer | Ultraviolett",
+    "greek": "Κλασικό Μαχαίρι | Ultraviolet",
+    "hungarian": "Klasszikus Kés | Ultraibolya",
+    "indonesian": "Pisau Klasik | Ultraviolet",
+    "italian": "Coltello classico | Ultraviolet",
+    "japanese": "クラシックナイフ | Ultraviolet",
+    "koreana": "클래식 칼 | 자외선",
+    "latam": "Cuchillo clásico | Ultravioleta",
+    "norwegian": "Klassisk kniv | Ultraviolet",
+    "polish": "Klasyczny nóż | Ultrafiolet",
+    "portuguese": "Faca Clássica | Ultraviolet",
+    "romanian": "Cuțit clasic | Ultraviolet",
+    "russian": "Классический нож | Ультрафиолет",
+    "schinese": "海豹短刀 | 致命紫罗兰",
+    "schinese_pw": "Classic Knife | Ultraviolet",
+    "spanish": "Cuchillo clásico | Ultravioleta",
+    "swedish": "Klassisk kniv | Ultraviolet",
+    "tchinese": "經典軍刀 | 致命紫羅蘭",
+    "thai": "มีดคลาสสิก | Ultraviolet",
+    "turkish": "Klasik Bıçak | Morötesi",
+    "ukrainian": "Класичний ніж | Ультрафіолет",
+    "vietnamese": "Classic Knife | Ultraviolet"
+  },
+  "media": {
+    "asset_id": "weapon__503",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/503/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/503.json",
+    "models": [
+      "weapons/models/knife/knife_css/weapon_knife_css.vmdl_c",
+      "phase2/weapons/models/knife/knife_css/weapon_knife_css_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/503/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Classic Knife | Ultraviolet",
+  "search_slug": "classic-knife-ultraviolet",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-24",
+        "id": 4669,
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "search_slug": "cs20-case",
+        "via_special_pool": "set_community_24_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-24-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_24_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Classic Knife ★",
+        "search_slug": "set-community-24-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "503-98__normal__vanilla",
+    "503-98__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-css",
+    "id": 503,
+    "localized_names": {
+      "brazilian": "Faca Clássica",
+      "bulgarian": "Класически нож",
+      "czech": "Klasický nůž",
+      "danish": "Klassisk kniv",
+      "dutch": "Klassiek mes",
+      "english": "Classic Knife",
+      "finnish": "Klassinen veitsi",
+      "french": "Couteau classique",
+      "german": "Klassisches Messer",
+      "greek": "Κλασικό Μαχαίρι",
+      "hungarian": "Klasszikus Kés",
+      "indonesian": "Pisau Klasik",
+      "italian": "Coltello classico",
+      "japanese": "クラシックナイフ",
+      "koreana": "클래식 칼",
+      "latam": "Cuchillo clásico",
+      "norwegian": "Klassisk kniv",
+      "polish": "Klasyczny nóż",
+      "portuguese": "Faca Clássica",
+      "romanian": "Cuțit clasic",
+      "russian": "Классический нож",
+      "schinese": "海豹短刀",
+      "schinese_pw": "Classic Knife",
+      "spanish": "Cuchillo clásico",
+      "swedish": "Klassisk kniv",
+      "tchinese": "經典軍刀",
+      "thai": "มีดคลาสสิก",
+      "turkish": "Klasik Bıçak",
+      "ukrainian": "Класичний ніж",
+      "vietnamese": "Classic Knife"
+    },
+    "name": "Classic Knife",
+    "search_slug": "classic-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

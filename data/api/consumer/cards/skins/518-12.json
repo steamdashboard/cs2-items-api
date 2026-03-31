@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "518-12",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-webs",
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "518-12",
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência | Teia Rubra",
+    "bulgarian": "Нож за оцеляване | Пурпурна паяжина",
+    "czech": "Záchranářský nůž | Crimson Web",
+    "danish": "Overlevelseskniv | Crimson Web",
+    "dutch": "Overlevingsmes | Crimson Web",
+    "english": "Survival Knife | Crimson Web",
+    "finnish": "Selviytymisveitsi | Verenpunainen seitti",
+    "french": "Couteau de survie | Toile pourpre",
+    "german": "Survival-Messer | Purpurnes Netz",
+    "greek": "Μαχαίρι Survival | Crimson Web",
+    "hungarian": "Túlélőkés | Karmazsin Háló",
+    "indonesian": "Pisau Survival | Crimson Web",
+    "italian": "Coltello da sopravvivenza | Crimson Web",
+    "japanese": "サバイバルナイフ | Crimson Web",
+    "koreana": "서바이벌 칼 | 붉은 그물",
+    "latam": "Cuchillo de supervivencia | Tela escarlata",
+    "norwegian": "Overlevelseskniv | Crimson Web",
+    "polish": "Nóż survivalowy | Szkarłatna sieć",
+    "portuguese": "Faca Survival | Crimson Web",
+    "romanian": "Cuțit de supraviețuire | Crimson Web",
+    "russian": "Нож выживания | Кровавая паутина",
+    "schinese": "求生匕首 | 深红之网",
+    "schinese_pw": "Survival Knife | Crimson Web",
+    "spanish": "Cuchillo de supervivencia | Tela escarlata",
+    "swedish": "Överlevnadskniv | Crimson Web",
+    "tchinese": "求生刀 | 赤紅之網",
+    "thai": "มีดเซอร์ไวเวอร์ | Crimson Web",
+    "turkish": "Hayatta Kalma Bıçağı | Kızıl Ağ",
+    "ukrainian": "Ніж для виживання | Криваве павутиння",
+    "vietnamese": "Dao sinh tồn | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__518-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/518-12/light.png",
+      "data/api/media/rendered/files/skins/518-12/medium.png",
+      "data/api/media/rendered/files/skins/518-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/518-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/518-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/518-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/518-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/518-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_canis_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_canis_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_canis_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "Survival Knife | Crimson Web",
+  "search_slug": "survival-knife-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "518-12__normal__vanilla",
+    "518-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-canis",
+    "id": 518,
+    "localized_names": {
+      "brazilian": "Faca de Sobrevivência",
+      "bulgarian": "Нож за оцеляване",
+      "czech": "Záchranářský nůž",
+      "danish": "Overlevelseskniv",
+      "dutch": "Overlevingsmes",
+      "english": "Survival Knife",
+      "finnish": "Selviytymisveitsi",
+      "french": "Couteau de survie",
+      "german": "Survival-Messer",
+      "greek": "Μαχαίρι Survival",
+      "hungarian": "Túlélőkés",
+      "indonesian": "Pisau Survival",
+      "italian": "Coltello da sopravvivenza",
+      "japanese": "サバイバルナイフ",
+      "koreana": "서바이벌 칼",
+      "latam": "Cuchillo de supervivencia",
+      "norwegian": "Overlevelseskniv",
+      "polish": "Nóż survivalowy",
+      "portuguese": "Faca Survival",
+      "romanian": "Cuțit de supraviețuire",
+      "russian": "Нож выживания",
+      "schinese": "求生匕首",
+      "schinese_pw": "Survival Knife",
+      "spanish": "Cuchillo de supervivencia",
+      "swedish": "Överlevnadskniv",
+      "tchinese": "求生刀",
+      "thai": "มีดเซอร์ไวเวอร์",
+      "turkish": "Hayatta Kalma Bıçağı",
+      "ukrainian": "Ніж для виживання",
+      "vietnamese": "Dao sinh tồn"
+    },
+    "name": "Survival Knife",
+    "search_slug": "survival-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

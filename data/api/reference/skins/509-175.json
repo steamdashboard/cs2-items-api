@@ -1,0 +1,65 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "509-175",
+  "finish": {
+    "codename": "sp_dapple",
+    "id": 175,
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 175,
+    "weapon_id": 509
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "509-175",
+  "name": "Huntsman Knife | Scorched",
+  "search_slug": "huntsman-knife-scorched",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-3-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Huntsman Knife ★",
+        "search_slug": "community-case-3-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-3",
+            "id": 4017,
+            "kind": "weapon-case",
+            "name": "Huntsman Weapon Case",
+            "search_slug": "huntsman-weapon-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "509-175__normal__vanilla",
+    "509-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_tactical",
+    "id": 509,
+    "name": "Huntsman Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

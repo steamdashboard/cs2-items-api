@@ -1,0 +1,213 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "518-570",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-gamma-doppler-phase2",
+    "catalog_id": 570,
+    "id": 570,
+    "localized_names": {
+      "brazilian": "Doppler Gama",
+      "bulgarian": "Доплеров гама ефект",
+      "czech": "Gamma Doppler",
+      "danish": "Gamma Doppler",
+      "dutch": "Gamma Doppler",
+      "english": "Gamma Doppler",
+      "finnish": "Gamma Doppler",
+      "french": "Doppler Gamma",
+      "german": "Gamma Doppler",
+      "greek": "Gamma Doppler",
+      "hungarian": "Gamma Doppler",
+      "indonesian": "Gamma Doppler",
+      "italian": "Gamma Doppler",
+      "japanese": "Gamma Doppler",
+      "koreana": "감마 도플러",
+      "latam": "Doppler gamma",
+      "norwegian": "Gamma Doppler",
+      "polish": "Gamma Doppler",
+      "portuguese": "Gamma Doppler",
+      "romanian": "Gamma Doppler",
+      "russian": "Гамма-волны",
+      "schinese": "伽玛多普勒",
+      "schinese_pw": "Gamma Doppler",
+      "spanish": "Doppler gamma",
+      "swedish": "Gamma Doppler",
+      "tchinese": "伽傌都卜勒",
+      "thai": "Gamma Doppler",
+      "turkish": "Gamma Doppler",
+      "ukrainian": "Гамма-ефект Доплера",
+      "vietnamese": "Gamma Doppler"
+    },
+    "name": "Gamma Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "518-570",
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência | Doppler Gama",
+    "bulgarian": "Нож за оцеляване | Доплеров гама ефект",
+    "czech": "Záchranářský nůž | Gamma Doppler",
+    "danish": "Overlevelseskniv | Gamma Doppler",
+    "dutch": "Overlevingsmes | Gamma Doppler",
+    "english": "Survival Knife | Gamma Doppler",
+    "finnish": "Selviytymisveitsi | Gamma Doppler",
+    "french": "Couteau de survie | Doppler Gamma",
+    "german": "Survival-Messer | Gamma Doppler",
+    "greek": "Μαχαίρι Survival | Gamma Doppler",
+    "hungarian": "Túlélőkés | Gamma Doppler",
+    "indonesian": "Pisau Survival | Gamma Doppler",
+    "italian": "Coltello da sopravvivenza | Gamma Doppler",
+    "japanese": "サバイバルナイフ | Gamma Doppler",
+    "koreana": "서바이벌 칼 | 감마 도플러",
+    "latam": "Cuchillo de supervivencia | Doppler gamma",
+    "norwegian": "Overlevelseskniv | Gamma Doppler",
+    "polish": "Nóż survivalowy | Gamma Doppler",
+    "portuguese": "Faca Survival | Gamma Doppler",
+    "romanian": "Cuțit de supraviețuire | Gamma Doppler",
+    "russian": "Нож выживания | Гамма-волны",
+    "schinese": "求生匕首 | 伽玛多普勒",
+    "schinese_pw": "Survival Knife | Gamma Doppler",
+    "spanish": "Cuchillo de supervivencia | Doppler gamma",
+    "swedish": "Överlevnadskniv | Gamma Doppler",
+    "tchinese": "求生刀 | 伽傌都卜勒",
+    "thai": "มีดเซอร์ไวเวอร์ | Gamma Doppler",
+    "turkish": "Hayatta Kalma Bıçağı | Gamma Doppler",
+    "ukrainian": "Ніж для виживання | Гамма-ефект Доплера",
+    "vietnamese": "Dao sinh tồn | Gamma Doppler"
+  },
+  "media": {
+    "asset_id": "weapon__518",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/518/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/518.json",
+    "models": [
+      "weapons/models/knife/knife_canis/weapon_knife_canis.vmdl_c",
+      "phase2/weapons/models/knife/knife_canis/weapon_knife_canis_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/518/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Survival Knife | Gamma Doppler",
+  "search_slug": "survival-knife-gamma-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-29",
+        "id": 4790,
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "search_slug": "operation-riptide-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-30",
+        "id": 4818,
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "gamma2-knives2-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "gamma2_knives2_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "gamma2-knives2-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "518-570__normal__factory-new",
+    "518-570__normal__minimal-wear",
+    "518-570__stattrak__factory-new",
+    "518-570__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-canis",
+    "id": 518,
+    "localized_names": {
+      "brazilian": "Faca de Sobrevivência",
+      "bulgarian": "Нож за оцеляване",
+      "czech": "Záchranářský nůž",
+      "danish": "Overlevelseskniv",
+      "dutch": "Overlevingsmes",
+      "english": "Survival Knife",
+      "finnish": "Selviytymisveitsi",
+      "french": "Couteau de survie",
+      "german": "Survival-Messer",
+      "greek": "Μαχαίρι Survival",
+      "hungarian": "Túlélőkés",
+      "indonesian": "Pisau Survival",
+      "italian": "Coltello da sopravvivenza",
+      "japanese": "サバイバルナイフ",
+      "koreana": "서바이벌 칼",
+      "latam": "Cuchillo de supervivencia",
+      "norwegian": "Overlevelseskniv",
+      "polish": "Nóż survivalowy",
+      "portuguese": "Faca Survival",
+      "romanian": "Cuțit de supraviețuire",
+      "russian": "Нож выживания",
+      "schinese": "求生匕首",
+      "schinese_pw": "Survival Knife",
+      "spanish": "Cuchillo de supervivencia",
+      "swedish": "Överlevnadskniv",
+      "tchinese": "求生刀",
+      "thai": "มีดเซอร์ไวเวอร์",
+      "turkish": "Hayatta Kalma Bıçağı",
+      "ukrainian": "Ніж для виживання",
+      "vietnamese": "Dao sinh tồn"
+    },
+    "name": "Survival Knife",
+    "search_slug": "survival-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

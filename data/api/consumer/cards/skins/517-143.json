@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "517-143",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-tape-urban",
+    "catalog_id": 143,
+    "id": 143,
+    "localized_names": {
+      "brazilian": "Máscara Urbana",
+      "bulgarian": "Градска маскировка",
+      "czech": "Urban Masked",
+      "danish": "Urban Masked",
+      "dutch": "Urban Masked",
+      "english": "Urban Masked",
+      "finnish": "Kaupunkilaisnaamioitu",
+      "french": "Masque urbain",
+      "german": "Städtisch maskiert",
+      "greek": "Urban Masked",
+      "hungarian": "Városi Maszkolt",
+      "indonesian": "Urban Masked",
+      "italian": "Urban Masked",
+      "japanese": "Urban Masked",
+      "koreana": "도시의 위장",
+      "latam": "Pátina urbana",
+      "norwegian": "Urban Masked",
+      "polish": "Miejski zamaskowany",
+      "portuguese": "Urban Masked",
+      "romanian": "Urban Masked",
+      "russian": "Городская маскировка",
+      "schinese": "都市伪装",
+      "schinese_pw": "Urban Masked",
+      "spanish": "Pátina urbana",
+      "swedish": "Urban Masked",
+      "tchinese": "都市偽裝",
+      "thai": "Urban Masked",
+      "turkish": "Gizli Şehir",
+      "ukrainian": "Міське маскування",
+      "vietnamese": "Urban Masked"
+    },
+    "name": "Urban Masked",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-143",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Máscara Urbana",
+    "bulgarian": "Паракорд нож | Градска маскировка",
+    "czech": "Výsadkářský nůž | Urban Masked",
+    "danish": "Paracordkniv | Urban Masked",
+    "dutch": "Paracordmes | Urban Masked",
+    "english": "Paracord Knife | Urban Masked",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Kaupunkilaisnaamioitu",
+    "french": "Couteau en paracorde | Masque urbain",
+    "german": "Fallschirm-Messer | Städtisch maskiert",
+    "greek": "Μαχαίρι Paracord | Urban Masked",
+    "hungarian": "Paracord kés | Városi Maszkolt",
+    "indonesian": "Pisau Paracord | Urban Masked",
+    "italian": "Coltello Paracord | Urban Masked",
+    "japanese": "Paracord ナイフ | Urban Masked",
+    "koreana": "파라코드 칼 | 도시의 위장",
+    "latam": "Cuchillo encordado | Pátina urbana",
+    "norwegian": "Paracordkniv | Urban Masked",
+    "polish": "Nóż paracord | Miejski zamaskowany",
+    "portuguese": "Faca Paracord | Urban Masked",
+    "romanian": "Cuțit Paracord | Urban Masked",
+    "russian": "Паракорд-нож | Городская маскировка",
+    "schinese": "系绳匕首 | 都市伪装",
+    "schinese_pw": "Paracord Knife | Urban Masked",
+    "spanish": "Cuchillo encordado | Pátina urbana",
+    "swedish": "Paracordkniv | Urban Masked",
+    "tchinese": "繩柄刀 | 都市偽裝",
+    "thai": "มีดพาราคอร์ด | Urban Masked",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Gizli Şehir",
+    "ukrainian": "Тактичний ніж | Міське маскування",
+    "vietnamese": "Dao Paracord | Urban Masked"
+  },
+  "media": {
+    "asset_id": "skin__517-143",
+    "images_png": [
+      "data/api/media/rendered/files/skins/517-143/light.png",
+      "data/api/media/rendered/files/skins/517-143/medium.png",
+      "data/api/media/rendered/files/skins/517-143/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/517-143.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/517-143/heavy.png",
+      "light": "data/api/media/rendered/files/skins/517-143/light.png",
+      "medium": "data/api/media/rendered/files/skins/517-143/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/517-143/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_cord_sp_tape_urban_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_cord_sp_tape_urban_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_cord_sp_tape_urban_medium_png.vtex_c"
+    }
+  },
+  "name": "Paracord Knife | Urban Masked",
+  "search_slug": "paracord-knife-urban-masked",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-143__normal__vanilla",
+    "517-143__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

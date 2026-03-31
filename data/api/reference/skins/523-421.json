@@ -1,0 +1,89 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "523-421",
+  "finish": {
+    "codename": "am_doppler_phase4",
+    "id": 421,
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 421,
+    "weapon_id": 523
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "523-421",
+  "name": "Talon Knife | Doppler",
+  "search_slug": "talon-knife-doppler",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-22-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_22_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-22-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-22",
+            "id": 4598,
+            "kind": "weapon-case",
+            "name": "Prisma Case",
+            "search_slug": "prisma-case"
+          },
+          {
+            "canonical_slug": "crate-community-25",
+            "id": 4695,
+            "kind": "weapon-case",
+            "name": "Prisma 2 Case",
+            "search_slug": "prisma-2-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "523-421__normal__factory-new",
+    "523-421__normal__minimal-wear",
+    "523-421__stattrak__factory-new",
+    "523-421__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_widowmaker",
+    "id": 523,
+    "name": "Talon Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

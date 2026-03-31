@@ -1,0 +1,271 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "505-77",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-forest-boreal",
+    "catalog_id": 77,
+    "id": 77,
+    "localized_names": {
+      "brazilian": "Floresta Boreal",
+      "bulgarian": "Северна гора",
+      "czech": "Boreal Forest",
+      "danish": "Boreal Forest",
+      "dutch": "Boreal Forest",
+      "english": "Boreal Forest",
+      "finnish": "Pohjoismetsä",
+      "french": "Forêt boréale",
+      "german": "Borealer Nadelwald",
+      "greek": "Boreal Forest",
+      "hungarian": "Északi Erdő",
+      "indonesian": "Boreal Forest",
+      "italian": "Boreal Forest",
+      "japanese": "Boreal Forest",
+      "koreana": "북방림",
+      "latam": "Bosque boreal",
+      "norwegian": "Boreal Forest",
+      "polish": "Tajga",
+      "portuguese": "Boreal Forest",
+      "romanian": "Boreal Forest",
+      "russian": "Северный лес",
+      "schinese": "北方森林",
+      "schinese_pw": "Boreal Forest",
+      "spanish": "Bosque boreal",
+      "swedish": "Boreal Forest",
+      "tchinese": "北寒帶林",
+      "thai": "Boreal Forest",
+      "turkish": "Kuzey Ormanı",
+      "ukrainian": "Тундра",
+      "vietnamese": "Boreal Forest"
+    },
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "505-77",
+  "localized_names": {
+    "brazilian": "Canivete | Floresta Boreal",
+    "bulgarian": "Сгъваем нож | Северна гора",
+    "czech": "Skládací nůž | Boreal Forest",
+    "danish": "Foldekniv | Boreal Forest",
+    "dutch": "Knipmes | Boreal Forest",
+    "english": "Flip Knife | Boreal Forest",
+    "finnish": "Taittoveitsi | Pohjoismetsä",
+    "french": "Couteau pliant | Forêt boréale",
+    "german": "Klappmesser | Borealer Nadelwald",
+    "greek": "Flip Knife | Boreal Forest",
+    "hungarian": "Összecsukható kés | Északi Erdő",
+    "indonesian": "Pisau Lipat | Boreal Forest",
+    "italian": "Coltello ricurvo | Boreal Forest",
+    "japanese": "Flip ナイフ | Boreal Forest",
+    "koreana": "접이식 칼 | 북방림",
+    "latam": "Navaja | Bosque boreal",
+    "norwegian": "Foldekniv | Boreal Forest",
+    "polish": "Nóż składany | Tajga",
+    "portuguese": "Flip Knife | Boreal Forest",
+    "romanian": "Briceag | Boreal Forest",
+    "russian": "Складной нож | Северный лес",
+    "schinese": "折叠刀 | 北方森林",
+    "schinese_pw": "Flip Knife | Boreal Forest",
+    "spanish": "Cuchillo plegable | Bosque boreal",
+    "swedish": "Fällkniv | Boreal Forest",
+    "tchinese": "折疊式軍刀 | 北寒帶林",
+    "thai": "มีดพับ | Boreal Forest",
+    "turkish": "Sustalı Bıçak | Kuzey Ormanı",
+    "ukrainian": "Складаний ніж | Тундра",
+    "vietnamese": "Dao bấm | Boreal Forest"
+  },
+  "media": {
+    "asset_id": "skin__505-77",
+    "images_png": [
+      "data/api/media/rendered/files/skins/505-77/light.png",
+      "data/api/media/rendered/files/skins/505-77/medium.png",
+      "data/api/media/rendered/files/skins/505-77/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/505-77.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/505-77/heavy.png",
+      "light": "data/api/media/rendered/files/skins/505-77/light.png",
+      "medium": "data/api/media/rendered/files/skins/505-77/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/505-77/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_flip_hy_forest_boreal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_flip_hy_forest_boreal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_flip_hy_forest_boreal_medium_png.vtex_c"
+    }
+  },
+  "name": "Flip Knife | Boreal Forest",
+  "search_slug": "flip-knife-boreal-forest",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-valve-1",
+        "id": 4001,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "search_slug": "cs-go-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013",
+        "id": 4002,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "search_slug": "esports-2013-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-ii",
+        "id": 4003,
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "search_slug": "operation-bravo-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-2",
+        "id": 4004,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013-winter",
+        "id": 4005,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "search_slug": "esports-2013-winter-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-1",
+        "id": 4009,
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "search_slug": "winter-offensive-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-3",
+        "id": 4010,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "search_slug": "cs-go-weapon-case-3",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-2",
+        "id": 4011,
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2014-summer",
+        "id": 4019,
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "search_slug": "esports-2014-summer-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-vanguard",
+        "id": 4029,
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-10",
+        "id": 4186,
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "search_slug": "revolver-case",
+        "via_special_pool": "unusual_revolving_list"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "unusual-revolving-list",
+        "expansion_rule": "legacy-knives",
+        "id": "unusual_revolving_list",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "unusual-revolving-special-item-pool",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "505-77__normal__vanilla",
+    "505-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-flip",
+    "id": 505,
+    "localized_names": {
+      "brazilian": "Canivete",
+      "bulgarian": "Сгъваем нож",
+      "czech": "Skládací nůž",
+      "danish": "Foldekniv",
+      "dutch": "Knipmes",
+      "english": "Flip Knife",
+      "finnish": "Taittoveitsi",
+      "french": "Couteau pliant",
+      "german": "Klappmesser",
+      "greek": "Flip Knife",
+      "hungarian": "Összecsukható kés",
+      "indonesian": "Pisau Lipat",
+      "italian": "Coltello ricurvo",
+      "japanese": "Flip ナイフ",
+      "koreana": "접이식 칼",
+      "latam": "Navaja",
+      "norwegian": "Foldekniv",
+      "polish": "Nóż składany",
+      "portuguese": "Flip Knife",
+      "romanian": "Briceag",
+      "russian": "Складной нож",
+      "schinese": "折叠刀",
+      "schinese_pw": "Flip Knife",
+      "spanish": "Cuchillo plegable",
+      "swedish": "Fällkniv",
+      "tchinese": "折疊式軍刀",
+      "thai": "มีดพับ",
+      "turkish": "Sustalı Bıçak",
+      "ukrainian": "Складаний ніж",
+      "vietnamese": "Dao bấm"
+    },
+    "name": "Flip Knife",
+    "search_slug": "flip-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

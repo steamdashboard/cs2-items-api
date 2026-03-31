@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "509-42",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-blued",
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "509-42",
+  "localized_names": {
+    "brazilian": "Faca do Caçador | Aço Azul",
+    "bulgarian": "Ловджийски нож | Синя стомана",
+    "czech": "Lovecký nůž | Blue Steel",
+    "danish": "Huntsman-kniv | Blue Steel",
+    "dutch": "Jagersmes | Blue Steel",
+    "english": "Huntsman Knife | Blue Steel",
+    "finnish": "Metsämiehen veitsi | Sininen teräs",
+    "french": "Couteau de chasse | Acier bleui",
+    "german": "Jagdmesser | Blauer Stahl",
+    "greek": "Μαχαίρι Huntsman | Blue Steel",
+    "hungarian": "Vadászkés | Kék Acél",
+    "indonesian": "Pisau Pemburu | Blue Steel",
+    "italian": "Coltello da cacciatore | Blue Steel",
+    "japanese": "Huntsman ナイフ | Blue Steel",
+    "koreana": "헌츠맨 칼 | 푸른 강철",
+    "latam": "Cuchillo de cazador | Azul metalizado",
+    "norwegian": "Jegerkniv | Blue Steel",
+    "polish": "Nóż myśliwski | Niebieska stal",
+    "portuguese": "Faca Huntsman | Blue Steel",
+    "romanian": "Cuțit Huntsman | Blue Steel",
+    "russian": "Охотничий нож | Вороненая сталь",
+    "schinese": "猎杀者匕首 | 蓝钢",
+    "schinese_pw": "Huntsman Knife | Blue Steel",
+    "spanish": "Cuchillo del Cazador | Azul metalizado",
+    "swedish": "Huntsmankniv | Blue Steel",
+    "tchinese": "獵刀 | 藍鋼",
+    "thai": "มีดนายพราน | Blue Steel",
+    "turkish": "Avcı Bıçağı | Mavi Çelik",
+    "ukrainian": "Мисливський ніж | Блакитна сталь",
+    "vietnamese": "Dao Huntsman | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__509-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/509-42/light.png",
+      "data/api/media/rendered/files/skins/509-42/medium.png",
+      "data/api/media/rendered/files/skins/509-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/509-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/509-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/509-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/509-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/509-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_tactical_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_tactical_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_tactical_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "Huntsman Knife | Blue Steel",
+  "search_slug": "huntsman-knife-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-3",
+        "id": 4017,
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
+        "via_special_pool": "community_case_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-3-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Huntsman Knife ★",
+        "search_slug": "community-case-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "509-42__normal__battle-scarred",
+    "509-42__normal__factory-new",
+    "509-42__normal__field-tested",
+    "509-42__normal__minimal-wear",
+    "509-42__normal__well-worn",
+    "509-42__stattrak__battle-scarred",
+    "509-42__stattrak__factory-new",
+    "509-42__stattrak__field-tested",
+    "509-42__stattrak__minimal-wear",
+    "509-42__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-tactical",
+    "id": 509,
+    "localized_names": {
+      "brazilian": "Faca do Caçador",
+      "bulgarian": "Ловджийски нож",
+      "czech": "Lovecký nůž",
+      "danish": "Huntsman-kniv",
+      "dutch": "Jagersmes",
+      "english": "Huntsman Knife",
+      "finnish": "Metsämiehen veitsi",
+      "french": "Couteau de chasse",
+      "german": "Jagdmesser",
+      "greek": "Μαχαίρι Huntsman",
+      "hungarian": "Vadászkés",
+      "indonesian": "Pisau Pemburu",
+      "italian": "Coltello da cacciatore",
+      "japanese": "Huntsman ナイフ",
+      "koreana": "헌츠맨 칼",
+      "latam": "Cuchillo de cazador",
+      "norwegian": "Jegerkniv",
+      "polish": "Nóż myśliwski",
+      "portuguese": "Faca Huntsman",
+      "romanian": "Cuțit Huntsman",
+      "russian": "Охотничий нож",
+      "schinese": "猎杀者匕首",
+      "schinese_pw": "Huntsman Knife",
+      "spanish": "Cuchillo del Cazador",
+      "swedish": "Huntsmankniv",
+      "tchinese": "獵刀",
+      "thai": "มีดนายพราน",
+      "turkish": "Avcı Bıçağı",
+      "ukrainian": "Мисливський ніж",
+      "vietnamese": "Dao Huntsman"
+    },
+    "name": "Huntsman Knife",
+    "search_slug": "huntsman-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

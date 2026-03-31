@@ -1,0 +1,271 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "500-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "500-175",
+  "localized_names": {
+    "brazilian": "Baioneta | Brasas",
+    "bulgarian": "Щик | Обгорено",
+    "czech": "Bajonet | Scorched",
+    "danish": "Bajonet | Scorched",
+    "dutch": "Bajonet | Scorched",
+    "english": "Bayonet | Scorched",
+    "finnish": "Pistin | Korventunut",
+    "french": "Baïonnette | Brûlé",
+    "german": "Bajonett | Versengt",
+    "greek": "Mπαγιονέτα | Scorched",
+    "hungarian": "Bajonett | Megperzselt",
+    "indonesian": "Bayonet | Scorched",
+    "italian": "Baionetta | Scorched",
+    "japanese": "銃剣 | Scorched",
+    "koreana": "총검 | 그을림",
+    "latam": "Bayoneta | Chamuscado",
+    "norwegian": "Bajonett | Scorched",
+    "polish": "Bagnet | Popiół",
+    "portuguese": "Bayonet | Scorched",
+    "romanian": "Baionetă | Scorched",
+    "russian": "Штык-нож | Сажа",
+    "schinese": "刺刀 | 枯焦之色",
+    "schinese_pw": "Bayonet | Scorched",
+    "spanish": "Bayoneta | Chamuscado",
+    "swedish": "Bajonett | Scorched",
+    "tchinese": "刺刀 | 熾灼",
+    "thai": "มีดเบโยเน็ต | Scorched",
+    "turkish": "Bayonet | Alazlanmış",
+    "ukrainian": "Штик-ніж | Випалення",
+    "vietnamese": "Bayonet | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__500-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/500-175/light.png",
+      "data/api/media/rendered/files/skins/500-175/medium.png",
+      "data/api/media/rendered/files/skins/500-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/500-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/500-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/500-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/500-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/500-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bayonet_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bayonet_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bayonet_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Bayonet | Scorched",
+  "search_slug": "bayonet-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-valve-1",
+        "id": 4001,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "search_slug": "cs-go-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013",
+        "id": 4002,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "search_slug": "esports-2013-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-ii",
+        "id": 4003,
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "search_slug": "operation-bravo-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-2",
+        "id": 4004,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013-winter",
+        "id": 4005,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "search_slug": "esports-2013-winter-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-1",
+        "id": 4009,
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "search_slug": "winter-offensive-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-3",
+        "id": 4010,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "search_slug": "cs-go-weapon-case-3",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-2",
+        "id": 4011,
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2014-summer",
+        "id": 4019,
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "search_slug": "esports-2014-summer-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-vanguard",
+        "id": 4029,
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-10",
+        "id": 4186,
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "search_slug": "revolver-case",
+        "via_special_pool": "unusual_revolving_list"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "unusual-revolving-list",
+        "expansion_rule": "legacy-knives",
+        "id": "unusual_revolving_list",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "unusual-revolving-special-item-pool",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "500-175__normal__vanilla",
+    "500-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-bayonet",
+    "id": 500,
+    "localized_names": {
+      "brazilian": "Baioneta",
+      "bulgarian": "Щик",
+      "czech": "Bajonet",
+      "danish": "Bajonet",
+      "dutch": "Bajonet",
+      "english": "Bayonet",
+      "finnish": "Pistin",
+      "french": "Baïonnette",
+      "german": "Bajonett",
+      "greek": "Mπαγιονέτα",
+      "hungarian": "Bajonett",
+      "indonesian": "Bayonet",
+      "italian": "Baionetta",
+      "japanese": "銃剣",
+      "koreana": "총검",
+      "latam": "Bayoneta",
+      "norwegian": "Bajonett",
+      "polish": "Bagnet",
+      "portuguese": "Bayonet",
+      "romanian": "Baionetă",
+      "russian": "Штык-нож",
+      "schinese": "刺刀",
+      "schinese_pw": "Bayonet",
+      "spanish": "Bayoneta",
+      "swedish": "Bajonett",
+      "tchinese": "刺刀",
+      "thai": "มีดเบโยเน็ต",
+      "turkish": "Bayonet",
+      "ukrainian": "Штик-ніж",
+      "vietnamese": "Bayonet"
+    },
+    "name": "Bayonet",
+    "search_slug": "bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

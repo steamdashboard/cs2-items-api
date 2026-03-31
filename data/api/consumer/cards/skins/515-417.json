@@ -1,0 +1,213 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "515-417",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-blackpearl-marbleized",
+    "catalog_id": 417,
+    "id": 417,
+    "localized_names": {
+      "brazilian": "Doppler",
+      "bulgarian": "Доплер",
+      "czech": "Doppler",
+      "danish": "Doppler",
+      "dutch": "Doppler",
+      "english": "Doppler",
+      "finnish": "Doppler",
+      "french": "Doppler",
+      "german": "Doppler",
+      "greek": "Doppler",
+      "hungarian": "Doppler",
+      "indonesian": "Doppler",
+      "italian": "Doppler",
+      "japanese": "Doppler",
+      "koreana": "도플러",
+      "latam": "Doppler",
+      "norwegian": "Doppler",
+      "polish": "Doppler",
+      "portuguese": "Doppler",
+      "romanian": "Doppler",
+      "russian": "Волны",
+      "schinese": "多普勒",
+      "schinese_pw": "Doppler",
+      "spanish": "Doppler",
+      "swedish": "Doppler",
+      "tchinese": "都卜勒",
+      "thai": "Doppler",
+      "turkish": "Doppler",
+      "ukrainian": "Доплер",
+      "vietnamese": "Doppler"
+    },
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-417",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Doppler",
+    "bulgarian": "Нож „Пеперуда“ | Доплер",
+    "czech": "Motýlek | Doppler",
+    "danish": "Butterfly-kniv | Doppler",
+    "dutch": "Vlindermes | Doppler",
+    "english": "Butterfly Knife | Doppler",
+    "finnish": "Perhosveitsi | Doppler",
+    "french": "Couteau papillon | Doppler",
+    "german": "Butterflymesser | Doppler",
+    "greek": "Μαχαίρι Butterfly | Doppler",
+    "hungarian": "Pillangókés | Doppler",
+    "indonesian": "Pisau Kupu-kupu | Doppler",
+    "italian": "Coltello a farfalla | Doppler",
+    "japanese": "バタフライナイフ | Doppler",
+    "koreana": "버터플라이 나이프 | 도플러",
+    "latam": "Cuchillo mariposa | Doppler",
+    "norwegian": "Butterflykniv | Doppler",
+    "polish": "Nóż motylkowy | Doppler",
+    "portuguese": "Faca Butterfly | Doppler",
+    "romanian": "Cuțit fluture | Doppler",
+    "russian": "Нож-бабочка | Волны",
+    "schinese": "蝴蝶刀 | 多普勒",
+    "schinese_pw": "Butterfly Knife | Doppler",
+    "spanish": "Cuchillo Mariposa | Doppler",
+    "swedish": "Butterflykniv | Doppler",
+    "tchinese": "蝴蝶刀 | 都卜勒",
+    "thai": "มีดบัตเตอร์ฟลาย | Doppler",
+    "turkish": "Kelebek Bıçak | Doppler",
+    "ukrainian": "Балісонг | Доплер",
+    "vietnamese": "Dao bướm | Doppler"
+  },
+  "media": {
+    "asset_id": "weapon__515",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_butterfly_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/515/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/515.json",
+    "models": [
+      "weapons/models/knife/knife_butterfly/weapon_knife_butterfly.vmdl_c",
+      "phase2/weapons/models/knife/knife_butterfly/weapon_knife_butterfly_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/515/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_butterfly_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Butterfly Knife | Doppler",
+  "search_slug": "butterfly-knife-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-16",
+        "id": 4351,
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "search_slug": "spectrum-case",
+        "via_special_pool": "spectrum_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-18",
+        "id": 4403,
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "search_slug": "spectrum-2-case",
+        "via_special_pool": "spectrum_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "spectrum-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "spectrum_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "spectrum-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-417__normal__factory-new",
+    "515-417__normal__minimal-wear",
+    "515-417__stattrak__factory-new",
+    "515-417__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

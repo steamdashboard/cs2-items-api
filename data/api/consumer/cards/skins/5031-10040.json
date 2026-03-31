@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5031-10040",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "slick-snakeskin-yellow",
+    "catalog_id": 10040,
+    "id": 10040,
+    "localized_names": {
+      "brazilian": "Escama Diamante",
+      "bulgarian": "Диамантена гърмяща змия",
+      "czech": "Diamondback",
+      "danish": "Diamondback",
+      "dutch": "Diamondback",
+      "english": "Diamondback",
+      "finnish": "Timanttiselkä",
+      "french": "Diamantin",
+      "german": "Diamantenrücken",
+      "greek": "Diamondback",
+      "hungarian": "Csörgőkígyó",
+      "indonesian": "Diamondback",
+      "italian": "Diamondback",
+      "japanese": "Diamondback",
+      "koreana": "방울뱀",
+      "latam": "Diamantino",
+      "norwegian": "Diamondback",
+      "polish": "Grzechotnik",
+      "portuguese": "Diamondback",
+      "romanian": "Diamondback",
+      "russian": "Гремучая змея",
+      "schinese": "菱背蛇纹",
+      "schinese_pw": "Diamondback",
+      "spanish": "Diamantino",
+      "swedish": "Diamondback",
+      "tchinese": "響尾蛇",
+      "thai": "Diamondback",
+      "turkish": "Çıngıraklı Yılan",
+      "ukrainian": "Гримучник",
+      "vietnamese": "Diamondback"
+    },
+    "name": "Diamondback",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5031-10040",
+  "localized_names": {
+    "brazilian": "Luvas de Motorista | Escama Diamante",
+    "bulgarian": "Шофьорски ръкавици | Диамантена гърмяща змия",
+    "czech": "Řidičské rukavice | Diamondback",
+    "danish": "Kørehandsker | Diamondback",
+    "dutch": "Rijhandschoenen | Diamondback",
+    "english": "Driver Gloves | Diamondback",
+    "finnish": "Ajohanskat | Timanttiselkä",
+    "french": "Gants de pilote | Diamantin",
+    "german": "Chauffeurshandschuhe | Diamantenrücken",
+    "greek": "Γάντια οδηγού | Diamondback",
+    "hungarian": "Sofőrkesztyű | Csörgőkígyó",
+    "indonesian": "Sarung Tangan Pengemudi | Diamondback",
+    "italian": "Guanti da autista | Diamondback",
+    "japanese": "Driver Gloves | Diamondback",
+    "koreana": "운전용 장갑 | 방울뱀",
+    "latam": "Guantes de conductor | Diamantino",
+    "norwegian": "Kjørehansker | Diamondback",
+    "polish": "Rękawiczki samochodowe | Grzechotnik",
+    "portuguese": "Luvas de Condutor | Diamondback",
+    "romanian": "Mănuși de condus | Diamondback",
+    "russian": "Водительские перчатки | Гремучая змея",
+    "schinese": "驾驶手套 | 菱背蛇纹",
+    "schinese_pw": "Driver Gloves | Diamondback",
+    "spanish": "Guantes de conductor | Diamantino",
+    "swedish": "Förarhandskar | Diamondback",
+    "tchinese": "駕駛手套 | 響尾蛇",
+    "thai": "ถุงมือขับรถ | Diamondback",
+    "turkish": "Sürücü Eldivenleri | Çıngıraklı Yılan",
+    "ukrainian": "Рукавиці водія | Гримучник",
+    "vietnamese": "Găng tay lái xe | Diamondback"
+  },
+  "media": {
+    "asset_id": "skin__5031-10040",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5031-10040/light.png",
+      "data/api/media/rendered/files/skins/5031-10040/medium.png",
+      "data/api/media/rendered/files/skins/5031-10040/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5031-10040.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5031-10040/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5031-10040/light.png",
+      "medium": "data/api/media/rendered/files/skins/5031-10040/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5031-10040/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/slick_gloves_slick_snakeskin_yellow_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/slick_gloves_slick_snakeskin_yellow_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/slick_gloves_slick_snakeskin_yellow_medium_png.vtex_c"
+    }
+  },
+  "name": "Driver Gloves | Diamondback",
+  "search_slug": "driver-gloves-diamondback",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-19",
+        "id": 4471,
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "search_slug": "clutch-case",
+        "via_special_pool": "set_community_19_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-32",
+        "id": 4880,
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "search_slug": "revolution-case",
+        "via_special_pool": "set_community_19_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-19-unusual",
+        "expansion_rule": "hydra-era-gloves",
+        "id": "set_community_19_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-19-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5031-10040__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "slick-gloves",
+    "id": 5031,
+    "localized_names": {
+      "brazilian": "Luvas de Motorista",
+      "bulgarian": "Шофьорски ръкавици",
+      "czech": "Řidičské rukavice",
+      "danish": "Kørehandsker",
+      "dutch": "Rijhandschoenen",
+      "english": "Driver Gloves",
+      "finnish": "Ajohanskat",
+      "french": "Gants de pilote",
+      "german": "Chauffeurshandschuhe",
+      "greek": "Γάντια οδηγού",
+      "hungarian": "Sofőrkesztyű",
+      "indonesian": "Sarung Tangan Pengemudi",
+      "italian": "Guanti da autista",
+      "japanese": "Driver Gloves",
+      "koreana": "운전용 장갑",
+      "latam": "Guantes de conductor",
+      "norwegian": "Kjørehansker",
+      "polish": "Rękawiczki samochodowe",
+      "portuguese": "Luvas de Condutor",
+      "romanian": "Mănuși de condus",
+      "russian": "Водительские перчатки",
+      "schinese": "驾驶手套",
+      "schinese_pw": "Driver Gloves",
+      "spanish": "Guantes de conductor",
+      "swedish": "Förarhandskar",
+      "tchinese": "駕駛手套",
+      "thai": "ถุงมือขับรถ",
+      "turkish": "Sürücü Eldivenleri",
+      "ukrainian": "Рукавиці водія",
+      "vietnamese": "Găng tay lái xe"
+    },
+    "name": "Driver Gloves",
+    "search_slug": "driver-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

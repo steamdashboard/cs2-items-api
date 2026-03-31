@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "514-43",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-forced",
+    "catalog_id": 43,
+    "id": 43,
+    "localized_names": {
+      "brazilian": "Manchado",
+      "bulgarian": "Опетнено",
+      "czech": "Stained",
+      "danish": "Stained",
+      "dutch": "Stained",
+      "english": "Stained",
+      "finnish": "Värjäytynyt",
+      "french": "Tacheté",
+      "german": "Gefleckt",
+      "greek": "Stained",
+      "hungarian": "Foltos",
+      "indonesian": "Stained",
+      "italian": "Stained",
+      "japanese": "Stained",
+      "koreana": "얼룩",
+      "latam": "Manchado",
+      "norwegian": "Stained",
+      "polish": "Śniedź",
+      "portuguese": "Stained",
+      "romanian": "Stained",
+      "russian": "Патина",
+      "schinese": "人工染色",
+      "schinese_pw": "Stained",
+      "spanish": "Manchado",
+      "swedish": "Stained",
+      "tchinese": "髒亂",
+      "thai": "Stained",
+      "turkish": "Lekeli",
+      "ukrainian": "Наліт іржі",
+      "vietnamese": "Stained"
+    },
+    "name": "Stained",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-43",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Manchado",
+    "bulgarian": "Боуи нож | Опетнено",
+    "czech": "Nůž Bowie | Stained",
+    "danish": "Bowie-kniv | Stained",
+    "dutch": "Bowiemes | Stained",
+    "english": "Bowie Knife | Stained",
+    "finnish": "Bowie-puukko | Värjäytynyt",
+    "french": "Couteau Bowie | Tacheté",
+    "german": "Bowiemesser | Gefleckt",
+    "greek": "Μαχαίρι Bowie | Stained",
+    "hungarian": "Bowie kés | Foltos",
+    "indonesian": "Pisau Bowie | Stained",
+    "italian": "Coltello Bowie | Stained",
+    "japanese": "Bowie ナイフ | Stained",
+    "koreana": "보위 칼 | 얼룩",
+    "latam": "Cuchillo Bowie | Manchado",
+    "norwegian": "Bowiekniv | Stained",
+    "polish": "Nóż Bowie | Śniedź",
+    "portuguese": "Faca Bowie | Stained",
+    "romanian": "Cuțit Bowie | Stained",
+    "russian": "Нож Боуи | Патина",
+    "schinese": "鲍伊猎刀 | 人工染色",
+    "schinese_pw": "Bowie Knife | Stained",
+    "spanish": "Cuchillo Bowie | Manchado",
+    "swedish": "Bowiekniv | Stained",
+    "tchinese": "布伊刀 | 髒亂",
+    "thai": "มีดโบวี | Stained",
+    "turkish": "Bowie Bıçağı | Lekeli",
+    "ukrainian": "Ніж Бові | Наліт іржі",
+    "vietnamese": "Dao Bowie | Stained"
+  },
+  "media": {
+    "asset_id": "skin__514-43",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-43/light.png",
+      "data/api/media/rendered/files/skins/514-43/medium.png",
+      "data/api/media/rendered/files/skins/514-43/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-43.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-43/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-43/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-43/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-43/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aq_forced_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aq_forced_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aq_forced_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Stained",
+  "search_slug": "bowie-knife-stained",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-43__normal__battle-scarred",
+    "514-43__normal__factory-new",
+    "514-43__normal__field-tested",
+    "514-43__normal__minimal-wear",
+    "514-43__normal__well-worn",
+    "514-43__stattrak__battle-scarred",
+    "514-43__stattrak__factory-new",
+    "514-43__stattrak__field-tested",
+    "514-43__stattrak__minimal-wear",
+    "514-43__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

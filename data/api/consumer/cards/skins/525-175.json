@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "525-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "525-175",
+  "localized_names": {
+    "brazilian": "Faca Esqueleto | Brasas",
+    "bulgarian": "Скелетен нож | Обгорено",
+    "czech": "Skeletový nůž | Scorched",
+    "danish": "Skeletkniv | Scorched",
+    "dutch": "Skeletonmes | Scorched",
+    "english": "Skeleton Knife | Scorched",
+    "finnish": "Skeleton-puukko | Korventunut",
+    "french": "Couteau squelettique | Brûlé",
+    "german": "Skelettmesser | Versengt",
+    "greek": "Μαχαίρι Skeleton | Scorched",
+    "hungarian": "Csontváz kés | Megperzselt",
+    "indonesian": "Pisau Skeleton | Scorched",
+    "italian": "Coltello Scheletro | Scorched",
+    "japanese": "Skeleton ナイフ | Scorched",
+    "koreana": "스켈레톤 칼 | 그을림",
+    "latam": "Cuchillo esqueletizado | Chamuscado",
+    "norwegian": "Skjelettkniv | Scorched",
+    "polish": "Nóż szkieletowy | Popiół",
+    "portuguese": "Faca Skeleton | Scorched",
+    "romanian": "Cuțit scheletic | Scorched",
+    "russian": "Скелетный нож | Сажа",
+    "schinese": "骷髅匕首 | 枯焦之色",
+    "schinese_pw": "Skeleton Knife | Scorched",
+    "spanish": "Cuchillo esqueletizado | Chamuscado",
+    "swedish": "Skeleton-kniv | Scorched",
+    "tchinese": "骷顱刀 | 熾灼",
+    "thai": "มีดสเกเลตัน | Scorched",
+    "turkish": "İskelet Bıçak | Alazlanmış",
+    "ukrainian": "Скелетний ніж | Випалення",
+    "vietnamese": "Dao Skeleton | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__525-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/525-175/light.png",
+      "data/api/media/rendered/files/skins/525-175/medium.png",
+      "data/api/media/rendered/files/skins/525-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/525-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/525-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/525-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/525-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/525-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_skeleton_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_skeleton_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_skeleton_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Skeleton Knife | Scorched",
+  "search_slug": "skeleton-knife-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "525-175__normal__vanilla",
+    "525-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-skeleton",
+    "id": 525,
+    "localized_names": {
+      "brazilian": "Faca Esqueleto",
+      "bulgarian": "Скелетен нож",
+      "czech": "Skeletový nůž",
+      "danish": "Skeletkniv",
+      "dutch": "Skeletonmes",
+      "english": "Skeleton Knife",
+      "finnish": "Skeleton-puukko",
+      "french": "Couteau squelettique",
+      "german": "Skelettmesser",
+      "greek": "Μαχαίρι Skeleton",
+      "hungarian": "Csontváz kés",
+      "indonesian": "Pisau Skeleton",
+      "italian": "Coltello Scheletro",
+      "japanese": "Skeleton ナイフ",
+      "koreana": "스켈레톤 칼",
+      "latam": "Cuchillo esqueletizado",
+      "norwegian": "Skjelettkniv",
+      "polish": "Nóż szkieletowy",
+      "portuguese": "Faca Skeleton",
+      "romanian": "Cuțit scheletic",
+      "russian": "Скелетный нож",
+      "schinese": "骷髅匕首",
+      "schinese_pw": "Skeleton Knife",
+      "spanish": "Cuchillo esqueletizado",
+      "swedish": "Skeleton-kniv",
+      "tchinese": "骷顱刀",
+      "thai": "มีดสเกเลตัน",
+      "turkish": "İskelet Bıçak",
+      "ukrainian": "Скелетний ніж",
+      "vietnamese": "Dao Skeleton"
+    },
+    "name": "Skeleton Knife",
+    "search_slug": "skeleton-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

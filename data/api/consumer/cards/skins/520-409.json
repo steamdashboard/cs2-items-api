@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "520-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "520-409",
+  "localized_names": {
+    "brazilian": "Faca Navaja | Dente de Tigre",
+    "bulgarian": "Наваха нож | Тигров зъб",
+    "czech": "Nůž Navaja | Tiger Tooth",
+    "danish": "Navaja-kniv | Tiger Tooth",
+    "dutch": "Navaja | Tiger Tooth",
+    "english": "Navaja Knife | Tiger Tooth",
+    "finnish": "Linkkuveitsi | Tiikerinhammas",
+    "french": "Navaja | Dent de tigre",
+    "german": "Navaja-Messer | Tigerzahn",
+    "greek": "Μαχαίρι Navaja | Tiger Tooth",
+    "hungarian": "Navaja kés | Tigrisfog",
+    "indonesian": "Pisau Navaja | Tiger Tooth",
+    "italian": "Coltello Navaja | Tiger Tooth",
+    "japanese": "Navaja ナイフ | Tiger Tooth",
+    "koreana": "나바하 칼 | 호랑이 이빨",
+    "latam": "Navaja | Diente de tigre",
+    "norwegian": "Navaja | Tiger Tooth",
+    "polish": "Navaja | Tygrysi kieł",
+    "portuguese": "Faca Navaja | Tiger Tooth",
+    "romanian": "Cuțit Navaja | Tiger Tooth",
+    "russian": "Наваха | Зуб тигра",
+    "schinese": "折刀 | 虎牙",
+    "schinese_pw": "Navaja Knife | Tiger Tooth",
+    "spanish": "Navaja | Diente de tigre",
+    "swedish": "Navajakniv | Tiger Tooth",
+    "tchinese": "西班牙折刀 | 虎牙",
+    "thai": "มีดนาวาฮา | Tiger Tooth",
+    "turkish": "Navaja Bıçağı | Kaplan Dişi",
+    "ukrainian": "Наваха | Тигряче ікло",
+    "vietnamese": "Dao Navaja | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__520-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/520-409/light.png",
+      "data/api/media/rendered/files/skins/520-409/medium.png",
+      "data/api/media/rendered/files/skins/520-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/520-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/520-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/520-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/520-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/520-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Navaja Knife | Tiger Tooth",
+  "search_slug": "navaja-knife-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-22",
+        "id": 4598,
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "search_slug": "prisma-case",
+        "via_special_pool": "set_community_22_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-25",
+        "id": 4695,
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "search_slug": "prisma-2-case",
+        "via_special_pool": "set_community_22_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-22-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_22_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-22-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "520-409__normal__factory-new",
+    "520-409__normal__minimal-wear",
+    "520-409__stattrak__factory-new",
+    "520-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gypsy-jackknife",
+    "id": 520,
+    "localized_names": {
+      "brazilian": "Faca Navaja",
+      "bulgarian": "Наваха нож",
+      "czech": "Nůž Navaja",
+      "danish": "Navaja-kniv",
+      "dutch": "Navaja",
+      "english": "Navaja Knife",
+      "finnish": "Linkkuveitsi",
+      "french": "Navaja",
+      "german": "Navaja-Messer",
+      "greek": "Μαχαίρι Navaja",
+      "hungarian": "Navaja kés",
+      "indonesian": "Pisau Navaja",
+      "italian": "Coltello Navaja",
+      "japanese": "Navaja ナイフ",
+      "koreana": "나바하 칼",
+      "latam": "Navaja",
+      "norwegian": "Navaja",
+      "polish": "Navaja",
+      "portuguese": "Faca Navaja",
+      "romanian": "Cuțit Navaja",
+      "russian": "Наваха",
+      "schinese": "折刀",
+      "schinese_pw": "Navaja Knife",
+      "spanish": "Navaja",
+      "swedish": "Navajakniv",
+      "tchinese": "西班牙折刀",
+      "thai": "มีดนาวาฮา",
+      "turkish": "Navaja Bıçağı",
+      "ukrainian": "Наваха",
+      "vietnamese": "Dao Navaja"
+    },
+    "name": "Navaja Knife",
+    "search_slug": "navaja-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

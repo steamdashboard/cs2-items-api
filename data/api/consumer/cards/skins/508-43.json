@@ -1,0 +1,315 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "508-43",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-forced",
+    "catalog_id": 43,
+    "id": 43,
+    "localized_names": {
+      "brazilian": "Manchado",
+      "bulgarian": "Опетнено",
+      "czech": "Stained",
+      "danish": "Stained",
+      "dutch": "Stained",
+      "english": "Stained",
+      "finnish": "Värjäytynyt",
+      "french": "Tacheté",
+      "german": "Gefleckt",
+      "greek": "Stained",
+      "hungarian": "Foltos",
+      "indonesian": "Stained",
+      "italian": "Stained",
+      "japanese": "Stained",
+      "koreana": "얼룩",
+      "latam": "Manchado",
+      "norwegian": "Stained",
+      "polish": "Śniedź",
+      "portuguese": "Stained",
+      "romanian": "Stained",
+      "russian": "Патина",
+      "schinese": "人工染色",
+      "schinese_pw": "Stained",
+      "spanish": "Manchado",
+      "swedish": "Stained",
+      "tchinese": "髒亂",
+      "thai": "Stained",
+      "turkish": "Lekeli",
+      "ukrainian": "Наліт іржі",
+      "vietnamese": "Stained"
+    },
+    "name": "Stained",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "508-43",
+  "localized_names": {
+    "brazilian": "Baioneta M9 | Manchado",
+    "bulgarian": "M9 щик | Опетнено",
+    "czech": "Bajonet M9 | Stained",
+    "danish": "M9-bajonet | Stained",
+    "dutch": "M9 Bajonet | Stained",
+    "english": "M9 Bayonet | Stained",
+    "finnish": "M9-pistin | Värjäytynyt",
+    "french": "Baïonnette M9 | Tacheté",
+    "german": "M9-Bajonett | Gefleckt",
+    "greek": "Mπαγιονέτα M9 | Stained",
+    "hungarian": "M9 bajonett | Foltos",
+    "indonesian": "M9 Bayonet | Stained",
+    "italian": "Baionetta M9 | Stained",
+    "japanese": "M9バヨネット | Stained",
+    "koreana": "M9 총검 | 얼룩",
+    "latam": "Bayoneta M9 | Manchado",
+    "norwegian": "M9-bajonett | Stained",
+    "polish": "Bagnet M9 | Śniedź",
+    "portuguese": "M9 Bayonet | Stained",
+    "romanian": "Baionetă M9 | Stained",
+    "russian": "Штык-нож M9 | Патина",
+    "schinese": "M9 刺刀 | 人工染色",
+    "schinese_pw": "M9 Bayonet | Stained",
+    "spanish": "Bayoneta M9 | Manchado",
+    "swedish": "M9-bajonett | Stained",
+    "tchinese": "M9 刺刀 | 髒亂",
+    "thai": "มีดเบโยเน็ตเอ็ม9 | Stained",
+    "turkish": "M9 Bayonet | Lekeli",
+    "ukrainian": "Штик-ніж М9 | Наліт іржі",
+    "vietnamese": "M9 Bayonet | Stained"
+  },
+  "media": {
+    "asset_id": "skin__508-43",
+    "images_png": [
+      "data/api/media/rendered/files/skins/508-43/light.png",
+      "data/api/media/rendered/files/skins/508-43/medium.png",
+      "data/api/media/rendered/files/skins/508-43/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/508-43.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/508-43/heavy.png",
+      "light": "data/api/media/rendered/files/skins/508-43/light.png",
+      "medium": "data/api/media/rendered/files/skins/508-43/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/508-43/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_m9_bayonet_aq_forced_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_m9_bayonet_aq_forced_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_m9_bayonet_aq_forced_medium_png.vtex_c"
+    }
+  },
+  "name": "M9 Bayonet | Stained",
+  "search_slug": "m9-bayonet-stained",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-valve-1",
+        "id": 4001,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "search_slug": "cs-go-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013",
+        "id": 4002,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "search_slug": "esports-2013-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-ii",
+        "id": 4003,
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "search_slug": "operation-bravo-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-2",
+        "id": 4004,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013-winter",
+        "id": 4005,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "search_slug": "esports-2013-winter-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-1",
+        "id": 4009,
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "search_slug": "winter-offensive-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-3",
+        "id": 4010,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "search_slug": "cs-go-weapon-case-3",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-2",
+        "id": 4011,
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2014-summer",
+        "id": 4019,
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "search_slug": "esports-2014-summer-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-vanguard",
+        "id": 4029,
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-10",
+        "id": 4186,
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "search_slug": "revolver-case",
+        "via_special_pool": "unusual_revolving_list"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "unusual-revolving-list",
+        "expansion_rule": "legacy-knives",
+        "id": "unusual_revolving_list",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "unusual-revolving-special-item-pool",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "508-43__normal__battle-scarred",
+    "508-43__normal__factory-new",
+    "508-43__normal__field-tested",
+    "508-43__normal__minimal-wear",
+    "508-43__normal__well-worn",
+    "508-43__stattrak__battle-scarred",
+    "508-43__stattrak__factory-new",
+    "508-43__stattrak__field-tested",
+    "508-43__stattrak__minimal-wear",
+    "508-43__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-m9-bayonet",
+    "id": 508,
+    "localized_names": {
+      "brazilian": "Baioneta M9",
+      "bulgarian": "M9 щик",
+      "czech": "Bajonet M9",
+      "danish": "M9-bajonet",
+      "dutch": "M9 Bajonet",
+      "english": "M9 Bayonet",
+      "finnish": "M9-pistin",
+      "french": "Baïonnette M9",
+      "german": "M9-Bajonett",
+      "greek": "Mπαγιονέτα M9",
+      "hungarian": "M9 bajonett",
+      "indonesian": "M9 Bayonet",
+      "italian": "Baionetta M9",
+      "japanese": "M9バヨネット",
+      "koreana": "M9 총검",
+      "latam": "Bayoneta M9",
+      "norwegian": "M9-bajonett",
+      "polish": "Bagnet M9",
+      "portuguese": "M9 Bayonet",
+      "romanian": "Baionetă M9",
+      "russian": "Штык-нож M9",
+      "schinese": "M9 刺刀",
+      "schinese_pw": "M9 Bayonet",
+      "spanish": "Bayoneta M9",
+      "swedish": "M9-bajonett",
+      "tchinese": "M9 刺刀",
+      "thai": "มีดเบโยเน็ตเอ็ม9",
+      "turkish": "M9 Bayonet",
+      "ukrainian": "Штик-ніж М9",
+      "vietnamese": "M9 Bayonet"
+    },
+    "name": "M9 Bayonet",
+    "search_slug": "m9-bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

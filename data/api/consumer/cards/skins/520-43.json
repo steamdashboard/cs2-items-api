@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "520-43",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-forced",
+    "catalog_id": 43,
+    "id": 43,
+    "localized_names": {
+      "brazilian": "Manchado",
+      "bulgarian": "Опетнено",
+      "czech": "Stained",
+      "danish": "Stained",
+      "dutch": "Stained",
+      "english": "Stained",
+      "finnish": "Värjäytynyt",
+      "french": "Tacheté",
+      "german": "Gefleckt",
+      "greek": "Stained",
+      "hungarian": "Foltos",
+      "indonesian": "Stained",
+      "italian": "Stained",
+      "japanese": "Stained",
+      "koreana": "얼룩",
+      "latam": "Manchado",
+      "norwegian": "Stained",
+      "polish": "Śniedź",
+      "portuguese": "Stained",
+      "romanian": "Stained",
+      "russian": "Патина",
+      "schinese": "人工染色",
+      "schinese_pw": "Stained",
+      "spanish": "Manchado",
+      "swedish": "Stained",
+      "tchinese": "髒亂",
+      "thai": "Stained",
+      "turkish": "Lekeli",
+      "ukrainian": "Наліт іржі",
+      "vietnamese": "Stained"
+    },
+    "name": "Stained",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "520-43",
+  "localized_names": {
+    "brazilian": "Faca Navaja | Manchado",
+    "bulgarian": "Наваха нож | Опетнено",
+    "czech": "Nůž Navaja | Stained",
+    "danish": "Navaja-kniv | Stained",
+    "dutch": "Navaja | Stained",
+    "english": "Navaja Knife | Stained",
+    "finnish": "Linkkuveitsi | Värjäytynyt",
+    "french": "Navaja | Tacheté",
+    "german": "Navaja-Messer | Gefleckt",
+    "greek": "Μαχαίρι Navaja | Stained",
+    "hungarian": "Navaja kés | Foltos",
+    "indonesian": "Pisau Navaja | Stained",
+    "italian": "Coltello Navaja | Stained",
+    "japanese": "Navaja ナイフ | Stained",
+    "koreana": "나바하 칼 | 얼룩",
+    "latam": "Navaja | Manchado",
+    "norwegian": "Navaja | Stained",
+    "polish": "Navaja | Śniedź",
+    "portuguese": "Faca Navaja | Stained",
+    "romanian": "Cuțit Navaja | Stained",
+    "russian": "Наваха | Патина",
+    "schinese": "折刀 | 人工染色",
+    "schinese_pw": "Navaja Knife | Stained",
+    "spanish": "Navaja | Manchado",
+    "swedish": "Navajakniv | Stained",
+    "tchinese": "西班牙折刀 | 髒亂",
+    "thai": "มีดนาวาฮา | Stained",
+    "turkish": "Navaja Bıçağı | Lekeli",
+    "ukrainian": "Наваха | Наліт іржі",
+    "vietnamese": "Dao Navaja | Stained"
+  },
+  "media": {
+    "asset_id": "skin__520-43",
+    "images_png": [
+      "data/api/media/rendered/files/skins/520-43/light.png",
+      "data/api/media/rendered/files/skins/520-43/medium.png",
+      "data/api/media/rendered/files/skins/520-43/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/520-43.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/520-43/heavy.png",
+      "light": "data/api/media/rendered/files/skins/520-43/light.png",
+      "medium": "data/api/media/rendered/files/skins/520-43/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/520-43/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_aq_forced_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_aq_forced_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_aq_forced_medium_png.vtex_c"
+    }
+  },
+  "name": "Navaja Knife | Stained",
+  "search_slug": "navaja-knife-stained",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "520-43__normal__battle-scarred",
+    "520-43__normal__factory-new",
+    "520-43__normal__field-tested",
+    "520-43__normal__minimal-wear",
+    "520-43__normal__well-worn",
+    "520-43__stattrak__battle-scarred",
+    "520-43__stattrak__factory-new",
+    "520-43__stattrak__field-tested",
+    "520-43__stattrak__minimal-wear",
+    "520-43__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gypsy-jackknife",
+    "id": 520,
+    "localized_names": {
+      "brazilian": "Faca Navaja",
+      "bulgarian": "Наваха нож",
+      "czech": "Nůž Navaja",
+      "danish": "Navaja-kniv",
+      "dutch": "Navaja",
+      "english": "Navaja Knife",
+      "finnish": "Linkkuveitsi",
+      "french": "Navaja",
+      "german": "Navaja-Messer",
+      "greek": "Μαχαίρι Navaja",
+      "hungarian": "Navaja kés",
+      "indonesian": "Pisau Navaja",
+      "italian": "Coltello Navaja",
+      "japanese": "Navaja ナイフ",
+      "koreana": "나바하 칼",
+      "latam": "Navaja",
+      "norwegian": "Navaja",
+      "polish": "Navaja",
+      "portuguese": "Faca Navaja",
+      "romanian": "Cuțit Navaja",
+      "russian": "Наваха",
+      "schinese": "折刀",
+      "schinese_pw": "Navaja Knife",
+      "spanish": "Navaja",
+      "swedish": "Navajakniv",
+      "tchinese": "西班牙折刀",
+      "thai": "มีดนาวาฮา",
+      "turkish": "Navaja Bıçağı",
+      "ukrainian": "Наваха",
+      "vietnamese": "Dao Navaja"
+    },
+    "name": "Navaja Knife",
+    "search_slug": "navaja-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

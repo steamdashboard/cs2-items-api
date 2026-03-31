@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "522-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "522-175",
+  "localized_names": {
+    "brazilian": "Faca Stiletto | Brasas",
+    "bulgarian": "Нож стилет | Обгорено",
+    "czech": "Vystřelovací nůž | Scorched",
+    "danish": "Stiletto-kniv | Scorched",
+    "dutch": "Stiletto | Scorched",
+    "english": "Stiletto Knife | Scorched",
+    "finnish": "Stiletti | Korventunut",
+    "french": "Stylet | Brûlé",
+    "german": "Stilett | Versengt",
+    "greek": "Μαχαίρι Stiletto | Scorched",
+    "hungarian": "Stiletto kés | Megperzselt",
+    "indonesian": "Pisau Stiletto | Scorched",
+    "italian": "Stiletto | Scorched",
+    "japanese": "Stiletto ナイフ | Scorched",
+    "koreana": "스틸레토 칼 | 그을림",
+    "latam": "Estilete | Chamuscado",
+    "norwegian": "Springkniv | Scorched",
+    "polish": "Sztylet | Popiół",
+    "portuguese": "Faca Stiletto | Scorched",
+    "romanian": "Cuțit Stiletto | Scorched",
+    "russian": "Стилет | Сажа",
+    "schinese": "短剑 | 枯焦之色",
+    "schinese_pw": "Stiletto Knife | Scorched",
+    "spanish": "Estilete | Chamuscado",
+    "swedish": "Stilettkniv | Scorched",
+    "tchinese": "彈簧刀 | 熾灼",
+    "thai": "มีดสติลเล็ตโต | Scorched",
+    "turkish": "Stiletto Bıçak | Alazlanmış",
+    "ukrainian": "Ніж-стилет | Випалення",
+    "vietnamese": "Dao Stiletto | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__522-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/522-175/light.png",
+      "data/api/media/rendered/files/skins/522-175/medium.png",
+      "data/api/media/rendered/files/skins/522-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/522-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/522-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/522-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/522-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/522-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_stiletto_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_stiletto_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_stiletto_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Stiletto Knife | Scorched",
+  "search_slug": "stiletto-knife-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "522-175__normal__vanilla",
+    "522-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-stiletto",
+    "id": 522,
+    "localized_names": {
+      "brazilian": "Faca Stiletto",
+      "bulgarian": "Нож стилет",
+      "czech": "Vystřelovací nůž",
+      "danish": "Stiletto-kniv",
+      "dutch": "Stiletto",
+      "english": "Stiletto Knife",
+      "finnish": "Stiletti",
+      "french": "Stylet",
+      "german": "Stilett",
+      "greek": "Μαχαίρι Stiletto",
+      "hungarian": "Stiletto kés",
+      "indonesian": "Pisau Stiletto",
+      "italian": "Stiletto",
+      "japanese": "Stiletto ナイフ",
+      "koreana": "스틸레토 칼",
+      "latam": "Estilete",
+      "norwegian": "Springkniv",
+      "polish": "Sztylet",
+      "portuguese": "Faca Stiletto",
+      "romanian": "Cuțit Stiletto",
+      "russian": "Стилет",
+      "schinese": "短剑",
+      "schinese_pw": "Stiletto Knife",
+      "spanish": "Estilete",
+      "swedish": "Stilettkniv",
+      "tchinese": "彈簧刀",
+      "thai": "มีดสติลเล็ตโต",
+      "turkish": "Stiletto Bıçak",
+      "ukrainian": "Ніж-стилет",
+      "vietnamese": "Dao Stiletto"
+    },
+    "name": "Stiletto Knife",
+    "search_slug": "stiletto-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

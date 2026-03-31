@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "512-38",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aa-fade",
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-38",
+  "localized_names": {
+    "brazilian": "Canivete Falchion | Degradê",
+    "bulgarian": "Нож „Фалчион“ | Избледняване",
+    "czech": "Falchion | Fade",
+    "danish": "Falchion-kniv | Fade",
+    "dutch": "Falchion-mes | Fade",
+    "english": "Falchion Knife | Fade",
+    "finnish": "Falchion-veitsi | Häivytys",
+    "french": "Couteau fauchon | Dégradé",
+    "german": "Falchion-Messer | Farbverlauf",
+    "greek": "Μαχαίρι Falchion | Fade",
+    "hungarian": "Handzsárkés | Halványulás",
+    "indonesian": "Pisau Falchion | Fade",
+    "italian": "Coltello falchion | Fade",
+    "japanese": "Falchion ナイフ | Fade",
+    "koreana": "파르치온 칼 | 흐릿함",
+    "latam": "Cuchillo alfanje | Desteñido",
+    "norwegian": "Falchion-kniv | Fade",
+    "polish": "Nóż falcjon | Gradient",
+    "portuguese": "Faca Falchion | Fade",
+    "romanian": "Cuțit Falchion | Fade",
+    "russian": "Фальшион | Градиент",
+    "schinese": "弯刀 | 渐变之色",
+    "schinese_pw": "Falchion Knife | Fade",
+    "spanish": "Cuchillo Alfanje | Desteñido",
+    "swedish": "Falchionkniv | Fade",
+    "tchinese": "彎刃匕首 | 漸層彩虹",
+    "thai": "มีดฟัลชิออน | Fade",
+    "turkish": "Pala Bıçağı | Solgun",
+    "ukrainian": "Ніж-фальшіон | Градієнт",
+    "vietnamese": "Dao Falchion | Fade"
+  },
+  "media": {
+    "asset_id": "skin__512-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/512-38/light.png",
+      "data/api/media/rendered/files/skins/512-38/medium.png",
+      "data/api/media/rendered/files/skins/512-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/512-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/512-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/512-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/512-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/512-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_falchion_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_falchion_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_falchion_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Falchion Knife | Fade",
+  "search_slug": "falchion-knife-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-8",
+        "id": 4091,
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "search_slug": "falchion-case",
+        "via_special_pool": "community_case_8_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-8-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_8_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Falchion Knife ★",
+        "search_slug": "community-case-8-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "512-38__normal__factory-new",
+    "512-38__normal__minimal-wear",
+    "512-38__stattrak__factory-new",
+    "512-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-falchion",
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Canivete Falchion",
+      "bulgarian": "Нож „Фалчион“",
+      "czech": "Falchion",
+      "danish": "Falchion-kniv",
+      "dutch": "Falchion-mes",
+      "english": "Falchion Knife",
+      "finnish": "Falchion-veitsi",
+      "french": "Couteau fauchon",
+      "german": "Falchion-Messer",
+      "greek": "Μαχαίρι Falchion",
+      "hungarian": "Handzsárkés",
+      "indonesian": "Pisau Falchion",
+      "italian": "Coltello falchion",
+      "japanese": "Falchion ナイフ",
+      "koreana": "파르치온 칼",
+      "latam": "Cuchillo alfanje",
+      "norwegian": "Falchion-kniv",
+      "polish": "Nóż falcjon",
+      "portuguese": "Faca Falchion",
+      "romanian": "Cuțit Falchion",
+      "russian": "Фальшион",
+      "schinese": "弯刀",
+      "schinese_pw": "Falchion Knife",
+      "spanish": "Cuchillo Alfanje",
+      "swedish": "Falchionkniv",
+      "tchinese": "彎刃匕首",
+      "thai": "มีดฟัลชิออน",
+      "turkish": "Pala Bıçağı",
+      "ukrainian": "Ніж-фальшіон",
+      "vietnamese": "Dao Falchion"
+    },
+    "name": "Falchion Knife",
+    "search_slug": "falchion-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

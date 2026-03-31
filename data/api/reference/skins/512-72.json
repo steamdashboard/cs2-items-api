@@ -1,0 +1,65 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "512-72",
+  "finish": {
+    "codename": "sp_mesh_tan",
+    "id": 72,
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 72,
+    "weapon_id": 512
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-72",
+  "name": "Falchion Knife | Safari Mesh",
+  "search_slug": "falchion-knife-safari-mesh",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-8-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_8_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Falchion Knife ★",
+        "search_slug": "community-case-8-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-8",
+            "id": 4091,
+            "kind": "weapon-case",
+            "name": "Falchion Case",
+            "search_slug": "falchion-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "512-72__normal__vanilla",
+    "512-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_falchion",
+    "id": 512,
+    "name": "Falchion Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

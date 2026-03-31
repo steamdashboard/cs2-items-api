@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "500-570",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-gamma-doppler-phase2",
+    "catalog_id": 570,
+    "id": 570,
+    "localized_names": {
+      "brazilian": "Doppler Gama",
+      "bulgarian": "Доплеров гама ефект",
+      "czech": "Gamma Doppler",
+      "danish": "Gamma Doppler",
+      "dutch": "Gamma Doppler",
+      "english": "Gamma Doppler",
+      "finnish": "Gamma Doppler",
+      "french": "Doppler Gamma",
+      "german": "Gamma Doppler",
+      "greek": "Gamma Doppler",
+      "hungarian": "Gamma Doppler",
+      "indonesian": "Gamma Doppler",
+      "italian": "Gamma Doppler",
+      "japanese": "Gamma Doppler",
+      "koreana": "감마 도플러",
+      "latam": "Doppler gamma",
+      "norwegian": "Gamma Doppler",
+      "polish": "Gamma Doppler",
+      "portuguese": "Gamma Doppler",
+      "romanian": "Gamma Doppler",
+      "russian": "Гамма-волны",
+      "schinese": "伽玛多普勒",
+      "schinese_pw": "Gamma Doppler",
+      "spanish": "Doppler gamma",
+      "swedish": "Gamma Doppler",
+      "tchinese": "伽傌都卜勒",
+      "thai": "Gamma Doppler",
+      "turkish": "Gamma Doppler",
+      "ukrainian": "Гамма-ефект Доплера",
+      "vietnamese": "Gamma Doppler"
+    },
+    "name": "Gamma Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "500-570",
+  "localized_names": {
+    "brazilian": "Baioneta | Doppler Gama",
+    "bulgarian": "Щик | Доплеров гама ефект",
+    "czech": "Bajonet | Gamma Doppler",
+    "danish": "Bajonet | Gamma Doppler",
+    "dutch": "Bajonet | Gamma Doppler",
+    "english": "Bayonet | Gamma Doppler",
+    "finnish": "Pistin | Gamma Doppler",
+    "french": "Baïonnette | Doppler Gamma",
+    "german": "Bajonett | Gamma Doppler",
+    "greek": "Mπαγιονέτα | Gamma Doppler",
+    "hungarian": "Bajonett | Gamma Doppler",
+    "indonesian": "Bayonet | Gamma Doppler",
+    "italian": "Baionetta | Gamma Doppler",
+    "japanese": "銃剣 | Gamma Doppler",
+    "koreana": "총검 | 감마 도플러",
+    "latam": "Bayoneta | Doppler gamma",
+    "norwegian": "Bajonett | Gamma Doppler",
+    "polish": "Bagnet | Gamma Doppler",
+    "portuguese": "Bayonet | Gamma Doppler",
+    "romanian": "Baionetă | Gamma Doppler",
+    "russian": "Штык-нож | Гамма-волны",
+    "schinese": "刺刀 | 伽玛多普勒",
+    "schinese_pw": "Bayonet | Gamma Doppler",
+    "spanish": "Bayoneta | Doppler gamma",
+    "swedish": "Bajonett | Gamma Doppler",
+    "tchinese": "刺刀 | 伽傌都卜勒",
+    "thai": "มีดเบโยเน็ต | Gamma Doppler",
+    "turkish": "Bayonet | Gamma Doppler",
+    "ukrainian": "Штик-ніж | Гамма-ефект Доплера",
+    "vietnamese": "Bayonet | Gamma Doppler"
+  },
+  "media": {
+    "asset_id": "skin__500-570",
+    "images_png": [
+      "data/api/media/rendered/files/skins/500-570/light.png",
+      "data/api/media/rendered/files/skins/500-570/medium.png",
+      "data/api/media/rendered/files/skins/500-570/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/500-570.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/500-570/heavy.png",
+      "light": "data/api/media/rendered/files/skins/500-570/light.png",
+      "medium": "data/api/media/rendered/files/skins/500-570/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/500-570/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bayonet_am_gamma_doppler_phase2_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bayonet_am_gamma_doppler_phase2_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bayonet_am_gamma_doppler_phase2_medium_png.vtex_c"
+    }
+  },
+  "name": "Bayonet | Gamma Doppler",
+  "search_slug": "bayonet-gamma-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-13",
+        "id": 4236,
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "search_slug": "gamma-case",
+        "via_special_pool": "community_case_13_unusual"
+      },
+      {
+        "canonical_slug": "crate-gamma-2",
+        "id": 4281,
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
+        "via_special_pool": "community_case_13_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "500-570__normal__factory-new",
+    "500-570__normal__minimal-wear",
+    "500-570__stattrak__factory-new",
+    "500-570__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-bayonet",
+    "id": 500,
+    "localized_names": {
+      "brazilian": "Baioneta",
+      "bulgarian": "Щик",
+      "czech": "Bajonet",
+      "danish": "Bajonet",
+      "dutch": "Bajonet",
+      "english": "Bayonet",
+      "finnish": "Pistin",
+      "french": "Baïonnette",
+      "german": "Bajonett",
+      "greek": "Mπαγιονέτα",
+      "hungarian": "Bajonett",
+      "indonesian": "Bayonet",
+      "italian": "Baionetta",
+      "japanese": "銃剣",
+      "koreana": "총검",
+      "latam": "Bayoneta",
+      "norwegian": "Bajonett",
+      "polish": "Bagnet",
+      "portuguese": "Bayonet",
+      "romanian": "Baionetă",
+      "russian": "Штык-нож",
+      "schinese": "刺刀",
+      "schinese_pw": "Bayonet",
+      "spanish": "Bayoneta",
+      "swedish": "Bajonett",
+      "tchinese": "刺刀",
+      "thai": "มีดเบโยเน็ต",
+      "turkish": "Bayonet",
+      "ukrainian": "Штик-ніж",
+      "vietnamese": "Bayonet"
+    },
+    "name": "Bayonet",
+    "search_slug": "bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

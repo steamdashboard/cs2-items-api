@@ -1,0 +1,217 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "canonical_slug": "515-59",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-zebra",
+    "catalog_id": 59,
+    "id": 59,
+    "localized_names": {
+      "brazilian": "Massacre",
+      "bulgarian": "Клане",
+      "czech": "Slaughter",
+      "danish": "Slaughter",
+      "dutch": "Slaughter",
+      "english": "Slaughter",
+      "finnish": "Teurastus",
+      "french": "Carnage",
+      "german": "Metzelei",
+      "greek": "Slaughter",
+      "hungarian": "Mészárlás",
+      "indonesian": "Slaughter",
+      "italian": "Slaughter",
+      "japanese": "Slaughter",
+      "koreana": "살인마",
+      "latam": "Masacre",
+      "norwegian": "Slaughter",
+      "polish": "Rzeź",
+      "portuguese": "Slaughter",
+      "romanian": "Slaughter",
+      "russian": "Убийство",
+      "schinese": "屠夫",
+      "schinese_pw": "Slaughter",
+      "spanish": "Masacre",
+      "swedish": "Slaughter",
+      "tchinese": "屠夫",
+      "thai": "Slaughter",
+      "turkish": "Katliam",
+      "ukrainian": "Бійня",
+      "vietnamese": "Slaughter"
+    },
+    "name": "Slaughter",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.01
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-59",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Massacre",
+    "bulgarian": "Нож „Пеперуда“ | Клане",
+    "czech": "Motýlek | Slaughter",
+    "danish": "Butterfly-kniv | Slaughter",
+    "dutch": "Vlindermes | Slaughter",
+    "english": "Butterfly Knife | Slaughter",
+    "finnish": "Perhosveitsi | Teurastus",
+    "french": "Couteau papillon | Carnage",
+    "german": "Butterflymesser | Metzelei",
+    "greek": "Μαχαίρι Butterfly | Slaughter",
+    "hungarian": "Pillangókés | Mészárlás",
+    "indonesian": "Pisau Kupu-kupu | Slaughter",
+    "italian": "Coltello a farfalla | Slaughter",
+    "japanese": "バタフライナイフ | Slaughter",
+    "koreana": "버터플라이 나이프 | 살인마",
+    "latam": "Cuchillo mariposa | Masacre",
+    "norwegian": "Butterflykniv | Slaughter",
+    "polish": "Nóż motylkowy | Rzeź",
+    "portuguese": "Faca Butterfly | Slaughter",
+    "romanian": "Cuțit fluture | Slaughter",
+    "russian": "Нож-бабочка | Убийство",
+    "schinese": "蝴蝶刀 | 屠夫",
+    "schinese_pw": "Butterfly Knife | Slaughter",
+    "spanish": "Cuchillo Mariposa | Masacre",
+    "swedish": "Butterflykniv | Slaughter",
+    "tchinese": "蝴蝶刀 | 屠夫",
+    "thai": "มีดบัตเตอร์ฟลาย | Slaughter",
+    "turkish": "Kelebek Bıçak | Katliam",
+    "ukrainian": "Балісонг | Бійня",
+    "vietnamese": "Dao bướm | Slaughter"
+  },
+  "media": {
+    "asset_id": "skin__515-59",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-59/light.png",
+      "data/api/media/rendered/files/skins/515-59/medium.png",
+      "data/api/media/rendered/files/skins/515-59/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-59.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-59/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-59/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-59/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-59/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_am_zebra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_am_zebra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_am_zebra_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Slaughter",
+  "search_slug": "butterfly-knife-slaughter",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-4",
+        "id": 4018,
+        "kind": "weapon-case",
+        "name": "Operation Breakout Weapon Case",
+        "search_slug": "operation-breakout-weapon-case",
+        "via_special_pool": "community_case_4_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-4-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_4_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Butterfly Knife ★",
+        "search_slug": "community-case-4-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-59__normal__factory-new",
+    "515-59__normal__field-tested",
+    "515-59__normal__minimal-wear",
+    "515-59__stattrak__factory-new",
+    "515-59__stattrak__field-tested",
+    "515-59__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.01
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "517-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-175",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Brasas",
+    "bulgarian": "Паракорд нож | Обгорено",
+    "czech": "Výsadkářský nůž | Scorched",
+    "danish": "Paracordkniv | Scorched",
+    "dutch": "Paracordmes | Scorched",
+    "english": "Paracord Knife | Scorched",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Korventunut",
+    "french": "Couteau en paracorde | Brûlé",
+    "german": "Fallschirm-Messer | Versengt",
+    "greek": "Μαχαίρι Paracord | Scorched",
+    "hungarian": "Paracord kés | Megperzselt",
+    "indonesian": "Pisau Paracord | Scorched",
+    "italian": "Coltello Paracord | Scorched",
+    "japanese": "Paracord ナイフ | Scorched",
+    "koreana": "파라코드 칼 | 그을림",
+    "latam": "Cuchillo encordado | Chamuscado",
+    "norwegian": "Paracordkniv | Scorched",
+    "polish": "Nóż paracord | Popiół",
+    "portuguese": "Faca Paracord | Scorched",
+    "romanian": "Cuțit Paracord | Scorched",
+    "russian": "Паракорд-нож | Сажа",
+    "schinese": "系绳匕首 | 枯焦之色",
+    "schinese_pw": "Paracord Knife | Scorched",
+    "spanish": "Cuchillo encordado | Chamuscado",
+    "swedish": "Paracordkniv | Scorched",
+    "tchinese": "繩柄刀 | 熾灼",
+    "thai": "มีดพาราคอร์ด | Scorched",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Alazlanmış",
+    "ukrainian": "Тактичний ніж | Випалення",
+    "vietnamese": "Dao Paracord | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__517-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/517-175/light.png",
+      "data/api/media/rendered/files/skins/517-175/medium.png",
+      "data/api/media/rendered/files/skins/517-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/517-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/517-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/517-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/517-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/517-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_cord_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_cord_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_cord_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Paracord Knife | Scorched",
+  "search_slug": "paracord-knife-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-175__normal__vanilla",
+    "517-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "523-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "523-175",
+  "localized_names": {
+    "brazilian": "Faca Talon | Brasas",
+    "bulgarian": "Нож нокът | Обгорено",
+    "czech": "Talon | Scorched",
+    "danish": "Talon-kniv | Scorched",
+    "dutch": "Talon-mes | Scorched",
+    "english": "Talon Knife | Scorched",
+    "finnish": "Kynsiveitsi | Korventunut",
+    "french": "Canif | Brûlé",
+    "german": "Talon-Messer | Versengt",
+    "greek": "Μαχαίρι Talon | Scorched",
+    "hungarian": "Talon kés | Megperzselt",
+    "indonesian": "Pisau Talon | Scorched",
+    "italian": "Coltello Talon | Scorched",
+    "japanese": "Talon ナイフ | Scorched",
+    "koreana": "탈론 칼 | 그을림",
+    "latam": "Cuchillo talón | Chamuscado",
+    "norwegian": "Klokniv | Scorched",
+    "polish": "Szpon | Popiół",
+    "portuguese": "Faca Talon | Scorched",
+    "romanian": "Cuțit Talon | Scorched",
+    "russian": "Коготь | Сажа",
+    "schinese": "锯齿爪刀 | 枯焦之色",
+    "schinese_pw": "Talon Knife | Scorched",
+    "spanish": "Cuchillo Garra | Chamuscado",
+    "swedish": "Talonkniv | Scorched",
+    "tchinese": "彎爪刀 | 熾灼",
+    "thai": "มีดทาลอน | Scorched",
+    "turkish": "Talon Bıçağı | Alazlanmış",
+    "ukrainian": "Ніж-кіготь | Випалення",
+    "vietnamese": "Dao Talon | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__523-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/523-175/light.png",
+      "data/api/media/rendered/files/skins/523-175/medium.png",
+      "data/api/media/rendered/files/skins/523-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/523-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/523-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/523-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/523-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/523-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_widowmaker_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_widowmaker_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_widowmaker_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Talon Knife | Scorched",
+  "search_slug": "talon-knife-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "523-175__normal__vanilla",
+    "523-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-widowmaker",
+    "id": 523,
+    "localized_names": {
+      "brazilian": "Faca Talon",
+      "bulgarian": "Нож нокът",
+      "czech": "Talon",
+      "danish": "Talon-kniv",
+      "dutch": "Talon-mes",
+      "english": "Talon Knife",
+      "finnish": "Kynsiveitsi",
+      "french": "Canif",
+      "german": "Talon-Messer",
+      "greek": "Μαχαίρι Talon",
+      "hungarian": "Talon kés",
+      "indonesian": "Pisau Talon",
+      "italian": "Coltello Talon",
+      "japanese": "Talon ナイフ",
+      "koreana": "탈론 칼",
+      "latam": "Cuchillo talón",
+      "norwegian": "Klokniv",
+      "polish": "Szpon",
+      "portuguese": "Faca Talon",
+      "romanian": "Cuțit Talon",
+      "russian": "Коготь",
+      "schinese": "锯齿爪刀",
+      "schinese_pw": "Talon Knife",
+      "spanish": "Cuchillo Garra",
+      "swedish": "Talonkniv",
+      "tchinese": "彎爪刀",
+      "thai": "มีดทาลอน",
+      "turkish": "Talon Bıçağı",
+      "ukrainian": "Ніж-кіготь",
+      "vietnamese": "Dao Talon"
+    },
+    "name": "Talon Knife",
+    "search_slug": "talon-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

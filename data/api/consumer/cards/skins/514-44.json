@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "514-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-44",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Aquecimento de Aço",
+    "bulgarian": "Боуи нож | Закалено",
+    "czech": "Nůž Bowie | Case Hardened",
+    "danish": "Bowie-kniv | Case Hardened",
+    "dutch": "Bowiemes | Case Hardened",
+    "english": "Bowie Knife | Case Hardened",
+    "finnish": "Bowie-puukko | Hiiletyskarkaistu",
+    "french": "Couteau Bowie | Cémenté",
+    "german": "Bowiemesser | Einsatzgehärtet",
+    "greek": "Μαχαίρι Bowie | Case Hardened",
+    "hungarian": "Bowie kés | Edzett",
+    "indonesian": "Pisau Bowie | Case Hardened",
+    "italian": "Coltello Bowie | Case Hardened",
+    "japanese": "Bowie ナイフ | Case Hardened",
+    "koreana": "보위 칼 | 표면 경화",
+    "latam": "Cuchillo Bowie | Acero templado",
+    "norwegian": "Bowiekniv | Case Hardened",
+    "polish": "Nóż Bowie | Stal nawęglana",
+    "portuguese": "Faca Bowie | Case Hardened",
+    "romanian": "Cuțit Bowie | Case Hardened",
+    "russian": "Нож Боуи | Поверхностная закалка",
+    "schinese": "鲍伊猎刀 | 表面淬火",
+    "schinese_pw": "Bowie Knife | Case Hardened",
+    "spanish": "Cuchillo Bowie | Acero templado",
+    "swedish": "Bowiekniv | Case Hardened",
+    "tchinese": "布伊刀 | 外殼硬化",
+    "thai": "มีดโบวี | Case Hardened",
+    "turkish": "Bowie Bıçağı | Sertleştirilmiş Kasa",
+    "ukrainian": "Ніж Бові | Поверхневий гарт",
+    "vietnamese": "Dao Bowie | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__514-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-44/light.png",
+      "data/api/media/rendered/files/skins/514-44/medium.png",
+      "data/api/media/rendered/files/skins/514-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Case Hardened",
+  "search_slug": "bowie-knife-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-44__normal__battle-scarred",
+    "514-44__normal__factory-new",
+    "514-44__normal__field-tested",
+    "514-44__normal__minimal-wear",
+    "514-44__normal__well-worn",
+    "514-44__stattrak__battle-scarred",
+    "514-44__stattrak__factory-new",
+    "514-44__stattrak__field-tested",
+    "514-44__stattrak__minimal-wear",
+    "514-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

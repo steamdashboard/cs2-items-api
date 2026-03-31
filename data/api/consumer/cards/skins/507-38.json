@@ -1,0 +1,288 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "507-38",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aa-fade",
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "507-38",
+  "localized_names": {
+    "brazilian": "Karambit | Degradê",
+    "bulgarian": "Карамбит | Избледняване",
+    "czech": "Karambit | Fade",
+    "danish": "Karambit | Fade",
+    "dutch": "Karambit | Fade",
+    "english": "Karambit | Fade",
+    "finnish": "Karambit | Häivytys",
+    "french": "Karambit | Dégradé",
+    "german": "Karambit | Farbverlauf",
+    "greek": "Karambit | Fade",
+    "hungarian": "Karambit | Halványulás",
+    "indonesian": "Karambit | Fade",
+    "italian": "Karambit | Fade",
+    "japanese": "カランビット | Fade",
+    "koreana": "카람빗 | 흐릿함",
+    "latam": "Karambit | Desteñido",
+    "norwegian": "Karambit | Fade",
+    "polish": "Karambit | Gradient",
+    "portuguese": "Karambit | Fade",
+    "romanian": "Karambit | Fade",
+    "russian": "Керамбит | Градиент",
+    "schinese": "爪子刀 | 渐变之色",
+    "schinese_pw": "Karambit | Fade",
+    "spanish": "Karambit | Desteñido",
+    "swedish": "Karambit | Fade",
+    "tchinese": "爪刀 | 漸層彩虹",
+    "thai": "มีดคารัมบิต | Fade",
+    "turkish": "Karambit | Solgun",
+    "ukrainian": "Керамбіт | Градієнт",
+    "vietnamese": "Karambit | Fade"
+  },
+  "media": {
+    "asset_id": "skin__507-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/507-38/light.png",
+      "data/api/media/rendered/files/skins/507-38/medium.png",
+      "data/api/media/rendered/files/skins/507-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/507-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/507-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/507-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/507-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/507-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_karambit_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_karambit_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_karambit_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Karambit | Fade",
+  "search_slug": "karambit-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-valve-1",
+        "id": 4001,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "search_slug": "cs-go-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013",
+        "id": 4002,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "search_slug": "esports-2013-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-ii",
+        "id": 4003,
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "search_slug": "operation-bravo-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-2",
+        "id": 4004,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013-winter",
+        "id": 4005,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "search_slug": "esports-2013-winter-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-1",
+        "id": 4009,
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "search_slug": "winter-offensive-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-3",
+        "id": 4010,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "search_slug": "cs-go-weapon-case-3",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-2",
+        "id": 4011,
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2014-summer",
+        "id": 4019,
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "search_slug": "esports-2014-summer-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-vanguard",
+        "id": 4029,
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-10",
+        "id": 4186,
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "search_slug": "revolver-case",
+        "via_special_pool": "unusual_revolving_list"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "unusual-revolving-list",
+        "expansion_rule": "legacy-knives",
+        "id": "unusual_revolving_list",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "unusual-revolving-special-item-pool",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "507-38__normal__factory-new",
+    "507-38__normal__minimal-wear",
+    "507-38__stattrak__factory-new",
+    "507-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-karambit",
+    "id": 507,
+    "localized_names": {
+      "brazilian": "Karambit",
+      "bulgarian": "Карамбит",
+      "czech": "Karambit",
+      "danish": "Karambit",
+      "dutch": "Karambit",
+      "english": "Karambit",
+      "finnish": "Karambit",
+      "french": "Karambit",
+      "german": "Karambit",
+      "greek": "Karambit",
+      "hungarian": "Karambit",
+      "indonesian": "Karambit",
+      "italian": "Karambit",
+      "japanese": "カランビット",
+      "koreana": "카람빗",
+      "latam": "Karambit",
+      "norwegian": "Karambit",
+      "polish": "Karambit",
+      "portuguese": "Karambit",
+      "romanian": "Karambit",
+      "russian": "Керамбит",
+      "schinese": "爪子刀",
+      "schinese_pw": "Karambit",
+      "spanish": "Karambit",
+      "swedish": "Karambit",
+      "tchinese": "爪刀",
+      "thai": "มีดคารัมบิต",
+      "turkish": "Karambit",
+      "ukrainian": "Керамбіт",
+      "vietnamese": "Karambit"
+    },
+    "name": "Karambit",
+    "search_slug": "karambit",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

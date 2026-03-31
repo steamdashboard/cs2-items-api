@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5034-10063",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "specialist-fade",
+    "catalog_id": 10063,
+    "id": 10063,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytetty",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Fakulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5034-10063",
+  "localized_names": {
+    "brazilian": "Luvas de Especialista | Degradê",
+    "bulgarian": "Специализирани ръкавици | Избледняване",
+    "czech": "Profesionální rukavice | Fade",
+    "danish": "Specialisthandsker | Fade",
+    "dutch": "Specialisthandschoenen | Fade",
+    "english": "Specialist Gloves | Fade",
+    "finnish": "Ammattilaishanskat | Häivytetty",
+    "french": "Gants de spécialiste | Dégradé",
+    "german": "Spezialistenhandschuhe | Farbverlauf",
+    "greek": "Γάντια ειδικού | Fade",
+    "hungarian": "Specialista kesztyűk | Fakulás",
+    "indonesian": "Sarung Tangan Spesialis | Fade",
+    "italian": "Guanti dello specialista | Fade",
+    "japanese": "Specialist Gloves | Fade",
+    "koreana": "전문가 장갑 | 흐릿함",
+    "latam": "Guantes de especialista | Desteñido",
+    "norwegian": "Spesialisthansker | Fade",
+    "polish": "Rękawice specjalistyczne | Gradient",
+    "portuguese": "Luvas de Especialista | Fade",
+    "romanian": "Mănuși de specialist | Fade",
+    "russian": "Перчатки спецназа | Градиент",
+    "schinese": "专业手套 | 渐变之色",
+    "schinese_pw": "Specialist Gloves | Fade",
+    "spanish": "Guantes de especialista | Desteñido",
+    "swedish": "Specialisthandskar | Fade",
+    "tchinese": "技術士手套 | 漸層",
+    "thai": "ถุงมือผู้เชี่ยวชาญ | Fade",
+    "turkish": "Uzman Eldivenleri | Solgun",
+    "ukrainian": "Рукавиці спеціаліста | Градієнт",
+    "vietnamese": "Găng tay chuyên viên | Fade"
+  },
+  "media": {
+    "asset_id": "skin__5034-10063",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5034-10063/light.png",
+      "data/api/media/rendered/files/skins/5034-10063/medium.png",
+      "data/api/media/rendered/files/skins/5034-10063/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5034-10063.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5034-10063/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5034-10063/light.png",
+      "medium": "data/api/media/rendered/files/skins/5034-10063/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5034-10063/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/specialist_gloves_specialist_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/specialist_gloves_specialist_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/specialist_gloves_specialist_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Specialist Gloves | Fade",
+  "search_slug": "specialist-gloves-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-19",
+        "id": 4471,
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "search_slug": "clutch-case",
+        "via_special_pool": "set_community_19_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-32",
+        "id": 4880,
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "search_slug": "revolution-case",
+        "via_special_pool": "set_community_19_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-19-unusual",
+        "expansion_rule": "hydra-era-gloves",
+        "id": "set_community_19_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-19-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5034-10063__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "specialist-gloves",
+    "id": 5034,
+    "localized_names": {
+      "brazilian": "Luvas de Especialista",
+      "bulgarian": "Специализирани ръкавици",
+      "czech": "Profesionální rukavice",
+      "danish": "Specialisthandsker",
+      "dutch": "Specialisthandschoenen",
+      "english": "Specialist Gloves",
+      "finnish": "Ammattilaishanskat",
+      "french": "Gants de spécialiste",
+      "german": "Spezialistenhandschuhe",
+      "greek": "Γάντια ειδικού",
+      "hungarian": "Specialista kesztyűk",
+      "indonesian": "Sarung Tangan Spesialis",
+      "italian": "Guanti dello specialista",
+      "japanese": "Specialist Gloves",
+      "koreana": "전문가 장갑",
+      "latam": "Guantes de especialista",
+      "norwegian": "Spesialisthansker",
+      "polish": "Rękawice specjalistyczne",
+      "portuguese": "Luvas de Especialista",
+      "romanian": "Mănuși de specialist",
+      "russian": "Перчатки спецназа",
+      "schinese": "专业手套",
+      "schinese_pw": "Specialist Gloves",
+      "spanish": "Guantes de especialista",
+      "swedish": "Specialisthandskar",
+      "tchinese": "技術士手套",
+      "thai": "ถุงมือผู้เชี่ยวชาญ",
+      "turkish": "Uzman Eldivenleri",
+      "ukrainian": "Рукавиці спеціаліста",
+      "vietnamese": "Găng tay chuyên viên"
+    },
+    "name": "Specialist Gloves",
+    "search_slug": "specialist-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

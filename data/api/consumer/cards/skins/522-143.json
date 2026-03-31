@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "522-143",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-tape-urban",
+    "catalog_id": 143,
+    "id": 143,
+    "localized_names": {
+      "brazilian": "Máscara Urbana",
+      "bulgarian": "Градска маскировка",
+      "czech": "Urban Masked",
+      "danish": "Urban Masked",
+      "dutch": "Urban Masked",
+      "english": "Urban Masked",
+      "finnish": "Kaupunkilaisnaamioitu",
+      "french": "Masque urbain",
+      "german": "Städtisch maskiert",
+      "greek": "Urban Masked",
+      "hungarian": "Városi Maszkolt",
+      "indonesian": "Urban Masked",
+      "italian": "Urban Masked",
+      "japanese": "Urban Masked",
+      "koreana": "도시의 위장",
+      "latam": "Pátina urbana",
+      "norwegian": "Urban Masked",
+      "polish": "Miejski zamaskowany",
+      "portuguese": "Urban Masked",
+      "romanian": "Urban Masked",
+      "russian": "Городская маскировка",
+      "schinese": "都市伪装",
+      "schinese_pw": "Urban Masked",
+      "spanish": "Pátina urbana",
+      "swedish": "Urban Masked",
+      "tchinese": "都市偽裝",
+      "thai": "Urban Masked",
+      "turkish": "Gizli Şehir",
+      "ukrainian": "Міське маскування",
+      "vietnamese": "Urban Masked"
+    },
+    "name": "Urban Masked",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "522-143",
+  "localized_names": {
+    "brazilian": "Faca Stiletto | Máscara Urbana",
+    "bulgarian": "Нож стилет | Градска маскировка",
+    "czech": "Vystřelovací nůž | Urban Masked",
+    "danish": "Stiletto-kniv | Urban Masked",
+    "dutch": "Stiletto | Urban Masked",
+    "english": "Stiletto Knife | Urban Masked",
+    "finnish": "Stiletti | Kaupunkilaisnaamioitu",
+    "french": "Stylet | Masque urbain",
+    "german": "Stilett | Städtisch maskiert",
+    "greek": "Μαχαίρι Stiletto | Urban Masked",
+    "hungarian": "Stiletto kés | Városi Maszkolt",
+    "indonesian": "Pisau Stiletto | Urban Masked",
+    "italian": "Stiletto | Urban Masked",
+    "japanese": "Stiletto ナイフ | Urban Masked",
+    "koreana": "스틸레토 칼 | 도시의 위장",
+    "latam": "Estilete | Pátina urbana",
+    "norwegian": "Springkniv | Urban Masked",
+    "polish": "Sztylet | Miejski zamaskowany",
+    "portuguese": "Faca Stiletto | Urban Masked",
+    "romanian": "Cuțit Stiletto | Urban Masked",
+    "russian": "Стилет | Городская маскировка",
+    "schinese": "短剑 | 都市伪装",
+    "schinese_pw": "Stiletto Knife | Urban Masked",
+    "spanish": "Estilete | Pátina urbana",
+    "swedish": "Stilettkniv | Urban Masked",
+    "tchinese": "彈簧刀 | 都市偽裝",
+    "thai": "มีดสติลเล็ตโต | Urban Masked",
+    "turkish": "Stiletto Bıçak | Gizli Şehir",
+    "ukrainian": "Ніж-стилет | Міське маскування",
+    "vietnamese": "Dao Stiletto | Urban Masked"
+  },
+  "media": {
+    "asset_id": "skin__522-143",
+    "images_png": [
+      "data/api/media/rendered/files/skins/522-143/light.png",
+      "data/api/media/rendered/files/skins/522-143/medium.png",
+      "data/api/media/rendered/files/skins/522-143/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/522-143.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/522-143/heavy.png",
+      "light": "data/api/media/rendered/files/skins/522-143/light.png",
+      "medium": "data/api/media/rendered/files/skins/522-143/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/522-143/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_stiletto_sp_tape_urban_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_stiletto_sp_tape_urban_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_stiletto_sp_tape_urban_medium_png.vtex_c"
+    }
+  },
+  "name": "Stiletto Knife | Urban Masked",
+  "search_slug": "stiletto-knife-urban-masked",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "522-143__normal__vanilla",
+    "522-143__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-stiletto",
+    "id": 522,
+    "localized_names": {
+      "brazilian": "Faca Stiletto",
+      "bulgarian": "Нож стилет",
+      "czech": "Vystřelovací nůž",
+      "danish": "Stiletto-kniv",
+      "dutch": "Stiletto",
+      "english": "Stiletto Knife",
+      "finnish": "Stiletti",
+      "french": "Stylet",
+      "german": "Stilett",
+      "greek": "Μαχαίρι Stiletto",
+      "hungarian": "Stiletto kés",
+      "indonesian": "Pisau Stiletto",
+      "italian": "Stiletto",
+      "japanese": "Stiletto ナイフ",
+      "koreana": "스틸레토 칼",
+      "latam": "Estilete",
+      "norwegian": "Springkniv",
+      "polish": "Sztylet",
+      "portuguese": "Faca Stiletto",
+      "romanian": "Cuțit Stiletto",
+      "russian": "Стилет",
+      "schinese": "短剑",
+      "schinese_pw": "Stiletto Knife",
+      "spanish": "Estilete",
+      "swedish": "Stilettkniv",
+      "tchinese": "彈簧刀",
+      "thai": "มีดสติลเล็ตโต",
+      "turkish": "Stiletto Bıçak",
+      "ukrainian": "Ніж-стилет",
+      "vietnamese": "Dao Stiletto"
+    },
+    "name": "Stiletto Knife",
+    "search_slug": "stiletto-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

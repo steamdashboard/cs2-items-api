@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "514-77",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-forest-boreal",
+    "catalog_id": 77,
+    "id": 77,
+    "localized_names": {
+      "brazilian": "Floresta Boreal",
+      "bulgarian": "Северна гора",
+      "czech": "Boreal Forest",
+      "danish": "Boreal Forest",
+      "dutch": "Boreal Forest",
+      "english": "Boreal Forest",
+      "finnish": "Pohjoismetsä",
+      "french": "Forêt boréale",
+      "german": "Borealer Nadelwald",
+      "greek": "Boreal Forest",
+      "hungarian": "Északi Erdő",
+      "indonesian": "Boreal Forest",
+      "italian": "Boreal Forest",
+      "japanese": "Boreal Forest",
+      "koreana": "북방림",
+      "latam": "Bosque boreal",
+      "norwegian": "Boreal Forest",
+      "polish": "Tajga",
+      "portuguese": "Boreal Forest",
+      "romanian": "Boreal Forest",
+      "russian": "Северный лес",
+      "schinese": "北方森林",
+      "schinese_pw": "Boreal Forest",
+      "spanish": "Bosque boreal",
+      "swedish": "Boreal Forest",
+      "tchinese": "北寒帶林",
+      "thai": "Boreal Forest",
+      "turkish": "Kuzey Ormanı",
+      "ukrainian": "Тундра",
+      "vietnamese": "Boreal Forest"
+    },
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-77",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Floresta Boreal",
+    "bulgarian": "Боуи нож | Северна гора",
+    "czech": "Nůž Bowie | Boreal Forest",
+    "danish": "Bowie-kniv | Boreal Forest",
+    "dutch": "Bowiemes | Boreal Forest",
+    "english": "Bowie Knife | Boreal Forest",
+    "finnish": "Bowie-puukko | Pohjoismetsä",
+    "french": "Couteau Bowie | Forêt boréale",
+    "german": "Bowiemesser | Borealer Nadelwald",
+    "greek": "Μαχαίρι Bowie | Boreal Forest",
+    "hungarian": "Bowie kés | Északi Erdő",
+    "indonesian": "Pisau Bowie | Boreal Forest",
+    "italian": "Coltello Bowie | Boreal Forest",
+    "japanese": "Bowie ナイフ | Boreal Forest",
+    "koreana": "보위 칼 | 북방림",
+    "latam": "Cuchillo Bowie | Bosque boreal",
+    "norwegian": "Bowiekniv | Boreal Forest",
+    "polish": "Nóż Bowie | Tajga",
+    "portuguese": "Faca Bowie | Boreal Forest",
+    "romanian": "Cuțit Bowie | Boreal Forest",
+    "russian": "Нож Боуи | Северный лес",
+    "schinese": "鲍伊猎刀 | 北方森林",
+    "schinese_pw": "Bowie Knife | Boreal Forest",
+    "spanish": "Cuchillo Bowie | Bosque boreal",
+    "swedish": "Bowiekniv | Boreal Forest",
+    "tchinese": "布伊刀 | 北寒帶林",
+    "thai": "มีดโบวี | Boreal Forest",
+    "turkish": "Bowie Bıçağı | Kuzey Ormanı",
+    "ukrainian": "Ніж Бові | Тундра",
+    "vietnamese": "Dao Bowie | Boreal Forest"
+  },
+  "media": {
+    "asset_id": "skin__514-77",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-77/light.png",
+      "data/api/media/rendered/files/skins/514-77/medium.png",
+      "data/api/media/rendered/files/skins/514-77/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-77.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-77/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-77/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-77/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-77/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_hy_forest_boreal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_hy_forest_boreal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_hy_forest_boreal_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Boreal Forest",
+  "search_slug": "bowie-knife-boreal-forest",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-77__normal__vanilla",
+    "514-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

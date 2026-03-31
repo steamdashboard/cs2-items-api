@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "525-413",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marble-fade",
+    "catalog_id": 413,
+    "id": 413,
+    "localized_names": {
+      "brazilian": "Mármore Desbotado",
+      "bulgarian": "Мраморно преливане",
+      "czech": "Marble Fade",
+      "danish": "Marble Fade",
+      "dutch": "Marble Fade",
+      "english": "Marble Fade",
+      "finnish": "Marmorihäivytys",
+      "french": "Marbre fondu",
+      "german": "Marmorfärbung",
+      "greek": "Marble Fade",
+      "hungarian": "Fakuló Márvány",
+      "indonesian": "Marble Fade",
+      "italian": "Marble Fade",
+      "japanese": "Marble Fade",
+      "koreana": "흐릿한 대리석",
+      "latam": "Mármol desteñido",
+      "norwegian": "Marble Fade",
+      "polish": "Marmurkowy gradient",
+      "portuguese": "Marble Fade",
+      "romanian": "Marble Fade",
+      "russian": "Мраморный градиент",
+      "schinese": "渐变大理石",
+      "schinese_pw": "Marble Fade",
+      "spanish": "Mármol desteñido",
+      "swedish": "Marble Fade",
+      "tchinese": "大理石漸層",
+      "thai": "Marble Fade",
+      "turkish": "Solgun Mermer",
+      "ukrainian": "Мармуровий перелив",
+      "vietnamese": "Marble Fade"
+    },
+    "name": "Marble Fade",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "525-413",
+  "localized_names": {
+    "brazilian": "Faca Esqueleto | Mármore Desbotado",
+    "bulgarian": "Скелетен нож | Мраморно преливане",
+    "czech": "Skeletový nůž | Marble Fade",
+    "danish": "Skeletkniv | Marble Fade",
+    "dutch": "Skeletonmes | Marble Fade",
+    "english": "Skeleton Knife | Marble Fade",
+    "finnish": "Skeleton-puukko | Marmorihäivytys",
+    "french": "Couteau squelettique | Marbre fondu",
+    "german": "Skelettmesser | Marmorfärbung",
+    "greek": "Μαχαίρι Skeleton | Marble Fade",
+    "hungarian": "Csontváz kés | Fakuló Márvány",
+    "indonesian": "Pisau Skeleton | Marble Fade",
+    "italian": "Coltello Scheletro | Marble Fade",
+    "japanese": "Skeleton ナイフ | Marble Fade",
+    "koreana": "스켈레톤 칼 | 흐릿한 대리석",
+    "latam": "Cuchillo esqueletizado | Mármol desteñido",
+    "norwegian": "Skjelettkniv | Marble Fade",
+    "polish": "Nóż szkieletowy | Marmurkowy gradient",
+    "portuguese": "Faca Skeleton | Marble Fade",
+    "romanian": "Cuțit scheletic | Marble Fade",
+    "russian": "Скелетный нож | Мраморный градиент",
+    "schinese": "骷髅匕首 | 渐变大理石",
+    "schinese_pw": "Skeleton Knife | Marble Fade",
+    "spanish": "Cuchillo esqueletizado | Mármol desteñido",
+    "swedish": "Skeleton-kniv | Marble Fade",
+    "tchinese": "骷顱刀 | 大理石漸層",
+    "thai": "มีดสเกเลตัน | Marble Fade",
+    "turkish": "İskelet Bıçak | Solgun Mermer",
+    "ukrainian": "Скелетний ніж | Мармуровий перелив",
+    "vietnamese": "Dao Skeleton | Marble Fade"
+  },
+  "media": {
+    "asset_id": "skin__525-413",
+    "images_png": [
+      "data/api/media/rendered/files/skins/525-413/light.png",
+      "data/api/media/rendered/files/skins/525-413/medium.png",
+      "data/api/media/rendered/files/skins/525-413/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/525-413.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/525-413/heavy.png",
+      "light": "data/api/media/rendered/files/skins/525-413/light.png",
+      "medium": "data/api/media/rendered/files/skins/525-413/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/525-413/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_skeleton_am_marble_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_skeleton_am_marble_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_skeleton_am_marble_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Skeleton Knife | Marble Fade",
+  "search_slug": "skeleton-knife-marble-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-35",
+        "id": 7007,
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "search_slug": "fever-case",
+        "via_special_pool": "set_community_35_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-35-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_35_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-35-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "525-413__normal__factory-new",
+    "525-413__normal__minimal-wear",
+    "525-413__stattrak__factory-new",
+    "525-413__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-skeleton",
+    "id": 525,
+    "localized_names": {
+      "brazilian": "Faca Esqueleto",
+      "bulgarian": "Скелетен нож",
+      "czech": "Skeletový nůž",
+      "danish": "Skeletkniv",
+      "dutch": "Skeletonmes",
+      "english": "Skeleton Knife",
+      "finnish": "Skeleton-puukko",
+      "french": "Couteau squelettique",
+      "german": "Skelettmesser",
+      "greek": "Μαχαίρι Skeleton",
+      "hungarian": "Csontváz kés",
+      "indonesian": "Pisau Skeleton",
+      "italian": "Coltello Scheletro",
+      "japanese": "Skeleton ナイフ",
+      "koreana": "스켈레톤 칼",
+      "latam": "Cuchillo esqueletizado",
+      "norwegian": "Skjelettkniv",
+      "polish": "Nóż szkieletowy",
+      "portuguese": "Faca Skeleton",
+      "romanian": "Cuțit scheletic",
+      "russian": "Скелетный нож",
+      "schinese": "骷髅匕首",
+      "schinese_pw": "Skeleton Knife",
+      "spanish": "Cuchillo esqueletizado",
+      "swedish": "Skeleton-kniv",
+      "tchinese": "骷顱刀",
+      "thai": "มีดสเกเลตัน",
+      "turkish": "İskelet Bıçak",
+      "ukrainian": "Скелетний ніж",
+      "vietnamese": "Dao Skeleton"
+    },
+    "name": "Skeleton Knife",
+    "search_slug": "skeleton-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

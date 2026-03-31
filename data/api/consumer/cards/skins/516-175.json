@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "516-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-175",
+  "localized_names": {
+    "brazilian": "Adagas Sombrias | Brasas",
+    "bulgarian": "Мрачни кинжали | Обгорено",
+    "czech": "Pěstní dýky | Scorched",
+    "danish": "Shadow-daggerter | Scorched",
+    "dutch": "Schaduwdolken | Scorched",
+    "english": "Shadow Daggers | Scorched",
+    "finnish": "Varjotikarit | Korventunut",
+    "french": "Dagues sombres | Brûlé",
+    "german": "Schattendolche | Versengt",
+    "greek": "Shadow Daggers | Scorched",
+    "hungarian": "Árnyéktőr | Megperzselt",
+    "indonesian": "Belati Bayangan | Scorched",
+    "italian": "Fendi ombra | Scorched",
+    "japanese": "シャドウダガー | Scorched",
+    "koreana": "섀도우 칼 | 그을림",
+    "latam": "Dagas Sombrías | Chamuscado",
+    "norwegian": "Skyggedolker | Scorched",
+    "polish": "Sztylety Cienia | Popiół",
+    "portuguese": "Shadow Daggers | Scorched",
+    "romanian": "Pumnale Shadow | Scorched",
+    "russian": "Тычковые ножи | Сажа",
+    "schinese": "暗影双匕 | 枯焦之色",
+    "schinese_pw": "Shadow Daggers | Scorched",
+    "spanish": "Dagas Sombrías | Chamuscado",
+    "swedish": "Skuggdolkar | Scorched",
+    "tchinese": "暗影匕首 | 熾灼",
+    "thai": "มีดชาโดว์ดักเกอร์ | Scorched",
+    "turkish": "Gölge Hançerler | Alazlanmış",
+    "ukrainian": "Тіньові ножі | Випалення",
+    "vietnamese": "Dao găm chữ T | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__516-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/516-175/light.png",
+      "data/api/media/rendered/files/skins/516-175/medium.png",
+      "data/api/media/rendered/files/skins/516-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/516-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/516-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/516-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/516-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/516-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_push_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_push_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_push_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Shadow Daggers | Scorched",
+  "search_slug": "shadow-daggers-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-9",
+        "id": 4138,
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "search_slug": "shadow-case",
+        "via_special_pool": "community_case_9_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-9-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_9_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Shadow Daggers ★",
+        "search_slug": "community-case-9-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "516-175__normal__vanilla",
+    "516-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-push",
+    "id": 516,
+    "localized_names": {
+      "brazilian": "Adagas Sombrias",
+      "bulgarian": "Мрачни кинжали",
+      "czech": "Pěstní dýky",
+      "danish": "Shadow-daggerter",
+      "dutch": "Schaduwdolken",
+      "english": "Shadow Daggers",
+      "finnish": "Varjotikarit",
+      "french": "Dagues sombres",
+      "german": "Schattendolche",
+      "greek": "Shadow Daggers",
+      "hungarian": "Árnyéktőr",
+      "indonesian": "Belati Bayangan",
+      "italian": "Fendi ombra",
+      "japanese": "シャドウダガー",
+      "koreana": "섀도우 칼",
+      "latam": "Dagas Sombrías",
+      "norwegian": "Skyggedolker",
+      "polish": "Sztylety Cienia",
+      "portuguese": "Shadow Daggers",
+      "romanian": "Pumnale Shadow",
+      "russian": "Тычковые ножи",
+      "schinese": "暗影双匕",
+      "schinese_pw": "Shadow Daggers",
+      "spanish": "Dagas Sombrías",
+      "swedish": "Skuggdolkar",
+      "tchinese": "暗影匕首",
+      "thai": "มีดชาโดว์ดักเกอร์",
+      "turkish": "Gölge Hançerler",
+      "ukrainian": "Тіньові ножі",
+      "vietnamese": "Dao găm chữ T"
+    },
+    "name": "Shadow Daggers",
+    "search_slug": "shadow-daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

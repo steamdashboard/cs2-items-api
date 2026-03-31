@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "508-580",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marked-up",
+    "catalog_id": 580,
+    "id": 580,
+    "localized_names": {
+      "brazilian": "Mão Livre",
+      "bulgarian": "Скицирано",
+      "czech": "Freehand",
+      "danish": "Freehand",
+      "dutch": "Freehand",
+      "english": "Freehand",
+      "finnish": "Vapaa käsi",
+      "french": "Signature",
+      "german": "Freihändig",
+      "greek": "Freehand",
+      "hungarian": "Szabad Kéz",
+      "indonesian": "Freehand",
+      "italian": "Freehand",
+      "japanese": "Freehand",
+      "koreana": "자유형",
+      "latam": "Mano alzada",
+      "norwegian": "Freehand",
+      "polish": "Rękodzieło",
+      "portuguese": "Freehand",
+      "romanian": "Freehand",
+      "russian": "Ручная роспись",
+      "schinese": "自由之手",
+      "schinese_pw": "Freehand",
+      "spanish": "Mano alzada",
+      "swedish": "Freehand",
+      "tchinese": "手繪紋",
+      "thai": "Freehand",
+      "turkish": "Boşel",
+      "ukrainian": "Ручний розпис",
+      "vietnamese": "Freehand"
+    },
+    "name": "Freehand",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.48,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "508-580",
+  "localized_names": {
+    "brazilian": "Baioneta M9 | Mão Livre",
+    "bulgarian": "M9 щик | Скицирано",
+    "czech": "Bajonet M9 | Freehand",
+    "danish": "M9-bajonet | Freehand",
+    "dutch": "M9 Bajonet | Freehand",
+    "english": "M9 Bayonet | Freehand",
+    "finnish": "M9-pistin | Vapaa käsi",
+    "french": "Baïonnette M9 | Signature",
+    "german": "M9-Bajonett | Freihändig",
+    "greek": "Mπαγιονέτα M9 | Freehand",
+    "hungarian": "M9 bajonett | Szabad Kéz",
+    "indonesian": "M9 Bayonet | Freehand",
+    "italian": "Baionetta M9 | Freehand",
+    "japanese": "M9バヨネット | Freehand",
+    "koreana": "M9 총검 | 자유형",
+    "latam": "Bayoneta M9 | Mano alzada",
+    "norwegian": "M9-bajonett | Freehand",
+    "polish": "Bagnet M9 | Rękodzieło",
+    "portuguese": "M9 Bayonet | Freehand",
+    "romanian": "Baionetă M9 | Freehand",
+    "russian": "Штык-нож M9 | Ручная роспись",
+    "schinese": "M9 刺刀 | 自由之手",
+    "schinese_pw": "M9 Bayonet | Freehand",
+    "spanish": "Bayoneta M9 | Mano alzada",
+    "swedish": "M9-bajonett | Freehand",
+    "tchinese": "M9 刺刀 | 手繪紋",
+    "thai": "มีดเบโยเน็ตเอ็ม9 | Freehand",
+    "turkish": "M9 Bayonet | Boşel",
+    "ukrainian": "Штик-ніж М9 | Ручний розпис",
+    "vietnamese": "M9 Bayonet | Freehand"
+  },
+  "media": {
+    "asset_id": "weapon__508",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/508/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/508.json",
+    "models": [
+      "weapons/models/knife/knife_m9/weapon_knife_m9.vmdl_c",
+      "phase2/weapons/models/knife/knife_m9/weapon_knife_m9_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/508/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "M9 Bayonet | Freehand",
+  "search_slug": "m9-bayonet-freehand",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-13",
+        "id": 4236,
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "search_slug": "gamma-case",
+        "via_special_pool": "community_case_13_unusual"
+      },
+      {
+        "canonical_slug": "crate-gamma-2",
+        "id": 4281,
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
+        "via_special_pool": "community_case_13_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "508-580__normal__battle-scarred",
+    "508-580__normal__factory-new",
+    "508-580__normal__field-tested",
+    "508-580__normal__minimal-wear",
+    "508-580__normal__well-worn",
+    "508-580__stattrak__battle-scarred",
+    "508-580__stattrak__factory-new",
+    "508-580__stattrak__field-tested",
+    "508-580__stattrak__minimal-wear",
+    "508-580__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-m9-bayonet",
+    "id": 508,
+    "localized_names": {
+      "brazilian": "Baioneta M9",
+      "bulgarian": "M9 щик",
+      "czech": "Bajonet M9",
+      "danish": "M9-bajonet",
+      "dutch": "M9 Bajonet",
+      "english": "M9 Bayonet",
+      "finnish": "M9-pistin",
+      "french": "Baïonnette M9",
+      "german": "M9-Bajonett",
+      "greek": "Mπαγιονέτα M9",
+      "hungarian": "M9 bajonett",
+      "indonesian": "M9 Bayonet",
+      "italian": "Baionetta M9",
+      "japanese": "M9バヨネット",
+      "koreana": "M9 총검",
+      "latam": "Bayoneta M9",
+      "norwegian": "M9-bajonett",
+      "polish": "Bagnet M9",
+      "portuguese": "M9 Bayonet",
+      "romanian": "Baionetă M9",
+      "russian": "Штык-нож M9",
+      "schinese": "M9 刺刀",
+      "schinese_pw": "M9 Bayonet",
+      "spanish": "Bayoneta M9",
+      "swedish": "M9-bajonett",
+      "tchinese": "M9 刺刀",
+      "thai": "มีดเบโยเน็ตเอ็ม9",
+      "turkish": "M9 Bayonet",
+      "ukrainian": "Штик-ніж М9",
+      "vietnamese": "M9 Bayonet"
+    },
+    "name": "M9 Bayonet",
+    "search_slug": "m9-bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.48,
+    "min_float": 0.0
+  }
+}

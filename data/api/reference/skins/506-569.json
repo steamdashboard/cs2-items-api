@@ -1,0 +1,89 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "506-569",
+  "finish": {
+    "codename": "am_gamma_doppler_phase1",
+    "id": 569,
+    "name": "Gamma Doppler",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 569,
+    "weapon_id": 506
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "506-569",
+  "name": "Gut Knife | Gamma Doppler",
+  "search_slug": "gut-knife-gamma-doppler",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-13",
+            "id": 4236,
+            "kind": "weapon-case",
+            "name": "Gamma Case",
+            "search_slug": "gamma-case"
+          },
+          {
+            "canonical_slug": "crate-gamma-2",
+            "id": 4281,
+            "kind": "weapon-case",
+            "name": "crate_gamma_2",
+            "search_slug": "crate-gamma-2"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "506-569__normal__factory-new",
+    "506-569__normal__minimal-wear",
+    "506-569__stattrak__factory-new",
+    "506-569__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_gut",
+    "id": 506,
+    "name": "Gut Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

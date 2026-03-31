@@ -1,0 +1,116 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "507-580",
+  "finish": {
+    "codename": "am_marked_up",
+    "id": 580,
+    "name": "Freehand",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 580,
+    "weapon_id": 507
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "507-580",
+  "name": "Karambit | Freehand",
+  "search_slug": "karambit-freehand",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-13",
+            "id": 4236,
+            "kind": "weapon-case",
+            "name": "Gamma Case",
+            "search_slug": "gamma-case"
+          },
+          {
+            "canonical_slug": "crate-gamma-2",
+            "id": 4281,
+            "kind": "weapon-case",
+            "name": "crate_gamma_2",
+            "search_slug": "crate-gamma-2"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "507-580__normal__factory-new",
+    "507-580__normal__minimal-wear",
+    "507-580__normal__field-tested",
+    "507-580__normal__well-worn",
+    "507-580__normal__battle-scarred",
+    "507-580__stattrak__factory-new",
+    "507-580__stattrak__minimal-wear",
+    "507-580__stattrak__field-tested",
+    "507-580__stattrak__well-worn",
+    "507-580__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_karambit",
+    "id": 507,
+    "name": "Karambit",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.48,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "523-413",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marble-fade",
+    "catalog_id": 413,
+    "id": 413,
+    "localized_names": {
+      "brazilian": "Mármore Desbotado",
+      "bulgarian": "Мраморно преливане",
+      "czech": "Marble Fade",
+      "danish": "Marble Fade",
+      "dutch": "Marble Fade",
+      "english": "Marble Fade",
+      "finnish": "Marmorihäivytys",
+      "french": "Marbre fondu",
+      "german": "Marmorfärbung",
+      "greek": "Marble Fade",
+      "hungarian": "Fakuló Márvány",
+      "indonesian": "Marble Fade",
+      "italian": "Marble Fade",
+      "japanese": "Marble Fade",
+      "koreana": "흐릿한 대리석",
+      "latam": "Mármol desteñido",
+      "norwegian": "Marble Fade",
+      "polish": "Marmurkowy gradient",
+      "portuguese": "Marble Fade",
+      "romanian": "Marble Fade",
+      "russian": "Мраморный градиент",
+      "schinese": "渐变大理石",
+      "schinese_pw": "Marble Fade",
+      "spanish": "Mármol desteñido",
+      "swedish": "Marble Fade",
+      "tchinese": "大理石漸層",
+      "thai": "Marble Fade",
+      "turkish": "Solgun Mermer",
+      "ukrainian": "Мармуровий перелив",
+      "vietnamese": "Marble Fade"
+    },
+    "name": "Marble Fade",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "523-413",
+  "localized_names": {
+    "brazilian": "Faca Talon | Mármore Desbotado",
+    "bulgarian": "Нож нокът | Мраморно преливане",
+    "czech": "Talon | Marble Fade",
+    "danish": "Talon-kniv | Marble Fade",
+    "dutch": "Talon-mes | Marble Fade",
+    "english": "Talon Knife | Marble Fade",
+    "finnish": "Kynsiveitsi | Marmorihäivytys",
+    "french": "Canif | Marbre fondu",
+    "german": "Talon-Messer | Marmorfärbung",
+    "greek": "Μαχαίρι Talon | Marble Fade",
+    "hungarian": "Talon kés | Fakuló Márvány",
+    "indonesian": "Pisau Talon | Marble Fade",
+    "italian": "Coltello Talon | Marble Fade",
+    "japanese": "Talon ナイフ | Marble Fade",
+    "koreana": "탈론 칼 | 흐릿한 대리석",
+    "latam": "Cuchillo talón | Mármol desteñido",
+    "norwegian": "Klokniv | Marble Fade",
+    "polish": "Szpon | Marmurkowy gradient",
+    "portuguese": "Faca Talon | Marble Fade",
+    "romanian": "Cuțit Talon | Marble Fade",
+    "russian": "Коготь | Мраморный градиент",
+    "schinese": "锯齿爪刀 | 渐变大理石",
+    "schinese_pw": "Talon Knife | Marble Fade",
+    "spanish": "Cuchillo Garra | Mármol desteñido",
+    "swedish": "Talonkniv | Marble Fade",
+    "tchinese": "彎爪刀 | 大理石漸層",
+    "thai": "มีดทาลอน | Marble Fade",
+    "turkish": "Talon Bıçağı | Solgun Mermer",
+    "ukrainian": "Ніж-кіготь | Мармуровий перелив",
+    "vietnamese": "Dao Talon | Marble Fade"
+  },
+  "media": {
+    "asset_id": "weapon__523",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/523/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/523.json",
+    "models": [
+      "weapons/models/knife/knife_talon/weapon_knife_talon.vmdl_c",
+      "phase2/weapons/models/knife/knife_talon/weapon_knife_talon_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/523/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Talon Knife | Marble Fade",
+  "search_slug": "talon-knife-marble-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-22",
+        "id": 4598,
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "search_slug": "prisma-case",
+        "via_special_pool": "set_community_22_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-25",
+        "id": 4695,
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "search_slug": "prisma-2-case",
+        "via_special_pool": "set_community_22_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-22-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_22_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-22-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "523-413__normal__factory-new",
+    "523-413__normal__minimal-wear",
+    "523-413__stattrak__factory-new",
+    "523-413__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-widowmaker",
+    "id": 523,
+    "localized_names": {
+      "brazilian": "Faca Talon",
+      "bulgarian": "Нож нокът",
+      "czech": "Talon",
+      "danish": "Talon-kniv",
+      "dutch": "Talon-mes",
+      "english": "Talon Knife",
+      "finnish": "Kynsiveitsi",
+      "french": "Canif",
+      "german": "Talon-Messer",
+      "greek": "Μαχαίρι Talon",
+      "hungarian": "Talon kés",
+      "indonesian": "Pisau Talon",
+      "italian": "Coltello Talon",
+      "japanese": "Talon ナイフ",
+      "koreana": "탈론 칼",
+      "latam": "Cuchillo talón",
+      "norwegian": "Klokniv",
+      "polish": "Szpon",
+      "portuguese": "Faca Talon",
+      "romanian": "Cuțit Talon",
+      "russian": "Коготь",
+      "schinese": "锯齿爪刀",
+      "schinese_pw": "Talon Knife",
+      "spanish": "Cuchillo Garra",
+      "swedish": "Talonkniv",
+      "tchinese": "彎爪刀",
+      "thai": "มีดทาลอน",
+      "turkish": "Talon Bıçağı",
+      "ukrainian": "Ніж-кіготь",
+      "vietnamese": "Dao Talon"
+    },
+    "name": "Talon Knife",
+    "search_slug": "talon-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

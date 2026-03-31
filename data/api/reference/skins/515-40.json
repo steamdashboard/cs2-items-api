@@ -1,0 +1,65 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "515-40",
+  "finish": {
+    "codename": "so_night",
+    "id": 40,
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 40,
+    "weapon_id": 515
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-40",
+  "name": "Butterfly Knife | Night",
+  "search_slug": "butterfly-knife-night",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-4-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_4_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Butterfly Knife ★",
+        "search_slug": "community-case-4-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-4",
+            "id": 4018,
+            "kind": "weapon-case",
+            "name": "Operation Breakout Weapon Case",
+            "search_slug": "operation-breakout-weapon-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "515-40__normal__vanilla",
+    "515-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_butterfly",
+    "id": 515,
+    "name": "Butterfly Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

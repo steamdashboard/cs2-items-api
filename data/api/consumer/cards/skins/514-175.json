@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "514-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-175",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Brasas",
+    "bulgarian": "Боуи нож | Обгорено",
+    "czech": "Nůž Bowie | Scorched",
+    "danish": "Bowie-kniv | Scorched",
+    "dutch": "Bowiemes | Scorched",
+    "english": "Bowie Knife | Scorched",
+    "finnish": "Bowie-puukko | Korventunut",
+    "french": "Couteau Bowie | Brûlé",
+    "german": "Bowiemesser | Versengt",
+    "greek": "Μαχαίρι Bowie | Scorched",
+    "hungarian": "Bowie kés | Megperzselt",
+    "indonesian": "Pisau Bowie | Scorched",
+    "italian": "Coltello Bowie | Scorched",
+    "japanese": "Bowie ナイフ | Scorched",
+    "koreana": "보위 칼 | 그을림",
+    "latam": "Cuchillo Bowie | Chamuscado",
+    "norwegian": "Bowiekniv | Scorched",
+    "polish": "Nóż Bowie | Popiół",
+    "portuguese": "Faca Bowie | Scorched",
+    "romanian": "Cuțit Bowie | Scorched",
+    "russian": "Нож Боуи | Сажа",
+    "schinese": "鲍伊猎刀 | 枯焦之色",
+    "schinese_pw": "Bowie Knife | Scorched",
+    "spanish": "Cuchillo Bowie | Chamuscado",
+    "swedish": "Bowiekniv | Scorched",
+    "tchinese": "布伊刀 | 熾灼",
+    "thai": "มีดโบวี | Scorched",
+    "turkish": "Bowie Bıçağı | Alazlanmış",
+    "ukrainian": "Ніж Бові | Випалення",
+    "vietnamese": "Dao Bowie | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__514-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-175/light.png",
+      "data/api/media/rendered/files/skins/514-175/medium.png",
+      "data/api/media/rendered/files/skins/514-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Scorched",
+  "search_slug": "bowie-knife-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-175__normal__vanilla",
+    "514-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

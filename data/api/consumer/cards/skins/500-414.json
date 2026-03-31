@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "500-414",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-steel-knife",
+    "catalog_id": 414,
+    "id": 414,
+    "localized_names": {
+      "brazilian": "Revestimento Enferrujado",
+      "bulgarian": "Ръждиво покритие",
+      "czech": "Rust Coat",
+      "danish": "Rust Coat",
+      "dutch": "Rust Coat",
+      "english": "Rust Coat",
+      "finnish": "Ruostepinta",
+      "french": "Aspect rouillé",
+      "german": "Rostmantel",
+      "greek": "Rust Coat",
+      "hungarian": "Rozsdabevonat",
+      "indonesian": "Rust Coat",
+      "italian": "Rust Coat",
+      "japanese": "Rust Coat",
+      "koreana": "녹슬음",
+      "latam": "Capa de herrumbre",
+      "norwegian": "Rust Coat",
+      "polish": "Warstwa rdzy",
+      "portuguese": "Rust Coat",
+      "romanian": "Rust Coat",
+      "russian": "Пыльник",
+      "schinese": "外表生锈",
+      "schinese_pw": "Rust Coat",
+      "spanish": "Capa de herrumbre",
+      "swedish": "Rust Coat",
+      "tchinese": "鏽衣",
+      "thai": "Rust Coat",
+      "turkish": "Pas Kaplı",
+      "ukrainian": "Прошарок іржі",
+      "vietnamese": "Rust Coat"
+    },
+    "name": "Rust Coat",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.4
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "500-414",
+  "localized_names": {
+    "brazilian": "Baioneta | Revestimento Enferrujado",
+    "bulgarian": "Щик | Ръждиво покритие",
+    "czech": "Bajonet | Rust Coat",
+    "danish": "Bajonet | Rust Coat",
+    "dutch": "Bajonet | Rust Coat",
+    "english": "Bayonet | Rust Coat",
+    "finnish": "Pistin | Ruostepinta",
+    "french": "Baïonnette | Aspect rouillé",
+    "german": "Bajonett | Rostmantel",
+    "greek": "Mπαγιονέτα | Rust Coat",
+    "hungarian": "Bajonett | Rozsdabevonat",
+    "indonesian": "Bayonet | Rust Coat",
+    "italian": "Baionetta | Rust Coat",
+    "japanese": "銃剣 | Rust Coat",
+    "koreana": "총검 | 녹슬음",
+    "latam": "Bayoneta | Capa de herrumbre",
+    "norwegian": "Bajonett | Rust Coat",
+    "polish": "Bagnet | Warstwa rdzy",
+    "portuguese": "Bayonet | Rust Coat",
+    "romanian": "Baionetă | Rust Coat",
+    "russian": "Штык-нож | Пыльник",
+    "schinese": "刺刀 | 外表生锈",
+    "schinese_pw": "Bayonet | Rust Coat",
+    "spanish": "Bayoneta | Capa de herrumbre",
+    "swedish": "Bajonett | Rust Coat",
+    "tchinese": "刺刀 | 鏽衣",
+    "thai": "มีดเบโยเน็ต | Rust Coat",
+    "turkish": "Bayonet | Pas Kaplı",
+    "ukrainian": "Штик-ніж | Прошарок іржі",
+    "vietnamese": "Bayonet | Rust Coat"
+  },
+  "media": {
+    "asset_id": "skin__500-414",
+    "images_png": [
+      "data/api/media/rendered/files/skins/500-414/light.png",
+      "data/api/media/rendered/files/skins/500-414/medium.png",
+      "data/api/media/rendered/files/skins/500-414/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/500-414.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/500-414/heavy.png",
+      "light": "data/api/media/rendered/files/skins/500-414/light.png",
+      "medium": "data/api/media/rendered/files/skins/500-414/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/500-414/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bayonet_aq_steel_knife_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bayonet_aq_steel_knife_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bayonet_aq_steel_knife_medium_png.vtex_c"
+    }
+  },
+  "name": "Bayonet | Rust Coat",
+  "search_slug": "bayonet-rust-coat",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "500-414__normal__battle-scarred",
+    "500-414__normal__well-worn",
+    "500-414__stattrak__battle-scarred",
+    "500-414__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-bayonet",
+    "id": 500,
+    "localized_names": {
+      "brazilian": "Baioneta",
+      "bulgarian": "Щик",
+      "czech": "Bajonet",
+      "danish": "Bajonet",
+      "dutch": "Bajonet",
+      "english": "Bayonet",
+      "finnish": "Pistin",
+      "french": "Baïonnette",
+      "german": "Bajonett",
+      "greek": "Mπαγιονέτα",
+      "hungarian": "Bajonett",
+      "indonesian": "Bayonet",
+      "italian": "Baionetta",
+      "japanese": "銃剣",
+      "koreana": "총검",
+      "latam": "Bayoneta",
+      "norwegian": "Bajonett",
+      "polish": "Bagnet",
+      "portuguese": "Bayonet",
+      "romanian": "Baionetă",
+      "russian": "Штык-нож",
+      "schinese": "刺刀",
+      "schinese_pw": "Bayonet",
+      "spanish": "Bayoneta",
+      "swedish": "Bajonett",
+      "tchinese": "刺刀",
+      "thai": "มีดเบโยเน็ต",
+      "turkish": "Bayonet",
+      "ukrainian": "Штик-ніж",
+      "vietnamese": "Bayonet"
+    },
+    "name": "Bayonet",
+    "search_slug": "bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.4
+  }
+}

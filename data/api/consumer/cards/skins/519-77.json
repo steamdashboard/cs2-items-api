@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "519-77",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-forest-boreal",
+    "catalog_id": 77,
+    "id": 77,
+    "localized_names": {
+      "brazilian": "Floresta Boreal",
+      "bulgarian": "Северна гора",
+      "czech": "Boreal Forest",
+      "danish": "Boreal Forest",
+      "dutch": "Boreal Forest",
+      "english": "Boreal Forest",
+      "finnish": "Pohjoismetsä",
+      "french": "Forêt boréale",
+      "german": "Borealer Nadelwald",
+      "greek": "Boreal Forest",
+      "hungarian": "Északi Erdő",
+      "indonesian": "Boreal Forest",
+      "italian": "Boreal Forest",
+      "japanese": "Boreal Forest",
+      "koreana": "북방림",
+      "latam": "Bosque boreal",
+      "norwegian": "Boreal Forest",
+      "polish": "Tajga",
+      "portuguese": "Boreal Forest",
+      "romanian": "Boreal Forest",
+      "russian": "Северный лес",
+      "schinese": "北方森林",
+      "schinese_pw": "Boreal Forest",
+      "spanish": "Bosque boreal",
+      "swedish": "Boreal Forest",
+      "tchinese": "北寒帶林",
+      "thai": "Boreal Forest",
+      "turkish": "Kuzey Ormanı",
+      "ukrainian": "Тундра",
+      "vietnamese": "Boreal Forest"
+    },
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "519-77",
+  "localized_names": {
+    "brazilian": "Faca Ursus | Floresta Boreal",
+    "bulgarian": "Мечешки нож | Северна гора",
+    "czech": "Nůž Ursus | Boreal Forest",
+    "danish": "Ursus-kniv | Boreal Forest",
+    "dutch": "Ursus-mes | Boreal Forest",
+    "english": "Ursus Knife | Boreal Forest",
+    "finnish": "Karhuveitsi | Pohjoismetsä",
+    "french": "Ursus | Forêt boréale",
+    "german": "Ursus-Messer | Borealer Nadelwald",
+    "greek": "Μαχαίρι Ursus | Boreal Forest",
+    "hungarian": "Ursus kés | Északi Erdő",
+    "indonesian": "Pisau Ursus | Boreal Forest",
+    "italian": "Coltello Ursus | Boreal Forest",
+    "japanese": "Ursus ナイフ | Boreal Forest",
+    "koreana": "우르수스 칼 | 북방림",
+    "latam": "Cuchillo ursus | Bosque boreal",
+    "norwegian": "Ursuskniv | Boreal Forest",
+    "polish": "Ursus | Tajga",
+    "portuguese": "Faca Ursus | Boreal Forest",
+    "romanian": "Cuțit Ursus | Boreal Forest",
+    "russian": "Медвежий нож | Северный лес",
+    "schinese": "熊刀 | 北方森林",
+    "schinese_pw": "Ursus Knife | Boreal Forest",
+    "spanish": "Cuchillo ursus | Bosque boreal",
+    "swedish": "Ursuskniv | Boreal Forest",
+    "tchinese": "熊刀 | 北寒帶林",
+    "thai": "มีดเออซุส | Boreal Forest",
+    "turkish": "Ursus Bıçağı | Kuzey Ormanı",
+    "ukrainian": "Ведмежий ніж | Тундра",
+    "vietnamese": "Dao Ursus | Boreal Forest"
+  },
+  "media": {
+    "asset_id": "skin__519-77",
+    "images_png": [
+      "data/api/media/rendered/files/skins/519-77/light.png",
+      "data/api/media/rendered/files/skins/519-77/medium.png",
+      "data/api/media/rendered/files/skins/519-77/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/519-77.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/519-77/heavy.png",
+      "light": "data/api/media/rendered/files/skins/519-77/light.png",
+      "medium": "data/api/media/rendered/files/skins/519-77/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/519-77/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_ursus_hy_forest_boreal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_ursus_hy_forest_boreal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_ursus_hy_forest_boreal_medium_png.vtex_c"
+    }
+  },
+  "name": "Ursus Knife | Boreal Forest",
+  "search_slug": "ursus-knife-boreal-forest",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "519-77__normal__vanilla",
+    "519-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-ursus",
+    "id": 519,
+    "localized_names": {
+      "brazilian": "Faca Ursus",
+      "bulgarian": "Мечешки нож",
+      "czech": "Nůž Ursus",
+      "danish": "Ursus-kniv",
+      "dutch": "Ursus-mes",
+      "english": "Ursus Knife",
+      "finnish": "Karhuveitsi",
+      "french": "Ursus",
+      "german": "Ursus-Messer",
+      "greek": "Μαχαίρι Ursus",
+      "hungarian": "Ursus kés",
+      "indonesian": "Pisau Ursus",
+      "italian": "Coltello Ursus",
+      "japanese": "Ursus ナイフ",
+      "koreana": "우르수스 칼",
+      "latam": "Cuchillo ursus",
+      "norwegian": "Ursuskniv",
+      "polish": "Ursus",
+      "portuguese": "Faca Ursus",
+      "romanian": "Cuțit Ursus",
+      "russian": "Медвежий нож",
+      "schinese": "熊刀",
+      "schinese_pw": "Ursus Knife",
+      "spanish": "Cuchillo ursus",
+      "swedish": "Ursuskniv",
+      "tchinese": "熊刀",
+      "thai": "มีดเออซุส",
+      "turkish": "Ursus Bıçağı",
+      "ukrainian": "Ведмежий ніж",
+      "vietnamese": "Dao Ursus"
+    },
+    "name": "Ursus Knife",
+    "search_slug": "ursus-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

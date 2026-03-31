@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "517-413",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marble-fade",
+    "catalog_id": 413,
+    "id": 413,
+    "localized_names": {
+      "brazilian": "Mármore Desbotado",
+      "bulgarian": "Мраморно преливане",
+      "czech": "Marble Fade",
+      "danish": "Marble Fade",
+      "dutch": "Marble Fade",
+      "english": "Marble Fade",
+      "finnish": "Marmorihäivytys",
+      "french": "Marbre fondu",
+      "german": "Marmorfärbung",
+      "greek": "Marble Fade",
+      "hungarian": "Fakuló Márvány",
+      "indonesian": "Marble Fade",
+      "italian": "Marble Fade",
+      "japanese": "Marble Fade",
+      "koreana": "흐릿한 대리석",
+      "latam": "Mármol desteñido",
+      "norwegian": "Marble Fade",
+      "polish": "Marmurkowy gradient",
+      "portuguese": "Marble Fade",
+      "romanian": "Marble Fade",
+      "russian": "Мраморный градиент",
+      "schinese": "渐变大理石",
+      "schinese_pw": "Marble Fade",
+      "spanish": "Mármol desteñido",
+      "swedish": "Marble Fade",
+      "tchinese": "大理石漸層",
+      "thai": "Marble Fade",
+      "turkish": "Solgun Mermer",
+      "ukrainian": "Мармуровий перелив",
+      "vietnamese": "Marble Fade"
+    },
+    "name": "Marble Fade",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-413",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Mármore Desbotado",
+    "bulgarian": "Паракорд нож | Мраморно преливане",
+    "czech": "Výsadkářský nůž | Marble Fade",
+    "danish": "Paracordkniv | Marble Fade",
+    "dutch": "Paracordmes | Marble Fade",
+    "english": "Paracord Knife | Marble Fade",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Marmorihäivytys",
+    "french": "Couteau en paracorde | Marbre fondu",
+    "german": "Fallschirm-Messer | Marmorfärbung",
+    "greek": "Μαχαίρι Paracord | Marble Fade",
+    "hungarian": "Paracord kés | Fakuló Márvány",
+    "indonesian": "Pisau Paracord | Marble Fade",
+    "italian": "Coltello Paracord | Marble Fade",
+    "japanese": "Paracord ナイフ | Marble Fade",
+    "koreana": "파라코드 칼 | 흐릿한 대리석",
+    "latam": "Cuchillo encordado | Mármol desteñido",
+    "norwegian": "Paracordkniv | Marble Fade",
+    "polish": "Nóż paracord | Marmurkowy gradient",
+    "portuguese": "Faca Paracord | Marble Fade",
+    "romanian": "Cuțit Paracord | Marble Fade",
+    "russian": "Паракорд-нож | Мраморный градиент",
+    "schinese": "系绳匕首 | 渐变大理石",
+    "schinese_pw": "Paracord Knife | Marble Fade",
+    "spanish": "Cuchillo encordado | Mármol desteñido",
+    "swedish": "Paracordkniv | Marble Fade",
+    "tchinese": "繩柄刀 | 大理石漸層",
+    "thai": "มีดพาราคอร์ด | Marble Fade",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Solgun Mermer",
+    "ukrainian": "Тактичний ніж | Мармуровий перелив",
+    "vietnamese": "Dao Paracord | Marble Fade"
+  },
+  "media": {
+    "asset_id": "skin__517-413",
+    "images_png": [
+      "data/api/media/rendered/files/skins/517-413/light.png",
+      "data/api/media/rendered/files/skins/517-413/medium.png",
+      "data/api/media/rendered/files/skins/517-413/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/517-413.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/517-413/heavy.png",
+      "light": "data/api/media/rendered/files/skins/517-413/light.png",
+      "medium": "data/api/media/rendered/files/skins/517-413/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/517-413/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_cord_am_marble_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_cord_am_marble_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_cord_am_marble_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Paracord Knife | Marble Fade",
+  "search_slug": "paracord-knife-marble-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-35",
+        "id": 7007,
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "search_slug": "fever-case",
+        "via_special_pool": "set_community_35_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-35-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_35_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-35-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-413__normal__factory-new",
+    "517-413__normal__minimal-wear",
+    "517-413__stattrak__factory-new",
+    "517-413__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

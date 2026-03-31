@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "521-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "521-44",
+  "localized_names": {
+    "brazilian": "Faca Nômade | Aquecimento de Aço",
+    "bulgarian": "Номадският нож | Закалено",
+    "czech": "Outdoorový nůž | Case Hardened",
+    "danish": "Nomadekniv | Case Hardened",
+    "dutch": "Nomademes | Case Hardened",
+    "english": "Nomad Knife | Case Hardened",
+    "finnish": "Nomad-puukko | Hiiletyskarkaistu",
+    "french": "Couteau de nomade | Cémenté",
+    "german": "Nomadenmesser | Einsatzgehärtet",
+    "greek": "Μαχαίρι Nomad | Case Hardened",
+    "hungarian": "Nomád kés | Edzett",
+    "indonesian": "Pisau Nomad | Case Hardened",
+    "italian": "Coltello Nomade | Case Hardened",
+    "japanese": "Nomad ナイフ | Case Hardened",
+    "koreana": "노매드 칼 | 표면 경화",
+    "latam": "Cuchillo nómada | Acero templado",
+    "norwegian": "Nomadekniv | Case Hardened",
+    "polish": "Nóż nomada | Stal nawęglana",
+    "portuguese": "Faca Nomad | Case Hardened",
+    "romanian": "Cuțit Nomad | Case Hardened",
+    "russian": "Нож «Бродяга» | Поверхностная закалка",
+    "schinese": "流浪者匕首 | 表面淬火",
+    "schinese_pw": "Nomad Knife | Case Hardened",
+    "spanish": "Cuchillo nómada | Acero templado",
+    "swedish": "Nomad-kniv | Case Hardened",
+    "tchinese": "流浪者小刀 | 外殼硬化",
+    "thai": "มีดโนแมด | Case Hardened",
+    "turkish": "Göçebe Bıçağı | Sertleştirilmiş Kasa",
+    "ukrainian": "Польовий ніж | Поверхневий гарт",
+    "vietnamese": "Dao Nomad | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__521-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/521-44/light.png",
+      "data/api/media/rendered/files/skins/521-44/medium.png",
+      "data/api/media/rendered/files/skins/521-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/521-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/521-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/521-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/521-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/521-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_outdoor_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_outdoor_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_outdoor_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Nomad Knife | Case Hardened",
+  "search_slug": "nomad-knife-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "521-44__normal__battle-scarred",
+    "521-44__normal__factory-new",
+    "521-44__normal__field-tested",
+    "521-44__normal__minimal-wear",
+    "521-44__normal__well-worn",
+    "521-44__stattrak__battle-scarred",
+    "521-44__stattrak__factory-new",
+    "521-44__stattrak__field-tested",
+    "521-44__stattrak__minimal-wear",
+    "521-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-outdoor",
+    "id": 521,
+    "localized_names": {
+      "brazilian": "Faca Nômade",
+      "bulgarian": "Номадският нож",
+      "czech": "Outdoorový nůž",
+      "danish": "Nomadekniv",
+      "dutch": "Nomademes",
+      "english": "Nomad Knife",
+      "finnish": "Nomad-puukko",
+      "french": "Couteau de nomade",
+      "german": "Nomadenmesser",
+      "greek": "Μαχαίρι Nomad",
+      "hungarian": "Nomád kés",
+      "indonesian": "Pisau Nomad",
+      "italian": "Coltello Nomade",
+      "japanese": "Nomad ナイフ",
+      "koreana": "노매드 칼",
+      "latam": "Cuchillo nómada",
+      "norwegian": "Nomadekniv",
+      "polish": "Nóż nomada",
+      "portuguese": "Faca Nomad",
+      "romanian": "Cuțit Nomad",
+      "russian": "Нож «Бродяга»",
+      "schinese": "流浪者匕首",
+      "schinese_pw": "Nomad Knife",
+      "spanish": "Cuchillo nómada",
+      "swedish": "Nomad-kniv",
+      "tchinese": "流浪者小刀",
+      "thai": "มีดโนแมด",
+      "turkish": "Göçebe Bıçağı",
+      "ukrainian": "Польовий ніж",
+      "vietnamese": "Dao Nomad"
+    },
+    "name": "Nomad Knife",
+    "search_slug": "nomad-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

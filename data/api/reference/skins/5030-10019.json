@@ -1,0 +1,71 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "canonical_slug": "5030-10019",
+  "finish": {
+    "codename": "sporty_military",
+    "id": 10019,
+    "name": "Arid",
+    "rarity_ref": null,
+    "style_code": null
+  },
+  "game_ref": {
+    "paint_kit_id": 10019,
+    "weapon_id": 5030
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5030-10019",
+  "name": "Sport Gloves | Arid",
+  "search_slug": "sport-gloves-arid",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-15-unusual",
+        "expansion_rule": "legacy-gloves",
+        "id": "community_case_15_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "community-case-15-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-15",
+            "id": 4288,
+            "kind": "weapon-case",
+            "name": "Glove Case",
+            "search_slug": "glove-case"
+          },
+          {
+            "canonical_slug": "crate-community-17",
+            "id": 4352,
+            "kind": "weapon-case",
+            "name": "Operation Hydra Case",
+            "search_slug": "operation-hydra-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "5030-10019__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "sporty_gloves",
+    "id": 5030,
+    "name": "Sport Gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "517-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-40",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Noite",
+    "bulgarian": "Паракорд нож | Нощно",
+    "czech": "Výsadkářský nůž | Night",
+    "danish": "Paracordkniv | Night",
+    "dutch": "Paracordmes | Night",
+    "english": "Paracord Knife | Night",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Yö",
+    "french": "Couteau en paracorde | Nuit",
+    "german": "Fallschirm-Messer | Nacht",
+    "greek": "Μαχαίρι Paracord | Night",
+    "hungarian": "Paracord kés | Éjszaka",
+    "indonesian": "Pisau Paracord | Night",
+    "italian": "Coltello Paracord | Night",
+    "japanese": "Paracord ナイフ | Night",
+    "koreana": "파라코드 칼 | 밤",
+    "latam": "Cuchillo encordado | Nocturno",
+    "norwegian": "Paracordkniv | Night",
+    "polish": "Nóż paracord | Noc",
+    "portuguese": "Faca Paracord | Night",
+    "romanian": "Cuțit Paracord | Night",
+    "russian": "Паракорд-нож | Ночь",
+    "schinese": "系绳匕首 | 噩梦之夜",
+    "schinese_pw": "Paracord Knife | Night",
+    "spanish": "Cuchillo encordado | Noche cerrada",
+    "swedish": "Paracordkniv | Night",
+    "tchinese": "繩柄刀 | 惡夢之夜",
+    "thai": "มีดพาราคอร์ด | Night",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Gece",
+    "ukrainian": "Тактичний ніж | Ніч",
+    "vietnamese": "Dao Paracord | Night"
+  },
+  "media": {
+    "asset_id": "weapon__517",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/517/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/517.json",
+    "models": [
+      "weapons/models/knife/knife_cord/weapon_knife_cord.vmdl_c",
+      "phase2/weapons/models/knife/knife_cord/weapon_knife_cord_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/517/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Paracord Knife | Night",
+  "search_slug": "paracord-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-40__normal__vanilla",
+    "517-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

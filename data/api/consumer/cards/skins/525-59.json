@@ -1,0 +1,225 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "canonical_slug": "525-59",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-zebra",
+    "catalog_id": 59,
+    "id": 59,
+    "localized_names": {
+      "brazilian": "Massacre",
+      "bulgarian": "Клане",
+      "czech": "Slaughter",
+      "danish": "Slaughter",
+      "dutch": "Slaughter",
+      "english": "Slaughter",
+      "finnish": "Teurastus",
+      "french": "Carnage",
+      "german": "Metzelei",
+      "greek": "Slaughter",
+      "hungarian": "Mészárlás",
+      "indonesian": "Slaughter",
+      "italian": "Slaughter",
+      "japanese": "Slaughter",
+      "koreana": "살인마",
+      "latam": "Masacre",
+      "norwegian": "Slaughter",
+      "polish": "Rzeź",
+      "portuguese": "Slaughter",
+      "romanian": "Slaughter",
+      "russian": "Убийство",
+      "schinese": "屠夫",
+      "schinese_pw": "Slaughter",
+      "spanish": "Masacre",
+      "swedish": "Slaughter",
+      "tchinese": "屠夫",
+      "thai": "Slaughter",
+      "turkish": "Katliam",
+      "ukrainian": "Бійня",
+      "vietnamese": "Slaughter"
+    },
+    "name": "Slaughter",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.01
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "525-59",
+  "localized_names": {
+    "brazilian": "Faca Esqueleto | Massacre",
+    "bulgarian": "Скелетен нож | Клане",
+    "czech": "Skeletový nůž | Slaughter",
+    "danish": "Skeletkniv | Slaughter",
+    "dutch": "Skeletonmes | Slaughter",
+    "english": "Skeleton Knife | Slaughter",
+    "finnish": "Skeleton-puukko | Teurastus",
+    "french": "Couteau squelettique | Carnage",
+    "german": "Skelettmesser | Metzelei",
+    "greek": "Μαχαίρι Skeleton | Slaughter",
+    "hungarian": "Csontváz kés | Mészárlás",
+    "indonesian": "Pisau Skeleton | Slaughter",
+    "italian": "Coltello Scheletro | Slaughter",
+    "japanese": "Skeleton ナイフ | Slaughter",
+    "koreana": "스켈레톤 칼 | 살인마",
+    "latam": "Cuchillo esqueletizado | Masacre",
+    "norwegian": "Skjelettkniv | Slaughter",
+    "polish": "Nóż szkieletowy | Rzeź",
+    "portuguese": "Faca Skeleton | Slaughter",
+    "romanian": "Cuțit scheletic | Slaughter",
+    "russian": "Скелетный нож | Убийство",
+    "schinese": "骷髅匕首 | 屠夫",
+    "schinese_pw": "Skeleton Knife | Slaughter",
+    "spanish": "Cuchillo esqueletizado | Masacre",
+    "swedish": "Skeleton-kniv | Slaughter",
+    "tchinese": "骷顱刀 | 屠夫",
+    "thai": "มีดสเกเลตัน | Slaughter",
+    "turkish": "İskelet Bıçak | Katliam",
+    "ukrainian": "Скелетний ніж | Бійня",
+    "vietnamese": "Dao Skeleton | Slaughter"
+  },
+  "media": {
+    "asset_id": "skin__525-59",
+    "images_png": [
+      "data/api/media/rendered/files/skins/525-59/light.png",
+      "data/api/media/rendered/files/skins/525-59/medium.png",
+      "data/api/media/rendered/files/skins/525-59/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/525-59.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/525-59/heavy.png",
+      "light": "data/api/media/rendered/files/skins/525-59/light.png",
+      "medium": "data/api/media/rendered/files/skins/525-59/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/525-59/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_skeleton_am_zebra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_skeleton_am_zebra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_skeleton_am_zebra_medium_png.vtex_c"
+    }
+  },
+  "name": "Skeleton Knife | Slaughter",
+  "search_slug": "skeleton-knife-slaughter",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "525-59__normal__factory-new",
+    "525-59__normal__field-tested",
+    "525-59__normal__minimal-wear",
+    "525-59__stattrak__factory-new",
+    "525-59__stattrak__field-tested",
+    "525-59__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-skeleton",
+    "id": 525,
+    "localized_names": {
+      "brazilian": "Faca Esqueleto",
+      "bulgarian": "Скелетен нож",
+      "czech": "Skeletový nůž",
+      "danish": "Skeletkniv",
+      "dutch": "Skeletonmes",
+      "english": "Skeleton Knife",
+      "finnish": "Skeleton-puukko",
+      "french": "Couteau squelettique",
+      "german": "Skelettmesser",
+      "greek": "Μαχαίρι Skeleton",
+      "hungarian": "Csontváz kés",
+      "indonesian": "Pisau Skeleton",
+      "italian": "Coltello Scheletro",
+      "japanese": "Skeleton ナイフ",
+      "koreana": "스켈레톤 칼",
+      "latam": "Cuchillo esqueletizado",
+      "norwegian": "Skjelettkniv",
+      "polish": "Nóż szkieletowy",
+      "portuguese": "Faca Skeleton",
+      "romanian": "Cuțit scheletic",
+      "russian": "Скелетный нож",
+      "schinese": "骷髅匕首",
+      "schinese_pw": "Skeleton Knife",
+      "spanish": "Cuchillo esqueletizado",
+      "swedish": "Skeleton-kniv",
+      "tchinese": "骷顱刀",
+      "thai": "มีดสเกเลตัน",
+      "turkish": "İskelet Bıçak",
+      "ukrainian": "Скелетний ніж",
+      "vietnamese": "Dao Skeleton"
+    },
+    "name": "Skeleton Knife",
+    "search_slug": "skeleton-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.01
+  }
+}

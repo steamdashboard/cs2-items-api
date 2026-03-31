@@ -1,0 +1,190 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5030-1406",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "glove-sport-camo-winter",
+    "catalog_id": 1406,
+    "id": 1406,
+    "localized_names": {
+      "brazilian": "Glacial",
+      "bulgarian": "Мразовито",
+      "czech": "Frosty",
+      "danish": "Frosty",
+      "dutch": "Frosty",
+      "english": "Frosty",
+      "finnish": "Huurteinen",
+      "french": "Givré",
+      "german": "Frost",
+      "greek": "Frosty",
+      "hungarian": "Fagyos",
+      "indonesian": "Frosty",
+      "italian": "Frosty",
+      "japanese": "Frosty",
+      "koreana": "살얼음",
+      "latam": "Gélido",
+      "norwegian": "Frosty",
+      "polish": "Mroźny kamuflaż",
+      "portuguese": "Frosty",
+      "romanian": "Frosty",
+      "russian": "Мороз",
+      "schinese": "寒霜",
+      "schinese_pw": "Frosty",
+      "spanish": "Helada",
+      "swedish": "Frosty",
+      "tchinese": "霜凍",
+      "thai": "Frosty",
+      "turkish": "Kırağı",
+      "ukrainian": "Зимовий камуфляж",
+      "vietnamese": "Frosty"
+    },
+    "name": "Frosty",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5030-1406",
+  "localized_names": {
+    "brazilian": "Luvas Esportivas | Glacial",
+    "bulgarian": "Спортни ръкавици | Мразовито",
+    "czech": "Sportovní rukavice | Frosty",
+    "danish": "Sportshandsker | Frosty",
+    "dutch": "Sporthandschoenen | Frosty",
+    "english": "Sport Gloves | Frosty",
+    "finnish": "Urheiluhanskat | Huurteinen",
+    "french": "Gants de sport | Givré",
+    "german": "Sporthandschuhe | Frost",
+    "greek": "Σπορ γάντια | Frosty",
+    "hungarian": "Sportkesztyűk | Fagyos",
+    "indonesian": "Sarung Tangan Olahraga | Frosty",
+    "italian": "Guanti sportivi | Frosty",
+    "japanese": "Sport Gloves | Frosty",
+    "koreana": "스포츠 장갑 | 살얼음",
+    "latam": "Guantes de deporte | Gélido",
+    "norwegian": "Sportshansker | Frosty",
+    "polish": "Rękawice sportowe | Mroźny kamuflaż",
+    "portuguese": "Luvas Desportivas | Frosty",
+    "romanian": "Mănuși sport | Frosty",
+    "russian": "Спортивные перчатки | Мороз",
+    "schinese": "运动手套 | 寒霜",
+    "schinese_pw": "Sport Gloves | Frosty",
+    "spanish": "Guantes de deporte | Helada",
+    "swedish": "Sporthandskar | Frosty",
+    "tchinese": "運動員手套 | 霜凍",
+    "thai": "ถุงมือกีฬา | Frosty",
+    "turkish": "Spor Eldivenler | Kırağı",
+    "ukrainian": "Спортивні рукавиці | Зимовий камуфляж",
+    "vietnamese": "Găng tay thể thao | Frosty"
+  },
+  "media": {
+    "asset_id": "skin__5030-1406",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5030-1406/light.png",
+      "data/api/media/rendered/files/skins/5030-1406/medium.png",
+      "data/api/media/rendered/files/skins/5030-1406/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5030-1406.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5030-1406/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5030-1406/light.png",
+      "medium": "data/api/media/rendered/files/skins/5030-1406/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5030-1406/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/sporty_gloves_glove_sport_camo_winter_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/sporty_gloves_glove_sport_camo_winter_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/sporty_gloves_glove_sport_camo_winter_medium_png.vtex_c"
+    }
+  },
+  "name": "Sport Gloves | Frosty",
+  "search_slug": "sport-gloves-frosty",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [],
+    "containers": [
+      {
+        "canonical_slug": "crate-community-37",
+        "id": 5181,
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "search_slug": "sealed-dead-hand-terminal",
+        "via_special_pool": "set_community_37_unusual"
+      }
+    ],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-37-unusual",
+        "expansion_rule": "volatile-gloves",
+        "id": "set_community_37_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-37-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5030-1406__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "sporty-gloves",
+    "id": 5030,
+    "localized_names": {
+      "brazilian": "Luvas Esportivas",
+      "bulgarian": "Спортни ръкавици",
+      "czech": "Sportovní rukavice",
+      "danish": "Sportshandsker",
+      "dutch": "Sporthandschoenen",
+      "english": "Sport Gloves",
+      "finnish": "Urheiluhanskat",
+      "french": "Gants de sport",
+      "german": "Sporthandschuhe",
+      "greek": "Σπορ γάντια",
+      "hungarian": "Sportkesztyűk",
+      "indonesian": "Sarung Tangan Olahraga",
+      "italian": "Guanti sportivi",
+      "japanese": "Sport Gloves",
+      "koreana": "스포츠 장갑",
+      "latam": "Guantes de deporte",
+      "norwegian": "Sportshansker",
+      "polish": "Rękawice sportowe",
+      "portuguese": "Luvas Desportivas",
+      "romanian": "Mănuși sport",
+      "russian": "Спортивные перчатки",
+      "schinese": "运动手套",
+      "schinese_pw": "Sport Gloves",
+      "spanish": "Guantes de deporte",
+      "swedish": "Sporthandskar",
+      "tchinese": "運動員手套",
+      "thai": "ถุงมือกีฬา",
+      "turkish": "Spor Eldivenler",
+      "ukrainian": "Спортивні рукавиці",
+      "vietnamese": "Găng tay thể thao"
+    },
+    "name": "Sport Gloves",
+    "search_slug": "sport-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

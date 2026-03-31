@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "517-77",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-forest-boreal",
+    "catalog_id": 77,
+    "id": 77,
+    "localized_names": {
+      "brazilian": "Floresta Boreal",
+      "bulgarian": "Северна гора",
+      "czech": "Boreal Forest",
+      "danish": "Boreal Forest",
+      "dutch": "Boreal Forest",
+      "english": "Boreal Forest",
+      "finnish": "Pohjoismetsä",
+      "french": "Forêt boréale",
+      "german": "Borealer Nadelwald",
+      "greek": "Boreal Forest",
+      "hungarian": "Északi Erdő",
+      "indonesian": "Boreal Forest",
+      "italian": "Boreal Forest",
+      "japanese": "Boreal Forest",
+      "koreana": "북방림",
+      "latam": "Bosque boreal",
+      "norwegian": "Boreal Forest",
+      "polish": "Tajga",
+      "portuguese": "Boreal Forest",
+      "romanian": "Boreal Forest",
+      "russian": "Северный лес",
+      "schinese": "北方森林",
+      "schinese_pw": "Boreal Forest",
+      "spanish": "Bosque boreal",
+      "swedish": "Boreal Forest",
+      "tchinese": "北寒帶林",
+      "thai": "Boreal Forest",
+      "turkish": "Kuzey Ormanı",
+      "ukrainian": "Тундра",
+      "vietnamese": "Boreal Forest"
+    },
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-77",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Floresta Boreal",
+    "bulgarian": "Паракорд нож | Северна гора",
+    "czech": "Výsadkářský nůž | Boreal Forest",
+    "danish": "Paracordkniv | Boreal Forest",
+    "dutch": "Paracordmes | Boreal Forest",
+    "english": "Paracord Knife | Boreal Forest",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Pohjoismetsä",
+    "french": "Couteau en paracorde | Forêt boréale",
+    "german": "Fallschirm-Messer | Borealer Nadelwald",
+    "greek": "Μαχαίρι Paracord | Boreal Forest",
+    "hungarian": "Paracord kés | Északi Erdő",
+    "indonesian": "Pisau Paracord | Boreal Forest",
+    "italian": "Coltello Paracord | Boreal Forest",
+    "japanese": "Paracord ナイフ | Boreal Forest",
+    "koreana": "파라코드 칼 | 북방림",
+    "latam": "Cuchillo encordado | Bosque boreal",
+    "norwegian": "Paracordkniv | Boreal Forest",
+    "polish": "Nóż paracord | Tajga",
+    "portuguese": "Faca Paracord | Boreal Forest",
+    "romanian": "Cuțit Paracord | Boreal Forest",
+    "russian": "Паракорд-нож | Северный лес",
+    "schinese": "系绳匕首 | 北方森林",
+    "schinese_pw": "Paracord Knife | Boreal Forest",
+    "spanish": "Cuchillo encordado | Bosque boreal",
+    "swedish": "Paracordkniv | Boreal Forest",
+    "tchinese": "繩柄刀 | 北寒帶林",
+    "thai": "มีดพาราคอร์ด | Boreal Forest",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Kuzey Ormanı",
+    "ukrainian": "Тактичний ніж | Тундра",
+    "vietnamese": "Dao Paracord | Boreal Forest"
+  },
+  "media": {
+    "asset_id": "skin__517-77",
+    "images_png": [
+      "data/api/media/rendered/files/skins/517-77/light.png",
+      "data/api/media/rendered/files/skins/517-77/medium.png",
+      "data/api/media/rendered/files/skins/517-77/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/517-77.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/517-77/heavy.png",
+      "light": "data/api/media/rendered/files/skins/517-77/light.png",
+      "medium": "data/api/media/rendered/files/skins/517-77/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/517-77/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_cord_hy_forest_boreal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_cord_hy_forest_boreal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_cord_hy_forest_boreal_medium_png.vtex_c"
+    }
+  },
+  "name": "Paracord Knife | Boreal Forest",
+  "search_slug": "paracord-knife-boreal-forest",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-77__normal__vanilla",
+    "517-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "514-42",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-blued",
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-42",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Aço Azul",
+    "bulgarian": "Боуи нож | Синя стомана",
+    "czech": "Nůž Bowie | Blue Steel",
+    "danish": "Bowie-kniv | Blue Steel",
+    "dutch": "Bowiemes | Blue Steel",
+    "english": "Bowie Knife | Blue Steel",
+    "finnish": "Bowie-puukko | Sininen teräs",
+    "french": "Couteau Bowie | Acier bleui",
+    "german": "Bowiemesser | Blauer Stahl",
+    "greek": "Μαχαίρι Bowie | Blue Steel",
+    "hungarian": "Bowie kés | Kék Acél",
+    "indonesian": "Pisau Bowie | Blue Steel",
+    "italian": "Coltello Bowie | Blue Steel",
+    "japanese": "Bowie ナイフ | Blue Steel",
+    "koreana": "보위 칼 | 푸른 강철",
+    "latam": "Cuchillo Bowie | Azul metalizado",
+    "norwegian": "Bowiekniv | Blue Steel",
+    "polish": "Nóż Bowie | Niebieska stal",
+    "portuguese": "Faca Bowie | Blue Steel",
+    "romanian": "Cuțit Bowie | Blue Steel",
+    "russian": "Нож Боуи | Вороненая сталь",
+    "schinese": "鲍伊猎刀 | 蓝钢",
+    "schinese_pw": "Bowie Knife | Blue Steel",
+    "spanish": "Cuchillo Bowie | Azul metalizado",
+    "swedish": "Bowiekniv | Blue Steel",
+    "tchinese": "布伊刀 | 藍鋼",
+    "thai": "มีดโบวี | Blue Steel",
+    "turkish": "Bowie Bıçağı | Mavi Çelik",
+    "ukrainian": "Ніж Бові | Блакитна сталь",
+    "vietnamese": "Dao Bowie | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__514-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-42/light.png",
+      "data/api/media/rendered/files/skins/514-42/medium.png",
+      "data/api/media/rendered/files/skins/514-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Blue Steel",
+  "search_slug": "bowie-knife-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-42__normal__battle-scarred",
+    "514-42__normal__factory-new",
+    "514-42__normal__field-tested",
+    "514-42__normal__minimal-wear",
+    "514-42__normal__well-worn",
+    "514-42__stattrak__battle-scarred",
+    "514-42__stattrak__factory-new",
+    "514-42__stattrak__field-tested",
+    "514-42__stattrak__minimal-wear",
+    "514-42__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

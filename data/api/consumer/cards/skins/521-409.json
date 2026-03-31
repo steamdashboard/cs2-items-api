@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "521-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "521-409",
+  "localized_names": {
+    "brazilian": "Faca Nômade | Dente de Tigre",
+    "bulgarian": "Номадският нож | Тигров зъб",
+    "czech": "Outdoorový nůž | Tiger Tooth",
+    "danish": "Nomadekniv | Tiger Tooth",
+    "dutch": "Nomademes | Tiger Tooth",
+    "english": "Nomad Knife | Tiger Tooth",
+    "finnish": "Nomad-puukko | Tiikerinhammas",
+    "french": "Couteau de nomade | Dent de tigre",
+    "german": "Nomadenmesser | Tigerzahn",
+    "greek": "Μαχαίρι Nomad | Tiger Tooth",
+    "hungarian": "Nomád kés | Tigrisfog",
+    "indonesian": "Pisau Nomad | Tiger Tooth",
+    "italian": "Coltello Nomade | Tiger Tooth",
+    "japanese": "Nomad ナイフ | Tiger Tooth",
+    "koreana": "노매드 칼 | 호랑이 이빨",
+    "latam": "Cuchillo nómada | Diente de tigre",
+    "norwegian": "Nomadekniv | Tiger Tooth",
+    "polish": "Nóż nomada | Tygrysi kieł",
+    "portuguese": "Faca Nomad | Tiger Tooth",
+    "romanian": "Cuțit Nomad | Tiger Tooth",
+    "russian": "Нож «Бродяга» | Зуб тигра",
+    "schinese": "流浪者匕首 | 虎牙",
+    "schinese_pw": "Nomad Knife | Tiger Tooth",
+    "spanish": "Cuchillo nómada | Diente de tigre",
+    "swedish": "Nomad-kniv | Tiger Tooth",
+    "tchinese": "流浪者小刀 | 虎牙",
+    "thai": "มีดโนแมด | Tiger Tooth",
+    "turkish": "Göçebe Bıçağı | Kaplan Dişi",
+    "ukrainian": "Польовий ніж | Тигряче ікло",
+    "vietnamese": "Dao Nomad | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__521-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/521-409/light.png",
+      "data/api/media/rendered/files/skins/521-409/medium.png",
+      "data/api/media/rendered/files/skins/521-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/521-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/521-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/521-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/521-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/521-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_outdoor_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_outdoor_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_outdoor_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Nomad Knife | Tiger Tooth",
+  "search_slug": "nomad-knife-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-35",
+        "id": 7007,
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "search_slug": "fever-case",
+        "via_special_pool": "set_community_35_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-35-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_35_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-35-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "521-409__normal__factory-new",
+    "521-409__normal__minimal-wear",
+    "521-409__stattrak__factory-new",
+    "521-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-outdoor",
+    "id": 521,
+    "localized_names": {
+      "brazilian": "Faca Nômade",
+      "bulgarian": "Номадският нож",
+      "czech": "Outdoorový nůž",
+      "danish": "Nomadekniv",
+      "dutch": "Nomademes",
+      "english": "Nomad Knife",
+      "finnish": "Nomad-puukko",
+      "french": "Couteau de nomade",
+      "german": "Nomadenmesser",
+      "greek": "Μαχαίρι Nomad",
+      "hungarian": "Nomád kés",
+      "indonesian": "Pisau Nomad",
+      "italian": "Coltello Nomade",
+      "japanese": "Nomad ナイフ",
+      "koreana": "노매드 칼",
+      "latam": "Cuchillo nómada",
+      "norwegian": "Nomadekniv",
+      "polish": "Nóż nomada",
+      "portuguese": "Faca Nomad",
+      "romanian": "Cuțit Nomad",
+      "russian": "Нож «Бродяга»",
+      "schinese": "流浪者匕首",
+      "schinese_pw": "Nomad Knife",
+      "spanish": "Cuchillo nómada",
+      "swedish": "Nomad-kniv",
+      "tchinese": "流浪者小刀",
+      "thai": "มีดโนแมด",
+      "turkish": "Göçebe Bıçağı",
+      "ukrainian": "Польовий ніж",
+      "vietnamese": "Dao Nomad"
+    },
+    "name": "Nomad Knife",
+    "search_slug": "nomad-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "canonical_slug": "4725-10087",
+  "finish": {
+    "codename": "operation10_floral",
+    "id": 10087,
+    "name": "Needle Point",
+    "rarity_ref": null,
+    "style_code": null
+  },
+  "game_ref": {
+    "paint_kit_id": 10087,
+    "weapon_id": 4725
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "4725-10087",
+  "name": "Broken Fang Gloves | Needle Point",
+  "search_slug": "broken-fang-gloves-needle-point",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-glove-3-unusual",
+        "expansion_rule": "broken-fang-gloves",
+        "id": "set_glove_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-glove-3-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-27",
+            "id": 4717,
+            "kind": "weapon-case",
+            "name": "Operation Broken Fang Case",
+            "search_slug": "operation-broken-fang-case"
+          },
+          {
+            "canonical_slug": "crate-community-28",
+            "id": 4747,
+            "kind": "weapon-case",
+            "name": "Snakebite Case",
+            "search_slug": "snakebite-case"
+          },
+          {
+            "canonical_slug": "crate-community-31",
+            "id": 4846,
+            "kind": "weapon-case",
+            "name": "Recoil Case",
+            "search_slug": "recoil-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "4725-10087__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "studded_brokenfang_gloves",
+    "id": 4725,
+    "name": "Broken Fang Gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

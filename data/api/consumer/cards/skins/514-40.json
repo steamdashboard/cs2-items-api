@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "514-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-40",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Noite",
+    "bulgarian": "Боуи нож | Нощно",
+    "czech": "Nůž Bowie | Night",
+    "danish": "Bowie-kniv | Night",
+    "dutch": "Bowiemes | Night",
+    "english": "Bowie Knife | Night",
+    "finnish": "Bowie-puukko | Yö",
+    "french": "Couteau Bowie | Nuit",
+    "german": "Bowiemesser | Nacht",
+    "greek": "Μαχαίρι Bowie | Night",
+    "hungarian": "Bowie kés | Éjszaka",
+    "indonesian": "Pisau Bowie | Night",
+    "italian": "Coltello Bowie | Night",
+    "japanese": "Bowie ナイフ | Night",
+    "koreana": "보위 칼 | 밤",
+    "latam": "Cuchillo Bowie | Nocturno",
+    "norwegian": "Bowiekniv | Night",
+    "polish": "Nóż Bowie | Noc",
+    "portuguese": "Faca Bowie | Night",
+    "romanian": "Cuțit Bowie | Night",
+    "russian": "Нож Боуи | Ночь",
+    "schinese": "鲍伊猎刀 | 噩梦之夜",
+    "schinese_pw": "Bowie Knife | Night",
+    "spanish": "Cuchillo Bowie | Noche cerrada",
+    "swedish": "Bowiekniv | Night",
+    "tchinese": "布伊刀 | 惡夢之夜",
+    "thai": "มีดโบวี | Night",
+    "turkish": "Bowie Bıçağı | Gece",
+    "ukrainian": "Ніж Бові | Ніч",
+    "vietnamese": "Dao Bowie | Night"
+  },
+  "media": {
+    "asset_id": "skin__514-40",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-40/light.png",
+      "data/api/media/rendered/files/skins/514-40/medium.png",
+      "data/api/media/rendered/files/skins/514-40/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-40.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-40/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-40/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-40/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-40/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_so_night_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_so_night_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_so_night_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Night",
+  "search_slug": "bowie-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-40__normal__vanilla",
+    "514-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

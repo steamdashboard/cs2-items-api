@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "515-42",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-blued",
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-42",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Aço Azul",
+    "bulgarian": "Нож „Пеперуда“ | Синя стомана",
+    "czech": "Motýlek | Blue Steel",
+    "danish": "Butterfly-kniv | Blue Steel",
+    "dutch": "Vlindermes | Blue Steel",
+    "english": "Butterfly Knife | Blue Steel",
+    "finnish": "Perhosveitsi | Sininen teräs",
+    "french": "Couteau papillon | Acier bleui",
+    "german": "Butterflymesser | Blauer Stahl",
+    "greek": "Μαχαίρι Butterfly | Blue Steel",
+    "hungarian": "Pillangókés | Kék Acél",
+    "indonesian": "Pisau Kupu-kupu | Blue Steel",
+    "italian": "Coltello a farfalla | Blue Steel",
+    "japanese": "バタフライナイフ | Blue Steel",
+    "koreana": "버터플라이 나이프 | 푸른 강철",
+    "latam": "Cuchillo mariposa | Azul metalizado",
+    "norwegian": "Butterflykniv | Blue Steel",
+    "polish": "Nóż motylkowy | Niebieska stal",
+    "portuguese": "Faca Butterfly | Blue Steel",
+    "romanian": "Cuțit fluture | Blue Steel",
+    "russian": "Нож-бабочка | Вороненая сталь",
+    "schinese": "蝴蝶刀 | 蓝钢",
+    "schinese_pw": "Butterfly Knife | Blue Steel",
+    "spanish": "Cuchillo Mariposa | Azul metalizado",
+    "swedish": "Butterflykniv | Blue Steel",
+    "tchinese": "蝴蝶刀 | 藍鋼",
+    "thai": "มีดบัตเตอร์ฟลาย | Blue Steel",
+    "turkish": "Kelebek Bıçak | Mavi Çelik",
+    "ukrainian": "Балісонг | Блакитна сталь",
+    "vietnamese": "Dao bướm | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__515-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-42/light.png",
+      "data/api/media/rendered/files/skins/515-42/medium.png",
+      "data/api/media/rendered/files/skins/515-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Blue Steel",
+  "search_slug": "butterfly-knife-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-4",
+        "id": 4018,
+        "kind": "weapon-case",
+        "name": "Operation Breakout Weapon Case",
+        "search_slug": "operation-breakout-weapon-case",
+        "via_special_pool": "community_case_4_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-4-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_4_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Butterfly Knife ★",
+        "search_slug": "community-case-4-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-42__normal__battle-scarred",
+    "515-42__normal__factory-new",
+    "515-42__normal__field-tested",
+    "515-42__normal__minimal-wear",
+    "515-42__normal__well-worn",
+    "515-42__stattrak__battle-scarred",
+    "515-42__stattrak__factory-new",
+    "515-42__stattrak__field-tested",
+    "515-42__stattrak__minimal-wear",
+    "515-42__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

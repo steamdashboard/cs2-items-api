@@ -1,0 +1,271 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "506-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "506-40",
+  "localized_names": {
+    "brazilian": "Faca Gut Hook | Noite",
+    "bulgarian": "Касапски нож | Нощно",
+    "czech": "Rozparovací nůž | Night",
+    "danish": "Jagtkniv | Night",
+    "dutch": "Ingewandenmes | Night",
+    "english": "Gut Knife | Night",
+    "finnish": "Metsästysveitsi | Yö",
+    "french": "Couteau à éviscérer | Nuit",
+    "german": "Aufbrechmesser | Nacht",
+    "greek": "Gut Knife | Night",
+    "hungarian": "Zsigerelőkés | Éjszaka",
+    "indonesian": "Pisau Pengait | Night",
+    "italian": "Coltello da sventramento | Night",
+    "japanese": "ガットナイフ | Night",
+    "koreana": "갈고리 칼 | 밤",
+    "latam": "Cuchillo destripador | Nocturno",
+    "norwegian": "Sløyekniv | Night",
+    "polish": "Nóż z hakiem | Noc",
+    "portuguese": "Gut Knife | Night",
+    "romanian": "Cuțit de eviscerat | Night",
+    "russian": "Нож с лезвием-крюком | Ночь",
+    "schinese": "穿肠刀 | 噩梦之夜",
+    "schinese_pw": "Gut Knife | Night",
+    "spanish": "Cuchillo Destripador | Noche cerrada",
+    "swedish": "Buköppnare | Night",
+    "tchinese": "穿腸刀 | 惡夢之夜",
+    "thai": "มีดแล่หนัง | Night",
+    "turkish": "Kancalı Bıçak | Gece",
+    "ukrainian": "Білувальний ніж | Ніч",
+    "vietnamese": "Dao móc | Night"
+  },
+  "media": {
+    "asset_id": "skin__506-40",
+    "images_png": [
+      "data/api/media/rendered/files/skins/506-40/light.png",
+      "data/api/media/rendered/files/skins/506-40/medium.png",
+      "data/api/media/rendered/files/skins/506-40/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/506-40.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/506-40/heavy.png",
+      "light": "data/api/media/rendered/files/skins/506-40/light.png",
+      "medium": "data/api/media/rendered/files/skins/506-40/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/506-40/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gut_so_night_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gut_so_night_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gut_so_night_medium_png.vtex_c"
+    }
+  },
+  "name": "Gut Knife | Night",
+  "search_slug": "gut-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-valve-1",
+        "id": 4001,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "search_slug": "cs-go-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013",
+        "id": 4002,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "search_slug": "esports-2013-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-ii",
+        "id": 4003,
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "search_slug": "operation-bravo-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-2",
+        "id": 4004,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "search_slug": "cs-go-weapon-case-2",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2013-winter",
+        "id": 4005,
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "search_slug": "esports-2013-winter-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-1",
+        "id": 4009,
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "search_slug": "winter-offensive-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-valve-3",
+        "id": 4010,
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "search_slug": "cs-go-weapon-case-3",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-2",
+        "id": 4011,
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "search_slug": "operation-phoenix-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-esports-2014-summer",
+        "id": 4019,
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "search_slug": "esports-2014-summer-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-operation-vanguard",
+        "id": 4029,
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "search_slug": "operation-vanguard-weapon-case",
+        "via_special_pool": "unusual_revolving_list"
+      },
+      {
+        "canonical_slug": "crate-community-10",
+        "id": 4186,
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "search_slug": "revolver-case",
+        "via_special_pool": "unusual_revolving_list"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "unusual-revolving-list",
+        "expansion_rule": "legacy-knives",
+        "id": "unusual_revolving_list",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "unusual-revolving-special-item-pool",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "506-40__normal__vanilla",
+    "506-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gut",
+    "id": 506,
+    "localized_names": {
+      "brazilian": "Faca Gut Hook",
+      "bulgarian": "Касапски нож",
+      "czech": "Rozparovací nůž",
+      "danish": "Jagtkniv",
+      "dutch": "Ingewandenmes",
+      "english": "Gut Knife",
+      "finnish": "Metsästysveitsi",
+      "french": "Couteau à éviscérer",
+      "german": "Aufbrechmesser",
+      "greek": "Gut Knife",
+      "hungarian": "Zsigerelőkés",
+      "indonesian": "Pisau Pengait",
+      "italian": "Coltello da sventramento",
+      "japanese": "ガットナイフ",
+      "koreana": "갈고리 칼",
+      "latam": "Cuchillo destripador",
+      "norwegian": "Sløyekniv",
+      "polish": "Nóż z hakiem",
+      "portuguese": "Gut Knife",
+      "romanian": "Cuțit de eviscerat",
+      "russian": "Нож с лезвием-крюком",
+      "schinese": "穿肠刀",
+      "schinese_pw": "Gut Knife",
+      "spanish": "Cuchillo Destripador",
+      "swedish": "Buköppnare",
+      "tchinese": "穿腸刀",
+      "thai": "มีดแล่หนัง",
+      "turkish": "Kancalı Bıçak",
+      "ukrainian": "Білувальний ніж",
+      "vietnamese": "Dao móc"
+    },
+    "name": "Gut Knife",
+    "search_slug": "gut-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

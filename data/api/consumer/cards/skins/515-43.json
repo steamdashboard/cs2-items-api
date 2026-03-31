@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "515-43",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-forced",
+    "catalog_id": 43,
+    "id": 43,
+    "localized_names": {
+      "brazilian": "Manchado",
+      "bulgarian": "Опетнено",
+      "czech": "Stained",
+      "danish": "Stained",
+      "dutch": "Stained",
+      "english": "Stained",
+      "finnish": "Värjäytynyt",
+      "french": "Tacheté",
+      "german": "Gefleckt",
+      "greek": "Stained",
+      "hungarian": "Foltos",
+      "indonesian": "Stained",
+      "italian": "Stained",
+      "japanese": "Stained",
+      "koreana": "얼룩",
+      "latam": "Manchado",
+      "norwegian": "Stained",
+      "polish": "Śniedź",
+      "portuguese": "Stained",
+      "romanian": "Stained",
+      "russian": "Патина",
+      "schinese": "人工染色",
+      "schinese_pw": "Stained",
+      "spanish": "Manchado",
+      "swedish": "Stained",
+      "tchinese": "髒亂",
+      "thai": "Stained",
+      "turkish": "Lekeli",
+      "ukrainian": "Наліт іржі",
+      "vietnamese": "Stained"
+    },
+    "name": "Stained",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-43",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Manchado",
+    "bulgarian": "Нож „Пеперуда“ | Опетнено",
+    "czech": "Motýlek | Stained",
+    "danish": "Butterfly-kniv | Stained",
+    "dutch": "Vlindermes | Stained",
+    "english": "Butterfly Knife | Stained",
+    "finnish": "Perhosveitsi | Värjäytynyt",
+    "french": "Couteau papillon | Tacheté",
+    "german": "Butterflymesser | Gefleckt",
+    "greek": "Μαχαίρι Butterfly | Stained",
+    "hungarian": "Pillangókés | Foltos",
+    "indonesian": "Pisau Kupu-kupu | Stained",
+    "italian": "Coltello a farfalla | Stained",
+    "japanese": "バタフライナイフ | Stained",
+    "koreana": "버터플라이 나이프 | 얼룩",
+    "latam": "Cuchillo mariposa | Manchado",
+    "norwegian": "Butterflykniv | Stained",
+    "polish": "Nóż motylkowy | Śniedź",
+    "portuguese": "Faca Butterfly | Stained",
+    "romanian": "Cuțit fluture | Stained",
+    "russian": "Нож-бабочка | Патина",
+    "schinese": "蝴蝶刀 | 人工染色",
+    "schinese_pw": "Butterfly Knife | Stained",
+    "spanish": "Cuchillo Mariposa | Manchado",
+    "swedish": "Butterflykniv | Stained",
+    "tchinese": "蝴蝶刀 | 髒亂",
+    "thai": "มีดบัตเตอร์ฟลาย | Stained",
+    "turkish": "Kelebek Bıçak | Lekeli",
+    "ukrainian": "Балісонг | Наліт іржі",
+    "vietnamese": "Dao bướm | Stained"
+  },
+  "media": {
+    "asset_id": "skin__515-43",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-43/light.png",
+      "data/api/media/rendered/files/skins/515-43/medium.png",
+      "data/api/media/rendered/files/skins/515-43/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-43.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-43/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-43/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-43/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-43/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_forced_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_forced_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_forced_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Stained",
+  "search_slug": "butterfly-knife-stained",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-4",
+        "id": 4018,
+        "kind": "weapon-case",
+        "name": "Operation Breakout Weapon Case",
+        "search_slug": "operation-breakout-weapon-case",
+        "via_special_pool": "community_case_4_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-4-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_4_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Butterfly Knife ★",
+        "search_slug": "community-case-4-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-43__normal__battle-scarred",
+    "515-43__normal__factory-new",
+    "515-43__normal__field-tested",
+    "515-43__normal__minimal-wear",
+    "515-43__normal__well-worn",
+    "515-43__stattrak__battle-scarred",
+    "515-43__stattrak__factory-new",
+    "515-43__stattrak__field-tested",
+    "515-43__stattrak__minimal-wear",
+    "515-43__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

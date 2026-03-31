@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "518-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "518-44",
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência | Aquecimento de Aço",
+    "bulgarian": "Нож за оцеляване | Закалено",
+    "czech": "Záchranářský nůž | Case Hardened",
+    "danish": "Overlevelseskniv | Case Hardened",
+    "dutch": "Overlevingsmes | Case Hardened",
+    "english": "Survival Knife | Case Hardened",
+    "finnish": "Selviytymisveitsi | Hiiletyskarkaistu",
+    "french": "Couteau de survie | Cémenté",
+    "german": "Survival-Messer | Einsatzgehärtet",
+    "greek": "Μαχαίρι Survival | Case Hardened",
+    "hungarian": "Túlélőkés | Edzett",
+    "indonesian": "Pisau Survival | Case Hardened",
+    "italian": "Coltello da sopravvivenza | Case Hardened",
+    "japanese": "サバイバルナイフ | Case Hardened",
+    "koreana": "서바이벌 칼 | 표면 경화",
+    "latam": "Cuchillo de supervivencia | Acero templado",
+    "norwegian": "Overlevelseskniv | Case Hardened",
+    "polish": "Nóż survivalowy | Stal nawęglana",
+    "portuguese": "Faca Survival | Case Hardened",
+    "romanian": "Cuțit de supraviețuire | Case Hardened",
+    "russian": "Нож выживания | Поверхностная закалка",
+    "schinese": "求生匕首 | 表面淬火",
+    "schinese_pw": "Survival Knife | Case Hardened",
+    "spanish": "Cuchillo de supervivencia | Acero templado",
+    "swedish": "Överlevnadskniv | Case Hardened",
+    "tchinese": "求生刀 | 外殼硬化",
+    "thai": "มีดเซอร์ไวเวอร์ | Case Hardened",
+    "turkish": "Hayatta Kalma Bıçağı | Sertleştirilmiş Kasa",
+    "ukrainian": "Ніж для виживання | Поверхневий гарт",
+    "vietnamese": "Dao sinh tồn | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__518-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/518-44/light.png",
+      "data/api/media/rendered/files/skins/518-44/medium.png",
+      "data/api/media/rendered/files/skins/518-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/518-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/518-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/518-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/518-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/518-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_canis_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_canis_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_canis_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Survival Knife | Case Hardened",
+  "search_slug": "survival-knife-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "518-44__normal__battle-scarred",
+    "518-44__normal__factory-new",
+    "518-44__normal__field-tested",
+    "518-44__normal__minimal-wear",
+    "518-44__normal__well-worn",
+    "518-44__stattrak__battle-scarred",
+    "518-44__stattrak__factory-new",
+    "518-44__stattrak__field-tested",
+    "518-44__stattrak__minimal-wear",
+    "518-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-canis",
+    "id": 518,
+    "localized_names": {
+      "brazilian": "Faca de Sobrevivência",
+      "bulgarian": "Нож за оцеляване",
+      "czech": "Záchranářský nůž",
+      "danish": "Overlevelseskniv",
+      "dutch": "Overlevingsmes",
+      "english": "Survival Knife",
+      "finnish": "Selviytymisveitsi",
+      "french": "Couteau de survie",
+      "german": "Survival-Messer",
+      "greek": "Μαχαίρι Survival",
+      "hungarian": "Túlélőkés",
+      "indonesian": "Pisau Survival",
+      "italian": "Coltello da sopravvivenza",
+      "japanese": "サバイバルナイフ",
+      "koreana": "서바이벌 칼",
+      "latam": "Cuchillo de supervivencia",
+      "norwegian": "Overlevelseskniv",
+      "polish": "Nóż survivalowy",
+      "portuguese": "Faca Survival",
+      "romanian": "Cuțit de supraviețuire",
+      "russian": "Нож выживания",
+      "schinese": "求生匕首",
+      "schinese_pw": "Survival Knife",
+      "spanish": "Cuchillo de supervivencia",
+      "swedish": "Överlevnadskniv",
+      "tchinese": "求生刀",
+      "thai": "มีดเซอร์ไวเวอร์",
+      "turkish": "Hayatta Kalma Bıçağı",
+      "ukrainian": "Ніж для виживання",
+      "vietnamese": "Dao sinh tồn"
+    },
+    "name": "Survival Knife",
+    "search_slug": "survival-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "505-415",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-ruby-marbleized",
+    "catalog_id": 415,
+    "id": 415,
+    "localized_names": {
+      "brazilian": "Doppler",
+      "bulgarian": "Доплер",
+      "czech": "Doppler",
+      "danish": "Doppler",
+      "dutch": "Doppler",
+      "english": "Doppler",
+      "finnish": "Doppler",
+      "french": "Doppler",
+      "german": "Doppler",
+      "greek": "Doppler",
+      "hungarian": "Doppler",
+      "indonesian": "Doppler",
+      "italian": "Doppler",
+      "japanese": "Doppler",
+      "koreana": "도플러",
+      "latam": "Doppler",
+      "norwegian": "Doppler",
+      "polish": "Doppler",
+      "portuguese": "Doppler",
+      "romanian": "Doppler",
+      "russian": "Волны",
+      "schinese": "多普勒",
+      "schinese_pw": "Doppler",
+      "spanish": "Doppler",
+      "swedish": "Doppler",
+      "tchinese": "都卜勒",
+      "thai": "Doppler",
+      "turkish": "Doppler",
+      "ukrainian": "Доплер",
+      "vietnamese": "Doppler"
+    },
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "505-415",
+  "localized_names": {
+    "brazilian": "Canivete | Doppler",
+    "bulgarian": "Сгъваем нож | Доплер",
+    "czech": "Skládací nůž | Doppler",
+    "danish": "Foldekniv | Doppler",
+    "dutch": "Knipmes | Doppler",
+    "english": "Flip Knife | Doppler",
+    "finnish": "Taittoveitsi | Doppler",
+    "french": "Couteau pliant | Doppler",
+    "german": "Klappmesser | Doppler",
+    "greek": "Flip Knife | Doppler",
+    "hungarian": "Összecsukható kés | Doppler",
+    "indonesian": "Pisau Lipat | Doppler",
+    "italian": "Coltello ricurvo | Doppler",
+    "japanese": "Flip ナイフ | Doppler",
+    "koreana": "접이식 칼 | 도플러",
+    "latam": "Navaja | Doppler",
+    "norwegian": "Foldekniv | Doppler",
+    "polish": "Nóż składany | Doppler",
+    "portuguese": "Flip Knife | Doppler",
+    "romanian": "Briceag | Doppler",
+    "russian": "Складной нож | Волны",
+    "schinese": "折叠刀 | 多普勒",
+    "schinese_pw": "Flip Knife | Doppler",
+    "spanish": "Cuchillo plegable | Doppler",
+    "swedish": "Fällkniv | Doppler",
+    "tchinese": "折疊式軍刀 | 都卜勒",
+    "thai": "มีดพับ | Doppler",
+    "turkish": "Sustalı Bıçak | Doppler",
+    "ukrainian": "Складаний ніж | Доплер",
+    "vietnamese": "Dao bấm | Doppler"
+  },
+  "media": {
+    "asset_id": "skin__505-415",
+    "images_png": [
+      "data/api/media/rendered/files/skins/505-415/light.png",
+      "data/api/media/rendered/files/skins/505-415/medium.png",
+      "data/api/media/rendered/files/skins/505-415/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/505-415.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/505-415/heavy.png",
+      "light": "data/api/media/rendered/files/skins/505-415/light.png",
+      "medium": "data/api/media/rendered/files/skins/505-415/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/505-415/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_flip_am_ruby_marbleized_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_flip_am_ruby_marbleized_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_flip_am_ruby_marbleized_medium_png.vtex_c"
+    }
+  },
+  "name": "Flip Knife | Doppler",
+  "search_slug": "flip-knife-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "505-415__normal__factory-new",
+    "505-415__normal__minimal-wear",
+    "505-415__stattrak__factory-new",
+    "505-415__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-flip",
+    "id": 505,
+    "localized_names": {
+      "brazilian": "Canivete",
+      "bulgarian": "Сгъваем нож",
+      "czech": "Skládací nůž",
+      "danish": "Foldekniv",
+      "dutch": "Knipmes",
+      "english": "Flip Knife",
+      "finnish": "Taittoveitsi",
+      "french": "Couteau pliant",
+      "german": "Klappmesser",
+      "greek": "Flip Knife",
+      "hungarian": "Összecsukható kés",
+      "indonesian": "Pisau Lipat",
+      "italian": "Coltello ricurvo",
+      "japanese": "Flip ナイフ",
+      "koreana": "접이식 칼",
+      "latam": "Navaja",
+      "norwegian": "Foldekniv",
+      "polish": "Nóż składany",
+      "portuguese": "Flip Knife",
+      "romanian": "Briceag",
+      "russian": "Складной нож",
+      "schinese": "折叠刀",
+      "schinese_pw": "Flip Knife",
+      "spanish": "Cuchillo plegable",
+      "swedish": "Fällkniv",
+      "tchinese": "折疊式軍刀",
+      "thai": "มีดพับ",
+      "turkish": "Sustalı Bıçak",
+      "ukrainian": "Складаний ніж",
+      "vietnamese": "Dao bấm"
+    },
+    "name": "Flip Knife",
+    "search_slug": "flip-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

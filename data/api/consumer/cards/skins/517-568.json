@@ -1,0 +1,213 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "517-568",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-emerald-marbleized",
+    "catalog_id": 568,
+    "id": 568,
+    "localized_names": {
+      "brazilian": "Doppler Gama",
+      "bulgarian": "Доплеров гама ефект",
+      "czech": "Gamma Doppler",
+      "danish": "Gamma Doppler",
+      "dutch": "Gamma Doppler",
+      "english": "Gamma Doppler",
+      "finnish": "Gamma Doppler",
+      "french": "Doppler Gamma",
+      "german": "Gamma Doppler",
+      "greek": "Gamma Doppler",
+      "hungarian": "Gamma Doppler",
+      "indonesian": "Gamma Doppler",
+      "italian": "Gamma Doppler",
+      "japanese": "Gamma Doppler",
+      "koreana": "감마 도플러",
+      "latam": "Doppler gamma",
+      "norwegian": "Gamma Doppler",
+      "polish": "Gamma Doppler",
+      "portuguese": "Gamma Doppler",
+      "romanian": "Gamma Doppler",
+      "russian": "Гамма-волны",
+      "schinese": "伽玛多普勒",
+      "schinese_pw": "Gamma Doppler",
+      "spanish": "Doppler gamma",
+      "swedish": "Gamma Doppler",
+      "tchinese": "伽傌都卜勒",
+      "thai": "Gamma Doppler",
+      "turkish": "Gamma Doppler",
+      "ukrainian": "Гамма-ефект Доплера",
+      "vietnamese": "Gamma Doppler"
+    },
+    "name": "Gamma Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-568",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Doppler Gama",
+    "bulgarian": "Паракорд нож | Доплеров гама ефект",
+    "czech": "Výsadkářský nůž | Gamma Doppler",
+    "danish": "Paracordkniv | Gamma Doppler",
+    "dutch": "Paracordmes | Gamma Doppler",
+    "english": "Paracord Knife | Gamma Doppler",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Gamma Doppler",
+    "french": "Couteau en paracorde | Doppler Gamma",
+    "german": "Fallschirm-Messer | Gamma Doppler",
+    "greek": "Μαχαίρι Paracord | Gamma Doppler",
+    "hungarian": "Paracord kés | Gamma Doppler",
+    "indonesian": "Pisau Paracord | Gamma Doppler",
+    "italian": "Coltello Paracord | Gamma Doppler",
+    "japanese": "Paracord ナイフ | Gamma Doppler",
+    "koreana": "파라코드 칼 | 감마 도플러",
+    "latam": "Cuchillo encordado | Doppler gamma",
+    "norwegian": "Paracordkniv | Gamma Doppler",
+    "polish": "Nóż paracord | Gamma Doppler",
+    "portuguese": "Faca Paracord | Gamma Doppler",
+    "romanian": "Cuțit Paracord | Gamma Doppler",
+    "russian": "Паракорд-нож | Гамма-волны",
+    "schinese": "系绳匕首 | 伽玛多普勒",
+    "schinese_pw": "Paracord Knife | Gamma Doppler",
+    "spanish": "Cuchillo encordado | Doppler gamma",
+    "swedish": "Paracordkniv | Gamma Doppler",
+    "tchinese": "繩柄刀 | 伽傌都卜勒",
+    "thai": "มีดพาราคอร์ด | Gamma Doppler",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Gamma Doppler",
+    "ukrainian": "Тактичний ніж | Гамма-ефект Доплера",
+    "vietnamese": "Dao Paracord | Gamma Doppler"
+  },
+  "media": {
+    "asset_id": "weapon__517",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/517/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/517.json",
+    "models": [
+      "weapons/models/knife/knife_cord/weapon_knife_cord.vmdl_c",
+      "phase2/weapons/models/knife/knife_cord/weapon_knife_cord_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/517/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Paracord Knife | Gamma Doppler",
+  "search_slug": "paracord-knife-gamma-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-29",
+        "id": 4790,
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "search_slug": "operation-riptide-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-30",
+        "id": 4818,
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "gamma2-knives2-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "gamma2_knives2_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "gamma2-knives2-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-568__normal__factory-new",
+    "517-568__normal__minimal-wear",
+    "517-568__stattrak__factory-new",
+    "517-568__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

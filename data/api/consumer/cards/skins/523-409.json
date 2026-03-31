@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "523-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "523-409",
+  "localized_names": {
+    "brazilian": "Faca Talon | Dente de Tigre",
+    "bulgarian": "Нож нокът | Тигров зъб",
+    "czech": "Talon | Tiger Tooth",
+    "danish": "Talon-kniv | Tiger Tooth",
+    "dutch": "Talon-mes | Tiger Tooth",
+    "english": "Talon Knife | Tiger Tooth",
+    "finnish": "Kynsiveitsi | Tiikerinhammas",
+    "french": "Canif | Dent de tigre",
+    "german": "Talon-Messer | Tigerzahn",
+    "greek": "Μαχαίρι Talon | Tiger Tooth",
+    "hungarian": "Talon kés | Tigrisfog",
+    "indonesian": "Pisau Talon | Tiger Tooth",
+    "italian": "Coltello Talon | Tiger Tooth",
+    "japanese": "Talon ナイフ | Tiger Tooth",
+    "koreana": "탈론 칼 | 호랑이 이빨",
+    "latam": "Cuchillo talón | Diente de tigre",
+    "norwegian": "Klokniv | Tiger Tooth",
+    "polish": "Szpon | Tygrysi kieł",
+    "portuguese": "Faca Talon | Tiger Tooth",
+    "romanian": "Cuțit Talon | Tiger Tooth",
+    "russian": "Коготь | Зуб тигра",
+    "schinese": "锯齿爪刀 | 虎牙",
+    "schinese_pw": "Talon Knife | Tiger Tooth",
+    "spanish": "Cuchillo Garra | Diente de tigre",
+    "swedish": "Talonkniv | Tiger Tooth",
+    "tchinese": "彎爪刀 | 虎牙",
+    "thai": "มีดทาลอน | Tiger Tooth",
+    "turkish": "Talon Bıçağı | Kaplan Dişi",
+    "ukrainian": "Ніж-кіготь | Тигряче ікло",
+    "vietnamese": "Dao Talon | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__523-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/523-409/light.png",
+      "data/api/media/rendered/files/skins/523-409/medium.png",
+      "data/api/media/rendered/files/skins/523-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/523-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/523-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/523-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/523-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/523-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_widowmaker_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_widowmaker_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_widowmaker_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Talon Knife | Tiger Tooth",
+  "search_slug": "talon-knife-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-22",
+        "id": 4598,
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "search_slug": "prisma-case",
+        "via_special_pool": "set_community_22_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-25",
+        "id": 4695,
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "search_slug": "prisma-2-case",
+        "via_special_pool": "set_community_22_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-22-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_22_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-22-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "523-409__normal__factory-new",
+    "523-409__normal__minimal-wear",
+    "523-409__stattrak__factory-new",
+    "523-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-widowmaker",
+    "id": 523,
+    "localized_names": {
+      "brazilian": "Faca Talon",
+      "bulgarian": "Нож нокът",
+      "czech": "Talon",
+      "danish": "Talon-kniv",
+      "dutch": "Talon-mes",
+      "english": "Talon Knife",
+      "finnish": "Kynsiveitsi",
+      "french": "Canif",
+      "german": "Talon-Messer",
+      "greek": "Μαχαίρι Talon",
+      "hungarian": "Talon kés",
+      "indonesian": "Pisau Talon",
+      "italian": "Coltello Talon",
+      "japanese": "Talon ナイフ",
+      "koreana": "탈론 칼",
+      "latam": "Cuchillo talón",
+      "norwegian": "Klokniv",
+      "polish": "Szpon",
+      "portuguese": "Faca Talon",
+      "romanian": "Cuțit Talon",
+      "russian": "Коготь",
+      "schinese": "锯齿爪刀",
+      "schinese_pw": "Talon Knife",
+      "spanish": "Cuchillo Garra",
+      "swedish": "Talonkniv",
+      "tchinese": "彎爪刀",
+      "thai": "มีดทาลอน",
+      "turkish": "Talon Bıçağı",
+      "ukrainian": "Ніж-кіготь",
+      "vietnamese": "Dao Talon"
+    },
+    "name": "Talon Knife",
+    "search_slug": "talon-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "503-38",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aa-fade",
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "503-38",
+  "localized_names": {
+    "brazilian": "Faca Clássica | Degradê",
+    "bulgarian": "Класически нож | Избледняване",
+    "czech": "Klasický nůž | Fade",
+    "danish": "Klassisk kniv | Fade",
+    "dutch": "Klassiek mes | Fade",
+    "english": "Classic Knife | Fade",
+    "finnish": "Klassinen veitsi | Häivytys",
+    "french": "Couteau classique | Dégradé",
+    "german": "Klassisches Messer | Farbverlauf",
+    "greek": "Κλασικό Μαχαίρι | Fade",
+    "hungarian": "Klasszikus Kés | Halványulás",
+    "indonesian": "Pisau Klasik | Fade",
+    "italian": "Coltello classico | Fade",
+    "japanese": "クラシックナイフ | Fade",
+    "koreana": "클래식 칼 | 흐릿함",
+    "latam": "Cuchillo clásico | Desteñido",
+    "norwegian": "Klassisk kniv | Fade",
+    "polish": "Klasyczny nóż | Gradient",
+    "portuguese": "Faca Clássica | Fade",
+    "romanian": "Cuțit clasic | Fade",
+    "russian": "Классический нож | Градиент",
+    "schinese": "海豹短刀 | 渐变之色",
+    "schinese_pw": "Classic Knife | Fade",
+    "spanish": "Cuchillo clásico | Desteñido",
+    "swedish": "Klassisk kniv | Fade",
+    "tchinese": "經典軍刀 | 漸層彩虹",
+    "thai": "มีดคลาสสิก | Fade",
+    "turkish": "Klasik Bıçak | Solgun",
+    "ukrainian": "Класичний ніж | Градієнт",
+    "vietnamese": "Classic Knife | Fade"
+  },
+  "media": {
+    "asset_id": "skin__503-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/503-38/light.png",
+      "data/api/media/rendered/files/skins/503-38/medium.png",
+      "data/api/media/rendered/files/skins/503-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/503-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/503-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/503-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/503-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/503-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_css_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_css_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_css_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Classic Knife | Fade",
+  "search_slug": "classic-knife-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-24",
+        "id": 4669,
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "search_slug": "cs20-case",
+        "via_special_pool": "set_community_24_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-24-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_24_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Classic Knife ★",
+        "search_slug": "set-community-24-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "503-38__normal__factory-new",
+    "503-38__normal__minimal-wear",
+    "503-38__stattrak__factory-new",
+    "503-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-css",
+    "id": 503,
+    "localized_names": {
+      "brazilian": "Faca Clássica",
+      "bulgarian": "Класически нож",
+      "czech": "Klasický nůž",
+      "danish": "Klassisk kniv",
+      "dutch": "Klassiek mes",
+      "english": "Classic Knife",
+      "finnish": "Klassinen veitsi",
+      "french": "Couteau classique",
+      "german": "Klassisches Messer",
+      "greek": "Κλασικό Μαχαίρι",
+      "hungarian": "Klasszikus Kés",
+      "indonesian": "Pisau Klasik",
+      "italian": "Coltello classico",
+      "japanese": "クラシックナイフ",
+      "koreana": "클래식 칼",
+      "latam": "Cuchillo clásico",
+      "norwegian": "Klassisk kniv",
+      "polish": "Klasyczny nóż",
+      "portuguese": "Faca Clássica",
+      "romanian": "Cuțit clasic",
+      "russian": "Классический нож",
+      "schinese": "海豹短刀",
+      "schinese_pw": "Classic Knife",
+      "spanish": "Cuchillo clásico",
+      "swedish": "Klassisk kniv",
+      "tchinese": "經典軍刀",
+      "thai": "มีดคลาสสิก",
+      "turkish": "Klasik Bıçak",
+      "ukrainian": "Класичний ніж",
+      "vietnamese": "Classic Knife"
+    },
+    "name": "Classic Knife",
+    "search_slug": "classic-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

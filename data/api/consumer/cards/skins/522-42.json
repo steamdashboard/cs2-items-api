@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "522-42",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-blued",
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "522-42",
+  "localized_names": {
+    "brazilian": "Faca Stiletto | Aço Azul",
+    "bulgarian": "Нож стилет | Синя стомана",
+    "czech": "Vystřelovací nůž | Blue Steel",
+    "danish": "Stiletto-kniv | Blue Steel",
+    "dutch": "Stiletto | Blue Steel",
+    "english": "Stiletto Knife | Blue Steel",
+    "finnish": "Stiletti | Sininen teräs",
+    "french": "Stylet | Acier bleui",
+    "german": "Stilett | Blauer Stahl",
+    "greek": "Μαχαίρι Stiletto | Blue Steel",
+    "hungarian": "Stiletto kés | Kék Acél",
+    "indonesian": "Pisau Stiletto | Blue Steel",
+    "italian": "Stiletto | Blue Steel",
+    "japanese": "Stiletto ナイフ | Blue Steel",
+    "koreana": "스틸레토 칼 | 푸른 강철",
+    "latam": "Estilete | Azul metalizado",
+    "norwegian": "Springkniv | Blue Steel",
+    "polish": "Sztylet | Niebieska stal",
+    "portuguese": "Faca Stiletto | Blue Steel",
+    "romanian": "Cuțit Stiletto | Blue Steel",
+    "russian": "Стилет | Вороненая сталь",
+    "schinese": "短剑 | 蓝钢",
+    "schinese_pw": "Stiletto Knife | Blue Steel",
+    "spanish": "Estilete | Azul metalizado",
+    "swedish": "Stilettkniv | Blue Steel",
+    "tchinese": "彈簧刀 | 藍鋼",
+    "thai": "มีดสติลเล็ตโต | Blue Steel",
+    "turkish": "Stiletto Bıçak | Mavi Çelik",
+    "ukrainian": "Ніж-стилет | Блакитна сталь",
+    "vietnamese": "Dao Stiletto | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__522-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/522-42/light.png",
+      "data/api/media/rendered/files/skins/522-42/medium.png",
+      "data/api/media/rendered/files/skins/522-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/522-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/522-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/522-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/522-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/522-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_stiletto_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_stiletto_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_stiletto_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "Stiletto Knife | Blue Steel",
+  "search_slug": "stiletto-knife-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "522-42__normal__battle-scarred",
+    "522-42__normal__factory-new",
+    "522-42__normal__field-tested",
+    "522-42__normal__minimal-wear",
+    "522-42__normal__well-worn",
+    "522-42__stattrak__battle-scarred",
+    "522-42__stattrak__factory-new",
+    "522-42__stattrak__field-tested",
+    "522-42__stattrak__minimal-wear",
+    "522-42__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-stiletto",
+    "id": 522,
+    "localized_names": {
+      "brazilian": "Faca Stiletto",
+      "bulgarian": "Нож стилет",
+      "czech": "Vystřelovací nůž",
+      "danish": "Stiletto-kniv",
+      "dutch": "Stiletto",
+      "english": "Stiletto Knife",
+      "finnish": "Stiletti",
+      "french": "Stylet",
+      "german": "Stilett",
+      "greek": "Μαχαίρι Stiletto",
+      "hungarian": "Stiletto kés",
+      "indonesian": "Pisau Stiletto",
+      "italian": "Stiletto",
+      "japanese": "Stiletto ナイフ",
+      "koreana": "스틸레토 칼",
+      "latam": "Estilete",
+      "norwegian": "Springkniv",
+      "polish": "Sztylet",
+      "portuguese": "Faca Stiletto",
+      "romanian": "Cuțit Stiletto",
+      "russian": "Стилет",
+      "schinese": "短剑",
+      "schinese_pw": "Stiletto Knife",
+      "spanish": "Estilete",
+      "swedish": "Stilettkniv",
+      "tchinese": "彈簧刀",
+      "thai": "มีดสติลเล็ตโต",
+      "turkish": "Stiletto Bıçak",
+      "ukrainian": "Ніж-стилет",
+      "vietnamese": "Dao Stiletto"
+    },
+    "name": "Stiletto Knife",
+    "search_slug": "stiletto-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

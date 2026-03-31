@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "521-581",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marked-up-90",
+    "catalog_id": 581,
+    "id": 581,
+    "localized_names": {
+      "brazilian": "Mão Livre",
+      "bulgarian": "Скицирано",
+      "czech": "Freehand",
+      "danish": "Freehand",
+      "dutch": "Freehand",
+      "english": "Freehand",
+      "finnish": "Vapaa käsi",
+      "french": "Signature",
+      "german": "Freihändig",
+      "greek": "Freehand",
+      "hungarian": "Szabad Kéz",
+      "indonesian": "Freehand",
+      "italian": "Freehand",
+      "japanese": "Freehand",
+      "koreana": "자유형",
+      "latam": "Mano alzada",
+      "norwegian": "Freehand",
+      "polish": "Rękodzieło",
+      "portuguese": "Freehand",
+      "romanian": "Freehand",
+      "russian": "Ручная роспись",
+      "schinese": "自由之手",
+      "schinese_pw": "Freehand",
+      "spanish": "Mano alzada",
+      "swedish": "Freehand",
+      "tchinese": "手繪紋",
+      "thai": "Freehand",
+      "turkish": "Boşel",
+      "ukrainian": "Ручний розпис",
+      "vietnamese": "Freehand"
+    },
+    "name": "Freehand",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.48,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "521-581",
+  "localized_names": {
+    "brazilian": "Faca Nômade | Mão Livre",
+    "bulgarian": "Номадският нож | Скицирано",
+    "czech": "Outdoorový nůž | Freehand",
+    "danish": "Nomadekniv | Freehand",
+    "dutch": "Nomademes | Freehand",
+    "english": "Nomad Knife | Freehand",
+    "finnish": "Nomad-puukko | Vapaa käsi",
+    "french": "Couteau de nomade | Signature",
+    "german": "Nomadenmesser | Freihändig",
+    "greek": "Μαχαίρι Nomad | Freehand",
+    "hungarian": "Nomád kés | Szabad Kéz",
+    "indonesian": "Pisau Nomad | Freehand",
+    "italian": "Coltello Nomade | Freehand",
+    "japanese": "Nomad ナイフ | Freehand",
+    "koreana": "노매드 칼 | 자유형",
+    "latam": "Cuchillo nómada | Mano alzada",
+    "norwegian": "Nomadekniv | Freehand",
+    "polish": "Nóż nomada | Rękodzieło",
+    "portuguese": "Faca Nomad | Freehand",
+    "romanian": "Cuțit Nomad | Freehand",
+    "russian": "Нож «Бродяга» | Ручная роспись",
+    "schinese": "流浪者匕首 | 自由之手",
+    "schinese_pw": "Nomad Knife | Freehand",
+    "spanish": "Cuchillo nómada | Mano alzada",
+    "swedish": "Nomad-kniv | Freehand",
+    "tchinese": "流浪者小刀 | 手繪紋",
+    "thai": "มีดโนแมด | Freehand",
+    "turkish": "Göçebe Bıçağı | Boşel",
+    "ukrainian": "Польовий ніж | Ручний розпис",
+    "vietnamese": "Dao Nomad | Freehand"
+  },
+  "media": {
+    "asset_id": "weapon__521",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/521/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/521.json",
+    "models": [
+      "weapons/models/knife/knife_outdoor/weapon_knife_outdoor.vmdl_c",
+      "phase2/weapons/models/knife/knife_outdoor/weapon_knife_outdoor_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/521/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Nomad Knife | Freehand",
+  "search_slug": "nomad-knife-freehand",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-29",
+        "id": 4790,
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "search_slug": "operation-riptide-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-30",
+        "id": 4818,
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "gamma2-knives2-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "gamma2_knives2_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "gamma2-knives2-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "521-581__normal__battle-scarred",
+    "521-581__normal__factory-new",
+    "521-581__normal__field-tested",
+    "521-581__normal__minimal-wear",
+    "521-581__normal__well-worn",
+    "521-581__stattrak__battle-scarred",
+    "521-581__stattrak__factory-new",
+    "521-581__stattrak__field-tested",
+    "521-581__stattrak__minimal-wear",
+    "521-581__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-outdoor",
+    "id": 521,
+    "localized_names": {
+      "brazilian": "Faca Nômade",
+      "bulgarian": "Номадският нож",
+      "czech": "Outdoorový nůž",
+      "danish": "Nomadekniv",
+      "dutch": "Nomademes",
+      "english": "Nomad Knife",
+      "finnish": "Nomad-puukko",
+      "french": "Couteau de nomade",
+      "german": "Nomadenmesser",
+      "greek": "Μαχαίρι Nomad",
+      "hungarian": "Nomád kés",
+      "indonesian": "Pisau Nomad",
+      "italian": "Coltello Nomade",
+      "japanese": "Nomad ナイフ",
+      "koreana": "노매드 칼",
+      "latam": "Cuchillo nómada",
+      "norwegian": "Nomadekniv",
+      "polish": "Nóż nomada",
+      "portuguese": "Faca Nomad",
+      "romanian": "Cuțit Nomad",
+      "russian": "Нож «Бродяга»",
+      "schinese": "流浪者匕首",
+      "schinese_pw": "Nomad Knife",
+      "spanish": "Cuchillo nómada",
+      "swedish": "Nomad-kniv",
+      "tchinese": "流浪者小刀",
+      "thai": "มีดโนแมด",
+      "turkish": "Göçebe Bıçağı",
+      "ukrainian": "Польовий ніж",
+      "vietnamese": "Dao Nomad"
+    },
+    "name": "Nomad Knife",
+    "search_slug": "nomad-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.48,
+    "min_float": 0.0
+  }
+}

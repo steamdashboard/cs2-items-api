@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "517-42",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-blued",
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-42",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Aço Azul",
+    "bulgarian": "Паракорд нож | Синя стомана",
+    "czech": "Výsadkářský nůž | Blue Steel",
+    "danish": "Paracordkniv | Blue Steel",
+    "dutch": "Paracordmes | Blue Steel",
+    "english": "Paracord Knife | Blue Steel",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Sininen teräs",
+    "french": "Couteau en paracorde | Acier bleui",
+    "german": "Fallschirm-Messer | Blauer Stahl",
+    "greek": "Μαχαίρι Paracord | Blue Steel",
+    "hungarian": "Paracord kés | Kék Acél",
+    "indonesian": "Pisau Paracord | Blue Steel",
+    "italian": "Coltello Paracord | Blue Steel",
+    "japanese": "Paracord ナイフ | Blue Steel",
+    "koreana": "파라코드 칼 | 푸른 강철",
+    "latam": "Cuchillo encordado | Azul metalizado",
+    "norwegian": "Paracordkniv | Blue Steel",
+    "polish": "Nóż paracord | Niebieska stal",
+    "portuguese": "Faca Paracord | Blue Steel",
+    "romanian": "Cuțit Paracord | Blue Steel",
+    "russian": "Паракорд-нож | Вороненая сталь",
+    "schinese": "系绳匕首 | 蓝钢",
+    "schinese_pw": "Paracord Knife | Blue Steel",
+    "spanish": "Cuchillo encordado | Azul metalizado",
+    "swedish": "Paracordkniv | Blue Steel",
+    "tchinese": "繩柄刀 | 藍鋼",
+    "thai": "มีดพาราคอร์ด | Blue Steel",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Mavi Çelik",
+    "ukrainian": "Тактичний ніж | Блакитна сталь",
+    "vietnamese": "Dao Paracord | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__517-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/517-42/light.png",
+      "data/api/media/rendered/files/skins/517-42/medium.png",
+      "data/api/media/rendered/files/skins/517-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/517-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/517-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/517-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/517-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/517-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_cord_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_cord_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_cord_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "Paracord Knife | Blue Steel",
+  "search_slug": "paracord-knife-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-42__normal__battle-scarred",
+    "517-42__normal__factory-new",
+    "517-42__normal__field-tested",
+    "517-42__normal__minimal-wear",
+    "517-42__normal__well-worn",
+    "517-42__stattrak__battle-scarred",
+    "517-42__stattrak__factory-new",
+    "517-42__stattrak__field-tested",
+    "517-42__stattrak__minimal-wear",
+    "517-42__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "514-72",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-mesh-tan",
+    "catalog_id": 72,
+    "id": 72,
+    "localized_names": {
+      "brazilian": "Grade de Safári",
+      "bulgarian": "Мрежа за сафари",
+      "czech": "Safari Mesh",
+      "danish": "Safari Mesh",
+      "dutch": "Safari Mesh",
+      "english": "Safari Mesh",
+      "finnish": "Safariverkko",
+      "french": "Maillage safari",
+      "german": "Safarinetz",
+      "greek": "Safari Mesh",
+      "hungarian": "Szafari Háló",
+      "indonesian": "Safari Mesh",
+      "italian": "Safari Mesh",
+      "japanese": "Safari Mesh",
+      "koreana": "사파리 격자 무늬",
+      "latam": "Malla de safari",
+      "norwegian": "Safari Mesh",
+      "polish": "Siatka safari",
+      "portuguese": "Safari Mesh",
+      "romanian": "Safari Mesh",
+      "russian": "Африканская сетка",
+      "schinese": "狩猎网格",
+      "schinese_pw": "Safari Mesh",
+      "spanish": "Malla de safari",
+      "swedish": "Safari Mesh",
+      "tchinese": "狩獵網格",
+      "thai": "Safari Mesh",
+      "turkish": "Safari Ağı",
+      "ukrainian": "Сітка сафарі",
+      "vietnamese": "Safari Mesh"
+    },
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-72",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Grade de Safári",
+    "bulgarian": "Боуи нож | Мрежа за сафари",
+    "czech": "Nůž Bowie | Safari Mesh",
+    "danish": "Bowie-kniv | Safari Mesh",
+    "dutch": "Bowiemes | Safari Mesh",
+    "english": "Bowie Knife | Safari Mesh",
+    "finnish": "Bowie-puukko | Safariverkko",
+    "french": "Couteau Bowie | Maillage safari",
+    "german": "Bowiemesser | Safarinetz",
+    "greek": "Μαχαίρι Bowie | Safari Mesh",
+    "hungarian": "Bowie kés | Szafari Háló",
+    "indonesian": "Pisau Bowie | Safari Mesh",
+    "italian": "Coltello Bowie | Safari Mesh",
+    "japanese": "Bowie ナイフ | Safari Mesh",
+    "koreana": "보위 칼 | 사파리 격자 무늬",
+    "latam": "Cuchillo Bowie | Malla de safari",
+    "norwegian": "Bowiekniv | Safari Mesh",
+    "polish": "Nóż Bowie | Siatka safari",
+    "portuguese": "Faca Bowie | Safari Mesh",
+    "romanian": "Cuțit Bowie | Safari Mesh",
+    "russian": "Нож Боуи | Африканская сетка",
+    "schinese": "鲍伊猎刀 | 狩猎网格",
+    "schinese_pw": "Bowie Knife | Safari Mesh",
+    "spanish": "Cuchillo Bowie | Malla de safari",
+    "swedish": "Bowiekniv | Safari Mesh",
+    "tchinese": "布伊刀 | 狩獵網格",
+    "thai": "มีดโบวี | Safari Mesh",
+    "turkish": "Bowie Bıçağı | Safari Ağı",
+    "ukrainian": "Ніж Бові | Сітка сафарі",
+    "vietnamese": "Dao Bowie | Safari Mesh"
+  },
+  "media": {
+    "asset_id": "skin__514-72",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-72/light.png",
+      "data/api/media/rendered/files/skins/514-72/medium.png",
+      "data/api/media/rendered/files/skins/514-72/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-72.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-72/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-72/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-72/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-72/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_sp_mesh_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_sp_mesh_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_sp_mesh_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Safari Mesh",
+  "search_slug": "bowie-knife-safari-mesh",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-72__normal__vanilla",
+    "514-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

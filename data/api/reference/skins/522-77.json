@@ -1,0 +1,72 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "522-77",
+  "finish": {
+    "codename": "hy_forest_boreal",
+    "id": 77,
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 77,
+    "weapon_id": 522
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "522-77",
+  "name": "Stiletto Knife | Boreal Forest",
+  "search_slug": "stiletto-knife-boreal-forest",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-20",
+            "id": 4482,
+            "kind": "weapon-case",
+            "name": "Horizon Case",
+            "search_slug": "horizon-case"
+          },
+          {
+            "canonical_slug": "crate-community-21",
+            "id": 4548,
+            "kind": "weapon-case",
+            "name": "Danger Zone Case",
+            "search_slug": "danger-zone-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "522-77__normal__vanilla",
+    "522-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_stiletto",
+    "id": 522,
+    "name": "Stiletto Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

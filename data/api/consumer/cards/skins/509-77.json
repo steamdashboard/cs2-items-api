@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "509-77",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-forest-boreal",
+    "catalog_id": 77,
+    "id": 77,
+    "localized_names": {
+      "brazilian": "Floresta Boreal",
+      "bulgarian": "Северна гора",
+      "czech": "Boreal Forest",
+      "danish": "Boreal Forest",
+      "dutch": "Boreal Forest",
+      "english": "Boreal Forest",
+      "finnish": "Pohjoismetsä",
+      "french": "Forêt boréale",
+      "german": "Borealer Nadelwald",
+      "greek": "Boreal Forest",
+      "hungarian": "Északi Erdő",
+      "indonesian": "Boreal Forest",
+      "italian": "Boreal Forest",
+      "japanese": "Boreal Forest",
+      "koreana": "북방림",
+      "latam": "Bosque boreal",
+      "norwegian": "Boreal Forest",
+      "polish": "Tajga",
+      "portuguese": "Boreal Forest",
+      "romanian": "Boreal Forest",
+      "russian": "Северный лес",
+      "schinese": "北方森林",
+      "schinese_pw": "Boreal Forest",
+      "spanish": "Bosque boreal",
+      "swedish": "Boreal Forest",
+      "tchinese": "北寒帶林",
+      "thai": "Boreal Forest",
+      "turkish": "Kuzey Ormanı",
+      "ukrainian": "Тундра",
+      "vietnamese": "Boreal Forest"
+    },
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "509-77",
+  "localized_names": {
+    "brazilian": "Faca do Caçador | Floresta Boreal",
+    "bulgarian": "Ловджийски нож | Северна гора",
+    "czech": "Lovecký nůž | Boreal Forest",
+    "danish": "Huntsman-kniv | Boreal Forest",
+    "dutch": "Jagersmes | Boreal Forest",
+    "english": "Huntsman Knife | Boreal Forest",
+    "finnish": "Metsämiehen veitsi | Pohjoismetsä",
+    "french": "Couteau de chasse | Forêt boréale",
+    "german": "Jagdmesser | Borealer Nadelwald",
+    "greek": "Μαχαίρι Huntsman | Boreal Forest",
+    "hungarian": "Vadászkés | Északi Erdő",
+    "indonesian": "Pisau Pemburu | Boreal Forest",
+    "italian": "Coltello da cacciatore | Boreal Forest",
+    "japanese": "Huntsman ナイフ | Boreal Forest",
+    "koreana": "헌츠맨 칼 | 북방림",
+    "latam": "Cuchillo de cazador | Bosque boreal",
+    "norwegian": "Jegerkniv | Boreal Forest",
+    "polish": "Nóż myśliwski | Tajga",
+    "portuguese": "Faca Huntsman | Boreal Forest",
+    "romanian": "Cuțit Huntsman | Boreal Forest",
+    "russian": "Охотничий нож | Северный лес",
+    "schinese": "猎杀者匕首 | 北方森林",
+    "schinese_pw": "Huntsman Knife | Boreal Forest",
+    "spanish": "Cuchillo del Cazador | Bosque boreal",
+    "swedish": "Huntsmankniv | Boreal Forest",
+    "tchinese": "獵刀 | 北寒帶林",
+    "thai": "มีดนายพราน | Boreal Forest",
+    "turkish": "Avcı Bıçağı | Kuzey Ormanı",
+    "ukrainian": "Мисливський ніж | Тундра",
+    "vietnamese": "Dao Huntsman | Boreal Forest"
+  },
+  "media": {
+    "asset_id": "skin__509-77",
+    "images_png": [
+      "data/api/media/rendered/files/skins/509-77/light.png",
+      "data/api/media/rendered/files/skins/509-77/medium.png",
+      "data/api/media/rendered/files/skins/509-77/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/509-77.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/509-77/heavy.png",
+      "light": "data/api/media/rendered/files/skins/509-77/light.png",
+      "medium": "data/api/media/rendered/files/skins/509-77/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/509-77/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_tactical_hy_forest_boreal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_tactical_hy_forest_boreal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_tactical_hy_forest_boreal_medium_png.vtex_c"
+    }
+  },
+  "name": "Huntsman Knife | Boreal Forest",
+  "search_slug": "huntsman-knife-boreal-forest",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-3",
+        "id": 4017,
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
+        "via_special_pool": "community_case_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-3-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Huntsman Knife ★",
+        "search_slug": "community-case-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "509-77__normal__vanilla",
+    "509-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-tactical",
+    "id": 509,
+    "localized_names": {
+      "brazilian": "Faca do Caçador",
+      "bulgarian": "Ловджийски нож",
+      "czech": "Lovecký nůž",
+      "danish": "Huntsman-kniv",
+      "dutch": "Jagersmes",
+      "english": "Huntsman Knife",
+      "finnish": "Metsämiehen veitsi",
+      "french": "Couteau de chasse",
+      "german": "Jagdmesser",
+      "greek": "Μαχαίρι Huntsman",
+      "hungarian": "Vadászkés",
+      "indonesian": "Pisau Pemburu",
+      "italian": "Coltello da cacciatore",
+      "japanese": "Huntsman ナイフ",
+      "koreana": "헌츠맨 칼",
+      "latam": "Cuchillo de cazador",
+      "norwegian": "Jegerkniv",
+      "polish": "Nóż myśliwski",
+      "portuguese": "Faca Huntsman",
+      "romanian": "Cuțit Huntsman",
+      "russian": "Охотничий нож",
+      "schinese": "猎杀者匕首",
+      "schinese_pw": "Huntsman Knife",
+      "spanish": "Cuchillo del Cazador",
+      "swedish": "Huntsmankniv",
+      "tchinese": "獵刀",
+      "thai": "มีดนายพราน",
+      "turkish": "Avcı Bıçağı",
+      "ukrainian": "Мисливський ніж",
+      "vietnamese": "Dao Huntsman"
+    },
+    "name": "Huntsman Knife",
+    "search_slug": "huntsman-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

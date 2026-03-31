@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "520-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "520-175",
+  "localized_names": {
+    "brazilian": "Faca Navaja | Brasas",
+    "bulgarian": "Наваха нож | Обгорено",
+    "czech": "Nůž Navaja | Scorched",
+    "danish": "Navaja-kniv | Scorched",
+    "dutch": "Navaja | Scorched",
+    "english": "Navaja Knife | Scorched",
+    "finnish": "Linkkuveitsi | Korventunut",
+    "french": "Navaja | Brûlé",
+    "german": "Navaja-Messer | Versengt",
+    "greek": "Μαχαίρι Navaja | Scorched",
+    "hungarian": "Navaja kés | Megperzselt",
+    "indonesian": "Pisau Navaja | Scorched",
+    "italian": "Coltello Navaja | Scorched",
+    "japanese": "Navaja ナイフ | Scorched",
+    "koreana": "나바하 칼 | 그을림",
+    "latam": "Navaja | Chamuscado",
+    "norwegian": "Navaja | Scorched",
+    "polish": "Navaja | Popiół",
+    "portuguese": "Faca Navaja | Scorched",
+    "romanian": "Cuțit Navaja | Scorched",
+    "russian": "Наваха | Сажа",
+    "schinese": "折刀 | 枯焦之色",
+    "schinese_pw": "Navaja Knife | Scorched",
+    "spanish": "Navaja | Chamuscado",
+    "swedish": "Navajakniv | Scorched",
+    "tchinese": "西班牙折刀 | 熾灼",
+    "thai": "มีดนาวาฮา | Scorched",
+    "turkish": "Navaja Bıçağı | Alazlanmış",
+    "ukrainian": "Наваха | Випалення",
+    "vietnamese": "Dao Navaja | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__520-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/520-175/light.png",
+      "data/api/media/rendered/files/skins/520-175/medium.png",
+      "data/api/media/rendered/files/skins/520-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/520-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/520-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/520-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/520-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/520-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Navaja Knife | Scorched",
+  "search_slug": "navaja-knife-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "520-175__normal__vanilla",
+    "520-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gypsy-jackknife",
+    "id": 520,
+    "localized_names": {
+      "brazilian": "Faca Navaja",
+      "bulgarian": "Наваха нож",
+      "czech": "Nůž Navaja",
+      "danish": "Navaja-kniv",
+      "dutch": "Navaja",
+      "english": "Navaja Knife",
+      "finnish": "Linkkuveitsi",
+      "french": "Navaja",
+      "german": "Navaja-Messer",
+      "greek": "Μαχαίρι Navaja",
+      "hungarian": "Navaja kés",
+      "indonesian": "Pisau Navaja",
+      "italian": "Coltello Navaja",
+      "japanese": "Navaja ナイフ",
+      "koreana": "나바하 칼",
+      "latam": "Navaja",
+      "norwegian": "Navaja",
+      "polish": "Navaja",
+      "portuguese": "Faca Navaja",
+      "romanian": "Cuțit Navaja",
+      "russian": "Наваха",
+      "schinese": "折刀",
+      "schinese_pw": "Navaja Knife",
+      "spanish": "Navaja",
+      "swedish": "Navajakniv",
+      "tchinese": "西班牙折刀",
+      "thai": "มีดนาวาฮา",
+      "turkish": "Navaja Bıçağı",
+      "ukrainian": "Наваха",
+      "vietnamese": "Dao Navaja"
+    },
+    "name": "Navaja Knife",
+    "search_slug": "navaja-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

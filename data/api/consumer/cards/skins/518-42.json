@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "518-42",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-blued",
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "518-42",
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência | Aço Azul",
+    "bulgarian": "Нож за оцеляване | Синя стомана",
+    "czech": "Záchranářský nůž | Blue Steel",
+    "danish": "Overlevelseskniv | Blue Steel",
+    "dutch": "Overlevingsmes | Blue Steel",
+    "english": "Survival Knife | Blue Steel",
+    "finnish": "Selviytymisveitsi | Sininen teräs",
+    "french": "Couteau de survie | Acier bleui",
+    "german": "Survival-Messer | Blauer Stahl",
+    "greek": "Μαχαίρι Survival | Blue Steel",
+    "hungarian": "Túlélőkés | Kék Acél",
+    "indonesian": "Pisau Survival | Blue Steel",
+    "italian": "Coltello da sopravvivenza | Blue Steel",
+    "japanese": "サバイバルナイフ | Blue Steel",
+    "koreana": "서바이벌 칼 | 푸른 강철",
+    "latam": "Cuchillo de supervivencia | Azul metalizado",
+    "norwegian": "Overlevelseskniv | Blue Steel",
+    "polish": "Nóż survivalowy | Niebieska stal",
+    "portuguese": "Faca Survival | Blue Steel",
+    "romanian": "Cuțit de supraviețuire | Blue Steel",
+    "russian": "Нож выживания | Вороненая сталь",
+    "schinese": "求生匕首 | 蓝钢",
+    "schinese_pw": "Survival Knife | Blue Steel",
+    "spanish": "Cuchillo de supervivencia | Azul metalizado",
+    "swedish": "Överlevnadskniv | Blue Steel",
+    "tchinese": "求生刀 | 藍鋼",
+    "thai": "มีดเซอร์ไวเวอร์ | Blue Steel",
+    "turkish": "Hayatta Kalma Bıçağı | Mavi Çelik",
+    "ukrainian": "Ніж для виживання | Блакитна сталь",
+    "vietnamese": "Dao sinh tồn | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__518-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/518-42/light.png",
+      "data/api/media/rendered/files/skins/518-42/medium.png",
+      "data/api/media/rendered/files/skins/518-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/518-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/518-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/518-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/518-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/518-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_canis_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_canis_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_canis_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "Survival Knife | Blue Steel",
+  "search_slug": "survival-knife-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "518-42__normal__battle-scarred",
+    "518-42__normal__factory-new",
+    "518-42__normal__field-tested",
+    "518-42__normal__minimal-wear",
+    "518-42__normal__well-worn",
+    "518-42__stattrak__battle-scarred",
+    "518-42__stattrak__factory-new",
+    "518-42__stattrak__field-tested",
+    "518-42__stattrak__minimal-wear",
+    "518-42__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-canis",
+    "id": 518,
+    "localized_names": {
+      "brazilian": "Faca de Sobrevivência",
+      "bulgarian": "Нож за оцеляване",
+      "czech": "Záchranářský nůž",
+      "danish": "Overlevelseskniv",
+      "dutch": "Overlevingsmes",
+      "english": "Survival Knife",
+      "finnish": "Selviytymisveitsi",
+      "french": "Couteau de survie",
+      "german": "Survival-Messer",
+      "greek": "Μαχαίρι Survival",
+      "hungarian": "Túlélőkés",
+      "indonesian": "Pisau Survival",
+      "italian": "Coltello da sopravvivenza",
+      "japanese": "サバイバルナイフ",
+      "koreana": "서바이벌 칼",
+      "latam": "Cuchillo de supervivencia",
+      "norwegian": "Overlevelseskniv",
+      "polish": "Nóż survivalowy",
+      "portuguese": "Faca Survival",
+      "romanian": "Cuțit de supraviețuire",
+      "russian": "Нож выживания",
+      "schinese": "求生匕首",
+      "schinese_pw": "Survival Knife",
+      "spanish": "Cuchillo de supervivencia",
+      "swedish": "Överlevnadskniv",
+      "tchinese": "求生刀",
+      "thai": "มีดเซอร์ไวเวอร์",
+      "turkish": "Hayatta Kalma Bıçağı",
+      "ukrainian": "Ніж для виживання",
+      "vietnamese": "Dao sinh tồn"
+    },
+    "name": "Survival Knife",
+    "search_slug": "survival-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

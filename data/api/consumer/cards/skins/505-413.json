@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "505-413",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marble-fade",
+    "catalog_id": 413,
+    "id": 413,
+    "localized_names": {
+      "brazilian": "Mármore Desbotado",
+      "bulgarian": "Мраморно преливане",
+      "czech": "Marble Fade",
+      "danish": "Marble Fade",
+      "dutch": "Marble Fade",
+      "english": "Marble Fade",
+      "finnish": "Marmorihäivytys",
+      "french": "Marbre fondu",
+      "german": "Marmorfärbung",
+      "greek": "Marble Fade",
+      "hungarian": "Fakuló Márvány",
+      "indonesian": "Marble Fade",
+      "italian": "Marble Fade",
+      "japanese": "Marble Fade",
+      "koreana": "흐릿한 대리석",
+      "latam": "Mármol desteñido",
+      "norwegian": "Marble Fade",
+      "polish": "Marmurkowy gradient",
+      "portuguese": "Marble Fade",
+      "romanian": "Marble Fade",
+      "russian": "Мраморный градиент",
+      "schinese": "渐变大理石",
+      "schinese_pw": "Marble Fade",
+      "spanish": "Mármol desteñido",
+      "swedish": "Marble Fade",
+      "tchinese": "大理石漸層",
+      "thai": "Marble Fade",
+      "turkish": "Solgun Mermer",
+      "ukrainian": "Мармуровий перелив",
+      "vietnamese": "Marble Fade"
+    },
+    "name": "Marble Fade",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "505-413",
+  "localized_names": {
+    "brazilian": "Canivete | Mármore Desbotado",
+    "bulgarian": "Сгъваем нож | Мраморно преливане",
+    "czech": "Skládací nůž | Marble Fade",
+    "danish": "Foldekniv | Marble Fade",
+    "dutch": "Knipmes | Marble Fade",
+    "english": "Flip Knife | Marble Fade",
+    "finnish": "Taittoveitsi | Marmorihäivytys",
+    "french": "Couteau pliant | Marbre fondu",
+    "german": "Klappmesser | Marmorfärbung",
+    "greek": "Flip Knife | Marble Fade",
+    "hungarian": "Összecsukható kés | Fakuló Márvány",
+    "indonesian": "Pisau Lipat | Marble Fade",
+    "italian": "Coltello ricurvo | Marble Fade",
+    "japanese": "Flip ナイフ | Marble Fade",
+    "koreana": "접이식 칼 | 흐릿한 대리석",
+    "latam": "Navaja | Mármol desteñido",
+    "norwegian": "Foldekniv | Marble Fade",
+    "polish": "Nóż składany | Marmurkowy gradient",
+    "portuguese": "Flip Knife | Marble Fade",
+    "romanian": "Briceag | Marble Fade",
+    "russian": "Складной нож | Мраморный градиент",
+    "schinese": "折叠刀 | 渐变大理石",
+    "schinese_pw": "Flip Knife | Marble Fade",
+    "spanish": "Cuchillo plegable | Mármol desteñido",
+    "swedish": "Fällkniv | Marble Fade",
+    "tchinese": "折疊式軍刀 | 大理石漸層",
+    "thai": "มีดพับ | Marble Fade",
+    "turkish": "Sustalı Bıçak | Solgun Mermer",
+    "ukrainian": "Складаний ніж | Мармуровий перелив",
+    "vietnamese": "Dao bấm | Marble Fade"
+  },
+  "media": {
+    "asset_id": "skin__505-413",
+    "images_png": [
+      "data/api/media/rendered/files/skins/505-413/light.png",
+      "data/api/media/rendered/files/skins/505-413/medium.png",
+      "data/api/media/rendered/files/skins/505-413/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/505-413.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/505-413/heavy.png",
+      "light": "data/api/media/rendered/files/skins/505-413/light.png",
+      "medium": "data/api/media/rendered/files/skins/505-413/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/505-413/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_flip_am_marble_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_flip_am_marble_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_flip_am_marble_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Flip Knife | Marble Fade",
+  "search_slug": "flip-knife-marble-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "505-413__normal__factory-new",
+    "505-413__normal__minimal-wear",
+    "505-413__stattrak__factory-new",
+    "505-413__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-flip",
+    "id": 505,
+    "localized_names": {
+      "brazilian": "Canivete",
+      "bulgarian": "Сгъваем нож",
+      "czech": "Skládací nůž",
+      "danish": "Foldekniv",
+      "dutch": "Knipmes",
+      "english": "Flip Knife",
+      "finnish": "Taittoveitsi",
+      "french": "Couteau pliant",
+      "german": "Klappmesser",
+      "greek": "Flip Knife",
+      "hungarian": "Összecsukható kés",
+      "indonesian": "Pisau Lipat",
+      "italian": "Coltello ricurvo",
+      "japanese": "Flip ナイフ",
+      "koreana": "접이식 칼",
+      "latam": "Navaja",
+      "norwegian": "Foldekniv",
+      "polish": "Nóż składany",
+      "portuguese": "Flip Knife",
+      "romanian": "Briceag",
+      "russian": "Складной нож",
+      "schinese": "折叠刀",
+      "schinese_pw": "Flip Knife",
+      "spanish": "Cuchillo plegable",
+      "swedish": "Fällkniv",
+      "tchinese": "折疊式軍刀",
+      "thai": "มีดพับ",
+      "turkish": "Sustalı Bıçak",
+      "ukrainian": "Складаний ніж",
+      "vietnamese": "Dao bấm"
+    },
+    "name": "Flip Knife",
+    "search_slug": "flip-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

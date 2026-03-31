@@ -1,0 +1,213 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "516-417",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-blackpearl-marbleized",
+    "catalog_id": 417,
+    "id": 417,
+    "localized_names": {
+      "brazilian": "Doppler",
+      "bulgarian": "Доплер",
+      "czech": "Doppler",
+      "danish": "Doppler",
+      "dutch": "Doppler",
+      "english": "Doppler",
+      "finnish": "Doppler",
+      "french": "Doppler",
+      "german": "Doppler",
+      "greek": "Doppler",
+      "hungarian": "Doppler",
+      "indonesian": "Doppler",
+      "italian": "Doppler",
+      "japanese": "Doppler",
+      "koreana": "도플러",
+      "latam": "Doppler",
+      "norwegian": "Doppler",
+      "polish": "Doppler",
+      "portuguese": "Doppler",
+      "romanian": "Doppler",
+      "russian": "Волны",
+      "schinese": "多普勒",
+      "schinese_pw": "Doppler",
+      "spanish": "Doppler",
+      "swedish": "Doppler",
+      "tchinese": "都卜勒",
+      "thai": "Doppler",
+      "turkish": "Doppler",
+      "ukrainian": "Доплер",
+      "vietnamese": "Doppler"
+    },
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-417",
+  "localized_names": {
+    "brazilian": "Adagas Sombrias | Doppler",
+    "bulgarian": "Мрачни кинжали | Доплер",
+    "czech": "Pěstní dýky | Doppler",
+    "danish": "Shadow-daggerter | Doppler",
+    "dutch": "Schaduwdolken | Doppler",
+    "english": "Shadow Daggers | Doppler",
+    "finnish": "Varjotikarit | Doppler",
+    "french": "Dagues sombres | Doppler",
+    "german": "Schattendolche | Doppler",
+    "greek": "Shadow Daggers | Doppler",
+    "hungarian": "Árnyéktőr | Doppler",
+    "indonesian": "Belati Bayangan | Doppler",
+    "italian": "Fendi ombra | Doppler",
+    "japanese": "シャドウダガー | Doppler",
+    "koreana": "섀도우 칼 | 도플러",
+    "latam": "Dagas Sombrías | Doppler",
+    "norwegian": "Skyggedolker | Doppler",
+    "polish": "Sztylety Cienia | Doppler",
+    "portuguese": "Shadow Daggers | Doppler",
+    "romanian": "Pumnale Shadow | Doppler",
+    "russian": "Тычковые ножи | Волны",
+    "schinese": "暗影双匕 | 多普勒",
+    "schinese_pw": "Shadow Daggers | Doppler",
+    "spanish": "Dagas Sombrías | Doppler",
+    "swedish": "Skuggdolkar | Doppler",
+    "tchinese": "暗影匕首 | 都卜勒",
+    "thai": "มีดชาโดว์ดักเกอร์ | Doppler",
+    "turkish": "Gölge Hançerler | Doppler",
+    "ukrainian": "Тіньові ножі | Доплер",
+    "vietnamese": "Dao găm chữ T | Doppler"
+  },
+  "media": {
+    "asset_id": "weapon__516",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/516/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/516.json",
+    "models": [
+      "weapons/models/knife/knife_push/weapon_knife_push.vmdl_c",
+      "phase2/weapons/models/knife/knife_push/weapon_knife_push_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/516/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Shadow Daggers | Doppler",
+  "search_slug": "shadow-daggers-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-16",
+        "id": 4351,
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "search_slug": "spectrum-case",
+        "via_special_pool": "spectrum_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-18",
+        "id": 4403,
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "search_slug": "spectrum-2-case",
+        "via_special_pool": "spectrum_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "spectrum-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "spectrum_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "spectrum-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "516-417__normal__factory-new",
+    "516-417__normal__minimal-wear",
+    "516-417__stattrak__factory-new",
+    "516-417__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-push",
+    "id": 516,
+    "localized_names": {
+      "brazilian": "Adagas Sombrias",
+      "bulgarian": "Мрачни кинжали",
+      "czech": "Pěstní dýky",
+      "danish": "Shadow-daggerter",
+      "dutch": "Schaduwdolken",
+      "english": "Shadow Daggers",
+      "finnish": "Varjotikarit",
+      "french": "Dagues sombres",
+      "german": "Schattendolche",
+      "greek": "Shadow Daggers",
+      "hungarian": "Árnyéktőr",
+      "indonesian": "Belati Bayangan",
+      "italian": "Fendi ombra",
+      "japanese": "シャドウダガー",
+      "koreana": "섀도우 칼",
+      "latam": "Dagas Sombrías",
+      "norwegian": "Skyggedolker",
+      "polish": "Sztylety Cienia",
+      "portuguese": "Shadow Daggers",
+      "romanian": "Pumnale Shadow",
+      "russian": "Тычковые ножи",
+      "schinese": "暗影双匕",
+      "schinese_pw": "Shadow Daggers",
+      "spanish": "Dagas Sombrías",
+      "swedish": "Skuggdolkar",
+      "tchinese": "暗影匕首",
+      "thai": "มีดชาโดว์ดักเกอร์",
+      "turkish": "Gölge Hançerler",
+      "ukrainian": "Тіньові ножі",
+      "vietnamese": "Dao găm chữ T"
+    },
+    "name": "Shadow Daggers",
+    "search_slug": "shadow-daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "518-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "518-40",
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência | Noite",
+    "bulgarian": "Нож за оцеляване | Нощно",
+    "czech": "Záchranářský nůž | Night",
+    "danish": "Overlevelseskniv | Night",
+    "dutch": "Overlevingsmes | Night",
+    "english": "Survival Knife | Night",
+    "finnish": "Selviytymisveitsi | Yö",
+    "french": "Couteau de survie | Nuit",
+    "german": "Survival-Messer | Nacht",
+    "greek": "Μαχαίρι Survival | Night",
+    "hungarian": "Túlélőkés | Éjszaka",
+    "indonesian": "Pisau Survival | Night",
+    "italian": "Coltello da sopravvivenza | Night",
+    "japanese": "サバイバルナイフ | Night",
+    "koreana": "서바이벌 칼 | 밤",
+    "latam": "Cuchillo de supervivencia | Nocturno",
+    "norwegian": "Overlevelseskniv | Night",
+    "polish": "Nóż survivalowy | Noc",
+    "portuguese": "Faca Survival | Night",
+    "romanian": "Cuțit de supraviețuire | Night",
+    "russian": "Нож выживания | Ночь",
+    "schinese": "求生匕首 | 噩梦之夜",
+    "schinese_pw": "Survival Knife | Night",
+    "spanish": "Cuchillo de supervivencia | Noche cerrada",
+    "swedish": "Överlevnadskniv | Night",
+    "tchinese": "求生刀 | 惡夢之夜",
+    "thai": "มีดเซอร์ไวเวอร์ | Night",
+    "turkish": "Hayatta Kalma Bıçağı | Gece",
+    "ukrainian": "Ніж для виживання | Ніч",
+    "vietnamese": "Dao sinh tồn | Night"
+  },
+  "media": {
+    "asset_id": "weapon__518",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/518/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/518.json",
+    "models": [
+      "weapons/models/knife/knife_canis/weapon_knife_canis.vmdl_c",
+      "phase2/weapons/models/knife/knife_canis/weapon_knife_canis_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/518/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Survival Knife | Night",
+  "search_slug": "survival-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "518-40__normal__vanilla",
+    "518-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-canis",
+    "id": 518,
+    "localized_names": {
+      "brazilian": "Faca de Sobrevivência",
+      "bulgarian": "Нож за оцеляване",
+      "czech": "Záchranářský nůž",
+      "danish": "Overlevelseskniv",
+      "dutch": "Overlevingsmes",
+      "english": "Survival Knife",
+      "finnish": "Selviytymisveitsi",
+      "french": "Couteau de survie",
+      "german": "Survival-Messer",
+      "greek": "Μαχαίρι Survival",
+      "hungarian": "Túlélőkés",
+      "indonesian": "Pisau Survival",
+      "italian": "Coltello da sopravvivenza",
+      "japanese": "サバイバルナイフ",
+      "koreana": "서바이벌 칼",
+      "latam": "Cuchillo de supervivencia",
+      "norwegian": "Overlevelseskniv",
+      "polish": "Nóż survivalowy",
+      "portuguese": "Faca Survival",
+      "romanian": "Cuțit de supraviețuire",
+      "russian": "Нож выживания",
+      "schinese": "求生匕首",
+      "schinese_pw": "Survival Knife",
+      "spanish": "Cuchillo de supervivencia",
+      "swedish": "Överlevnadskniv",
+      "tchinese": "求生刀",
+      "thai": "มีดเซอร์ไวเวอร์",
+      "turkish": "Hayatta Kalma Bıçağı",
+      "ukrainian": "Ніж для виживання",
+      "vietnamese": "Dao sinh tồn"
+    },
+    "name": "Survival Knife",
+    "search_slug": "survival-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "523-72",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-mesh-tan",
+    "catalog_id": 72,
+    "id": 72,
+    "localized_names": {
+      "brazilian": "Grade de Safári",
+      "bulgarian": "Мрежа за сафари",
+      "czech": "Safari Mesh",
+      "danish": "Safari Mesh",
+      "dutch": "Safari Mesh",
+      "english": "Safari Mesh",
+      "finnish": "Safariverkko",
+      "french": "Maillage safari",
+      "german": "Safarinetz",
+      "greek": "Safari Mesh",
+      "hungarian": "Szafari Háló",
+      "indonesian": "Safari Mesh",
+      "italian": "Safari Mesh",
+      "japanese": "Safari Mesh",
+      "koreana": "사파리 격자 무늬",
+      "latam": "Malla de safari",
+      "norwegian": "Safari Mesh",
+      "polish": "Siatka safari",
+      "portuguese": "Safari Mesh",
+      "romanian": "Safari Mesh",
+      "russian": "Африканская сетка",
+      "schinese": "狩猎网格",
+      "schinese_pw": "Safari Mesh",
+      "spanish": "Malla de safari",
+      "swedish": "Safari Mesh",
+      "tchinese": "狩獵網格",
+      "thai": "Safari Mesh",
+      "turkish": "Safari Ağı",
+      "ukrainian": "Сітка сафарі",
+      "vietnamese": "Safari Mesh"
+    },
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "523-72",
+  "localized_names": {
+    "brazilian": "Faca Talon | Grade de Safári",
+    "bulgarian": "Нож нокът | Мрежа за сафари",
+    "czech": "Talon | Safari Mesh",
+    "danish": "Talon-kniv | Safari Mesh",
+    "dutch": "Talon-mes | Safari Mesh",
+    "english": "Talon Knife | Safari Mesh",
+    "finnish": "Kynsiveitsi | Safariverkko",
+    "french": "Canif | Maillage safari",
+    "german": "Talon-Messer | Safarinetz",
+    "greek": "Μαχαίρι Talon | Safari Mesh",
+    "hungarian": "Talon kés | Szafari Háló",
+    "indonesian": "Pisau Talon | Safari Mesh",
+    "italian": "Coltello Talon | Safari Mesh",
+    "japanese": "Talon ナイフ | Safari Mesh",
+    "koreana": "탈론 칼 | 사파리 격자 무늬",
+    "latam": "Cuchillo talón | Malla de safari",
+    "norwegian": "Klokniv | Safari Mesh",
+    "polish": "Szpon | Siatka safari",
+    "portuguese": "Faca Talon | Safari Mesh",
+    "romanian": "Cuțit Talon | Safari Mesh",
+    "russian": "Коготь | Африканская сетка",
+    "schinese": "锯齿爪刀 | 狩猎网格",
+    "schinese_pw": "Talon Knife | Safari Mesh",
+    "spanish": "Cuchillo Garra | Malla de safari",
+    "swedish": "Talonkniv | Safari Mesh",
+    "tchinese": "彎爪刀 | 狩獵網格",
+    "thai": "มีดทาลอน | Safari Mesh",
+    "turkish": "Talon Bıçağı | Safari Ağı",
+    "ukrainian": "Ніж-кіготь | Сітка сафарі",
+    "vietnamese": "Dao Talon | Safari Mesh"
+  },
+  "media": {
+    "asset_id": "skin__523-72",
+    "images_png": [
+      "data/api/media/rendered/files/skins/523-72/light.png",
+      "data/api/media/rendered/files/skins/523-72/medium.png",
+      "data/api/media/rendered/files/skins/523-72/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/523-72.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/523-72/heavy.png",
+      "light": "data/api/media/rendered/files/skins/523-72/light.png",
+      "medium": "data/api/media/rendered/files/skins/523-72/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/523-72/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_widowmaker_sp_mesh_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_widowmaker_sp_mesh_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_widowmaker_sp_mesh_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "Talon Knife | Safari Mesh",
+  "search_slug": "talon-knife-safari-mesh",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "523-72__normal__vanilla",
+    "523-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-widowmaker",
+    "id": 523,
+    "localized_names": {
+      "brazilian": "Faca Talon",
+      "bulgarian": "Нож нокът",
+      "czech": "Talon",
+      "danish": "Talon-kniv",
+      "dutch": "Talon-mes",
+      "english": "Talon Knife",
+      "finnish": "Kynsiveitsi",
+      "french": "Canif",
+      "german": "Talon-Messer",
+      "greek": "Μαχαίρι Talon",
+      "hungarian": "Talon kés",
+      "indonesian": "Pisau Talon",
+      "italian": "Coltello Talon",
+      "japanese": "Talon ナイフ",
+      "koreana": "탈론 칼",
+      "latam": "Cuchillo talón",
+      "norwegian": "Klokniv",
+      "polish": "Szpon",
+      "portuguese": "Faca Talon",
+      "romanian": "Cuțit Talon",
+      "russian": "Коготь",
+      "schinese": "锯齿爪刀",
+      "schinese_pw": "Talon Knife",
+      "spanish": "Cuchillo Garra",
+      "swedish": "Talonkniv",
+      "tchinese": "彎爪刀",
+      "thai": "มีดทาลอน",
+      "turkish": "Talon Bıçağı",
+      "ukrainian": "Ніж-кіготь",
+      "vietnamese": "Dao Talon"
+    },
+    "name": "Talon Knife",
+    "search_slug": "talon-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

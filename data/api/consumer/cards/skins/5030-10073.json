@@ -1,0 +1,206 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5030-10073",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sporty-slingshot",
+    "catalog_id": 10073,
+    "id": 10073,
+    "localized_names": {
+      "brazilian": "Faquinha",
+      "bulgarian": "Прашка",
+      "czech": "Slingshot",
+      "danish": "Slingshot",
+      "dutch": "Slingshot",
+      "english": "Slingshot",
+      "finnish": "Ritsa",
+      "french": "Survivaliste",
+      "german": "Schleuder",
+      "greek": "Slingshot",
+      "hungarian": "Csúzli",
+      "indonesian": "Slingshot",
+      "italian": "Slingshot",
+      "japanese": "Slingshot",
+      "koreana": "슬링샷",
+      "latam": "Slingshot",
+      "norwegian": "Slingshot",
+      "polish": "Miotacz",
+      "portuguese": "Slingshot",
+      "romanian": "Slingshot",
+      "russian": "Мясник",
+      "schinese": "弹弓",
+      "schinese_pw": "Slingshot",
+      "spanish": "Slingshot",
+      "swedish": "Slingshot",
+      "tchinese": "彈弓",
+      "thai": "Slingshot",
+      "turkish": "Sapan",
+      "ukrainian": "Рогатка",
+      "vietnamese": "Slingshot"
+    },
+    "name": "Slingshot",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5030-10073",
+  "localized_names": {
+    "brazilian": "Luvas Esportivas | Faquinha",
+    "bulgarian": "Спортни ръкавици | Прашка",
+    "czech": "Sportovní rukavice | Slingshot",
+    "danish": "Sportshandsker | Slingshot",
+    "dutch": "Sporthandschoenen | Slingshot",
+    "english": "Sport Gloves | Slingshot",
+    "finnish": "Urheiluhanskat | Ritsa",
+    "french": "Gants de sport | Survivaliste",
+    "german": "Sporthandschuhe | Schleuder",
+    "greek": "Σπορ γάντια | Slingshot",
+    "hungarian": "Sportkesztyűk | Csúzli",
+    "indonesian": "Sarung Tangan Olahraga | Slingshot",
+    "italian": "Guanti sportivi | Slingshot",
+    "japanese": "Sport Gloves | Slingshot",
+    "koreana": "스포츠 장갑 | 슬링샷",
+    "latam": "Guantes de deporte | Slingshot",
+    "norwegian": "Sportshansker | Slingshot",
+    "polish": "Rękawice sportowe | Miotacz",
+    "portuguese": "Luvas Desportivas | Slingshot",
+    "romanian": "Mănuși sport | Slingshot",
+    "russian": "Спортивные перчатки | Мясник",
+    "schinese": "运动手套 | 弹弓",
+    "schinese_pw": "Sport Gloves | Slingshot",
+    "spanish": "Guantes de deporte | Slingshot",
+    "swedish": "Sporthandskar | Slingshot",
+    "tchinese": "運動員手套 | 彈弓",
+    "thai": "ถุงมือกีฬา | Slingshot",
+    "turkish": "Spor Eldivenler | Sapan",
+    "ukrainian": "Спортивні рукавиці | Рогатка",
+    "vietnamese": "Găng tay thể thao | Slingshot"
+  },
+  "media": {
+    "asset_id": "skin__5030-10073",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5030-10073/light.png",
+      "data/api/media/rendered/files/skins/5030-10073/medium.png",
+      "data/api/media/rendered/files/skins/5030-10073/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5030-10073.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5030-10073/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5030-10073/light.png",
+      "medium": "data/api/media/rendered/files/skins/5030-10073/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5030-10073/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/sporty_gloves_sporty_slingshot_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/sporty_gloves_sporty_slingshot_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/sporty_gloves_sporty_slingshot_medium_png.vtex_c"
+    }
+  },
+  "name": "Sport Gloves | Slingshot",
+  "search_slug": "sport-gloves-slingshot",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-27",
+        "id": 4717,
+        "kind": "weapon-case",
+        "name": "Operation Broken Fang Case",
+        "search_slug": "operation-broken-fang-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-28",
+        "id": 4747,
+        "kind": "weapon-case",
+        "name": "Snakebite Case",
+        "search_slug": "snakebite-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-31",
+        "id": 4846,
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "search_slug": "recoil-case",
+        "via_special_pool": "set_glove_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-glove-3-unusual",
+        "expansion_rule": "broken-fang-gloves",
+        "id": "set_glove_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-glove-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5030-10073__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "sporty-gloves",
+    "id": 5030,
+    "localized_names": {
+      "brazilian": "Luvas Esportivas",
+      "bulgarian": "Спортни ръкавици",
+      "czech": "Sportovní rukavice",
+      "danish": "Sportshandsker",
+      "dutch": "Sporthandschoenen",
+      "english": "Sport Gloves",
+      "finnish": "Urheiluhanskat",
+      "french": "Gants de sport",
+      "german": "Sporthandschuhe",
+      "greek": "Σπορ γάντια",
+      "hungarian": "Sportkesztyűk",
+      "indonesian": "Sarung Tangan Olahraga",
+      "italian": "Guanti sportivi",
+      "japanese": "Sport Gloves",
+      "koreana": "스포츠 장갑",
+      "latam": "Guantes de deporte",
+      "norwegian": "Sportshansker",
+      "polish": "Rękawice sportowe",
+      "portuguese": "Luvas Desportivas",
+      "romanian": "Mănuși sport",
+      "russian": "Спортивные перчатки",
+      "schinese": "运动手套",
+      "schinese_pw": "Sport Gloves",
+      "spanish": "Guantes de deporte",
+      "swedish": "Sporthandskar",
+      "tchinese": "運動員手套",
+      "thai": "ถุงมือกีฬา",
+      "turkish": "Spor Eldivenler",
+      "ukrainian": "Спортивні рукавиці",
+      "vietnamese": "Găng tay thể thao"
+    },
+    "name": "Sport Gloves",
+    "search_slug": "sport-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

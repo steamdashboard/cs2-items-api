@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "523-5",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-ddpat",
+    "catalog_id": 5,
+    "id": 5,
+    "localized_names": {
+      "brazilian": "Camuflagem Digital — Floresta",
+      "bulgarian": "Горска разпокъсана цифрова шарка",
+      "czech": "Forest DDPAT",
+      "danish": "Forest DDPAT",
+      "dutch": "Forest DDPAT",
+      "english": "Forest DDPAT",
+      "finnish": "Metsä-DDPAT",
+      "french": "Tempéré numérique",
+      "german": "Wald-DDPAT",
+      "greek": "Forest DDPAT",
+      "hungarian": "Erdei DDPAT",
+      "indonesian": "Forest DDPAT",
+      "italian": "Forest DDPAT",
+      "japanese": "Forest DDPAT",
+      "koreana": "숲 디지털 위장 무늬",
+      "latam": "DDPAT de bosque",
+      "norwegian": "Forest DDPAT",
+      "polish": "Leśny DDPAT",
+      "portuguese": "Forest DDPAT",
+      "romanian": "Forest DDPAT",
+      "russian": "Пиксельный камуфляж «Лес»",
+      "schinese": "森林 DDPAT",
+      "schinese_pw": "Forest DDPAT",
+      "spanish": "DDPAT bosque",
+      "swedish": "Forest DDPAT",
+      "tchinese": "數位森林",
+      "thai": "Forest DDPAT",
+      "turkish": "Orman DDPAT",
+      "ukrainian": "Пікс. камуфляж «Ліс»",
+      "vietnamese": "Forest DDPAT"
+    },
+    "name": "Forest DDPAT",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "523-5",
+  "localized_names": {
+    "brazilian": "Faca Talon | Camuflagem Digital — Floresta",
+    "bulgarian": "Нож нокът | Горска разпокъсана цифрова шарка",
+    "czech": "Talon | Forest DDPAT",
+    "danish": "Talon-kniv | Forest DDPAT",
+    "dutch": "Talon-mes | Forest DDPAT",
+    "english": "Talon Knife | Forest DDPAT",
+    "finnish": "Kynsiveitsi | Metsä-DDPAT",
+    "french": "Canif | Tempéré numérique",
+    "german": "Talon-Messer | Wald-DDPAT",
+    "greek": "Μαχαίρι Talon | Forest DDPAT",
+    "hungarian": "Talon kés | Erdei DDPAT",
+    "indonesian": "Pisau Talon | Forest DDPAT",
+    "italian": "Coltello Talon | Forest DDPAT",
+    "japanese": "Talon ナイフ | Forest DDPAT",
+    "koreana": "탈론 칼 | 숲 디지털 위장 무늬",
+    "latam": "Cuchillo talón | DDPAT de bosque",
+    "norwegian": "Klokniv | Forest DDPAT",
+    "polish": "Szpon | Leśny DDPAT",
+    "portuguese": "Faca Talon | Forest DDPAT",
+    "romanian": "Cuțit Talon | Forest DDPAT",
+    "russian": "Коготь | Пиксельный камуфляж «Лес»",
+    "schinese": "锯齿爪刀 | 森林 DDPAT",
+    "schinese_pw": "Talon Knife | Forest DDPAT",
+    "spanish": "Cuchillo Garra | DDPAT bosque",
+    "swedish": "Talonkniv | Forest DDPAT",
+    "tchinese": "彎爪刀 | 數位森林",
+    "thai": "มีดทาลอน | Forest DDPAT",
+    "turkish": "Talon Bıçağı | Orman DDPAT",
+    "ukrainian": "Ніж-кіготь | Пікс. камуфляж «Ліс»",
+    "vietnamese": "Dao Talon | Forest DDPAT"
+  },
+  "media": {
+    "asset_id": "skin__523-5",
+    "images_png": [
+      "data/api/media/rendered/files/skins/523-5/light.png",
+      "data/api/media/rendered/files/skins/523-5/medium.png",
+      "data/api/media/rendered/files/skins/523-5/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/523-5.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/523-5/heavy.png",
+      "light": "data/api/media/rendered/files/skins/523-5/light.png",
+      "medium": "data/api/media/rendered/files/skins/523-5/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/523-5/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_widowmaker_hy_ddpat_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_widowmaker_hy_ddpat_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_widowmaker_hy_ddpat_medium_png.vtex_c"
+    }
+  },
+  "name": "Talon Knife | Forest DDPAT",
+  "search_slug": "talon-knife-forest-ddpat",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "523-5__normal__vanilla",
+    "523-5__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-widowmaker",
+    "id": 523,
+    "localized_names": {
+      "brazilian": "Faca Talon",
+      "bulgarian": "Нож нокът",
+      "czech": "Talon",
+      "danish": "Talon-kniv",
+      "dutch": "Talon-mes",
+      "english": "Talon Knife",
+      "finnish": "Kynsiveitsi",
+      "french": "Canif",
+      "german": "Talon-Messer",
+      "greek": "Μαχαίρι Talon",
+      "hungarian": "Talon kés",
+      "indonesian": "Pisau Talon",
+      "italian": "Coltello Talon",
+      "japanese": "Talon ナイフ",
+      "koreana": "탈론 칼",
+      "latam": "Cuchillo talón",
+      "norwegian": "Klokniv",
+      "polish": "Szpon",
+      "portuguese": "Faca Talon",
+      "romanian": "Cuțit Talon",
+      "russian": "Коготь",
+      "schinese": "锯齿爪刀",
+      "schinese_pw": "Talon Knife",
+      "spanish": "Cuchillo Garra",
+      "swedish": "Talonkniv",
+      "tchinese": "彎爪刀",
+      "thai": "มีดทาลอน",
+      "turkish": "Talon Bıçağı",
+      "ukrainian": "Ніж-кіготь",
+      "vietnamese": "Dao Talon"
+    },
+    "name": "Talon Knife",
+    "search_slug": "talon-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

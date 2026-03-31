@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "516-12",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-webs",
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-12",
+  "localized_names": {
+    "brazilian": "Adagas Sombrias | Teia Rubra",
+    "bulgarian": "Мрачни кинжали | Пурпурна паяжина",
+    "czech": "Pěstní dýky | Crimson Web",
+    "danish": "Shadow-daggerter | Crimson Web",
+    "dutch": "Schaduwdolken | Crimson Web",
+    "english": "Shadow Daggers | Crimson Web",
+    "finnish": "Varjotikarit | Verenpunainen seitti",
+    "french": "Dagues sombres | Toile pourpre",
+    "german": "Schattendolche | Purpurnes Netz",
+    "greek": "Shadow Daggers | Crimson Web",
+    "hungarian": "Árnyéktőr | Karmazsin Háló",
+    "indonesian": "Belati Bayangan | Crimson Web",
+    "italian": "Fendi ombra | Crimson Web",
+    "japanese": "シャドウダガー | Crimson Web",
+    "koreana": "섀도우 칼 | 붉은 그물",
+    "latam": "Dagas Sombrías | Tela escarlata",
+    "norwegian": "Skyggedolker | Crimson Web",
+    "polish": "Sztylety Cienia | Szkarłatna sieć",
+    "portuguese": "Shadow Daggers | Crimson Web",
+    "romanian": "Pumnale Shadow | Crimson Web",
+    "russian": "Тычковые ножи | Кровавая паутина",
+    "schinese": "暗影双匕 | 深红之网",
+    "schinese_pw": "Shadow Daggers | Crimson Web",
+    "spanish": "Dagas Sombrías | Tela escarlata",
+    "swedish": "Skuggdolkar | Crimson Web",
+    "tchinese": "暗影匕首 | 赤紅之網",
+    "thai": "มีดชาโดว์ดักเกอร์ | Crimson Web",
+    "turkish": "Gölge Hançerler | Kızıl Ağ",
+    "ukrainian": "Тіньові ножі | Криваве павутиння",
+    "vietnamese": "Dao găm chữ T | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__516-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/516-12/light.png",
+      "data/api/media/rendered/files/skins/516-12/medium.png",
+      "data/api/media/rendered/files/skins/516-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/516-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/516-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/516-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/516-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/516-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_push_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_push_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_push_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "Shadow Daggers | Crimson Web",
+  "search_slug": "shadow-daggers-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-9",
+        "id": 4138,
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "search_slug": "shadow-case",
+        "via_special_pool": "community_case_9_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-9-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_9_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Shadow Daggers ★",
+        "search_slug": "community-case-9-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "516-12__normal__vanilla",
+    "516-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-push",
+    "id": 516,
+    "localized_names": {
+      "brazilian": "Adagas Sombrias",
+      "bulgarian": "Мрачни кинжали",
+      "czech": "Pěstní dýky",
+      "danish": "Shadow-daggerter",
+      "dutch": "Schaduwdolken",
+      "english": "Shadow Daggers",
+      "finnish": "Varjotikarit",
+      "french": "Dagues sombres",
+      "german": "Schattendolche",
+      "greek": "Shadow Daggers",
+      "hungarian": "Árnyéktőr",
+      "indonesian": "Belati Bayangan",
+      "italian": "Fendi ombra",
+      "japanese": "シャドウダガー",
+      "koreana": "섀도우 칼",
+      "latam": "Dagas Sombrías",
+      "norwegian": "Skyggedolker",
+      "polish": "Sztylety Cienia",
+      "portuguese": "Shadow Daggers",
+      "romanian": "Pumnale Shadow",
+      "russian": "Тычковые ножи",
+      "schinese": "暗影双匕",
+      "schinese_pw": "Shadow Daggers",
+      "spanish": "Dagas Sombrías",
+      "swedish": "Skuggdolkar",
+      "tchinese": "暗影匕首",
+      "thai": "มีดชาโดว์ดักเกอร์",
+      "turkish": "Gölge Hançerler",
+      "ukrainian": "Тіньові ножі",
+      "vietnamese": "Dao găm chữ T"
+    },
+    "name": "Shadow Daggers",
+    "search_slug": "shadow-daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

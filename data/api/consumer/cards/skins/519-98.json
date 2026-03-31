@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "519-98",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-purple",
+    "catalog_id": 98,
+    "id": 98,
+    "localized_names": {
+      "brazilian": "Ultravioleta",
+      "bulgarian": "Ултра виолетово",
+      "czech": "Ultraviolet",
+      "danish": "Ultraviolet",
+      "dutch": "Ultraviolet",
+      "english": "Ultraviolet",
+      "finnish": "Ultravioletti",
+      "french": "Ultraviolet",
+      "german": "Ultraviolett",
+      "greek": "Ultraviolet",
+      "hungarian": "Ultraibolya",
+      "indonesian": "Ultraviolet",
+      "italian": "Ultraviolet",
+      "japanese": "Ultraviolet",
+      "koreana": "자외선",
+      "latam": "Ultravioleta",
+      "norwegian": "Ultraviolet",
+      "polish": "Ultrafiolet",
+      "portuguese": "Ultraviolet",
+      "romanian": "Ultraviolet",
+      "russian": "Ультрафиолет",
+      "schinese": "致命紫罗兰",
+      "schinese_pw": "Ultraviolet",
+      "spanish": "Ultravioleta",
+      "swedish": "Ultraviolet",
+      "tchinese": "致命紫羅蘭",
+      "thai": "Ultraviolet",
+      "turkish": "Morötesi",
+      "ukrainian": "Ультрафіолет",
+      "vietnamese": "Ultraviolet"
+    },
+    "name": "Ultraviolet",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "519-98",
+  "localized_names": {
+    "brazilian": "Faca Ursus | Ultravioleta",
+    "bulgarian": "Мечешки нож | Ултра виолетово",
+    "czech": "Nůž Ursus | Ultraviolet",
+    "danish": "Ursus-kniv | Ultraviolet",
+    "dutch": "Ursus-mes | Ultraviolet",
+    "english": "Ursus Knife | Ultraviolet",
+    "finnish": "Karhuveitsi | Ultravioletti",
+    "french": "Ursus | Ultraviolet",
+    "german": "Ursus-Messer | Ultraviolett",
+    "greek": "Μαχαίρι Ursus | Ultraviolet",
+    "hungarian": "Ursus kés | Ultraibolya",
+    "indonesian": "Pisau Ursus | Ultraviolet",
+    "italian": "Coltello Ursus | Ultraviolet",
+    "japanese": "Ursus ナイフ | Ultraviolet",
+    "koreana": "우르수스 칼 | 자외선",
+    "latam": "Cuchillo ursus | Ultravioleta",
+    "norwegian": "Ursuskniv | Ultraviolet",
+    "polish": "Ursus | Ultrafiolet",
+    "portuguese": "Faca Ursus | Ultraviolet",
+    "romanian": "Cuțit Ursus | Ultraviolet",
+    "russian": "Медвежий нож | Ультрафиолет",
+    "schinese": "熊刀 | 致命紫罗兰",
+    "schinese_pw": "Ursus Knife | Ultraviolet",
+    "spanish": "Cuchillo ursus | Ultravioleta",
+    "swedish": "Ursuskniv | Ultraviolet",
+    "tchinese": "熊刀 | 致命紫羅蘭",
+    "thai": "มีดเออซุส | Ultraviolet",
+    "turkish": "Ursus Bıçağı | Morötesi",
+    "ukrainian": "Ведмежий ніж | Ультрафіолет",
+    "vietnamese": "Dao Ursus | Ultraviolet"
+  },
+  "media": {
+    "asset_id": "skin__519-98",
+    "images_png": [
+      "data/api/media/rendered/files/skins/519-98/light.png",
+      "data/api/media/rendered/files/skins/519-98/medium.png",
+      "data/api/media/rendered/files/skins/519-98/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/519-98.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/519-98/heavy.png",
+      "light": "data/api/media/rendered/files/skins/519-98/light.png",
+      "medium": "data/api/media/rendered/files/skins/519-98/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/519-98/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_ursus_so_purple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_ursus_so_purple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_ursus_so_purple_medium_png.vtex_c"
+    }
+  },
+  "name": "Ursus Knife | Ultraviolet",
+  "search_slug": "ursus-knife-ultraviolet",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-22",
+        "id": 4598,
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "search_slug": "prisma-case",
+        "via_special_pool": "set_community_22_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-25",
+        "id": 4695,
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "search_slug": "prisma-2-case",
+        "via_special_pool": "set_community_22_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      },
+      {
+        "canonical_slug": "set-community-22-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_22_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-22-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "519-98__normal__vanilla",
+    "519-98__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-ursus",
+    "id": 519,
+    "localized_names": {
+      "brazilian": "Faca Ursus",
+      "bulgarian": "Мечешки нож",
+      "czech": "Nůž Ursus",
+      "danish": "Ursus-kniv",
+      "dutch": "Ursus-mes",
+      "english": "Ursus Knife",
+      "finnish": "Karhuveitsi",
+      "french": "Ursus",
+      "german": "Ursus-Messer",
+      "greek": "Μαχαίρι Ursus",
+      "hungarian": "Ursus kés",
+      "indonesian": "Pisau Ursus",
+      "italian": "Coltello Ursus",
+      "japanese": "Ursus ナイフ",
+      "koreana": "우르수스 칼",
+      "latam": "Cuchillo ursus",
+      "norwegian": "Ursuskniv",
+      "polish": "Ursus",
+      "portuguese": "Faca Ursus",
+      "romanian": "Cuțit Ursus",
+      "russian": "Медвежий нож",
+      "schinese": "熊刀",
+      "schinese_pw": "Ursus Knife",
+      "spanish": "Cuchillo ursus",
+      "swedish": "Ursuskniv",
+      "tchinese": "熊刀",
+      "thai": "มีดเออซุส",
+      "turkish": "Ursus Bıçağı",
+      "ukrainian": "Ведмежий ніж",
+      "vietnamese": "Dao Ursus"
+    },
+    "name": "Ursus Knife",
+    "search_slug": "ursus-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

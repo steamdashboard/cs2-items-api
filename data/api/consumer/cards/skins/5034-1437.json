@@ -1,0 +1,190 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5034-1437",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "glove-specialist-wave-blue",
+    "catalog_id": 1437,
+    "id": 1437,
+    "localized_names": {
+      "brazilian": "Marola Gigante",
+      "bulgarian": "Голямо вълнение",
+      "czech": "Big Swell",
+      "danish": "Big Swell",
+      "dutch": "Big Swell",
+      "english": "Big Swell",
+      "finnish": "Hyökyaalto",
+      "french": "Marée haute",
+      "german": "Große Welle",
+      "greek": "Big Swell",
+      "hungarian": "Nagy Hullám",
+      "indonesian": "Big Swell",
+      "italian": "Big Swell",
+      "japanese": "Big Swell",
+      "koreana": "높은 파도",
+      "latam": "Gran ola",
+      "norwegian": "Big Swell",
+      "polish": "Wzbierająca fala",
+      "portuguese": "Big Swell",
+      "romanian": "Big Swell",
+      "russian": "Великий вал",
+      "schinese": "狂澜",
+      "schinese_pw": "Big Swell",
+      "spanish": "Gran ola",
+      "swedish": "Big Swell",
+      "tchinese": "大浪潮",
+      "thai": "Big Swell",
+      "turkish": "Dev Dalga",
+      "ukrainian": "Велика хвиля",
+      "vietnamese": "Big Swell"
+    },
+    "name": "Big Swell",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5034-1437",
+  "localized_names": {
+    "brazilian": "Luvas de Especialista | Marola Gigante",
+    "bulgarian": "Специализирани ръкавици | Голямо вълнение",
+    "czech": "Profesionální rukavice | Big Swell",
+    "danish": "Specialisthandsker | Big Swell",
+    "dutch": "Specialisthandschoenen | Big Swell",
+    "english": "Specialist Gloves | Big Swell",
+    "finnish": "Ammattilaishanskat | Hyökyaalto",
+    "french": "Gants de spécialiste | Marée haute",
+    "german": "Spezialistenhandschuhe | Große Welle",
+    "greek": "Γάντια ειδικού | Big Swell",
+    "hungarian": "Specialista kesztyűk | Nagy Hullám",
+    "indonesian": "Sarung Tangan Spesialis | Big Swell",
+    "italian": "Guanti dello specialista | Big Swell",
+    "japanese": "Specialist Gloves | Big Swell",
+    "koreana": "전문가 장갑 | 높은 파도",
+    "latam": "Guantes de especialista | Gran ola",
+    "norwegian": "Spesialisthansker | Big Swell",
+    "polish": "Rękawice specjalistyczne | Wzbierająca fala",
+    "portuguese": "Luvas de Especialista | Big Swell",
+    "romanian": "Mănuși de specialist | Big Swell",
+    "russian": "Перчатки спецназа | Великий вал",
+    "schinese": "专业手套 | 狂澜",
+    "schinese_pw": "Specialist Gloves | Big Swell",
+    "spanish": "Guantes de especialista | Gran ola",
+    "swedish": "Specialisthandskar | Big Swell",
+    "tchinese": "技術士手套 | 大浪潮",
+    "thai": "ถุงมือผู้เชี่ยวชาญ | Big Swell",
+    "turkish": "Uzman Eldivenleri | Dev Dalga",
+    "ukrainian": "Рукавиці спеціаліста | Велика хвиля",
+    "vietnamese": "Găng tay chuyên viên | Big Swell"
+  },
+  "media": {
+    "asset_id": "skin__5034-1437",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5034-1437/light.png",
+      "data/api/media/rendered/files/skins/5034-1437/medium.png",
+      "data/api/media/rendered/files/skins/5034-1437/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5034-1437.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5034-1437/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5034-1437/light.png",
+      "medium": "data/api/media/rendered/files/skins/5034-1437/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5034-1437/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/specialist_gloves_glove_specialist_wave_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/specialist_gloves_glove_specialist_wave_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/specialist_gloves_glove_specialist_wave_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "Specialist Gloves | Big Swell",
+  "search_slug": "specialist-gloves-big-swell",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [],
+    "containers": [
+      {
+        "canonical_slug": "crate-community-37",
+        "id": 5181,
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "search_slug": "sealed-dead-hand-terminal",
+        "via_special_pool": "set_community_37_unusual"
+      }
+    ],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-37-unusual",
+        "expansion_rule": "volatile-gloves",
+        "id": "set_community_37_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-37-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5034-1437__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "specialist-gloves",
+    "id": 5034,
+    "localized_names": {
+      "brazilian": "Luvas de Especialista",
+      "bulgarian": "Специализирани ръкавици",
+      "czech": "Profesionální rukavice",
+      "danish": "Specialisthandsker",
+      "dutch": "Specialisthandschoenen",
+      "english": "Specialist Gloves",
+      "finnish": "Ammattilaishanskat",
+      "french": "Gants de spécialiste",
+      "german": "Spezialistenhandschuhe",
+      "greek": "Γάντια ειδικού",
+      "hungarian": "Specialista kesztyűk",
+      "indonesian": "Sarung Tangan Spesialis",
+      "italian": "Guanti dello specialista",
+      "japanese": "Specialist Gloves",
+      "koreana": "전문가 장갑",
+      "latam": "Guantes de especialista",
+      "norwegian": "Spesialisthansker",
+      "polish": "Rękawice specjalistyczne",
+      "portuguese": "Luvas de Especialista",
+      "romanian": "Mănuși de specialist",
+      "russian": "Перчатки спецназа",
+      "schinese": "专业手套",
+      "schinese_pw": "Specialist Gloves",
+      "spanish": "Guantes de especialista",
+      "swedish": "Specialisthandskar",
+      "tchinese": "技術士手套",
+      "thai": "ถุงมือผู้เชี่ยวชาญ",
+      "turkish": "Uzman Eldivenleri",
+      "ukrainian": "Рукавиці спеціаліста",
+      "vietnamese": "Găng tay chuyên viên"
+    },
+    "name": "Specialist Gloves",
+    "search_slug": "specialist-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

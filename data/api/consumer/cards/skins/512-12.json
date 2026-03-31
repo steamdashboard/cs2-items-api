@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "512-12",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-webs",
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-12",
+  "localized_names": {
+    "brazilian": "Canivete Falchion | Teia Rubra",
+    "bulgarian": "Нож „Фалчион“ | Пурпурна паяжина",
+    "czech": "Falchion | Crimson Web",
+    "danish": "Falchion-kniv | Crimson Web",
+    "dutch": "Falchion-mes | Crimson Web",
+    "english": "Falchion Knife | Crimson Web",
+    "finnish": "Falchion-veitsi | Verenpunainen seitti",
+    "french": "Couteau fauchon | Toile pourpre",
+    "german": "Falchion-Messer | Purpurnes Netz",
+    "greek": "Μαχαίρι Falchion | Crimson Web",
+    "hungarian": "Handzsárkés | Karmazsin Háló",
+    "indonesian": "Pisau Falchion | Crimson Web",
+    "italian": "Coltello falchion | Crimson Web",
+    "japanese": "Falchion ナイフ | Crimson Web",
+    "koreana": "파르치온 칼 | 붉은 그물",
+    "latam": "Cuchillo alfanje | Tela escarlata",
+    "norwegian": "Falchion-kniv | Crimson Web",
+    "polish": "Nóż falcjon | Szkarłatna sieć",
+    "portuguese": "Faca Falchion | Crimson Web",
+    "romanian": "Cuțit Falchion | Crimson Web",
+    "russian": "Фальшион | Кровавая паутина",
+    "schinese": "弯刀 | 深红之网",
+    "schinese_pw": "Falchion Knife | Crimson Web",
+    "spanish": "Cuchillo Alfanje | Tela escarlata",
+    "swedish": "Falchionkniv | Crimson Web",
+    "tchinese": "彎刃匕首 | 赤紅之網",
+    "thai": "มีดฟัลชิออน | Crimson Web",
+    "turkish": "Pala Bıçağı | Kızıl Ağ",
+    "ukrainian": "Ніж-фальшіон | Криваве павутиння",
+    "vietnamese": "Dao Falchion | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__512-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/512-12/light.png",
+      "data/api/media/rendered/files/skins/512-12/medium.png",
+      "data/api/media/rendered/files/skins/512-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/512-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/512-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/512-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/512-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/512-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_falchion_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_falchion_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_falchion_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "Falchion Knife | Crimson Web",
+  "search_slug": "falchion-knife-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-8",
+        "id": 4091,
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "search_slug": "falchion-case",
+        "via_special_pool": "community_case_8_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-8-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_8_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Falchion Knife ★",
+        "search_slug": "community-case-8-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "512-12__normal__vanilla",
+    "512-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-falchion",
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Canivete Falchion",
+      "bulgarian": "Нож „Фалчион“",
+      "czech": "Falchion",
+      "danish": "Falchion-kniv",
+      "dutch": "Falchion-mes",
+      "english": "Falchion Knife",
+      "finnish": "Falchion-veitsi",
+      "french": "Couteau fauchon",
+      "german": "Falchion-Messer",
+      "greek": "Μαχαίρι Falchion",
+      "hungarian": "Handzsárkés",
+      "indonesian": "Pisau Falchion",
+      "italian": "Coltello falchion",
+      "japanese": "Falchion ナイフ",
+      "koreana": "파르치온 칼",
+      "latam": "Cuchillo alfanje",
+      "norwegian": "Falchion-kniv",
+      "polish": "Nóż falcjon",
+      "portuguese": "Faca Falchion",
+      "romanian": "Cuțit Falchion",
+      "russian": "Фальшион",
+      "schinese": "弯刀",
+      "schinese_pw": "Falchion Knife",
+      "spanish": "Cuchillo Alfanje",
+      "swedish": "Falchionkniv",
+      "tchinese": "彎刃匕首",
+      "thai": "มีดฟัลชิออน",
+      "turkish": "Pala Bıçağı",
+      "ukrainian": "Ніж-фальшіон",
+      "vietnamese": "Dao Falchion"
+    },
+    "name": "Falchion Knife",
+    "search_slug": "falchion-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

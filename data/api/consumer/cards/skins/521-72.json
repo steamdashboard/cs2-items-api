@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "521-72",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-mesh-tan",
+    "catalog_id": 72,
+    "id": 72,
+    "localized_names": {
+      "brazilian": "Grade de Safári",
+      "bulgarian": "Мрежа за сафари",
+      "czech": "Safari Mesh",
+      "danish": "Safari Mesh",
+      "dutch": "Safari Mesh",
+      "english": "Safari Mesh",
+      "finnish": "Safariverkko",
+      "french": "Maillage safari",
+      "german": "Safarinetz",
+      "greek": "Safari Mesh",
+      "hungarian": "Szafari Háló",
+      "indonesian": "Safari Mesh",
+      "italian": "Safari Mesh",
+      "japanese": "Safari Mesh",
+      "koreana": "사파리 격자 무늬",
+      "latam": "Malla de safari",
+      "norwegian": "Safari Mesh",
+      "polish": "Siatka safari",
+      "portuguese": "Safari Mesh",
+      "romanian": "Safari Mesh",
+      "russian": "Африканская сетка",
+      "schinese": "狩猎网格",
+      "schinese_pw": "Safari Mesh",
+      "spanish": "Malla de safari",
+      "swedish": "Safari Mesh",
+      "tchinese": "狩獵網格",
+      "thai": "Safari Mesh",
+      "turkish": "Safari Ağı",
+      "ukrainian": "Сітка сафарі",
+      "vietnamese": "Safari Mesh"
+    },
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "521-72",
+  "localized_names": {
+    "brazilian": "Faca Nômade | Grade de Safári",
+    "bulgarian": "Номадският нож | Мрежа за сафари",
+    "czech": "Outdoorový nůž | Safari Mesh",
+    "danish": "Nomadekniv | Safari Mesh",
+    "dutch": "Nomademes | Safari Mesh",
+    "english": "Nomad Knife | Safari Mesh",
+    "finnish": "Nomad-puukko | Safariverkko",
+    "french": "Couteau de nomade | Maillage safari",
+    "german": "Nomadenmesser | Safarinetz",
+    "greek": "Μαχαίρι Nomad | Safari Mesh",
+    "hungarian": "Nomád kés | Szafari Háló",
+    "indonesian": "Pisau Nomad | Safari Mesh",
+    "italian": "Coltello Nomade | Safari Mesh",
+    "japanese": "Nomad ナイフ | Safari Mesh",
+    "koreana": "노매드 칼 | 사파리 격자 무늬",
+    "latam": "Cuchillo nómada | Malla de safari",
+    "norwegian": "Nomadekniv | Safari Mesh",
+    "polish": "Nóż nomada | Siatka safari",
+    "portuguese": "Faca Nomad | Safari Mesh",
+    "romanian": "Cuțit Nomad | Safari Mesh",
+    "russian": "Нож «Бродяга» | Африканская сетка",
+    "schinese": "流浪者匕首 | 狩猎网格",
+    "schinese_pw": "Nomad Knife | Safari Mesh",
+    "spanish": "Cuchillo nómada | Malla de safari",
+    "swedish": "Nomad-kniv | Safari Mesh",
+    "tchinese": "流浪者小刀 | 狩獵網格",
+    "thai": "มีดโนแมด | Safari Mesh",
+    "turkish": "Göçebe Bıçağı | Safari Ağı",
+    "ukrainian": "Польовий ніж | Сітка сафарі",
+    "vietnamese": "Dao Nomad | Safari Mesh"
+  },
+  "media": {
+    "asset_id": "skin__521-72",
+    "images_png": [
+      "data/api/media/rendered/files/skins/521-72/light.png",
+      "data/api/media/rendered/files/skins/521-72/medium.png",
+      "data/api/media/rendered/files/skins/521-72/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/521-72.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/521-72/heavy.png",
+      "light": "data/api/media/rendered/files/skins/521-72/light.png",
+      "medium": "data/api/media/rendered/files/skins/521-72/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/521-72/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_outdoor_sp_mesh_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_outdoor_sp_mesh_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_outdoor_sp_mesh_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "Nomad Knife | Safari Mesh",
+  "search_slug": "nomad-knife-safari-mesh",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "521-72__normal__vanilla",
+    "521-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-outdoor",
+    "id": 521,
+    "localized_names": {
+      "brazilian": "Faca Nômade",
+      "bulgarian": "Номадският нож",
+      "czech": "Outdoorový nůž",
+      "danish": "Nomadekniv",
+      "dutch": "Nomademes",
+      "english": "Nomad Knife",
+      "finnish": "Nomad-puukko",
+      "french": "Couteau de nomade",
+      "german": "Nomadenmesser",
+      "greek": "Μαχαίρι Nomad",
+      "hungarian": "Nomád kés",
+      "indonesian": "Pisau Nomad",
+      "italian": "Coltello Nomade",
+      "japanese": "Nomad ナイフ",
+      "koreana": "노매드 칼",
+      "latam": "Cuchillo nómada",
+      "norwegian": "Nomadekniv",
+      "polish": "Nóż nomada",
+      "portuguese": "Faca Nomad",
+      "romanian": "Cuțit Nomad",
+      "russian": "Нож «Бродяга»",
+      "schinese": "流浪者匕首",
+      "schinese_pw": "Nomad Knife",
+      "spanish": "Cuchillo nómada",
+      "swedish": "Nomad-kniv",
+      "tchinese": "流浪者小刀",
+      "thai": "มีดโนแมด",
+      "turkish": "Göçebe Bıçağı",
+      "ukrainian": "Польовий ніж",
+      "vietnamese": "Dao Nomad"
+    },
+    "name": "Nomad Knife",
+    "search_slug": "nomad-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

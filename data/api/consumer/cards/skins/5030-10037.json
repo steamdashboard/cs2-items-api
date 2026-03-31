@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5030-10037",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sporty-purple",
+    "catalog_id": 10037,
+    "id": 10037,
+    "localized_names": {
+      "brazilian": "Caixa de Pandora",
+      "bulgarian": "Кутията на Пандора",
+      "czech": "Pandora's Box",
+      "danish": "Pandora's Box",
+      "dutch": "Pandora's Box",
+      "english": "Pandora's Box",
+      "finnish": "Pandoran lipas",
+      "french": "Boîte de Pandore",
+      "german": "Pandoras Büchse",
+      "greek": "Pandora's Box",
+      "hungarian": "Pandóra Szelencéje",
+      "indonesian": "Pandora's Box",
+      "italian": "Pandora's Box",
+      "japanese": "Pandora's Box",
+      "koreana": "판도라의 상자",
+      "latam": "Caja de Pandora",
+      "norwegian": "Pandora's Box",
+      "polish": "Puszka Pandory",
+      "portuguese": "Pandora's Box",
+      "romanian": "Pandora's Box",
+      "russian": "Ящик Пандоры",
+      "schinese": "潘多拉之盒",
+      "schinese_pw": "Pandora's Box",
+      "spanish": "Caja de Pandora",
+      "swedish": "Pandora's Box",
+      "tchinese": "潘朵拉之盒",
+      "thai": "Pandora's Box",
+      "turkish": "Pandora'nın Kutusu",
+      "ukrainian": "Скриня Пандори",
+      "vietnamese": "Pandora's Box"
+    },
+    "name": "Pandora's Box",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5030-10037",
+  "localized_names": {
+    "brazilian": "Luvas Esportivas | Caixa de Pandora",
+    "bulgarian": "Спортни ръкавици | Кутията на Пандора",
+    "czech": "Sportovní rukavice | Pandora's Box",
+    "danish": "Sportshandsker | Pandora's Box",
+    "dutch": "Sporthandschoenen | Pandora's Box",
+    "english": "Sport Gloves | Pandora's Box",
+    "finnish": "Urheiluhanskat | Pandoran lipas",
+    "french": "Gants de sport | Boîte de Pandore",
+    "german": "Sporthandschuhe | Pandoras Büchse",
+    "greek": "Σπορ γάντια | Pandora's Box",
+    "hungarian": "Sportkesztyűk | Pandóra Szelencéje",
+    "indonesian": "Sarung Tangan Olahraga | Pandora's Box",
+    "italian": "Guanti sportivi | Pandora's Box",
+    "japanese": "Sport Gloves | Pandora's Box",
+    "koreana": "스포츠 장갑 | 판도라의 상자",
+    "latam": "Guantes de deporte | Caja de Pandora",
+    "norwegian": "Sportshansker | Pandora's Box",
+    "polish": "Rękawice sportowe | Puszka Pandory",
+    "portuguese": "Luvas Desportivas | Pandora's Box",
+    "romanian": "Mănuși sport | Pandora's Box",
+    "russian": "Спортивные перчатки | Ящик Пандоры",
+    "schinese": "运动手套 | 潘多拉之盒",
+    "schinese_pw": "Sport Gloves | Pandora's Box",
+    "spanish": "Guantes de deporte | Caja de Pandora",
+    "swedish": "Sporthandskar | Pandora's Box",
+    "tchinese": "運動員手套 | 潘朵拉之盒",
+    "thai": "ถุงมือกีฬา | Pandora's Box",
+    "turkish": "Spor Eldivenler | Pandora'nın Kutusu",
+    "ukrainian": "Спортивні рукавиці | Скриня Пандори",
+    "vietnamese": "Găng tay thể thao | Pandora's Box"
+  },
+  "media": {
+    "asset_id": "skin__5030-10037",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5030-10037/light.png",
+      "data/api/media/rendered/files/skins/5030-10037/medium.png",
+      "data/api/media/rendered/files/skins/5030-10037/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5030-10037.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5030-10037/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5030-10037/light.png",
+      "medium": "data/api/media/rendered/files/skins/5030-10037/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5030-10037/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/sporty_gloves_sporty_purple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/sporty_gloves_sporty_purple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/sporty_gloves_sporty_purple_medium_png.vtex_c"
+    }
+  },
+  "name": "Sport Gloves | Pandora's Box",
+  "search_slug": "sport-gloves-pandora-s-box",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-15",
+        "id": 4288,
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "search_slug": "glove-case",
+        "via_special_pool": "community_case_15_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-17",
+        "id": 4352,
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "search_slug": "operation-hydra-case",
+        "via_special_pool": "community_case_15_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-15-unusual",
+        "expansion_rule": "legacy-gloves",
+        "id": "community_case_15_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "community-case-15-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5030-10037__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "sporty-gloves",
+    "id": 5030,
+    "localized_names": {
+      "brazilian": "Luvas Esportivas",
+      "bulgarian": "Спортни ръкавици",
+      "czech": "Sportovní rukavice",
+      "danish": "Sportshandsker",
+      "dutch": "Sporthandschoenen",
+      "english": "Sport Gloves",
+      "finnish": "Urheiluhanskat",
+      "french": "Gants de sport",
+      "german": "Sporthandschuhe",
+      "greek": "Σπορ γάντια",
+      "hungarian": "Sportkesztyűk",
+      "indonesian": "Sarung Tangan Olahraga",
+      "italian": "Guanti sportivi",
+      "japanese": "Sport Gloves",
+      "koreana": "스포츠 장갑",
+      "latam": "Guantes de deporte",
+      "norwegian": "Sportshansker",
+      "polish": "Rękawice sportowe",
+      "portuguese": "Luvas Desportivas",
+      "romanian": "Mănuși sport",
+      "russian": "Спортивные перчатки",
+      "schinese": "运动手套",
+      "schinese_pw": "Sport Gloves",
+      "spanish": "Guantes de deporte",
+      "swedish": "Sporthandskar",
+      "tchinese": "運動員手套",
+      "thai": "ถุงมือกีฬา",
+      "turkish": "Spor Eldivenler",
+      "ukrainian": "Спортивні рукавиці",
+      "vietnamese": "Găng tay thể thao"
+    },
+    "name": "Sport Gloves",
+    "search_slug": "sport-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "507-572",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-gamma-doppler-phase4",
+    "catalog_id": 572,
+    "id": 572,
+    "localized_names": {
+      "brazilian": "Doppler Gama",
+      "bulgarian": "Доплеров гама ефект",
+      "czech": "Gamma Doppler",
+      "danish": "Gamma Doppler",
+      "dutch": "Gamma Doppler",
+      "english": "Gamma Doppler",
+      "finnish": "Gamma Doppler",
+      "french": "Doppler Gamma",
+      "german": "Gamma Doppler",
+      "greek": "Gamma Doppler",
+      "hungarian": "Gamma Doppler",
+      "indonesian": "Gamma Doppler",
+      "italian": "Gamma Doppler",
+      "japanese": "Gamma Doppler",
+      "koreana": "감마 도플러",
+      "latam": "Doppler gamma",
+      "norwegian": "Gamma Doppler",
+      "polish": "Gamma Doppler",
+      "portuguese": "Gamma Doppler",
+      "romanian": "Gamma Doppler",
+      "russian": "Гамма-волны",
+      "schinese": "伽玛多普勒",
+      "schinese_pw": "Gamma Doppler",
+      "spanish": "Doppler gamma",
+      "swedish": "Gamma Doppler",
+      "tchinese": "伽傌都卜勒",
+      "thai": "Gamma Doppler",
+      "turkish": "Gamma Doppler",
+      "ukrainian": "Гамма-ефект Доплера",
+      "vietnamese": "Gamma Doppler"
+    },
+    "name": "Gamma Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "507-572",
+  "localized_names": {
+    "brazilian": "Karambit | Doppler Gama",
+    "bulgarian": "Карамбит | Доплеров гама ефект",
+    "czech": "Karambit | Gamma Doppler",
+    "danish": "Karambit | Gamma Doppler",
+    "dutch": "Karambit | Gamma Doppler",
+    "english": "Karambit | Gamma Doppler",
+    "finnish": "Karambit | Gamma Doppler",
+    "french": "Karambit | Doppler Gamma",
+    "german": "Karambit | Gamma Doppler",
+    "greek": "Karambit | Gamma Doppler",
+    "hungarian": "Karambit | Gamma Doppler",
+    "indonesian": "Karambit | Gamma Doppler",
+    "italian": "Karambit | Gamma Doppler",
+    "japanese": "カランビット | Gamma Doppler",
+    "koreana": "카람빗 | 감마 도플러",
+    "latam": "Karambit | Doppler gamma",
+    "norwegian": "Karambit | Gamma Doppler",
+    "polish": "Karambit | Gamma Doppler",
+    "portuguese": "Karambit | Gamma Doppler",
+    "romanian": "Karambit | Gamma Doppler",
+    "russian": "Керамбит | Гамма-волны",
+    "schinese": "爪子刀 | 伽玛多普勒",
+    "schinese_pw": "Karambit | Gamma Doppler",
+    "spanish": "Karambit | Doppler gamma",
+    "swedish": "Karambit | Gamma Doppler",
+    "tchinese": "爪刀 | 伽傌都卜勒",
+    "thai": "มีดคารัมบิต | Gamma Doppler",
+    "turkish": "Karambit | Gamma Doppler",
+    "ukrainian": "Керамбіт | Гамма-ефект Доплера",
+    "vietnamese": "Karambit | Gamma Doppler"
+  },
+  "media": {
+    "asset_id": "skin__507-572",
+    "images_png": [
+      "data/api/media/rendered/files/skins/507-572/light.png",
+      "data/api/media/rendered/files/skins/507-572/medium.png",
+      "data/api/media/rendered/files/skins/507-572/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/507-572.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/507-572/heavy.png",
+      "light": "data/api/media/rendered/files/skins/507-572/light.png",
+      "medium": "data/api/media/rendered/files/skins/507-572/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/507-572/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_karambit_am_gamma_doppler_phase4_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_karambit_am_gamma_doppler_phase4_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_karambit_am_gamma_doppler_phase4_medium_png.vtex_c"
+    }
+  },
+  "name": "Karambit | Gamma Doppler",
+  "search_slug": "karambit-gamma-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-13",
+        "id": 4236,
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "search_slug": "gamma-case",
+        "via_special_pool": "community_case_13_unusual"
+      },
+      {
+        "canonical_slug": "crate-gamma-2",
+        "id": 4281,
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
+        "via_special_pool": "community_case_13_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "507-572__normal__factory-new",
+    "507-572__normal__minimal-wear",
+    "507-572__stattrak__factory-new",
+    "507-572__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-karambit",
+    "id": 507,
+    "localized_names": {
+      "brazilian": "Karambit",
+      "bulgarian": "Карамбит",
+      "czech": "Karambit",
+      "danish": "Karambit",
+      "dutch": "Karambit",
+      "english": "Karambit",
+      "finnish": "Karambit",
+      "french": "Karambit",
+      "german": "Karambit",
+      "greek": "Karambit",
+      "hungarian": "Karambit",
+      "indonesian": "Karambit",
+      "italian": "Karambit",
+      "japanese": "カランビット",
+      "koreana": "카람빗",
+      "latam": "Karambit",
+      "norwegian": "Karambit",
+      "polish": "Karambit",
+      "portuguese": "Karambit",
+      "romanian": "Karambit",
+      "russian": "Керамбит",
+      "schinese": "爪子刀",
+      "schinese_pw": "Karambit",
+      "spanish": "Karambit",
+      "swedish": "Karambit",
+      "tchinese": "爪刀",
+      "thai": "มีดคารัมบิต",
+      "turkish": "Karambit",
+      "ukrainian": "Керамбіт",
+      "vietnamese": "Karambit"
+    },
+    "name": "Karambit",
+    "search_slug": "karambit",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "507-414",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-steel-knife",
+    "catalog_id": 414,
+    "id": 414,
+    "localized_names": {
+      "brazilian": "Revestimento Enferrujado",
+      "bulgarian": "Ръждиво покритие",
+      "czech": "Rust Coat",
+      "danish": "Rust Coat",
+      "dutch": "Rust Coat",
+      "english": "Rust Coat",
+      "finnish": "Ruostepinta",
+      "french": "Aspect rouillé",
+      "german": "Rostmantel",
+      "greek": "Rust Coat",
+      "hungarian": "Rozsdabevonat",
+      "indonesian": "Rust Coat",
+      "italian": "Rust Coat",
+      "japanese": "Rust Coat",
+      "koreana": "녹슬음",
+      "latam": "Capa de herrumbre",
+      "norwegian": "Rust Coat",
+      "polish": "Warstwa rdzy",
+      "portuguese": "Rust Coat",
+      "romanian": "Rust Coat",
+      "russian": "Пыльник",
+      "schinese": "外表生锈",
+      "schinese_pw": "Rust Coat",
+      "spanish": "Capa de herrumbre",
+      "swedish": "Rust Coat",
+      "tchinese": "鏽衣",
+      "thai": "Rust Coat",
+      "turkish": "Pas Kaplı",
+      "ukrainian": "Прошарок іржі",
+      "vietnamese": "Rust Coat"
+    },
+    "name": "Rust Coat",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.4
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "507-414",
+  "localized_names": {
+    "brazilian": "Karambit | Revestimento Enferrujado",
+    "bulgarian": "Карамбит | Ръждиво покритие",
+    "czech": "Karambit | Rust Coat",
+    "danish": "Karambit | Rust Coat",
+    "dutch": "Karambit | Rust Coat",
+    "english": "Karambit | Rust Coat",
+    "finnish": "Karambit | Ruostepinta",
+    "french": "Karambit | Aspect rouillé",
+    "german": "Karambit | Rostmantel",
+    "greek": "Karambit | Rust Coat",
+    "hungarian": "Karambit | Rozsdabevonat",
+    "indonesian": "Karambit | Rust Coat",
+    "italian": "Karambit | Rust Coat",
+    "japanese": "カランビット | Rust Coat",
+    "koreana": "카람빗 | 녹슬음",
+    "latam": "Karambit | Capa de herrumbre",
+    "norwegian": "Karambit | Rust Coat",
+    "polish": "Karambit | Warstwa rdzy",
+    "portuguese": "Karambit | Rust Coat",
+    "romanian": "Karambit | Rust Coat",
+    "russian": "Керамбит | Пыльник",
+    "schinese": "爪子刀 | 外表生锈",
+    "schinese_pw": "Karambit | Rust Coat",
+    "spanish": "Karambit | Capa de herrumbre",
+    "swedish": "Karambit | Rust Coat",
+    "tchinese": "爪刀 | 鏽衣",
+    "thai": "มีดคารัมบิต | Rust Coat",
+    "turkish": "Karambit | Pas Kaplı",
+    "ukrainian": "Керамбіт | Прошарок іржі",
+    "vietnamese": "Karambit | Rust Coat"
+  },
+  "media": {
+    "asset_id": "skin__507-414",
+    "images_png": [
+      "data/api/media/rendered/files/skins/507-414/light.png",
+      "data/api/media/rendered/files/skins/507-414/medium.png",
+      "data/api/media/rendered/files/skins/507-414/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/507-414.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/507-414/heavy.png",
+      "light": "data/api/media/rendered/files/skins/507-414/light.png",
+      "medium": "data/api/media/rendered/files/skins/507-414/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/507-414/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_karambit_aq_steel_knife_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_karambit_aq_steel_knife_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_karambit_aq_steel_knife_medium_png.vtex_c"
+    }
+  },
+  "name": "Karambit | Rust Coat",
+  "search_slug": "karambit-rust-coat",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "507-414__normal__battle-scarred",
+    "507-414__normal__well-worn",
+    "507-414__stattrak__battle-scarred",
+    "507-414__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-karambit",
+    "id": 507,
+    "localized_names": {
+      "brazilian": "Karambit",
+      "bulgarian": "Карамбит",
+      "czech": "Karambit",
+      "danish": "Karambit",
+      "dutch": "Karambit",
+      "english": "Karambit",
+      "finnish": "Karambit",
+      "french": "Karambit",
+      "german": "Karambit",
+      "greek": "Karambit",
+      "hungarian": "Karambit",
+      "indonesian": "Karambit",
+      "italian": "Karambit",
+      "japanese": "カランビット",
+      "koreana": "카람빗",
+      "latam": "Karambit",
+      "norwegian": "Karambit",
+      "polish": "Karambit",
+      "portuguese": "Karambit",
+      "romanian": "Karambit",
+      "russian": "Керамбит",
+      "schinese": "爪子刀",
+      "schinese_pw": "Karambit",
+      "spanish": "Karambit",
+      "swedish": "Karambit",
+      "tchinese": "爪刀",
+      "thai": "มีดคารัมบิต",
+      "turkish": "Karambit",
+      "ukrainian": "Керамбіт",
+      "vietnamese": "Karambit"
+    },
+    "name": "Karambit",
+    "search_slug": "karambit",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.4
+  }
+}

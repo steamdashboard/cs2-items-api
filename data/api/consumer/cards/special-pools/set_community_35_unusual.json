@@ -1,5 +1,3594 @@
 {
-  "candidate_items": [],
+  "candidate_items": [
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-98",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "so-purple",
+        "id": 98,
+        "name": "Ultraviolet",
+        "rarity_ref": null,
+        "style_code": 1,
+        "style_name": "Solid Color"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-98",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Ultravioleta",
+        "bulgarian": "Паракорд нож | Ултра виолетово",
+        "czech": "Výsadkářský nůž | Ultraviolet",
+        "danish": "Paracordkniv | Ultraviolet",
+        "dutch": "Paracordmes | Ultraviolet",
+        "english": "Paracord Knife | Ultraviolet",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Ultravioletti",
+        "french": "Couteau en paracorde | Ultraviolet",
+        "german": "Fallschirm-Messer | Ultraviolett",
+        "greek": "Μαχαίρι Paracord | Ultraviolet",
+        "hungarian": "Paracord kés | Ultraibolya",
+        "indonesian": "Pisau Paracord | Ultraviolet",
+        "italian": "Coltello Paracord | Ultraviolet",
+        "japanese": "Paracord ナイフ | Ultraviolet",
+        "koreana": "파라코드 칼 | 자외선",
+        "latam": "Cuchillo encordado | Ultravioleta",
+        "norwegian": "Paracordkniv | Ultraviolet",
+        "polish": "Nóż paracord | Ultrafiolet",
+        "portuguese": "Faca Paracord | Ultraviolet",
+        "romanian": "Cuțit Paracord | Ultraviolet",
+        "russian": "Паракорд-нож | Ультрафиолет",
+        "schinese": "系绳匕首 | 致命紫罗兰",
+        "schinese_pw": "Paracord Knife | Ultraviolet",
+        "spanish": "Cuchillo encordado | Ultravioleta",
+        "swedish": "Paracordkniv | Ultraviolet",
+        "tchinese": "繩柄刀 | 致命紫羅蘭",
+        "thai": "มีดพาราคอร์ด | Ultraviolet",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Morötesi",
+        "ukrainian": "Тактичний ніж | Ультрафіолет",
+        "vietnamese": "Dao Paracord | Ultraviolet"
+      },
+      "name": "Paracord Knife | Ultraviolet",
+      "search_slug": "paracord-knife-ultraviolet",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-409",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "an-tiger-orange",
+        "id": 409,
+        "name": "Tiger Tooth",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-409",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Dente de Tigre",
+        "bulgarian": "Паракорд нож | Тигров зъб",
+        "czech": "Výsadkářský nůž | Tiger Tooth",
+        "danish": "Paracordkniv | Tiger Tooth",
+        "dutch": "Paracordmes | Tiger Tooth",
+        "english": "Paracord Knife | Tiger Tooth",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Tiikerinhammas",
+        "french": "Couteau en paracorde | Dent de tigre",
+        "german": "Fallschirm-Messer | Tigerzahn",
+        "greek": "Μαχαίρι Paracord | Tiger Tooth",
+        "hungarian": "Paracord kés | Tigrisfog",
+        "indonesian": "Pisau Paracord | Tiger Tooth",
+        "italian": "Coltello Paracord | Tiger Tooth",
+        "japanese": "Paracord ナイフ | Tiger Tooth",
+        "koreana": "파라코드 칼 | 호랑이 이빨",
+        "latam": "Cuchillo encordado | Diente de tigre",
+        "norwegian": "Paracordkniv | Tiger Tooth",
+        "polish": "Nóż paracord | Tygrysi kieł",
+        "portuguese": "Faca Paracord | Tiger Tooth",
+        "romanian": "Cuțit Paracord | Tiger Tooth",
+        "russian": "Паракорд-нож | Зуб тигра",
+        "schinese": "系绳匕首 | 虎牙",
+        "schinese_pw": "Paracord Knife | Tiger Tooth",
+        "spanish": "Cuchillo encordado | Diente de tigre",
+        "swedish": "Paracordkniv | Tiger Tooth",
+        "tchinese": "繩柄刀 | 虎牙",
+        "thai": "มีดพาราคอร์ด | Tiger Tooth",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Kaplan Dişi",
+        "ukrainian": "Тактичний ніж | Тигряче ікло",
+        "vietnamese": "Dao Paracord | Tiger Tooth"
+      },
+      "name": "Paracord Knife | Tiger Tooth",
+      "search_slug": "paracord-knife-tiger-tooth",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-410",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-damascus",
+        "id": 410,
+        "name": "Damascus Steel",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-410",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Aço de Damasco",
+        "bulgarian": "Паракорд нож | Дамаска стомана",
+        "czech": "Výsadkářský nůž | Damascus Steel",
+        "danish": "Paracordkniv | Damascus Steel",
+        "dutch": "Paracordmes | Damascus Steel",
+        "english": "Paracord Knife | Damascus Steel",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Damaskiteräs",
+        "french": "Couteau en paracorde | Acier de Damas",
+        "german": "Fallschirm-Messer | Damaszener Stahl",
+        "greek": "Μαχαίρι Paracord | Damascus Steel",
+        "hungarian": "Paracord kés | Damaszkuszi Acél",
+        "indonesian": "Pisau Paracord | Damascus Steel",
+        "italian": "Coltello Paracord | Damascus Steel",
+        "japanese": "Paracord ナイフ | Damascus Steel",
+        "koreana": "파라코드 칼 | 다마스크 강철",
+        "latam": "Cuchillo encordado | Acero de damasco",
+        "norwegian": "Paracordkniv | Damascus Steel",
+        "polish": "Nóż paracord | Stal damasceńska",
+        "portuguese": "Faca Paracord | Damascus Steel",
+        "romanian": "Cuțit Paracord | Damascus Steel",
+        "russian": "Паракорд-нож | Дамасская сталь",
+        "schinese": "系绳匕首 | 大马士革钢",
+        "schinese_pw": "Paracord Knife | Damascus Steel",
+        "spanish": "Cuchillo encordado | Acero de damasco",
+        "swedish": "Paracordkniv | Damascus Steel",
+        "tchinese": "繩柄刀 | 大馬士革鋼",
+        "thai": "มีดพาราคอร์ด | Damascus Steel",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Şam Çeliği",
+        "ukrainian": "Тактичний ніж | Дамаська сталь",
+        "vietnamese": "Dao Paracord | Damascus Steel"
+      },
+      "name": "Paracord Knife | Damascus Steel",
+      "search_slug": "paracord-knife-damascus-steel",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-411",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-damascus-90",
+        "id": 411,
+        "name": "Damascus Steel",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-411",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Aço de Damasco",
+        "bulgarian": "Паракорд нож | Дамаска стомана",
+        "czech": "Výsadkářský nůž | Damascus Steel",
+        "danish": "Paracordkniv | Damascus Steel",
+        "dutch": "Paracordmes | Damascus Steel",
+        "english": "Paracord Knife | Damascus Steel",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Damaskiteräs",
+        "french": "Couteau en paracorde | Acier de Damas",
+        "german": "Fallschirm-Messer | Damaszener Stahl",
+        "greek": "Μαχαίρι Paracord | Damascus Steel",
+        "hungarian": "Paracord kés | Damaszkuszi Acél",
+        "indonesian": "Pisau Paracord | Damascus Steel",
+        "italian": "Coltello Paracord | Damascus Steel",
+        "japanese": "Paracord ナイフ | Damascus Steel",
+        "koreana": "파라코드 칼 | 다마스크 강철",
+        "latam": "Cuchillo encordado | Acero de damasco",
+        "norwegian": "Paracordkniv | Damascus Steel",
+        "polish": "Nóż paracord | Stal damasceńska",
+        "portuguese": "Faca Paracord | Damascus Steel",
+        "romanian": "Cuțit Paracord | Damascus Steel",
+        "russian": "Паракорд-нож | Дамасская сталь",
+        "schinese": "系绳匕首 | 大马士革钢",
+        "schinese_pw": "Paracord Knife | Damascus Steel",
+        "spanish": "Cuchillo encordado | Acero de damasco",
+        "swedish": "Paracordkniv | Damascus Steel",
+        "tchinese": "繩柄刀 | 大馬士革鋼",
+        "thai": "มีดพาราคอร์ด | Damascus Steel",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Şam Çeliği",
+        "ukrainian": "Тактичний ніж | Дамаська сталь",
+        "vietnamese": "Dao Paracord | Damascus Steel"
+      },
+      "name": "Paracord Knife | Damascus Steel",
+      "search_slug": "paracord-knife-damascus-steel",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-413",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marble-fade",
+        "id": 413,
+        "name": "Marble Fade",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-413",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Mármore Desbotado",
+        "bulgarian": "Паракорд нож | Мраморно преливане",
+        "czech": "Výsadkářský nůž | Marble Fade",
+        "danish": "Paracordkniv | Marble Fade",
+        "dutch": "Paracordmes | Marble Fade",
+        "english": "Paracord Knife | Marble Fade",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Marmorihäivytys",
+        "french": "Couteau en paracorde | Marbre fondu",
+        "german": "Fallschirm-Messer | Marmorfärbung",
+        "greek": "Μαχαίρι Paracord | Marble Fade",
+        "hungarian": "Paracord kés | Fakuló Márvány",
+        "indonesian": "Pisau Paracord | Marble Fade",
+        "italian": "Coltello Paracord | Marble Fade",
+        "japanese": "Paracord ナイフ | Marble Fade",
+        "koreana": "파라코드 칼 | 흐릿한 대리석",
+        "latam": "Cuchillo encordado | Mármol desteñido",
+        "norwegian": "Paracordkniv | Marble Fade",
+        "polish": "Nóż paracord | Marmurkowy gradient",
+        "portuguese": "Faca Paracord | Marble Fade",
+        "romanian": "Cuțit Paracord | Marble Fade",
+        "russian": "Паракорд-нож | Мраморный градиент",
+        "schinese": "系绳匕首 | 渐变大理石",
+        "schinese_pw": "Paracord Knife | Marble Fade",
+        "spanish": "Cuchillo encordado | Mármol desteñido",
+        "swedish": "Paracordkniv | Marble Fade",
+        "tchinese": "繩柄刀 | 大理石漸層",
+        "thai": "มีดพาราคอร์ด | Marble Fade",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Solgun Mermer",
+        "ukrainian": "Тактичний ніж | Мармуровий перелив",
+        "vietnamese": "Dao Paracord | Marble Fade"
+      },
+      "name": "Paracord Knife | Marble Fade",
+      "search_slug": "paracord-knife-marble-fade",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-414",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-steel-knife",
+        "id": 414,
+        "name": "Rust Coat",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-414",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Revestimento Enferrujado",
+        "bulgarian": "Паракорд нож | Ръждиво покритие",
+        "czech": "Výsadkářský nůž | Rust Coat",
+        "danish": "Paracordkniv | Rust Coat",
+        "dutch": "Paracordmes | Rust Coat",
+        "english": "Paracord Knife | Rust Coat",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Ruostepinta",
+        "french": "Couteau en paracorde | Aspect rouillé",
+        "german": "Fallschirm-Messer | Rostmantel",
+        "greek": "Μαχαίρι Paracord | Rust Coat",
+        "hungarian": "Paracord kés | Rozsdabevonat",
+        "indonesian": "Pisau Paracord | Rust Coat",
+        "italian": "Coltello Paracord | Rust Coat",
+        "japanese": "Paracord ナイフ | Rust Coat",
+        "koreana": "파라코드 칼 | 녹슬음",
+        "latam": "Cuchillo encordado | Capa de herrumbre",
+        "norwegian": "Paracordkniv | Rust Coat",
+        "polish": "Nóż paracord | Warstwa rdzy",
+        "portuguese": "Faca Paracord | Rust Coat",
+        "romanian": "Cuțit Paracord | Rust Coat",
+        "russian": "Паракорд-нож | Пыльник",
+        "schinese": "系绳匕首 | 外表生锈",
+        "schinese_pw": "Paracord Knife | Rust Coat",
+        "spanish": "Cuchillo encordado | Capa de herrumbre",
+        "swedish": "Paracordkniv | Rust Coat",
+        "tchinese": "繩柄刀 | 鏽衣",
+        "thai": "มีดพาราคอร์ด | Rust Coat",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Pas Kaplı",
+        "ukrainian": "Тактичний ніж | Прошарок іржі",
+        "vietnamese": "Dao Paracord | Rust Coat"
+      },
+      "name": "Paracord Knife | Rust Coat",
+      "search_slug": "paracord-knife-rust-coat",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 1.0,
+        "min_float": 0.4
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-415",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-ruby-marbleized",
+        "id": 415,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-415",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler",
+        "bulgarian": "Паракорд нож | Доплер",
+        "czech": "Výsadkářský nůž | Doppler",
+        "danish": "Paracordkniv | Doppler",
+        "dutch": "Paracordmes | Doppler",
+        "english": "Paracord Knife | Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Doppler",
+        "french": "Couteau en paracorde | Doppler",
+        "german": "Fallschirm-Messer | Doppler",
+        "greek": "Μαχαίρι Paracord | Doppler",
+        "hungarian": "Paracord kés | Doppler",
+        "indonesian": "Pisau Paracord | Doppler",
+        "italian": "Coltello Paracord | Doppler",
+        "japanese": "Paracord ナイフ | Doppler",
+        "koreana": "파라코드 칼 | 도플러",
+        "latam": "Cuchillo encordado | Doppler",
+        "norwegian": "Paracordkniv | Doppler",
+        "polish": "Nóż paracord | Doppler",
+        "portuguese": "Faca Paracord | Doppler",
+        "romanian": "Cuțit Paracord | Doppler",
+        "russian": "Паракорд-нож | Волны",
+        "schinese": "系绳匕首 | 多普勒",
+        "schinese_pw": "Paracord Knife | Doppler",
+        "spanish": "Cuchillo encordado | Doppler",
+        "swedish": "Paracordkniv | Doppler",
+        "tchinese": "繩柄刀 | 都卜勒",
+        "thai": "มีดพาราคอร์ด | Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Doppler",
+        "ukrainian": "Тактичний ніж | Доплер",
+        "vietnamese": "Dao Paracord | Doppler"
+      },
+      "name": "Paracord Knife | Doppler",
+      "search_slug": "paracord-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-416",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-sapphire-marbleized",
+        "id": 416,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-416",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler",
+        "bulgarian": "Паракорд нож | Доплер",
+        "czech": "Výsadkářský nůž | Doppler",
+        "danish": "Paracordkniv | Doppler",
+        "dutch": "Paracordmes | Doppler",
+        "english": "Paracord Knife | Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Doppler",
+        "french": "Couteau en paracorde | Doppler",
+        "german": "Fallschirm-Messer | Doppler",
+        "greek": "Μαχαίρι Paracord | Doppler",
+        "hungarian": "Paracord kés | Doppler",
+        "indonesian": "Pisau Paracord | Doppler",
+        "italian": "Coltello Paracord | Doppler",
+        "japanese": "Paracord ナイフ | Doppler",
+        "koreana": "파라코드 칼 | 도플러",
+        "latam": "Cuchillo encordado | Doppler",
+        "norwegian": "Paracordkniv | Doppler",
+        "polish": "Nóż paracord | Doppler",
+        "portuguese": "Faca Paracord | Doppler",
+        "romanian": "Cuțit Paracord | Doppler",
+        "russian": "Паракорд-нож | Волны",
+        "schinese": "系绳匕首 | 多普勒",
+        "schinese_pw": "Paracord Knife | Doppler",
+        "spanish": "Cuchillo encordado | Doppler",
+        "swedish": "Paracordkniv | Doppler",
+        "tchinese": "繩柄刀 | 都卜勒",
+        "thai": "มีดพาราคอร์ด | Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Doppler",
+        "ukrainian": "Тактичний ніж | Доплер",
+        "vietnamese": "Dao Paracord | Doppler"
+      },
+      "name": "Paracord Knife | Doppler",
+      "search_slug": "paracord-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-417",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-blackpearl-marbleized",
+        "id": 417,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-417",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler",
+        "bulgarian": "Паракорд нож | Доплер",
+        "czech": "Výsadkářský nůž | Doppler",
+        "danish": "Paracordkniv | Doppler",
+        "dutch": "Paracordmes | Doppler",
+        "english": "Paracord Knife | Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Doppler",
+        "french": "Couteau en paracorde | Doppler",
+        "german": "Fallschirm-Messer | Doppler",
+        "greek": "Μαχαίρι Paracord | Doppler",
+        "hungarian": "Paracord kés | Doppler",
+        "indonesian": "Pisau Paracord | Doppler",
+        "italian": "Coltello Paracord | Doppler",
+        "japanese": "Paracord ナイフ | Doppler",
+        "koreana": "파라코드 칼 | 도플러",
+        "latam": "Cuchillo encordado | Doppler",
+        "norwegian": "Paracordkniv | Doppler",
+        "polish": "Nóż paracord | Doppler",
+        "portuguese": "Faca Paracord | Doppler",
+        "romanian": "Cuțit Paracord | Doppler",
+        "russian": "Паракорд-нож | Волны",
+        "schinese": "系绳匕首 | 多普勒",
+        "schinese_pw": "Paracord Knife | Doppler",
+        "spanish": "Cuchillo encordado | Doppler",
+        "swedish": "Paracordkniv | Doppler",
+        "tchinese": "繩柄刀 | 都卜勒",
+        "thai": "มีดพาราคอร์ด | Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Doppler",
+        "ukrainian": "Тактичний ніж | Доплер",
+        "vietnamese": "Dao Paracord | Doppler"
+      },
+      "name": "Paracord Knife | Doppler",
+      "search_slug": "paracord-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-418",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase1",
+        "id": 418,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-418",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler",
+        "bulgarian": "Паракорд нож | Доплер",
+        "czech": "Výsadkářský nůž | Doppler",
+        "danish": "Paracordkniv | Doppler",
+        "dutch": "Paracordmes | Doppler",
+        "english": "Paracord Knife | Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Doppler",
+        "french": "Couteau en paracorde | Doppler",
+        "german": "Fallschirm-Messer | Doppler",
+        "greek": "Μαχαίρι Paracord | Doppler",
+        "hungarian": "Paracord kés | Doppler",
+        "indonesian": "Pisau Paracord | Doppler",
+        "italian": "Coltello Paracord | Doppler",
+        "japanese": "Paracord ナイフ | Doppler",
+        "koreana": "파라코드 칼 | 도플러",
+        "latam": "Cuchillo encordado | Doppler",
+        "norwegian": "Paracordkniv | Doppler",
+        "polish": "Nóż paracord | Doppler",
+        "portuguese": "Faca Paracord | Doppler",
+        "romanian": "Cuțit Paracord | Doppler",
+        "russian": "Паракорд-нож | Волны",
+        "schinese": "系绳匕首 | 多普勒",
+        "schinese_pw": "Paracord Knife | Doppler",
+        "spanish": "Cuchillo encordado | Doppler",
+        "swedish": "Paracordkniv | Doppler",
+        "tchinese": "繩柄刀 | 都卜勒",
+        "thai": "มีดพาราคอร์ด | Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Doppler",
+        "ukrainian": "Тактичний ніж | Доплер",
+        "vietnamese": "Dao Paracord | Doppler"
+      },
+      "name": "Paracord Knife | Doppler",
+      "search_slug": "paracord-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-419",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase2",
+        "id": 419,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-419",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler",
+        "bulgarian": "Паракорд нож | Доплер",
+        "czech": "Výsadkářský nůž | Doppler",
+        "danish": "Paracordkniv | Doppler",
+        "dutch": "Paracordmes | Doppler",
+        "english": "Paracord Knife | Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Doppler",
+        "french": "Couteau en paracorde | Doppler",
+        "german": "Fallschirm-Messer | Doppler",
+        "greek": "Μαχαίρι Paracord | Doppler",
+        "hungarian": "Paracord kés | Doppler",
+        "indonesian": "Pisau Paracord | Doppler",
+        "italian": "Coltello Paracord | Doppler",
+        "japanese": "Paracord ナイフ | Doppler",
+        "koreana": "파라코드 칼 | 도플러",
+        "latam": "Cuchillo encordado | Doppler",
+        "norwegian": "Paracordkniv | Doppler",
+        "polish": "Nóż paracord | Doppler",
+        "portuguese": "Faca Paracord | Doppler",
+        "romanian": "Cuțit Paracord | Doppler",
+        "russian": "Паракорд-нож | Волны",
+        "schinese": "系绳匕首 | 多普勒",
+        "schinese_pw": "Paracord Knife | Doppler",
+        "spanish": "Cuchillo encordado | Doppler",
+        "swedish": "Paracordkniv | Doppler",
+        "tchinese": "繩柄刀 | 都卜勒",
+        "thai": "มีดพาราคอร์ด | Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Doppler",
+        "ukrainian": "Тактичний ніж | Доплер",
+        "vietnamese": "Dao Paracord | Doppler"
+      },
+      "name": "Paracord Knife | Doppler",
+      "search_slug": "paracord-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-420",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase3",
+        "id": 420,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-420",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler",
+        "bulgarian": "Паракорд нож | Доплер",
+        "czech": "Výsadkářský nůž | Doppler",
+        "danish": "Paracordkniv | Doppler",
+        "dutch": "Paracordmes | Doppler",
+        "english": "Paracord Knife | Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Doppler",
+        "french": "Couteau en paracorde | Doppler",
+        "german": "Fallschirm-Messer | Doppler",
+        "greek": "Μαχαίρι Paracord | Doppler",
+        "hungarian": "Paracord kés | Doppler",
+        "indonesian": "Pisau Paracord | Doppler",
+        "italian": "Coltello Paracord | Doppler",
+        "japanese": "Paracord ナイフ | Doppler",
+        "koreana": "파라코드 칼 | 도플러",
+        "latam": "Cuchillo encordado | Doppler",
+        "norwegian": "Paracordkniv | Doppler",
+        "polish": "Nóż paracord | Doppler",
+        "portuguese": "Faca Paracord | Doppler",
+        "romanian": "Cuțit Paracord | Doppler",
+        "russian": "Паракорд-нож | Волны",
+        "schinese": "系绳匕首 | 多普勒",
+        "schinese_pw": "Paracord Knife | Doppler",
+        "spanish": "Cuchillo encordado | Doppler",
+        "swedish": "Paracordkniv | Doppler",
+        "tchinese": "繩柄刀 | 都卜勒",
+        "thai": "มีดพาราคอร์ด | Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Doppler",
+        "ukrainian": "Тактичний ніж | Доплер",
+        "vietnamese": "Dao Paracord | Doppler"
+      },
+      "name": "Paracord Knife | Doppler",
+      "search_slug": "paracord-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-421",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase4",
+        "id": 421,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "517-421",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler",
+        "bulgarian": "Паракорд нож | Доплер",
+        "czech": "Výsadkářský nůž | Doppler",
+        "danish": "Paracordkniv | Doppler",
+        "dutch": "Paracordmes | Doppler",
+        "english": "Paracord Knife | Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Doppler",
+        "french": "Couteau en paracorde | Doppler",
+        "german": "Fallschirm-Messer | Doppler",
+        "greek": "Μαχαίρι Paracord | Doppler",
+        "hungarian": "Paracord kés | Doppler",
+        "indonesian": "Pisau Paracord | Doppler",
+        "italian": "Coltello Paracord | Doppler",
+        "japanese": "Paracord ナイフ | Doppler",
+        "koreana": "파라코드 칼 | 도플러",
+        "latam": "Cuchillo encordado | Doppler",
+        "norwegian": "Paracordkniv | Doppler",
+        "polish": "Nóż paracord | Doppler",
+        "portuguese": "Faca Paracord | Doppler",
+        "romanian": "Cuțit Paracord | Doppler",
+        "russian": "Паракорд-нож | Волны",
+        "schinese": "系绳匕首 | 多普勒",
+        "schinese_pw": "Paracord Knife | Doppler",
+        "spanish": "Cuchillo encordado | Doppler",
+        "swedish": "Paracordkniv | Doppler",
+        "tchinese": "繩柄刀 | 都卜勒",
+        "thai": "มีดพาราคอร์ด | Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Doppler",
+        "ukrainian": "Тактичний ніж | Доплер",
+        "vietnamese": "Dao Paracord | Doppler"
+      },
+      "name": "Paracord Knife | Doppler",
+      "search_slug": "paracord-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-98",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "so-purple",
+        "id": 98,
+        "name": "Ultraviolet",
+        "rarity_ref": null,
+        "style_code": 1,
+        "style_name": "Solid Color"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-98",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Ultravioleta",
+        "bulgarian": "Нож за оцеляване | Ултра виолетово",
+        "czech": "Záchranářský nůž | Ultraviolet",
+        "danish": "Overlevelseskniv | Ultraviolet",
+        "dutch": "Overlevingsmes | Ultraviolet",
+        "english": "Survival Knife | Ultraviolet",
+        "finnish": "Selviytymisveitsi | Ultravioletti",
+        "french": "Couteau de survie | Ultraviolet",
+        "german": "Survival-Messer | Ultraviolett",
+        "greek": "Μαχαίρι Survival | Ultraviolet",
+        "hungarian": "Túlélőkés | Ultraibolya",
+        "indonesian": "Pisau Survival | Ultraviolet",
+        "italian": "Coltello da sopravvivenza | Ultraviolet",
+        "japanese": "サバイバルナイフ | Ultraviolet",
+        "koreana": "서바이벌 칼 | 자외선",
+        "latam": "Cuchillo de supervivencia | Ultravioleta",
+        "norwegian": "Overlevelseskniv | Ultraviolet",
+        "polish": "Nóż survivalowy | Ultrafiolet",
+        "portuguese": "Faca Survival | Ultraviolet",
+        "romanian": "Cuțit de supraviețuire | Ultraviolet",
+        "russian": "Нож выживания | Ультрафиолет",
+        "schinese": "求生匕首 | 致命紫罗兰",
+        "schinese_pw": "Survival Knife | Ultraviolet",
+        "spanish": "Cuchillo de supervivencia | Ultravioleta",
+        "swedish": "Överlevnadskniv | Ultraviolet",
+        "tchinese": "求生刀 | 致命紫羅蘭",
+        "thai": "มีดเซอร์ไวเวอร์ | Ultraviolet",
+        "turkish": "Hayatta Kalma Bıçağı | Morötesi",
+        "ukrainian": "Ніж для виживання | Ультрафіолет",
+        "vietnamese": "Dao sinh tồn | Ultraviolet"
+      },
+      "name": "Survival Knife | Ultraviolet",
+      "search_slug": "survival-knife-ultraviolet",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-409",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "an-tiger-orange",
+        "id": 409,
+        "name": "Tiger Tooth",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-409",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Dente de Tigre",
+        "bulgarian": "Нож за оцеляване | Тигров зъб",
+        "czech": "Záchranářský nůž | Tiger Tooth",
+        "danish": "Overlevelseskniv | Tiger Tooth",
+        "dutch": "Overlevingsmes | Tiger Tooth",
+        "english": "Survival Knife | Tiger Tooth",
+        "finnish": "Selviytymisveitsi | Tiikerinhammas",
+        "french": "Couteau de survie | Dent de tigre",
+        "german": "Survival-Messer | Tigerzahn",
+        "greek": "Μαχαίρι Survival | Tiger Tooth",
+        "hungarian": "Túlélőkés | Tigrisfog",
+        "indonesian": "Pisau Survival | Tiger Tooth",
+        "italian": "Coltello da sopravvivenza | Tiger Tooth",
+        "japanese": "サバイバルナイフ | Tiger Tooth",
+        "koreana": "서바이벌 칼 | 호랑이 이빨",
+        "latam": "Cuchillo de supervivencia | Diente de tigre",
+        "norwegian": "Overlevelseskniv | Tiger Tooth",
+        "polish": "Nóż survivalowy | Tygrysi kieł",
+        "portuguese": "Faca Survival | Tiger Tooth",
+        "romanian": "Cuțit de supraviețuire | Tiger Tooth",
+        "russian": "Нож выживания | Зуб тигра",
+        "schinese": "求生匕首 | 虎牙",
+        "schinese_pw": "Survival Knife | Tiger Tooth",
+        "spanish": "Cuchillo de supervivencia | Diente de tigre",
+        "swedish": "Överlevnadskniv | Tiger Tooth",
+        "tchinese": "求生刀 | 虎牙",
+        "thai": "มีดเซอร์ไวเวอร์ | Tiger Tooth",
+        "turkish": "Hayatta Kalma Bıçağı | Kaplan Dişi",
+        "ukrainian": "Ніж для виживання | Тигряче ікло",
+        "vietnamese": "Dao sinh tồn | Tiger Tooth"
+      },
+      "name": "Survival Knife | Tiger Tooth",
+      "search_slug": "survival-knife-tiger-tooth",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-410",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-damascus",
+        "id": 410,
+        "name": "Damascus Steel",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-410",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Aço de Damasco",
+        "bulgarian": "Нож за оцеляване | Дамаска стомана",
+        "czech": "Záchranářský nůž | Damascus Steel",
+        "danish": "Overlevelseskniv | Damascus Steel",
+        "dutch": "Overlevingsmes | Damascus Steel",
+        "english": "Survival Knife | Damascus Steel",
+        "finnish": "Selviytymisveitsi | Damaskiteräs",
+        "french": "Couteau de survie | Acier de Damas",
+        "german": "Survival-Messer | Damaszener Stahl",
+        "greek": "Μαχαίρι Survival | Damascus Steel",
+        "hungarian": "Túlélőkés | Damaszkuszi Acél",
+        "indonesian": "Pisau Survival | Damascus Steel",
+        "italian": "Coltello da sopravvivenza | Damascus Steel",
+        "japanese": "サバイバルナイフ | Damascus Steel",
+        "koreana": "서바이벌 칼 | 다마스크 강철",
+        "latam": "Cuchillo de supervivencia | Acero de damasco",
+        "norwegian": "Overlevelseskniv | Damascus Steel",
+        "polish": "Nóż survivalowy | Stal damasceńska",
+        "portuguese": "Faca Survival | Damascus Steel",
+        "romanian": "Cuțit de supraviețuire | Damascus Steel",
+        "russian": "Нож выживания | Дамасская сталь",
+        "schinese": "求生匕首 | 大马士革钢",
+        "schinese_pw": "Survival Knife | Damascus Steel",
+        "spanish": "Cuchillo de supervivencia | Acero de damasco",
+        "swedish": "Överlevnadskniv | Damascus Steel",
+        "tchinese": "求生刀 | 大馬士革鋼",
+        "thai": "มีดเซอร์ไวเวอร์ | Damascus Steel",
+        "turkish": "Hayatta Kalma Bıçağı | Şam Çeliği",
+        "ukrainian": "Ніж для виживання | Дамаська сталь",
+        "vietnamese": "Dao sinh tồn | Damascus Steel"
+      },
+      "name": "Survival Knife | Damascus Steel",
+      "search_slug": "survival-knife-damascus-steel",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-411",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-damascus-90",
+        "id": 411,
+        "name": "Damascus Steel",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-411",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Aço de Damasco",
+        "bulgarian": "Нож за оцеляване | Дамаска стомана",
+        "czech": "Záchranářský nůž | Damascus Steel",
+        "danish": "Overlevelseskniv | Damascus Steel",
+        "dutch": "Overlevingsmes | Damascus Steel",
+        "english": "Survival Knife | Damascus Steel",
+        "finnish": "Selviytymisveitsi | Damaskiteräs",
+        "french": "Couteau de survie | Acier de Damas",
+        "german": "Survival-Messer | Damaszener Stahl",
+        "greek": "Μαχαίρι Survival | Damascus Steel",
+        "hungarian": "Túlélőkés | Damaszkuszi Acél",
+        "indonesian": "Pisau Survival | Damascus Steel",
+        "italian": "Coltello da sopravvivenza | Damascus Steel",
+        "japanese": "サバイバルナイフ | Damascus Steel",
+        "koreana": "서바이벌 칼 | 다마스크 강철",
+        "latam": "Cuchillo de supervivencia | Acero de damasco",
+        "norwegian": "Overlevelseskniv | Damascus Steel",
+        "polish": "Nóż survivalowy | Stal damasceńska",
+        "portuguese": "Faca Survival | Damascus Steel",
+        "romanian": "Cuțit de supraviețuire | Damascus Steel",
+        "russian": "Нож выживания | Дамасская сталь",
+        "schinese": "求生匕首 | 大马士革钢",
+        "schinese_pw": "Survival Knife | Damascus Steel",
+        "spanish": "Cuchillo de supervivencia | Acero de damasco",
+        "swedish": "Överlevnadskniv | Damascus Steel",
+        "tchinese": "求生刀 | 大馬士革鋼",
+        "thai": "มีดเซอร์ไวเวอร์ | Damascus Steel",
+        "turkish": "Hayatta Kalma Bıçağı | Şam Çeliği",
+        "ukrainian": "Ніж для виживання | Дамаська сталь",
+        "vietnamese": "Dao sinh tồn | Damascus Steel"
+      },
+      "name": "Survival Knife | Damascus Steel",
+      "search_slug": "survival-knife-damascus-steel",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-413",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marble-fade",
+        "id": 413,
+        "name": "Marble Fade",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-413",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Mármore Desbotado",
+        "bulgarian": "Нож за оцеляване | Мраморно преливане",
+        "czech": "Záchranářský nůž | Marble Fade",
+        "danish": "Overlevelseskniv | Marble Fade",
+        "dutch": "Overlevingsmes | Marble Fade",
+        "english": "Survival Knife | Marble Fade",
+        "finnish": "Selviytymisveitsi | Marmorihäivytys",
+        "french": "Couteau de survie | Marbre fondu",
+        "german": "Survival-Messer | Marmorfärbung",
+        "greek": "Μαχαίρι Survival | Marble Fade",
+        "hungarian": "Túlélőkés | Fakuló Márvány",
+        "indonesian": "Pisau Survival | Marble Fade",
+        "italian": "Coltello da sopravvivenza | Marble Fade",
+        "japanese": "サバイバルナイフ | Marble Fade",
+        "koreana": "서바이벌 칼 | 흐릿한 대리석",
+        "latam": "Cuchillo de supervivencia | Mármol desteñido",
+        "norwegian": "Overlevelseskniv | Marble Fade",
+        "polish": "Nóż survivalowy | Marmurkowy gradient",
+        "portuguese": "Faca Survival | Marble Fade",
+        "romanian": "Cuțit de supraviețuire | Marble Fade",
+        "russian": "Нож выживания | Мраморный градиент",
+        "schinese": "求生匕首 | 渐变大理石",
+        "schinese_pw": "Survival Knife | Marble Fade",
+        "spanish": "Cuchillo de supervivencia | Mármol desteñido",
+        "swedish": "Överlevnadskniv | Marble Fade",
+        "tchinese": "求生刀 | 大理石漸層",
+        "thai": "มีดเซอร์ไวเวอร์ | Marble Fade",
+        "turkish": "Hayatta Kalma Bıçağı | Solgun Mermer",
+        "ukrainian": "Ніж для виживання | Мармуровий перелив",
+        "vietnamese": "Dao sinh tồn | Marble Fade"
+      },
+      "name": "Survival Knife | Marble Fade",
+      "search_slug": "survival-knife-marble-fade",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-414",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-steel-knife",
+        "id": 414,
+        "name": "Rust Coat",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-414",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Revestimento Enferrujado",
+        "bulgarian": "Нож за оцеляване | Ръждиво покритие",
+        "czech": "Záchranářský nůž | Rust Coat",
+        "danish": "Overlevelseskniv | Rust Coat",
+        "dutch": "Overlevingsmes | Rust Coat",
+        "english": "Survival Knife | Rust Coat",
+        "finnish": "Selviytymisveitsi | Ruostepinta",
+        "french": "Couteau de survie | Aspect rouillé",
+        "german": "Survival-Messer | Rostmantel",
+        "greek": "Μαχαίρι Survival | Rust Coat",
+        "hungarian": "Túlélőkés | Rozsdabevonat",
+        "indonesian": "Pisau Survival | Rust Coat",
+        "italian": "Coltello da sopravvivenza | Rust Coat",
+        "japanese": "サバイバルナイフ | Rust Coat",
+        "koreana": "서바이벌 칼 | 녹슬음",
+        "latam": "Cuchillo de supervivencia | Capa de herrumbre",
+        "norwegian": "Overlevelseskniv | Rust Coat",
+        "polish": "Nóż survivalowy | Warstwa rdzy",
+        "portuguese": "Faca Survival | Rust Coat",
+        "romanian": "Cuțit de supraviețuire | Rust Coat",
+        "russian": "Нож выживания | Пыльник",
+        "schinese": "求生匕首 | 外表生锈",
+        "schinese_pw": "Survival Knife | Rust Coat",
+        "spanish": "Cuchillo de supervivencia | Capa de herrumbre",
+        "swedish": "Överlevnadskniv | Rust Coat",
+        "tchinese": "求生刀 | 鏽衣",
+        "thai": "มีดเซอร์ไวเวอร์ | Rust Coat",
+        "turkish": "Hayatta Kalma Bıçağı | Pas Kaplı",
+        "ukrainian": "Ніж для виживання | Прошарок іржі",
+        "vietnamese": "Dao sinh tồn | Rust Coat"
+      },
+      "name": "Survival Knife | Rust Coat",
+      "search_slug": "survival-knife-rust-coat",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 1.0,
+        "min_float": 0.4
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-415",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-ruby-marbleized",
+        "id": 415,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-415",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler",
+        "bulgarian": "Нож за оцеляване | Доплер",
+        "czech": "Záchranářský nůž | Doppler",
+        "danish": "Overlevelseskniv | Doppler",
+        "dutch": "Overlevingsmes | Doppler",
+        "english": "Survival Knife | Doppler",
+        "finnish": "Selviytymisveitsi | Doppler",
+        "french": "Couteau de survie | Doppler",
+        "german": "Survival-Messer | Doppler",
+        "greek": "Μαχαίρι Survival | Doppler",
+        "hungarian": "Túlélőkés | Doppler",
+        "indonesian": "Pisau Survival | Doppler",
+        "italian": "Coltello da sopravvivenza | Doppler",
+        "japanese": "サバイバルナイフ | Doppler",
+        "koreana": "서바이벌 칼 | 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler",
+        "norwegian": "Overlevelseskniv | Doppler",
+        "polish": "Nóż survivalowy | Doppler",
+        "portuguese": "Faca Survival | Doppler",
+        "romanian": "Cuțit de supraviețuire | Doppler",
+        "russian": "Нож выживания | Волны",
+        "schinese": "求生匕首 | 多普勒",
+        "schinese_pw": "Survival Knife | Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler",
+        "swedish": "Överlevnadskniv | Doppler",
+        "tchinese": "求生刀 | 都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Doppler",
+        "ukrainian": "Ніж для виживання | Доплер",
+        "vietnamese": "Dao sinh tồn | Doppler"
+      },
+      "name": "Survival Knife | Doppler",
+      "search_slug": "survival-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-416",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-sapphire-marbleized",
+        "id": 416,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-416",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler",
+        "bulgarian": "Нож за оцеляване | Доплер",
+        "czech": "Záchranářský nůž | Doppler",
+        "danish": "Overlevelseskniv | Doppler",
+        "dutch": "Overlevingsmes | Doppler",
+        "english": "Survival Knife | Doppler",
+        "finnish": "Selviytymisveitsi | Doppler",
+        "french": "Couteau de survie | Doppler",
+        "german": "Survival-Messer | Doppler",
+        "greek": "Μαχαίρι Survival | Doppler",
+        "hungarian": "Túlélőkés | Doppler",
+        "indonesian": "Pisau Survival | Doppler",
+        "italian": "Coltello da sopravvivenza | Doppler",
+        "japanese": "サバイバルナイフ | Doppler",
+        "koreana": "서바이벌 칼 | 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler",
+        "norwegian": "Overlevelseskniv | Doppler",
+        "polish": "Nóż survivalowy | Doppler",
+        "portuguese": "Faca Survival | Doppler",
+        "romanian": "Cuțit de supraviețuire | Doppler",
+        "russian": "Нож выживания | Волны",
+        "schinese": "求生匕首 | 多普勒",
+        "schinese_pw": "Survival Knife | Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler",
+        "swedish": "Överlevnadskniv | Doppler",
+        "tchinese": "求生刀 | 都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Doppler",
+        "ukrainian": "Ніж для виживання | Доплер",
+        "vietnamese": "Dao sinh tồn | Doppler"
+      },
+      "name": "Survival Knife | Doppler",
+      "search_slug": "survival-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-417",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-blackpearl-marbleized",
+        "id": 417,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-417",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler",
+        "bulgarian": "Нож за оцеляване | Доплер",
+        "czech": "Záchranářský nůž | Doppler",
+        "danish": "Overlevelseskniv | Doppler",
+        "dutch": "Overlevingsmes | Doppler",
+        "english": "Survival Knife | Doppler",
+        "finnish": "Selviytymisveitsi | Doppler",
+        "french": "Couteau de survie | Doppler",
+        "german": "Survival-Messer | Doppler",
+        "greek": "Μαχαίρι Survival | Doppler",
+        "hungarian": "Túlélőkés | Doppler",
+        "indonesian": "Pisau Survival | Doppler",
+        "italian": "Coltello da sopravvivenza | Doppler",
+        "japanese": "サバイバルナイフ | Doppler",
+        "koreana": "서바이벌 칼 | 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler",
+        "norwegian": "Overlevelseskniv | Doppler",
+        "polish": "Nóż survivalowy | Doppler",
+        "portuguese": "Faca Survival | Doppler",
+        "romanian": "Cuțit de supraviețuire | Doppler",
+        "russian": "Нож выживания | Волны",
+        "schinese": "求生匕首 | 多普勒",
+        "schinese_pw": "Survival Knife | Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler",
+        "swedish": "Överlevnadskniv | Doppler",
+        "tchinese": "求生刀 | 都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Doppler",
+        "ukrainian": "Ніж для виживання | Доплер",
+        "vietnamese": "Dao sinh tồn | Doppler"
+      },
+      "name": "Survival Knife | Doppler",
+      "search_slug": "survival-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-418",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase1",
+        "id": 418,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-418",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler",
+        "bulgarian": "Нож за оцеляване | Доплер",
+        "czech": "Záchranářský nůž | Doppler",
+        "danish": "Overlevelseskniv | Doppler",
+        "dutch": "Overlevingsmes | Doppler",
+        "english": "Survival Knife | Doppler",
+        "finnish": "Selviytymisveitsi | Doppler",
+        "french": "Couteau de survie | Doppler",
+        "german": "Survival-Messer | Doppler",
+        "greek": "Μαχαίρι Survival | Doppler",
+        "hungarian": "Túlélőkés | Doppler",
+        "indonesian": "Pisau Survival | Doppler",
+        "italian": "Coltello da sopravvivenza | Doppler",
+        "japanese": "サバイバルナイフ | Doppler",
+        "koreana": "서바이벌 칼 | 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler",
+        "norwegian": "Overlevelseskniv | Doppler",
+        "polish": "Nóż survivalowy | Doppler",
+        "portuguese": "Faca Survival | Doppler",
+        "romanian": "Cuțit de supraviețuire | Doppler",
+        "russian": "Нож выживания | Волны",
+        "schinese": "求生匕首 | 多普勒",
+        "schinese_pw": "Survival Knife | Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler",
+        "swedish": "Överlevnadskniv | Doppler",
+        "tchinese": "求生刀 | 都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Doppler",
+        "ukrainian": "Ніж для виживання | Доплер",
+        "vietnamese": "Dao sinh tồn | Doppler"
+      },
+      "name": "Survival Knife | Doppler",
+      "search_slug": "survival-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-419",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase2",
+        "id": 419,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-419",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler",
+        "bulgarian": "Нож за оцеляване | Доплер",
+        "czech": "Záchranářský nůž | Doppler",
+        "danish": "Overlevelseskniv | Doppler",
+        "dutch": "Overlevingsmes | Doppler",
+        "english": "Survival Knife | Doppler",
+        "finnish": "Selviytymisveitsi | Doppler",
+        "french": "Couteau de survie | Doppler",
+        "german": "Survival-Messer | Doppler",
+        "greek": "Μαχαίρι Survival | Doppler",
+        "hungarian": "Túlélőkés | Doppler",
+        "indonesian": "Pisau Survival | Doppler",
+        "italian": "Coltello da sopravvivenza | Doppler",
+        "japanese": "サバイバルナイフ | Doppler",
+        "koreana": "서바이벌 칼 | 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler",
+        "norwegian": "Overlevelseskniv | Doppler",
+        "polish": "Nóż survivalowy | Doppler",
+        "portuguese": "Faca Survival | Doppler",
+        "romanian": "Cuțit de supraviețuire | Doppler",
+        "russian": "Нож выживания | Волны",
+        "schinese": "求生匕首 | 多普勒",
+        "schinese_pw": "Survival Knife | Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler",
+        "swedish": "Överlevnadskniv | Doppler",
+        "tchinese": "求生刀 | 都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Doppler",
+        "ukrainian": "Ніж для виживання | Доплер",
+        "vietnamese": "Dao sinh tồn | Doppler"
+      },
+      "name": "Survival Knife | Doppler",
+      "search_slug": "survival-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-420",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase3",
+        "id": 420,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-420",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler",
+        "bulgarian": "Нож за оцеляване | Доплер",
+        "czech": "Záchranářský nůž | Doppler",
+        "danish": "Overlevelseskniv | Doppler",
+        "dutch": "Overlevingsmes | Doppler",
+        "english": "Survival Knife | Doppler",
+        "finnish": "Selviytymisveitsi | Doppler",
+        "french": "Couteau de survie | Doppler",
+        "german": "Survival-Messer | Doppler",
+        "greek": "Μαχαίρι Survival | Doppler",
+        "hungarian": "Túlélőkés | Doppler",
+        "indonesian": "Pisau Survival | Doppler",
+        "italian": "Coltello da sopravvivenza | Doppler",
+        "japanese": "サバイバルナイフ | Doppler",
+        "koreana": "서바이벌 칼 | 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler",
+        "norwegian": "Overlevelseskniv | Doppler",
+        "polish": "Nóż survivalowy | Doppler",
+        "portuguese": "Faca Survival | Doppler",
+        "romanian": "Cuțit de supraviețuire | Doppler",
+        "russian": "Нож выживания | Волны",
+        "schinese": "求生匕首 | 多普勒",
+        "schinese_pw": "Survival Knife | Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler",
+        "swedish": "Överlevnadskniv | Doppler",
+        "tchinese": "求生刀 | 都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Doppler",
+        "ukrainian": "Ніж для виживання | Доплер",
+        "vietnamese": "Dao sinh tồn | Doppler"
+      },
+      "name": "Survival Knife | Doppler",
+      "search_slug": "survival-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-421",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase4",
+        "id": 421,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "518-421",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler",
+        "bulgarian": "Нож за оцеляване | Доплер",
+        "czech": "Záchranářský nůž | Doppler",
+        "danish": "Overlevelseskniv | Doppler",
+        "dutch": "Overlevingsmes | Doppler",
+        "english": "Survival Knife | Doppler",
+        "finnish": "Selviytymisveitsi | Doppler",
+        "french": "Couteau de survie | Doppler",
+        "german": "Survival-Messer | Doppler",
+        "greek": "Μαχαίρι Survival | Doppler",
+        "hungarian": "Túlélőkés | Doppler",
+        "indonesian": "Pisau Survival | Doppler",
+        "italian": "Coltello da sopravvivenza | Doppler",
+        "japanese": "サバイバルナイフ | Doppler",
+        "koreana": "서바이벌 칼 | 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler",
+        "norwegian": "Overlevelseskniv | Doppler",
+        "polish": "Nóż survivalowy | Doppler",
+        "portuguese": "Faca Survival | Doppler",
+        "romanian": "Cuțit de supraviețuire | Doppler",
+        "russian": "Нож выживания | Волны",
+        "schinese": "求生匕首 | 多普勒",
+        "schinese_pw": "Survival Knife | Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler",
+        "swedish": "Överlevnadskniv | Doppler",
+        "tchinese": "求生刀 | 都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Doppler",
+        "ukrainian": "Ніж для виживання | Доплер",
+        "vietnamese": "Dao sinh tồn | Doppler"
+      },
+      "name": "Survival Knife | Doppler",
+      "search_slug": "survival-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-98",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "so-purple",
+        "id": 98,
+        "name": "Ultraviolet",
+        "rarity_ref": null,
+        "style_code": 1,
+        "style_name": "Solid Color"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-98",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Ultravioleta",
+        "bulgarian": "Номадският нож | Ултра виолетово",
+        "czech": "Outdoorový nůž | Ultraviolet",
+        "danish": "Nomadekniv | Ultraviolet",
+        "dutch": "Nomademes | Ultraviolet",
+        "english": "Nomad Knife | Ultraviolet",
+        "finnish": "Nomad-puukko | Ultravioletti",
+        "french": "Couteau de nomade | Ultraviolet",
+        "german": "Nomadenmesser | Ultraviolett",
+        "greek": "Μαχαίρι Nomad | Ultraviolet",
+        "hungarian": "Nomád kés | Ultraibolya",
+        "indonesian": "Pisau Nomad | Ultraviolet",
+        "italian": "Coltello Nomade | Ultraviolet",
+        "japanese": "Nomad ナイフ | Ultraviolet",
+        "koreana": "노매드 칼 | 자외선",
+        "latam": "Cuchillo nómada | Ultravioleta",
+        "norwegian": "Nomadekniv | Ultraviolet",
+        "polish": "Nóż nomada | Ultrafiolet",
+        "portuguese": "Faca Nomad | Ultraviolet",
+        "romanian": "Cuțit Nomad | Ultraviolet",
+        "russian": "Нож «Бродяга» | Ультрафиолет",
+        "schinese": "流浪者匕首 | 致命紫罗兰",
+        "schinese_pw": "Nomad Knife | Ultraviolet",
+        "spanish": "Cuchillo nómada | Ultravioleta",
+        "swedish": "Nomad-kniv | Ultraviolet",
+        "tchinese": "流浪者小刀 | 致命紫羅蘭",
+        "thai": "มีดโนแมด | Ultraviolet",
+        "turkish": "Göçebe Bıçağı | Morötesi",
+        "ukrainian": "Польовий ніж | Ультрафіолет",
+        "vietnamese": "Dao Nomad | Ultraviolet"
+      },
+      "name": "Nomad Knife | Ultraviolet",
+      "search_slug": "nomad-knife-ultraviolet",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-409",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "an-tiger-orange",
+        "id": 409,
+        "name": "Tiger Tooth",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-409",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Dente de Tigre",
+        "bulgarian": "Номадският нож | Тигров зъб",
+        "czech": "Outdoorový nůž | Tiger Tooth",
+        "danish": "Nomadekniv | Tiger Tooth",
+        "dutch": "Nomademes | Tiger Tooth",
+        "english": "Nomad Knife | Tiger Tooth",
+        "finnish": "Nomad-puukko | Tiikerinhammas",
+        "french": "Couteau de nomade | Dent de tigre",
+        "german": "Nomadenmesser | Tigerzahn",
+        "greek": "Μαχαίρι Nomad | Tiger Tooth",
+        "hungarian": "Nomád kés | Tigrisfog",
+        "indonesian": "Pisau Nomad | Tiger Tooth",
+        "italian": "Coltello Nomade | Tiger Tooth",
+        "japanese": "Nomad ナイフ | Tiger Tooth",
+        "koreana": "노매드 칼 | 호랑이 이빨",
+        "latam": "Cuchillo nómada | Diente de tigre",
+        "norwegian": "Nomadekniv | Tiger Tooth",
+        "polish": "Nóż nomada | Tygrysi kieł",
+        "portuguese": "Faca Nomad | Tiger Tooth",
+        "romanian": "Cuțit Nomad | Tiger Tooth",
+        "russian": "Нож «Бродяга» | Зуб тигра",
+        "schinese": "流浪者匕首 | 虎牙",
+        "schinese_pw": "Nomad Knife | Tiger Tooth",
+        "spanish": "Cuchillo nómada | Diente de tigre",
+        "swedish": "Nomad-kniv | Tiger Tooth",
+        "tchinese": "流浪者小刀 | 虎牙",
+        "thai": "มีดโนแมด | Tiger Tooth",
+        "turkish": "Göçebe Bıçağı | Kaplan Dişi",
+        "ukrainian": "Польовий ніж | Тигряче ікло",
+        "vietnamese": "Dao Nomad | Tiger Tooth"
+      },
+      "name": "Nomad Knife | Tiger Tooth",
+      "search_slug": "nomad-knife-tiger-tooth",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-410",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-damascus",
+        "id": 410,
+        "name": "Damascus Steel",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-410",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Aço de Damasco",
+        "bulgarian": "Номадският нож | Дамаска стомана",
+        "czech": "Outdoorový nůž | Damascus Steel",
+        "danish": "Nomadekniv | Damascus Steel",
+        "dutch": "Nomademes | Damascus Steel",
+        "english": "Nomad Knife | Damascus Steel",
+        "finnish": "Nomad-puukko | Damaskiteräs",
+        "french": "Couteau de nomade | Acier de Damas",
+        "german": "Nomadenmesser | Damaszener Stahl",
+        "greek": "Μαχαίρι Nomad | Damascus Steel",
+        "hungarian": "Nomád kés | Damaszkuszi Acél",
+        "indonesian": "Pisau Nomad | Damascus Steel",
+        "italian": "Coltello Nomade | Damascus Steel",
+        "japanese": "Nomad ナイフ | Damascus Steel",
+        "koreana": "노매드 칼 | 다마스크 강철",
+        "latam": "Cuchillo nómada | Acero de damasco",
+        "norwegian": "Nomadekniv | Damascus Steel",
+        "polish": "Nóż nomada | Stal damasceńska",
+        "portuguese": "Faca Nomad | Damascus Steel",
+        "romanian": "Cuțit Nomad | Damascus Steel",
+        "russian": "Нож «Бродяга» | Дамасская сталь",
+        "schinese": "流浪者匕首 | 大马士革钢",
+        "schinese_pw": "Nomad Knife | Damascus Steel",
+        "spanish": "Cuchillo nómada | Acero de damasco",
+        "swedish": "Nomad-kniv | Damascus Steel",
+        "tchinese": "流浪者小刀 | 大馬士革鋼",
+        "thai": "มีดโนแมด | Damascus Steel",
+        "turkish": "Göçebe Bıçağı | Şam Çeliği",
+        "ukrainian": "Польовий ніж | Дамаська сталь",
+        "vietnamese": "Dao Nomad | Damascus Steel"
+      },
+      "name": "Nomad Knife | Damascus Steel",
+      "search_slug": "nomad-knife-damascus-steel",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-411",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-damascus-90",
+        "id": 411,
+        "name": "Damascus Steel",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-411",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Aço de Damasco",
+        "bulgarian": "Номадският нож | Дамаска стомана",
+        "czech": "Outdoorový nůž | Damascus Steel",
+        "danish": "Nomadekniv | Damascus Steel",
+        "dutch": "Nomademes | Damascus Steel",
+        "english": "Nomad Knife | Damascus Steel",
+        "finnish": "Nomad-puukko | Damaskiteräs",
+        "french": "Couteau de nomade | Acier de Damas",
+        "german": "Nomadenmesser | Damaszener Stahl",
+        "greek": "Μαχαίρι Nomad | Damascus Steel",
+        "hungarian": "Nomád kés | Damaszkuszi Acél",
+        "indonesian": "Pisau Nomad | Damascus Steel",
+        "italian": "Coltello Nomade | Damascus Steel",
+        "japanese": "Nomad ナイフ | Damascus Steel",
+        "koreana": "노매드 칼 | 다마스크 강철",
+        "latam": "Cuchillo nómada | Acero de damasco",
+        "norwegian": "Nomadekniv | Damascus Steel",
+        "polish": "Nóż nomada | Stal damasceńska",
+        "portuguese": "Faca Nomad | Damascus Steel",
+        "romanian": "Cuțit Nomad | Damascus Steel",
+        "russian": "Нож «Бродяга» | Дамасская сталь",
+        "schinese": "流浪者匕首 | 大马士革钢",
+        "schinese_pw": "Nomad Knife | Damascus Steel",
+        "spanish": "Cuchillo nómada | Acero de damasco",
+        "swedish": "Nomad-kniv | Damascus Steel",
+        "tchinese": "流浪者小刀 | 大馬士革鋼",
+        "thai": "มีดโนแมด | Damascus Steel",
+        "turkish": "Göçebe Bıçağı | Şam Çeliği",
+        "ukrainian": "Польовий ніж | Дамаська сталь",
+        "vietnamese": "Dao Nomad | Damascus Steel"
+      },
+      "name": "Nomad Knife | Damascus Steel",
+      "search_slug": "nomad-knife-damascus-steel",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-413",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marble-fade",
+        "id": 413,
+        "name": "Marble Fade",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-413",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Mármore Desbotado",
+        "bulgarian": "Номадският нож | Мраморно преливане",
+        "czech": "Outdoorový nůž | Marble Fade",
+        "danish": "Nomadekniv | Marble Fade",
+        "dutch": "Nomademes | Marble Fade",
+        "english": "Nomad Knife | Marble Fade",
+        "finnish": "Nomad-puukko | Marmorihäivytys",
+        "french": "Couteau de nomade | Marbre fondu",
+        "german": "Nomadenmesser | Marmorfärbung",
+        "greek": "Μαχαίρι Nomad | Marble Fade",
+        "hungarian": "Nomád kés | Fakuló Márvány",
+        "indonesian": "Pisau Nomad | Marble Fade",
+        "italian": "Coltello Nomade | Marble Fade",
+        "japanese": "Nomad ナイフ | Marble Fade",
+        "koreana": "노매드 칼 | 흐릿한 대리석",
+        "latam": "Cuchillo nómada | Mármol desteñido",
+        "norwegian": "Nomadekniv | Marble Fade",
+        "polish": "Nóż nomada | Marmurkowy gradient",
+        "portuguese": "Faca Nomad | Marble Fade",
+        "romanian": "Cuțit Nomad | Marble Fade",
+        "russian": "Нож «Бродяга» | Мраморный градиент",
+        "schinese": "流浪者匕首 | 渐变大理石",
+        "schinese_pw": "Nomad Knife | Marble Fade",
+        "spanish": "Cuchillo nómada | Mármol desteñido",
+        "swedish": "Nomad-kniv | Marble Fade",
+        "tchinese": "流浪者小刀 | 大理石漸層",
+        "thai": "มีดโนแมด | Marble Fade",
+        "turkish": "Göçebe Bıçağı | Solgun Mermer",
+        "ukrainian": "Польовий ніж | Мармуровий перелив",
+        "vietnamese": "Dao Nomad | Marble Fade"
+      },
+      "name": "Nomad Knife | Marble Fade",
+      "search_slug": "nomad-knife-marble-fade",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-414",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-steel-knife",
+        "id": 414,
+        "name": "Rust Coat",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-414",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Revestimento Enferrujado",
+        "bulgarian": "Номадският нож | Ръждиво покритие",
+        "czech": "Outdoorový nůž | Rust Coat",
+        "danish": "Nomadekniv | Rust Coat",
+        "dutch": "Nomademes | Rust Coat",
+        "english": "Nomad Knife | Rust Coat",
+        "finnish": "Nomad-puukko | Ruostepinta",
+        "french": "Couteau de nomade | Aspect rouillé",
+        "german": "Nomadenmesser | Rostmantel",
+        "greek": "Μαχαίρι Nomad | Rust Coat",
+        "hungarian": "Nomád kés | Rozsdabevonat",
+        "indonesian": "Pisau Nomad | Rust Coat",
+        "italian": "Coltello Nomade | Rust Coat",
+        "japanese": "Nomad ナイフ | Rust Coat",
+        "koreana": "노매드 칼 | 녹슬음",
+        "latam": "Cuchillo nómada | Capa de herrumbre",
+        "norwegian": "Nomadekniv | Rust Coat",
+        "polish": "Nóż nomada | Warstwa rdzy",
+        "portuguese": "Faca Nomad | Rust Coat",
+        "romanian": "Cuțit Nomad | Rust Coat",
+        "russian": "Нож «Бродяга» | Пыльник",
+        "schinese": "流浪者匕首 | 外表生锈",
+        "schinese_pw": "Nomad Knife | Rust Coat",
+        "spanish": "Cuchillo nómada | Capa de herrumbre",
+        "swedish": "Nomad-kniv | Rust Coat",
+        "tchinese": "流浪者小刀 | 鏽衣",
+        "thai": "มีดโนแมด | Rust Coat",
+        "turkish": "Göçebe Bıçağı | Pas Kaplı",
+        "ukrainian": "Польовий ніж | Прошарок іржі",
+        "vietnamese": "Dao Nomad | Rust Coat"
+      },
+      "name": "Nomad Knife | Rust Coat",
+      "search_slug": "nomad-knife-rust-coat",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 1.0,
+        "min_float": 0.4
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-415",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-ruby-marbleized",
+        "id": 415,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-415",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler",
+        "bulgarian": "Номадският нож | Доплер",
+        "czech": "Outdoorový nůž | Doppler",
+        "danish": "Nomadekniv | Doppler",
+        "dutch": "Nomademes | Doppler",
+        "english": "Nomad Knife | Doppler",
+        "finnish": "Nomad-puukko | Doppler",
+        "french": "Couteau de nomade | Doppler",
+        "german": "Nomadenmesser | Doppler",
+        "greek": "Μαχαίρι Nomad | Doppler",
+        "hungarian": "Nomád kés | Doppler",
+        "indonesian": "Pisau Nomad | Doppler",
+        "italian": "Coltello Nomade | Doppler",
+        "japanese": "Nomad ナイフ | Doppler",
+        "koreana": "노매드 칼 | 도플러",
+        "latam": "Cuchillo nómada | Doppler",
+        "norwegian": "Nomadekniv | Doppler",
+        "polish": "Nóż nomada | Doppler",
+        "portuguese": "Faca Nomad | Doppler",
+        "romanian": "Cuțit Nomad | Doppler",
+        "russian": "Нож «Бродяга» | Волны",
+        "schinese": "流浪者匕首 | 多普勒",
+        "schinese_pw": "Nomad Knife | Doppler",
+        "spanish": "Cuchillo nómada | Doppler",
+        "swedish": "Nomad-kniv | Doppler",
+        "tchinese": "流浪者小刀 | 都卜勒",
+        "thai": "มีดโนแมด | Doppler",
+        "turkish": "Göçebe Bıçağı | Doppler",
+        "ukrainian": "Польовий ніж | Доплер",
+        "vietnamese": "Dao Nomad | Doppler"
+      },
+      "name": "Nomad Knife | Doppler",
+      "search_slug": "nomad-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-416",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-sapphire-marbleized",
+        "id": 416,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-416",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler",
+        "bulgarian": "Номадският нож | Доплер",
+        "czech": "Outdoorový nůž | Doppler",
+        "danish": "Nomadekniv | Doppler",
+        "dutch": "Nomademes | Doppler",
+        "english": "Nomad Knife | Doppler",
+        "finnish": "Nomad-puukko | Doppler",
+        "french": "Couteau de nomade | Doppler",
+        "german": "Nomadenmesser | Doppler",
+        "greek": "Μαχαίρι Nomad | Doppler",
+        "hungarian": "Nomád kés | Doppler",
+        "indonesian": "Pisau Nomad | Doppler",
+        "italian": "Coltello Nomade | Doppler",
+        "japanese": "Nomad ナイフ | Doppler",
+        "koreana": "노매드 칼 | 도플러",
+        "latam": "Cuchillo nómada | Doppler",
+        "norwegian": "Nomadekniv | Doppler",
+        "polish": "Nóż nomada | Doppler",
+        "portuguese": "Faca Nomad | Doppler",
+        "romanian": "Cuțit Nomad | Doppler",
+        "russian": "Нож «Бродяга» | Волны",
+        "schinese": "流浪者匕首 | 多普勒",
+        "schinese_pw": "Nomad Knife | Doppler",
+        "spanish": "Cuchillo nómada | Doppler",
+        "swedish": "Nomad-kniv | Doppler",
+        "tchinese": "流浪者小刀 | 都卜勒",
+        "thai": "มีดโนแมด | Doppler",
+        "turkish": "Göçebe Bıçağı | Doppler",
+        "ukrainian": "Польовий ніж | Доплер",
+        "vietnamese": "Dao Nomad | Doppler"
+      },
+      "name": "Nomad Knife | Doppler",
+      "search_slug": "nomad-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-417",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-blackpearl-marbleized",
+        "id": 417,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-417",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler",
+        "bulgarian": "Номадският нож | Доплер",
+        "czech": "Outdoorový nůž | Doppler",
+        "danish": "Nomadekniv | Doppler",
+        "dutch": "Nomademes | Doppler",
+        "english": "Nomad Knife | Doppler",
+        "finnish": "Nomad-puukko | Doppler",
+        "french": "Couteau de nomade | Doppler",
+        "german": "Nomadenmesser | Doppler",
+        "greek": "Μαχαίρι Nomad | Doppler",
+        "hungarian": "Nomád kés | Doppler",
+        "indonesian": "Pisau Nomad | Doppler",
+        "italian": "Coltello Nomade | Doppler",
+        "japanese": "Nomad ナイフ | Doppler",
+        "koreana": "노매드 칼 | 도플러",
+        "latam": "Cuchillo nómada | Doppler",
+        "norwegian": "Nomadekniv | Doppler",
+        "polish": "Nóż nomada | Doppler",
+        "portuguese": "Faca Nomad | Doppler",
+        "romanian": "Cuțit Nomad | Doppler",
+        "russian": "Нож «Бродяга» | Волны",
+        "schinese": "流浪者匕首 | 多普勒",
+        "schinese_pw": "Nomad Knife | Doppler",
+        "spanish": "Cuchillo nómada | Doppler",
+        "swedish": "Nomad-kniv | Doppler",
+        "tchinese": "流浪者小刀 | 都卜勒",
+        "thai": "มีดโนแมด | Doppler",
+        "turkish": "Göçebe Bıçağı | Doppler",
+        "ukrainian": "Польовий ніж | Доплер",
+        "vietnamese": "Dao Nomad | Doppler"
+      },
+      "name": "Nomad Knife | Doppler",
+      "search_slug": "nomad-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-418",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase1",
+        "id": 418,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-418",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler",
+        "bulgarian": "Номадският нож | Доплер",
+        "czech": "Outdoorový nůž | Doppler",
+        "danish": "Nomadekniv | Doppler",
+        "dutch": "Nomademes | Doppler",
+        "english": "Nomad Knife | Doppler",
+        "finnish": "Nomad-puukko | Doppler",
+        "french": "Couteau de nomade | Doppler",
+        "german": "Nomadenmesser | Doppler",
+        "greek": "Μαχαίρι Nomad | Doppler",
+        "hungarian": "Nomád kés | Doppler",
+        "indonesian": "Pisau Nomad | Doppler",
+        "italian": "Coltello Nomade | Doppler",
+        "japanese": "Nomad ナイフ | Doppler",
+        "koreana": "노매드 칼 | 도플러",
+        "latam": "Cuchillo nómada | Doppler",
+        "norwegian": "Nomadekniv | Doppler",
+        "polish": "Nóż nomada | Doppler",
+        "portuguese": "Faca Nomad | Doppler",
+        "romanian": "Cuțit Nomad | Doppler",
+        "russian": "Нож «Бродяга» | Волны",
+        "schinese": "流浪者匕首 | 多普勒",
+        "schinese_pw": "Nomad Knife | Doppler",
+        "spanish": "Cuchillo nómada | Doppler",
+        "swedish": "Nomad-kniv | Doppler",
+        "tchinese": "流浪者小刀 | 都卜勒",
+        "thai": "มีดโนแมด | Doppler",
+        "turkish": "Göçebe Bıçağı | Doppler",
+        "ukrainian": "Польовий ніж | Доплер",
+        "vietnamese": "Dao Nomad | Doppler"
+      },
+      "name": "Nomad Knife | Doppler",
+      "search_slug": "nomad-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-419",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase2",
+        "id": 419,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-419",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler",
+        "bulgarian": "Номадският нож | Доплер",
+        "czech": "Outdoorový nůž | Doppler",
+        "danish": "Nomadekniv | Doppler",
+        "dutch": "Nomademes | Doppler",
+        "english": "Nomad Knife | Doppler",
+        "finnish": "Nomad-puukko | Doppler",
+        "french": "Couteau de nomade | Doppler",
+        "german": "Nomadenmesser | Doppler",
+        "greek": "Μαχαίρι Nomad | Doppler",
+        "hungarian": "Nomád kés | Doppler",
+        "indonesian": "Pisau Nomad | Doppler",
+        "italian": "Coltello Nomade | Doppler",
+        "japanese": "Nomad ナイフ | Doppler",
+        "koreana": "노매드 칼 | 도플러",
+        "latam": "Cuchillo nómada | Doppler",
+        "norwegian": "Nomadekniv | Doppler",
+        "polish": "Nóż nomada | Doppler",
+        "portuguese": "Faca Nomad | Doppler",
+        "romanian": "Cuțit Nomad | Doppler",
+        "russian": "Нож «Бродяга» | Волны",
+        "schinese": "流浪者匕首 | 多普勒",
+        "schinese_pw": "Nomad Knife | Doppler",
+        "spanish": "Cuchillo nómada | Doppler",
+        "swedish": "Nomad-kniv | Doppler",
+        "tchinese": "流浪者小刀 | 都卜勒",
+        "thai": "มีดโนแมด | Doppler",
+        "turkish": "Göçebe Bıçağı | Doppler",
+        "ukrainian": "Польовий ніж | Доплер",
+        "vietnamese": "Dao Nomad | Doppler"
+      },
+      "name": "Nomad Knife | Doppler",
+      "search_slug": "nomad-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-420",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase3",
+        "id": 420,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-420",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler",
+        "bulgarian": "Номадският нож | Доплер",
+        "czech": "Outdoorový nůž | Doppler",
+        "danish": "Nomadekniv | Doppler",
+        "dutch": "Nomademes | Doppler",
+        "english": "Nomad Knife | Doppler",
+        "finnish": "Nomad-puukko | Doppler",
+        "french": "Couteau de nomade | Doppler",
+        "german": "Nomadenmesser | Doppler",
+        "greek": "Μαχαίρι Nomad | Doppler",
+        "hungarian": "Nomád kés | Doppler",
+        "indonesian": "Pisau Nomad | Doppler",
+        "italian": "Coltello Nomade | Doppler",
+        "japanese": "Nomad ナイフ | Doppler",
+        "koreana": "노매드 칼 | 도플러",
+        "latam": "Cuchillo nómada | Doppler",
+        "norwegian": "Nomadekniv | Doppler",
+        "polish": "Nóż nomada | Doppler",
+        "portuguese": "Faca Nomad | Doppler",
+        "romanian": "Cuțit Nomad | Doppler",
+        "russian": "Нож «Бродяга» | Волны",
+        "schinese": "流浪者匕首 | 多普勒",
+        "schinese_pw": "Nomad Knife | Doppler",
+        "spanish": "Cuchillo nómada | Doppler",
+        "swedish": "Nomad-kniv | Doppler",
+        "tchinese": "流浪者小刀 | 都卜勒",
+        "thai": "มีดโนแมด | Doppler",
+        "turkish": "Göçebe Bıçağı | Doppler",
+        "ukrainian": "Польовий ніж | Доплер",
+        "vietnamese": "Dao Nomad | Doppler"
+      },
+      "name": "Nomad Knife | Doppler",
+      "search_slug": "nomad-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-421",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase4",
+        "id": 421,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "521-421",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler",
+        "bulgarian": "Номадският нож | Доплер",
+        "czech": "Outdoorový nůž | Doppler",
+        "danish": "Nomadekniv | Doppler",
+        "dutch": "Nomademes | Doppler",
+        "english": "Nomad Knife | Doppler",
+        "finnish": "Nomad-puukko | Doppler",
+        "french": "Couteau de nomade | Doppler",
+        "german": "Nomadenmesser | Doppler",
+        "greek": "Μαχαίρι Nomad | Doppler",
+        "hungarian": "Nomád kés | Doppler",
+        "indonesian": "Pisau Nomad | Doppler",
+        "italian": "Coltello Nomade | Doppler",
+        "japanese": "Nomad ナイフ | Doppler",
+        "koreana": "노매드 칼 | 도플러",
+        "latam": "Cuchillo nómada | Doppler",
+        "norwegian": "Nomadekniv | Doppler",
+        "polish": "Nóż nomada | Doppler",
+        "portuguese": "Faca Nomad | Doppler",
+        "romanian": "Cuțit Nomad | Doppler",
+        "russian": "Нож «Бродяга» | Волны",
+        "schinese": "流浪者匕首 | 多普勒",
+        "schinese_pw": "Nomad Knife | Doppler",
+        "spanish": "Cuchillo nómada | Doppler",
+        "swedish": "Nomad-kniv | Doppler",
+        "tchinese": "流浪者小刀 | 都卜勒",
+        "thai": "มีดโนแมด | Doppler",
+        "turkish": "Göçebe Bıçağı | Doppler",
+        "ukrainian": "Польовий ніж | Доплер",
+        "vietnamese": "Dao Nomad | Doppler"
+      },
+      "name": "Nomad Knife | Doppler",
+      "search_slug": "nomad-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-98",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "so-purple",
+        "id": 98,
+        "name": "Ultraviolet",
+        "rarity_ref": null,
+        "style_code": 1,
+        "style_name": "Solid Color"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-98",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Ultravioleta",
+        "bulgarian": "Скелетен нож | Ултра виолетово",
+        "czech": "Skeletový nůž | Ultraviolet",
+        "danish": "Skeletkniv | Ultraviolet",
+        "dutch": "Skeletonmes | Ultraviolet",
+        "english": "Skeleton Knife | Ultraviolet",
+        "finnish": "Skeleton-puukko | Ultravioletti",
+        "french": "Couteau squelettique | Ultraviolet",
+        "german": "Skelettmesser | Ultraviolett",
+        "greek": "Μαχαίρι Skeleton | Ultraviolet",
+        "hungarian": "Csontváz kés | Ultraibolya",
+        "indonesian": "Pisau Skeleton | Ultraviolet",
+        "italian": "Coltello Scheletro | Ultraviolet",
+        "japanese": "Skeleton ナイフ | Ultraviolet",
+        "koreana": "스켈레톤 칼 | 자외선",
+        "latam": "Cuchillo esqueletizado | Ultravioleta",
+        "norwegian": "Skjelettkniv | Ultraviolet",
+        "polish": "Nóż szkieletowy | Ultrafiolet",
+        "portuguese": "Faca Skeleton | Ultraviolet",
+        "romanian": "Cuțit scheletic | Ultraviolet",
+        "russian": "Скелетный нож | Ультрафиолет",
+        "schinese": "骷髅匕首 | 致命紫罗兰",
+        "schinese_pw": "Skeleton Knife | Ultraviolet",
+        "spanish": "Cuchillo esqueletizado | Ultravioleta",
+        "swedish": "Skeleton-kniv | Ultraviolet",
+        "tchinese": "骷顱刀 | 致命紫羅蘭",
+        "thai": "มีดสเกเลตัน | Ultraviolet",
+        "turkish": "İskelet Bıçak | Morötesi",
+        "ukrainian": "Скелетний ніж | Ультрафіолет",
+        "vietnamese": "Dao Skeleton | Ultraviolet"
+      },
+      "name": "Skeleton Knife | Ultraviolet",
+      "search_slug": "skeleton-knife-ultraviolet",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": null,
+        "min_float": null
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-409",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "an-tiger-orange",
+        "id": 409,
+        "name": "Tiger Tooth",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-409",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Dente de Tigre",
+        "bulgarian": "Скелетен нож | Тигров зъб",
+        "czech": "Skeletový nůž | Tiger Tooth",
+        "danish": "Skeletkniv | Tiger Tooth",
+        "dutch": "Skeletonmes | Tiger Tooth",
+        "english": "Skeleton Knife | Tiger Tooth",
+        "finnish": "Skeleton-puukko | Tiikerinhammas",
+        "french": "Couteau squelettique | Dent de tigre",
+        "german": "Skelettmesser | Tigerzahn",
+        "greek": "Μαχαίρι Skeleton | Tiger Tooth",
+        "hungarian": "Csontváz kés | Tigrisfog",
+        "indonesian": "Pisau Skeleton | Tiger Tooth",
+        "italian": "Coltello Scheletro | Tiger Tooth",
+        "japanese": "Skeleton ナイフ | Tiger Tooth",
+        "koreana": "스켈레톤 칼 | 호랑이 이빨",
+        "latam": "Cuchillo esqueletizado | Diente de tigre",
+        "norwegian": "Skjelettkniv | Tiger Tooth",
+        "polish": "Nóż szkieletowy | Tygrysi kieł",
+        "portuguese": "Faca Skeleton | Tiger Tooth",
+        "romanian": "Cuțit scheletic | Tiger Tooth",
+        "russian": "Скелетный нож | Зуб тигра",
+        "schinese": "骷髅匕首 | 虎牙",
+        "schinese_pw": "Skeleton Knife | Tiger Tooth",
+        "spanish": "Cuchillo esqueletizado | Diente de tigre",
+        "swedish": "Skeleton-kniv | Tiger Tooth",
+        "tchinese": "骷顱刀 | 虎牙",
+        "thai": "มีดสเกเลตัน | Tiger Tooth",
+        "turkish": "İskelet Bıçak | Kaplan Dişi",
+        "ukrainian": "Скелетний ніж | Тигряче ікло",
+        "vietnamese": "Dao Skeleton | Tiger Tooth"
+      },
+      "name": "Skeleton Knife | Tiger Tooth",
+      "search_slug": "skeleton-knife-tiger-tooth",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-410",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-damascus",
+        "id": 410,
+        "name": "Damascus Steel",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-410",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Aço de Damasco",
+        "bulgarian": "Скелетен нож | Дамаска стомана",
+        "czech": "Skeletový nůž | Damascus Steel",
+        "danish": "Skeletkniv | Damascus Steel",
+        "dutch": "Skeletonmes | Damascus Steel",
+        "english": "Skeleton Knife | Damascus Steel",
+        "finnish": "Skeleton-puukko | Damaskiteräs",
+        "french": "Couteau squelettique | Acier de Damas",
+        "german": "Skelettmesser | Damaszener Stahl",
+        "greek": "Μαχαίρι Skeleton | Damascus Steel",
+        "hungarian": "Csontváz kés | Damaszkuszi Acél",
+        "indonesian": "Pisau Skeleton | Damascus Steel",
+        "italian": "Coltello Scheletro | Damascus Steel",
+        "japanese": "Skeleton ナイフ | Damascus Steel",
+        "koreana": "스켈레톤 칼 | 다마스크 강철",
+        "latam": "Cuchillo esqueletizado | Acero de damasco",
+        "norwegian": "Skjelettkniv | Damascus Steel",
+        "polish": "Nóż szkieletowy | Stal damasceńska",
+        "portuguese": "Faca Skeleton | Damascus Steel",
+        "romanian": "Cuțit scheletic | Damascus Steel",
+        "russian": "Скелетный нож | Дамасская сталь",
+        "schinese": "骷髅匕首 | 大马士革钢",
+        "schinese_pw": "Skeleton Knife | Damascus Steel",
+        "spanish": "Cuchillo esqueletizado | Acero de damasco",
+        "swedish": "Skeleton-kniv | Damascus Steel",
+        "tchinese": "骷顱刀 | 大馬士革鋼",
+        "thai": "มีดสเกเลตัน | Damascus Steel",
+        "turkish": "İskelet Bıçak | Şam Çeliği",
+        "ukrainian": "Скелетний ніж | Дамаська сталь",
+        "vietnamese": "Dao Skeleton | Damascus Steel"
+      },
+      "name": "Skeleton Knife | Damascus Steel",
+      "search_slug": "skeleton-knife-damascus-steel",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-411",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-damascus-90",
+        "id": 411,
+        "name": "Damascus Steel",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-411",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Aço de Damasco",
+        "bulgarian": "Скелетен нож | Дамаска стомана",
+        "czech": "Skeletový nůž | Damascus Steel",
+        "danish": "Skeletkniv | Damascus Steel",
+        "dutch": "Skeletonmes | Damascus Steel",
+        "english": "Skeleton Knife | Damascus Steel",
+        "finnish": "Skeleton-puukko | Damaskiteräs",
+        "french": "Couteau squelettique | Acier de Damas",
+        "german": "Skelettmesser | Damaszener Stahl",
+        "greek": "Μαχαίρι Skeleton | Damascus Steel",
+        "hungarian": "Csontváz kés | Damaszkuszi Acél",
+        "indonesian": "Pisau Skeleton | Damascus Steel",
+        "italian": "Coltello Scheletro | Damascus Steel",
+        "japanese": "Skeleton ナイフ | Damascus Steel",
+        "koreana": "스켈레톤 칼 | 다마스크 강철",
+        "latam": "Cuchillo esqueletizado | Acero de damasco",
+        "norwegian": "Skjelettkniv | Damascus Steel",
+        "polish": "Nóż szkieletowy | Stal damasceńska",
+        "portuguese": "Faca Skeleton | Damascus Steel",
+        "romanian": "Cuțit scheletic | Damascus Steel",
+        "russian": "Скелетный нож | Дамасская сталь",
+        "schinese": "骷髅匕首 | 大马士革钢",
+        "schinese_pw": "Skeleton Knife | Damascus Steel",
+        "spanish": "Cuchillo esqueletizado | Acero de damasco",
+        "swedish": "Skeleton-kniv | Damascus Steel",
+        "tchinese": "骷顱刀 | 大馬士革鋼",
+        "thai": "มีดสเกเลตัน | Damascus Steel",
+        "turkish": "İskelet Bıçak | Şam Çeliği",
+        "ukrainian": "Скелетний ніж | Дамаська сталь",
+        "vietnamese": "Dao Skeleton | Damascus Steel"
+      },
+      "name": "Skeleton Knife | Damascus Steel",
+      "search_slug": "skeleton-knife-damascus-steel",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-413",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marble-fade",
+        "id": 413,
+        "name": "Marble Fade",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-413",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Mármore Desbotado",
+        "bulgarian": "Скелетен нож | Мраморно преливане",
+        "czech": "Skeletový nůž | Marble Fade",
+        "danish": "Skeletkniv | Marble Fade",
+        "dutch": "Skeletonmes | Marble Fade",
+        "english": "Skeleton Knife | Marble Fade",
+        "finnish": "Skeleton-puukko | Marmorihäivytys",
+        "french": "Couteau squelettique | Marbre fondu",
+        "german": "Skelettmesser | Marmorfärbung",
+        "greek": "Μαχαίρι Skeleton | Marble Fade",
+        "hungarian": "Csontváz kés | Fakuló Márvány",
+        "indonesian": "Pisau Skeleton | Marble Fade",
+        "italian": "Coltello Scheletro | Marble Fade",
+        "japanese": "Skeleton ナイフ | Marble Fade",
+        "koreana": "스켈레톤 칼 | 흐릿한 대리석",
+        "latam": "Cuchillo esqueletizado | Mármol desteñido",
+        "norwegian": "Skjelettkniv | Marble Fade",
+        "polish": "Nóż szkieletowy | Marmurkowy gradient",
+        "portuguese": "Faca Skeleton | Marble Fade",
+        "romanian": "Cuțit scheletic | Marble Fade",
+        "russian": "Скелетный нож | Мраморный градиент",
+        "schinese": "骷髅匕首 | 渐变大理石",
+        "schinese_pw": "Skeleton Knife | Marble Fade",
+        "spanish": "Cuchillo esqueletizado | Mármol desteñido",
+        "swedish": "Skeleton-kniv | Marble Fade",
+        "tchinese": "骷顱刀 | 大理石漸層",
+        "thai": "มีดสเกเลตัน | Marble Fade",
+        "turkish": "İskelet Bıçak | Solgun Mermer",
+        "ukrainian": "Скелетний ніж | Мармуровий перелив",
+        "vietnamese": "Dao Skeleton | Marble Fade"
+      },
+      "name": "Skeleton Knife | Marble Fade",
+      "search_slug": "skeleton-knife-marble-fade",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-414",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "aq-steel-knife",
+        "id": 414,
+        "name": "Rust Coat",
+        "rarity_ref": null,
+        "style_code": 8,
+        "style_name": "Patina"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-414",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Revestimento Enferrujado",
+        "bulgarian": "Скелетен нож | Ръждиво покритие",
+        "czech": "Skeletový nůž | Rust Coat",
+        "danish": "Skeletkniv | Rust Coat",
+        "dutch": "Skeletonmes | Rust Coat",
+        "english": "Skeleton Knife | Rust Coat",
+        "finnish": "Skeleton-puukko | Ruostepinta",
+        "french": "Couteau squelettique | Aspect rouillé",
+        "german": "Skelettmesser | Rostmantel",
+        "greek": "Μαχαίρι Skeleton | Rust Coat",
+        "hungarian": "Csontváz kés | Rozsdabevonat",
+        "indonesian": "Pisau Skeleton | Rust Coat",
+        "italian": "Coltello Scheletro | Rust Coat",
+        "japanese": "Skeleton ナイフ | Rust Coat",
+        "koreana": "스켈레톤 칼 | 녹슬음",
+        "latam": "Cuchillo esqueletizado | Capa de herrumbre",
+        "norwegian": "Skjelettkniv | Rust Coat",
+        "polish": "Nóż szkieletowy | Warstwa rdzy",
+        "portuguese": "Faca Skeleton | Rust Coat",
+        "romanian": "Cuțit scheletic | Rust Coat",
+        "russian": "Скелетный нож | Пыльник",
+        "schinese": "骷髅匕首 | 外表生锈",
+        "schinese_pw": "Skeleton Knife | Rust Coat",
+        "spanish": "Cuchillo esqueletizado | Capa de herrumbre",
+        "swedish": "Skeleton-kniv | Rust Coat",
+        "tchinese": "骷顱刀 | 鏽衣",
+        "thai": "มีดสเกเลตัน | Rust Coat",
+        "turkish": "İskelet Bıçak | Pas Kaplı",
+        "ukrainian": "Скелетний ніж | Прошарок іржі",
+        "vietnamese": "Dao Skeleton | Rust Coat"
+      },
+      "name": "Skeleton Knife | Rust Coat",
+      "search_slug": "skeleton-knife-rust-coat",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 1.0,
+        "min_float": 0.4
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-415",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-ruby-marbleized",
+        "id": 415,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-415",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler",
+        "bulgarian": "Скелетен нож | Доплер",
+        "czech": "Skeletový nůž | Doppler",
+        "danish": "Skeletkniv | Doppler",
+        "dutch": "Skeletonmes | Doppler",
+        "english": "Skeleton Knife | Doppler",
+        "finnish": "Skeleton-puukko | Doppler",
+        "french": "Couteau squelettique | Doppler",
+        "german": "Skelettmesser | Doppler",
+        "greek": "Μαχαίρι Skeleton | Doppler",
+        "hungarian": "Csontváz kés | Doppler",
+        "indonesian": "Pisau Skeleton | Doppler",
+        "italian": "Coltello Scheletro | Doppler",
+        "japanese": "Skeleton ナイフ | Doppler",
+        "koreana": "스켈레톤 칼 | 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler",
+        "norwegian": "Skjelettkniv | Doppler",
+        "polish": "Nóż szkieletowy | Doppler",
+        "portuguese": "Faca Skeleton | Doppler",
+        "romanian": "Cuțit scheletic | Doppler",
+        "russian": "Скелетный нож | Волны",
+        "schinese": "骷髅匕首 | 多普勒",
+        "schinese_pw": "Skeleton Knife | Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler",
+        "swedish": "Skeleton-kniv | Doppler",
+        "tchinese": "骷顱刀 | 都卜勒",
+        "thai": "มีดสเกเลตัน | Doppler",
+        "turkish": "İskelet Bıçak | Doppler",
+        "ukrainian": "Скелетний ніж | Доплер",
+        "vietnamese": "Dao Skeleton | Doppler"
+      },
+      "name": "Skeleton Knife | Doppler",
+      "search_slug": "skeleton-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-416",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-sapphire-marbleized",
+        "id": 416,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-416",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler",
+        "bulgarian": "Скелетен нож | Доплер",
+        "czech": "Skeletový nůž | Doppler",
+        "danish": "Skeletkniv | Doppler",
+        "dutch": "Skeletonmes | Doppler",
+        "english": "Skeleton Knife | Doppler",
+        "finnish": "Skeleton-puukko | Doppler",
+        "french": "Couteau squelettique | Doppler",
+        "german": "Skelettmesser | Doppler",
+        "greek": "Μαχαίρι Skeleton | Doppler",
+        "hungarian": "Csontváz kés | Doppler",
+        "indonesian": "Pisau Skeleton | Doppler",
+        "italian": "Coltello Scheletro | Doppler",
+        "japanese": "Skeleton ナイフ | Doppler",
+        "koreana": "스켈레톤 칼 | 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler",
+        "norwegian": "Skjelettkniv | Doppler",
+        "polish": "Nóż szkieletowy | Doppler",
+        "portuguese": "Faca Skeleton | Doppler",
+        "romanian": "Cuțit scheletic | Doppler",
+        "russian": "Скелетный нож | Волны",
+        "schinese": "骷髅匕首 | 多普勒",
+        "schinese_pw": "Skeleton Knife | Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler",
+        "swedish": "Skeleton-kniv | Doppler",
+        "tchinese": "骷顱刀 | 都卜勒",
+        "thai": "มีดสเกเลตัน | Doppler",
+        "turkish": "İskelet Bıçak | Doppler",
+        "ukrainian": "Скелетний ніж | Доплер",
+        "vietnamese": "Dao Skeleton | Doppler"
+      },
+      "name": "Skeleton Knife | Doppler",
+      "search_slug": "skeleton-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-417",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-blackpearl-marbleized",
+        "id": 417,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-417",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler",
+        "bulgarian": "Скелетен нож | Доплер",
+        "czech": "Skeletový nůž | Doppler",
+        "danish": "Skeletkniv | Doppler",
+        "dutch": "Skeletonmes | Doppler",
+        "english": "Skeleton Knife | Doppler",
+        "finnish": "Skeleton-puukko | Doppler",
+        "french": "Couteau squelettique | Doppler",
+        "german": "Skelettmesser | Doppler",
+        "greek": "Μαχαίρι Skeleton | Doppler",
+        "hungarian": "Csontváz kés | Doppler",
+        "indonesian": "Pisau Skeleton | Doppler",
+        "italian": "Coltello Scheletro | Doppler",
+        "japanese": "Skeleton ナイフ | Doppler",
+        "koreana": "스켈레톤 칼 | 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler",
+        "norwegian": "Skjelettkniv | Doppler",
+        "polish": "Nóż szkieletowy | Doppler",
+        "portuguese": "Faca Skeleton | Doppler",
+        "romanian": "Cuțit scheletic | Doppler",
+        "russian": "Скелетный нож | Волны",
+        "schinese": "骷髅匕首 | 多普勒",
+        "schinese_pw": "Skeleton Knife | Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler",
+        "swedish": "Skeleton-kniv | Doppler",
+        "tchinese": "骷顱刀 | 都卜勒",
+        "thai": "มีดสเกเลตัน | Doppler",
+        "turkish": "İskelet Bıçak | Doppler",
+        "ukrainian": "Скелетний ніж | Доплер",
+        "vietnamese": "Dao Skeleton | Doppler"
+      },
+      "name": "Skeleton Knife | Doppler",
+      "search_slug": "skeleton-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-418",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase1",
+        "id": 418,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-418",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler",
+        "bulgarian": "Скелетен нож | Доплер",
+        "czech": "Skeletový nůž | Doppler",
+        "danish": "Skeletkniv | Doppler",
+        "dutch": "Skeletonmes | Doppler",
+        "english": "Skeleton Knife | Doppler",
+        "finnish": "Skeleton-puukko | Doppler",
+        "french": "Couteau squelettique | Doppler",
+        "german": "Skelettmesser | Doppler",
+        "greek": "Μαχαίρι Skeleton | Doppler",
+        "hungarian": "Csontváz kés | Doppler",
+        "indonesian": "Pisau Skeleton | Doppler",
+        "italian": "Coltello Scheletro | Doppler",
+        "japanese": "Skeleton ナイフ | Doppler",
+        "koreana": "스켈레톤 칼 | 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler",
+        "norwegian": "Skjelettkniv | Doppler",
+        "polish": "Nóż szkieletowy | Doppler",
+        "portuguese": "Faca Skeleton | Doppler",
+        "romanian": "Cuțit scheletic | Doppler",
+        "russian": "Скелетный нож | Волны",
+        "schinese": "骷髅匕首 | 多普勒",
+        "schinese_pw": "Skeleton Knife | Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler",
+        "swedish": "Skeleton-kniv | Doppler",
+        "tchinese": "骷顱刀 | 都卜勒",
+        "thai": "มีดสเกเลตัน | Doppler",
+        "turkish": "İskelet Bıçak | Doppler",
+        "ukrainian": "Скелетний ніж | Доплер",
+        "vietnamese": "Dao Skeleton | Doppler"
+      },
+      "name": "Skeleton Knife | Doppler",
+      "search_slug": "skeleton-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-419",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase2",
+        "id": 419,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-419",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler",
+        "bulgarian": "Скелетен нож | Доплер",
+        "czech": "Skeletový nůž | Doppler",
+        "danish": "Skeletkniv | Doppler",
+        "dutch": "Skeletonmes | Doppler",
+        "english": "Skeleton Knife | Doppler",
+        "finnish": "Skeleton-puukko | Doppler",
+        "french": "Couteau squelettique | Doppler",
+        "german": "Skelettmesser | Doppler",
+        "greek": "Μαχαίρι Skeleton | Doppler",
+        "hungarian": "Csontváz kés | Doppler",
+        "indonesian": "Pisau Skeleton | Doppler",
+        "italian": "Coltello Scheletro | Doppler",
+        "japanese": "Skeleton ナイフ | Doppler",
+        "koreana": "스켈레톤 칼 | 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler",
+        "norwegian": "Skjelettkniv | Doppler",
+        "polish": "Nóż szkieletowy | Doppler",
+        "portuguese": "Faca Skeleton | Doppler",
+        "romanian": "Cuțit scheletic | Doppler",
+        "russian": "Скелетный нож | Волны",
+        "schinese": "骷髅匕首 | 多普勒",
+        "schinese_pw": "Skeleton Knife | Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler",
+        "swedish": "Skeleton-kniv | Doppler",
+        "tchinese": "骷顱刀 | 都卜勒",
+        "thai": "มีดสเกเลตัน | Doppler",
+        "turkish": "İskelet Bıçak | Doppler",
+        "ukrainian": "Скелетний ніж | Доплер",
+        "vietnamese": "Dao Skeleton | Doppler"
+      },
+      "name": "Skeleton Knife | Doppler",
+      "search_slug": "skeleton-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-420",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase3",
+        "id": 420,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-420",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler",
+        "bulgarian": "Скелетен нож | Доплер",
+        "czech": "Skeletový nůž | Doppler",
+        "danish": "Skeletkniv | Doppler",
+        "dutch": "Skeletonmes | Doppler",
+        "english": "Skeleton Knife | Doppler",
+        "finnish": "Skeleton-puukko | Doppler",
+        "french": "Couteau squelettique | Doppler",
+        "german": "Skelettmesser | Doppler",
+        "greek": "Μαχαίρι Skeleton | Doppler",
+        "hungarian": "Csontváz kés | Doppler",
+        "indonesian": "Pisau Skeleton | Doppler",
+        "italian": "Coltello Scheletro | Doppler",
+        "japanese": "Skeleton ナイフ | Doppler",
+        "koreana": "스켈레톤 칼 | 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler",
+        "norwegian": "Skjelettkniv | Doppler",
+        "polish": "Nóż szkieletowy | Doppler",
+        "portuguese": "Faca Skeleton | Doppler",
+        "romanian": "Cuțit scheletic | Doppler",
+        "russian": "Скелетный нож | Волны",
+        "schinese": "骷髅匕首 | 多普勒",
+        "schinese_pw": "Skeleton Knife | Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler",
+        "swedish": "Skeleton-kniv | Doppler",
+        "tchinese": "骷顱刀 | 都卜勒",
+        "thai": "มีดสเกเลตัน | Doppler",
+        "turkish": "İskelet Bıçak | Doppler",
+        "ukrainian": "Скелетний ніж | Доплер",
+        "vietnamese": "Dao Skeleton | Doppler"
+      },
+      "name": "Skeleton Knife | Doppler",
+      "search_slug": "skeleton-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-421",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-doppler-phase4",
+        "id": 421,
+        "name": "Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "chroma-knives",
+        "source_backed": false
+      },
+      "id": "525-421",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler",
+        "bulgarian": "Скелетен нож | Доплер",
+        "czech": "Skeletový nůž | Doppler",
+        "danish": "Skeletkniv | Doppler",
+        "dutch": "Skeletonmes | Doppler",
+        "english": "Skeleton Knife | Doppler",
+        "finnish": "Skeleton-puukko | Doppler",
+        "french": "Couteau squelettique | Doppler",
+        "german": "Skelettmesser | Doppler",
+        "greek": "Μαχαίρι Skeleton | Doppler",
+        "hungarian": "Csontváz kés | Doppler",
+        "indonesian": "Pisau Skeleton | Doppler",
+        "italian": "Coltello Scheletro | Doppler",
+        "japanese": "Skeleton ナイフ | Doppler",
+        "koreana": "스켈레톤 칼 | 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler",
+        "norwegian": "Skjelettkniv | Doppler",
+        "polish": "Nóż szkieletowy | Doppler",
+        "portuguese": "Faca Skeleton | Doppler",
+        "romanian": "Cuțit scheletic | Doppler",
+        "russian": "Скелетный нож | Волны",
+        "schinese": "骷髅匕首 | 多普勒",
+        "schinese_pw": "Skeleton Knife | Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler",
+        "swedish": "Skeleton-kniv | Doppler",
+        "tchinese": "骷顱刀 | 都卜勒",
+        "thai": "มีดสเกเลตัน | Doppler",
+        "turkish": "İskelet Bıçak | Doppler",
+        "ukrainian": "Скелетний ніж | Доплер",
+        "vietnamese": "Dao Skeleton | Doppler"
+      },
+      "name": "Skeleton Knife | Doppler",
+      "search_slug": "skeleton-knife-doppler",
+      "source_pool_id": "set_community_35_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    }
+  ],
   "canonical_slug": "set-community-35-unusual",
   "card_type": "special-pool",
   "eligible_weapons": [
@@ -160,116 +3749,8 @@
       "weapon_group": "knife"
     }
   ],
-  "expansion_status": "finish-family",
-  "finish_profiles": [
-    {
-      "finish_ids": [
-        98,
-        409,
-        410,
-        411,
-        413,
-        414,
-        415,
-        416,
-        417,
-        418,
-        419,
-        420,
-        421
-      ],
-      "finish_names": [
-        "Damascus Steel",
-        "Doppler",
-        "Marble Fade",
-        "Rust Coat",
-        "Tiger Tooth",
-        "Ultraviolet"
-      ],
-      "finishes": [
-        {
-          "canonical_slug": "so-purple",
-          "id": 98,
-          "name": "Ultraviolet",
-          "search_slug": "ultraviolet"
-        },
-        {
-          "canonical_slug": "an-tiger-orange",
-          "id": 409,
-          "name": "Tiger Tooth",
-          "search_slug": "tiger-tooth"
-        },
-        {
-          "canonical_slug": "aq-damascus",
-          "id": 410,
-          "name": "Damascus Steel",
-          "search_slug": "damascus-steel"
-        },
-        {
-          "canonical_slug": "aq-damascus-90",
-          "id": 411,
-          "name": "Damascus Steel",
-          "search_slug": "damascus-steel"
-        },
-        {
-          "canonical_slug": "am-marble-fade",
-          "id": 413,
-          "name": "Marble Fade",
-          "search_slug": "marble-fade"
-        },
-        {
-          "canonical_slug": "aq-steel-knife",
-          "id": 414,
-          "name": "Rust Coat",
-          "search_slug": "rust-coat"
-        },
-        {
-          "canonical_slug": "am-ruby-marbleized",
-          "id": 415,
-          "name": "Doppler",
-          "search_slug": "doppler"
-        },
-        {
-          "canonical_slug": "am-sapphire-marbleized",
-          "id": 416,
-          "name": "Doppler",
-          "search_slug": "doppler"
-        },
-        {
-          "canonical_slug": "am-blackpearl-marbleized",
-          "id": 417,
-          "name": "Doppler",
-          "search_slug": "doppler"
-        },
-        {
-          "canonical_slug": "am-doppler-phase1",
-          "id": 418,
-          "name": "Doppler",
-          "search_slug": "doppler"
-        },
-        {
-          "canonical_slug": "am-doppler-phase2",
-          "id": 419,
-          "name": "Doppler",
-          "search_slug": "doppler"
-        },
-        {
-          "canonical_slug": "am-doppler-phase3",
-          "id": 420,
-          "name": "Doppler",
-          "search_slug": "doppler"
-        },
-        {
-          "canonical_slug": "am-doppler-phase4",
-          "id": 421,
-          "name": "Doppler",
-          "search_slug": "doppler"
-        }
-      ],
-      "id": "chroma-knives",
-      "label": "Chroma Knife Finishes"
-    }
-  ],
+  "expansion_status": "exact-candidates",
+  "finish_profiles": [],
   "footer": "or an Exceedingly Rare Special Item!",
   "id": "set_community_35_unusual",
   "localized_footers": {

@@ -1,0 +1,82 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "517-418",
+  "finish": {
+    "codename": "am_doppler_phase1",
+    "id": 418,
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 418,
+    "weapon_id": 517
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-418",
+  "name": "Paracord Knife | Doppler",
+  "search_slug": "paracord-knife-doppler",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-35-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_35_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-35-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-35",
+            "id": 7007,
+            "kind": "weapon-case",
+            "name": "Fever Case",
+            "search_slug": "fever-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "517-418__normal__factory-new",
+    "517-418__normal__minimal-wear",
+    "517-418__stattrak__factory-new",
+    "517-418__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_cord",
+    "id": 517,
+    "name": "Paracord Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

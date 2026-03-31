@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "512-410",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-damascus",
+    "catalog_id": 410,
+    "id": 410,
+    "localized_names": {
+      "brazilian": "Aço de Damasco",
+      "bulgarian": "Дамаска стомана",
+      "czech": "Damascus Steel",
+      "danish": "Damascus Steel",
+      "dutch": "Damascus Steel",
+      "english": "Damascus Steel",
+      "finnish": "Damaskiteräs",
+      "french": "Acier de Damas",
+      "german": "Damaszener Stahl",
+      "greek": "Damascus Steel",
+      "hungarian": "Damaszkuszi Acél",
+      "indonesian": "Damascus Steel",
+      "italian": "Damascus Steel",
+      "japanese": "Damascus Steel",
+      "koreana": "다마스크 강철",
+      "latam": "Acero de damasco",
+      "norwegian": "Damascus Steel",
+      "polish": "Stal damasceńska",
+      "portuguese": "Damascus Steel",
+      "romanian": "Damascus Steel",
+      "russian": "Дамасская сталь",
+      "schinese": "大马士革钢",
+      "schinese_pw": "Damascus Steel",
+      "spanish": "Acero de damasco",
+      "swedish": "Damascus Steel",
+      "tchinese": "大馬士革鋼",
+      "thai": "Damascus Steel",
+      "turkish": "Şam Çeliği",
+      "ukrainian": "Дамаська сталь",
+      "vietnamese": "Damascus Steel"
+    },
+    "name": "Damascus Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-410",
+  "localized_names": {
+    "brazilian": "Canivete Falchion | Aço de Damasco",
+    "bulgarian": "Нож „Фалчион“ | Дамаска стомана",
+    "czech": "Falchion | Damascus Steel",
+    "danish": "Falchion-kniv | Damascus Steel",
+    "dutch": "Falchion-mes | Damascus Steel",
+    "english": "Falchion Knife | Damascus Steel",
+    "finnish": "Falchion-veitsi | Damaskiteräs",
+    "french": "Couteau fauchon | Acier de Damas",
+    "german": "Falchion-Messer | Damaszener Stahl",
+    "greek": "Μαχαίρι Falchion | Damascus Steel",
+    "hungarian": "Handzsárkés | Damaszkuszi Acél",
+    "indonesian": "Pisau Falchion | Damascus Steel",
+    "italian": "Coltello falchion | Damascus Steel",
+    "japanese": "Falchion ナイフ | Damascus Steel",
+    "koreana": "파르치온 칼 | 다마스크 강철",
+    "latam": "Cuchillo alfanje | Acero de damasco",
+    "norwegian": "Falchion-kniv | Damascus Steel",
+    "polish": "Nóż falcjon | Stal damasceńska",
+    "portuguese": "Faca Falchion | Damascus Steel",
+    "romanian": "Cuțit Falchion | Damascus Steel",
+    "russian": "Фальшион | Дамасская сталь",
+    "schinese": "弯刀 | 大马士革钢",
+    "schinese_pw": "Falchion Knife | Damascus Steel",
+    "spanish": "Cuchillo Alfanje | Acero de damasco",
+    "swedish": "Falchionkniv | Damascus Steel",
+    "tchinese": "彎刃匕首 | 大馬士革鋼",
+    "thai": "มีดฟัลชิออน | Damascus Steel",
+    "turkish": "Pala Bıçağı | Şam Çeliği",
+    "ukrainian": "Ніж-фальшіон | Дамаська сталь",
+    "vietnamese": "Dao Falchion | Damascus Steel"
+  },
+  "media": {
+    "asset_id": "weapon__512",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_falchion_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/512/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/512.json",
+    "models": [
+      "weapons/models/knife/knife_falchion/weapon_knife_falchion.vmdl_c",
+      "phase2/weapons/models/knife/knife_falchion/weapon_knife_falchion_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/512/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_falchion_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Falchion Knife | Damascus Steel",
+  "search_slug": "falchion-knife-damascus-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-16",
+        "id": 4351,
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "search_slug": "spectrum-case",
+        "via_special_pool": "spectrum_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-18",
+        "id": 4403,
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "search_slug": "spectrum-2-case",
+        "via_special_pool": "spectrum_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "spectrum-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "spectrum_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "spectrum-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "512-410__normal__battle-scarred",
+    "512-410__normal__factory-new",
+    "512-410__normal__field-tested",
+    "512-410__normal__minimal-wear",
+    "512-410__normal__well-worn",
+    "512-410__stattrak__battle-scarred",
+    "512-410__stattrak__factory-new",
+    "512-410__stattrak__field-tested",
+    "512-410__stattrak__minimal-wear",
+    "512-410__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-falchion",
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Canivete Falchion",
+      "bulgarian": "Нож „Фалчион“",
+      "czech": "Falchion",
+      "danish": "Falchion-kniv",
+      "dutch": "Falchion-mes",
+      "english": "Falchion Knife",
+      "finnish": "Falchion-veitsi",
+      "french": "Couteau fauchon",
+      "german": "Falchion-Messer",
+      "greek": "Μαχαίρι Falchion",
+      "hungarian": "Handzsárkés",
+      "indonesian": "Pisau Falchion",
+      "italian": "Coltello falchion",
+      "japanese": "Falchion ナイフ",
+      "koreana": "파르치온 칼",
+      "latam": "Cuchillo alfanje",
+      "norwegian": "Falchion-kniv",
+      "polish": "Nóż falcjon",
+      "portuguese": "Faca Falchion",
+      "romanian": "Cuțit Falchion",
+      "russian": "Фальшион",
+      "schinese": "弯刀",
+      "schinese_pw": "Falchion Knife",
+      "spanish": "Cuchillo Alfanje",
+      "swedish": "Falchionkniv",
+      "tchinese": "彎刃匕首",
+      "thai": "มีดฟัลชิออน",
+      "turkish": "Pala Bıçağı",
+      "ukrainian": "Ніж-фальшіон",
+      "vietnamese": "Dao Falchion"
+    },
+    "name": "Falchion Knife",
+    "search_slug": "falchion-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

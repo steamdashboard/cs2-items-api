@@ -1,0 +1,64 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "canonical_slug": "5031-1412",
+  "finish": {
+    "codename": "glove_driver_ostrich_purple",
+    "id": 1412,
+    "name": "Plum Quill",
+    "rarity_ref": null,
+    "style_code": null
+  },
+  "game_ref": {
+    "paint_kit_id": 1412,
+    "weapon_id": 5031
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5031-1412",
+  "name": "Driver Gloves | Plum Quill",
+  "search_slug": "driver-gloves-plum-quill",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-37-unusual",
+        "expansion_rule": "volatile-gloves",
+        "id": "set_community_37_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-37-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-37",
+            "id": 5181,
+            "kind": "container",
+            "name": "Sealed Dead Hand Terminal",
+            "search_slug": "sealed-dead-hand-terminal"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "5031-1412__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "slick_gloves",
+    "id": 5031,
+    "name": "Driver Gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

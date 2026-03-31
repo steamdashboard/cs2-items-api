@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "506-418",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-doppler-phase1",
+    "catalog_id": 418,
+    "id": 418,
+    "localized_names": {
+      "brazilian": "Doppler",
+      "bulgarian": "Доплер",
+      "czech": "Doppler",
+      "danish": "Doppler",
+      "dutch": "Doppler",
+      "english": "Doppler",
+      "finnish": "Doppler",
+      "french": "Doppler",
+      "german": "Doppler",
+      "greek": "Doppler",
+      "hungarian": "Doppler",
+      "indonesian": "Doppler",
+      "italian": "Doppler",
+      "japanese": "Doppler",
+      "koreana": "도플러",
+      "latam": "Doppler",
+      "norwegian": "Doppler",
+      "polish": "Doppler",
+      "portuguese": "Doppler",
+      "romanian": "Doppler",
+      "russian": "Волны",
+      "schinese": "多普勒",
+      "schinese_pw": "Doppler",
+      "spanish": "Doppler",
+      "swedish": "Doppler",
+      "tchinese": "都卜勒",
+      "thai": "Doppler",
+      "turkish": "Doppler",
+      "ukrainian": "Доплер",
+      "vietnamese": "Doppler"
+    },
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "506-418",
+  "localized_names": {
+    "brazilian": "Faca Gut Hook | Doppler",
+    "bulgarian": "Касапски нож | Доплер",
+    "czech": "Rozparovací nůž | Doppler",
+    "danish": "Jagtkniv | Doppler",
+    "dutch": "Ingewandenmes | Doppler",
+    "english": "Gut Knife | Doppler",
+    "finnish": "Metsästysveitsi | Doppler",
+    "french": "Couteau à éviscérer | Doppler",
+    "german": "Aufbrechmesser | Doppler",
+    "greek": "Gut Knife | Doppler",
+    "hungarian": "Zsigerelőkés | Doppler",
+    "indonesian": "Pisau Pengait | Doppler",
+    "italian": "Coltello da sventramento | Doppler",
+    "japanese": "ガットナイフ | Doppler",
+    "koreana": "갈고리 칼 | 도플러",
+    "latam": "Cuchillo destripador | Doppler",
+    "norwegian": "Sløyekniv | Doppler",
+    "polish": "Nóż z hakiem | Doppler",
+    "portuguese": "Gut Knife | Doppler",
+    "romanian": "Cuțit de eviscerat | Doppler",
+    "russian": "Нож с лезвием-крюком | Волны",
+    "schinese": "穿肠刀 | 多普勒",
+    "schinese_pw": "Gut Knife | Doppler",
+    "spanish": "Cuchillo Destripador | Doppler",
+    "swedish": "Buköppnare | Doppler",
+    "tchinese": "穿腸刀 | 都卜勒",
+    "thai": "มีดแล่หนัง | Doppler",
+    "turkish": "Kancalı Bıçak | Doppler",
+    "ukrainian": "Білувальний ніж | Доплер",
+    "vietnamese": "Dao móc | Doppler"
+  },
+  "media": {
+    "asset_id": "skin__506-418",
+    "images_png": [
+      "data/api/media/rendered/files/skins/506-418/light.png",
+      "data/api/media/rendered/files/skins/506-418/medium.png",
+      "data/api/media/rendered/files/skins/506-418/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/506-418.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/506-418/heavy.png",
+      "light": "data/api/media/rendered/files/skins/506-418/light.png",
+      "medium": "data/api/media/rendered/files/skins/506-418/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/506-418/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gut_am_doppler_phase1_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gut_am_doppler_phase1_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gut_am_doppler_phase1_medium_png.vtex_c"
+    }
+  },
+  "name": "Gut Knife | Doppler",
+  "search_slug": "gut-knife-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "506-418__normal__factory-new",
+    "506-418__normal__minimal-wear",
+    "506-418__stattrak__factory-new",
+    "506-418__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gut",
+    "id": 506,
+    "localized_names": {
+      "brazilian": "Faca Gut Hook",
+      "bulgarian": "Касапски нож",
+      "czech": "Rozparovací nůž",
+      "danish": "Jagtkniv",
+      "dutch": "Ingewandenmes",
+      "english": "Gut Knife",
+      "finnish": "Metsästysveitsi",
+      "french": "Couteau à éviscérer",
+      "german": "Aufbrechmesser",
+      "greek": "Gut Knife",
+      "hungarian": "Zsigerelőkés",
+      "indonesian": "Pisau Pengait",
+      "italian": "Coltello da sventramento",
+      "japanese": "ガットナイフ",
+      "koreana": "갈고리 칼",
+      "latam": "Cuchillo destripador",
+      "norwegian": "Sløyekniv",
+      "polish": "Nóż z hakiem",
+      "portuguese": "Gut Knife",
+      "romanian": "Cuțit de eviscerat",
+      "russian": "Нож с лезвием-крюком",
+      "schinese": "穿肠刀",
+      "schinese_pw": "Gut Knife",
+      "spanish": "Cuchillo Destripador",
+      "swedish": "Buköppnare",
+      "tchinese": "穿腸刀",
+      "thai": "มีดแล่หนัง",
+      "turkish": "Kancalı Bıçak",
+      "ukrainian": "Білувальний ніж",
+      "vietnamese": "Dao móc"
+    },
+    "name": "Gut Knife",
+    "search_slug": "gut-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

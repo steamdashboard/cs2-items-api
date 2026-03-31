@@ -1,0 +1,196 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "526-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "526-40",
+  "localized_names": {
+    "brazilian": "Faca Kukri | Noite",
+    "bulgarian": "Кукри нож | Нощно",
+    "czech": "Nůž Kukri | Night",
+    "danish": "Kukrikniv | Night",
+    "dutch": "Kukri | Night",
+    "english": "Kukri Knife | Night",
+    "finnish": "Kukri-veitsi | Yö",
+    "french": "Couteau Kukri | Nuit",
+    "german": "Kukri-Messer | Nacht",
+    "greek": "Μαχαίρι Kukri | Night",
+    "hungarian": "Kukri kés | Éjszaka",
+    "indonesian": "Pisau Kukri | Night",
+    "italian": "Coltello Kukri | Night",
+    "japanese": "ククリナイフ | Night",
+    "koreana": "쿠크리 칼 | 밤",
+    "latam": "Cuchillo kukri | Nocturno",
+    "norwegian": "Kukrikniv | Night",
+    "polish": "Nóż kukri | Noc",
+    "portuguese": "Faca Kukri | Night",
+    "romanian": "Cuțit Kukri | Night",
+    "russian": "Кукри | Ночь",
+    "schinese": "廓尔喀刀 | 噩梦之夜",
+    "schinese_pw": "Kukri Knife | Night",
+    "spanish": "Cuchillo kukri | Noche cerrada",
+    "swedish": "Kukrikniv | Night",
+    "tchinese": "反曲刀 | 惡夢之夜",
+    "thai": "มีดคูครี | Night",
+    "turkish": "Kukri Bıçağı | Gece",
+    "ukrainian": "Ніж кукрі | Ніч",
+    "vietnamese": "Dao Kukri | Night"
+  },
+  "media": {
+    "asset_id": "weapon__526",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/526/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/526.json",
+    "models": [
+      "weapons/models/knife/knife_kukri/weapon_knife_kukri.vmdl_c",
+      "phase2/weapons/models/knife/knife_kukri/weapon_knife_kukri_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/526/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Kukri Knife | Night",
+  "search_slug": "kukri-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-33",
+        "id": 4904,
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "search_slug": "kilowatt-case",
+        "via_special_pool": "set_community_33_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-34",
+        "id": 7003,
+        "kind": "weapon-case",
+        "name": "Gallery Case",
+        "search_slug": "gallery-case",
+        "via_special_pool": "set_community_33_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-33-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_33_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Kukri Knife ★",
+        "search_slug": "set-community-33-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "526-40__normal__vanilla",
+    "526-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-kukri",
+    "id": 526,
+    "localized_names": {
+      "brazilian": "Faca Kukri",
+      "bulgarian": "Кукри нож",
+      "czech": "Nůž Kukri",
+      "danish": "Kukrikniv",
+      "dutch": "Kukri",
+      "english": "Kukri Knife",
+      "finnish": "Kukri-veitsi",
+      "french": "Couteau Kukri",
+      "german": "Kukri-Messer",
+      "greek": "Μαχαίρι Kukri",
+      "hungarian": "Kukri kés",
+      "indonesian": "Pisau Kukri",
+      "italian": "Coltello Kukri",
+      "japanese": "ククリナイフ",
+      "koreana": "쿠크리 칼",
+      "latam": "Cuchillo kukri",
+      "norwegian": "Kukrikniv",
+      "polish": "Nóż kukri",
+      "portuguese": "Faca Kukri",
+      "romanian": "Cuțit Kukri",
+      "russian": "Кукри",
+      "schinese": "廓尔喀刀",
+      "schinese_pw": "Kukri Knife",
+      "spanish": "Cuchillo kukri",
+      "swedish": "Kukrikniv",
+      "tchinese": "反曲刀",
+      "thai": "มีดคูครี",
+      "turkish": "Kukri Bıçağı",
+      "ukrainian": "Ніж кукрі",
+      "vietnamese": "Dao Kukri"
+    },
+    "name": "Kukri Knife",
+    "search_slug": "kukri-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

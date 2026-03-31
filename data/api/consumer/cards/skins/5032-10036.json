@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5032-10036",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "handwrap-fabric-orange-camo",
+    "catalog_id": 10036,
+    "id": 10036,
+    "localized_names": {
+      "brazilian": "Terra Batida",
+      "bulgarian": "Пущинаци",
+      "czech": "Badlands",
+      "danish": "Badlands",
+      "dutch": "Badlands",
+      "english": "Badlands",
+      "finnish": "Julma maa",
+      "french": "Badlands",
+      "german": "Ödland",
+      "greek": "Badlands",
+      "hungarian": "Terméketlen Vidék",
+      "indonesian": "Badlands",
+      "italian": "Badlands",
+      "japanese": "Badlands",
+      "koreana": "황무지",
+      "latam": "Tierra yerma",
+      "norwegian": "Badlands",
+      "polish": "Badlandy",
+      "portuguese": "Badlands",
+      "romanian": "Badlands",
+      "russian": "Пустошь",
+      "schinese": "恶土",
+      "schinese_pw": "Badlands",
+      "spanish": "Tierra yerma",
+      "swedish": "Badlands",
+      "tchinese": "不毛荒漠",
+      "thai": "Badlands",
+      "turkish": "Çorak Arazi",
+      "ukrainian": "Дикі землі",
+      "vietnamese": "Badlands"
+    },
+    "name": "Badlands",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5032-10036",
+  "localized_names": {
+    "brazilian": "Faixas | Terra Batida",
+    "bulgarian": "Превръзки за ръце | Пущинаци",
+    "czech": "Bandáže | Badlands",
+    "danish": "Håndbind | Badlands",
+    "dutch": "Bandages | Badlands",
+    "english": "Hand Wraps | Badlands",
+    "finnish": "Käsisiteet | Julma maa",
+    "french": "Bandages | Badlands",
+    "german": "Handbandagen | Ödland",
+    "greek": "Περιτυλίγματα χεριών | Badlands",
+    "hungarian": "Kézkötések | Terméketlen Vidék",
+    "indonesian": "Hand Wraps | Badlands",
+    "italian": "Fasce per le mani | Badlands",
+    "japanese": "Hand Wraps | Badlands",
+    "koreana": "핸드랩 | 황무지",
+    "latam": "Vendas de cuero | Tierra yerma",
+    "norwegian": "Boksebandasje | Badlands",
+    "polish": "Bandaże bokserskie | Badlandy",
+    "portuguese": "Faixas de Mão | Badlands",
+    "romanian": "Feșe pentru mâini | Badlands",
+    "russian": "Обмотки рук | Пустошь",
+    "schinese": "裹手 | 恶土",
+    "schinese_pw": "Hand Wraps | Badlands",
+    "spanish": "Vendas de cuero | Tierra yerma",
+    "swedish": "Handlindor | Badlands",
+    "tchinese": "手綁帶 | 不毛荒漠",
+    "thai": "ผ้าพันมือ | Badlands",
+    "turkish": "El Sargıları | Çorak Arazi",
+    "ukrainian": "Бинти на руки | Дикі землі",
+    "vietnamese": "Bọc tay | Badlands"
+  },
+  "media": {
+    "asset_id": "skin__5032-10036",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5032-10036/light.png",
+      "data/api/media/rendered/files/skins/5032-10036/medium.png",
+      "data/api/media/rendered/files/skins/5032-10036/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5032-10036.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5032-10036/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5032-10036/light.png",
+      "medium": "data/api/media/rendered/files/skins/5032-10036/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5032-10036/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/leather_handwraps_handwrap_fabric_orange_camo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/leather_handwraps_handwrap_fabric_orange_camo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/leather_handwraps_handwrap_fabric_orange_camo_medium_png.vtex_c"
+    }
+  },
+  "name": "Hand Wraps | Badlands",
+  "search_slug": "hand-wraps-badlands",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-15",
+        "id": 4288,
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "search_slug": "glove-case",
+        "via_special_pool": "community_case_15_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-17",
+        "id": 4352,
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "search_slug": "operation-hydra-case",
+        "via_special_pool": "community_case_15_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-15-unusual",
+        "expansion_rule": "legacy-gloves",
+        "id": "community_case_15_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "community-case-15-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5032-10036__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "leather-handwraps",
+    "id": 5032,
+    "localized_names": {
+      "brazilian": "Faixas",
+      "bulgarian": "Превръзки за ръце",
+      "czech": "Bandáže",
+      "danish": "Håndbind",
+      "dutch": "Bandages",
+      "english": "Hand Wraps",
+      "finnish": "Käsisiteet",
+      "french": "Bandages",
+      "german": "Handbandagen",
+      "greek": "Περιτυλίγματα χεριών",
+      "hungarian": "Kézkötések",
+      "indonesian": "Hand Wraps",
+      "italian": "Fasce per le mani",
+      "japanese": "Hand Wraps",
+      "koreana": "핸드랩",
+      "latam": "Vendas de cuero",
+      "norwegian": "Boksebandasje",
+      "polish": "Bandaże bokserskie",
+      "portuguese": "Faixas de Mão",
+      "romanian": "Feșe pentru mâini",
+      "russian": "Обмотки рук",
+      "schinese": "裹手",
+      "schinese_pw": "Hand Wraps",
+      "spanish": "Vendas de cuero",
+      "swedish": "Handlindor",
+      "tchinese": "手綁帶",
+      "thai": "ผ้าพันมือ",
+      "turkish": "El Sargıları",
+      "ukrainian": "Бинти на руки",
+      "vietnamese": "Bọc tay"
+    },
+    "name": "Hand Wraps",
+    "search_slug": "hand-wraps",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

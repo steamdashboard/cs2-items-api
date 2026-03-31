@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "515-411",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-damascus-90",
+    "catalog_id": 411,
+    "id": 411,
+    "localized_names": {
+      "brazilian": "Aço de Damasco",
+      "bulgarian": "Дамаска стомана",
+      "czech": "Damascus Steel",
+      "danish": "Damascus Steel",
+      "dutch": "Damascus Steel",
+      "english": "Damascus Steel",
+      "finnish": "Damaskiteräs",
+      "french": "Acier de Damas",
+      "german": "Damaszener Stahl",
+      "greek": "Damascus Steel",
+      "hungarian": "Damaszkuszi Acél",
+      "indonesian": "Damascus Steel",
+      "italian": "Damascus Steel",
+      "japanese": "Damascus Steel",
+      "koreana": "다마스크 강철",
+      "latam": "Acero de damasco",
+      "norwegian": "Damascus Steel",
+      "polish": "Stal damasceńska",
+      "portuguese": "Damascus Steel",
+      "romanian": "Damascus Steel",
+      "russian": "Дамасская сталь",
+      "schinese": "大马士革钢",
+      "schinese_pw": "Damascus Steel",
+      "spanish": "Acero de damasco",
+      "swedish": "Damascus Steel",
+      "tchinese": "大馬士革鋼",
+      "thai": "Damascus Steel",
+      "turkish": "Şam Çeliği",
+      "ukrainian": "Дамаська сталь",
+      "vietnamese": "Damascus Steel"
+    },
+    "name": "Damascus Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-411",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Aço de Damasco",
+    "bulgarian": "Нож „Пеперуда“ | Дамаска стомана",
+    "czech": "Motýlek | Damascus Steel",
+    "danish": "Butterfly-kniv | Damascus Steel",
+    "dutch": "Vlindermes | Damascus Steel",
+    "english": "Butterfly Knife | Damascus Steel",
+    "finnish": "Perhosveitsi | Damaskiteräs",
+    "french": "Couteau papillon | Acier de Damas",
+    "german": "Butterflymesser | Damaszener Stahl",
+    "greek": "Μαχαίρι Butterfly | Damascus Steel",
+    "hungarian": "Pillangókés | Damaszkuszi Acél",
+    "indonesian": "Pisau Kupu-kupu | Damascus Steel",
+    "italian": "Coltello a farfalla | Damascus Steel",
+    "japanese": "バタフライナイフ | Damascus Steel",
+    "koreana": "버터플라이 나이프 | 다마스크 강철",
+    "latam": "Cuchillo mariposa | Acero de damasco",
+    "norwegian": "Butterflykniv | Damascus Steel",
+    "polish": "Nóż motylkowy | Stal damasceńska",
+    "portuguese": "Faca Butterfly | Damascus Steel",
+    "romanian": "Cuțit fluture | Damascus Steel",
+    "russian": "Нож-бабочка | Дамасская сталь",
+    "schinese": "蝴蝶刀 | 大马士革钢",
+    "schinese_pw": "Butterfly Knife | Damascus Steel",
+    "spanish": "Cuchillo Mariposa | Acero de damasco",
+    "swedish": "Butterflykniv | Damascus Steel",
+    "tchinese": "蝴蝶刀 | 大馬士革鋼",
+    "thai": "มีดบัตเตอร์ฟลาย | Damascus Steel",
+    "turkish": "Kelebek Bıçak | Şam Çeliği",
+    "ukrainian": "Балісонг | Дамаська сталь",
+    "vietnamese": "Dao bướm | Damascus Steel"
+  },
+  "media": {
+    "asset_id": "skin__515-411",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-411/light.png",
+      "data/api/media/rendered/files/skins/515-411/medium.png",
+      "data/api/media/rendered/files/skins/515-411/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-411.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-411/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-411/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-411/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-411/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_damascus_90_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_damascus_90_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_damascus_90_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Damascus Steel",
+  "search_slug": "butterfly-knife-damascus-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-16",
+        "id": 4351,
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "search_slug": "spectrum-case",
+        "via_special_pool": "spectrum_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-18",
+        "id": 4403,
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "search_slug": "spectrum-2-case",
+        "via_special_pool": "spectrum_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "spectrum-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "spectrum_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "spectrum-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-411__normal__battle-scarred",
+    "515-411__normal__factory-new",
+    "515-411__normal__field-tested",
+    "515-411__normal__minimal-wear",
+    "515-411__normal__well-worn",
+    "515-411__stattrak__battle-scarred",
+    "515-411__stattrak__factory-new",
+    "515-411__stattrak__field-tested",
+    "515-411__stattrak__minimal-wear",
+    "515-411__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

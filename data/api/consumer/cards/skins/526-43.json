@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "526-43",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-forced",
+    "catalog_id": 43,
+    "id": 43,
+    "localized_names": {
+      "brazilian": "Manchado",
+      "bulgarian": "Опетнено",
+      "czech": "Stained",
+      "danish": "Stained",
+      "dutch": "Stained",
+      "english": "Stained",
+      "finnish": "Värjäytynyt",
+      "french": "Tacheté",
+      "german": "Gefleckt",
+      "greek": "Stained",
+      "hungarian": "Foltos",
+      "indonesian": "Stained",
+      "italian": "Stained",
+      "japanese": "Stained",
+      "koreana": "얼룩",
+      "latam": "Manchado",
+      "norwegian": "Stained",
+      "polish": "Śniedź",
+      "portuguese": "Stained",
+      "romanian": "Stained",
+      "russian": "Патина",
+      "schinese": "人工染色",
+      "schinese_pw": "Stained",
+      "spanish": "Manchado",
+      "swedish": "Stained",
+      "tchinese": "髒亂",
+      "thai": "Stained",
+      "turkish": "Lekeli",
+      "ukrainian": "Наліт іржі",
+      "vietnamese": "Stained"
+    },
+    "name": "Stained",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "526-43",
+  "localized_names": {
+    "brazilian": "Faca Kukri | Manchado",
+    "bulgarian": "Кукри нож | Опетнено",
+    "czech": "Nůž Kukri | Stained",
+    "danish": "Kukrikniv | Stained",
+    "dutch": "Kukri | Stained",
+    "english": "Kukri Knife | Stained",
+    "finnish": "Kukri-veitsi | Värjäytynyt",
+    "french": "Couteau Kukri | Tacheté",
+    "german": "Kukri-Messer | Gefleckt",
+    "greek": "Μαχαίρι Kukri | Stained",
+    "hungarian": "Kukri kés | Foltos",
+    "indonesian": "Pisau Kukri | Stained",
+    "italian": "Coltello Kukri | Stained",
+    "japanese": "ククリナイフ | Stained",
+    "koreana": "쿠크리 칼 | 얼룩",
+    "latam": "Cuchillo kukri | Manchado",
+    "norwegian": "Kukrikniv | Stained",
+    "polish": "Nóż kukri | Śniedź",
+    "portuguese": "Faca Kukri | Stained",
+    "romanian": "Cuțit Kukri | Stained",
+    "russian": "Кукри | Патина",
+    "schinese": "廓尔喀刀 | 人工染色",
+    "schinese_pw": "Kukri Knife | Stained",
+    "spanish": "Cuchillo kukri | Manchado",
+    "swedish": "Kukrikniv | Stained",
+    "tchinese": "反曲刀 | 髒亂",
+    "thai": "มีดคูครี | Stained",
+    "turkish": "Kukri Bıçağı | Lekeli",
+    "ukrainian": "Ніж кукрі | Наліт іржі",
+    "vietnamese": "Dao Kukri | Stained"
+  },
+  "media": {
+    "asset_id": "skin__526-43",
+    "images_png": [
+      "data/api/media/rendered/files/skins/526-43/light.png",
+      "data/api/media/rendered/files/skins/526-43/medium.png",
+      "data/api/media/rendered/files/skins/526-43/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/526-43.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/526-43/heavy.png",
+      "light": "data/api/media/rendered/files/skins/526-43/light.png",
+      "medium": "data/api/media/rendered/files/skins/526-43/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/526-43/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_kukri_aq_forced_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_kukri_aq_forced_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_kukri_aq_forced_medium_png.vtex_c"
+    }
+  },
+  "name": "Kukri Knife | Stained",
+  "search_slug": "kukri-knife-stained",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-33",
+        "id": 4904,
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "search_slug": "kilowatt-case",
+        "via_special_pool": "set_community_33_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-34",
+        "id": 7003,
+        "kind": "weapon-case",
+        "name": "Gallery Case",
+        "search_slug": "gallery-case",
+        "via_special_pool": "set_community_33_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-33-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_33_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Kukri Knife ★",
+        "search_slug": "set-community-33-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "526-43__normal__battle-scarred",
+    "526-43__normal__factory-new",
+    "526-43__normal__field-tested",
+    "526-43__normal__minimal-wear",
+    "526-43__normal__well-worn",
+    "526-43__stattrak__battle-scarred",
+    "526-43__stattrak__factory-new",
+    "526-43__stattrak__field-tested",
+    "526-43__stattrak__minimal-wear",
+    "526-43__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-kukri",
+    "id": 526,
+    "localized_names": {
+      "brazilian": "Faca Kukri",
+      "bulgarian": "Кукри нож",
+      "czech": "Nůž Kukri",
+      "danish": "Kukrikniv",
+      "dutch": "Kukri",
+      "english": "Kukri Knife",
+      "finnish": "Kukri-veitsi",
+      "french": "Couteau Kukri",
+      "german": "Kukri-Messer",
+      "greek": "Μαχαίρι Kukri",
+      "hungarian": "Kukri kés",
+      "indonesian": "Pisau Kukri",
+      "italian": "Coltello Kukri",
+      "japanese": "ククリナイフ",
+      "koreana": "쿠크리 칼",
+      "latam": "Cuchillo kukri",
+      "norwegian": "Kukrikniv",
+      "polish": "Nóż kukri",
+      "portuguese": "Faca Kukri",
+      "romanian": "Cuțit Kukri",
+      "russian": "Кукри",
+      "schinese": "廓尔喀刀",
+      "schinese_pw": "Kukri Knife",
+      "spanish": "Cuchillo kukri",
+      "swedish": "Kukrikniv",
+      "tchinese": "反曲刀",
+      "thai": "มีดคูครี",
+      "turkish": "Kukri Bıçağı",
+      "ukrainian": "Ніж кукрі",
+      "vietnamese": "Dao Kukri"
+    },
+    "name": "Kukri Knife",
+    "search_slug": "kukri-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

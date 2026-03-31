@@ -1,0 +1,190 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5030-1410",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "glove-sport-tech-gradient-bright",
+    "catalog_id": 1410,
+    "id": 1410,
+    "localized_names": {
+      "brazilian": "Ultraviolenta",
+      "bulgarian": "Ултра насилствено",
+      "czech": "Ultra Violent",
+      "danish": "Ultra Violent",
+      "dutch": "Ultra Violent",
+      "english": "Ultra Violent",
+      "finnish": "Väkivaltaisen violetti",
+      "french": "Ultraviolent",
+      "german": "Ultraviolent",
+      "greek": "Ultra Violent",
+      "hungarian": "Ultra Erőszakos",
+      "indonesian": "Ultra Violent",
+      "italian": "Ultra Violent",
+      "japanese": "Ultra Violent",
+      "koreana": "울트라 바이올렛",
+      "latam": "Ultraviole(n)ta",
+      "norwegian": "Ultra Violent",
+      "polish": "Brutalny fiolet",
+      "portuguese": "Ultra Violent",
+      "romanian": "Ultra Violent",
+      "russian": "Неоновое насилие",
+      "schinese": "紫外狂潮",
+      "schinese_pw": "Ultra Violent",
+      "spanish": "Ultraviole(n)ta",
+      "swedish": "Ultra Violent",
+      "tchinese": "明艷刺眼",
+      "thai": "Ultra Violent",
+      "turkish": "Parlak Menekşe",
+      "ukrainian": "Брутальний фіолет",
+      "vietnamese": "Ultra Violent"
+    },
+    "name": "Ultra Violent",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5030-1410",
+  "localized_names": {
+    "brazilian": "Luvas Esportivas | Ultraviolenta",
+    "bulgarian": "Спортни ръкавици | Ултра насилствено",
+    "czech": "Sportovní rukavice | Ultra Violent",
+    "danish": "Sportshandsker | Ultra Violent",
+    "dutch": "Sporthandschoenen | Ultra Violent",
+    "english": "Sport Gloves | Ultra Violent",
+    "finnish": "Urheiluhanskat | Väkivaltaisen violetti",
+    "french": "Gants de sport | Ultraviolent",
+    "german": "Sporthandschuhe | Ultraviolent",
+    "greek": "Σπορ γάντια | Ultra Violent",
+    "hungarian": "Sportkesztyűk | Ultra Erőszakos",
+    "indonesian": "Sarung Tangan Olahraga | Ultra Violent",
+    "italian": "Guanti sportivi | Ultra Violent",
+    "japanese": "Sport Gloves | Ultra Violent",
+    "koreana": "스포츠 장갑 | 울트라 바이올렛",
+    "latam": "Guantes de deporte | Ultraviole(n)ta",
+    "norwegian": "Sportshansker | Ultra Violent",
+    "polish": "Rękawice sportowe | Brutalny fiolet",
+    "portuguese": "Luvas Desportivas | Ultra Violent",
+    "romanian": "Mănuși sport | Ultra Violent",
+    "russian": "Спортивные перчатки | Неоновое насилие",
+    "schinese": "运动手套 | 紫外狂潮",
+    "schinese_pw": "Sport Gloves | Ultra Violent",
+    "spanish": "Guantes de deporte | Ultraviole(n)ta",
+    "swedish": "Sporthandskar | Ultra Violent",
+    "tchinese": "運動員手套 | 明艷刺眼",
+    "thai": "ถุงมือกีฬา | Ultra Violent",
+    "turkish": "Spor Eldivenler | Parlak Menekşe",
+    "ukrainian": "Спортивні рукавиці | Брутальний фіолет",
+    "vietnamese": "Găng tay thể thao | Ultra Violent"
+  },
+  "media": {
+    "asset_id": "skin__5030-1410",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5030-1410/light.png",
+      "data/api/media/rendered/files/skins/5030-1410/medium.png",
+      "data/api/media/rendered/files/skins/5030-1410/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5030-1410.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5030-1410/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5030-1410/light.png",
+      "medium": "data/api/media/rendered/files/skins/5030-1410/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5030-1410/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/sporty_gloves_glove_sport_tech_gradient_bright_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/sporty_gloves_glove_sport_tech_gradient_bright_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/sporty_gloves_glove_sport_tech_gradient_bright_medium_png.vtex_c"
+    }
+  },
+  "name": "Sport Gloves | Ultra Violent",
+  "search_slug": "sport-gloves-ultra-violent",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [],
+    "containers": [
+      {
+        "canonical_slug": "crate-community-37",
+        "id": 5181,
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "search_slug": "sealed-dead-hand-terminal",
+        "via_special_pool": "set_community_37_unusual"
+      }
+    ],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-37-unusual",
+        "expansion_rule": "volatile-gloves",
+        "id": "set_community_37_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-37-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5030-1410__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "sporty-gloves",
+    "id": 5030,
+    "localized_names": {
+      "brazilian": "Luvas Esportivas",
+      "bulgarian": "Спортни ръкавици",
+      "czech": "Sportovní rukavice",
+      "danish": "Sportshandsker",
+      "dutch": "Sporthandschoenen",
+      "english": "Sport Gloves",
+      "finnish": "Urheiluhanskat",
+      "french": "Gants de sport",
+      "german": "Sporthandschuhe",
+      "greek": "Σπορ γάντια",
+      "hungarian": "Sportkesztyűk",
+      "indonesian": "Sarung Tangan Olahraga",
+      "italian": "Guanti sportivi",
+      "japanese": "Sport Gloves",
+      "koreana": "스포츠 장갑",
+      "latam": "Guantes de deporte",
+      "norwegian": "Sportshansker",
+      "polish": "Rękawice sportowe",
+      "portuguese": "Luvas Desportivas",
+      "romanian": "Mănuși sport",
+      "russian": "Спортивные перчатки",
+      "schinese": "运动手套",
+      "schinese_pw": "Sport Gloves",
+      "spanish": "Guantes de deporte",
+      "swedish": "Sporthandskar",
+      "tchinese": "運動員手套",
+      "thai": "ถุงมือกีฬา",
+      "turkish": "Spor Eldivenler",
+      "ukrainian": "Спортивні рукавиці",
+      "vietnamese": "Găng tay thể thao"
+    },
+    "name": "Sport Gloves",
+    "search_slug": "sport-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

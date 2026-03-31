@@ -1,0 +1,65 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "514-72",
+  "finish": {
+    "codename": "sp_mesh_tan",
+    "id": 72,
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 72,
+    "weapon_id": 514
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-72",
+  "name": "Bowie Knife | Safari Mesh",
+  "search_slug": "bowie-knife-safari-mesh",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-11",
+            "id": 4187,
+            "kind": "weapon-case",
+            "name": "Operation Wildfire Case",
+            "search_slug": "operation-wildfire-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "514-72__normal__vanilla",
+    "514-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_survival_bowie",
+    "id": 514,
+    "name": "Bowie Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

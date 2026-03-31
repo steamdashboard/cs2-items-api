@@ -1,0 +1,72 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "526-40",
+  "finish": {
+    "codename": "so_night",
+    "id": 40,
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 40,
+    "weapon_id": 526
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "526-40",
+  "name": "Kukri Knife | Night",
+  "search_slug": "kukri-knife-night",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-33-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_33_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Kukri Knife ★",
+        "search_slug": "set-community-33-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-33",
+            "id": 4904,
+            "kind": "weapon-case",
+            "name": "Kilowatt Case",
+            "search_slug": "kilowatt-case"
+          },
+          {
+            "canonical_slug": "crate-community-34",
+            "id": 7003,
+            "kind": "weapon-case",
+            "name": "Gallery Case",
+            "search_slug": "gallery-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "526-40__normal__vanilla",
+    "526-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_kukri",
+    "id": 526,
+    "name": "Kukri Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

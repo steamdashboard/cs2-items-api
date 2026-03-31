@@ -16,7 +16,7 @@ def load_json(path: Path) -> dict:
 class GeneratedContractTests(unittest.TestCase):
     def test_schema_exposes_layered_api(self) -> None:
         schema = load_json(ROOT / "data/api/meta/schema.json")
-        self.assertEqual(schema["version"], 7)
+        self.assertEqual(schema["version"], 8)
         self.assertEqual(set(schema["layers"]), {"reference", "graph", "consumer", "media"})
         self.assertIn("canonical_slug", schema["slug_policy"])
         self.assertIn("search_slug", schema["slug_policy"])
@@ -33,8 +33,12 @@ class GeneratedContractTests(unittest.TestCase):
             len(list((ROOT / "data/api/media/manifests").glob("*.json"))),
         )
         self.assertEqual(
-            stats["rendered.skins"],
+            stats["rendered.skins_with_rendered_previews"],
             len(list((ROOT / "data/api/media/rendered/manifests/skins").glob("*.json"))),
+        )
+        self.assertEqual(
+            stats["rendered.skin_variants_with_rendered_preview"],
+            len(list((ROOT / "data/api/media/rendered/manifests/skin-variants").glob("*.json"))),
         )
 
     def test_sample_reference_consumer_and_media_files_exist(self) -> None:
@@ -42,11 +46,15 @@ class GeneratedContractTests(unittest.TestCase):
             ROOT / "data/api/reference/collectibles/875.json",
             ROOT / "data/api/reference/equipment/50.json",
             ROOT / "data/api/reference/skins/1-1006.json",
+            ROOT / "data/api/reference/skins/500-42.json",
+            ROOT / "data/api/reference/skins/5030-10018.json",
             ROOT / "data/api/reference/containers/4001.json",
             ROOT / "data/api/reference/stickers/10.json",
             ROOT / "data/api/consumer/cards/collectibles/875.json",
             ROOT / "data/api/consumer/cards/equipment/50.json",
             ROOT / "data/api/consumer/cards/skins/1-37.json",
+            ROOT / "data/api/consumer/cards/skins/500-42.json",
+            ROOT / "data/api/consumer/cards/skins/5030-10018.json",
             ROOT / "data/api/consumer/cards/cases/4001.json",
             ROOT / "data/api/consumer/cards/special-pools/unusual_revolving_list.json",
             ROOT / "data/api/consumer/cards/tools/4000.json",
@@ -75,6 +83,20 @@ class GeneratedContractTests(unittest.TestCase):
         special_pool_ids = case_card["rare_special_item"]["special_pool_ids"]
         self.assertIn("set_community_33_unusual", special_pool_ids)
 
+    def test_special_pool_skins_are_first_class_reference_entities(self) -> None:
+        knife_skin = load_json(ROOT / "data/api/reference/skins/500-42.json")
+        glove_skin = load_json(ROOT / "data/api/reference/skins/5030-10018.json")
+        relation = load_json(ROOT / "data/api/graph/relations/special-pool-to-skins.json")
+
+        self.assertEqual(knife_skin["weapon"]["weapon_group"], "knife")
+        self.assertEqual(glove_skin["weapon"]["weapon_group"], "glove")
+        self.assertTrue(knife_skin["generation_notes"]["derived_from_special_pool"])
+        self.assertTrue(glove_skin["generation_notes"]["derived_from_special_pool"])
+        self.assertEqual(knife_skin["sources"]["special_pools"][0]["expansion_rule"], "legacy-knives")
+        self.assertEqual(glove_skin["sources"]["special_pools"][0]["expansion_rule"], "legacy-gloves")
+        self.assertIn("500-42", relation["unusual_revolving_list"])
+        self.assertIn("5030-10018", relation["community_case_15_unusual"])
+
     def test_consumer_skin_uses_rendered_preview(self) -> None:
         skin_card = load_json(ROOT / "data/api/consumer/cards/skins/1-37.json")
         self.assertEqual(skin_card["media"]["preview_status"], "rendered")
@@ -82,6 +104,19 @@ class GeneratedContractTests(unittest.TestCase):
             skin_card["media"]["primary_image_png"],
             "data/api/media/rendered/files/skins/1-37/light.png",
         )
+
+    def test_special_pool_consumer_skin_exposes_pool_sources_and_rendered_preview(self) -> None:
+        knife_skin_card = load_json(ROOT / "data/api/consumer/cards/skins/500-42.json")
+        glove_skin_card = load_json(ROOT / "data/api/consumer/cards/skins/5030-10018.json")
+
+        self.assertEqual(knife_skin_card["weapon"]["weapon_group"], "knife")
+        self.assertEqual(glove_skin_card["weapon"]["weapon_group"], "glove")
+        self.assertEqual(knife_skin_card["media"]["preview_status"], "rendered")
+        self.assertEqual(glove_skin_card["media"]["preview_status"], "rendered")
+        self.assertTrue(knife_skin_card["sources"]["special_pools"])
+        self.assertTrue(glove_skin_card["sources"]["cases"])
+        self.assertTrue(knife_skin_card["generation_notes"]["derived_from_special_pool"])
+        self.assertTrue(glove_skin_card["generation_notes"]["derived_from_special_pool"])
 
     def test_consumer_case_uses_rendered_preview(self) -> None:
         case_card = load_json(ROOT / "data/api/consumer/cards/cases/4001.json")
@@ -182,6 +217,21 @@ class GeneratedContractTests(unittest.TestCase):
         report = load_json(ROOT / "data/reports/unknown-prefabs.json")
         self.assertEqual(stats["unknown_prefabs"], 0)
         self.assertEqual(report, [])
+
+    def test_rendered_stats_match_unresolved_media_report(self) -> None:
+        stats = load_json(ROOT / "data/api/meta/stats.json")
+        rendered_stats = load_json(ROOT / "data/api/media/rendered/stats.json")
+        unresolved = load_json(ROOT / "data/api/media/rendered/unresolved.json")
+
+        self.assertEqual(rendered_stats["generic_entities_without_rendered_preview"], len(unresolved))
+        self.assertEqual(rendered_stats["unresolved_total"], len(unresolved))
+        self.assertEqual(stats["rendered.generic_entities_without_rendered_preview"], len(unresolved))
+        self.assertEqual(stats["rendered.unresolved_total"], len(unresolved))
+        self.assertEqual(
+            rendered_stats["generic_entities"],
+            rendered_stats["generic_entities_with_rendered_preview"]
+            + rendered_stats["generic_entities_without_rendered_preview"],
+        )
 
     def test_public_build_metadata_does_not_expose_local_paths(self) -> None:
         for path in (

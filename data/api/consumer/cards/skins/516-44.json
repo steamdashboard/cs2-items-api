@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "516-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-44",
+  "localized_names": {
+    "brazilian": "Adagas Sombrias | Aquecimento de Aço",
+    "bulgarian": "Мрачни кинжали | Закалено",
+    "czech": "Pěstní dýky | Case Hardened",
+    "danish": "Shadow-daggerter | Case Hardened",
+    "dutch": "Schaduwdolken | Case Hardened",
+    "english": "Shadow Daggers | Case Hardened",
+    "finnish": "Varjotikarit | Hiiletyskarkaistu",
+    "french": "Dagues sombres | Cémenté",
+    "german": "Schattendolche | Einsatzgehärtet",
+    "greek": "Shadow Daggers | Case Hardened",
+    "hungarian": "Árnyéktőr | Edzett",
+    "indonesian": "Belati Bayangan | Case Hardened",
+    "italian": "Fendi ombra | Case Hardened",
+    "japanese": "シャドウダガー | Case Hardened",
+    "koreana": "섀도우 칼 | 표면 경화",
+    "latam": "Dagas Sombrías | Acero templado",
+    "norwegian": "Skyggedolker | Case Hardened",
+    "polish": "Sztylety Cienia | Stal nawęglana",
+    "portuguese": "Shadow Daggers | Case Hardened",
+    "romanian": "Pumnale Shadow | Case Hardened",
+    "russian": "Тычковые ножи | Поверхностная закалка",
+    "schinese": "暗影双匕 | 表面淬火",
+    "schinese_pw": "Shadow Daggers | Case Hardened",
+    "spanish": "Dagas Sombrías | Acero templado",
+    "swedish": "Skuggdolkar | Case Hardened",
+    "tchinese": "暗影匕首 | 外殼硬化",
+    "thai": "มีดชาโดว์ดักเกอร์ | Case Hardened",
+    "turkish": "Gölge Hançerler | Sertleştirilmiş Kasa",
+    "ukrainian": "Тіньові ножі | Поверхневий гарт",
+    "vietnamese": "Dao găm chữ T | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__516-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/516-44/light.png",
+      "data/api/media/rendered/files/skins/516-44/medium.png",
+      "data/api/media/rendered/files/skins/516-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/516-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/516-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/516-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/516-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/516-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_push_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_push_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_push_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Shadow Daggers | Case Hardened",
+  "search_slug": "shadow-daggers-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-9",
+        "id": 4138,
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "search_slug": "shadow-case",
+        "via_special_pool": "community_case_9_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-9-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_9_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Shadow Daggers ★",
+        "search_slug": "community-case-9-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "516-44__normal__battle-scarred",
+    "516-44__normal__factory-new",
+    "516-44__normal__field-tested",
+    "516-44__normal__minimal-wear",
+    "516-44__normal__well-worn",
+    "516-44__stattrak__battle-scarred",
+    "516-44__stattrak__factory-new",
+    "516-44__stattrak__field-tested",
+    "516-44__stattrak__minimal-wear",
+    "516-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-push",
+    "id": 516,
+    "localized_names": {
+      "brazilian": "Adagas Sombrias",
+      "bulgarian": "Мрачни кинжали",
+      "czech": "Pěstní dýky",
+      "danish": "Shadow-daggerter",
+      "dutch": "Schaduwdolken",
+      "english": "Shadow Daggers",
+      "finnish": "Varjotikarit",
+      "french": "Dagues sombres",
+      "german": "Schattendolche",
+      "greek": "Shadow Daggers",
+      "hungarian": "Árnyéktőr",
+      "indonesian": "Belati Bayangan",
+      "italian": "Fendi ombra",
+      "japanese": "シャドウダガー",
+      "koreana": "섀도우 칼",
+      "latam": "Dagas Sombrías",
+      "norwegian": "Skyggedolker",
+      "polish": "Sztylety Cienia",
+      "portuguese": "Shadow Daggers",
+      "romanian": "Pumnale Shadow",
+      "russian": "Тычковые ножи",
+      "schinese": "暗影双匕",
+      "schinese_pw": "Shadow Daggers",
+      "spanish": "Dagas Sombrías",
+      "swedish": "Skuggdolkar",
+      "tchinese": "暗影匕首",
+      "thai": "มีดชาโดว์ดักเกอร์",
+      "turkish": "Gölge Hançerler",
+      "ukrainian": "Тіньові ножі",
+      "vietnamese": "Dao găm chữ T"
+    },
+    "name": "Shadow Daggers",
+    "search_slug": "shadow-daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

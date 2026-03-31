@@ -1,0 +1,65 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "516-77",
+  "finish": {
+    "codename": "hy_forest_boreal",
+    "id": 77,
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 77,
+    "weapon_id": 516
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-77",
+  "name": "Shadow Daggers | Boreal Forest",
+  "search_slug": "shadow-daggers-boreal-forest",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-9-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_9_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Shadow Daggers ★",
+        "search_slug": "community-case-9-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-9",
+            "id": 4138,
+            "kind": "weapon-case",
+            "name": "Shadow Case",
+            "search_slug": "shadow-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "516-77__normal__vanilla",
+    "516-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_push",
+    "id": 516,
+    "name": "Shadow Daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

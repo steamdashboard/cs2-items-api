@@ -1,0 +1,90 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "514-98",
+  "finish": {
+    "codename": "so_purple",
+    "id": 98,
+    "name": "Ultraviolet",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 98,
+    "weapon_id": 514
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-98",
+  "name": "Bowie Knife | Ultraviolet",
+  "search_slug": "bowie-knife-ultraviolet",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-11",
+            "id": 4187,
+            "kind": "weapon-case",
+            "name": "Operation Wildfire Case",
+            "search_slug": "operation-wildfire-case"
+          }
+        ]
+      },
+      {
+        "canonical_slug": "spectrum-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "spectrum_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "spectrum-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-16",
+            "id": 4351,
+            "kind": "weapon-case",
+            "name": "Spectrum Case",
+            "search_slug": "spectrum-case"
+          },
+          {
+            "canonical_slug": "crate-community-18",
+            "id": 4403,
+            "kind": "weapon-case",
+            "name": "Spectrum 2 Case",
+            "search_slug": "spectrum-2-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "514-98__normal__vanilla",
+    "514-98__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_survival_bowie",
+    "id": 514,
+    "name": "Bowie Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

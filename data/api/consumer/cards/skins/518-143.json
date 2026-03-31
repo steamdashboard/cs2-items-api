@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "518-143",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-tape-urban",
+    "catalog_id": 143,
+    "id": 143,
+    "localized_names": {
+      "brazilian": "Máscara Urbana",
+      "bulgarian": "Градска маскировка",
+      "czech": "Urban Masked",
+      "danish": "Urban Masked",
+      "dutch": "Urban Masked",
+      "english": "Urban Masked",
+      "finnish": "Kaupunkilaisnaamioitu",
+      "french": "Masque urbain",
+      "german": "Städtisch maskiert",
+      "greek": "Urban Masked",
+      "hungarian": "Városi Maszkolt",
+      "indonesian": "Urban Masked",
+      "italian": "Urban Masked",
+      "japanese": "Urban Masked",
+      "koreana": "도시의 위장",
+      "latam": "Pátina urbana",
+      "norwegian": "Urban Masked",
+      "polish": "Miejski zamaskowany",
+      "portuguese": "Urban Masked",
+      "romanian": "Urban Masked",
+      "russian": "Городская маскировка",
+      "schinese": "都市伪装",
+      "schinese_pw": "Urban Masked",
+      "spanish": "Pátina urbana",
+      "swedish": "Urban Masked",
+      "tchinese": "都市偽裝",
+      "thai": "Urban Masked",
+      "turkish": "Gizli Şehir",
+      "ukrainian": "Міське маскування",
+      "vietnamese": "Urban Masked"
+    },
+    "name": "Urban Masked",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "518-143",
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência | Máscara Urbana",
+    "bulgarian": "Нож за оцеляване | Градска маскировка",
+    "czech": "Záchranářský nůž | Urban Masked",
+    "danish": "Overlevelseskniv | Urban Masked",
+    "dutch": "Overlevingsmes | Urban Masked",
+    "english": "Survival Knife | Urban Masked",
+    "finnish": "Selviytymisveitsi | Kaupunkilaisnaamioitu",
+    "french": "Couteau de survie | Masque urbain",
+    "german": "Survival-Messer | Städtisch maskiert",
+    "greek": "Μαχαίρι Survival | Urban Masked",
+    "hungarian": "Túlélőkés | Városi Maszkolt",
+    "indonesian": "Pisau Survival | Urban Masked",
+    "italian": "Coltello da sopravvivenza | Urban Masked",
+    "japanese": "サバイバルナイフ | Urban Masked",
+    "koreana": "서바이벌 칼 | 도시의 위장",
+    "latam": "Cuchillo de supervivencia | Pátina urbana",
+    "norwegian": "Overlevelseskniv | Urban Masked",
+    "polish": "Nóż survivalowy | Miejski zamaskowany",
+    "portuguese": "Faca Survival | Urban Masked",
+    "romanian": "Cuțit de supraviețuire | Urban Masked",
+    "russian": "Нож выживания | Городская маскировка",
+    "schinese": "求生匕首 | 都市伪装",
+    "schinese_pw": "Survival Knife | Urban Masked",
+    "spanish": "Cuchillo de supervivencia | Pátina urbana",
+    "swedish": "Överlevnadskniv | Urban Masked",
+    "tchinese": "求生刀 | 都市偽裝",
+    "thai": "มีดเซอร์ไวเวอร์ | Urban Masked",
+    "turkish": "Hayatta Kalma Bıçağı | Gizli Şehir",
+    "ukrainian": "Ніж для виживання | Міське маскування",
+    "vietnamese": "Dao sinh tồn | Urban Masked"
+  },
+  "media": {
+    "asset_id": "skin__518-143",
+    "images_png": [
+      "data/api/media/rendered/files/skins/518-143/light.png",
+      "data/api/media/rendered/files/skins/518-143/medium.png",
+      "data/api/media/rendered/files/skins/518-143/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/518-143.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/518-143/heavy.png",
+      "light": "data/api/media/rendered/files/skins/518-143/light.png",
+      "medium": "data/api/media/rendered/files/skins/518-143/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/518-143/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_canis_sp_tape_urban_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_canis_sp_tape_urban_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_canis_sp_tape_urban_medium_png.vtex_c"
+    }
+  },
+  "name": "Survival Knife | Urban Masked",
+  "search_slug": "survival-knife-urban-masked",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "518-143__normal__vanilla",
+    "518-143__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-canis",
+    "id": 518,
+    "localized_names": {
+      "brazilian": "Faca de Sobrevivência",
+      "bulgarian": "Нож за оцеляване",
+      "czech": "Záchranářský nůž",
+      "danish": "Overlevelseskniv",
+      "dutch": "Overlevingsmes",
+      "english": "Survival Knife",
+      "finnish": "Selviytymisveitsi",
+      "french": "Couteau de survie",
+      "german": "Survival-Messer",
+      "greek": "Μαχαίρι Survival",
+      "hungarian": "Túlélőkés",
+      "indonesian": "Pisau Survival",
+      "italian": "Coltello da sopravvivenza",
+      "japanese": "サバイバルナイフ",
+      "koreana": "서바이벌 칼",
+      "latam": "Cuchillo de supervivencia",
+      "norwegian": "Overlevelseskniv",
+      "polish": "Nóż survivalowy",
+      "portuguese": "Faca Survival",
+      "romanian": "Cuțit de supraviețuire",
+      "russian": "Нож выживания",
+      "schinese": "求生匕首",
+      "schinese_pw": "Survival Knife",
+      "spanish": "Cuchillo de supervivencia",
+      "swedish": "Överlevnadskniv",
+      "tchinese": "求生刀",
+      "thai": "มีดเซอร์ไวเวอร์",
+      "turkish": "Hayatta Kalma Bıçağı",
+      "ukrainian": "Ніж для виживання",
+      "vietnamese": "Dao sinh tồn"
+    },
+    "name": "Survival Knife",
+    "search_slug": "survival-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

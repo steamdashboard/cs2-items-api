@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "509-12",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-webs",
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "509-12",
+  "localized_names": {
+    "brazilian": "Faca do Caçador | Teia Rubra",
+    "bulgarian": "Ловджийски нож | Пурпурна паяжина",
+    "czech": "Lovecký nůž | Crimson Web",
+    "danish": "Huntsman-kniv | Crimson Web",
+    "dutch": "Jagersmes | Crimson Web",
+    "english": "Huntsman Knife | Crimson Web",
+    "finnish": "Metsämiehen veitsi | Verenpunainen seitti",
+    "french": "Couteau de chasse | Toile pourpre",
+    "german": "Jagdmesser | Purpurnes Netz",
+    "greek": "Μαχαίρι Huntsman | Crimson Web",
+    "hungarian": "Vadászkés | Karmazsin Háló",
+    "indonesian": "Pisau Pemburu | Crimson Web",
+    "italian": "Coltello da cacciatore | Crimson Web",
+    "japanese": "Huntsman ナイフ | Crimson Web",
+    "koreana": "헌츠맨 칼 | 붉은 그물",
+    "latam": "Cuchillo de cazador | Tela escarlata",
+    "norwegian": "Jegerkniv | Crimson Web",
+    "polish": "Nóż myśliwski | Szkarłatna sieć",
+    "portuguese": "Faca Huntsman | Crimson Web",
+    "romanian": "Cuțit Huntsman | Crimson Web",
+    "russian": "Охотничий нож | Кровавая паутина",
+    "schinese": "猎杀者匕首 | 深红之网",
+    "schinese_pw": "Huntsman Knife | Crimson Web",
+    "spanish": "Cuchillo del Cazador | Tela escarlata",
+    "swedish": "Huntsmankniv | Crimson Web",
+    "tchinese": "獵刀 | 赤紅之網",
+    "thai": "มีดนายพราน | Crimson Web",
+    "turkish": "Avcı Bıçağı | Kızıl Ağ",
+    "ukrainian": "Мисливський ніж | Криваве павутиння",
+    "vietnamese": "Dao Huntsman | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__509-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/509-12/light.png",
+      "data/api/media/rendered/files/skins/509-12/medium.png",
+      "data/api/media/rendered/files/skins/509-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/509-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/509-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/509-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/509-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/509-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_tactical_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_tactical_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_tactical_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "Huntsman Knife | Crimson Web",
+  "search_slug": "huntsman-knife-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-3",
+        "id": 4017,
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
+        "via_special_pool": "community_case_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-3-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Huntsman Knife ★",
+        "search_slug": "community-case-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "509-12__normal__vanilla",
+    "509-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-tactical",
+    "id": 509,
+    "localized_names": {
+      "brazilian": "Faca do Caçador",
+      "bulgarian": "Ловджийски нож",
+      "czech": "Lovecký nůž",
+      "danish": "Huntsman-kniv",
+      "dutch": "Jagersmes",
+      "english": "Huntsman Knife",
+      "finnish": "Metsämiehen veitsi",
+      "french": "Couteau de chasse",
+      "german": "Jagdmesser",
+      "greek": "Μαχαίρι Huntsman",
+      "hungarian": "Vadászkés",
+      "indonesian": "Pisau Pemburu",
+      "italian": "Coltello da cacciatore",
+      "japanese": "Huntsman ナイフ",
+      "koreana": "헌츠맨 칼",
+      "latam": "Cuchillo de cazador",
+      "norwegian": "Jegerkniv",
+      "polish": "Nóż myśliwski",
+      "portuguese": "Faca Huntsman",
+      "romanian": "Cuțit Huntsman",
+      "russian": "Охотничий нож",
+      "schinese": "猎杀者匕首",
+      "schinese_pw": "Huntsman Knife",
+      "spanish": "Cuchillo del Cazador",
+      "swedish": "Huntsmankniv",
+      "tchinese": "獵刀",
+      "thai": "มีดนายพราน",
+      "turkish": "Avcı Bıçağı",
+      "ukrainian": "Мисливський ніж",
+      "vietnamese": "Dao Huntsman"
+    },
+    "name": "Huntsman Knife",
+    "search_slug": "huntsman-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

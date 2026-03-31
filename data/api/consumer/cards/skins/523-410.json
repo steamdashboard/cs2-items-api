@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "523-410",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-damascus",
+    "catalog_id": 410,
+    "id": 410,
+    "localized_names": {
+      "brazilian": "Aço de Damasco",
+      "bulgarian": "Дамаска стомана",
+      "czech": "Damascus Steel",
+      "danish": "Damascus Steel",
+      "dutch": "Damascus Steel",
+      "english": "Damascus Steel",
+      "finnish": "Damaskiteräs",
+      "french": "Acier de Damas",
+      "german": "Damaszener Stahl",
+      "greek": "Damascus Steel",
+      "hungarian": "Damaszkuszi Acél",
+      "indonesian": "Damascus Steel",
+      "italian": "Damascus Steel",
+      "japanese": "Damascus Steel",
+      "koreana": "다마스크 강철",
+      "latam": "Acero de damasco",
+      "norwegian": "Damascus Steel",
+      "polish": "Stal damasceńska",
+      "portuguese": "Damascus Steel",
+      "romanian": "Damascus Steel",
+      "russian": "Дамасская сталь",
+      "schinese": "大马士革钢",
+      "schinese_pw": "Damascus Steel",
+      "spanish": "Acero de damasco",
+      "swedish": "Damascus Steel",
+      "tchinese": "大馬士革鋼",
+      "thai": "Damascus Steel",
+      "turkish": "Şam Çeliği",
+      "ukrainian": "Дамаська сталь",
+      "vietnamese": "Damascus Steel"
+    },
+    "name": "Damascus Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "523-410",
+  "localized_names": {
+    "brazilian": "Faca Talon | Aço de Damasco",
+    "bulgarian": "Нож нокът | Дамаска стомана",
+    "czech": "Talon | Damascus Steel",
+    "danish": "Talon-kniv | Damascus Steel",
+    "dutch": "Talon-mes | Damascus Steel",
+    "english": "Talon Knife | Damascus Steel",
+    "finnish": "Kynsiveitsi | Damaskiteräs",
+    "french": "Canif | Acier de Damas",
+    "german": "Talon-Messer | Damaszener Stahl",
+    "greek": "Μαχαίρι Talon | Damascus Steel",
+    "hungarian": "Talon kés | Damaszkuszi Acél",
+    "indonesian": "Pisau Talon | Damascus Steel",
+    "italian": "Coltello Talon | Damascus Steel",
+    "japanese": "Talon ナイフ | Damascus Steel",
+    "koreana": "탈론 칼 | 다마스크 강철",
+    "latam": "Cuchillo talón | Acero de damasco",
+    "norwegian": "Klokniv | Damascus Steel",
+    "polish": "Szpon | Stal damasceńska",
+    "portuguese": "Faca Talon | Damascus Steel",
+    "romanian": "Cuțit Talon | Damascus Steel",
+    "russian": "Коготь | Дамасская сталь",
+    "schinese": "锯齿爪刀 | 大马士革钢",
+    "schinese_pw": "Talon Knife | Damascus Steel",
+    "spanish": "Cuchillo Garra | Acero de damasco",
+    "swedish": "Talonkniv | Damascus Steel",
+    "tchinese": "彎爪刀 | 大馬士革鋼",
+    "thai": "มีดทาลอน | Damascus Steel",
+    "turkish": "Talon Bıçağı | Şam Çeliği",
+    "ukrainian": "Ніж-кіготь | Дамаська сталь",
+    "vietnamese": "Dao Talon | Damascus Steel"
+  },
+  "media": {
+    "asset_id": "weapon__523",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/523/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/523.json",
+    "models": [
+      "weapons/models/knife/knife_talon/weapon_knife_talon.vmdl_c",
+      "phase2/weapons/models/knife/knife_talon/weapon_knife_talon_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/523/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Talon Knife | Damascus Steel",
+  "search_slug": "talon-knife-damascus-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-22",
+        "id": 4598,
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "search_slug": "prisma-case",
+        "via_special_pool": "set_community_22_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-25",
+        "id": 4695,
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "search_slug": "prisma-2-case",
+        "via_special_pool": "set_community_22_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-22-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_22_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-22-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "523-410__normal__battle-scarred",
+    "523-410__normal__factory-new",
+    "523-410__normal__field-tested",
+    "523-410__normal__minimal-wear",
+    "523-410__normal__well-worn",
+    "523-410__stattrak__battle-scarred",
+    "523-410__stattrak__factory-new",
+    "523-410__stattrak__field-tested",
+    "523-410__stattrak__minimal-wear",
+    "523-410__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-widowmaker",
+    "id": 523,
+    "localized_names": {
+      "brazilian": "Faca Talon",
+      "bulgarian": "Нож нокът",
+      "czech": "Talon",
+      "danish": "Talon-kniv",
+      "dutch": "Talon-mes",
+      "english": "Talon Knife",
+      "finnish": "Kynsiveitsi",
+      "french": "Canif",
+      "german": "Talon-Messer",
+      "greek": "Μαχαίρι Talon",
+      "hungarian": "Talon kés",
+      "indonesian": "Pisau Talon",
+      "italian": "Coltello Talon",
+      "japanese": "Talon ナイフ",
+      "koreana": "탈론 칼",
+      "latam": "Cuchillo talón",
+      "norwegian": "Klokniv",
+      "polish": "Szpon",
+      "portuguese": "Faca Talon",
+      "romanian": "Cuțit Talon",
+      "russian": "Коготь",
+      "schinese": "锯齿爪刀",
+      "schinese_pw": "Talon Knife",
+      "spanish": "Cuchillo Garra",
+      "swedish": "Talonkniv",
+      "tchinese": "彎爪刀",
+      "thai": "มีดทาลอน",
+      "turkish": "Talon Bıçağı",
+      "ukrainian": "Ніж-кіготь",
+      "vietnamese": "Dao Talon"
+    },
+    "name": "Talon Knife",
+    "search_slug": "talon-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

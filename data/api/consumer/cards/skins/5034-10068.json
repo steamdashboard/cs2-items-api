@@ -1,0 +1,206 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5034-10068",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "specialist-fbi",
+    "catalog_id": 10068,
+    "id": 10068,
+    "localized_names": {
+      "brazilian": "Agente de Campo",
+      "bulgarian": "Полеви агент",
+      "czech": "Field Agent",
+      "danish": "Field Agent",
+      "dutch": "Field Agent",
+      "english": "Field Agent",
+      "finnish": "Kenttäagentti",
+      "french": "Spécialiste du terrain",
+      "german": "Außendienstmitarbeiter",
+      "greek": "Field Agent",
+      "hungarian": "Terepi Ügynök",
+      "indonesian": "Field Agent",
+      "italian": "Field Agent",
+      "japanese": "Field Agent",
+      "koreana": "현장 요원",
+      "latam": "Agente de campo",
+      "norwegian": "Field Agent",
+      "polish": "Agent terenowy",
+      "portuguese": "Field Agent",
+      "romanian": "Field Agent",
+      "russian": "Полевой агент",
+      "schinese": "一线特工",
+      "schinese_pw": "Field Agent",
+      "spanish": "Agente de campo",
+      "swedish": "Field Agent",
+      "tchinese": "外勤幹員",
+      "thai": "Field Agent",
+      "turkish": "Saha Ajanı",
+      "ukrainian": "Польовий агент",
+      "vietnamese": "Field Agent"
+    },
+    "name": "Field Agent",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5034-10068",
+  "localized_names": {
+    "brazilian": "Luvas de Especialista | Agente de Campo",
+    "bulgarian": "Специализирани ръкавици | Полеви агент",
+    "czech": "Profesionální rukavice | Field Agent",
+    "danish": "Specialisthandsker | Field Agent",
+    "dutch": "Specialisthandschoenen | Field Agent",
+    "english": "Specialist Gloves | Field Agent",
+    "finnish": "Ammattilaishanskat | Kenttäagentti",
+    "french": "Gants de spécialiste | Spécialiste du terrain",
+    "german": "Spezialistenhandschuhe | Außendienstmitarbeiter",
+    "greek": "Γάντια ειδικού | Field Agent",
+    "hungarian": "Specialista kesztyűk | Terepi Ügynök",
+    "indonesian": "Sarung Tangan Spesialis | Field Agent",
+    "italian": "Guanti dello specialista | Field Agent",
+    "japanese": "Specialist Gloves | Field Agent",
+    "koreana": "전문가 장갑 | 현장 요원",
+    "latam": "Guantes de especialista | Agente de campo",
+    "norwegian": "Spesialisthansker | Field Agent",
+    "polish": "Rękawice specjalistyczne | Agent terenowy",
+    "portuguese": "Luvas de Especialista | Field Agent",
+    "romanian": "Mănuși de specialist | Field Agent",
+    "russian": "Перчатки спецназа | Полевой агент",
+    "schinese": "专业手套 | 一线特工",
+    "schinese_pw": "Specialist Gloves | Field Agent",
+    "spanish": "Guantes de especialista | Agente de campo",
+    "swedish": "Specialisthandskar | Field Agent",
+    "tchinese": "技術士手套 | 外勤幹員",
+    "thai": "ถุงมือผู้เชี่ยวชาญ | Field Agent",
+    "turkish": "Uzman Eldivenleri | Saha Ajanı",
+    "ukrainian": "Рукавиці спеціаліста | Польовий агент",
+    "vietnamese": "Găng tay chuyên viên | Field Agent"
+  },
+  "media": {
+    "asset_id": "skin__5034-10068",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5034-10068/light.png",
+      "data/api/media/rendered/files/skins/5034-10068/medium.png",
+      "data/api/media/rendered/files/skins/5034-10068/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5034-10068.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5034-10068/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5034-10068/light.png",
+      "medium": "data/api/media/rendered/files/skins/5034-10068/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5034-10068/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/specialist_gloves_specialist_fbi_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/specialist_gloves_specialist_fbi_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/specialist_gloves_specialist_fbi_medium_png.vtex_c"
+    }
+  },
+  "name": "Specialist Gloves | Field Agent",
+  "search_slug": "specialist-gloves-field-agent",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-27",
+        "id": 4717,
+        "kind": "weapon-case",
+        "name": "Operation Broken Fang Case",
+        "search_slug": "operation-broken-fang-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-28",
+        "id": 4747,
+        "kind": "weapon-case",
+        "name": "Snakebite Case",
+        "search_slug": "snakebite-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-31",
+        "id": 4846,
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "search_slug": "recoil-case",
+        "via_special_pool": "set_glove_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-glove-3-unusual",
+        "expansion_rule": "broken-fang-gloves",
+        "id": "set_glove_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-glove-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5034-10068__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "specialist-gloves",
+    "id": 5034,
+    "localized_names": {
+      "brazilian": "Luvas de Especialista",
+      "bulgarian": "Специализирани ръкавици",
+      "czech": "Profesionální rukavice",
+      "danish": "Specialisthandsker",
+      "dutch": "Specialisthandschoenen",
+      "english": "Specialist Gloves",
+      "finnish": "Ammattilaishanskat",
+      "french": "Gants de spécialiste",
+      "german": "Spezialistenhandschuhe",
+      "greek": "Γάντια ειδικού",
+      "hungarian": "Specialista kesztyűk",
+      "indonesian": "Sarung Tangan Spesialis",
+      "italian": "Guanti dello specialista",
+      "japanese": "Specialist Gloves",
+      "koreana": "전문가 장갑",
+      "latam": "Guantes de especialista",
+      "norwegian": "Spesialisthansker",
+      "polish": "Rękawice specjalistyczne",
+      "portuguese": "Luvas de Especialista",
+      "romanian": "Mănuși de specialist",
+      "russian": "Перчатки спецназа",
+      "schinese": "专业手套",
+      "schinese_pw": "Specialist Gloves",
+      "spanish": "Guantes de especialista",
+      "swedish": "Specialisthandskar",
+      "tchinese": "技術士手套",
+      "thai": "ถุงมือผู้เชี่ยวชาญ",
+      "turkish": "Uzman Eldivenleri",
+      "ukrainian": "Рукавиці спеціаліста",
+      "vietnamese": "Găng tay chuyên viên"
+    },
+    "name": "Specialist Gloves",
+    "search_slug": "specialist-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

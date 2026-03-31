@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5033-10050",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "motorcycle-basic-green-orange",
+    "catalog_id": 10050,
+    "id": 10050,
+    "localized_names": {
+      "brazilian": "Tartaruga",
+      "bulgarian": "Костенурка",
+      "czech": "Turtle",
+      "danish": "Turtle",
+      "dutch": "Turtle",
+      "english": "Turtle",
+      "finnish": "Kilpikonnanvihreä",
+      "french": "Tortue",
+      "german": "Schildkröte",
+      "greek": "Turtle",
+      "hungarian": "Teknős",
+      "indonesian": "Turtle",
+      "italian": "Turtle",
+      "japanese": "Turtle",
+      "koreana": "거북이",
+      "latam": "Tortuga",
+      "norwegian": "Turtle",
+      "polish": "Żółw",
+      "portuguese": "Turtle",
+      "romanian": "Turtle",
+      "russian": "Черепаха",
+      "schinese": "玳瑁",
+      "schinese_pw": "Turtle",
+      "spanish": "Tortuga",
+      "swedish": "Turtle",
+      "tchinese": "海龜",
+      "thai": "Turtle",
+      "turkish": "Kaplumbağa",
+      "ukrainian": "Черепаха",
+      "vietnamese": "Turtle"
+    },
+    "name": "Turtle",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5033-10050",
+  "localized_names": {
+    "brazilian": "Luvas de Motociclismo | Tartaruga",
+    "bulgarian": "Мотористки ръкавици | Костенурка",
+    "czech": "Motorkářské rukavice | Turtle",
+    "danish": "Motorcykelhandsker | Turtle",
+    "dutch": "Motorhandschoenen | Turtle",
+    "english": "Moto Gloves | Turtle",
+    "finnish": "Moottoripyöräilyhanskat | Kilpikonnanvihreä",
+    "french": "Gants de moto | Tortue",
+    "german": "Motorradhandschuhe | Schildkröte",
+    "greek": "Γάντια μηχανής | Turtle",
+    "hungarian": "Motoroskesztyűk | Teknős",
+    "indonesian": "Sarung Tangan Motor | Turtle",
+    "italian": "Guanti da centauro | Turtle",
+    "japanese": "Moto Gloves | Turtle",
+    "koreana": "자동차 경주 장갑 | 거북이",
+    "latam": "Guantes para moto | Tortuga",
+    "norwegian": "Motorsykkelhansker | Turtle",
+    "polish": "Rękawice motocyklisty | Żółw",
+    "portuguese": "Luvas de Motociclista | Turtle",
+    "romanian": "Mănuși de motociclist | Turtle",
+    "russian": "Мотоциклетные перчатки | Черепаха",
+    "schinese": "摩托手套 | 玳瑁",
+    "schinese_pw": "Moto Gloves | Turtle",
+    "spanish": "Guantes de motorista | Tortuga",
+    "swedish": "Moto-handskar | Turtle",
+    "tchinese": "機車手套 | 海龜",
+    "thai": "ถุงมือมอเตอร์ไซค์ | Turtle",
+    "turkish": "Motorcu Eldivenleri | Kaplumbağa",
+    "ukrainian": "Рукавиці мотоцикліста | Черепаха",
+    "vietnamese": "Găng tay mô tô | Turtle"
+  },
+  "media": {
+    "asset_id": "skin__5033-10050",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5033-10050/light.png",
+      "data/api/media/rendered/files/skins/5033-10050/medium.png",
+      "data/api/media/rendered/files/skins/5033-10050/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5033-10050.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5033-10050/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5033-10050/light.png",
+      "medium": "data/api/media/rendered/files/skins/5033-10050/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5033-10050/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/motorcycle_gloves_motorcycle_basic_green_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/motorcycle_gloves_motorcycle_basic_green_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/motorcycle_gloves_motorcycle_basic_green_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Moto Gloves | Turtle",
+  "search_slug": "moto-gloves-turtle",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-19",
+        "id": 4471,
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "search_slug": "clutch-case",
+        "via_special_pool": "set_community_19_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-32",
+        "id": 4880,
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "search_slug": "revolution-case",
+        "via_special_pool": "set_community_19_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-19-unusual",
+        "expansion_rule": "hydra-era-gloves",
+        "id": "set_community_19_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-19-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5033-10050__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "motorcycle-gloves",
+    "id": 5033,
+    "localized_names": {
+      "brazilian": "Luvas de Motociclismo",
+      "bulgarian": "Мотористки ръкавици",
+      "czech": "Motorkářské rukavice",
+      "danish": "Motorcykelhandsker",
+      "dutch": "Motorhandschoenen",
+      "english": "Moto Gloves",
+      "finnish": "Moottoripyöräilyhanskat",
+      "french": "Gants de moto",
+      "german": "Motorradhandschuhe",
+      "greek": "Γάντια μηχανής",
+      "hungarian": "Motoroskesztyűk",
+      "indonesian": "Sarung Tangan Motor",
+      "italian": "Guanti da centauro",
+      "japanese": "Moto Gloves",
+      "koreana": "자동차 경주 장갑",
+      "latam": "Guantes para moto",
+      "norwegian": "Motorsykkelhansker",
+      "polish": "Rękawice motocyklisty",
+      "portuguese": "Luvas de Motociclista",
+      "romanian": "Mănuși de motociclist",
+      "russian": "Мотоциклетные перчатки",
+      "schinese": "摩托手套",
+      "schinese_pw": "Moto Gloves",
+      "spanish": "Guantes de motorista",
+      "swedish": "Moto-handskar",
+      "tchinese": "機車手套",
+      "thai": "ถุงมือมอเตอร์ไซค์",
+      "turkish": "Motorcu Eldivenleri",
+      "ukrainian": "Рукавиці мотоцикліста",
+      "vietnamese": "Găng tay mô tô"
+    },
+    "name": "Moto Gloves",
+    "search_slug": "moto-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

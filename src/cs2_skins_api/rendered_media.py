@@ -83,10 +83,15 @@ def build_rendered_media(
     unresolved: list[dict[str, Any]] = []
     skin_preview_specs: dict[str, dict[str, Any]] = {}
     generic_preview_specs: dict[str, dict[str, Any]] = {}
+    generic_target_counts: Counter[str] = Counter()
+    generic_target_total = 0
 
     for skin_id, skin in skins.items():
         preview_sources = resolve_skin_preview_sources(skin, archive_paths)
         if not preview_sources:
+            if skin["weapon"]["weapon_group"] in {"knife", "glove"}:
+                stats["skins_with_weapon_fallback_only"] += 1
+                continue
             unresolved.append(
                 {
                     "entity_type": "skin",
@@ -121,6 +126,8 @@ def build_rendered_media(
         folder_name = RENDERED_GENERIC_ENTITY_FOLDERS.get(entity_type)
         if folder_name is None:
             continue
+        generic_target_total += 1
+        generic_target_counts[folder_name] += 1
 
         source_texture_path = resolve_primary_entity_texture(asset)
         entity_id = str(asset["entity_id"])
@@ -203,6 +210,10 @@ def build_rendered_media(
     for variant_id, variant in skin_variants.items():
         skin_manifest = skin_manifests.get(variant["skin_id"])
         if skin_manifest is None:
+            skin = skins.get(variant["skin_id"])
+            if skin and skin["weapon"]["weapon_group"] in {"knife", "glove"}:
+                stats["skin_variants_with_weapon_fallback_only"] += 1
+                continue
             unresolved.append(
                 {
                     "entity_type": "skin-variant",
@@ -268,11 +279,14 @@ def build_rendered_media(
     stats["skin_variants"] = len(skin_variants)
     stats["skin_variants_with_rendered_preview"] = len(variant_manifests)
     stats["skin_variants_without_rendered_preview"] = len(skin_variants) - len(variant_manifests)
-    stats["generic_entities"] = len(generic_preview_specs)
+    stats["generic_entities"] = generic_target_total
     stats["generic_entities_with_rendered_preview"] = sum(len(group) for group in generic_manifests.values())
-    stats["generic_entities_without_rendered_preview"] = len(generic_preview_specs) - stats["generic_entities_with_rendered_preview"]
+    stats["generic_entities_without_rendered_preview"] = generic_target_total - stats["generic_entities_with_rendered_preview"]
     for folder_name, manifests in generic_manifests.items():
         stats[f"{folder_name}"] = len(manifests)
+        stats[f"{folder_name}_targets"] = generic_target_counts[folder_name]
+        stats[f"{folder_name}_without_rendered_preview"] = generic_target_counts[folder_name] - len(manifests)
+    stats["unresolved_total"] = len(unresolved)
 
     staged_files = {}
     if output_root.exists():
@@ -308,14 +322,17 @@ def empty_rendered_dataset(mode: str) -> dict[str, Any]:
             "generic_entities": 0,
             "generic_entities_with_rendered_preview": 0,
             "generic_entities_without_rendered_preview": 0,
+            "skins_with_weapon_fallback_only": 0,
             "skins": 0,
             "skins_with_rendered_previews": 0,
             "skins_without_rendered_previews": 0,
+            "skin_variants_with_weapon_fallback_only": 0,
             "skin_variants": 0,
             "skin_variants_with_rendered_preview": 0,
             "skin_variants_without_rendered_preview": 0,
             "rendered_png_files": 0,
             "staged_source_files": 0,
+            "unresolved_total": 0,
         },
         "unresolved": [],
     }

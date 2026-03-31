@@ -1,0 +1,217 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "canonical_slug": "514-59",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-zebra",
+    "catalog_id": 59,
+    "id": 59,
+    "localized_names": {
+      "brazilian": "Massacre",
+      "bulgarian": "Клане",
+      "czech": "Slaughter",
+      "danish": "Slaughter",
+      "dutch": "Slaughter",
+      "english": "Slaughter",
+      "finnish": "Teurastus",
+      "french": "Carnage",
+      "german": "Metzelei",
+      "greek": "Slaughter",
+      "hungarian": "Mészárlás",
+      "indonesian": "Slaughter",
+      "italian": "Slaughter",
+      "japanese": "Slaughter",
+      "koreana": "살인마",
+      "latam": "Masacre",
+      "norwegian": "Slaughter",
+      "polish": "Rzeź",
+      "portuguese": "Slaughter",
+      "romanian": "Slaughter",
+      "russian": "Убийство",
+      "schinese": "屠夫",
+      "schinese_pw": "Slaughter",
+      "spanish": "Masacre",
+      "swedish": "Slaughter",
+      "tchinese": "屠夫",
+      "thai": "Slaughter",
+      "turkish": "Katliam",
+      "ukrainian": "Бійня",
+      "vietnamese": "Slaughter"
+    },
+    "name": "Slaughter",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.01
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-59",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Massacre",
+    "bulgarian": "Боуи нож | Клане",
+    "czech": "Nůž Bowie | Slaughter",
+    "danish": "Bowie-kniv | Slaughter",
+    "dutch": "Bowiemes | Slaughter",
+    "english": "Bowie Knife | Slaughter",
+    "finnish": "Bowie-puukko | Teurastus",
+    "french": "Couteau Bowie | Carnage",
+    "german": "Bowiemesser | Metzelei",
+    "greek": "Μαχαίρι Bowie | Slaughter",
+    "hungarian": "Bowie kés | Mészárlás",
+    "indonesian": "Pisau Bowie | Slaughter",
+    "italian": "Coltello Bowie | Slaughter",
+    "japanese": "Bowie ナイフ | Slaughter",
+    "koreana": "보위 칼 | 살인마",
+    "latam": "Cuchillo Bowie | Masacre",
+    "norwegian": "Bowiekniv | Slaughter",
+    "polish": "Nóż Bowie | Rzeź",
+    "portuguese": "Faca Bowie | Slaughter",
+    "romanian": "Cuțit Bowie | Slaughter",
+    "russian": "Нож Боуи | Убийство",
+    "schinese": "鲍伊猎刀 | 屠夫",
+    "schinese_pw": "Bowie Knife | Slaughter",
+    "spanish": "Cuchillo Bowie | Masacre",
+    "swedish": "Bowiekniv | Slaughter",
+    "tchinese": "布伊刀 | 屠夫",
+    "thai": "มีดโบวี | Slaughter",
+    "turkish": "Bowie Bıçağı | Katliam",
+    "ukrainian": "Ніж Бові | Бійня",
+    "vietnamese": "Dao Bowie | Slaughter"
+  },
+  "media": {
+    "asset_id": "skin__514-59",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-59/light.png",
+      "data/api/media/rendered/files/skins/514-59/medium.png",
+      "data/api/media/rendered/files/skins/514-59/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-59.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-59/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-59/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-59/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-59/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_am_zebra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_am_zebra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_am_zebra_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Slaughter",
+  "search_slug": "bowie-knife-slaughter",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-59__normal__factory-new",
+    "514-59__normal__field-tested",
+    "514-59__normal__minimal-wear",
+    "514-59__stattrak__factory-new",
+    "514-59__stattrak__field-tested",
+    "514-59__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.01
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "518-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "518-409",
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência | Dente de Tigre",
+    "bulgarian": "Нож за оцеляване | Тигров зъб",
+    "czech": "Záchranářský nůž | Tiger Tooth",
+    "danish": "Overlevelseskniv | Tiger Tooth",
+    "dutch": "Overlevingsmes | Tiger Tooth",
+    "english": "Survival Knife | Tiger Tooth",
+    "finnish": "Selviytymisveitsi | Tiikerinhammas",
+    "french": "Couteau de survie | Dent de tigre",
+    "german": "Survival-Messer | Tigerzahn",
+    "greek": "Μαχαίρι Survival | Tiger Tooth",
+    "hungarian": "Túlélőkés | Tigrisfog",
+    "indonesian": "Pisau Survival | Tiger Tooth",
+    "italian": "Coltello da sopravvivenza | Tiger Tooth",
+    "japanese": "サバイバルナイフ | Tiger Tooth",
+    "koreana": "서바이벌 칼 | 호랑이 이빨",
+    "latam": "Cuchillo de supervivencia | Diente de tigre",
+    "norwegian": "Overlevelseskniv | Tiger Tooth",
+    "polish": "Nóż survivalowy | Tygrysi kieł",
+    "portuguese": "Faca Survival | Tiger Tooth",
+    "romanian": "Cuțit de supraviețuire | Tiger Tooth",
+    "russian": "Нож выживания | Зуб тигра",
+    "schinese": "求生匕首 | 虎牙",
+    "schinese_pw": "Survival Knife | Tiger Tooth",
+    "spanish": "Cuchillo de supervivencia | Diente de tigre",
+    "swedish": "Överlevnadskniv | Tiger Tooth",
+    "tchinese": "求生刀 | 虎牙",
+    "thai": "มีดเซอร์ไวเวอร์ | Tiger Tooth",
+    "turkish": "Hayatta Kalma Bıçağı | Kaplan Dişi",
+    "ukrainian": "Ніж для виживання | Тигряче ікло",
+    "vietnamese": "Dao sinh tồn | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__518-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/518-409/light.png",
+      "data/api/media/rendered/files/skins/518-409/medium.png",
+      "data/api/media/rendered/files/skins/518-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/518-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/518-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/518-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/518-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/518-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_canis_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_canis_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_canis_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Survival Knife | Tiger Tooth",
+  "search_slug": "survival-knife-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-35",
+        "id": 7007,
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "search_slug": "fever-case",
+        "via_special_pool": "set_community_35_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-35-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_35_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-35-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "518-409__normal__factory-new",
+    "518-409__normal__minimal-wear",
+    "518-409__stattrak__factory-new",
+    "518-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-canis",
+    "id": 518,
+    "localized_names": {
+      "brazilian": "Faca de Sobrevivência",
+      "bulgarian": "Нож за оцеляване",
+      "czech": "Záchranářský nůž",
+      "danish": "Overlevelseskniv",
+      "dutch": "Overlevingsmes",
+      "english": "Survival Knife",
+      "finnish": "Selviytymisveitsi",
+      "french": "Couteau de survie",
+      "german": "Survival-Messer",
+      "greek": "Μαχαίρι Survival",
+      "hungarian": "Túlélőkés",
+      "indonesian": "Pisau Survival",
+      "italian": "Coltello da sopravvivenza",
+      "japanese": "サバイバルナイフ",
+      "koreana": "서바이벌 칼",
+      "latam": "Cuchillo de supervivencia",
+      "norwegian": "Overlevelseskniv",
+      "polish": "Nóż survivalowy",
+      "portuguese": "Faca Survival",
+      "romanian": "Cuțit de supraviețuire",
+      "russian": "Нож выживания",
+      "schinese": "求生匕首",
+      "schinese_pw": "Survival Knife",
+      "spanish": "Cuchillo de supervivencia",
+      "swedish": "Överlevnadskniv",
+      "tchinese": "求生刀",
+      "thai": "มีดเซอร์ไวเวอร์",
+      "turkish": "Hayatta Kalma Bıçağı",
+      "ukrainian": "Ніж для виживання",
+      "vietnamese": "Dao sinh tồn"
+    },
+    "name": "Survival Knife",
+    "search_slug": "survival-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

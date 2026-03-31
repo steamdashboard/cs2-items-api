@@ -12,6 +12,7 @@ from cs2_skins_api.constants import (
     STICKER_FINISH_ORDER,
     WEAPON_GROUPS,
 )
+from cs2_skins_api.special_pools import build_special_pool_candidate_specs
 from cs2_skins_api.utils import build_canonical_slug, deep_merge, parse_float, parse_int, slugify, unique_list
 
 
@@ -849,18 +850,20 @@ def derive_api_dataset(core: dict[str, Any], localizer: Localizer) -> dict[str, 
         music_by_name,
         localizer,
     )
+    special_drops = build_special_drop_entities(containers)
     skins, skin_variants, skin_relations = build_skin_entities(
         collections,
         containers,
+        special_drops,
         items_by_name,
         paint_kits_by_name,
+        core["paint_kits"],
         weapons,
         localizer,
     )
     stickers = build_sticker_entities(core["sticker_kits"], core["raw"], localizer)
     patches = build_patch_entities(core["sticker_kits"], core["raw"], localizer)
     graffiti = build_graffiti_entities(core["sticker_kits"], core["raw"], localizer)
-    special_drops = build_special_drop_entities(containers)
     collectibles = build_collectible_entities(resolved_items, localizer)
     players = build_player_entities(core["raw"]["pro_players"], stickers)
     teams = build_team_entities(core["raw"]["pro_teams"], core["raw"]["pro_players"], stickers, patches, graffiti, localizer)
@@ -1358,16 +1361,19 @@ def resolve_container_contents(
 def build_skin_entities(
     collections: dict[str, dict[str, Any]],
     containers: dict[str, dict[str, Any]],
+    special_drops: dict[str, dict[str, Any]],
     items_by_name: dict[str, dict[str, Any]],
     paint_kits_by_name: dict[str, dict[str, Any]],
+    paint_kits: dict[str, dict[str, Any]],
     weapons: dict[str, dict[str, Any]],
     localizer: Localizer,
 ) -> tuple[dict[str, dict[str, Any]], dict[str, dict[str, Any]], dict[str, Any]]:
     skins: dict[str, dict[str, Any]] = {}
     skin_relations: dict[str, Any] = {
-        "skin_to_sources": defaultdict(lambda: {"collections": [], "containers": []}),
+        "skin_to_sources": defaultdict(lambda: {"collections": [], "containers": [], "special_pools": []}),
         "collection_to_skins": defaultdict(list),
         "container_to_skins": defaultdict(list),
+        "special_pool_to_skins": defaultdict(list),
     }
     paint_kits_by_id = {record["id"]: record for record in paint_kits_by_name.values()}
 
@@ -1389,6 +1395,7 @@ def build_skin_entities(
                     "search_slug": collection["search_slug"],
                 },
                 container_source=None,
+                special_pool_source=None,
                 localizer=localizer,
             )
             skin_relations["skin_to_sources"][skin_id]["collections"].append(collection_id)
@@ -1417,10 +1424,30 @@ def build_skin_entities(
                     "canonical_slug": container["canonical_slug"],
                     "search_slug": container["search_slug"],
                 },
+                special_pool_source=None,
                 localizer=localizer,
             )
             skin_relations["skin_to_sources"][skin_id]["containers"].append(container_id)
             skin_relations["container_to_skins"][container_id].append(skin_id)
+
+    for pool_id, pool in special_drops.items():
+        for candidate in build_special_pool_candidate_specs(pool_id, paint_kits, weapons):
+            skin_id = f"{candidate['weapon_id']}-{candidate['paint_kit_id']}"
+            add_skin_source(
+                skins,
+                skin_id,
+                candidate["weapon_id"],
+                candidate["paint_kit_id"],
+                weapons,
+                paint_kits_by_id,
+                items_by_name,
+                collection_source=None,
+                container_source=None,
+                special_pool_source=build_special_pool_source(pool, containers, candidate.get("expansion_rule")),
+                localizer=localizer,
+            )
+            skin_relations["skin_to_sources"][skin_id]["special_pools"].append(pool_id)
+            skin_relations["special_pool_to_skins"][pool_id].append(skin_id)
 
     variants = {}
     for skin_id, skin in skins.items():
@@ -1462,6 +1489,7 @@ def build_skin_entities(
         key: {
             "collections": sorted(set(value["collections"])),
             "containers": sorted(set(value["containers"])),
+            "special_pools": sorted(set(value["special_pools"])),
         }
         for key, value in skin_relations["skin_to_sources"].items()
     }
@@ -1473,8 +1501,43 @@ def build_skin_entities(
         key: sorted(set(value))
         for key, value in skin_relations["container_to_skins"].items()
     }
+    skin_relations["special_pool_to_skins"] = {
+        key: sorted(set(value))
+        for key, value in skin_relations["special_pool_to_skins"].items()
+    }
 
     return skins, variants, skin_relations
+
+
+def build_special_pool_source(
+    pool: dict[str, Any],
+    containers: dict[str, dict[str, Any]],
+    expansion_rule: str | None,
+) -> dict[str, Any]:
+    source_containers = []
+    for container_id in pool.get("source_container_ids", []):
+        container = containers.get(str(container_id)) or containers.get(container_id)
+        if container is None:
+            continue
+        source_containers.append(
+            {
+                "id": container["id"],
+                "name": container["name"],
+                "kind": container["container_kind"],
+                "canonical_slug": container["canonical_slug"],
+                "search_slug": container["search_slug"],
+            }
+        )
+    return {
+        "id": pool["id"],
+        "name": pool["name"],
+        "kind": pool["kind"],
+        "canonical_slug": pool["canonical_slug"],
+        "search_slug": pool["search_slug"],
+        "source_backed": False,
+        "expansion_rule": expansion_rule,
+        "source_containers": unique_list(source_containers),
+    }
 
 
 def add_skin_source(
@@ -1487,6 +1550,7 @@ def add_skin_source(
     items_by_name: dict[str, dict[str, Any]],
     collection_source: dict[str, Any] | None,
     container_source: dict[str, Any] | None,
+    special_pool_source: dict[str, Any] | None,
     localizer: Localizer,
 ) -> None:
     weapon = weapons.get(str(weapon_id))
@@ -1534,12 +1598,18 @@ def add_skin_source(
             "sources": {
                 "collections": [],
                 "containers": [],
+                "special_pools": [],
+            },
+            "generation_notes": {
+                "source_backed": False,
+                "derived_from_special_pool": False,
             },
             "canonical_slug": build_canonical_slug(None, skin_id),
             "search_slug": slugify(f"{weapon['name']} {paint_kit['display_name'] or paint_kit['name']}"),
         }
     if collection_source is not None:
         skins[skin_id]["availability"]["normal"] = True
+        skins[skin_id]["generation_notes"]["source_backed"] = True
         skins[skin_id]["sources"]["collections"].append(collection_source)
     if container_source is not None:
         container_kind = container_source["kind"]
@@ -1550,9 +1620,17 @@ def add_skin_source(
             skins[skin_id]["availability"]["stattrak"] = weapon["weapon_group"] not in {"glove"}
         else:
             skins[skin_id]["availability"]["normal"] = True
+        skins[skin_id]["generation_notes"]["source_backed"] = True
         skins[skin_id]["sources"]["containers"].append(container_source)
+    if special_pool_source is not None:
+        skins[skin_id]["availability"]["normal"] = True
+        if weapon["weapon_group"] == "knife":
+            skins[skin_id]["availability"]["stattrak"] = True
+        skins[skin_id]["generation_notes"]["derived_from_special_pool"] = True
+        skins[skin_id]["sources"]["special_pools"].append(special_pool_source)
     skins[skin_id]["sources"]["collections"] = unique_list(skins[skin_id]["sources"]["collections"])
     skins[skin_id]["sources"]["containers"] = unique_list(skins[skin_id]["sources"]["containers"])
+    skins[skin_id]["sources"]["special_pools"] = unique_list(skins[skin_id]["sources"]["special_pools"])
 
 
 def build_market_name(weapon_name: str, skin_name: str, quality: str, exterior_name: str) -> str:
@@ -2152,6 +2230,10 @@ def build_relations(
             collection_to_skins[source["id"]].append(skin_id)
         for source in skin["sources"]["containers"]:
             container_to_skins[str(source["id"])].append(skin_id)
+    special_pool_to_skins = {
+        pool_id: sorted(set(skin_ids))
+        for pool_id, skin_ids in skin_relations.get("special_pool_to_skins", {}).items()
+    }
 
     for collection_id in collections:
         collection_to_skins[collection_id] = sorted(set(collection_to_skins.get(collection_id, [])))
@@ -2185,6 +2267,7 @@ def build_relations(
         "skin-to-variants": skin_to_variants,
         "collection-to-skins": dict(collection_to_skins),
         "container-to-skins": dict(container_to_skins or skin_relations.get("container_to_skins", {})),
+        "special-pool-to-skins": special_pool_to_skins,
         "container-to-drops": container_to_drops,
         "sticker-to-tournament": dict(sticker_to_tournament),
         "sticker-to-team": dict(sticker_to_team),

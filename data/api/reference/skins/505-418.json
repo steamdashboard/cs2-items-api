@@ -1,0 +1,96 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "505-418",
+  "finish": {
+    "codename": "am_doppler_phase1",
+    "id": 418,
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 418,
+    "weapon_id": 505
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "505-418",
+  "name": "Flip Knife | Doppler",
+  "search_slug": "flip-knife-doppler",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-6",
+            "id": 4061,
+            "kind": "weapon-case",
+            "name": "Chroma Case",
+            "search_slug": "chroma-case"
+          },
+          {
+            "canonical_slug": "crate-community-7",
+            "id": 4089,
+            "kind": "weapon-case",
+            "name": "Chroma 2 Case",
+            "search_slug": "chroma-2-case"
+          },
+          {
+            "canonical_slug": "crate-community-12",
+            "id": 4233,
+            "kind": "weapon-case",
+            "name": "Chroma 3 Case",
+            "search_slug": "chroma-3-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "505-418__normal__factory-new",
+    "505-418__normal__minimal-wear",
+    "505-418__stattrak__factory-new",
+    "505-418__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_flip",
+    "id": 505,
+    "name": "Flip Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

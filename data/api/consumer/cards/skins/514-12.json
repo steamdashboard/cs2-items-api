@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "514-12",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-webs",
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-12",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Teia Rubra",
+    "bulgarian": "Боуи нож | Пурпурна паяжина",
+    "czech": "Nůž Bowie | Crimson Web",
+    "danish": "Bowie-kniv | Crimson Web",
+    "dutch": "Bowiemes | Crimson Web",
+    "english": "Bowie Knife | Crimson Web",
+    "finnish": "Bowie-puukko | Verenpunainen seitti",
+    "french": "Couteau Bowie | Toile pourpre",
+    "german": "Bowiemesser | Purpurnes Netz",
+    "greek": "Μαχαίρι Bowie | Crimson Web",
+    "hungarian": "Bowie kés | Karmazsin Háló",
+    "indonesian": "Pisau Bowie | Crimson Web",
+    "italian": "Coltello Bowie | Crimson Web",
+    "japanese": "Bowie ナイフ | Crimson Web",
+    "koreana": "보위 칼 | 붉은 그물",
+    "latam": "Cuchillo Bowie | Tela escarlata",
+    "norwegian": "Bowiekniv | Crimson Web",
+    "polish": "Nóż Bowie | Szkarłatna sieć",
+    "portuguese": "Faca Bowie | Crimson Web",
+    "romanian": "Cuțit Bowie | Crimson Web",
+    "russian": "Нож Боуи | Кровавая паутина",
+    "schinese": "鲍伊猎刀 | 深红之网",
+    "schinese_pw": "Bowie Knife | Crimson Web",
+    "spanish": "Cuchillo Bowie | Tela escarlata",
+    "swedish": "Bowiekniv | Crimson Web",
+    "tchinese": "布伊刀 | 赤紅之網",
+    "thai": "มีดโบวี | Crimson Web",
+    "turkish": "Bowie Bıçağı | Kızıl Ağ",
+    "ukrainian": "Ніж Бові | Криваве павутиння",
+    "vietnamese": "Dao Bowie | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__514-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-12/light.png",
+      "data/api/media/rendered/files/skins/514-12/medium.png",
+      "data/api/media/rendered/files/skins/514-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Crimson Web",
+  "search_slug": "bowie-knife-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-11",
+        "id": 4187,
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "search_slug": "operation-wildfire-case",
+        "via_special_pool": "community_case_11_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-11-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_11_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Bowie Knife ★",
+        "search_slug": "community-case-11-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-12__normal__vanilla",
+    "514-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

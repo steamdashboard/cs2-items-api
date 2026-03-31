@@ -4,6 +4,11 @@ from collections import defaultdict
 from typing import Any
 
 from cs2_skins_api.normalize import Localizer
+from cs2_skins_api.special_pools import (
+    build_special_pool_candidate_specs,
+    special_pool_category,
+    special_pool_expansion_status,
+)
 from cs2_skins_api.utils import build_canonical_slug, slugify, unique_list
 
 
@@ -27,53 +32,6 @@ CONSUMER_CONTAINER_GROUPS = {
     "music-kit-box": "containers",
     "graffiti-box": "containers",
     "container": "containers",
-}
-
-LEGACY_KNIFE_POOL_WEAPONS = {
-    "unusual_revolving_list": [500, 505, 506, 507, 508],
-    "community_case_3_unusual": [509],
-    "community_case_4_unusual": [515],
-    "community_case_8_unusual": [512],
-    "community_case_9_unusual": [516],
-    "community_case_11_unusual": [514],
-    "set_community_20_unusual": [519, 520, 522, 523],
-    "set_community_23_unusual": [517, 518, 521, 525],
-    "set_community_24_unusual": [503],
-    "set_community_33_unusual": [526],
-}
-
-CHROMA_KNIFE_POOL_WEAPONS = {
-    "community_case_6_unusual": [500, 505, 506, 507, 508],
-    "spectrum_unusual": [509, 512, 514, 515, 516],
-    "set_community_22_unusual": [519, 520, 522, 523],
-    "set_community_35_unusual": [517, 518, 521, 525],
-}
-
-GAMMA_KNIFE_POOL_WEAPONS = {
-    "community_case_13_unusual": [500, 505, 506, 507, 508],
-    "gamma2_knives2_unusual": [517, 518, 521, 525],
-}
-
-LEGACY_KNIFE_PAINT_IDS = [5, 12, 38, 40, 42, 43, 44, 59, 72, 77, 98, 143, 175]
-CHROMA_KNIFE_FAMILY_PAINT_IDS = [98, 409, 410, 411, 413, 414, 415, 416, 417, 418, 419, 420, 421]
-GAMMA_KNIFE_FAMILY_PAINT_IDS = [568, 569, 570, 571, 572, 578, 579, 580, 581, 582]
-
-GLOVE_POOL_RULES = {
-    "community_case_15_unusual": "legacy-gloves",
-    "set_community_19_unusual": "hydra-era-gloves",
-    "set_glove_3_unusual": "broken-fang-gloves",
-    "set_community_37_unusual": "volatile-gloves",
-}
-
-GLOVE_WEAPON_BY_FAMILY = {
-    "bloodhound": 5027,
-    "brokenfang": 4725,
-    "handwrap": 5032,
-    "hydra": 5035,
-    "motorcycle": 5033,
-    "slick": 5031,
-    "specialist": 5034,
-    "sporty": 5030,
 }
 
 
@@ -102,6 +60,8 @@ def build_consumer_dataset(
         api["skins"],
         api["weapons"],
         api["finishes"],
+        api["special_drops"],
+        api["containers"],
         api["assets"],
         rendered,
         localizer,
@@ -229,76 +189,31 @@ def build_special_pool_cards(
     paint_kits = core["paint_kits"]
     special_pools = {}
     for token, pool in api["special_drops"].items():
-        exact_candidates = []
-        finish_profiles = []
-        pool_category = "special-item"
-        expansion_status = "token-only"
-
-        if token in GLOVE_POOL_RULES:
-            pool_category = "glove"
-            expansion_status = "exact-candidates"
-            exact_candidates = build_glove_candidates(
-                pool_id=token,
-                pool_rule=GLOVE_POOL_RULES[token],
-                paint_kits=paint_kits,
+        candidate_specs = build_special_pool_candidate_specs(token, paint_kits, api["weapons"])
+        exact_candidates = [
+            build_candidate_item(
+                weapon_id=spec["weapon_id"],
+                paint_kit=paint_kits[str(spec["paint_kit_id"])],
                 weapons=api["weapons"],
                 weapon_name_map=weapon_name_map,
                 finish_name_map=finish_name_map,
                 localizer=localizer,
                 locales=locales,
+                source_pool_id=token,
+                item_category=spec["category"],
+                expansion_rule=spec["expansion_rule"],
             )
-        elif token in LEGACY_KNIFE_POOL_WEAPONS:
-            pool_category = "knife"
-            expansion_status = "exact-candidates"
-            exact_candidates = build_knife_candidates(
-                pool_id=token,
-                weapon_ids=LEGACY_KNIFE_POOL_WEAPONS[token],
-                paint_kit_ids=LEGACY_KNIFE_PAINT_IDS,
-                paint_kits=paint_kits,
-                weapons=api["weapons"],
-                weapon_name_map=weapon_name_map,
-                finish_name_map=finish_name_map,
-                localizer=localizer,
-                locales=locales,
-            )
-        elif token in CHROMA_KNIFE_POOL_WEAPONS:
-            pool_category = "knife"
-            expansion_status = "finish-family"
-            finish_profiles.append(
-                build_finish_profile(
-                    profile_id="chroma-knives",
-                    label="Chroma Knife Finishes",
-                    paint_kit_ids=CHROMA_KNIFE_FAMILY_PAINT_IDS,
-                    finishes=api["finishes"],
-                )
-            )
-        elif token in GAMMA_KNIFE_POOL_WEAPONS:
-            pool_category = "knife"
-            expansion_status = "finish-family"
-            finish_profiles.append(
-                build_finish_profile(
-                    profile_id="gamma-knives",
-                    label="Gamma Knife Finishes",
-                    paint_kit_ids=GAMMA_KNIFE_FAMILY_PAINT_IDS,
-                    finishes=api["finishes"],
-                )
-            )
-        elif token == "all_entries_as_additional_drops":
-            pool_category = "bonus-rule"
-            expansion_status = "rule"
-        elif token == "match_highlight_reel_keychain":
-            pool_category = "bonus-rule"
-            expansion_status = "rule"
-
+            for spec in candidate_specs
+            if str(spec["paint_kit_id"]) in paint_kits
+        ]
+        pool_category = special_pool_category(token)
+        expansion_status = special_pool_expansion_status(token, paint_kits, api["weapons"])
         eligible_weapon_ids = unique_list(
             [
                 candidate["weapon"]["id"]
                 for candidate in exact_candidates
                 if candidate.get("weapon", {}).get("id") is not None
             ]
-            + LEGACY_KNIFE_POOL_WEAPONS.get(token, [])
-            + CHROMA_KNIFE_POOL_WEAPONS.get(token, [])
-            + GAMMA_KNIFE_POOL_WEAPONS.get(token, [])
         )
 
         name_token = first_nonempty(pool.get("display_name_tokens", []))
@@ -350,80 +265,10 @@ def build_special_pool_cards(
                 for weapon_id in eligible_weapon_ids
                 if str(weapon_id) in api["weapons"]
             ],
-            "finish_profiles": finish_profiles,
+            "finish_profiles": [],
             "candidate_items": exact_candidates,
         }
     return special_pools
-
-
-def build_glove_candidates(
-    pool_id: str,
-    pool_rule: str,
-    paint_kits: dict[str, dict[str, Any]],
-    weapons: dict[str, dict[str, Any]],
-    weapon_name_map: dict[str, dict[str, str]],
-    finish_name_map: dict[str, dict[str, str]],
-    localizer: Localizer,
-    locales: list[str],
-) -> list[dict[str, Any]]:
-    candidates = []
-    for paint in paint_kits.values():
-        if classify_glove_pool(paint) != pool_rule:
-            continue
-        family = classify_glove_family(paint)
-        weapon_id = GLOVE_WEAPON_BY_FAMILY.get(family)
-        if weapon_id is None or str(weapon_id) not in weapons:
-            continue
-        candidates.append(
-            build_candidate_item(
-                weapon_id=weapon_id,
-                paint_kit=paint,
-                weapons=weapons,
-                weapon_name_map=weapon_name_map,
-                finish_name_map=finish_name_map,
-                localizer=localizer,
-                locales=locales,
-                source_pool_id=pool_id,
-                item_category="glove",
-            )
-        )
-    return sorted(candidates, key=lambda row: (row["weapon"]["name"], row["finish"]["name"]))
-
-
-def build_knife_candidates(
-    pool_id: str,
-    weapon_ids: list[int],
-    paint_kit_ids: list[int],
-    paint_kits: dict[str, dict[str, Any]],
-    weapons: dict[str, dict[str, Any]],
-    weapon_name_map: dict[str, dict[str, str]],
-    finish_name_map: dict[str, dict[str, str]],
-    localizer: Localizer,
-    locales: list[str],
-) -> list[dict[str, Any]]:
-    candidates = []
-    for weapon_id in weapon_ids:
-        if str(weapon_id) not in weapons:
-            continue
-        for paint_kit_id in paint_kit_ids:
-            paint = paint_kits.get(str(paint_kit_id))
-            if paint is None:
-                continue
-            candidates.append(
-                build_candidate_item(
-                    weapon_id=weapon_id,
-                    paint_kit=paint,
-                    weapons=weapons,
-                    weapon_name_map=weapon_name_map,
-                    finish_name_map=finish_name_map,
-                    localizer=localizer,
-                    locales=locales,
-                    source_pool_id=pool_id,
-                    item_category="knife",
-                )
-            )
-    return sorted(candidates, key=lambda row: (row["weapon"]["name"], row["finish"]["name"]))
-
 
 def build_candidate_item(
     weapon_id: int,
@@ -435,6 +280,7 @@ def build_candidate_item(
     locales: list[str],
     source_pool_id: str,
     item_category: str,
+    expansion_rule: str | None = None,
 ) -> dict[str, Any]:
     weapon = weapons[str(weapon_id)]
     localized_names = combine_localized_maps(
@@ -478,30 +324,8 @@ def build_candidate_item(
         "generation_notes": {
             "source_backed": False,
             "consumer_derived_from_pool": True,
+            "expansion_rule": expansion_rule,
         },
-    }
-
-
-def build_finish_profile(profile_id: str, label: str, paint_kit_ids: list[int], finishes: dict[str, dict[str, Any]]) -> dict[str, Any]:
-    entries = []
-    for paint_kit_id in paint_kit_ids:
-        finish = finishes.get(str(paint_kit_id))
-        if finish is None:
-            continue
-        entries.append(
-            {
-                "id": finish["id"],
-                "name": finish["name"],
-                "canonical_slug": finish["canonical_slug"],
-                "search_slug": finish["search_slug"],
-            }
-        )
-    return {
-        "id": profile_id,
-        "label": label,
-        "finish_ids": [entry["id"] for entry in entries],
-        "finish_names": sorted(set(entry["name"] for entry in entries)),
-        "finishes": entries,
     }
 
 
@@ -555,6 +379,8 @@ def build_skin_cards(
     skins: dict[str, dict[str, Any]],
     weapons: dict[str, dict[str, Any]],
     finishes: dict[str, dict[str, Any]],
+    special_drops: dict[str, dict[str, Any]],
+    containers: dict[str, dict[str, Any]],
     assets: dict[str, dict[str, Any]],
     rendered: dict[str, Any],
     localizer: Localizer,
@@ -603,9 +429,10 @@ def build_skin_cards(
             "wear": skin["wear"],
             "available_exteriors": skin.get("supported_exteriors", []),
             "availability": skin.get("availability", {}),
-            "sources": build_skin_sources(skin),
+            "generation_notes": skin.get("generation_notes", {}),
+            "sources": build_skin_sources(skin, special_drops, containers),
             "variant_ids": sorted(skin.get("variant_ids", [])),
-            "media": skin_media_summary(assets, rendered_skin, weapon_id),
+            "media": skin_media_summary(assets, rendered, rendered_skin, weapon_id),
         }
     return cards
 
@@ -632,7 +459,7 @@ def build_variant_cards(
             "exterior": variant["exterior"],
             "exterior_name": variant["exterior_name"],
             "skin_name": skin["name"] if skin else None,
-            "media": skin_variant_media_summary(rendered_variant),
+            "media": skin_variant_media_summary(rendered_variant, skin.get("media") if skin else None),
         }
     return cards
 
@@ -923,11 +750,16 @@ def build_player_cards(players: dict[str, dict[str, Any]], relations: dict[str, 
     return cards
 
 
-def build_skin_sources(skin: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
+def build_skin_sources(
+    skin: dict[str, Any],
+    special_drops: dict[str, dict[str, Any]],
+    containers: dict[str, dict[str, Any]],
+) -> dict[str, list[dict[str, Any]]]:
     cases = []
     capsules = []
     souvenir_packages = []
-    containers = []
+    other_containers = []
+    special_pools = []
     for container in skin.get("sources", {}).get("containers", []):
         ref = {
             "id": container["id"],
@@ -945,13 +777,47 @@ def build_skin_sources(skin: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
         elif container["kind"] == "sticker-capsule":
             capsules.append(ref)
         else:
-            containers.append(ref)
+            other_containers.append(ref)
+    for special_pool in skin.get("sources", {}).get("special_pools", []):
+        pool_ref = {
+            "id": special_pool["id"],
+            "name": special_pool["name"],
+            "kind": special_pool["kind"],
+            "canonical_slug": special_pool.get("canonical_slug"),
+            "search_slug": special_pool.get("search_slug"),
+            "source_backed": special_pool.get("source_backed", False),
+            "expansion_rule": special_pool.get("expansion_rule"),
+        }
+        special_pools.append(pool_ref)
+        pool = special_drops.get(str(special_pool["id"])) or special_drops.get(special_pool["id"])
+        source_container_ids = pool.get("source_container_ids", []) if pool else []
+        for container_id in source_container_ids:
+            source_container = containers.get(str(container_id)) or containers.get(container_id)
+            if source_container is None:
+                continue
+            ref = {
+                "id": source_container["id"],
+                "name": source_container["name"],
+                "kind": source_container["container_kind"],
+                "canonical_slug": source_container.get("canonical_slug"),
+                "search_slug": source_container.get("search_slug"),
+                "via_special_pool": special_pool["id"],
+            }
+            if source_container["container_kind"] == "weapon-case":
+                cases.append(ref)
+            elif source_container["container_kind"] == "souvenir-package":
+                souvenir_packages.append(ref)
+            elif source_container["container_kind"] == "sticker-capsule":
+                capsules.append(ref)
+            else:
+                other_containers.append(ref)
     return {
         "collections": skin.get("sources", {}).get("collections", []),
         "cases": unique_list(cases),
         "capsules": unique_list(capsules),
         "souvenir_packages": unique_list(souvenir_packages),
-        "containers": unique_list(containers),
+        "containers": unique_list(other_containers),
+        "special_pools": unique_list(special_pools),
     }
 
 
@@ -1217,6 +1083,7 @@ def generic_rendered_media_summary(
 
 def skin_media_summary(
     assets: dict[str, dict[str, Any]],
+    rendered: dict[str, Any],
     rendered_skin: dict[str, Any] | None,
     weapon_id: str | int,
 ) -> dict[str, Any]:
@@ -1239,25 +1106,34 @@ def skin_media_summary(
             "models": [],
         }
 
-    fallback = media_summary(assets, "weapon", weapon_id, preview_status="weapon-base-fallback")
+    fallback = generic_rendered_media_summary(
+        rendered,
+        "weapon",
+        weapon_id,
+        media_summary(assets, "weapon", weapon_id, preview_status="weapon-base-fallback"),
+    )
     return {
         **fallback,
-        "primary_image_png": None,
+        "primary_image_png": fallback.get("primary_image_png"),
         "primary_preview_tier": None,
-        "images_png": [],
+        "images_png": fallback.get("images_png", []),
         "preview_images": {},
         "source_texture_paths": {},
     }
 
 
-def skin_variant_media_summary(rendered_variant: dict[str, Any] | None) -> dict[str, Any]:
+def skin_variant_media_summary(
+    rendered_variant: dict[str, Any] | None,
+    skin_media: dict[str, Any] | None,
+) -> dict[str, Any]:
     if rendered_variant is None:
+        fallback_image = skin_media.get("primary_image_png") if skin_media else None
         return {
             "manifest_path": None,
-            "preview_status": "unavailable",
-            "image_png": None,
+            "preview_status": skin_media.get("preview_status", "unavailable") if skin_media else "unavailable",
+            "image_png": fallback_image,
             "preview_tier": None,
-            "source_skin_manifest_path": None,
+            "source_skin_manifest_path": skin_media.get("manifest_path") if skin_media else None,
         }
     return {
         "manifest_path": rendered_variant["manifest_path"],
@@ -1325,41 +1201,6 @@ def card_ref(
         "search_slug": search_slug,
         "path": f"data/api/consumer/cards/{group_name}/{entity_id}.json",
     }
-
-
-def classify_glove_pool(paint_kit: dict[str, Any]) -> str | None:
-    resolved = paint_kit.get("resolved", {})
-    if resolved.get("composite_material_path"):
-        return "volatile-gloves"
-    paint_kit_id = int(paint_kit["id"])
-    if 10006 <= paint_kit_id <= 10038:
-        return "legacy-gloves"
-    if 10039 <= paint_kit_id <= 10064:
-        return "hydra-era-gloves"
-    if 10065 <= paint_kit_id <= 10088:
-        return "broken-fang-gloves"
-    return None
-
-
-def classify_glove_family(paint_kit: dict[str, Any]) -> str | None:
-    name = str(paint_kit.get("name") or "")
-    if name.startswith("glove_driver_") or name.startswith("slick_"):
-        return "slick"
-    if name.startswith("glove_sport_") or name.startswith("sporty_"):
-        return "sporty"
-    if name.startswith("glove_specialist_") or name.startswith("specialist_"):
-        return "specialist"
-    if name.startswith("handwrap_"):
-        return "handwrap"
-    if name.startswith("motorcycle_"):
-        return "motorcycle"
-    if name.startswith("bloodhound_hydra_"):
-        return "hydra"
-    if name.startswith("bloodhound_"):
-        return "bloodhound"
-    if name.startswith("operation10_"):
-        return "brokenfang"
-    return None
 
 
 def first_nonempty(values: list[str] | None) -> str | None:

@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "516-72",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-mesh-tan",
+    "catalog_id": 72,
+    "id": 72,
+    "localized_names": {
+      "brazilian": "Grade de Safári",
+      "bulgarian": "Мрежа за сафари",
+      "czech": "Safari Mesh",
+      "danish": "Safari Mesh",
+      "dutch": "Safari Mesh",
+      "english": "Safari Mesh",
+      "finnish": "Safariverkko",
+      "french": "Maillage safari",
+      "german": "Safarinetz",
+      "greek": "Safari Mesh",
+      "hungarian": "Szafari Háló",
+      "indonesian": "Safari Mesh",
+      "italian": "Safari Mesh",
+      "japanese": "Safari Mesh",
+      "koreana": "사파리 격자 무늬",
+      "latam": "Malla de safari",
+      "norwegian": "Safari Mesh",
+      "polish": "Siatka safari",
+      "portuguese": "Safari Mesh",
+      "romanian": "Safari Mesh",
+      "russian": "Африканская сетка",
+      "schinese": "狩猎网格",
+      "schinese_pw": "Safari Mesh",
+      "spanish": "Malla de safari",
+      "swedish": "Safari Mesh",
+      "tchinese": "狩獵網格",
+      "thai": "Safari Mesh",
+      "turkish": "Safari Ağı",
+      "ukrainian": "Сітка сафарі",
+      "vietnamese": "Safari Mesh"
+    },
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-72",
+  "localized_names": {
+    "brazilian": "Adagas Sombrias | Grade de Safári",
+    "bulgarian": "Мрачни кинжали | Мрежа за сафари",
+    "czech": "Pěstní dýky | Safari Mesh",
+    "danish": "Shadow-daggerter | Safari Mesh",
+    "dutch": "Schaduwdolken | Safari Mesh",
+    "english": "Shadow Daggers | Safari Mesh",
+    "finnish": "Varjotikarit | Safariverkko",
+    "french": "Dagues sombres | Maillage safari",
+    "german": "Schattendolche | Safarinetz",
+    "greek": "Shadow Daggers | Safari Mesh",
+    "hungarian": "Árnyéktőr | Szafari Háló",
+    "indonesian": "Belati Bayangan | Safari Mesh",
+    "italian": "Fendi ombra | Safari Mesh",
+    "japanese": "シャドウダガー | Safari Mesh",
+    "koreana": "섀도우 칼 | 사파리 격자 무늬",
+    "latam": "Dagas Sombrías | Malla de safari",
+    "norwegian": "Skyggedolker | Safari Mesh",
+    "polish": "Sztylety Cienia | Siatka safari",
+    "portuguese": "Shadow Daggers | Safari Mesh",
+    "romanian": "Pumnale Shadow | Safari Mesh",
+    "russian": "Тычковые ножи | Африканская сетка",
+    "schinese": "暗影双匕 | 狩猎网格",
+    "schinese_pw": "Shadow Daggers | Safari Mesh",
+    "spanish": "Dagas Sombrías | Malla de safari",
+    "swedish": "Skuggdolkar | Safari Mesh",
+    "tchinese": "暗影匕首 | 狩獵網格",
+    "thai": "มีดชาโดว์ดักเกอร์ | Safari Mesh",
+    "turkish": "Gölge Hançerler | Safari Ağı",
+    "ukrainian": "Тіньові ножі | Сітка сафарі",
+    "vietnamese": "Dao găm chữ T | Safari Mesh"
+  },
+  "media": {
+    "asset_id": "skin__516-72",
+    "images_png": [
+      "data/api/media/rendered/files/skins/516-72/light.png",
+      "data/api/media/rendered/files/skins/516-72/medium.png",
+      "data/api/media/rendered/files/skins/516-72/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/516-72.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/516-72/heavy.png",
+      "light": "data/api/media/rendered/files/skins/516-72/light.png",
+      "medium": "data/api/media/rendered/files/skins/516-72/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/516-72/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_push_sp_mesh_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_push_sp_mesh_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_push_sp_mesh_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "Shadow Daggers | Safari Mesh",
+  "search_slug": "shadow-daggers-safari-mesh",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-9",
+        "id": 4138,
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "search_slug": "shadow-case",
+        "via_special_pool": "community_case_9_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-9-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_9_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Shadow Daggers ★",
+        "search_slug": "community-case-9-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "516-72__normal__vanilla",
+    "516-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-push",
+    "id": 516,
+    "localized_names": {
+      "brazilian": "Adagas Sombrias",
+      "bulgarian": "Мрачни кинжали",
+      "czech": "Pěstní dýky",
+      "danish": "Shadow-daggerter",
+      "dutch": "Schaduwdolken",
+      "english": "Shadow Daggers",
+      "finnish": "Varjotikarit",
+      "french": "Dagues sombres",
+      "german": "Schattendolche",
+      "greek": "Shadow Daggers",
+      "hungarian": "Árnyéktőr",
+      "indonesian": "Belati Bayangan",
+      "italian": "Fendi ombra",
+      "japanese": "シャドウダガー",
+      "koreana": "섀도우 칼",
+      "latam": "Dagas Sombrías",
+      "norwegian": "Skyggedolker",
+      "polish": "Sztylety Cienia",
+      "portuguese": "Shadow Daggers",
+      "romanian": "Pumnale Shadow",
+      "russian": "Тычковые ножи",
+      "schinese": "暗影双匕",
+      "schinese_pw": "Shadow Daggers",
+      "spanish": "Dagas Sombrías",
+      "swedish": "Skuggdolkar",
+      "tchinese": "暗影匕首",
+      "thai": "มีดชาโดว์ดักเกอร์",
+      "turkish": "Gölge Hançerler",
+      "ukrainian": "Тіньові ножі",
+      "vietnamese": "Dao găm chữ T"
+    },
+    "name": "Shadow Daggers",
+    "search_slug": "shadow-daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

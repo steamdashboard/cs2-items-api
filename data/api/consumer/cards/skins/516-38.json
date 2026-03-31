@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "516-38",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aa-fade",
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-38",
+  "localized_names": {
+    "brazilian": "Adagas Sombrias | Degradê",
+    "bulgarian": "Мрачни кинжали | Избледняване",
+    "czech": "Pěstní dýky | Fade",
+    "danish": "Shadow-daggerter | Fade",
+    "dutch": "Schaduwdolken | Fade",
+    "english": "Shadow Daggers | Fade",
+    "finnish": "Varjotikarit | Häivytys",
+    "french": "Dagues sombres | Dégradé",
+    "german": "Schattendolche | Farbverlauf",
+    "greek": "Shadow Daggers | Fade",
+    "hungarian": "Árnyéktőr | Halványulás",
+    "indonesian": "Belati Bayangan | Fade",
+    "italian": "Fendi ombra | Fade",
+    "japanese": "シャドウダガー | Fade",
+    "koreana": "섀도우 칼 | 흐릿함",
+    "latam": "Dagas Sombrías | Desteñido",
+    "norwegian": "Skyggedolker | Fade",
+    "polish": "Sztylety Cienia | Gradient",
+    "portuguese": "Shadow Daggers | Fade",
+    "romanian": "Pumnale Shadow | Fade",
+    "russian": "Тычковые ножи | Градиент",
+    "schinese": "暗影双匕 | 渐变之色",
+    "schinese_pw": "Shadow Daggers | Fade",
+    "spanish": "Dagas Sombrías | Desteñido",
+    "swedish": "Skuggdolkar | Fade",
+    "tchinese": "暗影匕首 | 漸層彩虹",
+    "thai": "มีดชาโดว์ดักเกอร์ | Fade",
+    "turkish": "Gölge Hançerler | Solgun",
+    "ukrainian": "Тіньові ножі | Градієнт",
+    "vietnamese": "Dao găm chữ T | Fade"
+  },
+  "media": {
+    "asset_id": "skin__516-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/516-38/light.png",
+      "data/api/media/rendered/files/skins/516-38/medium.png",
+      "data/api/media/rendered/files/skins/516-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/516-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/516-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/516-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/516-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/516-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_push_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_push_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_push_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Shadow Daggers | Fade",
+  "search_slug": "shadow-daggers-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-9",
+        "id": 4138,
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "search_slug": "shadow-case",
+        "via_special_pool": "community_case_9_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-9-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_9_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Shadow Daggers ★",
+        "search_slug": "community-case-9-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "516-38__normal__factory-new",
+    "516-38__normal__minimal-wear",
+    "516-38__stattrak__factory-new",
+    "516-38__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-push",
+    "id": 516,
+    "localized_names": {
+      "brazilian": "Adagas Sombrias",
+      "bulgarian": "Мрачни кинжали",
+      "czech": "Pěstní dýky",
+      "danish": "Shadow-daggerter",
+      "dutch": "Schaduwdolken",
+      "english": "Shadow Daggers",
+      "finnish": "Varjotikarit",
+      "french": "Dagues sombres",
+      "german": "Schattendolche",
+      "greek": "Shadow Daggers",
+      "hungarian": "Árnyéktőr",
+      "indonesian": "Belati Bayangan",
+      "italian": "Fendi ombra",
+      "japanese": "シャドウダガー",
+      "koreana": "섀도우 칼",
+      "latam": "Dagas Sombrías",
+      "norwegian": "Skyggedolker",
+      "polish": "Sztylety Cienia",
+      "portuguese": "Shadow Daggers",
+      "romanian": "Pumnale Shadow",
+      "russian": "Тычковые ножи",
+      "schinese": "暗影双匕",
+      "schinese_pw": "Shadow Daggers",
+      "spanish": "Dagas Sombrías",
+      "swedish": "Skuggdolkar",
+      "tchinese": "暗影匕首",
+      "thai": "มีดชาโดว์ดักเกอร์",
+      "turkish": "Gölge Hançerler",
+      "ukrainian": "Тіньові ножі",
+      "vietnamese": "Dao găm chữ T"
+    },
+    "name": "Shadow Daggers",
+    "search_slug": "shadow-daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

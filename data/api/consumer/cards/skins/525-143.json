@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "525-143",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-tape-urban",
+    "catalog_id": 143,
+    "id": 143,
+    "localized_names": {
+      "brazilian": "Máscara Urbana",
+      "bulgarian": "Градска маскировка",
+      "czech": "Urban Masked",
+      "danish": "Urban Masked",
+      "dutch": "Urban Masked",
+      "english": "Urban Masked",
+      "finnish": "Kaupunkilaisnaamioitu",
+      "french": "Masque urbain",
+      "german": "Städtisch maskiert",
+      "greek": "Urban Masked",
+      "hungarian": "Városi Maszkolt",
+      "indonesian": "Urban Masked",
+      "italian": "Urban Masked",
+      "japanese": "Urban Masked",
+      "koreana": "도시의 위장",
+      "latam": "Pátina urbana",
+      "norwegian": "Urban Masked",
+      "polish": "Miejski zamaskowany",
+      "portuguese": "Urban Masked",
+      "romanian": "Urban Masked",
+      "russian": "Городская маскировка",
+      "schinese": "都市伪装",
+      "schinese_pw": "Urban Masked",
+      "spanish": "Pátina urbana",
+      "swedish": "Urban Masked",
+      "tchinese": "都市偽裝",
+      "thai": "Urban Masked",
+      "turkish": "Gizli Şehir",
+      "ukrainian": "Міське маскування",
+      "vietnamese": "Urban Masked"
+    },
+    "name": "Urban Masked",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "525-143",
+  "localized_names": {
+    "brazilian": "Faca Esqueleto | Máscara Urbana",
+    "bulgarian": "Скелетен нож | Градска маскировка",
+    "czech": "Skeletový nůž | Urban Masked",
+    "danish": "Skeletkniv | Urban Masked",
+    "dutch": "Skeletonmes | Urban Masked",
+    "english": "Skeleton Knife | Urban Masked",
+    "finnish": "Skeleton-puukko | Kaupunkilaisnaamioitu",
+    "french": "Couteau squelettique | Masque urbain",
+    "german": "Skelettmesser | Städtisch maskiert",
+    "greek": "Μαχαίρι Skeleton | Urban Masked",
+    "hungarian": "Csontváz kés | Városi Maszkolt",
+    "indonesian": "Pisau Skeleton | Urban Masked",
+    "italian": "Coltello Scheletro | Urban Masked",
+    "japanese": "Skeleton ナイフ | Urban Masked",
+    "koreana": "스켈레톤 칼 | 도시의 위장",
+    "latam": "Cuchillo esqueletizado | Pátina urbana",
+    "norwegian": "Skjelettkniv | Urban Masked",
+    "polish": "Nóż szkieletowy | Miejski zamaskowany",
+    "portuguese": "Faca Skeleton | Urban Masked",
+    "romanian": "Cuțit scheletic | Urban Masked",
+    "russian": "Скелетный нож | Городская маскировка",
+    "schinese": "骷髅匕首 | 都市伪装",
+    "schinese_pw": "Skeleton Knife | Urban Masked",
+    "spanish": "Cuchillo esqueletizado | Pátina urbana",
+    "swedish": "Skeleton-kniv | Urban Masked",
+    "tchinese": "骷顱刀 | 都市偽裝",
+    "thai": "มีดสเกเลตัน | Urban Masked",
+    "turkish": "İskelet Bıçak | Gizli Şehir",
+    "ukrainian": "Скелетний ніж | Міське маскування",
+    "vietnamese": "Dao Skeleton | Urban Masked"
+  },
+  "media": {
+    "asset_id": "skin__525-143",
+    "images_png": [
+      "data/api/media/rendered/files/skins/525-143/light.png",
+      "data/api/media/rendered/files/skins/525-143/medium.png",
+      "data/api/media/rendered/files/skins/525-143/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/525-143.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/525-143/heavy.png",
+      "light": "data/api/media/rendered/files/skins/525-143/light.png",
+      "medium": "data/api/media/rendered/files/skins/525-143/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/525-143/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_skeleton_sp_tape_urban_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_skeleton_sp_tape_urban_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_skeleton_sp_tape_urban_medium_png.vtex_c"
+    }
+  },
+  "name": "Skeleton Knife | Urban Masked",
+  "search_slug": "skeleton-knife-urban-masked",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "525-143__normal__vanilla",
+    "525-143__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-skeleton",
+    "id": 525,
+    "localized_names": {
+      "brazilian": "Faca Esqueleto",
+      "bulgarian": "Скелетен нож",
+      "czech": "Skeletový nůž",
+      "danish": "Skeletkniv",
+      "dutch": "Skeletonmes",
+      "english": "Skeleton Knife",
+      "finnish": "Skeleton-puukko",
+      "french": "Couteau squelettique",
+      "german": "Skelettmesser",
+      "greek": "Μαχαίρι Skeleton",
+      "hungarian": "Csontváz kés",
+      "indonesian": "Pisau Skeleton",
+      "italian": "Coltello Scheletro",
+      "japanese": "Skeleton ナイフ",
+      "koreana": "스켈레톤 칼",
+      "latam": "Cuchillo esqueletizado",
+      "norwegian": "Skjelettkniv",
+      "polish": "Nóż szkieletowy",
+      "portuguese": "Faca Skeleton",
+      "romanian": "Cuțit scheletic",
+      "russian": "Скелетный нож",
+      "schinese": "骷髅匕首",
+      "schinese_pw": "Skeleton Knife",
+      "spanish": "Cuchillo esqueletizado",
+      "swedish": "Skeleton-kniv",
+      "tchinese": "骷顱刀",
+      "thai": "มีดสเกเลตัน",
+      "turkish": "İskelet Bıçak",
+      "ukrainian": "Скелетний ніж",
+      "vietnamese": "Dao Skeleton"
+    },
+    "name": "Skeleton Knife",
+    "search_slug": "skeleton-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

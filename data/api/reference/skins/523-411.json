@@ -1,0 +1,116 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "523-411",
+  "finish": {
+    "codename": "aq_damascus_90",
+    "id": 411,
+    "name": "Damascus Steel",
+    "rarity_ref": null,
+    "style_code": 8
+  },
+  "game_ref": {
+    "paint_kit_id": 411,
+    "weapon_id": 523
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "523-411",
+  "name": "Talon Knife | Damascus Steel",
+  "search_slug": "talon-knife-damascus-steel",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-22-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_22_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-22-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-22",
+            "id": 4598,
+            "kind": "weapon-case",
+            "name": "Prisma Case",
+            "search_slug": "prisma-case"
+          },
+          {
+            "canonical_slug": "crate-community-25",
+            "id": 4695,
+            "kind": "weapon-case",
+            "name": "Prisma 2 Case",
+            "search_slug": "prisma-2-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "523-411__normal__factory-new",
+    "523-411__normal__minimal-wear",
+    "523-411__normal__field-tested",
+    "523-411__normal__well-worn",
+    "523-411__normal__battle-scarred",
+    "523-411__stattrak__factory-new",
+    "523-411__stattrak__minimal-wear",
+    "523-411__stattrak__field-tested",
+    "523-411__stattrak__well-worn",
+    "523-411__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_widowmaker",
+    "id": 523,
+    "name": "Talon Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

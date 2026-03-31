@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "512-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-44",
+  "localized_names": {
+    "brazilian": "Canivete Falchion | Aquecimento de Aço",
+    "bulgarian": "Нож „Фалчион“ | Закалено",
+    "czech": "Falchion | Case Hardened",
+    "danish": "Falchion-kniv | Case Hardened",
+    "dutch": "Falchion-mes | Case Hardened",
+    "english": "Falchion Knife | Case Hardened",
+    "finnish": "Falchion-veitsi | Hiiletyskarkaistu",
+    "french": "Couteau fauchon | Cémenté",
+    "german": "Falchion-Messer | Einsatzgehärtet",
+    "greek": "Μαχαίρι Falchion | Case Hardened",
+    "hungarian": "Handzsárkés | Edzett",
+    "indonesian": "Pisau Falchion | Case Hardened",
+    "italian": "Coltello falchion | Case Hardened",
+    "japanese": "Falchion ナイフ | Case Hardened",
+    "koreana": "파르치온 칼 | 표면 경화",
+    "latam": "Cuchillo alfanje | Acero templado",
+    "norwegian": "Falchion-kniv | Case Hardened",
+    "polish": "Nóż falcjon | Stal nawęglana",
+    "portuguese": "Faca Falchion | Case Hardened",
+    "romanian": "Cuțit Falchion | Case Hardened",
+    "russian": "Фальшион | Поверхностная закалка",
+    "schinese": "弯刀 | 表面淬火",
+    "schinese_pw": "Falchion Knife | Case Hardened",
+    "spanish": "Cuchillo Alfanje | Acero templado",
+    "swedish": "Falchionkniv | Case Hardened",
+    "tchinese": "彎刃匕首 | 外殼硬化",
+    "thai": "มีดฟัลชิออน | Case Hardened",
+    "turkish": "Pala Bıçağı | Sertleştirilmiş Kasa",
+    "ukrainian": "Ніж-фальшіон | Поверхневий гарт",
+    "vietnamese": "Dao Falchion | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__512-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/512-44/light.png",
+      "data/api/media/rendered/files/skins/512-44/medium.png",
+      "data/api/media/rendered/files/skins/512-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/512-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/512-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/512-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/512-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/512-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_falchion_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_falchion_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_falchion_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Falchion Knife | Case Hardened",
+  "search_slug": "falchion-knife-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-8",
+        "id": 4091,
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "search_slug": "falchion-case",
+        "via_special_pool": "community_case_8_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-8-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_8_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Falchion Knife ★",
+        "search_slug": "community-case-8-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "512-44__normal__battle-scarred",
+    "512-44__normal__factory-new",
+    "512-44__normal__field-tested",
+    "512-44__normal__minimal-wear",
+    "512-44__normal__well-worn",
+    "512-44__stattrak__battle-scarred",
+    "512-44__stattrak__factory-new",
+    "512-44__stattrak__field-tested",
+    "512-44__stattrak__minimal-wear",
+    "512-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-falchion",
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Canivete Falchion",
+      "bulgarian": "Нож „Фалчион“",
+      "czech": "Falchion",
+      "danish": "Falchion-kniv",
+      "dutch": "Falchion-mes",
+      "english": "Falchion Knife",
+      "finnish": "Falchion-veitsi",
+      "french": "Couteau fauchon",
+      "german": "Falchion-Messer",
+      "greek": "Μαχαίρι Falchion",
+      "hungarian": "Handzsárkés",
+      "indonesian": "Pisau Falchion",
+      "italian": "Coltello falchion",
+      "japanese": "Falchion ナイフ",
+      "koreana": "파르치온 칼",
+      "latam": "Cuchillo alfanje",
+      "norwegian": "Falchion-kniv",
+      "polish": "Nóż falcjon",
+      "portuguese": "Faca Falchion",
+      "romanian": "Cuțit Falchion",
+      "russian": "Фальшион",
+      "schinese": "弯刀",
+      "schinese_pw": "Falchion Knife",
+      "spanish": "Cuchillo Alfanje",
+      "swedish": "Falchionkniv",
+      "tchinese": "彎刃匕首",
+      "thai": "มีดฟัลชิออน",
+      "turkish": "Pala Bıçağı",
+      "ukrainian": "Ніж-фальшіон",
+      "vietnamese": "Dao Falchion"
+    },
+    "name": "Falchion Knife",
+    "search_slug": "falchion-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

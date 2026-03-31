@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "503-12",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-webs",
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "503-12",
+  "localized_names": {
+    "brazilian": "Faca Clássica | Teia Rubra",
+    "bulgarian": "Класически нож | Пурпурна паяжина",
+    "czech": "Klasický nůž | Crimson Web",
+    "danish": "Klassisk kniv | Crimson Web",
+    "dutch": "Klassiek mes | Crimson Web",
+    "english": "Classic Knife | Crimson Web",
+    "finnish": "Klassinen veitsi | Verenpunainen seitti",
+    "french": "Couteau classique | Toile pourpre",
+    "german": "Klassisches Messer | Purpurnes Netz",
+    "greek": "Κλασικό Μαχαίρι | Crimson Web",
+    "hungarian": "Klasszikus Kés | Karmazsin Háló",
+    "indonesian": "Pisau Klasik | Crimson Web",
+    "italian": "Coltello classico | Crimson Web",
+    "japanese": "クラシックナイフ | Crimson Web",
+    "koreana": "클래식 칼 | 붉은 그물",
+    "latam": "Cuchillo clásico | Tela escarlata",
+    "norwegian": "Klassisk kniv | Crimson Web",
+    "polish": "Klasyczny nóż | Szkarłatna sieć",
+    "portuguese": "Faca Clássica | Crimson Web",
+    "romanian": "Cuțit clasic | Crimson Web",
+    "russian": "Классический нож | Кровавая паутина",
+    "schinese": "海豹短刀 | 深红之网",
+    "schinese_pw": "Classic Knife | Crimson Web",
+    "spanish": "Cuchillo clásico | Tela escarlata",
+    "swedish": "Klassisk kniv | Crimson Web",
+    "tchinese": "經典軍刀 | 赤紅之網",
+    "thai": "มีดคลาสสิก | Crimson Web",
+    "turkish": "Klasik Bıçak | Kızıl Ağ",
+    "ukrainian": "Класичний ніж | Криваве павутиння",
+    "vietnamese": "Classic Knife | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__503-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/503-12/light.png",
+      "data/api/media/rendered/files/skins/503-12/medium.png",
+      "data/api/media/rendered/files/skins/503-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/503-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/503-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/503-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/503-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/503-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_css_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_css_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_css_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "Classic Knife | Crimson Web",
+  "search_slug": "classic-knife-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-24",
+        "id": 4669,
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "search_slug": "cs20-case",
+        "via_special_pool": "set_community_24_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-24-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_24_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Classic Knife ★",
+        "search_slug": "set-community-24-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "503-12__normal__vanilla",
+    "503-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-css",
+    "id": 503,
+    "localized_names": {
+      "brazilian": "Faca Clássica",
+      "bulgarian": "Класически нож",
+      "czech": "Klasický nůž",
+      "danish": "Klassisk kniv",
+      "dutch": "Klassiek mes",
+      "english": "Classic Knife",
+      "finnish": "Klassinen veitsi",
+      "french": "Couteau classique",
+      "german": "Klassisches Messer",
+      "greek": "Κλασικό Μαχαίρι",
+      "hungarian": "Klasszikus Kés",
+      "indonesian": "Pisau Klasik",
+      "italian": "Coltello classico",
+      "japanese": "クラシックナイフ",
+      "koreana": "클래식 칼",
+      "latam": "Cuchillo clásico",
+      "norwegian": "Klassisk kniv",
+      "polish": "Klasyczny nóż",
+      "portuguese": "Faca Clássica",
+      "romanian": "Cuțit clasic",
+      "russian": "Классический нож",
+      "schinese": "海豹短刀",
+      "schinese_pw": "Classic Knife",
+      "spanish": "Cuchillo clásico",
+      "swedish": "Klassisk kniv",
+      "tchinese": "經典軍刀",
+      "thai": "มีดคลาสสิก",
+      "turkish": "Klasik Bıçak",
+      "ukrainian": "Класичний ніж",
+      "vietnamese": "Classic Knife"
+    },
+    "name": "Classic Knife",
+    "search_slug": "classic-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

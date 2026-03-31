@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "519-419",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-doppler-phase2",
+    "catalog_id": 419,
+    "id": 419,
+    "localized_names": {
+      "brazilian": "Doppler",
+      "bulgarian": "Доплер",
+      "czech": "Doppler",
+      "danish": "Doppler",
+      "dutch": "Doppler",
+      "english": "Doppler",
+      "finnish": "Doppler",
+      "french": "Doppler",
+      "german": "Doppler",
+      "greek": "Doppler",
+      "hungarian": "Doppler",
+      "indonesian": "Doppler",
+      "italian": "Doppler",
+      "japanese": "Doppler",
+      "koreana": "도플러",
+      "latam": "Doppler",
+      "norwegian": "Doppler",
+      "polish": "Doppler",
+      "portuguese": "Doppler",
+      "romanian": "Doppler",
+      "russian": "Волны",
+      "schinese": "多普勒",
+      "schinese_pw": "Doppler",
+      "spanish": "Doppler",
+      "swedish": "Doppler",
+      "tchinese": "都卜勒",
+      "thai": "Doppler",
+      "turkish": "Doppler",
+      "ukrainian": "Доплер",
+      "vietnamese": "Doppler"
+    },
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "519-419",
+  "localized_names": {
+    "brazilian": "Faca Ursus | Doppler",
+    "bulgarian": "Мечешки нож | Доплер",
+    "czech": "Nůž Ursus | Doppler",
+    "danish": "Ursus-kniv | Doppler",
+    "dutch": "Ursus-mes | Doppler",
+    "english": "Ursus Knife | Doppler",
+    "finnish": "Karhuveitsi | Doppler",
+    "french": "Ursus | Doppler",
+    "german": "Ursus-Messer | Doppler",
+    "greek": "Μαχαίρι Ursus | Doppler",
+    "hungarian": "Ursus kés | Doppler",
+    "indonesian": "Pisau Ursus | Doppler",
+    "italian": "Coltello Ursus | Doppler",
+    "japanese": "Ursus ナイフ | Doppler",
+    "koreana": "우르수스 칼 | 도플러",
+    "latam": "Cuchillo ursus | Doppler",
+    "norwegian": "Ursuskniv | Doppler",
+    "polish": "Ursus | Doppler",
+    "portuguese": "Faca Ursus | Doppler",
+    "romanian": "Cuțit Ursus | Doppler",
+    "russian": "Медвежий нож | Волны",
+    "schinese": "熊刀 | 多普勒",
+    "schinese_pw": "Ursus Knife | Doppler",
+    "spanish": "Cuchillo ursus | Doppler",
+    "swedish": "Ursuskniv | Doppler",
+    "tchinese": "熊刀 | 都卜勒",
+    "thai": "มีดเออซุส | Doppler",
+    "turkish": "Ursus Bıçağı | Doppler",
+    "ukrainian": "Ведмежий ніж | Доплер",
+    "vietnamese": "Dao Ursus | Doppler"
+  },
+  "media": {
+    "asset_id": "skin__519-419",
+    "images_png": [
+      "data/api/media/rendered/files/skins/519-419/light.png",
+      "data/api/media/rendered/files/skins/519-419/medium.png",
+      "data/api/media/rendered/files/skins/519-419/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/519-419.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/519-419/heavy.png",
+      "light": "data/api/media/rendered/files/skins/519-419/light.png",
+      "medium": "data/api/media/rendered/files/skins/519-419/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/519-419/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_ursus_am_doppler_phase2_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_ursus_am_doppler_phase2_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_ursus_am_doppler_phase2_medium_png.vtex_c"
+    }
+  },
+  "name": "Ursus Knife | Doppler",
+  "search_slug": "ursus-knife-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-22",
+        "id": 4598,
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "search_slug": "prisma-case",
+        "via_special_pool": "set_community_22_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-25",
+        "id": 4695,
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "search_slug": "prisma-2-case",
+        "via_special_pool": "set_community_22_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-22-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_22_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-22-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "519-419__normal__factory-new",
+    "519-419__normal__minimal-wear",
+    "519-419__stattrak__factory-new",
+    "519-419__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-ursus",
+    "id": 519,
+    "localized_names": {
+      "brazilian": "Faca Ursus",
+      "bulgarian": "Мечешки нож",
+      "czech": "Nůž Ursus",
+      "danish": "Ursus-kniv",
+      "dutch": "Ursus-mes",
+      "english": "Ursus Knife",
+      "finnish": "Karhuveitsi",
+      "french": "Ursus",
+      "german": "Ursus-Messer",
+      "greek": "Μαχαίρι Ursus",
+      "hungarian": "Ursus kés",
+      "indonesian": "Pisau Ursus",
+      "italian": "Coltello Ursus",
+      "japanese": "Ursus ナイフ",
+      "koreana": "우르수스 칼",
+      "latam": "Cuchillo ursus",
+      "norwegian": "Ursuskniv",
+      "polish": "Ursus",
+      "portuguese": "Faca Ursus",
+      "romanian": "Cuțit Ursus",
+      "russian": "Медвежий нож",
+      "schinese": "熊刀",
+      "schinese_pw": "Ursus Knife",
+      "spanish": "Cuchillo ursus",
+      "swedish": "Ursuskniv",
+      "tchinese": "熊刀",
+      "thai": "มีดเออซุส",
+      "turkish": "Ursus Bıçağı",
+      "ukrainian": "Ведмежий ніж",
+      "vietnamese": "Dao Ursus"
+    },
+    "name": "Ursus Knife",
+    "search_slug": "ursus-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

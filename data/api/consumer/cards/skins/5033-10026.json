@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5033-10026",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "motorcycle-mint-triangle",
+    "catalog_id": 10026,
+    "id": 10026,
+    "localized_names": {
+      "brazilian": "Menta",
+      "bulgarian": "Градинска мента",
+      "czech": "Spearmint",
+      "danish": "Spearmint",
+      "dutch": "Spearmint",
+      "english": "Spearmint",
+      "finnish": "Viherminttu",
+      "french": "Menthe verte",
+      "german": "Grüne Minze",
+      "greek": "Spearmint",
+      "hungarian": "Fodormenta",
+      "indonesian": "Spearmint",
+      "italian": "Spearmint",
+      "japanese": "Spearmint",
+      "koreana": "스피어민트",
+      "latam": "Hierbabuena",
+      "norwegian": "Spearmint",
+      "polish": "Mięta zielona",
+      "portuguese": "Spearmint",
+      "romanian": "Spearmint",
+      "russian": "Мята",
+      "schinese": "薄荷",
+      "schinese_pw": "Spearmint",
+      "spanish": "Hierbabuena",
+      "swedish": "Spearmint",
+      "tchinese": "綠薄荷",
+      "thai": "Spearmint",
+      "turkish": "Yeşil Nane",
+      "ukrainian": "М’ята",
+      "vietnamese": "Spearmint"
+    },
+    "name": "Spearmint",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5033-10026",
+  "localized_names": {
+    "brazilian": "Luvas de Motociclismo | Menta",
+    "bulgarian": "Мотористки ръкавици | Градинска мента",
+    "czech": "Motorkářské rukavice | Spearmint",
+    "danish": "Motorcykelhandsker | Spearmint",
+    "dutch": "Motorhandschoenen | Spearmint",
+    "english": "Moto Gloves | Spearmint",
+    "finnish": "Moottoripyöräilyhanskat | Viherminttu",
+    "french": "Gants de moto | Menthe verte",
+    "german": "Motorradhandschuhe | Grüne Minze",
+    "greek": "Γάντια μηχανής | Spearmint",
+    "hungarian": "Motoroskesztyűk | Fodormenta",
+    "indonesian": "Sarung Tangan Motor | Spearmint",
+    "italian": "Guanti da centauro | Spearmint",
+    "japanese": "Moto Gloves | Spearmint",
+    "koreana": "자동차 경주 장갑 | 스피어민트",
+    "latam": "Guantes para moto | Hierbabuena",
+    "norwegian": "Motorsykkelhansker | Spearmint",
+    "polish": "Rękawice motocyklisty | Mięta zielona",
+    "portuguese": "Luvas de Motociclista | Spearmint",
+    "romanian": "Mănuși de motociclist | Spearmint",
+    "russian": "Мотоциклетные перчатки | Мята",
+    "schinese": "摩托手套 | 薄荷",
+    "schinese_pw": "Moto Gloves | Spearmint",
+    "spanish": "Guantes de motorista | Hierbabuena",
+    "swedish": "Moto-handskar | Spearmint",
+    "tchinese": "機車手套 | 綠薄荷",
+    "thai": "ถุงมือมอเตอร์ไซค์ | Spearmint",
+    "turkish": "Motorcu Eldivenleri | Yeşil Nane",
+    "ukrainian": "Рукавиці мотоцикліста | М’ята",
+    "vietnamese": "Găng tay mô tô | Spearmint"
+  },
+  "media": {
+    "asset_id": "skin__5033-10026",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5033-10026/light.png",
+      "data/api/media/rendered/files/skins/5033-10026/medium.png",
+      "data/api/media/rendered/files/skins/5033-10026/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5033-10026.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5033-10026/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5033-10026/light.png",
+      "medium": "data/api/media/rendered/files/skins/5033-10026/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5033-10026/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/motorcycle_gloves_motorcycle_mint_triangle_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/motorcycle_gloves_motorcycle_mint_triangle_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/motorcycle_gloves_motorcycle_mint_triangle_medium_png.vtex_c"
+    }
+  },
+  "name": "Moto Gloves | Spearmint",
+  "search_slug": "moto-gloves-spearmint",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-15",
+        "id": 4288,
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "search_slug": "glove-case",
+        "via_special_pool": "community_case_15_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-17",
+        "id": 4352,
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "search_slug": "operation-hydra-case",
+        "via_special_pool": "community_case_15_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-15-unusual",
+        "expansion_rule": "legacy-gloves",
+        "id": "community_case_15_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "community-case-15-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5033-10026__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "motorcycle-gloves",
+    "id": 5033,
+    "localized_names": {
+      "brazilian": "Luvas de Motociclismo",
+      "bulgarian": "Мотористки ръкавици",
+      "czech": "Motorkářské rukavice",
+      "danish": "Motorcykelhandsker",
+      "dutch": "Motorhandschoenen",
+      "english": "Moto Gloves",
+      "finnish": "Moottoripyöräilyhanskat",
+      "french": "Gants de moto",
+      "german": "Motorradhandschuhe",
+      "greek": "Γάντια μηχανής",
+      "hungarian": "Motoroskesztyűk",
+      "indonesian": "Sarung Tangan Motor",
+      "italian": "Guanti da centauro",
+      "japanese": "Moto Gloves",
+      "koreana": "자동차 경주 장갑",
+      "latam": "Guantes para moto",
+      "norwegian": "Motorsykkelhansker",
+      "polish": "Rękawice motocyklisty",
+      "portuguese": "Luvas de Motociclista",
+      "romanian": "Mănuși de motociclist",
+      "russian": "Мотоциклетные перчатки",
+      "schinese": "摩托手套",
+      "schinese_pw": "Moto Gloves",
+      "spanish": "Guantes de motorista",
+      "swedish": "Moto-handskar",
+      "tchinese": "機車手套",
+      "thai": "ถุงมือมอเตอร์ไซค์",
+      "turkish": "Motorcu Eldivenleri",
+      "ukrainian": "Рукавиці мотоцикліста",
+      "vietnamese": "Găng tay mô tô"
+    },
+    "name": "Moto Gloves",
+    "search_slug": "moto-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

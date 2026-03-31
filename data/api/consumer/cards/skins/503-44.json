@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "503-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "503-44",
+  "localized_names": {
+    "brazilian": "Faca Clássica | Aquecimento de Aço",
+    "bulgarian": "Класически нож | Закалено",
+    "czech": "Klasický nůž | Case Hardened",
+    "danish": "Klassisk kniv | Case Hardened",
+    "dutch": "Klassiek mes | Case Hardened",
+    "english": "Classic Knife | Case Hardened",
+    "finnish": "Klassinen veitsi | Hiiletyskarkaistu",
+    "french": "Couteau classique | Cémenté",
+    "german": "Klassisches Messer | Einsatzgehärtet",
+    "greek": "Κλασικό Μαχαίρι | Case Hardened",
+    "hungarian": "Klasszikus Kés | Edzett",
+    "indonesian": "Pisau Klasik | Case Hardened",
+    "italian": "Coltello classico | Case Hardened",
+    "japanese": "クラシックナイフ | Case Hardened",
+    "koreana": "클래식 칼 | 표면 경화",
+    "latam": "Cuchillo clásico | Acero templado",
+    "norwegian": "Klassisk kniv | Case Hardened",
+    "polish": "Klasyczny nóż | Stal nawęglana",
+    "portuguese": "Faca Clássica | Case Hardened",
+    "romanian": "Cuțit clasic | Case Hardened",
+    "russian": "Классический нож | Поверхностная закалка",
+    "schinese": "海豹短刀 | 表面淬火",
+    "schinese_pw": "Classic Knife | Case Hardened",
+    "spanish": "Cuchillo clásico | Acero templado",
+    "swedish": "Klassisk kniv | Case Hardened",
+    "tchinese": "經典軍刀 | 外殼硬化",
+    "thai": "มีดคลาสสิก | Case Hardened",
+    "turkish": "Klasik Bıçak | Sertleştirilmiş Kasa",
+    "ukrainian": "Класичний ніж | Поверхневий гарт",
+    "vietnamese": "Classic Knife | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__503-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/503-44/light.png",
+      "data/api/media/rendered/files/skins/503-44/medium.png",
+      "data/api/media/rendered/files/skins/503-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/503-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/503-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/503-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/503-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/503-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_css_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_css_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_css_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Classic Knife | Case Hardened",
+  "search_slug": "classic-knife-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-24",
+        "id": 4669,
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "search_slug": "cs20-case",
+        "via_special_pool": "set_community_24_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-24-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_24_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Classic Knife ★",
+        "search_slug": "set-community-24-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "503-44__normal__battle-scarred",
+    "503-44__normal__factory-new",
+    "503-44__normal__field-tested",
+    "503-44__normal__minimal-wear",
+    "503-44__normal__well-worn",
+    "503-44__stattrak__battle-scarred",
+    "503-44__stattrak__factory-new",
+    "503-44__stattrak__field-tested",
+    "503-44__stattrak__minimal-wear",
+    "503-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-css",
+    "id": 503,
+    "localized_names": {
+      "brazilian": "Faca Clássica",
+      "bulgarian": "Класически нож",
+      "czech": "Klasický nůž",
+      "danish": "Klassisk kniv",
+      "dutch": "Klassiek mes",
+      "english": "Classic Knife",
+      "finnish": "Klassinen veitsi",
+      "french": "Couteau classique",
+      "german": "Klassisches Messer",
+      "greek": "Κλασικό Μαχαίρι",
+      "hungarian": "Klasszikus Kés",
+      "indonesian": "Pisau Klasik",
+      "italian": "Coltello classico",
+      "japanese": "クラシックナイフ",
+      "koreana": "클래식 칼",
+      "latam": "Cuchillo clásico",
+      "norwegian": "Klassisk kniv",
+      "polish": "Klasyczny nóż",
+      "portuguese": "Faca Clássica",
+      "romanian": "Cuțit clasic",
+      "russian": "Классический нож",
+      "schinese": "海豹短刀",
+      "schinese_pw": "Classic Knife",
+      "spanish": "Cuchillo clásico",
+      "swedish": "Klassisk kniv",
+      "tchinese": "經典軍刀",
+      "thai": "มีดคลาสสิก",
+      "turkish": "Klasik Bıçak",
+      "ukrainian": "Класичний ніж",
+      "vietnamese": "Classic Knife"
+    },
+    "name": "Classic Knife",
+    "search_slug": "classic-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "525-12",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-webs",
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "525-12",
+  "localized_names": {
+    "brazilian": "Faca Esqueleto | Teia Rubra",
+    "bulgarian": "Скелетен нож | Пурпурна паяжина",
+    "czech": "Skeletový nůž | Crimson Web",
+    "danish": "Skeletkniv | Crimson Web",
+    "dutch": "Skeletonmes | Crimson Web",
+    "english": "Skeleton Knife | Crimson Web",
+    "finnish": "Skeleton-puukko | Verenpunainen seitti",
+    "french": "Couteau squelettique | Toile pourpre",
+    "german": "Skelettmesser | Purpurnes Netz",
+    "greek": "Μαχαίρι Skeleton | Crimson Web",
+    "hungarian": "Csontváz kés | Karmazsin Háló",
+    "indonesian": "Pisau Skeleton | Crimson Web",
+    "italian": "Coltello Scheletro | Crimson Web",
+    "japanese": "Skeleton ナイフ | Crimson Web",
+    "koreana": "스켈레톤 칼 | 붉은 그물",
+    "latam": "Cuchillo esqueletizado | Tela escarlata",
+    "norwegian": "Skjelettkniv | Crimson Web",
+    "polish": "Nóż szkieletowy | Szkarłatna sieć",
+    "portuguese": "Faca Skeleton | Crimson Web",
+    "romanian": "Cuțit scheletic | Crimson Web",
+    "russian": "Скелетный нож | Кровавая паутина",
+    "schinese": "骷髅匕首 | 深红之网",
+    "schinese_pw": "Skeleton Knife | Crimson Web",
+    "spanish": "Cuchillo esqueletizado | Tela escarlata",
+    "swedish": "Skeleton-kniv | Crimson Web",
+    "tchinese": "骷顱刀 | 赤紅之網",
+    "thai": "มีดสเกเลตัน | Crimson Web",
+    "turkish": "İskelet Bıçak | Kızıl Ağ",
+    "ukrainian": "Скелетний ніж | Криваве павутиння",
+    "vietnamese": "Dao Skeleton | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__525-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/525-12/light.png",
+      "data/api/media/rendered/files/skins/525-12/medium.png",
+      "data/api/media/rendered/files/skins/525-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/525-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/525-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/525-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/525-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/525-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_skeleton_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_skeleton_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_skeleton_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "Skeleton Knife | Crimson Web",
+  "search_slug": "skeleton-knife-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "525-12__normal__vanilla",
+    "525-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-skeleton",
+    "id": 525,
+    "localized_names": {
+      "brazilian": "Faca Esqueleto",
+      "bulgarian": "Скелетен нож",
+      "czech": "Skeletový nůž",
+      "danish": "Skeletkniv",
+      "dutch": "Skeletonmes",
+      "english": "Skeleton Knife",
+      "finnish": "Skeleton-puukko",
+      "french": "Couteau squelettique",
+      "german": "Skelettmesser",
+      "greek": "Μαχαίρι Skeleton",
+      "hungarian": "Csontváz kés",
+      "indonesian": "Pisau Skeleton",
+      "italian": "Coltello Scheletro",
+      "japanese": "Skeleton ナイフ",
+      "koreana": "스켈레톤 칼",
+      "latam": "Cuchillo esqueletizado",
+      "norwegian": "Skjelettkniv",
+      "polish": "Nóż szkieletowy",
+      "portuguese": "Faca Skeleton",
+      "romanian": "Cuțit scheletic",
+      "russian": "Скелетный нож",
+      "schinese": "骷髅匕首",
+      "schinese_pw": "Skeleton Knife",
+      "spanish": "Cuchillo esqueletizado",
+      "swedish": "Skeleton-kniv",
+      "tchinese": "骷顱刀",
+      "thai": "มีดสเกเลตัน",
+      "turkish": "İskelet Bıçak",
+      "ukrainian": "Скелетний ніж",
+      "vietnamese": "Dao Skeleton"
+    },
+    "name": "Skeleton Knife",
+    "search_slug": "skeleton-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

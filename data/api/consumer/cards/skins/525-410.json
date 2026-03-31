@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "525-410",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-damascus",
+    "catalog_id": 410,
+    "id": 410,
+    "localized_names": {
+      "brazilian": "Aço de Damasco",
+      "bulgarian": "Дамаска стомана",
+      "czech": "Damascus Steel",
+      "danish": "Damascus Steel",
+      "dutch": "Damascus Steel",
+      "english": "Damascus Steel",
+      "finnish": "Damaskiteräs",
+      "french": "Acier de Damas",
+      "german": "Damaszener Stahl",
+      "greek": "Damascus Steel",
+      "hungarian": "Damaszkuszi Acél",
+      "indonesian": "Damascus Steel",
+      "italian": "Damascus Steel",
+      "japanese": "Damascus Steel",
+      "koreana": "다마스크 강철",
+      "latam": "Acero de damasco",
+      "norwegian": "Damascus Steel",
+      "polish": "Stal damasceńska",
+      "portuguese": "Damascus Steel",
+      "romanian": "Damascus Steel",
+      "russian": "Дамасская сталь",
+      "schinese": "大马士革钢",
+      "schinese_pw": "Damascus Steel",
+      "spanish": "Acero de damasco",
+      "swedish": "Damascus Steel",
+      "tchinese": "大馬士革鋼",
+      "thai": "Damascus Steel",
+      "turkish": "Şam Çeliği",
+      "ukrainian": "Дамаська сталь",
+      "vietnamese": "Damascus Steel"
+    },
+    "name": "Damascus Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "525-410",
+  "localized_names": {
+    "brazilian": "Faca Esqueleto | Aço de Damasco",
+    "bulgarian": "Скелетен нож | Дамаска стомана",
+    "czech": "Skeletový nůž | Damascus Steel",
+    "danish": "Skeletkniv | Damascus Steel",
+    "dutch": "Skeletonmes | Damascus Steel",
+    "english": "Skeleton Knife | Damascus Steel",
+    "finnish": "Skeleton-puukko | Damaskiteräs",
+    "french": "Couteau squelettique | Acier de Damas",
+    "german": "Skelettmesser | Damaszener Stahl",
+    "greek": "Μαχαίρι Skeleton | Damascus Steel",
+    "hungarian": "Csontváz kés | Damaszkuszi Acél",
+    "indonesian": "Pisau Skeleton | Damascus Steel",
+    "italian": "Coltello Scheletro | Damascus Steel",
+    "japanese": "Skeleton ナイフ | Damascus Steel",
+    "koreana": "스켈레톤 칼 | 다마스크 강철",
+    "latam": "Cuchillo esqueletizado | Acero de damasco",
+    "norwegian": "Skjelettkniv | Damascus Steel",
+    "polish": "Nóż szkieletowy | Stal damasceńska",
+    "portuguese": "Faca Skeleton | Damascus Steel",
+    "romanian": "Cuțit scheletic | Damascus Steel",
+    "russian": "Скелетный нож | Дамасская сталь",
+    "schinese": "骷髅匕首 | 大马士革钢",
+    "schinese_pw": "Skeleton Knife | Damascus Steel",
+    "spanish": "Cuchillo esqueletizado | Acero de damasco",
+    "swedish": "Skeleton-kniv | Damascus Steel",
+    "tchinese": "骷顱刀 | 大馬士革鋼",
+    "thai": "มีดสเกเลตัน | Damascus Steel",
+    "turkish": "İskelet Bıçak | Şam Çeliği",
+    "ukrainian": "Скелетний ніж | Дамаська сталь",
+    "vietnamese": "Dao Skeleton | Damascus Steel"
+  },
+  "media": {
+    "asset_id": "skin__525-410",
+    "images_png": [
+      "data/api/media/rendered/files/skins/525-410/light.png",
+      "data/api/media/rendered/files/skins/525-410/medium.png",
+      "data/api/media/rendered/files/skins/525-410/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/525-410.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/525-410/heavy.png",
+      "light": "data/api/media/rendered/files/skins/525-410/light.png",
+      "medium": "data/api/media/rendered/files/skins/525-410/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/525-410/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_skeleton_aq_damascus_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_skeleton_aq_damascus_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_skeleton_aq_damascus_medium_png.vtex_c"
+    }
+  },
+  "name": "Skeleton Knife | Damascus Steel",
+  "search_slug": "skeleton-knife-damascus-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-35",
+        "id": 7007,
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "search_slug": "fever-case",
+        "via_special_pool": "set_community_35_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-35-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_35_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-35-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "525-410__normal__battle-scarred",
+    "525-410__normal__factory-new",
+    "525-410__normal__field-tested",
+    "525-410__normal__minimal-wear",
+    "525-410__normal__well-worn",
+    "525-410__stattrak__battle-scarred",
+    "525-410__stattrak__factory-new",
+    "525-410__stattrak__field-tested",
+    "525-410__stattrak__minimal-wear",
+    "525-410__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-skeleton",
+    "id": 525,
+    "localized_names": {
+      "brazilian": "Faca Esqueleto",
+      "bulgarian": "Скелетен нож",
+      "czech": "Skeletový nůž",
+      "danish": "Skeletkniv",
+      "dutch": "Skeletonmes",
+      "english": "Skeleton Knife",
+      "finnish": "Skeleton-puukko",
+      "french": "Couteau squelettique",
+      "german": "Skelettmesser",
+      "greek": "Μαχαίρι Skeleton",
+      "hungarian": "Csontváz kés",
+      "indonesian": "Pisau Skeleton",
+      "italian": "Coltello Scheletro",
+      "japanese": "Skeleton ナイフ",
+      "koreana": "스켈레톤 칼",
+      "latam": "Cuchillo esqueletizado",
+      "norwegian": "Skjelettkniv",
+      "polish": "Nóż szkieletowy",
+      "portuguese": "Faca Skeleton",
+      "romanian": "Cuțit scheletic",
+      "russian": "Скелетный нож",
+      "schinese": "骷髅匕首",
+      "schinese_pw": "Skeleton Knife",
+      "spanish": "Cuchillo esqueletizado",
+      "swedish": "Skeleton-kniv",
+      "tchinese": "骷顱刀",
+      "thai": "มีดสเกเลตัน",
+      "turkish": "İskelet Bıçak",
+      "ukrainian": "Скелетний ніж",
+      "vietnamese": "Dao Skeleton"
+    },
+    "name": "Skeleton Knife",
+    "search_slug": "skeleton-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

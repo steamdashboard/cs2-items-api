@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "512-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-175",
+  "localized_names": {
+    "brazilian": "Canivete Falchion | Brasas",
+    "bulgarian": "Нож „Фалчион“ | Обгорено",
+    "czech": "Falchion | Scorched",
+    "danish": "Falchion-kniv | Scorched",
+    "dutch": "Falchion-mes | Scorched",
+    "english": "Falchion Knife | Scorched",
+    "finnish": "Falchion-veitsi | Korventunut",
+    "french": "Couteau fauchon | Brûlé",
+    "german": "Falchion-Messer | Versengt",
+    "greek": "Μαχαίρι Falchion | Scorched",
+    "hungarian": "Handzsárkés | Megperzselt",
+    "indonesian": "Pisau Falchion | Scorched",
+    "italian": "Coltello falchion | Scorched",
+    "japanese": "Falchion ナイフ | Scorched",
+    "koreana": "파르치온 칼 | 그을림",
+    "latam": "Cuchillo alfanje | Chamuscado",
+    "norwegian": "Falchion-kniv | Scorched",
+    "polish": "Nóż falcjon | Popiół",
+    "portuguese": "Faca Falchion | Scorched",
+    "romanian": "Cuțit Falchion | Scorched",
+    "russian": "Фальшион | Сажа",
+    "schinese": "弯刀 | 枯焦之色",
+    "schinese_pw": "Falchion Knife | Scorched",
+    "spanish": "Cuchillo Alfanje | Chamuscado",
+    "swedish": "Falchionkniv | Scorched",
+    "tchinese": "彎刃匕首 | 熾灼",
+    "thai": "มีดฟัลชิออน | Scorched",
+    "turkish": "Pala Bıçağı | Alazlanmış",
+    "ukrainian": "Ніж-фальшіон | Випалення",
+    "vietnamese": "Dao Falchion | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__512-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/512-175/light.png",
+      "data/api/media/rendered/files/skins/512-175/medium.png",
+      "data/api/media/rendered/files/skins/512-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/512-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/512-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/512-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/512-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/512-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_falchion_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_falchion_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_falchion_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Falchion Knife | Scorched",
+  "search_slug": "falchion-knife-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-8",
+        "id": 4091,
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "search_slug": "falchion-case",
+        "via_special_pool": "community_case_8_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-8-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_8_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Falchion Knife ★",
+        "search_slug": "community-case-8-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "512-175__normal__vanilla",
+    "512-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-falchion",
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Canivete Falchion",
+      "bulgarian": "Нож „Фалчион“",
+      "czech": "Falchion",
+      "danish": "Falchion-kniv",
+      "dutch": "Falchion-mes",
+      "english": "Falchion Knife",
+      "finnish": "Falchion-veitsi",
+      "french": "Couteau fauchon",
+      "german": "Falchion-Messer",
+      "greek": "Μαχαίρι Falchion",
+      "hungarian": "Handzsárkés",
+      "indonesian": "Pisau Falchion",
+      "italian": "Coltello falchion",
+      "japanese": "Falchion ナイフ",
+      "koreana": "파르치온 칼",
+      "latam": "Cuchillo alfanje",
+      "norwegian": "Falchion-kniv",
+      "polish": "Nóż falcjon",
+      "portuguese": "Faca Falchion",
+      "romanian": "Cuțit Falchion",
+      "russian": "Фальшион",
+      "schinese": "弯刀",
+      "schinese_pw": "Falchion Knife",
+      "spanish": "Cuchillo Alfanje",
+      "swedish": "Falchionkniv",
+      "tchinese": "彎刃匕首",
+      "thai": "มีดฟัลชิออน",
+      "turkish": "Pala Bıçağı",
+      "ukrainian": "Ніж-фальшіон",
+      "vietnamese": "Dao Falchion"
+    },
+    "name": "Falchion Knife",
+    "search_slug": "falchion-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

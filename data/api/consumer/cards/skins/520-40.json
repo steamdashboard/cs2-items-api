@@ -1,0 +1,196 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "520-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "520-40",
+  "localized_names": {
+    "brazilian": "Faca Navaja | Noite",
+    "bulgarian": "Наваха нож | Нощно",
+    "czech": "Nůž Navaja | Night",
+    "danish": "Navaja-kniv | Night",
+    "dutch": "Navaja | Night",
+    "english": "Navaja Knife | Night",
+    "finnish": "Linkkuveitsi | Yö",
+    "french": "Navaja | Nuit",
+    "german": "Navaja-Messer | Nacht",
+    "greek": "Μαχαίρι Navaja | Night",
+    "hungarian": "Navaja kés | Éjszaka",
+    "indonesian": "Pisau Navaja | Night",
+    "italian": "Coltello Navaja | Night",
+    "japanese": "Navaja ナイフ | Night",
+    "koreana": "나바하 칼 | 밤",
+    "latam": "Navaja | Nocturno",
+    "norwegian": "Navaja | Night",
+    "polish": "Navaja | Noc",
+    "portuguese": "Faca Navaja | Night",
+    "romanian": "Cuțit Navaja | Night",
+    "russian": "Наваха | Ночь",
+    "schinese": "折刀 | 噩梦之夜",
+    "schinese_pw": "Navaja Knife | Night",
+    "spanish": "Navaja | Noche cerrada",
+    "swedish": "Navajakniv | Night",
+    "tchinese": "西班牙折刀 | 惡夢之夜",
+    "thai": "มีดนาวาฮา | Night",
+    "turkish": "Navaja Bıçağı | Gece",
+    "ukrainian": "Наваха | Ніч",
+    "vietnamese": "Dao Navaja | Night"
+  },
+  "media": {
+    "asset_id": "weapon__520",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_gypsy_jackknife_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/520/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/520.json",
+    "models": [
+      "weapons/models/knife/knife_navaja/weapon_knife_navaja.vmdl_c",
+      "phase2/weapons/models/knife/knife_navaja/weapon_knife_navaja_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/520/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_gypsy_jackknife_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Navaja Knife | Night",
+  "search_slug": "navaja-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "520-40__normal__vanilla",
+    "520-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gypsy-jackknife",
+    "id": 520,
+    "localized_names": {
+      "brazilian": "Faca Navaja",
+      "bulgarian": "Наваха нож",
+      "czech": "Nůž Navaja",
+      "danish": "Navaja-kniv",
+      "dutch": "Navaja",
+      "english": "Navaja Knife",
+      "finnish": "Linkkuveitsi",
+      "french": "Navaja",
+      "german": "Navaja-Messer",
+      "greek": "Μαχαίρι Navaja",
+      "hungarian": "Navaja kés",
+      "indonesian": "Pisau Navaja",
+      "italian": "Coltello Navaja",
+      "japanese": "Navaja ナイフ",
+      "koreana": "나바하 칼",
+      "latam": "Navaja",
+      "norwegian": "Navaja",
+      "polish": "Navaja",
+      "portuguese": "Faca Navaja",
+      "romanian": "Cuțit Navaja",
+      "russian": "Наваха",
+      "schinese": "折刀",
+      "schinese_pw": "Navaja Knife",
+      "spanish": "Navaja",
+      "swedish": "Navajakniv",
+      "tchinese": "西班牙折刀",
+      "thai": "มีดนาวาฮา",
+      "turkish": "Navaja Bıçağı",
+      "ukrainian": "Наваха",
+      "vietnamese": "Dao Navaja"
+    },
+    "name": "Navaja Knife",
+    "search_slug": "navaja-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

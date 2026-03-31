@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "517-580",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marked-up",
+    "catalog_id": 580,
+    "id": 580,
+    "localized_names": {
+      "brazilian": "Mão Livre",
+      "bulgarian": "Скицирано",
+      "czech": "Freehand",
+      "danish": "Freehand",
+      "dutch": "Freehand",
+      "english": "Freehand",
+      "finnish": "Vapaa käsi",
+      "french": "Signature",
+      "german": "Freihändig",
+      "greek": "Freehand",
+      "hungarian": "Szabad Kéz",
+      "indonesian": "Freehand",
+      "italian": "Freehand",
+      "japanese": "Freehand",
+      "koreana": "자유형",
+      "latam": "Mano alzada",
+      "norwegian": "Freehand",
+      "polish": "Rękodzieło",
+      "portuguese": "Freehand",
+      "romanian": "Freehand",
+      "russian": "Ручная роспись",
+      "schinese": "自由之手",
+      "schinese_pw": "Freehand",
+      "spanish": "Mano alzada",
+      "swedish": "Freehand",
+      "tchinese": "手繪紋",
+      "thai": "Freehand",
+      "turkish": "Boşel",
+      "ukrainian": "Ручний розпис",
+      "vietnamese": "Freehand"
+    },
+    "name": "Freehand",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.48,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-580",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Mão Livre",
+    "bulgarian": "Паракорд нож | Скицирано",
+    "czech": "Výsadkářský nůž | Freehand",
+    "danish": "Paracordkniv | Freehand",
+    "dutch": "Paracordmes | Freehand",
+    "english": "Paracord Knife | Freehand",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Vapaa käsi",
+    "french": "Couteau en paracorde | Signature",
+    "german": "Fallschirm-Messer | Freihändig",
+    "greek": "Μαχαίρι Paracord | Freehand",
+    "hungarian": "Paracord kés | Szabad Kéz",
+    "indonesian": "Pisau Paracord | Freehand",
+    "italian": "Coltello Paracord | Freehand",
+    "japanese": "Paracord ナイフ | Freehand",
+    "koreana": "파라코드 칼 | 자유형",
+    "latam": "Cuchillo encordado | Mano alzada",
+    "norwegian": "Paracordkniv | Freehand",
+    "polish": "Nóż paracord | Rękodzieło",
+    "portuguese": "Faca Paracord | Freehand",
+    "romanian": "Cuțit Paracord | Freehand",
+    "russian": "Паракорд-нож | Ручная роспись",
+    "schinese": "系绳匕首 | 自由之手",
+    "schinese_pw": "Paracord Knife | Freehand",
+    "spanish": "Cuchillo encordado | Mano alzada",
+    "swedish": "Paracordkniv | Freehand",
+    "tchinese": "繩柄刀 | 手繪紋",
+    "thai": "มีดพาราคอร์ด | Freehand",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Boşel",
+    "ukrainian": "Тактичний ніж | Ручний розпис",
+    "vietnamese": "Dao Paracord | Freehand"
+  },
+  "media": {
+    "asset_id": "weapon__517",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/517/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/517.json",
+    "models": [
+      "weapons/models/knife/knife_cord/weapon_knife_cord.vmdl_c",
+      "phase2/weapons/models/knife/knife_cord/weapon_knife_cord_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/517/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Paracord Knife | Freehand",
+  "search_slug": "paracord-knife-freehand",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-29",
+        "id": 4790,
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "search_slug": "operation-riptide-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-30",
+        "id": 4818,
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "search_slug": "dreams-nightmares-case",
+        "via_special_pool": "gamma2_knives2_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "gamma2-knives2-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "gamma2_knives2_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "gamma2-knives2-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-580__normal__battle-scarred",
+    "517-580__normal__factory-new",
+    "517-580__normal__field-tested",
+    "517-580__normal__minimal-wear",
+    "517-580__normal__well-worn",
+    "517-580__stattrak__battle-scarred",
+    "517-580__stattrak__factory-new",
+    "517-580__stattrak__field-tested",
+    "517-580__stattrak__minimal-wear",
+    "517-580__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.48,
+    "min_float": 0.0
+  }
+}

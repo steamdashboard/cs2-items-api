@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "521-77",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-forest-boreal",
+    "catalog_id": 77,
+    "id": 77,
+    "localized_names": {
+      "brazilian": "Floresta Boreal",
+      "bulgarian": "Северна гора",
+      "czech": "Boreal Forest",
+      "danish": "Boreal Forest",
+      "dutch": "Boreal Forest",
+      "english": "Boreal Forest",
+      "finnish": "Pohjoismetsä",
+      "french": "Forêt boréale",
+      "german": "Borealer Nadelwald",
+      "greek": "Boreal Forest",
+      "hungarian": "Északi Erdő",
+      "indonesian": "Boreal Forest",
+      "italian": "Boreal Forest",
+      "japanese": "Boreal Forest",
+      "koreana": "북방림",
+      "latam": "Bosque boreal",
+      "norwegian": "Boreal Forest",
+      "polish": "Tajga",
+      "portuguese": "Boreal Forest",
+      "romanian": "Boreal Forest",
+      "russian": "Северный лес",
+      "schinese": "北方森林",
+      "schinese_pw": "Boreal Forest",
+      "spanish": "Bosque boreal",
+      "swedish": "Boreal Forest",
+      "tchinese": "北寒帶林",
+      "thai": "Boreal Forest",
+      "turkish": "Kuzey Ormanı",
+      "ukrainian": "Тундра",
+      "vietnamese": "Boreal Forest"
+    },
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "521-77",
+  "localized_names": {
+    "brazilian": "Faca Nômade | Floresta Boreal",
+    "bulgarian": "Номадският нож | Северна гора",
+    "czech": "Outdoorový nůž | Boreal Forest",
+    "danish": "Nomadekniv | Boreal Forest",
+    "dutch": "Nomademes | Boreal Forest",
+    "english": "Nomad Knife | Boreal Forest",
+    "finnish": "Nomad-puukko | Pohjoismetsä",
+    "french": "Couteau de nomade | Forêt boréale",
+    "german": "Nomadenmesser | Borealer Nadelwald",
+    "greek": "Μαχαίρι Nomad | Boreal Forest",
+    "hungarian": "Nomád kés | Északi Erdő",
+    "indonesian": "Pisau Nomad | Boreal Forest",
+    "italian": "Coltello Nomade | Boreal Forest",
+    "japanese": "Nomad ナイフ | Boreal Forest",
+    "koreana": "노매드 칼 | 북방림",
+    "latam": "Cuchillo nómada | Bosque boreal",
+    "norwegian": "Nomadekniv | Boreal Forest",
+    "polish": "Nóż nomada | Tajga",
+    "portuguese": "Faca Nomad | Boreal Forest",
+    "romanian": "Cuțit Nomad | Boreal Forest",
+    "russian": "Нож «Бродяга» | Северный лес",
+    "schinese": "流浪者匕首 | 北方森林",
+    "schinese_pw": "Nomad Knife | Boreal Forest",
+    "spanish": "Cuchillo nómada | Bosque boreal",
+    "swedish": "Nomad-kniv | Boreal Forest",
+    "tchinese": "流浪者小刀 | 北寒帶林",
+    "thai": "มีดโนแมด | Boreal Forest",
+    "turkish": "Göçebe Bıçağı | Kuzey Ormanı",
+    "ukrainian": "Польовий ніж | Тундра",
+    "vietnamese": "Dao Nomad | Boreal Forest"
+  },
+  "media": {
+    "asset_id": "skin__521-77",
+    "images_png": [
+      "data/api/media/rendered/files/skins/521-77/light.png",
+      "data/api/media/rendered/files/skins/521-77/medium.png",
+      "data/api/media/rendered/files/skins/521-77/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/521-77.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/521-77/heavy.png",
+      "light": "data/api/media/rendered/files/skins/521-77/light.png",
+      "medium": "data/api/media/rendered/files/skins/521-77/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/521-77/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_outdoor_hy_forest_boreal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_outdoor_hy_forest_boreal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_outdoor_hy_forest_boreal_medium_png.vtex_c"
+    }
+  },
+  "name": "Nomad Knife | Boreal Forest",
+  "search_slug": "nomad-knife-boreal-forest",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "521-77__normal__vanilla",
+    "521-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-outdoor",
+    "id": 521,
+    "localized_names": {
+      "brazilian": "Faca Nômade",
+      "bulgarian": "Номадският нож",
+      "czech": "Outdoorový nůž",
+      "danish": "Nomadekniv",
+      "dutch": "Nomademes",
+      "english": "Nomad Knife",
+      "finnish": "Nomad-puukko",
+      "french": "Couteau de nomade",
+      "german": "Nomadenmesser",
+      "greek": "Μαχαίρι Nomad",
+      "hungarian": "Nomád kés",
+      "indonesian": "Pisau Nomad",
+      "italian": "Coltello Nomade",
+      "japanese": "Nomad ナイフ",
+      "koreana": "노매드 칼",
+      "latam": "Cuchillo nómada",
+      "norwegian": "Nomadekniv",
+      "polish": "Nóż nomada",
+      "portuguese": "Faca Nomad",
+      "romanian": "Cuțit Nomad",
+      "russian": "Нож «Бродяга»",
+      "schinese": "流浪者匕首",
+      "schinese_pw": "Nomad Knife",
+      "spanish": "Cuchillo nómada",
+      "swedish": "Nomad-kniv",
+      "tchinese": "流浪者小刀",
+      "thai": "มีดโนแมด",
+      "turkish": "Göçebe Bıçağı",
+      "ukrainian": "Польовий ніж",
+      "vietnamese": "Dao Nomad"
+    },
+    "name": "Nomad Knife",
+    "search_slug": "nomad-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

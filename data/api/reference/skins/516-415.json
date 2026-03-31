@@ -1,0 +1,89 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "516-415",
+  "finish": {
+    "codename": "am_ruby_marbleized",
+    "id": 415,
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 415,
+    "weapon_id": 516
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-415",
+  "name": "Shadow Daggers | Doppler",
+  "search_slug": "shadow-daggers-doppler",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "spectrum-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "spectrum_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "spectrum-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-16",
+            "id": 4351,
+            "kind": "weapon-case",
+            "name": "Spectrum Case",
+            "search_slug": "spectrum-case"
+          },
+          {
+            "canonical_slug": "crate-community-18",
+            "id": 4403,
+            "kind": "weapon-case",
+            "name": "Spectrum 2 Case",
+            "search_slug": "spectrum-2-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "516-415__normal__factory-new",
+    "516-415__normal__minimal-wear",
+    "516-415__stattrak__factory-new",
+    "516-415__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_push",
+    "id": 516,
+    "name": "Shadow Daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

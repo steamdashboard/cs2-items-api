@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "509-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "509-409",
+  "localized_names": {
+    "brazilian": "Faca do Caçador | Dente de Tigre",
+    "bulgarian": "Ловджийски нож | Тигров зъб",
+    "czech": "Lovecký nůž | Tiger Tooth",
+    "danish": "Huntsman-kniv | Tiger Tooth",
+    "dutch": "Jagersmes | Tiger Tooth",
+    "english": "Huntsman Knife | Tiger Tooth",
+    "finnish": "Metsämiehen veitsi | Tiikerinhammas",
+    "french": "Couteau de chasse | Dent de tigre",
+    "german": "Jagdmesser | Tigerzahn",
+    "greek": "Μαχαίρι Huntsman | Tiger Tooth",
+    "hungarian": "Vadászkés | Tigrisfog",
+    "indonesian": "Pisau Pemburu | Tiger Tooth",
+    "italian": "Coltello da cacciatore | Tiger Tooth",
+    "japanese": "Huntsman ナイフ | Tiger Tooth",
+    "koreana": "헌츠맨 칼 | 호랑이 이빨",
+    "latam": "Cuchillo de cazador | Diente de tigre",
+    "norwegian": "Jegerkniv | Tiger Tooth",
+    "polish": "Nóż myśliwski | Tygrysi kieł",
+    "portuguese": "Faca Huntsman | Tiger Tooth",
+    "romanian": "Cuțit Huntsman | Tiger Tooth",
+    "russian": "Охотничий нож | Зуб тигра",
+    "schinese": "猎杀者匕首 | 虎牙",
+    "schinese_pw": "Huntsman Knife | Tiger Tooth",
+    "spanish": "Cuchillo del Cazador | Diente de tigre",
+    "swedish": "Huntsmankniv | Tiger Tooth",
+    "tchinese": "獵刀 | 虎牙",
+    "thai": "มีดนายพราน | Tiger Tooth",
+    "turkish": "Avcı Bıçağı | Kaplan Dişi",
+    "ukrainian": "Мисливський ніж | Тигряче ікло",
+    "vietnamese": "Dao Huntsman | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__509-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/509-409/light.png",
+      "data/api/media/rendered/files/skins/509-409/medium.png",
+      "data/api/media/rendered/files/skins/509-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/509-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/509-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/509-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/509-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/509-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_tactical_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_tactical_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_tactical_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Huntsman Knife | Tiger Tooth",
+  "search_slug": "huntsman-knife-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-16",
+        "id": 4351,
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "search_slug": "spectrum-case",
+        "via_special_pool": "spectrum_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-18",
+        "id": 4403,
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "search_slug": "spectrum-2-case",
+        "via_special_pool": "spectrum_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "spectrum-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "spectrum_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "spectrum-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "509-409__normal__factory-new",
+    "509-409__normal__minimal-wear",
+    "509-409__stattrak__factory-new",
+    "509-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-tactical",
+    "id": 509,
+    "localized_names": {
+      "brazilian": "Faca do Caçador",
+      "bulgarian": "Ловджийски нож",
+      "czech": "Lovecký nůž",
+      "danish": "Huntsman-kniv",
+      "dutch": "Jagersmes",
+      "english": "Huntsman Knife",
+      "finnish": "Metsämiehen veitsi",
+      "french": "Couteau de chasse",
+      "german": "Jagdmesser",
+      "greek": "Μαχαίρι Huntsman",
+      "hungarian": "Vadászkés",
+      "indonesian": "Pisau Pemburu",
+      "italian": "Coltello da cacciatore",
+      "japanese": "Huntsman ナイフ",
+      "koreana": "헌츠맨 칼",
+      "latam": "Cuchillo de cazador",
+      "norwegian": "Jegerkniv",
+      "polish": "Nóż myśliwski",
+      "portuguese": "Faca Huntsman",
+      "romanian": "Cuțit Huntsman",
+      "russian": "Охотничий нож",
+      "schinese": "猎杀者匕首",
+      "schinese_pw": "Huntsman Knife",
+      "spanish": "Cuchillo del Cazador",
+      "swedish": "Huntsmankniv",
+      "tchinese": "獵刀",
+      "thai": "มีดนายพราน",
+      "turkish": "Avcı Bıçağı",
+      "ukrainian": "Мисливський ніж",
+      "vietnamese": "Dao Huntsman"
+    },
+    "name": "Huntsman Knife",
+    "search_slug": "huntsman-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

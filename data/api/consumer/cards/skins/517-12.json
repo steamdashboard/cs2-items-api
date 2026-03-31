@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "517-12",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-webs",
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-12",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Teia Rubra",
+    "bulgarian": "Паракорд нож | Пурпурна паяжина",
+    "czech": "Výsadkářský nůž | Crimson Web",
+    "danish": "Paracordkniv | Crimson Web",
+    "dutch": "Paracordmes | Crimson Web",
+    "english": "Paracord Knife | Crimson Web",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Verenpunainen seitti",
+    "french": "Couteau en paracorde | Toile pourpre",
+    "german": "Fallschirm-Messer | Purpurnes Netz",
+    "greek": "Μαχαίρι Paracord | Crimson Web",
+    "hungarian": "Paracord kés | Karmazsin Háló",
+    "indonesian": "Pisau Paracord | Crimson Web",
+    "italian": "Coltello Paracord | Crimson Web",
+    "japanese": "Paracord ナイフ | Crimson Web",
+    "koreana": "파라코드 칼 | 붉은 그물",
+    "latam": "Cuchillo encordado | Tela escarlata",
+    "norwegian": "Paracordkniv | Crimson Web",
+    "polish": "Nóż paracord | Szkarłatna sieć",
+    "portuguese": "Faca Paracord | Crimson Web",
+    "romanian": "Cuțit Paracord | Crimson Web",
+    "russian": "Паракорд-нож | Кровавая паутина",
+    "schinese": "系绳匕首 | 深红之网",
+    "schinese_pw": "Paracord Knife | Crimson Web",
+    "spanish": "Cuchillo encordado | Tela escarlata",
+    "swedish": "Paracordkniv | Crimson Web",
+    "tchinese": "繩柄刀 | 赤紅之網",
+    "thai": "มีดพาราคอร์ด | Crimson Web",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Kızıl Ağ",
+    "ukrainian": "Тактичний ніж | Криваве павутиння",
+    "vietnamese": "Dao Paracord | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__517-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/517-12/light.png",
+      "data/api/media/rendered/files/skins/517-12/medium.png",
+      "data/api/media/rendered/files/skins/517-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/517-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/517-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/517-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/517-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/517-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_cord_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_cord_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_cord_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "Paracord Knife | Crimson Web",
+  "search_slug": "paracord-knife-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-12__normal__vanilla",
+    "517-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

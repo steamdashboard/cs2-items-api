@@ -1,0 +1,89 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "525-572",
+  "finish": {
+    "codename": "am_gamma_doppler_phase4",
+    "id": 572,
+    "name": "Gamma Doppler",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 572,
+    "weapon_id": 525
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "525-572",
+  "name": "Skeleton Knife | Gamma Doppler",
+  "search_slug": "skeleton-knife-gamma-doppler",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "gamma2-knives2-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "gamma2_knives2_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "gamma2-knives2-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-29",
+            "id": 4790,
+            "kind": "weapon-case",
+            "name": "Operation Riptide Case",
+            "search_slug": "operation-riptide-case"
+          },
+          {
+            "canonical_slug": "crate-community-30",
+            "id": 4818,
+            "kind": "weapon-case",
+            "name": "Dreams & Nightmares Case",
+            "search_slug": "dreams-nightmares-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "525-572__normal__factory-new",
+    "525-572__normal__minimal-wear",
+    "525-572__stattrak__factory-new",
+    "525-572__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_skeleton",
+    "id": 525,
+    "name": "Skeleton Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

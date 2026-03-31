@@ -1,0 +1,71 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "canonical_slug": "5034-10061",
+  "finish": {
+    "codename": "specialist_webs_red",
+    "id": 10061,
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": null
+  },
+  "game_ref": {
+    "paint_kit_id": 10061,
+    "weapon_id": 5034
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5034-10061",
+  "name": "Specialist Gloves | Crimson Web",
+  "search_slug": "specialist-gloves-crimson-web",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-19-unusual",
+        "expansion_rule": "hydra-era-gloves",
+        "id": "set_community_19_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-19-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-19",
+            "id": 4471,
+            "kind": "weapon-case",
+            "name": "Clutch Case",
+            "search_slug": "clutch-case"
+          },
+          {
+            "canonical_slug": "crate-community-32",
+            "id": 4880,
+            "kind": "weapon-case",
+            "name": "Revolution Case",
+            "search_slug": "revolution-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "5034-10061__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "specialist_gloves",
+    "id": 5034,
+    "name": "Specialist Gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

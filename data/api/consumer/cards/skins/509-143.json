@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "509-143",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-tape-urban",
+    "catalog_id": 143,
+    "id": 143,
+    "localized_names": {
+      "brazilian": "Máscara Urbana",
+      "bulgarian": "Градска маскировка",
+      "czech": "Urban Masked",
+      "danish": "Urban Masked",
+      "dutch": "Urban Masked",
+      "english": "Urban Masked",
+      "finnish": "Kaupunkilaisnaamioitu",
+      "french": "Masque urbain",
+      "german": "Städtisch maskiert",
+      "greek": "Urban Masked",
+      "hungarian": "Városi Maszkolt",
+      "indonesian": "Urban Masked",
+      "italian": "Urban Masked",
+      "japanese": "Urban Masked",
+      "koreana": "도시의 위장",
+      "latam": "Pátina urbana",
+      "norwegian": "Urban Masked",
+      "polish": "Miejski zamaskowany",
+      "portuguese": "Urban Masked",
+      "romanian": "Urban Masked",
+      "russian": "Городская маскировка",
+      "schinese": "都市伪装",
+      "schinese_pw": "Urban Masked",
+      "spanish": "Pátina urbana",
+      "swedish": "Urban Masked",
+      "tchinese": "都市偽裝",
+      "thai": "Urban Masked",
+      "turkish": "Gizli Şehir",
+      "ukrainian": "Міське маскування",
+      "vietnamese": "Urban Masked"
+    },
+    "name": "Urban Masked",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "509-143",
+  "localized_names": {
+    "brazilian": "Faca do Caçador | Máscara Urbana",
+    "bulgarian": "Ловджийски нож | Градска маскировка",
+    "czech": "Lovecký nůž | Urban Masked",
+    "danish": "Huntsman-kniv | Urban Masked",
+    "dutch": "Jagersmes | Urban Masked",
+    "english": "Huntsman Knife | Urban Masked",
+    "finnish": "Metsämiehen veitsi | Kaupunkilaisnaamioitu",
+    "french": "Couteau de chasse | Masque urbain",
+    "german": "Jagdmesser | Städtisch maskiert",
+    "greek": "Μαχαίρι Huntsman | Urban Masked",
+    "hungarian": "Vadászkés | Városi Maszkolt",
+    "indonesian": "Pisau Pemburu | Urban Masked",
+    "italian": "Coltello da cacciatore | Urban Masked",
+    "japanese": "Huntsman ナイフ | Urban Masked",
+    "koreana": "헌츠맨 칼 | 도시의 위장",
+    "latam": "Cuchillo de cazador | Pátina urbana",
+    "norwegian": "Jegerkniv | Urban Masked",
+    "polish": "Nóż myśliwski | Miejski zamaskowany",
+    "portuguese": "Faca Huntsman | Urban Masked",
+    "romanian": "Cuțit Huntsman | Urban Masked",
+    "russian": "Охотничий нож | Городская маскировка",
+    "schinese": "猎杀者匕首 | 都市伪装",
+    "schinese_pw": "Huntsman Knife | Urban Masked",
+    "spanish": "Cuchillo del Cazador | Pátina urbana",
+    "swedish": "Huntsmankniv | Urban Masked",
+    "tchinese": "獵刀 | 都市偽裝",
+    "thai": "มีดนายพราน | Urban Masked",
+    "turkish": "Avcı Bıçağı | Gizli Şehir",
+    "ukrainian": "Мисливський ніж | Міське маскування",
+    "vietnamese": "Dao Huntsman | Urban Masked"
+  },
+  "media": {
+    "asset_id": "skin__509-143",
+    "images_png": [
+      "data/api/media/rendered/files/skins/509-143/light.png",
+      "data/api/media/rendered/files/skins/509-143/medium.png",
+      "data/api/media/rendered/files/skins/509-143/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/509-143.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/509-143/heavy.png",
+      "light": "data/api/media/rendered/files/skins/509-143/light.png",
+      "medium": "data/api/media/rendered/files/skins/509-143/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/509-143/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_tactical_sp_tape_urban_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_tactical_sp_tape_urban_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_tactical_sp_tape_urban_medium_png.vtex_c"
+    }
+  },
+  "name": "Huntsman Knife | Urban Masked",
+  "search_slug": "huntsman-knife-urban-masked",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-3",
+        "id": 4017,
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
+        "via_special_pool": "community_case_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-3-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Huntsman Knife ★",
+        "search_slug": "community-case-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "509-143__normal__vanilla",
+    "509-143__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-tactical",
+    "id": 509,
+    "localized_names": {
+      "brazilian": "Faca do Caçador",
+      "bulgarian": "Ловджийски нож",
+      "czech": "Lovecký nůž",
+      "danish": "Huntsman-kniv",
+      "dutch": "Jagersmes",
+      "english": "Huntsman Knife",
+      "finnish": "Metsämiehen veitsi",
+      "french": "Couteau de chasse",
+      "german": "Jagdmesser",
+      "greek": "Μαχαίρι Huntsman",
+      "hungarian": "Vadászkés",
+      "indonesian": "Pisau Pemburu",
+      "italian": "Coltello da cacciatore",
+      "japanese": "Huntsman ナイフ",
+      "koreana": "헌츠맨 칼",
+      "latam": "Cuchillo de cazador",
+      "norwegian": "Jegerkniv",
+      "polish": "Nóż myśliwski",
+      "portuguese": "Faca Huntsman",
+      "romanian": "Cuțit Huntsman",
+      "russian": "Охотничий нож",
+      "schinese": "猎杀者匕首",
+      "schinese_pw": "Huntsman Knife",
+      "spanish": "Cuchillo del Cazador",
+      "swedish": "Huntsmankniv",
+      "tchinese": "獵刀",
+      "thai": "มีดนายพราน",
+      "turkish": "Avcı Bıçağı",
+      "ukrainian": "Мисливський ніж",
+      "vietnamese": "Dao Huntsman"
+    },
+    "name": "Huntsman Knife",
+    "search_slug": "huntsman-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

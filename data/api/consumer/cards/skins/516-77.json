@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "516-77",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-forest-boreal",
+    "catalog_id": 77,
+    "id": 77,
+    "localized_names": {
+      "brazilian": "Floresta Boreal",
+      "bulgarian": "Северна гора",
+      "czech": "Boreal Forest",
+      "danish": "Boreal Forest",
+      "dutch": "Boreal Forest",
+      "english": "Boreal Forest",
+      "finnish": "Pohjoismetsä",
+      "french": "Forêt boréale",
+      "german": "Borealer Nadelwald",
+      "greek": "Boreal Forest",
+      "hungarian": "Északi Erdő",
+      "indonesian": "Boreal Forest",
+      "italian": "Boreal Forest",
+      "japanese": "Boreal Forest",
+      "koreana": "북방림",
+      "latam": "Bosque boreal",
+      "norwegian": "Boreal Forest",
+      "polish": "Tajga",
+      "portuguese": "Boreal Forest",
+      "romanian": "Boreal Forest",
+      "russian": "Северный лес",
+      "schinese": "北方森林",
+      "schinese_pw": "Boreal Forest",
+      "spanish": "Bosque boreal",
+      "swedish": "Boreal Forest",
+      "tchinese": "北寒帶林",
+      "thai": "Boreal Forest",
+      "turkish": "Kuzey Ormanı",
+      "ukrainian": "Тундра",
+      "vietnamese": "Boreal Forest"
+    },
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-77",
+  "localized_names": {
+    "brazilian": "Adagas Sombrias | Floresta Boreal",
+    "bulgarian": "Мрачни кинжали | Северна гора",
+    "czech": "Pěstní dýky | Boreal Forest",
+    "danish": "Shadow-daggerter | Boreal Forest",
+    "dutch": "Schaduwdolken | Boreal Forest",
+    "english": "Shadow Daggers | Boreal Forest",
+    "finnish": "Varjotikarit | Pohjoismetsä",
+    "french": "Dagues sombres | Forêt boréale",
+    "german": "Schattendolche | Borealer Nadelwald",
+    "greek": "Shadow Daggers | Boreal Forest",
+    "hungarian": "Árnyéktőr | Északi Erdő",
+    "indonesian": "Belati Bayangan | Boreal Forest",
+    "italian": "Fendi ombra | Boreal Forest",
+    "japanese": "シャドウダガー | Boreal Forest",
+    "koreana": "섀도우 칼 | 북방림",
+    "latam": "Dagas Sombrías | Bosque boreal",
+    "norwegian": "Skyggedolker | Boreal Forest",
+    "polish": "Sztylety Cienia | Tajga",
+    "portuguese": "Shadow Daggers | Boreal Forest",
+    "romanian": "Pumnale Shadow | Boreal Forest",
+    "russian": "Тычковые ножи | Северный лес",
+    "schinese": "暗影双匕 | 北方森林",
+    "schinese_pw": "Shadow Daggers | Boreal Forest",
+    "spanish": "Dagas Sombrías | Bosque boreal",
+    "swedish": "Skuggdolkar | Boreal Forest",
+    "tchinese": "暗影匕首 | 北寒帶林",
+    "thai": "มีดชาโดว์ดักเกอร์ | Boreal Forest",
+    "turkish": "Gölge Hançerler | Kuzey Ormanı",
+    "ukrainian": "Тіньові ножі | Тундра",
+    "vietnamese": "Dao găm chữ T | Boreal Forest"
+  },
+  "media": {
+    "asset_id": "skin__516-77",
+    "images_png": [
+      "data/api/media/rendered/files/skins/516-77/light.png",
+      "data/api/media/rendered/files/skins/516-77/medium.png",
+      "data/api/media/rendered/files/skins/516-77/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/516-77.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/516-77/heavy.png",
+      "light": "data/api/media/rendered/files/skins/516-77/light.png",
+      "medium": "data/api/media/rendered/files/skins/516-77/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/516-77/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_push_hy_forest_boreal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_push_hy_forest_boreal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_push_hy_forest_boreal_medium_png.vtex_c"
+    }
+  },
+  "name": "Shadow Daggers | Boreal Forest",
+  "search_slug": "shadow-daggers-boreal-forest",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-9",
+        "id": 4138,
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "search_slug": "shadow-case",
+        "via_special_pool": "community_case_9_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-9-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_9_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Shadow Daggers ★",
+        "search_slug": "community-case-9-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "516-77__normal__vanilla",
+    "516-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-push",
+    "id": 516,
+    "localized_names": {
+      "brazilian": "Adagas Sombrias",
+      "bulgarian": "Мрачни кинжали",
+      "czech": "Pěstní dýky",
+      "danish": "Shadow-daggerter",
+      "dutch": "Schaduwdolken",
+      "english": "Shadow Daggers",
+      "finnish": "Varjotikarit",
+      "french": "Dagues sombres",
+      "german": "Schattendolche",
+      "greek": "Shadow Daggers",
+      "hungarian": "Árnyéktőr",
+      "indonesian": "Belati Bayangan",
+      "italian": "Fendi ombra",
+      "japanese": "シャドウダガー",
+      "koreana": "섀도우 칼",
+      "latam": "Dagas Sombrías",
+      "norwegian": "Skyggedolker",
+      "polish": "Sztylety Cienia",
+      "portuguese": "Shadow Daggers",
+      "romanian": "Pumnale Shadow",
+      "russian": "Тычковые ножи",
+      "schinese": "暗影双匕",
+      "schinese_pw": "Shadow Daggers",
+      "spanish": "Dagas Sombrías",
+      "swedish": "Skuggdolkar",
+      "tchinese": "暗影匕首",
+      "thai": "มีดชาโดว์ดักเกอร์",
+      "turkish": "Gölge Hançerler",
+      "ukrainian": "Тіньові ножі",
+      "vietnamese": "Dao găm chữ T"
+    },
+    "name": "Shadow Daggers",
+    "search_slug": "shadow-daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "512-143",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-tape-urban",
+    "catalog_id": 143,
+    "id": 143,
+    "localized_names": {
+      "brazilian": "Máscara Urbana",
+      "bulgarian": "Градска маскировка",
+      "czech": "Urban Masked",
+      "danish": "Urban Masked",
+      "dutch": "Urban Masked",
+      "english": "Urban Masked",
+      "finnish": "Kaupunkilaisnaamioitu",
+      "french": "Masque urbain",
+      "german": "Städtisch maskiert",
+      "greek": "Urban Masked",
+      "hungarian": "Városi Maszkolt",
+      "indonesian": "Urban Masked",
+      "italian": "Urban Masked",
+      "japanese": "Urban Masked",
+      "koreana": "도시의 위장",
+      "latam": "Pátina urbana",
+      "norwegian": "Urban Masked",
+      "polish": "Miejski zamaskowany",
+      "portuguese": "Urban Masked",
+      "romanian": "Urban Masked",
+      "russian": "Городская маскировка",
+      "schinese": "都市伪装",
+      "schinese_pw": "Urban Masked",
+      "spanish": "Pátina urbana",
+      "swedish": "Urban Masked",
+      "tchinese": "都市偽裝",
+      "thai": "Urban Masked",
+      "turkish": "Gizli Şehir",
+      "ukrainian": "Міське маскування",
+      "vietnamese": "Urban Masked"
+    },
+    "name": "Urban Masked",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-143",
+  "localized_names": {
+    "brazilian": "Canivete Falchion | Máscara Urbana",
+    "bulgarian": "Нож „Фалчион“ | Градска маскировка",
+    "czech": "Falchion | Urban Masked",
+    "danish": "Falchion-kniv | Urban Masked",
+    "dutch": "Falchion-mes | Urban Masked",
+    "english": "Falchion Knife | Urban Masked",
+    "finnish": "Falchion-veitsi | Kaupunkilaisnaamioitu",
+    "french": "Couteau fauchon | Masque urbain",
+    "german": "Falchion-Messer | Städtisch maskiert",
+    "greek": "Μαχαίρι Falchion | Urban Masked",
+    "hungarian": "Handzsárkés | Városi Maszkolt",
+    "indonesian": "Pisau Falchion | Urban Masked",
+    "italian": "Coltello falchion | Urban Masked",
+    "japanese": "Falchion ナイフ | Urban Masked",
+    "koreana": "파르치온 칼 | 도시의 위장",
+    "latam": "Cuchillo alfanje | Pátina urbana",
+    "norwegian": "Falchion-kniv | Urban Masked",
+    "polish": "Nóż falcjon | Miejski zamaskowany",
+    "portuguese": "Faca Falchion | Urban Masked",
+    "romanian": "Cuțit Falchion | Urban Masked",
+    "russian": "Фальшион | Городская маскировка",
+    "schinese": "弯刀 | 都市伪装",
+    "schinese_pw": "Falchion Knife | Urban Masked",
+    "spanish": "Cuchillo Alfanje | Pátina urbana",
+    "swedish": "Falchionkniv | Urban Masked",
+    "tchinese": "彎刃匕首 | 都市偽裝",
+    "thai": "มีดฟัลชิออน | Urban Masked",
+    "turkish": "Pala Bıçağı | Gizli Şehir",
+    "ukrainian": "Ніж-фальшіон | Міське маскування",
+    "vietnamese": "Dao Falchion | Urban Masked"
+  },
+  "media": {
+    "asset_id": "skin__512-143",
+    "images_png": [
+      "data/api/media/rendered/files/skins/512-143/light.png",
+      "data/api/media/rendered/files/skins/512-143/medium.png",
+      "data/api/media/rendered/files/skins/512-143/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/512-143.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/512-143/heavy.png",
+      "light": "data/api/media/rendered/files/skins/512-143/light.png",
+      "medium": "data/api/media/rendered/files/skins/512-143/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/512-143/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_falchion_sp_tape_urban_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_falchion_sp_tape_urban_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_falchion_sp_tape_urban_medium_png.vtex_c"
+    }
+  },
+  "name": "Falchion Knife | Urban Masked",
+  "search_slug": "falchion-knife-urban-masked",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-8",
+        "id": 4091,
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "search_slug": "falchion-case",
+        "via_special_pool": "community_case_8_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-8-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_8_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Falchion Knife ★",
+        "search_slug": "community-case-8-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "512-143__normal__vanilla",
+    "512-143__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-falchion",
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Canivete Falchion",
+      "bulgarian": "Нож „Фалчион“",
+      "czech": "Falchion",
+      "danish": "Falchion-kniv",
+      "dutch": "Falchion-mes",
+      "english": "Falchion Knife",
+      "finnish": "Falchion-veitsi",
+      "french": "Couteau fauchon",
+      "german": "Falchion-Messer",
+      "greek": "Μαχαίρι Falchion",
+      "hungarian": "Handzsárkés",
+      "indonesian": "Pisau Falchion",
+      "italian": "Coltello falchion",
+      "japanese": "Falchion ナイフ",
+      "koreana": "파르치온 칼",
+      "latam": "Cuchillo alfanje",
+      "norwegian": "Falchion-kniv",
+      "polish": "Nóż falcjon",
+      "portuguese": "Faca Falchion",
+      "romanian": "Cuțit Falchion",
+      "russian": "Фальшион",
+      "schinese": "弯刀",
+      "schinese_pw": "Falchion Knife",
+      "spanish": "Cuchillo Alfanje",
+      "swedish": "Falchionkniv",
+      "tchinese": "彎刃匕首",
+      "thai": "มีดฟัลชิออน",
+      "turkish": "Pala Bıçağı",
+      "ukrainian": "Ніж-фальшіон",
+      "vietnamese": "Dao Falchion"
+    },
+    "name": "Falchion Knife",
+    "search_slug": "falchion-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "507-12",
+  "finish": {
+    "codename": "hy_webs",
+    "id": 12,
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 12,
+    "weapon_id": 507
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "507-12",
+  "name": "Karambit | Crimson Web",
+  "search_slug": "karambit-crimson-web",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "unusual-revolving-list",
+        "expansion_rule": "legacy-knives",
+        "id": "unusual_revolving_list",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "unusual-revolving-special-item-pool",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-valve-1",
+            "id": 4001,
+            "kind": "weapon-case",
+            "name": "CS:GO Weapon Case",
+            "search_slug": "cs-go-weapon-case"
+          },
+          {
+            "canonical_slug": "crate-esports-2013",
+            "id": 4002,
+            "kind": "weapon-case",
+            "name": "eSports 2013 Case",
+            "search_slug": "esports-2013-case"
+          },
+          {
+            "canonical_slug": "crate-operation-ii",
+            "id": 4003,
+            "kind": "weapon-case",
+            "name": "Operation Bravo Case",
+            "search_slug": "operation-bravo-case"
+          },
+          {
+            "canonical_slug": "crate-valve-2",
+            "id": 4004,
+            "kind": "weapon-case",
+            "name": "CS:GO Weapon Case 2",
+            "search_slug": "cs-go-weapon-case-2"
+          },
+          {
+            "canonical_slug": "crate-esports-2013-winter",
+            "id": 4005,
+            "kind": "weapon-case",
+            "name": "eSports 2013 Winter Case",
+            "search_slug": "esports-2013-winter-case"
+          },
+          {
+            "canonical_slug": "crate-community-1",
+            "id": 4009,
+            "kind": "weapon-case",
+            "name": "Winter Offensive Weapon Case",
+            "search_slug": "winter-offensive-weapon-case"
+          },
+          {
+            "canonical_slug": "crate-valve-3",
+            "id": 4010,
+            "kind": "weapon-case",
+            "name": "CS:GO Weapon Case 3",
+            "search_slug": "cs-go-weapon-case-3"
+          },
+          {
+            "canonical_slug": "crate-community-2",
+            "id": 4011,
+            "kind": "weapon-case",
+            "name": "Operation Phoenix Weapon Case",
+            "search_slug": "operation-phoenix-weapon-case"
+          },
+          {
+            "canonical_slug": "crate-esports-2014-summer",
+            "id": 4019,
+            "kind": "weapon-case",
+            "name": "eSports 2014 Summer Case",
+            "search_slug": "esports-2014-summer-case"
+          },
+          {
+            "canonical_slug": "crate-operation-vanguard",
+            "id": 4029,
+            "kind": "weapon-case",
+            "name": "Operation Vanguard Weapon Case",
+            "search_slug": "operation-vanguard-weapon-case"
+          },
+          {
+            "canonical_slug": "crate-community-10",
+            "id": 4186,
+            "kind": "weapon-case",
+            "name": "Revolver Case",
+            "search_slug": "revolver-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "507-12__normal__vanilla",
+    "507-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_karambit",
+    "id": 507,
+    "name": "Karambit",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "517-143",
+  "finish": {
+    "codename": "sp_tape_urban",
+    "id": 143,
+    "name": "Urban Masked",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 143,
+    "weapon_id": 517
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-143",
+  "name": "Paracord Knife | Urban Masked",
+  "search_slug": "paracord-knife-urban-masked",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-23",
+            "id": 4620,
+            "kind": "weapon-case",
+            "name": "Shattered Web Case",
+            "search_slug": "shattered-web-case"
+          },
+          {
+            "canonical_slug": "crate-community-26",
+            "id": 4698,
+            "kind": "weapon-case",
+            "name": "Fracture Case",
+            "search_slug": "fracture-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "517-143__normal__vanilla",
+    "517-143__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_cord",
+    "id": 517,
+    "name": "Paracord Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

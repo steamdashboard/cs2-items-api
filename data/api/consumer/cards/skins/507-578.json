@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "507-578",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-ocean-knife",
+    "catalog_id": 578,
+    "id": 578,
+    "localized_names": {
+      "brazilian": "Águas Claras",
+      "bulgarian": "Бистра вода",
+      "czech": "Bright Water",
+      "danish": "Bright Water",
+      "dutch": "Bright Water",
+      "english": "Bright Water",
+      "finnish": "Kirkas vesi",
+      "french": "Eau vive",
+      "german": "Klares Wasser",
+      "greek": "Bright Water",
+      "hungarian": "Fényes Víz",
+      "indonesian": "Bright Water",
+      "italian": "Bright Water",
+      "japanese": "Bright Water",
+      "koreana": "밝은 물결",
+      "latam": "Aguas brillantes",
+      "norwegian": "Bright Water",
+      "polish": "Jasne wody",
+      "portuguese": "Bright Water",
+      "romanian": "Bright Water",
+      "russian": "Чистая вода",
+      "schinese": "澄澈之水",
+      "schinese_pw": "Bright Water",
+      "spanish": "Aguas brillantes",
+      "swedish": "Bright Water",
+      "tchinese": "澄水",
+      "thai": "Bright Water",
+      "turkish": "Parlak Su",
+      "ukrainian": "Чиста вода",
+      "vietnamese": "Bright Water"
+    },
+    "name": "Bright Water",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "507-578",
+  "localized_names": {
+    "brazilian": "Karambit | Águas Claras",
+    "bulgarian": "Карамбит | Бистра вода",
+    "czech": "Karambit | Bright Water",
+    "danish": "Karambit | Bright Water",
+    "dutch": "Karambit | Bright Water",
+    "english": "Karambit | Bright Water",
+    "finnish": "Karambit | Kirkas vesi",
+    "french": "Karambit | Eau vive",
+    "german": "Karambit | Klares Wasser",
+    "greek": "Karambit | Bright Water",
+    "hungarian": "Karambit | Fényes Víz",
+    "indonesian": "Karambit | Bright Water",
+    "italian": "Karambit | Bright Water",
+    "japanese": "カランビット | Bright Water",
+    "koreana": "카람빗 | 밝은 물결",
+    "latam": "Karambit | Aguas brillantes",
+    "norwegian": "Karambit | Bright Water",
+    "polish": "Karambit | Jasne wody",
+    "portuguese": "Karambit | Bright Water",
+    "romanian": "Karambit | Bright Water",
+    "russian": "Керамбит | Чистая вода",
+    "schinese": "爪子刀 | 澄澈之水",
+    "schinese_pw": "Karambit | Bright Water",
+    "spanish": "Karambit | Aguas brillantes",
+    "swedish": "Karambit | Bright Water",
+    "tchinese": "爪刀 | 澄水",
+    "thai": "มีดคารัมบิต | Bright Water",
+    "turkish": "Karambit | Parlak Su",
+    "ukrainian": "Керамбіт | Чиста вода",
+    "vietnamese": "Karambit | Bright Water"
+  },
+  "media": {
+    "asset_id": "skin__507-578",
+    "images_png": [
+      "data/api/media/rendered/files/skins/507-578/light.png",
+      "data/api/media/rendered/files/skins/507-578/medium.png",
+      "data/api/media/rendered/files/skins/507-578/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/507-578.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/507-578/heavy.png",
+      "light": "data/api/media/rendered/files/skins/507-578/light.png",
+      "medium": "data/api/media/rendered/files/skins/507-578/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/507-578/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_karambit_hy_ocean_knife_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_karambit_hy_ocean_knife_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_karambit_hy_ocean_knife_medium_png.vtex_c"
+    }
+  },
+  "name": "Karambit | Bright Water",
+  "search_slug": "karambit-bright-water",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-13",
+        "id": 4236,
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "search_slug": "gamma-case",
+        "via_special_pool": "community_case_13_unusual"
+      },
+      {
+        "canonical_slug": "crate-gamma-2",
+        "id": 4281,
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
+        "via_special_pool": "community_case_13_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "507-578__normal__battle-scarred",
+    "507-578__normal__factory-new",
+    "507-578__normal__field-tested",
+    "507-578__normal__minimal-wear",
+    "507-578__normal__well-worn",
+    "507-578__stattrak__battle-scarred",
+    "507-578__stattrak__factory-new",
+    "507-578__stattrak__field-tested",
+    "507-578__stattrak__minimal-wear",
+    "507-578__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-karambit",
+    "id": 507,
+    "localized_names": {
+      "brazilian": "Karambit",
+      "bulgarian": "Карамбит",
+      "czech": "Karambit",
+      "danish": "Karambit",
+      "dutch": "Karambit",
+      "english": "Karambit",
+      "finnish": "Karambit",
+      "french": "Karambit",
+      "german": "Karambit",
+      "greek": "Karambit",
+      "hungarian": "Karambit",
+      "indonesian": "Karambit",
+      "italian": "Karambit",
+      "japanese": "カランビット",
+      "koreana": "카람빗",
+      "latam": "Karambit",
+      "norwegian": "Karambit",
+      "polish": "Karambit",
+      "portuguese": "Karambit",
+      "romanian": "Karambit",
+      "russian": "Керамбит",
+      "schinese": "爪子刀",
+      "schinese_pw": "Karambit",
+      "spanish": "Karambit",
+      "swedish": "Karambit",
+      "tchinese": "爪刀",
+      "thai": "มีดคารัมบิต",
+      "turkish": "Karambit",
+      "ukrainian": "Керамбіт",
+      "vietnamese": "Karambit"
+    },
+    "name": "Karambit",
+    "search_slug": "karambit",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

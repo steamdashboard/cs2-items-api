@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "509-72",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-mesh-tan",
+    "catalog_id": 72,
+    "id": 72,
+    "localized_names": {
+      "brazilian": "Grade de Safári",
+      "bulgarian": "Мрежа за сафари",
+      "czech": "Safari Mesh",
+      "danish": "Safari Mesh",
+      "dutch": "Safari Mesh",
+      "english": "Safari Mesh",
+      "finnish": "Safariverkko",
+      "french": "Maillage safari",
+      "german": "Safarinetz",
+      "greek": "Safari Mesh",
+      "hungarian": "Szafari Háló",
+      "indonesian": "Safari Mesh",
+      "italian": "Safari Mesh",
+      "japanese": "Safari Mesh",
+      "koreana": "사파리 격자 무늬",
+      "latam": "Malla de safari",
+      "norwegian": "Safari Mesh",
+      "polish": "Siatka safari",
+      "portuguese": "Safari Mesh",
+      "romanian": "Safari Mesh",
+      "russian": "Африканская сетка",
+      "schinese": "狩猎网格",
+      "schinese_pw": "Safari Mesh",
+      "spanish": "Malla de safari",
+      "swedish": "Safari Mesh",
+      "tchinese": "狩獵網格",
+      "thai": "Safari Mesh",
+      "turkish": "Safari Ağı",
+      "ukrainian": "Сітка сафарі",
+      "vietnamese": "Safari Mesh"
+    },
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "509-72",
+  "localized_names": {
+    "brazilian": "Faca do Caçador | Grade de Safári",
+    "bulgarian": "Ловджийски нож | Мрежа за сафари",
+    "czech": "Lovecký nůž | Safari Mesh",
+    "danish": "Huntsman-kniv | Safari Mesh",
+    "dutch": "Jagersmes | Safari Mesh",
+    "english": "Huntsman Knife | Safari Mesh",
+    "finnish": "Metsämiehen veitsi | Safariverkko",
+    "french": "Couteau de chasse | Maillage safari",
+    "german": "Jagdmesser | Safarinetz",
+    "greek": "Μαχαίρι Huntsman | Safari Mesh",
+    "hungarian": "Vadászkés | Szafari Háló",
+    "indonesian": "Pisau Pemburu | Safari Mesh",
+    "italian": "Coltello da cacciatore | Safari Mesh",
+    "japanese": "Huntsman ナイフ | Safari Mesh",
+    "koreana": "헌츠맨 칼 | 사파리 격자 무늬",
+    "latam": "Cuchillo de cazador | Malla de safari",
+    "norwegian": "Jegerkniv | Safari Mesh",
+    "polish": "Nóż myśliwski | Siatka safari",
+    "portuguese": "Faca Huntsman | Safari Mesh",
+    "romanian": "Cuțit Huntsman | Safari Mesh",
+    "russian": "Охотничий нож | Африканская сетка",
+    "schinese": "猎杀者匕首 | 狩猎网格",
+    "schinese_pw": "Huntsman Knife | Safari Mesh",
+    "spanish": "Cuchillo del Cazador | Malla de safari",
+    "swedish": "Huntsmankniv | Safari Mesh",
+    "tchinese": "獵刀 | 狩獵網格",
+    "thai": "มีดนายพราน | Safari Mesh",
+    "turkish": "Avcı Bıçağı | Safari Ağı",
+    "ukrainian": "Мисливський ніж | Сітка сафарі",
+    "vietnamese": "Dao Huntsman | Safari Mesh"
+  },
+  "media": {
+    "asset_id": "skin__509-72",
+    "images_png": [
+      "data/api/media/rendered/files/skins/509-72/light.png",
+      "data/api/media/rendered/files/skins/509-72/medium.png",
+      "data/api/media/rendered/files/skins/509-72/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/509-72.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/509-72/heavy.png",
+      "light": "data/api/media/rendered/files/skins/509-72/light.png",
+      "medium": "data/api/media/rendered/files/skins/509-72/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/509-72/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_tactical_sp_mesh_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_tactical_sp_mesh_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_tactical_sp_mesh_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "Huntsman Knife | Safari Mesh",
+  "search_slug": "huntsman-knife-safari-mesh",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-3",
+        "id": 4017,
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "search_slug": "huntsman-weapon-case",
+        "via_special_pool": "community_case_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-3-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Huntsman Knife ★",
+        "search_slug": "community-case-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "509-72__normal__vanilla",
+    "509-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-tactical",
+    "id": 509,
+    "localized_names": {
+      "brazilian": "Faca do Caçador",
+      "bulgarian": "Ловджийски нож",
+      "czech": "Lovecký nůž",
+      "danish": "Huntsman-kniv",
+      "dutch": "Jagersmes",
+      "english": "Huntsman Knife",
+      "finnish": "Metsämiehen veitsi",
+      "french": "Couteau de chasse",
+      "german": "Jagdmesser",
+      "greek": "Μαχαίρι Huntsman",
+      "hungarian": "Vadászkés",
+      "indonesian": "Pisau Pemburu",
+      "italian": "Coltello da cacciatore",
+      "japanese": "Huntsman ナイフ",
+      "koreana": "헌츠맨 칼",
+      "latam": "Cuchillo de cazador",
+      "norwegian": "Jegerkniv",
+      "polish": "Nóż myśliwski",
+      "portuguese": "Faca Huntsman",
+      "romanian": "Cuțit Huntsman",
+      "russian": "Охотничий нож",
+      "schinese": "猎杀者匕首",
+      "schinese_pw": "Huntsman Knife",
+      "spanish": "Cuchillo del Cazador",
+      "swedish": "Huntsmankniv",
+      "tchinese": "獵刀",
+      "thai": "มีดนายพราน",
+      "turkish": "Avcı Bıçağı",
+      "ukrainian": "Мисливський ніж",
+      "vietnamese": "Dao Huntsman"
+    },
+    "name": "Huntsman Knife",
+    "search_slug": "huntsman-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

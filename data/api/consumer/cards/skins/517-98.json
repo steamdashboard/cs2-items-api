@@ -1,0 +1,213 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "517-98",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-purple",
+    "catalog_id": 98,
+    "id": 98,
+    "localized_names": {
+      "brazilian": "Ultravioleta",
+      "bulgarian": "Ултра виолетово",
+      "czech": "Ultraviolet",
+      "danish": "Ultraviolet",
+      "dutch": "Ultraviolet",
+      "english": "Ultraviolet",
+      "finnish": "Ultravioletti",
+      "french": "Ultraviolet",
+      "german": "Ultraviolett",
+      "greek": "Ultraviolet",
+      "hungarian": "Ultraibolya",
+      "indonesian": "Ultraviolet",
+      "italian": "Ultraviolet",
+      "japanese": "Ultraviolet",
+      "koreana": "자외선",
+      "latam": "Ultravioleta",
+      "norwegian": "Ultraviolet",
+      "polish": "Ultrafiolet",
+      "portuguese": "Ultraviolet",
+      "romanian": "Ultraviolet",
+      "russian": "Ультрафиолет",
+      "schinese": "致命紫罗兰",
+      "schinese_pw": "Ultraviolet",
+      "spanish": "Ultravioleta",
+      "swedish": "Ultraviolet",
+      "tchinese": "致命紫羅蘭",
+      "thai": "Ultraviolet",
+      "turkish": "Morötesi",
+      "ukrainian": "Ультрафіолет",
+      "vietnamese": "Ultraviolet"
+    },
+    "name": "Ultraviolet",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-98",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Ultravioleta",
+    "bulgarian": "Паракорд нож | Ултра виолетово",
+    "czech": "Výsadkářský nůž | Ultraviolet",
+    "danish": "Paracordkniv | Ultraviolet",
+    "dutch": "Paracordmes | Ultraviolet",
+    "english": "Paracord Knife | Ultraviolet",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Ultravioletti",
+    "french": "Couteau en paracorde | Ultraviolet",
+    "german": "Fallschirm-Messer | Ultraviolett",
+    "greek": "Μαχαίρι Paracord | Ultraviolet",
+    "hungarian": "Paracord kés | Ultraibolya",
+    "indonesian": "Pisau Paracord | Ultraviolet",
+    "italian": "Coltello Paracord | Ultraviolet",
+    "japanese": "Paracord ナイフ | Ultraviolet",
+    "koreana": "파라코드 칼 | 자외선",
+    "latam": "Cuchillo encordado | Ultravioleta",
+    "norwegian": "Paracordkniv | Ultraviolet",
+    "polish": "Nóż paracord | Ultrafiolet",
+    "portuguese": "Faca Paracord | Ultraviolet",
+    "romanian": "Cuțit Paracord | Ultraviolet",
+    "russian": "Паракорд-нож | Ультрафиолет",
+    "schinese": "系绳匕首 | 致命紫罗兰",
+    "schinese_pw": "Paracord Knife | Ultraviolet",
+    "spanish": "Cuchillo encordado | Ultravioleta",
+    "swedish": "Paracordkniv | Ultraviolet",
+    "tchinese": "繩柄刀 | 致命紫羅蘭",
+    "thai": "มีดพาราคอร์ด | Ultraviolet",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Morötesi",
+    "ukrainian": "Тактичний ніж | Ультрафіолет",
+    "vietnamese": "Dao Paracord | Ultraviolet"
+  },
+  "media": {
+    "asset_id": "weapon__517",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/517/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/517.json",
+    "models": [
+      "weapons/models/knife/knife_cord/weapon_knife_cord.vmdl_c",
+      "phase2/weapons/models/knife/knife_cord/weapon_knife_cord_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/517/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Paracord Knife | Ultraviolet",
+  "search_slug": "paracord-knife-ultraviolet",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-35",
+        "id": 7007,
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "search_slug": "fever-case",
+        "via_special_pool": "set_community_35_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      },
+      {
+        "canonical_slug": "set-community-35-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_35_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-35-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-98__normal__vanilla",
+    "517-98__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

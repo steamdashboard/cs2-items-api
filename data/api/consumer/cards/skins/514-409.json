@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "514-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "514-409",
+  "localized_names": {
+    "brazilian": "Faca Bowie | Dente de Tigre",
+    "bulgarian": "Боуи нож | Тигров зъб",
+    "czech": "Nůž Bowie | Tiger Tooth",
+    "danish": "Bowie-kniv | Tiger Tooth",
+    "dutch": "Bowiemes | Tiger Tooth",
+    "english": "Bowie Knife | Tiger Tooth",
+    "finnish": "Bowie-puukko | Tiikerinhammas",
+    "french": "Couteau Bowie | Dent de tigre",
+    "german": "Bowiemesser | Tigerzahn",
+    "greek": "Μαχαίρι Bowie | Tiger Tooth",
+    "hungarian": "Bowie kés | Tigrisfog",
+    "indonesian": "Pisau Bowie | Tiger Tooth",
+    "italian": "Coltello Bowie | Tiger Tooth",
+    "japanese": "Bowie ナイフ | Tiger Tooth",
+    "koreana": "보위 칼 | 호랑이 이빨",
+    "latam": "Cuchillo Bowie | Diente de tigre",
+    "norwegian": "Bowiekniv | Tiger Tooth",
+    "polish": "Nóż Bowie | Tygrysi kieł",
+    "portuguese": "Faca Bowie | Tiger Tooth",
+    "romanian": "Cuțit Bowie | Tiger Tooth",
+    "russian": "Нож Боуи | Зуб тигра",
+    "schinese": "鲍伊猎刀 | 虎牙",
+    "schinese_pw": "Bowie Knife | Tiger Tooth",
+    "spanish": "Cuchillo Bowie | Diente de tigre",
+    "swedish": "Bowiekniv | Tiger Tooth",
+    "tchinese": "布伊刀 | 虎牙",
+    "thai": "มีดโบวี | Tiger Tooth",
+    "turkish": "Bowie Bıçağı | Kaplan Dişi",
+    "ukrainian": "Ніж Бові | Тигряче ікло",
+    "vietnamese": "Dao Bowie | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__514-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/514-409/light.png",
+      "data/api/media/rendered/files/skins/514-409/medium.png",
+      "data/api/media/rendered/files/skins/514-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/514-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/514-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/514-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/514-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/514-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_survival_bowie_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Bowie Knife | Tiger Tooth",
+  "search_slug": "bowie-knife-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-16",
+        "id": 4351,
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "search_slug": "spectrum-case",
+        "via_special_pool": "spectrum_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-18",
+        "id": 4403,
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "search_slug": "spectrum-2-case",
+        "via_special_pool": "spectrum_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "spectrum-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "spectrum_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "spectrum-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "514-409__normal__factory-new",
+    "514-409__normal__minimal-wear",
+    "514-409__stattrak__factory-new",
+    "514-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-survival-bowie",
+    "id": 514,
+    "localized_names": {
+      "brazilian": "Faca Bowie",
+      "bulgarian": "Боуи нож",
+      "czech": "Nůž Bowie",
+      "danish": "Bowie-kniv",
+      "dutch": "Bowiemes",
+      "english": "Bowie Knife",
+      "finnish": "Bowie-puukko",
+      "french": "Couteau Bowie",
+      "german": "Bowiemesser",
+      "greek": "Μαχαίρι Bowie",
+      "hungarian": "Bowie kés",
+      "indonesian": "Pisau Bowie",
+      "italian": "Coltello Bowie",
+      "japanese": "Bowie ナイフ",
+      "koreana": "보위 칼",
+      "latam": "Cuchillo Bowie",
+      "norwegian": "Bowiekniv",
+      "polish": "Nóż Bowie",
+      "portuguese": "Faca Bowie",
+      "romanian": "Cuțit Bowie",
+      "russian": "Нож Боуи",
+      "schinese": "鲍伊猎刀",
+      "schinese_pw": "Bowie Knife",
+      "spanish": "Cuchillo Bowie",
+      "swedish": "Bowiekniv",
+      "tchinese": "布伊刀",
+      "thai": "มีดโบวี",
+      "turkish": "Bowie Bıçağı",
+      "ukrainian": "Ніж Бові",
+      "vietnamese": "Dao Bowie"
+    },
+    "name": "Bowie Knife",
+    "search_slug": "bowie-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

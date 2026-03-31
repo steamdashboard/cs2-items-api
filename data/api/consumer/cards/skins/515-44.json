@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "515-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-44",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Aquecimento de Aço",
+    "bulgarian": "Нож „Пеперуда“ | Закалено",
+    "czech": "Motýlek | Case Hardened",
+    "danish": "Butterfly-kniv | Case Hardened",
+    "dutch": "Vlindermes | Case Hardened",
+    "english": "Butterfly Knife | Case Hardened",
+    "finnish": "Perhosveitsi | Hiiletyskarkaistu",
+    "french": "Couteau papillon | Cémenté",
+    "german": "Butterflymesser | Einsatzgehärtet",
+    "greek": "Μαχαίρι Butterfly | Case Hardened",
+    "hungarian": "Pillangókés | Edzett",
+    "indonesian": "Pisau Kupu-kupu | Case Hardened",
+    "italian": "Coltello a farfalla | Case Hardened",
+    "japanese": "バタフライナイフ | Case Hardened",
+    "koreana": "버터플라이 나이프 | 표면 경화",
+    "latam": "Cuchillo mariposa | Acero templado",
+    "norwegian": "Butterflykniv | Case Hardened",
+    "polish": "Nóż motylkowy | Stal nawęglana",
+    "portuguese": "Faca Butterfly | Case Hardened",
+    "romanian": "Cuțit fluture | Case Hardened",
+    "russian": "Нож-бабочка | Поверхностная закалка",
+    "schinese": "蝴蝶刀 | 表面淬火",
+    "schinese_pw": "Butterfly Knife | Case Hardened",
+    "spanish": "Cuchillo Mariposa | Acero templado",
+    "swedish": "Butterflykniv | Case Hardened",
+    "tchinese": "蝴蝶刀 | 外殼硬化",
+    "thai": "มีดบัตเตอร์ฟลาย | Case Hardened",
+    "turkish": "Kelebek Bıçak | Sertleştirilmiş Kasa",
+    "ukrainian": "Балісонг | Поверхневий гарт",
+    "vietnamese": "Dao bướm | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__515-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-44/light.png",
+      "data/api/media/rendered/files/skins/515-44/medium.png",
+      "data/api/media/rendered/files/skins/515-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Case Hardened",
+  "search_slug": "butterfly-knife-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-4",
+        "id": 4018,
+        "kind": "weapon-case",
+        "name": "Operation Breakout Weapon Case",
+        "search_slug": "operation-breakout-weapon-case",
+        "via_special_pool": "community_case_4_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-4-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_4_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Butterfly Knife ★",
+        "search_slug": "community-case-4-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-44__normal__battle-scarred",
+    "515-44__normal__factory-new",
+    "515-44__normal__field-tested",
+    "515-44__normal__minimal-wear",
+    "515-44__normal__well-worn",
+    "515-44__stattrak__battle-scarred",
+    "515-44__stattrak__factory-new",
+    "515-44__stattrak__field-tested",
+    "515-44__stattrak__minimal-wear",
+    "515-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

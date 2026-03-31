@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "507-581",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marked-up-90",
+    "catalog_id": 581,
+    "id": 581,
+    "localized_names": {
+      "brazilian": "Mão Livre",
+      "bulgarian": "Скицирано",
+      "czech": "Freehand",
+      "danish": "Freehand",
+      "dutch": "Freehand",
+      "english": "Freehand",
+      "finnish": "Vapaa käsi",
+      "french": "Signature",
+      "german": "Freihändig",
+      "greek": "Freehand",
+      "hungarian": "Szabad Kéz",
+      "indonesian": "Freehand",
+      "italian": "Freehand",
+      "japanese": "Freehand",
+      "koreana": "자유형",
+      "latam": "Mano alzada",
+      "norwegian": "Freehand",
+      "polish": "Rękodzieło",
+      "portuguese": "Freehand",
+      "romanian": "Freehand",
+      "russian": "Ручная роспись",
+      "schinese": "自由之手",
+      "schinese_pw": "Freehand",
+      "spanish": "Mano alzada",
+      "swedish": "Freehand",
+      "tchinese": "手繪紋",
+      "thai": "Freehand",
+      "turkish": "Boşel",
+      "ukrainian": "Ручний розпис",
+      "vietnamese": "Freehand"
+    },
+    "name": "Freehand",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.48,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "507-581",
+  "localized_names": {
+    "brazilian": "Karambit | Mão Livre",
+    "bulgarian": "Карамбит | Скицирано",
+    "czech": "Karambit | Freehand",
+    "danish": "Karambit | Freehand",
+    "dutch": "Karambit | Freehand",
+    "english": "Karambit | Freehand",
+    "finnish": "Karambit | Vapaa käsi",
+    "french": "Karambit | Signature",
+    "german": "Karambit | Freihändig",
+    "greek": "Karambit | Freehand",
+    "hungarian": "Karambit | Szabad Kéz",
+    "indonesian": "Karambit | Freehand",
+    "italian": "Karambit | Freehand",
+    "japanese": "カランビット | Freehand",
+    "koreana": "카람빗 | 자유형",
+    "latam": "Karambit | Mano alzada",
+    "norwegian": "Karambit | Freehand",
+    "polish": "Karambit | Rękodzieło",
+    "portuguese": "Karambit | Freehand",
+    "romanian": "Karambit | Freehand",
+    "russian": "Керамбит | Ручная роспись",
+    "schinese": "爪子刀 | 自由之手",
+    "schinese_pw": "Karambit | Freehand",
+    "spanish": "Karambit | Mano alzada",
+    "swedish": "Karambit | Freehand",
+    "tchinese": "爪刀 | 手繪紋",
+    "thai": "มีดคารัมบิต | Freehand",
+    "turkish": "Karambit | Boşel",
+    "ukrainian": "Керамбіт | Ручний розпис",
+    "vietnamese": "Karambit | Freehand"
+  },
+  "media": {
+    "asset_id": "weapon__507",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_karambit_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/507/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/507.json",
+    "models": [
+      "weapons/models/knife/knife_karambit/weapon_knife_karambit.vmdl_c",
+      "phase2/weapons/models/knife/knife_karambit/weapon_knife_karambit_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/507/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_karambit_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Karambit | Freehand",
+  "search_slug": "karambit-freehand",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-13",
+        "id": 4236,
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "search_slug": "gamma-case",
+        "via_special_pool": "community_case_13_unusual"
+      },
+      {
+        "canonical_slug": "crate-gamma-2",
+        "id": 4281,
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
+        "via_special_pool": "community_case_13_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "507-581__normal__battle-scarred",
+    "507-581__normal__factory-new",
+    "507-581__normal__field-tested",
+    "507-581__normal__minimal-wear",
+    "507-581__normal__well-worn",
+    "507-581__stattrak__battle-scarred",
+    "507-581__stattrak__factory-new",
+    "507-581__stattrak__field-tested",
+    "507-581__stattrak__minimal-wear",
+    "507-581__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-karambit",
+    "id": 507,
+    "localized_names": {
+      "brazilian": "Karambit",
+      "bulgarian": "Карамбит",
+      "czech": "Karambit",
+      "danish": "Karambit",
+      "dutch": "Karambit",
+      "english": "Karambit",
+      "finnish": "Karambit",
+      "french": "Karambit",
+      "german": "Karambit",
+      "greek": "Karambit",
+      "hungarian": "Karambit",
+      "indonesian": "Karambit",
+      "italian": "Karambit",
+      "japanese": "カランビット",
+      "koreana": "카람빗",
+      "latam": "Karambit",
+      "norwegian": "Karambit",
+      "polish": "Karambit",
+      "portuguese": "Karambit",
+      "romanian": "Karambit",
+      "russian": "Керамбит",
+      "schinese": "爪子刀",
+      "schinese_pw": "Karambit",
+      "spanish": "Karambit",
+      "swedish": "Karambit",
+      "tchinese": "爪刀",
+      "thai": "มีดคารัมบิต",
+      "turkish": "Karambit",
+      "ukrainian": "Керамбіт",
+      "vietnamese": "Karambit"
+    },
+    "name": "Karambit",
+    "search_slug": "karambit",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.48,
+    "min_float": 0.0
+  }
+}

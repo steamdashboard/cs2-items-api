@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "523-43",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-forced",
+    "catalog_id": 43,
+    "id": 43,
+    "localized_names": {
+      "brazilian": "Manchado",
+      "bulgarian": "Опетнено",
+      "czech": "Stained",
+      "danish": "Stained",
+      "dutch": "Stained",
+      "english": "Stained",
+      "finnish": "Värjäytynyt",
+      "french": "Tacheté",
+      "german": "Gefleckt",
+      "greek": "Stained",
+      "hungarian": "Foltos",
+      "indonesian": "Stained",
+      "italian": "Stained",
+      "japanese": "Stained",
+      "koreana": "얼룩",
+      "latam": "Manchado",
+      "norwegian": "Stained",
+      "polish": "Śniedź",
+      "portuguese": "Stained",
+      "romanian": "Stained",
+      "russian": "Патина",
+      "schinese": "人工染色",
+      "schinese_pw": "Stained",
+      "spanish": "Manchado",
+      "swedish": "Stained",
+      "tchinese": "髒亂",
+      "thai": "Stained",
+      "turkish": "Lekeli",
+      "ukrainian": "Наліт іржі",
+      "vietnamese": "Stained"
+    },
+    "name": "Stained",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "523-43",
+  "localized_names": {
+    "brazilian": "Faca Talon | Manchado",
+    "bulgarian": "Нож нокът | Опетнено",
+    "czech": "Talon | Stained",
+    "danish": "Talon-kniv | Stained",
+    "dutch": "Talon-mes | Stained",
+    "english": "Talon Knife | Stained",
+    "finnish": "Kynsiveitsi | Värjäytynyt",
+    "french": "Canif | Tacheté",
+    "german": "Talon-Messer | Gefleckt",
+    "greek": "Μαχαίρι Talon | Stained",
+    "hungarian": "Talon kés | Foltos",
+    "indonesian": "Pisau Talon | Stained",
+    "italian": "Coltello Talon | Stained",
+    "japanese": "Talon ナイフ | Stained",
+    "koreana": "탈론 칼 | 얼룩",
+    "latam": "Cuchillo talón | Manchado",
+    "norwegian": "Klokniv | Stained",
+    "polish": "Szpon | Śniedź",
+    "portuguese": "Faca Talon | Stained",
+    "romanian": "Cuțit Talon | Stained",
+    "russian": "Коготь | Патина",
+    "schinese": "锯齿爪刀 | 人工染色",
+    "schinese_pw": "Talon Knife | Stained",
+    "spanish": "Cuchillo Garra | Manchado",
+    "swedish": "Talonkniv | Stained",
+    "tchinese": "彎爪刀 | 髒亂",
+    "thai": "มีดทาลอน | Stained",
+    "turkish": "Talon Bıçağı | Lekeli",
+    "ukrainian": "Ніж-кіготь | Наліт іржі",
+    "vietnamese": "Dao Talon | Stained"
+  },
+  "media": {
+    "asset_id": "skin__523-43",
+    "images_png": [
+      "data/api/media/rendered/files/skins/523-43/light.png",
+      "data/api/media/rendered/files/skins/523-43/medium.png",
+      "data/api/media/rendered/files/skins/523-43/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/523-43.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/523-43/heavy.png",
+      "light": "data/api/media/rendered/files/skins/523-43/light.png",
+      "medium": "data/api/media/rendered/files/skins/523-43/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/523-43/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_widowmaker_aq_forced_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_widowmaker_aq_forced_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_widowmaker_aq_forced_medium_png.vtex_c"
+    }
+  },
+  "name": "Talon Knife | Stained",
+  "search_slug": "talon-knife-stained",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "523-43__normal__battle-scarred",
+    "523-43__normal__factory-new",
+    "523-43__normal__field-tested",
+    "523-43__normal__minimal-wear",
+    "523-43__normal__well-worn",
+    "523-43__stattrak__battle-scarred",
+    "523-43__stattrak__factory-new",
+    "523-43__stattrak__field-tested",
+    "523-43__stattrak__minimal-wear",
+    "523-43__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-widowmaker",
+    "id": 523,
+    "localized_names": {
+      "brazilian": "Faca Talon",
+      "bulgarian": "Нож нокът",
+      "czech": "Talon",
+      "danish": "Talon-kniv",
+      "dutch": "Talon-mes",
+      "english": "Talon Knife",
+      "finnish": "Kynsiveitsi",
+      "french": "Canif",
+      "german": "Talon-Messer",
+      "greek": "Μαχαίρι Talon",
+      "hungarian": "Talon kés",
+      "indonesian": "Pisau Talon",
+      "italian": "Coltello Talon",
+      "japanese": "Talon ナイフ",
+      "koreana": "탈론 칼",
+      "latam": "Cuchillo talón",
+      "norwegian": "Klokniv",
+      "polish": "Szpon",
+      "portuguese": "Faca Talon",
+      "romanian": "Cuțit Talon",
+      "russian": "Коготь",
+      "schinese": "锯齿爪刀",
+      "schinese_pw": "Talon Knife",
+      "spanish": "Cuchillo Garra",
+      "swedish": "Talonkniv",
+      "tchinese": "彎爪刀",
+      "thai": "มีดทาลอน",
+      "turkish": "Talon Bıçağı",
+      "ukrainian": "Ніж-кіготь",
+      "vietnamese": "Dao Talon"
+    },
+    "name": "Talon Knife",
+    "search_slug": "talon-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5034-10034",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "specialist-emerald-web",
+    "catalog_id": 10034,
+    "id": 10034,
+    "localized_names": {
+      "brazilian": "Teia Esmeralda",
+      "bulgarian": "Изумрудена паяжина",
+      "czech": "Emerald Web",
+      "danish": "Emerald Web",
+      "dutch": "Emerald Web",
+      "english": "Emerald Web",
+      "finnish": "Smaragdiseitti",
+      "french": "Toile émeraude",
+      "german": "Smaragdgrünes Netz",
+      "greek": "Emerald Web",
+      "hungarian": "Smaragdháló",
+      "indonesian": "Emerald Web",
+      "italian": "Emerald Web",
+      "japanese": "Emerald Web",
+      "koreana": "에메랄드 거미줄",
+      "latam": "Telaraña esmeralda",
+      "norwegian": "Emerald Web",
+      "polish": "Szmaragdowa sieć",
+      "portuguese": "Emerald Web",
+      "romanian": "Emerald Web",
+      "russian": "Изумрудная сеть",
+      "schinese": "翠绿之网",
+      "schinese_pw": "Emerald Web",
+      "spanish": "Telaraña esmeralda",
+      "swedish": "Emerald Web",
+      "tchinese": "翡翠綠網",
+      "thai": "Emerald Web",
+      "turkish": "Zümrüt Ağ",
+      "ukrainian": "Смарагдове павутиння",
+      "vietnamese": "Emerald Web"
+    },
+    "name": "Emerald Web",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5034-10034",
+  "localized_names": {
+    "brazilian": "Luvas de Especialista | Teia Esmeralda",
+    "bulgarian": "Специализирани ръкавици | Изумрудена паяжина",
+    "czech": "Profesionální rukavice | Emerald Web",
+    "danish": "Specialisthandsker | Emerald Web",
+    "dutch": "Specialisthandschoenen | Emerald Web",
+    "english": "Specialist Gloves | Emerald Web",
+    "finnish": "Ammattilaishanskat | Smaragdiseitti",
+    "french": "Gants de spécialiste | Toile émeraude",
+    "german": "Spezialistenhandschuhe | Smaragdgrünes Netz",
+    "greek": "Γάντια ειδικού | Emerald Web",
+    "hungarian": "Specialista kesztyűk | Smaragdháló",
+    "indonesian": "Sarung Tangan Spesialis | Emerald Web",
+    "italian": "Guanti dello specialista | Emerald Web",
+    "japanese": "Specialist Gloves | Emerald Web",
+    "koreana": "전문가 장갑 | 에메랄드 거미줄",
+    "latam": "Guantes de especialista | Telaraña esmeralda",
+    "norwegian": "Spesialisthansker | Emerald Web",
+    "polish": "Rękawice specjalistyczne | Szmaragdowa sieć",
+    "portuguese": "Luvas de Especialista | Emerald Web",
+    "romanian": "Mănuși de specialist | Emerald Web",
+    "russian": "Перчатки спецназа | Изумрудная сеть",
+    "schinese": "专业手套 | 翠绿之网",
+    "schinese_pw": "Specialist Gloves | Emerald Web",
+    "spanish": "Guantes de especialista | Telaraña esmeralda",
+    "swedish": "Specialisthandskar | Emerald Web",
+    "tchinese": "技術士手套 | 翡翠綠網",
+    "thai": "ถุงมือผู้เชี่ยวชาญ | Emerald Web",
+    "turkish": "Uzman Eldivenleri | Zümrüt Ağ",
+    "ukrainian": "Рукавиці спеціаліста | Смарагдове павутиння",
+    "vietnamese": "Găng tay chuyên viên | Emerald Web"
+  },
+  "media": {
+    "asset_id": "skin__5034-10034",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5034-10034/light.png",
+      "data/api/media/rendered/files/skins/5034-10034/medium.png",
+      "data/api/media/rendered/files/skins/5034-10034/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5034-10034.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5034-10034/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5034-10034/light.png",
+      "medium": "data/api/media/rendered/files/skins/5034-10034/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5034-10034/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/specialist_gloves_specialist_emerald_web_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/specialist_gloves_specialist_emerald_web_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/specialist_gloves_specialist_emerald_web_medium_png.vtex_c"
+    }
+  },
+  "name": "Specialist Gloves | Emerald Web",
+  "search_slug": "specialist-gloves-emerald-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-15",
+        "id": 4288,
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "search_slug": "glove-case",
+        "via_special_pool": "community_case_15_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-17",
+        "id": 4352,
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "search_slug": "operation-hydra-case",
+        "via_special_pool": "community_case_15_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-15-unusual",
+        "expansion_rule": "legacy-gloves",
+        "id": "community_case_15_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "community-case-15-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5034-10034__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "specialist-gloves",
+    "id": 5034,
+    "localized_names": {
+      "brazilian": "Luvas de Especialista",
+      "bulgarian": "Специализирани ръкавици",
+      "czech": "Profesionální rukavice",
+      "danish": "Specialisthandsker",
+      "dutch": "Specialisthandschoenen",
+      "english": "Specialist Gloves",
+      "finnish": "Ammattilaishanskat",
+      "french": "Gants de spécialiste",
+      "german": "Spezialistenhandschuhe",
+      "greek": "Γάντια ειδικού",
+      "hungarian": "Specialista kesztyűk",
+      "indonesian": "Sarung Tangan Spesialis",
+      "italian": "Guanti dello specialista",
+      "japanese": "Specialist Gloves",
+      "koreana": "전문가 장갑",
+      "latam": "Guantes de especialista",
+      "norwegian": "Spesialisthansker",
+      "polish": "Rękawice specjalistyczne",
+      "portuguese": "Luvas de Especialista",
+      "romanian": "Mănuși de specialist",
+      "russian": "Перчатки спецназа",
+      "schinese": "专业手套",
+      "schinese_pw": "Specialist Gloves",
+      "spanish": "Guantes de especialista",
+      "swedish": "Specialisthandskar",
+      "tchinese": "技術士手套",
+      "thai": "ถุงมือผู้เชี่ยวชาญ",
+      "turkish": "Uzman Eldivenleri",
+      "ukrainian": "Рукавиці спеціаліста",
+      "vietnamese": "Găng tay chuyên viên"
+    },
+    "name": "Specialist Gloves",
+    "search_slug": "specialist-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

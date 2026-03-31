@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "522-44",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-oiled",
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "522-44",
+  "localized_names": {
+    "brazilian": "Faca Stiletto | Aquecimento de Aço",
+    "bulgarian": "Нож стилет | Закалено",
+    "czech": "Vystřelovací nůž | Case Hardened",
+    "danish": "Stiletto-kniv | Case Hardened",
+    "dutch": "Stiletto | Case Hardened",
+    "english": "Stiletto Knife | Case Hardened",
+    "finnish": "Stiletti | Hiiletyskarkaistu",
+    "french": "Stylet | Cémenté",
+    "german": "Stilett | Einsatzgehärtet",
+    "greek": "Μαχαίρι Stiletto | Case Hardened",
+    "hungarian": "Stiletto kés | Edzett",
+    "indonesian": "Pisau Stiletto | Case Hardened",
+    "italian": "Stiletto | Case Hardened",
+    "japanese": "Stiletto ナイフ | Case Hardened",
+    "koreana": "스틸레토 칼 | 표면 경화",
+    "latam": "Estilete | Acero templado",
+    "norwegian": "Springkniv | Case Hardened",
+    "polish": "Sztylet | Stal nawęglana",
+    "portuguese": "Faca Stiletto | Case Hardened",
+    "romanian": "Cuțit Stiletto | Case Hardened",
+    "russian": "Стилет | Поверхностная закалка",
+    "schinese": "短剑 | 表面淬火",
+    "schinese_pw": "Stiletto Knife | Case Hardened",
+    "spanish": "Estilete | Acero templado",
+    "swedish": "Stilettkniv | Case Hardened",
+    "tchinese": "彈簧刀 | 外殼硬化",
+    "thai": "มีดสติลเล็ตโต | Case Hardened",
+    "turkish": "Stiletto Bıçak | Sertleştirilmiş Kasa",
+    "ukrainian": "Ніж-стилет | Поверхневий гарт",
+    "vietnamese": "Dao Stiletto | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__522-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/522-44/light.png",
+      "data/api/media/rendered/files/skins/522-44/medium.png",
+      "data/api/media/rendered/files/skins/522-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/522-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/522-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/522-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/522-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/522-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_stiletto_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_stiletto_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_stiletto_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Stiletto Knife | Case Hardened",
+  "search_slug": "stiletto-knife-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "522-44__normal__battle-scarred",
+    "522-44__normal__factory-new",
+    "522-44__normal__field-tested",
+    "522-44__normal__minimal-wear",
+    "522-44__normal__well-worn",
+    "522-44__stattrak__battle-scarred",
+    "522-44__stattrak__factory-new",
+    "522-44__stattrak__field-tested",
+    "522-44__stattrak__minimal-wear",
+    "522-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-stiletto",
+    "id": 522,
+    "localized_names": {
+      "brazilian": "Faca Stiletto",
+      "bulgarian": "Нож стилет",
+      "czech": "Vystřelovací nůž",
+      "danish": "Stiletto-kniv",
+      "dutch": "Stiletto",
+      "english": "Stiletto Knife",
+      "finnish": "Stiletti",
+      "french": "Stylet",
+      "german": "Stilett",
+      "greek": "Μαχαίρι Stiletto",
+      "hungarian": "Stiletto kés",
+      "indonesian": "Pisau Stiletto",
+      "italian": "Stiletto",
+      "japanese": "Stiletto ナイフ",
+      "koreana": "스틸레토 칼",
+      "latam": "Estilete",
+      "norwegian": "Springkniv",
+      "polish": "Sztylet",
+      "portuguese": "Faca Stiletto",
+      "romanian": "Cuțit Stiletto",
+      "russian": "Стилет",
+      "schinese": "短剑",
+      "schinese_pw": "Stiletto Knife",
+      "spanish": "Estilete",
+      "swedish": "Stilettkniv",
+      "tchinese": "彈簧刀",
+      "thai": "มีดสติลเล็ตโต",
+      "turkish": "Stiletto Bıçak",
+      "ukrainian": "Ніж-стилет",
+      "vietnamese": "Dao Stiletto"
+    },
+    "name": "Stiletto Knife",
+    "search_slug": "stiletto-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

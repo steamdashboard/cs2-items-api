@@ -1,0 +1,206 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5034-10067",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "specialist-tiger-orange",
+    "catalog_id": 10067,
+    "id": 10067,
+    "localized_names": {
+      "brazilian": "Ataque Felino",
+      "bulgarian": "Тигрово нападение",
+      "czech": "Tiger Strike",
+      "danish": "Tiger Strike",
+      "dutch": "Tiger Strike",
+      "english": "Tiger Strike",
+      "finnish": "Tiikeriraitainen",
+      "french": "Attaque de tigre",
+      "german": "Tigerangriff",
+      "greek": "Tiger Strike",
+      "hungarian": "Tigriscsapás",
+      "indonesian": "Tiger Strike",
+      "italian": "Tiger Strike",
+      "japanese": "Tiger Strike",
+      "koreana": "호랑이의 기습",
+      "latam": "Ataque de tigre",
+      "norwegian": "Tiger Strike",
+      "polish": "Uderzenie tygrysa",
+      "portuguese": "Tiger Strike",
+      "romanian": "Tiger Strike",
+      "russian": "Удар тигра",
+      "schinese": "老虎精英",
+      "schinese_pw": "Tiger Strike",
+      "spanish": "Ataque de tigre",
+      "swedish": "Tiger Strike",
+      "tchinese": "猛虎出擊",
+      "thai": "Tiger Strike",
+      "turkish": "Kaplan Saldırısı",
+      "ukrainian": "Удар тигра",
+      "vietnamese": "Tiger Strike"
+    },
+    "name": "Tiger Strike",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5034-10067",
+  "localized_names": {
+    "brazilian": "Luvas de Especialista | Ataque Felino",
+    "bulgarian": "Специализирани ръкавици | Тигрово нападение",
+    "czech": "Profesionální rukavice | Tiger Strike",
+    "danish": "Specialisthandsker | Tiger Strike",
+    "dutch": "Specialisthandschoenen | Tiger Strike",
+    "english": "Specialist Gloves | Tiger Strike",
+    "finnish": "Ammattilaishanskat | Tiikeriraitainen",
+    "french": "Gants de spécialiste | Attaque de tigre",
+    "german": "Spezialistenhandschuhe | Tigerangriff",
+    "greek": "Γάντια ειδικού | Tiger Strike",
+    "hungarian": "Specialista kesztyűk | Tigriscsapás",
+    "indonesian": "Sarung Tangan Spesialis | Tiger Strike",
+    "italian": "Guanti dello specialista | Tiger Strike",
+    "japanese": "Specialist Gloves | Tiger Strike",
+    "koreana": "전문가 장갑 | 호랑이의 기습",
+    "latam": "Guantes de especialista | Ataque de tigre",
+    "norwegian": "Spesialisthansker | Tiger Strike",
+    "polish": "Rękawice specjalistyczne | Uderzenie tygrysa",
+    "portuguese": "Luvas de Especialista | Tiger Strike",
+    "romanian": "Mănuși de specialist | Tiger Strike",
+    "russian": "Перчатки спецназа | Удар тигра",
+    "schinese": "专业手套 | 老虎精英",
+    "schinese_pw": "Specialist Gloves | Tiger Strike",
+    "spanish": "Guantes de especialista | Ataque de tigre",
+    "swedish": "Specialisthandskar | Tiger Strike",
+    "tchinese": "技術士手套 | 猛虎出擊",
+    "thai": "ถุงมือผู้เชี่ยวชาญ | Tiger Strike",
+    "turkish": "Uzman Eldivenleri | Kaplan Saldırısı",
+    "ukrainian": "Рукавиці спеціаліста | Удар тигра",
+    "vietnamese": "Găng tay chuyên viên | Tiger Strike"
+  },
+  "media": {
+    "asset_id": "skin__5034-10067",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5034-10067/light.png",
+      "data/api/media/rendered/files/skins/5034-10067/medium.png",
+      "data/api/media/rendered/files/skins/5034-10067/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5034-10067.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5034-10067/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5034-10067/light.png",
+      "medium": "data/api/media/rendered/files/skins/5034-10067/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5034-10067/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/specialist_gloves_specialist_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/specialist_gloves_specialist_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/specialist_gloves_specialist_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Specialist Gloves | Tiger Strike",
+  "search_slug": "specialist-gloves-tiger-strike",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-27",
+        "id": 4717,
+        "kind": "weapon-case",
+        "name": "Operation Broken Fang Case",
+        "search_slug": "operation-broken-fang-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-28",
+        "id": 4747,
+        "kind": "weapon-case",
+        "name": "Snakebite Case",
+        "search_slug": "snakebite-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-31",
+        "id": 4846,
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "search_slug": "recoil-case",
+        "via_special_pool": "set_glove_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-glove-3-unusual",
+        "expansion_rule": "broken-fang-gloves",
+        "id": "set_glove_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-glove-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5034-10067__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "specialist-gloves",
+    "id": 5034,
+    "localized_names": {
+      "brazilian": "Luvas de Especialista",
+      "bulgarian": "Специализирани ръкавици",
+      "czech": "Profesionální rukavice",
+      "danish": "Specialisthandsker",
+      "dutch": "Specialisthandschoenen",
+      "english": "Specialist Gloves",
+      "finnish": "Ammattilaishanskat",
+      "french": "Gants de spécialiste",
+      "german": "Spezialistenhandschuhe",
+      "greek": "Γάντια ειδικού",
+      "hungarian": "Specialista kesztyűk",
+      "indonesian": "Sarung Tangan Spesialis",
+      "italian": "Guanti dello specialista",
+      "japanese": "Specialist Gloves",
+      "koreana": "전문가 장갑",
+      "latam": "Guantes de especialista",
+      "norwegian": "Spesialisthansker",
+      "polish": "Rękawice specjalistyczne",
+      "portuguese": "Luvas de Especialista",
+      "romanian": "Mănuși de specialist",
+      "russian": "Перчатки спецназа",
+      "schinese": "专业手套",
+      "schinese_pw": "Specialist Gloves",
+      "spanish": "Guantes de especialista",
+      "swedish": "Specialisthandskar",
+      "tchinese": "技術士手套",
+      "thai": "ถุงมือผู้เชี่ยวชาญ",
+      "turkish": "Uzman Eldivenleri",
+      "ukrainian": "Рукавиці спеціаліста",
+      "vietnamese": "Găng tay chuyên viên"
+    },
+    "name": "Specialist Gloves",
+    "search_slug": "specialist-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

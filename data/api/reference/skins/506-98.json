@@ -1,0 +1,167 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "506-98",
+  "finish": {
+    "codename": "so_purple",
+    "id": 98,
+    "name": "Ultraviolet",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 98,
+    "weapon_id": 506
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "506-98",
+  "name": "Gut Knife | Ultraviolet",
+  "search_slug": "gut-knife-ultraviolet",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "unusual-revolving-list",
+        "expansion_rule": "legacy-knives",
+        "id": "unusual_revolving_list",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "unusual-revolving-special-item-pool",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-valve-1",
+            "id": 4001,
+            "kind": "weapon-case",
+            "name": "CS:GO Weapon Case",
+            "search_slug": "cs-go-weapon-case"
+          },
+          {
+            "canonical_slug": "crate-esports-2013",
+            "id": 4002,
+            "kind": "weapon-case",
+            "name": "eSports 2013 Case",
+            "search_slug": "esports-2013-case"
+          },
+          {
+            "canonical_slug": "crate-operation-ii",
+            "id": 4003,
+            "kind": "weapon-case",
+            "name": "Operation Bravo Case",
+            "search_slug": "operation-bravo-case"
+          },
+          {
+            "canonical_slug": "crate-valve-2",
+            "id": 4004,
+            "kind": "weapon-case",
+            "name": "CS:GO Weapon Case 2",
+            "search_slug": "cs-go-weapon-case-2"
+          },
+          {
+            "canonical_slug": "crate-esports-2013-winter",
+            "id": 4005,
+            "kind": "weapon-case",
+            "name": "eSports 2013 Winter Case",
+            "search_slug": "esports-2013-winter-case"
+          },
+          {
+            "canonical_slug": "crate-community-1",
+            "id": 4009,
+            "kind": "weapon-case",
+            "name": "Winter Offensive Weapon Case",
+            "search_slug": "winter-offensive-weapon-case"
+          },
+          {
+            "canonical_slug": "crate-valve-3",
+            "id": 4010,
+            "kind": "weapon-case",
+            "name": "CS:GO Weapon Case 3",
+            "search_slug": "cs-go-weapon-case-3"
+          },
+          {
+            "canonical_slug": "crate-community-2",
+            "id": 4011,
+            "kind": "weapon-case",
+            "name": "Operation Phoenix Weapon Case",
+            "search_slug": "operation-phoenix-weapon-case"
+          },
+          {
+            "canonical_slug": "crate-esports-2014-summer",
+            "id": 4019,
+            "kind": "weapon-case",
+            "name": "eSports 2014 Summer Case",
+            "search_slug": "esports-2014-summer-case"
+          },
+          {
+            "canonical_slug": "crate-operation-vanguard",
+            "id": 4029,
+            "kind": "weapon-case",
+            "name": "Operation Vanguard Weapon Case",
+            "search_slug": "operation-vanguard-weapon-case"
+          },
+          {
+            "canonical_slug": "crate-community-10",
+            "id": 4186,
+            "kind": "weapon-case",
+            "name": "Revolver Case",
+            "search_slug": "revolver-case"
+          }
+        ]
+      },
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-6",
+            "id": 4061,
+            "kind": "weapon-case",
+            "name": "Chroma Case",
+            "search_slug": "chroma-case"
+          },
+          {
+            "canonical_slug": "crate-community-7",
+            "id": 4089,
+            "kind": "weapon-case",
+            "name": "Chroma 2 Case",
+            "search_slug": "chroma-2-case"
+          },
+          {
+            "canonical_slug": "crate-community-12",
+            "id": 4233,
+            "kind": "weapon-case",
+            "name": "Chroma 3 Case",
+            "search_slug": "chroma-3-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "506-98__normal__vanilla",
+    "506-98__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_gut",
+    "id": 506,
+    "name": "Gut Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

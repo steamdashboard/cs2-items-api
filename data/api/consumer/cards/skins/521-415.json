@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "521-415",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-ruby-marbleized",
+    "catalog_id": 415,
+    "id": 415,
+    "localized_names": {
+      "brazilian": "Doppler",
+      "bulgarian": "Доплер",
+      "czech": "Doppler",
+      "danish": "Doppler",
+      "dutch": "Doppler",
+      "english": "Doppler",
+      "finnish": "Doppler",
+      "french": "Doppler",
+      "german": "Doppler",
+      "greek": "Doppler",
+      "hungarian": "Doppler",
+      "indonesian": "Doppler",
+      "italian": "Doppler",
+      "japanese": "Doppler",
+      "koreana": "도플러",
+      "latam": "Doppler",
+      "norwegian": "Doppler",
+      "polish": "Doppler",
+      "portuguese": "Doppler",
+      "romanian": "Doppler",
+      "russian": "Волны",
+      "schinese": "多普勒",
+      "schinese_pw": "Doppler",
+      "spanish": "Doppler",
+      "swedish": "Doppler",
+      "tchinese": "都卜勒",
+      "thai": "Doppler",
+      "turkish": "Doppler",
+      "ukrainian": "Доплер",
+      "vietnamese": "Doppler"
+    },
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "521-415",
+  "localized_names": {
+    "brazilian": "Faca Nômade | Doppler",
+    "bulgarian": "Номадският нож | Доплер",
+    "czech": "Outdoorový nůž | Doppler",
+    "danish": "Nomadekniv | Doppler",
+    "dutch": "Nomademes | Doppler",
+    "english": "Nomad Knife | Doppler",
+    "finnish": "Nomad-puukko | Doppler",
+    "french": "Couteau de nomade | Doppler",
+    "german": "Nomadenmesser | Doppler",
+    "greek": "Μαχαίρι Nomad | Doppler",
+    "hungarian": "Nomád kés | Doppler",
+    "indonesian": "Pisau Nomad | Doppler",
+    "italian": "Coltello Nomade | Doppler",
+    "japanese": "Nomad ナイフ | Doppler",
+    "koreana": "노매드 칼 | 도플러",
+    "latam": "Cuchillo nómada | Doppler",
+    "norwegian": "Nomadekniv | Doppler",
+    "polish": "Nóż nomada | Doppler",
+    "portuguese": "Faca Nomad | Doppler",
+    "romanian": "Cuțit Nomad | Doppler",
+    "russian": "Нож «Бродяга» | Волны",
+    "schinese": "流浪者匕首 | 多普勒",
+    "schinese_pw": "Nomad Knife | Doppler",
+    "spanish": "Cuchillo nómada | Doppler",
+    "swedish": "Nomad-kniv | Doppler",
+    "tchinese": "流浪者小刀 | 都卜勒",
+    "thai": "มีดโนแมด | Doppler",
+    "turkish": "Göçebe Bıçağı | Doppler",
+    "ukrainian": "Польовий ніж | Доплер",
+    "vietnamese": "Dao Nomad | Doppler"
+  },
+  "media": {
+    "asset_id": "skin__521-415",
+    "images_png": [
+      "data/api/media/rendered/files/skins/521-415/light.png",
+      "data/api/media/rendered/files/skins/521-415/medium.png",
+      "data/api/media/rendered/files/skins/521-415/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/521-415.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/521-415/heavy.png",
+      "light": "data/api/media/rendered/files/skins/521-415/light.png",
+      "medium": "data/api/media/rendered/files/skins/521-415/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/521-415/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_outdoor_am_ruby_marbleized_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_outdoor_am_ruby_marbleized_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_outdoor_am_ruby_marbleized_medium_png.vtex_c"
+    }
+  },
+  "name": "Nomad Knife | Doppler",
+  "search_slug": "nomad-knife-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-35",
+        "id": 7007,
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "search_slug": "fever-case",
+        "via_special_pool": "set_community_35_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-35-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_35_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-35-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "521-415__normal__factory-new",
+    "521-415__normal__minimal-wear",
+    "521-415__stattrak__factory-new",
+    "521-415__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-outdoor",
+    "id": 521,
+    "localized_names": {
+      "brazilian": "Faca Nômade",
+      "bulgarian": "Номадският нож",
+      "czech": "Outdoorový nůž",
+      "danish": "Nomadekniv",
+      "dutch": "Nomademes",
+      "english": "Nomad Knife",
+      "finnish": "Nomad-puukko",
+      "french": "Couteau de nomade",
+      "german": "Nomadenmesser",
+      "greek": "Μαχαίρι Nomad",
+      "hungarian": "Nomád kés",
+      "indonesian": "Pisau Nomad",
+      "italian": "Coltello Nomade",
+      "japanese": "Nomad ナイフ",
+      "koreana": "노매드 칼",
+      "latam": "Cuchillo nómada",
+      "norwegian": "Nomadekniv",
+      "polish": "Nóż nomada",
+      "portuguese": "Faca Nomad",
+      "romanian": "Cuțit Nomad",
+      "russian": "Нож «Бродяга»",
+      "schinese": "流浪者匕首",
+      "schinese_pw": "Nomad Knife",
+      "spanish": "Cuchillo nómada",
+      "swedish": "Nomad-kniv",
+      "tchinese": "流浪者小刀",
+      "thai": "มีดโนแมด",
+      "turkish": "Göçebe Bıçağı",
+      "ukrainian": "Польовий ніж",
+      "vietnamese": "Dao Nomad"
+    },
+    "name": "Nomad Knife",
+    "search_slug": "nomad-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

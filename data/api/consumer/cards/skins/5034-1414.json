@@ -1,0 +1,190 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5034-1414",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "glove-specialist-graffiti-black",
+    "catalog_id": 1414,
+    "id": 1414,
+    "localized_names": {
+      "brazilian": "Esboços",
+      "bulgarian": "Скицник",
+      "czech": "Blackbook",
+      "danish": "Blackbook",
+      "dutch": "Blackbook",
+      "english": "Blackbook",
+      "finnish": "Luonnoslehtiö",
+      "french": "Livre noir",
+      "german": "Skizzenbuch",
+      "greek": "Blackbook",
+      "hungarian": "Fekete Könyv",
+      "indonesian": "Blackbook",
+      "italian": "Blackbook",
+      "japanese": "Blackbook",
+      "koreana": "블랙북",
+      "latam": "Cuaderno de bocetos",
+      "norwegian": "Blackbook",
+      "polish": "Brudnopis",
+      "portuguese": "Blackbook",
+      "romanian": "Blackbook",
+      "russian": "Чёрная книга",
+      "schinese": "黑皮书",
+      "schinese_pw": "Blackbook",
+      "spanish": "Cuaderno de bocetos",
+      "swedish": "Blackbook",
+      "tchinese": "黑皮書",
+      "thai": "Blackbook",
+      "turkish": "Kara Kitap",
+      "ukrainian": "Чорна книга",
+      "vietnamese": "Blackbook"
+    },
+    "name": "Blackbook",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5034-1414",
+  "localized_names": {
+    "brazilian": "Luvas de Especialista | Esboços",
+    "bulgarian": "Специализирани ръкавици | Скицник",
+    "czech": "Profesionální rukavice | Blackbook",
+    "danish": "Specialisthandsker | Blackbook",
+    "dutch": "Specialisthandschoenen | Blackbook",
+    "english": "Specialist Gloves | Blackbook",
+    "finnish": "Ammattilaishanskat | Luonnoslehtiö",
+    "french": "Gants de spécialiste | Livre noir",
+    "german": "Spezialistenhandschuhe | Skizzenbuch",
+    "greek": "Γάντια ειδικού | Blackbook",
+    "hungarian": "Specialista kesztyűk | Fekete Könyv",
+    "indonesian": "Sarung Tangan Spesialis | Blackbook",
+    "italian": "Guanti dello specialista | Blackbook",
+    "japanese": "Specialist Gloves | Blackbook",
+    "koreana": "전문가 장갑 | 블랙북",
+    "latam": "Guantes de especialista | Cuaderno de bocetos",
+    "norwegian": "Spesialisthansker | Blackbook",
+    "polish": "Rękawice specjalistyczne | Brudnopis",
+    "portuguese": "Luvas de Especialista | Blackbook",
+    "romanian": "Mănuși de specialist | Blackbook",
+    "russian": "Перчатки спецназа | Чёрная книга",
+    "schinese": "专业手套 | 黑皮书",
+    "schinese_pw": "Specialist Gloves | Blackbook",
+    "spanish": "Guantes de especialista | Cuaderno de bocetos",
+    "swedish": "Specialisthandskar | Blackbook",
+    "tchinese": "技術士手套 | 黑皮書",
+    "thai": "ถุงมือผู้เชี่ยวชาญ | Blackbook",
+    "turkish": "Uzman Eldivenleri | Kara Kitap",
+    "ukrainian": "Рукавиці спеціаліста | Чорна книга",
+    "vietnamese": "Găng tay chuyên viên | Blackbook"
+  },
+  "media": {
+    "asset_id": "skin__5034-1414",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5034-1414/light.png",
+      "data/api/media/rendered/files/skins/5034-1414/medium.png",
+      "data/api/media/rendered/files/skins/5034-1414/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5034-1414.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5034-1414/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5034-1414/light.png",
+      "medium": "data/api/media/rendered/files/skins/5034-1414/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5034-1414/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/specialist_gloves_glove_specialist_graffiti_black_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/specialist_gloves_glove_specialist_graffiti_black_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/specialist_gloves_glove_specialist_graffiti_black_medium_png.vtex_c"
+    }
+  },
+  "name": "Specialist Gloves | Blackbook",
+  "search_slug": "specialist-gloves-blackbook",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [],
+    "containers": [
+      {
+        "canonical_slug": "crate-community-37",
+        "id": 5181,
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "search_slug": "sealed-dead-hand-terminal",
+        "via_special_pool": "set_community_37_unusual"
+      }
+    ],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-37-unusual",
+        "expansion_rule": "volatile-gloves",
+        "id": "set_community_37_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-37-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5034-1414__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "specialist-gloves",
+    "id": 5034,
+    "localized_names": {
+      "brazilian": "Luvas de Especialista",
+      "bulgarian": "Специализирани ръкавици",
+      "czech": "Profesionální rukavice",
+      "danish": "Specialisthandsker",
+      "dutch": "Specialisthandschoenen",
+      "english": "Specialist Gloves",
+      "finnish": "Ammattilaishanskat",
+      "french": "Gants de spécialiste",
+      "german": "Spezialistenhandschuhe",
+      "greek": "Γάντια ειδικού",
+      "hungarian": "Specialista kesztyűk",
+      "indonesian": "Sarung Tangan Spesialis",
+      "italian": "Guanti dello specialista",
+      "japanese": "Specialist Gloves",
+      "koreana": "전문가 장갑",
+      "latam": "Guantes de especialista",
+      "norwegian": "Spesialisthansker",
+      "polish": "Rękawice specjalistyczne",
+      "portuguese": "Luvas de Especialista",
+      "romanian": "Mănuși de specialist",
+      "russian": "Перчатки спецназа",
+      "schinese": "专业手套",
+      "schinese_pw": "Specialist Gloves",
+      "spanish": "Guantes de especialista",
+      "swedish": "Specialisthandskar",
+      "tchinese": "技術士手套",
+      "thai": "ถุงมือผู้เชี่ยวชาญ",
+      "turkish": "Uzman Eldivenleri",
+      "ukrainian": "Рукавиці спеціаліста",
+      "vietnamese": "Găng tay chuyên viên"
+    },
+    "name": "Specialist Gloves",
+    "search_slug": "specialist-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

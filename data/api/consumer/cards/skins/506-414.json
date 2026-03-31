@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "506-414",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-steel-knife",
+    "catalog_id": 414,
+    "id": 414,
+    "localized_names": {
+      "brazilian": "Revestimento Enferrujado",
+      "bulgarian": "Ръждиво покритие",
+      "czech": "Rust Coat",
+      "danish": "Rust Coat",
+      "dutch": "Rust Coat",
+      "english": "Rust Coat",
+      "finnish": "Ruostepinta",
+      "french": "Aspect rouillé",
+      "german": "Rostmantel",
+      "greek": "Rust Coat",
+      "hungarian": "Rozsdabevonat",
+      "indonesian": "Rust Coat",
+      "italian": "Rust Coat",
+      "japanese": "Rust Coat",
+      "koreana": "녹슬음",
+      "latam": "Capa de herrumbre",
+      "norwegian": "Rust Coat",
+      "polish": "Warstwa rdzy",
+      "portuguese": "Rust Coat",
+      "romanian": "Rust Coat",
+      "russian": "Пыльник",
+      "schinese": "外表生锈",
+      "schinese_pw": "Rust Coat",
+      "spanish": "Capa de herrumbre",
+      "swedish": "Rust Coat",
+      "tchinese": "鏽衣",
+      "thai": "Rust Coat",
+      "turkish": "Pas Kaplı",
+      "ukrainian": "Прошарок іржі",
+      "vietnamese": "Rust Coat"
+    },
+    "name": "Rust Coat",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.4
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "506-414",
+  "localized_names": {
+    "brazilian": "Faca Gut Hook | Revestimento Enferrujado",
+    "bulgarian": "Касапски нож | Ръждиво покритие",
+    "czech": "Rozparovací nůž | Rust Coat",
+    "danish": "Jagtkniv | Rust Coat",
+    "dutch": "Ingewandenmes | Rust Coat",
+    "english": "Gut Knife | Rust Coat",
+    "finnish": "Metsästysveitsi | Ruostepinta",
+    "french": "Couteau à éviscérer | Aspect rouillé",
+    "german": "Aufbrechmesser | Rostmantel",
+    "greek": "Gut Knife | Rust Coat",
+    "hungarian": "Zsigerelőkés | Rozsdabevonat",
+    "indonesian": "Pisau Pengait | Rust Coat",
+    "italian": "Coltello da sventramento | Rust Coat",
+    "japanese": "ガットナイフ | Rust Coat",
+    "koreana": "갈고리 칼 | 녹슬음",
+    "latam": "Cuchillo destripador | Capa de herrumbre",
+    "norwegian": "Sløyekniv | Rust Coat",
+    "polish": "Nóż z hakiem | Warstwa rdzy",
+    "portuguese": "Gut Knife | Rust Coat",
+    "romanian": "Cuțit de eviscerat | Rust Coat",
+    "russian": "Нож с лезвием-крюком | Пыльник",
+    "schinese": "穿肠刀 | 外表生锈",
+    "schinese_pw": "Gut Knife | Rust Coat",
+    "spanish": "Cuchillo Destripador | Capa de herrumbre",
+    "swedish": "Buköppnare | Rust Coat",
+    "tchinese": "穿腸刀 | 鏽衣",
+    "thai": "มีดแล่หนัง | Rust Coat",
+    "turkish": "Kancalı Bıçak | Pas Kaplı",
+    "ukrainian": "Білувальний ніж | Прошарок іржі",
+    "vietnamese": "Dao móc | Rust Coat"
+  },
+  "media": {
+    "asset_id": "skin__506-414",
+    "images_png": [
+      "data/api/media/rendered/files/skins/506-414/light.png",
+      "data/api/media/rendered/files/skins/506-414/medium.png",
+      "data/api/media/rendered/files/skins/506-414/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/506-414.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/506-414/heavy.png",
+      "light": "data/api/media/rendered/files/skins/506-414/light.png",
+      "medium": "data/api/media/rendered/files/skins/506-414/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/506-414/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gut_aq_steel_knife_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gut_aq_steel_knife_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gut_aq_steel_knife_medium_png.vtex_c"
+    }
+  },
+  "name": "Gut Knife | Rust Coat",
+  "search_slug": "gut-knife-rust-coat",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "506-414__normal__battle-scarred",
+    "506-414__normal__well-worn",
+    "506-414__stattrak__battle-scarred",
+    "506-414__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gut",
+    "id": 506,
+    "localized_names": {
+      "brazilian": "Faca Gut Hook",
+      "bulgarian": "Касапски нож",
+      "czech": "Rozparovací nůž",
+      "danish": "Jagtkniv",
+      "dutch": "Ingewandenmes",
+      "english": "Gut Knife",
+      "finnish": "Metsästysveitsi",
+      "french": "Couteau à éviscérer",
+      "german": "Aufbrechmesser",
+      "greek": "Gut Knife",
+      "hungarian": "Zsigerelőkés",
+      "indonesian": "Pisau Pengait",
+      "italian": "Coltello da sventramento",
+      "japanese": "ガットナイフ",
+      "koreana": "갈고리 칼",
+      "latam": "Cuchillo destripador",
+      "norwegian": "Sløyekniv",
+      "polish": "Nóż z hakiem",
+      "portuguese": "Gut Knife",
+      "romanian": "Cuțit de eviscerat",
+      "russian": "Нож с лезвием-крюком",
+      "schinese": "穿肠刀",
+      "schinese_pw": "Gut Knife",
+      "spanish": "Cuchillo Destripador",
+      "swedish": "Buköppnare",
+      "tchinese": "穿腸刀",
+      "thai": "มีดแล่หนัง",
+      "turkish": "Kancalı Bıçak",
+      "ukrainian": "Білувальний ніж",
+      "vietnamese": "Dao móc"
+    },
+    "name": "Gut Knife",
+    "search_slug": "gut-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.4
+  }
+}

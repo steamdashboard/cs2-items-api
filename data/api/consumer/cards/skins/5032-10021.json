@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5032-10021",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "handwrap-red-slaughter",
+    "catalog_id": 10021,
+    "id": 10021,
+    "localized_names": {
+      "brazilian": "Abate",
+      "bulgarian": "Клане",
+      "czech": "Slaughter",
+      "danish": "Slaughter",
+      "dutch": "Slaughter",
+      "english": "Slaughter",
+      "finnish": "Teurastus",
+      "french": "Carnage",
+      "german": "Metzelei",
+      "greek": "Slaughter",
+      "hungarian": "Mészárlás",
+      "indonesian": "Slaughter",
+      "italian": "Slaughter",
+      "japanese": "Slaughter",
+      "koreana": "살인마",
+      "latam": "Masacre",
+      "norwegian": "Slaughter",
+      "polish": "Rzeź",
+      "portuguese": "Slaughter",
+      "romanian": "Măcel",
+      "russian": "Бойня",
+      "schinese": "屠夫",
+      "schinese_pw": "Slaughter",
+      "spanish": "Masacre",
+      "swedish": "Slaughter",
+      "tchinese": "殺戮斑紋",
+      "thai": "Slaughter",
+      "turkish": "Katliam",
+      "ukrainian": "Бійня",
+      "vietnamese": "Slaughter"
+    },
+    "name": "Slaughter",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5032-10021",
+  "localized_names": {
+    "brazilian": "Faixas | Abate",
+    "bulgarian": "Превръзки за ръце | Клане",
+    "czech": "Bandáže | Slaughter",
+    "danish": "Håndbind | Slaughter",
+    "dutch": "Bandages | Slaughter",
+    "english": "Hand Wraps | Slaughter",
+    "finnish": "Käsisiteet | Teurastus",
+    "french": "Bandages | Carnage",
+    "german": "Handbandagen | Metzelei",
+    "greek": "Περιτυλίγματα χεριών | Slaughter",
+    "hungarian": "Kézkötések | Mészárlás",
+    "indonesian": "Hand Wraps | Slaughter",
+    "italian": "Fasce per le mani | Slaughter",
+    "japanese": "Hand Wraps | Slaughter",
+    "koreana": "핸드랩 | 살인마",
+    "latam": "Vendas de cuero | Masacre",
+    "norwegian": "Boksebandasje | Slaughter",
+    "polish": "Bandaże bokserskie | Rzeź",
+    "portuguese": "Faixas de Mão | Slaughter",
+    "romanian": "Feșe pentru mâini | Măcel",
+    "russian": "Обмотки рук | Бойня",
+    "schinese": "裹手 | 屠夫",
+    "schinese_pw": "Hand Wraps | Slaughter",
+    "spanish": "Vendas de cuero | Masacre",
+    "swedish": "Handlindor | Slaughter",
+    "tchinese": "手綁帶 | 殺戮斑紋",
+    "thai": "ผ้าพันมือ | Slaughter",
+    "turkish": "El Sargıları | Katliam",
+    "ukrainian": "Бинти на руки | Бійня",
+    "vietnamese": "Bọc tay | Slaughter"
+  },
+  "media": {
+    "asset_id": "skin__5032-10021",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5032-10021/light.png",
+      "data/api/media/rendered/files/skins/5032-10021/medium.png",
+      "data/api/media/rendered/files/skins/5032-10021/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5032-10021.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5032-10021/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5032-10021/light.png",
+      "medium": "data/api/media/rendered/files/skins/5032-10021/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5032-10021/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/leather_handwraps_handwrap_red_slaughter_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/leather_handwraps_handwrap_red_slaughter_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/leather_handwraps_handwrap_red_slaughter_medium_png.vtex_c"
+    }
+  },
+  "name": "Hand Wraps | Slaughter",
+  "search_slug": "hand-wraps-slaughter",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-15",
+        "id": 4288,
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "search_slug": "glove-case",
+        "via_special_pool": "community_case_15_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-17",
+        "id": 4352,
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "search_slug": "operation-hydra-case",
+        "via_special_pool": "community_case_15_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-15-unusual",
+        "expansion_rule": "legacy-gloves",
+        "id": "community_case_15_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "community-case-15-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5032-10021__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "leather-handwraps",
+    "id": 5032,
+    "localized_names": {
+      "brazilian": "Faixas",
+      "bulgarian": "Превръзки за ръце",
+      "czech": "Bandáže",
+      "danish": "Håndbind",
+      "dutch": "Bandages",
+      "english": "Hand Wraps",
+      "finnish": "Käsisiteet",
+      "french": "Bandages",
+      "german": "Handbandagen",
+      "greek": "Περιτυλίγματα χεριών",
+      "hungarian": "Kézkötések",
+      "indonesian": "Hand Wraps",
+      "italian": "Fasce per le mani",
+      "japanese": "Hand Wraps",
+      "koreana": "핸드랩",
+      "latam": "Vendas de cuero",
+      "norwegian": "Boksebandasje",
+      "polish": "Bandaże bokserskie",
+      "portuguese": "Faixas de Mão",
+      "romanian": "Feșe pentru mâini",
+      "russian": "Обмотки рук",
+      "schinese": "裹手",
+      "schinese_pw": "Hand Wraps",
+      "spanish": "Vendas de cuero",
+      "swedish": "Handlindor",
+      "tchinese": "手綁帶",
+      "thai": "ผ้าพันมือ",
+      "turkish": "El Sargıları",
+      "ukrainian": "Бинти на руки",
+      "vietnamese": "Bọc tay"
+    },
+    "name": "Hand Wraps",
+    "search_slug": "hand-wraps",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

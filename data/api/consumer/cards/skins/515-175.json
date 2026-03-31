@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "515-175",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-dapple",
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-175",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Brasas",
+    "bulgarian": "Нож „Пеперуда“ | Обгорено",
+    "czech": "Motýlek | Scorched",
+    "danish": "Butterfly-kniv | Scorched",
+    "dutch": "Vlindermes | Scorched",
+    "english": "Butterfly Knife | Scorched",
+    "finnish": "Perhosveitsi | Korventunut",
+    "french": "Couteau papillon | Brûlé",
+    "german": "Butterflymesser | Versengt",
+    "greek": "Μαχαίρι Butterfly | Scorched",
+    "hungarian": "Pillangókés | Megperzselt",
+    "indonesian": "Pisau Kupu-kupu | Scorched",
+    "italian": "Coltello a farfalla | Scorched",
+    "japanese": "バタフライナイフ | Scorched",
+    "koreana": "버터플라이 나이프 | 그을림",
+    "latam": "Cuchillo mariposa | Chamuscado",
+    "norwegian": "Butterflykniv | Scorched",
+    "polish": "Nóż motylkowy | Popiół",
+    "portuguese": "Faca Butterfly | Scorched",
+    "romanian": "Cuțit fluture | Scorched",
+    "russian": "Нож-бабочка | Сажа",
+    "schinese": "蝴蝶刀 | 枯焦之色",
+    "schinese_pw": "Butterfly Knife | Scorched",
+    "spanish": "Cuchillo Mariposa | Chamuscado",
+    "swedish": "Butterflykniv | Scorched",
+    "tchinese": "蝴蝶刀 | 熾灼",
+    "thai": "มีดบัตเตอร์ฟลาย | Scorched",
+    "turkish": "Kelebek Bıçak | Alazlanmış",
+    "ukrainian": "Балісонг | Випалення",
+    "vietnamese": "Dao bướm | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__515-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-175/light.png",
+      "data/api/media/rendered/files/skins/515-175/medium.png",
+      "data/api/media/rendered/files/skins/515-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Scorched",
+  "search_slug": "butterfly-knife-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-4",
+        "id": 4018,
+        "kind": "weapon-case",
+        "name": "Operation Breakout Weapon Case",
+        "search_slug": "operation-breakout-weapon-case",
+        "via_special_pool": "community_case_4_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-4-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_4_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Butterfly Knife ★",
+        "search_slug": "community-case-4-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-175__normal__vanilla",
+    "515-175__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

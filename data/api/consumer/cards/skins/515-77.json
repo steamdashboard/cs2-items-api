@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "515-77",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-forest-boreal",
+    "catalog_id": 77,
+    "id": 77,
+    "localized_names": {
+      "brazilian": "Floresta Boreal",
+      "bulgarian": "Северна гора",
+      "czech": "Boreal Forest",
+      "danish": "Boreal Forest",
+      "dutch": "Boreal Forest",
+      "english": "Boreal Forest",
+      "finnish": "Pohjoismetsä",
+      "french": "Forêt boréale",
+      "german": "Borealer Nadelwald",
+      "greek": "Boreal Forest",
+      "hungarian": "Északi Erdő",
+      "indonesian": "Boreal Forest",
+      "italian": "Boreal Forest",
+      "japanese": "Boreal Forest",
+      "koreana": "북방림",
+      "latam": "Bosque boreal",
+      "norwegian": "Boreal Forest",
+      "polish": "Tajga",
+      "portuguese": "Boreal Forest",
+      "romanian": "Boreal Forest",
+      "russian": "Северный лес",
+      "schinese": "北方森林",
+      "schinese_pw": "Boreal Forest",
+      "spanish": "Bosque boreal",
+      "swedish": "Boreal Forest",
+      "tchinese": "北寒帶林",
+      "thai": "Boreal Forest",
+      "turkish": "Kuzey Ormanı",
+      "ukrainian": "Тундра",
+      "vietnamese": "Boreal Forest"
+    },
+    "name": "Boreal Forest",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-77",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Floresta Boreal",
+    "bulgarian": "Нож „Пеперуда“ | Северна гора",
+    "czech": "Motýlek | Boreal Forest",
+    "danish": "Butterfly-kniv | Boreal Forest",
+    "dutch": "Vlindermes | Boreal Forest",
+    "english": "Butterfly Knife | Boreal Forest",
+    "finnish": "Perhosveitsi | Pohjoismetsä",
+    "french": "Couteau papillon | Forêt boréale",
+    "german": "Butterflymesser | Borealer Nadelwald",
+    "greek": "Μαχαίρι Butterfly | Boreal Forest",
+    "hungarian": "Pillangókés | Északi Erdő",
+    "indonesian": "Pisau Kupu-kupu | Boreal Forest",
+    "italian": "Coltello a farfalla | Boreal Forest",
+    "japanese": "バタフライナイフ | Boreal Forest",
+    "koreana": "버터플라이 나이프 | 북방림",
+    "latam": "Cuchillo mariposa | Bosque boreal",
+    "norwegian": "Butterflykniv | Boreal Forest",
+    "polish": "Nóż motylkowy | Tajga",
+    "portuguese": "Faca Butterfly | Boreal Forest",
+    "romanian": "Cuțit fluture | Boreal Forest",
+    "russian": "Нож-бабочка | Северный лес",
+    "schinese": "蝴蝶刀 | 北方森林",
+    "schinese_pw": "Butterfly Knife | Boreal Forest",
+    "spanish": "Cuchillo Mariposa | Bosque boreal",
+    "swedish": "Butterflykniv | Boreal Forest",
+    "tchinese": "蝴蝶刀 | 北寒帶林",
+    "thai": "มีดบัตเตอร์ฟลาย | Boreal Forest",
+    "turkish": "Kelebek Bıçak | Kuzey Ormanı",
+    "ukrainian": "Балісонг | Тундра",
+    "vietnamese": "Dao bướm | Boreal Forest"
+  },
+  "media": {
+    "asset_id": "skin__515-77",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-77/light.png",
+      "data/api/media/rendered/files/skins/515-77/medium.png",
+      "data/api/media/rendered/files/skins/515-77/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-77.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-77/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-77/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-77/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-77/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_hy_forest_boreal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_hy_forest_boreal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_hy_forest_boreal_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Boreal Forest",
+  "search_slug": "butterfly-knife-boreal-forest",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-4",
+        "id": 4018,
+        "kind": "weapon-case",
+        "name": "Operation Breakout Weapon Case",
+        "search_slug": "operation-breakout-weapon-case",
+        "via_special_pool": "community_case_4_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-4-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_4_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Butterfly Knife ★",
+        "search_slug": "community-case-4-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-77__normal__vanilla",
+    "515-77__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

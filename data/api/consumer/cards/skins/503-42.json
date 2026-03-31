@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "503-42",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-blued",
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "503-42",
+  "localized_names": {
+    "brazilian": "Faca Clássica | Aço Azul",
+    "bulgarian": "Класически нож | Синя стомана",
+    "czech": "Klasický nůž | Blue Steel",
+    "danish": "Klassisk kniv | Blue Steel",
+    "dutch": "Klassiek mes | Blue Steel",
+    "english": "Classic Knife | Blue Steel",
+    "finnish": "Klassinen veitsi | Sininen teräs",
+    "french": "Couteau classique | Acier bleui",
+    "german": "Klassisches Messer | Blauer Stahl",
+    "greek": "Κλασικό Μαχαίρι | Blue Steel",
+    "hungarian": "Klasszikus Kés | Kék Acél",
+    "indonesian": "Pisau Klasik | Blue Steel",
+    "italian": "Coltello classico | Blue Steel",
+    "japanese": "クラシックナイフ | Blue Steel",
+    "koreana": "클래식 칼 | 푸른 강철",
+    "latam": "Cuchillo clásico | Azul metalizado",
+    "norwegian": "Klassisk kniv | Blue Steel",
+    "polish": "Klasyczny nóż | Niebieska stal",
+    "portuguese": "Faca Clássica | Blue Steel",
+    "romanian": "Cuțit clasic | Blue Steel",
+    "russian": "Классический нож | Вороненая сталь",
+    "schinese": "海豹短刀 | 蓝钢",
+    "schinese_pw": "Classic Knife | Blue Steel",
+    "spanish": "Cuchillo clásico | Azul metalizado",
+    "swedish": "Klassisk kniv | Blue Steel",
+    "tchinese": "經典軍刀 | 藍鋼",
+    "thai": "มีดคลาสสิก | Blue Steel",
+    "turkish": "Klasik Bıçak | Mavi Çelik",
+    "ukrainian": "Класичний ніж | Блакитна сталь",
+    "vietnamese": "Classic Knife | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__503-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/503-42/light.png",
+      "data/api/media/rendered/files/skins/503-42/medium.png",
+      "data/api/media/rendered/files/skins/503-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/503-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/503-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/503-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/503-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/503-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_css_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_css_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_css_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "Classic Knife | Blue Steel",
+  "search_slug": "classic-knife-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-24",
+        "id": 4669,
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "search_slug": "cs20-case",
+        "via_special_pool": "set_community_24_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-24-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_24_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Classic Knife ★",
+        "search_slug": "set-community-24-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "503-42__normal__battle-scarred",
+    "503-42__normal__factory-new",
+    "503-42__normal__field-tested",
+    "503-42__normal__minimal-wear",
+    "503-42__normal__well-worn",
+    "503-42__stattrak__battle-scarred",
+    "503-42__stattrak__factory-new",
+    "503-42__stattrak__field-tested",
+    "503-42__stattrak__minimal-wear",
+    "503-42__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-css",
+    "id": 503,
+    "localized_names": {
+      "brazilian": "Faca Clássica",
+      "bulgarian": "Класически нож",
+      "czech": "Klasický nůž",
+      "danish": "Klassisk kniv",
+      "dutch": "Klassiek mes",
+      "english": "Classic Knife",
+      "finnish": "Klassinen veitsi",
+      "french": "Couteau classique",
+      "german": "Klassisches Messer",
+      "greek": "Κλασικό Μαχαίρι",
+      "hungarian": "Klasszikus Kés",
+      "indonesian": "Pisau Klasik",
+      "italian": "Coltello classico",
+      "japanese": "クラシックナイフ",
+      "koreana": "클래식 칼",
+      "latam": "Cuchillo clásico",
+      "norwegian": "Klassisk kniv",
+      "polish": "Klasyczny nóż",
+      "portuguese": "Faca Clássica",
+      "romanian": "Cuțit clasic",
+      "russian": "Классический нож",
+      "schinese": "海豹短刀",
+      "schinese_pw": "Classic Knife",
+      "spanish": "Cuchillo clásico",
+      "swedish": "Klassisk kniv",
+      "tchinese": "經典軍刀",
+      "thai": "มีดคลาสสิก",
+      "turkish": "Klasik Bıçak",
+      "ukrainian": "Класичний ніж",
+      "vietnamese": "Classic Knife"
+    },
+    "name": "Classic Knife",
+    "search_slug": "classic-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

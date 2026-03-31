@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "516-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-40",
+  "localized_names": {
+    "brazilian": "Adagas Sombrias | Noite",
+    "bulgarian": "Мрачни кинжали | Нощно",
+    "czech": "Pěstní dýky | Night",
+    "danish": "Shadow-daggerter | Night",
+    "dutch": "Schaduwdolken | Night",
+    "english": "Shadow Daggers | Night",
+    "finnish": "Varjotikarit | Yö",
+    "french": "Dagues sombres | Nuit",
+    "german": "Schattendolche | Nacht",
+    "greek": "Shadow Daggers | Night",
+    "hungarian": "Árnyéktőr | Éjszaka",
+    "indonesian": "Belati Bayangan | Night",
+    "italian": "Fendi ombra | Night",
+    "japanese": "シャドウダガー | Night",
+    "koreana": "섀도우 칼 | 밤",
+    "latam": "Dagas Sombrías | Nocturno",
+    "norwegian": "Skyggedolker | Night",
+    "polish": "Sztylety Cienia | Noc",
+    "portuguese": "Shadow Daggers | Night",
+    "romanian": "Pumnale Shadow | Night",
+    "russian": "Тычковые ножи | Ночь",
+    "schinese": "暗影双匕 | 噩梦之夜",
+    "schinese_pw": "Shadow Daggers | Night",
+    "spanish": "Dagas Sombrías | Noche cerrada",
+    "swedish": "Skuggdolkar | Night",
+    "tchinese": "暗影匕首 | 惡夢之夜",
+    "thai": "มีดชาโดว์ดักเกอร์ | Night",
+    "turkish": "Gölge Hançerler | Gece",
+    "ukrainian": "Тіньові ножі | Ніч",
+    "vietnamese": "Dao găm chữ T | Night"
+  },
+  "media": {
+    "asset_id": "skin__516-40",
+    "images_png": [
+      "data/api/media/rendered/files/skins/516-40/light.png",
+      "data/api/media/rendered/files/skins/516-40/medium.png",
+      "data/api/media/rendered/files/skins/516-40/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/516-40.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/516-40/heavy.png",
+      "light": "data/api/media/rendered/files/skins/516-40/light.png",
+      "medium": "data/api/media/rendered/files/skins/516-40/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/516-40/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_push_so_night_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_push_so_night_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_push_so_night_medium_png.vtex_c"
+    }
+  },
+  "name": "Shadow Daggers | Night",
+  "search_slug": "shadow-daggers-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-9",
+        "id": 4138,
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "search_slug": "shadow-case",
+        "via_special_pool": "community_case_9_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-9-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_9_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Shadow Daggers ★",
+        "search_slug": "community-case-9-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "516-40__normal__vanilla",
+    "516-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-push",
+    "id": 516,
+    "localized_names": {
+      "brazilian": "Adagas Sombrias",
+      "bulgarian": "Мрачни кинжали",
+      "czech": "Pěstní dýky",
+      "danish": "Shadow-daggerter",
+      "dutch": "Schaduwdolken",
+      "english": "Shadow Daggers",
+      "finnish": "Varjotikarit",
+      "french": "Dagues sombres",
+      "german": "Schattendolche",
+      "greek": "Shadow Daggers",
+      "hungarian": "Árnyéktőr",
+      "indonesian": "Belati Bayangan",
+      "italian": "Fendi ombra",
+      "japanese": "シャドウダガー",
+      "koreana": "섀도우 칼",
+      "latam": "Dagas Sombrías",
+      "norwegian": "Skyggedolker",
+      "polish": "Sztylety Cienia",
+      "portuguese": "Shadow Daggers",
+      "romanian": "Pumnale Shadow",
+      "russian": "Тычковые ножи",
+      "schinese": "暗影双匕",
+      "schinese_pw": "Shadow Daggers",
+      "spanish": "Dagas Sombrías",
+      "swedish": "Skuggdolkar",
+      "tchinese": "暗影匕首",
+      "thai": "มีดชาโดว์ดักเกอร์",
+      "turkish": "Gölge Hançerler",
+      "ukrainian": "Тіньові ножі",
+      "vietnamese": "Dao găm chữ T"
+    },
+    "name": "Shadow Daggers",
+    "search_slug": "shadow-daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

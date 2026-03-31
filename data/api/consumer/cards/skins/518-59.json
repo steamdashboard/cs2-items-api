@@ -1,0 +1,225 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "canonical_slug": "518-59",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-zebra",
+    "catalog_id": 59,
+    "id": 59,
+    "localized_names": {
+      "brazilian": "Massacre",
+      "bulgarian": "Клане",
+      "czech": "Slaughter",
+      "danish": "Slaughter",
+      "dutch": "Slaughter",
+      "english": "Slaughter",
+      "finnish": "Teurastus",
+      "french": "Carnage",
+      "german": "Metzelei",
+      "greek": "Slaughter",
+      "hungarian": "Mészárlás",
+      "indonesian": "Slaughter",
+      "italian": "Slaughter",
+      "japanese": "Slaughter",
+      "koreana": "살인마",
+      "latam": "Masacre",
+      "norwegian": "Slaughter",
+      "polish": "Rzeź",
+      "portuguese": "Slaughter",
+      "romanian": "Slaughter",
+      "russian": "Убийство",
+      "schinese": "屠夫",
+      "schinese_pw": "Slaughter",
+      "spanish": "Masacre",
+      "swedish": "Slaughter",
+      "tchinese": "屠夫",
+      "thai": "Slaughter",
+      "turkish": "Katliam",
+      "ukrainian": "Бійня",
+      "vietnamese": "Slaughter"
+    },
+    "name": "Slaughter",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.01
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "518-59",
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência | Massacre",
+    "bulgarian": "Нож за оцеляване | Клане",
+    "czech": "Záchranářský nůž | Slaughter",
+    "danish": "Overlevelseskniv | Slaughter",
+    "dutch": "Overlevingsmes | Slaughter",
+    "english": "Survival Knife | Slaughter",
+    "finnish": "Selviytymisveitsi | Teurastus",
+    "french": "Couteau de survie | Carnage",
+    "german": "Survival-Messer | Metzelei",
+    "greek": "Μαχαίρι Survival | Slaughter",
+    "hungarian": "Túlélőkés | Mészárlás",
+    "indonesian": "Pisau Survival | Slaughter",
+    "italian": "Coltello da sopravvivenza | Slaughter",
+    "japanese": "サバイバルナイフ | Slaughter",
+    "koreana": "서바이벌 칼 | 살인마",
+    "latam": "Cuchillo de supervivencia | Masacre",
+    "norwegian": "Overlevelseskniv | Slaughter",
+    "polish": "Nóż survivalowy | Rzeź",
+    "portuguese": "Faca Survival | Slaughter",
+    "romanian": "Cuțit de supraviețuire | Slaughter",
+    "russian": "Нож выживания | Убийство",
+    "schinese": "求生匕首 | 屠夫",
+    "schinese_pw": "Survival Knife | Slaughter",
+    "spanish": "Cuchillo de supervivencia | Masacre",
+    "swedish": "Överlevnadskniv | Slaughter",
+    "tchinese": "求生刀 | 屠夫",
+    "thai": "มีดเซอร์ไวเวอร์ | Slaughter",
+    "turkish": "Hayatta Kalma Bıçağı | Katliam",
+    "ukrainian": "Ніж для виживання | Бійня",
+    "vietnamese": "Dao sinh tồn | Slaughter"
+  },
+  "media": {
+    "asset_id": "skin__518-59",
+    "images_png": [
+      "data/api/media/rendered/files/skins/518-59/light.png",
+      "data/api/media/rendered/files/skins/518-59/medium.png",
+      "data/api/media/rendered/files/skins/518-59/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/518-59.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/518-59/heavy.png",
+      "light": "data/api/media/rendered/files/skins/518-59/light.png",
+      "medium": "data/api/media/rendered/files/skins/518-59/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/518-59/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_canis_am_zebra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_canis_am_zebra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_canis_am_zebra_medium_png.vtex_c"
+    }
+  },
+  "name": "Survival Knife | Slaughter",
+  "search_slug": "survival-knife-slaughter",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-23",
+        "id": 4620,
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "search_slug": "shattered-web-case",
+        "via_special_pool": "set_community_23_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-26",
+        "id": 4698,
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "search_slug": "fracture-case",
+        "via_special_pool": "set_community_23_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-23-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_23_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-23-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "518-59__normal__factory-new",
+    "518-59__normal__field-tested",
+    "518-59__normal__minimal-wear",
+    "518-59__stattrak__factory-new",
+    "518-59__stattrak__field-tested",
+    "518-59__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-canis",
+    "id": 518,
+    "localized_names": {
+      "brazilian": "Faca de Sobrevivência",
+      "bulgarian": "Нож за оцеляване",
+      "czech": "Záchranářský nůž",
+      "danish": "Overlevelseskniv",
+      "dutch": "Overlevingsmes",
+      "english": "Survival Knife",
+      "finnish": "Selviytymisveitsi",
+      "french": "Couteau de survie",
+      "german": "Survival-Messer",
+      "greek": "Μαχαίρι Survival",
+      "hungarian": "Túlélőkés",
+      "indonesian": "Pisau Survival",
+      "italian": "Coltello da sopravvivenza",
+      "japanese": "サバイバルナイフ",
+      "koreana": "서바이벌 칼",
+      "latam": "Cuchillo de supervivencia",
+      "norwegian": "Overlevelseskniv",
+      "polish": "Nóż survivalowy",
+      "portuguese": "Faca Survival",
+      "romanian": "Cuțit de supraviețuire",
+      "russian": "Нож выживания",
+      "schinese": "求生匕首",
+      "schinese_pw": "Survival Knife",
+      "spanish": "Cuchillo de supervivencia",
+      "swedish": "Överlevnadskniv",
+      "tchinese": "求生刀",
+      "thai": "มีดเซอร์ไวเวอร์",
+      "turkish": "Hayatta Kalma Bıçağı",
+      "ukrainian": "Ніж для виживання",
+      "vietnamese": "Dao sinh tồn"
+    },
+    "name": "Survival Knife",
+    "search_slug": "survival-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.01
+  }
+}

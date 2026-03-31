@@ -1,0 +1,190 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5034-1440",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "glove-specialist-dragon-blue",
+    "catalog_id": 1440,
+    "id": 1440,
+    "localized_names": {
+      "brazilian": "Caça-Nuvens",
+      "bulgarian": "Облачен преследвач",
+      "czech": "Cloud Chaser",
+      "danish": "Cloud Chaser",
+      "dutch": "Cloud Chaser",
+      "english": "Cloud Chaser",
+      "finnish": "Pilven piirtäjä",
+      "french": "Attrape-nuages",
+      "german": "Wolkenjäger",
+      "greek": "Cloud Chaser",
+      "hungarian": "Felhőkergető",
+      "indonesian": "Cloud Chaser",
+      "italian": "Cloud Chaser",
+      "japanese": "Cloud Chaser",
+      "koreana": "클라우드 체이서",
+      "latam": "Cazanubes",
+      "norwegian": "Cloud Chaser",
+      "polish": "Łowca chmur",
+      "portuguese": "Cloud Chaser",
+      "romanian": "Cloud Chaser",
+      "russian": "Погоня за облаком",
+      "schinese": "青云狩",
+      "schinese_pw": "Cloud Chaser",
+      "spanish": "Buscanubes",
+      "swedish": "Cloud Chaser",
+      "tchinese": "追雲者",
+      "thai": "Cloud Chaser",
+      "turkish": "Bulut Avcısı",
+      "ukrainian": "Мисливець за хмарами",
+      "vietnamese": "Cloud Chaser"
+    },
+    "name": "Cloud Chaser",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5034-1440",
+  "localized_names": {
+    "brazilian": "Luvas de Especialista | Caça-Nuvens",
+    "bulgarian": "Специализирани ръкавици | Облачен преследвач",
+    "czech": "Profesionální rukavice | Cloud Chaser",
+    "danish": "Specialisthandsker | Cloud Chaser",
+    "dutch": "Specialisthandschoenen | Cloud Chaser",
+    "english": "Specialist Gloves | Cloud Chaser",
+    "finnish": "Ammattilaishanskat | Pilven piirtäjä",
+    "french": "Gants de spécialiste | Attrape-nuages",
+    "german": "Spezialistenhandschuhe | Wolkenjäger",
+    "greek": "Γάντια ειδικού | Cloud Chaser",
+    "hungarian": "Specialista kesztyűk | Felhőkergető",
+    "indonesian": "Sarung Tangan Spesialis | Cloud Chaser",
+    "italian": "Guanti dello specialista | Cloud Chaser",
+    "japanese": "Specialist Gloves | Cloud Chaser",
+    "koreana": "전문가 장갑 | 클라우드 체이서",
+    "latam": "Guantes de especialista | Cazanubes",
+    "norwegian": "Spesialisthansker | Cloud Chaser",
+    "polish": "Rękawice specjalistyczne | Łowca chmur",
+    "portuguese": "Luvas de Especialista | Cloud Chaser",
+    "romanian": "Mănuși de specialist | Cloud Chaser",
+    "russian": "Перчатки спецназа | Погоня за облаком",
+    "schinese": "专业手套 | 青云狩",
+    "schinese_pw": "Specialist Gloves | Cloud Chaser",
+    "spanish": "Guantes de especialista | Buscanubes",
+    "swedish": "Specialisthandskar | Cloud Chaser",
+    "tchinese": "技術士手套 | 追雲者",
+    "thai": "ถุงมือผู้เชี่ยวชาญ | Cloud Chaser",
+    "turkish": "Uzman Eldivenleri | Bulut Avcısı",
+    "ukrainian": "Рукавиці спеціаліста | Мисливець за хмарами",
+    "vietnamese": "Găng tay chuyên viên | Cloud Chaser"
+  },
+  "media": {
+    "asset_id": "skin__5034-1440",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5034-1440/light.png",
+      "data/api/media/rendered/files/skins/5034-1440/medium.png",
+      "data/api/media/rendered/files/skins/5034-1440/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5034-1440.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5034-1440/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5034-1440/light.png",
+      "medium": "data/api/media/rendered/files/skins/5034-1440/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5034-1440/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/specialist_gloves_glove_specialist_dragon_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/specialist_gloves_glove_specialist_dragon_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/specialist_gloves_glove_specialist_dragon_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "Specialist Gloves | Cloud Chaser",
+  "search_slug": "specialist-gloves-cloud-chaser",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [],
+    "containers": [
+      {
+        "canonical_slug": "crate-community-37",
+        "id": 5181,
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "search_slug": "sealed-dead-hand-terminal",
+        "via_special_pool": "set_community_37_unusual"
+      }
+    ],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-37-unusual",
+        "expansion_rule": "volatile-gloves",
+        "id": "set_community_37_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-37-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5034-1440__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "specialist-gloves",
+    "id": 5034,
+    "localized_names": {
+      "brazilian": "Luvas de Especialista",
+      "bulgarian": "Специализирани ръкавици",
+      "czech": "Profesionální rukavice",
+      "danish": "Specialisthandsker",
+      "dutch": "Specialisthandschoenen",
+      "english": "Specialist Gloves",
+      "finnish": "Ammattilaishanskat",
+      "french": "Gants de spécialiste",
+      "german": "Spezialistenhandschuhe",
+      "greek": "Γάντια ειδικού",
+      "hungarian": "Specialista kesztyűk",
+      "indonesian": "Sarung Tangan Spesialis",
+      "italian": "Guanti dello specialista",
+      "japanese": "Specialist Gloves",
+      "koreana": "전문가 장갑",
+      "latam": "Guantes de especialista",
+      "norwegian": "Spesialisthansker",
+      "polish": "Rękawice specjalistyczne",
+      "portuguese": "Luvas de Especialista",
+      "romanian": "Mănuși de specialist",
+      "russian": "Перчатки спецназа",
+      "schinese": "专业手套",
+      "schinese_pw": "Specialist Gloves",
+      "spanish": "Guantes de especialista",
+      "swedish": "Specialisthandskar",
+      "tchinese": "技術士手套",
+      "thai": "ถุงมือผู้เชี่ยวชาญ",
+      "turkish": "Uzman Eldivenleri",
+      "ukrainian": "Рукавиці спеціаліста",
+      "vietnamese": "Găng tay chuyên viên"
+    },
+    "name": "Specialist Gloves",
+    "search_slug": "specialist-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

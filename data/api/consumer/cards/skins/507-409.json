@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "507-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "507-409",
+  "localized_names": {
+    "brazilian": "Karambit | Dente de Tigre",
+    "bulgarian": "Карамбит | Тигров зъб",
+    "czech": "Karambit | Tiger Tooth",
+    "danish": "Karambit | Tiger Tooth",
+    "dutch": "Karambit | Tiger Tooth",
+    "english": "Karambit | Tiger Tooth",
+    "finnish": "Karambit | Tiikerinhammas",
+    "french": "Karambit | Dent de tigre",
+    "german": "Karambit | Tigerzahn",
+    "greek": "Karambit | Tiger Tooth",
+    "hungarian": "Karambit | Tigrisfog",
+    "indonesian": "Karambit | Tiger Tooth",
+    "italian": "Karambit | Tiger Tooth",
+    "japanese": "カランビット | Tiger Tooth",
+    "koreana": "카람빗 | 호랑이 이빨",
+    "latam": "Karambit | Diente de tigre",
+    "norwegian": "Karambit | Tiger Tooth",
+    "polish": "Karambit | Tygrysi kieł",
+    "portuguese": "Karambit | Tiger Tooth",
+    "romanian": "Karambit | Tiger Tooth",
+    "russian": "Керамбит | Зуб тигра",
+    "schinese": "爪子刀 | 虎牙",
+    "schinese_pw": "Karambit | Tiger Tooth",
+    "spanish": "Karambit | Diente de tigre",
+    "swedish": "Karambit | Tiger Tooth",
+    "tchinese": "爪刀 | 虎牙",
+    "thai": "มีดคารัมบิต | Tiger Tooth",
+    "turkish": "Karambit | Kaplan Dişi",
+    "ukrainian": "Керамбіт | Тигряче ікло",
+    "vietnamese": "Karambit | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__507-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/507-409/light.png",
+      "data/api/media/rendered/files/skins/507-409/medium.png",
+      "data/api/media/rendered/files/skins/507-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/507-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/507-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/507-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/507-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/507-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_karambit_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_karambit_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_karambit_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Karambit | Tiger Tooth",
+  "search_slug": "karambit-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "507-409__normal__factory-new",
+    "507-409__normal__minimal-wear",
+    "507-409__stattrak__factory-new",
+    "507-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-karambit",
+    "id": 507,
+    "localized_names": {
+      "brazilian": "Karambit",
+      "bulgarian": "Карамбит",
+      "czech": "Karambit",
+      "danish": "Karambit",
+      "dutch": "Karambit",
+      "english": "Karambit",
+      "finnish": "Karambit",
+      "french": "Karambit",
+      "german": "Karambit",
+      "greek": "Karambit",
+      "hungarian": "Karambit",
+      "indonesian": "Karambit",
+      "italian": "Karambit",
+      "japanese": "カランビット",
+      "koreana": "카람빗",
+      "latam": "Karambit",
+      "norwegian": "Karambit",
+      "polish": "Karambit",
+      "portuguese": "Karambit",
+      "romanian": "Karambit",
+      "russian": "Керамбит",
+      "schinese": "爪子刀",
+      "schinese_pw": "Karambit",
+      "spanish": "Karambit",
+      "swedish": "Karambit",
+      "tchinese": "爪刀",
+      "thai": "มีดคารัมบิต",
+      "turkish": "Karambit",
+      "ukrainian": "Керамбіт",
+      "vietnamese": "Karambit"
+    },
+    "name": "Karambit",
+    "search_slug": "karambit",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

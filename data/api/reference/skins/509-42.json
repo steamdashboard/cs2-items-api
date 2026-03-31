@@ -1,0 +1,109 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "canonical_slug": "509-42",
+  "finish": {
+    "codename": "aq_blued",
+    "id": 42,
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8
+  },
+  "game_ref": {
+    "paint_kit_id": 42,
+    "weapon_id": 509
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "509-42",
+  "name": "Huntsman Knife | Blue Steel",
+  "search_slug": "huntsman-knife-blue-steel",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-3-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Huntsman Knife ★",
+        "search_slug": "community-case-3-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-3",
+            "id": 4017,
+            "kind": "weapon-case",
+            "name": "Huntsman Weapon Case",
+            "search_slug": "huntsman-weapon-case"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "509-42__normal__factory-new",
+    "509-42__normal__minimal-wear",
+    "509-42__normal__field-tested",
+    "509-42__normal__well-worn",
+    "509-42__normal__battle-scarred",
+    "509-42__stattrak__factory-new",
+    "509-42__stattrak__minimal-wear",
+    "509-42__stattrak__field-tested",
+    "509-42__stattrak__well-worn",
+    "509-42__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_knife_tactical",
+    "id": 509,
+    "name": "Huntsman Knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

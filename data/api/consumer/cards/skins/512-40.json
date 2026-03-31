@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "512-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-40",
+  "localized_names": {
+    "brazilian": "Canivete Falchion | Noite",
+    "bulgarian": "Нож „Фалчион“ | Нощно",
+    "czech": "Falchion | Night",
+    "danish": "Falchion-kniv | Night",
+    "dutch": "Falchion-mes | Night",
+    "english": "Falchion Knife | Night",
+    "finnish": "Falchion-veitsi | Yö",
+    "french": "Couteau fauchon | Nuit",
+    "german": "Falchion-Messer | Nacht",
+    "greek": "Μαχαίρι Falchion | Night",
+    "hungarian": "Handzsárkés | Éjszaka",
+    "indonesian": "Pisau Falchion | Night",
+    "italian": "Coltello falchion | Night",
+    "japanese": "Falchion ナイフ | Night",
+    "koreana": "파르치온 칼 | 밤",
+    "latam": "Cuchillo alfanje | Nocturno",
+    "norwegian": "Falchion-kniv | Night",
+    "polish": "Nóż falcjon | Noc",
+    "portuguese": "Faca Falchion | Night",
+    "romanian": "Cuțit Falchion | Night",
+    "russian": "Фальшион | Ночь",
+    "schinese": "弯刀 | 噩梦之夜",
+    "schinese_pw": "Falchion Knife | Night",
+    "spanish": "Cuchillo Alfanje | Noche cerrada",
+    "swedish": "Falchionkniv | Night",
+    "tchinese": "彎刃匕首 | 惡夢之夜",
+    "thai": "มีดฟัลชิออน | Night",
+    "turkish": "Pala Bıçağı | Gece",
+    "ukrainian": "Ніж-фальшіон | Ніч",
+    "vietnamese": "Dao Falchion | Night"
+  },
+  "media": {
+    "asset_id": "skin__512-40",
+    "images_png": [
+      "data/api/media/rendered/files/skins/512-40/light.png",
+      "data/api/media/rendered/files/skins/512-40/medium.png",
+      "data/api/media/rendered/files/skins/512-40/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/512-40.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/512-40/heavy.png",
+      "light": "data/api/media/rendered/files/skins/512-40/light.png",
+      "medium": "data/api/media/rendered/files/skins/512-40/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/512-40/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_falchion_so_night_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_falchion_so_night_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_falchion_so_night_medium_png.vtex_c"
+    }
+  },
+  "name": "Falchion Knife | Night",
+  "search_slug": "falchion-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-8",
+        "id": 4091,
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "search_slug": "falchion-case",
+        "via_special_pool": "community_case_8_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-8-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_8_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Falchion Knife ★",
+        "search_slug": "community-case-8-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "512-40__normal__vanilla",
+    "512-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-falchion",
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Canivete Falchion",
+      "bulgarian": "Нож „Фалчион“",
+      "czech": "Falchion",
+      "danish": "Falchion-kniv",
+      "dutch": "Falchion-mes",
+      "english": "Falchion Knife",
+      "finnish": "Falchion-veitsi",
+      "french": "Couteau fauchon",
+      "german": "Falchion-Messer",
+      "greek": "Μαχαίρι Falchion",
+      "hungarian": "Handzsárkés",
+      "indonesian": "Pisau Falchion",
+      "italian": "Coltello falchion",
+      "japanese": "Falchion ナイフ",
+      "koreana": "파르치온 칼",
+      "latam": "Cuchillo alfanje",
+      "norwegian": "Falchion-kniv",
+      "polish": "Nóż falcjon",
+      "portuguese": "Faca Falchion",
+      "romanian": "Cuțit Falchion",
+      "russian": "Фальшион",
+      "schinese": "弯刀",
+      "schinese_pw": "Falchion Knife",
+      "spanish": "Cuchillo Alfanje",
+      "swedish": "Falchionkniv",
+      "tchinese": "彎刃匕首",
+      "thai": "มีดฟัลชิออน",
+      "turkish": "Pala Bıçağı",
+      "ukrainian": "Ніж-фальшіон",
+      "vietnamese": "Dao Falchion"
+    },
+    "name": "Falchion Knife",
+    "search_slug": "falchion-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

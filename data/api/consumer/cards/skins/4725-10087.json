@@ -1,0 +1,206 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "4725-10087",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "operation10-floral",
+    "catalog_id": 10087,
+    "id": 10087,
+    "localized_names": {
+      "brazilian": "Bordado",
+      "bulgarian": "Бродерия",
+      "czech": "Needle Point",
+      "danish": "Needle Point",
+      "dutch": "Needle Point",
+      "english": "Needle Point",
+      "finnish": "Ristipisto",
+      "french": "Point d'aiguille",
+      "german": "Nadelspitze",
+      "greek": "Needle Point",
+      "hungarian": "Tűhegy",
+      "indonesian": "Needle Point",
+      "italian": "Needle Point",
+      "japanese": "Needle Point",
+      "koreana": "꽃 자수",
+      "latam": "Punta de aguja",
+      "norwegian": "Needle Point",
+      "polish": "Haft krzyżykowy",
+      "portuguese": "Needle Point",
+      "romanian": "Needle Point",
+      "russian": "Остриё иглы",
+      "schinese": "针尖",
+      "schinese_pw": "Needle Point",
+      "spanish": "Punta de aguja",
+      "swedish": "Needle Point",
+      "tchinese": "針繡花紋",
+      "thai": "Needle Point",
+      "turkish": "İğne Ucu",
+      "ukrainian": "Вишивка",
+      "vietnamese": "Needle Point"
+    },
+    "name": "Needle Point",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "4725-10087",
+  "localized_names": {
+    "brazilian": "Luvas da Presa Quebrada | Bordado",
+    "bulgarian": "Ръкавици „Счупен зъб“ | Бродерия",
+    "czech": "Extrémistické rukavice | Needle Point",
+    "danish": "Broken Fang-handsker | Needle Point",
+    "dutch": "Broken Fang-handschoenen | Needle Point",
+    "english": "Broken Fang Gloves | Needle Point",
+    "finnish": "Katkennut torahammas -hanskat | Ristipisto",
+    "french": "Gants Broken Fang | Point d'aiguille",
+    "german": "Zerbrochener-Reißzahn-Handschuhe | Nadelspitze",
+    "greek": "Γάντια Broken Fang | Needle Point",
+    "hungarian": "Broken Fang kesztyűk | Tűhegy",
+    "indonesian": "Sarung Tangan Broken Fang | Needle Point",
+    "italian": "Guanti Broken Fang | Needle Point",
+    "japanese": "Broken Fang Gloves | Needle Point",
+    "koreana": "브로큰 팽 장갑 | 꽃 자수",
+    "latam": "Guantes Broken Fang | Punta de aguja",
+    "norwegian": "Broken Fang-hansker | Needle Point",
+    "polish": "Rękawice Broken Fang | Haft krzyżykowy",
+    "portuguese": "Luvas Broken Fang | Needle Point",
+    "romanian": "Mănuși Broken Fang | Needle Point",
+    "russian": "Перчатки «Сломанный клык» | Остриё иглы",
+    "schinese": "狂牙手套 | 针尖",
+    "schinese_pw": "Broken Fang Gloves | Needle Point",
+    "spanish": "Guantes Broken Fang | Punta de aguja",
+    "swedish": "Broken Fang-handskar | Needle Point",
+    "tchinese": "《狂牙行動》手套 | 針繡花紋",
+    "thai": "ถุงมือ Broken Fang | Needle Point",
+    "turkish": "Kırık Diş Eldivenleri | İğne Ucu",
+    "ukrainian": "Рукавиці «Зламане ікло» | Вишивка",
+    "vietnamese": "Găng tay Broken Fang | Needle Point"
+  },
+  "media": {
+    "asset_id": "skin__4725-10087",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4725-10087/light.png",
+      "data/api/media/rendered/files/skins/4725-10087/medium.png",
+      "data/api/media/rendered/files/skins/4725-10087/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4725-10087.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4725-10087/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4725-10087/light.png",
+      "medium": "data/api/media/rendered/files/skins/4725-10087/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4725-10087/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/studded_brokenfang_gloves_operation10_floral_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/studded_brokenfang_gloves_operation10_floral_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/studded_brokenfang_gloves_operation10_floral_medium_png.vtex_c"
+    }
+  },
+  "name": "Broken Fang Gloves | Needle Point",
+  "search_slug": "broken-fang-gloves-needle-point",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-27",
+        "id": 4717,
+        "kind": "weapon-case",
+        "name": "Operation Broken Fang Case",
+        "search_slug": "operation-broken-fang-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-28",
+        "id": 4747,
+        "kind": "weapon-case",
+        "name": "Snakebite Case",
+        "search_slug": "snakebite-case",
+        "via_special_pool": "set_glove_3_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-31",
+        "id": 4846,
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "search_slug": "recoil-case",
+        "via_special_pool": "set_glove_3_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-glove-3-unusual",
+        "expansion_rule": "broken-fang-gloves",
+        "id": "set_glove_3_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-glove-3-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "4725-10087__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "studded-brokenfang-gloves",
+    "id": 4725,
+    "localized_names": {
+      "brazilian": "Luvas da Presa Quebrada",
+      "bulgarian": "Ръкавици „Счупен зъб“",
+      "czech": "Extrémistické rukavice",
+      "danish": "Broken Fang-handsker",
+      "dutch": "Broken Fang-handschoenen",
+      "english": "Broken Fang Gloves",
+      "finnish": "Katkennut torahammas -hanskat",
+      "french": "Gants Broken Fang",
+      "german": "Zerbrochener-Reißzahn-Handschuhe",
+      "greek": "Γάντια Broken Fang",
+      "hungarian": "Broken Fang kesztyűk",
+      "indonesian": "Sarung Tangan Broken Fang",
+      "italian": "Guanti Broken Fang",
+      "japanese": "Broken Fang Gloves",
+      "koreana": "브로큰 팽 장갑",
+      "latam": "Guantes Broken Fang",
+      "norwegian": "Broken Fang-hansker",
+      "polish": "Rękawice Broken Fang",
+      "portuguese": "Luvas Broken Fang",
+      "romanian": "Mănuși Broken Fang",
+      "russian": "Перчатки «Сломанный клык»",
+      "schinese": "狂牙手套",
+      "schinese_pw": "Broken Fang Gloves",
+      "spanish": "Guantes Broken Fang",
+      "swedish": "Broken Fang-handskar",
+      "tchinese": "《狂牙行動》手套",
+      "thai": "ถุงมือ Broken Fang",
+      "turkish": "Kırık Diş Eldivenleri",
+      "ukrainian": "Рукавиці «Зламане ікло»",
+      "vietnamese": "Găng tay Broken Fang"
+    },
+    "name": "Broken Fang Gloves",
+    "search_slug": "broken-fang-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

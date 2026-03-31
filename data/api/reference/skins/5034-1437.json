@@ -1,0 +1,64 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "canonical_slug": "5034-1437",
+  "finish": {
+    "codename": "glove_specialist_wave_blue",
+    "id": 1437,
+    "name": "Big Swell",
+    "rarity_ref": null,
+    "style_code": null
+  },
+  "game_ref": {
+    "paint_kit_id": 1437,
+    "weapon_id": 5034
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5034-1437",
+  "name": "Specialist Gloves | Big Swell",
+  "search_slug": "specialist-gloves-big-swell",
+  "sources": {
+    "collections": [],
+    "containers": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-37-unusual",
+        "expansion_rule": "volatile-gloves",
+        "id": "set_community_37_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-37-unusual",
+        "source_backed": false,
+        "source_containers": [
+          {
+            "canonical_slug": "crate-community-37",
+            "id": 5181,
+            "kind": "container",
+            "name": "Sealed Dead Hand Terminal",
+            "search_slug": "sealed-dead-hand-terminal"
+          }
+        ]
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "5034-1437__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "specialist_gloves",
+    "id": 5034,
+    "name": "Specialist Gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

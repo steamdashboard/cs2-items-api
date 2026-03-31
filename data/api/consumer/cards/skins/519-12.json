@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "519-12",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-webs",
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "519-12",
+  "localized_names": {
+    "brazilian": "Faca Ursus | Teia Rubra",
+    "bulgarian": "Мечешки нож | Пурпурна паяжина",
+    "czech": "Nůž Ursus | Crimson Web",
+    "danish": "Ursus-kniv | Crimson Web",
+    "dutch": "Ursus-mes | Crimson Web",
+    "english": "Ursus Knife | Crimson Web",
+    "finnish": "Karhuveitsi | Verenpunainen seitti",
+    "french": "Ursus | Toile pourpre",
+    "german": "Ursus-Messer | Purpurnes Netz",
+    "greek": "Μαχαίρι Ursus | Crimson Web",
+    "hungarian": "Ursus kés | Karmazsin Háló",
+    "indonesian": "Pisau Ursus | Crimson Web",
+    "italian": "Coltello Ursus | Crimson Web",
+    "japanese": "Ursus ナイフ | Crimson Web",
+    "koreana": "우르수스 칼 | 붉은 그물",
+    "latam": "Cuchillo ursus | Tela escarlata",
+    "norwegian": "Ursuskniv | Crimson Web",
+    "polish": "Ursus | Szkarłatna sieć",
+    "portuguese": "Faca Ursus | Crimson Web",
+    "romanian": "Cuțit Ursus | Crimson Web",
+    "russian": "Медвежий нож | Кровавая паутина",
+    "schinese": "熊刀 | 深红之网",
+    "schinese_pw": "Ursus Knife | Crimson Web",
+    "spanish": "Cuchillo ursus | Tela escarlata",
+    "swedish": "Ursuskniv | Crimson Web",
+    "tchinese": "熊刀 | 赤紅之網",
+    "thai": "มีดเออซุส | Crimson Web",
+    "turkish": "Ursus Bıçağı | Kızıl Ağ",
+    "ukrainian": "Ведмежий ніж | Криваве павутиння",
+    "vietnamese": "Dao Ursus | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__519-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/519-12/light.png",
+      "data/api/media/rendered/files/skins/519-12/medium.png",
+      "data/api/media/rendered/files/skins/519-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/519-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/519-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/519-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/519-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/519-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_ursus_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_ursus_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_ursus_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "Ursus Knife | Crimson Web",
+  "search_slug": "ursus-knife-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "519-12__normal__vanilla",
+    "519-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-ursus",
+    "id": 519,
+    "localized_names": {
+      "brazilian": "Faca Ursus",
+      "bulgarian": "Мечешки нож",
+      "czech": "Nůž Ursus",
+      "danish": "Ursus-kniv",
+      "dutch": "Ursus-mes",
+      "english": "Ursus Knife",
+      "finnish": "Karhuveitsi",
+      "french": "Ursus",
+      "german": "Ursus-Messer",
+      "greek": "Μαχαίρι Ursus",
+      "hungarian": "Ursus kés",
+      "indonesian": "Pisau Ursus",
+      "italian": "Coltello Ursus",
+      "japanese": "Ursus ナイフ",
+      "koreana": "우르수스 칼",
+      "latam": "Cuchillo ursus",
+      "norwegian": "Ursuskniv",
+      "polish": "Ursus",
+      "portuguese": "Faca Ursus",
+      "romanian": "Cuțit Ursus",
+      "russian": "Медвежий нож",
+      "schinese": "熊刀",
+      "schinese_pw": "Ursus Knife",
+      "spanish": "Cuchillo ursus",
+      "swedish": "Ursuskniv",
+      "tchinese": "熊刀",
+      "thai": "มีดเออซุส",
+      "turkish": "Ursus Bıçağı",
+      "ukrainian": "Ведмежий ніж",
+      "vietnamese": "Dao Ursus"
+    },
+    "name": "Ursus Knife",
+    "search_slug": "ursus-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

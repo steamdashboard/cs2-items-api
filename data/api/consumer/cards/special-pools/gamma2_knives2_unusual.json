@@ -1,5 +1,2766 @@
 {
-  "candidate_items": [],
+  "candidate_items": [
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-568",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-emerald-marbleized",
+        "id": 568,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-568",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler Gama",
+        "bulgarian": "Паракорд нож | Доплеров гама ефект",
+        "czech": "Výsadkářský nůž | Gamma Doppler",
+        "danish": "Paracordkniv | Gamma Doppler",
+        "dutch": "Paracordmes | Gamma Doppler",
+        "english": "Paracord Knife | Gamma Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Gamma Doppler",
+        "french": "Couteau en paracorde | Doppler Gamma",
+        "german": "Fallschirm-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Paracord | Gamma Doppler",
+        "hungarian": "Paracord kés | Gamma Doppler",
+        "indonesian": "Pisau Paracord | Gamma Doppler",
+        "italian": "Coltello Paracord | Gamma Doppler",
+        "japanese": "Paracord ナイフ | Gamma Doppler",
+        "koreana": "파라코드 칼 | 감마 도플러",
+        "latam": "Cuchillo encordado | Doppler gamma",
+        "norwegian": "Paracordkniv | Gamma Doppler",
+        "polish": "Nóż paracord | Gamma Doppler",
+        "portuguese": "Faca Paracord | Gamma Doppler",
+        "romanian": "Cuțit Paracord | Gamma Doppler",
+        "russian": "Паракорд-нож | Гамма-волны",
+        "schinese": "系绳匕首 | 伽玛多普勒",
+        "schinese_pw": "Paracord Knife | Gamma Doppler",
+        "spanish": "Cuchillo encordado | Doppler gamma",
+        "swedish": "Paracordkniv | Gamma Doppler",
+        "tchinese": "繩柄刀 | 伽傌都卜勒",
+        "thai": "มีดพาราคอร์ด | Gamma Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Gamma Doppler",
+        "ukrainian": "Тактичний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Paracord | Gamma Doppler"
+      },
+      "name": "Paracord Knife | Gamma Doppler",
+      "search_slug": "paracord-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-569",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase1",
+        "id": 569,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-569",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler Gama",
+        "bulgarian": "Паракорд нож | Доплеров гама ефект",
+        "czech": "Výsadkářský nůž | Gamma Doppler",
+        "danish": "Paracordkniv | Gamma Doppler",
+        "dutch": "Paracordmes | Gamma Doppler",
+        "english": "Paracord Knife | Gamma Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Gamma Doppler",
+        "french": "Couteau en paracorde | Doppler Gamma",
+        "german": "Fallschirm-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Paracord | Gamma Doppler",
+        "hungarian": "Paracord kés | Gamma Doppler",
+        "indonesian": "Pisau Paracord | Gamma Doppler",
+        "italian": "Coltello Paracord | Gamma Doppler",
+        "japanese": "Paracord ナイフ | Gamma Doppler",
+        "koreana": "파라코드 칼 | 감마 도플러",
+        "latam": "Cuchillo encordado | Doppler gamma",
+        "norwegian": "Paracordkniv | Gamma Doppler",
+        "polish": "Nóż paracord | Gamma Doppler",
+        "portuguese": "Faca Paracord | Gamma Doppler",
+        "romanian": "Cuțit Paracord | Gamma Doppler",
+        "russian": "Паракорд-нож | Гамма-волны",
+        "schinese": "系绳匕首 | 伽玛多普勒",
+        "schinese_pw": "Paracord Knife | Gamma Doppler",
+        "spanish": "Cuchillo encordado | Doppler gamma",
+        "swedish": "Paracordkniv | Gamma Doppler",
+        "tchinese": "繩柄刀 | 伽傌都卜勒",
+        "thai": "มีดพาราคอร์ด | Gamma Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Gamma Doppler",
+        "ukrainian": "Тактичний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Paracord | Gamma Doppler"
+      },
+      "name": "Paracord Knife | Gamma Doppler",
+      "search_slug": "paracord-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-570",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase2",
+        "id": 570,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-570",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler Gama",
+        "bulgarian": "Паракорд нож | Доплеров гама ефект",
+        "czech": "Výsadkářský nůž | Gamma Doppler",
+        "danish": "Paracordkniv | Gamma Doppler",
+        "dutch": "Paracordmes | Gamma Doppler",
+        "english": "Paracord Knife | Gamma Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Gamma Doppler",
+        "french": "Couteau en paracorde | Doppler Gamma",
+        "german": "Fallschirm-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Paracord | Gamma Doppler",
+        "hungarian": "Paracord kés | Gamma Doppler",
+        "indonesian": "Pisau Paracord | Gamma Doppler",
+        "italian": "Coltello Paracord | Gamma Doppler",
+        "japanese": "Paracord ナイフ | Gamma Doppler",
+        "koreana": "파라코드 칼 | 감마 도플러",
+        "latam": "Cuchillo encordado | Doppler gamma",
+        "norwegian": "Paracordkniv | Gamma Doppler",
+        "polish": "Nóż paracord | Gamma Doppler",
+        "portuguese": "Faca Paracord | Gamma Doppler",
+        "romanian": "Cuțit Paracord | Gamma Doppler",
+        "russian": "Паракорд-нож | Гамма-волны",
+        "schinese": "系绳匕首 | 伽玛多普勒",
+        "schinese_pw": "Paracord Knife | Gamma Doppler",
+        "spanish": "Cuchillo encordado | Doppler gamma",
+        "swedish": "Paracordkniv | Gamma Doppler",
+        "tchinese": "繩柄刀 | 伽傌都卜勒",
+        "thai": "มีดพาราคอร์ด | Gamma Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Gamma Doppler",
+        "ukrainian": "Тактичний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Paracord | Gamma Doppler"
+      },
+      "name": "Paracord Knife | Gamma Doppler",
+      "search_slug": "paracord-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-571",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase3",
+        "id": 571,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-571",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler Gama",
+        "bulgarian": "Паракорд нож | Доплеров гама ефект",
+        "czech": "Výsadkářský nůž | Gamma Doppler",
+        "danish": "Paracordkniv | Gamma Doppler",
+        "dutch": "Paracordmes | Gamma Doppler",
+        "english": "Paracord Knife | Gamma Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Gamma Doppler",
+        "french": "Couteau en paracorde | Doppler Gamma",
+        "german": "Fallschirm-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Paracord | Gamma Doppler",
+        "hungarian": "Paracord kés | Gamma Doppler",
+        "indonesian": "Pisau Paracord | Gamma Doppler",
+        "italian": "Coltello Paracord | Gamma Doppler",
+        "japanese": "Paracord ナイフ | Gamma Doppler",
+        "koreana": "파라코드 칼 | 감마 도플러",
+        "latam": "Cuchillo encordado | Doppler gamma",
+        "norwegian": "Paracordkniv | Gamma Doppler",
+        "polish": "Nóż paracord | Gamma Doppler",
+        "portuguese": "Faca Paracord | Gamma Doppler",
+        "romanian": "Cuțit Paracord | Gamma Doppler",
+        "russian": "Паракорд-нож | Гамма-волны",
+        "schinese": "系绳匕首 | 伽玛多普勒",
+        "schinese_pw": "Paracord Knife | Gamma Doppler",
+        "spanish": "Cuchillo encordado | Doppler gamma",
+        "swedish": "Paracordkniv | Gamma Doppler",
+        "tchinese": "繩柄刀 | 伽傌都卜勒",
+        "thai": "มีดพาราคอร์ด | Gamma Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Gamma Doppler",
+        "ukrainian": "Тактичний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Paracord | Gamma Doppler"
+      },
+      "name": "Paracord Knife | Gamma Doppler",
+      "search_slug": "paracord-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-572",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase4",
+        "id": 572,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-572",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Doppler Gama",
+        "bulgarian": "Паракорд нож | Доплеров гама ефект",
+        "czech": "Výsadkářský nůž | Gamma Doppler",
+        "danish": "Paracordkniv | Gamma Doppler",
+        "dutch": "Paracordmes | Gamma Doppler",
+        "english": "Paracord Knife | Gamma Doppler",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Gamma Doppler",
+        "french": "Couteau en paracorde | Doppler Gamma",
+        "german": "Fallschirm-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Paracord | Gamma Doppler",
+        "hungarian": "Paracord kés | Gamma Doppler",
+        "indonesian": "Pisau Paracord | Gamma Doppler",
+        "italian": "Coltello Paracord | Gamma Doppler",
+        "japanese": "Paracord ナイフ | Gamma Doppler",
+        "koreana": "파라코드 칼 | 감마 도플러",
+        "latam": "Cuchillo encordado | Doppler gamma",
+        "norwegian": "Paracordkniv | Gamma Doppler",
+        "polish": "Nóż paracord | Gamma Doppler",
+        "portuguese": "Faca Paracord | Gamma Doppler",
+        "romanian": "Cuțit Paracord | Gamma Doppler",
+        "russian": "Паракорд-нож | Гамма-волны",
+        "schinese": "系绳匕首 | 伽玛多普勒",
+        "schinese_pw": "Paracord Knife | Gamma Doppler",
+        "spanish": "Cuchillo encordado | Doppler gamma",
+        "swedish": "Paracordkniv | Gamma Doppler",
+        "tchinese": "繩柄刀 | 伽傌都卜勒",
+        "thai": "มีดพาราคอร์ด | Gamma Doppler",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Gamma Doppler",
+        "ukrainian": "Тактичний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Paracord | Gamma Doppler"
+      },
+      "name": "Paracord Knife | Gamma Doppler",
+      "search_slug": "paracord-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-578",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "hy-ocean-knife",
+        "id": 578,
+        "name": "Bright Water",
+        "rarity_ref": null,
+        "style_code": 2,
+        "style_name": "Hydrographic"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-578",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Águas Claras",
+        "bulgarian": "Паракорд нож | Бистра вода",
+        "czech": "Výsadkářský nůž | Bright Water",
+        "danish": "Paracordkniv | Bright Water",
+        "dutch": "Paracordmes | Bright Water",
+        "english": "Paracord Knife | Bright Water",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Kirkas vesi",
+        "french": "Couteau en paracorde | Eau vive",
+        "german": "Fallschirm-Messer | Klares Wasser",
+        "greek": "Μαχαίρι Paracord | Bright Water",
+        "hungarian": "Paracord kés | Fényes Víz",
+        "indonesian": "Pisau Paracord | Bright Water",
+        "italian": "Coltello Paracord | Bright Water",
+        "japanese": "Paracord ナイフ | Bright Water",
+        "koreana": "파라코드 칼 | 밝은 물결",
+        "latam": "Cuchillo encordado | Aguas brillantes",
+        "norwegian": "Paracordkniv | Bright Water",
+        "polish": "Nóż paracord | Jasne wody",
+        "portuguese": "Faca Paracord | Bright Water",
+        "romanian": "Cuțit Paracord | Bright Water",
+        "russian": "Паракорд-нож | Чистая вода",
+        "schinese": "系绳匕首 | 澄澈之水",
+        "schinese_pw": "Paracord Knife | Bright Water",
+        "spanish": "Cuchillo encordado | Aguas brillantes",
+        "swedish": "Paracordkniv | Bright Water",
+        "tchinese": "繩柄刀 | 澄水",
+        "thai": "มีดพาราคอร์ด | Bright Water",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Parlak Su",
+        "ukrainian": "Тактичний ніж | Чиста вода",
+        "vietnamese": "Dao Paracord | Bright Water"
+      },
+      "name": "Paracord Knife | Bright Water",
+      "search_slug": "paracord-knife-bright-water",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-579",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "hy-ocean-knife-90",
+        "id": 579,
+        "name": "Bright Water",
+        "rarity_ref": null,
+        "style_code": 2,
+        "style_name": "Hydrographic"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-579",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Águas Claras",
+        "bulgarian": "Паракорд нож | Бистра вода",
+        "czech": "Výsadkářský nůž | Bright Water",
+        "danish": "Paracordkniv | Bright Water",
+        "dutch": "Paracordmes | Bright Water",
+        "english": "Paracord Knife | Bright Water",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Kirkas vesi",
+        "french": "Couteau en paracorde | Eau vive",
+        "german": "Fallschirm-Messer | Klares Wasser",
+        "greek": "Μαχαίρι Paracord | Bright Water",
+        "hungarian": "Paracord kés | Fényes Víz",
+        "indonesian": "Pisau Paracord | Bright Water",
+        "italian": "Coltello Paracord | Bright Water",
+        "japanese": "Paracord ナイフ | Bright Water",
+        "koreana": "파라코드 칼 | 밝은 물결",
+        "latam": "Cuchillo encordado | Aguas brillantes",
+        "norwegian": "Paracordkniv | Bright Water",
+        "polish": "Nóż paracord | Jasne wody",
+        "portuguese": "Faca Paracord | Bright Water",
+        "romanian": "Cuțit Paracord | Bright Water",
+        "russian": "Паракорд-нож | Чистая вода",
+        "schinese": "系绳匕首 | 澄澈之水",
+        "schinese_pw": "Paracord Knife | Bright Water",
+        "spanish": "Cuchillo encordado | Aguas brillantes",
+        "swedish": "Paracordkniv | Bright Water",
+        "tchinese": "繩柄刀 | 澄水",
+        "thai": "มีดพาราคอร์ด | Bright Water",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Parlak Su",
+        "ukrainian": "Тактичний ніж | Чиста вода",
+        "vietnamese": "Dao Paracord | Bright Water"
+      },
+      "name": "Paracord Knife | Bright Water",
+      "search_slug": "paracord-knife-bright-water",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-580",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up",
+        "id": 580,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-580",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Mão Livre",
+        "bulgarian": "Паракорд нож | Скицирано",
+        "czech": "Výsadkářský nůž | Freehand",
+        "danish": "Paracordkniv | Freehand",
+        "dutch": "Paracordmes | Freehand",
+        "english": "Paracord Knife | Freehand",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Vapaa käsi",
+        "french": "Couteau en paracorde | Signature",
+        "german": "Fallschirm-Messer | Freihändig",
+        "greek": "Μαχαίρι Paracord | Freehand",
+        "hungarian": "Paracord kés | Szabad Kéz",
+        "indonesian": "Pisau Paracord | Freehand",
+        "italian": "Coltello Paracord | Freehand",
+        "japanese": "Paracord ナイフ | Freehand",
+        "koreana": "파라코드 칼 | 자유형",
+        "latam": "Cuchillo encordado | Mano alzada",
+        "norwegian": "Paracordkniv | Freehand",
+        "polish": "Nóż paracord | Rękodzieło",
+        "portuguese": "Faca Paracord | Freehand",
+        "romanian": "Cuțit Paracord | Freehand",
+        "russian": "Паракорд-нож | Ручная роспись",
+        "schinese": "系绳匕首 | 自由之手",
+        "schinese_pw": "Paracord Knife | Freehand",
+        "spanish": "Cuchillo encordado | Mano alzada",
+        "swedish": "Paracordkniv | Freehand",
+        "tchinese": "繩柄刀 | 手繪紋",
+        "thai": "มีดพาราคอร์ด | Freehand",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Boşel",
+        "ukrainian": "Тактичний ніж | Ручний розпис",
+        "vietnamese": "Dao Paracord | Freehand"
+      },
+      "name": "Paracord Knife | Freehand",
+      "search_slug": "paracord-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-581",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up-90",
+        "id": 581,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-581",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Mão Livre",
+        "bulgarian": "Паракорд нож | Скицирано",
+        "czech": "Výsadkářský nůž | Freehand",
+        "danish": "Paracordkniv | Freehand",
+        "dutch": "Paracordmes | Freehand",
+        "english": "Paracord Knife | Freehand",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Vapaa käsi",
+        "french": "Couteau en paracorde | Signature",
+        "german": "Fallschirm-Messer | Freihändig",
+        "greek": "Μαχαίρι Paracord | Freehand",
+        "hungarian": "Paracord kés | Szabad Kéz",
+        "indonesian": "Pisau Paracord | Freehand",
+        "italian": "Coltello Paracord | Freehand",
+        "japanese": "Paracord ナイフ | Freehand",
+        "koreana": "파라코드 칼 | 자유형",
+        "latam": "Cuchillo encordado | Mano alzada",
+        "norwegian": "Paracordkniv | Freehand",
+        "polish": "Nóż paracord | Rękodzieło",
+        "portuguese": "Faca Paracord | Freehand",
+        "romanian": "Cuțit Paracord | Freehand",
+        "russian": "Паракорд-нож | Ручная роспись",
+        "schinese": "系绳匕首 | 自由之手",
+        "schinese_pw": "Paracord Knife | Freehand",
+        "spanish": "Cuchillo encordado | Mano alzada",
+        "swedish": "Paracordkniv | Freehand",
+        "tchinese": "繩柄刀 | 手繪紋",
+        "thai": "มีดพาราคอร์ด | Freehand",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Boşel",
+        "ukrainian": "Тактичний ніж | Ручний розпис",
+        "vietnamese": "Dao Paracord | Freehand"
+      },
+      "name": "Paracord Knife | Freehand",
+      "search_slug": "paracord-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "517-582",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up-fine",
+        "id": 582,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "517-582",
+      "localized_names": {
+        "brazilian": "Faca de Cordame | Mão Livre",
+        "bulgarian": "Паракорд нож | Скицирано",
+        "czech": "Výsadkářský nůž | Freehand",
+        "danish": "Paracordkniv | Freehand",
+        "dutch": "Paracordmes | Freehand",
+        "english": "Paracord Knife | Freehand",
+        "finnish": "Paracord-kahvainen kenttäpuukko | Vapaa käsi",
+        "french": "Couteau en paracorde | Signature",
+        "german": "Fallschirm-Messer | Freihändig",
+        "greek": "Μαχαίρι Paracord | Freehand",
+        "hungarian": "Paracord kés | Szabad Kéz",
+        "indonesian": "Pisau Paracord | Freehand",
+        "italian": "Coltello Paracord | Freehand",
+        "japanese": "Paracord ナイフ | Freehand",
+        "koreana": "파라코드 칼 | 자유형",
+        "latam": "Cuchillo encordado | Mano alzada",
+        "norwegian": "Paracordkniv | Freehand",
+        "polish": "Nóż paracord | Rękodzieło",
+        "portuguese": "Faca Paracord | Freehand",
+        "romanian": "Cuțit Paracord | Freehand",
+        "russian": "Паракорд-нож | Ручная роспись",
+        "schinese": "系绳匕首 | 自由之手",
+        "schinese_pw": "Paracord Knife | Freehand",
+        "spanish": "Cuchillo encordado | Mano alzada",
+        "swedish": "Paracordkniv | Freehand",
+        "tchinese": "繩柄刀 | 手繪紋",
+        "thai": "มีดพาราคอร์ด | Freehand",
+        "turkish": "Paraşüt Kordonu Saplı Bıçak | Boşel",
+        "ukrainian": "Тактичний ніж | Ручний розпис",
+        "vietnamese": "Dao Paracord | Freehand"
+      },
+      "name": "Paracord Knife | Freehand",
+      "search_slug": "paracord-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-cord",
+        "id": 517,
+        "name": "Paracord Knife",
+        "search_slug": "paracord-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-568",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-emerald-marbleized",
+        "id": 568,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-568",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler Gama",
+        "bulgarian": "Нож за оцеляване | Доплеров гама ефект",
+        "czech": "Záchranářský nůž | Gamma Doppler",
+        "danish": "Overlevelseskniv | Gamma Doppler",
+        "dutch": "Overlevingsmes | Gamma Doppler",
+        "english": "Survival Knife | Gamma Doppler",
+        "finnish": "Selviytymisveitsi | Gamma Doppler",
+        "french": "Couteau de survie | Doppler Gamma",
+        "german": "Survival-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Survival | Gamma Doppler",
+        "hungarian": "Túlélőkés | Gamma Doppler",
+        "indonesian": "Pisau Survival | Gamma Doppler",
+        "italian": "Coltello da sopravvivenza | Gamma Doppler",
+        "japanese": "サバイバルナイフ | Gamma Doppler",
+        "koreana": "서바이벌 칼 | 감마 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler gamma",
+        "norwegian": "Overlevelseskniv | Gamma Doppler",
+        "polish": "Nóż survivalowy | Gamma Doppler",
+        "portuguese": "Faca Survival | Gamma Doppler",
+        "romanian": "Cuțit de supraviețuire | Gamma Doppler",
+        "russian": "Нож выживания | Гамма-волны",
+        "schinese": "求生匕首 | 伽玛多普勒",
+        "schinese_pw": "Survival Knife | Gamma Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler gamma",
+        "swedish": "Överlevnadskniv | Gamma Doppler",
+        "tchinese": "求生刀 | 伽傌都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Gamma Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Gamma Doppler",
+        "ukrainian": "Ніж для виживання | Гамма-ефект Доплера",
+        "vietnamese": "Dao sinh tồn | Gamma Doppler"
+      },
+      "name": "Survival Knife | Gamma Doppler",
+      "search_slug": "survival-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-569",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase1",
+        "id": 569,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-569",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler Gama",
+        "bulgarian": "Нож за оцеляване | Доплеров гама ефект",
+        "czech": "Záchranářský nůž | Gamma Doppler",
+        "danish": "Overlevelseskniv | Gamma Doppler",
+        "dutch": "Overlevingsmes | Gamma Doppler",
+        "english": "Survival Knife | Gamma Doppler",
+        "finnish": "Selviytymisveitsi | Gamma Doppler",
+        "french": "Couteau de survie | Doppler Gamma",
+        "german": "Survival-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Survival | Gamma Doppler",
+        "hungarian": "Túlélőkés | Gamma Doppler",
+        "indonesian": "Pisau Survival | Gamma Doppler",
+        "italian": "Coltello da sopravvivenza | Gamma Doppler",
+        "japanese": "サバイバルナイフ | Gamma Doppler",
+        "koreana": "서바이벌 칼 | 감마 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler gamma",
+        "norwegian": "Overlevelseskniv | Gamma Doppler",
+        "polish": "Nóż survivalowy | Gamma Doppler",
+        "portuguese": "Faca Survival | Gamma Doppler",
+        "romanian": "Cuțit de supraviețuire | Gamma Doppler",
+        "russian": "Нож выживания | Гамма-волны",
+        "schinese": "求生匕首 | 伽玛多普勒",
+        "schinese_pw": "Survival Knife | Gamma Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler gamma",
+        "swedish": "Överlevnadskniv | Gamma Doppler",
+        "tchinese": "求生刀 | 伽傌都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Gamma Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Gamma Doppler",
+        "ukrainian": "Ніж для виживання | Гамма-ефект Доплера",
+        "vietnamese": "Dao sinh tồn | Gamma Doppler"
+      },
+      "name": "Survival Knife | Gamma Doppler",
+      "search_slug": "survival-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-570",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase2",
+        "id": 570,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-570",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler Gama",
+        "bulgarian": "Нож за оцеляване | Доплеров гама ефект",
+        "czech": "Záchranářský nůž | Gamma Doppler",
+        "danish": "Overlevelseskniv | Gamma Doppler",
+        "dutch": "Overlevingsmes | Gamma Doppler",
+        "english": "Survival Knife | Gamma Doppler",
+        "finnish": "Selviytymisveitsi | Gamma Doppler",
+        "french": "Couteau de survie | Doppler Gamma",
+        "german": "Survival-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Survival | Gamma Doppler",
+        "hungarian": "Túlélőkés | Gamma Doppler",
+        "indonesian": "Pisau Survival | Gamma Doppler",
+        "italian": "Coltello da sopravvivenza | Gamma Doppler",
+        "japanese": "サバイバルナイフ | Gamma Doppler",
+        "koreana": "서바이벌 칼 | 감마 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler gamma",
+        "norwegian": "Overlevelseskniv | Gamma Doppler",
+        "polish": "Nóż survivalowy | Gamma Doppler",
+        "portuguese": "Faca Survival | Gamma Doppler",
+        "romanian": "Cuțit de supraviețuire | Gamma Doppler",
+        "russian": "Нож выживания | Гамма-волны",
+        "schinese": "求生匕首 | 伽玛多普勒",
+        "schinese_pw": "Survival Knife | Gamma Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler gamma",
+        "swedish": "Överlevnadskniv | Gamma Doppler",
+        "tchinese": "求生刀 | 伽傌都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Gamma Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Gamma Doppler",
+        "ukrainian": "Ніж для виживання | Гамма-ефект Доплера",
+        "vietnamese": "Dao sinh tồn | Gamma Doppler"
+      },
+      "name": "Survival Knife | Gamma Doppler",
+      "search_slug": "survival-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-571",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase3",
+        "id": 571,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-571",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler Gama",
+        "bulgarian": "Нож за оцеляване | Доплеров гама ефект",
+        "czech": "Záchranářský nůž | Gamma Doppler",
+        "danish": "Overlevelseskniv | Gamma Doppler",
+        "dutch": "Overlevingsmes | Gamma Doppler",
+        "english": "Survival Knife | Gamma Doppler",
+        "finnish": "Selviytymisveitsi | Gamma Doppler",
+        "french": "Couteau de survie | Doppler Gamma",
+        "german": "Survival-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Survival | Gamma Doppler",
+        "hungarian": "Túlélőkés | Gamma Doppler",
+        "indonesian": "Pisau Survival | Gamma Doppler",
+        "italian": "Coltello da sopravvivenza | Gamma Doppler",
+        "japanese": "サバイバルナイフ | Gamma Doppler",
+        "koreana": "서바이벌 칼 | 감마 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler gamma",
+        "norwegian": "Overlevelseskniv | Gamma Doppler",
+        "polish": "Nóż survivalowy | Gamma Doppler",
+        "portuguese": "Faca Survival | Gamma Doppler",
+        "romanian": "Cuțit de supraviețuire | Gamma Doppler",
+        "russian": "Нож выживания | Гамма-волны",
+        "schinese": "求生匕首 | 伽玛多普勒",
+        "schinese_pw": "Survival Knife | Gamma Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler gamma",
+        "swedish": "Överlevnadskniv | Gamma Doppler",
+        "tchinese": "求生刀 | 伽傌都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Gamma Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Gamma Doppler",
+        "ukrainian": "Ніж для виживання | Гамма-ефект Доплера",
+        "vietnamese": "Dao sinh tồn | Gamma Doppler"
+      },
+      "name": "Survival Knife | Gamma Doppler",
+      "search_slug": "survival-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-572",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase4",
+        "id": 572,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-572",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Doppler Gama",
+        "bulgarian": "Нож за оцеляване | Доплеров гама ефект",
+        "czech": "Záchranářský nůž | Gamma Doppler",
+        "danish": "Overlevelseskniv | Gamma Doppler",
+        "dutch": "Overlevingsmes | Gamma Doppler",
+        "english": "Survival Knife | Gamma Doppler",
+        "finnish": "Selviytymisveitsi | Gamma Doppler",
+        "french": "Couteau de survie | Doppler Gamma",
+        "german": "Survival-Messer | Gamma Doppler",
+        "greek": "Μαχαίρι Survival | Gamma Doppler",
+        "hungarian": "Túlélőkés | Gamma Doppler",
+        "indonesian": "Pisau Survival | Gamma Doppler",
+        "italian": "Coltello da sopravvivenza | Gamma Doppler",
+        "japanese": "サバイバルナイフ | Gamma Doppler",
+        "koreana": "서바이벌 칼 | 감마 도플러",
+        "latam": "Cuchillo de supervivencia | Doppler gamma",
+        "norwegian": "Overlevelseskniv | Gamma Doppler",
+        "polish": "Nóż survivalowy | Gamma Doppler",
+        "portuguese": "Faca Survival | Gamma Doppler",
+        "romanian": "Cuțit de supraviețuire | Gamma Doppler",
+        "russian": "Нож выживания | Гамма-волны",
+        "schinese": "求生匕首 | 伽玛多普勒",
+        "schinese_pw": "Survival Knife | Gamma Doppler",
+        "spanish": "Cuchillo de supervivencia | Doppler gamma",
+        "swedish": "Överlevnadskniv | Gamma Doppler",
+        "tchinese": "求生刀 | 伽傌都卜勒",
+        "thai": "มีดเซอร์ไวเวอร์ | Gamma Doppler",
+        "turkish": "Hayatta Kalma Bıçağı | Gamma Doppler",
+        "ukrainian": "Ніж для виживання | Гамма-ефект Доплера",
+        "vietnamese": "Dao sinh tồn | Gamma Doppler"
+      },
+      "name": "Survival Knife | Gamma Doppler",
+      "search_slug": "survival-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-578",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "hy-ocean-knife",
+        "id": 578,
+        "name": "Bright Water",
+        "rarity_ref": null,
+        "style_code": 2,
+        "style_name": "Hydrographic"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-578",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Águas Claras",
+        "bulgarian": "Нож за оцеляване | Бистра вода",
+        "czech": "Záchranářský nůž | Bright Water",
+        "danish": "Overlevelseskniv | Bright Water",
+        "dutch": "Overlevingsmes | Bright Water",
+        "english": "Survival Knife | Bright Water",
+        "finnish": "Selviytymisveitsi | Kirkas vesi",
+        "french": "Couteau de survie | Eau vive",
+        "german": "Survival-Messer | Klares Wasser",
+        "greek": "Μαχαίρι Survival | Bright Water",
+        "hungarian": "Túlélőkés | Fényes Víz",
+        "indonesian": "Pisau Survival | Bright Water",
+        "italian": "Coltello da sopravvivenza | Bright Water",
+        "japanese": "サバイバルナイフ | Bright Water",
+        "koreana": "서바이벌 칼 | 밝은 물결",
+        "latam": "Cuchillo de supervivencia | Aguas brillantes",
+        "norwegian": "Overlevelseskniv | Bright Water",
+        "polish": "Nóż survivalowy | Jasne wody",
+        "portuguese": "Faca Survival | Bright Water",
+        "romanian": "Cuțit de supraviețuire | Bright Water",
+        "russian": "Нож выживания | Чистая вода",
+        "schinese": "求生匕首 | 澄澈之水",
+        "schinese_pw": "Survival Knife | Bright Water",
+        "spanish": "Cuchillo de supervivencia | Aguas brillantes",
+        "swedish": "Överlevnadskniv | Bright Water",
+        "tchinese": "求生刀 | 澄水",
+        "thai": "มีดเซอร์ไวเวอร์ | Bright Water",
+        "turkish": "Hayatta Kalma Bıçağı | Parlak Su",
+        "ukrainian": "Ніж для виживання | Чиста вода",
+        "vietnamese": "Dao sinh tồn | Bright Water"
+      },
+      "name": "Survival Knife | Bright Water",
+      "search_slug": "survival-knife-bright-water",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-579",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "hy-ocean-knife-90",
+        "id": 579,
+        "name": "Bright Water",
+        "rarity_ref": null,
+        "style_code": 2,
+        "style_name": "Hydrographic"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-579",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Águas Claras",
+        "bulgarian": "Нож за оцеляване | Бистра вода",
+        "czech": "Záchranářský nůž | Bright Water",
+        "danish": "Overlevelseskniv | Bright Water",
+        "dutch": "Overlevingsmes | Bright Water",
+        "english": "Survival Knife | Bright Water",
+        "finnish": "Selviytymisveitsi | Kirkas vesi",
+        "french": "Couteau de survie | Eau vive",
+        "german": "Survival-Messer | Klares Wasser",
+        "greek": "Μαχαίρι Survival | Bright Water",
+        "hungarian": "Túlélőkés | Fényes Víz",
+        "indonesian": "Pisau Survival | Bright Water",
+        "italian": "Coltello da sopravvivenza | Bright Water",
+        "japanese": "サバイバルナイフ | Bright Water",
+        "koreana": "서바이벌 칼 | 밝은 물결",
+        "latam": "Cuchillo de supervivencia | Aguas brillantes",
+        "norwegian": "Overlevelseskniv | Bright Water",
+        "polish": "Nóż survivalowy | Jasne wody",
+        "portuguese": "Faca Survival | Bright Water",
+        "romanian": "Cuțit de supraviețuire | Bright Water",
+        "russian": "Нож выживания | Чистая вода",
+        "schinese": "求生匕首 | 澄澈之水",
+        "schinese_pw": "Survival Knife | Bright Water",
+        "spanish": "Cuchillo de supervivencia | Aguas brillantes",
+        "swedish": "Överlevnadskniv | Bright Water",
+        "tchinese": "求生刀 | 澄水",
+        "thai": "มีดเซอร์ไวเวอร์ | Bright Water",
+        "turkish": "Hayatta Kalma Bıçağı | Parlak Su",
+        "ukrainian": "Ніж для виживання | Чиста вода",
+        "vietnamese": "Dao sinh tồn | Bright Water"
+      },
+      "name": "Survival Knife | Bright Water",
+      "search_slug": "survival-knife-bright-water",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-580",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up",
+        "id": 580,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-580",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Mão Livre",
+        "bulgarian": "Нож за оцеляване | Скицирано",
+        "czech": "Záchranářský nůž | Freehand",
+        "danish": "Overlevelseskniv | Freehand",
+        "dutch": "Overlevingsmes | Freehand",
+        "english": "Survival Knife | Freehand",
+        "finnish": "Selviytymisveitsi | Vapaa käsi",
+        "french": "Couteau de survie | Signature",
+        "german": "Survival-Messer | Freihändig",
+        "greek": "Μαχαίρι Survival | Freehand",
+        "hungarian": "Túlélőkés | Szabad Kéz",
+        "indonesian": "Pisau Survival | Freehand",
+        "italian": "Coltello da sopravvivenza | Freehand",
+        "japanese": "サバイバルナイフ | Freehand",
+        "koreana": "서바이벌 칼 | 자유형",
+        "latam": "Cuchillo de supervivencia | Mano alzada",
+        "norwegian": "Overlevelseskniv | Freehand",
+        "polish": "Nóż survivalowy | Rękodzieło",
+        "portuguese": "Faca Survival | Freehand",
+        "romanian": "Cuțit de supraviețuire | Freehand",
+        "russian": "Нож выживания | Ручная роспись",
+        "schinese": "求生匕首 | 自由之手",
+        "schinese_pw": "Survival Knife | Freehand",
+        "spanish": "Cuchillo de supervivencia | Mano alzada",
+        "swedish": "Överlevnadskniv | Freehand",
+        "tchinese": "求生刀 | 手繪紋",
+        "thai": "มีดเซอร์ไวเวอร์ | Freehand",
+        "turkish": "Hayatta Kalma Bıçağı | Boşel",
+        "ukrainian": "Ніж для виживання | Ручний розпис",
+        "vietnamese": "Dao sinh tồn | Freehand"
+      },
+      "name": "Survival Knife | Freehand",
+      "search_slug": "survival-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-581",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up-90",
+        "id": 581,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-581",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Mão Livre",
+        "bulgarian": "Нож за оцеляване | Скицирано",
+        "czech": "Záchranářský nůž | Freehand",
+        "danish": "Overlevelseskniv | Freehand",
+        "dutch": "Overlevingsmes | Freehand",
+        "english": "Survival Knife | Freehand",
+        "finnish": "Selviytymisveitsi | Vapaa käsi",
+        "french": "Couteau de survie | Signature",
+        "german": "Survival-Messer | Freihändig",
+        "greek": "Μαχαίρι Survival | Freehand",
+        "hungarian": "Túlélőkés | Szabad Kéz",
+        "indonesian": "Pisau Survival | Freehand",
+        "italian": "Coltello da sopravvivenza | Freehand",
+        "japanese": "サバイバルナイフ | Freehand",
+        "koreana": "서바이벌 칼 | 자유형",
+        "latam": "Cuchillo de supervivencia | Mano alzada",
+        "norwegian": "Overlevelseskniv | Freehand",
+        "polish": "Nóż survivalowy | Rękodzieło",
+        "portuguese": "Faca Survival | Freehand",
+        "romanian": "Cuțit de supraviețuire | Freehand",
+        "russian": "Нож выживания | Ручная роспись",
+        "schinese": "求生匕首 | 自由之手",
+        "schinese_pw": "Survival Knife | Freehand",
+        "spanish": "Cuchillo de supervivencia | Mano alzada",
+        "swedish": "Överlevnadskniv | Freehand",
+        "tchinese": "求生刀 | 手繪紋",
+        "thai": "มีดเซอร์ไวเวอร์ | Freehand",
+        "turkish": "Hayatta Kalma Bıçağı | Boşel",
+        "ukrainian": "Ніж для виживання | Ручний розпис",
+        "vietnamese": "Dao sinh tồn | Freehand"
+      },
+      "name": "Survival Knife | Freehand",
+      "search_slug": "survival-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "518-582",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up-fine",
+        "id": 582,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "518-582",
+      "localized_names": {
+        "brazilian": "Faca de Sobrevivência | Mão Livre",
+        "bulgarian": "Нож за оцеляване | Скицирано",
+        "czech": "Záchranářský nůž | Freehand",
+        "danish": "Overlevelseskniv | Freehand",
+        "dutch": "Overlevingsmes | Freehand",
+        "english": "Survival Knife | Freehand",
+        "finnish": "Selviytymisveitsi | Vapaa käsi",
+        "french": "Couteau de survie | Signature",
+        "german": "Survival-Messer | Freihändig",
+        "greek": "Μαχαίρι Survival | Freehand",
+        "hungarian": "Túlélőkés | Szabad Kéz",
+        "indonesian": "Pisau Survival | Freehand",
+        "italian": "Coltello da sopravvivenza | Freehand",
+        "japanese": "サバイバルナイフ | Freehand",
+        "koreana": "서바이벌 칼 | 자유형",
+        "latam": "Cuchillo de supervivencia | Mano alzada",
+        "norwegian": "Overlevelseskniv | Freehand",
+        "polish": "Nóż survivalowy | Rękodzieło",
+        "portuguese": "Faca Survival | Freehand",
+        "romanian": "Cuțit de supraviețuire | Freehand",
+        "russian": "Нож выживания | Ручная роспись",
+        "schinese": "求生匕首 | 自由之手",
+        "schinese_pw": "Survival Knife | Freehand",
+        "spanish": "Cuchillo de supervivencia | Mano alzada",
+        "swedish": "Överlevnadskniv | Freehand",
+        "tchinese": "求生刀 | 手繪紋",
+        "thai": "มีดเซอร์ไวเวอร์ | Freehand",
+        "turkish": "Hayatta Kalma Bıçağı | Boşel",
+        "ukrainian": "Ніж для виживання | Ручний розпис",
+        "vietnamese": "Dao sinh tồn | Freehand"
+      },
+      "name": "Survival Knife | Freehand",
+      "search_slug": "survival-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-canis",
+        "id": 518,
+        "name": "Survival Knife",
+        "search_slug": "survival-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-568",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-emerald-marbleized",
+        "id": 568,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-568",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler Gama",
+        "bulgarian": "Номадският нож | Доплеров гама ефект",
+        "czech": "Outdoorový nůž | Gamma Doppler",
+        "danish": "Nomadekniv | Gamma Doppler",
+        "dutch": "Nomademes | Gamma Doppler",
+        "english": "Nomad Knife | Gamma Doppler",
+        "finnish": "Nomad-puukko | Gamma Doppler",
+        "french": "Couteau de nomade | Doppler Gamma",
+        "german": "Nomadenmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Nomad | Gamma Doppler",
+        "hungarian": "Nomád kés | Gamma Doppler",
+        "indonesian": "Pisau Nomad | Gamma Doppler",
+        "italian": "Coltello Nomade | Gamma Doppler",
+        "japanese": "Nomad ナイフ | Gamma Doppler",
+        "koreana": "노매드 칼 | 감마 도플러",
+        "latam": "Cuchillo nómada | Doppler gamma",
+        "norwegian": "Nomadekniv | Gamma Doppler",
+        "polish": "Nóż nomada | Gamma Doppler",
+        "portuguese": "Faca Nomad | Gamma Doppler",
+        "romanian": "Cuțit Nomad | Gamma Doppler",
+        "russian": "Нож «Бродяга» | Гамма-волны",
+        "schinese": "流浪者匕首 | 伽玛多普勒",
+        "schinese_pw": "Nomad Knife | Gamma Doppler",
+        "spanish": "Cuchillo nómada | Doppler gamma",
+        "swedish": "Nomad-kniv | Gamma Doppler",
+        "tchinese": "流浪者小刀 | 伽傌都卜勒",
+        "thai": "มีดโนแมด | Gamma Doppler",
+        "turkish": "Göçebe Bıçağı | Gamma Doppler",
+        "ukrainian": "Польовий ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Nomad | Gamma Doppler"
+      },
+      "name": "Nomad Knife | Gamma Doppler",
+      "search_slug": "nomad-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-569",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase1",
+        "id": 569,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-569",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler Gama",
+        "bulgarian": "Номадският нож | Доплеров гама ефект",
+        "czech": "Outdoorový nůž | Gamma Doppler",
+        "danish": "Nomadekniv | Gamma Doppler",
+        "dutch": "Nomademes | Gamma Doppler",
+        "english": "Nomad Knife | Gamma Doppler",
+        "finnish": "Nomad-puukko | Gamma Doppler",
+        "french": "Couteau de nomade | Doppler Gamma",
+        "german": "Nomadenmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Nomad | Gamma Doppler",
+        "hungarian": "Nomád kés | Gamma Doppler",
+        "indonesian": "Pisau Nomad | Gamma Doppler",
+        "italian": "Coltello Nomade | Gamma Doppler",
+        "japanese": "Nomad ナイフ | Gamma Doppler",
+        "koreana": "노매드 칼 | 감마 도플러",
+        "latam": "Cuchillo nómada | Doppler gamma",
+        "norwegian": "Nomadekniv | Gamma Doppler",
+        "polish": "Nóż nomada | Gamma Doppler",
+        "portuguese": "Faca Nomad | Gamma Doppler",
+        "romanian": "Cuțit Nomad | Gamma Doppler",
+        "russian": "Нож «Бродяга» | Гамма-волны",
+        "schinese": "流浪者匕首 | 伽玛多普勒",
+        "schinese_pw": "Nomad Knife | Gamma Doppler",
+        "spanish": "Cuchillo nómada | Doppler gamma",
+        "swedish": "Nomad-kniv | Gamma Doppler",
+        "tchinese": "流浪者小刀 | 伽傌都卜勒",
+        "thai": "มีดโนแมด | Gamma Doppler",
+        "turkish": "Göçebe Bıçağı | Gamma Doppler",
+        "ukrainian": "Польовий ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Nomad | Gamma Doppler"
+      },
+      "name": "Nomad Knife | Gamma Doppler",
+      "search_slug": "nomad-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-570",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase2",
+        "id": 570,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-570",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler Gama",
+        "bulgarian": "Номадският нож | Доплеров гама ефект",
+        "czech": "Outdoorový nůž | Gamma Doppler",
+        "danish": "Nomadekniv | Gamma Doppler",
+        "dutch": "Nomademes | Gamma Doppler",
+        "english": "Nomad Knife | Gamma Doppler",
+        "finnish": "Nomad-puukko | Gamma Doppler",
+        "french": "Couteau de nomade | Doppler Gamma",
+        "german": "Nomadenmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Nomad | Gamma Doppler",
+        "hungarian": "Nomád kés | Gamma Doppler",
+        "indonesian": "Pisau Nomad | Gamma Doppler",
+        "italian": "Coltello Nomade | Gamma Doppler",
+        "japanese": "Nomad ナイフ | Gamma Doppler",
+        "koreana": "노매드 칼 | 감마 도플러",
+        "latam": "Cuchillo nómada | Doppler gamma",
+        "norwegian": "Nomadekniv | Gamma Doppler",
+        "polish": "Nóż nomada | Gamma Doppler",
+        "portuguese": "Faca Nomad | Gamma Doppler",
+        "romanian": "Cuțit Nomad | Gamma Doppler",
+        "russian": "Нож «Бродяга» | Гамма-волны",
+        "schinese": "流浪者匕首 | 伽玛多普勒",
+        "schinese_pw": "Nomad Knife | Gamma Doppler",
+        "spanish": "Cuchillo nómada | Doppler gamma",
+        "swedish": "Nomad-kniv | Gamma Doppler",
+        "tchinese": "流浪者小刀 | 伽傌都卜勒",
+        "thai": "มีดโนแมด | Gamma Doppler",
+        "turkish": "Göçebe Bıçağı | Gamma Doppler",
+        "ukrainian": "Польовий ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Nomad | Gamma Doppler"
+      },
+      "name": "Nomad Knife | Gamma Doppler",
+      "search_slug": "nomad-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-571",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase3",
+        "id": 571,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-571",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler Gama",
+        "bulgarian": "Номадският нож | Доплеров гама ефект",
+        "czech": "Outdoorový nůž | Gamma Doppler",
+        "danish": "Nomadekniv | Gamma Doppler",
+        "dutch": "Nomademes | Gamma Doppler",
+        "english": "Nomad Knife | Gamma Doppler",
+        "finnish": "Nomad-puukko | Gamma Doppler",
+        "french": "Couteau de nomade | Doppler Gamma",
+        "german": "Nomadenmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Nomad | Gamma Doppler",
+        "hungarian": "Nomád kés | Gamma Doppler",
+        "indonesian": "Pisau Nomad | Gamma Doppler",
+        "italian": "Coltello Nomade | Gamma Doppler",
+        "japanese": "Nomad ナイフ | Gamma Doppler",
+        "koreana": "노매드 칼 | 감마 도플러",
+        "latam": "Cuchillo nómada | Doppler gamma",
+        "norwegian": "Nomadekniv | Gamma Doppler",
+        "polish": "Nóż nomada | Gamma Doppler",
+        "portuguese": "Faca Nomad | Gamma Doppler",
+        "romanian": "Cuțit Nomad | Gamma Doppler",
+        "russian": "Нож «Бродяга» | Гамма-волны",
+        "schinese": "流浪者匕首 | 伽玛多普勒",
+        "schinese_pw": "Nomad Knife | Gamma Doppler",
+        "spanish": "Cuchillo nómada | Doppler gamma",
+        "swedish": "Nomad-kniv | Gamma Doppler",
+        "tchinese": "流浪者小刀 | 伽傌都卜勒",
+        "thai": "มีดโนแมด | Gamma Doppler",
+        "turkish": "Göçebe Bıçağı | Gamma Doppler",
+        "ukrainian": "Польовий ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Nomad | Gamma Doppler"
+      },
+      "name": "Nomad Knife | Gamma Doppler",
+      "search_slug": "nomad-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-572",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase4",
+        "id": 572,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-572",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Doppler Gama",
+        "bulgarian": "Номадският нож | Доплеров гама ефект",
+        "czech": "Outdoorový nůž | Gamma Doppler",
+        "danish": "Nomadekniv | Gamma Doppler",
+        "dutch": "Nomademes | Gamma Doppler",
+        "english": "Nomad Knife | Gamma Doppler",
+        "finnish": "Nomad-puukko | Gamma Doppler",
+        "french": "Couteau de nomade | Doppler Gamma",
+        "german": "Nomadenmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Nomad | Gamma Doppler",
+        "hungarian": "Nomád kés | Gamma Doppler",
+        "indonesian": "Pisau Nomad | Gamma Doppler",
+        "italian": "Coltello Nomade | Gamma Doppler",
+        "japanese": "Nomad ナイフ | Gamma Doppler",
+        "koreana": "노매드 칼 | 감마 도플러",
+        "latam": "Cuchillo nómada | Doppler gamma",
+        "norwegian": "Nomadekniv | Gamma Doppler",
+        "polish": "Nóż nomada | Gamma Doppler",
+        "portuguese": "Faca Nomad | Gamma Doppler",
+        "romanian": "Cuțit Nomad | Gamma Doppler",
+        "russian": "Нож «Бродяга» | Гамма-волны",
+        "schinese": "流浪者匕首 | 伽玛多普勒",
+        "schinese_pw": "Nomad Knife | Gamma Doppler",
+        "spanish": "Cuchillo nómada | Doppler gamma",
+        "swedish": "Nomad-kniv | Gamma Doppler",
+        "tchinese": "流浪者小刀 | 伽傌都卜勒",
+        "thai": "มีดโนแมด | Gamma Doppler",
+        "turkish": "Göçebe Bıçağı | Gamma Doppler",
+        "ukrainian": "Польовий ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Nomad | Gamma Doppler"
+      },
+      "name": "Nomad Knife | Gamma Doppler",
+      "search_slug": "nomad-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-578",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "hy-ocean-knife",
+        "id": 578,
+        "name": "Bright Water",
+        "rarity_ref": null,
+        "style_code": 2,
+        "style_name": "Hydrographic"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-578",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Águas Claras",
+        "bulgarian": "Номадският нож | Бистра вода",
+        "czech": "Outdoorový nůž | Bright Water",
+        "danish": "Nomadekniv | Bright Water",
+        "dutch": "Nomademes | Bright Water",
+        "english": "Nomad Knife | Bright Water",
+        "finnish": "Nomad-puukko | Kirkas vesi",
+        "french": "Couteau de nomade | Eau vive",
+        "german": "Nomadenmesser | Klares Wasser",
+        "greek": "Μαχαίρι Nomad | Bright Water",
+        "hungarian": "Nomád kés | Fényes Víz",
+        "indonesian": "Pisau Nomad | Bright Water",
+        "italian": "Coltello Nomade | Bright Water",
+        "japanese": "Nomad ナイフ | Bright Water",
+        "koreana": "노매드 칼 | 밝은 물결",
+        "latam": "Cuchillo nómada | Aguas brillantes",
+        "norwegian": "Nomadekniv | Bright Water",
+        "polish": "Nóż nomada | Jasne wody",
+        "portuguese": "Faca Nomad | Bright Water",
+        "romanian": "Cuțit Nomad | Bright Water",
+        "russian": "Нож «Бродяга» | Чистая вода",
+        "schinese": "流浪者匕首 | 澄澈之水",
+        "schinese_pw": "Nomad Knife | Bright Water",
+        "spanish": "Cuchillo nómada | Aguas brillantes",
+        "swedish": "Nomad-kniv | Bright Water",
+        "tchinese": "流浪者小刀 | 澄水",
+        "thai": "มีดโนแมด | Bright Water",
+        "turkish": "Göçebe Bıçağı | Parlak Su",
+        "ukrainian": "Польовий ніж | Чиста вода",
+        "vietnamese": "Dao Nomad | Bright Water"
+      },
+      "name": "Nomad Knife | Bright Water",
+      "search_slug": "nomad-knife-bright-water",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-579",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "hy-ocean-knife-90",
+        "id": 579,
+        "name": "Bright Water",
+        "rarity_ref": null,
+        "style_code": 2,
+        "style_name": "Hydrographic"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-579",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Águas Claras",
+        "bulgarian": "Номадският нож | Бистра вода",
+        "czech": "Outdoorový nůž | Bright Water",
+        "danish": "Nomadekniv | Bright Water",
+        "dutch": "Nomademes | Bright Water",
+        "english": "Nomad Knife | Bright Water",
+        "finnish": "Nomad-puukko | Kirkas vesi",
+        "french": "Couteau de nomade | Eau vive",
+        "german": "Nomadenmesser | Klares Wasser",
+        "greek": "Μαχαίρι Nomad | Bright Water",
+        "hungarian": "Nomád kés | Fényes Víz",
+        "indonesian": "Pisau Nomad | Bright Water",
+        "italian": "Coltello Nomade | Bright Water",
+        "japanese": "Nomad ナイフ | Bright Water",
+        "koreana": "노매드 칼 | 밝은 물결",
+        "latam": "Cuchillo nómada | Aguas brillantes",
+        "norwegian": "Nomadekniv | Bright Water",
+        "polish": "Nóż nomada | Jasne wody",
+        "portuguese": "Faca Nomad | Bright Water",
+        "romanian": "Cuțit Nomad | Bright Water",
+        "russian": "Нож «Бродяга» | Чистая вода",
+        "schinese": "流浪者匕首 | 澄澈之水",
+        "schinese_pw": "Nomad Knife | Bright Water",
+        "spanish": "Cuchillo nómada | Aguas brillantes",
+        "swedish": "Nomad-kniv | Bright Water",
+        "tchinese": "流浪者小刀 | 澄水",
+        "thai": "มีดโนแมด | Bright Water",
+        "turkish": "Göçebe Bıçağı | Parlak Su",
+        "ukrainian": "Польовий ніж | Чиста вода",
+        "vietnamese": "Dao Nomad | Bright Water"
+      },
+      "name": "Nomad Knife | Bright Water",
+      "search_slug": "nomad-knife-bright-water",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-580",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up",
+        "id": 580,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-580",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Mão Livre",
+        "bulgarian": "Номадският нож | Скицирано",
+        "czech": "Outdoorový nůž | Freehand",
+        "danish": "Nomadekniv | Freehand",
+        "dutch": "Nomademes | Freehand",
+        "english": "Nomad Knife | Freehand",
+        "finnish": "Nomad-puukko | Vapaa käsi",
+        "french": "Couteau de nomade | Signature",
+        "german": "Nomadenmesser | Freihändig",
+        "greek": "Μαχαίρι Nomad | Freehand",
+        "hungarian": "Nomád kés | Szabad Kéz",
+        "indonesian": "Pisau Nomad | Freehand",
+        "italian": "Coltello Nomade | Freehand",
+        "japanese": "Nomad ナイフ | Freehand",
+        "koreana": "노매드 칼 | 자유형",
+        "latam": "Cuchillo nómada | Mano alzada",
+        "norwegian": "Nomadekniv | Freehand",
+        "polish": "Nóż nomada | Rękodzieło",
+        "portuguese": "Faca Nomad | Freehand",
+        "romanian": "Cuțit Nomad | Freehand",
+        "russian": "Нож «Бродяга» | Ручная роспись",
+        "schinese": "流浪者匕首 | 自由之手",
+        "schinese_pw": "Nomad Knife | Freehand",
+        "spanish": "Cuchillo nómada | Mano alzada",
+        "swedish": "Nomad-kniv | Freehand",
+        "tchinese": "流浪者小刀 | 手繪紋",
+        "thai": "มีดโนแมด | Freehand",
+        "turkish": "Göçebe Bıçağı | Boşel",
+        "ukrainian": "Польовий ніж | Ручний розпис",
+        "vietnamese": "Dao Nomad | Freehand"
+      },
+      "name": "Nomad Knife | Freehand",
+      "search_slug": "nomad-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-581",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up-90",
+        "id": 581,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-581",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Mão Livre",
+        "bulgarian": "Номадският нож | Скицирано",
+        "czech": "Outdoorový nůž | Freehand",
+        "danish": "Nomadekniv | Freehand",
+        "dutch": "Nomademes | Freehand",
+        "english": "Nomad Knife | Freehand",
+        "finnish": "Nomad-puukko | Vapaa käsi",
+        "french": "Couteau de nomade | Signature",
+        "german": "Nomadenmesser | Freihändig",
+        "greek": "Μαχαίρι Nomad | Freehand",
+        "hungarian": "Nomád kés | Szabad Kéz",
+        "indonesian": "Pisau Nomad | Freehand",
+        "italian": "Coltello Nomade | Freehand",
+        "japanese": "Nomad ナイフ | Freehand",
+        "koreana": "노매드 칼 | 자유형",
+        "latam": "Cuchillo nómada | Mano alzada",
+        "norwegian": "Nomadekniv | Freehand",
+        "polish": "Nóż nomada | Rękodzieło",
+        "portuguese": "Faca Nomad | Freehand",
+        "romanian": "Cuțit Nomad | Freehand",
+        "russian": "Нож «Бродяга» | Ручная роспись",
+        "schinese": "流浪者匕首 | 自由之手",
+        "schinese_pw": "Nomad Knife | Freehand",
+        "spanish": "Cuchillo nómada | Mano alzada",
+        "swedish": "Nomad-kniv | Freehand",
+        "tchinese": "流浪者小刀 | 手繪紋",
+        "thai": "มีดโนแมด | Freehand",
+        "turkish": "Göçebe Bıçağı | Boşel",
+        "ukrainian": "Польовий ніж | Ручний розпис",
+        "vietnamese": "Dao Nomad | Freehand"
+      },
+      "name": "Nomad Knife | Freehand",
+      "search_slug": "nomad-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "521-582",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up-fine",
+        "id": 582,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "521-582",
+      "localized_names": {
+        "brazilian": "Faca Nômade | Mão Livre",
+        "bulgarian": "Номадският нож | Скицирано",
+        "czech": "Outdoorový nůž | Freehand",
+        "danish": "Nomadekniv | Freehand",
+        "dutch": "Nomademes | Freehand",
+        "english": "Nomad Knife | Freehand",
+        "finnish": "Nomad-puukko | Vapaa käsi",
+        "french": "Couteau de nomade | Signature",
+        "german": "Nomadenmesser | Freihändig",
+        "greek": "Μαχαίρι Nomad | Freehand",
+        "hungarian": "Nomád kés | Szabad Kéz",
+        "indonesian": "Pisau Nomad | Freehand",
+        "italian": "Coltello Nomade | Freehand",
+        "japanese": "Nomad ナイフ | Freehand",
+        "koreana": "노매드 칼 | 자유형",
+        "latam": "Cuchillo nómada | Mano alzada",
+        "norwegian": "Nomadekniv | Freehand",
+        "polish": "Nóż nomada | Rękodzieło",
+        "portuguese": "Faca Nomad | Freehand",
+        "romanian": "Cuțit Nomad | Freehand",
+        "russian": "Нож «Бродяга» | Ручная роспись",
+        "schinese": "流浪者匕首 | 自由之手",
+        "schinese_pw": "Nomad Knife | Freehand",
+        "spanish": "Cuchillo nómada | Mano alzada",
+        "swedish": "Nomad-kniv | Freehand",
+        "tchinese": "流浪者小刀 | 手繪紋",
+        "thai": "มีดโนแมด | Freehand",
+        "turkish": "Göçebe Bıçağı | Boşel",
+        "ukrainian": "Польовий ніж | Ручний розпис",
+        "vietnamese": "Dao Nomad | Freehand"
+      },
+      "name": "Nomad Knife | Freehand",
+      "search_slug": "nomad-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-outdoor",
+        "id": 521,
+        "name": "Nomad Knife",
+        "search_slug": "nomad-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-568",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-emerald-marbleized",
+        "id": 568,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-568",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler Gama",
+        "bulgarian": "Скелетен нож | Доплеров гама ефект",
+        "czech": "Skeletový nůž | Gamma Doppler",
+        "danish": "Skeletkniv | Gamma Doppler",
+        "dutch": "Skeletonmes | Gamma Doppler",
+        "english": "Skeleton Knife | Gamma Doppler",
+        "finnish": "Skeleton-puukko | Gamma Doppler",
+        "french": "Couteau squelettique | Doppler Gamma",
+        "german": "Skelettmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Skeleton | Gamma Doppler",
+        "hungarian": "Csontváz kés | Gamma Doppler",
+        "indonesian": "Pisau Skeleton | Gamma Doppler",
+        "italian": "Coltello Scheletro | Gamma Doppler",
+        "japanese": "Skeleton ナイフ | Gamma Doppler",
+        "koreana": "스켈레톤 칼 | 감마 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler gamma",
+        "norwegian": "Skjelettkniv | Gamma Doppler",
+        "polish": "Nóż szkieletowy | Gamma Doppler",
+        "portuguese": "Faca Skeleton | Gamma Doppler",
+        "romanian": "Cuțit scheletic | Gamma Doppler",
+        "russian": "Скелетный нож | Гамма-волны",
+        "schinese": "骷髅匕首 | 伽玛多普勒",
+        "schinese_pw": "Skeleton Knife | Gamma Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler gamma",
+        "swedish": "Skeleton-kniv | Gamma Doppler",
+        "tchinese": "骷顱刀 | 伽傌都卜勒",
+        "thai": "มีดสเกเลตัน | Gamma Doppler",
+        "turkish": "İskelet Bıçak | Gamma Doppler",
+        "ukrainian": "Скелетний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Skeleton | Gamma Doppler"
+      },
+      "name": "Skeleton Knife | Gamma Doppler",
+      "search_slug": "skeleton-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-569",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase1",
+        "id": 569,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-569",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler Gama",
+        "bulgarian": "Скелетен нож | Доплеров гама ефект",
+        "czech": "Skeletový nůž | Gamma Doppler",
+        "danish": "Skeletkniv | Gamma Doppler",
+        "dutch": "Skeletonmes | Gamma Doppler",
+        "english": "Skeleton Knife | Gamma Doppler",
+        "finnish": "Skeleton-puukko | Gamma Doppler",
+        "french": "Couteau squelettique | Doppler Gamma",
+        "german": "Skelettmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Skeleton | Gamma Doppler",
+        "hungarian": "Csontváz kés | Gamma Doppler",
+        "indonesian": "Pisau Skeleton | Gamma Doppler",
+        "italian": "Coltello Scheletro | Gamma Doppler",
+        "japanese": "Skeleton ナイフ | Gamma Doppler",
+        "koreana": "스켈레톤 칼 | 감마 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler gamma",
+        "norwegian": "Skjelettkniv | Gamma Doppler",
+        "polish": "Nóż szkieletowy | Gamma Doppler",
+        "portuguese": "Faca Skeleton | Gamma Doppler",
+        "romanian": "Cuțit scheletic | Gamma Doppler",
+        "russian": "Скелетный нож | Гамма-волны",
+        "schinese": "骷髅匕首 | 伽玛多普勒",
+        "schinese_pw": "Skeleton Knife | Gamma Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler gamma",
+        "swedish": "Skeleton-kniv | Gamma Doppler",
+        "tchinese": "骷顱刀 | 伽傌都卜勒",
+        "thai": "มีดสเกเลตัน | Gamma Doppler",
+        "turkish": "İskelet Bıçak | Gamma Doppler",
+        "ukrainian": "Скелетний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Skeleton | Gamma Doppler"
+      },
+      "name": "Skeleton Knife | Gamma Doppler",
+      "search_slug": "skeleton-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-570",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase2",
+        "id": 570,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-570",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler Gama",
+        "bulgarian": "Скелетен нож | Доплеров гама ефект",
+        "czech": "Skeletový nůž | Gamma Doppler",
+        "danish": "Skeletkniv | Gamma Doppler",
+        "dutch": "Skeletonmes | Gamma Doppler",
+        "english": "Skeleton Knife | Gamma Doppler",
+        "finnish": "Skeleton-puukko | Gamma Doppler",
+        "french": "Couteau squelettique | Doppler Gamma",
+        "german": "Skelettmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Skeleton | Gamma Doppler",
+        "hungarian": "Csontváz kés | Gamma Doppler",
+        "indonesian": "Pisau Skeleton | Gamma Doppler",
+        "italian": "Coltello Scheletro | Gamma Doppler",
+        "japanese": "Skeleton ナイフ | Gamma Doppler",
+        "koreana": "스켈레톤 칼 | 감마 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler gamma",
+        "norwegian": "Skjelettkniv | Gamma Doppler",
+        "polish": "Nóż szkieletowy | Gamma Doppler",
+        "portuguese": "Faca Skeleton | Gamma Doppler",
+        "romanian": "Cuțit scheletic | Gamma Doppler",
+        "russian": "Скелетный нож | Гамма-волны",
+        "schinese": "骷髅匕首 | 伽玛多普勒",
+        "schinese_pw": "Skeleton Knife | Gamma Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler gamma",
+        "swedish": "Skeleton-kniv | Gamma Doppler",
+        "tchinese": "骷顱刀 | 伽傌都卜勒",
+        "thai": "มีดสเกเลตัน | Gamma Doppler",
+        "turkish": "İskelet Bıçak | Gamma Doppler",
+        "ukrainian": "Скелетний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Skeleton | Gamma Doppler"
+      },
+      "name": "Skeleton Knife | Gamma Doppler",
+      "search_slug": "skeleton-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-571",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase3",
+        "id": 571,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-571",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler Gama",
+        "bulgarian": "Скелетен нож | Доплеров гама ефект",
+        "czech": "Skeletový nůž | Gamma Doppler",
+        "danish": "Skeletkniv | Gamma Doppler",
+        "dutch": "Skeletonmes | Gamma Doppler",
+        "english": "Skeleton Knife | Gamma Doppler",
+        "finnish": "Skeleton-puukko | Gamma Doppler",
+        "french": "Couteau squelettique | Doppler Gamma",
+        "german": "Skelettmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Skeleton | Gamma Doppler",
+        "hungarian": "Csontváz kés | Gamma Doppler",
+        "indonesian": "Pisau Skeleton | Gamma Doppler",
+        "italian": "Coltello Scheletro | Gamma Doppler",
+        "japanese": "Skeleton ナイフ | Gamma Doppler",
+        "koreana": "스켈레톤 칼 | 감마 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler gamma",
+        "norwegian": "Skjelettkniv | Gamma Doppler",
+        "polish": "Nóż szkieletowy | Gamma Doppler",
+        "portuguese": "Faca Skeleton | Gamma Doppler",
+        "romanian": "Cuțit scheletic | Gamma Doppler",
+        "russian": "Скелетный нож | Гамма-волны",
+        "schinese": "骷髅匕首 | 伽玛多普勒",
+        "schinese_pw": "Skeleton Knife | Gamma Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler gamma",
+        "swedish": "Skeleton-kniv | Gamma Doppler",
+        "tchinese": "骷顱刀 | 伽傌都卜勒",
+        "thai": "มีดสเกเลตัน | Gamma Doppler",
+        "turkish": "İskelet Bıçak | Gamma Doppler",
+        "ukrainian": "Скелетний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Skeleton | Gamma Doppler"
+      },
+      "name": "Skeleton Knife | Gamma Doppler",
+      "search_slug": "skeleton-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-572",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-gamma-doppler-phase4",
+        "id": 572,
+        "name": "Gamma Doppler",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-572",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Doppler Gama",
+        "bulgarian": "Скелетен нож | Доплеров гама ефект",
+        "czech": "Skeletový nůž | Gamma Doppler",
+        "danish": "Skeletkniv | Gamma Doppler",
+        "dutch": "Skeletonmes | Gamma Doppler",
+        "english": "Skeleton Knife | Gamma Doppler",
+        "finnish": "Skeleton-puukko | Gamma Doppler",
+        "french": "Couteau squelettique | Doppler Gamma",
+        "german": "Skelettmesser | Gamma Doppler",
+        "greek": "Μαχαίρι Skeleton | Gamma Doppler",
+        "hungarian": "Csontváz kés | Gamma Doppler",
+        "indonesian": "Pisau Skeleton | Gamma Doppler",
+        "italian": "Coltello Scheletro | Gamma Doppler",
+        "japanese": "Skeleton ナイフ | Gamma Doppler",
+        "koreana": "스켈레톤 칼 | 감마 도플러",
+        "latam": "Cuchillo esqueletizado | Doppler gamma",
+        "norwegian": "Skjelettkniv | Gamma Doppler",
+        "polish": "Nóż szkieletowy | Gamma Doppler",
+        "portuguese": "Faca Skeleton | Gamma Doppler",
+        "romanian": "Cuțit scheletic | Gamma Doppler",
+        "russian": "Скелетный нож | Гамма-волны",
+        "schinese": "骷髅匕首 | 伽玛多普勒",
+        "schinese_pw": "Skeleton Knife | Gamma Doppler",
+        "spanish": "Cuchillo esqueletizado | Doppler gamma",
+        "swedish": "Skeleton-kniv | Gamma Doppler",
+        "tchinese": "骷顱刀 | 伽傌都卜勒",
+        "thai": "มีดสเกเลตัน | Gamma Doppler",
+        "turkish": "İskelet Bıçak | Gamma Doppler",
+        "ukrainian": "Скелетний ніж | Гамма-ефект Доплера",
+        "vietnamese": "Dao Skeleton | Gamma Doppler"
+      },
+      "name": "Skeleton Knife | Gamma Doppler",
+      "search_slug": "skeleton-knife-gamma-doppler",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.08,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-578",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "hy-ocean-knife",
+        "id": 578,
+        "name": "Bright Water",
+        "rarity_ref": null,
+        "style_code": 2,
+        "style_name": "Hydrographic"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-578",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Águas Claras",
+        "bulgarian": "Скелетен нож | Бистра вода",
+        "czech": "Skeletový nůž | Bright Water",
+        "danish": "Skeletkniv | Bright Water",
+        "dutch": "Skeletonmes | Bright Water",
+        "english": "Skeleton Knife | Bright Water",
+        "finnish": "Skeleton-puukko | Kirkas vesi",
+        "french": "Couteau squelettique | Eau vive",
+        "german": "Skelettmesser | Klares Wasser",
+        "greek": "Μαχαίρι Skeleton | Bright Water",
+        "hungarian": "Csontváz kés | Fényes Víz",
+        "indonesian": "Pisau Skeleton | Bright Water",
+        "italian": "Coltello Scheletro | Bright Water",
+        "japanese": "Skeleton ナイフ | Bright Water",
+        "koreana": "스켈레톤 칼 | 밝은 물결",
+        "latam": "Cuchillo esqueletizado | Aguas brillantes",
+        "norwegian": "Skjelettkniv | Bright Water",
+        "polish": "Nóż szkieletowy | Jasne wody",
+        "portuguese": "Faca Skeleton | Bright Water",
+        "romanian": "Cuțit scheletic | Bright Water",
+        "russian": "Скелетный нож | Чистая вода",
+        "schinese": "骷髅匕首 | 澄澈之水",
+        "schinese_pw": "Skeleton Knife | Bright Water",
+        "spanish": "Cuchillo esqueletizado | Aguas brillantes",
+        "swedish": "Skeleton-kniv | Bright Water",
+        "tchinese": "骷顱刀 | 澄水",
+        "thai": "มีดสเกเลตัน | Bright Water",
+        "turkish": "İskelet Bıçak | Parlak Su",
+        "ukrainian": "Скелетний ніж | Чиста вода",
+        "vietnamese": "Dao Skeleton | Bright Water"
+      },
+      "name": "Skeleton Knife | Bright Water",
+      "search_slug": "skeleton-knife-bright-water",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-579",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "hy-ocean-knife-90",
+        "id": 579,
+        "name": "Bright Water",
+        "rarity_ref": null,
+        "style_code": 2,
+        "style_name": "Hydrographic"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-579",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Águas Claras",
+        "bulgarian": "Скелетен нож | Бистра вода",
+        "czech": "Skeletový nůž | Bright Water",
+        "danish": "Skeletkniv | Bright Water",
+        "dutch": "Skeletonmes | Bright Water",
+        "english": "Skeleton Knife | Bright Water",
+        "finnish": "Skeleton-puukko | Kirkas vesi",
+        "french": "Couteau squelettique | Eau vive",
+        "german": "Skelettmesser | Klares Wasser",
+        "greek": "Μαχαίρι Skeleton | Bright Water",
+        "hungarian": "Csontváz kés | Fényes Víz",
+        "indonesian": "Pisau Skeleton | Bright Water",
+        "italian": "Coltello Scheletro | Bright Water",
+        "japanese": "Skeleton ナイフ | Bright Water",
+        "koreana": "스켈레톤 칼 | 밝은 물결",
+        "latam": "Cuchillo esqueletizado | Aguas brillantes",
+        "norwegian": "Skjelettkniv | Bright Water",
+        "polish": "Nóż szkieletowy | Jasne wody",
+        "portuguese": "Faca Skeleton | Bright Water",
+        "romanian": "Cuțit scheletic | Bright Water",
+        "russian": "Скелетный нож | Чистая вода",
+        "schinese": "骷髅匕首 | 澄澈之水",
+        "schinese_pw": "Skeleton Knife | Bright Water",
+        "spanish": "Cuchillo esqueletizado | Aguas brillantes",
+        "swedish": "Skeleton-kniv | Bright Water",
+        "tchinese": "骷顱刀 | 澄水",
+        "thai": "มีดสเกเลตัน | Bright Water",
+        "turkish": "İskelet Bıçak | Parlak Su",
+        "ukrainian": "Скелетний ніж | Чиста вода",
+        "vietnamese": "Dao Skeleton | Bright Water"
+      },
+      "name": "Skeleton Knife | Bright Water",
+      "search_slug": "skeleton-knife-bright-water",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.5,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-580",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up",
+        "id": 580,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-580",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Mão Livre",
+        "bulgarian": "Скелетен нож | Скицирано",
+        "czech": "Skeletový nůž | Freehand",
+        "danish": "Skeletkniv | Freehand",
+        "dutch": "Skeletonmes | Freehand",
+        "english": "Skeleton Knife | Freehand",
+        "finnish": "Skeleton-puukko | Vapaa käsi",
+        "french": "Couteau squelettique | Signature",
+        "german": "Skelettmesser | Freihändig",
+        "greek": "Μαχαίρι Skeleton | Freehand",
+        "hungarian": "Csontváz kés | Szabad Kéz",
+        "indonesian": "Pisau Skeleton | Freehand",
+        "italian": "Coltello Scheletro | Freehand",
+        "japanese": "Skeleton ナイフ | Freehand",
+        "koreana": "스켈레톤 칼 | 자유형",
+        "latam": "Cuchillo esqueletizado | Mano alzada",
+        "norwegian": "Skjelettkniv | Freehand",
+        "polish": "Nóż szkieletowy | Rękodzieło",
+        "portuguese": "Faca Skeleton | Freehand",
+        "romanian": "Cuțit scheletic | Freehand",
+        "russian": "Скелетный нож | Ручная роспись",
+        "schinese": "骷髅匕首 | 自由之手",
+        "schinese_pw": "Skeleton Knife | Freehand",
+        "spanish": "Cuchillo esqueletizado | Mano alzada",
+        "swedish": "Skeleton-kniv | Freehand",
+        "tchinese": "骷顱刀 | 手繪紋",
+        "thai": "มีดสเกเลตัน | Freehand",
+        "turkish": "İskelet Bıçak | Boşel",
+        "ukrainian": "Скелетний ніж | Ручний розпис",
+        "vietnamese": "Dao Skeleton | Freehand"
+      },
+      "name": "Skeleton Knife | Freehand",
+      "search_slug": "skeleton-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-581",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up-90",
+        "id": 581,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-581",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Mão Livre",
+        "bulgarian": "Скелетен нож | Скицирано",
+        "czech": "Skeletový nůž | Freehand",
+        "danish": "Skeletkniv | Freehand",
+        "dutch": "Skeletonmes | Freehand",
+        "english": "Skeleton Knife | Freehand",
+        "finnish": "Skeleton-puukko | Vapaa käsi",
+        "french": "Couteau squelettique | Signature",
+        "german": "Skelettmesser | Freihändig",
+        "greek": "Μαχαίρι Skeleton | Freehand",
+        "hungarian": "Csontváz kés | Szabad Kéz",
+        "indonesian": "Pisau Skeleton | Freehand",
+        "italian": "Coltello Scheletro | Freehand",
+        "japanese": "Skeleton ナイフ | Freehand",
+        "koreana": "스켈레톤 칼 | 자유형",
+        "latam": "Cuchillo esqueletizado | Mano alzada",
+        "norwegian": "Skjelettkniv | Freehand",
+        "polish": "Nóż szkieletowy | Rękodzieło",
+        "portuguese": "Faca Skeleton | Freehand",
+        "romanian": "Cuțit scheletic | Freehand",
+        "russian": "Скелетный нож | Ручная роспись",
+        "schinese": "骷髅匕首 | 自由之手",
+        "schinese_pw": "Skeleton Knife | Freehand",
+        "spanish": "Cuchillo esqueletizado | Mano alzada",
+        "swedish": "Skeleton-kniv | Freehand",
+        "tchinese": "骷顱刀 | 手繪紋",
+        "thai": "มีดสเกเลตัน | Freehand",
+        "turkish": "İskelet Bıçak | Boşel",
+        "ukrainian": "Скелетний ніж | Ручний розпис",
+        "vietnamese": "Dao Skeleton | Freehand"
+      },
+      "name": "Skeleton Knife | Freehand",
+      "search_slug": "skeleton-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    },
+    {
+      "availability": {
+        "normal": true,
+        "souvenir": false,
+        "stattrak": true
+      },
+      "canonical_slug": "525-582",
+      "category": "knife",
+      "finish": {
+        "canonical_slug": "am-marked-up-fine",
+        "id": 582,
+        "name": "Freehand",
+        "rarity_ref": null,
+        "style_code": 5,
+        "style_name": "Anodized Multicolored"
+      },
+      "generation_notes": {
+        "consumer_derived_from_pool": true,
+        "expansion_rule": "gamma-knives",
+        "source_backed": false
+      },
+      "id": "525-582",
+      "localized_names": {
+        "brazilian": "Faca Esqueleto | Mão Livre",
+        "bulgarian": "Скелетен нож | Скицирано",
+        "czech": "Skeletový nůž | Freehand",
+        "danish": "Skeletkniv | Freehand",
+        "dutch": "Skeletonmes | Freehand",
+        "english": "Skeleton Knife | Freehand",
+        "finnish": "Skeleton-puukko | Vapaa käsi",
+        "french": "Couteau squelettique | Signature",
+        "german": "Skelettmesser | Freihändig",
+        "greek": "Μαχαίρι Skeleton | Freehand",
+        "hungarian": "Csontváz kés | Szabad Kéz",
+        "indonesian": "Pisau Skeleton | Freehand",
+        "italian": "Coltello Scheletro | Freehand",
+        "japanese": "Skeleton ナイフ | Freehand",
+        "koreana": "스켈레톤 칼 | 자유형",
+        "latam": "Cuchillo esqueletizado | Mano alzada",
+        "norwegian": "Skjelettkniv | Freehand",
+        "polish": "Nóż szkieletowy | Rękodzieło",
+        "portuguese": "Faca Skeleton | Freehand",
+        "romanian": "Cuțit scheletic | Freehand",
+        "russian": "Скелетный нож | Ручная роспись",
+        "schinese": "骷髅匕首 | 自由之手",
+        "schinese_pw": "Skeleton Knife | Freehand",
+        "spanish": "Cuchillo esqueletizado | Mano alzada",
+        "swedish": "Skeleton-kniv | Freehand",
+        "tchinese": "骷顱刀 | 手繪紋",
+        "thai": "มีดสเกเลตัน | Freehand",
+        "turkish": "İskelet Bıçak | Boşel",
+        "ukrainian": "Скелетний ніж | Ручний розпис",
+        "vietnamese": "Dao Skeleton | Freehand"
+      },
+      "name": "Skeleton Knife | Freehand",
+      "search_slug": "skeleton-knife-freehand",
+      "source_pool_id": "gamma2_knives2_unusual",
+      "weapon": {
+        "canonical_slug": "weapon-knife-skeleton",
+        "id": 525,
+        "name": "Skeleton Knife",
+        "search_slug": "skeleton-knife",
+        "weapon_group": "knife"
+      },
+      "wear": {
+        "max_float": 0.48,
+        "min_float": 0.0
+      }
+    }
+  ],
   "canonical_slug": "gamma2-knives2-unusual",
   "card_type": "special-pool",
   "eligible_weapons": [
@@ -160,92 +2921,8 @@
       "weapon_group": "knife"
     }
   ],
-  "expansion_status": "finish-family",
-  "finish_profiles": [
-    {
-      "finish_ids": [
-        568,
-        569,
-        570,
-        571,
-        572,
-        578,
-        579,
-        580,
-        581,
-        582
-      ],
-      "finish_names": [
-        "Bright Water",
-        "Freehand",
-        "Gamma Doppler"
-      ],
-      "finishes": [
-        {
-          "canonical_slug": "am-emerald-marbleized",
-          "id": 568,
-          "name": "Gamma Doppler",
-          "search_slug": "gamma-doppler"
-        },
-        {
-          "canonical_slug": "am-gamma-doppler-phase1",
-          "id": 569,
-          "name": "Gamma Doppler",
-          "search_slug": "gamma-doppler"
-        },
-        {
-          "canonical_slug": "am-gamma-doppler-phase2",
-          "id": 570,
-          "name": "Gamma Doppler",
-          "search_slug": "gamma-doppler"
-        },
-        {
-          "canonical_slug": "am-gamma-doppler-phase3",
-          "id": 571,
-          "name": "Gamma Doppler",
-          "search_slug": "gamma-doppler"
-        },
-        {
-          "canonical_slug": "am-gamma-doppler-phase4",
-          "id": 572,
-          "name": "Gamma Doppler",
-          "search_slug": "gamma-doppler"
-        },
-        {
-          "canonical_slug": "hy-ocean-knife",
-          "id": 578,
-          "name": "Bright Water",
-          "search_slug": "bright-water"
-        },
-        {
-          "canonical_slug": "hy-ocean-knife-90",
-          "id": 579,
-          "name": "Bright Water",
-          "search_slug": "bright-water"
-        },
-        {
-          "canonical_slug": "am-marked-up",
-          "id": 580,
-          "name": "Freehand",
-          "search_slug": "freehand"
-        },
-        {
-          "canonical_slug": "am-marked-up-90",
-          "id": 581,
-          "name": "Freehand",
-          "search_slug": "freehand"
-        },
-        {
-          "canonical_slug": "am-marked-up-fine",
-          "id": 582,
-          "name": "Freehand",
-          "search_slug": "freehand"
-        }
-      ],
-      "id": "gamma-knives",
-      "label": "Gamma Knife Finishes"
-    }
-  ],
+  "expansion_status": "exact-candidates",
+  "finish_profiles": [],
   "footer": "or an Exceedingly Rare Special Item!",
   "id": "gamma2_knives2_unusual",
   "localized_footers": {

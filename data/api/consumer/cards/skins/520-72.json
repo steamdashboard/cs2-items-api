@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "520-72",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-mesh-tan",
+    "catalog_id": 72,
+    "id": 72,
+    "localized_names": {
+      "brazilian": "Grade de Safári",
+      "bulgarian": "Мрежа за сафари",
+      "czech": "Safari Mesh",
+      "danish": "Safari Mesh",
+      "dutch": "Safari Mesh",
+      "english": "Safari Mesh",
+      "finnish": "Safariverkko",
+      "french": "Maillage safari",
+      "german": "Safarinetz",
+      "greek": "Safari Mesh",
+      "hungarian": "Szafari Háló",
+      "indonesian": "Safari Mesh",
+      "italian": "Safari Mesh",
+      "japanese": "Safari Mesh",
+      "koreana": "사파리 격자 무늬",
+      "latam": "Malla de safari",
+      "norwegian": "Safari Mesh",
+      "polish": "Siatka safari",
+      "portuguese": "Safari Mesh",
+      "romanian": "Safari Mesh",
+      "russian": "Африканская сетка",
+      "schinese": "狩猎网格",
+      "schinese_pw": "Safari Mesh",
+      "spanish": "Malla de safari",
+      "swedish": "Safari Mesh",
+      "tchinese": "狩獵網格",
+      "thai": "Safari Mesh",
+      "turkish": "Safari Ağı",
+      "ukrainian": "Сітка сафарі",
+      "vietnamese": "Safari Mesh"
+    },
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "520-72",
+  "localized_names": {
+    "brazilian": "Faca Navaja | Grade de Safári",
+    "bulgarian": "Наваха нож | Мрежа за сафари",
+    "czech": "Nůž Navaja | Safari Mesh",
+    "danish": "Navaja-kniv | Safari Mesh",
+    "dutch": "Navaja | Safari Mesh",
+    "english": "Navaja Knife | Safari Mesh",
+    "finnish": "Linkkuveitsi | Safariverkko",
+    "french": "Navaja | Maillage safari",
+    "german": "Navaja-Messer | Safarinetz",
+    "greek": "Μαχαίρι Navaja | Safari Mesh",
+    "hungarian": "Navaja kés | Szafari Háló",
+    "indonesian": "Pisau Navaja | Safari Mesh",
+    "italian": "Coltello Navaja | Safari Mesh",
+    "japanese": "Navaja ナイフ | Safari Mesh",
+    "koreana": "나바하 칼 | 사파리 격자 무늬",
+    "latam": "Navaja | Malla de safari",
+    "norwegian": "Navaja | Safari Mesh",
+    "polish": "Navaja | Siatka safari",
+    "portuguese": "Faca Navaja | Safari Mesh",
+    "romanian": "Cuțit Navaja | Safari Mesh",
+    "russian": "Наваха | Африканская сетка",
+    "schinese": "折刀 | 狩猎网格",
+    "schinese_pw": "Navaja Knife | Safari Mesh",
+    "spanish": "Navaja | Malla de safari",
+    "swedish": "Navajakniv | Safari Mesh",
+    "tchinese": "西班牙折刀 | 狩獵網格",
+    "thai": "มีดนาวาฮา | Safari Mesh",
+    "turkish": "Navaja Bıçağı | Safari Ağı",
+    "ukrainian": "Наваха | Сітка сафарі",
+    "vietnamese": "Dao Navaja | Safari Mesh"
+  },
+  "media": {
+    "asset_id": "skin__520-72",
+    "images_png": [
+      "data/api/media/rendered/files/skins/520-72/light.png",
+      "data/api/media/rendered/files/skins/520-72/medium.png",
+      "data/api/media/rendered/files/skins/520-72/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/520-72.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/520-72/heavy.png",
+      "light": "data/api/media/rendered/files/skins/520-72/light.png",
+      "medium": "data/api/media/rendered/files/skins/520-72/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/520-72/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_sp_mesh_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_sp_mesh_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_gypsy_jackknife_sp_mesh_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "Navaja Knife | Safari Mesh",
+  "search_slug": "navaja-knife-safari-mesh",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "520-72__normal__vanilla",
+    "520-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-gypsy-jackknife",
+    "id": 520,
+    "localized_names": {
+      "brazilian": "Faca Navaja",
+      "bulgarian": "Наваха нож",
+      "czech": "Nůž Navaja",
+      "danish": "Navaja-kniv",
+      "dutch": "Navaja",
+      "english": "Navaja Knife",
+      "finnish": "Linkkuveitsi",
+      "french": "Navaja",
+      "german": "Navaja-Messer",
+      "greek": "Μαχαίρι Navaja",
+      "hungarian": "Navaja kés",
+      "indonesian": "Pisau Navaja",
+      "italian": "Coltello Navaja",
+      "japanese": "Navaja ナイフ",
+      "koreana": "나바하 칼",
+      "latam": "Navaja",
+      "norwegian": "Navaja",
+      "polish": "Navaja",
+      "portuguese": "Faca Navaja",
+      "romanian": "Cuțit Navaja",
+      "russian": "Наваха",
+      "schinese": "折刀",
+      "schinese_pw": "Navaja Knife",
+      "spanish": "Navaja",
+      "swedish": "Navajakniv",
+      "tchinese": "西班牙折刀",
+      "thai": "มีดนาวาฮา",
+      "turkish": "Navaja Bıçağı",
+      "ukrainian": "Наваха",
+      "vietnamese": "Dao Navaja"
+    },
+    "name": "Navaja Knife",
+    "search_slug": "navaja-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

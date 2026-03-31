@@ -1,0 +1,224 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "508-420",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-doppler-phase3",
+    "catalog_id": 420,
+    "id": 420,
+    "localized_names": {
+      "brazilian": "Doppler",
+      "bulgarian": "Доплер",
+      "czech": "Doppler",
+      "danish": "Doppler",
+      "dutch": "Doppler",
+      "english": "Doppler",
+      "finnish": "Doppler",
+      "french": "Doppler",
+      "german": "Doppler",
+      "greek": "Doppler",
+      "hungarian": "Doppler",
+      "indonesian": "Doppler",
+      "italian": "Doppler",
+      "japanese": "Doppler",
+      "koreana": "도플러",
+      "latam": "Doppler",
+      "norwegian": "Doppler",
+      "polish": "Doppler",
+      "portuguese": "Doppler",
+      "romanian": "Doppler",
+      "russian": "Волны",
+      "schinese": "多普勒",
+      "schinese_pw": "Doppler",
+      "spanish": "Doppler",
+      "swedish": "Doppler",
+      "tchinese": "都卜勒",
+      "thai": "Doppler",
+      "turkish": "Doppler",
+      "ukrainian": "Доплер",
+      "vietnamese": "Doppler"
+    },
+    "name": "Doppler",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "508-420",
+  "localized_names": {
+    "brazilian": "Baioneta M9 | Doppler",
+    "bulgarian": "M9 щик | Доплер",
+    "czech": "Bajonet M9 | Doppler",
+    "danish": "M9-bajonet | Doppler",
+    "dutch": "M9 Bajonet | Doppler",
+    "english": "M9 Bayonet | Doppler",
+    "finnish": "M9-pistin | Doppler",
+    "french": "Baïonnette M9 | Doppler",
+    "german": "M9-Bajonett | Doppler",
+    "greek": "Mπαγιονέτα M9 | Doppler",
+    "hungarian": "M9 bajonett | Doppler",
+    "indonesian": "M9 Bayonet | Doppler",
+    "italian": "Baionetta M9 | Doppler",
+    "japanese": "M9バヨネット | Doppler",
+    "koreana": "M9 총검 | 도플러",
+    "latam": "Bayoneta M9 | Doppler",
+    "norwegian": "M9-bajonett | Doppler",
+    "polish": "Bagnet M9 | Doppler",
+    "portuguese": "M9 Bayonet | Doppler",
+    "romanian": "Baionetă M9 | Doppler",
+    "russian": "Штык-нож M9 | Волны",
+    "schinese": "M9 刺刀 | 多普勒",
+    "schinese_pw": "M9 Bayonet | Doppler",
+    "spanish": "Bayoneta M9 | Doppler",
+    "swedish": "M9-bajonett | Doppler",
+    "tchinese": "M9 刺刀 | 都卜勒",
+    "thai": "มีดเบโยเน็ตเอ็ม9 | Doppler",
+    "turkish": "M9 Bayonet | Doppler",
+    "ukrainian": "Штик-ніж М9 | Доплер",
+    "vietnamese": "M9 Bayonet | Doppler"
+  },
+  "media": {
+    "asset_id": "skin__508-420",
+    "images_png": [
+      "data/api/media/rendered/files/skins/508-420/light.png",
+      "data/api/media/rendered/files/skins/508-420/medium.png",
+      "data/api/media/rendered/files/skins/508-420/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/508-420.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/508-420/heavy.png",
+      "light": "data/api/media/rendered/files/skins/508-420/light.png",
+      "medium": "data/api/media/rendered/files/skins/508-420/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/508-420/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_m9_bayonet_am_doppler_phase3_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_m9_bayonet_am_doppler_phase3_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_m9_bayonet_am_doppler_phase3_medium_png.vtex_c"
+    }
+  },
+  "name": "M9 Bayonet | Doppler",
+  "search_slug": "m9-bayonet-doppler",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-6",
+        "id": 4061,
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "search_slug": "chroma-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-7",
+        "id": 4089,
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "search_slug": "chroma-2-case",
+        "via_special_pool": "community_case_6_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-12",
+        "id": 4233,
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "search_slug": "chroma-3-case",
+        "via_special_pool": "community_case_6_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-6-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "community_case_6_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-6-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "508-420__normal__factory-new",
+    "508-420__normal__minimal-wear",
+    "508-420__stattrak__factory-new",
+    "508-420__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-m9-bayonet",
+    "id": 508,
+    "localized_names": {
+      "brazilian": "Baioneta M9",
+      "bulgarian": "M9 щик",
+      "czech": "Bajonet M9",
+      "danish": "M9-bajonet",
+      "dutch": "M9 Bajonet",
+      "english": "M9 Bayonet",
+      "finnish": "M9-pistin",
+      "french": "Baïonnette M9",
+      "german": "M9-Bajonett",
+      "greek": "Mπαγιονέτα M9",
+      "hungarian": "M9 bajonett",
+      "indonesian": "M9 Bayonet",
+      "italian": "Baionetta M9",
+      "japanese": "M9バヨネット",
+      "koreana": "M9 총검",
+      "latam": "Bayoneta M9",
+      "norwegian": "M9-bajonett",
+      "polish": "Bagnet M9",
+      "portuguese": "M9 Bayonet",
+      "romanian": "Baionetă M9",
+      "russian": "Штык-нож M9",
+      "schinese": "M9 刺刀",
+      "schinese_pw": "M9 Bayonet",
+      "spanish": "Bayoneta M9",
+      "swedish": "M9-bajonett",
+      "tchinese": "M9 刺刀",
+      "thai": "มีดเบโยเน็ตเอ็ม9",
+      "turkish": "M9 Bayonet",
+      "ukrainian": "Штик-ніж М9",
+      "vietnamese": "M9 Bayonet"
+    },
+    "name": "M9 Bayonet",
+    "search_slug": "m9-bayonet",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

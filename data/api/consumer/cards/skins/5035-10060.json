@@ -1,0 +1,198 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "canonical_slug": "5035-10060",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "bloodhound-hydra-case-hardened",
+    "catalog_id": 10060,
+    "id": 10060,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Panssaripinta",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Fémezett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 강화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kabuk",
+      "ukrainian": "Зміцнені для футляра",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": null,
+    "style_name": null,
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "5035-10060",
+  "localized_names": {
+    "brazilian": "Luvas da Hidra | Aquecimento de Aço",
+    "bulgarian": "Ръкавици „Хидра“ | Закалено",
+    "czech": "Extrémistické rukavice | Case Hardened",
+    "danish": "Hydra-handsker | Case Hardened",
+    "dutch": "Hydra-handschoenen | Case Hardened",
+    "english": "Hydra Gloves | Case Hardened",
+    "finnish": "Hydra-hanskat | Panssaripinta",
+    "french": "Gants Hydra | Cémenté",
+    "german": "Hydra-Handschuhe | Einsatzgehärtet",
+    "greek": "Γάντια Hydra | Case Hardened",
+    "hungarian": "Hydra kesztyűk | Fémezett",
+    "indonesian": "Sarung Tangan Hydra | Case Hardened",
+    "italian": "Guanti Hydra | Case Hardened",
+    "japanese": "Hydra Gloves | Case Hardened",
+    "koreana": "히드라 장갑 | 표면 강화",
+    "latam": "Guantes Hydra | Acero templado",
+    "norwegian": "Hydra-hansker | Case Hardened",
+    "polish": "Rękawice Hydra | Stal nawęglana",
+    "portuguese": "Luvas Hydra | Case Hardened",
+    "romanian": "Mănuși Hydra | Case Hardened",
+    "russian": "Перчатки «Гидра» | Поверхностная закалка",
+    "schinese": "九头蛇手套 | 表面淬火",
+    "schinese_pw": "Hydra Gloves | Case Hardened",
+    "spanish": "Guantes Hydra | Acero templado",
+    "swedish": "Hydrahandskar | Case Hardened",
+    "tchinese": "九頭蛇手套 | 外殼硬化",
+    "thai": "ถุงมือ Hydra | Case Hardened",
+    "turkish": "Hydra Eldivenleri | Sertleştirilmiş Kabuk",
+    "ukrainian": "Рукавиці «Гідра» | Зміцнені для футляра",
+    "vietnamese": "Găng tay Hydra | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__5035-10060",
+    "images_png": [
+      "data/api/media/rendered/files/skins/5035-10060/light.png",
+      "data/api/media/rendered/files/skins/5035-10060/medium.png",
+      "data/api/media/rendered/files/skins/5035-10060/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/5035-10060.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/5035-10060/heavy.png",
+      "light": "data/api/media/rendered/files/skins/5035-10060/light.png",
+      "medium": "data/api/media/rendered/files/skins/5035-10060/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/5035-10060/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/studded_hydra_gloves_bloodhound_hydra_case_hardened_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/studded_hydra_gloves_bloodhound_hydra_case_hardened_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/studded_hydra_gloves_bloodhound_hydra_case_hardened_medium_png.vtex_c"
+    }
+  },
+  "name": "Hydra Gloves | Case Hardened",
+  "search_slug": "hydra-gloves-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-19",
+        "id": 4471,
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "search_slug": "clutch-case",
+        "via_special_pool": "set_community_19_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-32",
+        "id": 4880,
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "search_slug": "revolution-case",
+        "via_special_pool": "set_community_19_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-19-unusual",
+        "expansion_rule": "hydra-era-gloves",
+        "id": "set_community_19_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Gloves ★",
+        "search_slug": "set-community-19-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "5035-10060__normal__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "studded-hydra-gloves",
+    "id": 5035,
+    "localized_names": {
+      "brazilian": "Luvas da Hidra",
+      "bulgarian": "Ръкавици „Хидра“",
+      "czech": "Extrémistické rukavice",
+      "danish": "Hydra-handsker",
+      "dutch": "Hydra-handschoenen",
+      "english": "Hydra Gloves",
+      "finnish": "Hydra-hanskat",
+      "french": "Gants Hydra",
+      "german": "Hydra-Handschuhe",
+      "greek": "Γάντια Hydra",
+      "hungarian": "Hydra kesztyűk",
+      "indonesian": "Sarung Tangan Hydra",
+      "italian": "Guanti Hydra",
+      "japanese": "Hydra Gloves",
+      "koreana": "히드라 장갑",
+      "latam": "Guantes Hydra",
+      "norwegian": "Hydra-hansker",
+      "polish": "Rękawice Hydra",
+      "portuguese": "Luvas Hydra",
+      "romanian": "Mănuși Hydra",
+      "russian": "Перчатки «Гидра»",
+      "schinese": "九头蛇手套",
+      "schinese_pw": "Hydra Gloves",
+      "spanish": "Guantes Hydra",
+      "swedish": "Hydrahandskar",
+      "tchinese": "九頭蛇手套",
+      "thai": "ถุงมือ Hydra",
+      "turkish": "Hydra Eldivenleri",
+      "ukrainian": "Рукавиці «Гідра»",
+      "vietnamese": "Găng tay Hydra"
+    },
+    "name": "Hydra Gloves",
+    "search_slug": "hydra-gloves",
+    "weapon_group": "glove"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "515-72",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-mesh-tan",
+    "catalog_id": 72,
+    "id": 72,
+    "localized_names": {
+      "brazilian": "Grade de Safári",
+      "bulgarian": "Мрежа за сафари",
+      "czech": "Safari Mesh",
+      "danish": "Safari Mesh",
+      "dutch": "Safari Mesh",
+      "english": "Safari Mesh",
+      "finnish": "Safariverkko",
+      "french": "Maillage safari",
+      "german": "Safarinetz",
+      "greek": "Safari Mesh",
+      "hungarian": "Szafari Háló",
+      "indonesian": "Safari Mesh",
+      "italian": "Safari Mesh",
+      "japanese": "Safari Mesh",
+      "koreana": "사파리 격자 무늬",
+      "latam": "Malla de safari",
+      "norwegian": "Safari Mesh",
+      "polish": "Siatka safari",
+      "portuguese": "Safari Mesh",
+      "romanian": "Safari Mesh",
+      "russian": "Африканская сетка",
+      "schinese": "狩猎网格",
+      "schinese_pw": "Safari Mesh",
+      "spanish": "Malla de safari",
+      "swedish": "Safari Mesh",
+      "tchinese": "狩獵網格",
+      "thai": "Safari Mesh",
+      "turkish": "Safari Ağı",
+      "ukrainian": "Сітка сафарі",
+      "vietnamese": "Safari Mesh"
+    },
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-72",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Grade de Safári",
+    "bulgarian": "Нож „Пеперуда“ | Мрежа за сафари",
+    "czech": "Motýlek | Safari Mesh",
+    "danish": "Butterfly-kniv | Safari Mesh",
+    "dutch": "Vlindermes | Safari Mesh",
+    "english": "Butterfly Knife | Safari Mesh",
+    "finnish": "Perhosveitsi | Safariverkko",
+    "french": "Couteau papillon | Maillage safari",
+    "german": "Butterflymesser | Safarinetz",
+    "greek": "Μαχαίρι Butterfly | Safari Mesh",
+    "hungarian": "Pillangókés | Szafari Háló",
+    "indonesian": "Pisau Kupu-kupu | Safari Mesh",
+    "italian": "Coltello a farfalla | Safari Mesh",
+    "japanese": "バタフライナイフ | Safari Mesh",
+    "koreana": "버터플라이 나이프 | 사파리 격자 무늬",
+    "latam": "Cuchillo mariposa | Malla de safari",
+    "norwegian": "Butterflykniv | Safari Mesh",
+    "polish": "Nóż motylkowy | Siatka safari",
+    "portuguese": "Faca Butterfly | Safari Mesh",
+    "romanian": "Cuțit fluture | Safari Mesh",
+    "russian": "Нож-бабочка | Африканская сетка",
+    "schinese": "蝴蝶刀 | 狩猎网格",
+    "schinese_pw": "Butterfly Knife | Safari Mesh",
+    "spanish": "Cuchillo Mariposa | Malla de safari",
+    "swedish": "Butterflykniv | Safari Mesh",
+    "tchinese": "蝴蝶刀 | 狩獵網格",
+    "thai": "มีดบัตเตอร์ฟลาย | Safari Mesh",
+    "turkish": "Kelebek Bıçak | Safari Ağı",
+    "ukrainian": "Балісонг | Сітка сафарі",
+    "vietnamese": "Dao bướm | Safari Mesh"
+  },
+  "media": {
+    "asset_id": "skin__515-72",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-72/light.png",
+      "data/api/media/rendered/files/skins/515-72/medium.png",
+      "data/api/media/rendered/files/skins/515-72/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-72.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-72/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-72/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-72/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-72/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_sp_mesh_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_sp_mesh_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_sp_mesh_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Safari Mesh",
+  "search_slug": "butterfly-knife-safari-mesh",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-4",
+        "id": 4018,
+        "kind": "weapon-case",
+        "name": "Operation Breakout Weapon Case",
+        "search_slug": "operation-breakout-weapon-case",
+        "via_special_pool": "community_case_4_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-4-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_4_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Butterfly Knife ★",
+        "search_slug": "community-case-4-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-72__normal__vanilla",
+    "515-72__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

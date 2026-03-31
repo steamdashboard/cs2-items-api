@@ -1,0 +1,240 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "505-579",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-ocean-knife-90",
+    "catalog_id": 579,
+    "id": 579,
+    "localized_names": {
+      "brazilian": "Águas Claras",
+      "bulgarian": "Бистра вода",
+      "czech": "Bright Water",
+      "danish": "Bright Water",
+      "dutch": "Bright Water",
+      "english": "Bright Water",
+      "finnish": "Kirkas vesi",
+      "french": "Eau vive",
+      "german": "Klares Wasser",
+      "greek": "Bright Water",
+      "hungarian": "Fényes Víz",
+      "indonesian": "Bright Water",
+      "italian": "Bright Water",
+      "japanese": "Bright Water",
+      "koreana": "밝은 물결",
+      "latam": "Aguas brillantes",
+      "norwegian": "Bright Water",
+      "polish": "Jasne wody",
+      "portuguese": "Bright Water",
+      "romanian": "Bright Water",
+      "russian": "Чистая вода",
+      "schinese": "澄澈之水",
+      "schinese_pw": "Bright Water",
+      "spanish": "Aguas brillantes",
+      "swedish": "Bright Water",
+      "tchinese": "澄水",
+      "thai": "Bright Water",
+      "turkish": "Parlak Su",
+      "ukrainian": "Чиста вода",
+      "vietnamese": "Bright Water"
+    },
+    "name": "Bright Water",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "505-579",
+  "localized_names": {
+    "brazilian": "Canivete | Águas Claras",
+    "bulgarian": "Сгъваем нож | Бистра вода",
+    "czech": "Skládací nůž | Bright Water",
+    "danish": "Foldekniv | Bright Water",
+    "dutch": "Knipmes | Bright Water",
+    "english": "Flip Knife | Bright Water",
+    "finnish": "Taittoveitsi | Kirkas vesi",
+    "french": "Couteau pliant | Eau vive",
+    "german": "Klappmesser | Klares Wasser",
+    "greek": "Flip Knife | Bright Water",
+    "hungarian": "Összecsukható kés | Fényes Víz",
+    "indonesian": "Pisau Lipat | Bright Water",
+    "italian": "Coltello ricurvo | Bright Water",
+    "japanese": "Flip ナイフ | Bright Water",
+    "koreana": "접이식 칼 | 밝은 물결",
+    "latam": "Navaja | Aguas brillantes",
+    "norwegian": "Foldekniv | Bright Water",
+    "polish": "Nóż składany | Jasne wody",
+    "portuguese": "Flip Knife | Bright Water",
+    "romanian": "Briceag | Bright Water",
+    "russian": "Складной нож | Чистая вода",
+    "schinese": "折叠刀 | 澄澈之水",
+    "schinese_pw": "Flip Knife | Bright Water",
+    "spanish": "Cuchillo plegable | Aguas brillantes",
+    "swedish": "Fällkniv | Bright Water",
+    "tchinese": "折疊式軍刀 | 澄水",
+    "thai": "มีดพับ | Bright Water",
+    "turkish": "Sustalı Bıçak | Parlak Su",
+    "ukrainian": "Складаний ніж | Чиста вода",
+    "vietnamese": "Dao bấm | Bright Water"
+  },
+  "media": {
+    "asset_id": "weapon__505",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/505/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/505.json",
+    "models": [
+      "weapons/models/knife/knife_flip/weapon_knife_flip.vmdl_c",
+      "phase2/weapons/models/knife/knife_flip/weapon_knife_flip_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/505/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Flip Knife | Bright Water",
+  "search_slug": "flip-knife-bright-water",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-13",
+        "id": 4236,
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "search_slug": "gamma-case",
+        "via_special_pool": "community_case_13_unusual"
+      },
+      {
+        "canonical_slug": "crate-gamma-2",
+        "id": 4281,
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "search_slug": "crate-gamma-2",
+        "via_special_pool": "community_case_13_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-13-unusual",
+        "expansion_rule": "gamma-knives",
+        "id": "community_case_13_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "community-case-13-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "505-579__normal__battle-scarred",
+    "505-579__normal__factory-new",
+    "505-579__normal__field-tested",
+    "505-579__normal__minimal-wear",
+    "505-579__normal__well-worn",
+    "505-579__stattrak__battle-scarred",
+    "505-579__stattrak__factory-new",
+    "505-579__stattrak__field-tested",
+    "505-579__stattrak__minimal-wear",
+    "505-579__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-flip",
+    "id": 505,
+    "localized_names": {
+      "brazilian": "Canivete",
+      "bulgarian": "Сгъваем нож",
+      "czech": "Skládací nůž",
+      "danish": "Foldekniv",
+      "dutch": "Knipmes",
+      "english": "Flip Knife",
+      "finnish": "Taittoveitsi",
+      "french": "Couteau pliant",
+      "german": "Klappmesser",
+      "greek": "Flip Knife",
+      "hungarian": "Összecsukható kés",
+      "indonesian": "Pisau Lipat",
+      "italian": "Coltello ricurvo",
+      "japanese": "Flip ナイフ",
+      "koreana": "접이식 칼",
+      "latam": "Navaja",
+      "norwegian": "Foldekniv",
+      "polish": "Nóż składany",
+      "portuguese": "Flip Knife",
+      "romanian": "Briceag",
+      "russian": "Складной нож",
+      "schinese": "折叠刀",
+      "schinese_pw": "Flip Knife",
+      "spanish": "Cuchillo plegable",
+      "swedish": "Fällkniv",
+      "tchinese": "折疊式軍刀",
+      "thai": "มีดพับ",
+      "turkish": "Sustalı Bıçak",
+      "ukrainian": "Складаний ніж",
+      "vietnamese": "Dao bấm"
+    },
+    "name": "Flip Knife",
+    "search_slug": "flip-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

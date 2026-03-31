@@ -1,0 +1,235 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "canonical_slug": "512-42",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "aq-blued",
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "512-42",
+  "localized_names": {
+    "brazilian": "Canivete Falchion | Aço Azul",
+    "bulgarian": "Нож „Фалчион“ | Синя стомана",
+    "czech": "Falchion | Blue Steel",
+    "danish": "Falchion-kniv | Blue Steel",
+    "dutch": "Falchion-mes | Blue Steel",
+    "english": "Falchion Knife | Blue Steel",
+    "finnish": "Falchion-veitsi | Sininen teräs",
+    "french": "Couteau fauchon | Acier bleui",
+    "german": "Falchion-Messer | Blauer Stahl",
+    "greek": "Μαχαίρι Falchion | Blue Steel",
+    "hungarian": "Handzsárkés | Kék Acél",
+    "indonesian": "Pisau Falchion | Blue Steel",
+    "italian": "Coltello falchion | Blue Steel",
+    "japanese": "Falchion ナイフ | Blue Steel",
+    "koreana": "파르치온 칼 | 푸른 강철",
+    "latam": "Cuchillo alfanje | Azul metalizado",
+    "norwegian": "Falchion-kniv | Blue Steel",
+    "polish": "Nóż falcjon | Niebieska stal",
+    "portuguese": "Faca Falchion | Blue Steel",
+    "romanian": "Cuțit Falchion | Blue Steel",
+    "russian": "Фальшион | Вороненая сталь",
+    "schinese": "弯刀 | 蓝钢",
+    "schinese_pw": "Falchion Knife | Blue Steel",
+    "spanish": "Cuchillo Alfanje | Azul metalizado",
+    "swedish": "Falchionkniv | Blue Steel",
+    "tchinese": "彎刃匕首 | 藍鋼",
+    "thai": "มีดฟัลชิออน | Blue Steel",
+    "turkish": "Pala Bıçağı | Mavi Çelik",
+    "ukrainian": "Ніж-фальшіон | Блакитна сталь",
+    "vietnamese": "Dao Falchion | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__512-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/512-42/light.png",
+      "data/api/media/rendered/files/skins/512-42/medium.png",
+      "data/api/media/rendered/files/skins/512-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/512-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/512-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/512-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/512-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/512-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_falchion_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_falchion_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_falchion_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "Falchion Knife | Blue Steel",
+  "search_slug": "falchion-knife-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-8",
+        "id": 4091,
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "search_slug": "falchion-case",
+        "via_special_pool": "community_case_8_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-8-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_8_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Falchion Knife ★",
+        "search_slug": "community-case-8-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "512-42__normal__battle-scarred",
+    "512-42__normal__factory-new",
+    "512-42__normal__field-tested",
+    "512-42__normal__minimal-wear",
+    "512-42__normal__well-worn",
+    "512-42__stattrak__battle-scarred",
+    "512-42__stattrak__factory-new",
+    "512-42__stattrak__field-tested",
+    "512-42__stattrak__minimal-wear",
+    "512-42__stattrak__well-worn"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-falchion",
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Canivete Falchion",
+      "bulgarian": "Нож „Фалчион“",
+      "czech": "Falchion",
+      "danish": "Falchion-kniv",
+      "dutch": "Falchion-mes",
+      "english": "Falchion Knife",
+      "finnish": "Falchion-veitsi",
+      "french": "Couteau fauchon",
+      "german": "Falchion-Messer",
+      "greek": "Μαχαίρι Falchion",
+      "hungarian": "Handzsárkés",
+      "indonesian": "Pisau Falchion",
+      "italian": "Coltello falchion",
+      "japanese": "Falchion ナイフ",
+      "koreana": "파르치온 칼",
+      "latam": "Cuchillo alfanje",
+      "norwegian": "Falchion-kniv",
+      "polish": "Nóż falcjon",
+      "portuguese": "Faca Falchion",
+      "romanian": "Cuțit Falchion",
+      "russian": "Фальшион",
+      "schinese": "弯刀",
+      "schinese_pw": "Falchion Knife",
+      "spanish": "Cuchillo Alfanje",
+      "swedish": "Falchionkniv",
+      "tchinese": "彎刃匕首",
+      "thai": "มีดฟัลชิออน",
+      "turkish": "Pala Bıçağı",
+      "ukrainian": "Ніж-фальшіон",
+      "vietnamese": "Dao Falchion"
+    },
+    "name": "Falchion Knife",
+    "search_slug": "falchion-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

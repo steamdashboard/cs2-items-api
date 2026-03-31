@@ -1,0 +1,217 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "canonical_slug": "503-59",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-zebra",
+    "catalog_id": 59,
+    "id": 59,
+    "localized_names": {
+      "brazilian": "Massacre",
+      "bulgarian": "Клане",
+      "czech": "Slaughter",
+      "danish": "Slaughter",
+      "dutch": "Slaughter",
+      "english": "Slaughter",
+      "finnish": "Teurastus",
+      "french": "Carnage",
+      "german": "Metzelei",
+      "greek": "Slaughter",
+      "hungarian": "Mészárlás",
+      "indonesian": "Slaughter",
+      "italian": "Slaughter",
+      "japanese": "Slaughter",
+      "koreana": "살인마",
+      "latam": "Masacre",
+      "norwegian": "Slaughter",
+      "polish": "Rzeź",
+      "portuguese": "Slaughter",
+      "romanian": "Slaughter",
+      "russian": "Убийство",
+      "schinese": "屠夫",
+      "schinese_pw": "Slaughter",
+      "spanish": "Masacre",
+      "swedish": "Slaughter",
+      "tchinese": "屠夫",
+      "thai": "Slaughter",
+      "turkish": "Katliam",
+      "ukrainian": "Бійня",
+      "vietnamese": "Slaughter"
+    },
+    "name": "Slaughter",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.01
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "503-59",
+  "localized_names": {
+    "brazilian": "Faca Clássica | Massacre",
+    "bulgarian": "Класически нож | Клане",
+    "czech": "Klasický nůž | Slaughter",
+    "danish": "Klassisk kniv | Slaughter",
+    "dutch": "Klassiek mes | Slaughter",
+    "english": "Classic Knife | Slaughter",
+    "finnish": "Klassinen veitsi | Teurastus",
+    "french": "Couteau classique | Carnage",
+    "german": "Klassisches Messer | Metzelei",
+    "greek": "Κλασικό Μαχαίρι | Slaughter",
+    "hungarian": "Klasszikus Kés | Mészárlás",
+    "indonesian": "Pisau Klasik | Slaughter",
+    "italian": "Coltello classico | Slaughter",
+    "japanese": "クラシックナイフ | Slaughter",
+    "koreana": "클래식 칼 | 살인마",
+    "latam": "Cuchillo clásico | Masacre",
+    "norwegian": "Klassisk kniv | Slaughter",
+    "polish": "Klasyczny nóż | Rzeź",
+    "portuguese": "Faca Clássica | Slaughter",
+    "romanian": "Cuțit clasic | Slaughter",
+    "russian": "Классический нож | Убийство",
+    "schinese": "海豹短刀 | 屠夫",
+    "schinese_pw": "Classic Knife | Slaughter",
+    "spanish": "Cuchillo clásico | Masacre",
+    "swedish": "Klassisk kniv | Slaughter",
+    "tchinese": "經典軍刀 | 屠夫",
+    "thai": "มีดคลาสสิก | Slaughter",
+    "turkish": "Klasik Bıçak | Katliam",
+    "ukrainian": "Класичний ніж | Бійня",
+    "vietnamese": "Classic Knife | Slaughter"
+  },
+  "media": {
+    "asset_id": "skin__503-59",
+    "images_png": [
+      "data/api/media/rendered/files/skins/503-59/light.png",
+      "data/api/media/rendered/files/skins/503-59/medium.png",
+      "data/api/media/rendered/files/skins/503-59/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/503-59.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/503-59/heavy.png",
+      "light": "data/api/media/rendered/files/skins/503-59/light.png",
+      "medium": "data/api/media/rendered/files/skins/503-59/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/503-59/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_css_am_zebra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_css_am_zebra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_css_am_zebra_medium_png.vtex_c"
+    }
+  },
+  "name": "Classic Knife | Slaughter",
+  "search_slug": "classic-knife-slaughter",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-24",
+        "id": 4669,
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "search_slug": "cs20-case",
+        "via_special_pool": "set_community_24_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-24-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_24_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Classic Knife ★",
+        "search_slug": "set-community-24-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "503-59__normal__factory-new",
+    "503-59__normal__field-tested",
+    "503-59__normal__minimal-wear",
+    "503-59__stattrak__factory-new",
+    "503-59__stattrak__field-tested",
+    "503-59__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-css",
+    "id": 503,
+    "localized_names": {
+      "brazilian": "Faca Clássica",
+      "bulgarian": "Класически нож",
+      "czech": "Klasický nůž",
+      "danish": "Klassisk kniv",
+      "dutch": "Klassiek mes",
+      "english": "Classic Knife",
+      "finnish": "Klassinen veitsi",
+      "french": "Couteau classique",
+      "german": "Klassisches Messer",
+      "greek": "Κλασικό Μαχαίρι",
+      "hungarian": "Klasszikus Kés",
+      "indonesian": "Pisau Klasik",
+      "italian": "Coltello classico",
+      "japanese": "クラシックナイフ",
+      "koreana": "클래식 칼",
+      "latam": "Cuchillo clásico",
+      "norwegian": "Klassisk kniv",
+      "polish": "Klasyczny nóż",
+      "portuguese": "Faca Clássica",
+      "romanian": "Cuțit clasic",
+      "russian": "Классический нож",
+      "schinese": "海豹短刀",
+      "schinese_pw": "Classic Knife",
+      "spanish": "Cuchillo clásico",
+      "swedish": "Klassisk kniv",
+      "tchinese": "經典軍刀",
+      "thai": "มีดคลาสสิก",
+      "turkish": "Klasik Bıçak",
+      "ukrainian": "Класичний ніж",
+      "vietnamese": "Classic Knife"
+    },
+    "name": "Classic Knife",
+    "search_slug": "classic-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.01
+  }
+}

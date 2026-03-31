@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "515-413",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "am-marble-fade",
+    "catalog_id": 413,
+    "id": 413,
+    "localized_names": {
+      "brazilian": "Mármore Desbotado",
+      "bulgarian": "Мраморно преливане",
+      "czech": "Marble Fade",
+      "danish": "Marble Fade",
+      "dutch": "Marble Fade",
+      "english": "Marble Fade",
+      "finnish": "Marmorihäivytys",
+      "french": "Marbre fondu",
+      "german": "Marmorfärbung",
+      "greek": "Marble Fade",
+      "hungarian": "Fakuló Márvány",
+      "indonesian": "Marble Fade",
+      "italian": "Marble Fade",
+      "japanese": "Marble Fade",
+      "koreana": "흐릿한 대리석",
+      "latam": "Mármol desteñido",
+      "norwegian": "Marble Fade",
+      "polish": "Marmurkowy gradient",
+      "portuguese": "Marble Fade",
+      "romanian": "Marble Fade",
+      "russian": "Мраморный градиент",
+      "schinese": "渐变大理石",
+      "schinese_pw": "Marble Fade",
+      "spanish": "Mármol desteñido",
+      "swedish": "Marble Fade",
+      "tchinese": "大理石漸層",
+      "thai": "Marble Fade",
+      "turkish": "Solgun Mermer",
+      "ukrainian": "Мармуровий перелив",
+      "vietnamese": "Marble Fade"
+    },
+    "name": "Marble Fade",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "515-413",
+  "localized_names": {
+    "brazilian": "Canivete Borboleta | Mármore Desbotado",
+    "bulgarian": "Нож „Пеперуда“ | Мраморно преливане",
+    "czech": "Motýlek | Marble Fade",
+    "danish": "Butterfly-kniv | Marble Fade",
+    "dutch": "Vlindermes | Marble Fade",
+    "english": "Butterfly Knife | Marble Fade",
+    "finnish": "Perhosveitsi | Marmorihäivytys",
+    "french": "Couteau papillon | Marbre fondu",
+    "german": "Butterflymesser | Marmorfärbung",
+    "greek": "Μαχαίρι Butterfly | Marble Fade",
+    "hungarian": "Pillangókés | Fakuló Márvány",
+    "indonesian": "Pisau Kupu-kupu | Marble Fade",
+    "italian": "Coltello a farfalla | Marble Fade",
+    "japanese": "バタフライナイフ | Marble Fade",
+    "koreana": "버터플라이 나이프 | 흐릿한 대리석",
+    "latam": "Cuchillo mariposa | Mármol desteñido",
+    "norwegian": "Butterflykniv | Marble Fade",
+    "polish": "Nóż motylkowy | Marmurkowy gradient",
+    "portuguese": "Faca Butterfly | Marble Fade",
+    "romanian": "Cuțit fluture | Marble Fade",
+    "russian": "Нож-бабочка | Мраморный градиент",
+    "schinese": "蝴蝶刀 | 渐变大理石",
+    "schinese_pw": "Butterfly Knife | Marble Fade",
+    "spanish": "Cuchillo Mariposa | Mármol desteñido",
+    "swedish": "Butterflykniv | Marble Fade",
+    "tchinese": "蝴蝶刀 | 大理石漸層",
+    "thai": "มีดบัตเตอร์ฟลาย | Marble Fade",
+    "turkish": "Kelebek Bıçak | Solgun Mermer",
+    "ukrainian": "Балісонг | Мармуровий перелив",
+    "vietnamese": "Dao bướm | Marble Fade"
+  },
+  "media": {
+    "asset_id": "skin__515-413",
+    "images_png": [
+      "data/api/media/rendered/files/skins/515-413/light.png",
+      "data/api/media/rendered/files/skins/515-413/medium.png",
+      "data/api/media/rendered/files/skins/515-413/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/515-413.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/515-413/heavy.png",
+      "light": "data/api/media/rendered/files/skins/515-413/light.png",
+      "medium": "data/api/media/rendered/files/skins/515-413/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/515-413/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_butterfly_am_marble_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_butterfly_am_marble_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_butterfly_am_marble_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Butterfly Knife | Marble Fade",
+  "search_slug": "butterfly-knife-marble-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-16",
+        "id": 4351,
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "search_slug": "spectrum-case",
+        "via_special_pool": "spectrum_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-18",
+        "id": 4403,
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "search_slug": "spectrum-2-case",
+        "via_special_pool": "spectrum_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "spectrum-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "spectrum_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "spectrum-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "515-413__normal__factory-new",
+    "515-413__normal__minimal-wear",
+    "515-413__stattrak__factory-new",
+    "515-413__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-butterfly",
+    "id": 515,
+    "localized_names": {
+      "brazilian": "Canivete Borboleta",
+      "bulgarian": "Нож „Пеперуда“",
+      "czech": "Motýlek",
+      "danish": "Butterfly-kniv",
+      "dutch": "Vlindermes",
+      "english": "Butterfly Knife",
+      "finnish": "Perhosveitsi",
+      "french": "Couteau papillon",
+      "german": "Butterflymesser",
+      "greek": "Μαχαίρι Butterfly",
+      "hungarian": "Pillangókés",
+      "indonesian": "Pisau Kupu-kupu",
+      "italian": "Coltello a farfalla",
+      "japanese": "バタフライナイフ",
+      "koreana": "버터플라이 나이프",
+      "latam": "Cuchillo mariposa",
+      "norwegian": "Butterflykniv",
+      "polish": "Nóż motylkowy",
+      "portuguese": "Faca Butterfly",
+      "romanian": "Cuțit fluture",
+      "russian": "Нож-бабочка",
+      "schinese": "蝴蝶刀",
+      "schinese_pw": "Butterfly Knife",
+      "spanish": "Cuchillo Mariposa",
+      "swedish": "Butterflykniv",
+      "tchinese": "蝴蝶刀",
+      "thai": "มีดบัตเตอร์ฟลาย",
+      "turkish": "Kelebek Bıçak",
+      "ukrainian": "Балісонг",
+      "vietnamese": "Dao bướm"
+    },
+    "name": "Butterfly Knife",
+    "search_slug": "butterfly-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

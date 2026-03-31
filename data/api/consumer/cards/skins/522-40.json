@@ -1,0 +1,196 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "522-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "522-40",
+  "localized_names": {
+    "brazilian": "Faca Stiletto | Noite",
+    "bulgarian": "Нож стилет | Нощно",
+    "czech": "Vystřelovací nůž | Night",
+    "danish": "Stiletto-kniv | Night",
+    "dutch": "Stiletto | Night",
+    "english": "Stiletto Knife | Night",
+    "finnish": "Stiletti | Yö",
+    "french": "Stylet | Nuit",
+    "german": "Stilett | Nacht",
+    "greek": "Μαχαίρι Stiletto | Night",
+    "hungarian": "Stiletto kés | Éjszaka",
+    "indonesian": "Pisau Stiletto | Night",
+    "italian": "Stiletto | Night",
+    "japanese": "Stiletto ナイフ | Night",
+    "koreana": "스틸레토 칼 | 밤",
+    "latam": "Estilete | Nocturno",
+    "norwegian": "Springkniv | Night",
+    "polish": "Sztylet | Noc",
+    "portuguese": "Faca Stiletto | Night",
+    "romanian": "Cuțit Stiletto | Night",
+    "russian": "Стилет | Ночь",
+    "schinese": "短剑 | 噩梦之夜",
+    "schinese_pw": "Stiletto Knife | Night",
+    "spanish": "Estilete | Noche cerrada",
+    "swedish": "Stilettkniv | Night",
+    "tchinese": "彈簧刀 | 惡夢之夜",
+    "thai": "มีดสติลเล็ตโต | Night",
+    "turkish": "Stiletto Bıçak | Gece",
+    "ukrainian": "Ніж-стилет | Ніч",
+    "vietnamese": "Dao Stiletto | Night"
+  },
+  "media": {
+    "asset_id": "weapon__522",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/522/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/522.json",
+    "models": [
+      "weapons/models/knife/knife_stiletto/weapon_knife_stiletto.vmdl_c",
+      "phase2/weapons/models/knife/knife_stiletto/weapon_knife_stiletto_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/522/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Stiletto Knife | Night",
+  "search_slug": "stiletto-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-20",
+        "id": 4482,
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "search_slug": "horizon-case",
+        "via_special_pool": "set_community_20_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-21",
+        "id": 4548,
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "search_slug": "danger-zone-case",
+        "via_special_pool": "set_community_20_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-20-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_20_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-20-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "522-40__normal__vanilla",
+    "522-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-stiletto",
+    "id": 522,
+    "localized_names": {
+      "brazilian": "Faca Stiletto",
+      "bulgarian": "Нож стилет",
+      "czech": "Vystřelovací nůž",
+      "danish": "Stiletto-kniv",
+      "dutch": "Stiletto",
+      "english": "Stiletto Knife",
+      "finnish": "Stiletti",
+      "french": "Stylet",
+      "german": "Stilett",
+      "greek": "Μαχαίρι Stiletto",
+      "hungarian": "Stiletto kés",
+      "indonesian": "Pisau Stiletto",
+      "italian": "Stiletto",
+      "japanese": "Stiletto ナイフ",
+      "koreana": "스틸레토 칼",
+      "latam": "Estilete",
+      "norwegian": "Springkniv",
+      "polish": "Sztylet",
+      "portuguese": "Faca Stiletto",
+      "romanian": "Cuțit Stiletto",
+      "russian": "Стилет",
+      "schinese": "短剑",
+      "schinese_pw": "Stiletto Knife",
+      "spanish": "Estilete",
+      "swedish": "Stilettkniv",
+      "tchinese": "彈簧刀",
+      "thai": "มีดสติลเล็ตโต",
+      "turkish": "Stiletto Bıçak",
+      "ukrainian": "Ніж-стилет",
+      "vietnamese": "Dao Stiletto"
+    },
+    "name": "Stiletto Knife",
+    "search_slug": "stiletto-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

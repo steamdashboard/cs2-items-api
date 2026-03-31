@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "canonical_slug": "517-409",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "an-tiger-orange",
+    "catalog_id": 409,
+    "id": 409,
+    "localized_names": {
+      "brazilian": "Dente de Tigre",
+      "bulgarian": "Тигров зъб",
+      "czech": "Tiger Tooth",
+      "danish": "Tiger Tooth",
+      "dutch": "Tiger Tooth",
+      "english": "Tiger Tooth",
+      "finnish": "Tiikerinhammas",
+      "french": "Dent de tigre",
+      "german": "Tigerzahn",
+      "greek": "Tiger Tooth",
+      "hungarian": "Tigrisfog",
+      "indonesian": "Tiger Tooth",
+      "italian": "Tiger Tooth",
+      "japanese": "Tiger Tooth",
+      "koreana": "호랑이 이빨",
+      "latam": "Diente de tigre",
+      "norwegian": "Tiger Tooth",
+      "polish": "Tygrysi kieł",
+      "portuguese": "Tiger Tooth",
+      "romanian": "Tiger Tooth",
+      "russian": "Зуб тигра",
+      "schinese": "虎牙",
+      "schinese_pw": "Tiger Tooth",
+      "spanish": "Diente de tigre",
+      "swedish": "Tiger Tooth",
+      "tchinese": "虎牙",
+      "thai": "Tiger Tooth",
+      "turkish": "Kaplan Dişi",
+      "ukrainian": "Тигряче ікло",
+      "vietnamese": "Tiger Tooth"
+    },
+    "name": "Tiger Tooth",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "517-409",
+  "localized_names": {
+    "brazilian": "Faca de Cordame | Dente de Tigre",
+    "bulgarian": "Паракорд нож | Тигров зъб",
+    "czech": "Výsadkářský nůž | Tiger Tooth",
+    "danish": "Paracordkniv | Tiger Tooth",
+    "dutch": "Paracordmes | Tiger Tooth",
+    "english": "Paracord Knife | Tiger Tooth",
+    "finnish": "Paracord-kahvainen kenttäpuukko | Tiikerinhammas",
+    "french": "Couteau en paracorde | Dent de tigre",
+    "german": "Fallschirm-Messer | Tigerzahn",
+    "greek": "Μαχαίρι Paracord | Tiger Tooth",
+    "hungarian": "Paracord kés | Tigrisfog",
+    "indonesian": "Pisau Paracord | Tiger Tooth",
+    "italian": "Coltello Paracord | Tiger Tooth",
+    "japanese": "Paracord ナイフ | Tiger Tooth",
+    "koreana": "파라코드 칼 | 호랑이 이빨",
+    "latam": "Cuchillo encordado | Diente de tigre",
+    "norwegian": "Paracordkniv | Tiger Tooth",
+    "polish": "Nóż paracord | Tygrysi kieł",
+    "portuguese": "Faca Paracord | Tiger Tooth",
+    "romanian": "Cuțit Paracord | Tiger Tooth",
+    "russian": "Паракорд-нож | Зуб тигра",
+    "schinese": "系绳匕首 | 虎牙",
+    "schinese_pw": "Paracord Knife | Tiger Tooth",
+    "spanish": "Cuchillo encordado | Diente de tigre",
+    "swedish": "Paracordkniv | Tiger Tooth",
+    "tchinese": "繩柄刀 | 虎牙",
+    "thai": "มีดพาราคอร์ด | Tiger Tooth",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak | Kaplan Dişi",
+    "ukrainian": "Тактичний ніж | Тигряче ікло",
+    "vietnamese": "Dao Paracord | Tiger Tooth"
+  },
+  "media": {
+    "asset_id": "skin__517-409",
+    "images_png": [
+      "data/api/media/rendered/files/skins/517-409/light.png",
+      "data/api/media/rendered/files/skins/517-409/medium.png",
+      "data/api/media/rendered/files/skins/517-409/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/517-409.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/517-409/heavy.png",
+      "light": "data/api/media/rendered/files/skins/517-409/light.png",
+      "medium": "data/api/media/rendered/files/skins/517-409/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/517-409/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_cord_an_tiger_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_cord_an_tiger_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_cord_an_tiger_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Paracord Knife | Tiger Tooth",
+  "search_slug": "paracord-knife-tiger-tooth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-35",
+        "id": 7007,
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "search_slug": "fever-case",
+        "via_special_pool": "set_community_35_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-35-unusual",
+        "expansion_rule": "chroma-knives",
+        "id": "set_community_35_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Rare Special Item ★",
+        "search_slug": "set-community-35-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "517-409__normal__factory-new",
+    "517-409__normal__minimal-wear",
+    "517-409__stattrak__factory-new",
+    "517-409__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-cord",
+    "id": 517,
+    "localized_names": {
+      "brazilian": "Faca de Cordame",
+      "bulgarian": "Паракорд нож",
+      "czech": "Výsadkářský nůž",
+      "danish": "Paracordkniv",
+      "dutch": "Paracordmes",
+      "english": "Paracord Knife",
+      "finnish": "Paracord-kahvainen kenttäpuukko",
+      "french": "Couteau en paracorde",
+      "german": "Fallschirm-Messer",
+      "greek": "Μαχαίρι Paracord",
+      "hungarian": "Paracord kés",
+      "indonesian": "Pisau Paracord",
+      "italian": "Coltello Paracord",
+      "japanese": "Paracord ナイフ",
+      "koreana": "파라코드 칼",
+      "latam": "Cuchillo encordado",
+      "norwegian": "Paracordkniv",
+      "polish": "Nóż paracord",
+      "portuguese": "Faca Paracord",
+      "romanian": "Cuțit Paracord",
+      "russian": "Паракорд-нож",
+      "schinese": "系绳匕首",
+      "schinese_pw": "Paracord Knife",
+      "spanish": "Cuchillo encordado",
+      "swedish": "Paracordkniv",
+      "tchinese": "繩柄刀",
+      "thai": "มีดพาราคอร์ด",
+      "turkish": "Paraşüt Kordonu Saplı Bıçak",
+      "ukrainian": "Тактичний ніж",
+      "vietnamese": "Dao Paracord"
+    },
+    "name": "Paracord Knife",
+    "search_slug": "paracord-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

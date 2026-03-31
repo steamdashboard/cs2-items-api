@@ -1,0 +1,199 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "526-5",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "hy-ddpat",
+    "catalog_id": 5,
+    "id": 5,
+    "localized_names": {
+      "brazilian": "Camuflagem Digital — Floresta",
+      "bulgarian": "Горска разпокъсана цифрова шарка",
+      "czech": "Forest DDPAT",
+      "danish": "Forest DDPAT",
+      "dutch": "Forest DDPAT",
+      "english": "Forest DDPAT",
+      "finnish": "Metsä-DDPAT",
+      "french": "Tempéré numérique",
+      "german": "Wald-DDPAT",
+      "greek": "Forest DDPAT",
+      "hungarian": "Erdei DDPAT",
+      "indonesian": "Forest DDPAT",
+      "italian": "Forest DDPAT",
+      "japanese": "Forest DDPAT",
+      "koreana": "숲 디지털 위장 무늬",
+      "latam": "DDPAT de bosque",
+      "norwegian": "Forest DDPAT",
+      "polish": "Leśny DDPAT",
+      "portuguese": "Forest DDPAT",
+      "romanian": "Forest DDPAT",
+      "russian": "Пиксельный камуфляж «Лес»",
+      "schinese": "森林 DDPAT",
+      "schinese_pw": "Forest DDPAT",
+      "spanish": "DDPAT bosque",
+      "swedish": "Forest DDPAT",
+      "tchinese": "數位森林",
+      "thai": "Forest DDPAT",
+      "turkish": "Orman DDPAT",
+      "ukrainian": "Пікс. камуфляж «Ліс»",
+      "vietnamese": "Forest DDPAT"
+    },
+    "name": "Forest DDPAT",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "526-5",
+  "localized_names": {
+    "brazilian": "Faca Kukri | Camuflagem Digital — Floresta",
+    "bulgarian": "Кукри нож | Горска разпокъсана цифрова шарка",
+    "czech": "Nůž Kukri | Forest DDPAT",
+    "danish": "Kukrikniv | Forest DDPAT",
+    "dutch": "Kukri | Forest DDPAT",
+    "english": "Kukri Knife | Forest DDPAT",
+    "finnish": "Kukri-veitsi | Metsä-DDPAT",
+    "french": "Couteau Kukri | Tempéré numérique",
+    "german": "Kukri-Messer | Wald-DDPAT",
+    "greek": "Μαχαίρι Kukri | Forest DDPAT",
+    "hungarian": "Kukri kés | Erdei DDPAT",
+    "indonesian": "Pisau Kukri | Forest DDPAT",
+    "italian": "Coltello Kukri | Forest DDPAT",
+    "japanese": "ククリナイフ | Forest DDPAT",
+    "koreana": "쿠크리 칼 | 숲 디지털 위장 무늬",
+    "latam": "Cuchillo kukri | DDPAT de bosque",
+    "norwegian": "Kukrikniv | Forest DDPAT",
+    "polish": "Nóż kukri | Leśny DDPAT",
+    "portuguese": "Faca Kukri | Forest DDPAT",
+    "romanian": "Cuțit Kukri | Forest DDPAT",
+    "russian": "Кукри | Пиксельный камуфляж «Лес»",
+    "schinese": "廓尔喀刀 | 森林 DDPAT",
+    "schinese_pw": "Kukri Knife | Forest DDPAT",
+    "spanish": "Cuchillo kukri | DDPAT bosque",
+    "swedish": "Kukrikniv | Forest DDPAT",
+    "tchinese": "反曲刀 | 數位森林",
+    "thai": "มีดคูครี | Forest DDPAT",
+    "turkish": "Kukri Bıçağı | Orman DDPAT",
+    "ukrainian": "Ніж кукрі | Пікс. камуфляж «Ліс»",
+    "vietnamese": "Dao Kukri | Forest DDPAT"
+  },
+  "media": {
+    "asset_id": "skin__526-5",
+    "images_png": [
+      "data/api/media/rendered/files/skins/526-5/light.png",
+      "data/api/media/rendered/files/skins/526-5/medium.png",
+      "data/api/media/rendered/files/skins/526-5/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/526-5.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/526-5/heavy.png",
+      "light": "data/api/media/rendered/files/skins/526-5/light.png",
+      "medium": "data/api/media/rendered/files/skins/526-5/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/526-5/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_kukri_hy_ddpat_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_kukri_hy_ddpat_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_kukri_hy_ddpat_medium_png.vtex_c"
+    }
+  },
+  "name": "Kukri Knife | Forest DDPAT",
+  "search_slug": "kukri-knife-forest-ddpat",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-33",
+        "id": 4904,
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "search_slug": "kilowatt-case",
+        "via_special_pool": "set_community_33_unusual"
+      },
+      {
+        "canonical_slug": "crate-community-34",
+        "id": 7003,
+        "kind": "weapon-case",
+        "name": "Gallery Case",
+        "search_slug": "gallery-case",
+        "via_special_pool": "set_community_33_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-33-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_33_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Kukri Knife ★",
+        "search_slug": "set-community-33-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "526-5__normal__vanilla",
+    "526-5__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-kukri",
+    "id": 526,
+    "localized_names": {
+      "brazilian": "Faca Kukri",
+      "bulgarian": "Кукри нож",
+      "czech": "Nůž Kukri",
+      "danish": "Kukrikniv",
+      "dutch": "Kukri",
+      "english": "Kukri Knife",
+      "finnish": "Kukri-veitsi",
+      "french": "Couteau Kukri",
+      "german": "Kukri-Messer",
+      "greek": "Μαχαίρι Kukri",
+      "hungarian": "Kukri kés",
+      "indonesian": "Pisau Kukri",
+      "italian": "Coltello Kukri",
+      "japanese": "ククリナイフ",
+      "koreana": "쿠크리 칼",
+      "latam": "Cuchillo kukri",
+      "norwegian": "Kukrikniv",
+      "polish": "Nóż kukri",
+      "portuguese": "Faca Kukri",
+      "romanian": "Cuțit Kukri",
+      "russian": "Кукри",
+      "schinese": "廓尔喀刀",
+      "schinese_pw": "Kukri Knife",
+      "spanish": "Cuchillo kukri",
+      "swedish": "Kukrikniv",
+      "tchinese": "反曲刀",
+      "thai": "มีดคูครี",
+      "turkish": "Kukri Bıçağı",
+      "ukrainian": "Ніж кукрі",
+      "vietnamese": "Dao Kukri"
+    },
+    "name": "Kukri Knife",
+    "search_slug": "kukri-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

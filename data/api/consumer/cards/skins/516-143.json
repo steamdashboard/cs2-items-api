@@ -1,0 +1,191 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "516-143",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "sp-tape-urban",
+    "catalog_id": 143,
+    "id": 143,
+    "localized_names": {
+      "brazilian": "Máscara Urbana",
+      "bulgarian": "Градска маскировка",
+      "czech": "Urban Masked",
+      "danish": "Urban Masked",
+      "dutch": "Urban Masked",
+      "english": "Urban Masked",
+      "finnish": "Kaupunkilaisnaamioitu",
+      "french": "Masque urbain",
+      "german": "Städtisch maskiert",
+      "greek": "Urban Masked",
+      "hungarian": "Városi Maszkolt",
+      "indonesian": "Urban Masked",
+      "italian": "Urban Masked",
+      "japanese": "Urban Masked",
+      "koreana": "도시의 위장",
+      "latam": "Pátina urbana",
+      "norwegian": "Urban Masked",
+      "polish": "Miejski zamaskowany",
+      "portuguese": "Urban Masked",
+      "romanian": "Urban Masked",
+      "russian": "Городская маскировка",
+      "schinese": "都市伪装",
+      "schinese_pw": "Urban Masked",
+      "spanish": "Pátina urbana",
+      "swedish": "Urban Masked",
+      "tchinese": "都市偽裝",
+      "thai": "Urban Masked",
+      "turkish": "Gizli Şehir",
+      "ukrainian": "Міське маскування",
+      "vietnamese": "Urban Masked"
+    },
+    "name": "Urban Masked",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "516-143",
+  "localized_names": {
+    "brazilian": "Adagas Sombrias | Máscara Urbana",
+    "bulgarian": "Мрачни кинжали | Градска маскировка",
+    "czech": "Pěstní dýky | Urban Masked",
+    "danish": "Shadow-daggerter | Urban Masked",
+    "dutch": "Schaduwdolken | Urban Masked",
+    "english": "Shadow Daggers | Urban Masked",
+    "finnish": "Varjotikarit | Kaupunkilaisnaamioitu",
+    "french": "Dagues sombres | Masque urbain",
+    "german": "Schattendolche | Städtisch maskiert",
+    "greek": "Shadow Daggers | Urban Masked",
+    "hungarian": "Árnyéktőr | Városi Maszkolt",
+    "indonesian": "Belati Bayangan | Urban Masked",
+    "italian": "Fendi ombra | Urban Masked",
+    "japanese": "シャドウダガー | Urban Masked",
+    "koreana": "섀도우 칼 | 도시의 위장",
+    "latam": "Dagas Sombrías | Pátina urbana",
+    "norwegian": "Skyggedolker | Urban Masked",
+    "polish": "Sztylety Cienia | Miejski zamaskowany",
+    "portuguese": "Shadow Daggers | Urban Masked",
+    "romanian": "Pumnale Shadow | Urban Masked",
+    "russian": "Тычковые ножи | Городская маскировка",
+    "schinese": "暗影双匕 | 都市伪装",
+    "schinese_pw": "Shadow Daggers | Urban Masked",
+    "spanish": "Dagas Sombrías | Pátina urbana",
+    "swedish": "Skuggdolkar | Urban Masked",
+    "tchinese": "暗影匕首 | 都市偽裝",
+    "thai": "มีดชาโดว์ดักเกอร์ | Urban Masked",
+    "turkish": "Gölge Hançerler | Gizli Şehir",
+    "ukrainian": "Тіньові ножі | Міське маскування",
+    "vietnamese": "Dao găm chữ T | Urban Masked"
+  },
+  "media": {
+    "asset_id": "skin__516-143",
+    "images_png": [
+      "data/api/media/rendered/files/skins/516-143/light.png",
+      "data/api/media/rendered/files/skins/516-143/medium.png",
+      "data/api/media/rendered/files/skins/516-143/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/516-143.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/516-143/heavy.png",
+      "light": "data/api/media/rendered/files/skins/516-143/light.png",
+      "medium": "data/api/media/rendered/files/skins/516-143/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/516-143/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_knife_push_sp_tape_urban_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_knife_push_sp_tape_urban_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_knife_push_sp_tape_urban_medium_png.vtex_c"
+    }
+  },
+  "name": "Shadow Daggers | Urban Masked",
+  "search_slug": "shadow-daggers-urban-masked",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-9",
+        "id": 4138,
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "search_slug": "shadow-case",
+        "via_special_pool": "community_case_9_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "community-case-9-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "community_case_9_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Shadow Daggers ★",
+        "search_slug": "community-case-9-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "516-143__normal__vanilla",
+    "516-143__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-push",
+    "id": 516,
+    "localized_names": {
+      "brazilian": "Adagas Sombrias",
+      "bulgarian": "Мрачни кинжали",
+      "czech": "Pěstní dýky",
+      "danish": "Shadow-daggerter",
+      "dutch": "Schaduwdolken",
+      "english": "Shadow Daggers",
+      "finnish": "Varjotikarit",
+      "french": "Dagues sombres",
+      "german": "Schattendolche",
+      "greek": "Shadow Daggers",
+      "hungarian": "Árnyéktőr",
+      "indonesian": "Belati Bayangan",
+      "italian": "Fendi ombra",
+      "japanese": "シャドウダガー",
+      "koreana": "섀도우 칼",
+      "latam": "Dagas Sombrías",
+      "norwegian": "Skyggedolker",
+      "polish": "Sztylety Cienia",
+      "portuguese": "Shadow Daggers",
+      "romanian": "Pumnale Shadow",
+      "russian": "Тычковые ножи",
+      "schinese": "暗影双匕",
+      "schinese_pw": "Shadow Daggers",
+      "spanish": "Dagas Sombrías",
+      "swedish": "Skuggdolkar",
+      "tchinese": "暗影匕首",
+      "thai": "มีดชาโดว์ดักเกอร์",
+      "turkish": "Gölge Hançerler",
+      "ukrainian": "Тіньові ножі",
+      "vietnamese": "Dao găm chữ T"
+    },
+    "name": "Shadow Daggers",
+    "search_slug": "shadow-daggers",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

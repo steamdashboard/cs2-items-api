@@ -1,0 +1,188 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "canonical_slug": "503-40",
+  "card_type": "weapon-skin",
+  "finish": {
+    "canonical_slug": "so-night",
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "generation_notes": {
+    "derived_from_special_pool": true,
+    "source_backed": false
+  },
+  "id": "503-40",
+  "localized_names": {
+    "brazilian": "Faca Clássica | Noite",
+    "bulgarian": "Класически нож | Нощно",
+    "czech": "Klasický nůž | Night",
+    "danish": "Klassisk kniv | Night",
+    "dutch": "Klassiek mes | Night",
+    "english": "Classic Knife | Night",
+    "finnish": "Klassinen veitsi | Yö",
+    "french": "Couteau classique | Nuit",
+    "german": "Klassisches Messer | Nacht",
+    "greek": "Κλασικό Μαχαίρι | Night",
+    "hungarian": "Klasszikus Kés | Éjszaka",
+    "indonesian": "Pisau Klasik | Night",
+    "italian": "Coltello classico | Night",
+    "japanese": "クラシックナイフ | Night",
+    "koreana": "클래식 칼 | 밤",
+    "latam": "Cuchillo clásico | Nocturno",
+    "norwegian": "Klassisk kniv | Night",
+    "polish": "Klasyczny nóż | Noc",
+    "portuguese": "Faca Clássica | Night",
+    "romanian": "Cuțit clasic | Night",
+    "russian": "Классический нож | Ночь",
+    "schinese": "海豹短刀 | 噩梦之夜",
+    "schinese_pw": "Classic Knife | Night",
+    "spanish": "Cuchillo clásico | Noche cerrada",
+    "swedish": "Klassisk kniv | Night",
+    "tchinese": "經典軍刀 | 惡夢之夜",
+    "thai": "มีดคลาสสิก | Night",
+    "turkish": "Klasik Bıçak | Gece",
+    "ukrainian": "Класичний ніж | Ніч",
+    "vietnamese": "Classic Knife | Night"
+  },
+  "media": {
+    "asset_id": "weapon__503",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/503/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/503.json",
+    "models": [
+      "weapons/models/knife/knife_css/weapon_knife_css.vmdl_c",
+      "phase2/weapons/models/knife/knife_css/weapon_knife_css_ag2.vmdl_c"
+    ],
+    "preview_images": {},
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/503/primary.png",
+    "primary_preview_tier": null,
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.vtex_c",
+    "source_texture_paths": {}
+  },
+  "name": "Classic Knife | Night",
+  "search_slug": "classic-knife-night",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "canonical_slug": "crate-community-24",
+        "id": 4669,
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "search_slug": "cs20-case",
+        "via_special_pool": "set_community_24_unusual"
+      }
+    ],
+    "collections": [],
+    "containers": [],
+    "souvenir_packages": [],
+    "special_pools": [
+      {
+        "canonical_slug": "set-community-24-unusual",
+        "expansion_rule": "legacy-knives",
+        "id": "set_community_24_unusual",
+        "kind": "rare-special-item-pool",
+        "name": "★ Classic Knife ★",
+        "search_slug": "set-community-24-unusual",
+        "source_backed": false
+      }
+    ]
+  },
+  "variant_ids": [
+    "503-40__normal__vanilla",
+    "503-40__stattrak__vanilla"
+  ],
+  "weapon": {
+    "canonical_slug": "weapon-knife-css",
+    "id": 503,
+    "localized_names": {
+      "brazilian": "Faca Clássica",
+      "bulgarian": "Класически нож",
+      "czech": "Klasický nůž",
+      "danish": "Klassisk kniv",
+      "dutch": "Klassiek mes",
+      "english": "Classic Knife",
+      "finnish": "Klassinen veitsi",
+      "french": "Couteau classique",
+      "german": "Klassisches Messer",
+      "greek": "Κλασικό Μαχαίρι",
+      "hungarian": "Klasszikus Kés",
+      "indonesian": "Pisau Klasik",
+      "italian": "Coltello classico",
+      "japanese": "クラシックナイフ",
+      "koreana": "클래식 칼",
+      "latam": "Cuchillo clásico",
+      "norwegian": "Klassisk kniv",
+      "polish": "Klasyczny nóż",
+      "portuguese": "Faca Clássica",
+      "romanian": "Cuțit clasic",
+      "russian": "Классический нож",
+      "schinese": "海豹短刀",
+      "schinese_pw": "Classic Knife",
+      "spanish": "Cuchillo clásico",
+      "swedish": "Klassisk kniv",
+      "tchinese": "經典軍刀",
+      "thai": "มีดคลาสสิก",
+      "turkish": "Klasik Bıçak",
+      "ukrainian": "Класичний ніж",
+      "vietnamese": "Classic Knife"
+    },
+    "name": "Classic Knife",
+    "search_slug": "classic-knife",
+    "weapon_group": "knife"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}
