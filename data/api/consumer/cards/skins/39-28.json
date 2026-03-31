@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 28,
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Azul-marinho Metalizado",
+      "bulgarian": "Анодно оксидирано тъмносиньо",
+      "czech": "Anodized Navy",
+      "danish": "Anodized Navy",
+      "dutch": "Anodized Navy",
+      "english": "Anodized Navy",
+      "finnish": "Anodisoitu laivastonsininen",
+      "french": "Bleu anodisé",
+      "german": "Marineblau eloxiert",
+      "greek": "Anodized Navy",
+      "hungarian": "Eloxált Haditengerészeti",
+      "indonesian": "Anodized Navy",
+      "italian": "Anodized Navy",
+      "japanese": "Anodized Navy",
+      "koreana": "도장 효과 군청색",
+      "latam": "Azul marino anodizado",
+      "norwegian": "Anodized Navy",
+      "polish": "Anodyzowany granatowy",
+      "portuguese": "Anodized Navy",
+      "romanian": "Anodized Navy",
+      "russian": "Анодированная синева",
+      "schinese": "深蓝电镀处理",
+      "schinese_pw": "Anodized Navy",
+      "spanish": "Azul marino anodizado",
+      "swedish": "Anodized Navy",
+      "tchinese": "海軍電鍍",
+      "thai": "Anodized Navy",
+      "turkish": "Eloksal Donanma",
+      "ukrainian": "Анодована синява",
+      "vietnamese": "Anodized Navy"
+    },
+    "name": "Anodized Navy",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "39-28",
+  "localized_names": {
+    "brazilian": "SG 553 | Azul-marinho Metalizado",
+    "bulgarian": "SG 553 | Анодно оксидирано тъмносиньо",
+    "czech": "SG 553 | Anodized Navy",
+    "danish": "SG 553 | Anodized Navy",
+    "dutch": "SG 553 | Anodized Navy",
+    "english": "SG 553 | Anodized Navy",
+    "finnish": "SG 553 | Anodisoitu laivastonsininen",
+    "french": "SG 553 | Bleu anodisé",
+    "german": "SG 553 | Marineblau eloxiert",
+    "greek": "SG 553 | Anodized Navy",
+    "hungarian": "SG 553 | Eloxált Haditengerészeti",
+    "indonesian": "SG 553 | Anodized Navy",
+    "italian": "SG 553 | Anodized Navy",
+    "japanese": "SG 553 | Anodized Navy",
+    "koreana": "SG 553 | 도장 효과 군청색",
+    "latam": "SG 553 | Azul marino anodizado",
+    "norwegian": "SG 553 | Anodized Navy",
+    "polish": "SG 553 | Anodyzowany granatowy",
+    "portuguese": "SG 553 | Anodized Navy",
+    "romanian": "SG 553 | Anodized Navy",
+    "russian": "SG 553 | Анодированная синева",
+    "schinese": "SG 553 | 深蓝电镀处理",
+    "schinese_pw": "SG 553 | Anodized Navy",
+    "spanish": "SG 553 | Azul marino anodizado",
+    "swedish": "SG 553 | Anodized Navy",
+    "tchinese": "SG 553 | 海軍電鍍",
+    "thai": "SG 553 | Anodized Navy",
+    "turkish": "SG 553 | Eloksal Donanma",
+    "ukrainian": "СГ 553 | Анодована синява",
+    "vietnamese": "SG 553 | Anodized Navy"
+  },
+  "media": {
+    "asset_id": "skin__39-28",
+    "images_png": [
+      "data/api/media/rendered/files/skins/39-28/light.png",
+      "data/api/media/rendered/files/skins/39-28/medium.png",
+      "data/api/media/rendered/files/skins/39-28/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/39-28.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/39-28/heavy.png",
+      "light": "data/api/media/rendered/files/skins/39-28/light.png",
+      "medium": "data/api/media/rendered/files/skins/39-28/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/39-28/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sg556_an_navy_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sg556_an_navy_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sg556_an_navy_medium_png.vtex_c"
+    }
+  },
+  "name": "SG 553 | Anodized Navy",
+  "search_slug": "sg-553-anodized-navy",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_lake",
+        "name": "The Lake Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "39-28__normal__factory-new",
+    "39-28__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 39,
+    "localized_names": {
+      "brazilian": "SG 553",
+      "bulgarian": "SG 553",
+      "czech": "SG 553",
+      "danish": "SG 553",
+      "dutch": "SG 553",
+      "english": "SG 553",
+      "finnish": "SG 553",
+      "french": "SG 553",
+      "german": "SG 553",
+      "greek": "SG 553",
+      "hungarian": "SG 553",
+      "indonesian": "SG 553",
+      "italian": "SG 553",
+      "japanese": "SG 553",
+      "koreana": "SG 553",
+      "latam": "SG 553",
+      "norwegian": "SG 553",
+      "polish": "SG 553",
+      "portuguese": "SG 553",
+      "romanian": "SG 553",
+      "russian": "SG 553",
+      "schinese": "SG 553",
+      "schinese_pw": "SG 553",
+      "spanish": "SG 553",
+      "swedish": "SG 553",
+      "tchinese": "SG 553",
+      "thai": "SG 553",
+      "turkish": "SG 553",
+      "ukrainian": "СГ 553",
+      "vietnamese": "SG 553"
+    },
+    "name": "SG 553",
+    "search_slug": "sg-553",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

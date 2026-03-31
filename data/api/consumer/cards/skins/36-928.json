@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 928,
+    "id": 928,
+    "localized_names": {
+      "brazilian": "Preto e Bronze",
+      "bulgarian": "Черно и жълто-кафяво",
+      "czech": "Black & Tan",
+      "danish": "Black & Tan",
+      "dutch": "Black & Tan",
+      "english": "Black & Tan",
+      "finnish": "Musta ja ruskea",
+      "french": "Noir et beige",
+      "german": "Schwarz & Hellbraun",
+      "greek": "Black & Tan",
+      "hungarian": "Fekete és Bézs",
+      "indonesian": "Black & Tan",
+      "italian": "Black & Tan",
+      "japanese": "Black & Tan",
+      "koreana": "사막 위장",
+      "latam": "Negro y bronce",
+      "norwegian": "Black & Tan",
+      "polish": "Czerń i jasny brąz",
+      "portuguese": "Black & Tan",
+      "romanian": "Black & Tan",
+      "russian": "Чёрно-бежевый",
+      "schinese": "潜藏者",
+      "schinese_pw": "Black & Tan",
+      "spanish": "Tostada",
+      "swedish": "Black & Tan",
+      "tchinese": "黑褐迷彩",
+      "thai": "Black & Tan",
+      "turkish": "Siyah ve Açık Kahverengi",
+      "ukrainian": "Чорний і світлокоричневий",
+      "vietnamese": "Black & Tan"
+    },
+    "name": "Black & Tan",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-928",
+  "localized_names": {
+    "brazilian": "P250 | Preto e Bronze",
+    "bulgarian": "P250 | Черно и жълто-кафяво",
+    "czech": "P250 | Black & Tan",
+    "danish": "P250 | Black & Tan",
+    "dutch": "P250 | Black & Tan",
+    "english": "P250 | Black & Tan",
+    "finnish": "P250 | Musta ja ruskea",
+    "french": "P250 | Noir et beige",
+    "german": "P250 | Schwarz & Hellbraun",
+    "greek": "P250 | Black & Tan",
+    "hungarian": "P250 | Fekete és Bézs",
+    "indonesian": "P250 | Black & Tan",
+    "italian": "P250 | Black & Tan",
+    "japanese": "P250 | Black & Tan",
+    "koreana": "P250 | 사막 위장",
+    "latam": "P250 | Negro y bronce",
+    "norwegian": "P250 | Black & Tan",
+    "polish": "P250 | Czerń i jasny brąz",
+    "portuguese": "P250 | Black & Tan",
+    "romanian": "P250 | Black & Tan",
+    "russian": "P250 | Чёрно-бежевый",
+    "schinese": "P250 | 潜藏者",
+    "schinese_pw": "P250 | Black & Tan",
+    "spanish": "P250 | Tostada",
+    "swedish": "P250 | Black & Tan",
+    "tchinese": "P250 | 黑褐迷彩",
+    "thai": "P250 | Black & Tan",
+    "turkish": "P250 | Siyah ve Açık Kahverengi",
+    "ukrainian": "П250 | Чорний і світлокоричневий",
+    "vietnamese": "P250 | Black & Tan"
+  },
+  "media": {
+    "asset_id": "skin__36-928",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-928/light.png",
+      "data/api/media/rendered/files/skins/36-928/medium.png",
+      "data/api/media/rendered/files/skins/36-928/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-928.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-928/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-928/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-928/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-928/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_hy_desert_multicam_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_hy_desert_multicam_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_hy_desert_multicam_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Black & Tan",
+  "search_slug": "p250-black-tan",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "36-928__normal__battle-scarred",
+    "36-928__normal__factory-new",
+    "36-928__normal__field-tested",
+    "36-928__normal__minimal-wear",
+    "36-928__normal__well-worn",
+    "36-928__souvenir__battle-scarred",
+    "36-928__souvenir__factory-new",
+    "36-928__souvenir__field-tested",
+    "36-928__souvenir__minimal-wear",
+    "36-928__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

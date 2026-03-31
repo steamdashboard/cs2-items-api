@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 907,
+    "id": 907,
+    "localized_names": {
+      "brazilian": "Inferno",
+      "bulgarian": "Пъкъл",
+      "czech": "Inferno",
+      "danish": "Inferno",
+      "dutch": "Inferno",
+      "english": "Inferno",
+      "finnish": "Inferno",
+      "french": "Inferno",
+      "german": "Inferno",
+      "greek": "Inferno",
+      "hungarian": "Inferno",
+      "indonesian": "Inferno",
+      "italian": "Inferno",
+      "japanese": "Inferno",
+      "koreana": "인페르노",
+      "latam": "Inferno",
+      "norwegian": "Inferno",
+      "polish": "Inferno",
+      "portuguese": "Inferno",
+      "romanian": "Inferno",
+      "russian": "Инферно",
+      "schinese": "炼狱小镇",
+      "schinese_pw": "Inferno",
+      "spanish": "Inferno",
+      "swedish": "Inferno",
+      "tchinese": "煉獄 Inferno",
+      "thai": "Inferno",
+      "turkish": "Inferno",
+      "ukrainian": "Інферно",
+      "vietnamese": "Inferno"
+    },
+    "name": "Inferno",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.68,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-907",
+  "localized_names": {
+    "brazilian": "P250 | Inferno",
+    "bulgarian": "P250 | Пъкъл",
+    "czech": "P250 | Inferno",
+    "danish": "P250 | Inferno",
+    "dutch": "P250 | Inferno",
+    "english": "P250 | Inferno",
+    "finnish": "P250 | Inferno",
+    "french": "P250 | Inferno",
+    "german": "P250 | Inferno",
+    "greek": "P250 | Inferno",
+    "hungarian": "P250 | Inferno",
+    "indonesian": "P250 | Inferno",
+    "italian": "P250 | Inferno",
+    "japanese": "P250 | Inferno",
+    "koreana": "P250 | 인페르노",
+    "latam": "P250 | Inferno",
+    "norwegian": "P250 | Inferno",
+    "polish": "P250 | Inferno",
+    "portuguese": "P250 | Inferno",
+    "romanian": "P250 | Inferno",
+    "russian": "P250 | Инферно",
+    "schinese": "P250 | 炼狱小镇",
+    "schinese_pw": "P250 | Inferno",
+    "spanish": "P250 | Inferno",
+    "swedish": "P250 | Inferno",
+    "tchinese": "P250 | 煉獄 Inferno",
+    "thai": "P250 | Inferno",
+    "turkish": "P250 | Inferno",
+    "ukrainian": "П250 | Інферно",
+    "vietnamese": "P250 | Inferno"
+  },
+  "media": {
+    "asset_id": "skin__36-907",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-907/light.png",
+      "data/api/media/rendered/files/skins/36-907/medium.png",
+      "data/api/media/rendered/files/skins/36-907/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-907.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-907/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-907/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-907/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-907/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_gs_p250_inferno_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_gs_p250_inferno_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_gs_p250_inferno_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Inferno",
+  "search_slug": "p250-inferno",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4669",
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_24",
+        "name": "The CS20 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-907__normal__battle-scarred",
+    "36-907__normal__factory-new",
+    "36-907__normal__field-tested",
+    "36-907__normal__minimal-wear",
+    "36-907__normal__well-worn",
+    "36-907__stattrak__battle-scarred",
+    "36-907__stattrak__factory-new",
+    "36-907__stattrak__field-tested",
+    "36-907__stattrak__minimal-wear",
+    "36-907__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.68,
+    "min_float": 0.0
+  }
+}

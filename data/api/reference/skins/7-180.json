@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_fireserpent_ak47_bravo",
+    "id": 180,
+    "name": "Fire Serpent",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 180,
+    "weapon_id": 7
+  },
+  "id": "7-180",
+  "name": "AK-47 | Fire Serpent",
+  "search_slug": "ak-47-fire-serpent",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "7-180__normal__vanilla",
+    "7-180__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_ak47",
+    "id": 7,
+    "name": "AK-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.76,
+    "min_float": null
+  }
+}

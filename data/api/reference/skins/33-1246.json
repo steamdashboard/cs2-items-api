@@ -1,0 +1,125 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "gs_mp7_strone",
+    "id": 1246,
+    "name": "Sunbaked",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 1246,
+    "weapon_id": 33
+  },
+  "id": "33-1246",
+  "name": "MP7 | Sunbaked",
+  "search_slug": "mp7-sunbaked",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_anubis",
+        "name": "The Anubis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4882",
+        "kind": "container",
+        "name": "Anubis Collection Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4895",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Anubis Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4928",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4969",
+        "kind": "container",
+        "name": "Shanghai 2024 Anubis Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5122",
+        "kind": "container",
+        "name": "Austin 2025 Anubis Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "33-1246__normal__factory-new",
+    "33-1246__normal__minimal-wear",
+    "33-1246__normal__field-tested",
+    "33-1246__normal__well-worn",
+    "33-1246__normal__battle-scarred",
+    "33-1246__souvenir__factory-new",
+    "33-1246__souvenir__minimal-wear",
+    "33-1246__souvenir__field-tested",
+    "33-1246__souvenir__well-worn",
+    "33-1246__souvenir__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_mp7",
+    "id": 33,
+    "name": "MP7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

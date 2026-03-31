@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 668,
+    "id": 668,
+    "localized_names": {
+      "brazilian": "Rocha Vermelha",
+      "bulgarian": "Червена скала",
+      "czech": "Red Rock",
+      "danish": "Red Rock",
+      "dutch": "Red Rock",
+      "english": "Red Rock",
+      "finnish": "Punakivi",
+      "french": "Ocre",
+      "german": "Rotsediment",
+      "greek": "Red Rock",
+      "hungarian": "Vörös Szikla",
+      "indonesian": "Red Rock",
+      "italian": "Red Rock",
+      "japanese": "Red Rock",
+      "koreana": "붉은 바위",
+      "latam": "Red Rock",
+      "norwegian": "Red Rock",
+      "polish": "Cyfrowa czerwień",
+      "portuguese": "Red Rock",
+      "romanian": "Red Rock",
+      "russian": "Красный камень",
+      "schinese": "红岩",
+      "schinese_pw": "Red Rock",
+      "spanish": "Red Rock",
+      "swedish": "Red Rock",
+      "tchinese": "紅岩",
+      "thai": "Red Rock",
+      "turkish": "Red Rock",
+      "ukrainian": "Червоний камінь",
+      "vietnamese": "Red Rock"
+    },
+    "name": "Red Rock",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-668",
+  "localized_names": {
+    "brazilian": "P250 | Rocha Vermelha",
+    "bulgarian": "P250 | Червена скала",
+    "czech": "P250 | Red Rock",
+    "danish": "P250 | Red Rock",
+    "dutch": "P250 | Red Rock",
+    "english": "P250 | Red Rock",
+    "finnish": "P250 | Punakivi",
+    "french": "P250 | Ocre",
+    "german": "P250 | Rotsediment",
+    "greek": "P250 | Red Rock",
+    "hungarian": "P250 | Vörös Szikla",
+    "indonesian": "P250 | Red Rock",
+    "italian": "P250 | Red Rock",
+    "japanese": "P250 | Red Rock",
+    "koreana": "P250 | 붉은 바위",
+    "latam": "P250 | Red Rock",
+    "norwegian": "P250 | Red Rock",
+    "polish": "P250 | Cyfrowa czerwień",
+    "portuguese": "P250 | Red Rock",
+    "romanian": "P250 | Red Rock",
+    "russian": "P250 | Красный камень",
+    "schinese": "P250 | 红岩",
+    "schinese_pw": "P250 | Red Rock",
+    "spanish": "P250 | Red Rock",
+    "swedish": "P250 | Red Rock",
+    "tchinese": "P250 | 紅岩",
+    "thai": "P250 | Red Rock",
+    "turkish": "P250 | Red Rock",
+    "ukrainian": "П250 | Червоний камінь",
+    "vietnamese": "P250 | Red Rock"
+  },
+  "media": {
+    "asset_id": "skin__36-668",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-668/light.png",
+      "data/api/media/rendered/files/skins/36-668/medium.png",
+      "data/api/media/rendered/files/skins/36-668/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-668.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-668/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-668/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-668/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-668/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_cu_p250_axiom_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_cu_p250_axiom_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_cu_p250_axiom_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Red Rock",
+  "search_slug": "p250-red-rock",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4352",
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_17",
+        "name": "The Operation Hydra Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-668__normal__battle-scarred",
+    "36-668__normal__factory-new",
+    "36-668__normal__field-tested",
+    "36-668__normal__minimal-wear",
+    "36-668__normal__well-worn",
+    "36-668__stattrak__battle-scarred",
+    "36-668__stattrak__factory-new",
+    "36-668__stattrak__field-tested",
+    "36-668__stattrak__minimal-wear",
+    "36-668__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

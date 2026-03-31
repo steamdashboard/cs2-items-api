@@ -1,0 +1,68 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "ht_blur_camo_mp5sd",
+    "id": 768,
+    "name": "Savannah Halftone",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 768,
+    "weapon_id": 23
+  },
+  "id": "23-768",
+  "name": "MP5-SD | Savannah Halftone",
+  "search_slug": "mp5-sd-savannah-halftone",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_realism_camo",
+        "name": "The Sport & Field Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "23-768__normal__field-tested",
+    "23-768__normal__well-worn",
+    "23-768__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_mp5sd",
+    "id": 23,
+    "name": "MP5-SD",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.25
+  }
+}

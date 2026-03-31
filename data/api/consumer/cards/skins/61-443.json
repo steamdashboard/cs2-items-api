@@ -1,0 +1,200 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 443,
+    "id": 443,
+    "localized_names": {
+      "brazilian": "Desbravador",
+      "bulgarian": "Пътеводител",
+      "czech": "Pathfinder",
+      "danish": "Pathfinder",
+      "dutch": "Pathfinder",
+      "english": "Pathfinder",
+      "finnish": "Suunnistaja",
+      "french": "Éclaireur",
+      "german": "Pfadfinder",
+      "greek": "Pathfinder",
+      "hungarian": "Úttörő",
+      "indonesian": "Pathfinder",
+      "italian": "Pathfinder",
+      "japanese": "Pathfinder",
+      "koreana": "길잡이",
+      "latam": "Explorador",
+      "norwegian": "Pathfinder",
+      "polish": "Pionier",
+      "portuguese": "Pathfinder",
+      "romanian": "Pathfinder",
+      "russian": "Путеводитель",
+      "schinese": "寻路者",
+      "schinese_pw": "Pathfinder",
+      "spanish": "Explorador",
+      "swedish": "Pathfinder",
+      "tchinese": "探路人",
+      "thai": "Pathfinder",
+      "turkish": "Kâşif",
+      "ukrainian": "Провідна нитка",
+      "vietnamese": "Pathfinder"
+    },
+    "name": "Pathfinder",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.35,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-443",
+  "localized_names": {
+    "brazilian": "USP-S | Desbravador",
+    "bulgarian": "USP-S | Пътеводител",
+    "czech": "USP-S | Pathfinder",
+    "danish": "USP-S | Pathfinder",
+    "dutch": "USP-S | Pathfinder",
+    "english": "USP-S | Pathfinder",
+    "finnish": "USP-S | Suunnistaja",
+    "french": "USP-S | Éclaireur",
+    "german": "USP-S | Pfadfinder",
+    "greek": "USP-S | Pathfinder",
+    "hungarian": "USP-S | Úttörő",
+    "indonesian": "USP-S | Pathfinder",
+    "italian": "USP-S | Pathfinder",
+    "japanese": "USP-S | Pathfinder",
+    "koreana": "USP-S | 길잡이",
+    "latam": "USP-S | Explorador",
+    "norwegian": "USP-S | Pathfinder",
+    "polish": "USP-S | Pionier",
+    "portuguese": "USP-S | Pathfinder",
+    "romanian": "USP-S | Pathfinder",
+    "russian": "USP-S | Путеводитель",
+    "schinese": "USP消音版 | 寻路者",
+    "schinese_pw": "USP-S | Pathfinder",
+    "spanish": "USP-S | Explorador",
+    "swedish": "USP-S | Pathfinder",
+    "tchinese": "USP-S | 探路人",
+    "thai": "USP-S | Pathfinder",
+    "turkish": "USP-S | Kâşif",
+    "ukrainian": "УСП-С | Провідна нитка",
+    "vietnamese": "USP-S | Pathfinder"
+  },
+  "media": {
+    "asset_id": "skin__61-443",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-443/light.png",
+      "data/api/media/rendered/files/skins/61-443/medium.png",
+      "data/api/media/rendered/files/skins/61-443/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-443.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-443/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-443/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-443/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-443/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_sp_labyrinth2_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_sp_labyrinth2_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_sp_labyrinth2_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Pathfinder",
+  "search_slug": "usp-s-pathfinder",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-443__normal__factory-new",
+    "61-443__normal__field-tested",
+    "61-443__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.35,
+    "min_float": 0.0
+  }
+}

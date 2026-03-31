@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 219,
+    "id": 219,
+    "localized_names": {
+      "brazilian": "Colmeia Vermelha",
+      "bulgarian": "Кошер",
+      "czech": "Hive",
+      "danish": "Hive",
+      "dutch": "Hive",
+      "english": "Hive",
+      "finnish": "Pesä",
+      "french": "Alvéole",
+      "german": "Bienenstock",
+      "greek": "Hive",
+      "hungarian": "Kaptár",
+      "indonesian": "Hive",
+      "italian": "Hive",
+      "japanese": "Hive",
+      "koreana": "벌집",
+      "latam": "Colmena",
+      "norwegian": "Hive",
+      "polish": "Rój",
+      "portuguese": "Hive",
+      "romanian": "Hive",
+      "russian": "Улей",
+      "schinese": "红巢",
+      "schinese_pw": "Hive",
+      "spanish": "Colmena",
+      "swedish": "Hive",
+      "tchinese": "六角蜂巢",
+      "thai": "Hive",
+      "turkish": "Kovan",
+      "ukrainian": "Стільники",
+      "vietnamese": "Hive"
+    },
+    "name": "Hive",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-219",
+  "localized_names": {
+    "brazilian": "P250 | Colmeia Vermelha",
+    "bulgarian": "P250 | Кошер",
+    "czech": "P250 | Hive",
+    "danish": "P250 | Hive",
+    "dutch": "P250 | Hive",
+    "english": "P250 | Hive",
+    "finnish": "P250 | Pesä",
+    "french": "P250 | Alvéole",
+    "german": "P250 | Bienenstock",
+    "greek": "P250 | Hive",
+    "hungarian": "P250 | Kaptár",
+    "indonesian": "P250 | Hive",
+    "italian": "P250 | Hive",
+    "japanese": "P250 | Hive",
+    "koreana": "P250 | 벌집",
+    "latam": "P250 | Colmena",
+    "norwegian": "P250 | Hive",
+    "polish": "P250 | Rój",
+    "portuguese": "P250 | Hive",
+    "romanian": "P250 | Hive",
+    "russian": "P250 | Улей",
+    "schinese": "P250 | 红巢",
+    "schinese_pw": "P250 | Hive",
+    "spanish": "P250 | Colmena",
+    "swedish": "P250 | Hive",
+    "tchinese": "P250 | 六角蜂巢",
+    "thai": "P250 | Hive",
+    "turkish": "P250 | Kovan",
+    "ukrainian": "П250 | Стільники",
+    "vietnamese": "P250 | Hive"
+  },
+  "media": {
+    "asset_id": "skin__36-219",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-219/light.png",
+      "data/api/media/rendered/files/skins/36-219/medium.png",
+      "data/api/media/rendered/files/skins/36-219/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-219.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-219/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-219/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-219/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-219/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_hy_redhex_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_hy_redhex_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_hy_redhex_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Hive",
+  "search_slug": "p250-hive",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-219__normal__factory-new",
+    "36-219__normal__field-tested",
+    "36-219__normal__minimal-wear",
+    "36-219__stattrak__factory-new",
+    "36-219__stattrak__field-tested",
+    "36-219__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

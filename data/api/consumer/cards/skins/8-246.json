@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 246,
+    "id": 246,
+    "localized_names": {
+      "brazilian": "Âmbar",
+      "bulgarian": "Избледняващ кехлибар",
+      "czech": "Amber Fade",
+      "danish": "Amber Fade",
+      "dutch": "Amber Fade",
+      "english": "Amber Fade",
+      "finnish": "Himmeä meripihka",
+      "french": "Dégradé ambré",
+      "german": "Bernsteinfärbung",
+      "greek": "Amber Fade",
+      "hungarian": "Halvány Borostyán",
+      "indonesian": "Amber Fade",
+      "italian": "Amber Fade",
+      "japanese": "Amber Fade",
+      "koreana": "호박빛 배색",
+      "latam": "Ámbar desteñido",
+      "norwegian": "Amber Fade",
+      "polish": "Spłowiały bursztyn",
+      "portuguese": "Amber Fade",
+      "romanian": "Amber Fade",
+      "russian": "Янтарный градиент",
+      "schinese": "渐变琥珀",
+      "schinese_pw": "Amber Fade",
+      "spanish": "Ámbar desteñido",
+      "swedish": "Amber Fade",
+      "tchinese": "琥珀漸層",
+      "thai": "Amber Fade",
+      "turkish": "Solgun Sarı",
+      "ukrainian": "Бурштиновий градієнт",
+      "vietnamese": "Amber Fade"
+    },
+    "name": "Amber Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-246",
+  "localized_names": {
+    "brazilian": "AUG | Âmbar",
+    "bulgarian": "AUG | Избледняващ кехлибар",
+    "czech": "AUG | Amber Fade",
+    "danish": "AUG | Amber Fade",
+    "dutch": "AUG | Amber Fade",
+    "english": "AUG | Amber Fade",
+    "finnish": "AUG | Himmeä meripihka",
+    "french": "AUG | Dégradé ambré",
+    "german": "AUG | Bernsteinfärbung",
+    "greek": "AUG | Amber Fade",
+    "hungarian": "AUG | Halvány Borostyán",
+    "indonesian": "AUG | Amber Fade",
+    "italian": "AUG | Amber Fade",
+    "japanese": "AUG | Amber Fade",
+    "koreana": "AUG | 호박빛 배색",
+    "latam": "AUG | Ámbar desteñido",
+    "norwegian": "AUG | Amber Fade",
+    "polish": "AUG | Spłowiały bursztyn",
+    "portuguese": "AUG | Amber Fade",
+    "romanian": "AUG | Amber Fade",
+    "russian": "AUG | Янтарный градиент",
+    "schinese": "AUG | 渐变琥珀",
+    "schinese_pw": "AUG | Amber Fade",
+    "spanish": "AUG | Ámbar desteñido",
+    "swedish": "AUG | Amber Fade",
+    "tchinese": "AUG | 琥珀漸層",
+    "thai": "AUG | Amber Fade",
+    "turkish": "AUG | Solgun Sarı",
+    "ukrainian": "АУГ | Бурштиновий градієнт",
+    "vietnamese": "AUG | Amber Fade"
+  },
+  "media": {
+    "asset_id": "skin__8-246",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-246/light.png",
+      "data/api/media/rendered/files/skins/8-246/medium.png",
+      "data/api/media/rendered/files/skins/8-246/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-246.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-246/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-246/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-246/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-246/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_aa_fade_metallic_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_aa_fade_metallic_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_aa_fade_metallic_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Amber Fade",
+  "search_slug": "aug-amber-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2021",
+        "name": "The 2021 Train Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4785",
+        "kind": "container",
+        "name": "The 2021 Train Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-246__normal__factory-new",
+    "8-246__normal__field-tested",
+    "8-246__normal__minimal-wear",
+    "8-246__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

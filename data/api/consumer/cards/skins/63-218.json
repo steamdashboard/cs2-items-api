@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 218,
+    "id": 218,
+    "localized_names": {
+      "brazilian": "Colmeia Azul",
+      "bulgarian": "Хексан",
+      "czech": "Hexane",
+      "danish": "Hexane",
+      "dutch": "Hexane",
+      "english": "Hexane",
+      "finnish": "Heksaani",
+      "french": "Hexane",
+      "german": "Hexan",
+      "greek": "Hexane",
+      "hungarian": "Hexán",
+      "indonesian": "Hexane",
+      "italian": "Hexane",
+      "japanese": "Hexane",
+      "koreana": "헥세인",
+      "latam": "Hexagonal",
+      "norwegian": "Hexane",
+      "polish": "Heksan",
+      "portuguese": "Hexane",
+      "romanian": "Hexane",
+      "russian": "Гексан",
+      "schinese": "蓝巢",
+      "schinese_pw": "Hexane",
+      "spanish": "Hexagonal",
+      "swedish": "Hexane",
+      "tchinese": "己烷網格",
+      "thai": "Hexane",
+      "turkish": "Heksan",
+      "ukrainian": "Гексан",
+      "vietnamese": "Hexane"
+    },
+    "name": "Hexane",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-218",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Colmeia Azul",
+    "bulgarian": "CZ75-Auto | Хексан",
+    "czech": "CZ75-Auto | Hexane",
+    "danish": "CZ75-Auto | Hexane",
+    "dutch": "CZ75-Auto | Hexane",
+    "english": "CZ75-Auto | Hexane",
+    "finnish": "CZ75-Auto | Heksaani",
+    "french": "CZ75-Auto | Hexane",
+    "german": "CZ75-Auto | Hexan",
+    "greek": "CZ75-Auto | Hexane",
+    "hungarian": "CZ75-Auto | Hexán",
+    "indonesian": "CZ75-Auto | Hexane",
+    "italian": "CZ75-Auto | Hexane",
+    "japanese": "CZ75-Auto | Hexane",
+    "koreana": "CZ75 기관권총 | 헥세인",
+    "latam": "CZ75-Auto | Hexagonal",
+    "norwegian": "CZ75-Auto | Hexane",
+    "polish": "CZ75-Auto | Heksan",
+    "portuguese": "CZ75-Auto | Hexane",
+    "romanian": "CZ75-Auto | Hexane",
+    "russian": "CZ75-Auto | Гексан",
+    "schinese": "CZ75自动型 | 蓝巢",
+    "schinese_pw": "CZ75-Auto | Hexane",
+    "spanish": "CZ75-Auto | Hexagonal",
+    "swedish": "CZ75-Auto | Hexane",
+    "tchinese": "CZ75-Auto | 己烷網格",
+    "thai": "CZ75-Auto | Hexane",
+    "turkish": "CZ75-Otomatik | Heksan",
+    "ukrainian": "ЧЗ-75 авто | Гексан",
+    "vietnamese": "CZ75-Auto | Hexane"
+  },
+  "media": {
+    "asset_id": "skin__63-218",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-218/light.png",
+      "data/api/media/rendered/files/skins/63-218/medium.png",
+      "data/api/media/rendered/files/skins/63-218/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-218.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-218/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-218/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-218/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-218/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_hy_bluehex_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_hy_bluehex_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_hy_bluehex_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Hexane",
+  "search_slug": "cz75-auto-hexane",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-218__normal__factory-new",
+    "63-218__normal__field-tested",
+    "63-218__normal__minimal-wear",
+    "63-218__normal__well-worn",
+    "63-218__stattrak__factory-new",
+    "63-218__stattrak__field-tested",
+    "63-218__stattrak__minimal-wear",
+    "63-218__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

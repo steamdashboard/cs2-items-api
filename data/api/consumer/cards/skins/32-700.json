@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 700,
+    "id": 700,
+    "localized_names": {
+      "brazilian": "Perigo Urbano",
+      "bulgarian": "Градска заплаха",
+      "czech": "Urban Hazard",
+      "danish": "Urban Hazard",
+      "dutch": "Urban Hazard",
+      "english": "Urban Hazard",
+      "finnish": "Urbaani uhka",
+      "french": "Danger urbain",
+      "german": "Städtische Gefahr",
+      "greek": "Urban Hazard",
+      "hungarian": "Városi Vész",
+      "indonesian": "Urban Hazard",
+      "italian": "Urban Hazard",
+      "japanese": "Urban Hazard",
+      "koreana": "위험한 도시",
+      "latam": "Peligro urbano",
+      "norwegian": "Urban Hazard",
+      "polish": "Miejskie ryzyko",
+      "portuguese": "Urban Hazard",
+      "romanian": "Urban Hazard",
+      "russian": "Городская опасность",
+      "schinese": "都市危机",
+      "schinese_pw": "Urban Hazard",
+      "spanish": "Peligro urbano",
+      "swedish": "Urban Hazard",
+      "tchinese": "都市危機",
+      "thai": "Urban Hazard",
+      "turkish": "Şehir Tehlikesi",
+      "ukrainian": "Міська загроза",
+      "vietnamese": "Urban Hazard"
+    },
+    "name": "Urban Hazard",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-700",
+  "localized_names": {
+    "brazilian": "P2000 | Perigo Urbano",
+    "bulgarian": "P2000 | Градска заплаха",
+    "czech": "P2000 | Urban Hazard",
+    "danish": "P2000 | Urban Hazard",
+    "dutch": "P2000 | Urban Hazard",
+    "english": "P2000 | Urban Hazard",
+    "finnish": "P2000 | Urbaani uhka",
+    "french": "P2000 | Danger urbain",
+    "german": "P2000 | Städtische Gefahr",
+    "greek": "P2000 | Urban Hazard",
+    "hungarian": "P2000 | Városi Vész",
+    "indonesian": "P2000 | Urban Hazard",
+    "italian": "P2000 | Urban Hazard",
+    "japanese": "P2000 | Urban Hazard",
+    "koreana": "P2000 | 위험한 도시",
+    "latam": "P2000 | Peligro urbano",
+    "norwegian": "P2000 | Urban Hazard",
+    "polish": "P2000 | Miejskie ryzyko",
+    "portuguese": "P2000 | Urban Hazard",
+    "romanian": "P2000 | Urban Hazard",
+    "russian": "P2000 | Городская опасность",
+    "schinese": "P2000 | 都市危机",
+    "schinese_pw": "P2000 | Urban Hazard",
+    "spanish": "P2000 | Peligro urbano",
+    "swedish": "P2000 | Urban Hazard",
+    "tchinese": "P2000 | 都市危機",
+    "thai": "P2000 | Urban Hazard",
+    "turkish": "P2000 | Şehir Tehlikesi",
+    "ukrainian": "П2000 | Міська загроза",
+    "vietnamese": "P2000 | Urban Hazard"
+  },
+  "media": {
+    "asset_id": "skin__32-700",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-700/light.png",
+      "data/api/media/rendered/files/skins/32-700/medium.png",
+      "data/api/media/rendered/files/skins/32-700/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-700.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-700/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-700/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-700/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-700/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_cu_p2000_urban_hazard_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_cu_p2000_urban_hazard_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_cu_p2000_urban_hazard_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Urban Hazard",
+  "search_slug": "p2000-urban-hazard",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4471",
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_19",
+        "name": "The Clutch Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "32-700__normal__battle-scarred",
+    "32-700__normal__factory-new",
+    "32-700__normal__field-tested",
+    "32-700__normal__minimal-wear",
+    "32-700__normal__well-worn",
+    "32-700__stattrak__battle-scarred",
+    "32-700__stattrak__factory-new",
+    "32-700__stattrak__field-tested",
+    "32-700__stattrak__minimal-wear",
+    "32-700__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

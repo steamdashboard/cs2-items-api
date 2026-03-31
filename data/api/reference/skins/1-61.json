@@ -1,0 +1,70 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "aa_vertigo",
+    "id": 61,
+    "name": "Hypnotic",
+    "rarity_ref": null,
+    "style_code": 6
+  },
+  "game_ref": {
+    "paint_kit_id": 61,
+    "weapon_id": 1
+  },
+  "id": "1-61",
+  "name": "Desert Eagle | Hypnotic",
+  "search_slug": "desert-eagle-hypnotic",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "1-61__normal__factory-new",
+    "1-61__normal__minimal-wear",
+    "1-61__stattrak__factory-new",
+    "1-61__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_deagle",
+    "id": 1,
+    "name": "Desert Eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

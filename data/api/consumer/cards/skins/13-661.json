@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 661,
+    "id": 661,
+    "localized_names": {
+      "brazilian": "Açucarada",
+      "bulgarian": "Захарна треска",
+      "czech": "Sugar Rush",
+      "danish": "Sugar Rush",
+      "dutch": "Sugar Rush",
+      "english": "Sugar Rush",
+      "finnish": "Sokerihumala",
+      "french": "Hyperglycémie",
+      "german": "Zuckerrausch",
+      "greek": "Sugar Rush",
+      "hungarian": "Cukorlöket",
+      "indonesian": "Sugar Rush",
+      "italian": "Sugar Rush",
+      "japanese": "Sugar Rush",
+      "koreana": "사탕 가게",
+      "latam": "Subidón de azúcar",
+      "norwegian": "Sugar Rush",
+      "polish": "Cukrowa gorączka",
+      "portuguese": "Sugar Rush",
+      "romanian": "Sugar Rush",
+      "russian": "Конфетка",
+      "schinese": "~甜甜的~",
+      "schinese_pw": "Sugar Rush",
+      "spanish": "Subidón de azúcar",
+      "swedish": "Sugar Rush",
+      "tchinese": "高糖亢奮",
+      "thai": "Sugar Rush",
+      "turkish": "Tatlı Krizi",
+      "ukrainian": "Цукролізація",
+      "vietnamese": "Sugar Rush"
+    },
+    "name": "Sugar Rush",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-661",
+  "localized_names": {
+    "brazilian": "Galil AR | Açucarada",
+    "bulgarian": "Galil AR | Захарна треска",
+    "czech": "Galil AR | Sugar Rush",
+    "danish": "Galil AR | Sugar Rush",
+    "dutch": "Galil AR | Sugar Rush",
+    "english": "Galil AR | Sugar Rush",
+    "finnish": "Galil AR | Sokerihumala",
+    "french": "Galil AR | Hyperglycémie",
+    "german": "Galil AR | Zuckerrausch",
+    "greek": "Galil AR | Sugar Rush",
+    "hungarian": "Galil AR | Cukorlöket",
+    "indonesian": "Galil AR | Sugar Rush",
+    "italian": "Galil AR | Sugar Rush",
+    "japanese": "Galil AR | Sugar Rush",
+    "koreana": "갈릴 돌격소총 | 사탕 가게",
+    "latam": "Galil AR | Subidón de azúcar",
+    "norwegian": "Galil AR | Sugar Rush",
+    "polish": "Galil AR | Cukrowa gorączka",
+    "portuguese": "Galil AR | Sugar Rush",
+    "romanian": "Galil AR | Sugar Rush",
+    "russian": "Автомат «Галиль» | Конфетка",
+    "schinese": "加利尔AR | ~甜甜的~",
+    "schinese_pw": "Galil AR | Sugar Rush",
+    "spanish": "Galil AR | Subidón de azúcar",
+    "swedish": "Galil AR | Sugar Rush",
+    "tchinese": "Galil AR | 高糖亢奮",
+    "thai": "Galil AR | Sugar Rush",
+    "turkish": "Galil AR | Tatlı Krizi",
+    "ukrainian": "Ґаліл | Цукролізація",
+    "vietnamese": "Galil AR | Sugar Rush"
+  },
+  "media": {
+    "asset_id": "skin__13-661",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-661/light.png",
+      "data/api/media/rendered/files/skins/13-661/medium.png",
+      "data/api/media/rendered/files/skins/13-661/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-661.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-661/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-661/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-661/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-661/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_candychaos_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_candychaos_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_candychaos_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Sugar Rush",
+  "search_slug": "galil-ar-sugar-rush",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4352",
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_17",
+        "name": "The Operation Hydra Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-661__normal__battle-scarred",
+    "13-661__normal__factory-new",
+    "13-661__normal__field-tested",
+    "13-661__normal__minimal-wear",
+    "13-661__normal__well-worn",
+    "13-661__stattrak__battle-scarred",
+    "13-661__stattrak__factory-new",
+    "13-661__stattrak__field-tested",
+    "13-661__stattrak__minimal-wear",
+    "13-661__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

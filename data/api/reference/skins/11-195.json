@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_bluepolygon_bravo",
+    "id": 195,
+    "name": "Demeter",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 195,
+    "weapon_id": 11
+  },
+  "id": "11-195",
+  "name": "G3SG1 | Demeter",
+  "search_slug": "g3sg1-demeter",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "11-195__normal__vanilla",
+    "11-195__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_g3sg1",
+    "id": 11,
+    "name": "G3SG1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

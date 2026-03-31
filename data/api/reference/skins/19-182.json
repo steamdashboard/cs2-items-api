@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_dragon_p90_bravo",
+    "id": 182,
+    "name": "Emerald Dragon",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 182,
+    "weapon_id": 19
+  },
+  "id": "19-182",
+  "name": "P90 | Emerald Dragon",
+  "search_slug": "p90-emerald-dragon",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "19-182__normal__vanilla",
+    "19-182__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_p90",
+    "id": 19,
+    "name": "P90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.52,
+    "min_float": null
+  }
+}

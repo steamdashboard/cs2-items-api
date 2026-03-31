@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 61,
+    "id": 61,
+    "localized_names": {
+      "brazilian": "Hipnótico",
+      "bulgarian": "Хипнотично",
+      "czech": "Hypnotic",
+      "danish": "Hypnotic",
+      "dutch": "Hypnotic",
+      "english": "Hypnotic",
+      "finnish": "Hypnoottinen",
+      "french": "Hypnotique",
+      "german": "Hypnotisch",
+      "greek": "Hypnotic",
+      "hungarian": "Hipnotikus",
+      "indonesian": "Hypnotic",
+      "italian": "Hypnotic",
+      "japanese": "Hypnotic",
+      "koreana": "최면",
+      "latam": "Hipnótico",
+      "norwegian": "Hypnotic",
+      "polish": "Hipnoza",
+      "portuguese": "Hypnotic",
+      "romanian": "Hypnotic",
+      "russian": "Гипноз",
+      "schinese": "蛊惑之色",
+      "schinese_pw": "Hypnotic",
+      "spanish": "Hipnótico",
+      "swedish": "Hypnotic",
+      "tchinese": "催眠曲",
+      "thai": "Hypnotic",
+      "turkish": "Hipnotik",
+      "ukrainian": "Гіпноз",
+      "vietnamese": "Hypnotic"
+    },
+    "name": "Hypnotic",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "39-61",
+  "localized_names": {
+    "brazilian": "SG 553 | Hipnótico",
+    "bulgarian": "SG 553 | Хипнотично",
+    "czech": "SG 553 | Hypnotic",
+    "danish": "SG 553 | Hypnotic",
+    "dutch": "SG 553 | Hypnotic",
+    "english": "SG 553 | Hypnotic",
+    "finnish": "SG 553 | Hypnoottinen",
+    "french": "SG 553 | Hypnotique",
+    "german": "SG 553 | Hypnotisch",
+    "greek": "SG 553 | Hypnotic",
+    "hungarian": "SG 553 | Hipnotikus",
+    "indonesian": "SG 553 | Hypnotic",
+    "italian": "SG 553 | Hypnotic",
+    "japanese": "SG 553 | Hypnotic",
+    "koreana": "SG 553 | 최면",
+    "latam": "SG 553 | Hipnótico",
+    "norwegian": "SG 553 | Hypnotic",
+    "polish": "SG 553 | Hipnoza",
+    "portuguese": "SG 553 | Hypnotic",
+    "romanian": "SG 553 | Hypnotic",
+    "russian": "SG 553 | Гипноз",
+    "schinese": "SG 553 | 蛊惑之色",
+    "schinese_pw": "SG 553 | Hypnotic",
+    "spanish": "SG 553 | Hipnótico",
+    "swedish": "SG 553 | Hypnotic",
+    "tchinese": "SG 553 | 催眠曲",
+    "thai": "SG 553 | Hypnotic",
+    "turkish": "SG 553 | Hipnotik",
+    "ukrainian": "СГ 553 | Гіпноз",
+    "vietnamese": "SG 553 | Hypnotic"
+  },
+  "media": {
+    "asset_id": "skin__39-61",
+    "images_png": [
+      "data/api/media/rendered/files/skins/39-61/light.png",
+      "data/api/media/rendered/files/skins/39-61/medium.png",
+      "data/api/media/rendered/files/skins/39-61/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/39-61.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/39-61/heavy.png",
+      "light": "data/api/media/rendered/files/skins/39-61/light.png",
+      "medium": "data/api/media/rendered/files/skins/39-61/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/39-61/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sg556_aa_vertigo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sg556_aa_vertigo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sg556_aa_vertigo_medium_png.vtex_c"
+    }
+  },
+  "name": "SG 553 | Hypnotic",
+  "search_slug": "sg-553-hypnotic",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_t",
+        "name": "The Havoc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4721",
+        "kind": "container",
+        "name": "The Havoc Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "39-61__normal__factory-new",
+    "39-61__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 39,
+    "localized_names": {
+      "brazilian": "SG 553",
+      "bulgarian": "SG 553",
+      "czech": "SG 553",
+      "danish": "SG 553",
+      "dutch": "SG 553",
+      "english": "SG 553",
+      "finnish": "SG 553",
+      "french": "SG 553",
+      "german": "SG 553",
+      "greek": "SG 553",
+      "hungarian": "SG 553",
+      "indonesian": "SG 553",
+      "italian": "SG 553",
+      "japanese": "SG 553",
+      "koreana": "SG 553",
+      "latam": "SG 553",
+      "norwegian": "SG 553",
+      "polish": "SG 553",
+      "portuguese": "SG 553",
+      "romanian": "SG 553",
+      "russian": "SG 553",
+      "schinese": "SG 553",
+      "schinese_pw": "SG 553",
+      "spanish": "SG 553",
+      "swedish": "SG 553",
+      "tchinese": "SG 553",
+      "thai": "SG 553",
+      "turkish": "SG 553",
+      "ukrainian": "СГ 553",
+      "vietnamese": "SG 553"
+    },
+    "name": "SG 553",
+    "search_slug": "sg-553",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

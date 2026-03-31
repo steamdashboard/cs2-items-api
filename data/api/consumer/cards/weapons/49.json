@@ -1,0 +1,62 @@
+{
+  "card_type": "weapon",
+  "description": "Stable and resistant to most physical shocks, this improvised plastic explosive has a detonation velocity of over 8,000 meters per second when ignited.",
+  "id": 49,
+  "localized_names": {
+    "brazilian": "Explosivo C4",
+    "bulgarian": "C4 експлозив",
+    "czech": "Výbušnina C4",
+    "danish": "C4-sprængstof",
+    "dutch": "C4-explosief",
+    "english": "C4 Explosive",
+    "finnish": "C4-räjähde",
+    "french": "C4",
+    "german": "C4-Sprengstoff",
+    "greek": "Εκρηκτικά C4",
+    "hungarian": "C4 robbanóanyag",
+    "indonesian": "Peledak C4",
+    "italian": "Esplosivo C4",
+    "japanese": "C4 Explosive",
+    "koreana": "C4",
+    "latam": "Explosivo C4",
+    "norwegian": "C4",
+    "polish": "Ładunek C4",
+    "portuguese": "Explosivo C4",
+    "romanian": "Explozibil C4",
+    "russian": "Взрывчатка C4",
+    "schinese": "C4 炸弹",
+    "schinese_pw": "C4 Explosive",
+    "spanish": "Explosivo C4",
+    "swedish": "C4",
+    "tchinese": "C4 炸彈",
+    "thai": "ระเบิด C4",
+    "turkish": "C4 Patlayıcı",
+    "ukrainian": "Вибухівка",
+    "vietnamese": "Bom C4"
+  },
+  "media": {
+    "asset_id": "weapon__49",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_c4_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/49/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/49.json",
+    "models": [
+      "weapons/models/c4/weapon_c4.vmdl_c",
+      "phase2/weapons/models/c4/weapon_c4_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/49/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_c4_png.vtex_c"
+  },
+  "name": "C4 Explosive",
+  "regular_skin_ids": [],
+  "search_slug": "c4-explosive",
+  "side": null,
+  "special_pool_ids": [],
+  "supports_vanilla": false,
+  "type_name": "C4",
+  "weapon_group": "other-weapon"
+}

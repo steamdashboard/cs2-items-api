@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 220,
+    "id": 220,
+    "localized_names": {
+      "brazilian": "Hemoglobina",
+      "bulgarian": "Хемоглобин",
+      "czech": "Hemoglobin",
+      "danish": "Hemoglobin",
+      "dutch": "Hemoglobin",
+      "english": "Hemoglobin",
+      "finnish": "Hemoglobiini",
+      "french": "Hémoglobine",
+      "german": "Hämoglobin",
+      "greek": "Hemoglobin",
+      "hungarian": "Hemoglobin",
+      "indonesian": "Hemoglobin",
+      "italian": "Hemoglobin",
+      "japanese": "Hemoglobin",
+      "koreana": "헤모글로빈",
+      "latam": "Hemoglobina",
+      "norwegian": "Hemoglobin",
+      "polish": "Hemoglobina",
+      "portuguese": "Hemoglobin",
+      "romanian": "Hemoglobin",
+      "russian": "Гемоглобин",
+      "schinese": "血红蛋白",
+      "schinese_pw": "Hemoglobin",
+      "spanish": "Hemoglobina",
+      "swedish": "Hemoglobin",
+      "tchinese": "血紅蛋白",
+      "thai": "Hemoglobin",
+      "turkish": "Hemoglobin",
+      "ukrainian": "Гемоглобін",
+      "vietnamese": "Hemoglobin"
+    },
+    "name": "Hemoglobin",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-220",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Hemoglobina",
+    "bulgarian": "Два Beretta | Хемоглобин",
+    "czech": "Dual Berettas | Hemoglobin",
+    "danish": "Dual Berettas | Hemoglobin",
+    "dutch": "Dual Berettas | Hemoglobin",
+    "english": "Dual Berettas | Hemoglobin",
+    "finnish": "Tupla-Berettat | Hemoglobiini",
+    "french": "Dual Berettas | Hémoglobine",
+    "german": "Akimbo-Berettas | Hämoglobin",
+    "greek": "Dual Berettas | Hemoglobin",
+    "hungarian": "Dupla Beretta | Hemoglobin",
+    "indonesian": "Dual Berettas | Hemoglobin",
+    "italian": "Doppia Beretta | Hemoglobin",
+    "japanese": "Dual Berettas | Hemoglobin",
+    "koreana": "듀얼 베레타 | 헤모글로빈",
+    "latam": "Berettas dobles | Hemoglobina",
+    "norwegian": "Dual Berettas | Hemoglobin",
+    "polish": "Dwie beretty | Hemoglobina",
+    "portuguese": "Dual Berettas | Hemoglobin",
+    "romanian": "Dual Berettas | Hemoglobin",
+    "russian": "Dual Berettas | Гемоглобин",
+    "schinese": "双持贝瑞塔 | 血红蛋白",
+    "schinese_pw": "Dual Berettas | Hemoglobin",
+    "spanish": "Berettas dobles | Hemoglobina",
+    "swedish": "Dual Berettas | Hemoglobin",
+    "tchinese": "Dual Berettas | 血紅蛋白",
+    "thai": "Dual Berettas | Hemoglobin",
+    "turkish": "Çift Beretta | Hemoglobin",
+    "ukrainian": "Подвійні «Беретти» | Гемоглобін",
+    "vietnamese": "Dual Berettas | Hemoglobin"
+  },
+  "media": {
+    "asset_id": "skin__2-220",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-220/light.png",
+      "data/api/media/rendered/files/skins/2-220/medium.png",
+      "data/api/media/rendered/files/skins/2-220/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-220.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-220/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-220/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-220/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-220/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_am_ossify_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_am_ossify_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_am_ossify_red_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Hemoglobin",
+  "search_slug": "dual-berettas-hemoglobin",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "2-220__normal__factory-new",
+    "2-220__normal__field-tested",
+    "2-220__normal__minimal-wear",
+    "2-220__stattrak__factory-new",
+    "2-220__stattrak__field-tested",
+    "2-220__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

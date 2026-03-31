@@ -1,0 +1,200 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 161,
+    "id": 161,
+    "localized_names": {
+      "brazilian": "Espremedor Neon",
+      "bulgarian": "Неонова изстисквачка",
+      "czech": "Neon Squeezer",
+      "danish": "Neon Squeezer",
+      "dutch": "Neon Squeezer",
+      "english": "Neon Squeezer",
+      "finnish": "Neonnaamat",
+      "french": "Tags fluo",
+      "german": "Neonkritzelei",
+      "greek": "Neon Squeezer",
+      "hungarian": "Neon Markolat",
+      "indonesian": "Neon Squeezer",
+      "italian": "Neon Squeezer",
+      "japanese": "Neon Squeezer",
+      "koreana": "네온 스퀴저",
+      "latam": "Grafitis fluorescentes",
+      "norwegian": "Neon Squeezer",
+      "polish": "Neonowy wyżymacz",
+      "portuguese": "Neon Squeezer",
+      "romanian": "Neon Squeezer",
+      "russian": "Неоновый аэрозоль",
+      "schinese": "霓虹榨汁机",
+      "schinese_pw": "Neon Squeezer",
+      "spanish": "Pintadas fluorescentes",
+      "swedish": "Neon Squeezer",
+      "tchinese": "霓虹榨汁器",
+      "thai": "Neon Squeezer",
+      "turkish": "Neon Sıkacak",
+      "ukrainian": "Неонові написи",
+      "vietnamese": "Neon Squeezer"
+    },
+    "name": "Neon Squeezer",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.9,
+      "min_float": 0.2
+    }
+  },
+  "id": "23-161",
+  "localized_names": {
+    "brazilian": "MP5-SD | Espremedor Neon",
+    "bulgarian": "MP5-SD | Неонова изстисквачка",
+    "czech": "MP5-SD | Neon Squeezer",
+    "danish": "MP5-SD | Neon Squeezer",
+    "dutch": "MP5-SD | Neon Squeezer",
+    "english": "MP5-SD | Neon Squeezer",
+    "finnish": "MP5-SD | Neonnaamat",
+    "french": "MP5SD | Tags fluo",
+    "german": "MP5-SD | Neonkritzelei",
+    "greek": "MP5-SD | Neon Squeezer",
+    "hungarian": "MP5-SD | Neon Markolat",
+    "indonesian": "MP5-SD | Neon Squeezer",
+    "italian": "MP5-SD | Neon Squeezer",
+    "japanese": "MP5-SD | Neon Squeezer",
+    "koreana": "MP5-SD | 네온 스퀴저",
+    "latam": "MP5-SD | Grafitis fluorescentes",
+    "norwegian": "MP5-SD | Neon Squeezer",
+    "polish": "MP5-SD | Neonowy wyżymacz",
+    "portuguese": "MP5-SD | Neon Squeezer",
+    "romanian": "MP5-SD | Neon Squeezer",
+    "russian": "MP5-SD | Неоновый аэрозоль",
+    "schinese": "MP5-SD | 霓虹榨汁机",
+    "schinese_pw": "MP5-SD | Neon Squeezer",
+    "spanish": "MP5-SD | Pintadas fluorescentes",
+    "swedish": "MP5-SD | Neon Squeezer",
+    "tchinese": "MP5-SD | 霓虹榨汁器",
+    "thai": "MP5-SD | Neon Squeezer",
+    "turkish": "MP5-SD | Neon Sıkacak",
+    "ukrainian": "МП5-СД | Неонові написи",
+    "vietnamese": "MP5-SD | Neon Squeezer"
+  },
+  "media": {
+    "asset_id": "skin__23-161",
+    "images_png": [
+      "data/api/media/rendered/files/skins/23-161/light.png",
+      "data/api/media/rendered/files/skins/23-161/medium.png",
+      "data/api/media/rendered/files/skins/23-161/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/23-161.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/23-161/heavy.png",
+      "light": "data/api/media/rendered/files/skins/23-161/light.png",
+      "medium": "data/api/media/rendered/files/skins/23-161/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/23-161/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp5sd_sp_overpass_paint_pen_neon_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp5sd_sp_overpass_paint_pen_neon_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp5sd_sp_overpass_paint_pen_neon_medium_png.vtex_c"
+    }
+  },
+  "name": "MP5-SD | Neon Squeezer",
+  "search_slug": "mp5-sd-neon-squeezer",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_overpass_2024",
+        "name": "The Overpass 2024 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5221",
+        "kind": "container",
+        "name": "Budapest 2025 Overpass Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "23-161__normal__battle-scarred",
+    "23-161__normal__field-tested",
+    "23-161__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 23,
+    "localized_names": {
+      "brazilian": "MP5-SD",
+      "bulgarian": "MP5-SD",
+      "czech": "MP5-SD",
+      "danish": "MP5-SD",
+      "dutch": "MP5-SD",
+      "english": "MP5-SD",
+      "finnish": "MP5-SD",
+      "french": "MP5SD",
+      "german": "MP5-SD",
+      "greek": "MP5-SD",
+      "hungarian": "MP5-SD",
+      "indonesian": "MP5-SD",
+      "italian": "MP5-SD",
+      "japanese": "MP5-SD",
+      "koreana": "MP5-SD",
+      "latam": "MP5-SD",
+      "norwegian": "MP5-SD",
+      "polish": "MP5-SD",
+      "portuguese": "MP5-SD",
+      "romanian": "MP5-SD",
+      "russian": "MP5-SD",
+      "schinese": "MP5-SD",
+      "schinese_pw": "MP5-SD",
+      "spanish": "MP5-SD",
+      "swedish": "MP5-SD",
+      "tchinese": "MP5-SD",
+      "thai": "MP5-SD",
+      "turkish": "MP5-SD",
+      "ukrainian": "МП5-СД",
+      "vietnamese": "MP5-SD"
+    },
+    "name": "MP5-SD",
+    "search_slug": "mp5-sd",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.9,
+    "min_float": 0.2
+  }
+}

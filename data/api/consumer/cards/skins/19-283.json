@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 283,
+    "id": 283,
+    "localized_names": {
+      "brazilian": "Trigonometria",
+      "bulgarian": "Тригонометрично",
+      "czech": "Trigon",
+      "danish": "Trigon",
+      "dutch": "Trigon",
+      "english": "Trigon",
+      "finnish": "Kolmio",
+      "french": "Trigone",
+      "german": "Trigon",
+      "greek": "Trigon",
+      "hungarian": "Trigon",
+      "indonesian": "Trigon",
+      "italian": "Trigon",
+      "japanese": "Trigon",
+      "koreana": "삼각 퍼즐",
+      "latam": "Trígono",
+      "norwegian": "Trigon",
+      "polish": "Trygon",
+      "portuguese": "Trigon",
+      "romanian": "Trigon",
+      "russian": "Треугольник",
+      "schinese": "三角",
+      "schinese_pw": "Trigon",
+      "spanish": "Trígono",
+      "swedish": "Trigon",
+      "tchinese": "謎三角",
+      "thai": "Trigon",
+      "turkish": "Üçgen",
+      "ukrainian": "Триґон",
+      "vietnamese": "Trigon"
+    },
+    "name": "Trigon",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.08
+    }
+  },
+  "id": "19-283",
+  "localized_names": {
+    "brazilian": "P90 | Trigonometria",
+    "bulgarian": "P90 | Тригонометрично",
+    "czech": "P90 | Trigon",
+    "danish": "P90 | Trigon",
+    "dutch": "P90 | Trigon",
+    "english": "P90 | Trigon",
+    "finnish": "P90 | Kolmio",
+    "french": "P90 | Trigone",
+    "german": "P90 | Trigon",
+    "greek": "P90 | Trigon",
+    "hungarian": "P90 | Trigon",
+    "indonesian": "P90 | Trigon",
+    "italian": "P90 | Trigon",
+    "japanese": "P90 | Trigon",
+    "koreana": "P90 | 삼각 퍼즐",
+    "latam": "P90 | Trígono",
+    "norwegian": "P90 | Trigon",
+    "polish": "P90 | Trygon",
+    "portuguese": "P90 | Trigon",
+    "romanian": "P90 | Trigon",
+    "russian": "P90 | Треугольник",
+    "schinese": "P90 | 三角",
+    "schinese_pw": "P90 | Trigon",
+    "spanish": "P90 | Trígono",
+    "swedish": "P90 | Trigon",
+    "tchinese": "P90 | 謎三角",
+    "thai": "P90 | Trigon",
+    "turkish": "P90 | Üçgen",
+    "ukrainian": "П90 | Триґон",
+    "vietnamese": "P90 | Trigon"
+  },
+  "media": {
+    "asset_id": "skin__19-283",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-283/light.png",
+      "data/api/media/rendered/files/skins/19-283/medium.png",
+      "data/api/media/rendered/files/skins/19-283/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-283.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-283/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-283/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-283/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-283/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_cu_p90_trigon_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_cu_p90_trigon_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_cu_p90_trigon_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Trigon",
+  "search_slug": "p90-trigon",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4011",
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_2",
+        "name": "The Phoenix Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-283__normal__battle-scarred",
+    "19-283__normal__field-tested",
+    "19-283__normal__minimal-wear",
+    "19-283__normal__well-worn",
+    "19-283__stattrak__battle-scarred",
+    "19-283__stattrak__field-tested",
+    "19-283__stattrak__minimal-wear",
+    "19-283__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.08
+  }
+}

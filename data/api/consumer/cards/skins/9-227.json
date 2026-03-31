@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 227,
+    "id": 227,
+    "localized_names": {
+      "brazilian": "Colmeia Elétrica",
+      "bulgarian": "Електрически кошер",
+      "czech": "Electric Hive",
+      "danish": "Electric Hive",
+      "dutch": "Electric Hive",
+      "english": "Electric Hive",
+      "finnish": "Sähköpesä",
+      "french": "Ruche électrique",
+      "german": "Elektrische Waben",
+      "greek": "Electric Hive",
+      "hungarian": "Elektromos Kaptár",
+      "indonesian": "Electric Hive",
+      "italian": "Electric Hive",
+      "japanese": "Electric Hive",
+      "koreana": "전기장 벌집",
+      "latam": "Colmena eléctrica",
+      "norwegian": "Electric Hive",
+      "polish": "Elektryczny rój",
+      "portuguese": "Electric Hive",
+      "romanian": "Electric Hive",
+      "russian": "Электрический улей",
+      "schinese": "电子蜂巢",
+      "schinese_pw": "Electric Hive",
+      "spanish": "Colmena eléctrica",
+      "swedish": "Electric Hive",
+      "tchinese": "電子蜂巢",
+      "thai": "Electric Hive",
+      "turkish": "Elektrikli Kovan",
+      "ukrainian": "Електричний вулик",
+      "vietnamese": "Electric Hive"
+    },
+    "name": "Electric Hive",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-227",
+  "localized_names": {
+    "brazilian": "AWP | Colmeia Elétrica",
+    "bulgarian": "AWP | Електрически кошер",
+    "czech": "AWP | Electric Hive",
+    "danish": "AWP | Electric Hive",
+    "dutch": "AWP | Electric Hive",
+    "english": "AWP | Electric Hive",
+    "finnish": "AWP | Sähköpesä",
+    "french": "AWP | Ruche électrique",
+    "german": "AWP | Elektrische Waben",
+    "greek": "AWP | Electric Hive",
+    "hungarian": "AWP | Elektromos Kaptár",
+    "indonesian": "AWP | Electric Hive",
+    "italian": "AWP | Electric Hive",
+    "japanese": "AWP | Electric Hive",
+    "koreana": "AWP | 전기장 벌집",
+    "latam": "AWP | Colmena eléctrica",
+    "norwegian": "AWP | Electric Hive",
+    "polish": "AWP | Elektryczny rój",
+    "portuguese": "AWP | Electric Hive",
+    "romanian": "AWP | Electric Hive",
+    "russian": "AWP | Электрический улей",
+    "schinese": "AWP | 电子蜂巢",
+    "schinese_pw": "AWP | Electric Hive",
+    "spanish": "AWP | Colmena eléctrica",
+    "swedish": "AWP | Electric Hive",
+    "tchinese": "AWP | 電子蜂巢",
+    "thai": "AWP | Electric Hive",
+    "turkish": "AWP | Elektrikli Kovan",
+    "ukrainian": "АВП | Електричний вулик",
+    "vietnamese": "AWP | Electric Hive"
+  },
+  "media": {
+    "asset_id": "skin__9-227",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-227/light.png",
+      "data/api/media/rendered/files/skins/9-227/medium.png",
+      "data/api/media/rendered/files/skins/9-227/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-227.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-227/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-227/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-227/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-227/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_hy_hive_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_hy_hive_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_hy_hive_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Electric Hive",
+  "search_slug": "awp-electric-hive",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4005",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_ii",
+        "name": "The eSports 2013 Winter Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-227__normal__factory-new",
+    "9-227__normal__field-tested",
+    "9-227__normal__minimal-wear",
+    "9-227__normal__well-worn",
+    "9-227__stattrak__factory-new",
+    "9-227__stattrak__field-tested",
+    "9-227__stattrak__minimal-wear",
+    "9-227__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

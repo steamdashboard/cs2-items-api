@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1017,
+    "id": 1017,
+    "localized_names": {
+      "brazilian": "Fósforo Azul",
+      "bulgarian": "Син фосфор",
+      "czech": "Blue Phosphor",
+      "danish": "Blue Phosphor",
+      "dutch": "Blue Phosphor",
+      "english": "Blue Phosphor",
+      "finnish": "Sininen fosfori",
+      "french": "Bleu phosphorescent",
+      "german": "Blauer Phosphor",
+      "greek": "Blue Phosphor",
+      "hungarian": "Kék Foszfor",
+      "indonesian": "Blue Phosphor",
+      "italian": "Blue Phosphor",
+      "japanese": "Blue Phosphor",
+      "koreana": "파란 인광 물질",
+      "latam": "Fósforo azul",
+      "norwegian": "Blue Phosphor",
+      "polish": "Niebieski fosfor",
+      "portuguese": "Blue Phosphor",
+      "romanian": "Blue Phosphor",
+      "russian": "Синий фосфор",
+      "schinese": "澜磷",
+      "schinese_pw": "Blue Phosphor",
+      "spanish": "Fósforo azul",
+      "swedish": "Blue Phosphor",
+      "tchinese": "藍磷",
+      "thai": "Blue Phosphor",
+      "turkish": "Mavi Fosfor",
+      "ukrainian": "Синій фосфор",
+      "vietnamese": "Blue Phosphor"
+    },
+    "name": "Blue Phosphor",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-1017",
+  "localized_names": {
+    "brazilian": "M4A1-S | Fósforo Azul",
+    "bulgarian": "M4A1-S | Син фосфор",
+    "czech": "M4A1-S | Blue Phosphor",
+    "danish": "M4A1-S | Blue Phosphor",
+    "dutch": "M4A1-S | Blue Phosphor",
+    "english": "M4A1-S | Blue Phosphor",
+    "finnish": "M4A1-S | Sininen fosfori",
+    "french": "M4A1-S | Bleu phosphorescent",
+    "german": "M4A1-S | Blauer Phosphor",
+    "greek": "M4A1-S | Blue Phosphor",
+    "hungarian": "M4A1-S | Kék Foszfor",
+    "indonesian": "M4A1-S | Blue Phosphor",
+    "italian": "M4A1-S | Blue Phosphor",
+    "japanese": "M4A1-S | Blue Phosphor",
+    "koreana": "M4A1-S | 파란 인광 물질",
+    "latam": "M4A1-S | Fósforo azul",
+    "norwegian": "M4A1-S | Blue Phosphor",
+    "polish": "M4A1-S | Niebieski fosfor",
+    "portuguese": "M4A1-S | Blue Phosphor",
+    "romanian": "M4A1-S | Blue Phosphor",
+    "russian": "M4A1-S | Синий фосфор",
+    "schinese": "M4A1消音版 | 澜磷",
+    "schinese_pw": "M4A1-S | Blue Phosphor",
+    "spanish": "M4A1-S | Fósforo azul",
+    "swedish": "M4A1-S | Blue Phosphor",
+    "tchinese": "M4A1-S | 藍磷",
+    "thai": "M4A1-S | Blue Phosphor",
+    "turkish": "M4A1-S | Mavi Fosfor",
+    "ukrainian": "М4А1-С | Синій фосфор",
+    "vietnamese": "M4A1-S | Blue Phosphor"
+  },
+  "media": {
+    "asset_id": "skin__60-1017",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-1017/light.png",
+      "data/api/media/rendered/files/skins/60-1017/medium.png",
+      "data/api/media/rendered/files/skins/60-1017/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-1017.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-1017/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-1017/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-1017/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-1017/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_am_m4a1s_bluesmoke_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_am_m4a1s_bluesmoke_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_am_m4a1s_bluesmoke_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Blue Phosphor",
+  "search_slug": "m4a1-s-blue-phosphor",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ct",
+        "name": "The Control Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4720",
+        "kind": "container",
+        "name": "The Control Collection",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-1017__normal__factory-new",
+    "60-1017__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

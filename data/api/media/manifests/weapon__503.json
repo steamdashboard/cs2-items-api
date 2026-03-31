@@ -1,0 +1,59 @@
+{
+  "codename": "weapon_knife_css",
+  "entity_id": "503",
+  "entity_type": "weapon",
+  "id": "weapon__503",
+  "name": "Classic Knife",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_knife_css.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_knife_css",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "30.0 -95.0 29.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "7.0 1.5 -1.5",
+      "override_default_light": "1",
+      "point_light_accent": {
+        "color": "0.5 0.5 0.5",
+        "position": "15 7 4"
+      },
+      "spot_light_key": {
+        "color": "0.55 0.55 0.56",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-45 50 35"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "0 -30 -120"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/knife/knife_css/weapon_knife_css_ag2.vmdl",
+    "model_player": "weapons/models/knife/knife_css/weapon_knife_css.vmdl",
+    "model_world": "weapons/models/knife/knife_css/weapon_knife_css.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/knife/knife_css/weapon_knife_css_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/knife/knife_css/weapon_knife_css.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/knife/knife_css/weapon_knife_css.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

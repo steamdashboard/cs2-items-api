@@ -1,0 +1,76 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_chainmail",
+    "id": 327,
+    "name": "Chainmail",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 327,
+    "weapon_id": 27
+  },
+  "id": "27-327",
+  "name": "MAG-7 | Chainmail",
+  "search_slug": "mag-7-chainmail",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "27-327__normal__factory-new",
+    "27-327__normal__minimal-wear",
+    "27-327__normal__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_mag7",
+    "id": 27,
+    "name": "MAG-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.22,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 472,
+    "id": 472,
+    "localized_names": {
+      "brazilian": "Furadeira de Impacto",
+      "bulgarian": "Дрелка",
+      "czech": "Impact Drill",
+      "danish": "Impact Drill",
+      "dutch": "Impact Drill",
+      "english": "Impact Drill",
+      "finnish": "Iskuporakone",
+      "french": "Perceuse à percussion",
+      "german": "Schlagbohrmaschine",
+      "greek": "Impact Drill",
+      "hungarian": "Ütvefúró",
+      "indonesian": "Impact Drill",
+      "italian": "Impact Drill",
+      "japanese": "Impact Drill",
+      "koreana": "충격 드릴",
+      "latam": "Impactante",
+      "norwegian": "Impact Drill",
+      "polish": "Młot udarowy",
+      "portuguese": "Impact Drill",
+      "romanian": "Impact Drill",
+      "russian": "Ударная дрель",
+      "schinese": "冲击钻",
+      "schinese_pw": "Impact Drill",
+      "spanish": "Impactante",
+      "swedish": "Impact Drill",
+      "tchinese": "衝擊電鑽",
+      "thai": "Impact Drill",
+      "turkish": "Darbeli Matkap",
+      "ukrainian": "Ударний дриль",
+      "vietnamese": "Impact Drill"
+    },
+    "name": "Impact Drill",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "14-472",
+  "localized_names": {
+    "brazilian": "M249 | Furadeira de Impacto",
+    "bulgarian": "M249 | Дрелка",
+    "czech": "M249 | Impact Drill",
+    "danish": "M249 | Impact Drill",
+    "dutch": "M249 | Impact Drill",
+    "english": "M249 | Impact Drill",
+    "finnish": "M249 | Iskuporakone",
+    "french": "M249 | Perceuse à percussion",
+    "german": "M249 | Schlagbohrmaschine",
+    "greek": "M249 | Impact Drill",
+    "hungarian": "M249 | Ütvefúró",
+    "indonesian": "M249 | Impact Drill",
+    "italian": "M249 | Impact Drill",
+    "japanese": "M249 | Impact Drill",
+    "koreana": "M249 | 충격 드릴",
+    "latam": "M249 | Impactante",
+    "norwegian": "M249 | Impact Drill",
+    "polish": "M249 | Młot udarowy",
+    "portuguese": "M249 | Impact Drill",
+    "romanian": "M249 | Impact Drill",
+    "russian": "M249 | Ударная дрель",
+    "schinese": "M249 | 冲击钻",
+    "schinese_pw": "M249 | Impact Drill",
+    "spanish": "M249 | Impactante",
+    "swedish": "M249 | Impact Drill",
+    "tchinese": "M249 | 衝擊電鑽",
+    "thai": "M249 | Impact Drill",
+    "turkish": "M249 | Darbeli Matkap",
+    "ukrainian": "М249 | Ударний дриль",
+    "vietnamese": "M249 | Impact Drill"
+  },
+  "media": {
+    "asset_id": "skin__14-472",
+    "images_png": [
+      "data/api/media/rendered/files/skins/14-472/light.png",
+      "data/api/media/rendered/files/skins/14-472/medium.png",
+      "data/api/media/rendered/files/skins/14-472/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/14-472.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/14-472/heavy.png",
+      "light": "data/api/media/rendered/files/skins/14-472/light.png",
+      "medium": "data/api/media/rendered/files/skins/14-472/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/14-472/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m249_so_keycolors_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m249_so_keycolors_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m249_so_keycolors_medium_png.vtex_c"
+    }
+  },
+  "name": "M249 | Impact Drill",
+  "search_slug": "m249-impact-drill",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "14-472__normal__battle-scarred",
+    "14-472__normal__factory-new",
+    "14-472__normal__field-tested",
+    "14-472__normal__minimal-wear",
+    "14-472__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 14,
+    "localized_names": {
+      "brazilian": "M249",
+      "bulgarian": "M249",
+      "czech": "M249",
+      "danish": "M249",
+      "dutch": "M249",
+      "english": "M249",
+      "finnish": "M249",
+      "french": "M249",
+      "german": "M249",
+      "greek": "M249",
+      "hungarian": "M249",
+      "indonesian": "M249",
+      "italian": "M249",
+      "japanese": "M249",
+      "koreana": "M249",
+      "latam": "M249",
+      "norwegian": "M249",
+      "polish": "M249",
+      "portuguese": "M249",
+      "romanian": "M249",
+      "russian": "M249",
+      "schinese": "M249",
+      "schinese_pw": "M249",
+      "spanish": "M249",
+      "swedish": "M249",
+      "tchinese": "M249",
+      "thai": "M249",
+      "turkish": "M249",
+      "ukrainian": "М249",
+      "vietnamese": "M249"
+    },
+    "name": "M249",
+    "search_slug": "m249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

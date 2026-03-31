@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1272,
+    "id": 1272,
+    "localized_names": {
+      "brazilian": "Escoada",
+      "bulgarian": "Оттичане",
+      "czech": "Runoff",
+      "danish": "Runoff",
+      "dutch": "Runoff",
+      "english": "Runoff",
+      "finnish": "Virtaus",
+      "french": "Coulée",
+      "german": "Abfluss",
+      "greek": "Runoff",
+      "hungarian": "Túlfolyás",
+      "indonesian": "Runoff",
+      "italian": "Runoff",
+      "japanese": "Runoff",
+      "koreana": "런오프",
+      "latam": "Despintada",
+      "norwegian": "Runoff",
+      "polish": "Spływ",
+      "portuguese": "Runoff",
+      "romanian": "Runoff",
+      "russian": "Сток",
+      "schinese": "径流",
+      "schinese_pw": "Runoff",
+      "spanish": "Desteñida",
+      "swedish": "Runoff",
+      "tchinese": "決勝",
+      "thai": "Runoff",
+      "turkish": "Runoff",
+      "ukrainian": "Змив",
+      "vietnamese": "Runoff"
+    },
+    "name": "Runoff",
+    "rarity_ref": null,
+    "style_code": 10,
+    "style_name": null,
+    "wear": {
+      "max_float": 0.780822,
+      "min_float": 0.0
+    }
+  },
+  "id": "29-1272",
+  "localized_names": {
+    "brazilian": "Cano Curto | Escoada",
+    "bulgarian": "Скъсена цев | Оттичане",
+    "czech": "Upilovaná brokovnice | Runoff",
+    "danish": "Sawed-off | Runoff",
+    "dutch": "Sawed-Off | Runoff",
+    "english": "Sawed-Off | Runoff",
+    "finnish": "Katkaistu haulikko | Virtaus",
+    "french": "Sawed-Off | Coulée",
+    "german": "Abgesägte Schrotflinte | Abfluss",
+    "greek": "Sawed-Off | Runoff",
+    "hungarian": "Lefűrészelt csövű sörétes | Túlfolyás",
+    "indonesian": "Sawed-Off | Runoff",
+    "italian": "Fucile a canne mozze | Runoff",
+    "japanese": "Sawed-Off | Runoff",
+    "koreana": "소드오프 | 런오프",
+    "latam": "Recortada | Despintada",
+    "norwegian": "Sawed-Off | Runoff",
+    "polish": "Obrzyn | Spływ",
+    "portuguese": "Sawed-Off | Runoff",
+    "romanian": "Sawed-Off | Runoff",
+    "russian": "Обрез | Сток",
+    "schinese": "截短霰弹枪 | 径流",
+    "schinese_pw": "Sawed-Off | Runoff",
+    "spanish": "Recortada | Desteñida",
+    "swedish": "Sawed-Off | Runoff",
+    "tchinese": "Sawed-Off | 決勝",
+    "thai": "Sawed-Off | Runoff",
+    "turkish": "Sawed-Off | Runoff",
+    "ukrainian": "Обріз | Змив",
+    "vietnamese": "Súng nòng ngắn | Runoff"
+  },
+  "media": {
+    "asset_id": "skin__29-1272",
+    "images_png": [
+      "data/api/media/rendered/files/skins/29-1272/light.png",
+      "data/api/media/rendered/files/skins/29-1272/medium.png",
+      "data/api/media/rendered/files/skins/29-1272/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/29-1272.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/29-1272/heavy.png",
+      "light": "data/api/media/rendered/files/skins/29-1272/light.png",
+      "medium": "data/api/media/rendered/files/skins/29-1272/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/29-1272/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sawedoff_gsch_ripple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sawedoff_gsch_ripple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sawedoff_gsch_ripple_medium_png.vtex_c"
+    }
+  },
+  "name": "Sawed-Off | Runoff",
+  "search_slug": "sawed-off-runoff",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_cool",
+        "name": "The Ascent Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "29-1272__normal__battle-scarred",
+    "29-1272__normal__factory-new",
+    "29-1272__normal__field-tested",
+    "29-1272__normal__minimal-wear",
+    "29-1272__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 29,
+    "localized_names": {
+      "brazilian": "Cano Curto",
+      "bulgarian": "Скъсена цев",
+      "czech": "Upilovaná brokovnice",
+      "danish": "Sawed-off",
+      "dutch": "Sawed-Off",
+      "english": "Sawed-Off",
+      "finnish": "Katkaistu haulikko",
+      "french": "Sawed-Off",
+      "german": "Abgesägte Schrotflinte",
+      "greek": "Sawed-Off",
+      "hungarian": "Lefűrészelt csövű sörétes",
+      "indonesian": "Sawed-Off",
+      "italian": "Fucile a canne mozze",
+      "japanese": "Sawed-Off",
+      "koreana": "소드오프",
+      "latam": "Recortada",
+      "norwegian": "Sawed-Off",
+      "polish": "Obrzyn",
+      "portuguese": "Sawed-Off",
+      "romanian": "Sawed-Off",
+      "russian": "Обрез",
+      "schinese": "截短霰弹枪",
+      "schinese_pw": "Sawed-Off",
+      "spanish": "Recortada",
+      "swedish": "Sawed-Off",
+      "tchinese": "Sawed-Off",
+      "thai": "Sawed-Off",
+      "turkish": "Sawed-Off",
+      "ukrainian": "Обріз",
+      "vietnamese": "Súng nòng ngắn"
+    },
+    "name": "Sawed-Off",
+    "search_slug": "sawed-off",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.780822,
+    "min_float": 0.0
+  }
+}

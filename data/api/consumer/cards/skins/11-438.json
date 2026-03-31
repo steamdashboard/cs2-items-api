@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 438,
+    "id": 438,
+    "localized_names": {
+      "brazilian": "Cronos",
+      "bulgarian": "Хронос",
+      "czech": "Chronos",
+      "danish": "Chronos",
+      "dutch": "Chronos",
+      "english": "Chronos",
+      "finnish": "Kronos",
+      "french": "Chronos",
+      "german": "Chronos",
+      "greek": "Chronos",
+      "hungarian": "Kronosz",
+      "indonesian": "Chronos",
+      "italian": "Chronos",
+      "japanese": "Chronos",
+      "koreana": "크로노스",
+      "latam": "Cronos",
+      "norwegian": "Chronos",
+      "polish": "Chronos",
+      "portuguese": "Chronos",
+      "romanian": "Chronos",
+      "russian": "Хронос",
+      "schinese": "柯罗诺斯",
+      "schinese_pw": "Chronos",
+      "spanish": "Cronos",
+      "swedish": "Chronos",
+      "tchinese": "克羅諾斯",
+      "thai": "Chronos",
+      "turkish": "Kronos",
+      "ukrainian": "Хронос",
+      "vietnamese": "Chronos"
+    },
+    "name": "Chronos",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "11-438",
+  "localized_names": {
+    "brazilian": "G3SG1 | Cronos",
+    "bulgarian": "G3SG1 | Хронос",
+    "czech": "G3SG1 | Chronos",
+    "danish": "G3SG1 | Chronos",
+    "dutch": "G3SG1 | Chronos",
+    "english": "G3SG1 | Chronos",
+    "finnish": "G3SG1 | Kronos",
+    "french": "G3SG1 | Chronos",
+    "german": "G3SG1 | Chronos",
+    "greek": "G3SG1 | Chronos",
+    "hungarian": "G3SG1 | Kronosz",
+    "indonesian": "G3SG1 | Chronos",
+    "italian": "G3SG1 | Chronos",
+    "japanese": "G3SG1 | Chronos",
+    "koreana": "G3SG1 | 크로노스",
+    "latam": "G3SG1 | Cronos",
+    "norwegian": "G3SG1 | Chronos",
+    "polish": "G3SG1 | Chronos",
+    "portuguese": "G3SG1 | Chronos",
+    "romanian": "G3SG1 | Chronos",
+    "russian": "G3SG1 | Хронос",
+    "schinese": "G3SG1 | 柯罗诺斯",
+    "schinese_pw": "G3SG1 | Chronos",
+    "spanish": "G3SG1 | Cronos",
+    "swedish": "G3SG1 | Chronos",
+    "tchinese": "G3SG1 | 克羅諾斯",
+    "thai": "G3SG1 | Chronos",
+    "turkish": "G3SG1 | Kronos",
+    "ukrainian": "Г3-СГ1 | Хронос",
+    "vietnamese": "G3SG1 | Chronos"
+  },
+  "media": {
+    "asset_id": "skin__11-438",
+    "images_png": [
+      "data/api/media/rendered/files/skins/11-438/light.png",
+      "data/api/media/rendered/files/skins/11-438/medium.png",
+      "data/api/media/rendered/files/skins/11-438/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/11-438.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/11-438/heavy.png",
+      "light": "data/api/media/rendered/files/skins/11-438/light.png",
+      "medium": "data/api/media/rendered/files/skins/11-438/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/11-438/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_g3sg1_cu_chronos_g3sg1_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_g3sg1_cu_chronos_g3sg1_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_g3sg1_cu_chronos_g3sg1_medium_png.vtex_c"
+    }
+  },
+  "name": "G3SG1 | Chronos",
+  "search_slug": "g3sg1-chronos",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_gods_and_monsters",
+        "name": "The Gods and Monsters Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4604",
+        "kind": "container",
+        "name": "The Gods and Monsters Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "11-438__normal__factory-new",
+    "11-438__normal__field-tested",
+    "11-438__normal__minimal-wear",
+    "11-438__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 11,
+    "localized_names": {
+      "brazilian": "G3SG1",
+      "bulgarian": "G3SG1",
+      "czech": "G3SG1",
+      "danish": "G3SG1",
+      "dutch": "G3SG1",
+      "english": "G3SG1",
+      "finnish": "G3SG1",
+      "french": "G3SG1",
+      "german": "G3SG1",
+      "greek": "G3SG1",
+      "hungarian": "G3SG1",
+      "indonesian": "G3SG1",
+      "italian": "G3SG1",
+      "japanese": "G3SG1",
+      "koreana": "G3SG1",
+      "latam": "G3SG1",
+      "norwegian": "G3SG1",
+      "polish": "G3SG1",
+      "portuguese": "G3SG1",
+      "romanian": "G3SG1",
+      "russian": "G3SG1",
+      "schinese": "G3SG1",
+      "schinese_pw": "G3SG1",
+      "spanish": "G3SG1",
+      "swedish": "G3SG1",
+      "tchinese": "G3SG1",
+      "thai": "G3SG1",
+      "turkish": "G3SG1",
+      "ukrainian": "Г3-СГ1",
+      "vietnamese": "G3SG1"
+    },
+    "name": "G3SG1",
+    "search_slug": "g3sg1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 840,
+    "id": 840,
+    "localized_names": {
+      "brazilian": "Escamada",
+      "bulgarian": "Бяла риба",
+      "czech": "Whitefish",
+      "danish": "Whitefish",
+      "dutch": "Whitefish",
+      "english": "Whitefish",
+      "finnish": "Siika",
+      "french": "Corégone",
+      "german": "Felchen",
+      "greek": "Whitefish",
+      "hungarian": "Fehér Hal",
+      "indonesian": "Whitefish",
+      "italian": "Whitefish",
+      "japanese": "Whitefish",
+      "koreana": "백어",
+      "latam": "Pez blanco",
+      "norwegian": "Whitefish",
+      "polish": "Głąbiel",
+      "portuguese": "Whitefish",
+      "romanian": "Whitefish",
+      "russian": "Белая рыба",
+      "schinese": "白鲑鱼",
+      "schinese_pw": "Whitefish",
+      "spanish": "Pez blanco",
+      "swedish": "Whitefish",
+      "tchinese": "白鮭",
+      "thai": "Whitefish",
+      "turkish": "Beyaz Balık",
+      "ukrainian": "Сиг",
+      "vietnamese": "Whitefish"
+    },
+    "name": "Whitefish",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-840",
+  "localized_names": {
+    "brazilian": "MAC-10 | Escamada",
+    "bulgarian": "MAC-10 | Бяла риба",
+    "czech": "MAC-10 | Whitefish",
+    "danish": "MAC-10 | Whitefish",
+    "dutch": "MAC-10 | Whitefish",
+    "english": "MAC-10 | Whitefish",
+    "finnish": "MAC-10 | Siika",
+    "french": "MAC-10 | Corégone",
+    "german": "MAC-10 | Felchen",
+    "greek": "MAC-10 | Whitefish",
+    "hungarian": "MAC-10 | Fehér Hal",
+    "indonesian": "MAC-10 | Whitefish",
+    "italian": "MAC-10 | Whitefish",
+    "japanese": "MAC-10 | Whitefish",
+    "koreana": "MAC-10 | 백어",
+    "latam": "MAC-10 | Pez blanco",
+    "norwegian": "MAC-10 | Whitefish",
+    "polish": "MAC-10 | Głąbiel",
+    "portuguese": "MAC-10 | Whitefish",
+    "romanian": "MAC-10 | Whitefish",
+    "russian": "MAC-10 | Белая рыба",
+    "schinese": "MAC-10 | 白鲑鱼",
+    "schinese_pw": "MAC-10 | Whitefish",
+    "spanish": "MAC-10 | Pez blanco",
+    "swedish": "MAC-10 | Whitefish",
+    "tchinese": "MAC-10 | 白鮭",
+    "thai": "MAC-10 | Whitefish",
+    "turkish": "MAC-10 | Beyaz Balık",
+    "ukrainian": "МАК-10 | Сиг",
+    "vietnamese": "MAC-10 | Whitefish"
+  },
+  "media": {
+    "asset_id": "skin__17-840",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-840/light.png",
+      "data/api/media/rendered/files/skins/17-840/medium.png",
+      "data/api/media/rendered/files/skins/17-840/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-840.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-840/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-840/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-840/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-840/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_gs_mac10_fish_bait_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_gs_mac10_fish_bait_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_gs_mac10_fish_bait_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Whitefish",
+  "search_slug": "mac-10-whitefish",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4598",
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_22",
+        "name": "The Prisma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-840__normal__battle-scarred",
+    "17-840__normal__factory-new",
+    "17-840__normal__field-tested",
+    "17-840__normal__minimal-wear",
+    "17-840__normal__well-worn",
+    "17-840__stattrak__battle-scarred",
+    "17-840__stattrak__factory-new",
+    "17-840__stattrak__field-tested",
+    "17-840__stattrak__minimal-wear",
+    "17-840__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

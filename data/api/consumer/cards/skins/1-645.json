@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 645,
+    "id": 645,
+    "localized_names": {
+      "brazilian": "Chama Corroída",
+      "bulgarian": "Оксидно лумване",
+      "czech": "Oxide Blaze",
+      "danish": "Oxide Blaze",
+      "dutch": "Oxide Blaze",
+      "english": "Oxide Blaze",
+      "finnish": "Oksidiroihu",
+      "french": "Flammes d'oxyde",
+      "german": "Oxidbrand",
+      "greek": "Oxide Blaze",
+      "hungarian": "Oxidláng",
+      "indonesian": "Oxide Blaze",
+      "italian": "Oxide Blaze",
+      "japanese": "Oxide Blaze",
+      "koreana": "불꽃 산화물",
+      "latam": "Llamarada de óxido",
+      "norwegian": "Oxide Blaze",
+      "polish": "Żar tlenkowy",
+      "portuguese": "Oxide Blaze",
+      "romanian": "Oxide Blaze",
+      "russian": "Оксидное пламя",
+      "schinese": "锈蚀烈焰",
+      "schinese_pw": "Oxide Blaze",
+      "spanish": "Llamarada de óxido",
+      "swedish": "Oxide Blaze",
+      "tchinese": "氧化焰痕",
+      "thai": "Oxide Blaze",
+      "turkish": "Oksit Alevi",
+      "ukrainian": "Спалах оксиду",
+      "vietnamese": "Oxide Blaze"
+    },
+    "name": "Oxide Blaze",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-645",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Chama Corroída",
+    "bulgarian": "Desert Eagle | Оксидно лумване",
+    "czech": "Desert Eagle | Oxide Blaze",
+    "danish": "Desert Eagle | Oxide Blaze",
+    "dutch": "Desert Eagle | Oxide Blaze",
+    "english": "Desert Eagle | Oxide Blaze",
+    "finnish": "Desert Eagle | Oksidiroihu",
+    "french": "Desert Eagle | Flammes d'oxyde",
+    "german": "Desert Eagle | Oxidbrand",
+    "greek": "Desert Eagle | Oxide Blaze",
+    "hungarian": "Desert Eagle | Oxidláng",
+    "indonesian": "Desert Eagle | Oxide Blaze",
+    "italian": "Desert Eagle | Oxide Blaze",
+    "japanese": "Desert Eagle | Oxide Blaze",
+    "koreana": "데저트 이글 | 불꽃 산화물",
+    "latam": "Desert Eagle | Llamarada de óxido",
+    "norwegian": "Desert Eagle | Oxide Blaze",
+    "polish": "Desert Eagle | Żar tlenkowy",
+    "portuguese": "Desert Eagle | Oxide Blaze",
+    "romanian": "Desert Eagle | Oxide Blaze",
+    "russian": "Desert Eagle | Оксидное пламя",
+    "schinese": "沙漠之鹰 | 锈蚀烈焰",
+    "schinese_pw": "Desert Eagle | Oxide Blaze",
+    "spanish": "Desert Eagle | Llamarada de óxido",
+    "swedish": "Desert Eagle | Oxide Blaze",
+    "tchinese": "Desert Eagle | 氧化焰痕",
+    "thai": "Desert Eagle | Oxide Blaze",
+    "turkish": "Desert Eagle | Oksit Alevi",
+    "ukrainian": "Пустельний орел | Спалах оксиду",
+    "vietnamese": "Desert Eagle | Oxide Blaze"
+  },
+  "media": {
+    "asset_id": "skin__1-645",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-645/light.png",
+      "data/api/media/rendered/files/skins/1-645/medium.png",
+      "data/api/media/rendered/files/skins/1-645/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-645.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-645/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-645/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-645/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-645/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_cu_desert_eagle_corroden_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_cu_desert_eagle_corroden_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_cu_desert_eagle_corroden_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Oxide Blaze",
+  "search_slug": "desert-eagle-oxide-blaze",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4351",
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_16",
+        "name": "The Spectrum Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-645__normal__battle-scarred",
+    "1-645__normal__factory-new",
+    "1-645__normal__field-tested",
+    "1-645__normal__minimal-wear",
+    "1-645__normal__well-worn",
+    "1-645__stattrak__battle-scarred",
+    "1-645__stattrak__factory-new",
+    "1-645__stattrak__field-tested",
+    "1-645__stattrak__minimal-wear",
+    "1-645__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

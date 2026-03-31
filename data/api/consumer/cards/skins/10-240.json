@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 240,
+    "id": 240,
+    "localized_names": {
+      "brazilian": "CaliCamo",
+      "bulgarian": "Калифорнийски пустинен камуфлаж",
+      "czech": "CaliCamo",
+      "danish": "CaliCamo",
+      "dutch": "CaliCamo",
+      "english": "CaliCamo",
+      "finnish": "CaliCamo",
+      "french": "CaliCamo",
+      "german": "CaliCamo",
+      "greek": "CaliCamo",
+      "hungarian": "CaliCamo",
+      "indonesian": "CaliCamo",
+      "italian": "CaliCamo",
+      "japanese": "CaliCamo",
+      "koreana": "CaliCamo",
+      "latam": "Camuflaje desértico",
+      "norwegian": "CaliCamo",
+      "polish": "CaliCamo",
+      "portuguese": "CaliCamo",
+      "romanian": "CaliCamo",
+      "russian": "Калифорнийский камуфляж",
+      "schinese": "加州迷彩",
+      "schinese_pw": "CaliCamo",
+      "spanish": "Camuflaje desértico",
+      "swedish": "CaliCamo",
+      "tchinese": "加州迷彩",
+      "thai": "CaliCamo",
+      "turkish": "Kali Kamuflaj",
+      "ukrainian": "Каліфорнійський камуфляж",
+      "vietnamese": "CaliCamo"
+    },
+    "name": "CaliCamo",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-240",
+  "localized_names": {
+    "brazilian": "FAMAS | CaliCamo",
+    "bulgarian": "FAMAS | Калифорнийски пустинен камуфлаж",
+    "czech": "FAMAS | CaliCamo",
+    "danish": "FAMAS | CaliCamo",
+    "dutch": "FAMAS | CaliCamo",
+    "english": "FAMAS | CaliCamo",
+    "finnish": "FAMAS | CaliCamo",
+    "french": "FAMAS | CaliCamo",
+    "german": "FAMAS | CaliCamo",
+    "greek": "FAMAS | CaliCamo",
+    "hungarian": "FAMAS | CaliCamo",
+    "indonesian": "FAMAS | CaliCamo",
+    "italian": "FAMAS | CaliCamo",
+    "japanese": "FAMAS | CaliCamo",
+    "koreana": "파마스 | CaliCamo",
+    "latam": "FAMAS | Camuflaje desértico",
+    "norwegian": "FAMAS | CaliCamo",
+    "polish": "FAMAS | CaliCamo",
+    "portuguese": "FAMAS | CaliCamo",
+    "romanian": "FAMAS | CaliCamo",
+    "russian": "FAMAS | Калифорнийский камуфляж",
+    "schinese": "法玛斯 | 加州迷彩",
+    "schinese_pw": "FAMAS | CaliCamo",
+    "spanish": "FAMAS | Camuflaje desértico",
+    "swedish": "FAMAS | CaliCamo",
+    "tchinese": "FAMAS | 加州迷彩",
+    "thai": "FAMAS | CaliCamo",
+    "turkish": "FAMAS | Kali Kamuflaj",
+    "ukrainian": "ФАМАС | Каліфорнійський камуфляж",
+    "vietnamese": "FAMAS | CaliCamo"
+  },
+  "media": {
+    "asset_id": "skin__10-240",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-240/light.png",
+      "data/api/media/rendered/files/skins/10-240/medium.png",
+      "data/api/media/rendered/files/skins/10-240/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-240.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-240/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-240/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-240/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-240/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_hy_varicamo_desert_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_hy_varicamo_desert_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_hy_varicamo_desert_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | CaliCamo",
+  "search_slug": "famas-calicamo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "10-240__normal__battle-scarred",
+    "10-240__normal__factory-new",
+    "10-240__normal__field-tested",
+    "10-240__normal__minimal-wear",
+    "10-240__normal__well-worn",
+    "10-240__souvenir__battle-scarred",
+    "10-240__souvenir__factory-new",
+    "10-240__souvenir__field-tested",
+    "10-240__souvenir__minimal-wear",
+    "10-240__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

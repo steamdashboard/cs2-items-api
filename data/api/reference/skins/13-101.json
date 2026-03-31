@@ -1,0 +1,52 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_tornado",
+    "id": 101,
+    "name": "Tornado",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 101,
+    "weapon_id": 13
+  },
+  "id": "13-101",
+  "name": "Galil AR | Tornado",
+  "search_slug": "galil-ar-tornado",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": null
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "13-101__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_galilar",
+    "id": 13,
+    "name": "Galil AR",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

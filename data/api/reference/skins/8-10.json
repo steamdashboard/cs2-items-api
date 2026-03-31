@@ -1,0 +1,60 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "hy_copperhead",
+    "id": 10,
+    "name": "Copperhead",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 10,
+    "weapon_id": 8
+  },
+  "id": "8-10",
+  "name": "AUG | Copperhead",
+  "search_slug": "aug-copperhead",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_dust",
+        "name": "The Dust Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "8-10__normal__minimal-wear",
+    "8-10__normal__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_aug",
+    "id": 8,
+    "name": "AUG",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.38,
+    "min_float": 0.12
+  }
+}

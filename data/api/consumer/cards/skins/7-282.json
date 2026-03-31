@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 282,
+    "id": 282,
+    "localized_names": {
+      "brazilian": "Linhas Vermelhas",
+      "bulgarian": "Червена линия",
+      "czech": "Redline",
+      "danish": "Redline",
+      "dutch": "Redline",
+      "english": "Redline",
+      "finnish": "Punaviiva",
+      "french": "Ligne rouge",
+      "german": "Rote Linie",
+      "greek": "Redline",
+      "hungarian": "Vörös Vonal",
+      "indonesian": "Redline",
+      "italian": "Redline",
+      "japanese": "Redline",
+      "koreana": "붉은선",
+      "latam": "Línea roja",
+      "norwegian": "Redline",
+      "polish": "Czerwona linia",
+      "portuguese": "Redline",
+      "romanian": "Redline",
+      "russian": "Красная линия",
+      "schinese": "红线",
+      "schinese_pw": "Redline",
+      "spanish": "Línea roja",
+      "swedish": "Redline",
+      "tchinese": "赤色流線",
+      "thai": "Redline",
+      "turkish": "Kırmızı Çizgi",
+      "ukrainian": "Червона лінія",
+      "vietnamese": "Redline"
+    },
+    "name": "Redline",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.1
+    }
+  },
+  "id": "7-282",
+  "localized_names": {
+    "brazilian": "AK-47 | Linhas Vermelhas",
+    "bulgarian": "AK-47 | Червена линия",
+    "czech": "AK-47 | Redline",
+    "danish": "AK-47 | Redline",
+    "dutch": "AK-47 | Redline",
+    "english": "AK-47 | Redline",
+    "finnish": "AK-47 | Punaviiva",
+    "french": "AK-47 | Ligne rouge",
+    "german": "AK-47 | Rote Linie",
+    "greek": "AK-47 | Redline",
+    "hungarian": "AK-47 | Vörös Vonal",
+    "indonesian": "AK-47 | Redline",
+    "italian": "AK-47 | Redline",
+    "japanese": "AK-47 | Redline",
+    "koreana": "AK-47 | 붉은선",
+    "latam": "AK-47 | Línea roja",
+    "norwegian": "AK-47 | Redline",
+    "polish": "AK-47 | Czerwona linia",
+    "portuguese": "AK-47 | Redline",
+    "romanian": "AK-47 | Redline",
+    "russian": "AK-47 | Красная линия",
+    "schinese": "AK-47 | 红线",
+    "schinese_pw": "AK-47 | Redline",
+    "spanish": "AK-47 | Línea roja",
+    "swedish": "AK-47 | Redline",
+    "tchinese": "AK-47 | 赤色流線",
+    "thai": "AK-47 | Redline",
+    "turkish": "AK-47 | Kırmızı Çizgi",
+    "ukrainian": "АК-47 | Червона лінія",
+    "vietnamese": "AK-47 | Redline"
+  },
+  "media": {
+    "asset_id": "skin__7-282",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-282/light.png",
+      "data/api/media/rendered/files/skins/7-282/medium.png",
+      "data/api/media/rendered/files/skins/7-282/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-282.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-282/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-282/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-282/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-282/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_cobra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_cobra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_cobra_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Redline",
+  "search_slug": "ak-47-redline",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4011",
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_2",
+        "name": "The Phoenix Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-282__normal__battle-scarred",
+    "7-282__normal__field-tested",
+    "7-282__normal__minimal-wear",
+    "7-282__normal__well-worn",
+    "7-282__stattrak__battle-scarred",
+    "7-282__stattrak__field-tested",
+    "7-282__stattrak__minimal-wear",
+    "7-282__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.1
+  }
+}

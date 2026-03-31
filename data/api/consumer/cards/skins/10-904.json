@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 904,
+    "id": 904,
+    "localized_names": {
+      "brazilian": "Desativada",
+      "bulgarian": "Извадено от употреба",
+      "czech": "Decommissioned",
+      "danish": "Decommissioned",
+      "dutch": "Decommissioned",
+      "english": "Decommissioned",
+      "finnish": "Käytöstä poistettu",
+      "french": "Démantèlement",
+      "german": "Stillgelegt",
+      "greek": "Decommissioned",
+      "hungarian": "Üzemen Kívül Helyezve",
+      "indonesian": "Decommissioned",
+      "italian": "Decommissioned",
+      "japanese": "Decommissioned",
+      "koreana": "폐원자로",
+      "latam": "Desmantelado",
+      "norwegian": "Decommissioned",
+      "polish": "Zlikwidowany",
+      "portuguese": "Decommissioned",
+      "romanian": "Decommissioned",
+      "russian": "Резерв",
+      "schinese": "退役",
+      "schinese_pw": "Decommissioned",
+      "spanish": "Desmantelado",
+      "swedish": "Decommissioned",
+      "tchinese": "已除役",
+      "thai": "Decommissioned",
+      "turkish": "Tedavülden Kalkmış",
+      "ukrainian": "Знято з експлуатації",
+      "vietnamese": "Decommissioned"
+    },
+    "name": "Decommissioned",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-904",
+  "localized_names": {
+    "brazilian": "FAMAS | Desativada",
+    "bulgarian": "FAMAS | Извадено от употреба",
+    "czech": "FAMAS | Decommissioned",
+    "danish": "FAMAS | Decommissioned",
+    "dutch": "FAMAS | Decommissioned",
+    "english": "FAMAS | Decommissioned",
+    "finnish": "FAMAS | Käytöstä poistettu",
+    "french": "FAMAS | Démantèlement",
+    "german": "FAMAS | Stillgelegt",
+    "greek": "FAMAS | Decommissioned",
+    "hungarian": "FAMAS | Üzemen Kívül Helyezve",
+    "indonesian": "FAMAS | Decommissioned",
+    "italian": "FAMAS | Decommissioned",
+    "japanese": "FAMAS | Decommissioned",
+    "koreana": "파마스 | 폐원자로",
+    "latam": "FAMAS | Desmantelado",
+    "norwegian": "FAMAS | Decommissioned",
+    "polish": "FAMAS | Zlikwidowany",
+    "portuguese": "FAMAS | Decommissioned",
+    "romanian": "FAMAS | Decommissioned",
+    "russian": "FAMAS | Резерв",
+    "schinese": "法玛斯 | 退役",
+    "schinese_pw": "FAMAS | Decommissioned",
+    "spanish": "FAMAS | Desmantelado",
+    "swedish": "FAMAS | Decommissioned",
+    "tchinese": "FAMAS | 已除役",
+    "thai": "FAMAS | Decommissioned",
+    "turkish": "FAMAS | Tedavülden Kalkmış",
+    "ukrainian": "ФАМАС | Знято з експлуатації",
+    "vietnamese": "FAMAS | Decommissioned"
+  },
+  "media": {
+    "asset_id": "skin__10-904",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-904/light.png",
+      "data/api/media/rendered/files/skins/10-904/medium.png",
+      "data/api/media/rendered/files/skins/10-904/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-904.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-904/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-904/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-904/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-904/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_cu_famas_nuke_tension_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_cu_famas_nuke_tension_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_cu_famas_nuke_tension_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Decommissioned",
+  "search_slug": "famas-decommissioned",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4669",
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_24",
+        "name": "The CS20 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-904__normal__battle-scarred",
+    "10-904__normal__factory-new",
+    "10-904__normal__field-tested",
+    "10-904__normal__minimal-wear",
+    "10-904__normal__well-worn",
+    "10-904__stattrak__battle-scarred",
+    "10-904__stattrak__factory-new",
+    "10-904__stattrak__field-tested",
+    "10-904__stattrak__minimal-wear",
+    "10-904__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

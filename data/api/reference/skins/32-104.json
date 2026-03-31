@@ -1,0 +1,44 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_leaves_grassland",
+    "id": 104,
+    "name": "Grassland Leaves",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 104,
+    "weapon_id": 32
+  },
+  "id": "32-104",
+  "name": "P2000 | Grassland Leaves",
+  "search_slug": "p2000-grassland-leaves",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_militia",
+        "name": "The Militia Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "32-104__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_hkp2000",
+    "id": 32,
+    "name": "P2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

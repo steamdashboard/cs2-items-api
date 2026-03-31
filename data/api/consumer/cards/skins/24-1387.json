@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1387,
+    "id": 1387,
+    "localized_names": {
+      "brazilian": "Sangue Quente",
+      "bulgarian": "Топлокръвно",
+      "czech": "Warm Blooded",
+      "danish": "Warm Blooded",
+      "dutch": "Warm Blooded",
+      "english": "Warm Blooded",
+      "finnish": "Kuumaverinen",
+      "french": "Sang bouillant",
+      "german": "Warmblüter",
+      "greek": "Warm Blooded",
+      "hungarian": "Melegvérű",
+      "indonesian": "Warm Blooded",
+      "italian": "Warm Blooded",
+      "japanese": "Warm Blooded",
+      "koreana": "온혈",
+      "latam": "Sangre caliente",
+      "norwegian": "Warm Blooded",
+      "polish": "Ciepłokrwisty",
+      "portuguese": "Warm Blooded",
+      "romanian": "Warm Blooded",
+      "russian": "Теплокровное",
+      "schinese": "热血斑纹",
+      "schinese_pw": "Warm Blooded",
+      "spanish": "Sangre caliente",
+      "swedish": "Warm Blooded",
+      "tchinese": "溫血動物",
+      "thai": "Warm Blooded",
+      "turkish": "Sıcakkanlı",
+      "ukrainian": "Гаряча кров",
+      "vietnamese": "Warm Blooded"
+    },
+    "name": "Warm Blooded",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "24-1387",
+  "localized_names": {
+    "brazilian": "UMP-45 | Sangue Quente",
+    "bulgarian": "UMP-45 | Топлокръвно",
+    "czech": "UMP-45 | Warm Blooded",
+    "danish": "UMP-45 | Warm Blooded",
+    "dutch": "UMP-45 | Warm Blooded",
+    "english": "UMP-45 | Warm Blooded",
+    "finnish": "UMP-45 | Kuumaverinen",
+    "french": "UMP-45 | Sang bouillant",
+    "german": "UMP-45 | Warmblüter",
+    "greek": "UMP-45 | Warm Blooded",
+    "hungarian": "UMP-45 | Melegvérű",
+    "indonesian": "UMP-45 | Warm Blooded",
+    "italian": "UMP-45 | Warm Blooded",
+    "japanese": "UMP-45 | Warm Blooded",
+    "koreana": "UMP-45 | 온혈",
+    "latam": "UMP-45 | Sangre caliente",
+    "norwegian": "UMP-45 | Warm Blooded",
+    "polish": "UMP-45 | Ciepłokrwisty",
+    "portuguese": "UMP-45 | Warm Blooded",
+    "romanian": "UMP-45 | Warm Blooded",
+    "russian": "UMP-45 | Теплокровное",
+    "schinese": "UMP-45 | 热血斑纹",
+    "schinese_pw": "UMP-45 | Warm Blooded",
+    "spanish": "UMP-45 | Sangre caliente",
+    "swedish": "UMP-45 | Warm Blooded",
+    "tchinese": "UMP-45 | 溫血動物",
+    "thai": "UMP-45 | Warm Blooded",
+    "turkish": "UMP-45 | Sıcakkanlı",
+    "ukrainian": "УМП-45 | Гаряча кров",
+    "vietnamese": "UMP-45 | Warm Blooded"
+  },
+  "media": {
+    "asset_id": "skin__24-1387",
+    "images_png": [
+      "data/api/media/rendered/files/skins/24-1387/light.png",
+      "data/api/media/rendered/files/skins/24-1387/medium.png",
+      "data/api/media/rendered/files/skins/24-1387/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/24-1387.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/24-1387/heavy.png",
+      "light": "data/api/media/rendered/files/skins/24-1387/light.png",
+      "medium": "data/api/media/rendered/files/skins/24-1387/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/24-1387/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ump45_hye_test_animal_print_45_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ump45_hye_test_animal_print_45_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ump45_hye_test_animal_print_45_medium_png.vtex_c"
+    }
+  },
+  "name": "UMP-45 | Warm Blooded",
+  "search_slug": "ump-45-warm-blooded",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_exuberant",
+        "name": "The Harlequin Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "24-1387__normal__battle-scarred",
+    "24-1387__normal__factory-new",
+    "24-1387__normal__field-tested",
+    "24-1387__normal__minimal-wear",
+    "24-1387__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 24,
+    "localized_names": {
+      "brazilian": "UMP-45",
+      "bulgarian": "UMP-45",
+      "czech": "UMP-45",
+      "danish": "UMP-45",
+      "dutch": "UMP-45",
+      "english": "UMP-45",
+      "finnish": "UMP-45",
+      "french": "UMP-45",
+      "german": "UMP-45",
+      "greek": "UMP-45",
+      "hungarian": "UMP-45",
+      "indonesian": "UMP-45",
+      "italian": "UMP-45",
+      "japanese": "UMP-45",
+      "koreana": "UMP-45",
+      "latam": "UMP-45",
+      "norwegian": "UMP-45",
+      "polish": "UMP-45",
+      "portuguese": "UMP-45",
+      "romanian": "UMP-45",
+      "russian": "UMP-45",
+      "schinese": "UMP-45",
+      "schinese_pw": "UMP-45",
+      "spanish": "UMP-45",
+      "swedish": "UMP-45",
+      "tchinese": "UMP-45",
+      "thai": "UMP-45",
+      "turkish": "UMP-45",
+      "ukrainian": "УМП-45",
+      "vietnamese": "UMP-45"
+    },
+    "name": "UMP-45",
+    "search_slug": "ump-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

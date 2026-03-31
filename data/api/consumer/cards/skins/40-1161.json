@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1161,
+    "id": 1161,
+    "localized_names": {
+      "brazilian": "Dezastre",
+      "bulgarian": "Бедствие",
+      "czech": "Dezastre",
+      "danish": "Dezastre",
+      "dutch": "Dezastre",
+      "english": "Dezastre",
+      "finnish": "Dezastre",
+      "french": "Dézastre",
+      "german": "Dezastre",
+      "greek": "Dezastre",
+      "hungarian": "Csapás",
+      "indonesian": "Dezastre",
+      "italian": "Dezastre",
+      "japanese": "Dezastre",
+      "koreana": "디재스터",
+      "latam": "Desastre",
+      "norwegian": "Dezastre",
+      "polish": "Dezastre",
+      "portuguese": "Dezastre",
+      "romanian": "Dezastre",
+      "russian": "Катастрофа",
+      "schinese": "灾难",
+      "schinese_pw": "Dezastre",
+      "spanish": "Desastre",
+      "swedish": "Dezastre",
+      "tchinese": "劫難",
+      "thai": "Dezastre",
+      "turkish": "Dezastre",
+      "ukrainian": "Катастрофа",
+      "vietnamese": "Dezastre"
+    },
+    "name": "Dezastre",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-1161",
+  "localized_names": {
+    "brazilian": "SSG 08 | Dezastre",
+    "bulgarian": "SSG 08 | Бедствие",
+    "czech": "SSG 08 | Dezastre",
+    "danish": "SSG 08 | Dezastre",
+    "dutch": "SSG 08 | Dezastre",
+    "english": "SSG 08 | Dezastre",
+    "finnish": "SSG 08 | Dezastre",
+    "french": "SSG 08 | Dézastre",
+    "german": "SSG 08 | Dezastre",
+    "greek": "SSG 08 | Dezastre",
+    "hungarian": "SSG 08 | Csapás",
+    "indonesian": "SSG 08 | Dezastre",
+    "italian": "SSG 08 | Dezastre",
+    "japanese": "SSG 08 | Dezastre",
+    "koreana": "SSG 08 | 디재스터",
+    "latam": "SSG 08 | Desastre",
+    "norwegian": "SSG 08 | Dezastre",
+    "polish": "SSG 08 | Dezastre",
+    "portuguese": "SSG 08 | Dezastre",
+    "romanian": "SSG 08 | Dezastre",
+    "russian": "SSG 08 | Катастрофа",
+    "schinese": "SSG 08 | 灾难",
+    "schinese_pw": "SSG 08 | Dezastre",
+    "spanish": "SSG 08 | Desastre",
+    "swedish": "SSG 08 | Dezastre",
+    "tchinese": "SSG 08 | 劫難",
+    "thai": "SSG 08 | Dezastre",
+    "turkish": "SSG 08 | Dezastre",
+    "ukrainian": "ССГ 08 | Катастрофа",
+    "vietnamese": "SSG 08 | Dezastre"
+  },
+  "media": {
+    "asset_id": "skin__40-1161",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-1161/light.png",
+      "data/api/media/rendered/files/skins/40-1161/medium.png",
+      "data/api/media/rendered/files/skins/40-1161/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-1161.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-1161/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-1161/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-1161/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-1161/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_ssg08_dezastre_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_ssg08_dezastre_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_ssg08_dezastre_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Dezastre",
+  "search_slug": "ssg-08-dezastre",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4904",
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_33",
+        "name": "The Kilowatt Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-1161__normal__battle-scarred",
+    "40-1161__normal__factory-new",
+    "40-1161__normal__field-tested",
+    "40-1161__normal__minimal-wear",
+    "40-1161__normal__well-worn",
+    "40-1161__stattrak__battle-scarred",
+    "40-1161__stattrak__factory-new",
+    "40-1161__stattrak__field-tested",
+    "40-1161__stattrak__minimal-wear",
+    "40-1161__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

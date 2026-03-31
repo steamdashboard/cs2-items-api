@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "agents": 141,
+    "capsules": 486,
+    "cases": 42,
+    "charms": 81,
+    "collections": 95,
+    "containers": 358,
+    "graffiti": 351,
+    "music-kits": 95,
+    "patches": 112,
+    "players": 617,
+    "skin-variants": 9803,
+    "skins": 1421,
+    "souvenir-packages": 129,
+    "special-pools": 22,
+    "stickers": 9828,
+    "teams": 144,
+    "tournaments": 24,
+    "weapons": 74
+  },
+  "entrypoints": {
+    "capsules": "data/api/consumer/cards/capsules/<container_id>.json",
+    "cases": "data/api/consumer/cards/cases/<container_id>.json",
+    "collections": "data/api/consumer/cards/collections/<collection_id>.json",
+    "home": "data/api/consumer/browse/home.json",
+    "skin_variants": "data/api/consumer/cards/skin-variants/<variant_id>.json",
+    "skins": "data/api/consumer/cards/skins/<skin_id>.json",
+    "souvenir_packages": "data/api/consumer/cards/souvenir-packages/<container_id>.json",
+    "special_pools": "data/api/consumer/cards/special-pools/<token>.json",
+    "weapons": "data/api/consumer/cards/weapons/<weapon_id>.json"
+  }
+}

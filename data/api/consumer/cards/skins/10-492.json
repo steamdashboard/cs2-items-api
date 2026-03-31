@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 492,
+    "id": 492,
+    "localized_names": {
+      "brazilian": "Sobrevivente Z",
+      "bulgarian": "Последният оцелял",
+      "czech": "Survivor Z",
+      "danish": "Survivor Z",
+      "dutch": "Survivor Z",
+      "english": "Survivor Z",
+      "finnish": "Selviytyjä Z",
+      "french": "Survivor Z",
+      "german": "Survivor Z",
+      "greek": "Survivor Z",
+      "hungarian": "Survivor Z",
+      "indonesian": "Survivor Z",
+      "italian": "Survivor Z",
+      "japanese": "Survivor Z",
+      "koreana": "생존 전쟁 Z",
+      "latam": "Superviviente Z",
+      "norwegian": "Survivor Z",
+      "polish": "Ocalały zet",
+      "portuguese": "Survivor Z",
+      "romanian": "Survivor Z",
+      "russian": "Выживший",
+      "schinese": "幸存者 Z",
+      "schinese_pw": "Survivor Z",
+      "spanish": "Superviviente Z",
+      "swedish": "Survivor Z",
+      "tchinese": "倖存者 Z",
+      "thai": "Survivor Z",
+      "turkish": "Mücadeleci Z",
+      "ukrainian": "Уцілілий",
+      "vietnamese": "Survivor Z"
+    },
+    "name": "Survivor Z",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-492",
+  "localized_names": {
+    "brazilian": "FAMAS | Sobrevivente Z",
+    "bulgarian": "FAMAS | Последният оцелял",
+    "czech": "FAMAS | Survivor Z",
+    "danish": "FAMAS | Survivor Z",
+    "dutch": "FAMAS | Survivor Z",
+    "english": "FAMAS | Survivor Z",
+    "finnish": "FAMAS | Selviytyjä Z",
+    "french": "FAMAS | Survivor Z",
+    "german": "FAMAS | Survivor Z",
+    "greek": "FAMAS | Survivor Z",
+    "hungarian": "FAMAS | Survivor Z",
+    "indonesian": "FAMAS | Survivor Z",
+    "italian": "FAMAS | Survivor Z",
+    "japanese": "FAMAS | Survivor Z",
+    "koreana": "파마스 | 생존 전쟁 Z",
+    "latam": "FAMAS | Superviviente Z",
+    "norwegian": "FAMAS | Survivor Z",
+    "polish": "FAMAS | Ocalały zet",
+    "portuguese": "FAMAS | Survivor Z",
+    "romanian": "FAMAS | Survivor Z",
+    "russian": "FAMAS | Выживший",
+    "schinese": "法玛斯 | 幸存者 Z",
+    "schinese_pw": "FAMAS | Survivor Z",
+    "spanish": "FAMAS | Superviviente Z",
+    "swedish": "FAMAS | Survivor Z",
+    "tchinese": "FAMAS | 倖存者 Z",
+    "thai": "FAMAS | Survivor Z",
+    "turkish": "FAMAS | Mücadeleci Z",
+    "ukrainian": "ФАМАС | Уцілілий",
+    "vietnamese": "FAMAS | Survivor Z"
+  },
+  "media": {
+    "asset_id": "skin__10-492",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-492/light.png",
+      "data/api/media/rendered/files/skins/10-492/medium.png",
+      "data/api/media/rendered/files/skins/10-492/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-492.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-492/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-492/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-492/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-492/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_cu_famas_lenta_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_cu_famas_lenta_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_cu_famas_lenta_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Survivor Z",
+  "search_slug": "famas-survivor-z",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4138",
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_9",
+        "name": "The Shadow Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-492__normal__battle-scarred",
+    "10-492__normal__factory-new",
+    "10-492__normal__field-tested",
+    "10-492__normal__minimal-wear",
+    "10-492__normal__well-worn",
+    "10-492__stattrak__battle-scarred",
+    "10-492__stattrak__factory-new",
+    "10-492__stattrak__field-tested",
+    "10-492__stattrak__minimal-wear",
+    "10-492__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_sand",
+    "id": 99,
+    "name": "Sand Dune",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 99,
+    "weapon_id": 40
+  },
+  "id": "40-99",
+  "name": "SSG 08 | Sand Dune",
+  "search_slug": "ssg-08-sand-dune",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_baggage",
+        "name": "The Baggage Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "40-99__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_ssg08",
+    "id": 40,
+    "name": "SSG 08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

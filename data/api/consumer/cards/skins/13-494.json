@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 494,
+    "id": 494,
+    "localized_names": {
+      "brazilian": "Pedra Gelada",
+      "bulgarian": "Студенo като камък",
+      "czech": "Stone Cold",
+      "danish": "Stone Cold",
+      "dutch": "Stone Cold",
+      "english": "Stone Cold",
+      "finnish": "Kylmä kuin kivi",
+      "french": "Nightwing",
+      "german": "Eiskalt",
+      "greek": "Stone Cold",
+      "hungarian": "Jéghideg",
+      "indonesian": "Stone Cold",
+      "italian": "Stone Cold",
+      "japanese": "Stone Cold",
+      "koreana": "차디찬 돌",
+      "latam": "Piedra fría",
+      "norwegian": "Stone Cold",
+      "polish": "Zimny jak głaz",
+      "portuguese": "Stone Cold",
+      "romanian": "Stone Cold",
+      "russian": "Невозмутимость",
+      "schinese": "冷石",
+      "schinese_pw": "Stone Cold",
+      "spanish": "Piedra fría",
+      "swedish": "Stone Cold",
+      "tchinese": "冰鐵泠石",
+      "thai": "Stone Cold",
+      "turkish": "Taş Soğuğu",
+      "ukrainian": "Кам’яне серце",
+      "vietnamese": "Stone Cold"
+    },
+    "name": "Stone Cold",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.9,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-494",
+  "localized_names": {
+    "brazilian": "Galil AR | Pedra Gelada",
+    "bulgarian": "Galil AR | Студенo като камък",
+    "czech": "Galil AR | Stone Cold",
+    "danish": "Galil AR | Stone Cold",
+    "dutch": "Galil AR | Stone Cold",
+    "english": "Galil AR | Stone Cold",
+    "finnish": "Galil AR | Kylmä kuin kivi",
+    "french": "Galil AR | Nightwing",
+    "german": "Galil AR | Eiskalt",
+    "greek": "Galil AR | Stone Cold",
+    "hungarian": "Galil AR | Jéghideg",
+    "indonesian": "Galil AR | Stone Cold",
+    "italian": "Galil AR | Stone Cold",
+    "japanese": "Galil AR | Stone Cold",
+    "koreana": "갈릴 돌격소총 | 차디찬 돌",
+    "latam": "Galil AR | Piedra fría",
+    "norwegian": "Galil AR | Stone Cold",
+    "polish": "Galil AR | Zimny jak głaz",
+    "portuguese": "Galil AR | Stone Cold",
+    "romanian": "Galil AR | Stone Cold",
+    "russian": "Автомат «Галиль» | Невозмутимость",
+    "schinese": "加利尔AR | 冷石",
+    "schinese_pw": "Galil AR | Stone Cold",
+    "spanish": "Galil AR | Piedra fría",
+    "swedish": "Galil AR | Stone Cold",
+    "tchinese": "Galil AR | 冰鐵泠石",
+    "thai": "Galil AR | Stone Cold",
+    "turkish": "Galil AR | Taş Soğuğu",
+    "ukrainian": "Ґаліл | Кам’яне серце",
+    "vietnamese": "Galil AR | Stone Cold"
+  },
+  "media": {
+    "asset_id": "skin__13-494",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-494/light.png",
+      "data/api/media/rendered/files/skins/13-494/medium.png",
+      "data/api/media/rendered/files/skins/13-494/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-494.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-494/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-494/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-494/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-494/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_gs_galil_nightwing_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_gs_galil_nightwing_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_gs_galil_nightwing_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Stone Cold",
+  "search_slug": "galil-ar-stone-cold",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4138",
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_9",
+        "name": "The Shadow Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-494__normal__battle-scarred",
+    "13-494__normal__factory-new",
+    "13-494__normal__field-tested",
+    "13-494__normal__minimal-wear",
+    "13-494__normal__well-worn",
+    "13-494__stattrak__battle-scarred",
+    "13-494__stattrak__factory-new",
+    "13-494__stattrak__field-tested",
+    "13-494__stattrak__minimal-wear",
+    "13-494__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.9,
+    "min_float": 0.0
+  }
+}

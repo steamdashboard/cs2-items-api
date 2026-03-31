@@ -1,0 +1,55 @@
+{
+  "classification": {
+    "group": "tool",
+    "kind": "tool",
+    "tool_type": "gift-package"
+  },
+  "game_id": 1215,
+  "id": 1215,
+  "name": "Gift - 25 Spectators",
+  "prefab_chain": [
+    "valve",
+    "csgo_tool"
+  ],
+  "prefab_spec": "valve csgo_tool",
+  "resolved": {
+    "attributes": {
+      "set supply crate series": {
+        "attribute_class": "supply_crate_series",
+        "value": "8"
+      }
+    },
+    "capabilities": {
+      "usable_gc": "1",
+      "usable_out_of_game": "0"
+    },
+    "craft_class": "tool",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "first_sale_date": "2013/12/16",
+    "image_inventory": "econ/weapon_cases/gift25spectators",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_container_and_tools": "tool",
+    "item_class": "tool",
+    "item_description": "#CSGO_Tool_Gift25Spectators_Desc",
+    "item_name": "#CSGO_Tool_Gift25Spectators",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "type_tool",
+    "item_type_name": "#CSGO_Tool_GiftTag",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "name": "Gift - 25 Spectators",
+    "prefab": "valve csgo_tool",
+    "tool": {
+      "type": "gift",
+      "usage": {
+        "max_recipients": "25",
+        "num_items": "1",
+        "target_rule": "only_other_spectators"
+      }
+    }
+  }
+}

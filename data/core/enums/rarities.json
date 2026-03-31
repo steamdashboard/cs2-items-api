@@ -1,0 +1,80 @@
+{
+  "ancient": {
+    "color": "desc_ancient",
+    "drop_sound": "EndMatch.ItemRevealRarityLegendary",
+    "loc_key": "Rarity_Ancient",
+    "loc_key_character": "Rarity_Ancient_Character",
+    "loc_key_weapon": "Rarity_Ancient_Weapon",
+    "value": "6"
+  },
+  "common": {
+    "color": "desc_common",
+    "drop_sound": "EndMatch.ItemRevealRarityCommon",
+    "loc_key": "Rarity_Common",
+    "loc_key_character": "Rarity_Common_Character",
+    "loc_key_weapon": "Rarity_Common_Weapon",
+    "next_rarity": "uncommon",
+    "value": "1",
+    "weight": "10000000"
+  },
+  "default": {
+    "color": "desc_default",
+    "drop_sound": "EndMatch.ItemRevealRarityCommon",
+    "loc_key": "Rarity_Default",
+    "loc_key_character": "Rarity_Default_Character",
+    "loc_key_weapon": "Rarity_Default_Weapon",
+    "value": "0"
+  },
+  "immortal": {
+    "color": "desc_immortal",
+    "drop_sound": "EndMatch.ItemRevealRarityLegendary",
+    "loc_key": "Rarity_Contraband",
+    "loc_key_character": "Rarity_Contraband_Character",
+    "loc_key_weapon": "Rarity_Contraband_Weapon",
+    "value": "7"
+  },
+  "legendary": {
+    "color": "desc_legendary",
+    "drop_sound": "EndMatch.ItemRevealRarityLegendary",
+    "loc_key": "Rarity_Legendary",
+    "loc_key_character": "Rarity_Legendary_Character",
+    "loc_key_weapon": "Rarity_Legendary_Weapon",
+    "value": "5"
+  },
+  "mythical": {
+    "color": "desc_mythical",
+    "drop_sound": "EndMatch.ItemRevealRarityMythical",
+    "loc_key": "Rarity_Mythical",
+    "loc_key_character": "Rarity_Mythical_Character",
+    "loc_key_weapon": "Rarity_Mythical_Weapon",
+    "value": "4",
+    "weight": "80000"
+  },
+  "rare": {
+    "color": "desc_rare",
+    "drop_sound": "EndMatch.ItemRevealRarityRare",
+    "loc_key": "Rarity_Rare",
+    "loc_key_character": "Rarity_Rare_Character",
+    "loc_key_weapon": "Rarity_Rare_Weapon",
+    "next_rarity": "mythical",
+    "value": "3",
+    "weight": "400000"
+  },
+  "uncommon": {
+    "color": "desc_uncommon",
+    "drop_sound": "EndMatch.ItemRevealRarityUncommon",
+    "loc_key": "Rarity_Uncommon",
+    "loc_key_character": "Rarity_Uncommon_Character",
+    "loc_key_weapon": "Rarity_Uncommon_Weapon",
+    "next_rarity": "rare",
+    "value": "2",
+    "weight": "2000000"
+  },
+  "unusual": {
+    "color": "desc_unusual",
+    "loc_key": "Unusual",
+    "loc_key_character": "Rarity_Unusual",
+    "loc_key_weapon": "Rarity_Unusual",
+    "value": "99"
+  }
+}

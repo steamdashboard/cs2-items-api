@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1217,
+    "id": 1217,
+    "localized_names": {
+      "brazilian": "Guarda Real",
+      "bulgarian": "Кралска гвардия",
+      "czech": "Royal Guard",
+      "danish": "Royal Guard",
+      "dutch": "Royal Guard",
+      "english": "Royal Guard",
+      "finnish": "Kuninkaan kaarti",
+      "french": "Garde royal",
+      "german": "Königliche Garde",
+      "greek": "Royal Guard",
+      "hungarian": "Királyi Gárda",
+      "indonesian": "Royal Guard",
+      "italian": "Royal Guard",
+      "japanese": "Royal Guard",
+      "koreana": "로얄 가드",
+      "latam": "Guardia real",
+      "norwegian": "Royal Guard",
+      "polish": "Straż królewska",
+      "portuguese": "Royal Guard",
+      "romanian": "Royal Guard",
+      "russian": "Королевский страж",
+      "schinese": "皇家卫队",
+      "schinese_pw": "Royal Guard",
+      "spanish": "Guardia real",
+      "swedish": "Royal Guard",
+      "tchinese": "皇家衛隊",
+      "thai": "Royal Guard",
+      "turkish": "Kraliyet Muhafızı",
+      "ukrainian": "Королівська охорона",
+      "vietnamese": "Royal Guard"
+    },
+    "name": "Royal Guard",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-1217",
+  "localized_names": {
+    "brazilian": "USP-S | Guarda Real",
+    "bulgarian": "USP-S | Кралска гвардия",
+    "czech": "USP-S | Royal Guard",
+    "danish": "USP-S | Royal Guard",
+    "dutch": "USP-S | Royal Guard",
+    "english": "USP-S | Royal Guard",
+    "finnish": "USP-S | Kuninkaan kaarti",
+    "french": "USP-S | Garde royal",
+    "german": "USP-S | Königliche Garde",
+    "greek": "USP-S | Royal Guard",
+    "hungarian": "USP-S | Királyi Gárda",
+    "indonesian": "USP-S | Royal Guard",
+    "italian": "USP-S | Royal Guard",
+    "japanese": "USP-S | Royal Guard",
+    "koreana": "USP-S | 로얄 가드",
+    "latam": "USP-S | Guardia real",
+    "norwegian": "USP-S | Royal Guard",
+    "polish": "USP-S | Straż królewska",
+    "portuguese": "USP-S | Royal Guard",
+    "romanian": "USP-S | Royal Guard",
+    "russian": "USP-S | Королевский страж",
+    "schinese": "USP消音版 | 皇家卫队",
+    "schinese_pw": "USP-S | Royal Guard",
+    "spanish": "USP-S | Guardia real",
+    "swedish": "USP-S | Royal Guard",
+    "tchinese": "USP-S | 皇家衛隊",
+    "thai": "USP-S | Royal Guard",
+    "turkish": "USP-S | Kraliyet Muhafızı",
+    "ukrainian": "УСП-С | Королівська охорона",
+    "vietnamese": "USP-S | Royal Guard"
+  },
+  "media": {
+    "asset_id": "skin__61-1217",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-1217/light.png",
+      "data/api/media/rendered/files/skins/61-1217/medium.png",
+      "data/api/media/rendered/files/skins/61-1217/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-1217.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-1217/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-1217/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-1217/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-1217/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_soe_blue_and_gold_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_soe_blue_and_gold_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_soe_blue_and_gold_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Royal Guard",
+  "search_slug": "usp-s-royal-guard",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_cool",
+        "name": "The Ascent Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-1217__normal__battle-scarred",
+    "61-1217__normal__factory-new",
+    "61-1217__normal__field-tested",
+    "61-1217__normal__minimal-wear",
+    "61-1217__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

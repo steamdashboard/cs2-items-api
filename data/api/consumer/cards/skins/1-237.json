@@ -1,0 +1,284 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 237,
+    "id": 237,
+    "localized_names": {
+      "brazilian": "Pedras Urbanas",
+      "bulgarian": "Градски отломки",
+      "czech": "Urban Rubble",
+      "danish": "Urban Rubble",
+      "dutch": "Urban Rubble",
+      "english": "Urban Rubble",
+      "finnish": "Kaupungin rauniot",
+      "french": "Décombres urbain",
+      "german": "Städtischer Schutt",
+      "greek": "Urban Rubble",
+      "hungarian": "Városi Törmelék",
+      "indonesian": "Urban Rubble",
+      "italian": "Urban Rubble",
+      "japanese": "Urban Rubble",
+      "koreana": "도시의 돌무더기",
+      "latam": "Camuflaje urbano",
+      "norwegian": "Urban Rubble",
+      "polish": "Miejski gruz",
+      "portuguese": "Urban Rubble",
+      "romanian": "Urban Rubble",
+      "russian": "Городской щебень",
+      "schinese": "都市瓦砾",
+      "schinese_pw": "Urban Rubble",
+      "spanish": "Camuflaje urbano",
+      "swedish": "Urban Rubble",
+      "tchinese": "都市瓦礫",
+      "thai": "Urban Rubble",
+      "turkish": "Yıkıntı Şehir",
+      "ukrainian": "Міський щебінь",
+      "vietnamese": "Urban Rubble"
+    },
+    "name": "Urban Rubble",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-237",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Pedras Urbanas",
+    "bulgarian": "Desert Eagle | Градски отломки",
+    "czech": "Desert Eagle | Urban Rubble",
+    "danish": "Desert Eagle | Urban Rubble",
+    "dutch": "Desert Eagle | Urban Rubble",
+    "english": "Desert Eagle | Urban Rubble",
+    "finnish": "Desert Eagle | Kaupungin rauniot",
+    "french": "Desert Eagle | Décombres urbain",
+    "german": "Desert Eagle | Städtischer Schutt",
+    "greek": "Desert Eagle | Urban Rubble",
+    "hungarian": "Desert Eagle | Városi Törmelék",
+    "indonesian": "Desert Eagle | Urban Rubble",
+    "italian": "Desert Eagle | Urban Rubble",
+    "japanese": "Desert Eagle | Urban Rubble",
+    "koreana": "데저트 이글 | 도시의 돌무더기",
+    "latam": "Desert Eagle | Camuflaje urbano",
+    "norwegian": "Desert Eagle | Urban Rubble",
+    "polish": "Desert Eagle | Miejski gruz",
+    "portuguese": "Desert Eagle | Urban Rubble",
+    "romanian": "Desert Eagle | Urban Rubble",
+    "russian": "Desert Eagle | Городской щебень",
+    "schinese": "沙漠之鹰 | 都市瓦砾",
+    "schinese_pw": "Desert Eagle | Urban Rubble",
+    "spanish": "Desert Eagle | Camuflaje urbano",
+    "swedish": "Desert Eagle | Urban Rubble",
+    "tchinese": "Desert Eagle | 都市瓦礫",
+    "thai": "Desert Eagle | Urban Rubble",
+    "turkish": "Desert Eagle | Yıkıntı Şehir",
+    "ukrainian": "Пустельний орел | Міський щебінь",
+    "vietnamese": "Desert Eagle | Urban Rubble"
+  },
+  "media": {
+    "asset_id": "skin__1-237",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-237/light.png",
+      "data/api/media/rendered/files/skins/1-237/medium.png",
+      "data/api/media/rendered/files/skins/1-237/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-237.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-237/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-237/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-237/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-237/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Urban Rubble",
+  "search_slug": "desert-eagle-urban-rubble",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train",
+        "name": "The Train Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4137",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4182",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4231",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4279",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4349",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4401",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4468",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4545",
+        "kind": "souvenir-package",
+        "name": "London 2018 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4595",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4664",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Train Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "1-237__normal__battle-scarred",
+    "1-237__normal__factory-new",
+    "1-237__normal__field-tested",
+    "1-237__normal__minimal-wear",
+    "1-237__normal__well-worn",
+    "1-237__souvenir__battle-scarred",
+    "1-237__souvenir__factory-new",
+    "1-237__souvenir__field-tested",
+    "1-237__souvenir__minimal-wear",
+    "1-237__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "hy_overpass_tagged_teal",
+    "id": 152,
+    "name": "Teal Graf",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 152,
+    "weapon_id": 4
+  },
+  "id": "4-152",
+  "name": "Glock-18 | Teal Graf",
+  "search_slug": "glock-18-teal-graf",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_overpass_2024",
+        "name": "The Overpass 2024 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5221",
+        "kind": "container",
+        "name": "Budapest 2025 Overpass Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "4-152__normal__factory-new",
+    "4-152__normal__minimal-wear",
+    "4-152__normal__field-tested",
+    "4-152__normal__well-worn",
+    "4-152__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_glock",
+    "id": 4,
+    "name": "Glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

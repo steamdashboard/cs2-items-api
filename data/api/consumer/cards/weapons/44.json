@@ -1,0 +1,62 @@
+{
+  "card_type": "weapon",
+  "description": "The high explosive fragmentation grenade administers high damage through a wide area, making it ideal for clearing out hostile rooms.",
+  "id": 44,
+  "localized_names": {
+    "brazilian": "Granada Explosiva",
+    "bulgarian": "Експлозивна граната",
+    "czech": "Výbušný granát",
+    "danish": "Højeksplosiv granat",
+    "dutch": "HE-granaat",
+    "english": "High Explosive Grenade",
+    "finnish": "HE-kranaatti",
+    "french": "Grenade explosive",
+    "german": "Splittergranate",
+    "greek": "Χειροβομβίδα",
+    "hungarian": "Robbanógránát",
+    "indonesian": "Granat HE",
+    "italian": "Granata ad alto esplosivo",
+    "japanese": "HE グレネード",
+    "koreana": "고폭 수류탄",
+    "latam": "Granada AE",
+    "norwegian": "Høyeksplosiv granat",
+    "polish": "Granat zaczepny",
+    "portuguese": "Granada HE",
+    "romanian": "Grenadă explozivă",
+    "russian": "Осколочная граната",
+    "schinese": "高爆手雷",
+    "schinese_pw": "High Explosive Grenade",
+    "spanish": "Granada AE",
+    "swedish": "Högexplosiv granat",
+    "tchinese": "高爆手榴彈",
+    "thai": "ระเบิดมือแรงสูง",
+    "turkish": "El Bombası",
+    "ukrainian": "Осколкова граната",
+    "vietnamese": "Lựu đạn nổ"
+  },
+  "media": {
+    "asset_id": "weapon__44",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/44/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/44.json",
+    "models": [
+      "weapons/models/grenade/hegrenade/weapon_hegrenade.vmdl_c",
+      "phase2/weapons/models/grenade/hegrenade/weapon_hegrenade_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/44/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.vtex_c"
+  },
+  "name": "High Explosive Grenade",
+  "regular_skin_ids": [],
+  "search_slug": "high-explosive-grenade",
+  "side": null,
+  "special_pool_ids": [],
+  "supports_vanilla": false,
+  "type_name": "Grenade",
+  "weapon_group": "other-weapon"
+}

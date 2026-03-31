@@ -1,0 +1,33 @@
+{
+  "card_type": "weapon",
+  "description": "The Molotov is a powerful and unpredictable area denial weapon that bursts into flames when thrown on the ground, injuring any player in its radius.",
+  "id": 46,
+  "localized_names": {
+    "english": "weapon_molotov"
+  },
+  "media": {
+    "asset_id": "weapon__46",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_molotov_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/46/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/46.json",
+    "models": [
+      "weapons/models/grenade/molotov/weapon_molotov.vmdl_c",
+      "phase2/weapons/models/grenade/molotov/weapon_molotov_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/46/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_molotov_png.vtex_c"
+  },
+  "name": "weapon_molotov",
+  "regular_skin_ids": [],
+  "search_slug": "weapon-molotov",
+  "side": null,
+  "special_pool_ids": [],
+  "supports_vanilla": false,
+  "type_name": "Grenade",
+  "weapon_group": "other-weapon"
+}

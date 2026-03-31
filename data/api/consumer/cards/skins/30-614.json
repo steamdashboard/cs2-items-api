@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 614,
+    "id": 614,
+    "localized_names": {
+      "brazilian": "Bomba de Combustível",
+      "bulgarian": "Инжекцион",
+      "czech": "Fuel Injector",
+      "danish": "Fuel Injector",
+      "dutch": "Fuel Injector",
+      "english": "Fuel Injector",
+      "finnish": "Polttoaine",
+      "french": "Circuit d'injection",
+      "german": "Kraftstoffeinspritzung",
+      "greek": "Fuel Injector",
+      "hungarian": "Üzemanyag-befecskendező",
+      "indonesian": "Fuel Injector",
+      "italian": "Fuel Injector",
+      "japanese": "Fuel Injector",
+      "koreana": "연료 분사기",
+      "latam": "Bujía inyectora",
+      "norwegian": "Fuel Injector",
+      "polish": "Wtrysk paliwa",
+      "portuguese": "Fuel Injector",
+      "romanian": "Fuel Injector",
+      "russian": "Топливный инжектор",
+      "schinese": "燃料喷射器",
+      "schinese_pw": "Fuel Injector",
+      "spanish": "Bujía inyectora",
+      "swedish": "Fuel Injector",
+      "tchinese": "油槍",
+      "thai": "Fuel Injector",
+      "turkish": "Yakıt Enjektörü",
+      "ukrainian": "Паливний інжектор",
+      "vietnamese": "Fuel Injector"
+    },
+    "name": "Fuel Injector",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-614",
+  "localized_names": {
+    "brazilian": "Tec-9 | Bomba de Combustível",
+    "bulgarian": "Tec-9 | Инжекцион",
+    "czech": "Tec-9 | Fuel Injector",
+    "danish": "Tec-9 | Fuel Injector",
+    "dutch": "Tec-9 | Fuel Injector",
+    "english": "Tec-9 | Fuel Injector",
+    "finnish": "Tec-9 | Polttoaine",
+    "french": "Tec-9 | Circuit d'injection",
+    "german": "Tec-9 | Kraftstoffeinspritzung",
+    "greek": "Tec-9 | Fuel Injector",
+    "hungarian": "Tec-9 | Üzemanyag-befecskendező",
+    "indonesian": "Tec-9 | Fuel Injector",
+    "italian": "Tec-9 | Fuel Injector",
+    "japanese": "Tec-9 | Fuel Injector",
+    "koreana": "Tec-9 | 연료 분사기",
+    "latam": "Tec-9 | Bujía inyectora",
+    "norwegian": "Tec-9 | Fuel Injector",
+    "polish": "Tec-9 | Wtrysk paliwa",
+    "portuguese": "Tec-9 | Fuel Injector",
+    "romanian": "Tec-9 | Fuel Injector",
+    "russian": "Tec-9 | Топливный инжектор",
+    "schinese": "Tec-9 | 燃料喷射器",
+    "schinese_pw": "Tec-9 | Fuel Injector",
+    "spanish": "Tec-9 | Bujía inyectora",
+    "swedish": "Tec-9 | Fuel Injector",
+    "tchinese": "Tec-9 | 油槍",
+    "thai": "Tec-9 | Fuel Injector",
+    "turkish": "Tec-9 | Yakıt Enjektörü",
+    "ukrainian": "ТЕК-9 | Паливний інжектор",
+    "vietnamese": "Tec-9 | Fuel Injector"
+  },
+  "media": {
+    "asset_id": "skin__30-614",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-614/light.png",
+      "data/api/media/rendered/files/skins/30-614/medium.png",
+      "data/api/media/rendered/files/skins/30-614/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-614.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-614/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-614/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-614/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-614/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_gs_tec9_supercharged_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_gs_tec9_supercharged_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_gs_tec9_supercharged_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Fuel Injector",
+  "search_slug": "tec-9-fuel-injector",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4281",
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_gamma_2",
+        "name": "set_gamma_2"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-614__normal__battle-scarred",
+    "30-614__normal__factory-new",
+    "30-614__normal__field-tested",
+    "30-614__normal__minimal-wear",
+    "30-614__normal__well-worn",
+    "30-614__stattrak__battle-scarred",
+    "30-614__stattrak__factory-new",
+    "30-614__stattrak__field-tested",
+    "30-614__stattrak__minimal-wear",
+    "30-614__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

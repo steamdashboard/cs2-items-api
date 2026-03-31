@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 675,
+    "id": 675,
+    "localized_names": {
+      "brazilian": "A Imperatriz",
+      "bulgarian": "Императрицата",
+      "czech": "Empress",
+      "danish": "The Empress",
+      "dutch": "The Empress",
+      "english": "The Empress",
+      "finnish": "Keisarinna",
+      "french": "Impératrice",
+      "german": "Die Herrscherin",
+      "greek": "The Empress",
+      "hungarian": "A Császárnő",
+      "indonesian": "The Empress",
+      "italian": "The Empress",
+      "japanese": "The Empress",
+      "koreana": "여제",
+      "latam": "La emperatriz",
+      "norwegian": "The Empress",
+      "polish": "Cesarzowa",
+      "portuguese": "The Empress",
+      "romanian": "The Empress",
+      "russian": "Императрица",
+      "schinese": "皇后",
+      "schinese_pw": "The Empress",
+      "spanish": "Emperatriz",
+      "swedish": "The Empress",
+      "tchinese": "女皇",
+      "thai": "The Empress",
+      "turkish": "İmparatoriçe",
+      "ukrainian": "Імператриця",
+      "vietnamese": "The Empress"
+    },
+    "name": "The Empress",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-675",
+  "localized_names": {
+    "brazilian": "AK-47 | A Imperatriz",
+    "bulgarian": "AK-47 | Императрицата",
+    "czech": "AK-47 | Empress",
+    "danish": "AK-47 | The Empress",
+    "dutch": "AK-47 | The Empress",
+    "english": "AK-47 | The Empress",
+    "finnish": "AK-47 | Keisarinna",
+    "french": "AK-47 | Impératrice",
+    "german": "AK-47 | Die Herrscherin",
+    "greek": "AK-47 | The Empress",
+    "hungarian": "AK-47 | A Császárnő",
+    "indonesian": "AK-47 | The Empress",
+    "italian": "AK-47 | The Empress",
+    "japanese": "AK-47 | The Empress",
+    "koreana": "AK-47 | 여제",
+    "latam": "AK-47 | La emperatriz",
+    "norwegian": "AK-47 | The Empress",
+    "polish": "AK-47 | Cesarzowa",
+    "portuguese": "AK-47 | The Empress",
+    "romanian": "AK-47 | The Empress",
+    "russian": "AK-47 | Императрица",
+    "schinese": "AK-47 | 皇后",
+    "schinese_pw": "AK-47 | The Empress",
+    "spanish": "AK-47 | Emperatriz",
+    "swedish": "AK-47 | The Empress",
+    "tchinese": "AK-47 | 女皇",
+    "thai": "AK-47 | The Empress",
+    "turkish": "AK-47 | İmparatoriçe",
+    "ukrainian": "АК-47 | Імператриця",
+    "vietnamese": "AK-47 | The Empress"
+  },
+  "media": {
+    "asset_id": "skin__7-675",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-675/light.png",
+      "data/api/media/rendered/files/skins/7-675/medium.png",
+      "data/api/media/rendered/files/skins/7-675/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-675.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-675/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-675/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-675/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-675/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_empress_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_empress_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_empress_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | The Empress",
+  "search_slug": "ak-47-the-empress",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4403",
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_18",
+        "name": "The Spectrum 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-675__normal__battle-scarred",
+    "7-675__normal__factory-new",
+    "7-675__normal__field-tested",
+    "7-675__normal__minimal-wear",
+    "7-675__normal__well-worn",
+    "7-675__stattrak__battle-scarred",
+    "7-675__stattrak__factory-new",
+    "7-675__stattrak__field-tested",
+    "7-675__stattrak__minimal-wear",
+    "7-675__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1093,
+    "id": 1093,
+    "localized_names": {
+      "brazilian": "Protocolo de Impulso",
+      "bulgarian": "Протокол за подсилване",
+      "czech": "Boost Protocol",
+      "danish": "Boost Protocol",
+      "dutch": "Boost Protocol",
+      "english": "Boost Protocol",
+      "finnish": "Tehoprotokolla",
+      "french": "Protocole d'impulsion",
+      "german": "Boost-Protokoll",
+      "greek": "Boost Protocol",
+      "hungarian": "Erősítésprotokoll",
+      "indonesian": "Boost Protocol",
+      "italian": "Boost Protocol",
+      "japanese": "Boost Protocol",
+      "koreana": "부스트 프로토콜",
+      "latam": "Protocolo de impulso",
+      "norwegian": "Boost Protocol",
+      "polish": "Protokół wzmocnienia",
+      "portuguese": "Boost Protocol",
+      "romanian": "Boost Protocol",
+      "russian": "Протокол «Подъём»",
+      "schinese": "同步力场",
+      "schinese_pw": "Boost Protocol",
+      "spanish": "Protocolo de impulso",
+      "swedish": "Boost Protocol",
+      "tchinese": "強化協定",
+      "thai": "Boost Protocol",
+      "turkish": "Destekli Zıplama Protokolü",
+      "ukrainian": "Протокол посилення",
+      "vietnamese": "Boost Protocol"
+    },
+    "name": "Boost Protocol",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.41,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-1093",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Protocolo de Impulso",
+    "bulgarian": "Five-SeveN | Протокол за подсилване",
+    "czech": "Five-SeveN | Boost Protocol",
+    "danish": "Five-SeveN | Boost Protocol",
+    "dutch": "Five-SeveN | Boost Protocol",
+    "english": "Five-SeveN | Boost Protocol",
+    "finnish": "Five-SeveN | Tehoprotokolla",
+    "french": "Five-SeveN | Protocole d'impulsion",
+    "german": "Five-SeveN | Boost-Protokoll",
+    "greek": "Five-SeveN | Boost Protocol",
+    "hungarian": "Five-SeveN | Erősítésprotokoll",
+    "indonesian": "Five-SeveN | Boost Protocol",
+    "italian": "Five-SeveN | Boost Protocol",
+    "japanese": "Five-SeveN | Boost Protocol",
+    "koreana": "파이브 세븐 | 부스트 프로토콜",
+    "latam": "Five-SeveN | Protocolo de impulso",
+    "norwegian": "Five-SeveN | Boost Protocol",
+    "polish": "Five-SeveN | Protokół wzmocnienia",
+    "portuguese": "Five-SeveN | Boost Protocol",
+    "romanian": "Five-SeveN | Boost Protocol",
+    "russian": "Five-SeveN | Протокол «Подъём»",
+    "schinese": "FN57 | 同步力场",
+    "schinese_pw": "Five-SeveN | Boost Protocol",
+    "spanish": "Five-seveN | Protocolo de impulso",
+    "swedish": "Five-SeveN | Boost Protocol",
+    "tchinese": "Five-SeveN | 強化協定",
+    "thai": "Five-SeveN | Boost Protocol",
+    "turkish": "Five-SeveN | Destekli Zıplama Protokolü",
+    "ukrainian": "Five-seveN | Протокол посилення",
+    "vietnamese": "Five-SeveN | Boost Protocol"
+  },
+  "media": {
+    "asset_id": "skin__3-1093",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-1093/light.png",
+      "data/api/media/rendered/files/skins/3-1093/medium.png",
+      "data/api/media/rendered/files/skins/3-1093/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-1093.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-1093/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-1093/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-1093/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-1093/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_gs_five_seven_efusion_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_gs_five_seven_efusion_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_gs_five_seven_efusion_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Boost Protocol",
+  "search_slug": "five-seven-boost-protocol",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4790",
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_29",
+        "name": "The Operation Riptide Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-1093__normal__factory-new",
+    "3-1093__normal__field-tested",
+    "3-1093__normal__minimal-wear",
+    "3-1093__normal__well-worn",
+    "3-1093__stattrak__factory-new",
+    "3-1093__stattrak__field-tested",
+    "3-1093__stattrak__minimal-wear",
+    "3-1093__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.41,
+    "min_float": 0.0
+  }
+}

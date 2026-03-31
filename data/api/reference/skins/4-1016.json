@@ -1,0 +1,84 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "cu_money_glock",
+    "id": 1016,
+    "name": "Franklin",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 1016,
+    "weapon_id": 4
+  },
+  "id": "4-1016",
+  "name": "Glock-18 | Franklin",
+  "search_slug": "glock-18-franklin",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_op10_t",
+        "name": "The Havoc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4721",
+        "kind": "container",
+        "name": "The Havoc Collection",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "4-1016__normal__factory-new",
+    "4-1016__normal__minimal-wear",
+    "4-1016__normal__field-tested",
+    "4-1016__normal__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_glock",
+    "id": 4,
+    "name": "Glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

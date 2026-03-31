@@ -1,0 +1,59 @@
+{
+  "codename": "weapon_bayonet",
+  "entity_id": "500",
+  "entity_type": "weapon",
+  "id": "weapon__500",
+  "name": "Bayonet",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_bayonet.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_bayonet",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "30.0 -90.0 25.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "7.0 2.0 -1.5",
+      "override_default_light": "1",
+      "point_light_accent": {
+        "color": "0.5 0.5 0.5",
+        "position": "15 7 4"
+      },
+      "spot_light_key": {
+        "color": "1.5 1.55 1.6",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-60 90 60"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "0 -30 -120"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/knife/knife_bayonet/weapon_knife_bayonet_ag2.vmdl",
+    "model_player": "weapons/models/knife/knife_bayonet/weapon_knife_bayonet.vmdl",
+    "model_world": "weapons/models/knife/knife_bayonet/weapon_knife_bayonet.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/knife/knife_bayonet/weapon_knife_bayonet_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/knife/knife_bayonet/weapon_knife_bayonet.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/knife/knife_bayonet/weapon_knife_bayonet.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

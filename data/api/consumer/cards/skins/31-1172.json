@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1172,
+    "id": 1172,
+    "localized_names": {
+      "brazilian": "Olimpo",
+      "bulgarian": "Олимп",
+      "czech": "Olympus",
+      "danish": "Olympus",
+      "dutch": "Olympus",
+      "english": "Olympus",
+      "finnish": "Olympus",
+      "french": "Olympe",
+      "german": "Olymp",
+      "greek": "Olympus",
+      "hungarian": "Olümposz",
+      "indonesian": "Olympus",
+      "italian": "Olympus",
+      "japanese": "Olympus",
+      "koreana": "올림포스",
+      "latam": "Olimpo",
+      "norwegian": "Olympus",
+      "polish": "Olimp",
+      "portuguese": "Olympus",
+      "romanian": "Olympus",
+      "russian": "Олимп",
+      "schinese": "奥林匹斯",
+      "schinese_pw": "Olympus",
+      "spanish": "Olimpo",
+      "swedish": "Olympus",
+      "tchinese": "奧林帕斯",
+      "thai": "Olympus",
+      "turkish": "Olimpos",
+      "ukrainian": "Олімп",
+      "vietnamese": "Olympus"
+    },
+    "name": "Olympus",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.67,
+      "min_float": 0.0
+    }
+  },
+  "id": "31-1172",
+  "localized_names": {
+    "brazilian": "Zeus x27 | Olimpo",
+    "bulgarian": "Zeus x27 | Олимп",
+    "czech": "Zeus x27 | Olympus",
+    "danish": "Zeus x27 | Olympus",
+    "dutch": "Zeus x27 | Olympus",
+    "english": "Zeus x27 | Olympus",
+    "finnish": "Zeus x27 | Olympus",
+    "french": "Zeus x27 | Olympe",
+    "german": "Zeus x27 | Olymp",
+    "greek": "Zeus x27 | Olympus",
+    "hungarian": "Zeus x27 | Olümposz",
+    "indonesian": "Zeus x27 | Olympus",
+    "italian": "Zeus x27 | Olympus",
+    "japanese": "Zeus x27 | Olympus",
+    "koreana": "제우스 x27 | 올림포스",
+    "latam": "Zeus x27 | Olimpo",
+    "norwegian": "Zeus x27 | Olympus",
+    "polish": "Zeus x27 | Olimp",
+    "portuguese": "Zeus x27 | Olympus",
+    "romanian": "Zeus x27 | Olympus",
+    "russian": "Zeus x27 | Олимп",
+    "schinese": "宙斯x27电击枪 | 奥林匹斯",
+    "schinese_pw": "Zeus x27 | Olympus",
+    "spanish": "Zeus x27 | Olimpo",
+    "swedish": "Zeus x27 | Olympus",
+    "tchinese": "Zeus x27 | 奧林帕斯",
+    "thai": "Zeus x27 | Olympus",
+    "turkish": "Zeus x27 | Olimpos",
+    "ukrainian": "Зевс 27 | Олімп",
+    "vietnamese": "Zeus x27 | Olympus"
+  },
+  "media": {
+    "asset_id": "skin__31-1172",
+    "images_png": [
+      "data/api/media/rendered/files/skins/31-1172/light.png",
+      "data/api/media/rendered/files/skins/31-1172/medium.png",
+      "data/api/media/rendered/files/skins/31-1172/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/31-1172.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/31-1172/heavy.png",
+      "light": "data/api/media/rendered/files/skins/31-1172/light.png",
+      "medium": "data/api/media/rendered/files/skins/31-1172/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/31-1172/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_taser_zeus_thunder_god_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_taser_zeus_thunder_god_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_taser_zeus_thunder_god_medium_png.vtex_c"
+    }
+  },
+  "name": "Zeus x27 | Olympus",
+  "search_slug": "zeus-x27-olympus",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4904",
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_33",
+        "name": "The Kilowatt Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "31-1172__normal__battle-scarred",
+    "31-1172__normal__factory-new",
+    "31-1172__normal__field-tested",
+    "31-1172__normal__minimal-wear",
+    "31-1172__normal__well-worn",
+    "31-1172__stattrak__battle-scarred",
+    "31-1172__stattrak__factory-new",
+    "31-1172__stattrak__field-tested",
+    "31-1172__stattrak__minimal-wear",
+    "31-1172__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 31,
+    "localized_names": {
+      "brazilian": "Zeus x27",
+      "bulgarian": "Zeus x27",
+      "czech": "Zeus x27",
+      "danish": "Zeus x27",
+      "dutch": "Zeus x27",
+      "english": "Zeus x27",
+      "finnish": "Zeus x27",
+      "french": "Zeus x27",
+      "german": "Zeus x27",
+      "greek": "Zeus x27",
+      "hungarian": "Zeus x27",
+      "indonesian": "Zeus x27",
+      "italian": "Zeus x27",
+      "japanese": "Zeus x27",
+      "koreana": "제우스 x27",
+      "latam": "Zeus x27",
+      "norwegian": "Zeus x27",
+      "polish": "Zeus x27",
+      "portuguese": "Zeus x27",
+      "romanian": "Zeus x27",
+      "russian": "Zeus x27",
+      "schinese": "宙斯x27电击枪",
+      "schinese_pw": "Zeus x27",
+      "spanish": "Zeus x27",
+      "swedish": "Zeus x27",
+      "tchinese": "Zeus x27",
+      "thai": "Zeus x27",
+      "turkish": "Zeus x27",
+      "ukrainian": "Зевс 27",
+      "vietnamese": "Zeus x27"
+    },
+    "name": "Zeus x27",
+    "search_slug": "zeus-x27",
+    "weapon_group": "equipment"
+  },
+  "wear": {
+    "max_float": 0.67,
+    "min_float": 0.0
+  }
+}

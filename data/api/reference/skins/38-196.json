@@ -1,0 +1,60 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "an_emerald_bravo",
+    "id": 196,
+    "name": "Emerald",
+    "rarity_ref": null,
+    "style_code": 4
+  },
+  "game_ref": {
+    "paint_kit_id": 196,
+    "weapon_id": 38
+  },
+  "id": "38-196",
+  "name": "SCAR-20 | Emerald",
+  "search_slug": "scar-20-emerald",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_ii",
+        "name": "The Alpha Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "38-196__normal__factory-new",
+    "38-196__normal__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_scar20",
+    "id": 38,
+    "name": "SCAR-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

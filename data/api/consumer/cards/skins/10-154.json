@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 154,
+    "id": 154,
+    "localized_names": {
+      "brazilian": "Imagem Residual",
+      "bulgarian": "Послеобраз",
+      "czech": "Afterimage",
+      "danish": "Afterimage",
+      "dutch": "Afterimage",
+      "english": "Afterimage",
+      "finnish": "Jälkikuva",
+      "french": "Afterimage",
+      "german": "Nachbild",
+      "greek": "Afterimage",
+      "hungarian": "Utókép",
+      "indonesian": "Afterimage",
+      "italian": "Afterimage",
+      "japanese": "Afterimage",
+      "koreana": "잔상",
+      "latam": "Fosfeno",
+      "norwegian": "Afterimage",
+      "polish": "Powidok",
+      "portuguese": "Afterimage",
+      "romanian": "Afterimage",
+      "russian": "Остаточное изображение",
+      "schinese": "残影",
+      "schinese_pw": "Afterimage",
+      "spanish": "Fosfeno",
+      "swedish": "Afterimage",
+      "tchinese": "殘像",
+      "thai": "Afterimage",
+      "turkish": "Hayal Etkisi",
+      "ukrainian": "Післясвітло",
+      "vietnamese": "Afterimage"
+    },
+    "name": "Afterimage",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.02
+    }
+  },
+  "id": "10-154",
+  "localized_names": {
+    "brazilian": "FAMAS | Imagem Residual",
+    "bulgarian": "FAMAS | Послеобраз",
+    "czech": "FAMAS | Afterimage",
+    "danish": "FAMAS | Afterimage",
+    "dutch": "FAMAS | Afterimage",
+    "english": "FAMAS | Afterimage",
+    "finnish": "FAMAS | Jälkikuva",
+    "french": "FAMAS | Afterimage",
+    "german": "FAMAS | Nachbild",
+    "greek": "FAMAS | Afterimage",
+    "hungarian": "FAMAS | Utókép",
+    "indonesian": "FAMAS | Afterimage",
+    "italian": "FAMAS | Afterimage",
+    "japanese": "FAMAS | Afterimage",
+    "koreana": "파마스 | 잔상",
+    "latam": "FAMAS | Fosfeno",
+    "norwegian": "FAMAS | Afterimage",
+    "polish": "FAMAS | Powidok",
+    "portuguese": "FAMAS | Afterimage",
+    "romanian": "FAMAS | Afterimage",
+    "russian": "FAMAS | Остаточное изображение",
+    "schinese": "法玛斯 | 残影",
+    "schinese_pw": "FAMAS | Afterimage",
+    "spanish": "FAMAS | Fosfeno",
+    "swedish": "FAMAS | Afterimage",
+    "tchinese": "FAMAS | 殘像",
+    "thai": "FAMAS | Afterimage",
+    "turkish": "FAMAS | Hayal Etkisi",
+    "ukrainian": "ФАМАС | Післясвітло",
+    "vietnamese": "FAMAS | Afterimage"
+  },
+  "media": {
+    "asset_id": "skin__10-154",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-154/light.png",
+      "data/api/media/rendered/files/skins/10-154/medium.png",
+      "data/api/media/rendered/files/skins/10-154/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-154.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-154/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-154/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-154/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-154/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_cu_broken_path_famas_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_cu_broken_path_famas_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_cu_broken_path_famas_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Afterimage",
+  "search_slug": "famas-afterimage",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4005",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_ii",
+        "name": "The eSports 2013 Winter Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-154__normal__factory-new",
+    "10-154__normal__field-tested",
+    "10-154__normal__minimal-wear",
+    "10-154__normal__well-worn",
+    "10-154__stattrak__factory-new",
+    "10-154__stattrak__field-tested",
+    "10-154__stattrak__minimal-wear",
+    "10-154__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.02
+  }
+}

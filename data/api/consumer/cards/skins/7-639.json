@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 639,
+    "id": 639,
+    "localized_names": {
+      "brazilian": "Patrocínios",
+      "bulgarian": "Кървав спорт",
+      "czech": "Bloodsport",
+      "danish": "Bloodsport",
+      "dutch": "Bloodsport",
+      "english": "Bloodsport",
+      "finnish": "Verivala",
+      "french": "Combat sanglant",
+      "german": "Blutsport",
+      "greek": "Bloodsport",
+      "hungarian": "Vérsport",
+      "indonesian": "Bloodsport",
+      "italian": "Bloodsport",
+      "japanese": "Bloodsport",
+      "koreana": "유혈 스포츠",
+      "latam": "Contacto sangriento",
+      "norwegian": "Bloodsport",
+      "polish": "Krwawy sport",
+      "portuguese": "Bloodsport",
+      "romanian": "Bloodsport",
+      "russian": "Кровавый спорт",
+      "schinese": "血腥运动",
+      "schinese_pw": "Bloodsport",
+      "spanish": "Contacto sangriento",
+      "swedish": "Bloodsport",
+      "tchinese": "血紅運動",
+      "thai": "Bloodsport",
+      "turkish": "Avcılık Sporu",
+      "ukrainian": "Кривавий спорт",
+      "vietnamese": "Bloodsport"
+    },
+    "name": "Bloodsport",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.45,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-639",
+  "localized_names": {
+    "brazilian": "AK-47 | Patrocínios",
+    "bulgarian": "AK-47 | Кървав спорт",
+    "czech": "AK-47 | Bloodsport",
+    "danish": "AK-47 | Bloodsport",
+    "dutch": "AK-47 | Bloodsport",
+    "english": "AK-47 | Bloodsport",
+    "finnish": "AK-47 | Verivala",
+    "french": "AK-47 | Combat sanglant",
+    "german": "AK-47 | Blutsport",
+    "greek": "AK-47 | Bloodsport",
+    "hungarian": "AK-47 | Vérsport",
+    "indonesian": "AK-47 | Bloodsport",
+    "italian": "AK-47 | Bloodsport",
+    "japanese": "AK-47 | Bloodsport",
+    "koreana": "AK-47 | 유혈 스포츠",
+    "latam": "AK-47 | Contacto sangriento",
+    "norwegian": "AK-47 | Bloodsport",
+    "polish": "AK-47 | Krwawy sport",
+    "portuguese": "AK-47 | Bloodsport",
+    "romanian": "AK-47 | Bloodsport",
+    "russian": "AK-47 | Кровавый спорт",
+    "schinese": "AK-47 | 血腥运动",
+    "schinese_pw": "AK-47 | Bloodsport",
+    "spanish": "AK-47 | Contacto sangriento",
+    "swedish": "AK-47 | Bloodsport",
+    "tchinese": "AK-47 | 血紅運動",
+    "thai": "AK-47 | Bloodsport",
+    "turkish": "AK-47 | Avcılık Sporu",
+    "ukrainian": "АК-47 | Кривавий спорт",
+    "vietnamese": "AK-47 | Bloodsport"
+  },
+  "media": {
+    "asset_id": "skin__7-639",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-639/light.png",
+      "data/api/media/rendered/files/skins/7-639/medium.png",
+      "data/api/media/rendered/files/skins/7-639/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-639.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-639/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-639/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-639/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-639/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_bloodsport_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_bloodsport_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_bloodsport_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Bloodsport",
+  "search_slug": "ak-47-bloodsport",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4351",
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_16",
+        "name": "The Spectrum Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-639__normal__factory-new",
+    "7-639__normal__field-tested",
+    "7-639__normal__minimal-wear",
+    "7-639__normal__well-worn",
+    "7-639__stattrak__factory-new",
+    "7-639__stattrak__field-tested",
+    "7-639__stattrak__minimal-wear",
+    "7-639__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.45,
+    "min_float": 0.0
+  }
+}

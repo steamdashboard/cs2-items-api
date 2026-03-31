@@ -1,0 +1,265 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 326,
+    "id": 326,
+    "localized_names": {
+      "brazilian": "Cavaleiro",
+      "bulgarian": "Рицар",
+      "czech": "Knight",
+      "danish": "Knight",
+      "dutch": "Knight",
+      "english": "Knight",
+      "finnish": "Ritari",
+      "french": "Chevalier",
+      "german": "Ritter",
+      "greek": "Knight",
+      "hungarian": "Lovag",
+      "indonesian": "Knight",
+      "italian": "Knight",
+      "japanese": "Knight",
+      "koreana": "기사",
+      "latam": "Caballero",
+      "norwegian": "Knight",
+      "polish": "Rycerz",
+      "portuguese": "Knight",
+      "romanian": "Knight",
+      "russian": "Рыцарь",
+      "schinese": "骑士",
+      "schinese_pw": "Knight",
+      "spanish": "Caballero",
+      "swedish": "Knight",
+      "tchinese": "騎士",
+      "thai": "Knight",
+      "turkish": "Şövalye",
+      "ukrainian": "Лицар",
+      "vietnamese": "Knight"
+    },
+    "name": "Knight",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.1,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-326",
+  "localized_names": {
+    "brazilian": "M4A1-S | Cavaleiro",
+    "bulgarian": "M4A1-S | Рицар",
+    "czech": "M4A1-S | Knight",
+    "danish": "M4A1-S | Knight",
+    "dutch": "M4A1-S | Knight",
+    "english": "M4A1-S | Knight",
+    "finnish": "M4A1-S | Ritari",
+    "french": "M4A1-S | Chevalier",
+    "german": "M4A1-S | Ritter",
+    "greek": "M4A1-S | Knight",
+    "hungarian": "M4A1-S | Lovag",
+    "indonesian": "M4A1-S | Knight",
+    "italian": "M4A1-S | Knight",
+    "japanese": "M4A1-S | Knight",
+    "koreana": "M4A1-S | 기사",
+    "latam": "M4A1-S | Caballero",
+    "norwegian": "M4A1-S | Knight",
+    "polish": "M4A1-S | Rycerz",
+    "portuguese": "M4A1-S | Knight",
+    "romanian": "M4A1-S | Knight",
+    "russian": "M4A1-S | Рыцарь",
+    "schinese": "M4A1消音版 | 骑士",
+    "schinese_pw": "M4A1-S | Knight",
+    "spanish": "M4A1-S | Caballero",
+    "swedish": "M4A1-S | Knight",
+    "tchinese": "M4A1-S | 騎士",
+    "thai": "M4A1-S | Knight",
+    "turkish": "M4A1-S | Şövalye",
+    "ukrainian": "М4А1-С | Лицар",
+    "vietnamese": "M4A1-S | Knight"
+  },
+  "media": {
+    "asset_id": "skin__60-326",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-326/light.png",
+      "data/api/media/rendered/files/skins/60-326/medium.png",
+      "data/api/media/rendered/files/skins/60-326/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-326.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-326/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-326/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-326/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-326/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_am_metals_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_am_metals_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_am_metals_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Knight",
+  "search_slug": "m4a1-s-knight",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cobblestone",
+        "name": "The Cobblestone Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4602",
+        "kind": "container",
+        "name": "The Cobblestone Collection",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4027",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4036",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4084",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4134",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4179",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4228",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4276",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4346",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4398",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4465",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "variant_ids": [
+    "60-326__normal__factory-new",
+    "60-326__normal__minimal-wear",
+    "60-326__souvenir__factory-new",
+    "60-326__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.1,
+    "min_float": 0.0
+  }
+}

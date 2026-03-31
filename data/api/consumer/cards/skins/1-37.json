@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 37,
+    "id": 37,
+    "localized_names": {
+      "brazilian": "Chamas",
+      "bulgarian": "Лумване",
+      "czech": "Blaze",
+      "danish": "Blaze",
+      "dutch": "Blaze",
+      "english": "Blaze",
+      "finnish": "Roihu",
+      "french": "Flamme",
+      "german": "Großbrand",
+      "greek": "Blaze",
+      "hungarian": "Lángoló",
+      "indonesian": "Blaze",
+      "italian": "Blaze",
+      "japanese": "Blaze",
+      "koreana": "주홍 불길",
+      "latam": "Llamarada",
+      "norwegian": "Blaze",
+      "polish": "Żar",
+      "portuguese": "Blaze",
+      "romanian": "Blaze",
+      "russian": "Пламя",
+      "schinese": "炽烈之炎",
+      "schinese_pw": "Blaze",
+      "spanish": "Llamarada",
+      "swedish": "Blaze",
+      "tchinese": "熱焰",
+      "thai": "Blaze",
+      "turkish": "Alev",
+      "ukrainian": "Полум’я",
+      "vietnamese": "Blaze"
+    },
+    "name": "Blaze",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-37",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Chamas",
+    "bulgarian": "Desert Eagle | Лумване",
+    "czech": "Desert Eagle | Blaze",
+    "danish": "Desert Eagle | Blaze",
+    "dutch": "Desert Eagle | Blaze",
+    "english": "Desert Eagle | Blaze",
+    "finnish": "Desert Eagle | Roihu",
+    "french": "Desert Eagle | Flamme",
+    "german": "Desert Eagle | Großbrand",
+    "greek": "Desert Eagle | Blaze",
+    "hungarian": "Desert Eagle | Lángoló",
+    "indonesian": "Desert Eagle | Blaze",
+    "italian": "Desert Eagle | Blaze",
+    "japanese": "Desert Eagle | Blaze",
+    "koreana": "데저트 이글 | 주홍 불길",
+    "latam": "Desert Eagle | Llamarada",
+    "norwegian": "Desert Eagle | Blaze",
+    "polish": "Desert Eagle | Żar",
+    "portuguese": "Desert Eagle | Blaze",
+    "romanian": "Desert Eagle | Blaze",
+    "russian": "Desert Eagle | Пламя",
+    "schinese": "沙漠之鹰 | 炽烈之炎",
+    "schinese_pw": "Desert Eagle | Blaze",
+    "spanish": "Desert Eagle | Llamarada",
+    "swedish": "Desert Eagle | Blaze",
+    "tchinese": "Desert Eagle | 熱焰",
+    "thai": "Desert Eagle | Blaze",
+    "turkish": "Desert Eagle | Alev",
+    "ukrainian": "Пустельний орел | Полум’я",
+    "vietnamese": "Desert Eagle | Blaze"
+  },
+  "media": {
+    "asset_id": "skin__1-37",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-37/light.png",
+      "data/api/media/rendered/files/skins/1-37/medium.png",
+      "data/api/media/rendered/files/skins/1-37/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-37.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-37/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-37/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-37/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-37/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_aa_flames_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_aa_flames_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_aa_flames_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Blaze",
+  "search_slug": "desert-eagle-blaze",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust",
+        "name": "The Dust Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-37__normal__factory-new",
+    "1-37__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

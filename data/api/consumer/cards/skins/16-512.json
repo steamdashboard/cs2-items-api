@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 512,
+    "id": 512,
+    "localized_names": {
+      "brazilian": "Paladino Real",
+      "bulgarian": "Кралски паладин",
+      "czech": "Royal Paladin",
+      "danish": "Royal Paladin",
+      "dutch": "Royal Paladin",
+      "english": "Royal Paladin",
+      "finnish": "Ruhtinaallinen",
+      "french": "Paladin royal",
+      "german": "Königlicher Paladin",
+      "greek": "Royal Paladin",
+      "hungarian": "Királyi Lovag",
+      "indonesian": "Royal Paladin",
+      "italian": "Royal Paladin",
+      "japanese": "Royal Paladin",
+      "koreana": "왕실 기사",
+      "latam": "Paladín real",
+      "norwegian": "Royal Paladin",
+      "polish": "Królewski paladyn",
+      "portuguese": "Royal Paladin",
+      "romanian": "Royal Paladin",
+      "russian": "Преданный паладин",
+      "schinese": "皇家圣骑士",
+      "schinese_pw": "Royal Paladin",
+      "spanish": "Paladín real",
+      "swedish": "Royal Paladin",
+      "tchinese": "皇家聖騎士",
+      "thai": "Royal Paladin",
+      "turkish": "Asil Paladin",
+      "ukrainian": "Величний Паладін",
+      "vietnamese": "Royal Paladin"
+    },
+    "name": "Royal Paladin",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "16-512",
+  "localized_names": {
+    "brazilian": "M4A4 | Paladino Real",
+    "bulgarian": "M4A4 | Кралски паладин",
+    "czech": "M4A4 | Royal Paladin",
+    "danish": "M4A4 | Royal Paladin",
+    "dutch": "M4A4 | Royal Paladin",
+    "english": "M4A4 | Royal Paladin",
+    "finnish": "M4A4 | Ruhtinaallinen",
+    "french": "M4A4 | Paladin royal",
+    "german": "M4A4 | Königlicher Paladin",
+    "greek": "M4A4 | Royal Paladin",
+    "hungarian": "M4A4 | Királyi Lovag",
+    "indonesian": "M4A4 | Royal Paladin",
+    "italian": "M4A4 | Royal Paladin",
+    "japanese": "M4A4 | Royal Paladin",
+    "koreana": "M4A4 | 왕실 기사",
+    "latam": "M4A4 | Paladín real",
+    "norwegian": "M4A4 | Royal Paladin",
+    "polish": "M4A4 | Królewski paladyn",
+    "portuguese": "M4A4 | Royal Paladin",
+    "romanian": "M4A4 | Royal Paladin",
+    "russian": "M4A4 | Преданный паладин",
+    "schinese": "M4A4 | 皇家圣骑士",
+    "schinese_pw": "M4A4 | Royal Paladin",
+    "spanish": "M4A4 | Paladín real",
+    "swedish": "M4A4 | Royal Paladin",
+    "tchinese": "M4A4 | 皇家聖騎士",
+    "thai": "M4A4 | Royal Paladin",
+    "turkish": "M4A4 | Asil Paladin",
+    "ukrainian": "М4А4 | Величний Паладін",
+    "vietnamese": "M4A4 | Royal Paladin"
+  },
+  "media": {
+    "asset_id": "skin__16-512",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-512/light.png",
+      "data/api/media/rendered/files/skins/16-512/medium.png",
+      "data/api/media/rendered/files/skins/16-512/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-512.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-512/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-512/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-512/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-512/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_gs_m4a4_royal_squire_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_gs_m4a4_royal_squire_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_gs_m4a4_royal_squire_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Royal Paladin",
+  "search_slug": "m4a4-royal-paladin",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "16-512__normal__battle-scarred",
+    "16-512__normal__factory-new",
+    "16-512__normal__field-tested",
+    "16-512__normal__minimal-wear",
+    "16-512__normal__well-worn",
+    "16-512__stattrak__battle-scarred",
+    "16-512__stattrak__factory-new",
+    "16-512__stattrak__field-tested",
+    "16-512__stattrak__minimal-wear",
+    "16-512__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

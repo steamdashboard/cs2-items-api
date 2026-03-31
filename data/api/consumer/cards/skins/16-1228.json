@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1228,
+    "id": 1228,
+    "localized_names": {
+      "brazilian": "Temukau",
+      "bulgarian": "Темукау",
+      "czech": "Temukau",
+      "danish": "Temukau",
+      "dutch": "Temukau",
+      "english": "Temukau",
+      "finnish": "Temukau",
+      "french": "Temukau",
+      "german": "Temukau",
+      "greek": "Temukau",
+      "hungarian": "Temukau",
+      "indonesian": "Temukau",
+      "italian": "Temukau",
+      "japanese": "Temukau",
+      "koreana": "테무카우",
+      "latam": "Temukau",
+      "norwegian": "Temukau",
+      "polish": "Temukau",
+      "portuguese": "Temukau",
+      "romanian": "Temukau",
+      "russian": "Темукау",
+      "schinese": "反冲精英",
+      "schinese_pw": "Temukau",
+      "spanish": "Temukau",
+      "swedish": "Temukau",
+      "tchinese": "反抗",
+      "thai": "Temukau",
+      "turkish": "Temukau",
+      "ukrainian": "Темукау",
+      "vietnamese": "Temukau"
+    },
+    "name": "Temukau",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "16-1228",
+  "localized_names": {
+    "brazilian": "M4A4 | Temukau",
+    "bulgarian": "M4A4 | Темукау",
+    "czech": "M4A4 | Temukau",
+    "danish": "M4A4 | Temukau",
+    "dutch": "M4A4 | Temukau",
+    "english": "M4A4 | Temukau",
+    "finnish": "M4A4 | Temukau",
+    "french": "M4A4 | Temukau",
+    "german": "M4A4 | Temukau",
+    "greek": "M4A4 | Temukau",
+    "hungarian": "M4A4 | Temukau",
+    "indonesian": "M4A4 | Temukau",
+    "italian": "M4A4 | Temukau",
+    "japanese": "M4A4 | Temukau",
+    "koreana": "M4A4 | 테무카우",
+    "latam": "M4A4 | Temukau",
+    "norwegian": "M4A4 | Temukau",
+    "polish": "M4A4 | Temukau",
+    "portuguese": "M4A4 | Temukau",
+    "romanian": "M4A4 | Temukau",
+    "russian": "M4A4 | Темукау",
+    "schinese": "M4A4 | 反冲精英",
+    "schinese_pw": "M4A4 | Temukau",
+    "spanish": "M4A4 | Temukau",
+    "swedish": "M4A4 | Temukau",
+    "tchinese": "M4A4 | 反抗",
+    "thai": "M4A4 | Temukau",
+    "turkish": "M4A4 | Temukau",
+    "ukrainian": "М4А4 | Темукау",
+    "vietnamese": "M4A4 | Temukau"
+  },
+  "media": {
+    "asset_id": "skin__16-1228",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-1228/light.png",
+      "data/api/media/rendered/files/skins/16-1228/medium.png",
+      "data/api/media/rendered/files/skins/16-1228/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-1228.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-1228/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-1228/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-1228/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-1228/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_temukau_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_temukau_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_temukau_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Temukau",
+  "search_slug": "m4a4-temukau",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4880",
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_32",
+        "name": "The Revolution Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "16-1228__normal__battle-scarred",
+    "16-1228__normal__factory-new",
+    "16-1228__normal__field-tested",
+    "16-1228__normal__minimal-wear",
+    "16-1228__normal__well-worn",
+    "16-1228__stattrak__battle-scarred",
+    "16-1228__stattrak__factory-new",
+    "16-1228__stattrak__field-tested",
+    "16-1228__stattrak__minimal-wear",
+    "16-1228__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

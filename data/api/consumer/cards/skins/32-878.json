@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 878,
+    "id": 878,
+    "localized_names": {
+      "brazilian": "Meio-Tom de Coral",
+      "bulgarian": "Полутоново коралово",
+      "czech": "Coral Halftone",
+      "danish": "Coral Halftone",
+      "dutch": "Coral Halftone",
+      "english": "Coral Halftone",
+      "finnish": "Himmeä koralli",
+      "french": "Corail en demi-teinte",
+      "german": "Korallenrotes Halbtonmuster",
+      "greek": "Coral Halftone",
+      "hungarian": "Halvány Korall",
+      "indonesian": "Coral Halftone",
+      "italian": "Coral Halftone",
+      "japanese": "Coral Halftone",
+      "koreana": "코랄 하프톤",
+      "latam": "Semitono coral",
+      "norwegian": "Coral Halftone",
+      "polish": "Koralowy półton",
+      "portuguese": "Coral Halftone",
+      "romanian": "Coral Halftone",
+      "russian": "Коралловые полутона",
+      "schinese": "珊瑚半调",
+      "schinese_pw": "Coral Halftone",
+      "spanish": "Semitono coral",
+      "swedish": "Coral Halftone",
+      "tchinese": "珊瑚半色調",
+      "thai": "Coral Halftone",
+      "turkish": "Ara Ton Mercan",
+      "ukrainian": "Кораловий півтон",
+      "vietnamese": "Coral Halftone"
+    },
+    "name": "Coral Halftone",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.52,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-878",
+  "localized_names": {
+    "brazilian": "P2000 | Meio-Tom de Coral",
+    "bulgarian": "P2000 | Полутоново коралово",
+    "czech": "P2000 | Coral Halftone",
+    "danish": "P2000 | Coral Halftone",
+    "dutch": "P2000 | Coral Halftone",
+    "english": "P2000 | Coral Halftone",
+    "finnish": "P2000 | Himmeä koralli",
+    "french": "P2000 | Corail en demi-teinte",
+    "german": "P2000 | Korallenrotes Halbtonmuster",
+    "greek": "P2000 | Coral Halftone",
+    "hungarian": "P2000 | Halvány Korall",
+    "indonesian": "P2000 | Coral Halftone",
+    "italian": "P2000 | Coral Halftone",
+    "japanese": "P2000 | Coral Halftone",
+    "koreana": "P2000 | 코랄 하프톤",
+    "latam": "P2000 | Semitono coral",
+    "norwegian": "P2000 | Coral Halftone",
+    "polish": "P2000 | Koralowy półton",
+    "portuguese": "P2000 | Coral Halftone",
+    "romanian": "P2000 | Coral Halftone",
+    "russian": "P2000 | Коралловые полутона",
+    "schinese": "P2000 | 珊瑚半调",
+    "schinese_pw": "P2000 | Coral Halftone",
+    "spanish": "P2000 | Semitono coral",
+    "swedish": "P2000 | Coral Halftone",
+    "tchinese": "P2000 | 珊瑚半色調",
+    "thai": "P2000 | Coral Halftone",
+    "turkish": "P2000 | Ara Ton Mercan",
+    "ukrainian": "П2000 | Кораловий півтон",
+    "vietnamese": "P2000 | Coral Halftone"
+  },
+  "media": {
+    "asset_id": "skin__32-878",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-878/light.png",
+      "data/api/media/rendered/files/skins/32-878/medium.png",
+      "data/api/media/rendered/files/skins/32-878/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-878.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-878/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-878/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-878/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-878/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_ht_facet_p2000_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_ht_facet_p2000_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_ht_facet_p2000_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Coral Halftone",
+  "search_slug": "p2000-coral-halftone",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_graphic_design",
+        "name": "The Graphic Design Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "32-878__normal__battle-scarred",
+    "32-878__normal__factory-new",
+    "32-878__normal__field-tested",
+    "32-878__normal__minimal-wear",
+    "32-878__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.52,
+    "min_float": 0.0
+  }
+}

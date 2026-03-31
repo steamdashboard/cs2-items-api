@@ -1,0 +1,33 @@
+{
+  "card_type": "weapon",
+  "description": "When thrown, the decoy grenade emulates the sound of the most powerful weapon you are carrying, creating the illusion of additional supporting forces.",
+  "id": 47,
+  "localized_names": {
+    "english": "weapon_decoy"
+  },
+  "media": {
+    "asset_id": "weapon__47",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_decoy_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/47/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/47.json",
+    "models": [
+      "weapons/models/grenade/decoy/weapon_decoy.vmdl_c",
+      "phase2/weapons/models/grenade/decoy/weapon_decoy_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/47/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_decoy_png.vtex_c"
+  },
+  "name": "weapon_decoy",
+  "regular_skin_ids": [],
+  "search_slug": "weapon-decoy",
+  "side": null,
+  "special_pool_ids": [],
+  "supports_vanilla": false,
+  "type_name": "Grenade",
+  "weapon_group": "other-weapon"
+}

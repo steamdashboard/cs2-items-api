@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 291,
+    "id": 291,
+    "localized_names": {
+      "brazilian": "Guarda Celestial",
+      "bulgarian": "Небесен пазител",
+      "czech": "Heaven Guard",
+      "danish": "Heaven Guard",
+      "dutch": "Heaven Guard",
+      "english": "Heaven Guard",
+      "finnish": "Taivaanvartija",
+      "french": "Ange gardien",
+      "german": "Himmelsgarde",
+      "greek": "Heaven Guard",
+      "hungarian": "Mennyei Őr",
+      "indonesian": "Heaven Guard",
+      "italian": "Heaven Guard",
+      "japanese": "Heaven Guard",
+      "koreana": "수호천사",
+      "latam": "Ángel de la guarda",
+      "norwegian": "Heaven Guard",
+      "polish": "Strażnik niebios",
+      "portuguese": "Heaven Guard",
+      "romanian": "Heaven Guard",
+      "russian": "Райский страж",
+      "schinese": "天空守卫",
+      "schinese_pw": "Heaven Guard",
+      "spanish": "Ángel de la guarda",
+      "swedish": "Heaven Guard",
+      "tchinese": "天國守衛",
+      "thai": "Heaven Guard",
+      "turkish": "Gökyüzü Muhafızı",
+      "ukrainian": "Небесний вартовий",
+      "vietnamese": "Heaven Guard"
+    },
+    "name": "Heaven Guard",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-291",
+  "localized_names": {
+    "brazilian": "MAG-7 | Guarda Celestial",
+    "bulgarian": "MAG-7 | Небесен пазител",
+    "czech": "MAG-7 | Heaven Guard",
+    "danish": "MAG-7 | Heaven Guard",
+    "dutch": "MAG-7 | Heaven Guard",
+    "english": "MAG-7 | Heaven Guard",
+    "finnish": "MAG-7 | Taivaanvartija",
+    "french": "MAG-7 | Ange gardien",
+    "german": "MAG-7 | Himmelsgarde",
+    "greek": "MAG-7 | Heaven Guard",
+    "hungarian": "MAG-7 | Mennyei Őr",
+    "indonesian": "MAG-7 | Heaven Guard",
+    "italian": "MAG-7 | Heaven Guard",
+    "japanese": "MAG-7 | Heaven Guard",
+    "koreana": "MAG-7 | 수호천사",
+    "latam": "MAG-7 | Ángel de la guarda",
+    "norwegian": "MAG-7 | Heaven Guard",
+    "polish": "MAG-7 | Strażnik niebios",
+    "portuguese": "MAG-7 | Heaven Guard",
+    "romanian": "MAG-7 | Heaven Guard",
+    "russian": "MAG-7 | Райский страж",
+    "schinese": "MAG-7 | 天空守卫",
+    "schinese_pw": "MAG-7 | Heaven Guard",
+    "spanish": "MAG-7 | Ángel de la guarda",
+    "swedish": "MAG-7 | Heaven Guard",
+    "tchinese": "MAG-7 | 天國守衛",
+    "thai": "MAG-7 | Heaven Guard",
+    "turkish": "MAG-7 | Gökyüzü Muhafızı",
+    "ukrainian": "МАГ-7 | Небесний вартовий",
+    "vietnamese": "MAG-7 | Heaven Guard"
+  },
+  "media": {
+    "asset_id": "skin__27-291",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-291/light.png",
+      "data/api/media/rendered/files/skins/27-291/medium.png",
+      "data/api/media/rendered/files/skins/27-291/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-291.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-291/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-291/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-291/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-291/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_cu_mag7_heaven_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_cu_mag7_heaven_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_cu_mag7_heaven_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Heaven Guard",
+  "search_slug": "mag-7-heaven-guard",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4011",
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_2",
+        "name": "The Phoenix Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "27-291__normal__factory-new",
+    "27-291__normal__field-tested",
+    "27-291__normal__minimal-wear",
+    "27-291__normal__well-worn",
+    "27-291__stattrak__factory-new",
+    "27-291__stattrak__field-tested",
+    "27-291__stattrak__minimal-wear",
+    "27-291__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

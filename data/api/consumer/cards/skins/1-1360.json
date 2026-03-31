@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1360,
+    "id": 1360,
+    "localized_names": {
+      "brazilian": "Deagle Diária",
+      "bulgarian": "„Дейли Дийгъл“",
+      "czech": "Daily Deagle",
+      "danish": "The Daily Deagle",
+      "dutch": "The Daily Deagle",
+      "english": "The Daily Deagle",
+      "finnish": "Deaglen Sanomat",
+      "french": "Le Daily Deagle",
+      "german": "Tägliche Deagle-Dosis",
+      "greek": "The Daily Deagle",
+      "hungarian": "Napi Deagle",
+      "indonesian": "The Daily Deagle",
+      "italian": "The Daily Deagle",
+      "japanese": "The Daily Deagle",
+      "koreana": "데일리 데저트 이글",
+      "latam": "La Deagle diaria",
+      "norwegian": "The Daily Deagle",
+      "polish": "Deagle Codzienny",
+      "portuguese": "The Daily Deagle",
+      "romanian": "The Daily Deagle",
+      "russian": "«Дейли Дигл»",
+      "schinese": "每日鹰爆",
+      "schinese_pw": "The Daily Deagle",
+      "spanish": "La Deagle diaria",
+      "swedish": "The Daily Deagle",
+      "tchinese": "沙漠之鷹日報",
+      "thai": "The Daily Deagle",
+      "turkish": "Daily Deagle",
+      "ukrainian": "Буденний «Орел»",
+      "vietnamese": "The Daily Deagle"
+    },
+    "name": "The Daily Deagle",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.58,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-1360",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Deagle Diária",
+    "bulgarian": "Desert Eagle | „Дейли Дийгъл“",
+    "czech": "Desert Eagle | Daily Deagle",
+    "danish": "Desert Eagle | The Daily Deagle",
+    "dutch": "Desert Eagle | The Daily Deagle",
+    "english": "Desert Eagle | The Daily Deagle",
+    "finnish": "Desert Eagle | Deaglen Sanomat",
+    "french": "Desert Eagle | Le Daily Deagle",
+    "german": "Desert Eagle | Tägliche Deagle-Dosis",
+    "greek": "Desert Eagle | The Daily Deagle",
+    "hungarian": "Desert Eagle | Napi Deagle",
+    "indonesian": "Desert Eagle | The Daily Deagle",
+    "italian": "Desert Eagle | The Daily Deagle",
+    "japanese": "Desert Eagle | The Daily Deagle",
+    "koreana": "데저트 이글 | 데일리 데저트 이글",
+    "latam": "Desert Eagle | La Deagle diaria",
+    "norwegian": "Desert Eagle | The Daily Deagle",
+    "polish": "Desert Eagle | Deagle Codzienny",
+    "portuguese": "Desert Eagle | The Daily Deagle",
+    "romanian": "Desert Eagle | The Daily Deagle",
+    "russian": "Desert Eagle | «Дейли Дигл»",
+    "schinese": "沙漠之鹰 | 每日鹰爆",
+    "schinese_pw": "Desert Eagle | The Daily Deagle",
+    "spanish": "Desert Eagle | La Deagle diaria",
+    "swedish": "Desert Eagle | The Daily Deagle",
+    "tchinese": "Desert Eagle | 沙漠之鷹日報",
+    "thai": "Desert Eagle | The Daily Deagle",
+    "turkish": "Desert Eagle | Daily Deagle",
+    "ukrainian": "Пустельний орел | Буденний «Орел»",
+    "vietnamese": "Desert Eagle | The Daily Deagle"
+  },
+  "media": {
+    "asset_id": "skin__1-1360",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-1360/light.png",
+      "data/api/media/rendered/files/skins/1-1360/medium.png",
+      "data/api/media/rendered/files/skins/1-1360/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-1360.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-1360/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-1360/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-1360/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-1360/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_hye_car_wrap_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_hye_car_wrap_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_hye_car_wrap_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | The Daily Deagle",
+  "search_slug": "desert-eagle-the-daily-deagle",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_achroma",
+        "name": "The Achroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-1360__normal__battle-scarred",
+    "1-1360__normal__factory-new",
+    "1-1360__normal__field-tested",
+    "1-1360__normal__minimal-wear",
+    "1-1360__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.58,
+    "min_float": 0.0
+  }
+}

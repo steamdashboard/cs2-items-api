@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 915,
+    "id": 915,
+    "localized_names": {
+      "brazilian": "Agente",
+      "bulgarian": "Агент",
+      "czech": "Agent",
+      "danish": "Agent",
+      "dutch": "Agent",
+      "english": "Agent",
+      "finnish": "Agentti",
+      "french": "Agent",
+      "german": "Agent",
+      "greek": "Πράκτορας",
+      "hungarian": "Ügynök",
+      "indonesian": "Agent",
+      "italian": "Agent",
+      "japanese": "Agent",
+      "koreana": "요원",
+      "latam": "Agente",
+      "norwegian": "Agent",
+      "polish": "Agent",
+      "portuguese": "Agent",
+      "romanian": "Agent",
+      "russian": "Агент",
+      "schinese": "探员",
+      "schinese_pw": "Agent",
+      "spanish": "Agente",
+      "swedish": "Agent",
+      "tchinese": "幹員",
+      "thai": "Agent",
+      "turkish": "Ajan",
+      "ukrainian": "Агент",
+      "vietnamese": "Agent"
+    },
+    "name": "Agent",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "23-915",
+  "localized_names": {
+    "brazilian": "MP5-SD | Agente",
+    "bulgarian": "MP5-SD | Агент",
+    "czech": "MP5-SD | Agent",
+    "danish": "MP5-SD | Agent",
+    "dutch": "MP5-SD | Agent",
+    "english": "MP5-SD | Agent",
+    "finnish": "MP5-SD | Agentti",
+    "french": "MP5SD | Agent",
+    "german": "MP5-SD | Agent",
+    "greek": "MP5-SD | Πράκτορας",
+    "hungarian": "MP5-SD | Ügynök",
+    "indonesian": "MP5-SD | Agent",
+    "italian": "MP5-SD | Agent",
+    "japanese": "MP5-SD | Agent",
+    "koreana": "MP5-SD | 요원",
+    "latam": "MP5-SD | Agente",
+    "norwegian": "MP5-SD | Agent",
+    "polish": "MP5-SD | Agent",
+    "portuguese": "MP5-SD | Agent",
+    "romanian": "MP5-SD | Agent",
+    "russian": "MP5-SD | Агент",
+    "schinese": "MP5-SD | 探员",
+    "schinese_pw": "MP5-SD | Agent",
+    "spanish": "MP5-SD | Agente",
+    "swedish": "MP5-SD | Agent",
+    "tchinese": "MP5-SD | 幹員",
+    "thai": "MP5-SD | Agent",
+    "turkish": "MP5-SD | Ajan",
+    "ukrainian": "МП5-СД | Агент",
+    "vietnamese": "MP5-SD | Agent"
+  },
+  "media": {
+    "asset_id": "skin__23-915",
+    "images_png": [
+      "data/api/media/rendered/files/skins/23-915/light.png",
+      "data/api/media/rendered/files/skins/23-915/medium.png",
+      "data/api/media/rendered/files/skins/23-915/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/23-915.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/23-915/heavy.png",
+      "light": "data/api/media/rendered/files/skins/23-915/light.png",
+      "medium": "data/api/media/rendered/files/skins/23-915/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/23-915/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp5sd_gs_mp5_fbi_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp5sd_gs_mp5_fbi_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp5sd_gs_mp5_fbi_medium_png.vtex_c"
+    }
+  },
+  "name": "MP5-SD | Agent",
+  "search_slug": "mp5-sd-agent",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4669",
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_24",
+        "name": "The CS20 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "23-915__normal__battle-scarred",
+    "23-915__normal__factory-new",
+    "23-915__normal__field-tested",
+    "23-915__normal__minimal-wear",
+    "23-915__normal__well-worn",
+    "23-915__stattrak__battle-scarred",
+    "23-915__stattrak__factory-new",
+    "23-915__stattrak__field-tested",
+    "23-915__stattrak__minimal-wear",
+    "23-915__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 23,
+    "localized_names": {
+      "brazilian": "MP5-SD",
+      "bulgarian": "MP5-SD",
+      "czech": "MP5-SD",
+      "danish": "MP5-SD",
+      "dutch": "MP5-SD",
+      "english": "MP5-SD",
+      "finnish": "MP5-SD",
+      "french": "MP5SD",
+      "german": "MP5-SD",
+      "greek": "MP5-SD",
+      "hungarian": "MP5-SD",
+      "indonesian": "MP5-SD",
+      "italian": "MP5-SD",
+      "japanese": "MP5-SD",
+      "koreana": "MP5-SD",
+      "latam": "MP5-SD",
+      "norwegian": "MP5-SD",
+      "polish": "MP5-SD",
+      "portuguese": "MP5-SD",
+      "romanian": "MP5-SD",
+      "russian": "MP5-SD",
+      "schinese": "MP5-SD",
+      "schinese_pw": "MP5-SD",
+      "spanish": "MP5-SD",
+      "swedish": "MP5-SD",
+      "tchinese": "MP5-SD",
+      "thai": "MP5-SD",
+      "turkish": "MP5-SD",
+      "ukrainian": "МП5-СД",
+      "vietnamese": "MP5-SD"
+    },
+    "name": "MP5-SD",
+    "search_slug": "mp5-sd",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

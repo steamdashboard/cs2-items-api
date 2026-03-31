@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1143,
+    "id": 1143,
+    "localized_names": {
+      "brazilian": "Gelo Compacto",
+      "bulgarian": "Ледникови въглища",
+      "czech": "Ice Coaled",
+      "danish": "Ice Coaled",
+      "dutch": "Ice Coaled",
+      "english": "Ice Coaled",
+      "finnish": "Jäähiiltynyt",
+      "french": "Glagla",
+      "german": "Eisgekohlt",
+      "greek": "Ice Coaled",
+      "hungarian": "Beállt Jég",
+      "indonesian": "Ice Coaled",
+      "italian": "Ice Coaled",
+      "japanese": "Ice Coaled",
+      "koreana": "아이스",
+      "latam": "Hielo Seco",
+      "norwegian": "Ice Coaled",
+      "polish": "Zimny gradient",
+      "portuguese": "Ice Coaled",
+      "romanian": "Ice Coaled",
+      "russian": "Ледяной уголь",
+      "schinese": "可燃冰",
+      "schinese_pw": "Ice Coaled",
+      "spanish": "Hielo carbonizado",
+      "swedish": "Ice Coaled",
+      "tchinese": "極度寒冰",
+      "thai": "Ice Coaled",
+      "turkish": "Buz Kaplamalı",
+      "ukrainian": "Крижане вугілля",
+      "vietnamese": "Ice Coaled"
+    },
+    "name": "Ice Coaled",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.77,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-1143",
+  "localized_names": {
+    "brazilian": "AK-47 | Gelo Compacto",
+    "bulgarian": "AK-47 | Ледникови въглища",
+    "czech": "AK-47 | Ice Coaled",
+    "danish": "AK-47 | Ice Coaled",
+    "dutch": "AK-47 | Ice Coaled",
+    "english": "AK-47 | Ice Coaled",
+    "finnish": "AK-47 | Jäähiiltynyt",
+    "french": "AK-47 | Glagla",
+    "german": "AK-47 | Eisgekohlt",
+    "greek": "AK-47 | Ice Coaled",
+    "hungarian": "AK-47 | Beállt Jég",
+    "indonesian": "AK-47 | Ice Coaled",
+    "italian": "AK-47 | Ice Coaled",
+    "japanese": "AK-47 | Ice Coaled",
+    "koreana": "AK-47 | 아이스",
+    "latam": "AK-47 | Hielo Seco",
+    "norwegian": "AK-47 | Ice Coaled",
+    "polish": "AK-47 | Zimny gradient",
+    "portuguese": "AK-47 | Ice Coaled",
+    "romanian": "AK-47 | Ice Coaled",
+    "russian": "AK-47 | Ледяной уголь",
+    "schinese": "AK-47 | 可燃冰",
+    "schinese_pw": "AK-47 | Ice Coaled",
+    "spanish": "AK-47 | Hielo carbonizado",
+    "swedish": "AK-47 | Ice Coaled",
+    "tchinese": "AK-47 | 極度寒冰",
+    "thai": "AK-47 | Ice Coaled",
+    "turkish": "AK-47 | Buz Kaplamalı",
+    "ukrainian": "АК-47 | Крижане вугілля",
+    "vietnamese": "AK-47 | Ice Coaled"
+  },
+  "media": {
+    "asset_id": "skin__7-1143",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-1143/light.png",
+      "data/api/media/rendered/files/skins/7-1143/medium.png",
+      "data/api/media/rendered/files/skins/7-1143/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-1143.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-1143/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-1143/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-1143/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-1143/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_cogthings_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_cogthings_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_cogthings_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Ice Coaled",
+  "search_slug": "ak-47-ice-coaled",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4846",
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_31",
+        "name": "The Recoil Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-1143__normal__battle-scarred",
+    "7-1143__normal__factory-new",
+    "7-1143__normal__field-tested",
+    "7-1143__normal__minimal-wear",
+    "7-1143__normal__well-worn",
+    "7-1143__stattrak__battle-scarred",
+    "7-1143__stattrak__factory-new",
+    "7-1143__stattrak__field-tested",
+    "7-1143__stattrak__minimal-wear",
+    "7-1143__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.77,
+    "min_float": 0.0
+  }
+}

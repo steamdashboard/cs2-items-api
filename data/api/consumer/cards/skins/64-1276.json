@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1276,
+    "id": 1276,
+    "localized_names": {
+      "brazilian": "Cabo Cobáltico",
+      "bulgarian": "Кобалтов захват",
+      "czech": "Cobalt Grip",
+      "danish": "Cobalt Grip",
+      "dutch": "Cobalt Grip",
+      "english": "Cobalt Grip",
+      "finnish": "Kobolttikahva",
+      "french": "Poignée cobalt",
+      "german": "Kobaltblauer Griff",
+      "greek": "Cobalt Grip",
+      "hungarian": "Kobalt Markolat",
+      "indonesian": "Cobalt Grip",
+      "italian": "Cobalt Grip",
+      "japanese": "Cobalt Grip",
+      "koreana": "코발트 그립",
+      "latam": "Empuñadura de cobalto",
+      "norwegian": "Cobalt Grip",
+      "polish": "Kobaltowy chwyt",
+      "portuguese": "Cobalt Grip",
+      "romanian": "Cobalt Grip",
+      "russian": "Кобальтовая рукоять",
+      "schinese": "钴蓝握把",
+      "schinese_pw": "Cobalt Grip",
+      "spanish": "Empuñadura de cobalto",
+      "swedish": "Cobalt Grip",
+      "tchinese": "鈷藍握把",
+      "thai": "Cobalt Grip",
+      "turkish": "Kobalt Kabza",
+      "ukrainian": "Руків’я з кобальту",
+      "vietnamese": "Cobalt Grip"
+    },
+    "name": "Cobalt Grip",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.80339,
+      "min_float": 0.0
+    }
+  },
+  "id": "64-1276",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Cabo Cobáltico",
+    "bulgarian": "Револвер R8 | Кобалтов захват",
+    "czech": "Revolver R8 | Cobalt Grip",
+    "danish": "R8-revolver | Cobalt Grip",
+    "dutch": "R8-revolver | Cobalt Grip",
+    "english": "R8 Revolver | Cobalt Grip",
+    "finnish": "R8-revolveri | Kobolttikahva",
+    "french": "Révolver R8 | Poignée cobalt",
+    "german": "R8-Revolver | Kobaltblauer Griff",
+    "greek": "R8 Revolver | Cobalt Grip",
+    "hungarian": "R8 revolver | Kobalt Markolat",
+    "indonesian": "R8 Revolver | Cobalt Grip",
+    "italian": "Revolver R8 | Cobalt Grip",
+    "japanese": "R8 Revolver | Cobalt Grip",
+    "koreana": "R8 리볼버 | 코발트 그립",
+    "latam": "Revólver R8 | Empuñadura de cobalto",
+    "norwegian": "R8 Revolver | Cobalt Grip",
+    "polish": "Rewolwer R8 | Kobaltowy chwyt",
+    "portuguese": "R8 Revolver | Cobalt Grip",
+    "romanian": "Revolver R8 | Cobalt Grip",
+    "russian": "Револьвер R8 | Кобальтовая рукоять",
+    "schinese": "R8左轮手枪 | 钴蓝握把",
+    "schinese_pw": "R8 Revolver | Cobalt Grip",
+    "spanish": "Revólver R8 | Empuñadura de cobalto",
+    "swedish": "R8 Revolver | Cobalt Grip",
+    "tchinese": "R8 Revolver | 鈷藍握把",
+    "thai": "ปืนลูกโม่ R8 | Cobalt Grip",
+    "turkish": "R8 Revolver | Kobalt Kabza",
+    "ukrainian": "Револьвер Р8 | Руків’я з кобальту",
+    "vietnamese": "Súng lục R8 | Cobalt Grip"
+  },
+  "media": {
+    "asset_id": "skin__64-1276",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-1276/light.png",
+      "data/api/media/rendered/files/skins/64-1276/medium.png",
+      "data/api/media/rendered/files/skins/64-1276/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-1276.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-1276/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-1276/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-1276/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-1276/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_soch_indigo_grips_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_soch_indigo_grips_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_soch_indigo_grips_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Cobalt Grip",
+  "search_slug": "r8-revolver-cobalt-grip",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_cool",
+        "name": "The Ascent Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-1276__normal__battle-scarred",
+    "64-1276__normal__factory-new",
+    "64-1276__normal__field-tested",
+    "64-1276__normal__minimal-wear",
+    "64-1276__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.80339,
+    "min_float": 0.0
+  }
+}

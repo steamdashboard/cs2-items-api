@@ -1,0 +1,59 @@
+{
+  "description": "",
+  "description_token": "#CSGO_set_assault_desc",
+  "display_name": "The Assault Collection",
+  "display_name_token": "#CSGO_set_assault",
+  "game_id": "set_assault",
+  "id": "set_assault",
+  "items": [
+    {
+      "entry": "[so_caramel]weapon_ump45",
+      "target": "weapon_ump45",
+      "token": "so_caramel"
+    },
+    {
+      "entry": "[so_tornado]weapon_sg556",
+      "target": "weapon_sg556",
+      "token": "so_tornado"
+    },
+    {
+      "entry": "[so_red]weapon_fiveseven",
+      "target": "weapon_fiveseven",
+      "token": "so_red"
+    },
+    {
+      "entry": "[an_navy]weapon_negev",
+      "target": "weapon_negev",
+      "token": "an_navy"
+    },
+    {
+      "entry": "[an_red]weapon_aug",
+      "target": "weapon_aug",
+      "token": "an_red"
+    },
+    {
+      "entry": "[aa_fade]weapon_glock",
+      "target": "weapon_glock",
+      "token": "aa_fade"
+    },
+    {
+      "entry": "[so_yellow]weapon_mp9",
+      "target": "weapon_mp9",
+      "token": "so_yellow"
+    }
+  ],
+  "resolved": {
+    "is_collection": "1",
+    "items": {
+      "[aa_fade]weapon_glock": "1",
+      "[an_navy]weapon_negev": "1",
+      "[an_red]weapon_aug": "1",
+      "[so_caramel]weapon_ump45": "1",
+      "[so_red]weapon_fiveseven": "1",
+      "[so_tornado]weapon_sg556": "1",
+      "[so_yellow]weapon_mp9": "1"
+    },
+    "name": "#CSGO_set_assault",
+    "set_description": "#CSGO_set_assault_desc"
+  }
+}

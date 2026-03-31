@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 685,
+    "id": 685,
+    "localized_names": {
+      "brazilian": "Turbilhão da Selva",
+      "bulgarian": "Въздушен поток в джунглата",
+      "czech": "Jungle Slipstream",
+      "danish": "Jungle Slipstream",
+      "dutch": "Jungle Slipstream",
+      "english": "Jungle Slipstream",
+      "finnish": "Matalikko",
+      "french": "Sillage de la jungle",
+      "german": "Dschungel-Windschatten",
+      "greek": "Jungle Slipstream",
+      "hungarian": "Őserdei Suhanás",
+      "indonesian": "Jungle Slipstream",
+      "italian": "Jungle Slipstream",
+      "japanese": "Jungle Slipstream",
+      "koreana": "정글 질주",
+      "latam": "Estela selvática",
+      "norwegian": "Jungle Slipstream",
+      "polish": "Tropikalny cień",
+      "portuguese": "Jungle Slipstream",
+      "romanian": "Jungle Slipstream",
+      "russian": "Шквал джунглей",
+      "schinese": "丛林滑流",
+      "schinese_pw": "Jungle Slipstream",
+      "spanish": "Estela selvática",
+      "swedish": "Jungle Slipstream",
+      "tchinese": "叢林滑流",
+      "thai": "Jungle Slipstream",
+      "turkish": "Orman Rüzgarı",
+      "ukrainian": "Атмосфера джунглів",
+      "vietnamese": "Jungle Slipstream"
+    },
+    "name": "Jungle Slipstream",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "38-685",
+  "localized_names": {
+    "brazilian": "SCAR-20 | Turbilhão da Selva",
+    "bulgarian": "SCAR-20 | Въздушен поток в джунглата",
+    "czech": "SCAR-20 | Jungle Slipstream",
+    "danish": "SCAR-20 | Jungle Slipstream",
+    "dutch": "SCAR-20 | Jungle Slipstream",
+    "english": "SCAR-20 | Jungle Slipstream",
+    "finnish": "SCAR-20 | Matalikko",
+    "french": "SCAR-20 | Sillage de la jungle",
+    "german": "SCAR-20 | Dschungel-Windschatten",
+    "greek": "SCAR-20 | Jungle Slipstream",
+    "hungarian": "SCAR-20 | Őserdei Suhanás",
+    "indonesian": "SCAR-20 | Jungle Slipstream",
+    "italian": "SCAR-20 | Jungle Slipstream",
+    "japanese": "SCAR-20 | Jungle Slipstream",
+    "koreana": "SCAR-20 | 정글 질주",
+    "latam": "SCAR-20 | Estela selvática",
+    "norwegian": "SCAR-20 | Jungle Slipstream",
+    "polish": "SCAR-20 | Tropikalny cień",
+    "portuguese": "SCAR-20 | Jungle Slipstream",
+    "romanian": "SCAR-20 | Jungle Slipstream",
+    "russian": "SCAR-20 | Шквал джунглей",
+    "schinese": "SCAR-20 | 丛林滑流",
+    "schinese_pw": "SCAR-20 | Jungle Slipstream",
+    "spanish": "SCAR-20 | Estela selvática",
+    "swedish": "SCAR-20 | Jungle Slipstream",
+    "tchinese": "SCAR-20 | 叢林滑流",
+    "thai": "SCAR-20 | Jungle Slipstream",
+    "turkish": "SCAR-20 | Orman Rüzgarı",
+    "ukrainian": "СКАР-20 | Атмосфера джунглів",
+    "vietnamese": "SCAR-20 | Jungle Slipstream"
+  },
+  "media": {
+    "asset_id": "skin__38-685",
+    "images_png": [
+      "data/api/media/rendered/files/skins/38-685/light.png",
+      "data/api/media/rendered/files/skins/38-685/medium.png",
+      "data/api/media/rendered/files/skins/38-685/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/38-685.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/38-685/heavy.png",
+      "light": "data/api/media/rendered/files/skins/38-685/light.png",
+      "medium": "data/api/media/rendered/files/skins/38-685/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/38-685/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_scar20_hy_scar20_jungle_slipstream_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_scar20_hy_scar20_jungle_slipstream_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_scar20_hy_scar20_jungle_slipstream_medium_png.vtex_c"
+    }
+  },
+  "name": "SCAR-20 | Jungle Slipstream",
+  "search_slug": "scar-20-jungle-slipstream",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4403",
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_18",
+        "name": "The Spectrum 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "38-685__normal__battle-scarred",
+    "38-685__normal__factory-new",
+    "38-685__normal__field-tested",
+    "38-685__normal__minimal-wear",
+    "38-685__normal__well-worn",
+    "38-685__stattrak__battle-scarred",
+    "38-685__stattrak__factory-new",
+    "38-685__stattrak__field-tested",
+    "38-685__stattrak__minimal-wear",
+    "38-685__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 38,
+    "localized_names": {
+      "brazilian": "SCAR-20",
+      "bulgarian": "SCAR-20",
+      "czech": "SCAR-20",
+      "danish": "SCAR-20",
+      "dutch": "SCAR-20",
+      "english": "SCAR-20",
+      "finnish": "SCAR-20",
+      "french": "SCAR-20",
+      "german": "SCAR-20",
+      "greek": "SCAR-20",
+      "hungarian": "SCAR-20",
+      "indonesian": "SCAR-20",
+      "italian": "SCAR-20",
+      "japanese": "SCAR-20",
+      "koreana": "SCAR-20",
+      "latam": "SCAR-20",
+      "norwegian": "SCAR-20",
+      "polish": "SCAR-20",
+      "portuguese": "SCAR-20",
+      "romanian": "SCAR-20",
+      "russian": "SCAR-20",
+      "schinese": "SCAR-20",
+      "schinese_pw": "SCAR-20",
+      "spanish": "SCAR-20",
+      "swedish": "SCAR-20",
+      "tchinese": "SCAR-20",
+      "thai": "SCAR-20",
+      "turkish": "SCAR-20",
+      "ukrainian": "СКАР-20",
+      "vietnamese": "SCAR-20"
+    },
+    "name": "SCAR-20",
+    "search_slug": "scar-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_metals",
+    "id": 326,
+    "name": "Knight",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 326,
+    "weapon_id": 60
+  },
+  "id": "60-326",
+  "name": "M4A1-S | Knight",
+  "search_slug": "m4a1-s-knight",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_cobblestone",
+        "name": "The Cobblestone Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4027",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4036",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4084",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4134",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4179",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4228",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4276",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4346",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4398",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4465",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cobblestone Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4602",
+        "kind": "container",
+        "name": "The Cobblestone Collection",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "60-326__normal__factory-new",
+    "60-326__normal__minimal-wear",
+    "60-326__souvenir__factory-new",
+    "60-326__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_m4a1_silencer",
+    "id": 60,
+    "name": "M4A1-S",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.1,
+    "min_float": 0.0
+  }
+}

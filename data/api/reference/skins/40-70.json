@@ -1,0 +1,112 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_carbon_fiber",
+    "id": 70,
+    "name": "Carbon Fiber",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 70,
+    "weapon_id": 40
+  },
+  "id": "40-70",
+  "name": "SSG 08 | Carbon Fiber",
+  "search_slug": "ssg-08-carbon-fiber",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_vertigo_2021",
+        "name": "The 2021 Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4792",
+        "kind": "container",
+        "name": "The 2021 Vertigo Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4815",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4841",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4866",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4899",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4932",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4973",
+        "kind": "container",
+        "name": "Shanghai 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "40-70__normal__factory-new",
+    "40-70__normal__minimal-wear",
+    "40-70__souvenir__factory-new",
+    "40-70__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_ssg08",
+    "id": 40,
+    "name": "SSG 08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

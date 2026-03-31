@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_p250_axiom",
+    "id": 668,
+    "name": "Red Rock",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 668,
+    "weapon_id": 36
+  },
+  "id": "36-668",
+  "name": "P250 | Red Rock",
+  "search_slug": "p250-red-rock",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_17",
+        "name": "The Operation Hydra Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4352",
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "36-668__normal__factory-new",
+    "36-668__normal__minimal-wear",
+    "36-668__normal__field-tested",
+    "36-668__normal__well-worn",
+    "36-668__normal__battle-scarred",
+    "36-668__stattrak__factory-new",
+    "36-668__stattrak__minimal-wear",
+    "36-668__stattrak__field-tested",
+    "36-668__stattrak__well-worn",
+    "36-668__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_p250",
+    "id": 36,
+    "name": "P250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

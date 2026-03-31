@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1144,
+    "id": 1144,
+    "localized_names": {
+      "brazilian": "Aberração Cromática",
+      "bulgarian": "Хроматична аберация",
+      "czech": "Chromatic Aberration",
+      "danish": "Chromatic Aberration",
+      "dutch": "Chromatic Aberration",
+      "english": "Chromatic Aberration",
+      "finnish": "Värivääristymä",
+      "french": "Aberration chromatique",
+      "german": "Chromatische Aberration",
+      "greek": "Chromatic Aberration",
+      "hungarian": "Kromatikus Aberráció",
+      "indonesian": "Chromatic Aberration",
+      "italian": "Chromatic Aberration",
+      "japanese": "Chromatic Aberration",
+      "koreana": "크로마틱 에버레이션",
+      "latam": "Aberración cromática",
+      "norwegian": "Chromatic Aberration",
+      "polish": "Aberracja chromatyczna",
+      "portuguese": "Chromatic Aberration",
+      "romanian": "Chromatic Aberration",
+      "russian": "Хроматическая аберрация",
+      "schinese": "迷人眼",
+      "schinese_pw": "Chromatic Aberration",
+      "spanish": "Aberración cromática",
+      "swedish": "Chromatic Aberration",
+      "tchinese": "色差",
+      "thai": "Chromatic Aberration",
+      "turkish": "Renk Sapmaları",
+      "ukrainian": "Хроматична аберація",
+      "vietnamese": "Chromatic Aberration"
+    },
+    "name": "Chromatic Aberration",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-1144",
+  "localized_names": {
+    "brazilian": "AWP | Aberração Cromática",
+    "bulgarian": "AWP | Хроматична аберация",
+    "czech": "AWP | Chromatic Aberration",
+    "danish": "AWP | Chromatic Aberration",
+    "dutch": "AWP | Chromatic Aberration",
+    "english": "AWP | Chromatic Aberration",
+    "finnish": "AWP | Värivääristymä",
+    "french": "AWP | Aberration chromatique",
+    "german": "AWP | Chromatische Aberration",
+    "greek": "AWP | Chromatic Aberration",
+    "hungarian": "AWP | Kromatikus Aberráció",
+    "indonesian": "AWP | Chromatic Aberration",
+    "italian": "AWP | Chromatic Aberration",
+    "japanese": "AWP | Chromatic Aberration",
+    "koreana": "AWP | 크로마틱 에버레이션",
+    "latam": "AWP | Aberración cromática",
+    "norwegian": "AWP | Chromatic Aberration",
+    "polish": "AWP | Aberracja chromatyczna",
+    "portuguese": "AWP | Chromatic Aberration",
+    "romanian": "AWP | Chromatic Aberration",
+    "russian": "AWP | Хроматическая аберрация",
+    "schinese": "AWP | 迷人眼",
+    "schinese_pw": "AWP | Chromatic Aberration",
+    "spanish": "AWP | Aberración cromática",
+    "swedish": "AWP | Chromatic Aberration",
+    "tchinese": "AWP | 色差",
+    "thai": "AWP | Chromatic Aberration",
+    "turkish": "AWP | Renk Sapmaları",
+    "ukrainian": "АВП | Хроматична аберація",
+    "vietnamese": "AWP | Chromatic Aberration"
+  },
+  "media": {
+    "asset_id": "skin__9-1144",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-1144/light.png",
+      "data/api/media/rendered/files/skins/9-1144/medium.png",
+      "data/api/media/rendered/files/skins/9-1144/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-1144.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-1144/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-1144/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-1144/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-1144/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_cu_awp_chroma_pink_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_cu_awp_chroma_pink_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_cu_awp_chroma_pink_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Chromatic Aberration",
+  "search_slug": "awp-chromatic-aberration",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4846",
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_31",
+        "name": "The Recoil Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-1144__normal__battle-scarred",
+    "9-1144__normal__factory-new",
+    "9-1144__normal__field-tested",
+    "9-1144__normal__minimal-wear",
+    "9-1144__normal__well-worn",
+    "9-1144__stattrak__battle-scarred",
+    "9-1144__stattrak__factory-new",
+    "9-1144__stattrak__field-tested",
+    "9-1144__stattrak__minimal-wear",
+    "9-1144__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

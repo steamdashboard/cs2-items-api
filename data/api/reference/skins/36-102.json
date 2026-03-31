@@ -1,0 +1,52 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_whiteout",
+    "id": 102,
+    "name": "Whiteout",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 102,
+    "weapon_id": 36
+  },
+  "id": "36-102",
+  "name": "P250 | Whiteout",
+  "search_slug": "p250-whiteout",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "36-102__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_p250",
+    "id": 36,
+    "name": "P250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

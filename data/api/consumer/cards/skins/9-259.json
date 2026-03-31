@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 259,
+    "id": 259,
+    "localized_names": {
+      "brazilian": "Linhas Vermelhas",
+      "bulgarian": "Червена линия",
+      "czech": "Redline",
+      "danish": "Redline",
+      "dutch": "Redline",
+      "english": "Redline",
+      "finnish": "Punaviiva",
+      "french": "Ligne rouge",
+      "german": "Rote Linie",
+      "greek": "Redline",
+      "hungarian": "Vörös Vonal",
+      "indonesian": "Redline",
+      "italian": "Redline",
+      "japanese": "Redline",
+      "koreana": "붉은선",
+      "latam": "Línea roja",
+      "norwegian": "Redline",
+      "polish": "Czerwona linia",
+      "portuguese": "Redline",
+      "romanian": "Redline",
+      "russian": "Красная линия",
+      "schinese": "红线",
+      "schinese_pw": "Redline",
+      "spanish": "Línea roja",
+      "swedish": "Redline",
+      "tchinese": "赤色流線",
+      "thai": "Redline",
+      "turkish": "Kırmızı Çizgi",
+      "ukrainian": "Червона лінія",
+      "vietnamese": "Redline"
+    },
+    "name": "Redline",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.1
+    }
+  },
+  "id": "9-259",
+  "localized_names": {
+    "brazilian": "AWP | Linhas Vermelhas",
+    "bulgarian": "AWP | Червена линия",
+    "czech": "AWP | Redline",
+    "danish": "AWP | Redline",
+    "dutch": "AWP | Redline",
+    "english": "AWP | Redline",
+    "finnish": "AWP | Punaviiva",
+    "french": "AWP | Ligne rouge",
+    "german": "AWP | Rote Linie",
+    "greek": "AWP | Redline",
+    "hungarian": "AWP | Vörös Vonal",
+    "indonesian": "AWP | Redline",
+    "italian": "AWP | Redline",
+    "japanese": "AWP | Redline",
+    "koreana": "AWP | 붉은선",
+    "latam": "AWP | Línea roja",
+    "norwegian": "AWP | Redline",
+    "polish": "AWP | Czerwona linia",
+    "portuguese": "AWP | Redline",
+    "romanian": "AWP | Redline",
+    "russian": "AWP | Красная линия",
+    "schinese": "AWP | 红线",
+    "schinese_pw": "AWP | Redline",
+    "spanish": "AWP | Línea roja",
+    "swedish": "AWP | Redline",
+    "tchinese": "AWP | 赤色流線",
+    "thai": "AWP | Redline",
+    "turkish": "AWP | Kırmızı Çizgi",
+    "ukrainian": "АВП | Червона лінія",
+    "vietnamese": "AWP | Redline"
+  },
+  "media": {
+    "asset_id": "skin__9-259",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-259/light.png",
+      "data/api/media/rendered/files/skins/9-259/medium.png",
+      "data/api/media/rendered/files/skins/9-259/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-259.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-259/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-259/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-259/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-259/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_cu_awp_cobra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_cu_awp_cobra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_cu_awp_cobra_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Redline",
+  "search_slug": "awp-redline",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-259__normal__field-tested",
+    "9-259__normal__minimal-wear",
+    "9-259__normal__well-worn",
+    "9-259__stattrak__field-tested",
+    "9-259__stattrak__minimal-wear",
+    "9-259__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.1
+  }
+}

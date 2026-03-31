@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 796,
+    "id": 796,
+    "localized_names": {
+      "brazilian": "Motor Pifado",
+      "bulgarian": "Проверка на двигателя",
+      "czech": "Check Engine",
+      "danish": "Check Engine",
+      "dutch": "Check Engine",
+      "english": "Check Engine",
+      "finnish": "Vikavalo",
+      "french": "Révision moteur",
+      "german": "Motorkontrolle",
+      "greek": "Check Engine",
+      "hungarian": "Motorellenőrzés",
+      "indonesian": "Check Engine",
+      "italian": "Check Engine",
+      "japanese": "Check Engine",
+      "koreana": "엔진 확인",
+      "latam": "Luz de servicio",
+      "norwegian": "Check Engine",
+      "polish": "Kontrolka silnika",
+      "portuguese": "Check Engine",
+      "romanian": "Check Engine",
+      "russian": "Неисправность",
+      "schinese": "引擎故障灯",
+      "schinese_pw": "Check Engine",
+      "spanish": "Testigo de motor",
+      "swedish": "Check Engine",
+      "tchinese": "紅豆糕",
+      "thai": "Check Engine",
+      "turkish": "Motor Kontrol",
+      "ukrainian": "Несправність",
+      "vietnamese": "Check Engine"
+    },
+    "name": "Check Engine",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-796",
+  "localized_names": {
+    "brazilian": "USP-S | Motor Pifado",
+    "bulgarian": "USP-S | Проверка на двигателя",
+    "czech": "USP-S | Check Engine",
+    "danish": "USP-S | Check Engine",
+    "dutch": "USP-S | Check Engine",
+    "english": "USP-S | Check Engine",
+    "finnish": "USP-S | Vikavalo",
+    "french": "USP-S | Révision moteur",
+    "german": "USP-S | Motorkontrolle",
+    "greek": "USP-S | Check Engine",
+    "hungarian": "USP-S | Motorellenőrzés",
+    "indonesian": "USP-S | Check Engine",
+    "italian": "USP-S | Check Engine",
+    "japanese": "USP-S | Check Engine",
+    "koreana": "USP-S | 엔진 확인",
+    "latam": "USP-S | Luz de servicio",
+    "norwegian": "USP-S | Check Engine",
+    "polish": "USP-S | Kontrolka silnika",
+    "portuguese": "USP-S | Check Engine",
+    "romanian": "USP-S | Check Engine",
+    "russian": "USP-S | Неисправность",
+    "schinese": "USP消音版 | 引擎故障灯",
+    "schinese_pw": "USP-S | Check Engine",
+    "spanish": "USP-S | Testigo de motor",
+    "swedish": "USP-S | Check Engine",
+    "tchinese": "USP-S | 紅豆糕",
+    "thai": "USP-S | Check Engine",
+    "turkish": "USP-S | Motor Kontrol",
+    "ukrainian": "УСП-С | Несправність",
+    "vietnamese": "USP-S | Check Engine"
+  },
+  "media": {
+    "asset_id": "skin__61-796",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-796/light.png",
+      "data/api/media/rendered/files/skins/61-796/medium.png",
+      "data/api/media/rendered/files/skins/61-796/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-796.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-796/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-796/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-796/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-796/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_sp_mesh_safetyred_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_sp_mesh_safetyred_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_sp_mesh_safetyred_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Check Engine",
+  "search_slug": "usp-s-check-engine",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_inferno_2",
+        "name": "The 2018 Inferno Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4967",
+        "kind": "container",
+        "name": "Shanghai 2024 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5120",
+        "kind": "container",
+        "name": "Austin 2025 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5219",
+        "kind": "container",
+        "name": "Budapest 2025 Inferno Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4540",
+        "kind": "souvenir-package",
+        "name": "London 2018 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4590",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4660",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4809",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4835",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4860",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4893",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4926",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Inferno Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "61-796__normal__battle-scarred",
+    "61-796__normal__factory-new",
+    "61-796__normal__field-tested",
+    "61-796__normal__minimal-wear",
+    "61-796__normal__well-worn",
+    "61-796__souvenir__battle-scarred",
+    "61-796__souvenir__factory-new",
+    "61-796__souvenir__field-tested",
+    "61-796__souvenir__minimal-wear",
+    "61-796__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

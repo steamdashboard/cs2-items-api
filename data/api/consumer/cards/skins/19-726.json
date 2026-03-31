@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 726,
+    "id": 726,
+    "localized_names": {
+      "brazilian": "Lírio do Pôr do Sol",
+      "bulgarian": "Оранжева лилия",
+      "czech": "Sunset Lily",
+      "danish": "Sunset Lily",
+      "dutch": "Sunset Lily",
+      "english": "Sunset Lily",
+      "finnish": "Auringonlaskun lilja",
+      "french": "Lys belle-de-soir",
+      "german": "Lilie der Dämmerung",
+      "greek": "Sunset Lily",
+      "hungarian": "Alkonyi Liliom",
+      "indonesian": "Sunset Lily",
+      "italian": "Sunset Lily",
+      "japanese": "Sunset Lily",
+      "koreana": "노을빛 백합",
+      "latam": "Lirio del ocaso",
+      "norwegian": "Sunset Lily",
+      "polish": "Lilia zachodu Słońca",
+      "portuguese": "Sunset Lily",
+      "romanian": "Sunset Lily",
+      "russian": "Закатная лилия",
+      "schinese": "日落百合",
+      "schinese_pw": "Sunset Lily",
+      "spanish": "Lirio del ocaso",
+      "swedish": "Sunset Lily",
+      "tchinese": "日落百合",
+      "thai": "Sunset Lily",
+      "turkish": "Gün Batımı Zambağı",
+      "ukrainian": "Вечірня лілія",
+      "vietnamese": "Sunset Lily"
+    },
+    "name": "Sunset Lily",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-726",
+  "localized_names": {
+    "brazilian": "P90 | Lírio do Pôr do Sol",
+    "bulgarian": "P90 | Оранжева лилия",
+    "czech": "P90 | Sunset Lily",
+    "danish": "P90 | Sunset Lily",
+    "dutch": "P90 | Sunset Lily",
+    "english": "P90 | Sunset Lily",
+    "finnish": "P90 | Auringonlaskun lilja",
+    "french": "P90 | Lys belle-de-soir",
+    "german": "P90 | Lilie der Dämmerung",
+    "greek": "P90 | Sunset Lily",
+    "hungarian": "P90 | Alkonyi Liliom",
+    "indonesian": "P90 | Sunset Lily",
+    "italian": "P90 | Sunset Lily",
+    "japanese": "P90 | Sunset Lily",
+    "koreana": "P90 | 노을빛 백합",
+    "latam": "P90 | Lirio del ocaso",
+    "norwegian": "P90 | Sunset Lily",
+    "polish": "P90 | Lilia zachodu Słońca",
+    "portuguese": "P90 | Sunset Lily",
+    "romanian": "P90 | Sunset Lily",
+    "russian": "P90 | Закатная лилия",
+    "schinese": "P90 | 日落百合",
+    "schinese_pw": "P90 | Sunset Lily",
+    "spanish": "P90 | Lirio del ocaso",
+    "swedish": "P90 | Sunset Lily",
+    "tchinese": "P90 | 日落百合",
+    "thai": "P90 | Sunset Lily",
+    "turkish": "P90 | Gün Batımı Zambağı",
+    "ukrainian": "П90 | Вечірня лілія",
+    "vietnamese": "P90 | Sunset Lily"
+  },
+  "media": {
+    "asset_id": "skin__19-726",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-726/light.png",
+      "data/api/media/rendered/files/skins/19-726/medium.png",
+      "data/api/media/rendered/files/skins/19-726/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-726.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-726/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-726/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-726/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-726/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_sp_bloom_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_sp_bloom_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_sp_bloom_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Sunset Lily",
+  "search_slug": "p90-sunset-lily",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_stmarc",
+        "name": "The St. Marc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4612",
+        "kind": "container",
+        "name": "The St. Marc Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-726__normal__battle-scarred",
+    "19-726__normal__factory-new",
+    "19-726__normal__field-tested",
+    "19-726__normal__minimal-wear",
+    "19-726__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

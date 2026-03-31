@@ -1,0 +1,237 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 879,
+    "id": 879,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "24-879",
+  "localized_names": {
+    "brazilian": "UMP-45 | Degradê",
+    "bulgarian": "UMP-45 | Избледняване",
+    "czech": "UMP-45 | Fade",
+    "danish": "UMP-45 | Fade",
+    "dutch": "UMP-45 | Fade",
+    "english": "UMP-45 | Fade",
+    "finnish": "UMP-45 | Häivytys",
+    "french": "UMP-45 | Dégradé",
+    "german": "UMP-45 | Farbverlauf",
+    "greek": "UMP-45 | Fade",
+    "hungarian": "UMP-45 | Halványulás",
+    "indonesian": "UMP-45 | Fade",
+    "italian": "UMP-45 | Fade",
+    "japanese": "UMP-45 | Fade",
+    "koreana": "UMP-45 | 흐릿함",
+    "latam": "UMP-45 | Desteñido",
+    "norwegian": "UMP-45 | Fade",
+    "polish": "UMP-45 | Gradient",
+    "portuguese": "UMP-45 | Fade",
+    "romanian": "UMP-45 | Fade",
+    "russian": "UMP-45 | Градиент",
+    "schinese": "UMP-45 | 渐变之色",
+    "schinese_pw": "UMP-45 | Fade",
+    "spanish": "UMP-45 | Desteñido",
+    "swedish": "UMP-45 | Fade",
+    "tchinese": "UMP-45 | 漸層彩虹",
+    "thai": "UMP-45 | Fade",
+    "turkish": "UMP-45 | Solgun",
+    "ukrainian": "УМП-45 | Градієнт",
+    "vietnamese": "UMP-45 | Fade"
+  },
+  "media": {
+    "asset_id": "skin__24-879",
+    "images_png": [
+      "data/api/media/rendered/files/skins/24-879/light.png",
+      "data/api/media/rendered/files/skins/24-879/medium.png",
+      "data/api/media/rendered/files/skins/24-879/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/24-879.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/24-879/heavy.png",
+      "light": "data/api/media/rendered/files/skins/24-879/light.png",
+      "medium": "data/api/media/rendered/files/skins/24-879/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/24-879/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ump45_aa_fade_ump_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ump45_aa_fade_ump_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ump45_aa_fade_ump_medium_png.vtex_c"
+    }
+  },
+  "name": "UMP-45 | Fade",
+  "search_slug": "ump-45-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "variant_ids": [
+    "24-879__normal__factory-new",
+    "24-879__normal__minimal-wear",
+    "24-879__souvenir__factory-new",
+    "24-879__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 24,
+    "localized_names": {
+      "brazilian": "UMP-45",
+      "bulgarian": "UMP-45",
+      "czech": "UMP-45",
+      "danish": "UMP-45",
+      "dutch": "UMP-45",
+      "english": "UMP-45",
+      "finnish": "UMP-45",
+      "french": "UMP-45",
+      "german": "UMP-45",
+      "greek": "UMP-45",
+      "hungarian": "UMP-45",
+      "indonesian": "UMP-45",
+      "italian": "UMP-45",
+      "japanese": "UMP-45",
+      "koreana": "UMP-45",
+      "latam": "UMP-45",
+      "norwegian": "UMP-45",
+      "polish": "UMP-45",
+      "portuguese": "UMP-45",
+      "romanian": "UMP-45",
+      "russian": "UMP-45",
+      "schinese": "UMP-45",
+      "schinese_pw": "UMP-45",
+      "spanish": "UMP-45",
+      "swedish": "UMP-45",
+      "tchinese": "UMP-45",
+      "thai": "UMP-45",
+      "turkish": "UMP-45",
+      "ukrainian": "УМП-45",
+      "vietnamese": "UMP-45"
+    },
+    "name": "UMP-45",
+    "search_slug": "ump-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

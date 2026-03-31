@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 395,
+    "id": 395,
+    "localized_names": {
+      "brazilian": "Man-o'-war",
+      "bulgarian": "Военнослужещ",
+      "czech": "Man-o'-war",
+      "danish": "Man-o'-war",
+      "dutch": "Man-o'-war",
+      "english": "Man-o'-war",
+      "finnish": "Sotalaiva",
+      "french": "Man-o'-war",
+      "german": "Man-o'-war",
+      "greek": "Man-o'-war",
+      "hungarian": "Hadfi",
+      "indonesian": "Man-o'-war",
+      "italian": "Man-o'-war",
+      "japanese": "Man-o'-war",
+      "koreana": "해상의 지배자",
+      "latam": "Héroe de guerra",
+      "norwegian": "Man-o'-war",
+      "polish": "Okręt wojenny",
+      "portuguese": "Man-o'-war",
+      "romanian": "Man-o'-war",
+      "russian": "Боец",
+      "schinese": "无畏战神",
+      "schinese_pw": "Man-o'-war",
+      "spanish": "Héroe de guerra",
+      "swedish": "Man-o'-war",
+      "tchinese": "戰神",
+      "thai": "Man-o'-war",
+      "turkish": "Man-o'-war",
+      "ukrainian": "Лінкор",
+      "vietnamese": "Man-o'-war"
+    },
+    "name": "Man-o'-war",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.1
+    }
+  },
+  "id": "9-395",
+  "localized_names": {
+    "brazilian": "AWP | Man-o'-war",
+    "bulgarian": "AWP | Военнослужещ",
+    "czech": "AWP | Man-o'-war",
+    "danish": "AWP | Man-o'-war",
+    "dutch": "AWP | Man-o'-war",
+    "english": "AWP | Man-o'-war",
+    "finnish": "AWP | Sotalaiva",
+    "french": "AWP | Man-o'-war",
+    "german": "AWP | Man-o'-war",
+    "greek": "AWP | Man-o'-war",
+    "hungarian": "AWP | Hadfi",
+    "indonesian": "AWP | Man-o'-war",
+    "italian": "AWP | Man-o'-war",
+    "japanese": "AWP | Man-o'-war",
+    "koreana": "AWP | 해상의 지배자",
+    "latam": "AWP | Héroe de guerra",
+    "norwegian": "AWP | Man-o'-war",
+    "polish": "AWP | Okręt wojenny",
+    "portuguese": "AWP | Man-o'-war",
+    "romanian": "AWP | Man-o'-war",
+    "russian": "AWP | Боец",
+    "schinese": "AWP | 无畏战神",
+    "schinese_pw": "AWP | Man-o'-war",
+    "spanish": "AWP | Héroe de guerra",
+    "swedish": "AWP | Man-o'-war",
+    "tchinese": "AWP | 戰神",
+    "thai": "AWP | Man-o'-war",
+    "turkish": "AWP | Man-o'-war",
+    "ukrainian": "АВП | Лінкор",
+    "vietnamese": "AWP | Man-o'-war"
+  },
+  "media": {
+    "asset_id": "skin__9-395",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-395/light.png",
+      "data/api/media/rendered/files/skins/9-395/medium.png",
+      "data/api/media/rendered/files/skins/9-395/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-395.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-395/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-395/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-395/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-395/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_am_awp_glory_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_am_awp_glory_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_am_awp_glory_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Man-o'-war",
+  "search_slug": "awp-man-o-war",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-395__normal__field-tested",
+    "9-395__normal__minimal-wear",
+    "9-395__stattrak__field-tested",
+    "9-395__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.1
+  }
+}

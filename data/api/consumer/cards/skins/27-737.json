@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 737,
+    "id": 737,
+    "localized_names": {
+      "brazilian": "Cinqueda",
+      "bulgarian": "Чинкуеда",
+      "czech": "Cinquedea",
+      "danish": "Cinquedea",
+      "dutch": "Cinquedea",
+      "english": "Cinquedea",
+      "finnish": "Cinquedea",
+      "french": "Cinquedea",
+      "german": "Cinquedea",
+      "greek": "Cinquedea",
+      "hungarian": "Cinquedea",
+      "indonesian": "Cinquedea",
+      "italian": "Cinquedea",
+      "japanese": "Cinquedea",
+      "koreana": "친퀘디아",
+      "latam": "Cinquedea",
+      "norwegian": "Cinquedea",
+      "polish": "Cinquedea",
+      "portuguese": "Cinquedea",
+      "romanian": "Cinquedea",
+      "russian": "Чинкуэда",
+      "schinese": "五指短剑",
+      "schinese_pw": "Cinquedea",
+      "spanish": "Cinquedea",
+      "swedish": "Cinquedea",
+      "tchinese": "五指劍",
+      "thai": "Cinquedea",
+      "turkish": "Beş Parmak",
+      "ukrainian": "Чинкуеда",
+      "vietnamese": "Cinquedea"
+    },
+    "name": "Cinquedea",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-737",
+  "localized_names": {
+    "brazilian": "MAG-7 | Cinqueda",
+    "bulgarian": "MAG-7 | Чинкуеда",
+    "czech": "MAG-7 | Cinquedea",
+    "danish": "MAG-7 | Cinquedea",
+    "dutch": "MAG-7 | Cinquedea",
+    "english": "MAG-7 | Cinquedea",
+    "finnish": "MAG-7 | Cinquedea",
+    "french": "MAG-7 | Cinquedea",
+    "german": "MAG-7 | Cinquedea",
+    "greek": "MAG-7 | Cinquedea",
+    "hungarian": "MAG-7 | Cinquedea",
+    "indonesian": "MAG-7 | Cinquedea",
+    "italian": "MAG-7 | Cinquedea",
+    "japanese": "MAG-7 | Cinquedea",
+    "koreana": "MAG-7 | 친퀘디아",
+    "latam": "MAG-7 | Cinquedea",
+    "norwegian": "MAG-7 | Cinquedea",
+    "polish": "MAG-7 | Cinquedea",
+    "portuguese": "MAG-7 | Cinquedea",
+    "romanian": "MAG-7 | Cinquedea",
+    "russian": "MAG-7 | Чинкуэда",
+    "schinese": "MAG-7 | 五指短剑",
+    "schinese_pw": "MAG-7 | Cinquedea",
+    "spanish": "MAG-7 | Cinquedea",
+    "swedish": "MAG-7 | Cinquedea",
+    "tchinese": "MAG-7 | 五指劍",
+    "thai": "MAG-7 | Cinquedea",
+    "turkish": "MAG-7 | Beş Parmak",
+    "ukrainian": "МАГ-7 | Чинкуеда",
+    "vietnamese": "MAG-7 | Cinquedea"
+  },
+  "media": {
+    "asset_id": "skin__27-737",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-737/light.png",
+      "data/api/media/rendered/files/skins/27-737/medium.png",
+      "data/api/media/rendered/files/skins/27-737/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-737.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-737/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-737/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-737/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-737/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_gs_mag7_glass_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_gs_mag7_glass_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_gs_mag7_glass_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Cinquedea",
+  "search_slug": "mag-7-cinquedea",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_canals",
+        "name": "The Canals Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4608",
+        "kind": "container",
+        "name": "The Canals Collection",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "27-737__normal__battle-scarred",
+    "27-737__normal__factory-new",
+    "27-737__normal__field-tested",
+    "27-737__normal__minimal-wear",
+    "27-737__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

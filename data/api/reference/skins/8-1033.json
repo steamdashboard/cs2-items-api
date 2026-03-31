@@ -1,0 +1,135 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_jade",
+    "id": 1033,
+    "name": "Carved Jade",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 1033,
+    "weapon_id": 8
+  },
+  "id": "8-1033",
+  "name": "AUG | Carved Jade",
+  "search_slug": "aug-carved-jade",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4722",
+        "kind": "container",
+        "name": "The Ancient Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4813",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4839",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4864",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4897",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4930",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4971",
+        "kind": "container",
+        "name": "Shanghai 2024 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5124",
+        "kind": "container",
+        "name": "Austin 2025 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5223",
+        "kind": "container",
+        "name": "Budapest 2025 Ancient Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "8-1033__normal__factory-new",
+    "8-1033__normal__minimal-wear",
+    "8-1033__normal__field-tested",
+    "8-1033__souvenir__factory-new",
+    "8-1033__souvenir__minimal-wear",
+    "8-1033__souvenir__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_aug",
+    "id": 8,
+    "name": "AUG",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

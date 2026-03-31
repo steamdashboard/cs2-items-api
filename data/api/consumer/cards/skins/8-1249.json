@@ -1,0 +1,250 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1249,
+    "id": 1249,
+    "localized_names": {
+      "brazilian": "Cova das Serpentes",
+      "bulgarian": "Змийска яма",
+      "czech": "Snake Pit",
+      "danish": "Snake Pit",
+      "dutch": "Snake Pit",
+      "english": "Snake Pit",
+      "finnish": "Käärmeenpesä",
+      "french": "Fosse aux serpents",
+      "german": "Schlangengrube",
+      "greek": "Snake Pit",
+      "hungarian": "Kígyóverem",
+      "indonesian": "Snake Pit",
+      "italian": "Snake Pit",
+      "japanese": "Snake Pit",
+      "koreana": "스네이크 핏",
+      "latam": "Fosa de serpientes",
+      "norwegian": "Snake Pit",
+      "polish": "Dół węży",
+      "portuguese": "Snake Pit",
+      "romanian": "Snake Pit",
+      "russian": "Змеиная яма",
+      "schinese": "蛇窟",
+      "schinese_pw": "Snake Pit",
+      "spanish": "Foso de serpientes",
+      "swedish": "Snake Pit",
+      "tchinese": "蛇穴",
+      "thai": "Snake Pit",
+      "turkish": "Yılan Çukuru",
+      "ukrainian": "Зміїна яма",
+      "vietnamese": "Snake Pit"
+    },
+    "name": "Snake Pit",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-1249",
+  "localized_names": {
+    "brazilian": "AUG | Cova das Serpentes",
+    "bulgarian": "AUG | Змийска яма",
+    "czech": "AUG | Snake Pit",
+    "danish": "AUG | Snake Pit",
+    "dutch": "AUG | Snake Pit",
+    "english": "AUG | Snake Pit",
+    "finnish": "AUG | Käärmeenpesä",
+    "french": "AUG | Fosse aux serpents",
+    "german": "AUG | Schlangengrube",
+    "greek": "AUG | Snake Pit",
+    "hungarian": "AUG | Kígyóverem",
+    "indonesian": "AUG | Snake Pit",
+    "italian": "AUG | Snake Pit",
+    "japanese": "AUG | Snake Pit",
+    "koreana": "AUG | 스네이크 핏",
+    "latam": "AUG | Fosa de serpientes",
+    "norwegian": "AUG | Snake Pit",
+    "polish": "AUG | Dół węży",
+    "portuguese": "AUG | Snake Pit",
+    "romanian": "AUG | Snake Pit",
+    "russian": "AUG | Змеиная яма",
+    "schinese": "AUG | 蛇窟",
+    "schinese_pw": "AUG | Snake Pit",
+    "spanish": "AUG | Foso de serpientes",
+    "swedish": "AUG | Snake Pit",
+    "tchinese": "AUG | 蛇穴",
+    "thai": "AUG | Snake Pit",
+    "turkish": "AUG | Yılan Çukuru",
+    "ukrainian": "АУГ | Зміїна яма",
+    "vietnamese": "AUG | Snake Pit"
+  },
+  "media": {
+    "asset_id": "skin__8-1249",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-1249/light.png",
+      "data/api/media/rendered/files/skins/8-1249/medium.png",
+      "data/api/media/rendered/files/skins/8-1249/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-1249.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-1249/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-1249/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-1249/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-1249/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_hy_dune_trap_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_hy_dune_trap_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_hy_dune_trap_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Snake Pit",
+  "search_slug": "aug-snake-pit",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_anubis",
+        "name": "The Anubis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4882",
+        "kind": "container",
+        "name": "Anubis Collection Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4969",
+        "kind": "container",
+        "name": "Shanghai 2024 Anubis Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5122",
+        "kind": "container",
+        "name": "Austin 2025 Anubis Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4895",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Anubis Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4928",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "8-1249__normal__battle-scarred",
+    "8-1249__normal__factory-new",
+    "8-1249__normal__field-tested",
+    "8-1249__normal__minimal-wear",
+    "8-1249__normal__well-worn",
+    "8-1249__souvenir__battle-scarred",
+    "8-1249__souvenir__factory-new",
+    "8-1249__souvenir__field-tested",
+    "8-1249__souvenir__minimal-wear",
+    "8-1249__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 47,
+    "id": 47,
+    "localized_names": {
+      "brazilian": "Colônia",
+      "bulgarian": "Колония",
+      "czech": "Colony",
+      "danish": "Colony",
+      "dutch": "Colony",
+      "english": "Colony",
+      "finnish": "Kolonia",
+      "french": "Colonie",
+      "german": "Kolonie",
+      "greek": "Colony",
+      "hungarian": "Gyarmat",
+      "indonesian": "Colony",
+      "italian": "Colony",
+      "japanese": "Colony",
+      "koreana": "식민지",
+      "latam": "Militar",
+      "norwegian": "Colony",
+      "polish": "Kolonia",
+      "portuguese": "Colony",
+      "romanian": "Colony",
+      "russian": "Колония",
+      "schinese": "殖民侵略者",
+      "schinese_pw": "Colony",
+      "spanish": "Militar",
+      "swedish": "Colony",
+      "tchinese": "殖民者",
+      "thai": "Colony",
+      "turkish": "Koloni",
+      "ukrainian": "Колонія",
+      "vietnamese": "Colony"
+    },
+    "name": "Colony",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "10-47",
+  "localized_names": {
+    "brazilian": "FAMAS | Colônia",
+    "bulgarian": "FAMAS | Колония",
+    "czech": "FAMAS | Colony",
+    "danish": "FAMAS | Colony",
+    "dutch": "FAMAS | Colony",
+    "english": "FAMAS | Colony",
+    "finnish": "FAMAS | Kolonia",
+    "french": "FAMAS | Colonie",
+    "german": "FAMAS | Kolonie",
+    "greek": "FAMAS | Colony",
+    "hungarian": "FAMAS | Gyarmat",
+    "indonesian": "FAMAS | Colony",
+    "italian": "FAMAS | Colony",
+    "japanese": "FAMAS | Colony",
+    "koreana": "파마스 | 식민지",
+    "latam": "FAMAS | Militar",
+    "norwegian": "FAMAS | Colony",
+    "polish": "FAMAS | Kolonia",
+    "portuguese": "FAMAS | Colony",
+    "romanian": "FAMAS | Colony",
+    "russian": "FAMAS | Колония",
+    "schinese": "法玛斯 | 殖民侵略者",
+    "schinese_pw": "FAMAS | Colony",
+    "spanish": "FAMAS | Militar",
+    "swedish": "FAMAS | Colony",
+    "tchinese": "FAMAS | 殖民者",
+    "thai": "FAMAS | Colony",
+    "turkish": "FAMAS | Koloni",
+    "ukrainian": "ФАМАС | Колонія",
+    "vietnamese": "FAMAS | Colony"
+  },
+  "media": {
+    "asset_id": "skin__10-47",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-47/light.png",
+      "data/api/media/rendered/files/skins/10-47/medium.png",
+      "data/api/media/rendered/files/skins/10-47/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-47.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-47/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-47/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-47/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-47/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_so_space_marine_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_so_space_marine_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_so_space_marine_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Colony",
+  "search_slug": "famas-colony",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_italy",
+        "name": "The Italy Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-47__normal__vanilla"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

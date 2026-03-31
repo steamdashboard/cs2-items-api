@@ -1,0 +1,274 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 752,
+    "id": 752,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "페이드",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Descolorido",
+      "swedish": "Fade",
+      "tchinese": "漸層",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.25,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-752",
+  "localized_names": {
+    "brazilian": "MP7 | Degradê",
+    "bulgarian": "MP7 | Избледняване",
+    "czech": "MP7 | Fade",
+    "danish": "MP7 | Fade",
+    "dutch": "MP7 | Fade",
+    "english": "MP7 | Fade",
+    "finnish": "MP7 | Häivytys",
+    "french": "MP7 | Dégradé",
+    "german": "MP7 | Farbverlauf",
+    "greek": "MP7 | Fade",
+    "hungarian": "MP7 | Halványulás",
+    "indonesian": "MP7 | Fade",
+    "italian": "MP7 | Fade",
+    "japanese": "MP7 | Fade",
+    "koreana": "MP7 | 페이드",
+    "latam": "MP7 | Desteñido",
+    "norwegian": "MP7 | Fade",
+    "polish": "MP7 | Gradient",
+    "portuguese": "MP7 | Fade",
+    "romanian": "MP7 | Fade",
+    "russian": "MP7 | Градиент",
+    "schinese": "MP7 | 渐变之色",
+    "schinese_pw": "MP7 | Fade",
+    "spanish": "MP7 | Descolorido",
+    "swedish": "MP7 | Fade",
+    "tchinese": "MP7 | 漸層",
+    "thai": "MP7 | Fade",
+    "turkish": "MP7 | Solgun",
+    "ukrainian": "МП7 | Градієнт",
+    "vietnamese": "MP7 | Fade"
+  },
+  "media": {
+    "asset_id": "skin__33-752",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-752/light.png",
+      "data/api/media/rendered/files/skins/33-752/medium.png",
+      "data/api/media/rendered/files/skins/33-752/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-752.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-752/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-752/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-752/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-752/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_aa_fade_mp7_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_aa_fade_mp7_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_aa_fade_mp7_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Fade",
+  "search_slug": "mp7-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_inferno_2",
+        "name": "The 2018 Inferno Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4967",
+        "kind": "container",
+        "name": "Shanghai 2024 Inferno Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5120",
+        "kind": "container",
+        "name": "Austin 2025 Inferno Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5219",
+        "kind": "container",
+        "name": "Budapest 2025 Inferno Souvenir Package",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4540",
+        "kind": "souvenir-package",
+        "name": "London 2018 Inferno Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4590",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Inferno Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4660",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Inferno Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4809",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Inferno Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4835",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Inferno Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4860",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Inferno Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4893",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Inferno Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4926",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Inferno Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "33-752__normal__factory-new",
+    "33-752__normal__field-tested",
+    "33-752__normal__minimal-wear",
+    "33-752__souvenir__factory-new",
+    "33-752__souvenir__field-tested",
+    "33-752__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.25,
+    "min_float": 0.0
+  }
+}

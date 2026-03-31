@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 405,
+    "id": 405,
+    "localized_names": {
+      "brazilian": "Serenidade",
+      "bulgarian": "Ведрина",
+      "czech": "Serenity",
+      "danish": "Serenity",
+      "dutch": "Serenity",
+      "english": "Serenity",
+      "finnish": "Tyyneys",
+      "french": "Sérénité",
+      "german": "Gelassenheit",
+      "greek": "Serenity",
+      "hungarian": "Derű",
+      "indonesian": "Serenity",
+      "italian": "Serenità",
+      "japanese": "Serenity",
+      "koreana": "평온",
+      "latam": "Serenidad",
+      "norwegian": "Serenity",
+      "polish": "Spokój",
+      "portuguese": "Serenity",
+      "romanian": "Serenity",
+      "russian": "Безмятежность",
+      "schinese": "祥和之翼",
+      "schinese_pw": "Serenity",
+      "spanish": "Serenidad",
+      "swedish": "Serenity",
+      "tchinese": "寧靜",
+      "thai": "Serenity",
+      "turkish": "Huzur",
+      "ukrainian": "Спокій",
+      "vietnamese": "Serenity"
+    },
+    "name": "Serenity",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "29-405",
+  "localized_names": {
+    "brazilian": "Cano Curto | Serenidade",
+    "bulgarian": "Скъсена цев | Ведрина",
+    "czech": "Upilovaná brokovnice | Serenity",
+    "danish": "Sawed-off | Serenity",
+    "dutch": "Sawed-Off | Serenity",
+    "english": "Sawed-Off | Serenity",
+    "finnish": "Katkaistu haulikko | Tyyneys",
+    "french": "Sawed-Off | Sérénité",
+    "german": "Abgesägte Schrotflinte | Gelassenheit",
+    "greek": "Sawed-Off | Serenity",
+    "hungarian": "Lefűrészelt csövű sörétes | Derű",
+    "indonesian": "Sawed-Off | Serenity",
+    "italian": "Fucile a canne mozze | Serenità",
+    "japanese": "Sawed-Off | Serenity",
+    "koreana": "소드오프 | 평온",
+    "latam": "Recortada | Serenidad",
+    "norwegian": "Sawed-Off | Serenity",
+    "polish": "Obrzyn | Spokój",
+    "portuguese": "Sawed-Off | Serenity",
+    "romanian": "Sawed-Off | Serenity",
+    "russian": "Обрез | Безмятежность",
+    "schinese": "截短霰弹枪 | 祥和之翼",
+    "schinese_pw": "Sawed-Off | Serenity",
+    "spanish": "Recortada | Serenidad",
+    "swedish": "Sawed-Off | Serenity",
+    "tchinese": "Sawed-Off | 寧靜",
+    "thai": "Sawed-Off | Serenity",
+    "turkish": "Sawed-Off | Huzur",
+    "ukrainian": "Обріз | Спокій",
+    "vietnamese": "Súng nòng ngắn | Serenity"
+  },
+  "media": {
+    "asset_id": "skin__29-405",
+    "images_png": [
+      "data/api/media/rendered/files/skins/29-405/light.png",
+      "data/api/media/rendered/files/skins/29-405/medium.png",
+      "data/api/media/rendered/files/skins/29-405/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/29-405.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/29-405/heavy.png",
+      "light": "data/api/media/rendered/files/skins/29-405/light.png",
+      "medium": "data/api/media/rendered/files/skins/29-405/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/29-405/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_deva_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_deva_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_deva_medium_png.vtex_c"
+    }
+  },
+  "name": "Sawed-Off | Serenity",
+  "search_slug": "sawed-off-serenity",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "29-405__normal__battle-scarred",
+    "29-405__normal__factory-new",
+    "29-405__normal__field-tested",
+    "29-405__normal__minimal-wear",
+    "29-405__normal__well-worn",
+    "29-405__stattrak__battle-scarred",
+    "29-405__stattrak__factory-new",
+    "29-405__stattrak__field-tested",
+    "29-405__stattrak__minimal-wear",
+    "29-405__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 29,
+    "localized_names": {
+      "brazilian": "Cano Curto",
+      "bulgarian": "Скъсена цев",
+      "czech": "Upilovaná brokovnice",
+      "danish": "Sawed-off",
+      "dutch": "Sawed-Off",
+      "english": "Sawed-Off",
+      "finnish": "Katkaistu haulikko",
+      "french": "Sawed-Off",
+      "german": "Abgesägte Schrotflinte",
+      "greek": "Sawed-Off",
+      "hungarian": "Lefűrészelt csövű sörétes",
+      "indonesian": "Sawed-Off",
+      "italian": "Fucile a canne mozze",
+      "japanese": "Sawed-Off",
+      "koreana": "소드오프",
+      "latam": "Recortada",
+      "norwegian": "Sawed-Off",
+      "polish": "Obrzyn",
+      "portuguese": "Sawed-Off",
+      "romanian": "Sawed-Off",
+      "russian": "Обрез",
+      "schinese": "截短霰弹枪",
+      "schinese_pw": "Sawed-Off",
+      "spanish": "Recortada",
+      "swedish": "Sawed-Off",
+      "tchinese": "Sawed-Off",
+      "thai": "Sawed-Off",
+      "turkish": "Sawed-Off",
+      "ukrainian": "Обріз",
+      "vietnamese": "Súng nòng ngắn"
+    },
+    "name": "Sawed-Off",
+    "search_slug": "sawed-off",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

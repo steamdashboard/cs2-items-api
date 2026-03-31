@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 590,
+    "id": 590,
+    "localized_names": {
+      "brazilian": "Exo",
+      "bulgarian": "Екзо",
+      "czech": "Exo",
+      "danish": "Exo",
+      "dutch": "Exo",
+      "english": "Exo",
+      "finnish": "Exo",
+      "french": "Exo",
+      "german": "Exo",
+      "greek": "Exo",
+      "hungarian": "Külső",
+      "indonesian": "Exo",
+      "italian": "Exo",
+      "japanese": "Exo",
+      "koreana": "Exo",
+      "latam": "Exo",
+      "norwegian": "Exo",
+      "polish": "Exo",
+      "portuguese": "Exo",
+      "romanian": "Exo",
+      "russian": "Экзо",
+      "schinese": "Exo",
+      "schinese_pw": "Exo",
+      "spanish": "Exo",
+      "swedish": "Exo",
+      "tchinese": "外骨骼",
+      "thai": "Exo",
+      "turkish": "Exo",
+      "ukrainian": "Екзо",
+      "vietnamese": "Exo"
+    },
+    "name": "Exo",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-590",
+  "localized_names": {
+    "brazilian": "Nova | Exo",
+    "bulgarian": "Nova | Екзо",
+    "czech": "Nova | Exo",
+    "danish": "Nova | Exo",
+    "dutch": "Nova | Exo",
+    "english": "Nova | Exo",
+    "finnish": "Nova | Exo",
+    "french": "Nova | Exo",
+    "german": "Nova | Exo",
+    "greek": "Nova | Exo",
+    "hungarian": "Nova | Külső",
+    "indonesian": "Nova | Exo",
+    "italian": "Nova | Exo",
+    "japanese": "Nova | Exo",
+    "koreana": "노바 | Exo",
+    "latam": "Nova | Exo",
+    "norwegian": "Nova | Exo",
+    "polish": "Nova | Exo",
+    "portuguese": "Nova | Exo",
+    "romanian": "Nova | Exo",
+    "russian": "Nova | Экзо",
+    "schinese": "新星 | Exo",
+    "schinese_pw": "Nova | Exo",
+    "spanish": "Nova | Exo",
+    "swedish": "Nova | Exo",
+    "tchinese": "Nova | 外骨骼",
+    "thai": "Nova | Exo",
+    "turkish": "Nova | Exo",
+    "ukrainian": "Нова | Екзо",
+    "vietnamese": "Nova | Exo"
+  },
+  "media": {
+    "asset_id": "skin__35-590",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-590/light.png",
+      "data/api/media/rendered/files/skins/35-590/medium.png",
+      "data/api/media/rendered/files/skins/35-590/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-590.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-590/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-590/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-590/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-590/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_aq_nova_sci_fi_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_aq_nova_sci_fi_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_aq_nova_sci_fi_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Exo",
+  "search_slug": "nova-exo",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4236",
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_13",
+        "name": "The Gamma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-590__normal__battle-scarred",
+    "35-590__normal__factory-new",
+    "35-590__normal__field-tested",
+    "35-590__normal__minimal-wear",
+    "35-590__normal__well-worn",
+    "35-590__stattrak__battle-scarred",
+    "35-590__stattrak__factory-new",
+    "35-590__stattrak__field-tested",
+    "35-590__stattrak__minimal-wear",
+    "35-590__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

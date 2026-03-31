@@ -1,0 +1,172 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_nuclear_pattern3_negev",
+    "id": 369,
+    "name": "Nuclear Waste",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 369,
+    "weapon_id": 28
+  },
+  "id": "28-369",
+  "name": "Negev | Nuclear Waste",
+  "search_slug": "negev-nuclear-waste",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_cache",
+        "name": "The Cache Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4026",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4035",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4083",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4136",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4181",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4230",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4278",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4348",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4400",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4467",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4544",
+        "kind": "souvenir-package",
+        "name": "London 2018 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4594",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4603",
+        "kind": "container",
+        "name": "The Cache Collection",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "28-369__normal__factory-new",
+    "28-369__normal__minimal-wear",
+    "28-369__normal__field-tested",
+    "28-369__normal__well-worn",
+    "28-369__souvenir__factory-new",
+    "28-369__souvenir__minimal-wear",
+    "28-369__souvenir__field-tested",
+    "28-369__souvenir__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_negev",
+    "id": 28,
+    "name": "Negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

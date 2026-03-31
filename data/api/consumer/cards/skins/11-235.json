@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 235,
+    "id": 235,
+    "localized_names": {
+      "brazilian": "VariCamo",
+      "bulgarian": "Променлив камуфлаж",
+      "czech": "VariCamo",
+      "danish": "VariCamo",
+      "dutch": "VariCamo",
+      "english": "VariCamo",
+      "finnish": "VariCamo",
+      "french": "VariCamo",
+      "german": "VariCamo",
+      "greek": "VariCamo",
+      "hungarian": "VariCamo",
+      "indonesian": "VariCamo",
+      "italian": "VariCamo",
+      "japanese": "VariCamo",
+      "koreana": "얼룩 위장",
+      "latam": "Camuflaje variado",
+      "norwegian": "VariCamo",
+      "polish": "VariCamo",
+      "portuguese": "VariCamo",
+      "romanian": "VariCamo",
+      "russian": "Смешанный камуфляж",
+      "schinese": "多变迷彩",
+      "schinese_pw": "VariCamo",
+      "spanish": "Camuflaje variado",
+      "swedish": "VariCamo",
+      "tchinese": "多重迷彩",
+      "thai": "VariCamo",
+      "turkish": "Vari Kamuflaj",
+      "ukrainian": "Змішаний камуфляж",
+      "vietnamese": "VariCamo"
+    },
+    "name": "VariCamo",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "11-235",
+  "localized_names": {
+    "brazilian": "G3SG1 | VariCamo",
+    "bulgarian": "G3SG1 | Променлив камуфлаж",
+    "czech": "G3SG1 | VariCamo",
+    "danish": "G3SG1 | VariCamo",
+    "dutch": "G3SG1 | VariCamo",
+    "english": "G3SG1 | VariCamo",
+    "finnish": "G3SG1 | VariCamo",
+    "french": "G3SG1 | VariCamo",
+    "german": "G3SG1 | VariCamo",
+    "greek": "G3SG1 | VariCamo",
+    "hungarian": "G3SG1 | VariCamo",
+    "indonesian": "G3SG1 | VariCamo",
+    "italian": "G3SG1 | VariCamo",
+    "japanese": "G3SG1 | VariCamo",
+    "koreana": "G3SG1 | 얼룩 위장",
+    "latam": "G3SG1 | Camuflaje variado",
+    "norwegian": "G3SG1 | VariCamo",
+    "polish": "G3SG1 | VariCamo",
+    "portuguese": "G3SG1 | VariCamo",
+    "romanian": "G3SG1 | VariCamo",
+    "russian": "G3SG1 | Смешанный камуфляж",
+    "schinese": "G3SG1 | 多变迷彩",
+    "schinese_pw": "G3SG1 | VariCamo",
+    "spanish": "G3SG1 | Camuflaje variado",
+    "swedish": "G3SG1 | VariCamo",
+    "tchinese": "G3SG1 | 多重迷彩",
+    "thai": "G3SG1 | VariCamo",
+    "turkish": "G3SG1 | Vari Kamuflaj",
+    "ukrainian": "Г3-СГ1 | Змішаний камуфляж",
+    "vietnamese": "G3SG1 | VariCamo"
+  },
+  "media": {
+    "asset_id": "skin__11-235",
+    "images_png": [
+      "data/api/media/rendered/files/skins/11-235/light.png",
+      "data/api/media/rendered/files/skins/11-235/medium.png",
+      "data/api/media/rendered/files/skins/11-235/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/11-235.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/11-235/heavy.png",
+      "light": "data/api/media/rendered/files/skins/11-235/light.png",
+      "medium": "data/api/media/rendered/files/skins/11-235/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/11-235/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_g3sg1_hy_varicamo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_g3sg1_hy_varicamo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_g3sg1_hy_varicamo_medium_png.vtex_c"
+    }
+  },
+  "name": "G3SG1 | VariCamo",
+  "search_slug": "g3sg1-varicamo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_safehouse",
+        "name": "The Safehouse Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "11-235__normal__battle-scarred",
+    "11-235__normal__factory-new",
+    "11-235__normal__field-tested",
+    "11-235__normal__minimal-wear",
+    "11-235__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 11,
+    "localized_names": {
+      "brazilian": "G3SG1",
+      "bulgarian": "G3SG1",
+      "czech": "G3SG1",
+      "danish": "G3SG1",
+      "dutch": "G3SG1",
+      "english": "G3SG1",
+      "finnish": "G3SG1",
+      "french": "G3SG1",
+      "german": "G3SG1",
+      "greek": "G3SG1",
+      "hungarian": "G3SG1",
+      "indonesian": "G3SG1",
+      "italian": "G3SG1",
+      "japanese": "G3SG1",
+      "koreana": "G3SG1",
+      "latam": "G3SG1",
+      "norwegian": "G3SG1",
+      "polish": "G3SG1",
+      "portuguese": "G3SG1",
+      "romanian": "G3SG1",
+      "russian": "G3SG1",
+      "schinese": "G3SG1",
+      "schinese_pw": "G3SG1",
+      "spanish": "G3SG1",
+      "swedish": "G3SG1",
+      "tchinese": "G3SG1",
+      "thai": "G3SG1",
+      "turkish": "G3SG1",
+      "ukrainian": "Г3-СГ1",
+      "vietnamese": "G3SG1"
+    },
+    "name": "G3SG1",
+    "search_slug": "g3sg1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

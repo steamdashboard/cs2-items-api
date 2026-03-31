@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1129,
+    "id": 1129,
+    "localized_names": {
+      "brazilian": "Clareira dos Sonhos",
+      "bulgarian": "Бляна горска поляна",
+      "czech": "Dream Glade",
+      "danish": "Dream Glade",
+      "dutch": "Dream Glade",
+      "english": "Dream Glade",
+      "finnish": "Metsäaukio",
+      "french": "Clairière onirique",
+      "german": "Waldlichtung",
+      "greek": "Dream Glade",
+      "hungarian": "Álomtisztás",
+      "indonesian": "Dream Glade",
+      "italian": "Dream Glade",
+      "japanese": "Dream Glade",
+      "koreana": "환상의 숲",
+      "latam": "Claro de ensueño",
+      "norwegian": "Dream Glade",
+      "polish": "Polana snów",
+      "portuguese": "Dream Glade",
+      "romanian": "Dream Glade",
+      "russian": "Поляна грёз",
+      "schinese": "梦之林地",
+      "schinese_pw": "Dream Glade",
+      "spanish": "Claro de ensueño",
+      "swedish": "Dream Glade",
+      "tchinese": "林間夢幻之境",
+      "thai": "Dream Glade",
+      "turkish": "Rüya Bahçesi",
+      "ukrainian": "Поляна снів",
+      "vietnamese": "Dream Glade"
+    },
+    "name": "Dream Glade",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "11-1129",
+  "localized_names": {
+    "brazilian": "G3SG1 | Clareira dos Sonhos",
+    "bulgarian": "G3SG1 | Бляна горска поляна",
+    "czech": "G3SG1 | Dream Glade",
+    "danish": "G3SG1 | Dream Glade",
+    "dutch": "G3SG1 | Dream Glade",
+    "english": "G3SG1 | Dream Glade",
+    "finnish": "G3SG1 | Metsäaukio",
+    "french": "G3SG1 | Clairière onirique",
+    "german": "G3SG1 | Waldlichtung",
+    "greek": "G3SG1 | Dream Glade",
+    "hungarian": "G3SG1 | Álomtisztás",
+    "indonesian": "G3SG1 | Dream Glade",
+    "italian": "G3SG1 | Dream Glade",
+    "japanese": "G3SG1 | Dream Glade",
+    "koreana": "G3SG1 | 환상의 숲",
+    "latam": "G3SG1 | Claro de ensueño",
+    "norwegian": "G3SG1 | Dream Glade",
+    "polish": "G3SG1 | Polana snów",
+    "portuguese": "G3SG1 | Dream Glade",
+    "romanian": "G3SG1 | Dream Glade",
+    "russian": "G3SG1 | Поляна грёз",
+    "schinese": "G3SG1 | 梦之林地",
+    "schinese_pw": "G3SG1 | Dream Glade",
+    "spanish": "G3SG1 | Claro de ensueño",
+    "swedish": "G3SG1 | Dream Glade",
+    "tchinese": "G3SG1 | 林間夢幻之境",
+    "thai": "G3SG1 | Dream Glade",
+    "turkish": "G3SG1 | Rüya Bahçesi",
+    "ukrainian": "Г3-СГ1 | Поляна снів",
+    "vietnamese": "G3SG1 | Dream Glade"
+  },
+  "media": {
+    "asset_id": "skin__11-1129",
+    "images_png": [
+      "data/api/media/rendered/files/skins/11-1129/light.png",
+      "data/api/media/rendered/files/skins/11-1129/medium.png",
+      "data/api/media/rendered/files/skins/11-1129/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/11-1129.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/11-1129/heavy.png",
+      "light": "data/api/media/rendered/files/skins/11-1129/light.png",
+      "medium": "data/api/media/rendered/files/skins/11-1129/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/11-1129/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_g3sg1_cu_g3sg1_glade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_g3sg1_cu_g3sg1_glade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_g3sg1_cu_g3sg1_glade_medium_png.vtex_c"
+    }
+  },
+  "name": "G3SG1 | Dream Glade",
+  "search_slug": "g3sg1-dream-glade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4818",
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_30",
+        "name": "The Dreams & Nightmares Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "11-1129__normal__battle-scarred",
+    "11-1129__normal__factory-new",
+    "11-1129__normal__field-tested",
+    "11-1129__normal__minimal-wear",
+    "11-1129__normal__well-worn",
+    "11-1129__stattrak__battle-scarred",
+    "11-1129__stattrak__factory-new",
+    "11-1129__stattrak__field-tested",
+    "11-1129__stattrak__minimal-wear",
+    "11-1129__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 11,
+    "localized_names": {
+      "brazilian": "G3SG1",
+      "bulgarian": "G3SG1",
+      "czech": "G3SG1",
+      "danish": "G3SG1",
+      "dutch": "G3SG1",
+      "english": "G3SG1",
+      "finnish": "G3SG1",
+      "french": "G3SG1",
+      "german": "G3SG1",
+      "greek": "G3SG1",
+      "hungarian": "G3SG1",
+      "indonesian": "G3SG1",
+      "italian": "G3SG1",
+      "japanese": "G3SG1",
+      "koreana": "G3SG1",
+      "latam": "G3SG1",
+      "norwegian": "G3SG1",
+      "polish": "G3SG1",
+      "portuguese": "G3SG1",
+      "romanian": "G3SG1",
+      "russian": "G3SG1",
+      "schinese": "G3SG1",
+      "schinese_pw": "G3SG1",
+      "spanish": "G3SG1",
+      "swedish": "G3SG1",
+      "tchinese": "G3SG1",
+      "thai": "G3SG1",
+      "turkish": "G3SG1",
+      "ukrainian": "Г3-СГ1",
+      "vietnamese": "G3SG1"
+    },
+    "name": "G3SG1",
+    "search_slug": "g3sg1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

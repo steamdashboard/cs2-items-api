@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 873,
+    "id": 873,
+    "localized_names": {
+      "brazilian": "Ave Marinha",
+      "bulgarian": "Морска птица",
+      "czech": "Seabird",
+      "danish": "Seabird",
+      "dutch": "Seabird",
+      "english": "Seabird",
+      "finnish": "Merilintu",
+      "french": "Oiseau de mer",
+      "german": "Seevogel",
+      "greek": "Seabird",
+      "hungarian": "Tengeri Madár",
+      "indonesian": "Seabird",
+      "italian": "Seabird",
+      "japanese": "海鳥",
+      "koreana": "바닷새",
+      "latam": "Ave marina",
+      "norwegian": "Seabird",
+      "polish": "Morski ptak",
+      "portuguese": "Seabird",
+      "romanian": "Seabird",
+      "russian": "Чайка",
+      "schinese": "海鸟",
+      "schinese_pw": "Seabird",
+      "spanish": "Ave marina",
+      "swedish": "Seabird",
+      "tchinese": "海鳥",
+      "thai": "Seabird",
+      "turkish": "Deniz Kuşu",
+      "ukrainian": "Морська пташка",
+      "vietnamese": "Seabird"
+    },
+    "name": "Seabird",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-873",
+  "localized_names": {
+    "brazilian": "PP-Bizon | Ave Marinha",
+    "bulgarian": "PP-Bizon | Морска птица",
+    "czech": "PP-Bizon | Seabird",
+    "danish": "PP-Bizon | Seabird",
+    "dutch": "PP-Bizon | Seabird",
+    "english": "PP-Bizon | Seabird",
+    "finnish": "PP-Bizon | Merilintu",
+    "french": "PP-Bizon | Oiseau de mer",
+    "german": "PP-Bizon | Seevogel",
+    "greek": "PP-Bizon | Seabird",
+    "hungarian": "PP-Bizon | Tengeri Madár",
+    "indonesian": "PP-Bizon | Seabird",
+    "italian": "PP-Bizon | Seabird",
+    "japanese": "PP-Bizon | 海鳥",
+    "koreana": "PP 비존 | 바닷새",
+    "latam": "PP-Bizon | Ave marina",
+    "norwegian": "PP-Bizon | Seabird",
+    "polish": "PP-Bizon | Morski ptak",
+    "portuguese": "PP-Bizon | Seabird",
+    "romanian": "PP-Bizon | Seabird",
+    "russian": "ПП-19 «Бизон» | Чайка",
+    "schinese": "PP-野牛 | 海鸟",
+    "schinese_pw": "PP-Bizon | Seabird",
+    "spanish": "PP-Bizon | Ave marina",
+    "swedish": "PP-Bizon | Seabird",
+    "tchinese": "PP-Bizon | 海鳥",
+    "thai": "PP-Bizon | Seabird",
+    "turkish": "PP-Bizon | Deniz Kuşu",
+    "ukrainian": "ПП «Бізон» | Морська пташка",
+    "vietnamese": "PP-Bizon | Seabird"
+  },
+  "media": {
+    "asset_id": "skin__26-873",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-873/light.png",
+      "data/api/media/rendered/files/skins/26-873/medium.png",
+      "data/api/media/rendered/files/skins/26-873/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-873.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-873/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-873/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-873/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-873/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_so_aqua_stmarc_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_so_aqua_stmarc_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_so_aqua_stmarc_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | Seabird",
+  "search_slug": "pp-bizon-seabird",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_stmarc",
+        "name": "The St. Marc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4612",
+        "kind": "container",
+        "name": "The St. Marc Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "26-873__normal__battle-scarred",
+    "26-873__normal__factory-new",
+    "26-873__normal__field-tested",
+    "26-873__normal__minimal-wear",
+    "26-873__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

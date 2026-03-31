@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 335,
+    "id": 335,
+    "localized_names": {
+      "brazilian": "Módulo",
+      "bulgarian": "Модул",
+      "czech": "Module",
+      "danish": "Module",
+      "dutch": "Module",
+      "english": "Module",
+      "finnish": "Moduuli",
+      "french": "Module",
+      "german": "Modul",
+      "greek": "Module",
+      "hungarian": "Modul",
+      "indonesian": "Module",
+      "italian": "Module",
+      "japanese": "Module",
+      "koreana": "모듈",
+      "latam": "Módulo",
+      "norwegian": "Module",
+      "polish": "Moduł",
+      "portuguese": "Module",
+      "romanian": "Modul",
+      "russian": "Модуль",
+      "schinese": "深蓝组件",
+      "schinese_pw": "Module",
+      "spanish": "Módulo",
+      "swedish": "Module",
+      "tchinese": "模組",
+      "thai": "Module",
+      "turkish": "Modül",
+      "ukrainian": "Модуль",
+      "vietnamese": "Module"
+    },
+    "name": "Module",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.35,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-335",
+  "localized_names": {
+    "brazilian": "P90 | Módulo",
+    "bulgarian": "P90 | Модул",
+    "czech": "P90 | Module",
+    "danish": "P90 | Module",
+    "dutch": "P90 | Module",
+    "english": "P90 | Module",
+    "finnish": "P90 | Moduuli",
+    "french": "P90 | Module",
+    "german": "P90 | Modul",
+    "greek": "P90 | Module",
+    "hungarian": "P90 | Modul",
+    "indonesian": "P90 | Module",
+    "italian": "P90 | Module",
+    "japanese": "P90 | Module",
+    "koreana": "P90 | 모듈",
+    "latam": "P90 | Módulo",
+    "norwegian": "P90 | Module",
+    "polish": "P90 | Moduł",
+    "portuguese": "P90 | Module",
+    "romanian": "P90 | Modul",
+    "russian": "P90 | Модуль",
+    "schinese": "P90 | 深蓝组件",
+    "schinese_pw": "P90 | Module",
+    "spanish": "P90 | Módulo",
+    "swedish": "P90 | Module",
+    "tchinese": "P90 | 模組",
+    "thai": "P90 | Module",
+    "turkish": "P90 | Modül",
+    "ukrainian": "П90 | Модуль",
+    "vietnamese": "P90 | Module"
+  },
+  "media": {
+    "asset_id": "skin__19-335",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-335/light.png",
+      "data/api/media/rendered/files/skins/19-335/medium.png",
+      "data/api/media/rendered/files/skins/19-335/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-335.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-335/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-335/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-335/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-335/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_an_royalbleed_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_an_royalbleed_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_an_royalbleed_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Module",
+  "search_slug": "p90-module",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4017",
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_3",
+        "name": "The Huntsman Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-335__normal__factory-new",
+    "19-335__normal__field-tested",
+    "19-335__normal__minimal-wear",
+    "19-335__stattrak__factory-new",
+    "19-335__stattrak__field-tested",
+    "19-335__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.35,
+    "min_float": 0.0
+  }
+}

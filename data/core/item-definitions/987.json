@@ -1,0 +1,48 @@
+{
+  "classification": {
+    "group": "other",
+    "kind": "other"
+  },
+  "game_id": 987,
+  "id": 987,
+  "name": "CSGO Ten Year Anniversary Memorabilia",
+  "prefab_chain": [
+    "collectible",
+    "collectible_untradable",
+    "collectible_untradable_coin"
+  ],
+  "prefab_spec": "collectible_untradable_coin",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "pedestal display model": "models/inventory_items/cupcake_10_year.vmdl"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/status_icons/cupcake_10_year",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_CollectibleCoin_CsgoTenYearAnniversaryMemorabilia_Desc",
+    "item_name": "#CSGO_CollectibleCoin_CsgoTenYearAnniversaryMemorabilia",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "name": "CSGO Ten Year Anniversary Memorabilia",
+    "prefab": "collectible_untradable_coin",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 364,
+    "id": 364,
+    "localized_names": {
+      "brazilian": "Classe Executiva",
+      "bulgarian": "Бизнес класа",
+      "czech": "Business Class",
+      "danish": "Business Class",
+      "dutch": "Business Class",
+      "english": "Business Class",
+      "finnish": "Bisnesluokka",
+      "french": "Classe affaires",
+      "german": "Business Class",
+      "greek": "Business Class",
+      "hungarian": "Business Osztály",
+      "indonesian": "Business Class",
+      "italian": "Business Class",
+      "japanese": "Business Class",
+      "koreana": "비지니스석",
+      "latam": "Clase preferente",
+      "norwegian": "Business Class",
+      "polish": "Biznes klasa",
+      "portuguese": "Business Class",
+      "romanian": "Business Class",
+      "russian": "Бизнес-класс",
+      "schinese": "商业皮革",
+      "schinese_pw": "Business Class",
+      "spanish": "Clase preferente",
+      "swedish": "Business Class",
+      "tchinese": "商務艙",
+      "thai": "Business Class",
+      "turkish": "Ticari Sınıf",
+      "ukrainian": "Бізнес-клас",
+      "vietnamese": "Business Class"
+    },
+    "name": "Business Class",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-364",
+  "localized_names": {
+    "brazilian": "USP-S | Classe Executiva",
+    "bulgarian": "USP-S | Бизнес класа",
+    "czech": "USP-S | Business Class",
+    "danish": "USP-S | Business Class",
+    "dutch": "USP-S | Business Class",
+    "english": "USP-S | Business Class",
+    "finnish": "USP-S | Bisnesluokka",
+    "french": "USP-S | Classe affaires",
+    "german": "USP-S | Business Class",
+    "greek": "USP-S | Business Class",
+    "hungarian": "USP-S | Business Osztály",
+    "indonesian": "USP-S | Business Class",
+    "italian": "USP-S | Business Class",
+    "japanese": "USP-S | Business Class",
+    "koreana": "USP-S | 비지니스석",
+    "latam": "USP-S | Clase preferente",
+    "norwegian": "USP-S | Business Class",
+    "polish": "USP-S | Biznes klasa",
+    "portuguese": "USP-S | Business Class",
+    "romanian": "USP-S | Business Class",
+    "russian": "USP-S | Бизнес-класс",
+    "schinese": "USP消音版 | 商业皮革",
+    "schinese_pw": "USP-S | Business Class",
+    "spanish": "USP-S | Clase preferente",
+    "swedish": "USP-S | Business Class",
+    "tchinese": "USP-S | 商務艙",
+    "thai": "USP-S | Business Class",
+    "turkish": "USP-S | Ticari Sınıf",
+    "ukrainian": "УСП-С | Бізнес-клас",
+    "vietnamese": "USP-S | Business Class"
+  },
+  "media": {
+    "asset_id": "skin__61-364",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-364/light.png",
+      "data/api/media/rendered/files/skins/61-364/medium.png",
+      "data/api/media/rendered/files/skins/61-364/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-364.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-364/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-364/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-364/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-364/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_luggage_usp-s_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_luggage_usp-s_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_luggage_usp-s_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Business Class",
+  "search_slug": "usp-s-business-class",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_baggage",
+        "name": "The Baggage Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-364__normal__battle-scarred",
+    "61-364__normal__factory-new",
+    "61-364__normal__field-tested",
+    "61-364__normal__minimal-wear",
+    "61-364__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

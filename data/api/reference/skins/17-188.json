@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "aq_etched_mac10_bravo",
+    "id": 188,
+    "name": "Graven",
+    "rarity_ref": null,
+    "style_code": 8
+  },
+  "game_ref": {
+    "paint_kit_id": 188,
+    "weapon_id": 17
+  },
+  "id": "17-188",
+  "name": "MAC-10 | Graven",
+  "search_slug": "mac-10-graven",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "17-188__normal__vanilla",
+    "17-188__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_mac10",
+    "id": 17,
+    "name": "MAC-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

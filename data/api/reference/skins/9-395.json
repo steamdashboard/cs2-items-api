@@ -1,0 +1,70 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_awp_glory",
+    "id": 395,
+    "name": "Man-o'-war",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 395,
+    "weapon_id": 9
+  },
+  "id": "9-395",
+  "name": "AWP | Man-o'-war",
+  "search_slug": "awp-man-o-war",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "9-395__normal__minimal-wear",
+    "9-395__normal__field-tested",
+    "9-395__stattrak__minimal-wear",
+    "9-395__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_awp",
+    "id": 9,
+    "name": "AWP",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.1
+  }
+}

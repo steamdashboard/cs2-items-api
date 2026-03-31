@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 255,
+    "id": 255,
+    "localized_names": {
+      "brazilian": "Asiimov",
+      "bulgarian": "Азимов",
+      "czech": "Asiimov",
+      "danish": "Asiimov",
+      "dutch": "Asiimov",
+      "english": "Asiimov",
+      "finnish": "Asiimov",
+      "french": "Asiimov",
+      "german": "Asiimov",
+      "greek": "Asiimov",
+      "hungarian": "Asiimov",
+      "indonesian": "Asiimov",
+      "italian": "Asiimov",
+      "japanese": "アシモフ",
+      "koreana": "아시모프",
+      "latam": "Asiimov",
+      "norwegian": "Asiimov",
+      "polish": "Asiimov",
+      "portuguese": "Asiimov",
+      "romanian": "Asiimov",
+      "russian": "Азимов",
+      "schinese": "二西莫夫",
+      "schinese_pw": "Asiimov",
+      "spanish": "Asiimov",
+      "swedish": "Asiimov",
+      "tchinese": "艾西莫夫",
+      "thai": "Asiimov",
+      "turkish": "Asiimov",
+      "ukrainian": "Азімов",
+      "vietnamese": "Asiimov"
+    },
+    "name": "Asiimov",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.18
+    }
+  },
+  "id": "16-255",
+  "localized_names": {
+    "brazilian": "M4A4 | Asiimov",
+    "bulgarian": "M4A4 | Азимов",
+    "czech": "M4A4 | Asiimov",
+    "danish": "M4A4 | Asiimov",
+    "dutch": "M4A4 | Asiimov",
+    "english": "M4A4 | Asiimov",
+    "finnish": "M4A4 | Asiimov",
+    "french": "M4A4 | Asiimov",
+    "german": "M4A4 | Asiimov",
+    "greek": "M4A4 | Asiimov",
+    "hungarian": "M4A4 | Asiimov",
+    "indonesian": "M4A4 | Asiimov",
+    "italian": "M4A4 | Asiimov",
+    "japanese": "M4A4 | アシモフ",
+    "koreana": "M4A4 | 아시모프",
+    "latam": "M4A4 | Asiimov",
+    "norwegian": "M4A4 | Asiimov",
+    "polish": "M4A4 | Asiimov",
+    "portuguese": "M4A4 | Asiimov",
+    "romanian": "M4A4 | Asiimov",
+    "russian": "M4A4 | Азимов",
+    "schinese": "M4A4 | 二西莫夫",
+    "schinese_pw": "M4A4 | Asiimov",
+    "spanish": "M4A4 | Asiimov",
+    "swedish": "M4A4 | Asiimov",
+    "tchinese": "M4A4 | 艾西莫夫",
+    "thai": "M4A4 | Asiimov",
+    "turkish": "M4A4 | Asiimov",
+    "ukrainian": "М4А4 | Азімов",
+    "vietnamese": "M4A4 | Asiimov"
+  },
+  "media": {
+    "asset_id": "skin__16-255",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-255/light.png",
+      "data/api/media/rendered/files/skins/16-255/medium.png",
+      "data/api/media/rendered/files/skins/16-255/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-255.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-255/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-255/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-255/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-255/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4_asimov_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4_asimov_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4_asimov_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Asiimov",
+  "search_slug": "m4a4-asiimov",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "16-255__normal__battle-scarred",
+    "16-255__normal__field-tested",
+    "16-255__normal__well-worn",
+    "16-255__stattrak__battle-scarred",
+    "16-255__stattrak__field-tested",
+    "16-255__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.18
+  }
+}

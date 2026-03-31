@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 591,
+    "id": 591,
+    "localized_names": {
+      "brazilian": "Dragão Imperial",
+      "bulgarian": "Имперски дракон",
+      "czech": "Imperial Dragon",
+      "danish": "Imperial Dragon",
+      "dutch": "Imperial Dragon",
+      "english": "Imperial Dragon",
+      "finnish": "Keisarikäärme",
+      "french": "Dragon impérial",
+      "german": "Kaiserlicher Drache",
+      "greek": "Imperial Dragon",
+      "hungarian": "Birodalmi Sárkány",
+      "indonesian": "Imperial Dragon",
+      "italian": "Imperial Dragon",
+      "japanese": "Imperial Dragon",
+      "koreana": "황제의 용",
+      "latam": "Dragón imperial",
+      "norwegian": "Imperial Dragon",
+      "polish": "Smok cesarski",
+      "portuguese": "Imperial Dragon",
+      "romanian": "Imperial Dragon",
+      "russian": "Императорский дракон",
+      "schinese": "至尊威龙",
+      "schinese_pw": "Imperial Dragon",
+      "spanish": "Dragón imperial",
+      "swedish": "Imperial Dragon",
+      "tchinese": "帝國之龍",
+      "thai": "Imperial Dragon",
+      "turkish": "Görkemli Ejder",
+      "ukrainian": "Імперський дракон",
+      "vietnamese": "Imperial Dragon"
+    },
+    "name": "Imperial Dragon",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.63,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-591",
+  "localized_names": {
+    "brazilian": "P2000 | Dragão Imperial",
+    "bulgarian": "P2000 | Имперски дракон",
+    "czech": "P2000 | Imperial Dragon",
+    "danish": "P2000 | Imperial Dragon",
+    "dutch": "P2000 | Imperial Dragon",
+    "english": "P2000 | Imperial Dragon",
+    "finnish": "P2000 | Keisarikäärme",
+    "french": "P2000 | Dragon impérial",
+    "german": "P2000 | Kaiserlicher Drache",
+    "greek": "P2000 | Imperial Dragon",
+    "hungarian": "P2000 | Birodalmi Sárkány",
+    "indonesian": "P2000 | Imperial Dragon",
+    "italian": "P2000 | Imperial Dragon",
+    "japanese": "P2000 | Imperial Dragon",
+    "koreana": "P2000 | 황제의 용",
+    "latam": "P2000 | Dragón imperial",
+    "norwegian": "P2000 | Imperial Dragon",
+    "polish": "P2000 | Smok cesarski",
+    "portuguese": "P2000 | Imperial Dragon",
+    "romanian": "P2000 | Imperial Dragon",
+    "russian": "P2000 | Императорский дракон",
+    "schinese": "P2000 | 至尊威龙",
+    "schinese_pw": "P2000 | Imperial Dragon",
+    "spanish": "P2000 | Dragón imperial",
+    "swedish": "P2000 | Imperial Dragon",
+    "tchinese": "P2000 | 帝國之龍",
+    "thai": "P2000 | Imperial Dragon",
+    "turkish": "P2000 | Görkemli Ejder",
+    "ukrainian": "П2000 | Імперський дракон",
+    "vietnamese": "P2000 | Imperial Dragon"
+  },
+  "media": {
+    "asset_id": "skin__32-591",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-591/light.png",
+      "data/api/media/rendered/files/skins/32-591/medium.png",
+      "data/api/media/rendered/files/skins/32-591/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-591.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-591/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-591/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-591/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-591/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_gs_p2000_imperial_dragon_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_gs_p2000_imperial_dragon_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_gs_p2000_imperial_dragon_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Imperial Dragon",
+  "search_slug": "p2000-imperial-dragon",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4236",
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_13",
+        "name": "The Gamma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "32-591__normal__battle-scarred",
+    "32-591__normal__factory-new",
+    "32-591__normal__field-tested",
+    "32-591__normal__minimal-wear",
+    "32-591__normal__well-worn",
+    "32-591__stattrak__battle-scarred",
+    "32-591__stattrak__factory-new",
+    "32-591__stattrak__field-tested",
+    "32-591__stattrak__minimal-wear",
+    "32-591__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.63,
+    "min_float": 0.0
+  }
+}

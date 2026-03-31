@@ -1,0 +1,53 @@
+{
+  "description": "",
+  "description_token": "#CSGO_set_inferno_desc",
+  "display_name": "The Inferno Collection",
+  "display_name_token": "#CSGO_set_inferno",
+  "game_id": "set_inferno",
+  "id": "set_inferno",
+  "items": [
+    {
+      "entry": "[so_sand]weapon_mag7",
+      "target": "weapon_mag7",
+      "token": "so_sand"
+    },
+    {
+      "entry": "[cu_walnut_nova]weapon_nova",
+      "target": "weapon_nova",
+      "token": "cu_walnut_nova"
+    },
+    {
+      "entry": "[hy_gelpen]weapon_p250",
+      "target": "weapon_p250",
+      "token": "hy_gelpen"
+    },
+    {
+      "entry": "[so_tornado]weapon_m4a1",
+      "target": "weapon_m4a1",
+      "token": "so_tornado"
+    },
+    {
+      "entry": "[an_navy]weapon_elite",
+      "target": "weapon_elite",
+      "token": "an_navy"
+    },
+    {
+      "entry": "[aq_brass]weapon_tec9",
+      "target": "weapon_tec9",
+      "token": "aq_brass"
+    }
+  ],
+  "resolved": {
+    "is_collection": "1",
+    "items": {
+      "[an_navy]weapon_elite": "1",
+      "[aq_brass]weapon_tec9": "1",
+      "[cu_walnut_nova]weapon_nova": "1",
+      "[hy_gelpen]weapon_p250": "1",
+      "[so_sand]weapon_mag7": "1",
+      "[so_tornado]weapon_m4a1": "1"
+    },
+    "name": "#CSGO_set_inferno",
+    "set_description": "#CSGO_set_inferno_desc"
+  }
+}

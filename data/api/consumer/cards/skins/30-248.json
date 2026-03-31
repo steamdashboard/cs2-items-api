@@ -1,0 +1,275 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 248,
+    "id": 248,
+    "localized_names": {
+      "brazilian": "Quartzo Vermelho",
+      "bulgarian": "Червен кварц",
+      "czech": "Red Quartz",
+      "danish": "Red Quartz",
+      "dutch": "Red Quartz",
+      "english": "Red Quartz",
+      "finnish": "Punakvartsi",
+      "french": "Quartz rouge",
+      "german": "Roter Quarz",
+      "greek": "Red Quartz",
+      "hungarian": "Vörös Kvarc",
+      "indonesian": "Red Quartz",
+      "italian": "Red Quartz",
+      "japanese": "Red Quartz",
+      "koreana": "붉은 수정",
+      "latam": "Cuarzo rojo",
+      "norwegian": "Red Quartz",
+      "polish": "Czerwony kwarc",
+      "portuguese": "Red Quartz",
+      "romanian": "Red Quartz",
+      "russian": "Красный кварц",
+      "schinese": "晶红石英",
+      "schinese_pw": "Red Quartz",
+      "spanish": "Cuarzo rojo",
+      "swedish": "Red Quartz",
+      "tchinese": "紅色石英",
+      "thai": "Red Quartz",
+      "turkish": "Kırmızı Kuvars",
+      "ukrainian": "Червоний кварц",
+      "vietnamese": "Red Quartz"
+    },
+    "name": "Red Quartz",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-248",
+  "localized_names": {
+    "brazilian": "Tec-9 | Quartzo Vermelho",
+    "bulgarian": "Tec-9 | Червен кварц",
+    "czech": "Tec-9 | Red Quartz",
+    "danish": "Tec-9 | Red Quartz",
+    "dutch": "Tec-9 | Red Quartz",
+    "english": "Tec-9 | Red Quartz",
+    "finnish": "Tec-9 | Punakvartsi",
+    "french": "Tec-9 | Quartz rouge",
+    "german": "Tec-9 | Roter Quarz",
+    "greek": "Tec-9 | Red Quartz",
+    "hungarian": "Tec-9 | Vörös Kvarc",
+    "indonesian": "Tec-9 | Red Quartz",
+    "italian": "Tec-9 | Red Quartz",
+    "japanese": "Tec-9 | Red Quartz",
+    "koreana": "Tec-9 | 붉은 수정",
+    "latam": "Tec-9 | Cuarzo rojo",
+    "norwegian": "Tec-9 | Red Quartz",
+    "polish": "Tec-9 | Czerwony kwarc",
+    "portuguese": "Tec-9 | Red Quartz",
+    "romanian": "Tec-9 | Red Quartz",
+    "russian": "Tec-9 | Красный кварц",
+    "schinese": "Tec-9 | 晶红石英",
+    "schinese_pw": "Tec-9 | Red Quartz",
+    "spanish": "Tec-9 | Cuarzo rojo",
+    "swedish": "Tec-9 | Red Quartz",
+    "tchinese": "Tec-9 | 紅色石英",
+    "thai": "Tec-9 | Red Quartz",
+    "turkish": "Tec-9 | Kırmızı Kuvars",
+    "ukrainian": "ТЕК-9 | Червоний кварц",
+    "vietnamese": "Tec-9 | Red Quartz"
+  },
+  "media": {
+    "asset_id": "skin__30-248",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-248/light.png",
+      "data/api/media/rendered/files/skins/30-248/medium.png",
+      "data/api/media/rendered/files/skins/30-248/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-248.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-248/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-248/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-248/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-248/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_am_crystallized_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_am_crystallized_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_am_crystallized_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Red Quartz",
+  "search_slug": "tec-9-red-quartz",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train",
+        "name": "The Train Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4137",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4182",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4231",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4279",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4349",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4401",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4468",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4545",
+        "kind": "souvenir-package",
+        "name": "London 2018 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4595",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4664",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Train Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "30-248__normal__factory-new",
+    "30-248__normal__field-tested",
+    "30-248__normal__minimal-wear",
+    "30-248__normal__well-worn",
+    "30-248__souvenir__factory-new",
+    "30-248__souvenir__field-tested",
+    "30-248__souvenir__minimal-wear",
+    "30-248__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

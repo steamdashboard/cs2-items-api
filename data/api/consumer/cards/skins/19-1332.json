@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1332,
+    "id": 1332,
+    "localized_names": {
+      "brazilian": "Meio-Tom Desértico",
+      "bulgarian": "Пустинна фотогравюра",
+      "czech": "Desert Halftone",
+      "danish": "Desert Halftone",
+      "dutch": "Desert Halftone",
+      "english": "Desert Halftone",
+      "finnish": "Aavikon ruusu",
+      "french": "Désert en demi-teinte",
+      "german": "Wüstenfarbenes Halbtonmuster",
+      "greek": "Desert Halftone",
+      "hungarian": "Sivatagi Féltónus",
+      "indonesian": "Desert Halftone",
+      "italian": "Desert Halftone",
+      "japanese": "Desert Halftone",
+      "koreana": "데저트 하프톤",
+      "latam": "Semitono desértico",
+      "norwegian": "Desert Halftone",
+      "polish": "Pustynny półton",
+      "portuguese": "Desert Halftone",
+      "romanian": "Desert Halftone",
+      "russian": "Пустынные полутона",
+      "schinese": "沙漠半调",
+      "schinese_pw": "Desert Halftone",
+      "spanish": "Semitono desértico",
+      "swedish": "Desert Halftone",
+      "tchinese": "沙漠半色調",
+      "thai": "Desert Halftone",
+      "turkish": "Yarım Ton Çöl",
+      "ukrainian": "Пустельний півтон",
+      "vietnamese": "Desert Halftone"
+    },
+    "name": "Desert Halftone",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-1332",
+  "localized_names": {
+    "brazilian": "P90 | Meio-Tom Desértico",
+    "bulgarian": "P90 | Пустинна фотогравюра",
+    "czech": "P90 | Desert Halftone",
+    "danish": "P90 | Desert Halftone",
+    "dutch": "P90 | Desert Halftone",
+    "english": "P90 | Desert Halftone",
+    "finnish": "P90 | Aavikon ruusu",
+    "french": "P90 | Désert en demi-teinte",
+    "german": "P90 | Wüstenfarbenes Halbtonmuster",
+    "greek": "P90 | Desert Halftone",
+    "hungarian": "P90 | Sivatagi Féltónus",
+    "indonesian": "P90 | Desert Halftone",
+    "italian": "P90 | Desert Halftone",
+    "japanese": "P90 | Desert Halftone",
+    "koreana": "P90 | 데저트 하프톤",
+    "latam": "P90 | Semitono desértico",
+    "norwegian": "P90 | Desert Halftone",
+    "polish": "P90 | Pustynny półton",
+    "portuguese": "P90 | Desert Halftone",
+    "romanian": "P90 | Desert Halftone",
+    "russian": "P90 | Пустынные полутона",
+    "schinese": "P90 | 沙漠半调",
+    "schinese_pw": "P90 | Desert Halftone",
+    "spanish": "P90 | Semitono desértico",
+    "swedish": "P90 | Desert Halftone",
+    "tchinese": "P90 | 沙漠半色調",
+    "thai": "P90 | Desert Halftone",
+    "turkish": "P90 | Yarım Ton Çöl",
+    "ukrainian": "П90 | Пустельний півтон",
+    "vietnamese": "P90 | Desert Halftone"
+  },
+  "media": {
+    "asset_id": "skin__19-1332",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-1332/light.png",
+      "data/api/media/rendered/files/skins/19-1332/medium.png",
+      "data/api/media/rendered/files/skins/19-1332/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-1332.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-1332/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-1332/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-1332/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-1332/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_ht_simple_camo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_ht_simple_camo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_ht_simple_camo_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Desert Halftone",
+  "search_slug": "p90-desert-halftone",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-1332__normal__battle-scarred",
+    "19-1332__normal__factory-new",
+    "19-1332__normal__field-tested",
+    "19-1332__normal__minimal-wear",
+    "19-1332__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

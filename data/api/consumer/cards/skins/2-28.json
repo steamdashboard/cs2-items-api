@@ -1,0 +1,243 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 28,
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Azul-marinho Metalizado",
+      "bulgarian": "Анодно оксидирано тъмносиньо",
+      "czech": "Anodized Navy",
+      "danish": "Anodized Navy",
+      "dutch": "Anodized Navy",
+      "english": "Anodized Navy",
+      "finnish": "Anodisoitu laivastonsininen",
+      "french": "Bleu anodisé",
+      "german": "Marineblau eloxiert",
+      "greek": "Anodized Navy",
+      "hungarian": "Eloxált Haditengerészeti",
+      "indonesian": "Anodized Navy",
+      "italian": "Anodized Navy",
+      "japanese": "Anodized Navy",
+      "koreana": "도장 효과 군청색",
+      "latam": "Azul marino anodizado",
+      "norwegian": "Anodized Navy",
+      "polish": "Anodyzowany granatowy",
+      "portuguese": "Anodized Navy",
+      "romanian": "Anodized Navy",
+      "russian": "Анодированная синева",
+      "schinese": "深蓝电镀处理",
+      "schinese_pw": "Anodized Navy",
+      "spanish": "Azul marino anodizado",
+      "swedish": "Anodized Navy",
+      "tchinese": "海軍電鍍",
+      "thai": "Anodized Navy",
+      "turkish": "Eloksal Donanma",
+      "ukrainian": "Анодована синява",
+      "vietnamese": "Anodized Navy"
+    },
+    "name": "Anodized Navy",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-28",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Azul-marinho Metalizado",
+    "bulgarian": "Два Beretta | Анодно оксидирано тъмносиньо",
+    "czech": "Dual Berettas | Anodized Navy",
+    "danish": "Dual Berettas | Anodized Navy",
+    "dutch": "Dual Berettas | Anodized Navy",
+    "english": "Dual Berettas | Anodized Navy",
+    "finnish": "Tupla-Berettat | Anodisoitu laivastonsininen",
+    "french": "Dual Berettas | Bleu anodisé",
+    "german": "Akimbo-Berettas | Marineblau eloxiert",
+    "greek": "Dual Berettas | Anodized Navy",
+    "hungarian": "Dupla Beretta | Eloxált Haditengerészeti",
+    "indonesian": "Dual Berettas | Anodized Navy",
+    "italian": "Doppia Beretta | Anodized Navy",
+    "japanese": "Dual Berettas | Anodized Navy",
+    "koreana": "듀얼 베레타 | 도장 효과 군청색",
+    "latam": "Berettas dobles | Azul marino anodizado",
+    "norwegian": "Dual Berettas | Anodized Navy",
+    "polish": "Dwie beretty | Anodyzowany granatowy",
+    "portuguese": "Dual Berettas | Anodized Navy",
+    "romanian": "Dual Berettas | Anodized Navy",
+    "russian": "Dual Berettas | Анодированная синева",
+    "schinese": "双持贝瑞塔 | 深蓝电镀处理",
+    "schinese_pw": "Dual Berettas | Anodized Navy",
+    "spanish": "Berettas dobles | Azul marino anodizado",
+    "swedish": "Dual Berettas | Anodized Navy",
+    "tchinese": "Dual Berettas | 海軍電鍍",
+    "thai": "Dual Berettas | Anodized Navy",
+    "turkish": "Çift Beretta | Eloksal Donanma",
+    "ukrainian": "Подвійні «Беретти» | Анодована синява",
+    "vietnamese": "Dual Berettas | Anodized Navy"
+  },
+  "media": {
+    "asset_id": "skin__2-28",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-28/light.png",
+      "data/api/media/rendered/files/skins/2-28/medium.png",
+      "data/api/media/rendered/files/skins/2-28/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-28.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-28/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-28/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-28/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-28/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_an_navy_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_an_navy_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_an_navy_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Anodized Navy",
+  "search_slug": "dual-berettas-anodized-navy",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_inferno",
+        "name": "The Inferno Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4023",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4032",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4080",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4133",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4178",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4227",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4396",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4463",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Inferno Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "2-28__normal__factory-new",
+    "2-28__normal__minimal-wear",
+    "2-28__souvenir__factory-new",
+    "2-28__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

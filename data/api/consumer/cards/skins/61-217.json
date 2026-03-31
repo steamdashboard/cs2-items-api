@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 217,
+    "id": 217,
+    "localized_names": {
+      "brazilian": "Sangue de Tigre",
+      "bulgarian": "Кървав тигър",
+      "czech": "Blood Tiger",
+      "danish": "Blood Tiger",
+      "dutch": "Blood Tiger",
+      "english": "Blood Tiger",
+      "finnish": "Veritiikeri",
+      "french": "Sang de tigre",
+      "german": "Bluttiger",
+      "greek": "Blood Tiger",
+      "hungarian": "Vértigris",
+      "indonesian": "Blood Tiger",
+      "italian": "Blood Tiger",
+      "japanese": "Blood Tiger",
+      "koreana": "핏빛 호랑이무늬",
+      "latam": "Sangre de tigre",
+      "norwegian": "Blood Tiger",
+      "polish": "Krwawy tygrys",
+      "portuguese": "Blood Tiger",
+      "romanian": "Blood Tiger",
+      "russian": "Кровавый тигр",
+      "schinese": "血虎",
+      "schinese_pw": "Blood Tiger",
+      "spanish": "Sangre de tigre",
+      "swedish": "Blood Tiger",
+      "tchinese": "血斑虎紋",
+      "thai": "Blood Tiger",
+      "turkish": "Kan Kaplanı",
+      "ukrainian": "Кривавий тигр",
+      "vietnamese": "Blood Tiger"
+    },
+    "name": "Blood Tiger",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-217",
+  "localized_names": {
+    "brazilian": "USP-S | Sangue de Tigre",
+    "bulgarian": "USP-S | Кървав тигър",
+    "czech": "USP-S | Blood Tiger",
+    "danish": "USP-S | Blood Tiger",
+    "dutch": "USP-S | Blood Tiger",
+    "english": "USP-S | Blood Tiger",
+    "finnish": "USP-S | Veritiikeri",
+    "french": "USP-S | Sang de tigre",
+    "german": "USP-S | Bluttiger",
+    "greek": "USP-S | Blood Tiger",
+    "hungarian": "USP-S | Vértigris",
+    "indonesian": "USP-S | Blood Tiger",
+    "italian": "USP-S | Blood Tiger",
+    "japanese": "USP-S | Blood Tiger",
+    "koreana": "USP-S | 핏빛 호랑이무늬",
+    "latam": "USP-S | Sangre de tigre",
+    "norwegian": "USP-S | Blood Tiger",
+    "polish": "USP-S | Krwawy tygrys",
+    "portuguese": "USP-S | Blood Tiger",
+    "romanian": "USP-S | Blood Tiger",
+    "russian": "USP-S | Кровавый тигр",
+    "schinese": "USP消音版 | 血虎",
+    "schinese_pw": "USP-S | Blood Tiger",
+    "spanish": "USP-S | Sangre de tigre",
+    "swedish": "USP-S | Blood Tiger",
+    "tchinese": "USP-S | 血斑虎紋",
+    "thai": "USP-S | Blood Tiger",
+    "turkish": "USP-S | Kan Kaplanı",
+    "ukrainian": "УСП-С | Кривавий тигр",
+    "vietnamese": "USP-S | Blood Tiger"
+  },
+  "media": {
+    "asset_id": "skin__61-217",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-217/light.png",
+      "data/api/media/rendered/files/skins/61-217/medium.png",
+      "data/api/media/rendered/files/skins/61-217/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-217.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-217/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-217/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-217/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-217/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_hy_redtiger_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_hy_redtiger_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_hy_redtiger_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Blood Tiger",
+  "search_slug": "usp-s-blood-tiger",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-217__normal__factory-new",
+    "61-217__normal__field-tested",
+    "61-217__normal__minimal-wear",
+    "61-217__stattrak__factory-new",
+    "61-217__stattrak__field-tested",
+    "61-217__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

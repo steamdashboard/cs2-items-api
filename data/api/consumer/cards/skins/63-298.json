@@ -1,0 +1,200 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 298,
+    "id": 298,
+    "localized_names": {
+      "brazilian": "Brilho Militar",
+      "bulgarian": "Армейски гланц",
+      "czech": "Army Sheen",
+      "danish": "Army Sheen",
+      "dutch": "Army Sheen",
+      "english": "Army Sheen",
+      "finnish": "Armeijakiilto",
+      "french": "Armée éclatante",
+      "german": "Militärglanz",
+      "greek": "Army Sheen",
+      "hungarian": "Katonai Ragyogás",
+      "indonesian": "Army Sheen",
+      "italian": "Army Sheen",
+      "japanese": "Army Sheen",
+      "koreana": "광택 위장 무늬",
+      "latam": "Brillo militar",
+      "norwegian": "Army Sheen",
+      "polish": "Wojskowy połysk",
+      "portuguese": "Army Sheen",
+      "romanian": "Army Sheen",
+      "russian": "Армейский блеск",
+      "schinese": "军队之辉",
+      "schinese_pw": "Army Sheen",
+      "spanish": "Brillo militar",
+      "swedish": "Army Sheen",
+      "tchinese": "軍隊光輝",
+      "thai": "Army Sheen",
+      "turkish": "Parlak Ordu",
+      "ukrainian": "Армійська сталь",
+      "vietnamese": "Army Sheen"
+    },
+    "name": "Army Sheen",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-298",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Brilho Militar",
+    "bulgarian": "CZ75-Auto | Армейски гланц",
+    "czech": "CZ75-Auto | Army Sheen",
+    "danish": "CZ75-Auto | Army Sheen",
+    "dutch": "CZ75-Auto | Army Sheen",
+    "english": "CZ75-Auto | Army Sheen",
+    "finnish": "CZ75-Auto | Armeijakiilto",
+    "french": "CZ75-Auto | Armée éclatante",
+    "german": "CZ75-Auto | Militärglanz",
+    "greek": "CZ75-Auto | Army Sheen",
+    "hungarian": "CZ75-Auto | Katonai Ragyogás",
+    "indonesian": "CZ75-Auto | Army Sheen",
+    "italian": "CZ75-Auto | Army Sheen",
+    "japanese": "CZ75-Auto | Army Sheen",
+    "koreana": "CZ75 기관권총 | 광택 위장 무늬",
+    "latam": "CZ75-Auto | Brillo militar",
+    "norwegian": "CZ75-Auto | Army Sheen",
+    "polish": "CZ75-Auto | Wojskowy połysk",
+    "portuguese": "CZ75-Auto | Army Sheen",
+    "romanian": "CZ75-Auto | Army Sheen",
+    "russian": "CZ75-Auto | Армейский блеск",
+    "schinese": "CZ75自动型 | 军队之辉",
+    "schinese_pw": "CZ75-Auto | Army Sheen",
+    "spanish": "CZ75-Auto | Brillo militar",
+    "swedish": "CZ75-Auto | Army Sheen",
+    "tchinese": "CZ75-Auto | 軍隊光輝",
+    "thai": "CZ75-Auto | Army Sheen",
+    "turkish": "CZ75-Otomatik | Parlak Ordu",
+    "ukrainian": "ЧЗ-75 авто | Армійська сталь",
+    "vietnamese": "CZ75-Auto | Army Sheen"
+  },
+  "media": {
+    "asset_id": "skin__63-298",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-298/light.png",
+      "data/api/media/rendered/files/skins/63-298/medium.png",
+      "data/api/media/rendered/files/skins/63-298/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-298.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-298/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-298/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-298/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-298/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_am_army_shine_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_am_army_shine_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_am_army_shine_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Army Sheen",
+  "search_slug": "cz75-auto-army-sheen",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-298__normal__factory-new",
+    "63-298__normal__field-tested",
+    "63-298__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

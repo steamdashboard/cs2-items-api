@@ -1,0 +1,297 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 369,
+    "id": 369,
+    "localized_names": {
+      "brazilian": "Dejetos Nucleares",
+      "bulgarian": "Ядрени отпадъци",
+      "czech": "Nuclear Waste",
+      "danish": "Nuclear Waste",
+      "dutch": "Nuclear Waste",
+      "english": "Nuclear Waste",
+      "finnish": "Ydinjäte",
+      "french": "Déchets nucléaires",
+      "german": "Atommüll",
+      "greek": "Nuclear Waste",
+      "hungarian": "Atomhulladék",
+      "indonesian": "Nuclear Waste",
+      "italian": "Nuclear Waste",
+      "japanese": "Nuclear Waste",
+      "koreana": "핵 폐기물",
+      "latam": "Residuos nucleares",
+      "norwegian": "Nuclear Waste",
+      "polish": "Odpady radioaktywne",
+      "portuguese": "Nuclear Waste",
+      "romanian": "Nuclear Waste",
+      "russian": "Радиоактивные отходы",
+      "schinese": "核子废渣",
+      "schinese_pw": "Nuclear Waste",
+      "spanish": "Residuos nucleares",
+      "swedish": "Nuclear Waste",
+      "tchinese": "核廢料",
+      "thai": "Nuclear Waste",
+      "turkish": "Nükleer Atık",
+      "ukrainian": "Ядерні відходи",
+      "vietnamese": "Nuclear Waste"
+    },
+    "name": "Nuclear Waste",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-369",
+  "localized_names": {
+    "brazilian": "Negev | Dejetos Nucleares",
+    "bulgarian": "Negev | Ядрени отпадъци",
+    "czech": "Negev | Nuclear Waste",
+    "danish": "Negev | Nuclear Waste",
+    "dutch": "Negev | Nuclear Waste",
+    "english": "Negev | Nuclear Waste",
+    "finnish": "Negev | Ydinjäte",
+    "french": "Negev | Déchets nucléaires",
+    "german": "Negev | Atommüll",
+    "greek": "Negev | Nuclear Waste",
+    "hungarian": "Negev | Atomhulladék",
+    "indonesian": "Negev | Nuclear Waste",
+    "italian": "Negev | Nuclear Waste",
+    "japanese": "Negev | Nuclear Waste",
+    "koreana": "네게브 | 핵 폐기물",
+    "latam": "Negev | Residuos nucleares",
+    "norwegian": "Negev | Nuclear Waste",
+    "polish": "Negev | Odpady radioaktywne",
+    "portuguese": "Negev | Nuclear Waste",
+    "romanian": "Negev | Nuclear Waste",
+    "russian": "Негев | Радиоактивные отходы",
+    "schinese": "内格夫 | 核子废渣",
+    "schinese_pw": "Negev | Nuclear Waste",
+    "spanish": "Negev | Residuos nucleares",
+    "swedish": "Negev | Nuclear Waste",
+    "tchinese": "Negev | 核廢料",
+    "thai": "Negev | Nuclear Waste",
+    "turkish": "Negev | Nükleer Atık",
+    "ukrainian": "Неґев | Ядерні відходи",
+    "vietnamese": "Negev | Nuclear Waste"
+  },
+  "media": {
+    "asset_id": "skin__28-369",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-369/light.png",
+      "data/api/media/rendered/files/skins/28-369/medium.png",
+      "data/api/media/rendered/files/skins/28-369/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-369.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-369/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-369/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-369/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-369/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_sp_nuclear_pattern3_negev_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_sp_nuclear_pattern3_negev_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_sp_nuclear_pattern3_negev_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Nuclear Waste",
+  "search_slug": "negev-nuclear-waste",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cache",
+        "name": "The Cache Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4603",
+        "kind": "container",
+        "name": "The Cache Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4026",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4035",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4083",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4136",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4181",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4230",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4278",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4348",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4400",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4467",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4544",
+        "kind": "souvenir-package",
+        "name": "London 2018 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4594",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Cache Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "28-369__normal__factory-new",
+    "28-369__normal__field-tested",
+    "28-369__normal__minimal-wear",
+    "28-369__normal__well-worn",
+    "28-369__souvenir__factory-new",
+    "28-369__souvenir__field-tested",
+    "28-369__souvenir__minimal-wear",
+    "28-369__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

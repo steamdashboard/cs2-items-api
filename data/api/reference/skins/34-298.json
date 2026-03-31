@@ -1,0 +1,76 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_army_shine",
+    "id": 298,
+    "name": "Army Sheen",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 298,
+    "weapon_id": 34
+  },
+  "id": "34-298",
+  "name": "MP9 | Army Sheen",
+  "search_slug": "mp9-army-sheen",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_op10_ct",
+        "name": "The Control Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4720",
+        "kind": "container",
+        "name": "The Control Collection",
+        "tier": null
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "34-298__normal__factory-new",
+    "34-298__normal__minimal-wear",
+    "34-298__normal__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_mp9",
+    "id": 34,
+    "name": "MP9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

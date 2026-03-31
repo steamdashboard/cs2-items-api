@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1208,
+    "id": 1208,
+    "localized_names": {
+      "brazilian": "Shinobu",
+      "bulgarian": "Шинобу",
+      "czech": "Shinobu",
+      "danish": "Shinobu",
+      "dutch": "Shinobu",
+      "english": "Shinobu",
+      "finnish": "Shinobu",
+      "french": "Shinobu",
+      "german": "Shinobu",
+      "greek": "Shinobu",
+      "hungarian": "Shinobu",
+      "indonesian": "Shinobu",
+      "italian": "Shinobu",
+      "japanese": "Shinobu",
+      "koreana": "시노부",
+      "latam": "Shinobu",
+      "norwegian": "Shinobu",
+      "polish": "Shinobu",
+      "portuguese": "Shinobu",
+      "romanian": "Shinobu",
+      "russian": "Синобу",
+      "schinese": "忍瞳",
+      "schinese_pw": "Shinobu",
+      "spanish": "Shinobu",
+      "swedish": "Shinobu",
+      "tchinese": "蝶忍",
+      "thai": "Shinobu",
+      "turkish": "Şinobu",
+      "ukrainian": "Шінобу",
+      "vietnamese": "Shinobu"
+    },
+    "name": "Shinobu",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-1208",
+  "localized_names": {
+    "brazilian": "Glock-18 | Shinobu",
+    "bulgarian": "Glock-18 | Шинобу",
+    "czech": "Glock-18 | Shinobu",
+    "danish": "Glock-18 | Shinobu",
+    "dutch": "Glock-18 | Shinobu",
+    "english": "Glock-18 | Shinobu",
+    "finnish": "Glock-18 | Shinobu",
+    "french": "Glock-18 | Shinobu",
+    "german": "Glock-18 | Shinobu",
+    "greek": "Glock-18 | Shinobu",
+    "hungarian": "Glock-18 | Shinobu",
+    "indonesian": "Glock-18 | Shinobu",
+    "italian": "Glock-18 | Shinobu",
+    "japanese": "Glock-18 | Shinobu",
+    "koreana": "글록 18 | 시노부",
+    "latam": "Glock-18 | Shinobu",
+    "norwegian": "Glock-18 | Shinobu",
+    "polish": "Glock-18 | Shinobu",
+    "portuguese": "Glock-18 | Shinobu",
+    "romanian": "Glock-18 | Shinobu",
+    "russian": "Glock-18 | Синобу",
+    "schinese": "格洛克18型 | 忍瞳",
+    "schinese_pw": "Glock-18 | Shinobu",
+    "spanish": "Glock-18 | Shinobu",
+    "swedish": "Glock-18 | Shinobu",
+    "tchinese": "Glock-18 | 蝶忍",
+    "thai": "Glock-18 | Shinobu",
+    "turkish": "Glock-18 | Şinobu",
+    "ukrainian": "Ґлок-18 | Шінобу",
+    "vietnamese": "Glock-18 | Shinobu"
+  },
+  "media": {
+    "asset_id": "skin__4-1208",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-1208/light.png",
+      "data/api/media/rendered/files/skins/4-1208/medium.png",
+      "data/api/media/rendered/files/skins/4-1208/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-1208.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-1208/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-1208/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-1208/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-1208/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_glock_shinobu_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_glock_shinobu_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_glock_shinobu_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Shinobu",
+  "search_slug": "glock-18-shinobu",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "7007",
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_35",
+        "name": "The Fever Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-1208__normal__battle-scarred",
+    "4-1208__normal__factory-new",
+    "4-1208__normal__field-tested",
+    "4-1208__normal__minimal-wear",
+    "4-1208__normal__well-worn",
+    "4-1208__stattrak__battle-scarred",
+    "4-1208__stattrak__factory-new",
+    "4-1208__stattrak__field-tested",
+    "4-1208__stattrak__minimal-wear",
+    "4-1208__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

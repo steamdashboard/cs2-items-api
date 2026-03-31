@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 776,
+    "id": 776,
+    "localized_names": {
+      "brazilian": "Negativo da Instalação",
+      "bulgarian": "Негатив на съоръжение",
+      "czech": "Facility Negative",
+      "danish": "Facility Negative",
+      "dutch": "Facility Negative",
+      "english": "Facility Negative",
+      "finnish": "Pohjapiirrosnegatiivi",
+      "french": "Complexe en négatif",
+      "german": "Anlagennegativ",
+      "greek": "Facility Negative",
+      "hungarian": "Tervrajz-negatív",
+      "indonesian": "Facility Negative",
+      "italian": "Facility Negative",
+      "japanese": "Facility Negative",
+      "koreana": "반전 도면",
+      "latam": "Negativo de las instalaciones",
+      "norwegian": "Facility Negative",
+      "polish": "Negatyw obiektu",
+      "portuguese": "Facility Negative",
+      "romanian": "Facility Negative",
+      "russian": "Чертёж-негатив",
+      "schinese": "设施系列·底片图",
+      "schinese_pw": "Facility Negative",
+      "spanish": "Negativo de la instalación",
+      "swedish": "Facility Negative",
+      "tchinese": "設施陰極",
+      "thai": "Facility Negative",
+      "turkish": "Tesis Negatifi",
+      "ukrainian": "Об’єкт у негативі",
+      "vietnamese": "Facility Negative"
+    },
+    "name": "Facility Negative",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-776",
+  "localized_names": {
+    "brazilian": "P90 | Negativo da Instalação",
+    "bulgarian": "P90 | Негатив на съоръжение",
+    "czech": "P90 | Facility Negative",
+    "danish": "P90 | Facility Negative",
+    "dutch": "P90 | Facility Negative",
+    "english": "P90 | Facility Negative",
+    "finnish": "P90 | Pohjapiirrosnegatiivi",
+    "french": "P90 | Complexe en négatif",
+    "german": "P90 | Anlagennegativ",
+    "greek": "P90 | Facility Negative",
+    "hungarian": "P90 | Tervrajz-negatív",
+    "indonesian": "P90 | Facility Negative",
+    "italian": "P90 | Facility Negative",
+    "japanese": "P90 | Facility Negative",
+    "koreana": "P90 | 반전 도면",
+    "latam": "P90 | Negativo de las instalaciones",
+    "norwegian": "P90 | Facility Negative",
+    "polish": "P90 | Negatyw obiektu",
+    "portuguese": "P90 | Facility Negative",
+    "romanian": "P90 | Facility Negative",
+    "russian": "P90 | Чертёж-негатив",
+    "schinese": "P90 | 设施系列·底片图",
+    "schinese_pw": "P90 | Facility Negative",
+    "spanish": "P90 | Negativo de la instalación",
+    "swedish": "P90 | Facility Negative",
+    "tchinese": "P90 | 設施陰極",
+    "thai": "P90 | Facility Negative",
+    "turkish": "P90 | Tesis Negatifi",
+    "ukrainian": "П90 | Об’єкт у негативі",
+    "vietnamese": "P90 | Facility Negative"
+  },
+  "media": {
+    "asset_id": "skin__19-776",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-776/light.png",
+      "data/api/media/rendered/files/skins/19-776/medium.png",
+      "data/api/media/rendered/files/skins/19-776/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-776.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-776/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-776/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-776/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-776/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_hy_blueprint_aqua_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_hy_blueprint_aqua_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_hy_blueprint_aqua_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Facility Negative",
+  "search_slug": "p90-facility-negative",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_nuke_2",
+        "name": "The 2018 Nuke Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4972",
+        "kind": "container",
+        "name": "Shanghai 2024 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5125",
+        "kind": "container",
+        "name": "Austin 2025 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5224",
+        "kind": "container",
+        "name": "Budapest 2025 Nuke Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4546",
+        "kind": "souvenir-package",
+        "name": "London 2018 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4596",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4665",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4814",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4840",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4865",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4898",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4931",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Nuke Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "19-776__normal__battle-scarred",
+    "19-776__normal__factory-new",
+    "19-776__normal__field-tested",
+    "19-776__normal__minimal-wear",
+    "19-776__normal__well-worn",
+    "19-776__souvenir__battle-scarred",
+    "19-776__souvenir__factory-new",
+    "19-776__souvenir__field-tested",
+    "19-776__souvenir__minimal-wear",
+    "19-776__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

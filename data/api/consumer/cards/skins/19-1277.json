@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1277,
+    "id": 1277,
+    "localized_names": {
+      "brazilian": "Fita Azul",
+      "bulgarian": "Тактическо синьо",
+      "czech": "Blue Tac",
+      "danish": "Blue Tac",
+      "dutch": "Blue Tac",
+      "english": "Blue Tac",
+      "finnish": "Sinistä taktiikkaa",
+      "french": "Plomb terni",
+      "german": "Taktisches Blau",
+      "greek": "Blue Tac",
+      "hungarian": "Kék Taktika",
+      "indonesian": "Blue Tac",
+      "italian": "Blue Tac",
+      "japanese": "Blue Tac",
+      "koreana": "블루 택",
+      "latam": "Tac azul",
+      "norwegian": "Blue Tac",
+      "polish": "Taktyczny niebieski",
+      "portuguese": "Blue Tac",
+      "romanian": "Blue Tac",
+      "russian": "Тактический синий",
+      "schinese": "海蓝战术",
+      "schinese_pw": "Blue Tac",
+      "spanish": "Blue Tac",
+      "swedish": "Blue Tac",
+      "tchinese": "藍色戰術",
+      "thai": "Blue Tac",
+      "turkish": "Mavi Taktik",
+      "ukrainian": "Синя тактика",
+      "vietnamese": "Blue Tac"
+    },
+    "name": "Blue Tac",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-1277",
+  "localized_names": {
+    "brazilian": "P90 | Fita Azul",
+    "bulgarian": "P90 | Тактическо синьо",
+    "czech": "P90 | Blue Tac",
+    "danish": "P90 | Blue Tac",
+    "dutch": "P90 | Blue Tac",
+    "english": "P90 | Blue Tac",
+    "finnish": "P90 | Sinistä taktiikkaa",
+    "french": "P90 | Plomb terni",
+    "german": "P90 | Taktisches Blau",
+    "greek": "P90 | Blue Tac",
+    "hungarian": "P90 | Kék Taktika",
+    "indonesian": "P90 | Blue Tac",
+    "italian": "P90 | Blue Tac",
+    "japanese": "P90 | Blue Tac",
+    "koreana": "P90 | 블루 택",
+    "latam": "P90 | Tac azul",
+    "norwegian": "P90 | Blue Tac",
+    "polish": "P90 | Taktyczny niebieski",
+    "portuguese": "P90 | Blue Tac",
+    "romanian": "P90 | Blue Tac",
+    "russian": "P90 | Тактический синий",
+    "schinese": "P90 | 海蓝战术",
+    "schinese_pw": "P90 | Blue Tac",
+    "spanish": "P90 | Blue Tac",
+    "swedish": "P90 | Blue Tac",
+    "tchinese": "P90 | 藍色戰術",
+    "thai": "P90 | Blue Tac",
+    "turkish": "P90 | Mavi Taktik",
+    "ukrainian": "П90 | Синя тактика",
+    "vietnamese": "P90 | Blue Tac"
+  },
+  "media": {
+    "asset_id": "skin__19-1277",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-1277/light.png",
+      "data/api/media/rendered/files/skins/19-1277/medium.png",
+      "data/api/media/rendered/files/skins/19-1277/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-1277.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-1277/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-1277/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-1277/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-1277/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_hy_usaf_round_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_hy_usaf_round_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_hy_usaf_round_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Blue Tac",
+  "search_slug": "p90-blue-tac",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_cool",
+        "name": "The Ascent Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-1277__normal__battle-scarred",
+    "19-1277__normal__factory-new",
+    "19-1277__normal__field-tested",
+    "19-1277__normal__minimal-wear",
+    "19-1277__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

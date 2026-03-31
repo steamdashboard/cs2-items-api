@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-38",
+  "localized_names": {
+    "brazilian": "Glock-18 | Degradê",
+    "bulgarian": "Glock-18 | Избледняване",
+    "czech": "Glock-18 | Fade",
+    "danish": "Glock-18 | Fade",
+    "dutch": "Glock-18 | Fade",
+    "english": "Glock-18 | Fade",
+    "finnish": "Glock-18 | Häivytys",
+    "french": "Glock-18 | Dégradé",
+    "german": "Glock-18 | Farbverlauf",
+    "greek": "Glock-18 | Fade",
+    "hungarian": "Glock-18 | Halványulás",
+    "indonesian": "Glock-18 | Fade",
+    "italian": "Glock-18 | Fade",
+    "japanese": "Glock-18 | Fade",
+    "koreana": "글록 18 | 흐릿함",
+    "latam": "Glock-18 | Desteñido",
+    "norwegian": "Glock-18 | Fade",
+    "polish": "Glock-18 | Gradient",
+    "portuguese": "Glock-18 | Fade",
+    "romanian": "Glock-18 | Fade",
+    "russian": "Glock-18 | Градиент",
+    "schinese": "格洛克18型 | 渐变之色",
+    "schinese_pw": "Glock-18 | Fade",
+    "spanish": "Glock-18 | Desteñido",
+    "swedish": "Glock-18 | Fade",
+    "tchinese": "Glock-18 | 漸層彩虹",
+    "thai": "Glock-18 | Fade",
+    "turkish": "Glock-18 | Solgun",
+    "ukrainian": "Ґлок-18 | Градієнт",
+    "vietnamese": "Glock-18 | Fade"
+  },
+  "media": {
+    "asset_id": "skin__4-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-38/light.png",
+      "data/api/media/rendered/files/skins/4-38/medium.png",
+      "data/api/media/rendered/files/skins/4-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Fade",
+  "search_slug": "glock-18-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_assault",
+        "name": "The Assault Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-38__normal__factory-new",
+    "4-38__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

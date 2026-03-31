@@ -1,0 +1,68 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_oval_hex",
+    "id": 299,
+    "name": "Caged Steel",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 299,
+    "weapon_id": 35
+  },
+  "id": "35-299",
+  "name": "Nova | Caged Steel",
+  "search_slug": "nova-caged-steel",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "35-299__normal__factory-new",
+    "35-299__normal__minimal-wear",
+    "35-299__normal__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_nova",
+    "id": 35,
+    "name": "Nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

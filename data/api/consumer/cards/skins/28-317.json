@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 317,
+    "id": 317,
+    "localized_names": {
+      "brazilian": "Bratatat",
+      "bulgarian": "Бра-та-тат",
+      "czech": "Bratatat",
+      "danish": "Bratatat",
+      "dutch": "Bratatat",
+      "english": "Bratatat",
+      "finnish": "Ratatata",
+      "french": "Bratatat",
+      "german": "Bratatat",
+      "greek": "Bratatat",
+      "hungarian": "Bratatat",
+      "indonesian": "Bratatat",
+      "italian": "Bratatat",
+      "japanese": "Bratatat",
+      "koreana": "부타타타탕",
+      "latam": "Ratatata",
+      "norwegian": "Bratatat",
+      "polish": "Bratatat",
+      "portuguese": "Bratatat",
+      "romanian": "Bratatat",
+      "russian": "Тра-та-та",
+      "schinese": "*哒哒哒*",
+      "schinese_pw": "Bratatat",
+      "spanish": "Ratatata",
+      "swedish": "Bratatat",
+      "tchinese": "*拔噠噠*",
+      "thai": "Bratatat",
+      "turkish": "Bratatat",
+      "ukrainian": "Тратата",
+      "vietnamese": "Bratatat"
+    },
+    "name": "Bratatat",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-317",
+  "localized_names": {
+    "brazilian": "Negev | Bratatat",
+    "bulgarian": "Negev | Бра-та-тат",
+    "czech": "Negev | Bratatat",
+    "danish": "Negev | Bratatat",
+    "dutch": "Negev | Bratatat",
+    "english": "Negev | Bratatat",
+    "finnish": "Negev | Ratatata",
+    "french": "Negev | Bratatat",
+    "german": "Negev | Bratatat",
+    "greek": "Negev | Bratatat",
+    "hungarian": "Negev | Bratatat",
+    "indonesian": "Negev | Bratatat",
+    "italian": "Negev | Bratatat",
+    "japanese": "Negev | Bratatat",
+    "koreana": "네게브 | 부타타타탕",
+    "latam": "Negev | Ratatata",
+    "norwegian": "Negev | Bratatat",
+    "polish": "Negev | Bratatat",
+    "portuguese": "Negev | Bratatat",
+    "romanian": "Negev | Bratatat",
+    "russian": "Негев | Тра-та-та",
+    "schinese": "内格夫 | *哒哒哒*",
+    "schinese_pw": "Negev | Bratatat",
+    "spanish": "Negev | Ratatata",
+    "swedish": "Negev | Bratatat",
+    "tchinese": "Negev | *拔噠噠*",
+    "thai": "Negev | Bratatat",
+    "turkish": "Negev | Bratatat",
+    "ukrainian": "Неґев | Тратата",
+    "vietnamese": "Negev | Bratatat"
+  },
+  "media": {
+    "asset_id": "skin__28-317",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-317/light.png",
+      "data/api/media/rendered/files/skins/28-317/medium.png",
+      "data/api/media/rendered/files/skins/28-317/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-317.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-317/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-317/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-317/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-317/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_cu_bratatat_negev_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_cu_bratatat_negev_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_cu_bratatat_negev_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Bratatat",
+  "search_slug": "negev-bratatat",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-317__normal__battle-scarred",
+    "28-317__normal__factory-new",
+    "28-317__normal__field-tested",
+    "28-317__normal__minimal-wear",
+    "28-317__normal__well-worn",
+    "28-317__stattrak__battle-scarred",
+    "28-317__stattrak__factory-new",
+    "28-317__stattrak__field-tested",
+    "28-317__stattrak__minimal-wear",
+    "28-317__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

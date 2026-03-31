@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 640,
+    "id": 640,
+    "localized_names": {
+      "brazilian": "Sonho Febril",
+      "bulgarian": "Трескав сън",
+      "czech": "Fever Dream",
+      "danish": "Fever Dream",
+      "dutch": "Fever Dream",
+      "english": "Fever Dream",
+      "finnish": "Houreuni",
+      "french": "Hallucinations",
+      "german": "Fiebertraum",
+      "greek": "Fever Dream",
+      "hungarian": "Lázálom",
+      "indonesian": "Fever Dream",
+      "italian": "Fever Dream",
+      "japanese": "Fever Dream",
+      "koreana": "꿈꾸는 열병",
+      "latam": "Sueño febril",
+      "norwegian": "Fever Dream",
+      "polish": "Gorączkowy sen",
+      "portuguese": "Fever Dream",
+      "romanian": "Fever Dream",
+      "russian": "Горячечные грёзы",
+      "schinese": "浮生如梦",
+      "schinese_pw": "Fever Dream",
+      "spanish": "Sueño febril",
+      "swedish": "Fever Dream",
+      "tchinese": "狂熱夢魘",
+      "thai": "Fever Dream",
+      "turkish": "Hezeyan",
+      "ukrainian": "Лихоманковий сон",
+      "vietnamese": "Fever Dream"
+    },
+    "name": "Fever Dream",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-640",
+  "localized_names": {
+    "brazilian": "AWP | Sonho Febril",
+    "bulgarian": "AWP | Трескав сън",
+    "czech": "AWP | Fever Dream",
+    "danish": "AWP | Fever Dream",
+    "dutch": "AWP | Fever Dream",
+    "english": "AWP | Fever Dream",
+    "finnish": "AWP | Houreuni",
+    "french": "AWP | Hallucinations",
+    "german": "AWP | Fiebertraum",
+    "greek": "AWP | Fever Dream",
+    "hungarian": "AWP | Lázálom",
+    "indonesian": "AWP | Fever Dream",
+    "italian": "AWP | Fever Dream",
+    "japanese": "AWP | Fever Dream",
+    "koreana": "AWP | 꿈꾸는 열병",
+    "latam": "AWP | Sueño febril",
+    "norwegian": "AWP | Fever Dream",
+    "polish": "AWP | Gorączkowy sen",
+    "portuguese": "AWP | Fever Dream",
+    "romanian": "AWP | Fever Dream",
+    "russian": "AWP | Горячечные грёзы",
+    "schinese": "AWP | 浮生如梦",
+    "schinese_pw": "AWP | Fever Dream",
+    "spanish": "AWP | Sueño febril",
+    "swedish": "AWP | Fever Dream",
+    "tchinese": "AWP | 狂熱夢魘",
+    "thai": "AWP | Fever Dream",
+    "turkish": "AWP | Hezeyan",
+    "ukrainian": "АВП | Лихоманковий сон",
+    "vietnamese": "AWP | Fever Dream"
+  },
+  "media": {
+    "asset_id": "skin__9-640",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-640/light.png",
+      "data/api/media/rendered/files/skins/9-640/medium.png",
+      "data/api/media/rendered/files/skins/9-640/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-640.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-640/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-640/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-640/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-640/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_cu_awp_psychopath_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_cu_awp_psychopath_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_cu_awp_psychopath_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Fever Dream",
+  "search_slug": "awp-fever-dream",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4351",
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_16",
+        "name": "The Spectrum Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-640__normal__battle-scarred",
+    "9-640__normal__factory-new",
+    "9-640__normal__field-tested",
+    "9-640__normal__minimal-wear",
+    "9-640__normal__well-worn",
+    "9-640__stattrak__battle-scarred",
+    "9-640__stattrak__factory-new",
+    "9-640__stattrak__field-tested",
+    "9-640__stattrak__minimal-wear",
+    "9-640__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1044,
+    "id": 1044,
+    "localized_names": {
+      "brazilian": "Proteção Cibernética",
+      "bulgarian": "Кибер броня",
+      "czech": "Cyber Shell",
+      "danish": "Cyber Shell",
+      "dutch": "Cyber Shell",
+      "english": "Cyber Shell",
+      "finnish": "Kyberkilpi",
+      "french": "Cyberbouclier",
+      "german": "Cyberschutz",
+      "greek": "Cyber Shell",
+      "hungarian": "Kiberburok",
+      "indonesian": "Cyber Shell",
+      "italian": "Cyber Shell",
+      "japanese": "Cyber Shell",
+      "koreana": "사이버 쉘",
+      "latam": "Ciberescudo",
+      "norwegian": "Cyber Shell",
+      "polish": "Cyberpowłoka",
+      "portuguese": "Cyber Shell",
+      "romanian": "Cyber Shell",
+      "russian": "Киберпанцирь",
+      "schinese": "赛博先锋",
+      "schinese_pw": "Cyber Shell",
+      "spanish": "Ciberescudo",
+      "swedish": "Cyber Shell",
+      "tchinese": "網絡脈殼",
+      "thai": "Cyber Shell",
+      "turkish": "Siber Kabuk",
+      "ukrainian": "Цифровий панцир",
+      "vietnamese": "Cyber Shell"
+    },
+    "name": "Cyber Shell",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.85,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-1044",
+  "localized_names": {
+    "brazilian": "P250 | Proteção Cibernética",
+    "bulgarian": "P250 | Кибер броня",
+    "czech": "P250 | Cyber Shell",
+    "danish": "P250 | Cyber Shell",
+    "dutch": "P250 | Cyber Shell",
+    "english": "P250 | Cyber Shell",
+    "finnish": "P250 | Kyberkilpi",
+    "french": "P250 | Cyberbouclier",
+    "german": "P250 | Cyberschutz",
+    "greek": "P250 | Cyber Shell",
+    "hungarian": "P250 | Kiberburok",
+    "indonesian": "P250 | Cyber Shell",
+    "italian": "P250 | Cyber Shell",
+    "japanese": "P250 | Cyber Shell",
+    "koreana": "P250 | 사이버 쉘",
+    "latam": "P250 | Ciberescudo",
+    "norwegian": "P250 | Cyber Shell",
+    "polish": "P250 | Cyberpowłoka",
+    "portuguese": "P250 | Cyber Shell",
+    "romanian": "P250 | Cyber Shell",
+    "russian": "P250 | Киберпанцирь",
+    "schinese": "P250 | 赛博先锋",
+    "schinese_pw": "P250 | Cyber Shell",
+    "spanish": "P250 | Ciberescudo",
+    "swedish": "P250 | Cyber Shell",
+    "tchinese": "P250 | 網絡脈殼",
+    "thai": "P250 | Cyber Shell",
+    "turkish": "P250 | Siber Kabuk",
+    "ukrainian": "П250 | Цифровий панцир",
+    "vietnamese": "P250 | Cyber Shell"
+  },
+  "media": {
+    "asset_id": "skin__36-1044",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-1044/light.png",
+      "data/api/media/rendered/files/skins/36-1044/medium.png",
+      "data/api/media/rendered/files/skins/36-1044/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-1044.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-1044/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-1044/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-1044/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-1044/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_gs_p250_cybershell_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_gs_p250_cybershell_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_gs_p250_cybershell_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Cyber Shell",
+  "search_slug": "p250-cyber-shell",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4747",
+        "kind": "weapon-case",
+        "name": "Snakebite Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_28",
+        "name": "The Snakebite Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-1044__normal__battle-scarred",
+    "36-1044__normal__factory-new",
+    "36-1044__normal__field-tested",
+    "36-1044__normal__minimal-wear",
+    "36-1044__normal__well-worn",
+    "36-1044__stattrak__battle-scarred",
+    "36-1044__stattrak__factory-new",
+    "36-1044__stattrak__field-tested",
+    "36-1044__stattrak__minimal-wear",
+    "36-1044__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.85,
+    "min_float": 0.0
+  }
+}

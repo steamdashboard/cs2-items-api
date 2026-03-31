@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 37,
+    "id": 37,
+    "localized_names": {
+      "brazilian": "Chamas",
+      "bulgarian": "Лумване",
+      "czech": "Blaze",
+      "danish": "Blaze",
+      "dutch": "Blaze",
+      "english": "Blaze",
+      "finnish": "Roihu",
+      "french": "Flamme",
+      "german": "Großbrand",
+      "greek": "Blaze",
+      "hungarian": "Lángoló",
+      "indonesian": "Blaze",
+      "italian": "Blaze",
+      "japanese": "Blaze",
+      "koreana": "주홍 불길",
+      "latam": "Llamarada",
+      "norwegian": "Blaze",
+      "polish": "Żar",
+      "portuguese": "Blaze",
+      "romanian": "Blaze",
+      "russian": "Пламя",
+      "schinese": "炽烈之炎",
+      "schinese_pw": "Blaze",
+      "spanish": "Llamarada",
+      "swedish": "Blaze",
+      "tchinese": "熱焰",
+      "thai": "Blaze",
+      "turkish": "Alev",
+      "ukrainian": "Полум’я",
+      "vietnamese": "Blaze"
+    },
+    "name": "Blaze",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "64-37",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Chamas",
+    "bulgarian": "Револвер R8 | Лумване",
+    "czech": "Revolver R8 | Blaze",
+    "danish": "R8-revolver | Blaze",
+    "dutch": "R8-revolver | Blaze",
+    "english": "R8 Revolver | Blaze",
+    "finnish": "R8-revolveri | Roihu",
+    "french": "Révolver R8 | Flamme",
+    "german": "R8-Revolver | Großbrand",
+    "greek": "R8 Revolver | Blaze",
+    "hungarian": "R8 revolver | Lángoló",
+    "indonesian": "R8 Revolver | Blaze",
+    "italian": "Revolver R8 | Blaze",
+    "japanese": "R8 Revolver | Blaze",
+    "koreana": "R8 리볼버 | 주홍 불길",
+    "latam": "Revólver R8 | Llamarada",
+    "norwegian": "R8 Revolver | Blaze",
+    "polish": "Rewolwer R8 | Żar",
+    "portuguese": "R8 Revolver | Blaze",
+    "romanian": "Revolver R8 | Blaze",
+    "russian": "Револьвер R8 | Пламя",
+    "schinese": "R8左轮手枪 | 炽烈之炎",
+    "schinese_pw": "R8 Revolver | Blaze",
+    "spanish": "Revólver R8 | Llamarada",
+    "swedish": "R8 Revolver | Blaze",
+    "tchinese": "R8 Revolver | 熱焰",
+    "thai": "ปืนลูกโม่ R8 | Blaze",
+    "turkish": "R8 Revolver | Alev",
+    "ukrainian": "Револьвер Р8 | Полум’я",
+    "vietnamese": "Súng lục R8 | Blaze"
+  },
+  "media": {
+    "asset_id": "skin__64-37",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-37/light.png",
+      "data/api/media/rendered/files/skins/64-37/medium.png",
+      "data/api/media/rendered/files/skins/64-37/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-37.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-37/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-37/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-37/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-37/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_aa_flames_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_aa_flames_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_aa_flames_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Blaze",
+  "search_slug": "r8-revolver-blaze",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2021",
+        "name": "The 2021 Train Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4785",
+        "kind": "container",
+        "name": "The 2021 Train Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-37__normal__factory-new",
+    "64-37__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 480,
+    "id": 480,
+    "localized_names": {
+      "brazilian": "Daimiô Malvado",
+      "bulgarian": "Зъл даймьо",
+      "czech": "Evil Daimyo",
+      "danish": "Evil Daimyo",
+      "dutch": "Evil Daimyo",
+      "english": "Evil Daimyo",
+      "finnish": "Paha daimio",
+      "french": "Daimyo démoniaque",
+      "german": "Böser Daimyō",
+      "greek": "Evil Daimyo",
+      "hungarian": "Gonosz Daimjó",
+      "indonesian": "Evil Daimyo",
+      "italian": "Evil Daimyo",
+      "japanese": "Evil Daimyo",
+      "koreana": "사악한 다이묘",
+      "latam": "Daimio malvado",
+      "norwegian": "Evil Daimyo",
+      "polish": "Zły daimyō",
+      "portuguese": "Evil Daimyo",
+      "romanian": "Evil Daimyo",
+      "russian": "Злобный даймё",
+      "schinese": "杀意大名",
+      "schinese_pw": "Evil Daimyo",
+      "spanish": "Daimio malvado",
+      "swedish": "Evil Daimyo",
+      "tchinese": "邪惡大名",
+      "thai": "Evil Daimyo",
+      "turkish": "Zalim Daimyo",
+      "ukrainian": "Злий магнат",
+      "vietnamese": "Evil Daimyo"
+    },
+    "name": "Evil Daimyo",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.52,
+      "min_float": 0.0
+    }
+  },
+  "id": "16-480",
+  "localized_names": {
+    "brazilian": "M4A4 | Daimiô Malvado",
+    "bulgarian": "M4A4 | Зъл даймьо",
+    "czech": "M4A4 | Evil Daimyo",
+    "danish": "M4A4 | Evil Daimyo",
+    "dutch": "M4A4 | Evil Daimyo",
+    "english": "M4A4 | Evil Daimyo",
+    "finnish": "M4A4 | Paha daimio",
+    "french": "M4A4 | Daimyo démoniaque",
+    "german": "M4A4 | Böser Daimyō",
+    "greek": "M4A4 | Evil Daimyo",
+    "hungarian": "M4A4 | Gonosz Daimjó",
+    "indonesian": "M4A4 | Evil Daimyo",
+    "italian": "M4A4 | Evil Daimyo",
+    "japanese": "M4A4 | Evil Daimyo",
+    "koreana": "M4A4 | 사악한 다이묘",
+    "latam": "M4A4 | Daimio malvado",
+    "norwegian": "M4A4 | Evil Daimyo",
+    "polish": "M4A4 | Zły daimyō",
+    "portuguese": "M4A4 | Evil Daimyo",
+    "romanian": "M4A4 | Evil Daimyo",
+    "russian": "M4A4 | Злобный даймё",
+    "schinese": "M4A4 | 杀意大名",
+    "schinese_pw": "M4A4 | Evil Daimyo",
+    "spanish": "M4A4 | Daimio malvado",
+    "swedish": "M4A4 | Evil Daimyo",
+    "tchinese": "M4A4 | 邪惡大名",
+    "thai": "M4A4 | Evil Daimyo",
+    "turkish": "M4A4 | Zalim Daimyo",
+    "ukrainian": "М4А4 | Злий магнат",
+    "vietnamese": "M4A4 | Evil Daimyo"
+  },
+  "media": {
+    "asset_id": "skin__16-480",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-480/light.png",
+      "data/api/media/rendered/files/skins/16-480/medium.png",
+      "data/api/media/rendered/files/skins/16-480/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-480.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-480/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-480/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-480/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-480/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_evil_daimyo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_evil_daimyo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_evil_daimyo_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Evil Daimyo",
+  "search_slug": "m4a4-evil-daimyo",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4091",
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_8",
+        "name": "The Falchion Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "16-480__normal__battle-scarred",
+    "16-480__normal__factory-new",
+    "16-480__normal__field-tested",
+    "16-480__normal__minimal-wear",
+    "16-480__normal__well-worn",
+    "16-480__stattrak__battle-scarred",
+    "16-480__stattrak__factory-new",
+    "16-480__stattrak__field-tested",
+    "16-480__stattrak__minimal-wear",
+    "16-480__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.52,
+    "min_float": 0.0
+  }
+}

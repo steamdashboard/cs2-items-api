@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 588,
+    "id": 588,
+    "localized_names": {
+      "brazilian": "Desolação Espacial",
+      "bulgarian": "Безлюден космос",
+      "czech": "Desolate Space",
+      "danish": "Desolate Space",
+      "dutch": "Desolate Space",
+      "english": "Desolate Space",
+      "finnish": "Kylmä avaruus",
+      "french": "Espace désolé",
+      "german": "Verwüsteter Raum",
+      "greek": "Desolate Space",
+      "hungarian": "Elhagyatott Űr",
+      "indonesian": "Desolate Space",
+      "italian": "Desolate Space",
+      "japanese": "Desolate Space",
+      "koreana": "고립된 공간",
+      "latam": "Espacio inhóspito",
+      "norwegian": "Desolate Space",
+      "polish": "Kosmiczna pustka",
+      "portuguese": "Desolate Space",
+      "romanian": "Desolate Space",
+      "russian": "Безлюдный космос",
+      "schinese": "死寂空间",
+      "schinese_pw": "Desolate Space",
+      "spanish": "Espacio inhóspito",
+      "swedish": "Desolate Space",
+      "tchinese": "荒涼之空",
+      "thai": "Desolate Space",
+      "turkish": "Tenha Boşluk",
+      "ukrainian": "Безлюдний космос",
+      "vietnamese": "Desolate Space"
+    },
+    "name": "Desolate Space",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "16-588",
+  "localized_names": {
+    "brazilian": "M4A4 | Desolação Espacial",
+    "bulgarian": "M4A4 | Безлюден космос",
+    "czech": "M4A4 | Desolate Space",
+    "danish": "M4A4 | Desolate Space",
+    "dutch": "M4A4 | Desolate Space",
+    "english": "M4A4 | Desolate Space",
+    "finnish": "M4A4 | Kylmä avaruus",
+    "french": "M4A4 | Espace désolé",
+    "german": "M4A4 | Verwüsteter Raum",
+    "greek": "M4A4 | Desolate Space",
+    "hungarian": "M4A4 | Elhagyatott Űr",
+    "indonesian": "M4A4 | Desolate Space",
+    "italian": "M4A4 | Desolate Space",
+    "japanese": "M4A4 | Desolate Space",
+    "koreana": "M4A4 | 고립된 공간",
+    "latam": "M4A4 | Espacio inhóspito",
+    "norwegian": "M4A4 | Desolate Space",
+    "polish": "M4A4 | Kosmiczna pustka",
+    "portuguese": "M4A4 | Desolate Space",
+    "romanian": "M4A4 | Desolate Space",
+    "russian": "M4A4 | Безлюдный космос",
+    "schinese": "M4A4 | 死寂空间",
+    "schinese_pw": "M4A4 | Desolate Space",
+    "spanish": "M4A4 | Espacio inhóspito",
+    "swedish": "M4A4 | Desolate Space",
+    "tchinese": "M4A4 | 荒涼之空",
+    "thai": "M4A4 | Desolate Space",
+    "turkish": "M4A4 | Tenha Boşluk",
+    "ukrainian": "М4А4 | Безлюдний космос",
+    "vietnamese": "M4A4 | Desolate Space"
+  },
+  "media": {
+    "asset_id": "skin__16-588",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-588/light.png",
+      "data/api/media/rendered/files/skins/16-588/medium.png",
+      "data/api/media/rendered/files/skins/16-588/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-588.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-588/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-588/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-588/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-588/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_desolate_space_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_desolate_space_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_cu_m4a4_desolate_space_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Desolate Space",
+  "search_slug": "m4a4-desolate-space",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4236",
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_13",
+        "name": "The Gamma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "16-588__normal__battle-scarred",
+    "16-588__normal__factory-new",
+    "16-588__normal__field-tested",
+    "16-588__normal__minimal-wear",
+    "16-588__normal__well-worn",
+    "16-588__stattrak__battle-scarred",
+    "16-588__stattrak__factory-new",
+    "16-588__stattrak__field-tested",
+    "16-588__stattrak__minimal-wear",
+    "16-588__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

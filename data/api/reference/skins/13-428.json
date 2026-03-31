@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_galil_eco",
+    "id": 428,
+    "name": "Eco",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 428,
+    "weapon_id": 13
+  },
+  "id": "13-428",
+  "name": "Galil AR | Eco",
+  "search_slug": "galil-ar-eco",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_7",
+        "name": "The Chroma 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4089",
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "13-428__normal__minimal-wear",
+    "13-428__normal__field-tested",
+    "13-428__normal__well-worn",
+    "13-428__normal__battle-scarred",
+    "13-428__stattrak__minimal-wear",
+    "13-428__stattrak__field-tested",
+    "13-428__stattrak__well-worn",
+    "13-428__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_galilar",
+    "id": 13,
+    "name": "Galil AR",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.85,
+    "min_float": 0.1
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 428,
+    "id": 428,
+    "localized_names": {
+      "brazilian": "Ecológica",
+      "bulgarian": "Еко",
+      "czech": "Eco",
+      "danish": "Eco",
+      "dutch": "Eco",
+      "english": "Eco",
+      "finnish": "Luonnonsuojelija",
+      "french": "Éco",
+      "german": "Eco",
+      "greek": "Eco",
+      "hungarian": "Eco",
+      "indonesian": "Eco",
+      "italian": "Eco",
+      "japanese": "Eco",
+      "koreana": "친환경",
+      "latam": "Eco",
+      "norwegian": "Eco",
+      "polish": "Eco",
+      "portuguese": "Eco",
+      "romanian": "Eco",
+      "russian": "Эко",
+      "schinese": "经济",
+      "schinese_pw": "Eco",
+      "spanish": "Eco",
+      "swedish": "Eco",
+      "tchinese": "Eco",
+      "thai": "Eco",
+      "turkish": "Eko",
+      "ukrainian": "Еко",
+      "vietnamese": "Eco"
+    },
+    "name": "Eco",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.85,
+      "min_float": 0.1
+    }
+  },
+  "id": "13-428",
+  "localized_names": {
+    "brazilian": "Galil AR | Ecológica",
+    "bulgarian": "Galil AR | Еко",
+    "czech": "Galil AR | Eco",
+    "danish": "Galil AR | Eco",
+    "dutch": "Galil AR | Eco",
+    "english": "Galil AR | Eco",
+    "finnish": "Galil AR | Luonnonsuojelija",
+    "french": "Galil AR | Éco",
+    "german": "Galil AR | Eco",
+    "greek": "Galil AR | Eco",
+    "hungarian": "Galil AR | Eco",
+    "indonesian": "Galil AR | Eco",
+    "italian": "Galil AR | Eco",
+    "japanese": "Galil AR | Eco",
+    "koreana": "갈릴 돌격소총 | 친환경",
+    "latam": "Galil AR | Eco",
+    "norwegian": "Galil AR | Eco",
+    "polish": "Galil AR | Eco",
+    "portuguese": "Galil AR | Eco",
+    "romanian": "Galil AR | Eco",
+    "russian": "Автомат «Галиль» | Эко",
+    "schinese": "加利尔AR | 经济",
+    "schinese_pw": "Galil AR | Eco",
+    "spanish": "Galil AR | Eco",
+    "swedish": "Galil AR | Eco",
+    "tchinese": "Galil AR | Eco",
+    "thai": "Galil AR | Eco",
+    "turkish": "Galil AR | Eko",
+    "ukrainian": "Ґаліл | Еко",
+    "vietnamese": "Galil AR | Eco"
+  },
+  "media": {
+    "asset_id": "skin__13-428",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-428/light.png",
+      "data/api/media/rendered/files/skins/13-428/medium.png",
+      "data/api/media/rendered/files/skins/13-428/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-428.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-428/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-428/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-428/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-428/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_eco_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_eco_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_eco_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Eco",
+  "search_slug": "galil-ar-eco",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4089",
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_7",
+        "name": "The Chroma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-428__normal__battle-scarred",
+    "13-428__normal__field-tested",
+    "13-428__normal__minimal-wear",
+    "13-428__normal__well-worn",
+    "13-428__stattrak__battle-scarred",
+    "13-428__stattrak__field-tested",
+    "13-428__stattrak__minimal-wear",
+    "13-428__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.85,
+    "min_float": 0.1
+  }
+}

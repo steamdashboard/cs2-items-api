@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 711,
+    "id": 711,
+    "localized_names": {
+      "brazilian": "Código Vermelho",
+      "bulgarian": "Код „Червено“",
+      "czech": "Code Red",
+      "danish": "Code Red",
+      "dutch": "Code Red",
+      "english": "Code Red",
+      "finnish": "Hälytys",
+      "french": "Code rouge",
+      "german": "Alarmstufe Rot",
+      "greek": "Code Red",
+      "hungarian": "Vörös Riasztás",
+      "indonesian": "Code Red",
+      "italian": "Code Red",
+      "japanese": "Code Red",
+      "koreana": "코드 레드",
+      "latam": "Código rojo",
+      "norwegian": "Code Red",
+      "polish": "Kod czerwony",
+      "portuguese": "Code Red",
+      "romanian": "Code Red",
+      "russian": "Код красный",
+      "schinese": "红色代号",
+      "schinese_pw": "Code Red",
+      "spanish": "Código rojo",
+      "swedish": "Code Red",
+      "tchinese": "紅色警戒",
+      "thai": "Code Red",
+      "turkish": "Kırmızı Alarm",
+      "ukrainian": "Червоний код",
+      "vietnamese": "Code Red"
+    },
+    "name": "Code Red",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-711",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Código Vermelho",
+    "bulgarian": "Desert Eagle | Код „Червено“",
+    "czech": "Desert Eagle | Code Red",
+    "danish": "Desert Eagle | Code Red",
+    "dutch": "Desert Eagle | Code Red",
+    "english": "Desert Eagle | Code Red",
+    "finnish": "Desert Eagle | Hälytys",
+    "french": "Desert Eagle | Code rouge",
+    "german": "Desert Eagle | Alarmstufe Rot",
+    "greek": "Desert Eagle | Code Red",
+    "hungarian": "Desert Eagle | Vörös Riasztás",
+    "indonesian": "Desert Eagle | Code Red",
+    "italian": "Desert Eagle | Code Red",
+    "japanese": "Desert Eagle | Code Red",
+    "koreana": "데저트 이글 | 코드 레드",
+    "latam": "Desert Eagle | Código rojo",
+    "norwegian": "Desert Eagle | Code Red",
+    "polish": "Desert Eagle | Kod czerwony",
+    "portuguese": "Desert Eagle | Code Red",
+    "romanian": "Desert Eagle | Code Red",
+    "russian": "Desert Eagle | Код красный",
+    "schinese": "沙漠之鹰 | 红色代号",
+    "schinese_pw": "Desert Eagle | Code Red",
+    "spanish": "Desert Eagle | Código rojo",
+    "swedish": "Desert Eagle | Code Red",
+    "tchinese": "Desert Eagle | 紅色警戒",
+    "thai": "Desert Eagle | Code Red",
+    "turkish": "Desert Eagle | Kırmızı Alarm",
+    "ukrainian": "Пустельний орел | Червоний код",
+    "vietnamese": "Desert Eagle | Code Red"
+  },
+  "media": {
+    "asset_id": "skin__1-711",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-711/light.png",
+      "data/api/media/rendered/files/skins/1-711/medium.png",
+      "data/api/media/rendered/files/skins/1-711/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-711.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-711/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-711/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-711/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-711/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_gs_deagle_aggressor_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_gs_deagle_aggressor_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_gs_deagle_aggressor_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Code Red",
+  "search_slug": "desert-eagle-code-red",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4482",
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_20",
+        "name": "The Horizon Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-711__normal__battle-scarred",
+    "1-711__normal__factory-new",
+    "1-711__normal__field-tested",
+    "1-711__normal__minimal-wear",
+    "1-711__normal__well-worn",
+    "1-711__stattrak__battle-scarred",
+    "1-711__stattrak__factory-new",
+    "1-711__stattrak__field-tested",
+    "1-711__stattrak__minimal-wear",
+    "1-711__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

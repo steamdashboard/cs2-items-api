@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 337,
+    "id": 337,
+    "localized_names": {
+      "brazilian": "Trapo",
+      "bulgarian": "Разпокъсано",
+      "czech": "Tatter",
+      "danish": "Tatter",
+      "dutch": "Tatter",
+      "english": "Tatter",
+      "finnish": "Riekale",
+      "french": "Fragment",
+      "german": "Fetzen",
+      "greek": "Tatter",
+      "hungarian": "Toprongy",
+      "indonesian": "Tatter",
+      "italian": "Tatter",
+      "japanese": "Tatter",
+      "koreana": "흩어짐",
+      "latam": "Andrajoso",
+      "norwegian": "Tatter",
+      "polish": "Łachman",
+      "portuguese": "Tatter",
+      "romanian": "Tatter",
+      "russian": "Клочья",
+      "schinese": "烧尽",
+      "schinese_pw": "Tatter",
+      "spanish": "Andrajoso",
+      "swedish": "Tatter",
+      "tchinese": "破碎",
+      "thai": "Tatter",
+      "turkish": "Parçalanmış",
+      "ukrainian": "Зношений",
+      "vietnamese": "Tatter"
+    },
+    "name": "Tatter",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-337",
+  "localized_names": {
+    "brazilian": "MAC-10 | Trapo",
+    "bulgarian": "MAC-10 | Разпокъсано",
+    "czech": "MAC-10 | Tatter",
+    "danish": "MAC-10 | Tatter",
+    "dutch": "MAC-10 | Tatter",
+    "english": "MAC-10 | Tatter",
+    "finnish": "MAC-10 | Riekale",
+    "french": "MAC-10 | Fragment",
+    "german": "MAC-10 | Fetzen",
+    "greek": "MAC-10 | Tatter",
+    "hungarian": "MAC-10 | Toprongy",
+    "indonesian": "MAC-10 | Tatter",
+    "italian": "MAC-10 | Tatter",
+    "japanese": "MAC-10 | Tatter",
+    "koreana": "MAC-10 | 흩어짐",
+    "latam": "MAC-10 | Andrajoso",
+    "norwegian": "MAC-10 | Tatter",
+    "polish": "MAC-10 | Łachman",
+    "portuguese": "MAC-10 | Tatter",
+    "romanian": "MAC-10 | Tatter",
+    "russian": "MAC-10 | Клочья",
+    "schinese": "MAC-10 | 烧尽",
+    "schinese_pw": "MAC-10 | Tatter",
+    "spanish": "MAC-10 | Andrajoso",
+    "swedish": "MAC-10 | Tatter",
+    "tchinese": "MAC-10 | 破碎",
+    "thai": "MAC-10 | Tatter",
+    "turkish": "MAC-10 | Parçalanmış",
+    "ukrainian": "МАК-10 | Зношений",
+    "vietnamese": "MAC-10 | Tatter"
+  },
+  "media": {
+    "asset_id": "skin__17-337",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-337/light.png",
+      "data/api/media/rendered/files/skins/17-337/medium.png",
+      "data/api/media/rendered/files/skins/17-337/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-337.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-337/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-337/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-337/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-337/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_cu_korupt_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_cu_korupt_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_cu_korupt_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Tatter",
+  "search_slug": "mac-10-tatter",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4017",
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_3",
+        "name": "The Huntsman Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-337__normal__battle-scarred",
+    "17-337__normal__factory-new",
+    "17-337__normal__field-tested",
+    "17-337__normal__minimal-wear",
+    "17-337__normal__well-worn",
+    "17-337__stattrak__battle-scarred",
+    "17-337__stattrak__factory-new",
+    "17-337__stattrak__field-tested",
+    "17-337__stattrak__minimal-wear",
+    "17-337__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 956,
+    "id": 956,
+    "localized_names": {
+      "brazilian": "Sonho Febril",
+      "bulgarian": "Трескав сън",
+      "czech": "Fever Dream",
+      "danish": "Fever Dream",
+      "dutch": "Fever Dream",
+      "english": "Fever Dream",
+      "finnish": "Houreuni",
+      "french": "Hallucinations",
+      "german": "Fiebertraum",
+      "greek": "Fever Dream",
+      "hungarian": "Lázálom",
+      "indonesian": "Fever Dream",
+      "italian": "Fever Dream",
+      "japanese": "Fever Dream",
+      "koreana": "피버 드림",
+      "latam": "Sueño febril",
+      "norwegian": "Fever Dream",
+      "polish": "Gorączkowy sen",
+      "portuguese": "Fever Dream",
+      "romanian": "Fever Dream",
+      "russian": "Горячечные грёзы",
+      "schinese": "浮生如梦",
+      "schinese_pw": "Fever Dream",
+      "spanish": "Sueño febril",
+      "swedish": "Fever Dream",
+      "tchinese": "狂熱夢魘",
+      "thai": "Fever Dream",
+      "turkish": "Hezeyan",
+      "ukrainian": "Лихоманковий сон",
+      "vietnamese": "Fever Dream"
+    },
+    "name": "Fever Dream",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.72,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-956",
+  "localized_names": {
+    "brazilian": "SSG 08 | Sonho Febril",
+    "bulgarian": "SSG 08 | Трескав сън",
+    "czech": "SSG 08 | Fever Dream",
+    "danish": "SSG 08 | Fever Dream",
+    "dutch": "SSG 08 | Fever Dream",
+    "english": "SSG 08 | Fever Dream",
+    "finnish": "SSG 08 | Houreuni",
+    "french": "SSG 08 | Hallucinations",
+    "german": "SSG 08 | Fiebertraum",
+    "greek": "SSG 08 | Fever Dream",
+    "hungarian": "SSG 08 | Lázálom",
+    "indonesian": "SSG 08 | Fever Dream",
+    "italian": "SSG 08 | Fever Dream",
+    "japanese": "SSG 08 | Fever Dream",
+    "koreana": "SSG 08 | 피버 드림",
+    "latam": "SSG 08 | Sueño febril",
+    "norwegian": "SSG 08 | Fever Dream",
+    "polish": "SSG 08 | Gorączkowy sen",
+    "portuguese": "SSG 08 | Fever Dream",
+    "romanian": "SSG 08 | Fever Dream",
+    "russian": "SSG 08 | Горячечные грёзы",
+    "schinese": "SSG 08 | 浮生如梦",
+    "schinese_pw": "SSG 08 | Fever Dream",
+    "spanish": "SSG 08 | Sueño febril",
+    "swedish": "SSG 08 | Fever Dream",
+    "tchinese": "SSG 08 | 狂熱夢魘",
+    "thai": "SSG 08 | Fever Dream",
+    "turkish": "SSG 08 | Hezeyan",
+    "ukrainian": "ССГ 08 | Лихоманковий сон",
+    "vietnamese": "SSG 08 | Fever Dream"
+  },
+  "media": {
+    "asset_id": "skin__40-956",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-956/light.png",
+      "data/api/media/rendered/files/skins/40-956/medium.png",
+      "data/api/media/rendered/files/skins/40-956/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-956.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-956/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-956/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-956/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-956/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_fever_dream_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_fever_dream_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_fever_dream_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Fever Dream",
+  "search_slug": "ssg-08-fever-dream",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4695",
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_25",
+        "name": "The Prisma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-956__normal__battle-scarred",
+    "40-956__normal__factory-new",
+    "40-956__normal__field-tested",
+    "40-956__normal__minimal-wear",
+    "40-956__normal__well-worn",
+    "40-956__stattrak__battle-scarred",
+    "40-956__stattrak__factory-new",
+    "40-956__stattrak__field-tested",
+    "40-956__stattrak__minimal-wear",
+    "40-956__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.72,
+    "min_float": 0.0
+  }
+}

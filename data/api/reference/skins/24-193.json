@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "sp_skull_diagram_bravo",
+    "id": 193,
+    "name": "Bone Pile",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 193,
+    "weapon_id": 24
+  },
+  "id": "24-193",
+  "name": "UMP-45 | Bone Pile",
+  "search_slug": "ump-45-bone-pile",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "24-193__normal__vanilla",
+    "24-193__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_ump45",
+    "id": 24,
+    "name": "UMP-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.34,
+    "min_float": null
+  }
+}

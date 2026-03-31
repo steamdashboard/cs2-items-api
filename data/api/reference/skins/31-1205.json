@@ -1,0 +1,99 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "zeus_standard_issue",
+    "id": 1205,
+    "name": "Charged Up",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 1205,
+    "weapon_id": 31
+  },
+  "id": "31-1205",
+  "name": "Zeus x27 | Charged Up",
+  "search_slug": "zeus-x27-charged-up",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_train_2025",
+        "name": "The Train 2025 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5126",
+        "kind": "container",
+        "name": "Austin 2025 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5225",
+        "kind": "container",
+        "name": "Budapest 2025 Train Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "31-1205__normal__factory-new",
+    "31-1205__normal__minimal-wear",
+    "31-1205__normal__field-tested",
+    "31-1205__normal__well-worn",
+    "31-1205__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_taser",
+    "id": 31,
+    "name": "Zeus x27",
+    "weapon_group": "equipment"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

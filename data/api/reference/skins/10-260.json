@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_famas_pulse",
+    "id": 260,
+    "name": "Pulse",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 260,
+    "weapon_id": 10
+  },
+  "id": "10-260",
+  "name": "FAMAS | Pulse",
+  "search_slug": "famas-pulse",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "10-260__normal__factory-new",
+    "10-260__normal__minimal-wear",
+    "10-260__normal__field-tested",
+    "10-260__normal__well-worn",
+    "10-260__stattrak__factory-new",
+    "10-260__stattrak__minimal-wear",
+    "10-260__stattrak__field-tested",
+    "10-260__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_famas",
+    "id": 10,
+    "name": "FAMAS",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

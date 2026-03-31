@@ -1,0 +1,65 @@
+{
+  "card_type": "knife",
+  "description": "Designed for efficient brutality, using a push dagger is as simple as throwing a punch or two.",
+  "id": 516,
+  "localized_names": {
+    "brazilian": "Adagas Sombrias",
+    "bulgarian": "Мрачни кинжали",
+    "czech": "Pěstní dýky",
+    "danish": "Shadow-daggerter",
+    "dutch": "Schaduwdolken",
+    "english": "Shadow Daggers",
+    "finnish": "Varjotikarit",
+    "french": "Dagues sombres",
+    "german": "Schattendolche",
+    "greek": "Shadow Daggers",
+    "hungarian": "Árnyéktőr",
+    "indonesian": "Belati Bayangan",
+    "italian": "Fendi ombra",
+    "japanese": "シャドウダガー",
+    "koreana": "섀도우 칼",
+    "latam": "Dagas Sombrías",
+    "norwegian": "Skyggedolker",
+    "polish": "Sztylety Cienia",
+    "portuguese": "Shadow Daggers",
+    "romanian": "Pumnale Shadow",
+    "russian": "Тычковые ножи",
+    "schinese": "暗影双匕",
+    "schinese_pw": "Shadow Daggers",
+    "spanish": "Dagas Sombrías",
+    "swedish": "Skuggdolkar",
+    "tchinese": "暗影匕首",
+    "thai": "มีดชาโดว์ดักเกอร์",
+    "turkish": "Gölge Hançerler",
+    "ukrainian": "Тіньові ножі",
+    "vietnamese": "Dao găm chữ T"
+  },
+  "media": {
+    "asset_id": "weapon__516",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/516/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/516.json",
+    "models": [
+      "weapons/models/knife/knife_push/weapon_knife_push.vmdl_c",
+      "phase2/weapons/models/knife/knife_push/weapon_knife_push_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/516/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.vtex_c"
+  },
+  "name": "Shadow Daggers",
+  "regular_skin_ids": [],
+  "search_slug": "shadow-daggers",
+  "side": null,
+  "special_pool_ids": [
+    "community_case_9_unusual",
+    "spectrum_unusual"
+  ],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

@@ -1,0 +1,76 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_numbers_bronze",
+    "id": 992,
+    "name": "The Bronze",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 992,
+    "weapon_id": 1
+  },
+  "id": "1-992",
+  "name": "Desert Eagle | The Bronze",
+  "search_slug": "desert-eagle-the-bronze",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_op10_ct",
+        "name": "The Control Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4720",
+        "kind": "container",
+        "name": "The Control Collection",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "1-992__normal__factory-new",
+    "1-992__normal__minimal-wear",
+    "1-992__normal__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_deagle",
+    "id": 1,
+    "name": "Desert Eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

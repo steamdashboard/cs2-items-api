@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1232,
+    "id": 1232,
+    "localized_names": {
+      "brazilian": "Bananólver",
+      "bulgarian": "Бананово оръдие",
+      "czech": "Banana Cannon",
+      "danish": "Banana Cannon",
+      "dutch": "Banana Cannon",
+      "english": "Banana Cannon",
+      "finnish": "Banana Cannon",
+      "french": "Calibre banane",
+      "german": "Bananenballermann",
+      "greek": "Banana Cannon",
+      "hungarian": "Banánágyú",
+      "indonesian": "Banana Cannon",
+      "italian": "Banana Cannon",
+      "japanese": "Banana Cannon",
+      "koreana": "바나나 캐논",
+      "latam": "Cañón de plátano",
+      "norwegian": "Banana Cannon",
+      "polish": "Działo bananowe",
+      "portuguese": "Banana Cannon",
+      "romanian": "Banana Cannon",
+      "russian": "Банановая пушка",
+      "schinese": "蕉农炮",
+      "schinese_pw": "Banana Cannon",
+      "spanish": "Cañón banana",
+      "swedish": "Banana Cannon",
+      "tchinese": "蕉蕉炮",
+      "thai": "Banana Cannon",
+      "turkish": "Muz Topu",
+      "ukrainian": "Бананова гармата",
+      "vietnamese": "Banana Cannon"
+    },
+    "name": "Banana Cannon",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "64-1232",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Bananólver",
+    "bulgarian": "Револвер R8 | Бананово оръдие",
+    "czech": "Revolver R8 | Banana Cannon",
+    "danish": "R8-revolver | Banana Cannon",
+    "dutch": "R8-revolver | Banana Cannon",
+    "english": "R8 Revolver | Banana Cannon",
+    "finnish": "R8-revolveri | Banana Cannon",
+    "french": "Révolver R8 | Calibre banane",
+    "german": "R8-Revolver | Bananenballermann",
+    "greek": "R8 Revolver | Banana Cannon",
+    "hungarian": "R8 revolver | Banánágyú",
+    "indonesian": "R8 Revolver | Banana Cannon",
+    "italian": "Revolver R8 | Banana Cannon",
+    "japanese": "R8 Revolver | Banana Cannon",
+    "koreana": "R8 리볼버 | 바나나 캐논",
+    "latam": "Revólver R8 | Cañón de plátano",
+    "norwegian": "R8 Revolver | Banana Cannon",
+    "polish": "Rewolwer R8 | Działo bananowe",
+    "portuguese": "R8 Revolver | Banana Cannon",
+    "romanian": "Revolver R8 | Banana Cannon",
+    "russian": "Револьвер R8 | Банановая пушка",
+    "schinese": "R8左轮手枪 | 蕉农炮",
+    "schinese_pw": "R8 Revolver | Banana Cannon",
+    "spanish": "Revólver R8 | Cañón banana",
+    "swedish": "R8 Revolver | Banana Cannon",
+    "tchinese": "R8 Revolver | 蕉蕉炮",
+    "thai": "ปืนลูกโม่ R8 | Banana Cannon",
+    "turkish": "R8 Revolver | Muz Topu",
+    "ukrainian": "Револьвер Р8 | Бананова гармата",
+    "vietnamese": "Súng lục R8 | Banana Cannon"
+  },
+  "media": {
+    "asset_id": "skin__64-1232",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-1232/light.png",
+      "data/api/media/rendered/files/skins/64-1232/medium.png",
+      "data/api/media/rendered/files/skins/64-1232/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-1232.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-1232/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-1232/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-1232/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-1232/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_gs_r8_banana_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_gs_r8_banana_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_gs_r8_banana_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Banana Cannon",
+  "search_slug": "r8-revolver-banana-cannon",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4880",
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_32",
+        "name": "The Revolution Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-1232__normal__battle-scarred",
+    "64-1232__normal__factory-new",
+    "64-1232__normal__field-tested",
+    "64-1232__normal__minimal-wear",
+    "64-1232__normal__well-worn",
+    "64-1232__stattrak__battle-scarred",
+    "64-1232__stattrak__factory-new",
+    "64-1232__stattrak__field-tested",
+    "64-1232__stattrak__minimal-wear",
+    "64-1232__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

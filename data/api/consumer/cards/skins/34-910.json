@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 910,
+    "id": 910,
+    "localized_names": {
+      "brazilian": "Hidra",
+      "bulgarian": "Хидра",
+      "czech": "Hydra",
+      "danish": "Hydra",
+      "dutch": "Hydra",
+      "english": "Hydra",
+      "finnish": "Hydra",
+      "french": "Hydra",
+      "german": "Hydra",
+      "greek": "Hydra",
+      "hungarian": "Hydra",
+      "indonesian": "Hydra",
+      "italian": "Hydra",
+      "japanese": "Hydra",
+      "koreana": "히드라",
+      "latam": "Hydra",
+      "norwegian": "Hydra",
+      "polish": "Hydra",
+      "portuguese": "Hydra",
+      "romanian": "Hydra",
+      "russian": "Гидра",
+      "schinese": "九头蛇",
+      "schinese_pw": "Hydra",
+      "spanish": "Hydra",
+      "swedish": "Hydra",
+      "tchinese": "九頭蛇",
+      "thai": "Hydra",
+      "turkish": "Hydra",
+      "ukrainian": "Гідра",
+      "vietnamese": "Hydra"
+    },
+    "name": "Hydra",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-910",
+  "localized_names": {
+    "brazilian": "MP9 | Hidra",
+    "bulgarian": "MP9 | Хидра",
+    "czech": "MP9 | Hydra",
+    "danish": "MP9 | Hydra",
+    "dutch": "MP9 | Hydra",
+    "english": "MP9 | Hydra",
+    "finnish": "MP9 | Hydra",
+    "french": "MP9 | Hydra",
+    "german": "MP9 | Hydra",
+    "greek": "MP9 | Hydra",
+    "hungarian": "MP9 | Hydra",
+    "indonesian": "MP9 | Hydra",
+    "italian": "MP9 | Hydra",
+    "japanese": "MP9 | Hydra",
+    "koreana": "MP9 | 히드라",
+    "latam": "MP9 | Hydra",
+    "norwegian": "MP9 | Hydra",
+    "polish": "MP9 | Hydra",
+    "portuguese": "MP9 | Hydra",
+    "romanian": "MP9 | Hydra",
+    "russian": "MP9 | Гидра",
+    "schinese": "MP9 | 九头蛇",
+    "schinese_pw": "MP9 | Hydra",
+    "spanish": "MP9 | Hydra",
+    "swedish": "MP9 | Hydra",
+    "tchinese": "MP9 | 九頭蛇",
+    "thai": "MP9 | Hydra",
+    "turkish": "MP9 | Hydra",
+    "ukrainian": "МП9 | Гідра",
+    "vietnamese": "MP9 | Hydra"
+  },
+  "media": {
+    "asset_id": "skin__34-910",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-910/light.png",
+      "data/api/media/rendered/files/skins/34-910/medium.png",
+      "data/api/media/rendered/files/skins/34-910/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-910.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-910/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-910/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-910/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-910/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_hydra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_hydra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_hydra_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Hydra",
+  "search_slug": "mp9-hydra",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4669",
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_24",
+        "name": "The CS20 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-910__normal__battle-scarred",
+    "34-910__normal__factory-new",
+    "34-910__normal__field-tested",
+    "34-910__normal__minimal-wear",
+    "34-910__normal__well-worn",
+    "34-910__stattrak__battle-scarred",
+    "34-910__stattrak__factory-new",
+    "34-910__stattrak__field-tested",
+    "34-910__stattrak__minimal-wear",
+    "34-910__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

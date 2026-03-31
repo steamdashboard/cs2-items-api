@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 972,
+    "id": 972,
+    "localized_names": {
+      "brazilian": "Conexão",
+      "bulgarian": "Свръзка",
+      "czech": "Connexion",
+      "danish": "Connexion",
+      "dutch": "Connexion",
+      "english": "Connexion",
+      "finnish": "Connexion",
+      "french": "Connexion",
+      "german": "Verbindung",
+      "greek": "Connexion",
+      "hungarian": "Connexion",
+      "indonesian": "Connexion",
+      "italian": "Connexion",
+      "japanese": "Connexion",
+      "koreana": "피닉스",
+      "latam": "Connexion",
+      "norwegian": "Connexion",
+      "polish": "Connexion",
+      "portuguese": "Connexion",
+      "romanian": "Connexion",
+      "russian": "Подразделение",
+      "schinese": "凤凰商号",
+      "schinese_pw": "Connexion",
+      "spanish": "Phoenix Connexion",
+      "swedish": "Connexion",
+      "tchinese": "鳳凰黑幫",
+      "thai": "Connexion",
+      "turkish": "Connexion",
+      "ukrainian": "Зв’язок",
+      "vietnamese": "Connexion"
+    },
+    "name": "Connexion",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-972",
+  "localized_names": {
+    "brazilian": "Galil AR | Conexão",
+    "bulgarian": "Galil AR | Свръзка",
+    "czech": "Galil AR | Connexion",
+    "danish": "Galil AR | Connexion",
+    "dutch": "Galil AR | Connexion",
+    "english": "Galil AR | Connexion",
+    "finnish": "Galil AR | Connexion",
+    "french": "Galil AR | Connexion",
+    "german": "Galil AR | Verbindung",
+    "greek": "Galil AR | Connexion",
+    "hungarian": "Galil AR | Connexion",
+    "indonesian": "Galil AR | Connexion",
+    "italian": "Galil AR | Connexion",
+    "japanese": "Galil AR | Connexion",
+    "koreana": "갈릴 돌격소총 | 피닉스",
+    "latam": "Galil AR | Connexion",
+    "norwegian": "Galil AR | Connexion",
+    "polish": "Galil AR | Connexion",
+    "portuguese": "Galil AR | Connexion",
+    "romanian": "Galil AR | Connexion",
+    "russian": "Автомат «Галиль» | Подразделение",
+    "schinese": "加利尔AR | 凤凰商号",
+    "schinese_pw": "Galil AR | Connexion",
+    "spanish": "Galil AR | Phoenix Connexion",
+    "swedish": "Galil AR | Connexion",
+    "tchinese": "Galil AR | 鳳凰黑幫",
+    "thai": "Galil AR | Connexion",
+    "turkish": "Galil AR | Connexion",
+    "ukrainian": "Ґаліл | Зв’язок",
+    "vietnamese": "Galil AR | Connexion"
+  },
+  "media": {
+    "asset_id": "skin__13-972",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-972/light.png",
+      "data/api/media/rendered/files/skins/13-972/medium.png",
+      "data/api/media/rendered/files/skins/13-972/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-972.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-972/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-972/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-972/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-972/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_gs_galil_phoenix_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_gs_galil_phoenix_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_gs_galil_phoenix_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Connexion",
+  "search_slug": "galil-ar-connexion",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4698",
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_26",
+        "name": "The Fracture Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-972__normal__battle-scarred",
+    "13-972__normal__factory-new",
+    "13-972__normal__field-tested",
+    "13-972__normal__minimal-wear",
+    "13-972__normal__well-worn",
+    "13-972__stattrak__battle-scarred",
+    "13-972__stattrak__factory-new",
+    "13-972__stattrak__field-tested",
+    "13-972__stattrak__minimal-wear",
+    "13-972__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

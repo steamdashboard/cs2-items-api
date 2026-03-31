@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "gs_m249_warbird_veteran",
+    "id": 900,
+    "name": "Warbird",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 900,
+    "weapon_id": 14
+  },
+  "id": "14-900",
+  "name": "M249 | Warbird",
+  "search_slug": "m249-warbird",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_23",
+        "name": "The Shattered Web Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4620",
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "14-900__normal__factory-new",
+    "14-900__normal__minimal-wear",
+    "14-900__normal__field-tested",
+    "14-900__normal__well-worn",
+    "14-900__normal__battle-scarred",
+    "14-900__stattrak__factory-new",
+    "14-900__stattrak__minimal-wear",
+    "14-900__stattrak__field-tested",
+    "14-900__stattrak__well-worn",
+    "14-900__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_m249",
+    "id": 14,
+    "name": "M249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.05
+  }
+}

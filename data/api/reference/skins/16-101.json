@@ -1,0 +1,102 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_tornado",
+    "id": 101,
+    "name": "Tornado",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 101,
+    "weapon_id": 16
+  },
+  "id": "16-101",
+  "name": "M4A4 | Tornado",
+  "search_slug": "m4a4-tornado",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_inferno",
+        "name": "The Inferno Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4023",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4032",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4080",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4133",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4178",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4227",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4396",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4463",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Inferno Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "16-101__normal__vanilla",
+    "16-101__souvenir__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_m4a1",
+    "id": 16,
+    "name": "M4A4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

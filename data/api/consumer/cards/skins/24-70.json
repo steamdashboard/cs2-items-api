@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 70,
+    "id": 70,
+    "localized_names": {
+      "brazilian": "Fibra de Carbono",
+      "bulgarian": "Карбонови нишки",
+      "czech": "Carbon Fiber",
+      "danish": "Carbon Fiber",
+      "dutch": "Carbon Fiber",
+      "english": "Carbon Fiber",
+      "finnish": "Hiilikuitu",
+      "french": "Fibre de carbone",
+      "german": "Kohlefaser",
+      "greek": "Carbon Fiber",
+      "hungarian": "Szénszálas",
+      "indonesian": "Carbon Fiber",
+      "italian": "Carbon Fiber",
+      "japanese": "Carbon Fiber",
+      "koreana": "탄소 섬유",
+      "latam": "Fibra de carbono",
+      "norwegian": "Carbon Fiber",
+      "polish": "Włókno węglowe",
+      "portuguese": "Carbon Fiber",
+      "romanian": "Carbon Fiber",
+      "russian": "Углепластик",
+      "schinese": "碳素纤维",
+      "schinese_pw": "Carbon Fiber",
+      "spanish": "Fibra de carbono",
+      "swedish": "Carbon Fiber",
+      "tchinese": "碳纖維",
+      "thai": "Carbon Fiber",
+      "turkish": "Karbon Fiber",
+      "ukrainian": "Вуглепластик",
+      "vietnamese": "Carbon Fiber"
+    },
+    "name": "Carbon Fiber",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.12,
+      "min_float": 0.0
+    }
+  },
+  "id": "24-70",
+  "localized_names": {
+    "brazilian": "UMP-45 | Fibra de Carbono",
+    "bulgarian": "UMP-45 | Карбонови нишки",
+    "czech": "UMP-45 | Carbon Fiber",
+    "danish": "UMP-45 | Carbon Fiber",
+    "dutch": "UMP-45 | Carbon Fiber",
+    "english": "UMP-45 | Carbon Fiber",
+    "finnish": "UMP-45 | Hiilikuitu",
+    "french": "UMP-45 | Fibre de carbone",
+    "german": "UMP-45 | Kohlefaser",
+    "greek": "UMP-45 | Carbon Fiber",
+    "hungarian": "UMP-45 | Szénszálas",
+    "indonesian": "UMP-45 | Carbon Fiber",
+    "italian": "UMP-45 | Carbon Fiber",
+    "japanese": "UMP-45 | Carbon Fiber",
+    "koreana": "UMP-45 | 탄소 섬유",
+    "latam": "UMP-45 | Fibra de carbono",
+    "norwegian": "UMP-45 | Carbon Fiber",
+    "polish": "UMP-45 | Włókno węglowe",
+    "portuguese": "UMP-45 | Carbon Fiber",
+    "romanian": "UMP-45 | Carbon Fiber",
+    "russian": "UMP-45 | Углепластик",
+    "schinese": "UMP-45 | 碳素纤维",
+    "schinese_pw": "UMP-45 | Carbon Fiber",
+    "spanish": "UMP-45 | Fibra de carbono",
+    "swedish": "UMP-45 | Carbon Fiber",
+    "tchinese": "UMP-45 | 碳纖維",
+    "thai": "UMP-45 | Carbon Fiber",
+    "turkish": "UMP-45 | Karbon Fiber",
+    "ukrainian": "УМП-45 | Вуглепластик",
+    "vietnamese": "UMP-45 | Carbon Fiber"
+  },
+  "media": {
+    "asset_id": "skin__24-70",
+    "images_png": [
+      "data/api/media/rendered/files/skins/24-70/light.png",
+      "data/api/media/rendered/files/skins/24-70/medium.png",
+      "data/api/media/rendered/files/skins/24-70/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/24-70.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/24-70/heavy.png",
+      "light": "data/api/media/rendered/files/skins/24-70/light.png",
+      "medium": "data/api/media/rendered/files/skins/24-70/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/24-70/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ump45_am_carbon_fiber_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ump45_am_carbon_fiber_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ump45_am_carbon_fiber_medium_png.vtex_c"
+    }
+  },
+  "name": "UMP-45 | Carbon Fiber",
+  "search_slug": "ump-45-carbon-fiber",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "24-70__normal__factory-new",
+    "24-70__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 24,
+    "localized_names": {
+      "brazilian": "UMP-45",
+      "bulgarian": "UMP-45",
+      "czech": "UMP-45",
+      "danish": "UMP-45",
+      "dutch": "UMP-45",
+      "english": "UMP-45",
+      "finnish": "UMP-45",
+      "french": "UMP-45",
+      "german": "UMP-45",
+      "greek": "UMP-45",
+      "hungarian": "UMP-45",
+      "indonesian": "UMP-45",
+      "italian": "UMP-45",
+      "japanese": "UMP-45",
+      "koreana": "UMP-45",
+      "latam": "UMP-45",
+      "norwegian": "UMP-45",
+      "polish": "UMP-45",
+      "portuguese": "UMP-45",
+      "romanian": "UMP-45",
+      "russian": "UMP-45",
+      "schinese": "UMP-45",
+      "schinese_pw": "UMP-45",
+      "spanish": "UMP-45",
+      "swedish": "UMP-45",
+      "tchinese": "UMP-45",
+      "thai": "UMP-45",
+      "turkish": "UMP-45",
+      "ukrainian": "УМП-45",
+      "vietnamese": "UMP-45"
+    },
+    "name": "UMP-45",
+    "search_slug": "ump-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

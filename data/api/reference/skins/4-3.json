@@ -1,0 +1,68 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_red",
+    "id": 3,
+    "name": "Candy Apple",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 3,
+    "weapon_id": 4
+  },
+  "id": "4-3",
+  "name": "Glock-18 | Candy Apple",
+  "search_slug": "glock-18-candy-apple",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_italy",
+        "name": "The Italy Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "4-3__normal__factory-new",
+    "4-3__normal__minimal-wear",
+    "4-3__normal__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_glock",
+    "id": 4,
+    "name": "Glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "classification": {
+    "group": "collectible",
+    "kind": "collectible"
+  },
+  "game_id": 4761,
+  "id": 4761,
+  "name": "CommunitySeasonEleven2021 Coin 3",
+  "prefab_chain": [
+    "collectible",
+    "collectible_untradable",
+    "operation_coin",
+    "season11_coin"
+  ],
+  "prefab_spec": "season11_coin",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "minutes played": {
+        "attribute_class": "minutes_played",
+        "value": "1"
+      },
+      "pedestal display model": "models/inventory_items/operation_11_gold.vmdl",
+      "season access": "10",
+      "upgrade threshold": "100"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/status_icons/operation_11_gold",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_Collectible_CommunitySeasonEleven2021_Coin3_Desc",
+    "item_name": "#CSGO_Collectible_CommunitySeasonEleven2021_Coin3",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type": "operation_coin",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "3",
+    "min_ilevel": "3",
+    "mouse_pressed_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "name": "CommunitySeasonEleven2021 Coin 3",
+    "prefab": "season11_coin",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

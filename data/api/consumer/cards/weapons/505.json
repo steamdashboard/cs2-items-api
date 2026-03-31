@@ -1,0 +1,66 @@
+{
+  "card_type": "knife",
+  "description": "Flip knives sport a Persian-style back-swept blade with an acute point.  While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable.",
+  "id": 505,
+  "localized_names": {
+    "brazilian": "Canivete",
+    "bulgarian": "Сгъваем нож",
+    "czech": "Skládací nůž",
+    "danish": "Foldekniv",
+    "dutch": "Knipmes",
+    "english": "Flip Knife",
+    "finnish": "Taittoveitsi",
+    "french": "Couteau pliant",
+    "german": "Klappmesser",
+    "greek": "Flip Knife",
+    "hungarian": "Összecsukható kés",
+    "indonesian": "Pisau Lipat",
+    "italian": "Coltello ricurvo",
+    "japanese": "Flip ナイフ",
+    "koreana": "접이식 칼",
+    "latam": "Navaja",
+    "norwegian": "Foldekniv",
+    "polish": "Nóż składany",
+    "portuguese": "Flip Knife",
+    "romanian": "Briceag",
+    "russian": "Складной нож",
+    "schinese": "折叠刀",
+    "schinese_pw": "Flip Knife",
+    "spanish": "Cuchillo plegable",
+    "swedish": "Fällkniv",
+    "tchinese": "折疊式軍刀",
+    "thai": "มีดพับ",
+    "turkish": "Sustalı Bıçak",
+    "ukrainian": "Складаний ніж",
+    "vietnamese": "Dao bấm"
+  },
+  "media": {
+    "asset_id": "weapon__505",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/505/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/505.json",
+    "models": [
+      "weapons/models/knife/knife_flip/weapon_knife_flip.vmdl_c",
+      "phase2/weapons/models/knife/knife_flip/weapon_knife_flip_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/505/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.vtex_c"
+  },
+  "name": "Flip Knife",
+  "regular_skin_ids": [],
+  "search_slug": "flip-knife",
+  "side": null,
+  "special_pool_ids": [
+    "community_case_13_unusual",
+    "community_case_6_unusual",
+    "unusual_revolving_list"
+  ],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

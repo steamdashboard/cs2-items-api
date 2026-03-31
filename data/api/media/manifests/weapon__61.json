@@ -1,0 +1,55 @@
+{
+  "codename": "weapon_usp_silencer",
+  "entity_id": "61",
+  "entity_type": "weapon",
+  "id": "weapon__61",
+  "name": "USP-S",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_usp_silencer.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_usp_silencer",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "-1.0 -125.0 0.0",
+      "camera_fov": "30.000000",
+      "camera_offset": "12.0 1.5 -1.8",
+      "override_default_light": "1",
+      "spot_light_key": {
+        "color": "2 2.1 2.3",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-120 120 180"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "10.0 -90.0 -60.0"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/usp_silencer/weapon_pist_usp_silencer_ag2.vmdl",
+    "model_player": "weapons/models/usp_silencer/weapon_pist_usp_silencer.vmdl",
+    "model_world": "weapons/models/usp_silencer/weapon_pist_usp_silencer.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_usp_silencer_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/usp_silencer/weapon_pist_usp_silencer_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/usp_silencer/weapon_pist_usp_silencer.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/usp_silencer/weapon_pist_usp_silencer.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 479,
+    "id": 479,
+    "localized_names": {
+      "brazilian": "Bico de Bunsen",
+      "bulgarian": "Бунзенова горелка",
+      "czech": "Bunsen Burner",
+      "danish": "Bunsen Burner",
+      "dutch": "Bunsen Burner",
+      "english": "Bunsen Burner",
+      "finnish": "Bunsenlamppu",
+      "french": "Bec Bunsen",
+      "german": "Bunsenbrenner",
+      "greek": "Bunsen Burner",
+      "hungarian": "Bunsen-égő",
+      "indonesian": "Bunsen Burner",
+      "italian": "Bunsen Burner",
+      "japanese": "Bunsen Burner",
+      "koreana": "분젠 버너",
+      "latam": "Mechero Bunsen",
+      "norwegian": "Bunsen Burner",
+      "polish": "Palnik Bunsena",
+      "portuguese": "Bunsen Burner",
+      "romanian": "Bunsen Burner",
+      "russian": "Горелка Бунзена",
+      "schinese": "本生灯",
+      "schinese_pw": "Bunsen Burner",
+      "spanish": "Mechero Bunsen",
+      "swedish": "Bunsen Burner",
+      "tchinese": "本生燈",
+      "thai": "Bunsen Burner",
+      "turkish": "Bunsen Lambası",
+      "ukrainian": "Пальник Бунзена",
+      "vietnamese": "Bunsen Burner"
+    },
+    "name": "Bunsen Burner",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-479",
+  "localized_names": {
+    "brazilian": "Glock-18 | Bico de Bunsen",
+    "bulgarian": "Glock-18 | Бунзенова горелка",
+    "czech": "Glock-18 | Bunsen Burner",
+    "danish": "Glock-18 | Bunsen Burner",
+    "dutch": "Glock-18 | Bunsen Burner",
+    "english": "Glock-18 | Bunsen Burner",
+    "finnish": "Glock-18 | Bunsenlamppu",
+    "french": "Glock-18 | Bec Bunsen",
+    "german": "Glock-18 | Bunsenbrenner",
+    "greek": "Glock-18 | Bunsen Burner",
+    "hungarian": "Glock-18 | Bunsen-égő",
+    "indonesian": "Glock-18 | Bunsen Burner",
+    "italian": "Glock-18 | Bunsen Burner",
+    "japanese": "Glock-18 | Bunsen Burner",
+    "koreana": "글록 18 | 분젠 버너",
+    "latam": "Glock-18 | Mechero Bunsen",
+    "norwegian": "Glock-18 | Bunsen Burner",
+    "polish": "Glock-18 | Palnik Bunsena",
+    "portuguese": "Glock-18 | Bunsen Burner",
+    "romanian": "Glock-18 | Bunsen Burner",
+    "russian": "Glock-18 | Горелка Бунзена",
+    "schinese": "格洛克18型 | 本生灯",
+    "schinese_pw": "Glock-18 | Bunsen Burner",
+    "spanish": "Glock-18 | Mechero Bunsen",
+    "swedish": "Glock-18 | Bunsen Burner",
+    "tchinese": "Glock-18 | 本生燈",
+    "thai": "Glock-18 | Bunsen Burner",
+    "turkish": "Glock-18 | Bunsen Lambası",
+    "ukrainian": "Ґлок-18 | Пальник Бунзена",
+    "vietnamese": "Glock-18 | Bunsen Burner"
+  },
+  "media": {
+    "asset_id": "skin__4-479",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-479/light.png",
+      "data/api/media/rendered/files/skins/4-479/medium.png",
+      "data/api/media/rendered/files/skins/4-479/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-479.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-479/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-479/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-479/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-479/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_aq_glock18_flames_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_aq_glock18_flames_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_aq_glock18_flames_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Bunsen Burner",
+  "search_slug": "glock-18-bunsen-burner",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4091",
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_8",
+        "name": "The Falchion Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-479__normal__battle-scarred",
+    "4-479__normal__factory-new",
+    "4-479__normal__field-tested",
+    "4-479__normal__minimal-wear",
+    "4-479__normal__well-worn",
+    "4-479__stattrak__battle-scarred",
+    "4-479__stattrak__factory-new",
+    "4-479__stattrak__field-tested",
+    "4-479__stattrak__minimal-wear",
+    "4-479__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

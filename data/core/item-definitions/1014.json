@@ -1,0 +1,101 @@
+{
+  "classification": {
+    "group": "collectible",
+    "kind": "collectible"
+  },
+  "game_id": 1014,
+  "id": 1014,
+  "name": "Community Season Two Autumn 2013 Coin 2",
+  "prefab_chain": [
+    "collectible",
+    "collectible_untradable",
+    "operation_coin",
+    "season2_coin"
+  ],
+  "prefab_spec": "season2_coin",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "competitive 3k": {
+        "attribute_class": "competitive_3k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive 4k": {
+        "attribute_class": "competitive_4k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive 5k": {
+        "attribute_class": "competitive_5k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive hsp": {
+        "attribute_class": "competitive_hsp",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive kills": {
+        "attribute_class": "competitive_kills",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive minutes played": {
+        "attribute_class": "competitive_minutes_played",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive mvps": {
+        "attribute_class": "competitive_mvps",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive wins": {
+        "attribute_class": "competitive_wins",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "match wins": {
+        "attribute_class": "match_wins",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "minutes played": {
+        "attribute_class": "minutes_played",
+        "force_gc_to_generate": "1",
+        "value": "1"
+      },
+      "pedestal display model": "models/inventory_items/bravo_silver_01.vmdl",
+      "season access": "1"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/status_icons/operation_bravo_silver",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_Collectible_CommunitySeasonTwoAutumn2013_Coin2_Desc",
+    "item_name": "#CSGO_Collectible_CommunitySeasonTwoAutumn2013_Coin2",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type": "operation_coin",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "2",
+    "min_ilevel": "2",
+    "mouse_pressed_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "name": "Community Season Two Autumn 2013 Coin 2",
+    "prefab": "season2_coin",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

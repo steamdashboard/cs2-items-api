@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 271,
+    "id": 271,
+    "localized_names": {
+      "brazilian": "Correnteza",
+      "bulgarian": "Приливна вълна",
+      "czech": "Undertow",
+      "danish": "Undertow",
+      "dutch": "Undertow",
+      "english": "Undertow",
+      "finnish": "Pohjavirta",
+      "french": "Contre-courant",
+      "german": "Sog",
+      "greek": "Undertow",
+      "hungarian": "Merülés",
+      "indonesian": "Undertow",
+      "italian": "Undertow",
+      "japanese": "Undertow",
+      "koreana": "역류",
+      "latam": "Resaca",
+      "norwegian": "Undertow",
+      "polish": "Odpływ",
+      "portuguese": "Undertow",
+      "romanian": "Undertow",
+      "russian": "Цвета прибоя",
+      "schinese": "暗潮",
+      "schinese_pw": "Undertow",
+      "spanish": "Resaca",
+      "swedish": "Undertow",
+      "tchinese": "暗潮洶湧",
+      "thai": "Undertow",
+      "turkish": "Anafor",
+      "ukrainian": "Глибинна течія",
+      "vietnamese": "Undertow"
+    },
+    "name": "Undertow",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-271",
+  "localized_names": {
+    "brazilian": "P250 | Correnteza",
+    "bulgarian": "P250 | Приливна вълна",
+    "czech": "P250 | Undertow",
+    "danish": "P250 | Undertow",
+    "dutch": "P250 | Undertow",
+    "english": "P250 | Undertow",
+    "finnish": "P250 | Pohjavirta",
+    "french": "P250 | Contre-courant",
+    "german": "P250 | Sog",
+    "greek": "P250 | Undertow",
+    "hungarian": "P250 | Merülés",
+    "indonesian": "P250 | Undertow",
+    "italian": "P250 | Undertow",
+    "japanese": "P250 | Undertow",
+    "koreana": "P250 | 역류",
+    "latam": "P250 | Resaca",
+    "norwegian": "P250 | Undertow",
+    "polish": "P250 | Odpływ",
+    "portuguese": "P250 | Undertow",
+    "romanian": "P250 | Undertow",
+    "russian": "P250 | Цвета прибоя",
+    "schinese": "P250 | 暗潮",
+    "schinese_pw": "P250 | Undertow",
+    "spanish": "P250 | Resaca",
+    "swedish": "P250 | Undertow",
+    "tchinese": "P250 | 暗潮洶湧",
+    "thai": "P250 | Undertow",
+    "turkish": "P250 | Anafor",
+    "ukrainian": "П250 | Глибинна течія",
+    "vietnamese": "P250 | Undertow"
+  },
+  "media": {
+    "asset_id": "skin__36-271",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-271/light.png",
+      "data/api/media/rendered/files/skins/36-271/medium.png",
+      "data/api/media/rendered/files/skins/36-271/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-271.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-271/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-271/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-271/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-271/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_am_p250_beaded_paint_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_am_p250_beaded_paint_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_am_p250_beaded_paint_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Undertow",
+  "search_slug": "p250-undertow",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4010",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_iii",
+        "name": "The Arms Deal 3 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-271__normal__factory-new",
+    "36-271__normal__field-tested",
+    "36-271__normal__minimal-wear",
+    "36-271__stattrak__factory-new",
+    "36-271__stattrak__field-tested",
+    "36-271__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

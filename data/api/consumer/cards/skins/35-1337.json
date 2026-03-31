@@ -1,0 +1,207 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1337,
+    "id": 1337,
+    "localized_names": {
+      "brazilian": "Estação Chuvosa",
+      "bulgarian": "Дъждовна станция",
+      "czech": "Rain Station",
+      "danish": "Rain Station",
+      "dutch": "Rain Station",
+      "english": "Rain Station",
+      "finnish": "Sataa, sataa ropisee",
+      "french": "Gare pluviale",
+      "german": "Verregneter Bahnhof",
+      "greek": "Rain Station",
+      "hungarian": "Esőperon",
+      "indonesian": "Rain Station",
+      "italian": "Rain Station",
+      "japanese": "Rain Station",
+      "koreana": "비의 정거장",
+      "latam": "Estación lluviosa",
+      "norwegian": "Rain Station",
+      "polish": "Stacja deszczowa",
+      "portuguese": "Rain Station",
+      "romanian": "Rain Station",
+      "russian": "Непогожий перегон",
+      "schinese": "夜雨月台",
+      "schinese_pw": "Rain Station",
+      "spanish": "Estación lluviosa",
+      "swedish": "Rain Station",
+      "tchinese": "雨站",
+      "thai": "Rain Station",
+      "turkish": "Yağmur İstasyonu",
+      "ukrainian": "Дощова станція",
+      "vietnamese": "Rain Station"
+    },
+    "name": "Rain Station",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.35,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-1337",
+  "localized_names": {
+    "brazilian": "Nova | Estação Chuvosa",
+    "bulgarian": "Nova | Дъждовна станция",
+    "czech": "Nova | Rain Station",
+    "danish": "Nova | Rain Station",
+    "dutch": "Nova | Rain Station",
+    "english": "Nova | Rain Station",
+    "finnish": "Nova | Sataa, sataa ropisee",
+    "french": "Nova | Gare pluviale",
+    "german": "Nova | Verregneter Bahnhof",
+    "greek": "Nova | Rain Station",
+    "hungarian": "Nova | Esőperon",
+    "indonesian": "Nova | Rain Station",
+    "italian": "Nova | Rain Station",
+    "japanese": "Nova | Rain Station",
+    "koreana": "노바 | 비의 정거장",
+    "latam": "Nova | Estación lluviosa",
+    "norwegian": "Nova | Rain Station",
+    "polish": "Nova | Stacja deszczowa",
+    "portuguese": "Nova | Rain Station",
+    "romanian": "Nova | Rain Station",
+    "russian": "Nova | Непогожий перегон",
+    "schinese": "新星 | 夜雨月台",
+    "schinese_pw": "Nova | Rain Station",
+    "spanish": "Nova | Estación lluviosa",
+    "swedish": "Nova | Rain Station",
+    "tchinese": "Nova | 雨站",
+    "thai": "Nova | Rain Station",
+    "turkish": "Nova | Yağmur İstasyonu",
+    "ukrainian": "Нова | Дощова станція",
+    "vietnamese": "Nova | Rain Station"
+  },
+  "media": {
+    "asset_id": "skin__35-1337",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-1337/light.png",
+      "data/api/media/rendered/files/skins/35-1337/medium.png",
+      "data/api/media/rendered/files/skins/35-1337/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-1337.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-1337/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-1337/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-1337/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-1337/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_train_shapes_01_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_train_shapes_01_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_train_shapes_01_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Rain Station",
+  "search_slug": "nova-rain-station",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2025",
+        "name": "The Train 2025 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5126",
+        "kind": "container",
+        "name": "Austin 2025 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5225",
+        "kind": "container",
+        "name": "Budapest 2025 Train Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-1337__normal__factory-new",
+    "35-1337__normal__field-tested",
+    "35-1337__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.35,
+    "min_float": 0.0
+  }
+}

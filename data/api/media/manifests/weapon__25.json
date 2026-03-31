@@ -1,0 +1,59 @@
+{
+  "codename": "weapon_xm1014",
+  "entity_id": "25",
+  "entity_type": "weapon",
+  "id": "weapon__25",
+  "name": "XM1014",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_xm1014.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_xm1014",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "-4.0 -137.0 0.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "22.0 4.5 -2.5",
+      "override_default_light": "1",
+      "point_light_accent": {
+        "color": "6 6 6",
+        "position": "90 0 0"
+      },
+      "spot_light_key": {
+        "color": "3 3.15 3.45",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-190 120 80"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "0 -80 -110"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/xm1014/weapon_shot_xm1014_ag2.vmdl",
+    "model_player": "weapons/models/xm1014/weapon_shot_xm1014.vmdl",
+    "model_world": "weapons/models/xm1014/weapon_shot_xm1014.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/xm1014/weapon_shot_xm1014_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/xm1014/weapon_shot_xm1014.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/xm1014/weapon_shot_xm1014.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

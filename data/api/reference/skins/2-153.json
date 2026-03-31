@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_tangerine",
+    "id": 153,
+    "name": "Demolition",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 153,
+    "weapon_id": 2
+  },
+  "id": "2-153",
+  "name": "Dual Berettas | Demolition",
+  "search_slug": "dual-berettas-demolition",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_vertigo",
+        "name": "The Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4666",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Vertigo Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "2-153__normal__field-tested",
+    "2-153__normal__well-worn",
+    "2-153__normal__battle-scarred",
+    "2-153__souvenir__field-tested",
+    "2-153__souvenir__well-worn",
+    "2-153__souvenir__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_elite",
+    "id": 2,
+    "name": "Dual Berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.26
+  }
+}

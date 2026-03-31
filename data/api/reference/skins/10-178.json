@@ -1,0 +1,70 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_doomkitty",
+    "id": 178,
+    "name": "Doomkitty",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 178,
+    "weapon_id": 10
+  },
+  "id": "10-178",
+  "name": "FAMAS | Doomkitty",
+  "search_slug": "famas-doomkitty",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "10-178__normal__minimal-wear",
+    "10-178__normal__field-tested",
+    "10-178__stattrak__minimal-wear",
+    "10-178__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_famas",
+    "id": 10,
+    "name": "FAMAS",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.22,
+    "min_float": 0.08
+  }
+}

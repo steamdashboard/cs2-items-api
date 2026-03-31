@@ -1,0 +1,52 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_dapple",
+    "id": 175,
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 175,
+    "weapon_id": 33
+  },
+  "id": "33-175",
+  "name": "MP7 | Scorched",
+  "search_slug": "mp7-scorched",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": null
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "33-175__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_mp7",
+    "id": 33,
+    "name": "MP7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

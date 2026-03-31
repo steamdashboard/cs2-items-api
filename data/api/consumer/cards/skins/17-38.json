@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 38,
+    "id": 38,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-38",
+  "localized_names": {
+    "brazilian": "MAC-10 | Degradê",
+    "bulgarian": "MAC-10 | Избледняване",
+    "czech": "MAC-10 | Fade",
+    "danish": "MAC-10 | Fade",
+    "dutch": "MAC-10 | Fade",
+    "english": "MAC-10 | Fade",
+    "finnish": "MAC-10 | Häivytys",
+    "french": "MAC-10 | Dégradé",
+    "german": "MAC-10 | Farbverlauf",
+    "greek": "MAC-10 | Fade",
+    "hungarian": "MAC-10 | Halványulás",
+    "indonesian": "MAC-10 | Fade",
+    "italian": "MAC-10 | Fade",
+    "japanese": "MAC-10 | Fade",
+    "koreana": "MAC-10 | 흐릿함",
+    "latam": "MAC-10 | Desteñido",
+    "norwegian": "MAC-10 | Fade",
+    "polish": "MAC-10 | Gradient",
+    "portuguese": "MAC-10 | Fade",
+    "romanian": "MAC-10 | Fade",
+    "russian": "MAC-10 | Градиент",
+    "schinese": "MAC-10 | 渐变之色",
+    "schinese_pw": "MAC-10 | Fade",
+    "spanish": "MAC-10 | Desteñido",
+    "swedish": "MAC-10 | Fade",
+    "tchinese": "MAC-10 | 漸層彩虹",
+    "thai": "MAC-10 | Fade",
+    "turkish": "MAC-10 | Solgun",
+    "ukrainian": "МАК-10 | Градієнт",
+    "vietnamese": "MAC-10 | Fade"
+  },
+  "media": {
+    "asset_id": "skin__17-38",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-38/light.png",
+      "data/api/media/rendered/files/skins/17-38/medium.png",
+      "data/api/media/rendered/files/skins/17-38/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-38.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-38/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-38/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-38/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-38/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_aa_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_aa_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_aa_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Fade",
+  "search_slug": "mac-10-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-38__normal__factory-new",
+    "17-38__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

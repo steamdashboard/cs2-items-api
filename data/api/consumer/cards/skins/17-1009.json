@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1009,
+    "id": 1009,
+    "localized_names": {
+      "brazilian": "Cobras Fervilhantes",
+      "bulgarian": "Горещи змии",
+      "czech": "Hot Snakes",
+      "danish": "Hot Snakes",
+      "dutch": "Hot Snakes",
+      "english": "Hot Snakes",
+      "finnish": "Kuuma kalkkaro",
+      "french": "Serpents ardents",
+      "german": "Hot Snakes",
+      "greek": "Hot Snakes",
+      "hungarian": "Forró Kígyók",
+      "indonesian": "Hot Snakes",
+      "italian": "Hot Snakes",
+      "japanese": "Hot Snakes",
+      "koreana": "핫 스네이크",
+      "latam": "Hot Snakes",
+      "norwegian": "Hot Snakes",
+      "polish": "Gorące węże",
+      "portuguese": "Hot Snakes",
+      "romanian": "Hot Snakes",
+      "russian": "Ужи на сковородке",
+      "schinese": "狂蟒之灾",
+      "schinese_pw": "Hot Snakes",
+      "spanish": "Serpientes calientes",
+      "swedish": "Hot Snakes",
+      "tchinese": "火熱猛蛇",
+      "thai": "Hot Snakes",
+      "turkish": "Alevli Yılanlar",
+      "ukrainian": "Пекучі змії",
+      "vietnamese": "Hot Snakes"
+    },
+    "name": "Hot Snakes",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-1009",
+  "localized_names": {
+    "brazilian": "MAC-10 | Cobras Fervilhantes",
+    "bulgarian": "MAC-10 | Горещи змии",
+    "czech": "MAC-10 | Hot Snakes",
+    "danish": "MAC-10 | Hot Snakes",
+    "dutch": "MAC-10 | Hot Snakes",
+    "english": "MAC-10 | Hot Snakes",
+    "finnish": "MAC-10 | Kuuma kalkkaro",
+    "french": "MAC-10 | Serpents ardents",
+    "german": "MAC-10 | Hot Snakes",
+    "greek": "MAC-10 | Hot Snakes",
+    "hungarian": "MAC-10 | Forró Kígyók",
+    "indonesian": "MAC-10 | Hot Snakes",
+    "italian": "MAC-10 | Hot Snakes",
+    "japanese": "MAC-10 | Hot Snakes",
+    "koreana": "MAC-10 | 핫 스네이크",
+    "latam": "MAC-10 | Hot Snakes",
+    "norwegian": "MAC-10 | Hot Snakes",
+    "polish": "MAC-10 | Gorące węże",
+    "portuguese": "MAC-10 | Hot Snakes",
+    "romanian": "MAC-10 | Hot Snakes",
+    "russian": "MAC-10 | Ужи на сковородке",
+    "schinese": "MAC-10 | 狂蟒之灾",
+    "schinese_pw": "MAC-10 | Hot Snakes",
+    "spanish": "MAC-10 | Serpientes calientes",
+    "swedish": "MAC-10 | Hot Snakes",
+    "tchinese": "MAC-10 | 火熱猛蛇",
+    "thai": "MAC-10 | Hot Snakes",
+    "turkish": "MAC-10 | Alevli Yılanlar",
+    "ukrainian": "МАК-10 | Пекучі змії",
+    "vietnamese": "MAC-10 | Hot Snakes"
+  },
+  "media": {
+    "asset_id": "skin__17-1009",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-1009/light.png",
+      "data/api/media/rendered/files/skins/17-1009/medium.png",
+      "data/api/media/rendered/files/skins/17-1009/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-1009.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-1009/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-1009/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-1009/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-1009/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_gs_mac10_snake_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_gs_mac10_snake_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_gs_mac10_snake_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Hot Snakes",
+  "search_slug": "mac-10-hot-snakes",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_t",
+        "name": "The Havoc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4721",
+        "kind": "container",
+        "name": "The Havoc Collection",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-1009__normal__battle-scarred",
+    "17-1009__normal__factory-new",
+    "17-1009__normal__field-tested",
+    "17-1009__normal__minimal-wear",
+    "17-1009__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

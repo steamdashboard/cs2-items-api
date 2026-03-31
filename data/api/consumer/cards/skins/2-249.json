@@ -1,0 +1,200 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 249,
+    "id": 249,
+    "localized_names": {
+      "brazilian": "Quartzo de Cobalto",
+      "bulgarian": "Кобалтов кварц",
+      "czech": "Cobalt Quartz",
+      "danish": "Cobalt Quartz",
+      "dutch": "Cobalt Quartz",
+      "english": "Cobalt Quartz",
+      "finnish": "Kobolttikvartsi",
+      "french": "Quartz cobalt",
+      "german": "Kobaltblauer Quarz",
+      "greek": "Cobalt Quartz",
+      "hungarian": "Kobalt Kvarc",
+      "indonesian": "Cobalt Quartz",
+      "italian": "Cobalt Quartz",
+      "japanese": "Cobalt Quartz",
+      "koreana": "푸른 수정",
+      "latam": "Cuarzo cobalto",
+      "norwegian": "Cobalt Quartz",
+      "polish": "Kobaltowy kwarc",
+      "portuguese": "Cobalt Quartz",
+      "romanian": "Cobalt Quartz",
+      "russian": "Синий кварц",
+      "schinese": "钴蓝石英",
+      "schinese_pw": "Cobalt Quartz",
+      "spanish": "Cuarzo cobalto",
+      "swedish": "Cobalt Quartz",
+      "tchinese": "鈷藍石英",
+      "thai": "Cobalt Quartz",
+      "turkish": "Kobalt Kuvars",
+      "ukrainian": "Синій кварц",
+      "vietnamese": "Cobalt Quartz"
+    },
+    "name": "Cobalt Quartz",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-249",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Quartzo de Cobalto",
+    "bulgarian": "Два Beretta | Кобалтов кварц",
+    "czech": "Dual Berettas | Cobalt Quartz",
+    "danish": "Dual Berettas | Cobalt Quartz",
+    "dutch": "Dual Berettas | Cobalt Quartz",
+    "english": "Dual Berettas | Cobalt Quartz",
+    "finnish": "Tupla-Berettat | Kobolttikvartsi",
+    "french": "Dual Berettas | Quartz cobalt",
+    "german": "Akimbo-Berettas | Kobaltblauer Quarz",
+    "greek": "Dual Berettas | Cobalt Quartz",
+    "hungarian": "Dupla Beretta | Kobalt Kvarc",
+    "indonesian": "Dual Berettas | Cobalt Quartz",
+    "italian": "Doppia Beretta | Cobalt Quartz",
+    "japanese": "Dual Berettas | Cobalt Quartz",
+    "koreana": "듀얼 베레타 | 푸른 수정",
+    "latam": "Berettas dobles | Cuarzo cobalto",
+    "norwegian": "Dual Berettas | Cobalt Quartz",
+    "polish": "Dwie beretty | Kobaltowy kwarc",
+    "portuguese": "Dual Berettas | Cobalt Quartz",
+    "romanian": "Dual Berettas | Cobalt Quartz",
+    "russian": "Dual Berettas | Синий кварц",
+    "schinese": "双持贝瑞塔 | 钴蓝石英",
+    "schinese_pw": "Dual Berettas | Cobalt Quartz",
+    "spanish": "Berettas dobles | Cuarzo cobalto",
+    "swedish": "Dual Berettas | Cobalt Quartz",
+    "tchinese": "Dual Berettas | 鈷藍石英",
+    "thai": "Dual Berettas | Cobalt Quartz",
+    "turkish": "Çift Beretta | Kobalt Kuvars",
+    "ukrainian": "Подвійні «Беретти» | Синій кварц",
+    "vietnamese": "Dual Berettas | Cobalt Quartz"
+  },
+  "media": {
+    "asset_id": "skin__2-249",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-249/light.png",
+      "data/api/media/rendered/files/skins/2-249/medium.png",
+      "data/api/media/rendered/files/skins/2-249/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-249.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-249/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-249/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-249/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-249/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_am_crystallized_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_am_crystallized_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_am_crystallized_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Cobalt Quartz",
+  "search_slug": "dual-berettas-cobalt-quartz",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_lake",
+        "name": "The Lake Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "2-249__normal__factory-new",
+    "2-249__normal__field-tested",
+    "2-249__normal__minimal-wear",
+    "2-249__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "classification": {
+    "group": "container",
+    "kind": "container"
+  },
+  "game_id": 20096,
+  "id": 20096,
+  "name": "coupon - troelsfolmann_01_stattrak",
+  "prefab_chain": [
+    "weapon_case_base",
+    "coupon_prefab"
+  ],
+  "prefab_spec": "coupon_prefab",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "expiration date": {
+        "attribute_class": "expiration_date",
+        "force_gc_to_generate": "1",
+        "use_custom_logic": "expiration_period_hours_from_now",
+        "value": "60"
+      }
+    },
+    "capabilities": {
+      "decodable": "1"
+    },
+    "drop_sound": "sounds/physics/plastic/plastic_box_impact_hard1.vsnd",
+    "image_inventory": "econ/music_kits/troelsfolmann_01",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "image_unusual_item": "econ/weapon_cases/default_rare_item",
+    "item_class": "supply_crate",
+    "item_description": "#coupon_desc",
+    "item_name": "#coupon_troelsfolmann_01_stattrak",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "coupon",
+    "item_type_name": "#CSGO_Type_WeaponCase",
+    "loot_list_name": "coupon loot list - troelsfolmann_01_stattrak",
+    "loot_list_rare_item_footer": "#Econ_Revolving_Loot_List_Rare_Item",
+    "loot_list_rare_item_name": "#Exceedingly_Rare_Item",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/physics/plastic/plastic_box_impact_soft1.vsnd",
+    "name": "coupon - troelsfolmann_01_stattrak",
+    "prefab": "coupon_prefab",
+    "tool": {
+      "type": "supply_crate",
+      "usage_capabilities": {
+        "usable_out_of_game": "1"
+      }
+    },
+    "will_produce_stattrak": "1"
+  }
+}

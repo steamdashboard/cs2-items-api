@@ -1,0 +1,59 @@
+{
+  "codename": "weapon_glock",
+  "entity_id": "4",
+  "entity_type": "weapon",
+  "id": "weapon__4",
+  "name": "Glock-18",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_glock.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_glock",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "2.0 -130.0 0.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "2.0 0.7 -1.0",
+      "override_default_light": "1",
+      "point_light_accent": {
+        "color": "0.3 0.3 0.3",
+        "position": "-15 20 -15"
+      },
+      "spot_light_key": {
+        "color": "2 2.1 2.3",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-120 120 180"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "10.0 -90.0 -60.0"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/glock18/weapon_pist_glock18_ag2.vmdl",
+    "model_player": "weapons/models/glock18/weapon_pist_glock18.vmdl",
+    "model_world": "weapons/models/glock18/weapon_pist_glock18.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_glock_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/glock18/weapon_pist_glock18_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/glock18/weapon_pist_glock18.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/glock18/weapon_pist_glock18.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

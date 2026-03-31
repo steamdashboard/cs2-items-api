@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1313,
+    "id": 1313,
+    "localized_names": {
+      "brazilian": "Siderúrgica",
+      "bulgarian": "Стоманено изделие",
+      "czech": "Steel Work",
+      "danish": "Steel Work",
+      "dutch": "Steel Work",
+      "english": "Steel Work",
+      "finnish": "Terästehtaan takuu",
+      "french": "Sidérurgie",
+      "german": "Stahlwerk",
+      "greek": "Steel Work",
+      "hungarian": "Acélművek",
+      "indonesian": "Steel Work",
+      "italian": "Steel Work",
+      "japanese": "Steel Work",
+      "koreana": "스틸 워크",
+      "latam": "Trabajo de acero",
+      "norwegian": "Steel Work",
+      "polish": "Wyrób stalowy",
+      "portuguese": "Steel Work",
+      "romanian": "Steel Work",
+      "russian": "Стальной каркас",
+      "schinese": "钢铁红流",
+      "schinese_pw": "Steel Work",
+      "spanish": "Siderurgia",
+      "swedish": "Steel Work",
+      "tchinese": "鋼鐵之作",
+      "thai": "Steel Work",
+      "turkish": "Çelik İşi",
+      "ukrainian": "Сталевий виріб",
+      "vietnamese": "Steel Work"
+    },
+    "name": "Steel Work",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "16-1313",
+  "localized_names": {
+    "brazilian": "M4A4 | Siderúrgica",
+    "bulgarian": "M4A4 | Стоманено изделие",
+    "czech": "M4A4 | Steel Work",
+    "danish": "M4A4 | Steel Work",
+    "dutch": "M4A4 | Steel Work",
+    "english": "M4A4 | Steel Work",
+    "finnish": "M4A4 | Terästehtaan takuu",
+    "french": "M4A4 | Sidérurgie",
+    "german": "M4A4 | Stahlwerk",
+    "greek": "M4A4 | Steel Work",
+    "hungarian": "M4A4 | Acélművek",
+    "indonesian": "M4A4 | Steel Work",
+    "italian": "M4A4 | Steel Work",
+    "japanese": "M4A4 | Steel Work",
+    "koreana": "M4A4 | 스틸 워크",
+    "latam": "M4A4 | Trabajo de acero",
+    "norwegian": "M4A4 | Steel Work",
+    "polish": "M4A4 | Wyrób stalowy",
+    "portuguese": "M4A4 | Steel Work",
+    "romanian": "M4A4 | Steel Work",
+    "russian": "M4A4 | Стальной каркас",
+    "schinese": "M4A4 | 钢铁红流",
+    "schinese_pw": "M4A4 | Steel Work",
+    "spanish": "M4A4 | Siderurgia",
+    "swedish": "M4A4 | Steel Work",
+    "tchinese": "M4A4 | 鋼鐵之作",
+    "thai": "M4A4 | Steel Work",
+    "turkish": "M4A4 | Çelik İşi",
+    "ukrainian": "М4А4 | Сталевий виріб",
+    "vietnamese": "M4A4 | Steel Work"
+  },
+  "media": {
+    "asset_id": "skin__16-1313",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-1313/light.png",
+      "data/api/media/rendered/files/skins/16-1313/medium.png",
+      "data/api/media/rendered/files/skins/16-1313/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-1313.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-1313/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-1313/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-1313/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-1313/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_ht_metal_edges_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_ht_metal_edges_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_ht_metal_edges_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Steel Work",
+  "search_slug": "m4a4-steel-work",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "16-1313__normal__battle-scarred",
+    "16-1313__normal__factory-new",
+    "16-1313__normal__field-tested",
+    "16-1313__normal__minimal-wear",
+    "16-1313__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

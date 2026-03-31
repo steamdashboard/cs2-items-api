@@ -1,0 +1,61 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "an_titanium30v",
+    "id": 216,
+    "name": "Blue Titanium",
+    "rarity_ref": null,
+    "style_code": 4
+  },
+  "game_ref": {
+    "paint_kit_id": 216,
+    "weapon_id": 13
+  },
+  "id": "13-216",
+  "name": "Galil AR | Blue Titanium",
+  "search_slug": "galil-ar-blue-titanium",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports_ii",
+        "name": "The eSports 2013 Winter Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4005",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    }
+  ],
+  "variant_ids": [
+    "13-216__normal__factory-new",
+    "13-216__stattrak__factory-new"
+  ],
+  "weapon": {
+    "codename": "weapon_galilar",
+    "id": 13,
+    "name": "Galil AR",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.04,
+    "min_float": 0.0
+  }
+}

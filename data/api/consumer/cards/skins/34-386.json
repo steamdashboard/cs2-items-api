@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 386,
+    "id": 386,
+    "localized_names": {
+      "brazilian": "Dardo",
+      "bulgarian": "Стреличка",
+      "czech": "Dart",
+      "danish": "Dart",
+      "dutch": "Dart",
+      "english": "Dart",
+      "finnish": "Nuoli",
+      "french": "Dard",
+      "german": "Pfeil",
+      "greek": "Dart",
+      "hungarian": "Nyílvessző",
+      "indonesian": "Dart",
+      "italian": "Dart",
+      "japanese": "Dart",
+      "koreana": "다트",
+      "latam": "Dardo",
+      "norwegian": "Dart",
+      "polish": "Rzutka",
+      "portuguese": "Dart",
+      "romanian": "Dart",
+      "russian": "Дротик",
+      "schinese": "飞驰",
+      "schinese_pw": "Dart",
+      "spanish": "Dardo",
+      "swedish": "Dart",
+      "tchinese": "鏢彈",
+      "thai": "Dart",
+      "turkish": "Ok",
+      "ukrainian": "Жало",
+      "vietnamese": "Dart"
+    },
+    "name": "Dart",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.46,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-386",
+  "localized_names": {
+    "brazilian": "MP9 | Dardo",
+    "bulgarian": "MP9 | Стреличка",
+    "czech": "MP9 | Dart",
+    "danish": "MP9 | Dart",
+    "dutch": "MP9 | Dart",
+    "english": "MP9 | Dart",
+    "finnish": "MP9 | Nuoli",
+    "french": "MP9 | Dard",
+    "german": "MP9 | Pfeil",
+    "greek": "MP9 | Dart",
+    "hungarian": "MP9 | Nyílvessző",
+    "indonesian": "MP9 | Dart",
+    "italian": "MP9 | Dart",
+    "japanese": "MP9 | Dart",
+    "koreana": "MP9 | 다트",
+    "latam": "MP9 | Dardo",
+    "norwegian": "MP9 | Dart",
+    "polish": "MP9 | Rzutka",
+    "portuguese": "MP9 | Dart",
+    "romanian": "MP9 | Dart",
+    "russian": "MP9 | Дротик",
+    "schinese": "MP9 | 飞驰",
+    "schinese_pw": "MP9 | Dart",
+    "spanish": "MP9 | Dardo",
+    "swedish": "MP9 | Dart",
+    "tchinese": "MP9 | 鏢彈",
+    "thai": "MP9 | Dart",
+    "turkish": "MP9 | Ok",
+    "ukrainian": "МП9 | Жало",
+    "vietnamese": "MP9 | Dart"
+  },
+  "media": {
+    "asset_id": "skin__34-386",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-386/light.png",
+      "data/api/media/rendered/files/skins/34-386/medium.png",
+      "data/api/media/rendered/files/skins/34-386/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-386.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-386/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-386/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-386/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-386/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_chevron_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_chevron_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_chevron_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Dart",
+  "search_slug": "mp9-dart",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4029",
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_5",
+        "name": "The Vanguard Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-386__normal__battle-scarred",
+    "34-386__normal__factory-new",
+    "34-386__normal__field-tested",
+    "34-386__normal__minimal-wear",
+    "34-386__normal__well-worn",
+    "34-386__stattrak__battle-scarred",
+    "34-386__stattrak__factory-new",
+    "34-386__stattrak__field-tested",
+    "34-386__stattrak__minimal-wear",
+    "34-386__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.46,
+    "min_float": 0.0
+  }
+}

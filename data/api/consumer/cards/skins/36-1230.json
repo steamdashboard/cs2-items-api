@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1230,
+    "id": 1230,
+    "localized_names": {
+      "brazilian": "Re.feita",
+      "bulgarian": "На.ново",
+      "czech": "Re.built",
+      "danish": "Re.built",
+      "dutch": "Re.built",
+      "english": "Re.built",
+      "finnish": "Re.built",
+      "french": "Re.construction",
+      "german": "Neu.Erschaffung",
+      "greek": "Re.built",
+      "hungarian": "Újra.Gyártva",
+      "indonesian": "Re.built",
+      "italian": "Re.built",
+      "japanese": "Re.built",
+      "koreana": "리빌트",
+      "latam": "Re.construido",
+      "norwegian": "Re.built",
+      "polish": "Prze.budowa",
+      "portuguese": "Re.built",
+      "romanian": "Re.built",
+      "russian": "Ре.конструкция",
+      "schinese": "重构",
+      "schinese_pw": "Re.built",
+      "spanish": "Re.Construido",
+      "swedish": "Re.built",
+      "tchinese": "重造",
+      "thai": "Re.built",
+      "turkish": "Re.built",
+      "ukrainian": "Відбудова",
+      "vietnamese": "Re.built"
+    },
+    "name": "Re.built",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.9,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-1230",
+  "localized_names": {
+    "brazilian": "P250 | Re.feita",
+    "bulgarian": "P250 | На.ново",
+    "czech": "P250 | Re.built",
+    "danish": "P250 | Re.built",
+    "dutch": "P250 | Re.built",
+    "english": "P250 | Re.built",
+    "finnish": "P250 | Re.built",
+    "french": "P250 | Re.construction",
+    "german": "P250 | Neu.Erschaffung",
+    "greek": "P250 | Re.built",
+    "hungarian": "P250 | Újra.Gyártva",
+    "indonesian": "P250 | Re.built",
+    "italian": "P250 | Re.built",
+    "japanese": "P250 | Re.built",
+    "koreana": "P250 | 리빌트",
+    "latam": "P250 | Re.construido",
+    "norwegian": "P250 | Re.built",
+    "polish": "P250 | Prze.budowa",
+    "portuguese": "P250 | Re.built",
+    "romanian": "P250 | Re.built",
+    "russian": "P250 | Ре.конструкция",
+    "schinese": "P250 | 重构",
+    "schinese_pw": "P250 | Re.built",
+    "spanish": "P250 | Re.Construido",
+    "swedish": "P250 | Re.built",
+    "tchinese": "P250 | 重造",
+    "thai": "P250 | Re.built",
+    "turkish": "P250 | Re.built",
+    "ukrainian": "П250 | Відбудова",
+    "vietnamese": "P250 | Re.built"
+  },
+  "media": {
+    "asset_id": "skin__36-1230",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-1230/light.png",
+      "data/api/media/rendered/files/skins/36-1230/medium.png",
+      "data/api/media/rendered/files/skins/36-1230/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-1230.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-1230/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-1230/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-1230/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-1230/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_cu_p250_rebuilt_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_cu_p250_rebuilt_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_cu_p250_rebuilt_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Re.built",
+  "search_slug": "p250-re-built",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4880",
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_32",
+        "name": "The Revolution Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-1230__normal__battle-scarred",
+    "36-1230__normal__factory-new",
+    "36-1230__normal__field-tested",
+    "36-1230__normal__minimal-wear",
+    "36-1230__normal__well-worn",
+    "36-1230__stattrak__battle-scarred",
+    "36-1230__stattrak__factory-new",
+    "36-1230__stattrak__field-tested",
+    "36-1230__stattrak__minimal-wear",
+    "36-1230__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.9,
+    "min_float": 0.0
+  }
+}

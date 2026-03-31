@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-03-31T12:48:38.914261+00:00",
+  "id_policy": {
+    "skin": "<weapon_id>-<paint_kit_id>",
+    "skin_variant": "<skin_id>__<quality>__<exterior>"
+  },
+  "layers": {
+    "consumer": "Human-oriented cards, browse entrypoints, and ready-made lists.",
+    "graph": "Machine-oriented relations and lookup indexes.",
+    "media": "Resolved asset manifests, rendered previews, and asset file coverage.",
+    "reference": "Canonical normalized entities and stable IDs."
+  },
+  "layout": {
+    "consumer": {
+      "browse": "data/api/consumer/browse/<entrypoint>.json",
+      "cards": "data/api/consumer/cards/<group>/<id>.json",
+      "lists": "data/api/consumer/lists/<list>/<key>.json",
+      "meta": "data/api/consumer/meta/<file>.json"
+    },
+    "graph": {
+      "indexes": "data/api/graph/indexes/<index>/<key>.json",
+      "relations": "data/api/graph/relations/<relation>.json"
+    },
+    "media": {
+      "files": "data/api/media/files.json",
+      "manifests": "data/api/media/manifests/<entity_type>__<entity_id>.json",
+      "rendered_entity_manifests": "data/api/media/rendered/manifests/<entity_group>/<id>.json",
+      "rendered_files": "data/api/media/rendered/files/<entity_group>/<id>/<name>.png",
+      "rendered_skin_manifests": "data/api/media/rendered/manifests/skins/<skin_id>.json",
+      "rendered_skin_variant_manifests": "data/api/media/rendered/manifests/skin-variants/<variant_id>.json",
+      "rendered_stats": "data/api/media/rendered/stats.json",
+      "rendered_unresolved": "data/api/media/rendered/unresolved.json",
+      "stats": "data/api/media/stats.json",
+      "unresolved": "data/api/media/unresolved.json"
+    },
+    "reference": {
+      "agents": "data/api/reference/agents/<item_definition_id>.json",
+      "charms": "data/api/reference/charms/<keychain_definition_id>.json",
+      "collections": "data/api/reference/collections/<item_set_id>.json",
+      "containers": "data/api/reference/containers/<item_definition_id>.json",
+      "finishes": "data/api/reference/finishes/<paint_kit_id>.json",
+      "graffiti": "data/api/reference/graffiti/<sticker_kit_id>.json",
+      "music_kits": "data/api/reference/music-kits/<music_definition_id>.json",
+      "patches": "data/api/reference/patches/<sticker_kit_id>.json",
+      "players": "data/api/reference/players/<player_id>.json",
+      "skin_variants": "data/api/reference/skin-variants/<skin_id>__<quality>__<exterior>.json",
+      "skins": "data/api/reference/skins/<weapon_id>-<paint_kit_id>.json",
+      "special_drops": "data/api/reference/special-drops/<token>.json",
+      "sticker_capsules": "data/api/reference/sticker-capsules/<container_id>.json",
+      "stickers": "data/api/reference/stickers/<sticker_kit_id>.json",
+      "teams": "data/api/reference/teams/<team_id>.json",
+      "tools": "data/api/reference/tools/<item_definition_id>.json",
+      "tournaments": "data/api/reference/tournaments/<event_id>.json",
+      "weapons": "data/api/reference/weapons/<item_definition_id>.json"
+    }
+  },
+  "version": 5
+}

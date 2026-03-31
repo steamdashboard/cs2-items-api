@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 742,
+    "id": 742,
+    "localized_names": {
+      "brazilian": "Filigrana Vermelha",
+      "bulgarian": "Червен филигран",
+      "czech": "Red Filigree",
+      "danish": "Red Filigree",
+      "dutch": "Red Filigree",
+      "english": "Red Filigree",
+      "finnish": "Punainen filigraani",
+      "french": "Filigrane rouge",
+      "german": "Rotes Filigranwerk",
+      "greek": "Red Filigree",
+      "hungarian": "Vörös Sodronyzománc",
+      "indonesian": "Red Filigree",
+      "italian": "Red Filigree",
+      "japanese": "Red Filigree",
+      "koreana": "빨간색 세공",
+      "latam": "Filigrana roja",
+      "norwegian": "Red Filigree",
+      "polish": "Czerwony filigran",
+      "portuguese": "Red Filigree",
+      "romanian": "Red Filigree",
+      "russian": "Красная филигрань",
+      "schinese": "绯红镂刻",
+      "schinese_pw": "Red Filigree",
+      "spanish": "Filigrana roja",
+      "swedish": "Red Filigree",
+      "tchinese": "緋色鏤刻",
+      "thai": "Red Filigree",
+      "turkish": "Kırmızı Filigran",
+      "ukrainian": "Червона філігрань",
+      "vietnamese": "Red Filigree"
+    },
+    "name": "Red Filigree",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-742",
+  "localized_names": {
+    "brazilian": "MAC-10 | Filigrana Vermelha",
+    "bulgarian": "MAC-10 | Червен филигран",
+    "czech": "MAC-10 | Red Filigree",
+    "danish": "MAC-10 | Red Filigree",
+    "dutch": "MAC-10 | Red Filigree",
+    "english": "MAC-10 | Red Filigree",
+    "finnish": "MAC-10 | Punainen filigraani",
+    "french": "MAC-10 | Filigrane rouge",
+    "german": "MAC-10 | Rotes Filigranwerk",
+    "greek": "MAC-10 | Red Filigree",
+    "hungarian": "MAC-10 | Vörös Sodronyzománc",
+    "indonesian": "MAC-10 | Red Filigree",
+    "italian": "MAC-10 | Red Filigree",
+    "japanese": "MAC-10 | Red Filigree",
+    "koreana": "MAC-10 | 빨간색 세공",
+    "latam": "MAC-10 | Filigrana roja",
+    "norwegian": "MAC-10 | Red Filigree",
+    "polish": "MAC-10 | Czerwony filigran",
+    "portuguese": "MAC-10 | Red Filigree",
+    "romanian": "MAC-10 | Red Filigree",
+    "russian": "MAC-10 | Красная филигрань",
+    "schinese": "MAC-10 | 绯红镂刻",
+    "schinese_pw": "MAC-10 | Red Filigree",
+    "spanish": "MAC-10 | Filigrana roja",
+    "swedish": "MAC-10 | Red Filigree",
+    "tchinese": "MAC-10 | 緋色鏤刻",
+    "thai": "MAC-10 | Red Filigree",
+    "turkish": "MAC-10 | Kırmızı Filigran",
+    "ukrainian": "МАК-10 | Червона філігрань",
+    "vietnamese": "MAC-10 | Red Filigree"
+  },
+  "media": {
+    "asset_id": "skin__17-742",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-742/light.png",
+      "data/api/media/rendered/files/skins/17-742/medium.png",
+      "data/api/media/rendered/files/skins/17-742/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-742.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-742/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-742/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-742/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-742/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_am_ren_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_am_ren_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_am_ren_red_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Red Filigree",
+  "search_slug": "mac-10-red-filigree",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_canals",
+        "name": "The Canals Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4608",
+        "kind": "container",
+        "name": "The Canals Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-742__normal__battle-scarred",
+    "17-742__normal__factory-new",
+    "17-742__normal__field-tested",
+    "17-742__normal__minimal-wear",
+    "17-742__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

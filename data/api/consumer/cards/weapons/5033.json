@@ -1,0 +1,64 @@
+{
+  "card_type": "glove",
+  "description": "These bulky hard knuckled gloves can protect the wearers hands from road rash at 60 mph.",
+  "id": 5033,
+  "localized_names": {
+    "brazilian": "Luvas de Motociclismo",
+    "bulgarian": "Мотористки ръкавици",
+    "czech": "Motorkářské rukavice",
+    "danish": "Motorcykelhandsker",
+    "dutch": "Motorhandschoenen",
+    "english": "Moto Gloves",
+    "finnish": "Moottoripyöräilyhanskat",
+    "french": "Gants de moto",
+    "german": "Motorradhandschuhe",
+    "greek": "Γάντια μηχανής",
+    "hungarian": "Motoroskesztyűk",
+    "indonesian": "Sarung Tangan Motor",
+    "italian": "Guanti da centauro",
+    "japanese": "Moto Gloves",
+    "koreana": "자동차 경주 장갑",
+    "latam": "Guantes para moto",
+    "norwegian": "Motorsykkelhansker",
+    "polish": "Rękawice motocyklisty",
+    "portuguese": "Luvas de Motociclista",
+    "romanian": "Mănuși de motociclist",
+    "russian": "Мотоциклетные перчатки",
+    "schinese": "摩托手套",
+    "schinese_pw": "Moto Gloves",
+    "spanish": "Guantes de motorista",
+    "swedish": "Moto-handskar",
+    "tchinese": "機車手套",
+    "thai": "ถุงมือมอเตอร์ไซค์",
+    "turkish": "Motorcu Eldivenleri",
+    "ukrainian": "Рукавиці мотоцикліста",
+    "vietnamese": "Găng tay mô tô"
+  },
+  "media": {
+    "asset_id": "weapon__5033",
+    "images": [],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/5033/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/5033.json",
+    "models": [
+      "characters/models/shared/arms/glove_motorcycle/v_glove_motorcycle.vmdl_c",
+      "characters/models/shared/arms/glove_motorcycle/w_glove_motorcycle.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/5033/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/t_gloves_png.vtex_c"
+  },
+  "name": "Moto Gloves",
+  "regular_skin_ids": [],
+  "search_slug": "moto-gloves",
+  "side": null,
+  "special_pool_ids": [
+    "community_case_15_unusual",
+    "set_community_19_unusual",
+    "set_glove_3_unusual"
+  ],
+  "supports_vanilla": false,
+  "type_name": "Gloves",
+  "weapon_group": "glove"
+}

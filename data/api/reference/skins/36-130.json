@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "p250_impact",
+    "id": 130,
+    "name": "PaintKit_p250_impact_Tag",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 130,
+    "weapon_id": 36
+  },
+  "id": "36-130",
+  "name": "P250 | PaintKit_p250_impact_Tag",
+  "search_slug": "p250-paintkit-p250-impact-tag",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_34",
+        "name": "The Gallery Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "7003",
+        "kind": "weapon-case",
+        "name": "Gallery Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "36-130__normal__factory-new",
+    "36-130__normal__minimal-wear",
+    "36-130__normal__field-tested",
+    "36-130__normal__well-worn",
+    "36-130__normal__battle-scarred",
+    "36-130__stattrak__factory-new",
+    "36-130__stattrak__minimal-wear",
+    "36-130__stattrak__field-tested",
+    "36-130__stattrak__well-worn",
+    "36-130__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_p250",
+    "id": 36,
+    "name": "P250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

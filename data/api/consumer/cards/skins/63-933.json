@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 933,
+    "id": 933,
+    "localized_names": {
+      "brazilian": "Palmeira da Meia-Noite",
+      "bulgarian": "Среднощна палма",
+      "czech": "Midnight Palm",
+      "danish": "Midnight Palm",
+      "dutch": "Midnight Palm",
+      "english": "Midnight Palm",
+      "finnish": "Keskiyön palmu",
+      "french": "Palmier de minuit",
+      "german": "Mitternachtspalme",
+      "greek": "Midnight Palm",
+      "hungarian": "Éjféli Pálma",
+      "indonesian": "Midnight Palm ",
+      "italian": "Midnight Palm",
+      "japanese": "Midnight Palm",
+      "koreana": "미드나잇 팜",
+      "latam": "Palmera de medianoche",
+      "norwegian": "Midnight Palm",
+      "polish": "Palma północy",
+      "portuguese": "Midnight Palm",
+      "romanian": "Midnight Palm",
+      "russian": "Полуночная пальма",
+      "schinese": "夜半棕榈",
+      "schinese_pw": "Midnight Palm",
+      "spanish": "Palmera de medianoche",
+      "swedish": "Midnight Palm",
+      "tchinese": "午夜棕櫚",
+      "thai": "Midnight Palm",
+      "turkish": "Gece Yarısı Palmiyesi",
+      "ukrainian": "Опівнічна пальма",
+      "vietnamese": "Midnight Palm"
+    },
+    "name": "Midnight Palm",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-933",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Palmeira da Meia-Noite",
+    "bulgarian": "CZ75-Auto | Среднощна палма",
+    "czech": "CZ75-Auto | Midnight Palm",
+    "danish": "CZ75-Auto | Midnight Palm",
+    "dutch": "CZ75-Auto | Midnight Palm",
+    "english": "CZ75-Auto | Midnight Palm",
+    "finnish": "CZ75-Auto | Keskiyön palmu",
+    "french": "CZ75-Auto | Palmier de minuit",
+    "german": "CZ75-Auto | Mitternachtspalme",
+    "greek": "CZ75-Auto | Midnight Palm",
+    "hungarian": "CZ75-Auto | Éjféli Pálma",
+    "indonesian": "CZ75-Auto | Midnight Palm ",
+    "italian": "CZ75-Auto | Midnight Palm",
+    "japanese": "CZ75-Auto | Midnight Palm",
+    "koreana": "CZ75 기관권총 | 미드나잇 팜",
+    "latam": "CZ75-Auto | Palmera de medianoche",
+    "norwegian": "CZ75-Auto | Midnight Palm",
+    "polish": "CZ75-Auto | Palma północy",
+    "portuguese": "CZ75-Auto | Midnight Palm",
+    "romanian": "CZ75-Auto | Midnight Palm",
+    "russian": "CZ75-Auto | Полуночная пальма",
+    "schinese": "CZ75自动型 | 夜半棕榈",
+    "schinese_pw": "CZ75-Auto | Midnight Palm",
+    "spanish": "CZ75-Auto | Palmera de medianoche",
+    "swedish": "CZ75-Auto | Midnight Palm",
+    "tchinese": "CZ75-Auto | 午夜棕櫚",
+    "thai": "CZ75-Auto | Midnight Palm",
+    "turkish": "CZ75-Otomatik | Gece Yarısı Palmiyesi",
+    "ukrainian": "ЧЗ-75 авто | Опівнічна пальма",
+    "vietnamese": "CZ75-Auto | Midnight Palm"
+  },
+  "media": {
+    "asset_id": "skin__63-933",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-933/light.png",
+      "data/api/media/rendered/files/skins/63-933/medium.png",
+      "data/api/media/rendered/files/skins/63-933/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-933.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-933/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-933/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-933/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-933/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_sp_palm_night_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_sp_palm_night_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_sp_palm_night_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Midnight Palm",
+  "search_slug": "cz75-auto-midnight-palm",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "63-933__normal__battle-scarred",
+    "63-933__normal__factory-new",
+    "63-933__normal__field-tested",
+    "63-933__normal__minimal-wear",
+    "63-933__normal__well-worn",
+    "63-933__souvenir__battle-scarred",
+    "63-933__souvenir__factory-new",
+    "63-933__souvenir__field-tested",
+    "63-933__souvenir__minimal-wear",
+    "63-933__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

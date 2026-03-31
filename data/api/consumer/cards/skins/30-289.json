@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 289,
+    "id": 289,
+    "localized_names": {
+      "brazilian": "Tempestade de Areia",
+      "bulgarian": "Пясъчна буря",
+      "czech": "Sandstorm",
+      "danish": "Sandstorm",
+      "dutch": "Sandstorm",
+      "english": "Sandstorm",
+      "finnish": "Hiekkamyrsky",
+      "french": "Tempête de sable",
+      "german": "Sandsturm",
+      "greek": "Sandstorm",
+      "hungarian": "Homokvihar",
+      "indonesian": "Sandstorm",
+      "italian": "Sandstorm",
+      "japanese": "Sandstorm",
+      "koreana": "모래폭풍",
+      "latam": "Tormenta de arena",
+      "norwegian": "Sandstorm",
+      "polish": "Burza piaskowa",
+      "portuguese": "Sandstorm",
+      "romanian": "Sandstorm",
+      "russian": "Песчаная буря",
+      "schinese": "沙尘暴",
+      "schinese_pw": "Sandstorm",
+      "spanish": "Tormenta de arena",
+      "swedish": "Sandstorm",
+      "tchinese": "沙塵暴",
+      "thai": "Sandstorm",
+      "turkish": "Kum Fırtınası",
+      "ukrainian": "Піщана буря",
+      "vietnamese": "Sandstorm"
+    },
+    "name": "Sandstorm",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.1
+    }
+  },
+  "id": "30-289",
+  "localized_names": {
+    "brazilian": "Tec-9 | Tempestade de Areia",
+    "bulgarian": "Tec-9 | Пясъчна буря",
+    "czech": "Tec-9 | Sandstorm",
+    "danish": "Tec-9 | Sandstorm",
+    "dutch": "Tec-9 | Sandstorm",
+    "english": "Tec-9 | Sandstorm",
+    "finnish": "Tec-9 | Hiekkamyrsky",
+    "french": "Tec-9 | Tempête de sable",
+    "german": "Tec-9 | Sandsturm",
+    "greek": "Tec-9 | Sandstorm",
+    "hungarian": "Tec-9 | Homokvihar",
+    "indonesian": "Tec-9 | Sandstorm",
+    "italian": "Tec-9 | Sandstorm",
+    "japanese": "Tec-9 | Sandstorm",
+    "koreana": "Tec-9 | 모래폭풍",
+    "latam": "Tec-9 | Tormenta de arena",
+    "norwegian": "Tec-9 | Sandstorm",
+    "polish": "Tec-9 | Burza piaskowa",
+    "portuguese": "Tec-9 | Sandstorm",
+    "romanian": "Tec-9 | Sandstorm",
+    "russian": "Tec-9 | Песчаная буря",
+    "schinese": "Tec-9 | 沙尘暴",
+    "schinese_pw": "Tec-9 | Sandstorm",
+    "spanish": "Tec-9 | Tormenta de arena",
+    "swedish": "Tec-9 | Sandstorm",
+    "tchinese": "Tec-9 | 沙塵暴",
+    "thai": "Tec-9 | Sandstorm",
+    "turkish": "Tec-9 | Kum Fırtınası",
+    "ukrainian": "ТЕК-9 | Піщана буря",
+    "vietnamese": "Tec-9 | Sandstorm"
+  },
+  "media": {
+    "asset_id": "skin__30-289",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-289/light.png",
+      "data/api/media/rendered/files/skins/30-289/medium.png",
+      "data/api/media/rendered/files/skins/30-289/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-289.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-289/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-289/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-289/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-289/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_cu_tec9_sandstorm_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_cu_tec9_sandstorm_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_cu_tec9_sandstorm_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Sandstorm",
+  "search_slug": "tec-9-sandstorm",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4011",
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_2",
+        "name": "The Phoenix Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-289__normal__battle-scarred",
+    "30-289__normal__field-tested",
+    "30-289__normal__minimal-wear",
+    "30-289__normal__well-worn",
+    "30-289__stattrak__battle-scarred",
+    "30-289__stattrak__field-tested",
+    "30-289__stattrak__minimal-wear",
+    "30-289__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.1
+  }
+}

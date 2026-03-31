@@ -1,0 +1,44 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_snake",
+    "id": 30,
+    "name": "Snake Camo",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 30,
+    "weapon_id": 9
+  },
+  "id": "9-30",
+  "name": "AWP | Snake Camo",
+  "search_slug": "awp-snake-camo",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_dust",
+        "name": "The Dust Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "9-30__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_awp",
+    "id": 9,
+    "name": "AWP",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

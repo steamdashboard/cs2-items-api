@@ -1,0 +1,52 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_jungle",
+    "id": 151,
+    "name": "Jungle",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 151,
+    "weapon_id": 14
+  },
+  "id": "14-151",
+  "name": "M249 | Jungle",
+  "search_slug": "m249-jungle",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_stmarc",
+        "name": "The St. Marc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4612",
+        "kind": "container",
+        "name": "The St. Marc Collection",
+        "tier": null
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "14-151__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_m249",
+    "id": 14,
+    "name": "M249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

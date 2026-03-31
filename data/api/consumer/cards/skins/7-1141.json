@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1141,
+    "id": 1141,
+    "localized_names": {
+      "brazilian": "Desejo Noturno",
+      "bulgarian": "Нощно желание",
+      "czech": "Nightwish",
+      "danish": "Nightwish",
+      "dutch": "Nightwish",
+      "english": "Nightwish",
+      "finnish": "Öinen painajainen",
+      "french": "Songe nocturne",
+      "german": "Nachtwunsch",
+      "greek": "Nightwish",
+      "hungarian": "Éjsóvárság",
+      "indonesian": "Nightwish",
+      "italian": "Nightwish",
+      "japanese": "Nightwish",
+      "koreana": "나이트위시",
+      "latam": "Deseo nocturno",
+      "norwegian": "Nightwish",
+      "polish": "Nocne życzenie",
+      "portuguese": "Nightwish",
+      "romanian": "Nightwish",
+      "russian": "Пожелание на ночь",
+      "schinese": "夜愿",
+      "schinese_pw": "Nightwish",
+      "spanish": "Deseo nocturno",
+      "swedish": "Nightwish",
+      "tchinese": "黑夜迷願",
+      "thai": "Nightwish",
+      "turkish": "Gece Uykusu",
+      "ukrainian": "Побажання на ніч",
+      "vietnamese": "Nightwish"
+    },
+    "name": "Nightwish",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-1141",
+  "localized_names": {
+    "brazilian": "AK-47 | Desejo Noturno",
+    "bulgarian": "AK-47 | Нощно желание",
+    "czech": "AK-47 | Nightwish",
+    "danish": "AK-47 | Nightwish",
+    "dutch": "AK-47 | Nightwish",
+    "english": "AK-47 | Nightwish",
+    "finnish": "AK-47 | Öinen painajainen",
+    "french": "AK-47 | Songe nocturne",
+    "german": "AK-47 | Nachtwunsch",
+    "greek": "AK-47 | Nightwish",
+    "hungarian": "AK-47 | Éjsóvárság",
+    "indonesian": "AK-47 | Nightwish",
+    "italian": "AK-47 | Nightwish",
+    "japanese": "AK-47 | Nightwish",
+    "koreana": "AK-47 | 나이트위시",
+    "latam": "AK-47 | Deseo nocturno",
+    "norwegian": "AK-47 | Nightwish",
+    "polish": "AK-47 | Nocne życzenie",
+    "portuguese": "AK-47 | Nightwish",
+    "romanian": "AK-47 | Nightwish",
+    "russian": "AK-47 | Пожелание на ночь",
+    "schinese": "AK-47 | 夜愿",
+    "schinese_pw": "AK-47 | Nightwish",
+    "spanish": "AK-47 | Deseo nocturno",
+    "swedish": "AK-47 | Nightwish",
+    "tchinese": "AK-47 | 黑夜迷願",
+    "thai": "AK-47 | Nightwish",
+    "turkish": "AK-47 | Gece Uykusu",
+    "ukrainian": "АК-47 | Побажання на ніч",
+    "vietnamese": "AK-47 | Nightwish"
+  },
+  "media": {
+    "asset_id": "skin__7-1141",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-1141/light.png",
+      "data/api/media/rendered/files/skins/7-1141/medium.png",
+      "data/api/media/rendered/files/skins/7-1141/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-1141.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-1141/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-1141/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-1141/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-1141/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_nightwish_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_nightwish_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_nightwish_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Nightwish",
+  "search_slug": "ak-47-nightwish",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4818",
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_30",
+        "name": "The Dreams & Nightmares Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-1141__normal__battle-scarred",
+    "7-1141__normal__factory-new",
+    "7-1141__normal__field-tested",
+    "7-1141__normal__minimal-wear",
+    "7-1141__normal__well-worn",
+    "7-1141__stattrak__battle-scarred",
+    "7-1141__stattrak__factory-new",
+    "7-1141__stattrak__field-tested",
+    "7-1141__stattrak__minimal-wear",
+    "7-1141__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

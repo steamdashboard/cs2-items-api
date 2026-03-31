@@ -1,0 +1,139 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_palm_night",
+    "id": 933,
+    "name": "Midnight Palm",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 933,
+    "weapon_id": 14
+  },
+  "id": "14-933",
+  "name": "M249 | Midnight Palm",
+  "search_slug": "m249-midnight-palm",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "14-933__normal__factory-new",
+    "14-933__normal__minimal-wear",
+    "14-933__normal__field-tested",
+    "14-933__normal__well-worn",
+    "14-933__normal__battle-scarred",
+    "14-933__souvenir__factory-new",
+    "14-933__souvenir__minimal-wear",
+    "14-933__souvenir__field-tested",
+    "14-933__souvenir__well-worn",
+    "14-933__souvenir__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_m249",
+    "id": 14,
+    "name": "M249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

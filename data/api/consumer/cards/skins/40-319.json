@@ -1,0 +1,339 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 319,
+    "id": 319,
+    "localized_names": {
+      "brazilian": "Desvio",
+      "bulgarian": "Отклонение",
+      "czech": "Detour",
+      "danish": "Detour",
+      "dutch": "Detour",
+      "english": "Detour",
+      "finnish": "Kiertotie",
+      "french": "Déviation",
+      "german": "Umleitung",
+      "greek": "Detour",
+      "hungarian": "Kerülőút",
+      "indonesian": "Detour",
+      "italian": "Detour",
+      "japanese": "Detour",
+      "koreana": "우회로",
+      "latam": "Desvío",
+      "norwegian": "Detour",
+      "polish": "Objazd",
+      "portuguese": "Detour",
+      "romanian": "Detour",
+      "russian": "Объезд",
+      "schinese": "迂回路线",
+      "schinese_pw": "Detour",
+      "spanish": "Desvío",
+      "swedish": "Detour",
+      "tchinese": "繞道而行",
+      "thai": "Detour",
+      "turkish": "Sapma",
+      "ukrainian": "Об’їзд",
+      "vietnamese": "Detour"
+    },
+    "name": "Detour",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.43,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-319",
+  "localized_names": {
+    "brazilian": "SSG 08 | Desvio",
+    "bulgarian": "SSG 08 | Отклонение",
+    "czech": "SSG 08 | Detour",
+    "danish": "SSG 08 | Detour",
+    "dutch": "SSG 08 | Detour",
+    "english": "SSG 08 | Detour",
+    "finnish": "SSG 08 | Kiertotie",
+    "french": "SSG 08 | Déviation",
+    "german": "SSG 08 | Umleitung",
+    "greek": "SSG 08 | Detour",
+    "hungarian": "SSG 08 | Kerülőút",
+    "indonesian": "SSG 08 | Detour",
+    "italian": "SSG 08 | Detour",
+    "japanese": "SSG 08 | Detour",
+    "koreana": "SSG 08 | 우회로",
+    "latam": "SSG 08 | Desvío",
+    "norwegian": "SSG 08 | Detour",
+    "polish": "SSG 08 | Objazd",
+    "portuguese": "SSG 08 | Detour",
+    "romanian": "SSG 08 | Detour",
+    "russian": "SSG 08 | Объезд",
+    "schinese": "SSG 08 | 迂回路线",
+    "schinese_pw": "SSG 08 | Detour",
+    "spanish": "SSG 08 | Desvío",
+    "swedish": "SSG 08 | Detour",
+    "tchinese": "SSG 08 | 繞道而行",
+    "thai": "SSG 08 | Detour",
+    "turkish": "SSG 08 | Sapma",
+    "ukrainian": "ССГ 08 | Об’їзд",
+    "vietnamese": "SSG 08 | Detour"
+  },
+  "media": {
+    "asset_id": "skin__40-319",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-319/light.png",
+      "data/api/media/rendered/files/skins/40-319/medium.png",
+      "data/api/media/rendered/files/skins/40-319/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-319.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-319/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-319/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-319/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-319/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_hy_ssg08_marker_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_hy_ssg08_marker_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_hy_ssg08_marker_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Detour",
+  "search_slug": "ssg-08-detour",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_overpass",
+        "name": "The Overpass Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4601",
+        "kind": "container",
+        "name": "The Overpass Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4028",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4037",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4085",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4135",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4180",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4229",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4277",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4347",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4399",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4466",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4543",
+        "kind": "souvenir-package",
+        "name": "London 2018 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4593",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4663",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4812",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4838",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4863",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4896",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Overpass Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4929",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Overpass Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "40-319__normal__factory-new",
+    "40-319__normal__field-tested",
+    "40-319__normal__minimal-wear",
+    "40-319__normal__well-worn",
+    "40-319__souvenir__factory-new",
+    "40-319__souvenir__field-tested",
+    "40-319__souvenir__minimal-wear",
+    "40-319__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.43,
+    "min_float": 0.0
+  }
+}

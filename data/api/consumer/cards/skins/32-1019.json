@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1019,
+    "id": 1019,
+    "localized_names": {
+      "brazilian": "Camuflagem de Pantera",
+      "bulgarian": "Пантероподобен камуфлаж",
+      "czech": "Panther Camo",
+      "danish": "Panther Camo",
+      "dutch": "Panther Camo",
+      "english": "Panther Camo",
+      "finnish": "Maastokuosinen pantteri",
+      "french": "Camouflage panthère",
+      "german": "Panther-Tarnmuster",
+      "greek": "Panther Camo",
+      "hungarian": "Párduc Terepminta",
+      "indonesian": "Panther Camo",
+      "italian": "Panther Camo",
+      "japanese": "Panther Camo",
+      "koreana": "표범 위장",
+      "latam": "Camuflaje pantera",
+      "norwegian": "Panther Camo",
+      "polish": "Kamuflaż pantery",
+      "portuguese": "Panther Camo",
+      "romanian": "Panther Camo",
+      "russian": "Камуфляж пантеры",
+      "schinese": "豹纹迷彩",
+      "schinese_pw": "Panther Camo",
+      "spanish": "Camuflaje pantera",
+      "swedish": "Panther Camo",
+      "tchinese": "黑豹迷彩",
+      "thai": "Panther Camo",
+      "turkish": "Panter Kamuflajı",
+      "ukrainian": "Камуфляж пантери",
+      "vietnamese": "Panther Camo"
+    },
+    "name": "Panther Camo",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-1019",
+  "localized_names": {
+    "brazilian": "P2000 | Camuflagem de Pantera",
+    "bulgarian": "P2000 | Пантероподобен камуфлаж",
+    "czech": "P2000 | Panther Camo",
+    "danish": "P2000 | Panther Camo",
+    "dutch": "P2000 | Panther Camo",
+    "english": "P2000 | Panther Camo",
+    "finnish": "P2000 | Maastokuosinen pantteri",
+    "french": "P2000 | Camouflage panthère",
+    "german": "P2000 | Panther-Tarnmuster",
+    "greek": "P2000 | Panther Camo",
+    "hungarian": "P2000 | Párduc Terepminta",
+    "indonesian": "P2000 | Panther Camo",
+    "italian": "P2000 | Panther Camo",
+    "japanese": "P2000 | Panther Camo",
+    "koreana": "P2000 | 표범 위장",
+    "latam": "P2000 | Camuflaje pantera",
+    "norwegian": "P2000 | Panther Camo",
+    "polish": "P2000 | Kamuflaż pantery",
+    "portuguese": "P2000 | Panther Camo",
+    "romanian": "P2000 | Panther Camo",
+    "russian": "P2000 | Камуфляж пантеры",
+    "schinese": "P2000 | 豹纹迷彩",
+    "schinese_pw": "P2000 | Panther Camo",
+    "spanish": "P2000 | Camuflaje pantera",
+    "swedish": "P2000 | Panther Camo",
+    "tchinese": "P2000 | 黑豹迷彩",
+    "thai": "P2000 | Panther Camo",
+    "turkish": "P2000 | Panter Kamuflajı",
+    "ukrainian": "П2000 | Камуфляж пантери",
+    "vietnamese": "P2000 | Panther Camo"
+  },
+  "media": {
+    "asset_id": "skin__32-1019",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-1019/light.png",
+      "data/api/media/rendered/files/skins/32-1019/medium.png",
+      "data/api/media/rendered/files/skins/32-1019/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-1019.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-1019/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-1019/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-1019/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-1019/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_am_black_panther_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_am_black_panther_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_am_black_panther_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Panther Camo",
+  "search_slug": "p2000-panther-camo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4722",
+        "kind": "container",
+        "name": "The Ancient Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4971",
+        "kind": "container",
+        "name": "Shanghai 2024 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5124",
+        "kind": "container",
+        "name": "Austin 2025 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5223",
+        "kind": "container",
+        "name": "Budapest 2025 Ancient Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4813",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4839",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4864",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4897",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4930",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "32-1019__normal__battle-scarred",
+    "32-1019__normal__factory-new",
+    "32-1019__normal__field-tested",
+    "32-1019__normal__minimal-wear",
+    "32-1019__normal__well-worn",
+    "32-1019__souvenir__battle-scarred",
+    "32-1019__souvenir__factory-new",
+    "32-1019__souvenir__field-tested",
+    "32-1019__souvenir__minimal-wear",
+    "32-1019__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

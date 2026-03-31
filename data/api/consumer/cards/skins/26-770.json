@@ -1,0 +1,200 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 770,
+    "id": 770,
+    "localized_names": {
+      "brazilian": "Célula Fria",
+      "bulgarian": "Студена клетка",
+      "czech": "Cold Cell",
+      "danish": "Cold Cell",
+      "dutch": "Cold Cell",
+      "english": "Cold Cell",
+      "finnish": "Solut jäässä",
+      "french": "Cellule polaire",
+      "german": "Gefrorene Zelle",
+      "greek": "Cold Cell",
+      "hungarian": "Hideg Sejt",
+      "indonesian": "Cold Cell",
+      "italian": "Cold Cell",
+      "japanese": "Cold Cell",
+      "koreana": "콜드 셀",
+      "latam": "Célula fría",
+      "norwegian": "Cold Cell",
+      "polish": "Zimna komórka",
+      "portuguese": "Cold Cell",
+      "romanian": "Cold Cell",
+      "russian": "Морозные соты",
+      "schinese": "冷室",
+      "schinese_pw": "Cold Cell",
+      "spanish": "Célula fría",
+      "swedish": "Cold Cell",
+      "tchinese": "冰冷細胞",
+      "thai": "Cold Cell",
+      "turkish": "Soğuk Hücre",
+      "ukrainian": "Холодні клітини",
+      "vietnamese": "Cold Cell"
+    },
+    "name": "Cold Cell",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-770",
+  "localized_names": {
+    "brazilian": "PP-Bizon | Célula Fria",
+    "bulgarian": "PP-Bizon | Студена клетка",
+    "czech": "PP-Bizon | Cold Cell",
+    "danish": "PP-Bizon | Cold Cell",
+    "dutch": "PP-Bizon | Cold Cell",
+    "english": "PP-Bizon | Cold Cell",
+    "finnish": "PP-Bizon | Solut jäässä",
+    "french": "PP-Bizon | Cellule polaire",
+    "german": "PP-Bizon | Gefrorene Zelle",
+    "greek": "PP-Bizon | Cold Cell",
+    "hungarian": "PP-Bizon | Hideg Sejt",
+    "indonesian": "PP-Bizon | Cold Cell",
+    "italian": "PP-Bizon | Cold Cell",
+    "japanese": "PP-Bizon | Cold Cell",
+    "koreana": "PP 비존 | 콜드 셀",
+    "latam": "PP-Bizon | Célula fría",
+    "norwegian": "PP-Bizon | Cold Cell",
+    "polish": "PP-Bizon | Zimna komórka",
+    "portuguese": "PP-Bizon | Cold Cell",
+    "romanian": "PP-Bizon | Cold Cell",
+    "russian": "ПП-19 «Бизон» | Морозные соты",
+    "schinese": "PP-野牛 | 冷室",
+    "schinese_pw": "PP-Bizon | Cold Cell",
+    "spanish": "PP-Bizon | Célula fría",
+    "swedish": "PP-Bizon | Cold Cell",
+    "tchinese": "PP-Bizon | 冰冷細胞",
+    "thai": "PP-Bizon | Cold Cell",
+    "turkish": "PP-Bizon | Soğuk Hücre",
+    "ukrainian": "ПП «Бізон» | Холодні клітини",
+    "vietnamese": "PP-Bizon | Cold Cell"
+  },
+  "media": {
+    "asset_id": "skin__26-770",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-770/light.png",
+      "data/api/media/rendered/files/skins/26-770/medium.png",
+      "data/api/media/rendered/files/skins/26-770/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-770.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-770/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-770/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-770/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-770/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_sp_wax_rub_bizon_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_sp_wax_rub_bizon_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_sp_wax_rub_bizon_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | Cold Cell",
+  "search_slug": "pp-bizon-cold-cell",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_realism_camo",
+        "name": "The Sport & Field Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "26-770__normal__factory-new",
+    "26-770__normal__field-tested",
+    "26-770__normal__minimal-wear",
+    "26-770__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

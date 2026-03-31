@@ -1,0 +1,75 @@
+{
+  "description": "",
+  "description_token": "#CSGO_set_weapons_i_desc",
+  "display_name": "The Arms Deal Collection",
+  "display_name_token": "#CSGO_set_weapons_i",
+  "game_id": "set_weapons_i",
+  "id": "set_weapons_i",
+  "items": [
+    {
+      "entry": "[hy_skulls]weapon_mp7",
+      "target": "weapon_mp7",
+      "token": "hy_skulls"
+    },
+    {
+      "entry": "[hy_feathers_aug]weapon_aug",
+      "target": "weapon_aug",
+      "token": "hy_feathers_aug"
+    },
+    {
+      "entry": "[so_purple]weapon_sg556",
+      "target": "weapon_sg556",
+      "token": "so_purple"
+    },
+    {
+      "entry": "[am_dragon_glock]weapon_glock",
+      "target": "weapon_glock",
+      "token": "am_dragon_glock"
+    },
+    {
+      "entry": "[am_zebra_dark]weapon_usp_silencer",
+      "target": "weapon_usp_silencer",
+      "token": "am_zebra_dark"
+    },
+    {
+      "entry": "[am_zebra_dark]weapon_m4a1_silencer",
+      "target": "weapon_m4a1_silencer",
+      "token": "am_zebra_dark"
+    },
+    {
+      "entry": "[aq_oiled]weapon_ak47",
+      "target": "weapon_ak47",
+      "token": "aq_oiled"
+    },
+    {
+      "entry": "[aa_vertigo]weapon_deagle",
+      "target": "weapon_deagle",
+      "token": "aa_vertigo"
+    },
+    {
+      "entry": "[am_lightning_awp]weapon_awp",
+      "target": "weapon_awp",
+      "token": "am_lightning_awp"
+    }
+  ],
+  "resolved": {
+    "is_collection": "1",
+    "items": {
+      "[aa_vertigo]weapon_deagle": "1",
+      "[am_dragon_glock]weapon_glock": "1",
+      "[am_lightning_awp]weapon_awp": "1",
+      "[am_zebra_dark]weapon_m4a1_silencer": "1",
+      "[am_zebra_dark]weapon_usp_silencer": "1",
+      "[aq_oiled]weapon_ak47": "1",
+      "[hy_feathers_aug]weapon_aug": "1",
+      "[hy_skulls]weapon_mp7": "1",
+      "[so_purple]weapon_sg556": "1"
+    },
+    "name": "#CSGO_set_weapons_i",
+    "set_description": "#CSGO_set_weapons_i_desc",
+    "unusuals": {
+      "strange": "unusual_revolving_list",
+      "unique": "unusual_revolving_list"
+    }
+  }
+}

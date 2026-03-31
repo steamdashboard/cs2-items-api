@@ -1,0 +1,181 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "hy_nuclear_skulls5_tec9",
+    "id": 374,
+    "name": "Toxic",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 374,
+    "weapon_id": 30
+  },
+  "id": "30-374",
+  "name": "Tec-9 | Toxic",
+  "search_slug": "tec-9-toxic",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_cache",
+        "name": "The Cache Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4026",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4035",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4083",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4136",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4181",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4230",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4278",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4348",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4400",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4467",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4544",
+        "kind": "souvenir-package",
+        "name": "London 2018 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4594",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4603",
+        "kind": "container",
+        "name": "The Cache Collection",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "30-374__normal__factory-new",
+    "30-374__normal__minimal-wear",
+    "30-374__normal__field-tested",
+    "30-374__normal__well-worn",
+    "30-374__normal__battle-scarred",
+    "30-374__souvenir__factory-new",
+    "30-374__souvenir__minimal-wear",
+    "30-374__souvenir__field-tested",
+    "30-374__souvenir__well-worn",
+    "30-374__souvenir__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_tec9",
+    "id": 30,
+    "name": "Tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

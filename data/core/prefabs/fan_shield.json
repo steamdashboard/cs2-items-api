@@ -1,0 +1,36 @@
+{
+  "id": "fan_shield",
+  "name": "fan_shield",
+  "prefab_chain": [
+    "csgo_tool",
+    "fan_shield"
+  ],
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type": "fan_shield",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

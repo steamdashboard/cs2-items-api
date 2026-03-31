@@ -1,0 +1,60 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "an_silver",
+    "id": 32,
+    "name": "Silver",
+    "rarity_ref": null,
+    "style_code": 4
+  },
+  "game_ref": {
+    "paint_kit_id": 32,
+    "weapon_id": 32
+  },
+  "id": "32-32",
+  "name": "P2000 | Silver",
+  "search_slug": "p2000-silver",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_office",
+        "name": "The Office Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "32-32__normal__factory-new",
+    "32-32__normal__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_hkp2000",
+    "id": 32,
+    "name": "P2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

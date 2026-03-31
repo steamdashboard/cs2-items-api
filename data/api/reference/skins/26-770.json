@@ -1,0 +1,76 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_wax_rub_bizon",
+    "id": 770,
+    "name": "Cold Cell",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 770,
+    "weapon_id": 26
+  },
+  "id": "26-770",
+  "name": "PP-Bizon | Cold Cell",
+  "search_slug": "pp-bizon-cold-cell",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_realism_camo",
+        "name": "The Sport & Field Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "26-770__normal__factory-new",
+    "26-770__normal__minimal-wear",
+    "26-770__normal__field-tested",
+    "26-770__normal__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_bizon",
+    "id": 26,
+    "name": "PP-Bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

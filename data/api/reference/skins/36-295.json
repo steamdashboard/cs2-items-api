@@ -1,0 +1,76 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "cu_money",
+    "id": 295,
+    "name": "Franklin",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 295,
+    "weapon_id": 36
+  },
+  "id": "36-295",
+  "name": "P250 | Franklin",
+  "search_slug": "p250-franklin",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "36-295__normal__factory-new",
+    "36-295__normal__minimal-wear",
+    "36-295__normal__field-tested",
+    "36-295__normal__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_p250",
+    "id": 36,
+    "name": "P250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1385,
+    "id": 1385,
+    "localized_names": {
+      "brazilian": "Piquenique",
+      "bulgarian": "Пикник",
+      "czech": "Picnic",
+      "danish": "Picnic",
+      "dutch": "Picknick",
+      "english": "Picnic",
+      "finnish": "Piknikki",
+      "french": "Pique-nique",
+      "german": "Picknick",
+      "greek": "Picnic",
+      "hungarian": "Piknik",
+      "indonesian": "Picnic",
+      "italian": "Picnic",
+      "japanese": "Picnic",
+      "koreana": "피크닉",
+      "latam": "Pícnic",
+      "norwegian": "Picnic",
+      "polish": "Piknik",
+      "portuguese": "Picnic",
+      "romanian": "Picnic",
+      "russian": "Пикник",
+      "schinese": "野餐",
+      "schinese_pw": "Picnic",
+      "spanish": "Pícnic",
+      "swedish": "Picnic",
+      "tchinese": "野餐區",
+      "thai": "Picnic",
+      "turkish": "Piknik",
+      "ukrainian": "Пікнік",
+      "vietnamese": "Picnic"
+    },
+    "name": "Picnic",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "23-1385",
+  "localized_names": {
+    "brazilian": "MP5-SD | Piquenique",
+    "bulgarian": "MP5-SD | Пикник",
+    "czech": "MP5-SD | Picnic",
+    "danish": "MP5-SD | Picnic",
+    "dutch": "MP5-SD | Picknick",
+    "english": "MP5-SD | Picnic",
+    "finnish": "MP5-SD | Piknikki",
+    "french": "MP5SD | Pique-nique",
+    "german": "MP5-SD | Picknick",
+    "greek": "MP5-SD | Picnic",
+    "hungarian": "MP5-SD | Piknik",
+    "indonesian": "MP5-SD | Picnic",
+    "italian": "MP5-SD | Picnic",
+    "japanese": "MP5-SD | Picnic",
+    "koreana": "MP5-SD | 피크닉",
+    "latam": "MP5-SD | Pícnic",
+    "norwegian": "MP5-SD | Picnic",
+    "polish": "MP5-SD | Piknik",
+    "portuguese": "MP5-SD | Picnic",
+    "romanian": "MP5-SD | Picnic",
+    "russian": "MP5-SD | Пикник",
+    "schinese": "MP5-SD | 野餐",
+    "schinese_pw": "MP5-SD | Picnic",
+    "spanish": "MP5-SD | Pícnic",
+    "swedish": "MP5-SD | Picnic",
+    "tchinese": "MP5-SD | 野餐區",
+    "thai": "MP5-SD | Picnic",
+    "turkish": "MP5-SD | Piknik",
+    "ukrainian": "МП5-СД | Пікнік",
+    "vietnamese": "MP5-SD | Picnic"
+  },
+  "media": {
+    "asset_id": "skin__23-1385",
+    "images_png": [
+      "data/api/media/rendered/files/skins/23-1385/light.png",
+      "data/api/media/rendered/files/skins/23-1385/medium.png",
+      "data/api/media/rendered/files/skins/23-1385/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/23-1385.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/23-1385/heavy.png",
+      "light": "data/api/media/rendered/files/skins/23-1385/light.png",
+      "medium": "data/api/media/rendered/files/skins/23-1385/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/23-1385/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp5sd_soe_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp5sd_soe_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp5sd_soe_red_medium_png.vtex_c"
+    }
+  },
+  "name": "MP5-SD | Picnic",
+  "search_slug": "mp5-sd-picnic",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_exuberant",
+        "name": "The Harlequin Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "23-1385__normal__battle-scarred",
+    "23-1385__normal__factory-new",
+    "23-1385__normal__field-tested",
+    "23-1385__normal__minimal-wear",
+    "23-1385__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 23,
+    "localized_names": {
+      "brazilian": "MP5-SD",
+      "bulgarian": "MP5-SD",
+      "czech": "MP5-SD",
+      "danish": "MP5-SD",
+      "dutch": "MP5-SD",
+      "english": "MP5-SD",
+      "finnish": "MP5-SD",
+      "french": "MP5SD",
+      "german": "MP5-SD",
+      "greek": "MP5-SD",
+      "hungarian": "MP5-SD",
+      "indonesian": "MP5-SD",
+      "italian": "MP5-SD",
+      "japanese": "MP5-SD",
+      "koreana": "MP5-SD",
+      "latam": "MP5-SD",
+      "norwegian": "MP5-SD",
+      "polish": "MP5-SD",
+      "portuguese": "MP5-SD",
+      "romanian": "MP5-SD",
+      "russian": "MP5-SD",
+      "schinese": "MP5-SD",
+      "schinese_pw": "MP5-SD",
+      "spanish": "MP5-SD",
+      "swedish": "MP5-SD",
+      "tchinese": "MP5-SD",
+      "thai": "MP5-SD",
+      "turkish": "MP5-SD",
+      "ukrainian": "МП5-СД",
+      "vietnamese": "MP5-SD"
+    },
+    "name": "MP5-SD",
+    "search_slug": "mp5-sd",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

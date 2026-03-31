@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "hy_ak47lam_bw",
+    "id": 172,
+    "name": "Black Laminate",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 172,
+    "weapon_id": 7
+  },
+  "id": "7-172",
+  "name": "AK-47 | Black Laminate",
+  "search_slug": "ak-47-black-laminate",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_vertigo",
+        "name": "The Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4666",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Vertigo Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "7-172__normal__vanilla",
+    "7-172__souvenir__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_ak47",
+    "id": 7,
+    "name": "AK-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

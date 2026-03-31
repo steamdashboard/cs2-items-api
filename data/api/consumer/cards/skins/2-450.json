@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 450,
+    "id": 450,
+    "localized_names": {
+      "brazilian": "Lua em Libra",
+      "bulgarian": "Луната във Везни",
+      "czech": "Moon in Libra",
+      "danish": "Moon in Libra",
+      "dutch": "Moon in Libra",
+      "english": "Moon in Libra",
+      "finnish": "Libran kuu",
+      "french": "Lune en balance",
+      "german": "Mond in Waage",
+      "greek": "Moon in Libra",
+      "hungarian": "Hold a Mérlegben",
+      "indonesian": "Moon in Libra",
+      "italian": "Moon in Libra",
+      "japanese": "Moon in Libra",
+      "koreana": "달의 리브라",
+      "latam": "Luna en Libra",
+      "norwegian": "Moon in Libra",
+      "polish": "Księżyc w znaku Wagi",
+      "portuguese": "Moon in Libra",
+      "romanian": "Moon in Libra",
+      "russian": "Луна в знаке Весов",
+      "schinese": "天秤之月",
+      "schinese_pw": "Moon in Libra",
+      "spanish": "Luna en Libra",
+      "swedish": "Moon in Libra",
+      "tchinese": "天秤載月",
+      "thai": "Moon in Libra",
+      "turkish": "Terazi'deki Ay",
+      "ukrainian": "Місяць у терезах",
+      "vietnamese": "Moon in Libra"
+    },
+    "name": "Moon in Libra",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-450",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Lua em Libra",
+    "bulgarian": "Два Beretta | Луната във Везни",
+    "czech": "Dual Berettas | Moon in Libra",
+    "danish": "Dual Berettas | Moon in Libra",
+    "dutch": "Dual Berettas | Moon in Libra",
+    "english": "Dual Berettas | Moon in Libra",
+    "finnish": "Tupla-Berettat | Libran kuu",
+    "french": "Dual Berettas | Lune en balance",
+    "german": "Akimbo-Berettas | Mond in Waage",
+    "greek": "Dual Berettas | Moon in Libra",
+    "hungarian": "Dupla Beretta | Hold a Mérlegben",
+    "indonesian": "Dual Berettas | Moon in Libra",
+    "italian": "Doppia Beretta | Moon in Libra",
+    "japanese": "Dual Berettas | Moon in Libra",
+    "koreana": "듀얼 베레타 | 달의 리브라",
+    "latam": "Berettas dobles | Luna en Libra",
+    "norwegian": "Dual Berettas | Moon in Libra",
+    "polish": "Dwie beretty | Księżyc w znaku Wagi",
+    "portuguese": "Dual Berettas | Moon in Libra",
+    "romanian": "Dual Berettas | Moon in Libra",
+    "russian": "Dual Berettas | Луна в знаке Весов",
+    "schinese": "双持贝瑞塔 | 天秤之月",
+    "schinese_pw": "Dual Berettas | Moon in Libra",
+    "spanish": "Berettas dobles | Luna en Libra",
+    "swedish": "Dual Berettas | Moon in Libra",
+    "tchinese": "Dual Berettas | 天秤載月",
+    "thai": "Dual Berettas | Moon in Libra",
+    "turkish": "Çift Beretta | Terazi'deki Ay",
+    "ukrainian": "Подвійні «Беретти» | Місяць у терезах",
+    "vietnamese": "Dual Berettas | Moon in Libra"
+  },
+  "media": {
+    "asset_id": "skin__2-450",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-450/light.png",
+      "data/api/media/rendered/files/skins/2-450/medium.png",
+      "data/api/media/rendered/files/skins/2-450/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-450.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-450/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-450/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-450/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-450/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_hy_zodiac1_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_hy_zodiac1_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_hy_zodiac1_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Moon in Libra",
+  "search_slug": "dual-berettas-moon-in-libra",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_gods_and_monsters",
+        "name": "The Gods and Monsters Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4604",
+        "kind": "container",
+        "name": "The Gods and Monsters Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "2-450__normal__battle-scarred",
+    "2-450__normal__factory-new",
+    "2-450__normal__field-tested",
+    "2-450__normal__minimal-wear",
+    "2-450__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

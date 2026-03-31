@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1310,
+    "id": 1310,
+    "localized_names": {
+      "brazilian": "Rasgada",
+      "bulgarian": "Разкъсано",
+      "czech": "Shredded",
+      "danish": "Shredded",
+      "dutch": "Shredded",
+      "english": "Shredded",
+      "finnish": "Tiikeriä jos metsästät",
+      "french": "Tigrures",
+      "german": "Zerfetzung",
+      "greek": "Shredded",
+      "hungarian": "Tépett",
+      "indonesian": "Shredded",
+      "italian": "Shredded",
+      "japanese": "Shredded",
+      "koreana": "파쇄",
+      "latam": "Desgarrado",
+      "norwegian": "Shredded",
+      "polish": "Na strzępy",
+      "portuguese": "Shredded",
+      "romanian": "Shredded",
+      "russian": "Кромсание",
+      "schinese": "噬裂",
+      "schinese_pw": "Shredded",
+      "spanish": "Desgarrado",
+      "swedish": "Shredded",
+      "tchinese": "撕裂一切",
+      "thai": "Shredded",
+      "turkish": "Parçalı",
+      "ukrainian": "Посічення",
+      "vietnamese": "Shredded"
+    },
+    "name": "Shredded",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-1310",
+  "localized_names": {
+    "brazilian": "MP9 | Rasgada",
+    "bulgarian": "MP9 | Разкъсано",
+    "czech": "MP9 | Shredded",
+    "danish": "MP9 | Shredded",
+    "dutch": "MP9 | Shredded",
+    "english": "MP9 | Shredded",
+    "finnish": "MP9 | Tiikeriä jos metsästät",
+    "french": "MP9 | Tigrures",
+    "german": "MP9 | Zerfetzung",
+    "greek": "MP9 | Shredded",
+    "hungarian": "MP9 | Tépett",
+    "indonesian": "MP9 | Shredded",
+    "italian": "MP9 | Shredded",
+    "japanese": "MP9 | Shredded",
+    "koreana": "MP9 | 파쇄",
+    "latam": "MP9 | Desgarrado",
+    "norwegian": "MP9 | Shredded",
+    "polish": "MP9 | Na strzępy",
+    "portuguese": "MP9 | Shredded",
+    "romanian": "MP9 | Shredded",
+    "russian": "MP9 | Кромсание",
+    "schinese": "MP9 | 噬裂",
+    "schinese_pw": "MP9 | Shredded",
+    "spanish": "MP9 | Desgarrado",
+    "swedish": "MP9 | Shredded",
+    "tchinese": "MP9 | 撕裂一切",
+    "thai": "MP9 | Shredded",
+    "turkish": "MP9 | Parçalı",
+    "ukrainian": "МП9 | Посічення",
+    "vietnamese": "MP9 | Shredded"
+  },
+  "media": {
+    "asset_id": "skin__34-1310",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-1310/light.png",
+      "data/api/media/rendered/files/skins/34-1310/medium.png",
+      "data/api/media/rendered/files/skins/34-1310/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-1310.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-1310/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-1310/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-1310/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-1310/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_hye_pink_tiger_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_hye_pink_tiger_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_hye_pink_tiger_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Shredded",
+  "search_slug": "mp9-shredded",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-1310__normal__battle-scarred",
+    "34-1310__normal__factory-new",
+    "34-1310__normal__field-tested",
+    "34-1310__normal__minimal-wear",
+    "34-1310__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

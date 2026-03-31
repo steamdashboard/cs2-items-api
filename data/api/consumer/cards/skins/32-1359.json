@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1359,
+    "id": 1359,
+    "localized_names": {
+      "brazilian": "Fita Aderente",
+      "bulgarian": "Захватна лента",
+      "czech": "Grip Tape",
+      "danish": "Grip Tape",
+      "dutch": "Grip Tape",
+      "english": "Grip Tape",
+      "finnish": "Teippisankari",
+      "french": "Poignée adhésive",
+      "german": "Griffband",
+      "greek": "Grip Tape",
+      "hungarian": "Markolatszalag",
+      "indonesian": "Grip Tape",
+      "italian": "Grip Tape",
+      "japanese": "Grip Tape",
+      "koreana": "그립 테이프",
+      "latam": "Cinta de agarre",
+      "norwegian": "Grip Tape",
+      "polish": "Taśma antypoślizgowa",
+      "portuguese": "Grip Tape",
+      "romanian": "Grip Tape",
+      "russian": "Хваткая лента",
+      "schinese": "防滑胶带",
+      "schinese_pw": "Grip Tape",
+      "spanish": "Cinta de agarre",
+      "swedish": "Grip Tape",
+      "tchinese": "握把膠帶",
+      "thai": "Grip Tape",
+      "turkish": "Kavrama Bandı",
+      "ukrainian": "Обмотка",
+      "vietnamese": "Grip Tape"
+    },
+    "name": "Grip Tape",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-1359",
+  "localized_names": {
+    "brazilian": "P2000 | Fita Aderente",
+    "bulgarian": "P2000 | Захватна лента",
+    "czech": "P2000 | Grip Tape",
+    "danish": "P2000 | Grip Tape",
+    "dutch": "P2000 | Grip Tape",
+    "english": "P2000 | Grip Tape",
+    "finnish": "P2000 | Teippisankari",
+    "french": "P2000 | Poignée adhésive",
+    "german": "P2000 | Griffband",
+    "greek": "P2000 | Grip Tape",
+    "hungarian": "P2000 | Markolatszalag",
+    "indonesian": "P2000 | Grip Tape",
+    "italian": "P2000 | Grip Tape",
+    "japanese": "P2000 | Grip Tape",
+    "koreana": "P2000 | 그립 테이프",
+    "latam": "P2000 | Cinta de agarre",
+    "norwegian": "P2000 | Grip Tape",
+    "polish": "P2000 | Taśma antypoślizgowa",
+    "portuguese": "P2000 | Grip Tape",
+    "romanian": "P2000 | Grip Tape",
+    "russian": "P2000 | Хваткая лента",
+    "schinese": "P2000 | 防滑胶带",
+    "schinese_pw": "P2000 | Grip Tape",
+    "spanish": "P2000 | Cinta de agarre",
+    "swedish": "P2000 | Grip Tape",
+    "tchinese": "P2000 | 握把膠帶",
+    "thai": "P2000 | Grip Tape",
+    "turkish": "P2000 | Kavrama Bandı",
+    "ukrainian": "П2000 | Обмотка",
+    "vietnamese": "P2000 | Grip Tape"
+  },
+  "media": {
+    "asset_id": "skin__32-1359",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-1359/light.png",
+      "data/api/media/rendered/files/skins/32-1359/medium.png",
+      "data/api/media/rendered/files/skins/32-1359/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-1359.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-1359/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-1359/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-1359/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-1359/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_soe_p2000_grips_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_soe_p2000_grips_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_soe_p2000_grips_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Grip Tape",
+  "search_slug": "p2000-grip-tape",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_achroma",
+        "name": "The Achroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "32-1359__normal__battle-scarred",
+    "32-1359__normal__factory-new",
+    "32-1359__normal__field-tested",
+    "32-1359__normal__minimal-wear",
+    "32-1359__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

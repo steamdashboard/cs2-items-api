@@ -1,0 +1,70 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_catskulls_p90",
+    "id": 156,
+    "name": "Death by Kitty",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 156,
+    "weapon_id": 19
+  },
+  "id": "19-156",
+  "name": "P90 | Death by Kitty",
+  "search_slug": "p90-death-by-kitty",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "19-156__normal__minimal-wear",
+    "19-156__normal__field-tested",
+    "19-156__stattrak__minimal-wear",
+    "19-156__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_p90",
+    "id": 19,
+    "name": "P90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.32,
+    "min_float": 0.08
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 627,
+    "id": 627,
+    "localized_names": {
+      "brazilian": "Cirrus",
+      "bulgarian": "Перест облак",
+      "czech": "Cirrus",
+      "danish": "Cirrus",
+      "dutch": "Cirrus",
+      "english": "Cirrus",
+      "finnish": "Untuvapilvi",
+      "french": "Cirrus",
+      "german": "Zirruswolke",
+      "greek": "Cirrus",
+      "hungarian": "Cirrusz",
+      "indonesian": "Cirrus",
+      "italian": "Cirrus",
+      "japanese": "Cirrus",
+      "koreana": "새털구름",
+      "latam": "Cirro",
+      "norwegian": "Cirrus",
+      "polish": "Cirrus",
+      "portuguese": "Cirrus",
+      "romanian": "Cirrus",
+      "russian": "Перистое облако",
+      "schinese": "卷云",
+      "schinese_pw": "Cirrus",
+      "spanish": "Cirro",
+      "swedish": "Cirrus",
+      "tchinese": "絲縷捲雲",
+      "thai": "Cirrus",
+      "turkish": "Sirüs",
+      "ukrainian": "Периста хмара",
+      "vietnamese": "Cirrus"
+    },
+    "name": "Cirrus",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-627",
+  "localized_names": {
+    "brazilian": "MP7 | Cirrus",
+    "bulgarian": "MP7 | Перест облак",
+    "czech": "MP7 | Cirrus",
+    "danish": "MP7 | Cirrus",
+    "dutch": "MP7 | Cirrus",
+    "english": "MP7 | Cirrus",
+    "finnish": "MP7 | Untuvapilvi",
+    "french": "MP7 | Cirrus",
+    "german": "MP7 | Zirruswolke",
+    "greek": "MP7 | Cirrus",
+    "hungarian": "MP7 | Cirrusz",
+    "indonesian": "MP7 | Cirrus",
+    "italian": "MP7 | Cirrus",
+    "japanese": "MP7 | Cirrus",
+    "koreana": "MP7 | 새털구름",
+    "latam": "MP7 | Cirro",
+    "norwegian": "MP7 | Cirrus",
+    "polish": "MP7 | Cirrus",
+    "portuguese": "MP7 | Cirrus",
+    "romanian": "MP7 | Cirrus",
+    "russian": "MP7 | Перистое облако",
+    "schinese": "MP7 | 卷云",
+    "schinese_pw": "MP7 | Cirrus",
+    "spanish": "MP7 | Cirro",
+    "swedish": "MP7 | Cirrus",
+    "tchinese": "MP7 | 絲縷捲雲",
+    "thai": "MP7 | Cirrus",
+    "turkish": "MP7 | Sirüs",
+    "ukrainian": "МП7 | Периста хмара",
+    "vietnamese": "MP7 | Cirrus"
+  },
+  "media": {
+    "asset_id": "skin__33-627",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-627/light.png",
+      "data/api/media/rendered/files/skins/33-627/medium.png",
+      "data/api/media/rendered/files/skins/33-627/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-627.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-627/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-627/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-627/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-627/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_gs_final_pooldeadv2_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_gs_final_pooldeadv2_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_gs_final_pooldeadv2_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Cirrus",
+  "search_slug": "mp7-cirrus",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4288",
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_15",
+        "name": "The Glove Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-627__normal__battle-scarred",
+    "33-627__normal__factory-new",
+    "33-627__normal__field-tested",
+    "33-627__normal__minimal-wear",
+    "33-627__normal__well-worn",
+    "33-627__stattrak__battle-scarred",
+    "33-627__stattrak__factory-new",
+    "33-627__stattrak__field-tested",
+    "33-627__stattrak__minimal-wear",
+    "33-627__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

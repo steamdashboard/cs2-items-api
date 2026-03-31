@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "aq_deagle_corinthian",
+    "id": 509,
+    "name": "Corinthian",
+    "rarity_ref": null,
+    "style_code": 8
+  },
+  "game_ref": {
+    "paint_kit_id": 509,
+    "weapon_id": 1
+  },
+  "id": "1-509",
+  "name": "Desert Eagle | Corinthian",
+  "search_slug": "desert-eagle-corinthian",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "1-509__normal__factory-new",
+    "1-509__normal__minimal-wear",
+    "1-509__normal__field-tested",
+    "1-509__normal__well-worn",
+    "1-509__stattrak__factory-new",
+    "1-509__stattrak__minimal-wear",
+    "1-509__stattrak__field-tested",
+    "1-509__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_deagle",
+    "id": 1,
+    "name": "Desert Eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.44,
+    "min_float": 0.0
+  }
+}

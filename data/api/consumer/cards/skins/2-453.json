@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 453,
+    "id": 453,
+    "localized_names": {
+      "brazilian": "Esmeralda",
+      "bulgarian": "Изумруденозелено",
+      "czech": "Emerald",
+      "danish": "Emerald",
+      "dutch": "Emerald",
+      "english": "Emerald",
+      "finnish": "Smaragdi",
+      "french": "Émeraude",
+      "german": "Smaragd",
+      "greek": "Emerald",
+      "hungarian": "Smaragd",
+      "indonesian": "Emerald",
+      "italian": "Emerald",
+      "japanese": "Emerald",
+      "koreana": "에메랄드",
+      "latam": "Esmeralda",
+      "norwegian": "Emerald",
+      "polish": "Szmaragd",
+      "portuguese": "Emerald",
+      "romanian": "Emerald",
+      "russian": "Изумруд",
+      "schinese": "翡翠色调",
+      "schinese_pw": "Emerald",
+      "spanish": "Esmeralda",
+      "swedish": "Emerald",
+      "tchinese": "翠綠色",
+      "thai": "Emerald",
+      "turkish": "Zümrüt",
+      "ukrainian": "Смарагд",
+      "vietnamese": "Emerald"
+    },
+    "name": "Emerald",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-453",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Esmeralda",
+    "bulgarian": "Два Beretta | Изумруденозелено",
+    "czech": "Dual Berettas | Emerald",
+    "danish": "Dual Berettas | Emerald",
+    "dutch": "Dual Berettas | Emerald",
+    "english": "Dual Berettas | Emerald",
+    "finnish": "Tupla-Berettat | Smaragdi",
+    "french": "Dual Berettas | Émeraude",
+    "german": "Akimbo-Berettas | Smaragd",
+    "greek": "Dual Berettas | Emerald",
+    "hungarian": "Dupla Beretta | Smaragd",
+    "indonesian": "Dual Berettas | Emerald",
+    "italian": "Doppia Beretta | Emerald",
+    "japanese": "Dual Berettas | Emerald",
+    "koreana": "듀얼 베레타 | 에메랄드",
+    "latam": "Berettas dobles | Esmeralda",
+    "norwegian": "Dual Berettas | Emerald",
+    "polish": "Dwie beretty | Szmaragd",
+    "portuguese": "Dual Berettas | Emerald",
+    "romanian": "Dual Berettas | Emerald",
+    "russian": "Dual Berettas | Изумруд",
+    "schinese": "双持贝瑞塔 | 翡翠色调",
+    "schinese_pw": "Dual Berettas | Emerald",
+    "spanish": "Berettas dobles | Esmeralda",
+    "swedish": "Dual Berettas | Emerald",
+    "tchinese": "Dual Berettas | 翠綠色",
+    "thai": "Dual Berettas | Emerald",
+    "turkish": "Çift Beretta | Zümrüt",
+    "ukrainian": "Подвійні «Беретти» | Смарагд",
+    "vietnamese": "Dual Berettas | Emerald"
+  },
+  "media": {
+    "asset_id": "skin__2-453",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-453/light.png",
+      "data/api/media/rendered/files/skins/2-453/medium.png",
+      "data/api/media/rendered/files/skins/2-453/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-453.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-453/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-453/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-453/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-453/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_an_emerald_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_an_emerald_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_an_emerald_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Emerald",
+  "search_slug": "dual-berettas-emerald",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_canals",
+        "name": "The Canals Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4608",
+        "kind": "container",
+        "name": "The Canals Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "2-453__normal__factory-new",
+    "2-453__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

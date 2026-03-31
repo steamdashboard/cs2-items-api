@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 230,
+    "id": 230,
+    "localized_names": {
+      "brazilian": "Camuflagem de Aço",
+      "bulgarian": "Стоманен разрив",
+      "czech": "Steel Disruption",
+      "danish": "Steel Disruption",
+      "dutch": "Steel Disruption",
+      "english": "Steel Disruption",
+      "finnish": "Teräshäiriö",
+      "french": "Acier disruptif",
+      "german": "Stahlbruch",
+      "greek": "Steel Disruption",
+      "hungarian": "Acél Álca",
+      "indonesian": "Steel Disruption",
+      "italian": "Steel Disruption",
+      "japanese": "Steel Disruption",
+      "koreana": "백색 디지털 위장 무늬",
+      "latam": "DDPAT de acero",
+      "norwegian": "Steel Disruption",
+      "polish": "Stalowy zamęt",
+      "portuguese": "Steel Disruption",
+      "romanian": "Steel Disruption",
+      "russian": "Ржавая сталь",
+      "schinese": "钢铁禁锢",
+      "schinese_pw": "Steel Disruption",
+      "spanish": "DDPAT acero",
+      "swedish": "Steel Disruption",
+      "tchinese": "鋼鐵分裂",
+      "thai": "Steel Disruption",
+      "turkish": "Parçalı Çelik",
+      "ukrainian": "Іржава сталь",
+      "vietnamese": "Steel Disruption"
+    },
+    "name": "Steel Disruption",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-230",
+  "localized_names": {
+    "brazilian": "P250 | Camuflagem de Aço",
+    "bulgarian": "P250 | Стоманен разрив",
+    "czech": "P250 | Steel Disruption",
+    "danish": "P250 | Steel Disruption",
+    "dutch": "P250 | Steel Disruption",
+    "english": "P250 | Steel Disruption",
+    "finnish": "P250 | Teräshäiriö",
+    "french": "P250 | Acier disruptif",
+    "german": "P250 | Stahlbruch",
+    "greek": "P250 | Steel Disruption",
+    "hungarian": "P250 | Acél Álca",
+    "indonesian": "P250 | Steel Disruption",
+    "italian": "P250 | Steel Disruption",
+    "japanese": "P250 | Steel Disruption",
+    "koreana": "P250 | 백색 디지털 위장 무늬",
+    "latam": "P250 | DDPAT de acero",
+    "norwegian": "P250 | Steel Disruption",
+    "polish": "P250 | Stalowy zamęt",
+    "portuguese": "P250 | Steel Disruption",
+    "romanian": "P250 | Steel Disruption",
+    "russian": "P250 | Ржавая сталь",
+    "schinese": "P250 | 钢铁禁锢",
+    "schinese_pw": "P250 | Steel Disruption",
+    "spanish": "P250 | DDPAT acero",
+    "swedish": "P250 | Steel Disruption",
+    "tchinese": "P250 | 鋼鐵分裂",
+    "thai": "P250 | Steel Disruption",
+    "turkish": "P250 | Parçalı Çelik",
+    "ukrainian": "П250 | Іржава сталь",
+    "vietnamese": "P250 | Steel Disruption"
+  },
+  "media": {
+    "asset_id": "skin__36-230",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-230/light.png",
+      "data/api/media/rendered/files/skins/36-230/medium.png",
+      "data/api/media/rendered/files/skins/36-230/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-230.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-230/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-230/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-230/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-230/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_am_ddpatdense_silver_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_am_ddpatdense_silver_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_am_ddpatdense_silver_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Steel Disruption",
+  "search_slug": "p250-steel-disruption",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4005",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_ii",
+        "name": "The eSports 2013 Winter Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-230__normal__factory-new",
+    "36-230__normal__field-tested",
+    "36-230__normal__minimal-wear",
+    "36-230__stattrak__factory-new",
+    "36-230__stattrak__field-tested",
+    "36-230__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

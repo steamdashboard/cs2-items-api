@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "sp_splash_p250",
+    "id": 162,
+    "name": "Splash",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 162,
+    "weapon_id": 36
+  },
+  "id": "36-162",
+  "name": "P250 | Splash",
+  "search_slug": "p250-splash",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "36-162__normal__vanilla",
+    "36-162__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_p250",
+    "id": 36,
+    "name": "P250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.18,
+    "min_float": null
+  }
+}

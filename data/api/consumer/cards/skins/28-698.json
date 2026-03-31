@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 698,
+    "id": 698,
+    "localized_names": {
+      "brazilian": "Peixe-Leão",
+      "bulgarian": "Риба лъв",
+      "czech": "Lionfish",
+      "danish": "Lionfish",
+      "dutch": "Lionfish",
+      "english": "Lionfish",
+      "finnish": "Leijonakala",
+      "french": "Pterois",
+      "german": "Rotfeuerfisch",
+      "greek": "Lionfish",
+      "hungarian": "Tűzhal",
+      "indonesian": "Lionfish",
+      "italian": "Lionfish",
+      "japanese": "Lionfish",
+      "koreana": "쏠배감펭",
+      "latam": "Pez león",
+      "norwegian": "Lionfish",
+      "polish": "Skrzydlica",
+      "portuguese": "Lionfish",
+      "romanian": "Lionfish",
+      "russian": "Рыба-лев",
+      "schinese": "狮子鱼",
+      "schinese_pw": "Lionfish",
+      "spanish": "Pez león",
+      "swedish": "Lionfish",
+      "tchinese": "獅子魚",
+      "thai": "Lionfish",
+      "turkish": "Aslan Balığı",
+      "ukrainian": "Крилатка",
+      "vietnamese": "Lionfish"
+    },
+    "name": "Lionfish",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-698",
+  "localized_names": {
+    "brazilian": "Negev | Peixe-Leão",
+    "bulgarian": "Negev | Риба лъв",
+    "czech": "Negev | Lionfish",
+    "danish": "Negev | Lionfish",
+    "dutch": "Negev | Lionfish",
+    "english": "Negev | Lionfish",
+    "finnish": "Negev | Leijonakala",
+    "french": "Negev | Pterois",
+    "german": "Negev | Rotfeuerfisch",
+    "greek": "Negev | Lionfish",
+    "hungarian": "Negev | Tűzhal",
+    "indonesian": "Negev | Lionfish",
+    "italian": "Negev | Lionfish",
+    "japanese": "Negev | Lionfish",
+    "koreana": "네게브 | 쏠배감펭",
+    "latam": "Negev | Pez león",
+    "norwegian": "Negev | Lionfish",
+    "polish": "Negev | Skrzydlica",
+    "portuguese": "Negev | Lionfish",
+    "romanian": "Negev | Lionfish",
+    "russian": "Негев | Рыба-лев",
+    "schinese": "内格夫 | 狮子鱼",
+    "schinese_pw": "Negev | Lionfish",
+    "spanish": "Negev | Pez león",
+    "swedish": "Negev | Lionfish",
+    "tchinese": "Negev | 獅子魚",
+    "thai": "Negev | Lionfish",
+    "turkish": "Negev | Aslan Balığı",
+    "ukrainian": "Неґев | Крилатка",
+    "vietnamese": "Negev | Lionfish"
+  },
+  "media": {
+    "asset_id": "skin__28-698",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-698/light.png",
+      "data/api/media/rendered/files/skins/28-698/medium.png",
+      "data/api/media/rendered/files/skins/28-698/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-698.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-698/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-698/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-698/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-698/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_sp_negev_lionfish_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_sp_negev_lionfish_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_sp_negev_lionfish_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Lionfish",
+  "search_slug": "negev-lionfish",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4471",
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_19",
+        "name": "The Clutch Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-698__normal__battle-scarred",
+    "28-698__normal__factory-new",
+    "28-698__normal__field-tested",
+    "28-698__normal__minimal-wear",
+    "28-698__normal__well-worn",
+    "28-698__stattrak__battle-scarred",
+    "28-698__stattrak__factory-new",
+    "28-698__stattrak__field-tested",
+    "28-698__stattrak__minimal-wear",
+    "28-698__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

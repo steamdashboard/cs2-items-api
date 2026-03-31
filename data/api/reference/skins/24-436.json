@@ -1,0 +1,61 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_ump_racer",
+    "id": 436,
+    "name": "Grand Prix",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 436,
+    "weapon_id": 24
+  },
+  "id": "24-436",
+  "name": "UMP-45 | Grand Prix",
+  "search_slug": "ump-45-grand-prix",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_7",
+        "name": "The Chroma 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4089",
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "24-436__normal__field-tested",
+    "24-436__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_ump45",
+    "id": 24,
+    "name": "UMP-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.35,
+    "min_float": 0.25
+  }
+}

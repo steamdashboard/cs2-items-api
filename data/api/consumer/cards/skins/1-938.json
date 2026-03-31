@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 938,
+    "id": 938,
+    "localized_names": {
+      "brazilian": "Estrelada",
+      "bulgarian": "Звезднаркада",
+      "czech": "Starcade",
+      "danish": "Starcade",
+      "dutch": "Starcade",
+      "english": "Starcade",
+      "finnish": "Tähtivyö",
+      "french": "Starcade",
+      "german": "Sternenzelt",
+      "greek": "Starcade",
+      "hungarian": "Csillag-Árkád",
+      "indonesian": "Starcade",
+      "italian": "Starcade",
+      "japanese": "Starcade",
+      "koreana": "스타케이드",
+      "latam": "Starcade",
+      "norwegian": "Starcade",
+      "polish": "Gwiezdny podcień",
+      "portuguese": "Starcade",
+      "romanian": "Starcade",
+      "russian": "Звёздная аркада",
+      "schinese": "星尘拱廊",
+      "schinese_pw": "Starcade",
+      "spanish": "Starcade",
+      "swedish": "Starcade",
+      "tchinese": "星彩",
+      "thai": "Starcade",
+      "turkish": "Starcade",
+      "ukrainian": "Зоряна аркада",
+      "vietnamese": "Starcade"
+    },
+    "name": "Starcade",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-938",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Estrelada",
+    "bulgarian": "Desert Eagle | Звезднаркада",
+    "czech": "Desert Eagle | Starcade",
+    "danish": "Desert Eagle | Starcade",
+    "dutch": "Desert Eagle | Starcade",
+    "english": "Desert Eagle | Starcade",
+    "finnish": "Desert Eagle | Tähtivyö",
+    "french": "Desert Eagle | Starcade",
+    "german": "Desert Eagle | Sternenzelt",
+    "greek": "Desert Eagle | Starcade",
+    "hungarian": "Desert Eagle | Csillag-Árkád",
+    "indonesian": "Desert Eagle | Starcade",
+    "italian": "Desert Eagle | Starcade",
+    "japanese": "Desert Eagle | Starcade",
+    "koreana": "데저트 이글 | 스타케이드",
+    "latam": "Desert Eagle | Starcade",
+    "norwegian": "Desert Eagle | Starcade",
+    "polish": "Desert Eagle | Gwiezdny podcień",
+    "portuguese": "Desert Eagle | Starcade",
+    "romanian": "Desert Eagle | Starcade",
+    "russian": "Desert Eagle | Звёздная аркада",
+    "schinese": "沙漠之鹰 | 星尘拱廊",
+    "schinese_pw": "Desert Eagle | Starcade",
+    "spanish": "Desert Eagle | Starcade",
+    "swedish": "Desert Eagle | Starcade",
+    "tchinese": "Desert Eagle | 星彩",
+    "thai": "Desert Eagle | Starcade",
+    "turkish": "Desert Eagle | Starcade",
+    "ukrainian": "Пустельний орел | Зоряна аркада",
+    "vietnamese": "Desert Eagle | Starcade"
+  },
+  "media": {
+    "asset_id": "skin__1-938",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-938/light.png",
+      "data/api/media/rendered/files/skins/1-938/medium.png",
+      "data/api/media/rendered/files/skins/1-938/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-938.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-938/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-938/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-938/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-938/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_cu_glitter_deagle_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_cu_glitter_deagle_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_cu_glitter_deagle_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Starcade",
+  "search_slug": "desert-eagle-starcade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_graphic_design",
+        "name": "The Graphic Design Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-938__normal__battle-scarred",
+    "1-938__normal__factory-new",
+    "1-938__normal__field-tested",
+    "1-938__normal__minimal-wear",
+    "1-938__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "hy_phoenix_tags_lilac",
+    "id": 1010,
+    "name": "Phoenix Chalk",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 1010,
+    "weapon_id": 30
+  },
+  "id": "30-1010",
+  "name": "Tec-9 | Phoenix Chalk",
+  "search_slug": "tec-9-phoenix-chalk",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_op10_t",
+        "name": "The Havoc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4721",
+        "kind": "container",
+        "name": "The Havoc Collection",
+        "tier": null
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "30-1010__normal__factory-new",
+    "30-1010__normal__minimal-wear",
+    "30-1010__normal__field-tested",
+    "30-1010__normal__well-worn",
+    "30-1010__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_tec9",
+    "id": 30,
+    "name": "Tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1168,
+    "id": 1168,
+    "localized_names": {
+      "brazilian": "Híbrida",
+      "bulgarian": "Хибрид",
+      "czech": "Hybrid",
+      "danish": "Hybrid",
+      "dutch": "Hybrid",
+      "english": "Hybrid",
+      "finnish": "Hybridi",
+      "french": "Hybride",
+      "german": "Mischform",
+      "greek": "Hybrid",
+      "hungarian": "Hibrid",
+      "indonesian": "Hybrid",
+      "italian": "Hybrid",
+      "japanese": "Hybrid",
+      "koreana": "하이브리드",
+      "latam": "Híbrida",
+      "norwegian": "Hybrid",
+      "polish": "Hybryda",
+      "portuguese": "Hybrid",
+      "romanian": "Hybrid",
+      "russian": "Гибрид",
+      "schinese": "混合体",
+      "schinese_pw": "Hybrid",
+      "spanish": "Híbrida",
+      "swedish": "Hybrid",
+      "tchinese": "混合體",
+      "thai": "Hybrid",
+      "turkish": "Hibrit",
+      "ukrainian": "Гібрид",
+      "vietnamese": "Hybrid"
+    },
+    "name": "Hybrid",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-1168",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Híbrida",
+    "bulgarian": "Five-SeveN | Хибрид",
+    "czech": "Five-SeveN | Hybrid",
+    "danish": "Five-SeveN | Hybrid",
+    "dutch": "Five-SeveN | Hybrid",
+    "english": "Five-SeveN | Hybrid",
+    "finnish": "Five-SeveN | Hybridi",
+    "french": "Five-SeveN | Hybride",
+    "german": "Five-SeveN | Mischform",
+    "greek": "Five-SeveN | Hybrid",
+    "hungarian": "Five-SeveN | Hibrid",
+    "indonesian": "Five-SeveN | Hybrid",
+    "italian": "Five-SeveN | Hybrid",
+    "japanese": "Five-SeveN | Hybrid",
+    "koreana": "파이브 세븐 | 하이브리드",
+    "latam": "Five-SeveN | Híbrida",
+    "norwegian": "Five-SeveN | Hybrid",
+    "polish": "Five-SeveN | Hybryda",
+    "portuguese": "Five-SeveN | Hybrid",
+    "romanian": "Five-SeveN | Hybrid",
+    "russian": "Five-SeveN | Гибрид",
+    "schinese": "FN57 | 混合体",
+    "schinese_pw": "Five-SeveN | Hybrid",
+    "spanish": "Five-seveN | Híbrida",
+    "swedish": "Five-SeveN | Hybrid",
+    "tchinese": "Five-SeveN | 混合體",
+    "thai": "Five-SeveN | Hybrid",
+    "turkish": "Five-SeveN | Hibrit",
+    "ukrainian": "Five-seveN | Гібрид",
+    "vietnamese": "Five-SeveN | Hybrid"
+  },
+  "media": {
+    "asset_id": "skin__3-1168",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-1168/light.png",
+      "data/api/media/rendered/files/skins/3-1168/medium.png",
+      "data/api/media/rendered/files/skins/3-1168/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-1168.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-1168/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-1168/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-1168/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-1168/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_fiveseven_hybrid_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_fiveseven_hybrid_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_fiveseven_hybrid_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Hybrid",
+  "search_slug": "five-seven-hybrid",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4904",
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_33",
+        "name": "The Kilowatt Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-1168__normal__battle-scarred",
+    "3-1168__normal__factory-new",
+    "3-1168__normal__field-tested",
+    "3-1168__normal__minimal-wear",
+    "3-1168__normal__well-worn",
+    "3-1168__stattrak__battle-scarred",
+    "3-1168__stattrak__factory-new",
+    "3-1168__stattrak__field-tested",
+    "3-1168__stattrak__minimal-wear",
+    "3-1168__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 214,
+    "id": 214,
+    "localized_names": {
+      "brazilian": "Grafite",
+      "bulgarian": "Графит",
+      "czech": "Graphite",
+      "danish": "Graphite",
+      "dutch": "Graphite",
+      "english": "Graphite",
+      "finnish": "Grafiitti",
+      "french": "Graphite",
+      "german": "Graphit",
+      "greek": "Graphite",
+      "hungarian": "Grafit",
+      "indonesian": "Graphite",
+      "italian": "Graphite",
+      "japanese": "Graphite",
+      "koreana": "흑연",
+      "latam": "Grafito",
+      "norwegian": "Graphite",
+      "polish": "Grafit",
+      "portuguese": "Graphite",
+      "romanian": "Graphite",
+      "russian": "Графит",
+      "schinese": "石墨黑",
+      "schinese_pw": "Graphite",
+      "spanish": "Grafito",
+      "swedish": "Graphite",
+      "tchinese": "石墨",
+      "thai": "Graphite",
+      "turkish": "Grafit",
+      "ukrainian": "Графіт",
+      "vietnamese": "Graphite"
+    },
+    "name": "Graphite",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.12,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-214",
+  "localized_names": {
+    "brazilian": "Nova | Grafite",
+    "bulgarian": "Nova | Графит",
+    "czech": "Nova | Graphite",
+    "danish": "Nova | Graphite",
+    "dutch": "Nova | Graphite",
+    "english": "Nova | Graphite",
+    "finnish": "Nova | Grafiitti",
+    "french": "Nova | Graphite",
+    "german": "Nova | Graphit",
+    "greek": "Nova | Graphite",
+    "hungarian": "Nova | Grafit",
+    "indonesian": "Nova | Graphite",
+    "italian": "Nova | Graphite",
+    "japanese": "Nova | Graphite",
+    "koreana": "노바 | 흑연",
+    "latam": "Nova | Grafito",
+    "norwegian": "Nova | Graphite",
+    "polish": "Nova | Grafit",
+    "portuguese": "Nova | Graphite",
+    "romanian": "Nova | Graphite",
+    "russian": "Nova | Графит",
+    "schinese": "新星 | 石墨黑",
+    "schinese_pw": "Nova | Graphite",
+    "spanish": "Nova | Grafito",
+    "swedish": "Nova | Graphite",
+    "tchinese": "Nova | 石墨",
+    "thai": "Nova | Graphite",
+    "turkish": "Nova | Grafit",
+    "ukrainian": "Нова | Графіт",
+    "vietnamese": "Nova | Graphite"
+  },
+  "media": {
+    "asset_id": "skin__35-214",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-214/light.png",
+      "data/api/media/rendered/files/skins/35-214/medium.png",
+      "data/api/media/rendered/files/skins/35-214/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-214.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-214/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-214/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-214/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-214/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_am_crumple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_am_crumple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_am_crumple_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Graphite",
+  "search_slug": "nova-graphite",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-214__normal__factory-new",
+    "35-214__normal__minimal-wear",
+    "35-214__stattrak__factory-new",
+    "35-214__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

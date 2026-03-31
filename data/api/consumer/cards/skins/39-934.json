@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 934,
+    "id": 934,
+    "localized_names": {
+      "brazilian": "Esbranquiçada",
+      "bulgarian": "Избелено",
+      "czech": "Bleached",
+      "danish": "Bleached",
+      "dutch": "Bleached",
+      "english": "Bleached",
+      "finnish": "Valkaistu",
+      "french": "Décoloré",
+      "german": "Verblichen",
+      "greek": "Bleached",
+      "hungarian": "Napszítta",
+      "indonesian": "Bleached",
+      "italian": "Bleached",
+      "japanese": "Bleached",
+      "koreana": "백골",
+      "latam": "Blanqueado",
+      "norwegian": "Bleached",
+      "polish": "Wybielony",
+      "portuguese": "Bleached",
+      "romanian": "Bleached",
+      "russian": "Белизна",
+      "schinese": "白骨",
+      "schinese_pw": "Bleached",
+      "spanish": "Blanqueado",
+      "swedish": "Bleached",
+      "tchinese": "白骨",
+      "thai": "Bleached",
+      "turkish": "Kemik Beyazı",
+      "ukrainian": "Відбілений",
+      "vietnamese": "Bleached"
+    },
+    "name": "Bleached",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "39-934",
+  "localized_names": {
+    "brazilian": "SG 553 | Esbranquiçada",
+    "bulgarian": "SG 553 | Избелено",
+    "czech": "SG 553 | Bleached",
+    "danish": "SG 553 | Bleached",
+    "dutch": "SG 553 | Bleached",
+    "english": "SG 553 | Bleached",
+    "finnish": "SG 553 | Valkaistu",
+    "french": "SG 553 | Décoloré",
+    "german": "SG 553 | Verblichen",
+    "greek": "SG 553 | Bleached",
+    "hungarian": "SG 553 | Napszítta",
+    "indonesian": "SG 553 | Bleached",
+    "italian": "SG 553 | Bleached",
+    "japanese": "SG 553 | Bleached",
+    "koreana": "SG 553 | 백골",
+    "latam": "SG 553 | Blanqueado",
+    "norwegian": "SG 553 | Bleached",
+    "polish": "SG 553 | Wybielony",
+    "portuguese": "SG 553 | Bleached",
+    "romanian": "SG 553 | Bleached",
+    "russian": "SG 553 | Белизна",
+    "schinese": "SG 553 | 白骨",
+    "schinese_pw": "SG 553 | Bleached",
+    "spanish": "SG 553 | Blanqueado",
+    "swedish": "SG 553 | Bleached",
+    "tchinese": "SG 553 | 白骨",
+    "thai": "SG 553 | Bleached",
+    "turkish": "SG 553 | Kemik Beyazı",
+    "ukrainian": "СГ 553 | Відбілений",
+    "vietnamese": "SG 553 | Bleached"
+  },
+  "media": {
+    "asset_id": "skin__39-934",
+    "images_png": [
+      "data/api/media/rendered/files/skins/39-934/light.png",
+      "data/api/media/rendered/files/skins/39-934/medium.png",
+      "data/api/media/rendered/files/skins/39-934/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/39-934.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/39-934/heavy.png",
+      "light": "data/api/media/rendered/files/skins/39-934/light.png",
+      "medium": "data/api/media/rendered/files/skins/39-934/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/39-934/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sg556_sp_desert_skulls_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sg556_sp_desert_skulls_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sg556_sp_desert_skulls_medium_png.vtex_c"
+    }
+  },
+  "name": "SG 553 | Bleached",
+  "search_slug": "sg-553-bleached",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "39-934__normal__battle-scarred",
+    "39-934__normal__factory-new",
+    "39-934__normal__field-tested",
+    "39-934__normal__minimal-wear",
+    "39-934__normal__well-worn",
+    "39-934__souvenir__battle-scarred",
+    "39-934__souvenir__factory-new",
+    "39-934__souvenir__field-tested",
+    "39-934__souvenir__minimal-wear",
+    "39-934__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 39,
+    "localized_names": {
+      "brazilian": "SG 553",
+      "bulgarian": "SG 553",
+      "czech": "SG 553",
+      "danish": "SG 553",
+      "dutch": "SG 553",
+      "english": "SG 553",
+      "finnish": "SG 553",
+      "french": "SG 553",
+      "german": "SG 553",
+      "greek": "SG 553",
+      "hungarian": "SG 553",
+      "indonesian": "SG 553",
+      "italian": "SG 553",
+      "japanese": "SG 553",
+      "koreana": "SG 553",
+      "latam": "SG 553",
+      "norwegian": "SG 553",
+      "polish": "SG 553",
+      "portuguese": "SG 553",
+      "romanian": "SG 553",
+      "russian": "SG 553",
+      "schinese": "SG 553",
+      "schinese_pw": "SG 553",
+      "spanish": "SG 553",
+      "swedish": "SG 553",
+      "tchinese": "SG 553",
+      "thai": "SG 553",
+      "turkish": "SG 553",
+      "ukrainian": "СГ 553",
+      "vietnamese": "SG 553"
+    },
+    "name": "SG 553",
+    "search_slug": "sg-553",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

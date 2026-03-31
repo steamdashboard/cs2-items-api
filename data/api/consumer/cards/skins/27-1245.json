@@ -1,0 +1,250 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1245,
+    "id": 1245,
+    "localized_names": {
+      "brazilian": "Banho de Cobre",
+      "bulgarian": "Медно покритие",
+      "czech": "Copper Coated",
+      "danish": "Copper Coated",
+      "dutch": "Copper Coated",
+      "english": "Copper Coated",
+      "finnish": "Kupariroiske",
+      "french": "Revêtement en cuivre",
+      "german": "Kupferüberzug",
+      "greek": "Copper Coated",
+      "hungarian": "Rézborítás",
+      "indonesian": "Copper Coated",
+      "italian": "Copper Coated",
+      "japanese": "Copper Coated",
+      "koreana": "구리 도색",
+      "latam": "Baño de cobre",
+      "norwegian": "Copper Coated",
+      "polish": "Miedziane pokrycie",
+      "portuguese": "Copper Coated",
+      "romanian": "Copper Coated",
+      "russian": "Медное покрытие",
+      "schinese": "鎏铜",
+      "schinese_pw": "Copper Coated",
+      "spanish": "Revestimiento de cobre",
+      "swedish": "Copper Coated",
+      "tchinese": "鍍銅",
+      "thai": "Copper Coated",
+      "turkish": "Bakır Kaplama",
+      "ukrainian": "Мідне покриття",
+      "vietnamese": "Copper Coated"
+    },
+    "name": "Copper Coated",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-1245",
+  "localized_names": {
+    "brazilian": "MAG-7 | Banho de Cobre",
+    "bulgarian": "MAG-7 | Медно покритие",
+    "czech": "MAG-7 | Copper Coated",
+    "danish": "MAG-7 | Copper Coated",
+    "dutch": "MAG-7 | Copper Coated",
+    "english": "MAG-7 | Copper Coated",
+    "finnish": "MAG-7 | Kupariroiske",
+    "french": "MAG-7 | Revêtement en cuivre",
+    "german": "MAG-7 | Kupferüberzug",
+    "greek": "MAG-7 | Copper Coated",
+    "hungarian": "MAG-7 | Rézborítás",
+    "indonesian": "MAG-7 | Copper Coated",
+    "italian": "MAG-7 | Copper Coated",
+    "japanese": "MAG-7 | Copper Coated",
+    "koreana": "MAG-7 | 구리 도색",
+    "latam": "MAG-7 | Baño de cobre",
+    "norwegian": "MAG-7 | Copper Coated",
+    "polish": "MAG-7 | Miedziane pokrycie",
+    "portuguese": "MAG-7 | Copper Coated",
+    "romanian": "MAG-7 | Copper Coated",
+    "russian": "MAG-7 | Медное покрытие",
+    "schinese": "MAG-7 | 鎏铜",
+    "schinese_pw": "MAG-7 | Copper Coated",
+    "spanish": "MAG-7 | Revestimiento de cobre",
+    "swedish": "MAG-7 | Copper Coated",
+    "tchinese": "MAG-7 | 鍍銅",
+    "thai": "MAG-7 | Copper Coated",
+    "turkish": "MAG-7 | Bakır Kaplama",
+    "ukrainian": "МАГ-7 | Мідне покриття",
+    "vietnamese": "MAG-7 | Copper Coated"
+  },
+  "media": {
+    "asset_id": "skin__27-1245",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-1245/light.png",
+      "data/api/media/rendered/files/skins/27-1245/medium.png",
+      "data/api/media/rendered/files/skins/27-1245/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-1245.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-1245/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-1245/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-1245/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-1245/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_gs_mag7_goold_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_gs_mag7_goold_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_gs_mag7_goold_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Copper Coated",
+  "search_slug": "mag-7-copper-coated",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_anubis",
+        "name": "The Anubis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4882",
+        "kind": "container",
+        "name": "Anubis Collection Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4969",
+        "kind": "container",
+        "name": "Shanghai 2024 Anubis Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5122",
+        "kind": "container",
+        "name": "Austin 2025 Anubis Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4895",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Anubis Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4928",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "27-1245__normal__battle-scarred",
+    "27-1245__normal__factory-new",
+    "27-1245__normal__field-tested",
+    "27-1245__normal__minimal-wear",
+    "27-1245__normal__well-worn",
+    "27-1245__souvenir__battle-scarred",
+    "27-1245__souvenir__factory-new",
+    "27-1245__souvenir__field-tested",
+    "27-1245__souvenir__minimal-wear",
+    "27-1245__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

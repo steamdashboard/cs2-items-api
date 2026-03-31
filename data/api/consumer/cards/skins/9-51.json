@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 51,
+    "id": 51,
+    "localized_names": {
+      "brazilian": "Descarga Elétrica",
+      "bulgarian": "Удар от мълния",
+      "czech": "Lightning Strike",
+      "danish": "Lightning Strike",
+      "dutch": "Lightning Strike",
+      "english": "Lightning Strike",
+      "finnish": "Salama",
+      "french": "Éclair foudroyant",
+      "german": "Blitzschlag",
+      "greek": "Lightning Strike",
+      "hungarian": "Villámcsapás",
+      "indonesian": "Lightning Strike",
+      "italian": "Lightning Strike",
+      "japanese": "Lightning Strike",
+      "koreana": "청천벽력",
+      "latam": "Relámpago",
+      "norwegian": "Lightning Strike",
+      "polish": "Uderzenie pioruna",
+      "portuguese": "Lightning Strike",
+      "romanian": "Lightning Strike",
+      "russian": "Удар молнии",
+      "schinese": "雷击",
+      "schinese_pw": "Lightning Strike",
+      "spanish": "Relámpago",
+      "swedish": "Lightning Strike",
+      "tchinese": "閃電雷擊",
+      "thai": "Lightning Strike",
+      "turkish": "Yıldırım Çarpması",
+      "ukrainian": "Удар блискавки",
+      "vietnamese": "Lightning Strike"
+    },
+    "name": "Lightning Strike",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-51",
+  "localized_names": {
+    "brazilian": "AWP | Descarga Elétrica",
+    "bulgarian": "AWP | Удар от мълния",
+    "czech": "AWP | Lightning Strike",
+    "danish": "AWP | Lightning Strike",
+    "dutch": "AWP | Lightning Strike",
+    "english": "AWP | Lightning Strike",
+    "finnish": "AWP | Salama",
+    "french": "AWP | Éclair foudroyant",
+    "german": "AWP | Blitzschlag",
+    "greek": "AWP | Lightning Strike",
+    "hungarian": "AWP | Villámcsapás",
+    "indonesian": "AWP | Lightning Strike",
+    "italian": "AWP | Lightning Strike",
+    "japanese": "AWP | Lightning Strike",
+    "koreana": "AWP | 청천벽력",
+    "latam": "AWP | Relámpago",
+    "norwegian": "AWP | Lightning Strike",
+    "polish": "AWP | Uderzenie pioruna",
+    "portuguese": "AWP | Lightning Strike",
+    "romanian": "AWP | Lightning Strike",
+    "russian": "AWP | Удар молнии",
+    "schinese": "AWP | 雷击",
+    "schinese_pw": "AWP | Lightning Strike",
+    "spanish": "AWP | Relámpago",
+    "swedish": "AWP | Lightning Strike",
+    "tchinese": "AWP | 閃電雷擊",
+    "thai": "AWP | Lightning Strike",
+    "turkish": "AWP | Yıldırım Çarpması",
+    "ukrainian": "АВП | Удар блискавки",
+    "vietnamese": "AWP | Lightning Strike"
+  },
+  "media": {
+    "asset_id": "skin__9-51",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-51/light.png",
+      "data/api/media/rendered/files/skins/9-51/medium.png",
+      "data/api/media/rendered/files/skins/9-51/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-51.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-51/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-51/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-51/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-51/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_am_lightning_awp_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_am_lightning_awp_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_am_lightning_awp_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Lightning Strike",
+  "search_slug": "awp-lightning-strike",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-51__normal__factory-new",
+    "9-51__normal__minimal-wear",
+    "9-51__stattrak__factory-new",
+    "9-51__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

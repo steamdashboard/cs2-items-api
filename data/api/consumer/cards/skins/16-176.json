@@ -1,0 +1,177 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 176,
+    "id": 176,
+    "localized_names": {
+      "brazilian": "Zebra",
+      "bulgarian": "Избледняла зебра",
+      "czech": "Faded Zebra",
+      "danish": "Faded Zebra",
+      "dutch": "Faded Zebra",
+      "english": "Faded Zebra",
+      "finnish": "Himmentynyt seepra",
+      "french": "Zèbre pâle",
+      "german": "Verblasstes Zebra",
+      "greek": "Faded Zebra",
+      "hungarian": "Fakó Zebra",
+      "indonesian": "Faded Zebra",
+      "italian": "Faded Zebra",
+      "japanese": "Faded Zebra",
+      "koreana": "빛바랜 얼룩무늬",
+      "latam": "Cebra desteñida",
+      "norwegian": "Faded Zebra",
+      "polish": "Wyblakła zebra",
+      "portuguese": "Faded Zebra",
+      "romanian": "Faded Zebra",
+      "russian": "Тусклые полосы",
+      "schinese": "渐变斑纹",
+      "schinese_pw": "Faded Zebra",
+      "spanish": "Cebra desteñida",
+      "swedish": "Faded Zebra",
+      "tchinese": "漸層斑紋",
+      "thai": "Faded Zebra",
+      "turkish": "Solgun Zebra",
+      "ukrainian": "Тьмяні смуги",
+      "vietnamese": "Faded Zebra"
+    },
+    "name": "Faded Zebra",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "16-176",
+  "localized_names": {
+    "brazilian": "M4A4 | Zebra",
+    "bulgarian": "M4A4 | Избледняла зебра",
+    "czech": "M4A4 | Faded Zebra",
+    "danish": "M4A4 | Faded Zebra",
+    "dutch": "M4A4 | Faded Zebra",
+    "english": "M4A4 | Faded Zebra",
+    "finnish": "M4A4 | Himmentynyt seepra",
+    "french": "M4A4 | Zèbre pâle",
+    "german": "M4A4 | Verblasstes Zebra",
+    "greek": "M4A4 | Faded Zebra",
+    "hungarian": "M4A4 | Fakó Zebra",
+    "indonesian": "M4A4 | Faded Zebra",
+    "italian": "M4A4 | Faded Zebra",
+    "japanese": "M4A4 | Faded Zebra",
+    "koreana": "M4A4 | 빛바랜 얼룩무늬",
+    "latam": "M4A4 | Cebra desteñida",
+    "norwegian": "M4A4 | Faded Zebra",
+    "polish": "M4A4 | Wyblakła zebra",
+    "portuguese": "M4A4 | Faded Zebra",
+    "romanian": "M4A4 | Faded Zebra",
+    "russian": "M4A4 | Тусклые полосы",
+    "schinese": "M4A4 | 渐变斑纹",
+    "schinese_pw": "M4A4 | Faded Zebra",
+    "spanish": "M4A4 | Cebra desteñida",
+    "swedish": "M4A4 | Faded Zebra",
+    "tchinese": "M4A4 | 漸層斑紋",
+    "thai": "M4A4 | Faded Zebra",
+    "turkish": "M4A4 | Solgun Zebra",
+    "ukrainian": "М4А4 | Тьмяні смуги",
+    "vietnamese": "M4A4 | Faded Zebra"
+  },
+  "media": {
+    "asset_id": "skin__16-176",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-176/light.png",
+      "data/api/media/rendered/files/skins/16-176/medium.png",
+      "data/api/media/rendered/files/skins/16-176/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-176.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-176/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-176/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-176/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-176/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_sp_zebracam_bw_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_sp_zebracam_bw_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_sp_zebracam_bw_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Faded Zebra",
+  "search_slug": "m4a4-faded-zebra",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "16-176__normal__vanilla",
+    "16-176__stattrak__vanilla"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

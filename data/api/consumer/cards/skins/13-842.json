@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 842,
+    "id": 842,
+    "localized_names": {
+      "brazilian": "Akoben",
+      "bulgarian": "Акобен",
+      "czech": "Akoben",
+      "danish": "Akoben",
+      "dutch": "Akoben",
+      "english": "Akoben",
+      "finnish": "Sotatorvi",
+      "french": "Akoben",
+      "german": "Akoben",
+      "greek": "Akoben",
+      "hungarian": "Akoben",
+      "indonesian": "Akoben",
+      "italian": "Akoben",
+      "japanese": "Akoben",
+      "koreana": "아코벤",
+      "latam": "Akoben",
+      "norwegian": "Akoben",
+      "polish": "Akoben",
+      "portuguese": "Akoben",
+      "romanian": "Akoben",
+      "russian": "Горн войны",
+      "schinese": "战吼斑纹",
+      "schinese_pw": "Akoben",
+      "spanish": "Akoben",
+      "swedish": "Akoben",
+      "tchinese": "部落斑紋",
+      "thai": "Akoben",
+      "turkish": "Akoben",
+      "ukrainian": "Акобен",
+      "vietnamese": "Akoben"
+    },
+    "name": "Akoben",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-842",
+  "localized_names": {
+    "brazilian": "Galil AR | Akoben",
+    "bulgarian": "Galil AR | Акобен",
+    "czech": "Galil AR | Akoben",
+    "danish": "Galil AR | Akoben",
+    "dutch": "Galil AR | Akoben",
+    "english": "Galil AR | Akoben",
+    "finnish": "Galil AR | Sotatorvi",
+    "french": "Galil AR | Akoben",
+    "german": "Galil AR | Akoben",
+    "greek": "Galil AR | Akoben",
+    "hungarian": "Galil AR | Akoben",
+    "indonesian": "Galil AR | Akoben",
+    "italian": "Galil AR | Akoben",
+    "japanese": "Galil AR | Akoben",
+    "koreana": "갈릴 돌격소총 | 아코벤",
+    "latam": "Galil AR | Akoben",
+    "norwegian": "Galil AR | Akoben",
+    "polish": "Galil AR | Akoben",
+    "portuguese": "Galil AR | Akoben",
+    "romanian": "Galil AR | Akoben",
+    "russian": "Автомат «Галиль» | Горн войны",
+    "schinese": "加利尔AR | 战吼斑纹",
+    "schinese_pw": "Galil AR | Akoben",
+    "spanish": "Galil AR | Akoben",
+    "swedish": "Galil AR | Akoben",
+    "tchinese": "Galil AR | 部落斑紋",
+    "thai": "Galil AR | Akoben",
+    "turkish": "Galil AR | Akoben",
+    "ukrainian": "Ґаліл | Акобен",
+    "vietnamese": "Galil AR | Akoben"
+  },
+  "media": {
+    "asset_id": "skin__13-842",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-842/light.png",
+      "data/api/media/rendered/files/skins/13-842/medium.png",
+      "data/api/media/rendered/files/skins/13-842/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-842.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-842/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-842/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-842/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-842/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_sp_galil_akoben_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_sp_galil_akoben_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_sp_galil_akoben_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Akoben",
+  "search_slug": "galil-ar-akoben",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4598",
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_22",
+        "name": "The Prisma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-842__normal__battle-scarred",
+    "13-842__normal__factory-new",
+    "13-842__normal__field-tested",
+    "13-842__normal__minimal-wear",
+    "13-842__normal__well-worn",
+    "13-842__stattrak__battle-scarred",
+    "13-842__stattrak__factory-new",
+    "13-842__stattrak__field-tested",
+    "13-842__stattrak__minimal-wear",
+    "13-842__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_galil_abrasion",
+    "id": 398,
+    "name": "Chatterbox",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 398,
+    "weapon_id": 13
+  },
+  "id": "13-398",
+  "name": "Galil AR | Chatterbox",
+  "search_slug": "galil-ar-chatterbox",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "13-398__normal__field-tested",
+    "13-398__normal__well-worn",
+    "13-398__normal__battle-scarred",
+    "13-398__stattrak__field-tested",
+    "13-398__stattrak__well-worn",
+    "13-398__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_galilar",
+    "id": 13,
+    "name": "Galil AR",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.85,
+    "min_float": 0.35
+  }
+}

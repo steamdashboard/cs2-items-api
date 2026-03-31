@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "aq_deserteagle_kumichodragon",
+    "id": 527,
+    "name": "Kumicho Dragon",
+    "rarity_ref": null,
+    "style_code": 8
+  },
+  "game_ref": {
+    "paint_kit_id": 527,
+    "weapon_id": 1
+  },
+  "id": "1-527",
+  "name": "Desert Eagle | Kumicho Dragon",
+  "search_slug": "desert-eagle-kumicho-dragon",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_11",
+        "name": "The Wildfire Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4187",
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "1-527__normal__factory-new",
+    "1-527__normal__minimal-wear",
+    "1-527__normal__field-tested",
+    "1-527__normal__well-worn",
+    "1-527__normal__battle-scarred",
+    "1-527__stattrak__factory-new",
+    "1-527__stattrak__minimal-wear",
+    "1-527__stattrak__field-tested",
+    "1-527__stattrak__well-worn",
+    "1-527__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_deagle",
+    "id": 1,
+    "name": "Desert Eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.76,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 138,
+    "id": 138,
+    "localized_names": {
+      "brazilian": "Tiltado",
+      "bulgarian": "Кривотия",
+      "czech": "Tilted",
+      "danish": "Tilted",
+      "dutch": "Tilted",
+      "english": "Tilted",
+      "finnish": "Raivari",
+      "french": "À cran",
+      "german": "Aufbrausende Emotionen",
+      "greek": "Tilted",
+      "hungarian": "Dühös",
+      "indonesian": "Tilted",
+      "italian": "Tilted",
+      "japanese": "Tilted",
+      "koreana": "분노",
+      "latam": "Furiosa",
+      "norwegian": "Tilted",
+      "polish": "Rozsierdzony",
+      "portuguese": "Tilted",
+      "romanian": "Tilted",
+      "russian": "Недовольство",
+      "schinese": "跷跷板",
+      "schinese_pw": "Tilted",
+      "spanish": "Cabreado",
+      "swedish": "Tilted",
+      "tchinese": "腦羞傾向",
+      "thai": "Tilted",
+      "turkish": "Sinirli",
+      "ukrainian": "Невдоволений",
+      "vietnamese": "Tilted"
+    },
+    "name": "Tilted",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-138",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Tiltado",
+    "bulgarian": "Desert Eagle | Кривотия",
+    "czech": "Desert Eagle | Tilted",
+    "danish": "Desert Eagle | Tilted",
+    "dutch": "Desert Eagle | Tilted",
+    "english": "Desert Eagle | Tilted",
+    "finnish": "Desert Eagle | Raivari",
+    "french": "Desert Eagle | À cran",
+    "german": "Desert Eagle | Aufbrausende Emotionen",
+    "greek": "Desert Eagle | Tilted",
+    "hungarian": "Desert Eagle | Dühös",
+    "indonesian": "Desert Eagle | Tilted",
+    "italian": "Desert Eagle | Tilted",
+    "japanese": "Desert Eagle | Tilted",
+    "koreana": "데저트 이글 | 분노",
+    "latam": "Desert Eagle | Furiosa",
+    "norwegian": "Desert Eagle | Tilted",
+    "polish": "Desert Eagle | Rozsierdzony",
+    "portuguese": "Desert Eagle | Tilted",
+    "romanian": "Desert Eagle | Tilted",
+    "russian": "Desert Eagle | Недовольство",
+    "schinese": "沙漠之鹰 | 跷跷板",
+    "schinese_pw": "Desert Eagle | Tilted",
+    "spanish": "Desert Eagle | Cabreado",
+    "swedish": "Desert Eagle | Tilted",
+    "tchinese": "Desert Eagle | 腦羞傾向",
+    "thai": "Desert Eagle | Tilted",
+    "turkish": "Desert Eagle | Sinirli",
+    "ukrainian": "Пустельний орел | Невдоволений",
+    "vietnamese": "Desert Eagle | Tilted"
+  },
+  "media": {
+    "asset_id": "skin__1-138",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-138/light.png",
+      "data/api/media/rendered/files/skins/1-138/medium.png",
+      "data/api/media/rendered/files/skins/1-138/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-138.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-138/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-138/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-138/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-138/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_cu_overpass_aqua_deagle_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_cu_overpass_aqua_deagle_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_cu_overpass_aqua_deagle_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Tilted",
+  "search_slug": "desert-eagle-tilted",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_overpass_2024",
+        "name": "The Overpass 2024 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5221",
+        "kind": "container",
+        "name": "Budapest 2025 Overpass Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-138__normal__battle-scarred",
+    "1-138__normal__factory-new",
+    "1-138__normal__field-tested",
+    "1-138__normal__minimal-wear",
+    "1-138__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

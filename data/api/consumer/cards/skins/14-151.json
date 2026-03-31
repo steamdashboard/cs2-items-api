@@ -1,0 +1,176 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 151,
+    "id": 151,
+    "localized_names": {
+      "brazilian": "Selva",
+      "bulgarian": "Джунгла",
+      "czech": "Jungle",
+      "danish": "Jungle",
+      "dutch": "Jungle",
+      "english": "Jungle",
+      "finnish": "Viidakko",
+      "french": "Jungle",
+      "german": "Dschungel",
+      "greek": "Jungle",
+      "hungarian": "Dzsungel",
+      "indonesian": "Jungle",
+      "italian": "Jungle",
+      "japanese": "ジャングル",
+      "koreana": "정글",
+      "latam": "Jungla",
+      "norwegian": "Jungle",
+      "polish": "Dżungla",
+      "portuguese": "Jungle",
+      "romanian": "Jungle",
+      "russian": "Джунгли",
+      "schinese": "狂野丛林",
+      "schinese_pw": "Jungle",
+      "spanish": "Jungla",
+      "swedish": "Jungle",
+      "tchinese": "深野叢林",
+      "thai": "Jungle",
+      "turkish": "Orman",
+      "ukrainian": "Джунглі",
+      "vietnamese": "Jungle"
+    },
+    "name": "Jungle",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "14-151",
+  "localized_names": {
+    "brazilian": "M249 | Selva",
+    "bulgarian": "M249 | Джунгла",
+    "czech": "M249 | Jungle",
+    "danish": "M249 | Jungle",
+    "dutch": "M249 | Jungle",
+    "english": "M249 | Jungle",
+    "finnish": "M249 | Viidakko",
+    "french": "M249 | Jungle",
+    "german": "M249 | Dschungel",
+    "greek": "M249 | Jungle",
+    "hungarian": "M249 | Dzsungel",
+    "indonesian": "M249 | Jungle",
+    "italian": "M249 | Jungle",
+    "japanese": "M249 | ジャングル",
+    "koreana": "M249 | 정글",
+    "latam": "M249 | Jungla",
+    "norwegian": "M249 | Jungle",
+    "polish": "M249 | Dżungla",
+    "portuguese": "M249 | Jungle",
+    "romanian": "M249 | Jungle",
+    "russian": "M249 | Джунгли",
+    "schinese": "M249 | 狂野丛林",
+    "schinese_pw": "M249 | Jungle",
+    "spanish": "M249 | Jungla",
+    "swedish": "M249 | Jungle",
+    "tchinese": "M249 | 深野叢林",
+    "thai": "M249 | Jungle",
+    "turkish": "M249 | Orman",
+    "ukrainian": "М249 | Джунглі",
+    "vietnamese": "M249 | Jungle"
+  },
+  "media": {
+    "asset_id": "skin__14-151",
+    "images_png": [
+      "data/api/media/rendered/files/skins/14-151/light.png",
+      "data/api/media/rendered/files/skins/14-151/medium.png",
+      "data/api/media/rendered/files/skins/14-151/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/14-151.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/14-151/heavy.png",
+      "light": "data/api/media/rendered/files/skins/14-151/light.png",
+      "medium": "data/api/media/rendered/files/skins/14-151/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/14-151/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m249_so_jungle_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m249_so_jungle_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m249_so_jungle_medium_png.vtex_c"
+    }
+  },
+  "name": "M249 | Jungle",
+  "search_slug": "m249-jungle",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_stmarc",
+        "name": "The St. Marc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4612",
+        "kind": "container",
+        "name": "The St. Marc Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "14-151__normal__vanilla"
+  ],
+  "weapon": {
+    "id": 14,
+    "localized_names": {
+      "brazilian": "M249",
+      "bulgarian": "M249",
+      "czech": "M249",
+      "danish": "M249",
+      "dutch": "M249",
+      "english": "M249",
+      "finnish": "M249",
+      "french": "M249",
+      "german": "M249",
+      "greek": "M249",
+      "hungarian": "M249",
+      "indonesian": "M249",
+      "italian": "M249",
+      "japanese": "M249",
+      "koreana": "M249",
+      "latam": "M249",
+      "norwegian": "M249",
+      "polish": "M249",
+      "portuguese": "M249",
+      "romanian": "M249",
+      "russian": "M249",
+      "schinese": "M249",
+      "schinese_pw": "M249",
+      "spanish": "M249",
+      "swedish": "M249",
+      "tchinese": "M249",
+      "thai": "M249",
+      "turkish": "M249",
+      "ukrainian": "М249",
+      "vietnamese": "M249"
+    },
+    "name": "M249",
+    "search_slug": "m249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

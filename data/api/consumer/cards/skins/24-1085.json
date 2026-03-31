@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1085,
+    "id": 1085,
+    "localized_names": {
+      "brazilian": "Mecanismo",
+      "bulgarian": "Механизъм",
+      "czech": "Mechanism",
+      "danish": "Mechanism",
+      "dutch": "Mechanism",
+      "english": "Mechanism",
+      "finnish": "Koneisto",
+      "french": "Mécanisme",
+      "german": "Mechanismus",
+      "greek": "Mechanism",
+      "hungarian": "Gépezet",
+      "indonesian": "Mechanism",
+      "italian": "Mechanism",
+      "japanese": "Mechanism",
+      "koreana": "기계 공학",
+      "latam": "Mecanismo",
+      "norwegian": "Mechanism",
+      "polish": "Mechanizm",
+      "portuguese": "Mechanism",
+      "romanian": "Mechanism",
+      "russian": "Механизм",
+      "schinese": "机械装置",
+      "schinese_pw": "Mechanism",
+      "spanish": "Mecanismo",
+      "swedish": "Mechanism",
+      "tchinese": "機關",
+      "thai": "Mechanism",
+      "turkish": "Mekanizma",
+      "ukrainian": "Механізм",
+      "vietnamese": "Mechanism"
+    },
+    "name": "Mechanism",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.49,
+      "min_float": 0.0
+    }
+  },
+  "id": "24-1085",
+  "localized_names": {
+    "brazilian": "UMP-45 | Mecanismo",
+    "bulgarian": "UMP-45 | Механизъм",
+    "czech": "UMP-45 | Mechanism",
+    "danish": "UMP-45 | Mechanism",
+    "dutch": "UMP-45 | Mechanism",
+    "english": "UMP-45 | Mechanism",
+    "finnish": "UMP-45 | Koneisto",
+    "french": "UMP-45 | Mécanisme",
+    "german": "UMP-45 | Mechanismus",
+    "greek": "UMP-45 | Mechanism",
+    "hungarian": "UMP-45 | Gépezet",
+    "indonesian": "UMP-45 | Mechanism",
+    "italian": "UMP-45 | Mechanism",
+    "japanese": "UMP-45 | Mechanism",
+    "koreana": "UMP-45 | 기계 공학",
+    "latam": "UMP-45 | Mecanismo",
+    "norwegian": "UMP-45 | Mechanism",
+    "polish": "UMP-45 | Mechanizm",
+    "portuguese": "UMP-45 | Mechanism",
+    "romanian": "UMP-45 | Mechanism",
+    "russian": "UMP-45 | Механизм",
+    "schinese": "UMP-45 | 机械装置",
+    "schinese_pw": "UMP-45 | Mechanism",
+    "spanish": "UMP-45 | Mecanismo",
+    "swedish": "UMP-45 | Mechanism",
+    "tchinese": "UMP-45 | 機關",
+    "thai": "UMP-45 | Mechanism",
+    "turkish": "UMP-45 | Mekanizma",
+    "ukrainian": "УМП-45 | Механізм",
+    "vietnamese": "UMP-45 | Mechanism"
+  },
+  "media": {
+    "asset_id": "skin__24-1085",
+    "images_png": [
+      "data/api/media/rendered/files/skins/24-1085/light.png",
+      "data/api/media/rendered/files/skins/24-1085/medium.png",
+      "data/api/media/rendered/files/skins/24-1085/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/24-1085.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/24-1085/heavy.png",
+      "light": "data/api/media/rendered/files/skins/24-1085/light.png",
+      "medium": "data/api/media/rendered/files/skins/24-1085/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/24-1085/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ump45_aa_engine_performance_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ump45_aa_engine_performance_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ump45_aa_engine_performance_medium_png.vtex_c"
+    }
+  },
+  "name": "UMP-45 | Mechanism",
+  "search_slug": "ump-45-mechanism",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_vertigo_2021",
+        "name": "The 2021 Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4792",
+        "kind": "container",
+        "name": "The 2021 Vertigo Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4973",
+        "kind": "container",
+        "name": "Shanghai 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4815",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4841",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4866",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4899",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4932",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "24-1085__normal__battle-scarred",
+    "24-1085__normal__factory-new",
+    "24-1085__normal__field-tested",
+    "24-1085__normal__minimal-wear",
+    "24-1085__normal__well-worn",
+    "24-1085__souvenir__battle-scarred",
+    "24-1085__souvenir__factory-new",
+    "24-1085__souvenir__field-tested",
+    "24-1085__souvenir__minimal-wear",
+    "24-1085__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 24,
+    "localized_names": {
+      "brazilian": "UMP-45",
+      "bulgarian": "UMP-45",
+      "czech": "UMP-45",
+      "danish": "UMP-45",
+      "dutch": "UMP-45",
+      "english": "UMP-45",
+      "finnish": "UMP-45",
+      "french": "UMP-45",
+      "german": "UMP-45",
+      "greek": "UMP-45",
+      "hungarian": "UMP-45",
+      "indonesian": "UMP-45",
+      "italian": "UMP-45",
+      "japanese": "UMP-45",
+      "koreana": "UMP-45",
+      "latam": "UMP-45",
+      "norwegian": "UMP-45",
+      "polish": "UMP-45",
+      "portuguese": "UMP-45",
+      "romanian": "UMP-45",
+      "russian": "UMP-45",
+      "schinese": "UMP-45",
+      "schinese_pw": "UMP-45",
+      "spanish": "UMP-45",
+      "swedish": "UMP-45",
+      "tchinese": "UMP-45",
+      "thai": "UMP-45",
+      "turkish": "UMP-45",
+      "ukrainian": "УМП-45",
+      "vietnamese": "UMP-45"
+    },
+    "name": "UMP-45",
+    "search_slug": "ump-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.49,
+    "min_float": 0.0
+  }
+}

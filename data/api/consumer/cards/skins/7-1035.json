@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1035,
+    "id": 1035,
+    "localized_names": {
+      "brazilian": "Tons de Preto",
+      "bulgarian": "Плоча",
+      "czech": "Slate",
+      "danish": "Slate",
+      "dutch": "Slate",
+      "english": "Slate",
+      "finnish": "Liuskemusta",
+      "french": "Ardoise",
+      "german": "Schiefer",
+      "greek": "Slate",
+      "hungarian": "Pala",
+      "indonesian": "Slate",
+      "italian": "Slate",
+      "japanese": "Slate",
+      "koreana": "슬레이트",
+      "latam": "Pizarra",
+      "norwegian": "Slate",
+      "polish": "Czerń",
+      "portuguese": "Slate",
+      "romanian": "Slate",
+      "russian": "Сланец",
+      "schinese": "墨岩",
+      "schinese_pw": "Slate",
+      "spanish": "Pizarra",
+      "swedish": "Slate",
+      "tchinese": "板岩",
+      "thai": "Slate",
+      "turkish": "Simsiyah",
+      "ukrainian": "Сланець",
+      "vietnamese": "Slate"
+    },
+    "name": "Slate",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-1035",
+  "localized_names": {
+    "brazilian": "AK-47 | Tons de Preto",
+    "bulgarian": "AK-47 | Плоча",
+    "czech": "AK-47 | Slate",
+    "danish": "AK-47 | Slate",
+    "dutch": "AK-47 | Slate",
+    "english": "AK-47 | Slate",
+    "finnish": "AK-47 | Liuskemusta",
+    "french": "AK-47 | Ardoise",
+    "german": "AK-47 | Schiefer",
+    "greek": "AK-47 | Slate",
+    "hungarian": "AK-47 | Pala",
+    "indonesian": "AK-47 | Slate",
+    "italian": "AK-47 | Slate",
+    "japanese": "AK-47 | Slate",
+    "koreana": "AK-47 | 슬레이트",
+    "latam": "AK-47 | Pizarra",
+    "norwegian": "AK-47 | Slate",
+    "polish": "AK-47 | Czerń",
+    "portuguese": "AK-47 | Slate",
+    "romanian": "AK-47 | Slate",
+    "russian": "AK-47 | Сланец",
+    "schinese": "AK-47 | 墨岩",
+    "schinese_pw": "AK-47 | Slate",
+    "spanish": "AK-47 | Pizarra",
+    "swedish": "AK-47 | Slate",
+    "tchinese": "AK-47 | 板岩",
+    "thai": "AK-47 | Slate",
+    "turkish": "AK-47 | Simsiyah",
+    "ukrainian": "АК-47 | Сланець",
+    "vietnamese": "AK-47 | Slate"
+  },
+  "media": {
+    "asset_id": "skin__7-1035",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-1035/light.png",
+      "data/api/media/rendered/files/skins/7-1035/medium.png",
+      "data/api/media/rendered/files/skins/7-1035/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-1035.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-1035/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-1035/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-1035/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-1035/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_professional_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_professional_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_professional_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Slate",
+  "search_slug": "ak-47-slate",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4747",
+        "kind": "weapon-case",
+        "name": "Snakebite Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_28",
+        "name": "The Snakebite Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-1035__normal__battle-scarred",
+    "7-1035__normal__factory-new",
+    "7-1035__normal__field-tested",
+    "7-1035__normal__minimal-wear",
+    "7-1035__normal__well-worn",
+    "7-1035__stattrak__battle-scarred",
+    "7-1035__stattrak__factory-new",
+    "7-1035__stattrak__field-tested",
+    "7-1035__stattrak__minimal-wear",
+    "7-1035__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

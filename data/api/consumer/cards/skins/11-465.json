@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 465,
+    "id": 465,
+    "localized_names": {
+      "brazilian": "Quimono Laranja",
+      "bulgarian": "Оранжево кимоно",
+      "czech": "Orange Kimono",
+      "danish": "Orange Kimono",
+      "dutch": "Orange Kimono",
+      "english": "Orange Kimono",
+      "finnish": "Oranssi kimono",
+      "french": "Kimono orange",
+      "german": "Orangefarbener Kimono",
+      "greek": "Orange Kimono",
+      "hungarian": "Narancs Kimonó",
+      "indonesian": "Orange Kimono",
+      "italian": "Orange Kimono",
+      "japanese": "Orange Kimono",
+      "koreana": "오렌지색 기모노",
+      "latam": "Kimono naranja",
+      "norwegian": "Orange Kimono",
+      "polish": "Pomarańczowe kimono",
+      "portuguese": "Orange Kimono",
+      "romanian": "Orange Kimono",
+      "russian": "Оранжевое кимоно",
+      "schinese": "日式橙色涂装",
+      "schinese_pw": "Orange Kimono",
+      "spanish": "Kimono naranja",
+      "swedish": "Orange Kimono",
+      "tchinese": "橘色和服",
+      "thai": "Orange Kimono",
+      "turkish": "Turuncu Kimono",
+      "ukrainian": "Помаранчеве кімоно",
+      "vietnamese": "Orange Kimono"
+    },
+    "name": "Orange Kimono",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "11-465",
+  "localized_names": {
+    "brazilian": "G3SG1 | Quimono Laranja",
+    "bulgarian": "G3SG1 | Оранжево кимоно",
+    "czech": "G3SG1 | Orange Kimono",
+    "danish": "G3SG1 | Orange Kimono",
+    "dutch": "G3SG1 | Orange Kimono",
+    "english": "G3SG1 | Orange Kimono",
+    "finnish": "G3SG1 | Oranssi kimono",
+    "french": "G3SG1 | Kimono orange",
+    "german": "G3SG1 | Orangefarbener Kimono",
+    "greek": "G3SG1 | Orange Kimono",
+    "hungarian": "G3SG1 | Narancs Kimonó",
+    "indonesian": "G3SG1 | Orange Kimono",
+    "italian": "G3SG1 | Orange Kimono",
+    "japanese": "G3SG1 | Orange Kimono",
+    "koreana": "G3SG1 | 오렌지색 기모노",
+    "latam": "G3SG1 | Kimono naranja",
+    "norwegian": "G3SG1 | Orange Kimono",
+    "polish": "G3SG1 | Pomarańczowe kimono",
+    "portuguese": "G3SG1 | Orange Kimono",
+    "romanian": "G3SG1 | Orange Kimono",
+    "russian": "G3SG1 | Оранжевое кимоно",
+    "schinese": "G3SG1 | 日式橙色涂装",
+    "schinese_pw": "G3SG1 | Orange Kimono",
+    "spanish": "G3SG1 | Kimono naranja",
+    "swedish": "G3SG1 | Orange Kimono",
+    "tchinese": "G3SG1 | 橘色和服",
+    "thai": "G3SG1 | Orange Kimono",
+    "turkish": "G3SG1 | Turuncu Kimono",
+    "ukrainian": "Г3-СГ1 | Помаранчеве кімоно",
+    "vietnamese": "G3SG1 | Orange Kimono"
+  },
+  "media": {
+    "asset_id": "skin__11-465",
+    "images_png": [
+      "data/api/media/rendered/files/skins/11-465/light.png",
+      "data/api/media/rendered/files/skins/11-465/medium.png",
+      "data/api/media/rendered/files/skins/11-465/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/11-465.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/11-465/heavy.png",
+      "light": "data/api/media/rendered/files/skins/11-465/light.png",
+      "medium": "data/api/media/rendered/files/skins/11-465/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/11-465/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_g3sg1_hy_kimono_diamonds_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_g3sg1_hy_kimono_diamonds_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_g3sg1_hy_kimono_diamonds_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "G3SG1 | Orange Kimono",
+  "search_slug": "g3sg1-orange-kimono",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_kimono",
+        "name": "The Rising Sun Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4606",
+        "kind": "container",
+        "name": "The Rising Sun Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "11-465__normal__battle-scarred",
+    "11-465__normal__factory-new",
+    "11-465__normal__field-tested",
+    "11-465__normal__minimal-wear",
+    "11-465__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 11,
+    "localized_names": {
+      "brazilian": "G3SG1",
+      "bulgarian": "G3SG1",
+      "czech": "G3SG1",
+      "danish": "G3SG1",
+      "dutch": "G3SG1",
+      "english": "G3SG1",
+      "finnish": "G3SG1",
+      "french": "G3SG1",
+      "german": "G3SG1",
+      "greek": "G3SG1",
+      "hungarian": "G3SG1",
+      "indonesian": "G3SG1",
+      "italian": "G3SG1",
+      "japanese": "G3SG1",
+      "koreana": "G3SG1",
+      "latam": "G3SG1",
+      "norwegian": "G3SG1",
+      "polish": "G3SG1",
+      "portuguese": "G3SG1",
+      "romanian": "G3SG1",
+      "russian": "G3SG1",
+      "schinese": "G3SG1",
+      "schinese_pw": "G3SG1",
+      "spanish": "G3SG1",
+      "swedish": "G3SG1",
+      "tchinese": "G3SG1",
+      "thai": "G3SG1",
+      "turkish": "G3SG1",
+      "ukrainian": "Г3-СГ1",
+      "vietnamese": "G3SG1"
+    },
+    "name": "G3SG1",
+    "search_slug": "g3sg1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

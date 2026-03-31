@@ -1,0 +1,40 @@
+{
+  "id": "bud2025_tournament_pass_prefab",
+  "name": "bud2025_tournament_pass_prefab",
+  "prefab_chain": [
+    "csgo_tool",
+    "fan_token",
+    "bud2025_tournament_pass_prefab"
+  ],
+  "resolved": {
+    "attributes": {
+      "tournament event id": {
+        "attribute_class": "tournament_event_id",
+        "value": "25"
+      }
+    },
+    "capabilities": {
+      "usable_gc": "1",
+      "usable_out_of_game": "1"
+    },
+    "craft_class": "tool",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "first_sale_date": "2025-11-10",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_container_and_tools": "tool",
+    "item_class": "tool",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "type_tool",
+    "item_type_name": "#CSGO_Type_Ticket",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "tool": {
+      "type": "fantoken",
+      "use_string": "#ConsumeItem"
+    }
+  }
+}

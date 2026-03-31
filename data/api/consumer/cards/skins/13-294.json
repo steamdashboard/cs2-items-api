@@ -1,0 +1,207 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 294,
+    "id": 294,
+    "localized_names": {
+      "brazilian": "Maçã Verde",
+      "bulgarian": "Зелена ябълка",
+      "czech": "Green Apple",
+      "danish": "Green Apple",
+      "dutch": "Green Apple",
+      "english": "Green Apple",
+      "finnish": "Vihreä omena",
+      "french": "Pomme verte",
+      "german": "Grüner Apfel",
+      "greek": "Green Apple",
+      "hungarian": "Zöld Alma",
+      "indonesian": "Green Apple",
+      "italian": "Green Apple",
+      "japanese": "Green Apple",
+      "koreana": "청사과",
+      "latam": "Manzana verde",
+      "norwegian": "Green Apple",
+      "polish": "Zielone jabłuszko",
+      "portuguese": "Green Apple",
+      "romanian": "Green Apple",
+      "russian": "Зеленое яблоко",
+      "schinese": "绿苹果",
+      "schinese_pw": "Green Apple",
+      "spanish": "Manzana verde",
+      "swedish": "Green Apple",
+      "tchinese": "青蘋果",
+      "thai": "Green Apple",
+      "turkish": "Yeşil Elma",
+      "ukrainian": "Зелене яблуко",
+      "vietnamese": "Green Apple"
+    },
+    "name": "Green Apple",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-294",
+  "localized_names": {
+    "brazilian": "Galil AR | Maçã Verde",
+    "bulgarian": "Galil AR | Зелена ябълка",
+    "czech": "Galil AR | Green Apple",
+    "danish": "Galil AR | Green Apple",
+    "dutch": "Galil AR | Green Apple",
+    "english": "Galil AR | Green Apple",
+    "finnish": "Galil AR | Vihreä omena",
+    "french": "Galil AR | Pomme verte",
+    "german": "Galil AR | Grüner Apfel",
+    "greek": "Galil AR | Green Apple",
+    "hungarian": "Galil AR | Zöld Alma",
+    "indonesian": "Galil AR | Green Apple",
+    "italian": "Galil AR | Green Apple",
+    "japanese": "Galil AR | Green Apple",
+    "koreana": "갈릴 돌격소총 | 청사과",
+    "latam": "Galil AR | Manzana verde",
+    "norwegian": "Galil AR | Green Apple",
+    "polish": "Galil AR | Zielone jabłuszko",
+    "portuguese": "Galil AR | Green Apple",
+    "romanian": "Galil AR | Green Apple",
+    "russian": "Автомат «Галиль» | Зеленое яблоко",
+    "schinese": "加利尔AR | 绿苹果",
+    "schinese_pw": "Galil AR | Green Apple",
+    "spanish": "Galil AR | Manzana verde",
+    "swedish": "Galil AR | Green Apple",
+    "tchinese": "Galil AR | 青蘋果",
+    "thai": "Galil AR | Green Apple",
+    "turkish": "Galil AR | Yeşil Elma",
+    "ukrainian": "Ґаліл | Зелене яблуко",
+    "vietnamese": "Galil AR | Green Apple"
+  },
+  "media": {
+    "asset_id": "skin__13-294",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-294/light.png",
+      "data/api/media/rendered/files/skins/13-294/medium.png",
+      "data/api/media/rendered/files/skins/13-294/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-294.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-294/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-294/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-294/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-294/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_so_green_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_so_green_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_so_green_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Green Apple",
+  "search_slug": "galil-ar-green-apple",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2025",
+        "name": "The Train 2025 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5126",
+        "kind": "container",
+        "name": "Austin 2025 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5225",
+        "kind": "container",
+        "name": "Budapest 2025 Train Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-294__normal__factory-new",
+    "13-294__normal__field-tested",
+    "13-294__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

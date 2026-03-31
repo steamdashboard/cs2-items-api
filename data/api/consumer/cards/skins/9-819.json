@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 819,
+    "id": 819,
+    "localized_names": {
+      "brazilian": "Hidra do Deserto",
+      "bulgarian": "Пустинна хидра",
+      "czech": "Desert Hydra",
+      "danish": "Desert Hydra",
+      "dutch": "Desert Hydra",
+      "english": "Desert Hydra",
+      "finnish": "Aavikon Hydra",
+      "french": "Hydra du désert",
+      "german": "Wüstenhydra",
+      "greek": "Desert Hydra",
+      "hungarian": "Sivatagi Hüdra",
+      "indonesian": "Desert Hydra",
+      "italian": "Desert Hydra",
+      "japanese": "Desert Hydra",
+      "koreana": "데저트 히드라",
+      "latam": "Hidra del desierto",
+      "norwegian": "Desert Hydra",
+      "polish": "Pustynna hydra",
+      "portuguese": "Desert Hydra",
+      "romanian": "Desert Hydra",
+      "russian": "Пустынная гидра",
+      "schinese": "九头金蛇",
+      "schinese_pw": "Desert Hydra",
+      "spanish": "Hidra del desierto",
+      "swedish": "Desert Hydra",
+      "tchinese": "沙漠九頭蛇",
+      "thai": "Desert Hydra",
+      "turkish": "Çöl Hidrası",
+      "ukrainian": "Пустельна гідра",
+      "vietnamese": "Desert Hydra"
+    },
+    "name": "Desert Hydra",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-819",
+  "localized_names": {
+    "brazilian": "AWP | Hidra do Deserto",
+    "bulgarian": "AWP | Пустинна хидра",
+    "czech": "AWP | Desert Hydra",
+    "danish": "AWP | Desert Hydra",
+    "dutch": "AWP | Desert Hydra",
+    "english": "AWP | Desert Hydra",
+    "finnish": "AWP | Aavikon Hydra",
+    "french": "AWP | Hydra du désert",
+    "german": "AWP | Wüstenhydra",
+    "greek": "AWP | Desert Hydra",
+    "hungarian": "AWP | Sivatagi Hüdra",
+    "indonesian": "AWP | Desert Hydra",
+    "italian": "AWP | Desert Hydra",
+    "japanese": "AWP | Desert Hydra",
+    "koreana": "AWP | 데저트 히드라",
+    "latam": "AWP | Hidra del desierto",
+    "norwegian": "AWP | Desert Hydra",
+    "polish": "AWP | Pustynna hydra",
+    "portuguese": "AWP | Desert Hydra",
+    "romanian": "AWP | Desert Hydra",
+    "russian": "AWP | Пустынная гидра",
+    "schinese": "AWP | 九头金蛇",
+    "schinese_pw": "AWP | Desert Hydra",
+    "spanish": "AWP | Hidra del desierto",
+    "swedish": "AWP | Desert Hydra",
+    "tchinese": "AWP | 沙漠九頭蛇",
+    "thai": "AWP | Desert Hydra",
+    "turkish": "AWP | Çöl Hidrası",
+    "ukrainian": "АВП | Пустельна гідра",
+    "vietnamese": "AWP | Desert Hydra"
+  },
+  "media": {
+    "asset_id": "skin__9-819",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-819/light.png",
+      "data/api/media/rendered/files/skins/9-819/medium.png",
+      "data/api/media/rendered/files/skins/9-819/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-819.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-819/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-819/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-819/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-819/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_gs_awp_hydra_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_gs_awp_hydra_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_gs_awp_hydra_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Desert Hydra",
+  "search_slug": "awp-desert-hydra",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": "ancient"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "variant_ids": [
+    "9-819__normal__battle-scarred",
+    "9-819__normal__factory-new",
+    "9-819__normal__field-tested",
+    "9-819__normal__minimal-wear",
+    "9-819__normal__well-worn",
+    "9-819__souvenir__battle-scarred",
+    "9-819__souvenir__factory-new",
+    "9-819__souvenir__field-tested",
+    "9-819__souvenir__minimal-wear",
+    "9-819__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

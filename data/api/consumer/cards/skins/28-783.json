@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 783,
+    "id": 783,
+    "localized_names": {
+      "brazilian": "Boquilha",
+      "bulgarian": "Преграда",
+      "czech": "Bulkhead",
+      "danish": "Bulkhead",
+      "dutch": "Bulkhead",
+      "english": "Bulkhead",
+      "finnish": "Laipio",
+      "french": "Cloison",
+      "german": "Schott",
+      "greek": "Bulkhead",
+      "hungarian": "Válaszfal",
+      "indonesian": "Bulkhead",
+      "italian": "Bulkhead",
+      "japanese": "Bulkhead",
+      "koreana": "벌크헤드",
+      "latam": "Mamparo",
+      "norwegian": "Bulkhead",
+      "polish": "Gródź",
+      "portuguese": "Bulkhead",
+      "romanian": "Bulkhead",
+      "russian": "Изоляция",
+      "schinese": "舱壁",
+      "schinese_pw": "Bulkhead",
+      "spanish": "Mamparo",
+      "swedish": "Bulkhead",
+      "tchinese": "艙壁",
+      "thai": "Bulkhead",
+      "turkish": "Bölme",
+      "ukrainian": "Перемичка",
+      "vietnamese": "Bulkhead"
+    },
+    "name": "Bulkhead",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-783",
+  "localized_names": {
+    "brazilian": "Negev | Boquilha",
+    "bulgarian": "Negev | Преграда",
+    "czech": "Negev | Bulkhead",
+    "danish": "Negev | Bulkhead",
+    "dutch": "Negev | Bulkhead",
+    "english": "Negev | Bulkhead",
+    "finnish": "Negev | Laipio",
+    "french": "Negev | Cloison",
+    "german": "Negev | Schott",
+    "greek": "Negev | Bulkhead",
+    "hungarian": "Negev | Válaszfal",
+    "indonesian": "Negev | Bulkhead",
+    "italian": "Negev | Bulkhead",
+    "japanese": "Negev | Bulkhead",
+    "koreana": "네게브 | 벌크헤드",
+    "latam": "Negev | Mamparo",
+    "norwegian": "Negev | Bulkhead",
+    "polish": "Negev | Gródź",
+    "portuguese": "Negev | Bulkhead",
+    "romanian": "Negev | Bulkhead",
+    "russian": "Негев | Изоляция",
+    "schinese": "内格夫 | 舱壁",
+    "schinese_pw": "Negev | Bulkhead",
+    "spanish": "Negev | Mamparo",
+    "swedish": "Negev | Bulkhead",
+    "tchinese": "Negev | 艙壁",
+    "thai": "Negev | Bulkhead",
+    "turkish": "Negev | Bölme",
+    "ukrainian": "Неґев | Перемичка",
+    "vietnamese": "Negev | Bulkhead"
+  },
+  "media": {
+    "asset_id": "skin__28-783",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-783/light.png",
+      "data/api/media/rendered/files/skins/28-783/medium.png",
+      "data/api/media/rendered/files/skins/28-783/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-783.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-783/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-783/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-783/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-783/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_hy_ducts_yellow_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_hy_ducts_yellow_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_hy_ducts_yellow_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Bulkhead",
+  "search_slug": "negev-bulkhead",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_nuke_2",
+        "name": "The 2018 Nuke Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4972",
+        "kind": "container",
+        "name": "Shanghai 2024 Nuke Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5125",
+        "kind": "container",
+        "name": "Austin 2025 Nuke Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5224",
+        "kind": "container",
+        "name": "Budapest 2025 Nuke Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4546",
+        "kind": "souvenir-package",
+        "name": "London 2018 Nuke Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4596",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Nuke Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4665",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Nuke Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4814",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Nuke Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4840",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Nuke Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4865",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Nuke Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4898",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Nuke Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4931",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Nuke Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "28-783__normal__battle-scarred",
+    "28-783__normal__factory-new",
+    "28-783__normal__field-tested",
+    "28-783__normal__minimal-wear",
+    "28-783__normal__well-worn",
+    "28-783__souvenir__battle-scarred",
+    "28-783__souvenir__factory-new",
+    "28-783__souvenir__field-tested",
+    "28-783__souvenir__minimal-wear",
+    "28-783__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

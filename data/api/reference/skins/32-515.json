@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_p2000_imperial_red",
+    "id": 515,
+    "name": "Imperial",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 515,
+    "weapon_id": 32
+  },
+  "id": "32-515",
+  "name": "P2000 | Imperial",
+  "search_slug": "p2000-imperial",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "32-515__normal__factory-new",
+    "32-515__normal__minimal-wear",
+    "32-515__normal__field-tested",
+    "32-515__stattrak__factory-new",
+    "32-515__stattrak__minimal-wear",
+    "32-515__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_hkp2000",
+    "id": 32,
+    "name": "P2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 32,
+    "id": 32,
+    "localized_names": {
+      "brazilian": "Prateada",
+      "bulgarian": "Сребро",
+      "czech": "Silver",
+      "danish": "Silver",
+      "dutch": "Silver",
+      "english": "Silver",
+      "finnish": "Hopea",
+      "french": "Argent",
+      "german": "Silber",
+      "greek": "Silver",
+      "hungarian": "Ezüst",
+      "indonesian": "Silver",
+      "italian": "Silver",
+      "japanese": "Silver",
+      "koreana": "은색",
+      "latam": "Plateada",
+      "norwegian": "Silver",
+      "polish": "Srebro",
+      "portuguese": "Silver",
+      "romanian": "Silver",
+      "russian": "Серебро",
+      "schinese": "银质",
+      "schinese_pw": "Silver",
+      "spanish": "Plateada",
+      "swedish": "Silver",
+      "tchinese": "白銀",
+      "thai": "Silver",
+      "turkish": "Gümüş",
+      "ukrainian": "Срібло",
+      "vietnamese": "Silver"
+    },
+    "name": "Silver",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-32",
+  "localized_names": {
+    "brazilian": "MAG-7 | Prateada",
+    "bulgarian": "MAG-7 | Сребро",
+    "czech": "MAG-7 | Silver",
+    "danish": "MAG-7 | Silver",
+    "dutch": "MAG-7 | Silver",
+    "english": "MAG-7 | Silver",
+    "finnish": "MAG-7 | Hopea",
+    "french": "MAG-7 | Argent",
+    "german": "MAG-7 | Silber",
+    "greek": "MAG-7 | Silver",
+    "hungarian": "MAG-7 | Ezüst",
+    "indonesian": "MAG-7 | Silver",
+    "italian": "MAG-7 | Silver",
+    "japanese": "MAG-7 | Silver",
+    "koreana": "MAG-7 | 은색",
+    "latam": "MAG-7 | Plateada",
+    "norwegian": "MAG-7 | Silver",
+    "polish": "MAG-7 | Srebro",
+    "portuguese": "MAG-7 | Silver",
+    "romanian": "MAG-7 | Silver",
+    "russian": "MAG-7 | Серебро",
+    "schinese": "MAG-7 | 银质",
+    "schinese_pw": "MAG-7 | Silver",
+    "spanish": "MAG-7 | Plateada",
+    "swedish": "MAG-7 | Silver",
+    "tchinese": "MAG-7 | 白銀",
+    "thai": "MAG-7 | Silver",
+    "turkish": "MAG-7 | Gümüş",
+    "ukrainian": "МАГ-7 | Срібло",
+    "vietnamese": "MAG-7 | Silver"
+  },
+  "media": {
+    "asset_id": "skin__27-32",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-32/light.png",
+      "data/api/media/rendered/files/skins/27-32/medium.png",
+      "data/api/media/rendered/files/skins/27-32/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-32.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-32/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-32/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-32/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-32/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_an_silver_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_an_silver_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_an_silver_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Silver",
+  "search_slug": "mag-7-silver",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cobblestone",
+        "name": "The Cobblestone Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4602",
+        "kind": "container",
+        "name": "The Cobblestone Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4027",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4036",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4084",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4134",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4179",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4228",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4276",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4346",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4398",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4465",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "27-32__normal__factory-new",
+    "27-32__normal__minimal-wear",
+    "27-32__souvenir__factory-new",
+    "27-32__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

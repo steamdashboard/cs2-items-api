@@ -1,0 +1,269 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 825,
+    "id": 825,
+    "localized_names": {
+      "brazilian": "Árida",
+      "bulgarian": "Суша",
+      "czech": "Drought",
+      "danish": "Drought",
+      "dutch": "Drought",
+      "english": "Drought",
+      "finnish": "Kuivuus",
+      "french": "Sècheresse",
+      "german": "Dürre",
+      "greek": "Drought",
+      "hungarian": "Aszály",
+      "indonesian": "Drought",
+      "italian": "Drought",
+      "japanese": "Drought",
+      "koreana": "가뭄",
+      "latam": "Sequía",
+      "norwegian": "Drought",
+      "polish": "Susza",
+      "portuguese": "Drought",
+      "romanian": "Drought",
+      "russian": "Безводье",
+      "schinese": "天旱",
+      "schinese_pw": "Drought",
+      "spanish": "Sequía",
+      "swedish": "Drought",
+      "tchinese": "乾旱",
+      "thai": "Drought",
+      "turkish": "Kuraklık",
+      "ukrainian": "Посуха",
+      "vietnamese": "Drought"
+    },
+    "name": "Drought",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.44,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-825",
+  "localized_names": {
+    "brazilian": "P250 | Árida",
+    "bulgarian": "P250 | Суша",
+    "czech": "P250 | Drought",
+    "danish": "P250 | Drought",
+    "dutch": "P250 | Drought",
+    "english": "P250 | Drought",
+    "finnish": "P250 | Kuivuus",
+    "french": "P250 | Sècheresse",
+    "german": "P250 | Dürre",
+    "greek": "P250 | Drought",
+    "hungarian": "P250 | Aszály",
+    "indonesian": "P250 | Drought",
+    "italian": "P250 | Drought",
+    "japanese": "P250 | Drought",
+    "koreana": "P250 | 가뭄",
+    "latam": "P250 | Sequía",
+    "norwegian": "P250 | Drought",
+    "polish": "P250 | Susza",
+    "portuguese": "P250 | Drought",
+    "romanian": "P250 | Drought",
+    "russian": "P250 | Безводье",
+    "schinese": "P250 | 天旱",
+    "schinese_pw": "P250 | Drought",
+    "spanish": "P250 | Sequía",
+    "swedish": "P250 | Drought",
+    "tchinese": "P250 | 乾旱",
+    "thai": "P250 | Drought",
+    "turkish": "P250 | Kuraklık",
+    "ukrainian": "П250 | Посуха",
+    "vietnamese": "P250 | Drought"
+  },
+  "media": {
+    "asset_id": "skin__36-825",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-825/light.png",
+      "data/api/media/rendered/files/skins/36-825/medium.png",
+      "data/api/media/rendered/files/skins/36-825/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-825.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-825/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-825/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-825/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-825/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_sp_desert_skulls_dawn_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_sp_desert_skulls_dawn_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_sp_desert_skulls_dawn_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Drought",
+  "search_slug": "p250-drought",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "36-825__normal__factory-new",
+    "36-825__normal__field-tested",
+    "36-825__normal__minimal-wear",
+    "36-825__normal__well-worn",
+    "36-825__souvenir__factory-new",
+    "36-825__souvenir__field-tested",
+    "36-825__souvenir__minimal-wear",
+    "36-825__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.44,
+    "min_float": 0.0
+  }
+}

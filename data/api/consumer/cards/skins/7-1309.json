@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1309,
+    "id": 1309,
+    "localized_names": {
+      "brazilian": "Nouveau Rouge",
+      "bulgarian": "Нов руж",
+      "czech": "Nouveau Rouge",
+      "danish": "Nouveau Rouge",
+      "dutch": "Nouveau Rouge",
+      "english": "Nouveau Rouge",
+      "finnish": "Uusi puna",
+      "french": "Nouveau Rouge",
+      "german": "Nouveau Rouge",
+      "greek": "Nouveau Rouge",
+      "hungarian": "Nouveau Rouge",
+      "indonesian": "Nouveau Rouge",
+      "italian": "Nouveau Rouge",
+      "japanese": "Nouveau Rouge",
+      "koreana": "누보 루즈",
+      "latam": "Rojo nuevo",
+      "norwegian": "Nouveau Rouge",
+      "polish": "Secesyjny róż",
+      "portuguese": "Nouveau Rouge",
+      "romanian": "Nouveau Rouge",
+      "russian": "Нуво Руж",
+      "schinese": "新红浪潮",
+      "schinese_pw": "Nouveau Rouge",
+      "spanish": "Nouveau Rouge",
+      "swedish": "Nouveau Rouge",
+      "tchinese": "新潮紅",
+      "thai": "Nouveau Rouge",
+      "turkish": "Yeni Kızıl",
+      "ukrainian": "Нуво Руж",
+      "vietnamese": "Nouveau Rouge"
+    },
+    "name": "Nouveau Rouge",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-1309",
+  "localized_names": {
+    "brazilian": "AK-47 | Nouveau Rouge",
+    "bulgarian": "AK-47 | Нов руж",
+    "czech": "AK-47 | Nouveau Rouge",
+    "danish": "AK-47 | Nouveau Rouge",
+    "dutch": "AK-47 | Nouveau Rouge",
+    "english": "AK-47 | Nouveau Rouge",
+    "finnish": "AK-47 | Uusi puna",
+    "french": "AK-47 | Nouveau Rouge",
+    "german": "AK-47 | Nouveau Rouge",
+    "greek": "AK-47 | Nouveau Rouge",
+    "hungarian": "AK-47 | Nouveau Rouge",
+    "indonesian": "AK-47 | Nouveau Rouge",
+    "italian": "AK-47 | Nouveau Rouge",
+    "japanese": "AK-47 | Nouveau Rouge",
+    "koreana": "AK-47 | 누보 루즈",
+    "latam": "AK-47 | Rojo nuevo",
+    "norwegian": "AK-47 | Nouveau Rouge",
+    "polish": "AK-47 | Secesyjny róż",
+    "portuguese": "AK-47 | Nouveau Rouge",
+    "romanian": "AK-47 | Nouveau Rouge",
+    "russian": "AK-47 | Нуво Руж",
+    "schinese": "AK-47 | 新红浪潮",
+    "schinese_pw": "AK-47 | Nouveau Rouge",
+    "spanish": "AK-47 | Nouveau Rouge",
+    "swedish": "AK-47 | Nouveau Rouge",
+    "tchinese": "AK-47 | 新潮紅",
+    "thai": "AK-47 | Nouveau Rouge",
+    "turkish": "AK-47 | Yeni Kızıl",
+    "ukrainian": "АК-47 | Нуво Руж",
+    "vietnamese": "AK-47 | Nouveau Rouge"
+  },
+  "media": {
+    "asset_id": "skin__7-1309",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-1309/light.png",
+      "data/api/media/rendered/files/skins/7-1309/medium.png",
+      "data/api/media/rendered/files/skins/7-1309/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-1309.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-1309/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-1309/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-1309/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-1309/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_hye_ak47_nouveau_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_hye_ak47_nouveau_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_hye_ak47_nouveau_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Nouveau Rouge",
+  "search_slug": "ak-47-nouveau-rouge",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-1309__normal__battle-scarred",
+    "7-1309__normal__factory-new",
+    "7-1309__normal__field-tested",
+    "7-1309__normal__minimal-wear",
+    "7-1309__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

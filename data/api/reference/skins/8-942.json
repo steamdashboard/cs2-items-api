@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "gs_aug_thunderstorm",
+    "id": 942,
+    "name": "Tom Cat",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 942,
+    "weapon_id": 8
+  },
+  "id": "8-942",
+  "name": "AUG | Tom Cat",
+  "search_slug": "aug-tom-cat",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_25",
+        "name": "The Prisma 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4695",
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "8-942__normal__factory-new",
+    "8-942__normal__minimal-wear",
+    "8-942__normal__field-tested",
+    "8-942__normal__well-worn",
+    "8-942__normal__battle-scarred",
+    "8-942__stattrak__factory-new",
+    "8-942__stattrak__minimal-wear",
+    "8-942__stattrak__field-tested",
+    "8-942__stattrak__well-worn",
+    "8-942__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_aug",
+    "id": 8,
+    "name": "AUG",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

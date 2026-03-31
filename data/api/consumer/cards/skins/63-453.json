@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 453,
+    "id": 453,
+    "localized_names": {
+      "brazilian": "Esmeralda",
+      "bulgarian": "Изумруденозелено",
+      "czech": "Emerald",
+      "danish": "Emerald",
+      "dutch": "Emerald",
+      "english": "Emerald",
+      "finnish": "Smaragdi",
+      "french": "Émeraude",
+      "german": "Smaragd",
+      "greek": "Emerald",
+      "hungarian": "Smaragd",
+      "indonesian": "Emerald",
+      "italian": "Emerald",
+      "japanese": "Emerald",
+      "koreana": "에메랄드",
+      "latam": "Esmeralda",
+      "norwegian": "Emerald",
+      "polish": "Szmaragd",
+      "portuguese": "Emerald",
+      "romanian": "Emerald",
+      "russian": "Изумруд",
+      "schinese": "翡翠色调",
+      "schinese_pw": "Emerald",
+      "spanish": "Esmeralda",
+      "swedish": "Emerald",
+      "tchinese": "翠綠色",
+      "thai": "Emerald",
+      "turkish": "Zümrüt",
+      "ukrainian": "Смарагд",
+      "vietnamese": "Emerald"
+    },
+    "name": "Emerald",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-453",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Esmeralda",
+    "bulgarian": "CZ75-Auto | Изумруденозелено",
+    "czech": "CZ75-Auto | Emerald",
+    "danish": "CZ75-Auto | Emerald",
+    "dutch": "CZ75-Auto | Emerald",
+    "english": "CZ75-Auto | Emerald",
+    "finnish": "CZ75-Auto | Smaragdi",
+    "french": "CZ75-Auto | Émeraude",
+    "german": "CZ75-Auto | Smaragd",
+    "greek": "CZ75-Auto | Emerald",
+    "hungarian": "CZ75-Auto | Smaragd",
+    "indonesian": "CZ75-Auto | Emerald",
+    "italian": "CZ75-Auto | Emerald",
+    "japanese": "CZ75-Auto | Emerald",
+    "koreana": "CZ75 기관권총 | 에메랄드",
+    "latam": "CZ75-Auto | Esmeralda",
+    "norwegian": "CZ75-Auto | Emerald",
+    "polish": "CZ75-Auto | Szmaragd",
+    "portuguese": "CZ75-Auto | Emerald",
+    "romanian": "CZ75-Auto | Emerald",
+    "russian": "CZ75-Auto | Изумруд",
+    "schinese": "CZ75自动型 | 翡翠色调",
+    "schinese_pw": "CZ75-Auto | Emerald",
+    "spanish": "CZ75-Auto | Esmeralda",
+    "swedish": "CZ75-Auto | Emerald",
+    "tchinese": "CZ75-Auto | 翠綠色",
+    "thai": "CZ75-Auto | Emerald",
+    "turkish": "CZ75-Otomatik | Zümrüt",
+    "ukrainian": "ЧЗ-75 авто | Смарагд",
+    "vietnamese": "CZ75-Auto | Emerald"
+  },
+  "media": {
+    "asset_id": "skin__63-453",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-453/light.png",
+      "data/api/media/rendered/files/skins/63-453/medium.png",
+      "data/api/media/rendered/files/skins/63-453/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-453.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-453/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-453/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-453/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-453/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_an_emerald_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_an_emerald_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_an_emerald_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Emerald",
+  "search_slug": "cz75-auto-emerald",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-453__normal__factory-new",
+    "63-453__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

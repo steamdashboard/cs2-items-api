@@ -1,0 +1,255 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 246,
+    "id": 246,
+    "localized_names": {
+      "brazilian": "Âmbar",
+      "bulgarian": "Избледняващ кехлибар",
+      "czech": "Amber Fade",
+      "danish": "Amber Fade",
+      "dutch": "Amber Fade",
+      "english": "Amber Fade",
+      "finnish": "Himmeä meripihka",
+      "french": "Dégradé ambré",
+      "german": "Bernsteinfärbung",
+      "greek": "Amber Fade",
+      "hungarian": "Halvány Borostyán",
+      "indonesian": "Amber Fade",
+      "italian": "Amber Fade",
+      "japanese": "Amber Fade",
+      "koreana": "호박빛 배색",
+      "latam": "Ámbar desteñido",
+      "norwegian": "Amber Fade",
+      "polish": "Spłowiały bursztyn",
+      "portuguese": "Amber Fade",
+      "romanian": "Amber Fade",
+      "russian": "Янтарный градиент",
+      "schinese": "渐变琥珀",
+      "schinese_pw": "Amber Fade",
+      "spanish": "Ámbar desteñido",
+      "swedish": "Amber Fade",
+      "tchinese": "琥珀漸層",
+      "thai": "Amber Fade",
+      "turkish": "Solgun Sarı",
+      "ukrainian": "Бурштиновий градієнт",
+      "vietnamese": "Amber Fade"
+    },
+    "name": "Amber Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-246",
+  "localized_names": {
+    "brazilian": "Galil AR | Âmbar",
+    "bulgarian": "Galil AR | Избледняващ кехлибар",
+    "czech": "Galil AR | Amber Fade",
+    "danish": "Galil AR | Amber Fade",
+    "dutch": "Galil AR | Amber Fade",
+    "english": "Galil AR | Amber Fade",
+    "finnish": "Galil AR | Himmeä meripihka",
+    "french": "Galil AR | Dégradé ambré",
+    "german": "Galil AR | Bernsteinfärbung",
+    "greek": "Galil AR | Amber Fade",
+    "hungarian": "Galil AR | Halvány Borostyán",
+    "indonesian": "Galil AR | Amber Fade",
+    "italian": "Galil AR | Amber Fade",
+    "japanese": "Galil AR | Amber Fade",
+    "koreana": "갈릴 돌격소총 | 호박빛 배색",
+    "latam": "Galil AR | Ámbar desteñido",
+    "norwegian": "Galil AR | Amber Fade",
+    "polish": "Galil AR | Spłowiały bursztyn",
+    "portuguese": "Galil AR | Amber Fade",
+    "romanian": "Galil AR | Amber Fade",
+    "russian": "Автомат «Галиль» | Янтарный градиент",
+    "schinese": "加利尔AR | 渐变琥珀",
+    "schinese_pw": "Galil AR | Amber Fade",
+    "spanish": "Galil AR | Ámbar desteñido",
+    "swedish": "Galil AR | Amber Fade",
+    "tchinese": "Galil AR | 琥珀漸層",
+    "thai": "Galil AR | Amber Fade",
+    "turkish": "Galil AR | Solgun Sarı",
+    "ukrainian": "Ґаліл | Бурштиновий градієнт",
+    "vietnamese": "Galil AR | Amber Fade"
+  },
+  "media": {
+    "asset_id": "skin__13-246",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-246/light.png",
+      "data/api/media/rendered/files/skins/13-246/medium.png",
+      "data/api/media/rendered/files/skins/13-246/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-246.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-246/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-246/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-246/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-246/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_aa_fade_metallic_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_aa_fade_metallic_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_aa_fade_metallic_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Amber Fade",
+  "search_slug": "galil-ar-amber-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "13-246__normal__factory-new",
+    "13-246__normal__field-tested",
+    "13-246__normal__minimal-wear",
+    "13-246__normal__well-worn",
+    "13-246__souvenir__factory-new",
+    "13-246__souvenir__field-tested",
+    "13-246__souvenir__minimal-wear",
+    "13-246__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

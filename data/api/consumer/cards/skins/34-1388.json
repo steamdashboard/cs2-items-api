@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1388,
+    "id": 1388,
+    "localized_names": {
+      "brazilian": "4-B3-LH4",
+      "bulgarian": "Пчелотрон",
+      "czech": "Bee-Tron",
+      "danish": "Bee-Tron",
+      "dutch": "Bee-Tron",
+      "english": "Bee-Tron",
+      "finnish": "Metallimehiläinen",
+      "french": "Bizon ruché",
+      "german": "Bientron",
+      "greek": "Bee-Tron",
+      "hungarian": "Méh-Tron",
+      "indonesian": "Bee-Tron",
+      "italian": "Bee-Tron",
+      "japanese": "Bee-Tron",
+      "koreana": "비트론",
+      "latam": "Abejorro",
+      "norwegian": "Bee-Tron",
+      "polish": "Pszczołotron",
+      "portuguese": "Bee-Tron",
+      "romanian": "Bee-Tron",
+      "russian": "Пчелотрон",
+      "schinese": "创世蜂鸣",
+      "schinese_pw": "Bee-Tron",
+      "spanish": "Abejorro",
+      "swedish": "Bee-Tron",
+      "tchinese": "蜜蜂龍",
+      "thai": "Bee-Tron",
+      "turkish": "Arımatik",
+      "ukrainian": "Бджолотрон",
+      "vietnamese": "Bee-Tron"
+    },
+    "name": "Bee-Tron",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.9,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-1388",
+  "localized_names": {
+    "brazilian": "MP9 | 4-B3-LH4",
+    "bulgarian": "MP9 | Пчелотрон",
+    "czech": "MP9 | Bee-Tron",
+    "danish": "MP9 | Bee-Tron",
+    "dutch": "MP9 | Bee-Tron",
+    "english": "MP9 | Bee-Tron",
+    "finnish": "MP9 | Metallimehiläinen",
+    "french": "MP9 | Bizon ruché",
+    "german": "MP9 | Bientron",
+    "greek": "MP9 | Bee-Tron",
+    "hungarian": "MP9 | Méh-Tron",
+    "indonesian": "MP9 | Bee-Tron",
+    "italian": "MP9 | Bee-Tron",
+    "japanese": "MP9 | Bee-Tron",
+    "koreana": "MP9 | 비트론",
+    "latam": "MP9 | Abejorro",
+    "norwegian": "MP9 | Bee-Tron",
+    "polish": "MP9 | Pszczołotron",
+    "portuguese": "MP9 | Bee-Tron",
+    "romanian": "MP9 | Bee-Tron",
+    "russian": "MP9 | Пчелотрон",
+    "schinese": "MP9 | 创世蜂鸣",
+    "schinese_pw": "MP9 | Bee-Tron",
+    "spanish": "MP9 | Abejorro",
+    "swedish": "MP9 | Bee-Tron",
+    "tchinese": "MP9 | 蜜蜂龍",
+    "thai": "MP9 | Bee-Tron",
+    "turkish": "MP9 | Arımatik",
+    "ukrainian": "МП9 | Бджолотрон",
+    "vietnamese": "MP9 | Bee-Tron"
+  },
+  "media": {
+    "asset_id": "skin__34-1388",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-1388/light.png",
+      "data/api/media/rendered/files/skins/34-1388/medium.png",
+      "data/api/media/rendered/files/skins/34-1388/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-1388.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-1388/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-1388/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-1388/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-1388/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_soe_yellow_bits_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_soe_yellow_bits_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_soe_yellow_bits_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Bee-Tron",
+  "search_slug": "mp9-bee-tron",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_exuberant",
+        "name": "The Harlequin Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-1388__normal__battle-scarred",
+    "34-1388__normal__factory-new",
+    "34-1388__normal__field-tested",
+    "34-1388__normal__minimal-wear",
+    "34-1388__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.9,
+    "min_float": 0.0
+  }
+}

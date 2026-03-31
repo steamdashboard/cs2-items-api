@@ -1,0 +1,140 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_royal",
+    "id": 325,
+    "name": "Chalice",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 325,
+    "weapon_id": 63
+  },
+  "id": "63-325",
+  "name": "CZ75-Auto | Chalice",
+  "search_slug": "cz75-auto-chalice",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_cobblestone",
+        "name": "The Cobblestone Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4027",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4036",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4084",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4134",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4179",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4228",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4276",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4346",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4398",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4465",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4602",
+        "kind": "container",
+        "name": "The Cobblestone Collection",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "63-325__normal__factory-new",
+    "63-325__normal__minimal-wear",
+    "63-325__souvenir__factory-new",
+    "63-325__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_cz75a",
+    "id": 63,
+    "name": "CZ75-Auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.1,
+    "min_float": 0.0
+  }
+}

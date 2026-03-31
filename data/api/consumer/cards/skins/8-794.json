@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 794,
+    "id": 794,
+    "localized_names": {
+      "brazilian": "Varredora",
+      "bulgarian": "Метачка",
+      "czech": "Sweeper",
+      "danish": "Sweeper",
+      "dutch": "Sweeper",
+      "english": "Sweeper",
+      "finnish": "Lakaisija",
+      "french": "Balayeur",
+      "german": "Kehrmaschine",
+      "greek": "Sweeper",
+      "hungarian": "Söprögető",
+      "indonesian": "Sweeper",
+      "italian": "Sweeper",
+      "japanese": "Sweeper",
+      "koreana": "스위퍼",
+      "latam": "Barredor",
+      "norwegian": "Sweeper",
+      "polish": "Zamiatacz",
+      "portuguese": "Sweeper",
+      "romanian": "Sweeper",
+      "russian": "Дворник",
+      "schinese": "扫频仪",
+      "schinese_pw": "Sweeper",
+      "spanish": "Barredor",
+      "swedish": "Sweeper",
+      "tchinese": "掃蕩者",
+      "thai": "Sweeper",
+      "turkish": "Tarayıcı",
+      "ukrainian": "Прибиральник",
+      "vietnamese": "Sweeper"
+    },
+    "name": "Sweeper",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-794",
+  "localized_names": {
+    "brazilian": "AUG | Varredora",
+    "bulgarian": "AUG | Метачка",
+    "czech": "AUG | Sweeper",
+    "danish": "AUG | Sweeper",
+    "dutch": "AUG | Sweeper",
+    "english": "AUG | Sweeper",
+    "finnish": "AUG | Lakaisija",
+    "french": "AUG | Balayeur",
+    "german": "AUG | Kehrmaschine",
+    "greek": "AUG | Sweeper",
+    "hungarian": "AUG | Söprögető",
+    "indonesian": "AUG | Sweeper",
+    "italian": "AUG | Sweeper",
+    "japanese": "AUG | Sweeper",
+    "koreana": "AUG | 스위퍼",
+    "latam": "AUG | Barredor",
+    "norwegian": "AUG | Sweeper",
+    "polish": "AUG | Zamiatacz",
+    "portuguese": "AUG | Sweeper",
+    "romanian": "AUG | Sweeper",
+    "russian": "AUG | Дворник",
+    "schinese": "AUG | 扫频仪",
+    "schinese_pw": "AUG | Sweeper",
+    "spanish": "AUG | Barredor",
+    "swedish": "AUG | Sweeper",
+    "tchinese": "AUG | 掃蕩者",
+    "thai": "AUG | Sweeper",
+    "turkish": "AUG | Tarayıcı",
+    "ukrainian": "АУГ | Прибиральник",
+    "vietnamese": "AUG | Sweeper"
+  },
+  "media": {
+    "asset_id": "skin__8-794",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-794/light.png",
+      "data/api/media/rendered/files/skins/8-794/medium.png",
+      "data/api/media/rendered/files/skins/8-794/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-794.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-794/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-794/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-794/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-794/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_sp_mesh_safetyblack_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_sp_mesh_safetyblack_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_sp_mesh_safetyblack_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Sweeper",
+  "search_slug": "aug-sweeper",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_inferno_2",
+        "name": "The 2018 Inferno Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4967",
+        "kind": "container",
+        "name": "Shanghai 2024 Inferno Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5120",
+        "kind": "container",
+        "name": "Austin 2025 Inferno Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5219",
+        "kind": "container",
+        "name": "Budapest 2025 Inferno Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4540",
+        "kind": "souvenir-package",
+        "name": "London 2018 Inferno Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4590",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Inferno Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4660",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Inferno Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4809",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Inferno Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4835",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Inferno Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4860",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Inferno Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4893",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Inferno Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4926",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Inferno Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "8-794__normal__battle-scarred",
+    "8-794__normal__factory-new",
+    "8-794__normal__field-tested",
+    "8-794__normal__minimal-wear",
+    "8-794__normal__well-worn",
+    "8-794__souvenir__battle-scarred",
+    "8-794__souvenir__factory-new",
+    "8-794__souvenir__field-tested",
+    "8-794__souvenir__minimal-wear",
+    "8-794__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

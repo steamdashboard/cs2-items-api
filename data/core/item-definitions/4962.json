@@ -1,0 +1,52 @@
+{
+  "classification": {
+    "group": "tool",
+    "kind": "tool",
+    "tool_type": "fantoken"
+  },
+  "game_id": 4962,
+  "id": 4962,
+  "name": "tournament_pass_sha2024_pack",
+  "prefab_chain": [
+    "csgo_tool",
+    "fan_token",
+    "sha2024_tournament_pass_prefab"
+  ],
+  "prefab_spec": "sha2024_tournament_pass_prefab sha2024_tournament_steamtv_items",
+  "resolved": {
+    "attributes": {
+      "tournament event id": {
+        "attribute_class": "tournament_event_id",
+        "value": "23"
+      }
+    },
+    "capabilities": {
+      "usable_gc": "1",
+      "usable_out_of_game": "1"
+    },
+    "craft_class": "tool",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "first_sale_date": "2024-11-01",
+    "image_inventory": "econ/status_icons/pw_pickem_2024_pass_pack",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_container_and_tools": "tool",
+    "item_class": "tool",
+    "item_description": "#CSGO_TournamentPass_sha2024_pack_Desc",
+    "item_name": "#CSGO_TournamentPass_sha2024_pack",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "type_tool",
+    "item_type_name": "#CSGO_Type_Ticket",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "name": "tournament_pass_sha2024_pack",
+    "prefab": "sha2024_tournament_pass_prefab sha2024_tournament_steamtv_items",
+    "tool": {
+      "type": "fantoken",
+      "use_string": "#ConsumeItem"
+    }
+  }
+}

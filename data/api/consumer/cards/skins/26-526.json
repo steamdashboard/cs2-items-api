@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 526,
+    "id": 526,
+    "localized_names": {
+      "brazilian": "Zona Fótica",
+      "bulgarian": "Светлинна зона",
+      "czech": "Photic Zone",
+      "danish": "Photic Zone",
+      "dutch": "Photic Zone",
+      "english": "Photic Zone",
+      "finnish": "Valovyöhyke",
+      "french": "Zone photique",
+      "german": "Euphotischer Bereich",
+      "greek": "Photic Zone",
+      "hungarian": "Fotikus Zóna",
+      "indonesian": "Photic Zone",
+      "italian": "Photic Zone",
+      "japanese": "Photic Zone",
+      "koreana": "해양 투광층",
+      "latam": "Zona fótica",
+      "norwegian": "Photic Zone",
+      "polish": "Strefa eufotyczna",
+      "portuguese": "Photic Zone",
+      "romanian": "Photic Zone",
+      "russian": "Океанская глубина",
+      "schinese": "透光区",
+      "schinese_pw": "Photic Zone",
+      "spanish": "Zona fótica",
+      "swedish": "Photic Zone",
+      "tchinese": "真光層",
+      "thai": "Photic Zone",
+      "turkish": "Fotik Alan",
+      "ukrainian": "Світлова сфера",
+      "vietnamese": "Photic Zone"
+    },
+    "name": "Photic Zone",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-526",
+  "localized_names": {
+    "brazilian": "PP-Bizon | Zona Fótica",
+    "bulgarian": "PP-Bizon | Светлинна зона",
+    "czech": "PP-Bizon | Photic Zone",
+    "danish": "PP-Bizon | Photic Zone",
+    "dutch": "PP-Bizon | Photic Zone",
+    "english": "PP-Bizon | Photic Zone",
+    "finnish": "PP-Bizon | Valovyöhyke",
+    "french": "PP-Bizon | Zone photique",
+    "german": "PP-Bizon | Euphotischer Bereich",
+    "greek": "PP-Bizon | Photic Zone",
+    "hungarian": "PP-Bizon | Fotikus Zóna",
+    "indonesian": "PP-Bizon | Photic Zone",
+    "italian": "PP-Bizon | Photic Zone",
+    "japanese": "PP-Bizon | Photic Zone",
+    "koreana": "PP 비존 | 해양 투광층",
+    "latam": "PP-Bizon | Zona fótica",
+    "norwegian": "PP-Bizon | Photic Zone",
+    "polish": "PP-Bizon | Strefa eufotyczna",
+    "portuguese": "PP-Bizon | Photic Zone",
+    "romanian": "PP-Bizon | Photic Zone",
+    "russian": "ПП-19 «Бизон» | Океанская глубина",
+    "schinese": "PP-野牛 | 透光区",
+    "schinese_pw": "PP-Bizon | Photic Zone",
+    "spanish": "PP-Bizon | Zona fótica",
+    "swedish": "PP-Bizon | Photic Zone",
+    "tchinese": "PP-Bizon | 真光層",
+    "thai": "PP-Bizon | Photic Zone",
+    "turkish": "PP-Bizon | Fotik Alan",
+    "ukrainian": "ПП «Бізон» | Світлова сфера",
+    "vietnamese": "PP-Bizon | Photic Zone"
+  },
+  "media": {
+    "asset_id": "skin__26-526",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-526/light.png",
+      "data/api/media/rendered/files/skins/26-526/medium.png",
+      "data/api/media/rendered/files/skins/26-526/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-526.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-526/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-526/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-526/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-526/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_cu_bizon_citizen_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_cu_bizon_citizen_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_cu_bizon_citizen_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | Photic Zone",
+  "search_slug": "pp-bizon-photic-zone",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4187",
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_11",
+        "name": "The Wildfire Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "26-526__normal__battle-scarred",
+    "26-526__normal__factory-new",
+    "26-526__normal__field-tested",
+    "26-526__normal__minimal-wear",
+    "26-526__normal__well-worn",
+    "26-526__stattrak__battle-scarred",
+    "26-526__stattrak__factory-new",
+    "26-526__stattrak__field-tested",
+    "26-526__stattrak__minimal-wear",
+    "26-526__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

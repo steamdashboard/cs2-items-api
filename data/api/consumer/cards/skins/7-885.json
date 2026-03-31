@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 885,
+    "id": 885,
+    "localized_names": {
+      "brazilian": "Rat rod",
+      "bulgarian": "Таратайка",
+      "czech": "Rat Rod",
+      "danish": "Rat Rod",
+      "dutch": "Rat Rod",
+      "english": "Rat Rod",
+      "finnish": "Rottakeppi",
+      "french": "Rat rod",
+      "german": "Rat Rod",
+      "greek": "Rat Rod",
+      "hungarian": "Patkánybot",
+      "indonesian": "Rat Rod",
+      "italian": "Rat Rod",
+      "japanese": "Rat Rod",
+      "koreana": "랫 로드",
+      "latam": "Rat Rod",
+      "norwegian": "Rat Rod",
+      "polish": "Rat rod",
+      "portuguese": "Rat Rod",
+      "romanian": "Rat Rod",
+      "russian": "Колымага",
+      "schinese": "复古浪潮",
+      "schinese_pw": "Rat Rod",
+      "spanish": "Rat Rod",
+      "swedish": "Rat Rod",
+      "tchinese": "Rat Rod",
+      "thai": "Rat Rod",
+      "turkish": "Yarış Faresi",
+      "ukrainian": "Тарантайка",
+      "vietnamese": "Rat Rod"
+    },
+    "name": "Rat Rod",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-885",
+  "localized_names": {
+    "brazilian": "AK-47 | Rat rod",
+    "bulgarian": "AK-47 | Таратайка",
+    "czech": "AK-47 | Rat Rod",
+    "danish": "AK-47 | Rat Rod",
+    "dutch": "AK-47 | Rat Rod",
+    "english": "AK-47 | Rat Rod",
+    "finnish": "AK-47 | Rottakeppi",
+    "french": "AK-47 | Rat rod",
+    "german": "AK-47 | Rat Rod",
+    "greek": "AK-47 | Rat Rod",
+    "hungarian": "AK-47 | Patkánybot",
+    "indonesian": "AK-47 | Rat Rod",
+    "italian": "AK-47 | Rat Rod",
+    "japanese": "AK-47 | Rat Rod",
+    "koreana": "AK-47 | 랫 로드",
+    "latam": "AK-47 | Rat Rod",
+    "norwegian": "AK-47 | Rat Rod",
+    "polish": "AK-47 | Rat rod",
+    "portuguese": "AK-47 | Rat Rod",
+    "romanian": "AK-47 | Rat Rod",
+    "russian": "AK-47 | Колымага",
+    "schinese": "AK-47 | 复古浪潮",
+    "schinese_pw": "AK-47 | Rat Rod",
+    "spanish": "AK-47 | Rat Rod",
+    "swedish": "AK-47 | Rat Rod",
+    "tchinese": "AK-47 | Rat Rod",
+    "thai": "AK-47 | Rat Rod",
+    "turkish": "AK-47 | Yarış Faresi",
+    "ukrainian": "АК-47 | Тарантайка",
+    "vietnamese": "AK-47 | Rat Rod"
+  },
+  "media": {
+    "asset_id": "skin__7-885",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-885/light.png",
+      "data/api/media/rendered/files/skins/7-885/medium.png",
+      "data/api/media/rendered/files/skins/7-885/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-885.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-885/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-885/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-885/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-885/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_nibbler_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_nibbler_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_gs_ak47_nibbler_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Rat Rod",
+  "search_slug": "ak-47-rat-rod",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4620",
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_23",
+        "name": "The Shattered Web Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-885__normal__battle-scarred",
+    "7-885__normal__factory-new",
+    "7-885__normal__field-tested",
+    "7-885__normal__minimal-wear",
+    "7-885__normal__well-worn",
+    "7-885__stattrak__battle-scarred",
+    "7-885__stattrak__factory-new",
+    "7-885__stattrak__field-tested",
+    "7-885__stattrak__minimal-wear",
+    "7-885__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

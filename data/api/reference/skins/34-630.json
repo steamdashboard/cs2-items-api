@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "aa_hide-mp9",
+    "id": 630,
+    "name": "Sand Scale",
+    "rarity_ref": null,
+    "style_code": 6
+  },
+  "game_ref": {
+    "paint_kit_id": 630,
+    "weapon_id": 34
+  },
+  "id": "34-630",
+  "name": "MP9 | Sand Scale",
+  "search_slug": "mp9-sand-scale",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_15",
+        "name": "The Glove Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4288",
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "34-630__normal__factory-new",
+    "34-630__normal__minimal-wear",
+    "34-630__normal__field-tested",
+    "34-630__normal__well-worn",
+    "34-630__stattrak__factory-new",
+    "34-630__stattrak__minimal-wear",
+    "34-630__stattrak__field-tested",
+    "34-630__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_mp9",
+    "id": 34,
+    "name": "MP9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.45,
+    "min_float": 0.0
+  }
+}

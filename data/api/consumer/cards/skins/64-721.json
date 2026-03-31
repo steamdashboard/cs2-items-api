@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 721,
+    "id": 721,
+    "localized_names": {
+      "brazilian": "Sobrevivente",
+      "bulgarian": "Оцеляващ",
+      "czech": "Survivalist",
+      "danish": "Survivalist",
+      "dutch": "Survivalist",
+      "english": "Survivalist",
+      "finnish": "Selviytyjä",
+      "french": "Survivaliste",
+      "german": "Überlebenskünstler",
+      "greek": "Survivalist",
+      "hungarian": "Túlélő",
+      "indonesian": "Survivalist",
+      "italian": "Survivalist",
+      "japanese": "Survivalist",
+      "koreana": "생존주의자",
+      "latam": "Survivalista",
+      "norwegian": "Survivalist",
+      "polish": "Mistrz przetrwania",
+      "portuguese": "Survivalist",
+      "romanian": "Survivalist",
+      "russian": "Выживший",
+      "schinese": "生存主义者",
+      "schinese_pw": "Survivalist",
+      "spanish": "Survivalista",
+      "swedish": "Survivalist",
+      "tchinese": "生存專家",
+      "thai": "Survivalist",
+      "turkish": "Hayatta Kalma Uzmanı",
+      "ukrainian": "Виживальник",
+      "vietnamese": "Survivalist"
+    },
+    "name": "Survivalist",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "64-721",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Sobrevivente",
+    "bulgarian": "Револвер R8 | Оцеляващ",
+    "czech": "Revolver R8 | Survivalist",
+    "danish": "R8-revolver | Survivalist",
+    "dutch": "R8-revolver | Survivalist",
+    "english": "R8 Revolver | Survivalist",
+    "finnish": "R8-revolveri | Selviytyjä",
+    "french": "Révolver R8 | Survivaliste",
+    "german": "R8-Revolver | Überlebenskünstler",
+    "greek": "R8 Revolver | Survivalist",
+    "hungarian": "R8 revolver | Túlélő",
+    "indonesian": "R8 Revolver | Survivalist",
+    "italian": "Revolver R8 | Survivalist",
+    "japanese": "R8 Revolver | Survivalist",
+    "koreana": "R8 리볼버 | 생존주의자",
+    "latam": "Revólver R8 | Survivalista",
+    "norwegian": "R8 Revolver | Survivalist",
+    "polish": "Rewolwer R8 | Mistrz przetrwania",
+    "portuguese": "R8 Revolver | Survivalist",
+    "romanian": "Revolver R8 | Survivalist",
+    "russian": "Револьвер R8 | Выживший",
+    "schinese": "R8左轮手枪 | 生存主义者",
+    "schinese_pw": "R8 Revolver | Survivalist",
+    "spanish": "Revólver R8 | Survivalista",
+    "swedish": "R8 Revolver | Survivalist",
+    "tchinese": "R8 Revolver | 生存專家",
+    "thai": "ปืนลูกโม่ R8 | Survivalist",
+    "turkish": "R8 Revolver | Hayatta Kalma Uzmanı",
+    "ukrainian": "Револьвер Р8 | Виживальник",
+    "vietnamese": "Súng lục R8 | Survivalist"
+  },
+  "media": {
+    "asset_id": "skin__64-721",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-721/light.png",
+      "data/api/media/rendered/files/skins/64-721/medium.png",
+      "data/api/media/rendered/files/skins/64-721/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-721.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-721/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-721/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-721/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-721/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_cu_r8_survivalist_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_cu_r8_survivalist_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_cu_r8_survivalist_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Survivalist",
+  "search_slug": "r8-revolver-survivalist",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4482",
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_20",
+        "name": "The Horizon Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-721__normal__battle-scarred",
+    "64-721__normal__factory-new",
+    "64-721__normal__field-tested",
+    "64-721__normal__minimal-wear",
+    "64-721__normal__well-worn",
+    "64-721__stattrak__battle-scarred",
+    "64-721__stattrak__factory-new",
+    "64-721__stattrak__field-tested",
+    "64-721__stattrak__minimal-wear",
+    "64-721__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

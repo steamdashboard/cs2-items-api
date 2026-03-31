@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 297,
+    "id": 297,
+    "localized_names": {
+      "brazilian": "Terno",
+      "bulgarian": "Смокинг",
+      "czech": "Tuxedo",
+      "danish": "Tuxedo",
+      "dutch": "Tuxedo",
+      "english": "Tuxedo",
+      "finnish": "Smokki",
+      "french": "Tuxedo",
+      "german": "Smoking",
+      "greek": "Tuxedo",
+      "hungarian": "Szmoking",
+      "indonesian": "Tuxedo",
+      "italian": "Tuxedo",
+      "japanese": "Tuxedo",
+      "koreana": "턱시도",
+      "latam": "Esmoquin",
+      "norwegian": "Tuxedo",
+      "polish": "Smoking",
+      "portuguese": "Tuxedo",
+      "romanian": "Tuxedo",
+      "russian": "Смокинг",
+      "schinese": "燕尾",
+      "schinese_pw": "Tuxedo",
+      "spanish": "Esmoquin",
+      "swedish": "Tuxedo",
+      "tchinese": "晚禮服",
+      "thai": "Tuxedo",
+      "turkish": "Smokin",
+      "ukrainian": "Смокінг",
+      "vietnamese": "Tuxedo"
+    },
+    "name": "Tuxedo",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-297",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Terno",
+    "bulgarian": "CZ75-Auto | Смокинг",
+    "czech": "CZ75-Auto | Tuxedo",
+    "danish": "CZ75-Auto | Tuxedo",
+    "dutch": "CZ75-Auto | Tuxedo",
+    "english": "CZ75-Auto | Tuxedo",
+    "finnish": "CZ75-Auto | Smokki",
+    "french": "CZ75-Auto | Tuxedo",
+    "german": "CZ75-Auto | Smoking",
+    "greek": "CZ75-Auto | Tuxedo",
+    "hungarian": "CZ75-Auto | Szmoking",
+    "indonesian": "CZ75-Auto | Tuxedo",
+    "italian": "CZ75-Auto | Tuxedo",
+    "japanese": "CZ75-Auto | Tuxedo",
+    "koreana": "CZ75 기관권총 | 턱시도",
+    "latam": "CZ75-Auto | Esmoquin",
+    "norwegian": "CZ75-Auto | Tuxedo",
+    "polish": "CZ75-Auto | Smoking",
+    "portuguese": "CZ75-Auto | Tuxedo",
+    "romanian": "CZ75-Auto | Tuxedo",
+    "russian": "CZ75-Auto | Смокинг",
+    "schinese": "CZ75自动型 | 燕尾",
+    "schinese_pw": "CZ75-Auto | Tuxedo",
+    "spanish": "CZ75-Auto | Esmoquin",
+    "swedish": "CZ75-Auto | Tuxedo",
+    "tchinese": "CZ75-Auto | 晚禮服",
+    "thai": "CZ75-Auto | Tuxedo",
+    "turkish": "CZ75-Otomatik | Smokin",
+    "ukrainian": "ЧЗ-75 авто | Смокінг",
+    "vietnamese": "CZ75-Auto | Tuxedo"
+  },
+  "media": {
+    "asset_id": "skin__63-297",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-297/light.png",
+      "data/api/media/rendered/files/skins/63-297/medium.png",
+      "data/api/media/rendered/files/skins/63-297/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-297.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-297/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-297/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-297/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-297/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_so_orca_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_so_orca_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_so_orca_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Tuxedo",
+  "search_slug": "cz75-auto-tuxedo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-297__normal__battle-scarred",
+    "63-297__normal__factory-new",
+    "63-297__normal__field-tested",
+    "63-297__normal__minimal-wear",
+    "63-297__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

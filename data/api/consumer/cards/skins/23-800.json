@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 800,
+    "id": 800,
+    "localized_names": {
+      "brazilian": "Ratos de Laboratório",
+      "bulgarian": "Лабораторни плъхове",
+      "czech": "Lab Rats",
+      "danish": "Lab Rats",
+      "dutch": "Lab Rats",
+      "english": "Lab Rats",
+      "finnish": "Koe-eläimet",
+      "french": "Rats de laboratoire",
+      "german": "Laborratten",
+      "greek": "Lab Rats",
+      "hungarian": "Kísérleti Patkányok",
+      "indonesian": "Lab Rats",
+      "italian": "Lab Rats",
+      "japanese": "Lab Rats",
+      "koreana": "실험쥐",
+      "latam": "Ratas de laboratorio",
+      "norwegian": "Lab Rats",
+      "polish": "Szczury laboratoryjne",
+      "portuguese": "Lab Rats",
+      "romanian": "Lab Rats",
+      "russian": "Подопытные крысы",
+      "schinese": "小白鼠",
+      "schinese_pw": "Lab Rats",
+      "spanish": "Ratas de laboratorio",
+      "swedish": "Lab Rats",
+      "tchinese": "實驗室老鼠",
+      "thai": "Lab Rats",
+      "turkish": "Kobay Fareleri",
+      "ukrainian": "Лабораторні щури",
+      "vietnamese": "Lab Rats"
+    },
+    "name": "Lab Rats",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.35,
+      "min_float": 0.0
+    }
+  },
+  "id": "23-800",
+  "localized_names": {
+    "brazilian": "MP5-SD | Ratos de Laboratório",
+    "bulgarian": "MP5-SD | Лабораторни плъхове",
+    "czech": "MP5-SD | Lab Rats",
+    "danish": "MP5-SD | Lab Rats",
+    "dutch": "MP5-SD | Lab Rats",
+    "english": "MP5-SD | Lab Rats",
+    "finnish": "MP5-SD | Koe-eläimet",
+    "french": "MP5SD | Rats de laboratoire",
+    "german": "MP5-SD | Laborratten",
+    "greek": "MP5-SD | Lab Rats",
+    "hungarian": "MP5-SD | Kísérleti Patkányok",
+    "indonesian": "MP5-SD | Lab Rats",
+    "italian": "MP5-SD | Lab Rats",
+    "japanese": "MP5-SD | Lab Rats",
+    "koreana": "MP5-SD | 실험쥐",
+    "latam": "MP5-SD | Ratas de laboratorio",
+    "norwegian": "MP5-SD | Lab Rats",
+    "polish": "MP5-SD | Szczury laboratoryjne",
+    "portuguese": "MP5-SD | Lab Rats",
+    "romanian": "MP5-SD | Lab Rats",
+    "russian": "MP5-SD | Подопытные крысы",
+    "schinese": "MP5-SD | 小白鼠",
+    "schinese_pw": "MP5-SD | Lab Rats",
+    "spanish": "MP5-SD | Ratas de laboratorio",
+    "swedish": "MP5-SD | Lab Rats",
+    "tchinese": "MP5-SD | 實驗室老鼠",
+    "thai": "MP5-SD | Lab Rats",
+    "turkish": "MP5-SD | Kobay Fareleri",
+    "ukrainian": "МП5-СД | Лабораторні щури",
+    "vietnamese": "MP5-SD | Lab Rats"
+  },
+  "media": {
+    "asset_id": "skin__23-800",
+    "images_png": [
+      "data/api/media/rendered/files/skins/23-800/light.png",
+      "data/api/media/rendered/files/skins/23-800/medium.png",
+      "data/api/media/rendered/files/skins/23-800/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/23-800.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/23-800/heavy.png",
+      "light": "data/api/media/rendered/files/skins/23-800/light.png",
+      "medium": "data/api/media/rendered/files/skins/23-800/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/23-800/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp5sd_hy_labrat_mp5_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp5sd_hy_labrat_mp5_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp5sd_hy_labrat_mp5_medium_png.vtex_c"
+    }
+  },
+  "name": "MP5-SD | Lab Rats",
+  "search_slug": "mp5-sd-lab-rats",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_blacksite",
+        "name": "The Blacksite Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "23-800__normal__factory-new",
+    "23-800__normal__field-tested",
+    "23-800__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 23,
+    "localized_names": {
+      "brazilian": "MP5-SD",
+      "bulgarian": "MP5-SD",
+      "czech": "MP5-SD",
+      "danish": "MP5-SD",
+      "dutch": "MP5-SD",
+      "english": "MP5-SD",
+      "finnish": "MP5-SD",
+      "french": "MP5SD",
+      "german": "MP5-SD",
+      "greek": "MP5-SD",
+      "hungarian": "MP5-SD",
+      "indonesian": "MP5-SD",
+      "italian": "MP5-SD",
+      "japanese": "MP5-SD",
+      "koreana": "MP5-SD",
+      "latam": "MP5-SD",
+      "norwegian": "MP5-SD",
+      "polish": "MP5-SD",
+      "portuguese": "MP5-SD",
+      "romanian": "MP5-SD",
+      "russian": "MP5-SD",
+      "schinese": "MP5-SD",
+      "schinese_pw": "MP5-SD",
+      "spanish": "MP5-SD",
+      "swedish": "MP5-SD",
+      "tchinese": "MP5-SD",
+      "thai": "MP5-SD",
+      "turkish": "MP5-SD",
+      "ukrainian": "МП5-СД",
+      "vietnamese": "MP5-SD"
+    },
+    "name": "MP5-SD",
+    "search_slug": "mp5-sd",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.35,
+    "min_float": 0.0
+  }
+}

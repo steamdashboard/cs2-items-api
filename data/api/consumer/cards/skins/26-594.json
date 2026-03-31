@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 594,
+    "id": 594,
+    "localized_names": {
+      "brazilian": "Ceifadora",
+      "bulgarian": "Жътвар",
+      "czech": "Harvester",
+      "danish": "Harvester",
+      "dutch": "Harvester",
+      "english": "Harvester",
+      "finnish": "Puimuri",
+      "french": "Moissonneur",
+      "german": "Harvester",
+      "greek": "Harvester",
+      "hungarian": "Arató",
+      "indonesian": "Harvester",
+      "italian": "Harvester",
+      "japanese": "Harvester",
+      "koreana": "하베스터",
+      "latam": "Segadora",
+      "norwegian": "Harvester",
+      "polish": "Żniwiarz",
+      "portuguese": "Harvester",
+      "romanian": "Harvester",
+      "russian": "Жнец",
+      "schinese": "收割机",
+      "schinese_pw": "Harvester",
+      "spanish": "Segadora",
+      "swedish": "Harvester",
+      "tchinese": "收割機",
+      "thai": "Harvester",
+      "turkish": "Hasatçı",
+      "ukrainian": "Жнець",
+      "vietnamese": "Harvester"
+    },
+    "name": "Harvester",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-594",
+  "localized_names": {
+    "brazilian": "PP-Bizon | Ceifadora",
+    "bulgarian": "PP-Bizon | Жътвар",
+    "czech": "PP-Bizon | Harvester",
+    "danish": "PP-Bizon | Harvester",
+    "dutch": "PP-Bizon | Harvester",
+    "english": "PP-Bizon | Harvester",
+    "finnish": "PP-Bizon | Puimuri",
+    "french": "PP-Bizon | Moissonneur",
+    "german": "PP-Bizon | Harvester",
+    "greek": "PP-Bizon | Harvester",
+    "hungarian": "PP-Bizon | Arató",
+    "indonesian": "PP-Bizon | Harvester",
+    "italian": "PP-Bizon | Harvester",
+    "japanese": "PP-Bizon | Harvester",
+    "koreana": "PP 비존 | 하베스터",
+    "latam": "PP-Bizon | Segadora",
+    "norwegian": "PP-Bizon | Harvester",
+    "polish": "PP-Bizon | Żniwiarz",
+    "portuguese": "PP-Bizon | Harvester",
+    "romanian": "PP-Bizon | Harvester",
+    "russian": "ПП-19 «Бизон» | Жнец",
+    "schinese": "PP-野牛 | 收割机",
+    "schinese_pw": "PP-Bizon | Harvester",
+    "spanish": "PP-Bizon | Segadora",
+    "swedish": "PP-Bizon | Harvester",
+    "tchinese": "PP-Bizon | 收割機",
+    "thai": "PP-Bizon | Harvester",
+    "turkish": "PP-Bizon | Hasatçı",
+    "ukrainian": "ПП «Бізон» | Жнець",
+    "vietnamese": "PP-Bizon | Harvester"
+  },
+  "media": {
+    "asset_id": "skin__26-594",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-594/light.png",
+      "data/api/media/rendered/files/skins/26-594/medium.png",
+      "data/api/media/rendered/files/skins/26-594/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-594.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-594/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-594/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-594/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-594/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_gs_pp_bizon_harvester_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_gs_pp_bizon_harvester_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_gs_pp_bizon_harvester_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | Harvester",
+  "search_slug": "pp-bizon-harvester",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4236",
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_13",
+        "name": "The Gamma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "26-594__normal__battle-scarred",
+    "26-594__normal__factory-new",
+    "26-594__normal__field-tested",
+    "26-594__normal__minimal-wear",
+    "26-594__normal__well-worn",
+    "26-594__stattrak__battle-scarred",
+    "26-594__stattrak__factory-new",
+    "26-594__stattrak__field-tested",
+    "26-594__stattrak__minimal-wear",
+    "26-594__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

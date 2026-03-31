@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 548,
+    "id": 548,
+    "localized_names": {
+      "brazilian": "Fogo de Chantico",
+      "bulgarian": "Огънят на Чантико",
+      "czech": "Chantico's Fire",
+      "danish": "Chantico's Fire",
+      "dutch": "Chantico's Fire",
+      "english": "Chantico's Fire",
+      "finnish": "Tulijumala",
+      "french": "Flammes de Chantico",
+      "german": "Chanticos Feuer",
+      "greek": "Chantico's Fire",
+      "hungarian": "Chantico Tüze",
+      "indonesian": "Chantico's Fire",
+      "italian": "Chantico's Fire",
+      "japanese": "Chantico's Fire",
+      "koreana": "찬티코의 불",
+      "latam": "Fuego de Chantico",
+      "norwegian": "Chantico's Fire",
+      "polish": "Płomień Chantico",
+      "portuguese": "Chantico's Fire",
+      "romanian": "Chantico's Fire",
+      "russian": "Огонь Чантико",
+      "schinese": "女火神之炽焰",
+      "schinese_pw": "Chantico's Fire",
+      "spanish": "Fuego de Chantico",
+      "swedish": "Chantico's Fire",
+      "tchinese": "兼提科之火",
+      "thai": "Chantico's Fire",
+      "turkish": "Chantico'nun Ateşi",
+      "ukrainian": "Вогнище Чантіко",
+      "vietnamese": "Chantico's Fire"
+    },
+    "name": "Chantico's Fire",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.99,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-548",
+  "localized_names": {
+    "brazilian": "M4A1-S | Fogo de Chantico",
+    "bulgarian": "M4A1-S | Огънят на Чантико",
+    "czech": "M4A1-S | Chantico's Fire",
+    "danish": "M4A1-S | Chantico's Fire",
+    "dutch": "M4A1-S | Chantico's Fire",
+    "english": "M4A1-S | Chantico's Fire",
+    "finnish": "M4A1-S | Tulijumala",
+    "french": "M4A1-S | Flammes de Chantico",
+    "german": "M4A1-S | Chanticos Feuer",
+    "greek": "M4A1-S | Chantico's Fire",
+    "hungarian": "M4A1-S | Chantico Tüze",
+    "indonesian": "M4A1-S | Chantico's Fire",
+    "italian": "M4A1-S | Chantico's Fire",
+    "japanese": "M4A1-S | Chantico's Fire",
+    "koreana": "M4A1-S | 찬티코의 불",
+    "latam": "M4A1-S | Fuego de Chantico",
+    "norwegian": "M4A1-S | Chantico's Fire",
+    "polish": "M4A1-S | Płomień Chantico",
+    "portuguese": "M4A1-S | Chantico's Fire",
+    "romanian": "M4A1-S | Chantico's Fire",
+    "russian": "M4A1-S | Огонь Чантико",
+    "schinese": "M4A1消音版 | 女火神之炽焰",
+    "schinese_pw": "M4A1-S | Chantico's Fire",
+    "spanish": "M4A1-S | Fuego de Chantico",
+    "swedish": "M4A1-S | Chantico's Fire",
+    "tchinese": "M4A1-S | 兼提科之火",
+    "thai": "M4A1-S | Chantico's Fire",
+    "turkish": "M4A1-S | Chantico'nun Ateşi",
+    "ukrainian": "М4А1-С | Вогнище Чантіко",
+    "vietnamese": "M4A1-S | Chantico's Fire"
+  },
+  "media": {
+    "asset_id": "skin__60-548",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-548/light.png",
+      "data/api/media/rendered/files/skins/60-548/medium.png",
+      "data/api/media/rendered/files/skins/60-548/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-548.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-548/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-548/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-548/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-548/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_soultaker_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_soultaker_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_soultaker_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Chantico's Fire",
+  "search_slug": "m4a1-s-chantico-s-fire",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4233",
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_12",
+        "name": "The Chroma 3 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-548__normal__battle-scarred",
+    "60-548__normal__factory-new",
+    "60-548__normal__field-tested",
+    "60-548__normal__minimal-wear",
+    "60-548__normal__well-worn",
+    "60-548__stattrak__battle-scarred",
+    "60-548__stattrak__factory-new",
+    "60-548__stattrak__field-tested",
+    "60-548__stattrak__minimal-wear",
+    "60-548__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.99,
+    "min_float": 0.0
+  }
+}

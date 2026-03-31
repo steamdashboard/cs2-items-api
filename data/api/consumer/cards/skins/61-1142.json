@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1142,
+    "id": 1142,
+    "localized_names": {
+      "brazilian": "Cadeia de Caracteres",
+      "bulgarian": "Печатен поток",
+      "czech": "Printstream",
+      "danish": "Printstream",
+      "dutch": "Printstream",
+      "english": "Printstream",
+      "finnish": "Printstream",
+      "french": "Iconographie",
+      "german": "Printstream",
+      "greek": "Printstream",
+      "hungarian": "Nyomdafolyam",
+      "indonesian": "Printstream",
+      "italian": "Printstream",
+      "japanese": "Printstream",
+      "koreana": "프린트스트림",
+      "latam": "Printstream",
+      "norwegian": "Printstream",
+      "polish": "Łańcuch znaków",
+      "portuguese": "Printstream",
+      "romanian": "Printstream",
+      "russian": "Поток информации",
+      "schinese": "印花集",
+      "schinese_pw": "Printstream",
+      "spanish": "PrintStream",
+      "swedish": "Printstream",
+      "tchinese": "印刷輸出",
+      "thai": "Printstream",
+      "turkish": "Printstream",
+      "ukrainian": "Друкопис",
+      "vietnamese": "Printstream"
+    },
+    "name": "Printstream",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.85,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-1142",
+  "localized_names": {
+    "brazilian": "USP-S | Cadeia de Caracteres",
+    "bulgarian": "USP-S | Печатен поток",
+    "czech": "USP-S | Printstream",
+    "danish": "USP-S | Printstream",
+    "dutch": "USP-S | Printstream",
+    "english": "USP-S | Printstream",
+    "finnish": "USP-S | Printstream",
+    "french": "USP-S | Iconographie",
+    "german": "USP-S | Printstream",
+    "greek": "USP-S | Printstream",
+    "hungarian": "USP-S | Nyomdafolyam",
+    "indonesian": "USP-S | Printstream",
+    "italian": "USP-S | Printstream",
+    "japanese": "USP-S | Printstream",
+    "koreana": "USP-S | 프린트스트림",
+    "latam": "USP-S | Printstream",
+    "norwegian": "USP-S | Printstream",
+    "polish": "USP-S | Łańcuch znaków",
+    "portuguese": "USP-S | Printstream",
+    "romanian": "USP-S | Printstream",
+    "russian": "USP-S | Поток информации",
+    "schinese": "USP消音版 | 印花集",
+    "schinese_pw": "USP-S | Printstream",
+    "spanish": "USP-S | PrintStream",
+    "swedish": "USP-S | Printstream",
+    "tchinese": "USP-S | 印刷輸出",
+    "thai": "USP-S | Printstream",
+    "turkish": "USP-S | Printstream",
+    "ukrainian": "УСП-С | Друкопис",
+    "vietnamese": "USP-S | Printstream"
+  },
+  "media": {
+    "asset_id": "skin__61-1142",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-1142/light.png",
+      "data/api/media/rendered/files/skins/61-1142/medium.png",
+      "data/api/media/rendered/files/skins/61-1142/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-1142.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-1142/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-1142/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-1142/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-1142/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_printstream_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_printstream_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_printstream_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Printstream",
+  "search_slug": "usp-s-printstream",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4846",
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_31",
+        "name": "The Recoil Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-1142__normal__battle-scarred",
+    "61-1142__normal__factory-new",
+    "61-1142__normal__field-tested",
+    "61-1142__normal__minimal-wear",
+    "61-1142__normal__well-worn",
+    "61-1142__stattrak__battle-scarred",
+    "61-1142__stattrak__factory-new",
+    "61-1142__stattrak__field-tested",
+    "61-1142__stattrak__minimal-wear",
+    "61-1142__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.85,
+    "min_float": 0.0
+  }
+}

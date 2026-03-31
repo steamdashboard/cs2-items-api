@@ -1,0 +1,65 @@
+{
+  "card_type": "knife",
+  "description": "This ivory-handled karambit features brass rivets and saw-tooth ridges, so it cuts on the way in, and tears on the way out.",
+  "id": 523,
+  "localized_names": {
+    "brazilian": "Faca Talon",
+    "bulgarian": "Нож нокът",
+    "czech": "Talon",
+    "danish": "Talon-kniv",
+    "dutch": "Talon-mes",
+    "english": "Talon Knife",
+    "finnish": "Kynsiveitsi",
+    "french": "Canif",
+    "german": "Talon-Messer",
+    "greek": "Μαχαίρι Talon",
+    "hungarian": "Talon kés",
+    "indonesian": "Pisau Talon",
+    "italian": "Coltello Talon",
+    "japanese": "Talon ナイフ",
+    "koreana": "탈론 칼",
+    "latam": "Cuchillo talón",
+    "norwegian": "Klokniv",
+    "polish": "Szpon",
+    "portuguese": "Faca Talon",
+    "romanian": "Cuțit Talon",
+    "russian": "Коготь",
+    "schinese": "锯齿爪刀",
+    "schinese_pw": "Talon Knife",
+    "spanish": "Cuchillo Garra",
+    "swedish": "Talonkniv",
+    "tchinese": "彎爪刀",
+    "thai": "มีดทาลอน",
+    "turkish": "Talon Bıçağı",
+    "ukrainian": "Ніж-кіготь",
+    "vietnamese": "Dao Talon"
+  },
+  "media": {
+    "asset_id": "weapon__523",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/523/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/523.json",
+    "models": [
+      "weapons/models/knife/knife_talon/weapon_knife_talon.vmdl_c",
+      "phase2/weapons/models/knife/knife_talon/weapon_knife_talon_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/523/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.vtex_c"
+  },
+  "name": "Talon Knife",
+  "regular_skin_ids": [],
+  "search_slug": "talon-knife",
+  "side": null,
+  "special_pool_ids": [
+    "set_community_20_unusual",
+    "set_community_22_unusual"
+  ],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

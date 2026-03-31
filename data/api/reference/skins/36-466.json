@@ -1,0 +1,92 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "hy_kimono_diamonds_red",
+    "id": 466,
+    "name": "Crimson Kimono",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 466,
+    "weapon_id": 36
+  },
+  "id": "36-466",
+  "name": "P250 | Crimson Kimono",
+  "search_slug": "p250-crimson-kimono",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_kimono",
+        "name": "The Rising Sun Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4606",
+        "kind": "container",
+        "name": "The Rising Sun Collection",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "36-466__normal__factory-new",
+    "36-466__normal__minimal-wear",
+    "36-466__normal__field-tested",
+    "36-466__normal__well-worn",
+    "36-466__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_p250",
+    "id": 36,
+    "name": "P250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

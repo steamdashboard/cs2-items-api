@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 657,
+    "id": 657,
+    "localized_names": {
+      "brazilian": "Planta Arquitetônica",
+      "bulgarian": "Чертеж",
+      "czech": "Blueprint",
+      "danish": "Blueprint",
+      "dutch": "Blueprint",
+      "english": "Blueprint",
+      "finnish": "Pohjapiirros",
+      "french": "Cyanographie",
+      "german": "Blaupause",
+      "greek": "Blueprint",
+      "hungarian": "Tervrajz",
+      "indonesian": "Blueprint",
+      "italian": "Blueprint",
+      "japanese": "Blueprint",
+      "koreana": "청사진",
+      "latam": "Cianotipo",
+      "norwegian": "Blueprint",
+      "polish": "Plan",
+      "portuguese": "Blueprint",
+      "romanian": "Blueprint",
+      "russian": "Калька",
+      "schinese": "蓝图",
+      "schinese_pw": "Blueprint",
+      "spanish": "Cianotipo",
+      "swedish": "Blueprint",
+      "tchinese": "藍圖",
+      "thai": "Blueprint",
+      "turkish": "Proje",
+      "ukrainian": "Креслення",
+      "vietnamese": "Blueprint"
+    },
+    "name": "Blueprint",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.86,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-657",
+  "localized_names": {
+    "brazilian": "USP-S | Planta Arquitetônica",
+    "bulgarian": "USP-S | Чертеж",
+    "czech": "USP-S | Blueprint",
+    "danish": "USP-S | Blueprint",
+    "dutch": "USP-S | Blueprint",
+    "english": "USP-S | Blueprint",
+    "finnish": "USP-S | Pohjapiirros",
+    "french": "USP-S | Cyanographie",
+    "german": "USP-S | Blaupause",
+    "greek": "USP-S | Blueprint",
+    "hungarian": "USP-S | Tervrajz",
+    "indonesian": "USP-S | Blueprint",
+    "italian": "USP-S | Blueprint",
+    "japanese": "USP-S | Blueprint",
+    "koreana": "USP-S | 청사진",
+    "latam": "USP-S | Cianotipo",
+    "norwegian": "USP-S | Blueprint",
+    "polish": "USP-S | Plan",
+    "portuguese": "USP-S | Blueprint",
+    "romanian": "USP-S | Blueprint",
+    "russian": "USP-S | Калька",
+    "schinese": "USP消音版 | 蓝图",
+    "schinese_pw": "USP-S | Blueprint",
+    "spanish": "USP-S | Cianotipo",
+    "swedish": "USP-S | Blueprint",
+    "tchinese": "USP-S | 藍圖",
+    "thai": "USP-S | Blueprint",
+    "turkish": "USP-S | Proje",
+    "ukrainian": "УСП-С | Креслення",
+    "vietnamese": "USP-S | Blueprint"
+  },
+  "media": {
+    "asset_id": "skin__61-657",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-657/light.png",
+      "data/api/media/rendered/files/skins/61-657/medium.png",
+      "data/api/media/rendered/files/skins/61-657/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-657.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-657/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-657/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-657/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-657/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usps_blueprint_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usps_blueprint_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usps_blueprint_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Blueprint",
+  "search_slug": "usp-s-blueprint",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4352",
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_17",
+        "name": "The Operation Hydra Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-657__normal__battle-scarred",
+    "61-657__normal__factory-new",
+    "61-657__normal__field-tested",
+    "61-657__normal__minimal-wear",
+    "61-657__normal__well-worn",
+    "61-657__stattrak__battle-scarred",
+    "61-657__stattrak__factory-new",
+    "61-657__stattrak__field-tested",
+    "61-657__stattrak__minimal-wear",
+    "61-657__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.86,
+    "min_float": 0.0
+  }
+}

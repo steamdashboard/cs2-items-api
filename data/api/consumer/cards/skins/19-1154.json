@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1154,
+    "id": 1154,
+    "localized_names": {
+      "brazilian": "Rush Duto",
+      "bulgarian": "Вентилационен щурм",
+      "czech": "Vent Rush",
+      "danish": "Vent Rush",
+      "dutch": "Vent Rush",
+      "english": "Vent Rush",
+      "finnish": "Vent Rush",
+      "french": "Retour de flamme",
+      "german": "Vent Rush",
+      "greek": "Vent Rush",
+      "hungarian": "Dühroham",
+      "indonesian": "Vent Rush",
+      "italian": "Vent Rush",
+      "japanese": "Vent Rush",
+      "koreana": "벤트 러시",
+      "latam": "Ventilación rápida",
+      "norwegian": "Vent Rush",
+      "polish": "Szturm wentylacją",
+      "portuguese": "Vent Rush",
+      "romanian": "Vent Rush",
+      "russian": "Прорыв в вентиляцию",
+      "schinese": "给爷冲",
+      "schinese_pw": "Vent Rush",
+      "spanish": "Gas a fondo",
+      "swedish": "Vent Rush",
+      "tchinese": "風口衝刺",
+      "thai": "Vent Rush",
+      "turkish": "Vent Rush",
+      "ukrainian": "Вентиляційний порив",
+      "vietnamese": "Vent Rush"
+    },
+    "name": "Vent Rush",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-1154",
+  "localized_names": {
+    "brazilian": "P90 | Rush Duto",
+    "bulgarian": "P90 | Вентилационен щурм",
+    "czech": "P90 | Vent Rush",
+    "danish": "P90 | Vent Rush",
+    "dutch": "P90 | Vent Rush",
+    "english": "P90 | Vent Rush",
+    "finnish": "P90 | Vent Rush",
+    "french": "P90 | Retour de flamme",
+    "german": "P90 | Vent Rush",
+    "greek": "P90 | Vent Rush",
+    "hungarian": "P90 | Dühroham",
+    "indonesian": "P90 | Vent Rush",
+    "italian": "P90 | Vent Rush",
+    "japanese": "P90 | Vent Rush",
+    "koreana": "P90 | 벤트 러시",
+    "latam": "P90 | Ventilación rápida",
+    "norwegian": "P90 | Vent Rush",
+    "polish": "P90 | Szturm wentylacją",
+    "portuguese": "P90 | Vent Rush",
+    "romanian": "P90 | Vent Rush",
+    "russian": "P90 | Прорыв в вентиляцию",
+    "schinese": "P90 | 给爷冲",
+    "schinese_pw": "P90 | Vent Rush",
+    "spanish": "P90 | Gas a fondo",
+    "swedish": "P90 | Vent Rush",
+    "tchinese": "P90 | 風口衝刺",
+    "thai": "P90 | Vent Rush",
+    "turkish": "P90 | Vent Rush",
+    "ukrainian": "П90 | Вентиляційний порив",
+    "vietnamese": "P90 | Vent Rush"
+  },
+  "media": {
+    "asset_id": "skin__19-1154",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-1154/light.png",
+      "data/api/media/rendered/files/skins/19-1154/medium.png",
+      "data/api/media/rendered/files/skins/19-1154/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-1154.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-1154/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-1154/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-1154/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-1154/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_gs_p90_tangled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_gs_p90_tangled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_gs_p90_tangled_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Vent Rush",
+  "search_slug": "p90-vent-rush",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4846",
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_31",
+        "name": "The Recoil Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-1154__normal__battle-scarred",
+    "19-1154__normal__factory-new",
+    "19-1154__normal__field-tested",
+    "19-1154__normal__minimal-wear",
+    "19-1154__normal__well-worn",
+    "19-1154__stattrak__battle-scarred",
+    "19-1154__stattrak__factory-new",
+    "19-1154__stattrak__field-tested",
+    "19-1154__stattrak__minimal-wear",
+    "19-1154__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

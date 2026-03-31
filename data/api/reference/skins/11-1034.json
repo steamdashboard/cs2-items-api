@@ -1,0 +1,153 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_ancient_wine",
+    "id": 1034,
+    "name": "Ancient Ritual",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 1034,
+    "weapon_id": 11
+  },
+  "id": "11-1034",
+  "name": "G3SG1 | Ancient Ritual",
+  "search_slug": "g3sg1-ancient-ritual",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4722",
+        "kind": "container",
+        "name": "The Ancient Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4813",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4839",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4864",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4897",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4930",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4971",
+        "kind": "container",
+        "name": "Shanghai 2024 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5124",
+        "kind": "container",
+        "name": "Austin 2025 Ancient Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5223",
+        "kind": "container",
+        "name": "Budapest 2025 Ancient Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "11-1034__normal__factory-new",
+    "11-1034__normal__minimal-wear",
+    "11-1034__normal__field-tested",
+    "11-1034__normal__well-worn",
+    "11-1034__normal__battle-scarred",
+    "11-1034__souvenir__factory-new",
+    "11-1034__souvenir__minimal-wear",
+    "11-1034__souvenir__field-tested",
+    "11-1034__souvenir__well-worn",
+    "11-1034__souvenir__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_g3sg1",
+    "id": 11,
+    "name": "G3SG1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.76,
+    "min_float": 0.0
+  }
+}

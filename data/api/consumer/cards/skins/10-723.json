@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 723,
+    "id": 723,
+    "localized_names": {
+      "brazilian": "Olho de Atena",
+      "bulgarian": "Окото на Атина",
+      "czech": "Eye of Athena",
+      "danish": "Eye of Athena",
+      "dutch": "Eye of Athena",
+      "english": "Eye of Athena",
+      "finnish": "Jumalan silmä",
+      "french": "Œil d'Athéna",
+      "german": "Auge der Athene",
+      "greek": "Eye of Athena",
+      "hungarian": "Athéné Szeme",
+      "indonesian": "Eye of Athena",
+      "italian": "Eye of Athena",
+      "japanese": "Eye of Athena",
+      "koreana": "아테나의 눈",
+      "latam": "Ojo de Atenea",
+      "norwegian": "Eye of Athena",
+      "polish": "Oko Ateny",
+      "portuguese": "Eye of Athena",
+      "romanian": "Eye of Athena",
+      "russian": "Глаз Афины",
+      "schinese": "雅典娜之眼",
+      "schinese_pw": "Eye of Athena",
+      "spanish": "Ojo de Atenea",
+      "swedish": "Eye of Athena",
+      "tchinese": "雅典娜之眼",
+      "thai": "Eye of Athena",
+      "turkish": "Athena'nın Gözü",
+      "ukrainian": "Око Афіни",
+      "vietnamese": "Eye of Athena"
+    },
+    "name": "Eye of Athena",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-723",
+  "localized_names": {
+    "brazilian": "FAMAS | Olho de Atena",
+    "bulgarian": "FAMAS | Окото на Атина",
+    "czech": "FAMAS | Eye of Athena",
+    "danish": "FAMAS | Eye of Athena",
+    "dutch": "FAMAS | Eye of Athena",
+    "english": "FAMAS | Eye of Athena",
+    "finnish": "FAMAS | Jumalan silmä",
+    "french": "FAMAS | Œil d'Athéna",
+    "german": "FAMAS | Auge der Athene",
+    "greek": "FAMAS | Eye of Athena",
+    "hungarian": "FAMAS | Athéné Szeme",
+    "indonesian": "FAMAS | Eye of Athena",
+    "italian": "FAMAS | Eye of Athena",
+    "japanese": "FAMAS | Eye of Athena",
+    "koreana": "파마스 | 아테나의 눈",
+    "latam": "FAMAS | Ojo de Atenea",
+    "norwegian": "FAMAS | Eye of Athena",
+    "polish": "FAMAS | Oko Ateny",
+    "portuguese": "FAMAS | Eye of Athena",
+    "romanian": "FAMAS | Eye of Athena",
+    "russian": "FAMAS | Глаз Афины",
+    "schinese": "法玛斯 | 雅典娜之眼",
+    "schinese_pw": "FAMAS | Eye of Athena",
+    "spanish": "FAMAS | Ojo de Atenea",
+    "swedish": "FAMAS | Eye of Athena",
+    "tchinese": "FAMAS | 雅典娜之眼",
+    "thai": "FAMAS | Eye of Athena",
+    "turkish": "FAMAS | Athena'nın Gözü",
+    "ukrainian": "ФАМАС | Око Афіни",
+    "vietnamese": "FAMAS | Eye of Athena"
+  },
+  "media": {
+    "asset_id": "skin__10-723",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-723/light.png",
+      "data/api/media/rendered/files/skins/10-723/medium.png",
+      "data/api/media/rendered/files/skins/10-723/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-723.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-723/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-723/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-723/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-723/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_cu_famas_owl_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_cu_famas_owl_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_cu_famas_owl_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Eye of Athena",
+  "search_slug": "famas-eye-of-athena",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4482",
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_20",
+        "name": "The Horizon Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-723__normal__battle-scarred",
+    "10-723__normal__factory-new",
+    "10-723__normal__field-tested",
+    "10-723__normal__minimal-wear",
+    "10-723__normal__well-worn",
+    "10-723__stattrak__battle-scarred",
+    "10-723__stattrak__factory-new",
+    "10-723__stattrak__field-tested",
+    "10-723__stattrak__minimal-wear",
+    "10-723__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

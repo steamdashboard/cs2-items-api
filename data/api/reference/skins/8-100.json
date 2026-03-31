@@ -1,0 +1,44 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_stormfront",
+    "id": 100,
+    "name": "Storm",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 100,
+    "weapon_id": 8
+  },
+  "id": "8-100",
+  "name": "AUG | Storm",
+  "search_slug": "aug-storm",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_lake",
+        "name": "The Lake Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "8-100__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_aug",
+    "id": 8,
+    "name": "AUG",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

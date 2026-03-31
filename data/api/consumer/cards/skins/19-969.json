@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 969,
+    "id": 969,
+    "localized_names": {
+      "brazilian": "Trem de Carga",
+      "bulgarian": "Товарен вагон",
+      "czech": "Freight",
+      "danish": "Freight",
+      "dutch": "Freight",
+      "english": "Freight",
+      "finnish": "Rahti",
+      "french": "Fret",
+      "german": "Fracht",
+      "greek": "Freight",
+      "hungarian": "Rakomány",
+      "indonesian": "Freight",
+      "italian": "Freight",
+      "japanese": "Freight",
+      "koreana": "화물 열차",
+      "latam": "Vagón",
+      "norwegian": "Freight",
+      "polish": "Towarowy",
+      "portuguese": "Freight",
+      "romanian": "Freight",
+      "russian": "Грузовой",
+      "schinese": "集装箱",
+      "schinese_pw": "Freight",
+      "spanish": "Vagón",
+      "swedish": "Freight",
+      "tchinese": "貨櫃",
+      "thai": "Freight",
+      "turkish": "Yük Vagonu",
+      "ukrainian": "Вантаж",
+      "vietnamese": "Freight"
+    },
+    "name": "Freight",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-969",
+  "localized_names": {
+    "brazilian": "P90 | Trem de Carga",
+    "bulgarian": "P90 | Товарен вагон",
+    "czech": "P90 | Freight",
+    "danish": "P90 | Freight",
+    "dutch": "P90 | Freight",
+    "english": "P90 | Freight",
+    "finnish": "P90 | Rahti",
+    "french": "P90 | Fret",
+    "german": "P90 | Fracht",
+    "greek": "P90 | Freight",
+    "hungarian": "P90 | Rakomány",
+    "indonesian": "P90 | Freight",
+    "italian": "P90 | Freight",
+    "japanese": "P90 | Freight",
+    "koreana": "P90 | 화물 열차",
+    "latam": "P90 | Vagón",
+    "norwegian": "P90 | Freight",
+    "polish": "P90 | Towarowy",
+    "portuguese": "P90 | Freight",
+    "romanian": "P90 | Freight",
+    "russian": "P90 | Грузовой",
+    "schinese": "P90 | 集装箱",
+    "schinese_pw": "P90 | Freight",
+    "spanish": "P90 | Vagón",
+    "swedish": "P90 | Freight",
+    "tchinese": "P90 | 貨櫃",
+    "thai": "P90 | Freight",
+    "turkish": "P90 | Yük Vagonu",
+    "ukrainian": "П90 | Вантаж",
+    "vietnamese": "P90 | Freight"
+  },
+  "media": {
+    "asset_id": "skin__19-969",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-969/light.png",
+      "data/api/media/rendered/files/skins/19-969/medium.png",
+      "data/api/media/rendered/files/skins/19-969/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-969.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-969/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-969/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-969/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-969/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_gs_p90_container_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_gs_p90_container_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_gs_p90_container_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Freight",
+  "search_slug": "p90-freight",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4698",
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_26",
+        "name": "The Fracture Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-969__normal__battle-scarred",
+    "19-969__normal__factory-new",
+    "19-969__normal__field-tested",
+    "19-969__normal__minimal-wear",
+    "19-969__normal__well-worn",
+    "19-969__stattrak__battle-scarred",
+    "19-969__stattrak__factory-new",
+    "19-969__stattrak__field-tested",
+    "19-969__stattrak__minimal-wear",
+    "19-969__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

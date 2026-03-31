@@ -1,0 +1,70 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "gs_sawedoff_fubar",
+    "id": 552,
+    "name": "Fubar",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 552,
+    "weapon_id": 29
+  },
+  "id": "29-552",
+  "name": "Sawed-Off | Fubar",
+  "search_slug": "sawed-off-fubar",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_12",
+        "name": "The Chroma 3 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4233",
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "29-552__normal__well-worn",
+    "29-552__normal__battle-scarred",
+    "29-552__stattrak__well-worn",
+    "29-552__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_sawedoff",
+    "id": 29,
+    "name": "Sawed-Off",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.4
+  }
+}

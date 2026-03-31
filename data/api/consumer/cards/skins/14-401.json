@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 401,
+    "id": 401,
+    "localized_names": {
+      "brazilian": "Bloqueio do Sistema",
+      "bulgarian": "Системно заключване",
+      "czech": "System Lock",
+      "danish": "System Lock",
+      "dutch": "System Lock",
+      "english": "System Lock",
+      "finnish": "Lukitus",
+      "french": "Système de verrouillage",
+      "german": "Systemsperre",
+      "greek": "System Lock",
+      "hungarian": "Rendszerzár",
+      "indonesian": "System Lock",
+      "italian": "System Lock",
+      "japanese": "System Lock",
+      "koreana": "체계 잠금",
+      "latam": "Bloqueo del sistema",
+      "norwegian": "System Lock",
+      "polish": "Blokada systemu",
+      "portuguese": "System Lock",
+      "romanian": "System Lock",
+      "russian": "Блокировка",
+      "schinese": "系统锁定",
+      "schinese_pw": "System Lock",
+      "spanish": "Bloqueo del sistema",
+      "swedish": "System Lock",
+      "tchinese": "系統鎖",
+      "thai": "System Lock",
+      "turkish": "Sistem Kilidi",
+      "ukrainian": "Блокування системи",
+      "vietnamese": "System Lock"
+    },
+    "name": "System Lock",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "14-401",
+  "localized_names": {
+    "brazilian": "M249 | Bloqueio do Sistema",
+    "bulgarian": "M249 | Системно заключване",
+    "czech": "M249 | System Lock",
+    "danish": "M249 | System Lock",
+    "dutch": "M249 | System Lock",
+    "english": "M249 | System Lock",
+    "finnish": "M249 | Lukitus",
+    "french": "M249 | Système de verrouillage",
+    "german": "M249 | Systemsperre",
+    "greek": "M249 | System Lock",
+    "hungarian": "M249 | Rendszerzár",
+    "indonesian": "M249 | System Lock",
+    "italian": "M249 | System Lock",
+    "japanese": "M249 | System Lock",
+    "koreana": "M249 | 체계 잠금",
+    "latam": "M249 | Bloqueo del sistema",
+    "norwegian": "M249 | System Lock",
+    "polish": "M249 | Blokada systemu",
+    "portuguese": "M249 | System Lock",
+    "romanian": "M249 | System Lock",
+    "russian": "M249 | Блокировка",
+    "schinese": "M249 | 系统锁定",
+    "schinese_pw": "M249 | System Lock",
+    "spanish": "M249 | Bloqueo del sistema",
+    "swedish": "M249 | System Lock",
+    "tchinese": "M249 | 系統鎖",
+    "thai": "M249 | System Lock",
+    "turkish": "M249 | Sistem Kilidi",
+    "ukrainian": "М249 | Блокування системи",
+    "vietnamese": "M249 | System Lock"
+  },
+  "media": {
+    "asset_id": "skin__14-401",
+    "images_png": [
+      "data/api/media/rendered/files/skins/14-401/light.png",
+      "data/api/media/rendered/files/skins/14-401/medium.png",
+      "data/api/media/rendered/files/skins/14-401/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/14-401.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/14-401/heavy.png",
+      "light": "data/api/media/rendered/files/skins/14-401/light.png",
+      "medium": "data/api/media/rendered/files/skins/14-401/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/14-401/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m249_cu_m249_sektor_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m249_cu_m249_sektor_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m249_cu_m249_sektor_medium_png.vtex_c"
+    }
+  },
+  "name": "M249 | System Lock",
+  "search_slug": "m249-system-lock",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "14-401__normal__battle-scarred",
+    "14-401__normal__factory-new",
+    "14-401__normal__field-tested",
+    "14-401__normal__minimal-wear",
+    "14-401__normal__well-worn",
+    "14-401__stattrak__battle-scarred",
+    "14-401__stattrak__factory-new",
+    "14-401__stattrak__field-tested",
+    "14-401__stattrak__minimal-wear",
+    "14-401__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 14,
+    "localized_names": {
+      "brazilian": "M249",
+      "bulgarian": "M249",
+      "czech": "M249",
+      "danish": "M249",
+      "dutch": "M249",
+      "english": "M249",
+      "finnish": "M249",
+      "french": "M249",
+      "german": "M249",
+      "greek": "M249",
+      "hungarian": "M249",
+      "indonesian": "M249",
+      "italian": "M249",
+      "japanese": "M249",
+      "koreana": "M249",
+      "latam": "M249",
+      "norwegian": "M249",
+      "polish": "M249",
+      "portuguese": "M249",
+      "romanian": "M249",
+      "russian": "M249",
+      "schinese": "M249",
+      "schinese_pw": "M249",
+      "spanish": "M249",
+      "swedish": "M249",
+      "tchinese": "M249",
+      "thai": "M249",
+      "turkish": "M249",
+      "ukrainian": "М249",
+      "vietnamese": "M249"
+    },
+    "name": "M249",
+    "search_slug": "m249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

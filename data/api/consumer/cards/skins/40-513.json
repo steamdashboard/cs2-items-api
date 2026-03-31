@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 513,
+    "id": 513,
+    "localized_names": {
+      "brazilian": "Zeno",
+      "bulgarian": "Зенон",
+      "czech": "Zeno",
+      "danish": "Zeno",
+      "dutch": "Zeno",
+      "english": "Zeno",
+      "finnish": "Zeno",
+      "french": "Zeno",
+      "german": "Zeno",
+      "greek": "Zeno",
+      "hungarian": "Zeno",
+      "indonesian": "Zeno",
+      "italian": "Zeno",
+      "japanese": "Zeno",
+      "koreana": "제노",
+      "latam": "Zeno",
+      "norwegian": "Zeno",
+      "polish": "Zeno",
+      "portuguese": "Zeno",
+      "romanian": "Zeno",
+      "russian": "Zeno",
+      "schinese": "芝诺悖论",
+      "schinese_pw": "Zeno",
+      "spanish": "Zeno",
+      "swedish": "Zeno",
+      "tchinese": "芝諾",
+      "thai": "Zeno",
+      "turkish": "Zeno",
+      "ukrainian": "Зено",
+      "vietnamese": "Zeno"
+    },
+    "name": "Zeno",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-513",
+  "localized_names": {
+    "brazilian": "SSG 08 | Zeno",
+    "bulgarian": "SSG 08 | Зенон",
+    "czech": "SSG 08 | Zeno",
+    "danish": "SSG 08 | Zeno",
+    "dutch": "SSG 08 | Zeno",
+    "english": "SSG 08 | Zeno",
+    "finnish": "SSG 08 | Zeno",
+    "french": "SSG 08 | Zeno",
+    "german": "SSG 08 | Zeno",
+    "greek": "SSG 08 | Zeno",
+    "hungarian": "SSG 08 | Zeno",
+    "indonesian": "SSG 08 | Zeno",
+    "italian": "SSG 08 | Zeno",
+    "japanese": "SSG 08 | Zeno",
+    "koreana": "SSG 08 | 제노",
+    "latam": "SSG 08 | Zeno",
+    "norwegian": "SSG 08 | Zeno",
+    "polish": "SSG 08 | Zeno",
+    "portuguese": "SSG 08 | Zeno",
+    "romanian": "SSG 08 | Zeno",
+    "russian": "SSG 08 | Zeno",
+    "schinese": "SSG 08 | 芝诺悖论",
+    "schinese_pw": "SSG 08 | Zeno",
+    "spanish": "SSG 08 | Zeno",
+    "swedish": "SSG 08 | Zeno",
+    "tchinese": "SSG 08 | 芝諾",
+    "thai": "SSG 08 | Zeno",
+    "turkish": "SSG 08 | Zeno",
+    "ukrainian": "ССГ 08 | Зено",
+    "vietnamese": "SSG 08 | Zeno"
+  },
+  "media": {
+    "asset_id": "skin__40-513",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-513/light.png",
+      "data/api/media/rendered/files/skins/40-513/medium.png",
+      "data/api/media/rendered/files/skins/40-513/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-513.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-513/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-513/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-513/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-513/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_gsch_zeno_ssg08_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_gsch_zeno_ssg08_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_gsch_zeno_ssg08_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Zeno",
+  "search_slug": "ssg-08-zeno",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_realism_camo",
+        "name": "The Sport & Field Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-513__normal__battle-scarred",
+    "40-513__normal__factory-new",
+    "40-513__normal__field-tested",
+    "40-513__normal__minimal-wear",
+    "40-513__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

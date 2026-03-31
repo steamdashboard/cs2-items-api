@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 33,
+    "id": 33,
+    "localized_names": {
+      "brazilian": "Arma Esportiva",
+      "bulgarian": "Хот род",
+      "czech": "Hot Rod",
+      "danish": "Hot Rod",
+      "dutch": "Hot Rod",
+      "english": "Hot Rod",
+      "finnish": "Kuumakalle",
+      "french": "Hot rod",
+      "german": "Hot Rod",
+      "greek": "Hot Rod",
+      "hungarian": "Izzó Króm",
+      "indonesian": "Hot Rod",
+      "italian": "Hot Rod",
+      "japanese": "Hot Rod",
+      "koreana": "핫 로드",
+      "latam": "Hot rod",
+      "norwegian": "Hot Rod",
+      "polish": "Hot rod",
+      "portuguese": "Hot Rod",
+      "romanian": "Hot Rod",
+      "russian": "Хот-род",
+      "schinese": "赤红新星",
+      "schinese_pw": "Hot Rod",
+      "spanish": "Hot rod",
+      "swedish": "Hot Rod",
+      "tchinese": "赤熱紅焰",
+      "thai": "Hot Rod",
+      "turkish": "Sıcak Güç",
+      "ukrainian": "Хот-род",
+      "vietnamese": "Hot Rod"
+    },
+    "name": "Hot Rod",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-33",
+  "localized_names": {
+    "brazilian": "AUG | Arma Esportiva",
+    "bulgarian": "AUG | Хот род",
+    "czech": "AUG | Hot Rod",
+    "danish": "AUG | Hot Rod",
+    "dutch": "AUG | Hot Rod",
+    "english": "AUG | Hot Rod",
+    "finnish": "AUG | Kuumakalle",
+    "french": "AUG | Hot rod",
+    "german": "AUG | Hot Rod",
+    "greek": "AUG | Hot Rod",
+    "hungarian": "AUG | Izzó Króm",
+    "indonesian": "AUG | Hot Rod",
+    "italian": "AUG | Hot Rod",
+    "japanese": "AUG | Hot Rod",
+    "koreana": "AUG | 핫 로드",
+    "latam": "AUG | Hot rod",
+    "norwegian": "AUG | Hot Rod",
+    "polish": "AUG | Hot rod",
+    "portuguese": "AUG | Hot Rod",
+    "romanian": "AUG | Hot Rod",
+    "russian": "AUG | Хот-род",
+    "schinese": "AUG | 赤红新星",
+    "schinese_pw": "AUG | Hot Rod",
+    "spanish": "AUG | Hot rod",
+    "swedish": "AUG | Hot Rod",
+    "tchinese": "AUG | 赤熱紅焰",
+    "thai": "AUG | Hot Rod",
+    "turkish": "AUG | Sıcak Güç",
+    "ukrainian": "АУГ | Хот-род",
+    "vietnamese": "AUG | Hot Rod"
+  },
+  "media": {
+    "asset_id": "skin__8-33",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-33/light.png",
+      "data/api/media/rendered/files/skins/8-33/medium.png",
+      "data/api/media/rendered/files/skins/8-33/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-33.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-33/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-33/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-33/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-33/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_an_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_an_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_an_red_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Hot Rod",
+  "search_slug": "aug-hot-rod",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_assault",
+        "name": "The Assault Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-33__normal__factory-new",
+    "8-33__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

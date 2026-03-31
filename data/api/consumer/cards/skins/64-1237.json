@@ -1,0 +1,250 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1237,
+    "id": 1237,
+    "localized_names": {
+      "brazilian": "Acanto",
+      "bulgarian": "Инкрустирано",
+      "czech": "Inlay",
+      "danish": "Inlay",
+      "dutch": "Inlay",
+      "english": "Inlay",
+      "finnish": "Koristeupotus",
+      "french": "Gravures",
+      "german": "Intarsie",
+      "greek": "Inlay",
+      "hungarian": "Intarzia",
+      "indonesian": "Inlay",
+      "italian": "Inlay",
+      "japanese": "Inlay",
+      "koreana": "아칸서스 장식",
+      "latam": "Incrustación",
+      "norwegian": "Inlay",
+      "polish": "Inkrustacja",
+      "portuguese": "Inlay",
+      "romanian": "Inlay",
+      "russian": "Облицовка",
+      "schinese": "镶嵌装饰",
+      "schinese_pw": "Inlay",
+      "spanish": "Incrustación",
+      "swedish": "Inlay",
+      "tchinese": "鑲嵌",
+      "thai": "Inlay",
+      "turkish": "Kakma",
+      "ukrainian": "Інкрустація",
+      "vietnamese": "Inlay"
+    },
+    "name": "Inlay",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.76,
+      "min_float": 0.0
+    }
+  },
+  "id": "64-1237",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Acanto",
+    "bulgarian": "Револвер R8 | Инкрустирано",
+    "czech": "Revolver R8 | Inlay",
+    "danish": "R8-revolver | Inlay",
+    "dutch": "R8-revolver | Inlay",
+    "english": "R8 Revolver | Inlay",
+    "finnish": "R8-revolveri | Koristeupotus",
+    "french": "Révolver R8 | Gravures",
+    "german": "R8-Revolver | Intarsie",
+    "greek": "R8 Revolver | Inlay",
+    "hungarian": "R8 revolver | Intarzia",
+    "indonesian": "R8 Revolver | Inlay",
+    "italian": "Revolver R8 | Inlay",
+    "japanese": "R8 Revolver | Inlay",
+    "koreana": "R8 리볼버 | 아칸서스 장식",
+    "latam": "Revólver R8 | Incrustación",
+    "norwegian": "R8 Revolver | Inlay",
+    "polish": "Rewolwer R8 | Inkrustacja",
+    "portuguese": "R8 Revolver | Inlay",
+    "romanian": "Revolver R8 | Inlay",
+    "russian": "Револьвер R8 | Облицовка",
+    "schinese": "R8左轮手枪 | 镶嵌装饰",
+    "schinese_pw": "R8 Revolver | Inlay",
+    "spanish": "Revólver R8 | Incrustación",
+    "swedish": "R8 Revolver | Inlay",
+    "tchinese": "R8 Revolver | 鑲嵌",
+    "thai": "ปืนลูกโม่ R8 | Inlay",
+    "turkish": "R8 Revolver | Kakma",
+    "ukrainian": "Револьвер Р8 | Інкрустація",
+    "vietnamese": "Súng lục R8 | Inlay"
+  },
+  "media": {
+    "asset_id": "skin__64-1237",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-1237/light.png",
+      "data/api/media/rendered/files/skins/64-1237/medium.png",
+      "data/api/media/rendered/files/skins/64-1237/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-1237.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-1237/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-1237/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-1237/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-1237/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_gs_revolver_acanthus_bronze_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_gs_revolver_acanthus_bronze_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_gs_revolver_acanthus_bronze_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Inlay",
+  "search_slug": "r8-revolver-inlay",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_anubis",
+        "name": "The Anubis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4882",
+        "kind": "container",
+        "name": "Anubis Collection Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4969",
+        "kind": "container",
+        "name": "Shanghai 2024 Anubis Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5122",
+        "kind": "container",
+        "name": "Austin 2025 Anubis Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4895",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Anubis Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4928",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "64-1237__normal__battle-scarred",
+    "64-1237__normal__factory-new",
+    "64-1237__normal__field-tested",
+    "64-1237__normal__minimal-wear",
+    "64-1237__normal__well-worn",
+    "64-1237__souvenir__battle-scarred",
+    "64-1237__souvenir__factory-new",
+    "64-1237__souvenir__field-tested",
+    "64-1237__souvenir__minimal-wear",
+    "64-1237__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.76,
+    "min_float": 0.0
+  }
+}

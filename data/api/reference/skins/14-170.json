@@ -1,0 +1,52 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_zebracam",
+    "id": 170,
+    "name": "Predator",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 170,
+    "weapon_id": 14
+  },
+  "id": "14-170",
+  "name": "M249 | Predator",
+  "search_slug": "m249-predator",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_op10_t",
+        "name": "The Havoc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4721",
+        "kind": "container",
+        "name": "The Havoc Collection",
+        "tier": null
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "14-170__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_m249",
+    "id": 14,
+    "name": "M249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

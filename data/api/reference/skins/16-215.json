@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_xray_m4",
+    "id": 215,
+    "name": "X-Ray",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 215,
+    "weapon_id": 16
+  },
+  "id": "16-215",
+  "name": "M4A4 | X-Ray",
+  "search_slug": "m4a4-x-ray",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports_ii",
+        "name": "The eSports 2013 Winter Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4005",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "16-215__normal__factory-new",
+    "16-215__normal__minimal-wear",
+    "16-215__normal__field-tested",
+    "16-215__stattrak__factory-new",
+    "16-215__stattrak__minimal-wear",
+    "16-215__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_m4a1",
+    "id": 16,
+    "name": "M4A4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

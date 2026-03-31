@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_ddpatdense_silver",
+    "id": 230,
+    "name": "Steel Disruption",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 230,
+    "weapon_id": 4
+  },
+  "id": "4-230",
+  "name": "Glock-18 | Steel Disruption",
+  "search_slug": "glock-18-steel-disruption",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "4-230__normal__factory-new",
+    "4-230__normal__minimal-wear",
+    "4-230__normal__field-tested",
+    "4-230__stattrak__factory-new",
+    "4-230__stattrak__minimal-wear",
+    "4-230__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_glock",
+    "id": 4,
+    "name": "Glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

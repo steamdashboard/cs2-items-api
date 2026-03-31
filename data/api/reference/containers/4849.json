@@ -1,0 +1,78 @@
+{
+  "codename": "crate_musickit_initiators_stattrak_capsule",
+  "container_kind": "music-kit-box",
+  "contents": [
+    {
+      "flags": [
+        "will_produce_stattrak"
+      ],
+      "kind": "music-kit",
+      "music_kit_id": 62,
+      "tier": null
+    },
+    {
+      "flags": [
+        "will_produce_stattrak"
+      ],
+      "kind": "music-kit",
+      "music_kit_id": 63,
+      "tier": null
+    },
+    {
+      "flags": [
+        "will_produce_stattrak"
+      ],
+      "kind": "music-kit",
+      "music_kit_id": 64,
+      "tier": null
+    },
+    {
+      "flags": [
+        "will_produce_stattrak"
+      ],
+      "kind": "music-kit",
+      "music_kit_id": 65,
+      "tier": null
+    },
+    {
+      "flags": [
+        "will_produce_stattrak"
+      ],
+      "kind": "music-kit",
+      "music_kit_id": 66,
+      "tier": null
+    },
+    {
+      "flags": [
+        "will_produce_stattrak"
+      ],
+      "kind": "music-kit",
+      "music_kit_id": 67,
+      "tier": null
+    }
+  ],
+  "contents_source": {
+    "id": "crate_musickit_initiators_stattrak_capsule_lootlist",
+    "type": "loot-list"
+  },
+  "description": "This box contains a variety of StatTrak™ music kits from \"Initiators\" artists.",
+  "description_token": "#CSGO_crate_musickit_initiators_stattrak_capsule_desc",
+  "game_id": 4849,
+  "id": 4849,
+  "loot_list_candidates": [
+    "crate_musickit_initiators_stattrak_capsule",
+    "crate_musickit_initiators_stattrak_capsule_lootlist"
+  ],
+  "name": "StatTrak™ Initiators Music Kit Box",
+  "name_token": "#CSGO_crate_musickit_initiators_stattrak_capsule",
+  "rare_special_item": {
+    "footer": "or an Exceedingly Rare Special Item!",
+    "footer_token": "#Econ_Revolving_Loot_List_Rare_Item",
+    "name": "★ Rare Special Item ★",
+    "name_token": "#Exceedingly_Rare_Item"
+  },
+  "root_loot_list": "crate_musickit_initiators_stattrak_capsule_lootlist",
+  "search_slug": "stattrak-initiators-music-kit-box",
+  "series_id": 358,
+  "tournament_event_id": null
+}

@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 522,
+    "id": 522,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "64-522",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Degradê",
+    "bulgarian": "Револвер R8 | Избледняване",
+    "czech": "Revolver R8 | Fade",
+    "danish": "R8-revolver | Fade",
+    "dutch": "R8-revolver | Fade",
+    "english": "R8 Revolver | Fade",
+    "finnish": "R8-revolveri | Häivytys",
+    "french": "Révolver R8 | Dégradé",
+    "german": "R8-Revolver | Farbverlauf",
+    "greek": "R8 Revolver | Fade",
+    "hungarian": "R8 revolver | Halványulás",
+    "indonesian": "R8 Revolver | Fade",
+    "italian": "Revolver R8 | Fade",
+    "japanese": "R8 Revolver | Fade",
+    "koreana": "R8 리볼버 | 흐릿함",
+    "latam": "Revólver R8 | Desteñido",
+    "norwegian": "R8 Revolver | Fade",
+    "polish": "Rewolwer R8 | Gradient",
+    "portuguese": "R8 Revolver | Fade",
+    "romanian": "Revolver R8 | Fade",
+    "russian": "Револьвер R8 | Градиент",
+    "schinese": "R8左轮手枪 | 渐变之色",
+    "schinese_pw": "R8 Revolver | Fade",
+    "spanish": "Revólver R8 | Desteñido",
+    "swedish": "R8 Revolver | Fade",
+    "tchinese": "R8 Revolver | 漸層彩虹",
+    "thai": "ปืนลูกโม่ R8 | Fade",
+    "turkish": "R8 Revolver | Solgun",
+    "ukrainian": "Револьвер Р8 | Градієнт",
+    "vietnamese": "Súng lục R8 | Fade"
+  },
+  "media": {
+    "asset_id": "skin__64-522",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-522/light.png",
+      "data/api/media/rendered/files/skins/64-522/medium.png",
+      "data/api/media/rendered/files/skins/64-522/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-522.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-522/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-522/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-522/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-522/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_aa_fade_revolver_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_aa_fade_revolver_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_aa_fade_revolver_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Fade",
+  "search_slug": "r8-revolver-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-522__normal__factory-new",
+    "64-522__normal__field-tested",
+    "64-522__normal__minimal-wear",
+    "64-522__normal__well-worn",
+    "64-522__stattrak__factory-new",
+    "64-522__stattrak__field-tested",
+    "64-522__stattrak__minimal-wear",
+    "64-522__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

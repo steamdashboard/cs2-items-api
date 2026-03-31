@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 659,
+    "id": 659,
+    "localized_names": {
+      "brazilian": "Macabra",
+      "bulgarian": "Ужасяващо",
+      "czech": "Macabre",
+      "danish": "Macabre",
+      "dutch": "Macabre",
+      "english": "Macabre",
+      "finnish": "Makaaberi",
+      "french": "Macabre",
+      "german": "Makaber",
+      "greek": "Macabre",
+      "hungarian": "Kísérteties",
+      "indonesian": "Macabre",
+      "italian": "Macabre",
+      "japanese": "Macabre",
+      "koreana": "죽음의 무도",
+      "latam": "Macabro",
+      "norwegian": "Macabre",
+      "polish": "Makabra",
+      "portuguese": "Macabre",
+      "romanian": "Macabre",
+      "russian": "Макабр",
+      "schinese": "死亡之舞",
+      "schinese_pw": "Macabre",
+      "spanish": "Macabro",
+      "swedish": "Macabre",
+      "tchinese": "群骨亂舞",
+      "thai": "Macabre",
+      "turkish": "Dehşetli",
+      "ukrainian": "Похмурий",
+      "vietnamese": "Macabre"
+    },
+    "name": "Macabre",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-659",
+  "localized_names": {
+    "brazilian": "FAMAS | Macabra",
+    "bulgarian": "FAMAS | Ужасяващо",
+    "czech": "FAMAS | Macabre",
+    "danish": "FAMAS | Macabre",
+    "dutch": "FAMAS | Macabre",
+    "english": "FAMAS | Macabre",
+    "finnish": "FAMAS | Makaaberi",
+    "french": "FAMAS | Macabre",
+    "german": "FAMAS | Makaber",
+    "greek": "FAMAS | Macabre",
+    "hungarian": "FAMAS | Kísérteties",
+    "indonesian": "FAMAS | Macabre",
+    "italian": "FAMAS | Macabre",
+    "japanese": "FAMAS | Macabre",
+    "koreana": "파마스 | 죽음의 무도",
+    "latam": "FAMAS | Macabro",
+    "norwegian": "FAMAS | Macabre",
+    "polish": "FAMAS | Makabra",
+    "portuguese": "FAMAS | Macabre",
+    "romanian": "FAMAS | Macabre",
+    "russian": "FAMAS | Макабр",
+    "schinese": "法玛斯 | 死亡之舞",
+    "schinese_pw": "FAMAS | Macabre",
+    "spanish": "FAMAS | Macabro",
+    "swedish": "FAMAS | Macabre",
+    "tchinese": "FAMAS | 群骨亂舞",
+    "thai": "FAMAS | Macabre",
+    "turkish": "FAMAS | Dehşetli",
+    "ukrainian": "ФАМАС | Похмурий",
+    "vietnamese": "FAMAS | Macabre"
+  },
+  "media": {
+    "asset_id": "skin__10-659",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-659/light.png",
+      "data/api/media/rendered/files/skins/10-659/medium.png",
+      "data/api/media/rendered/files/skins/10-659/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-659.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-659/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-659/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-659/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-659/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_sp_famas_macabre_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_sp_famas_macabre_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_sp_famas_macabre_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Macabre",
+  "search_slug": "famas-macabre",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4352",
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_17",
+        "name": "The Operation Hydra Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-659__normal__battle-scarred",
+    "10-659__normal__factory-new",
+    "10-659__normal__field-tested",
+    "10-659__normal__minimal-wear",
+    "10-659__normal__well-worn",
+    "10-659__stattrak__battle-scarred",
+    "10-659__stattrak__factory-new",
+    "10-659__stattrak__field-tested",
+    "10-659__stattrak__minimal-wear",
+    "10-659__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

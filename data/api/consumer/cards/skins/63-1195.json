@@ -1,0 +1,223 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1195,
+    "id": 1195,
+    "localized_names": {
+      "brazilian": "Fibra de Cobre",
+      "bulgarian": "Медни нишки",
+      "czech": "Copper Fiber",
+      "danish": "Copper Fiber",
+      "dutch": "Copper Fiber",
+      "english": "Copper Fiber",
+      "finnish": "Kuparikuitu",
+      "french": "Fibres de cuivre",
+      "german": "Kupferfaser",
+      "greek": "Copper Fiber",
+      "hungarian": "Rézszál",
+      "indonesian": "Copper Fiber",
+      "italian": "Copper Fiber",
+      "japanese": "Copper Fiber",
+      "koreana": "구리 섬유",
+      "latam": "Fibra de cobre",
+      "norwegian": "Copper Fiber",
+      "polish": "Włókno miedziane",
+      "portuguese": "Copper Fiber",
+      "romanian": "Copper Fiber",
+      "russian": "Медное волокно",
+      "schinese": "铜芯纤维",
+      "schinese_pw": "Copper Fiber",
+      "spanish": "Fibra de cobre",
+      "swedish": "Copper Fiber",
+      "tchinese": "銅質纖維",
+      "thai": "Copper Fiber",
+      "turkish": "Bakır Fiber",
+      "ukrainian": "Мідне волокно",
+      "vietnamese": "Copper Fiber"
+    },
+    "name": "Copper Fiber",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.563291,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-1195",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Fibra de Cobre",
+    "bulgarian": "CZ75-Auto | Медни нишки",
+    "czech": "CZ75-Auto | Copper Fiber",
+    "danish": "CZ75-Auto | Copper Fiber",
+    "dutch": "CZ75-Auto | Copper Fiber",
+    "english": "CZ75-Auto | Copper Fiber",
+    "finnish": "CZ75-Auto | Kuparikuitu",
+    "french": "CZ75-Auto | Fibres de cuivre",
+    "german": "CZ75-Auto | Kupferfaser",
+    "greek": "CZ75-Auto | Copper Fiber",
+    "hungarian": "CZ75-Auto | Rézszál",
+    "indonesian": "CZ75-Auto | Copper Fiber",
+    "italian": "CZ75-Auto | Copper Fiber",
+    "japanese": "CZ75-Auto | Copper Fiber",
+    "koreana": "CZ75 기관권총 | 구리 섬유",
+    "latam": "CZ75-Auto | Fibra de cobre",
+    "norwegian": "CZ75-Auto | Copper Fiber",
+    "polish": "CZ75-Auto | Włókno miedziane",
+    "portuguese": "CZ75-Auto | Copper Fiber",
+    "romanian": "CZ75-Auto | Copper Fiber",
+    "russian": "CZ75-Auto | Медное волокно",
+    "schinese": "CZ75自动型 | 铜芯纤维",
+    "schinese_pw": "CZ75-Auto | Copper Fiber",
+    "spanish": "CZ75-Auto | Fibra de cobre",
+    "swedish": "CZ75-Auto | Copper Fiber",
+    "tchinese": "CZ75-Auto | 銅質纖維",
+    "thai": "CZ75-Auto | Copper Fiber",
+    "turkish": "CZ75-Otomatik | Bakır Fiber",
+    "ukrainian": "ЧЗ-75 авто | Мідне волокно",
+    "vietnamese": "CZ75-Auto | Copper Fiber"
+  },
+  "media": {
+    "asset_id": "skin__63-1195",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-1195/light.png",
+      "data/api/media/rendered/files/skins/63-1195/medium.png",
+      "data/api/media/rendered/files/skins/63-1195/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-1195.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-1195/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-1195/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-1195/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-1195/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_am_carbon_fiber_cz75_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_am_carbon_fiber_cz75_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_am_carbon_fiber_cz75_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Copper Fiber",
+  "search_slug": "cz75-auto-copper-fiber",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2025",
+        "name": "The Train 2025 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5126",
+        "kind": "container",
+        "name": "Austin 2025 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5225",
+        "kind": "container",
+        "name": "Budapest 2025 Train Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-1195__normal__battle-scarred",
+    "63-1195__normal__factory-new",
+    "63-1195__normal__field-tested",
+    "63-1195__normal__minimal-wear",
+    "63-1195__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.563291,
+    "min_float": 0.0
+  }
+}

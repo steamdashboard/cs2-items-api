@@ -1,0 +1,171 @@
+{
+  "classification": {
+    "group": "collectible",
+    "kind": "collectible"
+  },
+  "game_id": 1337,
+  "id": 1337,
+  "name": "CommunitySeasonSeven2016 Coin 2",
+  "prefab_chain": [
+    "collectible",
+    "collectible_untradable",
+    "operation_coin",
+    "season7_coin"
+  ],
+  "prefab_spec": "season7_coin",
+  "resolved": {
+    "attributes": {
+      "campaign 7 completion bitfield": {
+        "attribute_class": "campaign_completion_bitfield",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "campaign 7 last completed quest": {
+        "attribute_class": "campaign_last_completed_quest",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "campaign 8 completion bitfield": {
+        "attribute_class": "campaign_completion_bitfield",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "campaign 8 last completed quest": {
+        "attribute_class": "campaign_last_completed_quest",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "cannot trade": "1",
+      "competitive 3k": {
+        "attribute_class": "competitive_3k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive 4k": {
+        "attribute_class": "competitive_4k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive 5k": {
+        "attribute_class": "competitive_5k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive hsp": {
+        "attribute_class": "competitive_hsp",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive kills": {
+        "attribute_class": "competitive_kills",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive minutes played": {
+        "attribute_class": "competitive_minutes_played",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive mvps": {
+        "attribute_class": "competitive_mvps",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive wins": {
+        "attribute_class": "competitive_wins",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "minutes played": {
+        "attribute_class": "minutes_played",
+        "value": "1"
+      },
+      "operation 3k": {
+        "attribute_class": "operation_3k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "operation 4k": {
+        "attribute_class": "operation_4k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "operation 5k": {
+        "attribute_class": "operation_5k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "operation hsp": {
+        "attribute_class": "operation_hsp",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "operation kills": {
+        "attribute_class": "operation_kills",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "operation minutes played": {
+        "attribute_class": "operation_minutes_played",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "operation mvps": {
+        "attribute_class": "operation_mvps",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "operation points": {
+        "attribute_class": "operation_points",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "operation wins": {
+        "attribute_class": "operation_wins",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "pedestal display model": "models/inventory_items/operation_7_silver.vmdl",
+      "quest id": {
+        "attribute_class": "quest_id",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "quests complete": {
+        "attribute_class": "quests_complete",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "season access": "6",
+      "upgrade threshold": "14"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/status_icons/operation_7_silver",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_Collectible_CommunitySeasonSeven2016_Coin2_Desc",
+    "item_name": "#CSGO_Collectible_CommunitySeasonSeven2016_Coin2",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type": "operation_coin",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "2",
+    "min_ilevel": "2",
+    "mouse_pressed_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "name": "CommunitySeasonSeven2016 Coin 2",
+    "prefab": "season7_coin",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

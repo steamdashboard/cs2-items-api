@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 70,
+    "id": 70,
+    "localized_names": {
+      "brazilian": "Fibra de Carbono",
+      "bulgarian": "Карбонови нишки",
+      "czech": "Carbon Fiber",
+      "danish": "Carbon Fiber",
+      "dutch": "Carbon Fiber",
+      "english": "Carbon Fiber",
+      "finnish": "Hiilikuitu",
+      "french": "Fibre de carbone",
+      "german": "Kohlefaser",
+      "greek": "Carbon Fiber",
+      "hungarian": "Szénszálas",
+      "indonesian": "Carbon Fiber",
+      "italian": "Carbon Fiber",
+      "japanese": "Carbon Fiber",
+      "koreana": "탄소 섬유",
+      "latam": "Fibra de carbono",
+      "norwegian": "Carbon Fiber",
+      "polish": "Włókno węglowe",
+      "portuguese": "Carbon Fiber",
+      "romanian": "Carbon Fiber",
+      "russian": "Углепластик",
+      "schinese": "碳素纤维",
+      "schinese_pw": "Carbon Fiber",
+      "spanish": "Fibra de carbono",
+      "swedish": "Carbon Fiber",
+      "tchinese": "碳纖維",
+      "thai": "Carbon Fiber",
+      "turkish": "Karbon Fiber",
+      "ukrainian": "Вуглепластик",
+      "vietnamese": "Carbon Fiber"
+    },
+    "name": "Carbon Fiber",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.12,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-70",
+  "localized_names": {
+    "brazilian": "MAG-7 | Fibra de Carbono",
+    "bulgarian": "MAG-7 | Карбонови нишки",
+    "czech": "MAG-7 | Carbon Fiber",
+    "danish": "MAG-7 | Carbon Fiber",
+    "dutch": "MAG-7 | Carbon Fiber",
+    "english": "MAG-7 | Carbon Fiber",
+    "finnish": "MAG-7 | Hiilikuitu",
+    "french": "MAG-7 | Fibre de carbone",
+    "german": "MAG-7 | Kohlefaser",
+    "greek": "MAG-7 | Carbon Fiber",
+    "hungarian": "MAG-7 | Szénszálas",
+    "indonesian": "MAG-7 | Carbon Fiber",
+    "italian": "MAG-7 | Carbon Fiber",
+    "japanese": "MAG-7 | Carbon Fiber",
+    "koreana": "MAG-7 | 탄소 섬유",
+    "latam": "MAG-7 | Fibra de carbono",
+    "norwegian": "MAG-7 | Carbon Fiber",
+    "polish": "MAG-7 | Włókno węglowe",
+    "portuguese": "MAG-7 | Carbon Fiber",
+    "romanian": "MAG-7 | Carbon Fiber",
+    "russian": "MAG-7 | Углепластик",
+    "schinese": "MAG-7 | 碳素纤维",
+    "schinese_pw": "MAG-7 | Carbon Fiber",
+    "spanish": "MAG-7 | Fibra de carbono",
+    "swedish": "MAG-7 | Carbon Fiber",
+    "tchinese": "MAG-7 | 碳纖維",
+    "thai": "MAG-7 | Carbon Fiber",
+    "turkish": "MAG-7 | Karbon Fiber",
+    "ukrainian": "МАГ-7 | Вуглепластик",
+    "vietnamese": "MAG-7 | Carbon Fiber"
+  },
+  "media": {
+    "asset_id": "skin__27-70",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-70/light.png",
+      "data/api/media/rendered/files/skins/27-70/medium.png",
+      "data/api/media/rendered/files/skins/27-70/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-70.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-70/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-70/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-70/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-70/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_am_carbon_fiber_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_am_carbon_fiber_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_am_carbon_fiber_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Carbon Fiber",
+  "search_slug": "mag-7-carbon-fiber",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ct",
+        "name": "The Control Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4720",
+        "kind": "container",
+        "name": "The Control Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "27-70__normal__factory-new",
+    "27-70__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

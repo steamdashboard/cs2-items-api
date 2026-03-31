@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_galil_ar-camo",
+    "id": 629,
+    "name": "Black Sand",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 629,
+    "weapon_id": 13
+  },
+  "id": "13-629",
+  "name": "Galil AR | Black Sand",
+  "search_slug": "galil-ar-black-sand",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_15",
+        "name": "The Glove Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4288",
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "13-629__normal__factory-new",
+    "13-629__normal__minimal-wear",
+    "13-629__normal__field-tested",
+    "13-629__normal__well-worn",
+    "13-629__normal__battle-scarred",
+    "13-629__stattrak__factory-new",
+    "13-629__stattrak__minimal-wear",
+    "13-629__stattrak__field-tested",
+    "13-629__stattrak__well-worn",
+    "13-629__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_galilar",
+    "id": 13,
+    "name": "Galil AR",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

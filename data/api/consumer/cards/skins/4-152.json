@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 152,
+    "id": 152,
+    "localized_names": {
+      "brazilian": "Grafite Turquesa",
+      "bulgarian": "Синкавозелени драскулки",
+      "czech": "Teal Graf",
+      "danish": "Teal Graf",
+      "dutch": "Teal Graf",
+      "english": "Teal Graf",
+      "finnish": "Kirjograffiti",
+      "french": "Graffiti sarcelle",
+      "german": "Petrolgraffiti",
+      "greek": "Teal Graf",
+      "hungarian": "Kékeszöld Graffiti",
+      "indonesian": "Teal Graf",
+      "italian": "Teal Graf",
+      "japanese": "Teal Graf",
+      "koreana": "청록 그래피티",
+      "latam": "Grafiti turquesa",
+      "norwegian": "Teal Graf",
+      "polish": "Cyjanowe graffiti",
+      "portuguese": "Teal Graf",
+      "romanian": "Teal Graf",
+      "russian": "Расписная бирюза",
+      "schinese": "凫色涂鸦",
+      "schinese_pw": "Teal Graf",
+      "spanish": "Grafiti verde azulado",
+      "swedish": "Teal Graf",
+      "tchinese": "青色塗鴉",
+      "thai": "Teal Graf",
+      "turkish": "Turkuaz Grafiti",
+      "ukrainian": "Бірюзове графіті",
+      "vietnamese": "Teal Graf"
+    },
+    "name": "Teal Graf",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-152",
+  "localized_names": {
+    "brazilian": "Glock-18 | Grafite Turquesa",
+    "bulgarian": "Glock-18 | Синкавозелени драскулки",
+    "czech": "Glock-18 | Teal Graf",
+    "danish": "Glock-18 | Teal Graf",
+    "dutch": "Glock-18 | Teal Graf",
+    "english": "Glock-18 | Teal Graf",
+    "finnish": "Glock-18 | Kirjograffiti",
+    "french": "Glock-18 | Graffiti sarcelle",
+    "german": "Glock-18 | Petrolgraffiti",
+    "greek": "Glock-18 | Teal Graf",
+    "hungarian": "Glock-18 | Kékeszöld Graffiti",
+    "indonesian": "Glock-18 | Teal Graf",
+    "italian": "Glock-18 | Teal Graf",
+    "japanese": "Glock-18 | Teal Graf",
+    "koreana": "글록 18 | 청록 그래피티",
+    "latam": "Glock-18 | Grafiti turquesa",
+    "norwegian": "Glock-18 | Teal Graf",
+    "polish": "Glock-18 | Cyjanowe graffiti",
+    "portuguese": "Glock-18 | Teal Graf",
+    "romanian": "Glock-18 | Teal Graf",
+    "russian": "Glock-18 | Расписная бирюза",
+    "schinese": "格洛克18型 | 凫色涂鸦",
+    "schinese_pw": "Glock-18 | Teal Graf",
+    "spanish": "Glock-18 | Grafiti verde azulado",
+    "swedish": "Glock-18 | Teal Graf",
+    "tchinese": "Glock-18 | 青色塗鴉",
+    "thai": "Glock-18 | Teal Graf",
+    "turkish": "Glock-18 | Turkuaz Grafiti",
+    "ukrainian": "Ґлок-18 | Бірюзове графіті",
+    "vietnamese": "Glock-18 | Teal Graf"
+  },
+  "media": {
+    "asset_id": "skin__4-152",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-152/light.png",
+      "data/api/media/rendered/files/skins/4-152/medium.png",
+      "data/api/media/rendered/files/skins/4-152/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-152.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-152/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-152/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-152/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-152/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_hy_overpass_tagged_teal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_hy_overpass_tagged_teal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_hy_overpass_tagged_teal_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Teal Graf",
+  "search_slug": "glock-18-teal-graf",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_overpass_2024",
+        "name": "The Overpass 2024 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5221",
+        "kind": "container",
+        "name": "Budapest 2025 Overpass Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-152__normal__battle-scarred",
+    "4-152__normal__factory-new",
+    "4-152__normal__field-tested",
+    "4-152__normal__minimal-wear",
+    "4-152__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

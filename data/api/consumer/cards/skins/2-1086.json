@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1086,
+    "id": 1086,
+    "localized_names": {
+      "brazilian": "Troca de Óleo",
+      "bulgarian": "Смяна на маслото",
+      "czech": "Oil Change",
+      "danish": "Oil Change",
+      "dutch": "Oil Change",
+      "english": "Oil Change",
+      "finnish": "Öljynvaihto",
+      "french": "Vidange",
+      "german": "Ölwechsel",
+      "greek": "Oil Change",
+      "hungarian": "Olajcsere",
+      "indonesian": "Oil Change",
+      "italian": "Oil Change",
+      "japanese": "Oil Change",
+      "koreana": "오일 교환",
+      "latam": "Cambio de aceite",
+      "norwegian": "Oil Change",
+      "polish": "Zmiana oleju",
+      "portuguese": "Oil Change",
+      "romanian": "Oil Change",
+      "russian": "Замена масла",
+      "schinese": "更换机油",
+      "schinese_pw": "Oil Change",
+      "spanish": "Cambio de aceite",
+      "swedish": "Oil Change",
+      "tchinese": "換機油",
+      "thai": "Oil Change",
+      "turkish": "Yağ Değişimi",
+      "ukrainian": "Заміна мастила",
+      "vietnamese": "Oil Change"
+    },
+    "name": "Oil Change",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-1086",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Troca de Óleo",
+    "bulgarian": "Два Beretta | Смяна на маслото",
+    "czech": "Dual Berettas | Oil Change",
+    "danish": "Dual Berettas | Oil Change",
+    "dutch": "Dual Berettas | Oil Change",
+    "english": "Dual Berettas | Oil Change",
+    "finnish": "Tupla-Berettat | Öljynvaihto",
+    "french": "Dual Berettas | Vidange",
+    "german": "Akimbo-Berettas | Ölwechsel",
+    "greek": "Dual Berettas | Oil Change",
+    "hungarian": "Dupla Beretta | Olajcsere",
+    "indonesian": "Dual Berettas | Oil Change",
+    "italian": "Doppia Beretta | Oil Change",
+    "japanese": "Dual Berettas | Oil Change",
+    "koreana": "듀얼 베레타 | 오일 교환",
+    "latam": "Berettas dobles | Cambio de aceite",
+    "norwegian": "Dual Berettas | Oil Change",
+    "polish": "Dwie beretty | Zmiana oleju",
+    "portuguese": "Dual Berettas | Oil Change",
+    "romanian": "Dual Berettas | Oil Change",
+    "russian": "Dual Berettas | Замена масла",
+    "schinese": "双持贝瑞塔 | 更换机油",
+    "schinese_pw": "Dual Berettas | Oil Change",
+    "spanish": "Berettas dobles | Cambio de aceite",
+    "swedish": "Dual Berettas | Oil Change",
+    "tchinese": "Dual Berettas | 換機油",
+    "thai": "Dual Berettas | Oil Change",
+    "turkish": "Çift Beretta | Yağ Değişimi",
+    "ukrainian": "Подвійні «Беретти» | Заміна мастила",
+    "vietnamese": "Dual Berettas | Oil Change"
+  },
+  "media": {
+    "asset_id": "skin__2-1086",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-1086/light.png",
+      "data/api/media/rendered/files/skins/2-1086/medium.png",
+      "data/api/media/rendered/files/skins/2-1086/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-1086.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-1086/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-1086/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-1086/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-1086/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_sp_engine_dirty_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_sp_engine_dirty_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_sp_engine_dirty_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Oil Change",
+  "search_slug": "dual-berettas-oil-change",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_vertigo_2021",
+        "name": "The 2021 Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4792",
+        "kind": "container",
+        "name": "The 2021 Vertigo Collection",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4973",
+        "kind": "container",
+        "name": "Shanghai 2024 Vertigo Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4815",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Vertigo Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4841",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Vertigo Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4866",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Vertigo Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4899",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Vertigo Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4932",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Vertigo Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "2-1086__normal__battle-scarred",
+    "2-1086__normal__factory-new",
+    "2-1086__normal__field-tested",
+    "2-1086__normal__minimal-wear",
+    "2-1086__normal__well-worn",
+    "2-1086__souvenir__battle-scarred",
+    "2-1086__souvenir__factory-new",
+    "2-1086__souvenir__field-tested",
+    "2-1086__souvenir__minimal-wear",
+    "2-1086__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

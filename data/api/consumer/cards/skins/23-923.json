@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 923,
+    "id": 923,
+    "localized_names": {
+      "brazilian": "Oasis Oxidado",
+      "bulgarian": "Оксиден оазис",
+      "czech": "Oxide Oasis",
+      "danish": "Oxide Oasis",
+      "dutch": "Oxide Oasis",
+      "english": "Oxide Oasis",
+      "finnish": "Oksidikeidas",
+      "french": "Oasis oxydée",
+      "german": "Oxidoase",
+      "greek": "Oxide Oasis",
+      "hungarian": "Oxidált Oázis",
+      "indonesian": "Oxide Oasis",
+      "italian": "Oxide Oasis",
+      "japanese": "Oxide Oasis",
+      "koreana": "산화된 오아시스",
+      "latam": "Óxido de oasis",
+      "norwegian": "Oxide Oasis",
+      "polish": "Tlenkowa oaza",
+      "portuguese": "Oxide Oasis",
+      "romanian": "Oxide Oasis",
+      "russian": "Оксидный оазис",
+      "schinese": "幻化绿洲",
+      "schinese_pw": "Oxide Oasis",
+      "spanish": "Oasis de óxido",
+      "swedish": "Oxide Oasis",
+      "tchinese": "氧化綠洲",
+      "thai": "Oxide Oasis",
+      "turkish": "Oksit Vahası",
+      "ukrainian": "Окиснена оаза",
+      "vietnamese": "Oxide Oasis"
+    },
+    "name": "Oxide Oasis",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "23-923",
+  "localized_names": {
+    "brazilian": "MP5-SD | Oasis Oxidado",
+    "bulgarian": "MP5-SD | Оксиден оазис",
+    "czech": "MP5-SD | Oxide Oasis",
+    "danish": "MP5-SD | Oxide Oasis",
+    "dutch": "MP5-SD | Oxide Oasis",
+    "english": "MP5-SD | Oxide Oasis",
+    "finnish": "MP5-SD | Oksidikeidas",
+    "french": "MP5SD | Oasis oxydée",
+    "german": "MP5-SD | Oxidoase",
+    "greek": "MP5-SD | Oxide Oasis",
+    "hungarian": "MP5-SD | Oxidált Oázis",
+    "indonesian": "MP5-SD | Oxide Oasis",
+    "italian": "MP5-SD | Oxide Oasis",
+    "japanese": "MP5-SD | Oxide Oasis",
+    "koreana": "MP5-SD | 산화된 오아시스",
+    "latam": "MP5-SD | Óxido de oasis",
+    "norwegian": "MP5-SD | Oxide Oasis",
+    "polish": "MP5-SD | Tlenkowa oaza",
+    "portuguese": "MP5-SD | Oxide Oasis",
+    "romanian": "MP5-SD | Oxide Oasis",
+    "russian": "MP5-SD | Оксидный оазис",
+    "schinese": "MP5-SD | 幻化绿洲",
+    "schinese_pw": "MP5-SD | Oxide Oasis",
+    "spanish": "MP5-SD | Oasis de óxido",
+    "swedish": "MP5-SD | Oxide Oasis",
+    "tchinese": "MP5-SD | 氧化綠洲",
+    "thai": "MP5-SD | Oxide Oasis",
+    "turkish": "MP5-SD | Oksit Vahası",
+    "ukrainian": "МП5-СД | Окиснена оаза",
+    "vietnamese": "MP5-SD | Oxide Oasis"
+  },
+  "media": {
+    "asset_id": "skin__23-923",
+    "images_png": [
+      "data/api/media/rendered/files/skins/23-923/light.png",
+      "data/api/media/rendered/files/skins/23-923/medium.png",
+      "data/api/media/rendered/files/skins/23-923/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/23-923.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/23-923/heavy.png",
+      "light": "data/api/media/rendered/files/skins/23-923/light.png",
+      "medium": "data/api/media/rendered/files/skins/23-923/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/23-923/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp5sd_gs_mp5_neon_flektarn_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp5sd_gs_mp5_neon_flektarn_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp5sd_gs_mp5_neon_flektarn_medium_png.vtex_c"
+    }
+  },
+  "name": "MP5-SD | Oxide Oasis",
+  "search_slug": "mp5-sd-oxide-oasis",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "variant_ids": [
+    "23-923__normal__battle-scarred",
+    "23-923__normal__factory-new",
+    "23-923__normal__field-tested",
+    "23-923__normal__minimal-wear",
+    "23-923__normal__well-worn",
+    "23-923__souvenir__battle-scarred",
+    "23-923__souvenir__factory-new",
+    "23-923__souvenir__field-tested",
+    "23-923__souvenir__minimal-wear",
+    "23-923__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 23,
+    "localized_names": {
+      "brazilian": "MP5-SD",
+      "bulgarian": "MP5-SD",
+      "czech": "MP5-SD",
+      "danish": "MP5-SD",
+      "dutch": "MP5-SD",
+      "english": "MP5-SD",
+      "finnish": "MP5-SD",
+      "french": "MP5SD",
+      "german": "MP5-SD",
+      "greek": "MP5-SD",
+      "hungarian": "MP5-SD",
+      "indonesian": "MP5-SD",
+      "italian": "MP5-SD",
+      "japanese": "MP5-SD",
+      "koreana": "MP5-SD",
+      "latam": "MP5-SD",
+      "norwegian": "MP5-SD",
+      "polish": "MP5-SD",
+      "portuguese": "MP5-SD",
+      "romanian": "MP5-SD",
+      "russian": "MP5-SD",
+      "schinese": "MP5-SD",
+      "schinese_pw": "MP5-SD",
+      "spanish": "MP5-SD",
+      "swedish": "MP5-SD",
+      "tchinese": "MP5-SD",
+      "thai": "MP5-SD",
+      "turkish": "MP5-SD",
+      "ukrainian": "МП5-СД",
+      "vietnamese": "MP5-SD"
+    },
+    "name": "MP5-SD",
+    "search_slug": "mp5-sd",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

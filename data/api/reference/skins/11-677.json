@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "gs_g3sg1_cetme_redux",
+    "id": 677,
+    "name": "Hunter",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 677,
+    "weapon_id": 11
+  },
+  "id": "11-677",
+  "name": "G3SG1 | Hunter",
+  "search_slug": "g3sg1-hunter",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_18",
+        "name": "The Spectrum 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4403",
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "11-677__normal__factory-new",
+    "11-677__normal__minimal-wear",
+    "11-677__normal__field-tested",
+    "11-677__normal__well-worn",
+    "11-677__normal__battle-scarred",
+    "11-677__stattrak__factory-new",
+    "11-677__stattrak__minimal-wear",
+    "11-677__stattrak__field-tested",
+    "11-677__stattrak__well-worn",
+    "11-677__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_g3sg1",
+    "id": 11,
+    "name": "G3SG1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

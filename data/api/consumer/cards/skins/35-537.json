@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 537,
+    "id": 537,
+    "localized_names": {
+      "brazilian": "Hiper Fera",
+      "bulgarian": "Хипер звяр",
+      "czech": "Hyper Beast",
+      "danish": "Hyper Beast",
+      "dutch": "Hyper Beast",
+      "english": "Hyper Beast",
+      "finnish": "Hyperpeto",
+      "french": "Bête déchainée",
+      "german": "Hyperbestie",
+      "greek": "Hyper Beast",
+      "hungarian": "Hiperbestia",
+      "indonesian": "Hyper Beast",
+      "italian": "Hyper Beast",
+      "japanese": "Hyper Beast",
+      "koreana": "괴수",
+      "latam": "Hiperbestia",
+      "norwegian": "Hyper Beast",
+      "polish": "Hiperbestia",
+      "portuguese": "Hyper Beast",
+      "romanian": "Hyper Beast",
+      "russian": "Скоростной зверь",
+      "schinese": "暴怒野兽",
+      "schinese_pw": "Hyper Beast",
+      "spanish": "Hiperbestia",
+      "swedish": "Hyper Beast",
+      "tchinese": "亢奮野獸",
+      "thai": "Hyper Beast",
+      "turkish": "Hiper Canavar",
+      "ukrainian": "Гіперчудовисько",
+      "vietnamese": "Hyper Beast"
+    },
+    "name": "Hyper Beast",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-537",
+  "localized_names": {
+    "brazilian": "Nova | Hiper Fera",
+    "bulgarian": "Nova | Хипер звяр",
+    "czech": "Nova | Hyper Beast",
+    "danish": "Nova | Hyper Beast",
+    "dutch": "Nova | Hyper Beast",
+    "english": "Nova | Hyper Beast",
+    "finnish": "Nova | Hyperpeto",
+    "french": "Nova | Bête déchainée",
+    "german": "Nova | Hyperbestie",
+    "greek": "Nova | Hyper Beast",
+    "hungarian": "Nova | Hiperbestia",
+    "indonesian": "Nova | Hyper Beast",
+    "italian": "Nova | Hyper Beast",
+    "japanese": "Nova | Hyper Beast",
+    "koreana": "노바 | 괴수",
+    "latam": "Nova | Hiperbestia",
+    "norwegian": "Nova | Hyper Beast",
+    "polish": "Nova | Hiperbestia",
+    "portuguese": "Nova | Hyper Beast",
+    "romanian": "Nova | Hyper Beast",
+    "russian": "Nova | Скоростной зверь",
+    "schinese": "新星 | 暴怒野兽",
+    "schinese_pw": "Nova | Hyper Beast",
+    "spanish": "Nova | Hiperbestia",
+    "swedish": "Nova | Hyper Beast",
+    "tchinese": "Nova | 亢奮野獸",
+    "thai": "Nova | Hyper Beast",
+    "turkish": "Nova | Hiper Canavar",
+    "ukrainian": "Нова | Гіперчудовисько",
+    "vietnamese": "Nova | Hyper Beast"
+  },
+  "media": {
+    "asset_id": "skin__35-537",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-537/light.png",
+      "data/api/media/rendered/files/skins/35-537/medium.png",
+      "data/api/media/rendered/files/skins/35-537/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-537.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-537/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-537/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-537/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-537/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_cu_nova_hyperbeast_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_cu_nova_hyperbeast_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_cu_nova_hyperbeast_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Hyper Beast",
+  "search_slug": "nova-hyper-beast",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4187",
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_11",
+        "name": "The Wildfire Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-537__normal__battle-scarred",
+    "35-537__normal__factory-new",
+    "35-537__normal__field-tested",
+    "35-537__normal__minimal-wear",
+    "35-537__normal__well-worn",
+    "35-537__stattrak__battle-scarred",
+    "35-537__stattrak__factory-new",
+    "35-537__stattrak__field-tested",
+    "35-537__stattrak__minimal-wear",
+    "35-537__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

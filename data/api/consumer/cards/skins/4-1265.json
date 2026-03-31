@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1265,
+    "id": 1265,
+    "localized_names": {
+      "brazilian": "Topografia Oceânica",
+      "bulgarian": "Океанска топография",
+      "czech": "Ocean Topo",
+      "danish": "Ocean Topo",
+      "dutch": "Ocean Topo",
+      "english": "Ocean Topo",
+      "finnish": "Merikartta",
+      "french": "Topo océanique",
+      "german": "Meerestopographie",
+      "greek": "Ocean Topo",
+      "hungarian": "Óceántérkép",
+      "indonesian": "Ocean Topo",
+      "italian": "Ocean Topo",
+      "japanese": "Ocean Topo",
+      "koreana": "바다 지형도",
+      "latam": "Topografía del océano",
+      "norwegian": "Ocean Topo",
+      "polish": "Topografia oceanu",
+      "portuguese": "Ocean Topo",
+      "romanian": "Ocean Topo",
+      "russian": "Океаническая топография",
+      "schinese": "深海地貌",
+      "schinese_pw": "Ocean Topo",
+      "spanish": "Topografía oceánica",
+      "swedish": "Ocean Topo",
+      "tchinese": "海洋地形圖",
+      "thai": "Ocean Topo",
+      "turkish": "Okyanus Topoğrafyası",
+      "ukrainian": "Топографія океану",
+      "vietnamese": "Ocean Topo"
+    },
+    "name": "Ocean Topo",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-1265",
+  "localized_names": {
+    "brazilian": "Glock-18 | Topografia Oceânica",
+    "bulgarian": "Glock-18 | Океанска топография",
+    "czech": "Glock-18 | Ocean Topo",
+    "danish": "Glock-18 | Ocean Topo",
+    "dutch": "Glock-18 | Ocean Topo",
+    "english": "Glock-18 | Ocean Topo",
+    "finnish": "Glock-18 | Merikartta",
+    "french": "Glock-18 | Topo océanique",
+    "german": "Glock-18 | Meerestopographie",
+    "greek": "Glock-18 | Ocean Topo",
+    "hungarian": "Glock-18 | Óceántérkép",
+    "indonesian": "Glock-18 | Ocean Topo",
+    "italian": "Glock-18 | Ocean Topo",
+    "japanese": "Glock-18 | Ocean Topo",
+    "koreana": "글록 18 | 바다 지형도",
+    "latam": "Glock-18 | Topografía del océano",
+    "norwegian": "Glock-18 | Ocean Topo",
+    "polish": "Glock-18 | Topografia oceanu",
+    "portuguese": "Glock-18 | Ocean Topo",
+    "romanian": "Glock-18 | Ocean Topo",
+    "russian": "Glock-18 | Океаническая топография",
+    "schinese": "格洛克18型 | 深海地貌",
+    "schinese_pw": "Glock-18 | Ocean Topo",
+    "spanish": "Glock-18 | Topografía oceánica",
+    "swedish": "Glock-18 | Ocean Topo",
+    "tchinese": "Glock-18 | 海洋地形圖",
+    "thai": "Glock-18 | Ocean Topo",
+    "turkish": "Glock-18 | Okyanus Topoğrafyası",
+    "ukrainian": "Ґлок-18 | Топографія океану",
+    "vietnamese": "Glock-18 | Ocean Topo"
+  },
+  "media": {
+    "asset_id": "skin__4-1265",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-1265/light.png",
+      "data/api/media/rendered/files/skins/4-1265/medium.png",
+      "data/api/media/rendered/files/skins/4-1265/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-1265.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-1265/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-1265/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-1265/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-1265/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_hye_topo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_hye_topo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_hye_topo_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Ocean Topo",
+  "search_slug": "glock-18-ocean-topo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_cool",
+        "name": "The Ascent Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-1265__normal__battle-scarred",
+    "4-1265__normal__factory-new",
+    "4-1265__normal__field-tested",
+    "4-1265__normal__minimal-wear",
+    "4-1265__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

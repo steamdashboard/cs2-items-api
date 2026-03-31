@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 3,
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Maçã do Amor",
+      "bulgarian": "Захаросана ябълка",
+      "czech": "Candy Apple",
+      "danish": "Candy Apple",
+      "dutch": "Candy Apple",
+      "english": "Candy Apple",
+      "finnish": "Karamelliomena",
+      "french": "Pomme d'amour",
+      "german": "Kandierter Apfel",
+      "greek": "Candy Apple",
+      "hungarian": "Candy Apple",
+      "indonesian": "Candy Apple",
+      "italian": "Candy Apple",
+      "japanese": "Candy Apple",
+      "koreana": "사과 사탕",
+      "latam": "Manzana caramelizada",
+      "norwegian": "Candy Apple",
+      "polish": "Jabłko kandyzowane",
+      "portuguese": "Candy Apple",
+      "romanian": "Candy Apple",
+      "russian": "Карамельное яблоко",
+      "schinese": "红苹果",
+      "schinese_pw": "Candy Apple",
+      "spanish": "Manzana de caramelo",
+      "swedish": "Candy Apple",
+      "tchinese": "蜜糖紅蘋",
+      "thai": "Candy Apple",
+      "turkish": "Elma Şekeri",
+      "ukrainian": "Карамельне яблуко",
+      "vietnamese": "Candy Apple"
+    },
+    "name": "Candy Apple",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-3",
+  "localized_names": {
+    "brazilian": "Nova | Maçã do Amor",
+    "bulgarian": "Nova | Захаросана ябълка",
+    "czech": "Nova | Candy Apple",
+    "danish": "Nova | Candy Apple",
+    "dutch": "Nova | Candy Apple",
+    "english": "Nova | Candy Apple",
+    "finnish": "Nova | Karamelliomena",
+    "french": "Nova | Pomme d'amour",
+    "german": "Nova | Kandierter Apfel",
+    "greek": "Nova | Candy Apple",
+    "hungarian": "Nova | Candy Apple",
+    "indonesian": "Nova | Candy Apple",
+    "italian": "Nova | Candy Apple",
+    "japanese": "Nova | Candy Apple",
+    "koreana": "노바 | 사과 사탕",
+    "latam": "Nova | Manzana caramelizada",
+    "norwegian": "Nova | Candy Apple",
+    "polish": "Nova | Jabłko kandyzowane",
+    "portuguese": "Nova | Candy Apple",
+    "romanian": "Nova | Candy Apple",
+    "russian": "Nova | Карамельное яблоко",
+    "schinese": "新星 | 红苹果",
+    "schinese_pw": "Nova | Candy Apple",
+    "spanish": "Nova | Manzana de caramelo",
+    "swedish": "Nova | Candy Apple",
+    "tchinese": "Nova | 蜜糖紅蘋",
+    "thai": "Nova | Candy Apple",
+    "turkish": "Nova | Elma Şekeri",
+    "ukrainian": "Нова | Карамельне яблуко",
+    "vietnamese": "Nova | Candy Apple"
+  },
+  "media": {
+    "asset_id": "skin__35-3",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-3/light.png",
+      "data/api/media/rendered/files/skins/35-3/medium.png",
+      "data/api/media/rendered/files/skins/35-3/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-3.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-3/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-3/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-3/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-3/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_so_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_so_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_so_red_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Candy Apple",
+  "search_slug": "nova-candy-apple",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_italy",
+        "name": "The Italy Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-3__normal__factory-new",
+    "35-3__normal__field-tested",
+    "35-3__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

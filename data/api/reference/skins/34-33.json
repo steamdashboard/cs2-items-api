@@ -1,0 +1,154 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "an_red",
+    "id": 33,
+    "name": "Hot Rod",
+    "rarity_ref": null,
+    "style_code": 4
+  },
+  "game_ref": {
+    "paint_kit_id": 33,
+    "weapon_id": 34
+  },
+  "id": "34-33",
+  "name": "MP9 | Hot Rod",
+  "search_slug": "mp9-hot-rod",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_mirage",
+        "name": "The Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4024",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4033",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4081",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4132",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4177",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4226",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4275",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4345",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4397",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4464",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4541",
+        "kind": "souvenir-package",
+        "name": "London 2018 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4591",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4661",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Mirage Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "34-33__normal__factory-new",
+    "34-33__normal__minimal-wear",
+    "34-33__souvenir__factory-new",
+    "34-33__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_mp9",
+    "id": 34,
+    "name": "MP9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

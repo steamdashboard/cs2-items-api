@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 813,
+    "id": 813,
+    "localized_names": {
+      "brazilian": "Nunca Mais",
+      "bulgarian": "Нивга вече",
+      "czech": "Nevermore",
+      "danish": "Nevermore",
+      "dutch": "Nevermore",
+      "english": "Nevermore",
+      "finnish": "Nevermore",
+      "french": "Jamais plus",
+      "german": "Nimmermehr",
+      "greek": "Nevermore",
+      "hungarian": "Sohamár",
+      "indonesian": "Nevermore",
+      "italian": "Nevermore",
+      "japanese": "Nevermore",
+      "koreana": "네버모어",
+      "latam": "Nunca más",
+      "norwegian": "Nevermore",
+      "polish": "Kres i krach",
+      "portuguese": "Nevermore",
+      "romanian": "Nevermore",
+      "russian": "Ворон",
+      "schinese": "影魔",
+      "schinese_pw": "Nevermore",
+      "spanish": "Nunca más",
+      "swedish": "Nevermore",
+      "tchinese": "往事不復矣",
+      "thai": "Nevermore",
+      "turkish": "Nevermore",
+      "ukrainian": "Крук",
+      "vietnamese": "Nevermore"
+    },
+    "name": "Nevermore",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-813",
+  "localized_names": {
+    "brazilian": "P250 | Nunca Mais",
+    "bulgarian": "P250 | Нивга вече",
+    "czech": "P250 | Nevermore",
+    "danish": "P250 | Nevermore",
+    "dutch": "P250 | Nevermore",
+    "english": "P250 | Nevermore",
+    "finnish": "P250 | Nevermore",
+    "french": "P250 | Jamais plus",
+    "german": "P250 | Nimmermehr",
+    "greek": "P250 | Nevermore",
+    "hungarian": "P250 | Sohamár",
+    "indonesian": "P250 | Nevermore",
+    "italian": "P250 | Nevermore",
+    "japanese": "P250 | Nevermore",
+    "koreana": "P250 | 네버모어",
+    "latam": "P250 | Nunca más",
+    "norwegian": "P250 | Nevermore",
+    "polish": "P250 | Kres i krach",
+    "portuguese": "P250 | Nevermore",
+    "romanian": "P250 | Nevermore",
+    "russian": "P250 | Ворон",
+    "schinese": "P250 | 影魔",
+    "schinese_pw": "P250 | Nevermore",
+    "spanish": "P250 | Nunca más",
+    "swedish": "P250 | Nevermore",
+    "tchinese": "P250 | 往事不復矣",
+    "thai": "P250 | Nevermore",
+    "turkish": "P250 | Nevermore",
+    "ukrainian": "П250 | Крук",
+    "vietnamese": "P250 | Nevermore"
+  },
+  "media": {
+    "asset_id": "skin__36-813",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-813/light.png",
+      "data/api/media/rendered/files/skins/36-813/medium.png",
+      "data/api/media/rendered/files/skins/36-813/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-813.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-813/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-813/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-813/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-813/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_aa_p250_gravediggers_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_aa_p250_gravediggers_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_aa_p250_gravediggers_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Nevermore",
+  "search_slug": "p250-nevermore",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4548",
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_21",
+        "name": "The Danger Zone Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-813__normal__factory-new",
+    "36-813__normal__field-tested",
+    "36-813__normal__minimal-wear",
+    "36-813__normal__well-worn",
+    "36-813__stattrak__factory-new",
+    "36-813__stattrak__field-tested",
+    "36-813__stattrak__minimal-wear",
+    "36-813__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

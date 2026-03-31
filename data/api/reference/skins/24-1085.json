@@ -1,0 +1,139 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "aa_engine_performance",
+    "id": 1085,
+    "name": "Mechanism",
+    "rarity_ref": null,
+    "style_code": 6
+  },
+  "game_ref": {
+    "paint_kit_id": 1085,
+    "weapon_id": 24
+  },
+  "id": "24-1085",
+  "name": "UMP-45 | Mechanism",
+  "search_slug": "ump-45-mechanism",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_vertigo_2021",
+        "name": "The 2021 Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4792",
+        "kind": "container",
+        "name": "The 2021 Vertigo Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4815",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4841",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4866",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4899",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4932",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4973",
+        "kind": "container",
+        "name": "Shanghai 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "24-1085__normal__factory-new",
+    "24-1085__normal__minimal-wear",
+    "24-1085__normal__field-tested",
+    "24-1085__normal__well-worn",
+    "24-1085__normal__battle-scarred",
+    "24-1085__souvenir__factory-new",
+    "24-1085__souvenir__minimal-wear",
+    "24-1085__souvenir__field-tested",
+    "24-1085__souvenir__well-worn",
+    "24-1085__souvenir__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_ump45",
+    "id": 24,
+    "name": "UMP-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.49,
+    "min_float": 0.0
+  }
+}

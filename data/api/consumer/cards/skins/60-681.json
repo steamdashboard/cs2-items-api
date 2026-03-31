@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 681,
+    "id": 681,
+    "localized_names": {
+      "brazilian": "Vidro Chumbado",
+      "bulgarian": "Кварцово стъкло",
+      "czech": "Leaded Glass",
+      "danish": "Leaded Glass",
+      "dutch": "Leaded Glass",
+      "english": "Leaded Glass",
+      "finnish": "Mosaiikki",
+      "french": "Vitrail plombé",
+      "german": "Bleiverglasung",
+      "greek": "Leaded Glass",
+      "hungarian": "Ólomüveg",
+      "indonesian": "Leaded Glass",
+      "italian": "Leaded Glass",
+      "japanese": "Leaded Glass",
+      "koreana": "스테인드글라스",
+      "latam": "Vidrio de plomo",
+      "norwegian": "Leaded Glass",
+      "polish": "Szkło ołowiowe",
+      "portuguese": "Leaded Glass",
+      "romanian": "Leaded Glass",
+      "russian": "Хрусталь",
+      "schinese": "破碎铅秋",
+      "schinese_pw": "Leaded Glass",
+      "spanish": "Vidrio de plomo",
+      "swedish": "Leaded Glass",
+      "tchinese": "鉛玻璃",
+      "thai": "Leaded Glass",
+      "turkish": "Kurşunlu Vitray",
+      "ukrainian": "Кришталь",
+      "vietnamese": "Leaded Glass"
+    },
+    "name": "Leaded Glass",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-681",
+  "localized_names": {
+    "brazilian": "M4A1-S | Vidro Chumbado",
+    "bulgarian": "M4A1-S | Кварцово стъкло",
+    "czech": "M4A1-S | Leaded Glass",
+    "danish": "M4A1-S | Leaded Glass",
+    "dutch": "M4A1-S | Leaded Glass",
+    "english": "M4A1-S | Leaded Glass",
+    "finnish": "M4A1-S | Mosaiikki",
+    "french": "M4A1-S | Vitrail plombé",
+    "german": "M4A1-S | Bleiverglasung",
+    "greek": "M4A1-S | Leaded Glass",
+    "hungarian": "M4A1-S | Ólomüveg",
+    "indonesian": "M4A1-S | Leaded Glass",
+    "italian": "M4A1-S | Leaded Glass",
+    "japanese": "M4A1-S | Leaded Glass",
+    "koreana": "M4A1-S | 스테인드글라스",
+    "latam": "M4A1-S | Vidrio de plomo",
+    "norwegian": "M4A1-S | Leaded Glass",
+    "polish": "M4A1-S | Szkło ołowiowe",
+    "portuguese": "M4A1-S | Leaded Glass",
+    "romanian": "M4A1-S | Leaded Glass",
+    "russian": "M4A1-S | Хрусталь",
+    "schinese": "M4A1消音版 | 破碎铅秋",
+    "schinese_pw": "M4A1-S | Leaded Glass",
+    "spanish": "M4A1-S | Vidrio de plomo",
+    "swedish": "M4A1-S | Leaded Glass",
+    "tchinese": "M4A1-S | 鉛玻璃",
+    "thai": "M4A1-S | Leaded Glass",
+    "turkish": "M4A1-S | Kurşunlu Vitray",
+    "ukrainian": "М4А1-С | Кришталь",
+    "vietnamese": "M4A1-S | Leaded Glass"
+  },
+  "media": {
+    "asset_id": "skin__60-681",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-681/light.png",
+      "data/api/media/rendered/files/skins/60-681/medium.png",
+      "data/api/media/rendered/files/skins/60-681/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-681.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-681/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-681/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-681/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-681/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_shatter_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_shatter_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_shatter_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Leaded Glass",
+  "search_slug": "m4a1-s-leaded-glass",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4403",
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_18",
+        "name": "The Spectrum 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-681__normal__battle-scarred",
+    "60-681__normal__factory-new",
+    "60-681__normal__field-tested",
+    "60-681__normal__minimal-wear",
+    "60-681__normal__well-worn",
+    "60-681__stattrak__battle-scarred",
+    "60-681__stattrak__factory-new",
+    "60-681__stattrak__field-tested",
+    "60-681__stattrak__minimal-wear",
+    "60-681__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

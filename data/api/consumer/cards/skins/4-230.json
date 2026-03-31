@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 230,
+    "id": 230,
+    "localized_names": {
+      "brazilian": "Camuflagem de Aço",
+      "bulgarian": "Стоманен разрив",
+      "czech": "Steel Disruption",
+      "danish": "Steel Disruption",
+      "dutch": "Steel Disruption",
+      "english": "Steel Disruption",
+      "finnish": "Teräshäiriö",
+      "french": "Acier disruptif",
+      "german": "Stahlbruch",
+      "greek": "Steel Disruption",
+      "hungarian": "Acél Álca",
+      "indonesian": "Steel Disruption",
+      "italian": "Steel Disruption",
+      "japanese": "Steel Disruption",
+      "koreana": "백색 디지털 위장 무늬",
+      "latam": "DDPAT de acero",
+      "norwegian": "Steel Disruption",
+      "polish": "Stalowy zamęt",
+      "portuguese": "Steel Disruption",
+      "romanian": "Steel Disruption",
+      "russian": "Ржавая сталь",
+      "schinese": "钢铁禁锢",
+      "schinese_pw": "Steel Disruption",
+      "spanish": "DDPAT acero",
+      "swedish": "Steel Disruption",
+      "tchinese": "鋼鐵分裂",
+      "thai": "Steel Disruption",
+      "turkish": "Parçalı Çelik",
+      "ukrainian": "Іржава сталь",
+      "vietnamese": "Steel Disruption"
+    },
+    "name": "Steel Disruption",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-230",
+  "localized_names": {
+    "brazilian": "Glock-18 | Camuflagem de Aço",
+    "bulgarian": "Glock-18 | Стоманен разрив",
+    "czech": "Glock-18 | Steel Disruption",
+    "danish": "Glock-18 | Steel Disruption",
+    "dutch": "Glock-18 | Steel Disruption",
+    "english": "Glock-18 | Steel Disruption",
+    "finnish": "Glock-18 | Teräshäiriö",
+    "french": "Glock-18 | Acier disruptif",
+    "german": "Glock-18 | Stahlbruch",
+    "greek": "Glock-18 | Steel Disruption",
+    "hungarian": "Glock-18 | Acél Álca",
+    "indonesian": "Glock-18 | Steel Disruption",
+    "italian": "Glock-18 | Steel Disruption",
+    "japanese": "Glock-18 | Steel Disruption",
+    "koreana": "글록 18 | 백색 디지털 위장 무늬",
+    "latam": "Glock-18 | DDPAT de acero",
+    "norwegian": "Glock-18 | Steel Disruption",
+    "polish": "Glock-18 | Stalowy zamęt",
+    "portuguese": "Glock-18 | Steel Disruption",
+    "romanian": "Glock-18 | Steel Disruption",
+    "russian": "Glock-18 | Ржавая сталь",
+    "schinese": "格洛克18型 | 钢铁禁锢",
+    "schinese_pw": "Glock-18 | Steel Disruption",
+    "spanish": "Glock-18 | DDPAT acero",
+    "swedish": "Glock-18 | Steel Disruption",
+    "tchinese": "Glock-18 | 鋼鐵分裂",
+    "thai": "Glock-18 | Steel Disruption",
+    "turkish": "Glock-18 | Parçalı Çelik",
+    "ukrainian": "Ґлок-18 | Іржава сталь",
+    "vietnamese": "Glock-18 | Steel Disruption"
+  },
+  "media": {
+    "asset_id": "skin__4-230",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-230/light.png",
+      "data/api/media/rendered/files/skins/4-230/medium.png",
+      "data/api/media/rendered/files/skins/4-230/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-230.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-230/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-230/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-230/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-230/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_am_ddpatdense_silver_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_am_ddpatdense_silver_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_am_ddpatdense_silver_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Steel Disruption",
+  "search_slug": "glock-18-steel-disruption",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-230__normal__factory-new",
+    "4-230__normal__field-tested",
+    "4-230__normal__minimal-wear",
+    "4-230__stattrak__factory-new",
+    "4-230__stattrak__field-tested",
+    "4-230__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

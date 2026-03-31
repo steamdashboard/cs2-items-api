@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "gs_ak47_bloodsport",
+    "id": 639,
+    "name": "Bloodsport",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 639,
+    "weapon_id": 7
+  },
+  "id": "7-639",
+  "name": "AK-47 | Bloodsport",
+  "search_slug": "ak-47-bloodsport",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_16",
+        "name": "The Spectrum Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4351",
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "7-639__normal__factory-new",
+    "7-639__normal__minimal-wear",
+    "7-639__normal__field-tested",
+    "7-639__normal__well-worn",
+    "7-639__stattrak__factory-new",
+    "7-639__stattrak__minimal-wear",
+    "7-639__stattrak__field-tested",
+    "7-639__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_ak47",
+    "id": 7,
+    "name": "AK-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.45,
+    "min_float": 0.0
+  }
+}

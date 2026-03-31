@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 404,
+    "id": 404,
+    "localized_names": {
+      "brazilian": "Muertos",
+      "bulgarian": "Мъртъв",
+      "czech": "Muertos",
+      "danish": "Muertos",
+      "dutch": "Muertos",
+      "english": "Muertos",
+      "finnish": "Vainajat",
+      "french": "Muertos",
+      "german": "Muertos",
+      "greek": "Muertos",
+      "hungarian": "Muertos",
+      "indonesian": "Muertos",
+      "italian": "Muertos",
+      "japanese": "Muertos",
+      "koreana": "망자의 날",
+      "latam": "Muertos",
+      "norwegian": "Muertos",
+      "polish": "Muertos",
+      "portuguese": "Muertos",
+      "romanian": "Muertos",
+      "russian": "Покойник",
+      "schinese": "死亡轮回",
+      "schinese_pw": "Muertos",
+      "spanish": "Muertos",
+      "swedish": "Muertos",
+      "tchinese": "亡靈",
+      "thai": "Muertos",
+      "turkish": "Ölüler Günü",
+      "ukrainian": "День мертвих",
+      "vietnamese": "Muertos"
+    },
+    "name": "Muertos",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-404",
+  "localized_names": {
+    "brazilian": "P250 | Muertos",
+    "bulgarian": "P250 | Мъртъв",
+    "czech": "P250 | Muertos",
+    "danish": "P250 | Muertos",
+    "dutch": "P250 | Muertos",
+    "english": "P250 | Muertos",
+    "finnish": "P250 | Vainajat",
+    "french": "P250 | Muertos",
+    "german": "P250 | Muertos",
+    "greek": "P250 | Muertos",
+    "hungarian": "P250 | Muertos",
+    "indonesian": "P250 | Muertos",
+    "italian": "P250 | Muertos",
+    "japanese": "P250 | Muertos",
+    "koreana": "P250 | 망자의 날",
+    "latam": "P250 | Muertos",
+    "norwegian": "P250 | Muertos",
+    "polish": "P250 | Muertos",
+    "portuguese": "P250 | Muertos",
+    "romanian": "P250 | Muertos",
+    "russian": "P250 | Покойник",
+    "schinese": "P250 | 死亡轮回",
+    "schinese_pw": "P250 | Muertos",
+    "spanish": "P250 | Muertos",
+    "swedish": "P250 | Muertos",
+    "tchinese": "P250 | 亡靈",
+    "thai": "P250 | Muertos",
+    "turkish": "P250 | Ölüler Günü",
+    "ukrainian": "П250 | День мертвих",
+    "vietnamese": "P250 | Muertos"
+  },
+  "media": {
+    "asset_id": "skin__36-404",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-404/light.png",
+      "data/api/media/rendered/files/skins/36-404/medium.png",
+      "data/api/media/rendered/files/skins/36-404/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-404.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-404/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-404/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-404/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-404/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_cu_p250_mandala_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_cu_p250_mandala_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_cu_p250_mandala_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Muertos",
+  "search_slug": "p250-muertos",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-404__normal__battle-scarred",
+    "36-404__normal__factory-new",
+    "36-404__normal__field-tested",
+    "36-404__normal__minimal-wear",
+    "36-404__normal__well-worn",
+    "36-404__stattrak__battle-scarred",
+    "36-404__stattrak__factory-new",
+    "36-404__stattrak__field-tested",
+    "36-404__stattrak__minimal-wear",
+    "36-404__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

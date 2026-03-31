@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 599,
+    "id": 599,
+    "localized_names": {
+      "brazilian": "Camada de Gelo",
+      "bulgarian": "Ледникова шапка",
+      "czech": "Ice Cap",
+      "danish": "Ice Cap",
+      "dutch": "Ice Cap",
+      "english": "Ice Cap",
+      "finnish": "Huurre",
+      "french": "Glacier",
+      "german": "Eisdecke",
+      "greek": "Ice Cap",
+      "hungarian": "Jégsapka",
+      "indonesian": "Ice Cap",
+      "italian": "Ice Cap",
+      "japanese": "Ice Cap",
+      "koreana": "만년설",
+      "latam": "Capa de hielo",
+      "norwegian": "Ice Cap",
+      "polish": "Czapa lodowa",
+      "portuguese": "Ice Cap",
+      "romanian": "Ice Cap",
+      "russian": "Ледниковый покров",
+      "schinese": "冰冠",
+      "schinese_pw": "Ice Cap",
+      "spanish": "Capa de hielo",
+      "swedish": "Ice Cap",
+      "tchinese": "冰冠",
+      "thai": "Ice Cap",
+      "turkish": "Buz Şapka",
+      "ukrainian": "Іній",
+      "vietnamese": "Ice Cap"
+    },
+    "name": "Ice Cap",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-599",
+  "localized_names": {
+    "brazilian": "Tec-9 | Camada de Gelo",
+    "bulgarian": "Tec-9 | Ледникова шапка",
+    "czech": "Tec-9 | Ice Cap",
+    "danish": "Tec-9 | Ice Cap",
+    "dutch": "Tec-9 | Ice Cap",
+    "english": "Tec-9 | Ice Cap",
+    "finnish": "Tec-9 | Huurre",
+    "french": "Tec-9 | Glacier",
+    "german": "Tec-9 | Eisdecke",
+    "greek": "Tec-9 | Ice Cap",
+    "hungarian": "Tec-9 | Jégsapka",
+    "indonesian": "Tec-9 | Ice Cap",
+    "italian": "Tec-9 | Ice Cap",
+    "japanese": "Tec-9 | Ice Cap",
+    "koreana": "Tec-9 | 만년설",
+    "latam": "Tec-9 | Capa de hielo",
+    "norwegian": "Tec-9 | Ice Cap",
+    "polish": "Tec-9 | Czapa lodowa",
+    "portuguese": "Tec-9 | Ice Cap",
+    "romanian": "Tec-9 | Ice Cap",
+    "russian": "Tec-9 | Ледниковый покров",
+    "schinese": "Tec-9 | 冰冠",
+    "schinese_pw": "Tec-9 | Ice Cap",
+    "spanish": "Tec-9 | Capa de hielo",
+    "swedish": "Tec-9 | Ice Cap",
+    "tchinese": "Tec-9 | 冰冠",
+    "thai": "Tec-9 | Ice Cap",
+    "turkish": "Tec-9 | Buz Şapka",
+    "ukrainian": "ТЕК-9 | Іній",
+    "vietnamese": "Tec-9 | Ice Cap"
+  },
+  "media": {
+    "asset_id": "skin__30-599",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-599/light.png",
+      "data/api/media/rendered/files/skins/30-599/medium.png",
+      "data/api/media/rendered/files/skins/30-599/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-599.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-599/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-599/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-599/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-599/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_am_tec_9_sea_salt_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_am_tec_9_sea_salt_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_am_tec_9_sea_salt_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Ice Cap",
+  "search_slug": "tec-9-ice-cap",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4236",
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_13",
+        "name": "The Gamma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-599__normal__battle-scarred",
+    "30-599__normal__factory-new",
+    "30-599__normal__field-tested",
+    "30-599__normal__minimal-wear",
+    "30-599__normal__well-worn",
+    "30-599__stattrak__battle-scarred",
+    "30-599__stattrak__factory-new",
+    "30-599__stattrak__field-tested",
+    "30-599__stattrak__minimal-wear",
+    "30-599__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

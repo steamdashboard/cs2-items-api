@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1027,
+    "id": 1027,
+    "localized_names": {
+      "brazilian": "Alvo Encontrado",
+      "bulgarian": "Целта е прихваната",
+      "czech": "Target Acquired",
+      "danish": "Target Acquired",
+      "dutch": "Target Acquired",
+      "english": "Target Acquired",
+      "finnish": "Kohdennettu",
+      "french": "Cible acquise",
+      "german": "Ziel erfasst",
+      "greek": "Target Acquired",
+      "hungarian": "Cél Bemérve",
+      "indonesian": "Target Acquired",
+      "italian": "Target Acquired",
+      "japanese": "Target Acquired",
+      "koreana": "목표 확보",
+      "latam": "Objetivo localizado",
+      "norwegian": "Target Acquired",
+      "polish": "Cel namierzony",
+      "portuguese": "Target Acquired",
+      "romanian": "Target Acquired",
+      "russian": "Цель найдена",
+      "schinese": "锁定",
+      "schinese_pw": "Target Acquired",
+      "spanish": "Objetivo localizado",
+      "swedish": "Target Acquired",
+      "tchinese": "鎖定目標",
+      "thai": "Target Acquired",
+      "turkish": "Hedef Görüldü",
+      "ukrainian": "Ціль визначено",
+      "vietnamese": "Target Acquired"
+    },
+    "name": "Target Acquired",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-1027",
+  "localized_names": {
+    "brazilian": "USP-S | Alvo Encontrado",
+    "bulgarian": "USP-S | Целта е прихваната",
+    "czech": "USP-S | Target Acquired",
+    "danish": "USP-S | Target Acquired",
+    "dutch": "USP-S | Target Acquired",
+    "english": "USP-S | Target Acquired",
+    "finnish": "USP-S | Kohdennettu",
+    "french": "USP-S | Cible acquise",
+    "german": "USP-S | Ziel erfasst",
+    "greek": "USP-S | Target Acquired",
+    "hungarian": "USP-S | Cél Bemérve",
+    "indonesian": "USP-S | Target Acquired",
+    "italian": "USP-S | Target Acquired",
+    "japanese": "USP-S | Target Acquired",
+    "koreana": "USP-S | 목표 확보",
+    "latam": "USP-S | Objetivo localizado",
+    "norwegian": "USP-S | Target Acquired",
+    "polish": "USP-S | Cel namierzony",
+    "portuguese": "USP-S | Target Acquired",
+    "romanian": "USP-S | Target Acquired",
+    "russian": "USP-S | Цель найдена",
+    "schinese": "USP消音版 | 锁定",
+    "schinese_pw": "USP-S | Target Acquired",
+    "spanish": "USP-S | Objetivo localizado",
+    "swedish": "USP-S | Target Acquired",
+    "tchinese": "USP-S | 鎖定目標",
+    "thai": "USP-S | Target Acquired",
+    "turkish": "USP-S | Hedef Görüldü",
+    "ukrainian": "УСП-С | Ціль визначено",
+    "vietnamese": "USP-S | Target Acquired"
+  },
+  "media": {
+    "asset_id": "skin__61-1027",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-1027/light.png",
+      "data/api/media/rendered/files/skins/61-1027/medium.png",
+      "data/api/media/rendered/files/skins/61-1027/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-1027.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-1027/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-1027/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-1027/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-1027/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_am_intelligence_magenta_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_am_intelligence_magenta_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_am_intelligence_magenta_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Target Acquired",
+  "search_slug": "usp-s-target-acquired",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ct",
+        "name": "The Control Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4720",
+        "kind": "container",
+        "name": "The Control Collection",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-1027__normal__battle-scarred",
+    "61-1027__normal__factory-new",
+    "61-1027__normal__field-tested",
+    "61-1027__normal__minimal-wear",
+    "61-1027__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

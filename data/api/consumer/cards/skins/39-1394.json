@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1394,
+    "id": 1394,
+    "localized_names": {
+      "brazilian": "Estampa Safari",
+      "bulgarian": "Сафари щампа",
+      "czech": "Safari Print",
+      "danish": "Safari Print",
+      "dutch": "Safari Print",
+      "english": "Safari Print",
+      "finnish": "Safarikuvio",
+      "french": "Imprimé safari",
+      "german": "Safari-Muster",
+      "greek": "Safari Print",
+      "hungarian": "Szafariminta",
+      "indonesian": "Safari Print",
+      "italian": "Safari Print",
+      "japanese": "Safari Print",
+      "koreana": "사파리 무늬",
+      "latam": "Patrón de safari",
+      "norwegian": "Safari Print",
+      "polish": "Nadruk safari",
+      "portuguese": "Safari Print",
+      "romanian": "Safari Print",
+      "russian": "Сафари",
+      "schinese": "狩猎印花",
+      "schinese_pw": "Safari Print",
+      "spanish": "Estampado de safari",
+      "swedish": "Safari Print",
+      "tchinese": "狩獵印花",
+      "thai": "Safari Print",
+      "turkish": "Safari Baskısı",
+      "ukrainian": "Принт «Сафарі»",
+      "vietnamese": "Safari Print"
+    },
+    "name": "Safari Print",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "39-1394",
+  "localized_names": {
+    "brazilian": "SG 553 | Estampa Safari",
+    "bulgarian": "SG 553 | Сафари щампа",
+    "czech": "SG 553 | Safari Print",
+    "danish": "SG 553 | Safari Print",
+    "dutch": "SG 553 | Safari Print",
+    "english": "SG 553 | Safari Print",
+    "finnish": "SG 553 | Safarikuvio",
+    "french": "SG 553 | Imprimé safari",
+    "german": "SG 553 | Safari-Muster",
+    "greek": "SG 553 | Safari Print",
+    "hungarian": "SG 553 | Szafariminta",
+    "indonesian": "SG 553 | Safari Print",
+    "italian": "SG 553 | Safari Print",
+    "japanese": "SG 553 | Safari Print",
+    "koreana": "SG 553 | 사파리 무늬",
+    "latam": "SG 553 | Patrón de safari",
+    "norwegian": "SG 553 | Safari Print",
+    "polish": "SG 553 | Nadruk safari",
+    "portuguese": "SG 553 | Safari Print",
+    "romanian": "SG 553 | Safari Print",
+    "russian": "SG 553 | Сафари",
+    "schinese": "SG 553 | 狩猎印花",
+    "schinese_pw": "SG 553 | Safari Print",
+    "spanish": "SG 553 | Estampado de safari",
+    "swedish": "SG 553 | Safari Print",
+    "tchinese": "SG 553 | 狩獵印花",
+    "thai": "SG 553 | Safari Print",
+    "turkish": "SG 553 | Safari Baskısı",
+    "ukrainian": "СГ 553 | Принт «Сафарі»",
+    "vietnamese": "SG 553 | Safari Print"
+  },
+  "media": {
+    "asset_id": "skin__39-1394",
+    "images_png": [
+      "data/api/media/rendered/files/skins/39-1394/light.png",
+      "data/api/media/rendered/files/skins/39-1394/medium.png",
+      "data/api/media/rendered/files/skins/39-1394/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/39-1394.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/39-1394/heavy.png",
+      "light": "data/api/media/rendered/files/skins/39-1394/light.png",
+      "medium": "data/api/media/rendered/files/skins/39-1394/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/39-1394/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sg556_hye_animal_print_lc_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sg556_hye_animal_print_lc_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sg556_hye_animal_print_lc_medium_png.vtex_c"
+    }
+  },
+  "name": "SG 553 | Safari Print",
+  "search_slug": "sg-553-safari-print",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_exuberant",
+        "name": "The Harlequin Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "39-1394__normal__battle-scarred",
+    "39-1394__normal__factory-new",
+    "39-1394__normal__field-tested",
+    "39-1394__normal__minimal-wear",
+    "39-1394__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 39,
+    "localized_names": {
+      "brazilian": "SG 553",
+      "bulgarian": "SG 553",
+      "czech": "SG 553",
+      "danish": "SG 553",
+      "dutch": "SG 553",
+      "english": "SG 553",
+      "finnish": "SG 553",
+      "french": "SG 553",
+      "german": "SG 553",
+      "greek": "SG 553",
+      "hungarian": "SG 553",
+      "indonesian": "SG 553",
+      "italian": "SG 553",
+      "japanese": "SG 553",
+      "koreana": "SG 553",
+      "latam": "SG 553",
+      "norwegian": "SG 553",
+      "polish": "SG 553",
+      "portuguese": "SG 553",
+      "romanian": "SG 553",
+      "russian": "SG 553",
+      "schinese": "SG 553",
+      "schinese_pw": "SG 553",
+      "spanish": "SG 553",
+      "swedish": "SG 553",
+      "tchinese": "SG 553",
+      "thai": "SG 553",
+      "turkish": "SG 553",
+      "ukrainian": "СГ 553",
+      "vietnamese": "SG 553"
+    },
+    "name": "SG 553",
+    "search_slug": "sg-553",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

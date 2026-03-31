@@ -1,0 +1,92 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "cu_overpass_graf_aug",
+    "id": 134,
+    "name": "Eye of Zapems",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 134,
+    "weapon_id": 8
+  },
+  "id": "8-134",
+  "name": "AUG | Eye of Zapems",
+  "search_slug": "aug-eye-of-zapems",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_overpass_2024",
+        "name": "The Overpass 2024 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5221",
+        "kind": "container",
+        "name": "Budapest 2025 Overpass Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "8-134__normal__factory-new",
+    "8-134__normal__minimal-wear",
+    "8-134__normal__field-tested",
+    "8-134__normal__well-worn",
+    "8-134__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_aug",
+    "id": 8,
+    "name": "AUG",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.85,
+    "min_float": 0.0
+  }
+}

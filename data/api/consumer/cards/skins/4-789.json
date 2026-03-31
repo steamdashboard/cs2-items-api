@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 789,
+    "id": 789,
+    "localized_names": {
+      "brazilian": "Jardim Radioativo",
+      "bulgarian": "Ядрена градина",
+      "czech": "Nuclear Garden",
+      "danish": "Nuclear Garden",
+      "dutch": "Nuclear Garden",
+      "english": "Nuclear Garden",
+      "finnish": "Ydinpuutarha",
+      "french": "Jardin nucléaire",
+      "german": "Nuklearer Garten",
+      "greek": "Nuclear Garden",
+      "hungarian": "Nukleáris Kert",
+      "indonesian": "Nuclear Garden",
+      "italian": "Nuclear Garden",
+      "japanese": "Nuclear Garden",
+      "koreana": "방사능 정원",
+      "latam": "Jardín nuclear",
+      "norwegian": "Nuclear Garden",
+      "polish": "Nuklearny ogród",
+      "portuguese": "Nuclear Garden",
+      "romanian": "Nuclear Garden",
+      "russian": "Ядерный сад",
+      "schinese": "核子花园",
+      "schinese_pw": "Nuclear Garden",
+      "spanish": "Jardín nuclear",
+      "swedish": "Nuclear Garden",
+      "tchinese": "核子樂園",
+      "thai": "Nuclear Garden",
+      "turkish": "Nükleer Bahçe",
+      "ukrainian": "Ядерний сад",
+      "vietnamese": "Nuclear Garden"
+    },
+    "name": "Nuclear Garden",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-789",
+  "localized_names": {
+    "brazilian": "Glock-18 | Jardim Radioativo",
+    "bulgarian": "Glock-18 | Ядрена градина",
+    "czech": "Glock-18 | Nuclear Garden",
+    "danish": "Glock-18 | Nuclear Garden",
+    "dutch": "Glock-18 | Nuclear Garden",
+    "english": "Glock-18 | Nuclear Garden",
+    "finnish": "Glock-18 | Ydinpuutarha",
+    "french": "Glock-18 | Jardin nucléaire",
+    "german": "Glock-18 | Nuklearer Garten",
+    "greek": "Glock-18 | Nuclear Garden",
+    "hungarian": "Glock-18 | Nukleáris Kert",
+    "indonesian": "Glock-18 | Nuclear Garden",
+    "italian": "Glock-18 | Nuclear Garden",
+    "japanese": "Glock-18 | Nuclear Garden",
+    "koreana": "글록 18 | 방사능 정원",
+    "latam": "Glock-18 | Jardín nuclear",
+    "norwegian": "Glock-18 | Nuclear Garden",
+    "polish": "Glock-18 | Nuklearny ogród",
+    "portuguese": "Glock-18 | Nuclear Garden",
+    "romanian": "Glock-18 | Nuclear Garden",
+    "russian": "Glock-18 | Ядерный сад",
+    "schinese": "格洛克18型 | 核子花园",
+    "schinese_pw": "Glock-18 | Nuclear Garden",
+    "spanish": "Glock-18 | Jardín nuclear",
+    "swedish": "Glock-18 | Nuclear Garden",
+    "tchinese": "Glock-18 | 核子樂園",
+    "thai": "Glock-18 | Nuclear Garden",
+    "turkish": "Glock-18 | Nükleer Bahçe",
+    "ukrainian": "Ґлок-18 | Ядерний сад",
+    "vietnamese": "Glock-18 | Nuclear Garden"
+  },
+  "media": {
+    "asset_id": "skin__4-789",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-789/light.png",
+      "data/api/media/rendered/files/skins/4-789/medium.png",
+      "data/api/media/rendered/files/skins/4-789/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-789.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-789/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-789/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-789/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-789/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_am_nuclear_skulls_green_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_am_nuclear_skulls_green_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_am_nuclear_skulls_green_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Nuclear Garden",
+  "search_slug": "glock-18-nuclear-garden",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_nuke_2",
+        "name": "The 2018 Nuke Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4972",
+        "kind": "container",
+        "name": "Shanghai 2024 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5125",
+        "kind": "container",
+        "name": "Austin 2025 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5224",
+        "kind": "container",
+        "name": "Budapest 2025 Nuke Souvenir Package",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4546",
+        "kind": "souvenir-package",
+        "name": "London 2018 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4596",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4665",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4814",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4840",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4865",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4898",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4931",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Nuke Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "4-789__normal__battle-scarred",
+    "4-789__normal__factory-new",
+    "4-789__normal__field-tested",
+    "4-789__normal__minimal-wear",
+    "4-789__normal__well-worn",
+    "4-789__souvenir__battle-scarred",
+    "4-789__souvenir__factory-new",
+    "4-789__souvenir__field-tested",
+    "4-789__souvenir__minimal-wear",
+    "4-789__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

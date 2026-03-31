@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1163,
+    "id": 1163,
+    "localized_names": {
+      "brazilian": "Basta Sorrir",
+      "bulgarian": "Просто се усмихнете",
+      "czech": "Just Smile",
+      "danish": "Just Smile",
+      "dutch": "Just Smile",
+      "english": "Just Smile",
+      "finnish": "Just Smile",
+      "french": "Un sourire",
+      "german": "Gleichgültiges Lächeln",
+      "greek": "Just Smile",
+      "hungarian": "Mosolygó",
+      "indonesian": "Just Smile",
+      "italian": "Just Smile",
+      "japanese": "Just Smile",
+      "koreana": "저스트 스마일",
+      "latam": "Just Smile",
+      "norwegian": "Just Smile",
+      "polish": "Uśmiechnij się",
+      "portuguese": "Just Smile",
+      "romanian": "Just Smile",
+      "russian": "Улыбочка",
+      "schinese": "笑一个",
+      "schinese_pw": "Just Smile",
+      "spanish": "Just Smile",
+      "swedish": "Just Smile",
+      "tchinese": "笑一下",
+      "thai": "Just Smile",
+      "turkish": "Sadece Gülümse",
+      "ukrainian": "Просто посмішка",
+      "vietnamese": "Just Smile"
+    },
+    "name": "Just Smile",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-1163",
+  "localized_names": {
+    "brazilian": "MP7 | Basta Sorrir",
+    "bulgarian": "MP7 | Просто се усмихнете",
+    "czech": "MP7 | Just Smile",
+    "danish": "MP7 | Just Smile",
+    "dutch": "MP7 | Just Smile",
+    "english": "MP7 | Just Smile",
+    "finnish": "MP7 | Just Smile",
+    "french": "MP7 | Un sourire",
+    "german": "MP7 | Gleichgültiges Lächeln",
+    "greek": "MP7 | Just Smile",
+    "hungarian": "MP7 | Mosolygó",
+    "indonesian": "MP7 | Just Smile",
+    "italian": "MP7 | Just Smile",
+    "japanese": "MP7 | Just Smile",
+    "koreana": "MP7 | 저스트 스마일",
+    "latam": "MP7 | Just Smile",
+    "norwegian": "MP7 | Just Smile",
+    "polish": "MP7 | Uśmiechnij się",
+    "portuguese": "MP7 | Just Smile",
+    "romanian": "MP7 | Just Smile",
+    "russian": "MP7 | Улыбочка",
+    "schinese": "MP7 | 笑一个",
+    "schinese_pw": "MP7 | Just Smile",
+    "spanish": "MP7 | Just Smile",
+    "swedish": "MP7 | Just Smile",
+    "tchinese": "MP7 | 笑一下",
+    "thai": "MP7 | Just Smile",
+    "turkish": "MP7 | Sadece Gülümse",
+    "ukrainian": "МП7 | Просто посмішка",
+    "vietnamese": "MP7 | Just Smile"
+  },
+  "media": {
+    "asset_id": "skin__33-1163",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-1163/light.png",
+      "data/api/media/rendered/files/skins/33-1163/medium.png",
+      "data/api/media/rendered/files/skins/33-1163/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-1163.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-1163/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-1163/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-1163/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-1163/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_mp7_just_smile_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_mp7_just_smile_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_mp7_just_smile_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Just Smile",
+  "search_slug": "mp7-just-smile",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4904",
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_33",
+        "name": "The Kilowatt Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-1163__normal__battle-scarred",
+    "33-1163__normal__factory-new",
+    "33-1163__normal__field-tested",
+    "33-1163__normal__minimal-wear",
+    "33-1163__normal__well-worn",
+    "33-1163__stattrak__battle-scarred",
+    "33-1163__stattrak__factory-new",
+    "33-1163__stattrak__field-tested",
+    "33-1163__stattrak__minimal-wear",
+    "33-1163__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

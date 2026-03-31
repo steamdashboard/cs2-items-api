@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 328,
+    "id": 328,
+    "localized_names": {
+      "brazilian": "Canhão Portátil",
+      "bulgarian": "Ръчно оръдие",
+      "czech": "Hand Cannon",
+      "danish": "Hand Cannon",
+      "dutch": "Hand Cannon",
+      "english": "Hand Cannon",
+      "finnish": "Käsikanuuna",
+      "french": "Canon à main",
+      "german": "Handfeuerwaffe",
+      "greek": "Hand Cannon",
+      "hungarian": "Kézi Ágyú",
+      "indonesian": "Hand Cannon",
+      "italian": "Hand Cannon",
+      "japanese": "Hand Cannon",
+      "koreana": "손대포",
+      "latam": "Cañón portátil",
+      "norwegian": "Hand Cannon",
+      "polish": "Działo ręczne",
+      "portuguese": "Hand Cannon",
+      "romanian": "Hand Cannon",
+      "russian": "Пищаль",
+      "schinese": "手上加农炮",
+      "schinese_pw": "Hand Cannon",
+      "spanish": "Cañón portátil",
+      "swedish": "Hand Cannon",
+      "tchinese": "掌式加農砲",
+      "thai": "Hand Cannon",
+      "turkish": "El Topu",
+      "ukrainian": "Ручна гармата",
+      "vietnamese": "Hand Cannon"
+    },
+    "name": "Hand Cannon",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.01
+    }
+  },
+  "id": "1-328",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Canhão Portátil",
+    "bulgarian": "Desert Eagle | Ръчно оръдие",
+    "czech": "Desert Eagle | Hand Cannon",
+    "danish": "Desert Eagle | Hand Cannon",
+    "dutch": "Desert Eagle | Hand Cannon",
+    "english": "Desert Eagle | Hand Cannon",
+    "finnish": "Desert Eagle | Käsikanuuna",
+    "french": "Desert Eagle | Canon à main",
+    "german": "Desert Eagle | Handfeuerwaffe",
+    "greek": "Desert Eagle | Hand Cannon",
+    "hungarian": "Desert Eagle | Kézi Ágyú",
+    "indonesian": "Desert Eagle | Hand Cannon",
+    "italian": "Desert Eagle | Hand Cannon",
+    "japanese": "Desert Eagle | Hand Cannon",
+    "koreana": "데저트 이글 | 손대포",
+    "latam": "Desert Eagle | Cañón portátil",
+    "norwegian": "Desert Eagle | Hand Cannon",
+    "polish": "Desert Eagle | Działo ręczne",
+    "portuguese": "Desert Eagle | Hand Cannon",
+    "romanian": "Desert Eagle | Hand Cannon",
+    "russian": "Desert Eagle | Пищаль",
+    "schinese": "沙漠之鹰 | 手上加农炮",
+    "schinese_pw": "Desert Eagle | Hand Cannon",
+    "spanish": "Desert Eagle | Cañón portátil",
+    "swedish": "Desert Eagle | Hand Cannon",
+    "tchinese": "Desert Eagle | 掌式加農砲",
+    "thai": "Desert Eagle | Hand Cannon",
+    "turkish": "Desert Eagle | El Topu",
+    "ukrainian": "Пустельний орел | Ручна гармата",
+    "vietnamese": "Desert Eagle | Hand Cannon"
+  },
+  "media": {
+    "asset_id": "skin__1-328",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-328/light.png",
+      "data/api/media/rendered/files/skins/1-328/medium.png",
+      "data/api/media/rendered/files/skins/1-328/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-328.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-328/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-328/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-328/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-328/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_aq_handcannon_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_aq_handcannon_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_aq_handcannon_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Hand Cannon",
+  "search_slug": "desert-eagle-hand-cannon",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cobblestone",
+        "name": "The Cobblestone Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4602",
+        "kind": "container",
+        "name": "The Cobblestone Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4027",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4036",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4084",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4134",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4179",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4228",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4276",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4346",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4398",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4465",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "1-328__normal__battle-scarred",
+    "1-328__normal__factory-new",
+    "1-328__normal__field-tested",
+    "1-328__normal__minimal-wear",
+    "1-328__normal__well-worn",
+    "1-328__souvenir__battle-scarred",
+    "1-328__souvenir__factory-new",
+    "1-328__souvenir__field-tested",
+    "1-328__souvenir__minimal-wear",
+    "1-328__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.01
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_p250_beaded_paint",
+    "id": 271,
+    "name": "Undertow",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 271,
+    "weapon_id": 36
+  },
+  "id": "36-271",
+  "name": "P250 | Undertow",
+  "search_slug": "p250-undertow",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_weapons_iii",
+        "name": "The Arms Deal 3 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4010",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "36-271__normal__factory-new",
+    "36-271__normal__minimal-wear",
+    "36-271__normal__field-tested",
+    "36-271__stattrak__factory-new",
+    "36-271__stattrak__minimal-wear",
+    "36-271__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_p250",
+    "id": 36,
+    "name": "P250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 217,
+    "id": 217,
+    "localized_names": {
+      "brazilian": "Sangue de Tigre",
+      "bulgarian": "Кървав тигър",
+      "czech": "Blood Tiger",
+      "danish": "Blood Tiger",
+      "dutch": "Blood Tiger",
+      "english": "Blood Tiger",
+      "finnish": "Veritiikeri",
+      "french": "Sang de tigre",
+      "german": "Bluttiger",
+      "greek": "Blood Tiger",
+      "hungarian": "Vértigris",
+      "indonesian": "Blood Tiger",
+      "italian": "Blood Tiger",
+      "japanese": "Blood Tiger",
+      "koreana": "핏빛 호랑이무늬",
+      "latam": "Sangre de tigre",
+      "norwegian": "Blood Tiger",
+      "polish": "Krwawy tygrys",
+      "portuguese": "Blood Tiger",
+      "romanian": "Blood Tiger",
+      "russian": "Кровавый тигр",
+      "schinese": "血虎",
+      "schinese_pw": "Blood Tiger",
+      "spanish": "Sangre de tigre",
+      "swedish": "Blood Tiger",
+      "tchinese": "血斑虎紋",
+      "thai": "Blood Tiger",
+      "turkish": "Kan Kaplanı",
+      "ukrainian": "Кривавий тигр",
+      "vietnamese": "Blood Tiger"
+    },
+    "name": "Blood Tiger",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-217",
+  "localized_names": {
+    "brazilian": "M4A1-S | Sangue de Tigre",
+    "bulgarian": "M4A1-S | Кървав тигър",
+    "czech": "M4A1-S | Blood Tiger",
+    "danish": "M4A1-S | Blood Tiger",
+    "dutch": "M4A1-S | Blood Tiger",
+    "english": "M4A1-S | Blood Tiger",
+    "finnish": "M4A1-S | Veritiikeri",
+    "french": "M4A1-S | Sang de tigre",
+    "german": "M4A1-S | Bluttiger",
+    "greek": "M4A1-S | Blood Tiger",
+    "hungarian": "M4A1-S | Vértigris",
+    "indonesian": "M4A1-S | Blood Tiger",
+    "italian": "M4A1-S | Blood Tiger",
+    "japanese": "M4A1-S | Blood Tiger",
+    "koreana": "M4A1-S | 핏빛 호랑이무늬",
+    "latam": "M4A1-S | Sangre de tigre",
+    "norwegian": "M4A1-S | Blood Tiger",
+    "polish": "M4A1-S | Krwawy tygrys",
+    "portuguese": "M4A1-S | Blood Tiger",
+    "romanian": "M4A1-S | Blood Tiger",
+    "russian": "M4A1-S | Кровавый тигр",
+    "schinese": "M4A1消音版 | 血虎",
+    "schinese_pw": "M4A1-S | Blood Tiger",
+    "spanish": "M4A1-S | Sangre de tigre",
+    "swedish": "M4A1-S | Blood Tiger",
+    "tchinese": "M4A1-S | 血斑虎紋",
+    "thai": "M4A1-S | Blood Tiger",
+    "turkish": "M4A1-S | Kan Kaplanı",
+    "ukrainian": "М4А1-С | Кривавий тигр",
+    "vietnamese": "M4A1-S | Blood Tiger"
+  },
+  "media": {
+    "asset_id": "skin__60-217",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-217/light.png",
+      "data/api/media/rendered/files/skins/60-217/medium.png",
+      "data/api/media/rendered/files/skins/60-217/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-217.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-217/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-217/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-217/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-217/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_redtiger_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_redtiger_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_redtiger_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Blood Tiger",
+  "search_slug": "m4a1-s-blood-tiger",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-217__normal__factory-new",
+    "60-217__normal__field-tested",
+    "60-217__normal__minimal-wear",
+    "60-217__stattrak__factory-new",
+    "60-217__stattrak__field-tested",
+    "60-217__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

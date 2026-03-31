@@ -1,0 +1,27 @@
+{
+  "description": "The sticker is safely sealed in this slab. You can return the sticker to your inventory at any time by cracking open and discarding this slab.",
+  "description_token": "#keychain_kc_sticker_display_case_desc",
+  "display_name": "Sticker Slab",
+  "display_name_token": "#keychain_kc_sticker_display_case",
+  "game_id": 37,
+  "id": 37,
+  "name": "kc_sticker_display_case",
+  "resolved": {
+    "image_inventory": "econ/keychains/sticker_display_case/kc_sticker_display_case",
+    "is commodity": "1",
+    "item_quality": "customized",
+    "item_rarity": "common",
+    "loc_description": "#keychain_kc_sticker_display_case_desc",
+    "loc_name": "#keychain_kc_sticker_display_case",
+    "name": "kc_sticker_display_case",
+    "pedestal_display_model": "weapons/keychains/sticker_display_case/kc_sticker_display_case.vmdl",
+    "tags": {
+      "KeychainCapsule": {
+        "tag_group": "KeychainCapsule",
+        "tag_group_text": "#SFUI_InvTooltip_KeychainCapsuleTag",
+        "tag_text": "#keychain_kc_sticker_display_case",
+        "tag_value": "keychain_pack_kc_sticker_display_case_lootlist"
+      }
+    }
+  }
+}

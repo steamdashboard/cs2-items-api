@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 903,
+    "id": 903,
+    "localized_names": {
+      "brazilian": "Elite 1.6",
+      "bulgarian": "Елит 1.6",
+      "czech": "Elite 1.6",
+      "danish": "Elite 1.6",
+      "dutch": "Elite 1.6",
+      "english": "Elite 1.6",
+      "finnish": "Eliitti 1.6",
+      "french": "Élite 1.6",
+      "german": "Elite 1.6",
+      "greek": "Elite 1.6",
+      "hungarian": "Elite 1.6",
+      "indonesian": "Elite 1.6",
+      "italian": "Élite 1.6",
+      "japanese": "Elite 1.6",
+      "koreana": "엘리트 1.6",
+      "latam": "Elite 1.6",
+      "norwegian": "Elite 1.6",
+      "polish": "Elita 1.6",
+      "portuguese": "Elite 1.6",
+      "romanian": "Elite 1.6",
+      "russian": "Элита 1.6",
+      "schinese": "1.6精英",
+      "schinese_pw": "Elite 1.6",
+      "spanish": "Elite 1.6",
+      "swedish": "Elite 1.6",
+      "tchinese": "菁英 1.6",
+      "thai": "Elite 1.6",
+      "turkish": "Elite 1.6",
+      "ukrainian": "Еліта 1.6",
+      "vietnamese": "Elite 1.6"
+    },
+    "name": "Elite 1.6",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-903",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Elite 1.6",
+    "bulgarian": "Два Beretta | Елит 1.6",
+    "czech": "Dual Berettas | Elite 1.6",
+    "danish": "Dual Berettas | Elite 1.6",
+    "dutch": "Dual Berettas | Elite 1.6",
+    "english": "Dual Berettas | Elite 1.6",
+    "finnish": "Tupla-Berettat | Eliitti 1.6",
+    "french": "Dual Berettas | Élite 1.6",
+    "german": "Akimbo-Berettas | Elite 1.6",
+    "greek": "Dual Berettas | Elite 1.6",
+    "hungarian": "Dupla Beretta | Elite 1.6",
+    "indonesian": "Dual Berettas | Elite 1.6",
+    "italian": "Doppia Beretta | Élite 1.6",
+    "japanese": "Dual Berettas | Elite 1.6",
+    "koreana": "듀얼 베레타 | 엘리트 1.6",
+    "latam": "Berettas dobles | Elite 1.6",
+    "norwegian": "Dual Berettas | Elite 1.6",
+    "polish": "Dwie beretty | Elita 1.6",
+    "portuguese": "Dual Berettas | Elite 1.6",
+    "romanian": "Dual Berettas | Elite 1.6",
+    "russian": "Dual Berettas | Элита 1.6",
+    "schinese": "双持贝瑞塔 | 1.6精英",
+    "schinese_pw": "Dual Berettas | Elite 1.6",
+    "spanish": "Berettas dobles | Elite 1.6",
+    "swedish": "Dual Berettas | Elite 1.6",
+    "tchinese": "Dual Berettas | 菁英 1.6",
+    "thai": "Dual Berettas | Elite 1.6",
+    "turkish": "Çift Beretta | Elite 1.6",
+    "ukrainian": "Подвійні «Беретти» | Еліта 1.6",
+    "vietnamese": "Dual Berettas | Elite 1.6"
+  },
+  "media": {
+    "asset_id": "skin__2-903",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-903/light.png",
+      "data/api/media/rendered/files/skins/2-903/medium.png",
+      "data/api/media/rendered/files/skins/2-903/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-903.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-903/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-903/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-903/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-903/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_gs_dual_elites_classic_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_gs_dual_elites_classic_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_gs_dual_elites_classic_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Elite 1.6",
+  "search_slug": "dual-berettas-elite-1-6",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4669",
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_24",
+        "name": "The CS20 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "2-903__normal__battle-scarred",
+    "2-903__normal__factory-new",
+    "2-903__normal__field-tested",
+    "2-903__normal__minimal-wear",
+    "2-903__normal__well-worn",
+    "2-903__stattrak__battle-scarred",
+    "2-903__stattrak__factory-new",
+    "2-903__stattrak__field-tested",
+    "2-903__stattrak__minimal-wear",
+    "2-903__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

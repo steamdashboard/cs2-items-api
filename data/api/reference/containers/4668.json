@@ -1,0 +1,41 @@
+{
+  "codename": "crate_xray_p250",
+  "container_kind": "container",
+  "contents": [
+    {
+      "flags": [
+        "item_set_fallback"
+      ],
+      "kind": "skin",
+      "paint_kit_id": 125,
+      "skin_id": "36-125",
+      "tier": null,
+      "weapon_id": 36
+    }
+  ],
+  "contents_source": {
+    "id": "set_xraymachine",
+    "type": "item-set"
+  },
+  "description": "This package contains a single custom painted P250 showing its internals with an X-Ray. P250 is a low-recoil firearm with a high rate of fire, which is a relatively inexpensive choice against armored opponents.",
+  "description_token": "#CSGO_crate_xray_p250_desc",
+  "game_id": 4668,
+  "id": 4668,
+  "loot_list_candidates": [
+    "crate_xray_p250",
+    "crate_xray_p250_lootlist",
+    "set_xraymachine"
+  ],
+  "name": "X-Ray P250 Package",
+  "name_token": "#CSGO_crate_xray_p250",
+  "rare_special_item": {
+    "footer": "or an Exceedingly Rare Special Item!",
+    "footer_token": "#Econ_Revolving_Loot_List_Rare_Item",
+    "name": "★ Rare Special Item ★",
+    "name_token": "#Exceedingly_Rare_Item"
+  },
+  "root_loot_list": null,
+  "search_slug": "x-ray-p250-package",
+  "series_id": 292,
+  "tournament_event_id": null
+}

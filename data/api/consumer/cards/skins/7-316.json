@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 316,
+    "id": 316,
+    "localized_names": {
+      "brazilian": "Jaguar",
+      "bulgarian": "Ягуар",
+      "czech": "Jaguar",
+      "danish": "Jaguar",
+      "dutch": "Jaguar",
+      "english": "Jaguar",
+      "finnish": "Jaguaari",
+      "french": "Jaguar",
+      "german": "Jaguar",
+      "greek": "Jaguar",
+      "hungarian": "Jaguár",
+      "indonesian": "Jaguar",
+      "italian": "Jaguar",
+      "japanese": "Jaguar",
+      "koreana": "재규어",
+      "latam": "Jaguar",
+      "norwegian": "Jaguar",
+      "polish": "Jaguar",
+      "portuguese": "Jaguar",
+      "romanian": "Jaguar",
+      "russian": "Ягуар",
+      "schinese": "美洲猛虎",
+      "schinese_pw": "Jaguar",
+      "spanish": "Jaguar",
+      "swedish": "Jaguar",
+      "tchinese": "捷豹",
+      "thai": "Jaguar",
+      "turkish": "Jaguar",
+      "ukrainian": "Ягуар",
+      "vietnamese": "Jaguar"
+    },
+    "name": "Jaguar",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-316",
+  "localized_names": {
+    "brazilian": "AK-47 | Jaguar",
+    "bulgarian": "AK-47 | Ягуар",
+    "czech": "AK-47 | Jaguar",
+    "danish": "AK-47 | Jaguar",
+    "dutch": "AK-47 | Jaguar",
+    "english": "AK-47 | Jaguar",
+    "finnish": "AK-47 | Jaguaari",
+    "french": "AK-47 | Jaguar",
+    "german": "AK-47 | Jaguar",
+    "greek": "AK-47 | Jaguar",
+    "hungarian": "AK-47 | Jaguár",
+    "indonesian": "AK-47 | Jaguar",
+    "italian": "AK-47 | Jaguar",
+    "japanese": "AK-47 | Jaguar",
+    "koreana": "AK-47 | 재규어",
+    "latam": "AK-47 | Jaguar",
+    "norwegian": "AK-47 | Jaguar",
+    "polish": "AK-47 | Jaguar",
+    "portuguese": "AK-47 | Jaguar",
+    "romanian": "AK-47 | Jaguar",
+    "russian": "AK-47 | Ягуар",
+    "schinese": "AK-47 | 美洲猛虎",
+    "schinese_pw": "AK-47 | Jaguar",
+    "spanish": "AK-47 | Jaguar",
+    "swedish": "AK-47 | Jaguar",
+    "tchinese": "AK-47 | 捷豹",
+    "thai": "AK-47 | Jaguar",
+    "turkish": "AK-47 | Jaguar",
+    "ukrainian": "АК-47 | Ягуар",
+    "vietnamese": "AK-47 | Jaguar"
+  },
+  "media": {
+    "asset_id": "skin__7-316",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-316/light.png",
+      "data/api/media/rendered/files/skins/7-316/medium.png",
+      "data/api/media/rendered/files/skins/7-316/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-316.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-316/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-316/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-316/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-316/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_cu_panther_ak47_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_cu_panther_ak47_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_cu_panther_ak47_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Jaguar",
+  "search_slug": "ak-47-jaguar",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-316__normal__battle-scarred",
+    "7-316__normal__factory-new",
+    "7-316__normal__field-tested",
+    "7-316__normal__minimal-wear",
+    "7-316__normal__well-worn",
+    "7-316__stattrak__battle-scarred",
+    "7-316__stattrak__factory-new",
+    "7-316__stattrak__field-tested",
+    "7-316__stattrak__minimal-wear",
+    "7-316__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

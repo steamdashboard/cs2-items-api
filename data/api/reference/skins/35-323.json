@@ -1,0 +1,52 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "aq_steel",
+    "id": 323,
+    "name": "Rust Coat",
+    "rarity_ref": null,
+    "style_code": 8
+  },
+  "game_ref": {
+    "paint_kit_id": 323,
+    "weapon_id": 35
+  },
+  "id": "35-323",
+  "name": "Nova | Rust Coat",
+  "search_slug": "nova-rust-coat",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_op10_t",
+        "name": "The Havoc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4721",
+        "kind": "container",
+        "name": "The Havoc Collection",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "35-323__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_nova",
+    "id": 35,
+    "name": "Nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": 0.0
+  }
+}

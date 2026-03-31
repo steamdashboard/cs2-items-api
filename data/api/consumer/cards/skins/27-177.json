@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 177,
+    "id": 177,
+    "localized_names": {
+      "brazilian": "Memórias",
+      "bulgarian": "Спомен",
+      "czech": "Memento",
+      "danish": "Memento",
+      "dutch": "Memento",
+      "english": "Memento",
+      "finnish": "Muistuma",
+      "french": "Mémento",
+      "german": "Andenken",
+      "greek": "Ενθύμιο",
+      "hungarian": "Mementó",
+      "indonesian": "Memento",
+      "italian": "Memento",
+      "japanese": "Memento",
+      "koreana": "다면체",
+      "latam": "Recuerdo",
+      "norwegian": "Memento",
+      "polish": "Memento",
+      "portuguese": "Memento",
+      "romanian": "Suvenir",
+      "russian": "Объемные шестиугольники",
+      "schinese": "记忆碎片",
+      "schinese_pw": "Memento",
+      "spanish": "Recuerdo",
+      "swedish": "Memento",
+      "tchinese": "紀念象徵",
+      "thai": "Memento",
+      "turkish": "Andaç",
+      "ukrainian": "Ікосаедр",
+      "vietnamese": "Memento"
+    },
+    "name": "Memento",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.18,
+      "min_float": 0.02
+    }
+  },
+  "id": "27-177",
+  "localized_names": {
+    "brazilian": "MAG-7 | Memórias",
+    "bulgarian": "MAG-7 | Спомен",
+    "czech": "MAG-7 | Memento",
+    "danish": "MAG-7 | Memento",
+    "dutch": "MAG-7 | Memento",
+    "english": "MAG-7 | Memento",
+    "finnish": "MAG-7 | Muistuma",
+    "french": "MAG-7 | Mémento",
+    "german": "MAG-7 | Andenken",
+    "greek": "MAG-7 | Ενθύμιο",
+    "hungarian": "MAG-7 | Mementó",
+    "indonesian": "MAG-7 | Memento",
+    "italian": "MAG-7 | Memento",
+    "japanese": "MAG-7 | Memento",
+    "koreana": "MAG-7 | 다면체",
+    "latam": "MAG-7 | Recuerdo",
+    "norwegian": "MAG-7 | Memento",
+    "polish": "MAG-7 | Memento",
+    "portuguese": "MAG-7 | Memento",
+    "romanian": "MAG-7 | Suvenir",
+    "russian": "MAG-7 | Объемные шестиугольники",
+    "schinese": "MAG-7 | 记忆碎片",
+    "schinese_pw": "MAG-7 | Memento",
+    "spanish": "MAG-7 | Recuerdo",
+    "swedish": "MAG-7 | Memento",
+    "tchinese": "MAG-7 | 紀念象徵",
+    "thai": "MAG-7 | Memento",
+    "turkish": "MAG-7 | Andaç",
+    "ukrainian": "МАГ-7 | Ікосаедр",
+    "vietnamese": "MAG-7 | Memento"
+  },
+  "media": {
+    "asset_id": "skin__27-177",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-177/light.png",
+      "data/api/media/rendered/files/skins/27-177/medium.png",
+      "data/api/media/rendered/files/skins/27-177/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-177.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-177/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-177/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-177/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-177/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_hy_icosahedron_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_hy_icosahedron_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_hy_icosahedron_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Memento",
+  "search_slug": "mag-7-memento",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "27-177__normal__factory-new",
+    "27-177__normal__field-tested",
+    "27-177__normal__minimal-wear",
+    "27-177__stattrak__factory-new",
+    "27-177__stattrak__field-tested",
+    "27-177__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.18,
+    "min_float": 0.02
+  }
+}

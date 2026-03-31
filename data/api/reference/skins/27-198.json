@@ -1,0 +1,44 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_hazard_bravo",
+    "id": 198,
+    "name": "Hazard",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 198,
+    "weapon_id": 27
+  },
+  "id": "27-198",
+  "name": "MAG-7 | Hazard",
+  "search_slug": "mag-7-hazard",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_ii",
+        "name": "The Alpha Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "27-198__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_mag7",
+    "id": 27,
+    "name": "MAG-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

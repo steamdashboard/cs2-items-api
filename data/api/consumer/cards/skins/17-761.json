@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 761,
+    "id": 761,
+    "localized_names": {
+      "brazilian": "Trança Cobreada",
+      "bulgarian": "Меден Бор",
+      "czech": "Copper Borre",
+      "danish": "Copper Borre",
+      "dutch": "Copper Borre",
+      "english": "Copper Borre",
+      "finnish": "Kuparinen Borre-tyyli",
+      "french": "Borre de cuivre",
+      "german": "Goldknoten",
+      "greek": "Copper Borre",
+      "hungarian": "Réz Borre",
+      "indonesian": "Copper Borre",
+      "italian": "Copper Borre",
+      "japanese": "Copper Borre",
+      "koreana": "금속사",
+      "latam": "Armazón de cobre",
+      "norwegian": "Copper Borre",
+      "polish": "Miedziany kurhan",
+      "portuguese": "Copper Borre",
+      "romanian": "Copper Borre",
+      "russian": "Медный Борре",
+      "schinese": "赤金锁链",
+      "schinese_pw": "Copper Borre",
+      "spanish": "Armazón de cobre",
+      "swedish": "Copper Borre",
+      "tchinese": "銅色博雷",
+      "thai": "Copper Borre",
+      "turkish": "Bakır Borre",
+      "ukrainian": "Мідний Борре",
+      "vietnamese": "Copper Borre"
+    },
+    "name": "Copper Borre",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-761",
+  "localized_names": {
+    "brazilian": "MAC-10 | Trança Cobreada",
+    "bulgarian": "MAC-10 | Меден Бор",
+    "czech": "MAC-10 | Copper Borre",
+    "danish": "MAC-10 | Copper Borre",
+    "dutch": "MAC-10 | Copper Borre",
+    "english": "MAC-10 | Copper Borre",
+    "finnish": "MAC-10 | Kuparinen Borre-tyyli",
+    "french": "MAC-10 | Borre de cuivre",
+    "german": "MAC-10 | Goldknoten",
+    "greek": "MAC-10 | Copper Borre",
+    "hungarian": "MAC-10 | Réz Borre",
+    "indonesian": "MAC-10 | Copper Borre",
+    "italian": "MAC-10 | Copper Borre",
+    "japanese": "MAC-10 | Copper Borre",
+    "koreana": "MAC-10 | 금속사",
+    "latam": "MAC-10 | Armazón de cobre",
+    "norwegian": "MAC-10 | Copper Borre",
+    "polish": "MAC-10 | Miedziany kurhan",
+    "portuguese": "MAC-10 | Copper Borre",
+    "romanian": "MAC-10 | Copper Borre",
+    "russian": "MAC-10 | Медный Борре",
+    "schinese": "MAC-10 | 赤金锁链",
+    "schinese_pw": "MAC-10 | Copper Borre",
+    "spanish": "MAC-10 | Armazón de cobre",
+    "swedish": "MAC-10 | Copper Borre",
+    "tchinese": "MAC-10 | 銅色博雷",
+    "thai": "MAC-10 | Copper Borre",
+    "turkish": "MAC-10 | Bakır Borre",
+    "ukrainian": "МАК-10 | Мідний Борре",
+    "vietnamese": "MAC-10 | Copper Borre"
+  },
+  "media": {
+    "asset_id": "skin__17-761",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-761/light.png",
+      "data/api/media/rendered/files/skins/17-761/medium.png",
+      "data/api/media/rendered/files/skins/17-761/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-761.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-761/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-761/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-761/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-761/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_am_knots_brown_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_am_knots_brown_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_am_knots_brown_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Copper Borre",
+  "search_slug": "mac-10-copper-borre",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-761__normal__battle-scarred",
+    "17-761__normal__factory-new",
+    "17-761__normal__field-tested",
+    "17-761__normal__minimal-wear",
+    "17-761__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

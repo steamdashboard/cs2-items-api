@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 32,
+    "id": 32,
+    "localized_names": {
+      "brazilian": "Prateada",
+      "bulgarian": "Сребро",
+      "czech": "Silver",
+      "danish": "Silver",
+      "dutch": "Silver",
+      "english": "Silver",
+      "finnish": "Hopea",
+      "french": "Argent",
+      "german": "Silber",
+      "greek": "Silver",
+      "hungarian": "Ezüst",
+      "indonesian": "Silver",
+      "italian": "Silver",
+      "japanese": "Silver",
+      "koreana": "은색",
+      "latam": "Plateada",
+      "norwegian": "Silver",
+      "polish": "Srebro",
+      "portuguese": "Silver",
+      "romanian": "Silver",
+      "russian": "Серебро",
+      "schinese": "银质",
+      "schinese_pw": "Silver",
+      "spanish": "Plateada",
+      "swedish": "Silver",
+      "tchinese": "白銀",
+      "thai": "Silver",
+      "turkish": "Gümüş",
+      "ukrainian": "Срібло",
+      "vietnamese": "Silver"
+    },
+    "name": "Silver",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-32",
+  "localized_names": {
+    "brazilian": "MAC-10 | Prateada",
+    "bulgarian": "MAC-10 | Сребро",
+    "czech": "MAC-10 | Silver",
+    "danish": "MAC-10 | Silver",
+    "dutch": "MAC-10 | Silver",
+    "english": "MAC-10 | Silver",
+    "finnish": "MAC-10 | Hopea",
+    "french": "MAC-10 | Argent",
+    "german": "MAC-10 | Silber",
+    "greek": "MAC-10 | Silver",
+    "hungarian": "MAC-10 | Ezüst",
+    "indonesian": "MAC-10 | Silver",
+    "italian": "MAC-10 | Silver",
+    "japanese": "MAC-10 | Silver",
+    "koreana": "MAC-10 | 은색",
+    "latam": "MAC-10 | Plateada",
+    "norwegian": "MAC-10 | Silver",
+    "polish": "MAC-10 | Srebro",
+    "portuguese": "MAC-10 | Silver",
+    "romanian": "MAC-10 | Silver",
+    "russian": "MAC-10 | Серебро",
+    "schinese": "MAC-10 | 银质",
+    "schinese_pw": "MAC-10 | Silver",
+    "spanish": "MAC-10 | Plateada",
+    "swedish": "MAC-10 | Silver",
+    "tchinese": "MAC-10 | 白銀",
+    "thai": "MAC-10 | Silver",
+    "turkish": "MAC-10 | Gümüş",
+    "ukrainian": "МАК-10 | Срібло",
+    "vietnamese": "MAC-10 | Silver"
+  },
+  "media": {
+    "asset_id": "skin__17-32",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-32/light.png",
+      "data/api/media/rendered/files/skins/17-32/medium.png",
+      "data/api/media/rendered/files/skins/17-32/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-32.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-32/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-32/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-32/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-32/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_an_silver_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_an_silver_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_an_silver_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Silver",
+  "search_slug": "mac-10-silver",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-32__normal__factory-new",
+    "17-32__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

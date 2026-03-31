@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1127,
+    "id": 1127,
+    "localized_names": {
+      "brazilian": "R.E.M.",
+      "bulgarian": "Резки очни движения",
+      "czech": "Rapid Eye Movement",
+      "danish": "Rapid Eye Movement",
+      "dutch": "Rapid Eye Movement",
+      "english": "Rapid Eye Movement",
+      "finnish": "Silmänvilke",
+      "french": "Mouvement oculaire rapide",
+      "german": "Schnelle Augenbewegung",
+      "greek": "Rapid Eye Movement",
+      "hungarian": "Gyors Szemmozgás",
+      "indonesian": "Rapid Eye Movement",
+      "italian": "Rapid Eye Movement",
+      "japanese": "Rapid Eye Movement",
+      "koreana": "재빠른 눈짓",
+      "latam": "Movimiento ocular rápido",
+      "norwegian": "Rapid Eye Movement",
+      "polish": "Szybkie rozeznanie",
+      "portuguese": "Rapid Eye Movement",
+      "romanian": "Rapid Eye Movement",
+      "russian": "Быстрые движения глаз",
+      "schinese": "目皆转睛",
+      "schinese_pw": "Rapid Eye Movement",
+      "spanish": "Movimientos oculares rápidos",
+      "swedish": "Rapid Eye Movement",
+      "tchinese": "目不暇給",
+      "thai": "Rapid Eye Movement",
+      "turkish": "Hızlı Göz Hareketi",
+      "ukrainian": "Швидкі рухи очей",
+      "vietnamese": "Rapid Eye Movement"
+    },
+    "name": "Rapid Eye Movement",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-1127",
+  "localized_names": {
+    "brazilian": "FAMAS | R.E.M.",
+    "bulgarian": "FAMAS | Резки очни движения",
+    "czech": "FAMAS | Rapid Eye Movement",
+    "danish": "FAMAS | Rapid Eye Movement",
+    "dutch": "FAMAS | Rapid Eye Movement",
+    "english": "FAMAS | Rapid Eye Movement",
+    "finnish": "FAMAS | Silmänvilke",
+    "french": "FAMAS | Mouvement oculaire rapide",
+    "german": "FAMAS | Schnelle Augenbewegung",
+    "greek": "FAMAS | Rapid Eye Movement",
+    "hungarian": "FAMAS | Gyors Szemmozgás",
+    "indonesian": "FAMAS | Rapid Eye Movement",
+    "italian": "FAMAS | Rapid Eye Movement",
+    "japanese": "FAMAS | Rapid Eye Movement",
+    "koreana": "파마스 | 재빠른 눈짓",
+    "latam": "FAMAS | Movimiento ocular rápido",
+    "norwegian": "FAMAS | Rapid Eye Movement",
+    "polish": "FAMAS | Szybkie rozeznanie",
+    "portuguese": "FAMAS | Rapid Eye Movement",
+    "romanian": "FAMAS | Rapid Eye Movement",
+    "russian": "FAMAS | Быстрые движения глаз",
+    "schinese": "法玛斯 | 目皆转睛",
+    "schinese_pw": "FAMAS | Rapid Eye Movement",
+    "spanish": "FAMAS | Movimientos oculares rápidos",
+    "swedish": "FAMAS | Rapid Eye Movement",
+    "tchinese": "FAMAS | 目不暇給",
+    "thai": "FAMAS | Rapid Eye Movement",
+    "turkish": "FAMAS | Hızlı Göz Hareketi",
+    "ukrainian": "ФАМАС | Швидкі рухи очей",
+    "vietnamese": "FAMAS | Rapid Eye Movement"
+  },
+  "media": {
+    "asset_id": "skin__10-1127",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-1127/light.png",
+      "data/api/media/rendered/files/skins/10-1127/medium.png",
+      "data/api/media/rendered/files/skins/10-1127/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-1127.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-1127/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-1127/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-1127/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-1127/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_gs_famas_rapid_eyes_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_gs_famas_rapid_eyes_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_gs_famas_rapid_eyes_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Rapid Eye Movement",
+  "search_slug": "famas-rapid-eye-movement",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4818",
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_30",
+        "name": "The Dreams & Nightmares Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-1127__normal__battle-scarred",
+    "10-1127__normal__factory-new",
+    "10-1127__normal__field-tested",
+    "10-1127__normal__minimal-wear",
+    "10-1127__normal__well-worn",
+    "10-1127__stattrak__battle-scarred",
+    "10-1127__stattrak__factory-new",
+    "10-1127__stattrak__field-tested",
+    "10-1127__stattrak__minimal-wear",
+    "10-1127__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1079,
+    "id": 1079,
+    "localized_names": {
+      "brazilian": "Pneu Vermelho",
+      "bulgarian": "Червена гума",
+      "czech": "Red Tire",
+      "danish": "Red Tire",
+      "dutch": "Red Tire",
+      "english": "Red Tire",
+      "finnish": "Punainen rengas",
+      "french": "Pneu rouge",
+      "german": "Roter Reifen",
+      "greek": "Red Tire",
+      "hungarian": "Piros Kerék",
+      "indonesian": "Red Tire",
+      "italian": "Red Tire",
+      "japanese": "Red Tire",
+      "koreana": "레드 타이어",
+      "latam": "Llanta roja",
+      "norwegian": "Red Tire",
+      "polish": "Czerwona opona",
+      "portuguese": "Red Tire",
+      "romanian": "Red Tire",
+      "russian": "Красные покрышки",
+      "schinese": "红色轮胎",
+      "schinese_pw": "Red Tire",
+      "spanish": "Neumático rojo",
+      "swedish": "Red Tire",
+      "tchinese": "紅色輪胎",
+      "thai": "Red Tire",
+      "turkish": "Kırmızı Tekerlek",
+      "ukrainian": "Червона шина",
+      "vietnamese": "Red Tire"
+    },
+    "name": "Red Tire",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-1079",
+  "localized_names": {
+    "brazilian": "Glock-18 | Pneu Vermelho",
+    "bulgarian": "Glock-18 | Червена гума",
+    "czech": "Glock-18 | Red Tire",
+    "danish": "Glock-18 | Red Tire",
+    "dutch": "Glock-18 | Red Tire",
+    "english": "Glock-18 | Red Tire",
+    "finnish": "Glock-18 | Punainen rengas",
+    "french": "Glock-18 | Pneu rouge",
+    "german": "Glock-18 | Roter Reifen",
+    "greek": "Glock-18 | Red Tire",
+    "hungarian": "Glock-18 | Piros Kerék",
+    "indonesian": "Glock-18 | Red Tire",
+    "italian": "Glock-18 | Red Tire",
+    "japanese": "Glock-18 | Red Tire",
+    "koreana": "글록 18 | 레드 타이어",
+    "latam": "Glock-18 | Llanta roja",
+    "norwegian": "Glock-18 | Red Tire",
+    "polish": "Glock-18 | Czerwona opona",
+    "portuguese": "Glock-18 | Red Tire",
+    "romanian": "Glock-18 | Red Tire",
+    "russian": "Glock-18 | Красные покрышки",
+    "schinese": "格洛克18型 | 红色轮胎",
+    "schinese_pw": "Glock-18 | Red Tire",
+    "spanish": "Glock-18 | Neumático rojo",
+    "swedish": "Glock-18 | Red Tire",
+    "tchinese": "Glock-18 | 紅色輪胎",
+    "thai": "Glock-18 | Red Tire",
+    "turkish": "Glock-18 | Kırmızı Tekerlek",
+    "ukrainian": "Ґлок-18 | Червона шина",
+    "vietnamese": "Glock-18 | Red Tire"
+  },
+  "media": {
+    "asset_id": "skin__4-1079",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-1079/light.png",
+      "data/api/media/rendered/files/skins/4-1079/medium.png",
+      "data/api/media/rendered/files/skins/4-1079/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-1079.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-1079/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-1079/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-1079/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-1079/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_sp_tire_tread_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_sp_tire_tread_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_sp_tire_tread_red_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Red Tire",
+  "search_slug": "glock-18-red-tire",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_vertigo_2021",
+        "name": "The 2021 Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4792",
+        "kind": "container",
+        "name": "The 2021 Vertigo Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4973",
+        "kind": "container",
+        "name": "Shanghai 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4815",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4841",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4866",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4899",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4932",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "4-1079__normal__battle-scarred",
+    "4-1079__normal__factory-new",
+    "4-1079__normal__field-tested",
+    "4-1079__normal__minimal-wear",
+    "4-1079__normal__well-worn",
+    "4-1079__souvenir__battle-scarred",
+    "4-1079__souvenir__factory-new",
+    "4-1079__souvenir__field-tested",
+    "4-1079__souvenir__minimal-wear",
+    "4-1079__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

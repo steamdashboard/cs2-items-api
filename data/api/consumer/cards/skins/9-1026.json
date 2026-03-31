@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1026,
+    "id": 1026,
+    "localized_names": {
+      "brazilian": "Degradê",
+      "bulgarian": "Избледняване",
+      "czech": "Fade",
+      "danish": "Fade",
+      "dutch": "Fade",
+      "english": "Fade",
+      "finnish": "Häivytys",
+      "french": "Dégradé",
+      "german": "Farbverlauf",
+      "greek": "Fade",
+      "hungarian": "Halványulás",
+      "indonesian": "Fade",
+      "italian": "Fade",
+      "japanese": "Fade",
+      "koreana": "흐릿함",
+      "latam": "Desteñido",
+      "norwegian": "Fade",
+      "polish": "Gradient",
+      "portuguese": "Fade",
+      "romanian": "Fade",
+      "russian": "Градиент",
+      "schinese": "渐变之色",
+      "schinese_pw": "Fade",
+      "spanish": "Desteñido",
+      "swedish": "Fade",
+      "tchinese": "漸層彩虹",
+      "thai": "Fade",
+      "turkish": "Solgun",
+      "ukrainian": "Градієнт",
+      "vietnamese": "Fade"
+    },
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-1026",
+  "localized_names": {
+    "brazilian": "AWP | Degradê",
+    "bulgarian": "AWP | Избледняване",
+    "czech": "AWP | Fade",
+    "danish": "AWP | Fade",
+    "dutch": "AWP | Fade",
+    "english": "AWP | Fade",
+    "finnish": "AWP | Häivytys",
+    "french": "AWP | Dégradé",
+    "german": "AWP | Farbverlauf",
+    "greek": "AWP | Fade",
+    "hungarian": "AWP | Halványulás",
+    "indonesian": "AWP | Fade",
+    "italian": "AWP | Fade",
+    "japanese": "AWP | Fade",
+    "koreana": "AWP | 흐릿함",
+    "latam": "AWP | Desteñido",
+    "norwegian": "AWP | Fade",
+    "polish": "AWP | Gradient",
+    "portuguese": "AWP | Fade",
+    "romanian": "AWP | Fade",
+    "russian": "AWP | Градиент",
+    "schinese": "AWP | 渐变之色",
+    "schinese_pw": "AWP | Fade",
+    "spanish": "AWP | Desteñido",
+    "swedish": "AWP | Fade",
+    "tchinese": "AWP | 漸層彩虹",
+    "thai": "AWP | Fade",
+    "turkish": "AWP | Solgun",
+    "ukrainian": "АВП | Градієнт",
+    "vietnamese": "AWP | Fade"
+  },
+  "media": {
+    "asset_id": "skin__9-1026",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-1026/light.png",
+      "data/api/media/rendered/files/skins/9-1026/medium.png",
+      "data/api/media/rendered/files/skins/9-1026/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-1026.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-1026/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-1026/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-1026/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-1026/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_aa_awp_fade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_aa_awp_fade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_aa_awp_fade_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Fade",
+  "search_slug": "awp-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ct",
+        "name": "The Control Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4720",
+        "kind": "container",
+        "name": "The Control Collection",
+        "tier": "ancient"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-1026__normal__factory-new",
+    "9-1026__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

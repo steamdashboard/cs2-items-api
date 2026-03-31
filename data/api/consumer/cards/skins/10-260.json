@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 260,
+    "id": 260,
+    "localized_names": {
+      "brazilian": "Pulso",
+      "bulgarian": "Пулс",
+      "czech": "Pulse",
+      "danish": "Pulse",
+      "dutch": "Pulse",
+      "english": "Pulse",
+      "finnish": "Pulssi",
+      "french": "Pulsation",
+      "german": "Puls",
+      "greek": "Pulse",
+      "hungarian": "Impulzus",
+      "indonesian": "Pulse",
+      "italian": "Pulse",
+      "japanese": "Pulse",
+      "koreana": "펄스",
+      "latam": "Pulso",
+      "norwegian": "Pulse",
+      "polish": "Puls",
+      "portuguese": "Pulse",
+      "romanian": "Pulse",
+      "russian": "Пульс",
+      "schinese": "电子脉冲",
+      "schinese_pw": "Pulse",
+      "spanish": "Pulso",
+      "swedish": "Pulse",
+      "tchinese": "脈衝",
+      "thai": "จังหวะ, จังหวะกด",
+      "turkish": "Nabız",
+      "ukrainian": "Пульс",
+      "vietnamese": "Pulse"
+    },
+    "name": "Pulse",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-260",
+  "localized_names": {
+    "brazilian": "FAMAS | Pulso",
+    "bulgarian": "FAMAS | Пулс",
+    "czech": "FAMAS | Pulse",
+    "danish": "FAMAS | Pulse",
+    "dutch": "FAMAS | Pulse",
+    "english": "FAMAS | Pulse",
+    "finnish": "FAMAS | Pulssi",
+    "french": "FAMAS | Pulsation",
+    "german": "FAMAS | Puls",
+    "greek": "FAMAS | Pulse",
+    "hungarian": "FAMAS | Impulzus",
+    "indonesian": "FAMAS | Pulse",
+    "italian": "FAMAS | Pulse",
+    "japanese": "FAMAS | Pulse",
+    "koreana": "파마스 | 펄스",
+    "latam": "FAMAS | Pulso",
+    "norwegian": "FAMAS | Pulse",
+    "polish": "FAMAS | Puls",
+    "portuguese": "FAMAS | Pulse",
+    "romanian": "FAMAS | Pulse",
+    "russian": "FAMAS | Пульс",
+    "schinese": "法玛斯 | 电子脉冲",
+    "schinese_pw": "FAMAS | Pulse",
+    "spanish": "FAMAS | Pulso",
+    "swedish": "FAMAS | Pulse",
+    "tchinese": "FAMAS | 脈衝",
+    "thai": "FAMAS | จังหวะ, จังหวะกด",
+    "turkish": "FAMAS | Nabız",
+    "ukrainian": "ФАМАС | Пульс",
+    "vietnamese": "FAMAS | Pulse"
+  },
+  "media": {
+    "asset_id": "skin__10-260",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-260/light.png",
+      "data/api/media/rendered/files/skins/10-260/medium.png",
+      "data/api/media/rendered/files/skins/10-260/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-260.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-260/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-260/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-260/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-260/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_cu_famas_pulse_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_cu_famas_pulse_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_cu_famas_pulse_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Pulse",
+  "search_slug": "famas-pulse",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-260__normal__factory-new",
+    "10-260__normal__field-tested",
+    "10-260__normal__minimal-wear",
+    "10-260__normal__well-worn",
+    "10-260__stattrak__factory-new",
+    "10-260__stattrak__field-tested",
+    "10-260__stattrak__minimal-wear",
+    "10-260__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

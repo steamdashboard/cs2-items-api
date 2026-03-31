@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1328,
+    "id": 1328,
+    "localized_names": {
+      "brazilian": "Jaspe Vermelho",
+      "bulgarian": "Червен яспис",
+      "czech": "Red Jasper",
+      "danish": "Red Jasper",
+      "dutch": "Red Jasper",
+      "english": "Red Jasper",
+      "finnish": "Punainen jaspis",
+      "french": "Jaspe rouge",
+      "german": "Roter Jaspis",
+      "greek": "Red Jasper",
+      "hungarian": "Vörös Jáspis",
+      "indonesian": "Red Jasper",
+      "italian": "Red Jasper",
+      "japanese": "Red Jasper",
+      "koreana": "레드 재스퍼",
+      "latam": "Jaspe rojo",
+      "norwegian": "Red Jasper",
+      "polish": "Czerwony jaspis",
+      "portuguese": "Red Jasper",
+      "romanian": "Red Jasper",
+      "russian": "Красная яшма",
+      "schinese": "红碧玉",
+      "schinese_pw": "Red Jasper",
+      "spanish": "Jaspe rojo",
+      "swedish": "Red Jasper",
+      "tchinese": "紅色碧玉",
+      "thai": "Red Jasper",
+      "turkish": "Kırmızı Jasper",
+      "ukrainian": "Червона яшма",
+      "vietnamese": "Red Jasper"
+    },
+    "name": "Red Jasper",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.637288,
+      "min_float": 0.0
+    }
+  },
+  "id": "11-1328",
+  "localized_names": {
+    "brazilian": "G3SG1 | Jaspe Vermelho",
+    "bulgarian": "G3SG1 | Червен яспис",
+    "czech": "G3SG1 | Red Jasper",
+    "danish": "G3SG1 | Red Jasper",
+    "dutch": "G3SG1 | Red Jasper",
+    "english": "G3SG1 | Red Jasper",
+    "finnish": "G3SG1 | Punainen jaspis",
+    "french": "G3SG1 | Jaspe rouge",
+    "german": "G3SG1 | Roter Jaspis",
+    "greek": "G3SG1 | Red Jasper",
+    "hungarian": "G3SG1 | Vörös Jáspis",
+    "indonesian": "G3SG1 | Red Jasper",
+    "italian": "G3SG1 | Red Jasper",
+    "japanese": "G3SG1 | Red Jasper",
+    "koreana": "G3SG1 | 레드 재스퍼",
+    "latam": "G3SG1 | Jaspe rojo",
+    "norwegian": "G3SG1 | Red Jasper",
+    "polish": "G3SG1 | Czerwony jaspis",
+    "portuguese": "G3SG1 | Red Jasper",
+    "romanian": "G3SG1 | Red Jasper",
+    "russian": "G3SG1 | Красная яшма",
+    "schinese": "G3SG1 | 红碧玉",
+    "schinese_pw": "G3SG1 | Red Jasper",
+    "spanish": "G3SG1 | Jaspe rojo",
+    "swedish": "G3SG1 | Red Jasper",
+    "tchinese": "G3SG1 | 紅色碧玉",
+    "thai": "G3SG1 | Red Jasper",
+    "turkish": "G3SG1 | Kırmızı Jasper",
+    "ukrainian": "Г3-СГ1 | Червона яшма",
+    "vietnamese": "G3SG1 | Red Jasper"
+  },
+  "media": {
+    "asset_id": "skin__11-1328",
+    "images_png": [
+      "data/api/media/rendered/files/skins/11-1328/light.png",
+      "data/api/media/rendered/files/skins/11-1328/medium.png",
+      "data/api/media/rendered/files/skins/11-1328/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/11-1328.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/11-1328/heavy.png",
+      "light": "data/api/media/rendered/files/skins/11-1328/light.png",
+      "medium": "data/api/media/rendered/files/skins/11-1328/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/11-1328/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_g3sg1_soo_g3sg1_tomato_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_g3sg1_soo_g3sg1_tomato_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_g3sg1_soo_g3sg1_tomato_medium_png.vtex_c"
+    }
+  },
+  "name": "G3SG1 | Red Jasper",
+  "search_slug": "g3sg1-red-jasper",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "11-1328__normal__battle-scarred",
+    "11-1328__normal__factory-new",
+    "11-1328__normal__field-tested",
+    "11-1328__normal__minimal-wear",
+    "11-1328__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 11,
+    "localized_names": {
+      "brazilian": "G3SG1",
+      "bulgarian": "G3SG1",
+      "czech": "G3SG1",
+      "danish": "G3SG1",
+      "dutch": "G3SG1",
+      "english": "G3SG1",
+      "finnish": "G3SG1",
+      "french": "G3SG1",
+      "german": "G3SG1",
+      "greek": "G3SG1",
+      "hungarian": "G3SG1",
+      "indonesian": "G3SG1",
+      "italian": "G3SG1",
+      "japanese": "G3SG1",
+      "koreana": "G3SG1",
+      "latam": "G3SG1",
+      "norwegian": "G3SG1",
+      "polish": "G3SG1",
+      "portuguese": "G3SG1",
+      "romanian": "G3SG1",
+      "russian": "G3SG1",
+      "schinese": "G3SG1",
+      "schinese_pw": "G3SG1",
+      "spanish": "G3SG1",
+      "swedish": "G3SG1",
+      "tchinese": "G3SG1",
+      "thai": "G3SG1",
+      "turkish": "G3SG1",
+      "ukrainian": "Г3-СГ1",
+      "vietnamese": "G3SG1"
+    },
+    "name": "G3SG1",
+    "search_slug": "g3sg1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.637288,
+    "min_float": 0.0
+  }
+}

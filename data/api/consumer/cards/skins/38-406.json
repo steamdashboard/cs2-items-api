@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 406,
+    "id": 406,
+    "localized_names": {
+      "brazilian": "Gruta",
+      "bulgarian": "Изкуствена пещера",
+      "czech": "Grotto",
+      "danish": "Grotto",
+      "dutch": "Grotto",
+      "english": "Grotto",
+      "finnish": "Luola",
+      "french": "Grotte",
+      "german": "Grotte",
+      "greek": "Grotto",
+      "hungarian": "Grotta",
+      "indonesian": "Grotto",
+      "italian": "Grotto",
+      "japanese": "Grotto",
+      "koreana": "암굴",
+      "latam": "Gruta",
+      "norwegian": "Grotto",
+      "polish": "Grota",
+      "portuguese": "Grotto",
+      "romanian": "Grotto",
+      "russian": "Грот",
+      "schinese": "蓝洞",
+      "schinese_pw": "Grotto",
+      "spanish": "Gruta",
+      "swedish": "Grotto",
+      "tchinese": "石窟",
+      "thai": "Grotto",
+      "turkish": "Mağara",
+      "ukrainian": "Грот",
+      "vietnamese": "Grotto"
+    },
+    "name": "Grotto",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "38-406",
+  "localized_names": {
+    "brazilian": "SCAR-20 | Gruta",
+    "bulgarian": "SCAR-20 | Изкуствена пещера",
+    "czech": "SCAR-20 | Grotto",
+    "danish": "SCAR-20 | Grotto",
+    "dutch": "SCAR-20 | Grotto",
+    "english": "SCAR-20 | Grotto",
+    "finnish": "SCAR-20 | Luola",
+    "french": "SCAR-20 | Grotte",
+    "german": "SCAR-20 | Grotte",
+    "greek": "SCAR-20 | Grotto",
+    "hungarian": "SCAR-20 | Grotta",
+    "indonesian": "SCAR-20 | Grotto",
+    "italian": "SCAR-20 | Grotto",
+    "japanese": "SCAR-20 | Grotto",
+    "koreana": "SCAR-20 | 암굴",
+    "latam": "SCAR-20 | Gruta",
+    "norwegian": "SCAR-20 | Grotto",
+    "polish": "SCAR-20 | Grota",
+    "portuguese": "SCAR-20 | Grotto",
+    "romanian": "SCAR-20 | Grotto",
+    "russian": "SCAR-20 | Грот",
+    "schinese": "SCAR-20 | 蓝洞",
+    "schinese_pw": "SCAR-20 | Grotto",
+    "spanish": "SCAR-20 | Gruta",
+    "swedish": "SCAR-20 | Grotto",
+    "tchinese": "SCAR-20 | 石窟",
+    "thai": "SCAR-20 | Grotto",
+    "turkish": "SCAR-20 | Mağara",
+    "ukrainian": "СКАР-20 | Грот",
+    "vietnamese": "SCAR-20 | Grotto"
+  },
+  "media": {
+    "asset_id": "skin__38-406",
+    "images_png": [
+      "data/api/media/rendered/files/skins/38-406/light.png",
+      "data/api/media/rendered/files/skins/38-406/medium.png",
+      "data/api/media/rendered/files/skins/38-406/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/38-406.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/38-406/heavy.png",
+      "light": "data/api/media/rendered/files/skins/38-406/light.png",
+      "medium": "data/api/media/rendered/files/skins/38-406/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/38-406/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_scar20_aq_scar20_leak_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_scar20_aq_scar20_leak_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_scar20_aq_scar20_leak_medium_png.vtex_c"
+    }
+  },
+  "name": "SCAR-20 | Grotto",
+  "search_slug": "scar-20-grotto",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "38-406__normal__battle-scarred",
+    "38-406__normal__factory-new",
+    "38-406__normal__field-tested",
+    "38-406__normal__minimal-wear",
+    "38-406__normal__well-worn",
+    "38-406__stattrak__battle-scarred",
+    "38-406__stattrak__factory-new",
+    "38-406__stattrak__field-tested",
+    "38-406__stattrak__minimal-wear",
+    "38-406__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 38,
+    "localized_names": {
+      "brazilian": "SCAR-20",
+      "bulgarian": "SCAR-20",
+      "czech": "SCAR-20",
+      "danish": "SCAR-20",
+      "dutch": "SCAR-20",
+      "english": "SCAR-20",
+      "finnish": "SCAR-20",
+      "french": "SCAR-20",
+      "german": "SCAR-20",
+      "greek": "SCAR-20",
+      "hungarian": "SCAR-20",
+      "indonesian": "SCAR-20",
+      "italian": "SCAR-20",
+      "japanese": "SCAR-20",
+      "koreana": "SCAR-20",
+      "latam": "SCAR-20",
+      "norwegian": "SCAR-20",
+      "polish": "SCAR-20",
+      "portuguese": "SCAR-20",
+      "romanian": "SCAR-20",
+      "russian": "SCAR-20",
+      "schinese": "SCAR-20",
+      "schinese_pw": "SCAR-20",
+      "spanish": "SCAR-20",
+      "swedish": "SCAR-20",
+      "tchinese": "SCAR-20",
+      "thai": "SCAR-20",
+      "turkish": "SCAR-20",
+      "ukrainian": "СКАР-20",
+      "vietnamese": "SCAR-20"
+    },
+    "name": "SCAR-20",
+    "search_slug": "scar-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

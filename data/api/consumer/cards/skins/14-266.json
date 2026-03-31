@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 266,
+    "id": 266,
+    "localized_names": {
+      "brazilian": "Magma",
+      "bulgarian": "Магма",
+      "czech": "Magma",
+      "danish": "Magma",
+      "dutch": "Magma",
+      "english": "Magma",
+      "finnish": "Magma",
+      "french": "Magma",
+      "german": "Magma",
+      "greek": "Magma",
+      "hungarian": "Magma",
+      "indonesian": "Magma",
+      "italian": "Magma",
+      "japanese": "Magma",
+      "koreana": "마그마",
+      "latam": "Magma",
+      "norwegian": "Magma",
+      "polish": "Magma",
+      "portuguese": "Magma",
+      "romanian": "Magma",
+      "russian": "Магма",
+      "schinese": "岩浆",
+      "schinese_pw": "Magma",
+      "spanish": "Magma",
+      "swedish": "Magma",
+      "tchinese": "岩漿",
+      "thai": "Magma",
+      "turkish": "Magma",
+      "ukrainian": "Магма",
+      "vietnamese": "Magma"
+    },
+    "name": "Magma",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "14-266",
+  "localized_names": {
+    "brazilian": "M249 | Magma",
+    "bulgarian": "M249 | Магма",
+    "czech": "M249 | Magma",
+    "danish": "M249 | Magma",
+    "dutch": "M249 | Magma",
+    "english": "M249 | Magma",
+    "finnish": "M249 | Magma",
+    "french": "M249 | Magma",
+    "german": "M249 | Magma",
+    "greek": "M249 | Magma",
+    "hungarian": "M249 | Magma",
+    "indonesian": "M249 | Magma",
+    "italian": "M249 | Magma",
+    "japanese": "M249 | Magma",
+    "koreana": "M249 | 마그마",
+    "latam": "M249 | Magma",
+    "norwegian": "M249 | Magma",
+    "polish": "M249 | Magma",
+    "portuguese": "M249 | Magma",
+    "romanian": "M249 | Magma",
+    "russian": "M249 | Магма",
+    "schinese": "M249 | 岩浆",
+    "schinese_pw": "M249 | Magma",
+    "spanish": "M249 | Magma",
+    "swedish": "M249 | Magma",
+    "tchinese": "M249 | 岩漿",
+    "thai": "M249 | Magma",
+    "turkish": "M249 | Magma",
+    "ukrainian": "М249 | Магма",
+    "vietnamese": "M249 | Magma"
+  },
+  "media": {
+    "asset_id": "skin__14-266",
+    "images_png": [
+      "data/api/media/rendered/files/skins/14-266/light.png",
+      "data/api/media/rendered/files/skins/14-266/medium.png",
+      "data/api/media/rendered/files/skins/14-266/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/14-266.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/14-266/heavy.png",
+      "light": "data/api/media/rendered/files/skins/14-266/light.png",
+      "medium": "data/api/media/rendered/files/skins/14-266/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/14-266/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m249_aq_obsidian_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m249_aq_obsidian_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m249_aq_obsidian_medium_png.vtex_c"
+    }
+  },
+  "name": "M249 | Magma",
+  "search_slug": "m249-magma",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "14-266__normal__battle-scarred",
+    "14-266__normal__factory-new",
+    "14-266__normal__field-tested",
+    "14-266__normal__minimal-wear",
+    "14-266__normal__well-worn",
+    "14-266__stattrak__battle-scarred",
+    "14-266__stattrak__factory-new",
+    "14-266__stattrak__field-tested",
+    "14-266__stattrak__minimal-wear",
+    "14-266__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 14,
+    "localized_names": {
+      "brazilian": "M249",
+      "bulgarian": "M249",
+      "czech": "M249",
+      "danish": "M249",
+      "dutch": "M249",
+      "english": "M249",
+      "finnish": "M249",
+      "french": "M249",
+      "german": "M249",
+      "greek": "M249",
+      "hungarian": "M249",
+      "indonesian": "M249",
+      "italian": "M249",
+      "japanese": "M249",
+      "koreana": "M249",
+      "latam": "M249",
+      "norwegian": "M249",
+      "polish": "M249",
+      "portuguese": "M249",
+      "romanian": "M249",
+      "russian": "M249",
+      "schinese": "M249",
+      "schinese_pw": "M249",
+      "spanish": "M249",
+      "swedish": "M249",
+      "tchinese": "M249",
+      "thai": "M249",
+      "turkish": "M249",
+      "ukrainian": "М249",
+      "vietnamese": "M249"
+    },
+    "name": "M249",
+    "search_slug": "m249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

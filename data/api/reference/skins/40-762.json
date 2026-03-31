@@ -1,0 +1,92 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_rune_stone",
+    "id": 762,
+    "name": "Red Stone",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 762,
+    "weapon_id": 40
+  },
+  "id": "40-762",
+  "name": "SSG 08 | Red Stone",
+  "search_slug": "ssg-08-red-stone",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": null
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "40-762__normal__factory-new",
+    "40-762__normal__minimal-wear",
+    "40-762__normal__field-tested",
+    "40-762__normal__well-worn",
+    "40-762__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_ssg08",
+    "id": 40,
+    "name": "SSG 08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.06
+  }
+}

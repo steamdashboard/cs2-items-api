@@ -1,0 +1,92 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_technowar_red",
+    "id": 1059,
+    "name": "Fizzy POP",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 1059,
+    "weapon_id": 60
+  },
+  "id": "60-1059",
+  "name": "M4A1-S | Fizzy POP",
+  "search_slug": "m4a1-s-fizzy-pop",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_train_2021",
+        "name": "The 2021 Train Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4785",
+        "kind": "container",
+        "name": "The 2021 Train Collection",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "60-1059__normal__factory-new",
+    "60-1059__normal__minimal-wear",
+    "60-1059__normal__field-tested",
+    "60-1059__normal__well-worn",
+    "60-1059__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_m4a1_silencer",
+    "id": 60,
+    "name": "M4A1-S",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.57,
+    "min_float": 0.0
+  }
+}

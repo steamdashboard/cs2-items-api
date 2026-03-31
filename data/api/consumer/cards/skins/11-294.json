@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 294,
+    "id": 294,
+    "localized_names": {
+      "brazilian": "Maçã Verde",
+      "bulgarian": "Зелена ябълка",
+      "czech": "Green Apple",
+      "danish": "Green Apple",
+      "dutch": "Green Apple",
+      "english": "Green Apple",
+      "finnish": "Vihreä omena",
+      "french": "Pomme verte",
+      "german": "Grüner Apfel",
+      "greek": "Green Apple",
+      "hungarian": "Zöld Alma",
+      "indonesian": "Green Apple",
+      "italian": "Green Apple",
+      "japanese": "Green Apple",
+      "koreana": "청사과",
+      "latam": "Manzana verde",
+      "norwegian": "Green Apple",
+      "polish": "Zielone jabłuszko",
+      "portuguese": "Green Apple",
+      "romanian": "Green Apple",
+      "russian": "Зеленое яблоко",
+      "schinese": "绿苹果",
+      "schinese_pw": "Green Apple",
+      "spanish": "Manzana verde",
+      "swedish": "Green Apple",
+      "tchinese": "青蘋果",
+      "thai": "Green Apple",
+      "turkish": "Yeşil Elma",
+      "ukrainian": "Зелене яблуко",
+      "vietnamese": "Green Apple"
+    },
+    "name": "Green Apple",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "11-294",
+  "localized_names": {
+    "brazilian": "G3SG1 | Maçã Verde",
+    "bulgarian": "G3SG1 | Зелена ябълка",
+    "czech": "G3SG1 | Green Apple",
+    "danish": "G3SG1 | Green Apple",
+    "dutch": "G3SG1 | Green Apple",
+    "english": "G3SG1 | Green Apple",
+    "finnish": "G3SG1 | Vihreä omena",
+    "french": "G3SG1 | Pomme verte",
+    "german": "G3SG1 | Grüner Apfel",
+    "greek": "G3SG1 | Green Apple",
+    "hungarian": "G3SG1 | Zöld Alma",
+    "indonesian": "G3SG1 | Green Apple",
+    "italian": "G3SG1 | Green Apple",
+    "japanese": "G3SG1 | Green Apple",
+    "koreana": "G3SG1 | 청사과",
+    "latam": "G3SG1 | Manzana verde",
+    "norwegian": "G3SG1 | Green Apple",
+    "polish": "G3SG1 | Zielone jabłuszko",
+    "portuguese": "G3SG1 | Green Apple",
+    "romanian": "G3SG1 | Green Apple",
+    "russian": "G3SG1 | Зеленое яблоко",
+    "schinese": "G3SG1 | 绿苹果",
+    "schinese_pw": "G3SG1 | Green Apple",
+    "spanish": "G3SG1 | Manzana verde",
+    "swedish": "G3SG1 | Green Apple",
+    "tchinese": "G3SG1 | 青蘋果",
+    "thai": "G3SG1 | Green Apple",
+    "turkish": "G3SG1 | Yeşil Elma",
+    "ukrainian": "Г3-СГ1 | Зелене яблуко",
+    "vietnamese": "G3SG1 | Green Apple"
+  },
+  "media": {
+    "asset_id": "skin__11-294",
+    "images_png": [
+      "data/api/media/rendered/files/skins/11-294/light.png",
+      "data/api/media/rendered/files/skins/11-294/medium.png",
+      "data/api/media/rendered/files/skins/11-294/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/11-294.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/11-294/heavy.png",
+      "light": "data/api/media/rendered/files/skins/11-294/light.png",
+      "medium": "data/api/media/rendered/files/skins/11-294/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/11-294/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_g3sg1_so_green_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_g3sg1_so_green_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_g3sg1_so_green_medium_png.vtex_c"
+    }
+  },
+  "name": "G3SG1 | Green Apple",
+  "search_slug": "g3sg1-green-apple",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "11-294__normal__factory-new",
+    "11-294__normal__field-tested",
+    "11-294__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 11,
+    "localized_names": {
+      "brazilian": "G3SG1",
+      "bulgarian": "G3SG1",
+      "czech": "G3SG1",
+      "danish": "G3SG1",
+      "dutch": "G3SG1",
+      "english": "G3SG1",
+      "finnish": "G3SG1",
+      "french": "G3SG1",
+      "german": "G3SG1",
+      "greek": "G3SG1",
+      "hungarian": "G3SG1",
+      "indonesian": "G3SG1",
+      "italian": "G3SG1",
+      "japanese": "G3SG1",
+      "koreana": "G3SG1",
+      "latam": "G3SG1",
+      "norwegian": "G3SG1",
+      "polish": "G3SG1",
+      "portuguese": "G3SG1",
+      "romanian": "G3SG1",
+      "russian": "G3SG1",
+      "schinese": "G3SG1",
+      "schinese_pw": "G3SG1",
+      "spanish": "G3SG1",
+      "swedish": "G3SG1",
+      "tchinese": "G3SG1",
+      "thai": "G3SG1",
+      "turkish": "G3SG1",
+      "ukrainian": "Г3-СГ1",
+      "vietnamese": "G3SG1"
+    },
+    "name": "G3SG1",
+    "search_slug": "g3sg1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

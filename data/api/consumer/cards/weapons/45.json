@@ -1,0 +1,62 @@
+{
+  "card_type": "weapon",
+  "description": "The smoke grenade creates a medium-area smoke screen. It can effectively hide your team from snipers, or even just create a useful distraction.",
+  "id": 45,
+  "localized_names": {
+    "brazilian": "Granada de Fumaça",
+    "bulgarian": "Димна граната",
+    "czech": "Dýmovnice",
+    "danish": "Røggranat",
+    "dutch": "Rookgranaat",
+    "english": "Smoke Grenade",
+    "finnish": "Savukranaatti",
+    "french": "Grenade fumigène",
+    "german": "Rauchgranate",
+    "greek": "Χειροβομβίδα καπνού",
+    "hungarian": "Füstgránát",
+    "indonesian": "Granat Asap",
+    "italian": "Granata fumogena",
+    "japanese": "スモークグレネード",
+    "koreana": "연막탄",
+    "latam": "Granada de humo",
+    "norwegian": "Røykgranat",
+    "polish": "Granat dymny",
+    "portuguese": "Granada de Fumo",
+    "romanian": "Grenadă fumigenă",
+    "russian": "Дымовая граната",
+    "schinese": "烟雾弹",
+    "schinese_pw": "Smoke Grenade",
+    "spanish": "Granada de humo",
+    "swedish": "Rökgranat",
+    "tchinese": "煙霧彈",
+    "thai": "ระเบิดควัน",
+    "turkish": "Sis Bombası",
+    "ukrainian": "Димова граната",
+    "vietnamese": "Lựu đạn khói"
+  },
+  "media": {
+    "asset_id": "weapon__45",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/45/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/45.json",
+    "models": [
+      "weapons/models/grenade/smokegrenade/weapon_smokegrenade.vmdl_c",
+      "phase2/weapons/models/grenade/smokegrenade/weapon_smokegrenade_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/45/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.vtex_c"
+  },
+  "name": "Smoke Grenade",
+  "regular_skin_ids": [],
+  "search_slug": "smoke-grenade",
+  "side": null,
+  "special_pool_ids": [],
+  "supports_vanilla": false,
+  "type_name": "Grenade",
+  "weapon_group": "other-weapon"
+}

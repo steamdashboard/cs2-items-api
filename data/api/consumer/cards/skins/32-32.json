@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 32,
+    "id": 32,
+    "localized_names": {
+      "brazilian": "Prateada",
+      "bulgarian": "Сребро",
+      "czech": "Silver",
+      "danish": "Silver",
+      "dutch": "Silver",
+      "english": "Silver",
+      "finnish": "Hopea",
+      "french": "Argent",
+      "german": "Silber",
+      "greek": "Silver",
+      "hungarian": "Ezüst",
+      "indonesian": "Silver",
+      "italian": "Silver",
+      "japanese": "Silver",
+      "koreana": "은색",
+      "latam": "Plateada",
+      "norwegian": "Silver",
+      "polish": "Srebro",
+      "portuguese": "Silver",
+      "romanian": "Silver",
+      "russian": "Серебро",
+      "schinese": "银质",
+      "schinese_pw": "Silver",
+      "spanish": "Plateada",
+      "swedish": "Silver",
+      "tchinese": "白銀",
+      "thai": "Silver",
+      "turkish": "Gümüş",
+      "ukrainian": "Срібло",
+      "vietnamese": "Silver"
+    },
+    "name": "Silver",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-32",
+  "localized_names": {
+    "brazilian": "P2000 | Prateada",
+    "bulgarian": "P2000 | Сребро",
+    "czech": "P2000 | Silver",
+    "danish": "P2000 | Silver",
+    "dutch": "P2000 | Silver",
+    "english": "P2000 | Silver",
+    "finnish": "P2000 | Hopea",
+    "french": "P2000 | Argent",
+    "german": "P2000 | Silber",
+    "greek": "P2000 | Silver",
+    "hungarian": "P2000 | Ezüst",
+    "indonesian": "P2000 | Silver",
+    "italian": "P2000 | Silver",
+    "japanese": "P2000 | Silver",
+    "koreana": "P2000 | 은색",
+    "latam": "P2000 | Plateada",
+    "norwegian": "P2000 | Silver",
+    "polish": "P2000 | Srebro",
+    "portuguese": "P2000 | Silver",
+    "romanian": "P2000 | Silver",
+    "russian": "P2000 | Серебро",
+    "schinese": "P2000 | 银质",
+    "schinese_pw": "P2000 | Silver",
+    "spanish": "P2000 | Plateada",
+    "swedish": "P2000 | Silver",
+    "tchinese": "P2000 | 白銀",
+    "thai": "P2000 | Silver",
+    "turkish": "P2000 | Gümüş",
+    "ukrainian": "П2000 | Срібло",
+    "vietnamese": "P2000 | Silver"
+  },
+  "media": {
+    "asset_id": "skin__32-32",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-32/light.png",
+      "data/api/media/rendered/files/skins/32-32/medium.png",
+      "data/api/media/rendered/files/skins/32-32/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-32.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-32/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-32/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-32/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-32/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_an_silver_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_an_silver_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_an_silver_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Silver",
+  "search_slug": "p2000-silver",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_office",
+        "name": "The Office Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "32-32__normal__factory-new",
+    "32-32__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

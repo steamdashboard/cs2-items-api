@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 315,
+    "id": 315,
+    "localized_names": {
+      "brazilian": "Dardo Venenoso",
+      "bulgarian": "Отровна стреличка",
+      "czech": "Poison Dart",
+      "danish": "Poison Dart",
+      "dutch": "Poison Dart",
+      "english": "Poison Dart",
+      "finnish": "Myrkkynuoli",
+      "french": "Dard empoisonné",
+      "german": "Giftpfeil",
+      "greek": "Poison Dart",
+      "hungarian": "Nyílméreg",
+      "indonesian": "Poison Dart",
+      "italian": "Poison Dart",
+      "japanese": "Poison Dart",
+      "koreana": "독화살",
+      "latam": "Dardo venenoso",
+      "norwegian": "Poison Dart",
+      "polish": "Zatruta strzałka",
+      "portuguese": "Poison Dart",
+      "romanian": "Poison Dart",
+      "russian": "Отравленный дротик",
+      "schinese": "毒镖",
+      "schinese_pw": "Poison Dart",
+      "spanish": "Dardo venenoso",
+      "swedish": "Poison Dart",
+      "tchinese": "箭毒",
+      "thai": "Poison Dart",
+      "turkish": "Zehirli Dart",
+      "ukrainian": "Отруйний дротик",
+      "vietnamese": "Poison Dart"
+    },
+    "name": "Poison Dart",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-315",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Dardo Venenoso",
+    "bulgarian": "CZ75-Auto | Отровна стреличка",
+    "czech": "CZ75-Auto | Poison Dart",
+    "danish": "CZ75-Auto | Poison Dart",
+    "dutch": "CZ75-Auto | Poison Dart",
+    "english": "CZ75-Auto | Poison Dart",
+    "finnish": "CZ75-Auto | Myrkkynuoli",
+    "french": "CZ75-Auto | Dard empoisonné",
+    "german": "CZ75-Auto | Giftpfeil",
+    "greek": "CZ75-Auto | Poison Dart",
+    "hungarian": "CZ75-Auto | Nyílméreg",
+    "indonesian": "CZ75-Auto | Poison Dart",
+    "italian": "CZ75-Auto | Poison Dart",
+    "japanese": "CZ75-Auto | Poison Dart",
+    "koreana": "CZ75 기관권총 | 독화살",
+    "latam": "CZ75-Auto | Dardo venenoso",
+    "norwegian": "CZ75-Auto | Poison Dart",
+    "polish": "CZ75-Auto | Zatruta strzałka",
+    "portuguese": "CZ75-Auto | Poison Dart",
+    "romanian": "CZ75-Auto | Poison Dart",
+    "russian": "CZ75-Auto | Отравленный дротик",
+    "schinese": "CZ75自动型 | 毒镖",
+    "schinese_pw": "CZ75-Auto | Poison Dart",
+    "spanish": "CZ75-Auto | Dardo venenoso",
+    "swedish": "CZ75-Auto | Poison Dart",
+    "tchinese": "CZ75-Auto | 箭毒",
+    "thai": "CZ75-Auto | Poison Dart",
+    "turkish": "CZ75-Otomatik | Zehirli Dart",
+    "ukrainian": "ЧЗ-75 авто | Отруйний дротик",
+    "vietnamese": "CZ75-Auto | Poison Dart"
+  },
+  "media": {
+    "asset_id": "skin__63-315",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-315/light.png",
+      "data/api/media/rendered/files/skins/63-315/medium.png",
+      "data/api/media/rendered/files/skins/63-315/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-315.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-315/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-315/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-315/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-315/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_am_nitrogen_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_am_nitrogen_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_am_nitrogen_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Poison Dart",
+  "search_slug": "cz75-auto-poison-dart",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_community_3",
+        "name": "The Huntsman Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-315__normal__battle-scarred",
+    "63-315__normal__factory-new",
+    "63-315__normal__field-tested",
+    "63-315__normal__minimal-wear",
+    "63-315__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

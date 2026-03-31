@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_icosahedron",
+    "id": 177,
+    "name": "Memento",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 177,
+    "weapon_id": 27
+  },
+  "id": "27-177",
+  "name": "MAG-7 | Memento",
+  "search_slug": "mag-7-memento",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "27-177__normal__factory-new",
+    "27-177__normal__minimal-wear",
+    "27-177__normal__field-tested",
+    "27-177__stattrak__factory-new",
+    "27-177__stattrak__minimal-wear",
+    "27-177__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_mag7",
+    "id": 27,
+    "name": "MAG-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.18,
+    "min_float": 0.02
+  }
+}

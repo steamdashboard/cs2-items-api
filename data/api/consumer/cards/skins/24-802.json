@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 802,
+    "id": 802,
+    "localized_names": {
+      "brazilian": "Momento",
+      "bulgarian": "Инерция",
+      "czech": "Momentum",
+      "danish": "Momentum",
+      "dutch": "Momentum",
+      "english": "Momentum",
+      "finnish": "Momentti",
+      "french": "Élan",
+      "german": "Impuls",
+      "greek": "Momentum",
+      "hungarian": "Lendület",
+      "indonesian": "Momentum",
+      "italian": "Momentum",
+      "japanese": "Momentum",
+      "koreana": "모멘텀",
+      "latam": "Impulso",
+      "norwegian": "Momentum",
+      "polish": "Pęd",
+      "portuguese": "Momentum",
+      "romanian": "Momentum",
+      "russian": "Динамика",
+      "schinese": "动量",
+      "schinese_pw": "Momentum",
+      "spanish": "Impulso",
+      "swedish": "Momentum",
+      "tchinese": "動量",
+      "thai": "Momentum",
+      "turkish": "Momentum",
+      "ukrainian": "Імпульс",
+      "vietnamese": "Momentum"
+    },
+    "name": "Momentum",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "24-802",
+  "localized_names": {
+    "brazilian": "UMP-45 | Momento",
+    "bulgarian": "UMP-45 | Инерция",
+    "czech": "UMP-45 | Momentum",
+    "danish": "UMP-45 | Momentum",
+    "dutch": "UMP-45 | Momentum",
+    "english": "UMP-45 | Momentum",
+    "finnish": "UMP-45 | Momentti",
+    "french": "UMP-45 | Élan",
+    "german": "UMP-45 | Impuls",
+    "greek": "UMP-45 | Momentum",
+    "hungarian": "UMP-45 | Lendület",
+    "indonesian": "UMP-45 | Momentum",
+    "italian": "UMP-45 | Momentum",
+    "japanese": "UMP-45 | Momentum",
+    "koreana": "UMP-45 | 모멘텀",
+    "latam": "UMP-45 | Impulso",
+    "norwegian": "UMP-45 | Momentum",
+    "polish": "UMP-45 | Pęd",
+    "portuguese": "UMP-45 | Momentum",
+    "romanian": "UMP-45 | Momentum",
+    "russian": "UMP-45 | Динамика",
+    "schinese": "UMP-45 | 动量",
+    "schinese_pw": "UMP-45 | Momentum",
+    "spanish": "UMP-45 | Impulso",
+    "swedish": "UMP-45 | Momentum",
+    "tchinese": "UMP-45 | 動量",
+    "thai": "UMP-45 | Momentum",
+    "turkish": "UMP-45 | Momentum",
+    "ukrainian": "УМП-45 | Імпульс",
+    "vietnamese": "UMP-45 | Momentum"
+  },
+  "media": {
+    "asset_id": "skin__24-802",
+    "images_png": [
+      "data/api/media/rendered/files/skins/24-802/light.png",
+      "data/api/media/rendered/files/skins/24-802/medium.png",
+      "data/api/media/rendered/files/skins/24-802/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/24-802.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/24-802/heavy.png",
+      "light": "data/api/media/rendered/files/skins/24-802/light.png",
+      "medium": "data/api/media/rendered/files/skins/24-802/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/24-802/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ump45_cu_ump_arrows_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ump45_cu_ump_arrows_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ump45_cu_ump_arrows_medium_png.vtex_c"
+    }
+  },
+  "name": "UMP-45 | Momentum",
+  "search_slug": "ump-45-momentum",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4548",
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_21",
+        "name": "The Danger Zone Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "24-802__normal__battle-scarred",
+    "24-802__normal__factory-new",
+    "24-802__normal__field-tested",
+    "24-802__normal__minimal-wear",
+    "24-802__normal__well-worn",
+    "24-802__stattrak__battle-scarred",
+    "24-802__stattrak__factory-new",
+    "24-802__stattrak__field-tested",
+    "24-802__stattrak__minimal-wear",
+    "24-802__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 24,
+    "localized_names": {
+      "brazilian": "UMP-45",
+      "bulgarian": "UMP-45",
+      "czech": "UMP-45",
+      "danish": "UMP-45",
+      "dutch": "UMP-45",
+      "english": "UMP-45",
+      "finnish": "UMP-45",
+      "french": "UMP-45",
+      "german": "UMP-45",
+      "greek": "UMP-45",
+      "hungarian": "UMP-45",
+      "indonesian": "UMP-45",
+      "italian": "UMP-45",
+      "japanese": "UMP-45",
+      "koreana": "UMP-45",
+      "latam": "UMP-45",
+      "norwegian": "UMP-45",
+      "polish": "UMP-45",
+      "portuguese": "UMP-45",
+      "romanian": "UMP-45",
+      "russian": "UMP-45",
+      "schinese": "UMP-45",
+      "schinese_pw": "UMP-45",
+      "spanish": "UMP-45",
+      "swedish": "UMP-45",
+      "tchinese": "UMP-45",
+      "thai": "UMP-45",
+      "turkish": "UMP-45",
+      "ukrainian": "УМП-45",
+      "vietnamese": "UMP-45"
+    },
+    "name": "UMP-45",
+    "search_slug": "ump-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 545,
+    "id": 545,
+    "localized_names": {
+      "brazilian": "Impacto Laranja",
+      "bulgarian": "Оранжев сблъсък",
+      "czech": "Orange Crash",
+      "danish": "Orange Crash",
+      "dutch": "Orange Crash",
+      "english": "Orange Crash",
+      "finnish": "Oranssi osuma",
+      "french": "Impact orangé",
+      "german": "Orangefarbener Treffer",
+      "greek": "Orange Crash",
+      "hungarian": "Narancstörés",
+      "indonesian": "Orange Crash",
+      "italian": "Orange Crash",
+      "japanese": "Orange Crash",
+      "koreana": "오렌지 충돌 현장",
+      "latam": "Explosión naranja",
+      "norwegian": "Orange Crash",
+      "polish": "Pomarańczowa kraksa",
+      "portuguese": "Orange Crash",
+      "romanian": "Orange Crash",
+      "russian": "Оранжевые осколки",
+      "schinese": "橙光冲击",
+      "schinese_pw": "Orange Crash",
+      "spanish": "Explosión naranja",
+      "swedish": "Orange Crash",
+      "tchinese": "橘色破損",
+      "thai": "Orange Crash",
+      "turkish": "Turuncu Kaza",
+      "ukrainian": "Помаранчева катастрофа",
+      "vietnamese": "Orange Crash"
+    },
+    "name": "Orange Crash",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.52,
+      "min_float": 0.0
+    }
+  },
+  "id": "11-545",
+  "localized_names": {
+    "brazilian": "G3SG1 | Impacto Laranja",
+    "bulgarian": "G3SG1 | Оранжев сблъсък",
+    "czech": "G3SG1 | Orange Crash",
+    "danish": "G3SG1 | Orange Crash",
+    "dutch": "G3SG1 | Orange Crash",
+    "english": "G3SG1 | Orange Crash",
+    "finnish": "G3SG1 | Oranssi osuma",
+    "french": "G3SG1 | Impact orangé",
+    "german": "G3SG1 | Orangefarbener Treffer",
+    "greek": "G3SG1 | Orange Crash",
+    "hungarian": "G3SG1 | Narancstörés",
+    "indonesian": "G3SG1 | Orange Crash",
+    "italian": "G3SG1 | Orange Crash",
+    "japanese": "G3SG1 | Orange Crash",
+    "koreana": "G3SG1 | 오렌지 충돌 현장",
+    "latam": "G3SG1 | Explosión naranja",
+    "norwegian": "G3SG1 | Orange Crash",
+    "polish": "G3SG1 | Pomarańczowa kraksa",
+    "portuguese": "G3SG1 | Orange Crash",
+    "romanian": "G3SG1 | Orange Crash",
+    "russian": "G3SG1 | Оранжевые осколки",
+    "schinese": "G3SG1 | 橙光冲击",
+    "schinese_pw": "G3SG1 | Orange Crash",
+    "spanish": "G3SG1 | Explosión naranja",
+    "swedish": "G3SG1 | Orange Crash",
+    "tchinese": "G3SG1 | 橘色破損",
+    "thai": "G3SG1 | Orange Crash",
+    "turkish": "G3SG1 | Turuncu Kaza",
+    "ukrainian": "Г3-СГ1 | Помаранчева катастрофа",
+    "vietnamese": "G3SG1 | Orange Crash"
+  },
+  "media": {
+    "asset_id": "skin__11-545",
+    "images_png": [
+      "data/api/media/rendered/files/skins/11-545/light.png",
+      "data/api/media/rendered/files/skins/11-545/medium.png",
+      "data/api/media/rendered/files/skins/11-545/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/11-545.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/11-545/heavy.png",
+      "light": "data/api/media/rendered/files/skins/11-545/light.png",
+      "medium": "data/api/media/rendered/files/skins/11-545/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/11-545/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_g3sg1_sp_g3sg1_militiaorange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_g3sg1_sp_g3sg1_militiaorange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_g3sg1_sp_g3sg1_militiaorange_medium_png.vtex_c"
+    }
+  },
+  "name": "G3SG1 | Orange Crash",
+  "search_slug": "g3sg1-orange-crash",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4233",
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_12",
+        "name": "The Chroma 3 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "11-545__normal__battle-scarred",
+    "11-545__normal__factory-new",
+    "11-545__normal__field-tested",
+    "11-545__normal__minimal-wear",
+    "11-545__normal__well-worn",
+    "11-545__stattrak__battle-scarred",
+    "11-545__stattrak__factory-new",
+    "11-545__stattrak__field-tested",
+    "11-545__stattrak__minimal-wear",
+    "11-545__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 11,
+    "localized_names": {
+      "brazilian": "G3SG1",
+      "bulgarian": "G3SG1",
+      "czech": "G3SG1",
+      "danish": "G3SG1",
+      "dutch": "G3SG1",
+      "english": "G3SG1",
+      "finnish": "G3SG1",
+      "french": "G3SG1",
+      "german": "G3SG1",
+      "greek": "G3SG1",
+      "hungarian": "G3SG1",
+      "indonesian": "G3SG1",
+      "italian": "G3SG1",
+      "japanese": "G3SG1",
+      "koreana": "G3SG1",
+      "latam": "G3SG1",
+      "norwegian": "G3SG1",
+      "polish": "G3SG1",
+      "portuguese": "G3SG1",
+      "romanian": "G3SG1",
+      "russian": "G3SG1",
+      "schinese": "G3SG1",
+      "schinese_pw": "G3SG1",
+      "spanish": "G3SG1",
+      "swedish": "G3SG1",
+      "tchinese": "G3SG1",
+      "thai": "G3SG1",
+      "turkish": "G3SG1",
+      "ukrainian": "Г3-СГ1",
+      "vietnamese": "G3SG1"
+    },
+    "name": "G3SG1",
+    "search_slug": "g3sg1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.52,
+    "min_float": 0.0
+  }
+}

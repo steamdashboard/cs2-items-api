@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 954,
+    "id": 954,
+    "localized_names": {
+      "brazilian": "Executor",
+      "bulgarian": "Правоприлагащ изпълнител",
+      "czech": "Enforcer",
+      "danish": "Enforcer",
+      "dutch": "Enforcer",
+      "english": "Enforcer",
+      "finnish": "Valvoja",
+      "french": "Exécuteur",
+      "german": "Vollstrecker",
+      "greek": "Enforcer",
+      "hungarian": "Végrehajtó",
+      "indonesian": "Enforcer",
+      "italian": "Enforcer",
+      "japanese": "Enforcer",
+      "koreana": "집행자",
+      "latam": "Ejecutor",
+      "norwegian": "Enforcer",
+      "polish": "Egzekutor",
+      "portuguese": "Enforcer",
+      "romanian": "Enforcer",
+      "russian": "Принудитель",
+      "schinese": "执行者",
+      "schinese_pw": "Enforcer",
+      "spanish": "Ejecutor",
+      "swedish": "Enforcer",
+      "tchinese": "執法者",
+      "thai": "Enforcer",
+      "turkish": "Otomatik İnfaz",
+      "ukrainian": "Силовик",
+      "vietnamese": "Enforcer"
+    },
+    "name": "Enforcer",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "38-954",
+  "localized_names": {
+    "brazilian": "SCAR-20 | Executor",
+    "bulgarian": "SCAR-20 | Правоприлагащ изпълнител",
+    "czech": "SCAR-20 | Enforcer",
+    "danish": "SCAR-20 | Enforcer",
+    "dutch": "SCAR-20 | Enforcer",
+    "english": "SCAR-20 | Enforcer",
+    "finnish": "SCAR-20 | Valvoja",
+    "french": "SCAR-20 | Exécuteur",
+    "german": "SCAR-20 | Vollstrecker",
+    "greek": "SCAR-20 | Enforcer",
+    "hungarian": "SCAR-20 | Végrehajtó",
+    "indonesian": "SCAR-20 | Enforcer",
+    "italian": "SCAR-20 | Enforcer",
+    "japanese": "SCAR-20 | Enforcer",
+    "koreana": "SCAR-20 | 집행자",
+    "latam": "SCAR-20 | Ejecutor",
+    "norwegian": "SCAR-20 | Enforcer",
+    "polish": "SCAR-20 | Egzekutor",
+    "portuguese": "SCAR-20 | Enforcer",
+    "romanian": "SCAR-20 | Enforcer",
+    "russian": "SCAR-20 | Принудитель",
+    "schinese": "SCAR-20 | 执行者",
+    "schinese_pw": "SCAR-20 | Enforcer",
+    "spanish": "SCAR-20 | Ejecutor",
+    "swedish": "SCAR-20 | Enforcer",
+    "tchinese": "SCAR-20 | 執法者",
+    "thai": "SCAR-20 | Enforcer",
+    "turkish": "SCAR-20 | Otomatik İnfaz",
+    "ukrainian": "СКАР-20 | Силовик",
+    "vietnamese": "SCAR-20 | Enforcer"
+  },
+  "media": {
+    "asset_id": "skin__38-954",
+    "images_png": [
+      "data/api/media/rendered/files/skins/38-954/light.png",
+      "data/api/media/rendered/files/skins/38-954/medium.png",
+      "data/api/media/rendered/files/skins/38-954/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/38-954.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/38-954/heavy.png",
+      "light": "data/api/media/rendered/files/skins/38-954/light.png",
+      "medium": "data/api/media/rendered/files/skins/38-954/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/38-954/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_scar20_gs_scar20_enforcer_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_scar20_gs_scar20_enforcer_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_scar20_gs_scar20_enforcer_medium_png.vtex_c"
+    }
+  },
+  "name": "SCAR-20 | Enforcer",
+  "search_slug": "scar-20-enforcer",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4695",
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_25",
+        "name": "The Prisma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "38-954__normal__battle-scarred",
+    "38-954__normal__factory-new",
+    "38-954__normal__field-tested",
+    "38-954__normal__minimal-wear",
+    "38-954__normal__well-worn",
+    "38-954__stattrak__battle-scarred",
+    "38-954__stattrak__factory-new",
+    "38-954__stattrak__field-tested",
+    "38-954__stattrak__minimal-wear",
+    "38-954__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 38,
+    "localized_names": {
+      "brazilian": "SCAR-20",
+      "bulgarian": "SCAR-20",
+      "czech": "SCAR-20",
+      "danish": "SCAR-20",
+      "dutch": "SCAR-20",
+      "english": "SCAR-20",
+      "finnish": "SCAR-20",
+      "french": "SCAR-20",
+      "german": "SCAR-20",
+      "greek": "SCAR-20",
+      "hungarian": "SCAR-20",
+      "indonesian": "SCAR-20",
+      "italian": "SCAR-20",
+      "japanese": "SCAR-20",
+      "koreana": "SCAR-20",
+      "latam": "SCAR-20",
+      "norwegian": "SCAR-20",
+      "polish": "SCAR-20",
+      "portuguese": "SCAR-20",
+      "romanian": "SCAR-20",
+      "russian": "SCAR-20",
+      "schinese": "SCAR-20",
+      "schinese_pw": "SCAR-20",
+      "spanish": "SCAR-20",
+      "swedish": "SCAR-20",
+      "tchinese": "SCAR-20",
+      "thai": "SCAR-20",
+      "turkish": "SCAR-20",
+      "ukrainian": "СКАР-20",
+      "vietnamese": "SCAR-20"
+    },
+    "name": "SCAR-20",
+    "search_slug": "scar-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

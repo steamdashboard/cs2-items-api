@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_kami",
+    "id": 265,
+    "name": "Kami",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 265,
+    "weapon_id": 3
+  },
+  "id": "3-265",
+  "name": "Five-SeveN | Kami",
+  "search_slug": "five-seven-kami",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "3-265__normal__factory-new",
+    "3-265__normal__minimal-wear",
+    "3-265__normal__field-tested",
+    "3-265__stattrak__factory-new",
+    "3-265__stattrak__minimal-wear",
+    "3-265__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_fiveseven",
+    "id": 3,
+    "name": "Five-SeveN",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 393,
+    "id": 393,
+    "localized_names": {
+      "brazilian": "Tranquilidade",
+      "bulgarian": "Спокойствие",
+      "czech": "Tranquility",
+      "danish": "Tranquility",
+      "dutch": "Tranquility",
+      "english": "Tranquility",
+      "finnish": "Hiljaisuuden sanoma",
+      "french": "Tranquillité",
+      "german": "Ruhe",
+      "greek": "Tranquility",
+      "hungarian": "Nyugalom",
+      "indonesian": "Tranquility",
+      "italian": "Tranquility",
+      "japanese": "Tranquility",
+      "koreana": "평온",
+      "latam": "Tranquilidad",
+      "norwegian": "Tranquility",
+      "polish": "Opanowanie",
+      "portuguese": "Tranquility",
+      "romanian": "Tranquility",
+      "russian": "Спокойствие",
+      "schinese": "宁静",
+      "schinese_pw": "Tranquility",
+      "spanish": "Tranquilidad",
+      "swedish": "Tranquility",
+      "tchinese": "安寧",
+      "thai": "Tranquility",
+      "turkish": "Sükûnet",
+      "ukrainian": "Лагідність",
+      "vietnamese": "Tranquility"
+    },
+    "name": "Tranquility",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "25-393",
+  "localized_names": {
+    "brazilian": "XM1014 | Tranquilidade",
+    "bulgarian": "XM1014 | Спокойствие",
+    "czech": "XM1014 | Tranquility",
+    "danish": "XM1014 | Tranquility",
+    "dutch": "XM1014 | Tranquility",
+    "english": "XM1014 | Tranquility",
+    "finnish": "XM1014 | Hiljaisuuden sanoma",
+    "french": "XM1014 | Tranquillité",
+    "german": "XM1014 | Ruhe",
+    "greek": "XM1014 | Tranquility",
+    "hungarian": "XM1014 | Nyugalom",
+    "indonesian": "XM1014 | Tranquility",
+    "italian": "XM1014 | Tranquility",
+    "japanese": "XM1014 | Tranquility",
+    "koreana": "XM1014 | 평온",
+    "latam": "XM1014 | Tranquilidad",
+    "norwegian": "XM1014 | Tranquility",
+    "polish": "XM1014 | Opanowanie",
+    "portuguese": "XM1014 | Tranquility",
+    "romanian": "XM1014 | Tranquility",
+    "russian": "XM1014 | Спокойствие",
+    "schinese": "XM1014 | 宁静",
+    "schinese_pw": "XM1014 | Tranquility",
+    "spanish": "XM1014 | Tranquilidad",
+    "swedish": "XM1014 | Tranquility",
+    "tchinese": "XM1014 | 安寧",
+    "thai": "XM1014 | Tranquility",
+    "turkish": "XM1014 | Sükûnet",
+    "ukrainian": "М1014 | Лагідність",
+    "vietnamese": "XM1014 | Tranquility"
+  },
+  "media": {
+    "asset_id": "skin__25-393",
+    "images_png": [
+      "data/api/media/rendered/files/skins/25-393/light.png",
+      "data/api/media/rendered/files/skins/25-393/medium.png",
+      "data/api/media/rendered/files/skins/25-393/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/25-393.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/25-393/heavy.png",
+      "light": "data/api/media/rendered/files/skins/25-393/light.png",
+      "medium": "data/api/media/rendered/files/skins/25-393/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/25-393/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_xm1014_cu_xm1014_caritas_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_xm1014_cu_xm1014_caritas_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_xm1014_cu_xm1014_caritas_medium_png.vtex_c"
+    }
+  },
+  "name": "XM1014 | Tranquility",
+  "search_slug": "xm1014-tranquility",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4029",
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_5",
+        "name": "The Vanguard Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "25-393__normal__battle-scarred",
+    "25-393__normal__factory-new",
+    "25-393__normal__field-tested",
+    "25-393__normal__minimal-wear",
+    "25-393__normal__well-worn",
+    "25-393__stattrak__battle-scarred",
+    "25-393__stattrak__factory-new",
+    "25-393__stattrak__field-tested",
+    "25-393__stattrak__minimal-wear",
+    "25-393__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 25,
+    "localized_names": {
+      "brazilian": "XM1014",
+      "bulgarian": "XM1014",
+      "czech": "XM1014",
+      "danish": "XM1014",
+      "dutch": "XM1014",
+      "english": "XM1014",
+      "finnish": "XM1014",
+      "french": "XM1014",
+      "german": "XM1014",
+      "greek": "XM1014",
+      "hungarian": "XM1014",
+      "indonesian": "XM1014",
+      "italian": "XM1014",
+      "japanese": "XM1014",
+      "koreana": "XM1014",
+      "latam": "XM1014",
+      "norwegian": "XM1014",
+      "polish": "XM1014",
+      "portuguese": "XM1014",
+      "romanian": "XM1014",
+      "russian": "XM1014",
+      "schinese": "XM1014",
+      "schinese_pw": "XM1014",
+      "spanish": "XM1014",
+      "swedish": "XM1014",
+      "tchinese": "XM1014",
+      "thai": "XM1014",
+      "turkish": "XM1014",
+      "ukrainian": "М1014",
+      "vietnamese": "XM1014"
+    },
+    "name": "XM1014",
+    "search_slug": "xm1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

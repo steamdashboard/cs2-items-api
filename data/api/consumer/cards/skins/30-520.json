@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 520,
+    "id": 520,
+    "localized_names": {
+      "brazilian": "Avalanche",
+      "bulgarian": "Лавина",
+      "czech": "Avalanche",
+      "danish": "Avalanche",
+      "dutch": "Avalanche",
+      "english": "Avalanche",
+      "finnish": "Lumimyrsky",
+      "french": "Avalanche",
+      "german": "Lawine",
+      "greek": "Avalanche",
+      "hungarian": "Lavina",
+      "indonesian": "Avalanche",
+      "italian": "Avalanche",
+      "japanese": "Avalanche",
+      "koreana": "산사태",
+      "latam": "Avalancha",
+      "norwegian": "Avalanche",
+      "polish": "Lawina",
+      "portuguese": "Avalanche",
+      "romanian": "Avalanche",
+      "russian": "Лавина",
+      "schinese": "坍雪寒裘",
+      "schinese_pw": "Avalanche",
+      "spanish": "Avalancha",
+      "swedish": "Avalanche",
+      "tchinese": "雪崩",
+      "thai": "Avalanche",
+      "turkish": "Çığ",
+      "ukrainian": "Лавина",
+      "vietnamese": "Avalanche"
+    },
+    "name": "Avalanche",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-520",
+  "localized_names": {
+    "brazilian": "Tec-9 | Avalanche",
+    "bulgarian": "Tec-9 | Лавина",
+    "czech": "Tec-9 | Avalanche",
+    "danish": "Tec-9 | Avalanche",
+    "dutch": "Tec-9 | Avalanche",
+    "english": "Tec-9 | Avalanche",
+    "finnish": "Tec-9 | Lumimyrsky",
+    "french": "Tec-9 | Avalanche",
+    "german": "Tec-9 | Lawine",
+    "greek": "Tec-9 | Avalanche",
+    "hungarian": "Tec-9 | Lavina",
+    "indonesian": "Tec-9 | Avalanche",
+    "italian": "Tec-9 | Avalanche",
+    "japanese": "Tec-9 | Avalanche",
+    "koreana": "Tec-9 | 산사태",
+    "latam": "Tec-9 | Avalancha",
+    "norwegian": "Tec-9 | Avalanche",
+    "polish": "Tec-9 | Lawina",
+    "portuguese": "Tec-9 | Avalanche",
+    "romanian": "Tec-9 | Avalanche",
+    "russian": "Tec-9 | Лавина",
+    "schinese": "Tec-9 | 坍雪寒裘",
+    "schinese_pw": "Tec-9 | Avalanche",
+    "spanish": "Tec-9 | Avalancha",
+    "swedish": "Tec-9 | Avalanche",
+    "tchinese": "Tec-9 | 雪崩",
+    "thai": "Tec-9 | Avalanche",
+    "turkish": "Tec-9 | Çığ",
+    "ukrainian": "ТЕК-9 | Лавина",
+    "vietnamese": "Tec-9 | Avalanche"
+  },
+  "media": {
+    "asset_id": "skin__30-520",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-520/light.png",
+      "data/api/media/rendered/files/skins/30-520/medium.png",
+      "data/api/media/rendered/files/skins/30-520/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-520.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-520/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-520/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-520/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-520/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_cu_tec9_avalanche_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_cu_tec9_avalanche_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_cu_tec9_avalanche_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Avalanche",
+  "search_slug": "tec-9-avalanche",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-520__normal__battle-scarred",
+    "30-520__normal__factory-new",
+    "30-520__normal__field-tested",
+    "30-520__normal__minimal-wear",
+    "30-520__normal__well-worn",
+    "30-520__stattrak__battle-scarred",
+    "30-520__stattrak__factory-new",
+    "30-520__stattrak__field-tested",
+    "30-520__stattrak__minimal-wear",
+    "30-520__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "classification": {
+    "group": "other",
+    "kind": "other"
+  },
+  "game_id": 1314,
+  "id": 1314,
+  "name": "musickit",
+  "prefab_chain": [
+    "musickit_prefab"
+  ],
+  "prefab_spec": "musickit_prefab",
+  "resolved": {
+    "capabilities": {
+      "can_stattrack_swap": "1"
+    },
+    "drop_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "flexible_loadout_category": "musickit",
+    "flexible_loadout_group": "musickit",
+    "flexible_loadout_slot": "musickit",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "musickit",
+    "inv_group_equipment": "musickit",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_MusicKit_Desc",
+    "item_name": "#CSGO_Type_MusicKit",
+    "item_quality": "unique",
+    "item_rarity": "rare",
+    "item_type_name": "#CSGO_Type_MusicKit",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "name": "musickit",
+    "prefab": "musickit_prefab",
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

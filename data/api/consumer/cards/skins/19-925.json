@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 925,
+    "id": 925,
+    "localized_names": {
+      "brazilian": "Camuflagem Digital — Deserto",
+      "bulgarian": "Пустинна разпокъсана цифрова шарка",
+      "czech": "Desert DDPAT",
+      "danish": "Desert DDPAT",
+      "dutch": "Desert DDPAT",
+      "english": "Desert DDPAT",
+      "finnish": "Aavikko-DDPAT",
+      "french": "Désert numérique",
+      "german": "Wüsten-DDPAT",
+      "greek": "Desert DDPAT",
+      "hungarian": "Sivatagi DDPAT",
+      "indonesian": "Desert DDPAT",
+      "italian": "Desert DDPAT",
+      "japanese": "Desert DDPAT",
+      "koreana": "사막 디지털 위장 무늬",
+      "latam": "DDPAT del desierto",
+      "norwegian": "Desert DDPAT",
+      "polish": "Pustynny DDPAT",
+      "portuguese": "Desert DDPAT",
+      "romanian": "Desert DDPAT",
+      "russian": "Пиксельный камуфляж «Пустыня»",
+      "schinese": "沙漠 DDPAT",
+      "schinese_pw": "Desert DDPAT",
+      "spanish": "DDPAT del desierto",
+      "swedish": "Desert DDPAT",
+      "tchinese": "數位沙漠",
+      "thai": "Desert DDPAT",
+      "turkish": "Çöl DDPAT",
+      "ukrainian": "Пікс. камуфляж «Пустеля»",
+      "vietnamese": "Desert DDPAT"
+    },
+    "name": "Desert DDPAT",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-925",
+  "localized_names": {
+    "brazilian": "P90 | Camuflagem Digital — Deserto",
+    "bulgarian": "P90 | Пустинна разпокъсана цифрова шарка",
+    "czech": "P90 | Desert DDPAT",
+    "danish": "P90 | Desert DDPAT",
+    "dutch": "P90 | Desert DDPAT",
+    "english": "P90 | Desert DDPAT",
+    "finnish": "P90 | Aavikko-DDPAT",
+    "french": "P90 | Désert numérique",
+    "german": "P90 | Wüsten-DDPAT",
+    "greek": "P90 | Desert DDPAT",
+    "hungarian": "P90 | Sivatagi DDPAT",
+    "indonesian": "P90 | Desert DDPAT",
+    "italian": "P90 | Desert DDPAT",
+    "japanese": "P90 | Desert DDPAT",
+    "koreana": "P90 | 사막 디지털 위장 무늬",
+    "latam": "P90 | DDPAT del desierto",
+    "norwegian": "P90 | Desert DDPAT",
+    "polish": "P90 | Pustynny DDPAT",
+    "portuguese": "P90 | Desert DDPAT",
+    "romanian": "P90 | Desert DDPAT",
+    "russian": "P90 | Пиксельный камуфляж «Пустыня»",
+    "schinese": "P90 | 沙漠 DDPAT",
+    "schinese_pw": "P90 | Desert DDPAT",
+    "spanish": "P90 | DDPAT del desierto",
+    "swedish": "P90 | Desert DDPAT",
+    "tchinese": "P90 | 數位沙漠",
+    "thai": "P90 | Desert DDPAT",
+    "turkish": "P90 | Çöl DDPAT",
+    "ukrainian": "П90 | Пікс. камуфляж «Пустеля»",
+    "vietnamese": "P90 | Desert DDPAT"
+  },
+  "media": {
+    "asset_id": "skin__19-925",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-925/light.png",
+      "data/api/media/rendered/files/skins/19-925/medium.png",
+      "data/api/media/rendered/files/skins/19-925/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-925.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-925/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-925/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-925/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-925/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_hy_ddpat_desert_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_hy_ddpat_desert_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_hy_ddpat_desert_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Desert DDPAT",
+  "search_slug": "p90-desert-ddpat",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "19-925__normal__battle-scarred",
+    "19-925__normal__factory-new",
+    "19-925__normal__field-tested",
+    "19-925__normal__minimal-wear",
+    "19-925__normal__well-worn",
+    "19-925__souvenir__battle-scarred",
+    "19-925__souvenir__factory-new",
+    "19-925__souvenir__field-tested",
+    "19-925__souvenir__minimal-wear",
+    "19-925__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 399,
+    "id": 399,
+    "localized_names": {
+      "brazilian": "Catacumbas",
+      "bulgarian": "Катакомби",
+      "czech": "Catacombs",
+      "danish": "Catacombs",
+      "dutch": "Catacombs",
+      "english": "Catacombs",
+      "finnish": "Katakombit",
+      "french": "Catacombes",
+      "german": "Katakomben",
+      "greek": "Catacombs",
+      "hungarian": "Katakombák",
+      "indonesian": "Catacombs",
+      "italian": "Catacombs",
+      "japanese": "Catacombs",
+      "koreana": "지하묘지",
+      "latam": "Catacumbas",
+      "norwegian": "Catacombs",
+      "polish": "Katakumby",
+      "portuguese": "Catacombs",
+      "romanian": "Catacombs",
+      "russian": "Захоронение",
+      "schinese": "亡者之寝",
+      "schinese_pw": "Catacombs",
+      "spanish": "Catacumbas",
+      "swedish": "Catacombs",
+      "tchinese": "地下墓穴",
+      "thai": "Catacombs",
+      "turkish": "Yeraltı Mezarlığı",
+      "ukrainian": "Катакомби",
+      "vietnamese": "Catacombs"
+    },
+    "name": "Catacombs",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-399",
+  "localized_names": {
+    "brazilian": "Glock-18 | Catacumbas",
+    "bulgarian": "Glock-18 | Катакомби",
+    "czech": "Glock-18 | Catacombs",
+    "danish": "Glock-18 | Catacombs",
+    "dutch": "Glock-18 | Catacombs",
+    "english": "Glock-18 | Catacombs",
+    "finnish": "Glock-18 | Katakombit",
+    "french": "Glock-18 | Catacombes",
+    "german": "Glock-18 | Katakomben",
+    "greek": "Glock-18 | Catacombs",
+    "hungarian": "Glock-18 | Katakombák",
+    "indonesian": "Glock-18 | Catacombs",
+    "italian": "Glock-18 | Catacombs",
+    "japanese": "Glock-18 | Catacombs",
+    "koreana": "글록 18 | 지하묘지",
+    "latam": "Glock-18 | Catacumbas",
+    "norwegian": "Glock-18 | Catacombs",
+    "polish": "Glock-18 | Katakumby",
+    "portuguese": "Glock-18 | Catacombs",
+    "romanian": "Glock-18 | Catacombs",
+    "russian": "Glock-18 | Захоронение",
+    "schinese": "格洛克18型 | 亡者之寝",
+    "schinese_pw": "Glock-18 | Catacombs",
+    "spanish": "Glock-18 | Catacumbas",
+    "swedish": "Glock-18 | Catacombs",
+    "tchinese": "Glock-18 | 地下墓穴",
+    "thai": "Glock-18 | Catacombs",
+    "turkish": "Glock-18 | Yeraltı Mezarlığı",
+    "ukrainian": "Ґлок-18 | Катакомби",
+    "vietnamese": "Glock-18 | Catacombs"
+  },
+  "media": {
+    "asset_id": "skin__4-399",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-399/light.png",
+      "data/api/media/rendered/files/skins/4-399/medium.png",
+      "data/api/media/rendered/files/skins/4-399/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-399.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-399/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-399/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-399/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-399/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_cu_glock_deathtoll_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_cu_glock_deathtoll_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_cu_glock_deathtoll_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Catacombs",
+  "search_slug": "glock-18-catacombs",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-399__normal__battle-scarred",
+    "4-399__normal__factory-new",
+    "4-399__normal__field-tested",
+    "4-399__normal__minimal-wear",
+    "4-399__normal__well-worn",
+    "4-399__stattrak__battle-scarred",
+    "4-399__stattrak__factory-new",
+    "4-399__stattrak__field-tested",
+    "4-399__stattrak__minimal-wear",
+    "4-399__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

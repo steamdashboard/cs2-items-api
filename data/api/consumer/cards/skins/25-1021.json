@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1021,
+    "id": 1021,
+    "localized_names": {
+      "brazilian": "Sabedoria Ancestral",
+      "bulgarian": "Антична ерудиция",
+      "czech": "Ancient Lore",
+      "danish": "Ancient Lore",
+      "dutch": "Ancient Lore",
+      "english": "Ancient Lore",
+      "finnish": "Muinainen taru",
+      "french": "Histoire ancienne",
+      "german": "Alte Überlieferung",
+      "greek": "Ancient Lore",
+      "hungarian": "Ősi Történet",
+      "indonesian": "Ancient Lore",
+      "italian": "Ancient Lore",
+      "japanese": "Ancient Lore",
+      "koreana": "고대 전설",
+      "latam": "Sabiduría ancestral",
+      "norwegian": "Ancient Lore",
+      "polish": "Starożytna wiedza",
+      "portuguese": "Ancient Lore",
+      "romanian": "Ancient Lore",
+      "russian": "Древняя истина",
+      "schinese": "太古传说",
+      "schinese_pw": "Ancient Lore",
+      "spanish": "Tradición ancestral",
+      "swedish": "Ancient Lore",
+      "tchinese": "古老傳說",
+      "thai": "Ancient Lore",
+      "turkish": "Kadim Hikâye",
+      "ukrainian": "Древнє знання",
+      "vietnamese": "Ancient Lore"
+    },
+    "name": "Ancient Lore",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "25-1021",
+  "localized_names": {
+    "brazilian": "XM1014 | Sabedoria Ancestral",
+    "bulgarian": "XM1014 | Антична ерудиция",
+    "czech": "XM1014 | Ancient Lore",
+    "danish": "XM1014 | Ancient Lore",
+    "dutch": "XM1014 | Ancient Lore",
+    "english": "XM1014 | Ancient Lore",
+    "finnish": "XM1014 | Muinainen taru",
+    "french": "XM1014 | Histoire ancienne",
+    "german": "XM1014 | Alte Überlieferung",
+    "greek": "XM1014 | Ancient Lore",
+    "hungarian": "XM1014 | Ősi Történet",
+    "indonesian": "XM1014 | Ancient Lore",
+    "italian": "XM1014 | Ancient Lore",
+    "japanese": "XM1014 | Ancient Lore",
+    "koreana": "XM1014 | 고대 전설",
+    "latam": "XM1014 | Sabiduría ancestral",
+    "norwegian": "XM1014 | Ancient Lore",
+    "polish": "XM1014 | Starożytna wiedza",
+    "portuguese": "XM1014 | Ancient Lore",
+    "romanian": "XM1014 | Ancient Lore",
+    "russian": "XM1014 | Древняя истина",
+    "schinese": "XM1014 | 太古传说",
+    "schinese_pw": "XM1014 | Ancient Lore",
+    "spanish": "XM1014 | Tradición ancestral",
+    "swedish": "XM1014 | Ancient Lore",
+    "tchinese": "XM1014 | 古老傳說",
+    "thai": "XM1014 | Ancient Lore",
+    "turkish": "XM1014 | Kadim Hikâye",
+    "ukrainian": "М1014 | Древнє знання",
+    "vietnamese": "XM1014 | Ancient Lore"
+  },
+  "media": {
+    "asset_id": "skin__25-1021",
+    "images_png": [
+      "data/api/media/rendered/files/skins/25-1021/light.png",
+      "data/api/media/rendered/files/skins/25-1021/medium.png",
+      "data/api/media/rendered/files/skins/25-1021/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/25-1021.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/25-1021/heavy.png",
+      "light": "data/api/media/rendered/files/skins/25-1021/light.png",
+      "medium": "data/api/media/rendered/files/skins/25-1021/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/25-1021/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_xm1014_am_ancient_warm_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_xm1014_am_ancient_warm_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_xm1014_am_ancient_warm_medium_png.vtex_c"
+    }
+  },
+  "name": "XM1014 | Ancient Lore",
+  "search_slug": "xm1014-ancient-lore",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4722",
+        "kind": "container",
+        "name": "The Ancient Collection",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4971",
+        "kind": "container",
+        "name": "Shanghai 2024 Ancient Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5124",
+        "kind": "container",
+        "name": "Austin 2025 Ancient Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5223",
+        "kind": "container",
+        "name": "Budapest 2025 Ancient Souvenir Package",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4813",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Ancient Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4839",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Ancient Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4864",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Ancient Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4897",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Ancient Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4930",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "25-1021__normal__battle-scarred",
+    "25-1021__normal__factory-new",
+    "25-1021__normal__field-tested",
+    "25-1021__normal__minimal-wear",
+    "25-1021__normal__well-worn",
+    "25-1021__souvenir__battle-scarred",
+    "25-1021__souvenir__factory-new",
+    "25-1021__souvenir__field-tested",
+    "25-1021__souvenir__minimal-wear",
+    "25-1021__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 25,
+    "localized_names": {
+      "brazilian": "XM1014",
+      "bulgarian": "XM1014",
+      "czech": "XM1014",
+      "danish": "XM1014",
+      "dutch": "XM1014",
+      "english": "XM1014",
+      "finnish": "XM1014",
+      "french": "XM1014",
+      "german": "XM1014",
+      "greek": "XM1014",
+      "hungarian": "XM1014",
+      "indonesian": "XM1014",
+      "italian": "XM1014",
+      "japanese": "XM1014",
+      "koreana": "XM1014",
+      "latam": "XM1014",
+      "norwegian": "XM1014",
+      "polish": "XM1014",
+      "portuguese": "XM1014",
+      "romanian": "XM1014",
+      "russian": "XM1014",
+      "schinese": "XM1014",
+      "schinese_pw": "XM1014",
+      "spanish": "XM1014",
+      "swedish": "XM1014",
+      "tchinese": "XM1014",
+      "thai": "XM1014",
+      "turkish": "XM1014",
+      "ukrainian": "М1014",
+      "vietnamese": "XM1014"
+    },
+    "name": "XM1014",
+    "search_slug": "xm1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

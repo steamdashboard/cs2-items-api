@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_usp_elegant",
+    "id": 290,
+    "name": "Guardian",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 290,
+    "weapon_id": 61
+  },
+  "id": "61-290",
+  "name": "USP-S | Guardian",
+  "search_slug": "usp-s-guardian",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_2",
+        "name": "The Phoenix Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4011",
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "61-290__normal__factory-new",
+    "61-290__normal__minimal-wear",
+    "61-290__normal__field-tested",
+    "61-290__stattrak__factory-new",
+    "61-290__stattrak__minimal-wear",
+    "61-290__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_usp_silencer",
+    "id": 61,
+    "name": "USP-S",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.38,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 175,
+    "id": 175,
+    "localized_names": {
+      "brazilian": "Brasas",
+      "bulgarian": "Обгорено",
+      "czech": "Scorched",
+      "danish": "Scorched",
+      "dutch": "Scorched",
+      "english": "Scorched",
+      "finnish": "Korventunut",
+      "french": "Brûlé",
+      "german": "Versengt",
+      "greek": "Scorched",
+      "hungarian": "Megperzselt",
+      "indonesian": "Scorched",
+      "italian": "Scorched",
+      "japanese": "Scorched",
+      "koreana": "그을림",
+      "latam": "Chamuscado",
+      "norwegian": "Scorched",
+      "polish": "Popiół",
+      "portuguese": "Scorched",
+      "romanian": "Scorched",
+      "russian": "Сажа",
+      "schinese": "枯焦之色",
+      "schinese_pw": "Scorched",
+      "spanish": "Chamuscado",
+      "swedish": "Scorched",
+      "tchinese": "熾灼",
+      "thai": "Scorched",
+      "turkish": "Alazlanmış",
+      "ukrainian": "Випалення",
+      "vietnamese": "Scorched"
+    },
+    "name": "Scorched",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "33-175",
+  "localized_names": {
+    "brazilian": "MP7 | Brasas",
+    "bulgarian": "MP7 | Обгорено",
+    "czech": "MP7 | Scorched",
+    "danish": "MP7 | Scorched",
+    "dutch": "MP7 | Scorched",
+    "english": "MP7 | Scorched",
+    "finnish": "MP7 | Korventunut",
+    "french": "MP7 | Brûlé",
+    "german": "MP7 | Versengt",
+    "greek": "MP7 | Scorched",
+    "hungarian": "MP7 | Megperzselt",
+    "indonesian": "MP7 | Scorched",
+    "italian": "MP7 | Scorched",
+    "japanese": "MP7 | Scorched",
+    "koreana": "MP7 | 그을림",
+    "latam": "MP7 | Chamuscado",
+    "norwegian": "MP7 | Scorched",
+    "polish": "MP7 | Popiół",
+    "portuguese": "MP7 | Scorched",
+    "romanian": "MP7 | Scorched",
+    "russian": "MP7 | Сажа",
+    "schinese": "MP7 | 枯焦之色",
+    "schinese_pw": "MP7 | Scorched",
+    "spanish": "MP7 | Chamuscado",
+    "swedish": "MP7 | Scorched",
+    "tchinese": "MP7 | 熾灼",
+    "thai": "MP7 | Scorched",
+    "turkish": "MP7 | Alazlanmış",
+    "ukrainian": "МП7 | Випалення",
+    "vietnamese": "MP7 | Scorched"
+  },
+  "media": {
+    "asset_id": "skin__33-175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-175/light.png",
+      "data/api/media/rendered/files/skins/33-175/medium.png",
+      "data/api/media/rendered/files/skins/33-175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-175/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_sp_dapple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_sp_dapple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_sp_dapple_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Scorched",
+  "search_slug": "mp7-scorched",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-175__normal__vanilla"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

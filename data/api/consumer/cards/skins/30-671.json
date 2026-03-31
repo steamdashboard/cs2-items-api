@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 671,
+    "id": 671,
+    "localized_names": {
+      "brazilian": "Talhada",
+      "bulgarian": "Изрезка",
+      "czech": "Cut Out",
+      "danish": "Cut Out",
+      "dutch": "Cut Out",
+      "english": "Cut Out",
+      "finnish": "Leikkaus",
+      "french": "Craie",
+      "german": "Durchbruch",
+      "greek": "Cut Out",
+      "hungarian": "Kivágás",
+      "indonesian": "Cut Out",
+      "italian": "Cut Out",
+      "japanese": "Cut Out",
+      "koreana": "종이공작",
+      "latam": "Supresión",
+      "norwegian": "Cut Out",
+      "polish": "Wycięcie",
+      "portuguese": "Cut Out",
+      "romanian": "Cut Out",
+      "russian": "Трафарет",
+      "schinese": "剪纸",
+      "schinese_pw": "Cut Out",
+      "spanish": "Supresión",
+      "swedish": "Cut Out",
+      "tchinese": "紙雕塗飾",
+      "thai": "Cut Out",
+      "turkish": "Kesim",
+      "ukrainian": "Вирізка",
+      "vietnamese": "Cut Out"
+    },
+    "name": "Cut Out",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-671",
+  "localized_names": {
+    "brazilian": "Tec-9 | Talhada",
+    "bulgarian": "Tec-9 | Изрезка",
+    "czech": "Tec-9 | Cut Out",
+    "danish": "Tec-9 | Cut Out",
+    "dutch": "Tec-9 | Cut Out",
+    "english": "Tec-9 | Cut Out",
+    "finnish": "Tec-9 | Leikkaus",
+    "french": "Tec-9 | Craie",
+    "german": "Tec-9 | Durchbruch",
+    "greek": "Tec-9 | Cut Out",
+    "hungarian": "Tec-9 | Kivágás",
+    "indonesian": "Tec-9 | Cut Out",
+    "italian": "Tec-9 | Cut Out",
+    "japanese": "Tec-9 | Cut Out",
+    "koreana": "Tec-9 | 종이공작",
+    "latam": "Tec-9 | Supresión",
+    "norwegian": "Tec-9 | Cut Out",
+    "polish": "Tec-9 | Wycięcie",
+    "portuguese": "Tec-9 | Cut Out",
+    "romanian": "Tec-9 | Cut Out",
+    "russian": "Tec-9 | Трафарет",
+    "schinese": "Tec-9 | 剪纸",
+    "schinese_pw": "Tec-9 | Cut Out",
+    "spanish": "Tec-9 | Supresión",
+    "swedish": "Tec-9 | Cut Out",
+    "tchinese": "Tec-9 | 紙雕塗飾",
+    "thai": "Tec-9 | Cut Out",
+    "turkish": "Tec-9 | Kesim",
+    "ukrainian": "ТЕК-9 | Вирізка",
+    "vietnamese": "Tec-9 | Cut Out"
+  },
+  "media": {
+    "asset_id": "skin__30-671",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-671/light.png",
+      "data/api/media/rendered/files/skins/30-671/medium.png",
+      "data/api/media/rendered/files/skins/30-671/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-671.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-671/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-671/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-671/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-671/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_aq_tec9_chalk_pattern_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_aq_tec9_chalk_pattern_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_aq_tec9_chalk_pattern_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Cut Out",
+  "search_slug": "tec-9-cut-out",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4352",
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_17",
+        "name": "The Operation Hydra Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-671__normal__battle-scarred",
+    "30-671__normal__factory-new",
+    "30-671__normal__field-tested",
+    "30-671__normal__minimal-wear",
+    "30-671__normal__well-worn",
+    "30-671__stattrak__battle-scarred",
+    "30-671__stattrak__factory-new",
+    "30-671__stattrak__field-tested",
+    "30-671__stattrak__minimal-wear",
+    "30-671__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

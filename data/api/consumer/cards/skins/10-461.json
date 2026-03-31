@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 461,
+    "id": 461,
+    "localized_names": {
+      "brazilian": "Agasalhada",
+      "bulgarian": "Къс ръкав",
+      "czech": "Half Sleeve",
+      "danish": "Half Sleeve",
+      "dutch": "Half Sleeve",
+      "english": "Half Sleeve",
+      "finnish": "Puolihihat",
+      "french": "Manche courte",
+      "german": "Tarnmantel",
+      "greek": "Half Sleeve",
+      "hungarian": "Félburkolat",
+      "indonesian": "Half Sleeve",
+      "italian": "Half Sleeve",
+      "japanese": "Half Sleeve",
+      "koreana": "하프 슬리브",
+      "latam": "Manga corta",
+      "norwegian": "Half Sleeve",
+      "polish": "Półrękaw",
+      "portuguese": "Half Sleeve",
+      "romanian": "Half Sleeve",
+      "russian": "Короткий рукав",
+      "schinese": "半袖式",
+      "schinese_pw": "Half Sleeve",
+      "spanish": "Media funda",
+      "swedish": "Half Sleeve",
+      "tchinese": "半袖",
+      "thai": "Half Sleeve",
+      "turkish": "Yarım Kollu",
+      "ukrainian": "Короткий рукав",
+      "vietnamese": "Half Sleeve"
+    },
+    "name": "Half Sleeve",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-461",
+  "localized_names": {
+    "brazilian": "FAMAS | Agasalhada",
+    "bulgarian": "FAMAS | Къс ръкав",
+    "czech": "FAMAS | Half Sleeve",
+    "danish": "FAMAS | Half Sleeve",
+    "dutch": "FAMAS | Half Sleeve",
+    "english": "FAMAS | Half Sleeve",
+    "finnish": "FAMAS | Puolihihat",
+    "french": "FAMAS | Manche courte",
+    "german": "FAMAS | Tarnmantel",
+    "greek": "FAMAS | Half Sleeve",
+    "hungarian": "FAMAS | Félburkolat",
+    "indonesian": "FAMAS | Half Sleeve",
+    "italian": "FAMAS | Half Sleeve",
+    "japanese": "FAMAS | Half Sleeve",
+    "koreana": "파마스 | 하프 슬리브",
+    "latam": "FAMAS | Manga corta",
+    "norwegian": "FAMAS | Half Sleeve",
+    "polish": "FAMAS | Półrękaw",
+    "portuguese": "FAMAS | Half Sleeve",
+    "romanian": "FAMAS | Half Sleeve",
+    "russian": "FAMAS | Короткий рукав",
+    "schinese": "法玛斯 | 半袖式",
+    "schinese_pw": "FAMAS | Half Sleeve",
+    "spanish": "FAMAS | Media funda",
+    "swedish": "FAMAS | Half Sleeve",
+    "tchinese": "FAMAS | 半袖",
+    "thai": "FAMAS | Half Sleeve",
+    "turkish": "FAMAS | Yarım Kollu",
+    "ukrainian": "ФАМАС | Короткий рукав",
+    "vietnamese": "FAMAS | Half Sleeve"
+  },
+  "media": {
+    "asset_id": "skin__10-461",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-461/light.png",
+      "data/api/media/rendered/files/skins/10-461/medium.png",
+      "data/api/media/rendered/files/skins/10-461/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-461.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-461/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-461/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-461/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-461/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_gs_gamebred_famas_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_gs_gamebred_famas_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_gs_gamebred_famas_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Half Sleeve",
+  "search_slug": "famas-half-sleeve",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_realism_camo",
+        "name": "The Sport & Field Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-461__normal__battle-scarred",
+    "10-461__normal__factory-new",
+    "10-461__normal__field-tested",
+    "10-461__normal__minimal-wear",
+    "10-461__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

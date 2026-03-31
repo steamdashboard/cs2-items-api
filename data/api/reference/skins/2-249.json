@@ -1,0 +1,76 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_crystallized_blue",
+    "id": 249,
+    "name": "Cobalt Quartz",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 249,
+    "weapon_id": 2
+  },
+  "id": "2-249",
+  "name": "Dual Berettas | Cobalt Quartz",
+  "search_slug": "dual-berettas-cobalt-quartz",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_lake",
+        "name": "The Lake Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "2-249__normal__factory-new",
+    "2-249__normal__minimal-wear",
+    "2-249__normal__field-tested",
+    "2-249__normal__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_elite",
+    "id": 2,
+    "name": "Dual Berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

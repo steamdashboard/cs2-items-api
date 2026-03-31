@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1020,
+    "id": 1020,
+    "localized_names": {
+      "brazilian": "Terra Ancestral",
+      "bulgarian": "Антична Земя",
+      "czech": "Ancient Earth",
+      "danish": "Ancient Earth",
+      "dutch": "Ancient Earth",
+      "english": "Ancient Earth",
+      "finnish": "Muinainen maa",
+      "french": "Terre ancestrale",
+      "german": "Alte Erde",
+      "greek": "Ancient Earth",
+      "hungarian": "Ősi Föld",
+      "indonesian": "Ancient Earth",
+      "italian": "Ancient Earth",
+      "japanese": "Ancient Earth",
+      "koreana": "고대 지구",
+      "latam": "Tierra ancestral",
+      "norwegian": "Ancient Earth",
+      "polish": "Starożytna ziemia",
+      "portuguese": "Ancient Earth",
+      "romanian": "Ancient Earth",
+      "russian": "Древняя земля",
+      "schinese": "古老星球",
+      "schinese_pw": "Ancient Earth",
+      "spanish": "Tierra ancestral",
+      "swedish": "Ancient Earth",
+      "tchinese": "遠古大地",
+      "thai": "Ancient Earth",
+      "turkish": "Kadim Dünya",
+      "ukrainian": "Древня земля",
+      "vietnamese": "Ancient Earth"
+    },
+    "name": "Ancient Earth",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-1020",
+  "localized_names": {
+    "brazilian": "P90 | Terra Ancestral",
+    "bulgarian": "P90 | Антична Земя",
+    "czech": "P90 | Ancient Earth",
+    "danish": "P90 | Ancient Earth",
+    "dutch": "P90 | Ancient Earth",
+    "english": "P90 | Ancient Earth",
+    "finnish": "P90 | Muinainen maa",
+    "french": "P90 | Terre ancestrale",
+    "german": "P90 | Alte Erde",
+    "greek": "P90 | Ancient Earth",
+    "hungarian": "P90 | Ősi Föld",
+    "indonesian": "P90 | Ancient Earth",
+    "italian": "P90 | Ancient Earth",
+    "japanese": "P90 | Ancient Earth",
+    "koreana": "P90 | 고대 지구",
+    "latam": "P90 | Tierra ancestral",
+    "norwegian": "P90 | Ancient Earth",
+    "polish": "P90 | Starożytna ziemia",
+    "portuguese": "P90 | Ancient Earth",
+    "romanian": "P90 | Ancient Earth",
+    "russian": "P90 | Древняя земля",
+    "schinese": "P90 | 古老星球",
+    "schinese_pw": "P90 | Ancient Earth",
+    "spanish": "P90 | Tierra ancestral",
+    "swedish": "P90 | Ancient Earth",
+    "tchinese": "P90 | 遠古大地",
+    "thai": "P90 | Ancient Earth",
+    "turkish": "P90 | Kadim Dünya",
+    "ukrainian": "П90 | Древня земля",
+    "vietnamese": "P90 | Ancient Earth"
+  },
+  "media": {
+    "asset_id": "skin__19-1020",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-1020/light.png",
+      "data/api/media/rendered/files/skins/19-1020/medium.png",
+      "data/api/media/rendered/files/skins/19-1020/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-1020.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-1020/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-1020/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-1020/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-1020/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_aa_ancient_brown_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_aa_ancient_brown_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_aa_ancient_brown_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Ancient Earth",
+  "search_slug": "p90-ancient-earth",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4722",
+        "kind": "container",
+        "name": "The Ancient Collection",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4971",
+        "kind": "container",
+        "name": "Shanghai 2024 Ancient Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "5124",
+        "kind": "container",
+        "name": "Austin 2025 Ancient Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "5223",
+        "kind": "container",
+        "name": "Budapest 2025 Ancient Souvenir Package",
+        "tier": "ancient"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4813",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Ancient Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "4839",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Ancient Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "4864",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Ancient Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "4897",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Ancient Souvenir Package",
+        "tier": "ancient"
+      },
+      {
+        "flags": [],
+        "id": "4930",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "variant_ids": [
+    "19-1020__normal__battle-scarred",
+    "19-1020__normal__factory-new",
+    "19-1020__normal__field-tested",
+    "19-1020__normal__minimal-wear",
+    "19-1020__normal__well-worn",
+    "19-1020__souvenir__battle-scarred",
+    "19-1020__souvenir__factory-new",
+    "19-1020__souvenir__field-tested",
+    "19-1020__souvenir__minimal-wear",
+    "19-1020__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

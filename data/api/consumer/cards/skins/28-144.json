@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 144,
+    "id": 144,
+    "localized_names": {
+      "brazilian": "Rajadão",
+      "bulgarian": "Стрелба през стени",
+      "czech": "Wall Bang",
+      "danish": "Wall Bang",
+      "dutch": "Wall Bang",
+      "english": "Wall Bang",
+      "finnish": "Seinän läpi",
+      "french": "Wall Bang",
+      "german": "Wallbang",
+      "greek": "Wall Bang",
+      "hungarian": "Fal-bumm",
+      "indonesian": "Wall Bang",
+      "italian": "Wall Bang",
+      "japanese": "Wall Bang",
+      "koreana": "월뱅",
+      "latam": "Destruye paredes",
+      "norwegian": "Wall Bang",
+      "polish": "Przez ścianę",
+      "portuguese": "Wall Bang",
+      "romanian": "Wall Bang",
+      "russian": "Стена-мишень",
+      "schinese": "墙临弹雨",
+      "schinese_pw": "Wall Bang",
+      "spanish": "Disparo penetrante",
+      "swedish": "Wall Bang",
+      "tchinese": "穿牆之擊",
+      "thai": "Wall Bang",
+      "turkish": "Duvardan Vuruş",
+      "ukrainian": "Крізь стіну",
+      "vietnamese": "Wall Bang"
+    },
+    "name": "Wall Bang",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-144",
+  "localized_names": {
+    "brazilian": "Negev | Rajadão",
+    "bulgarian": "Negev | Стрелба през стени",
+    "czech": "Negev | Wall Bang",
+    "danish": "Negev | Wall Bang",
+    "dutch": "Negev | Wall Bang",
+    "english": "Negev | Wall Bang",
+    "finnish": "Negev | Seinän läpi",
+    "french": "Negev | Wall Bang",
+    "german": "Negev | Wallbang",
+    "greek": "Negev | Wall Bang",
+    "hungarian": "Negev | Fal-bumm",
+    "indonesian": "Negev | Wall Bang",
+    "italian": "Negev | Wall Bang",
+    "japanese": "Negev | Wall Bang",
+    "koreana": "네게브 | 월뱅",
+    "latam": "Negev | Destruye paredes",
+    "norwegian": "Negev | Wall Bang",
+    "polish": "Negev | Przez ścianę",
+    "portuguese": "Negev | Wall Bang",
+    "romanian": "Negev | Wall Bang",
+    "russian": "Негев | Стена-мишень",
+    "schinese": "内格夫 | 墙临弹雨",
+    "schinese_pw": "Negev | Wall Bang",
+    "spanish": "Negev | Disparo penetrante",
+    "swedish": "Negev | Wall Bang",
+    "tchinese": "Negev | 穿牆之擊",
+    "thai": "Negev | Wall Bang",
+    "turkish": "Negev | Duvardan Vuruş",
+    "ukrainian": "Неґев | Крізь стіну",
+    "vietnamese": "Negev | Wall Bang"
+  },
+  "media": {
+    "asset_id": "skin__28-144",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-144/light.png",
+      "data/api/media/rendered/files/skins/28-144/medium.png",
+      "data/api/media/rendered/files/skins/28-144/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-144.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-144/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-144/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-144/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-144/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_cu_overpass_graf_negev_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_cu_overpass_graf_negev_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_cu_overpass_graf_negev_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Wall Bang",
+  "search_slug": "negev-wall-bang",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_overpass_2024",
+        "name": "The Overpass 2024 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5221",
+        "kind": "container",
+        "name": "Budapest 2025 Overpass Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-144__normal__battle-scarred",
+    "28-144__normal__factory-new",
+    "28-144__normal__field-tested",
+    "28-144__normal__minimal-wear",
+    "28-144__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_mp5sd_quick_liquidation",
+    "id": 1231,
+    "name": "Liquidation",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 1231,
+    "weapon_id": 23
+  },
+  "id": "23-1231",
+  "name": "MP5-SD | Liquidation",
+  "search_slug": "mp5-sd-liquidation",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_32",
+        "name": "The Revolution Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4880",
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "23-1231__normal__factory-new",
+    "23-1231__normal__minimal-wear",
+    "23-1231__normal__field-tested",
+    "23-1231__normal__well-worn",
+    "23-1231__normal__battle-scarred",
+    "23-1231__stattrak__factory-new",
+    "23-1231__stattrak__minimal-wear",
+    "23-1231__stattrak__field-tested",
+    "23-1231__stattrak__well-worn",
+    "23-1231__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_mp5sd",
+    "id": 23,
+    "name": "MP5-SD",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

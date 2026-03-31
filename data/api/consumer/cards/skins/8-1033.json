@@ -1,0 +1,260 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1033,
+    "id": 1033,
+    "localized_names": {
+      "brazilian": "Jade Esculpida",
+      "bulgarian": "Издялан нефрит",
+      "czech": "Carved Jade",
+      "danish": "Carved Jade",
+      "dutch": "Carved Jade",
+      "english": "Carved Jade",
+      "finnish": "Veistetty jade",
+      "french": "Jade sculpté",
+      "german": "Geschnitzte Jade",
+      "greek": "Carved Jade",
+      "hungarian": "Faragott Jáde",
+      "indonesian": "Carved Jade",
+      "italian": "Carved Jade",
+      "japanese": "Carved Jade",
+      "koreana": "옥 조각",
+      "latam": "Jade tallado",
+      "norwegian": "Carved Jade",
+      "polish": "Rzeźbiony jadeit",
+      "portuguese": "Carved Jade",
+      "romanian": "Carved Jade",
+      "russian": "Резной нефрит",
+      "schinese": "璞玉",
+      "schinese_pw": "Carved Jade",
+      "spanish": "Jade tallado",
+      "swedish": "Carved Jade",
+      "tchinese": "精雕玉琢",
+      "thai": "Carved Jade",
+      "turkish": "Oyulmuş Yeşim",
+      "ukrainian": "Різьблений нефрит",
+      "vietnamese": "Carved Jade"
+    },
+    "name": "Carved Jade",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-1033",
+  "localized_names": {
+    "brazilian": "AUG | Jade Esculpida",
+    "bulgarian": "AUG | Издялан нефрит",
+    "czech": "AUG | Carved Jade",
+    "danish": "AUG | Carved Jade",
+    "dutch": "AUG | Carved Jade",
+    "english": "AUG | Carved Jade",
+    "finnish": "AUG | Veistetty jade",
+    "french": "AUG | Jade sculpté",
+    "german": "AUG | Geschnitzte Jade",
+    "greek": "AUG | Carved Jade",
+    "hungarian": "AUG | Faragott Jáde",
+    "indonesian": "AUG | Carved Jade",
+    "italian": "AUG | Carved Jade",
+    "japanese": "AUG | Carved Jade",
+    "koreana": "AUG | 옥 조각",
+    "latam": "AUG | Jade tallado",
+    "norwegian": "AUG | Carved Jade",
+    "polish": "AUG | Rzeźbiony jadeit",
+    "portuguese": "AUG | Carved Jade",
+    "romanian": "AUG | Carved Jade",
+    "russian": "AUG | Резной нефрит",
+    "schinese": "AUG | 璞玉",
+    "schinese_pw": "AUG | Carved Jade",
+    "spanish": "AUG | Jade tallado",
+    "swedish": "AUG | Carved Jade",
+    "tchinese": "AUG | 精雕玉琢",
+    "thai": "AUG | Carved Jade",
+    "turkish": "AUG | Oyulmuş Yeşim",
+    "ukrainian": "АУГ | Різьблений нефрит",
+    "vietnamese": "AUG | Carved Jade"
+  },
+  "media": {
+    "asset_id": "skin__8-1033",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-1033/light.png",
+      "data/api/media/rendered/files/skins/8-1033/medium.png",
+      "data/api/media/rendered/files/skins/8-1033/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-1033.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-1033/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-1033/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-1033/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-1033/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_am_jade_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_am_jade_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_am_jade_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Carved Jade",
+  "search_slug": "aug-carved-jade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4722",
+        "kind": "container",
+        "name": "The Ancient Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4971",
+        "kind": "container",
+        "name": "Shanghai 2024 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5124",
+        "kind": "container",
+        "name": "Austin 2025 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5223",
+        "kind": "container",
+        "name": "Budapest 2025 Ancient Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4813",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4839",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4864",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4897",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4930",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "8-1033__normal__factory-new",
+    "8-1033__normal__field-tested",
+    "8-1033__normal__minimal-wear",
+    "8-1033__souvenir__factory-new",
+    "8-1033__souvenir__field-tested",
+    "8-1033__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

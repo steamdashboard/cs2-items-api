@@ -1,0 +1,62 @@
+{
+  "card_type": "weapon",
+  "description": "When thrown, the incendiary grenade releases a high-temperature chemical reaction capable of burning anyone within its wide blast radius.",
+  "id": 48,
+  "localized_names": {
+    "brazilian": "Granada Incendiária",
+    "bulgarian": "Възпламенителна граната",
+    "czech": "Zápalný granát",
+    "danish": "Brandgranat",
+    "dutch": "Brandgranaat",
+    "english": "Incendiary Grenade",
+    "finnish": "Palopommi",
+    "french": "Grenade incendiaire",
+    "german": "Brandgranate",
+    "greek": "Εμπρηστική χειροβομβίδα",
+    "hungarian": "Gyújtógránát",
+    "indonesian": "Granat Pembakar",
+    "italian": "Granata incendiaria",
+    "japanese": "焼夷グレネード",
+    "koreana": "소이탄",
+    "latam": "Granada incendiaria",
+    "norwegian": "Branngranat",
+    "polish": "Granat zapalający",
+    "portuguese": "Granada Incendiária",
+    "romanian": "Grenadă incendiară",
+    "russian": "Зажигательная граната",
+    "schinese": "燃烧弹",
+    "schinese_pw": "Incendiary Grenade",
+    "spanish": "Granada incendiaria",
+    "swedish": "Brandgranat",
+    "tchinese": "燃燒手榴彈",
+    "thai": "ระเบิดเพลิง",
+    "turkish": "Yanıcı Bomba",
+    "ukrainian": "Запалювальна граната",
+    "vietnamese": "Bom cháy"
+  },
+  "media": {
+    "asset_id": "weapon__48",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/48/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/48.json",
+    "models": [
+      "weapons/models/grenade/incendiary/weapon_incendiarygrenade.vmdl_c",
+      "phase2/weapons/models/grenade/incendiary/weapon_incendiarygrenade_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/48/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.vtex_c"
+  },
+  "name": "Incendiary Grenade",
+  "regular_skin_ids": [],
+  "search_slug": "incendiary-grenade",
+  "side": null,
+  "special_pool_ids": [],
+  "supports_vanilla": false,
+  "type_name": "Grenade",
+  "weapon_group": "other-weapon"
+}

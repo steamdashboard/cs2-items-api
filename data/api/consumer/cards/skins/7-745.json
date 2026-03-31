@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 745,
+    "id": 745,
+    "localized_names": {
+      "brazilian": "Barroco Roxo",
+      "bulgarian": "Бароково лилаво",
+      "czech": "Baroque Purple",
+      "danish": "Baroque Purple",
+      "dutch": "Baroque Purple",
+      "english": "Baroque Purple",
+      "finnish": "Barokinpurppura",
+      "french": "Violet baroque",
+      "german": "Barock-violett",
+      "greek": "Baroque Purple",
+      "hungarian": "Bíbor Barokk",
+      "indonesian": "Baroque Purple",
+      "italian": "Baroque Purple",
+      "japanese": "Baroque Purple",
+      "koreana": "바로크 퍼플",
+      "latam": "Púrpura barroco",
+      "norwegian": "Baroque Purple",
+      "polish": "Barokowa purpura",
+      "portuguese": "Baroque Purple",
+      "romanian": "Baroque Purple",
+      "russian": "Фиолетовое барокко",
+      "schinese": "巴洛克之紫",
+      "schinese_pw": "Baroque Purple",
+      "spanish": "Púrpura barroco",
+      "swedish": "Baroque Purple",
+      "tchinese": "巴洛克之紫",
+      "thai": "Baroque Purple",
+      "turkish": "Barok Moru",
+      "ukrainian": "Пурпурове бароко",
+      "vietnamese": "Baroque Purple"
+    },
+    "name": "Baroque Purple",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-745",
+  "localized_names": {
+    "brazilian": "AK-47 | Barroco Roxo",
+    "bulgarian": "AK-47 | Бароково лилаво",
+    "czech": "AK-47 | Baroque Purple",
+    "danish": "AK-47 | Baroque Purple",
+    "dutch": "AK-47 | Baroque Purple",
+    "english": "AK-47 | Baroque Purple",
+    "finnish": "AK-47 | Barokinpurppura",
+    "french": "AK-47 | Violet baroque",
+    "german": "AK-47 | Barock-violett",
+    "greek": "AK-47 | Baroque Purple",
+    "hungarian": "AK-47 | Bíbor Barokk",
+    "indonesian": "AK-47 | Baroque Purple",
+    "italian": "AK-47 | Baroque Purple",
+    "japanese": "AK-47 | Baroque Purple",
+    "koreana": "AK-47 | 바로크 퍼플",
+    "latam": "AK-47 | Púrpura barroco",
+    "norwegian": "AK-47 | Baroque Purple",
+    "polish": "AK-47 | Barokowa purpura",
+    "portuguese": "AK-47 | Baroque Purple",
+    "romanian": "AK-47 | Baroque Purple",
+    "russian": "AK-47 | Фиолетовое барокко",
+    "schinese": "AK-47 | 巴洛克之紫",
+    "schinese_pw": "AK-47 | Baroque Purple",
+    "spanish": "AK-47 | Púrpura barroco",
+    "swedish": "AK-47 | Baroque Purple",
+    "tchinese": "AK-47 | 巴洛克之紫",
+    "thai": "AK-47 | Baroque Purple",
+    "turkish": "AK-47 | Barok Moru",
+    "ukrainian": "АК-47 | Пурпурове бароко",
+    "vietnamese": "AK-47 | Baroque Purple"
+  },
+  "media": {
+    "asset_id": "skin__7-745",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-745/light.png",
+      "data/api/media/rendered/files/skins/7-745/medium.png",
+      "data/api/media/rendered/files/skins/7-745/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-745.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-745/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-745/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-745/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-745/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_hy_veneto_purple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_hy_veneto_purple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_hy_veneto_purple_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Baroque Purple",
+  "search_slug": "ak-47-baroque-purple",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_canals",
+        "name": "The Canals Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4608",
+        "kind": "container",
+        "name": "The Canals Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-745__normal__battle-scarred",
+    "7-745__normal__factory-new",
+    "7-745__normal__field-tested",
+    "7-745__normal__minimal-wear",
+    "7-745__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

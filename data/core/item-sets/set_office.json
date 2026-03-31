@@ -1,0 +1,53 @@
+{
+  "description": "",
+  "description_token": "#CSGO_set_office_desc",
+  "display_name": "The Office Collection",
+  "display_name_token": "#CSGO_set_office",
+  "game_id": "set_office",
+  "id": "set_office",
+  "items": [
+    {
+      "entry": "[sp_spray]weapon_famas",
+      "target": "weapon_famas",
+      "token": "sp_spray"
+    },
+    {
+      "entry": "[hy_arctic]weapon_g3sg1",
+      "target": "weapon_g3sg1",
+      "token": "hy_arctic"
+    },
+    {
+      "entry": "[hy_blizzard]weapon_m249",
+      "target": "weapon_m249",
+      "token": "hy_blizzard"
+    },
+    {
+      "entry": "[hy_forest_winter]weapon_galilar",
+      "target": "weapon_galilar",
+      "token": "hy_forest_winter"
+    },
+    {
+      "entry": "[an_silver]weapon_hkp2000",
+      "target": "weapon_hkp2000",
+      "token": "an_silver"
+    },
+    {
+      "entry": "[so_whiteout]weapon_mp7",
+      "target": "weapon_mp7",
+      "token": "so_whiteout"
+    }
+  ],
+  "resolved": {
+    "is_collection": "1",
+    "items": {
+      "[an_silver]weapon_hkp2000": "1",
+      "[hy_arctic]weapon_g3sg1": "1",
+      "[hy_blizzard]weapon_m249": "1",
+      "[hy_forest_winter]weapon_galilar": "1",
+      "[so_whiteout]weapon_mp7": "1",
+      "[sp_spray]weapon_famas": "1"
+    },
+    "name": "#CSGO_set_office",
+    "set_description": "#CSGO_set_office_desc"
+  }
+}

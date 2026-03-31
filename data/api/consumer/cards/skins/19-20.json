@@ -1,0 +1,177 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 20,
+    "id": 20,
+    "localized_names": {
+      "brazilian": "Vírus",
+      "bulgarian": "Вирус",
+      "czech": "Virus",
+      "danish": "Virus",
+      "dutch": "Virus",
+      "english": "Virus",
+      "finnish": "Virus",
+      "french": "Virus",
+      "german": "Virus",
+      "greek": "Virus",
+      "hungarian": "Vírus",
+      "indonesian": "Virus",
+      "italian": "Virus",
+      "japanese": "Virus",
+      "koreana": "바이러스",
+      "latam": "Virus",
+      "norwegian": "Virus",
+      "polish": "Wirus",
+      "portuguese": "Virus",
+      "romanian": "Virus",
+      "russian": "Вирус",
+      "schinese": "病毒危机",
+      "schinese_pw": "Virus",
+      "spanish": "Virus",
+      "swedish": "Virus",
+      "tchinese": "病毒",
+      "thai": "Virus",
+      "turkish": "Virüs",
+      "ukrainian": "Вірус",
+      "vietnamese": "Virus"
+    },
+    "name": "Virus",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "19-20",
+  "localized_names": {
+    "brazilian": "P90 | Vírus",
+    "bulgarian": "P90 | Вирус",
+    "czech": "P90 | Virus",
+    "danish": "P90 | Virus",
+    "dutch": "P90 | Virus",
+    "english": "P90 | Virus",
+    "finnish": "P90 | Virus",
+    "french": "P90 | Virus",
+    "german": "P90 | Virus",
+    "greek": "P90 | Virus",
+    "hungarian": "P90 | Vírus",
+    "indonesian": "P90 | Virus",
+    "italian": "P90 | Virus",
+    "japanese": "P90 | Virus",
+    "koreana": "P90 | 바이러스",
+    "latam": "P90 | Virus",
+    "norwegian": "P90 | Virus",
+    "polish": "P90 | Wirus",
+    "portuguese": "P90 | Virus",
+    "romanian": "P90 | Virus",
+    "russian": "P90 | Вирус",
+    "schinese": "P90 | 病毒危机",
+    "schinese_pw": "P90 | Virus",
+    "spanish": "P90 | Virus",
+    "swedish": "P90 | Virus",
+    "tchinese": "P90 | 病毒",
+    "thai": "P90 | Virus",
+    "turkish": "P90 | Virüs",
+    "ukrainian": "П90 | Вірус",
+    "vietnamese": "P90 | Virus"
+  },
+  "media": {
+    "asset_id": "skin__19-20",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-20/light.png",
+      "data/api/media/rendered/files/skins/19-20/medium.png",
+      "data/api/media/rendered/files/skins/19-20/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-20.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-20/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-20/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-20/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-20/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_hy_zombie_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_hy_zombie_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_hy_zombie_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Virus",
+  "search_slug": "p90-virus",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-20__normal__vanilla",
+    "19-20__stattrak__vanilla"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

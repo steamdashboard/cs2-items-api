@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "gs_g3sg1_disrupt",
+    "id": 980,
+    "name": "Digital Mesh",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 980,
+    "weapon_id": 11
+  },
+  "id": "11-980",
+  "name": "G3SG1 | Digital Mesh",
+  "search_slug": "g3sg1-digital-mesh",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_27",
+        "name": "The Operation Broken Fang Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4717",
+        "kind": "weapon-case",
+        "name": "Operation Broken Fang Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "11-980__normal__factory-new",
+    "11-980__normal__minimal-wear",
+    "11-980__normal__field-tested",
+    "11-980__normal__well-worn",
+    "11-980__normal__battle-scarred",
+    "11-980__stattrak__factory-new",
+    "11-980__stattrak__minimal-wear",
+    "11-980__stattrak__field-tested",
+    "11-980__stattrak__well-worn",
+    "11-980__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_g3sg1",
+    "id": 11,
+    "name": "G3SG1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "gs_mp9_starlight",
+    "id": 1134,
+    "name": "Starlight Protector",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 1134,
+    "weapon_id": 34
+  },
+  "id": "34-1134",
+  "name": "MP9 | Starlight Protector",
+  "search_slug": "mp9-starlight-protector",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_30",
+        "name": "The Dreams & Nightmares Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4818",
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "34-1134__normal__factory-new",
+    "34-1134__normal__minimal-wear",
+    "34-1134__normal__field-tested",
+    "34-1134__normal__well-worn",
+    "34-1134__normal__battle-scarred",
+    "34-1134__stattrak__factory-new",
+    "34-1134__stattrak__minimal-wear",
+    "34-1134__stattrak__field-tested",
+    "34-1134__stattrak__well-worn",
+    "34-1134__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_mp9",
+    "id": 34,
+    "name": "MP9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

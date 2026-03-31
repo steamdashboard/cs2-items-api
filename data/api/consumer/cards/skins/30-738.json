@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 738,
+    "id": 738,
+    "localized_names": {
+      "brazilian": "Murano Laranja",
+      "bulgarian": "Оранжево Мурано",
+      "czech": "Orange Murano",
+      "danish": "Orange Murano",
+      "dutch": "Orange Murano",
+      "english": "Orange Murano",
+      "finnish": "Oranssi Murano",
+      "french": "Murano orange",
+      "german": "Orangener Muranostil",
+      "greek": "Orange Murano",
+      "hungarian": "Narancsszín Murano",
+      "indonesian": "Orange Murano",
+      "italian": "Orange Murano",
+      "japanese": "Orange Murano",
+      "koreana": "주황색 무라노",
+      "latam": "Murano naranja",
+      "norwegian": "Orange Murano",
+      "polish": "Pomarańczowe szkło murańskie",
+      "portuguese": "Orange Murano",
+      "romanian": "Orange Murano",
+      "russian": "Оранжевое Мурано",
+      "schinese": "穆拉诺之橙",
+      "schinese_pw": "Orange Murano",
+      "spanish": "Murano naranja",
+      "swedish": "Orange Murano",
+      "tchinese": "橘色穆拉諾",
+      "thai": "Orange Murano",
+      "turkish": "Turuncu Murano",
+      "ukrainian": "Помаранчеве Мурано",
+      "vietnamese": "Orange Murano"
+    },
+    "name": "Orange Murano",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-738",
+  "localized_names": {
+    "brazilian": "Tec-9 | Murano Laranja",
+    "bulgarian": "Tec-9 | Оранжево Мурано",
+    "czech": "Tec-9 | Orange Murano",
+    "danish": "Tec-9 | Orange Murano",
+    "dutch": "Tec-9 | Orange Murano",
+    "english": "Tec-9 | Orange Murano",
+    "finnish": "Tec-9 | Oranssi Murano",
+    "french": "Tec-9 | Murano orange",
+    "german": "Tec-9 | Orangener Muranostil",
+    "greek": "Tec-9 | Orange Murano",
+    "hungarian": "Tec-9 | Narancsszín Murano",
+    "indonesian": "Tec-9 | Orange Murano",
+    "italian": "Tec-9 | Orange Murano",
+    "japanese": "Tec-9 | Orange Murano",
+    "koreana": "Tec-9 | 주황색 무라노",
+    "latam": "Tec-9 | Murano naranja",
+    "norwegian": "Tec-9 | Orange Murano",
+    "polish": "Tec-9 | Pomarańczowe szkło murańskie",
+    "portuguese": "Tec-9 | Orange Murano",
+    "romanian": "Tec-9 | Orange Murano",
+    "russian": "Tec-9 | Оранжевое Мурано",
+    "schinese": "Tec-9 | 穆拉诺之橙",
+    "schinese_pw": "Tec-9 | Orange Murano",
+    "spanish": "Tec-9 | Murano naranja",
+    "swedish": "Tec-9 | Orange Murano",
+    "tchinese": "Tec-9 | 橘色穆拉諾",
+    "thai": "Tec-9 | Orange Murano",
+    "turkish": "Tec-9 | Turuncu Murano",
+    "ukrainian": "ТЕК-9 | Помаранчеве Мурано",
+    "vietnamese": "Tec-9 | Orange Murano"
+  },
+  "media": {
+    "asset_id": "skin__30-738",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-738/light.png",
+      "data/api/media/rendered/files/skins/30-738/medium.png",
+      "data/api/media/rendered/files/skins/30-738/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-738.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-738/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-738/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-738/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-738/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_hy_murano_orange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_hy_murano_orange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_hy_murano_orange_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Orange Murano",
+  "search_slug": "tec-9-orange-murano",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_canals",
+        "name": "The Canals Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4608",
+        "kind": "container",
+        "name": "The Canals Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-738__normal__battle-scarred",
+    "30-738__normal__factory-new",
+    "30-738__normal__field-tested",
+    "30-738__normal__minimal-wear",
+    "30-738__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 686,
+    "id": 686,
+    "localized_names": {
+      "brazilian": "Fantasma",
+      "bulgarian": "Фантом",
+      "czech": "Phantom",
+      "danish": "Phantom",
+      "dutch": "Phantom",
+      "english": "Phantom",
+      "finnish": "Haamu",
+      "french": "Fantôme",
+      "german": "Phantom",
+      "greek": "Phantom",
+      "hungarian": "Fantom",
+      "indonesian": "Phantom",
+      "italian": "Phantom",
+      "japanese": "Phantom",
+      "koreana": "망령",
+      "latam": "Fantasma",
+      "norwegian": "Phantom",
+      "polish": "Upiór",
+      "portuguese": "Phantom",
+      "romanian": "Phantom",
+      "russian": "Фантом",
+      "schinese": "幻影",
+      "schinese_pw": "Phantom",
+      "spanish": "Fantasma",
+      "swedish": "Phantom",
+      "tchinese": "幻影",
+      "thai": "Phantom",
+      "turkish": "Hayalet",
+      "ukrainian": "Фантом",
+      "vietnamese": "Phantom"
+    },
+    "name": "Phantom",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "39-686",
+  "localized_names": {
+    "brazilian": "SG 553 | Fantasma",
+    "bulgarian": "SG 553 | Фантом",
+    "czech": "SG 553 | Phantom",
+    "danish": "SG 553 | Phantom",
+    "dutch": "SG 553 | Phantom",
+    "english": "SG 553 | Phantom",
+    "finnish": "SG 553 | Haamu",
+    "french": "SG 553 | Fantôme",
+    "german": "SG 553 | Phantom",
+    "greek": "SG 553 | Phantom",
+    "hungarian": "SG 553 | Fantom",
+    "indonesian": "SG 553 | Phantom",
+    "italian": "SG 553 | Phantom",
+    "japanese": "SG 553 | Phantom",
+    "koreana": "SG 553 | 망령",
+    "latam": "SG 553 | Fantasma",
+    "norwegian": "SG 553 | Phantom",
+    "polish": "SG 553 | Upiór",
+    "portuguese": "SG 553 | Phantom",
+    "romanian": "SG 553 | Phantom",
+    "russian": "SG 553 | Фантом",
+    "schinese": "SG 553 | 幻影",
+    "schinese_pw": "SG 553 | Phantom",
+    "spanish": "SG 553 | Fantasma",
+    "swedish": "SG 553 | Phantom",
+    "tchinese": "SG 553 | 幻影",
+    "thai": "SG 553 | Phantom",
+    "turkish": "SG 553 | Hayalet",
+    "ukrainian": "СГ 553 | Фантом",
+    "vietnamese": "SG 553 | Phantom"
+  },
+  "media": {
+    "asset_id": "skin__39-686",
+    "images_png": [
+      "data/api/media/rendered/files/skins/39-686/light.png",
+      "data/api/media/rendered/files/skins/39-686/medium.png",
+      "data/api/media/rendered/files/skins/39-686/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/39-686.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/39-686/heavy.png",
+      "light": "data/api/media/rendered/files/skins/39-686/light.png",
+      "medium": "data/api/media/rendered/files/skins/39-686/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/39-686/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sg556_gs_sg553_phantom_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sg556_gs_sg553_phantom_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sg556_gs_sg553_phantom_medium_png.vtex_c"
+    }
+  },
+  "name": "SG 553 | Phantom",
+  "search_slug": "sg-553-phantom",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4403",
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_18",
+        "name": "The Spectrum 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "39-686__normal__battle-scarred",
+    "39-686__normal__factory-new",
+    "39-686__normal__field-tested",
+    "39-686__normal__minimal-wear",
+    "39-686__normal__well-worn",
+    "39-686__stattrak__battle-scarred",
+    "39-686__stattrak__factory-new",
+    "39-686__stattrak__field-tested",
+    "39-686__stattrak__minimal-wear",
+    "39-686__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 39,
+    "localized_names": {
+      "brazilian": "SG 553",
+      "bulgarian": "SG 553",
+      "czech": "SG 553",
+      "danish": "SG 553",
+      "dutch": "SG 553",
+      "english": "SG 553",
+      "finnish": "SG 553",
+      "french": "SG 553",
+      "german": "SG 553",
+      "greek": "SG 553",
+      "hungarian": "SG 553",
+      "indonesian": "SG 553",
+      "italian": "SG 553",
+      "japanese": "SG 553",
+      "koreana": "SG 553",
+      "latam": "SG 553",
+      "norwegian": "SG 553",
+      "polish": "SG 553",
+      "portuguese": "SG 553",
+      "romanian": "SG 553",
+      "russian": "SG 553",
+      "schinese": "SG 553",
+      "schinese_pw": "SG 553",
+      "spanish": "SG 553",
+      "swedish": "SG 553",
+      "tchinese": "SG 553",
+      "thai": "SG 553",
+      "turkish": "SG 553",
+      "ukrainian": "СГ 553",
+      "vietnamese": "SG 553"
+    },
+    "name": "SG 553",
+    "search_slug": "sg-553",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

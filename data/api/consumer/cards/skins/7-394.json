@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 394,
+    "id": 394,
+    "localized_names": {
+      "brazilian": "Cartel",
+      "bulgarian": "Картел",
+      "czech": "Cartel",
+      "danish": "Cartel",
+      "dutch": "Cartel",
+      "english": "Cartel",
+      "finnish": "Kartelli",
+      "french": "Cartel",
+      "german": "Kartell",
+      "greek": "Cartel",
+      "hungarian": "Kartell",
+      "indonesian": "Cartel",
+      "italian": "Cartel",
+      "japanese": "Cartel",
+      "koreana": "카르텔",
+      "latam": "Cartel",
+      "norwegian": "Cartel",
+      "polish": "Kartel",
+      "portuguese": "Cartel",
+      "romanian": "Cartel",
+      "russian": "Картель",
+      "schinese": "卡特尔",
+      "schinese_pw": "Cartel",
+      "spanish": "Cartel",
+      "swedish": "Cartel",
+      "tchinese": "卡特爾",
+      "thai": "Cartel",
+      "turkish": "Kartel",
+      "ukrainian": "Картель",
+      "vietnamese": "Cartel"
+    },
+    "name": "Cartel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-394",
+  "localized_names": {
+    "brazilian": "AK-47 | Cartel",
+    "bulgarian": "AK-47 | Картел",
+    "czech": "AK-47 | Cartel",
+    "danish": "AK-47 | Cartel",
+    "dutch": "AK-47 | Cartel",
+    "english": "AK-47 | Cartel",
+    "finnish": "AK-47 | Kartelli",
+    "french": "AK-47 | Cartel",
+    "german": "AK-47 | Kartell",
+    "greek": "AK-47 | Cartel",
+    "hungarian": "AK-47 | Kartell",
+    "indonesian": "AK-47 | Cartel",
+    "italian": "AK-47 | Cartel",
+    "japanese": "AK-47 | Cartel",
+    "koreana": "AK-47 | 카르텔",
+    "latam": "AK-47 | Cartel",
+    "norwegian": "AK-47 | Cartel",
+    "polish": "AK-47 | Kartel",
+    "portuguese": "AK-47 | Cartel",
+    "romanian": "AK-47 | Cartel",
+    "russian": "AK-47 | Картель",
+    "schinese": "AK-47 | 卡特尔",
+    "schinese_pw": "AK-47 | Cartel",
+    "spanish": "AK-47 | Cartel",
+    "swedish": "AK-47 | Cartel",
+    "tchinese": "AK-47 | 卡特爾",
+    "thai": "AK-47 | Cartel",
+    "turkish": "AK-47 | Kartel",
+    "ukrainian": "АК-47 | Картель",
+    "vietnamese": "AK-47 | Cartel"
+  },
+  "media": {
+    "asset_id": "skin__7-394",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-394/light.png",
+      "data/api/media/rendered/files/skins/7-394/medium.png",
+      "data/api/media/rendered/files/skins/7-394/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-394.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-394/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-394/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-394/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-394/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_aq_ak47_cartel_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_aq_ak47_cartel_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_aq_ak47_cartel_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Cartel",
+  "search_slug": "ak-47-cartel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-394__normal__battle-scarred",
+    "7-394__normal__factory-new",
+    "7-394__normal__field-tested",
+    "7-394__normal__minimal-wear",
+    "7-394__normal__well-worn",
+    "7-394__stattrak__battle-scarred",
+    "7-394__stattrak__factory-new",
+    "7-394__stattrak__field-tested",
+    "7-394__stattrak__minimal-wear",
+    "7-394__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

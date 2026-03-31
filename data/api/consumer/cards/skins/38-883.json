@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 883,
+    "id": 883,
+    "localized_names": {
+      "brazilian": "Frutas Silvestres",
+      "bulgarian": "Диви боровинки",
+      "czech": "Wild Berry",
+      "danish": "Wild Berry",
+      "dutch": "Wild Berry",
+      "english": "Wild Berry",
+      "finnish": "Metsämarja",
+      "french": "Fruits des bois",
+      "german": "Waldbeere",
+      "greek": "Wild Berry",
+      "hungarian": "Vad Bogyó",
+      "indonesian": "Wild Berry",
+      "italian": "Wild Berry",
+      "japanese": "Wild Berry",
+      "koreana": "와일드 베리",
+      "latam": "Frutos del bosque",
+      "norwegian": "Wild Berry",
+      "polish": "Dzika jagoda",
+      "portuguese": "Wild Berry",
+      "romanian": "Wild Berry",
+      "russian": "Дикая ягода",
+      "schinese": "野莓",
+      "schinese_pw": "Wild Berry",
+      "spanish": "Frutas del bosque",
+      "swedish": "Wild Berry",
+      "tchinese": "野莓",
+      "thai": "Wild Berry",
+      "turkish": "Yabani Böğürtlen",
+      "ukrainian": "Дика ягода",
+      "vietnamese": "Wild Berry"
+    },
+    "name": "Wild Berry",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.0
+    }
+  },
+  "id": "38-883",
+  "localized_names": {
+    "brazilian": "SCAR-20 | Frutas Silvestres",
+    "bulgarian": "SCAR-20 | Диви боровинки",
+    "czech": "SCAR-20 | Wild Berry",
+    "danish": "SCAR-20 | Wild Berry",
+    "dutch": "SCAR-20 | Wild Berry",
+    "english": "SCAR-20 | Wild Berry",
+    "finnish": "SCAR-20 | Metsämarja",
+    "french": "SCAR-20 | Fruits des bois",
+    "german": "SCAR-20 | Waldbeere",
+    "greek": "SCAR-20 | Wild Berry",
+    "hungarian": "SCAR-20 | Vad Bogyó",
+    "indonesian": "SCAR-20 | Wild Berry",
+    "italian": "SCAR-20 | Wild Berry",
+    "japanese": "SCAR-20 | Wild Berry",
+    "koreana": "SCAR-20 | 와일드 베리",
+    "latam": "SCAR-20 | Frutos del bosque",
+    "norwegian": "SCAR-20 | Wild Berry",
+    "polish": "SCAR-20 | Dzika jagoda",
+    "portuguese": "SCAR-20 | Wild Berry",
+    "romanian": "SCAR-20 | Wild Berry",
+    "russian": "SCAR-20 | Дикая ягода",
+    "schinese": "SCAR-20 | 野莓",
+    "schinese_pw": "SCAR-20 | Wild Berry",
+    "spanish": "SCAR-20 | Frutas del bosque",
+    "swedish": "SCAR-20 | Wild Berry",
+    "tchinese": "SCAR-20 | 野莓",
+    "thai": "SCAR-20 | Wild Berry",
+    "turkish": "SCAR-20 | Yabani Böğürtlen",
+    "ukrainian": "СКАР-20 | Дика ягода",
+    "vietnamese": "SCAR-20 | Wild Berry"
+  },
+  "media": {
+    "asset_id": "skin__38-883",
+    "images_png": [
+      "data/api/media/rendered/files/skins/38-883/light.png",
+      "data/api/media/rendered/files/skins/38-883/medium.png",
+      "data/api/media/rendered/files/skins/38-883/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/38-883.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/38-883/heavy.png",
+      "light": "data/api/media/rendered/files/skins/38-883/light.png",
+      "medium": "data/api/media/rendered/files/skins/38-883/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/38-883/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_scar20_cu_chevron_scar20_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_scar20_cu_chevron_scar20_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_scar20_cu_chevron_scar20_medium_png.vtex_c"
+    }
+  },
+  "name": "SCAR-20 | Wild Berry",
+  "search_slug": "scar-20-wild-berry",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_graphic_design",
+        "name": "The Graphic Design Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "38-883__normal__battle-scarred",
+    "38-883__normal__factory-new",
+    "38-883__normal__field-tested",
+    "38-883__normal__minimal-wear",
+    "38-883__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 38,
+    "localized_names": {
+      "brazilian": "SCAR-20",
+      "bulgarian": "SCAR-20",
+      "czech": "SCAR-20",
+      "danish": "SCAR-20",
+      "dutch": "SCAR-20",
+      "english": "SCAR-20",
+      "finnish": "SCAR-20",
+      "french": "SCAR-20",
+      "german": "SCAR-20",
+      "greek": "SCAR-20",
+      "hungarian": "SCAR-20",
+      "indonesian": "SCAR-20",
+      "italian": "SCAR-20",
+      "japanese": "SCAR-20",
+      "koreana": "SCAR-20",
+      "latam": "SCAR-20",
+      "norwegian": "SCAR-20",
+      "polish": "SCAR-20",
+      "portuguese": "SCAR-20",
+      "romanian": "SCAR-20",
+      "russian": "SCAR-20",
+      "schinese": "SCAR-20",
+      "schinese_pw": "SCAR-20",
+      "spanish": "SCAR-20",
+      "swedish": "SCAR-20",
+      "tchinese": "SCAR-20",
+      "thai": "SCAR-20",
+      "turkish": "SCAR-20",
+      "ukrainian": "СКАР-20",
+      "vietnamese": "SCAR-20"
+    },
+    "name": "SCAR-20",
+    "search_slug": "scar-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

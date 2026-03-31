@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1187,
+    "id": 1187,
+    "localized_names": {
+      "brazilian": "Memorial",
+      "bulgarian": "Мемориал",
+      "czech": "Memorial",
+      "danish": "Memorial",
+      "dutch": "Memorial",
+      "english": "Memorial",
+      "finnish": "Sankareiden muistolle",
+      "french": "Mémorial",
+      "german": "Denkmal",
+      "greek": "Memorial",
+      "hungarian": "Emlékmű",
+      "indonesian": "Memorial",
+      "italian": "Memorial",
+      "japanese": "Memorial",
+      "koreana": "호국 기념",
+      "latam": "Memorial",
+      "norwegian": "Memorial",
+      "polish": "Monument",
+      "portuguese": "Memorial",
+      "romanian": "Memorial",
+      "russian": "Мемориал",
+      "schinese": "纪念碑",
+      "schinese_pw": "Memorial",
+      "spanish": "Memorial",
+      "swedish": "Memorial",
+      "tchinese": "紀念碑",
+      "thai": "Memorial",
+      "turkish": "Anıt",
+      "ukrainian": "Меморіал",
+      "vietnamese": "Memorial"
+    },
+    "name": "Memorial",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-1187",
+  "localized_names": {
+    "brazilian": "SSG 08 | Memorial",
+    "bulgarian": "SSG 08 | Мемориал",
+    "czech": "SSG 08 | Memorial",
+    "danish": "SSG 08 | Memorial",
+    "dutch": "SSG 08 | Memorial",
+    "english": "SSG 08 | Memorial",
+    "finnish": "SSG 08 | Sankareiden muistolle",
+    "french": "SSG 08 | Mémorial",
+    "german": "SSG 08 | Denkmal",
+    "greek": "SSG 08 | Memorial",
+    "hungarian": "SSG 08 | Emlékmű",
+    "indonesian": "SSG 08 | Memorial",
+    "italian": "SSG 08 | Memorial",
+    "japanese": "SSG 08 | Memorial",
+    "koreana": "SSG 08 | 호국 기념",
+    "latam": "SSG 08 | Memorial",
+    "norwegian": "SSG 08 | Memorial",
+    "polish": "SSG 08 | Monument",
+    "portuguese": "SSG 08 | Memorial",
+    "romanian": "SSG 08 | Memorial",
+    "russian": "SSG 08 | Мемориал",
+    "schinese": "SSG 08 | 纪念碑",
+    "schinese_pw": "SSG 08 | Memorial",
+    "spanish": "SSG 08 | Memorial",
+    "swedish": "SSG 08 | Memorial",
+    "tchinese": "SSG 08 | 紀念碑",
+    "thai": "SSG 08 | Memorial",
+    "turkish": "SSG 08 | Anıt",
+    "ukrainian": "ССГ 08 | Меморіал",
+    "vietnamese": "SSG 08 | Memorial"
+  },
+  "media": {
+    "asset_id": "skin__40-1187",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-1187/light.png",
+      "data/api/media/rendered/files/skins/40-1187/medium.png",
+      "data/api/media/rendered/files/skins/40-1187/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-1187.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-1187/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-1187/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-1187/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-1187/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_ssg08_brutalist_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_ssg08_brutalist_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_ssg08_brutalist_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Memorial",
+  "search_slug": "ssg-08-memorial",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "7007",
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_35",
+        "name": "The Fever Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-1187__normal__battle-scarred",
+    "40-1187__normal__factory-new",
+    "40-1187__normal__field-tested",
+    "40-1187__normal__minimal-wear",
+    "40-1187__normal__well-worn",
+    "40-1187__stattrak__battle-scarred",
+    "40-1187__stattrak__factory-new",
+    "40-1187__stattrak__field-tested",
+    "40-1187__stattrak__minimal-wear",
+    "40-1187__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

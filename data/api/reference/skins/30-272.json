@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_fluted_tec9",
+    "id": 272,
+    "name": "Titanium Bit",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 272,
+    "weapon_id": 30
+  },
+  "id": "30-272",
+  "name": "Tec-9 | Titanium Bit",
+  "search_slug": "tec-9-titanium-bit",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_weapons_iii",
+        "name": "The Arms Deal 3 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4010",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "30-272__normal__factory-new",
+    "30-272__normal__minimal-wear",
+    "30-272__normal__field-tested",
+    "30-272__stattrak__factory-new",
+    "30-272__stattrak__minimal-wear",
+    "30-272__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_tec9",
+    "id": 30,
+    "name": "Tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

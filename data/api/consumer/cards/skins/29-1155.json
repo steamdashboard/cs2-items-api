@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1155,
+    "id": 1155,
+    "localized_names": {
+      "brazilian": "BEIJ♥S",
+      "bulgarian": "Целувка♥Обич",
+      "czech": "Kiss♥Love",
+      "danish": "Kiss♥Love",
+      "dutch": "Kiss♥Love",
+      "english": "Kiss♥Love",
+      "finnish": "Kiss♥Love",
+      "french": "BIS♥U",
+      "german": "Kuss♥Liebe",
+      "greek": "Kiss♥Love",
+      "hungarian": "Puszi♥Szeretlek",
+      "indonesian": "Kiss♥Love",
+      "italian": "Kiss♥Love",
+      "japanese": "Kiss♥Love",
+      "koreana": "키스♥러브",
+      "latam": "Beso♥Amor",
+      "norwegian": "Kiss♥Love",
+      "polish": "Buzi♥Kocham",
+      "portuguese": "Kiss♥Love",
+      "romanian": "Kiss♥Love",
+      "russian": "Лафки♥Чмафки",
+      "schinese": "么么",
+      "schinese_pw": "Kiss♥Love",
+      "spanish": "Beso♥Amor",
+      "swedish": "Kiss♥Love",
+      "tchinese": "親♥愛",
+      "thai": "Kiss♥Love",
+      "turkish": "Öpücük♥Aşk",
+      "ukrainian": "Любки♥Цьомки",
+      "vietnamese": "Kiss♥Love"
+    },
+    "name": "Kiss♥Love",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "29-1155",
+  "localized_names": {
+    "brazilian": "Cano Curto | BEIJ♥S",
+    "bulgarian": "Скъсена цев | Целувка♥Обич",
+    "czech": "Upilovaná brokovnice | Kiss♥Love",
+    "danish": "Sawed-off | Kiss♥Love",
+    "dutch": "Sawed-Off | Kiss♥Love",
+    "english": "Sawed-Off | Kiss♥Love",
+    "finnish": "Katkaistu haulikko | Kiss♥Love",
+    "french": "Sawed-Off | BIS♥U",
+    "german": "Abgesägte Schrotflinte | Kuss♥Liebe",
+    "greek": "Sawed-Off | Kiss♥Love",
+    "hungarian": "Lefűrészelt csövű sörétes | Puszi♥Szeretlek",
+    "indonesian": "Sawed-Off | Kiss♥Love",
+    "italian": "Fucile a canne mozze | Kiss♥Love",
+    "japanese": "Sawed-Off | Kiss♥Love",
+    "koreana": "소드오프 | 키스♥러브",
+    "latam": "Recortada | Beso♥Amor",
+    "norwegian": "Sawed-Off | Kiss♥Love",
+    "polish": "Obrzyn | Buzi♥Kocham",
+    "portuguese": "Sawed-Off | Kiss♥Love",
+    "romanian": "Sawed-Off | Kiss♥Love",
+    "russian": "Обрез | Лафки♥Чмафки",
+    "schinese": "截短霰弹枪 | 么么",
+    "schinese_pw": "Sawed-Off | Kiss♥Love",
+    "spanish": "Recortada | Beso♥Amor",
+    "swedish": "Sawed-Off | Kiss♥Love",
+    "tchinese": "Sawed-Off | 親♥愛",
+    "thai": "Sawed-Off | Kiss♥Love",
+    "turkish": "Sawed-Off | Öpücük♥Aşk",
+    "ukrainian": "Обріз | Любки♥Цьомки",
+    "vietnamese": "Súng nòng ngắn | Kiss♥Love"
+  },
+  "media": {
+    "asset_id": "skin__29-1155",
+    "images_png": [
+      "data/api/media/rendered/files/skins/29-1155/light.png",
+      "data/api/media/rendered/files/skins/29-1155/medium.png",
+      "data/api/media/rendered/files/skins/29-1155/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/29-1155.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/29-1155/heavy.png",
+      "light": "data/api/media/rendered/files/skins/29-1155/light.png",
+      "medium": "data/api/media/rendered/files/skins/29-1155/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/29-1155/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_kisslove_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_kisslove_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_kisslove_medium_png.vtex_c"
+    }
+  },
+  "name": "Sawed-Off | Kiss♥Love",
+  "search_slug": "sawed-off-kiss-love",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4846",
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_31",
+        "name": "The Recoil Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "29-1155__normal__battle-scarred",
+    "29-1155__normal__factory-new",
+    "29-1155__normal__field-tested",
+    "29-1155__normal__minimal-wear",
+    "29-1155__normal__well-worn",
+    "29-1155__stattrak__battle-scarred",
+    "29-1155__stattrak__factory-new",
+    "29-1155__stattrak__field-tested",
+    "29-1155__stattrak__minimal-wear",
+    "29-1155__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 29,
+    "localized_names": {
+      "brazilian": "Cano Curto",
+      "bulgarian": "Скъсена цев",
+      "czech": "Upilovaná brokovnice",
+      "danish": "Sawed-off",
+      "dutch": "Sawed-Off",
+      "english": "Sawed-Off",
+      "finnish": "Katkaistu haulikko",
+      "french": "Sawed-Off",
+      "german": "Abgesägte Schrotflinte",
+      "greek": "Sawed-Off",
+      "hungarian": "Lefűrészelt csövű sörétes",
+      "indonesian": "Sawed-Off",
+      "italian": "Fucile a canne mozze",
+      "japanese": "Sawed-Off",
+      "koreana": "소드오프",
+      "latam": "Recortada",
+      "norwegian": "Sawed-Off",
+      "polish": "Obrzyn",
+      "portuguese": "Sawed-Off",
+      "romanian": "Sawed-Off",
+      "russian": "Обрез",
+      "schinese": "截短霰弹枪",
+      "schinese_pw": "Sawed-Off",
+      "spanish": "Recortada",
+      "swedish": "Sawed-Off",
+      "tchinese": "Sawed-Off",
+      "thai": "Sawed-Off",
+      "turkish": "Sawed-Off",
+      "ukrainian": "Обріз",
+      "vietnamese": "Súng nòng ngắn"
+    },
+    "name": "Sawed-Off",
+    "search_slug": "sawed-off",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

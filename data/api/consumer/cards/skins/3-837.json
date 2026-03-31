@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 837,
+    "id": 837,
+    "localized_names": {
+      "brazilian": "Multidão Enfurecida",
+      "bulgarian": "Разярена тълпа",
+      "czech": "Angry Mob",
+      "danish": "Angry Mob",
+      "dutch": "Angry Mob",
+      "english": "Angry Mob",
+      "finnish": "Äkäinen sakki",
+      "french": "Soulèvement",
+      "german": "Aufgebrachte Menge",
+      "greek": "Angry Mob",
+      "hungarian": "Dühös Sokaság",
+      "indonesian": "Angry Mob",
+      "italian": "Angry Mob",
+      "japanese": "Angry Mob",
+      "koreana": "화난 무리",
+      "latam": "Turba Enfurecida",
+      "norwegian": "Angry Mob",
+      "polish": "Wściekły tłum",
+      "portuguese": "Angry Mob",
+      "romanian": "Angry Mob",
+      "russian": "Разъярённая толпа",
+      "schinese": "怒氓",
+      "schinese_pw": "Angry Mob",
+      "spanish": "Masa enfurecida",
+      "swedish": "Angry Mob",
+      "tchinese": "憤怒暴民",
+      "thai": "Angry Mob",
+      "turkish": "Sinirli Kalabalık",
+      "ukrainian": "Розлючений натовп",
+      "vietnamese": "Angry Mob"
+    },
+    "name": "Angry Mob",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-837",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Multidão Enfurecida",
+    "bulgarian": "Five-SeveN | Разярена тълпа",
+    "czech": "Five-SeveN | Angry Mob",
+    "danish": "Five-SeveN | Angry Mob",
+    "dutch": "Five-SeveN | Angry Mob",
+    "english": "Five-SeveN | Angry Mob",
+    "finnish": "Five-SeveN | Äkäinen sakki",
+    "french": "Five-SeveN | Soulèvement",
+    "german": "Five-SeveN | Aufgebrachte Menge",
+    "greek": "Five-SeveN | Angry Mob",
+    "hungarian": "Five-SeveN | Dühös Sokaság",
+    "indonesian": "Five-SeveN | Angry Mob",
+    "italian": "Five-SeveN | Angry Mob",
+    "japanese": "Five-SeveN | Angry Mob",
+    "koreana": "파이브 세븐 | 화난 무리",
+    "latam": "Five-SeveN | Turba Enfurecida",
+    "norwegian": "Five-SeveN | Angry Mob",
+    "polish": "Five-SeveN | Wściekły tłum",
+    "portuguese": "Five-SeveN | Angry Mob",
+    "romanian": "Five-SeveN | Angry Mob",
+    "russian": "Five-SeveN | Разъярённая толпа",
+    "schinese": "FN57 | 怒氓",
+    "schinese_pw": "Five-SeveN | Angry Mob",
+    "spanish": "Five-seveN | Masa enfurecida",
+    "swedish": "Five-SeveN | Angry Mob",
+    "tchinese": "Five-SeveN | 憤怒暴民",
+    "thai": "Five-SeveN | Angry Mob",
+    "turkish": "Five-SeveN | Sinirli Kalabalık",
+    "ukrainian": "Five-seveN | Розлючений натовп",
+    "vietnamese": "Five-SeveN | Angry Mob"
+  },
+  "media": {
+    "asset_id": "skin__3-837",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-837/light.png",
+      "data/api/media/rendered/files/skins/3-837/medium.png",
+      "data/api/media/rendered/files/skins/3-837/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-837.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-837/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-837/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-837/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-837/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_cu_five_seven_angry_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_cu_five_seven_angry_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_cu_five_seven_angry_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Angry Mob",
+  "search_slug": "five-seven-angry-mob",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4598",
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_22",
+        "name": "The Prisma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-837__normal__battle-scarred",
+    "3-837__normal__factory-new",
+    "3-837__normal__field-tested",
+    "3-837__normal__minimal-wear",
+    "3-837__normal__well-worn",
+    "3-837__stattrak__battle-scarred",
+    "3-837__stattrak__factory-new",
+    "3-837__stattrak__field-tested",
+    "3-837__stattrak__minimal-wear",
+    "3-837__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

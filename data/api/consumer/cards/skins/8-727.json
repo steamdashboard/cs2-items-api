@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 727,
+    "id": 727,
+    "localized_names": {
+      "brazilian": "Lírio da Meia-noite",
+      "bulgarian": "Среднощна лилия",
+      "czech": "Midnight Lily",
+      "danish": "Midnight Lily",
+      "dutch": "Midnight Lily",
+      "english": "Midnight Lily",
+      "finnish": "Keskiyön lilja",
+      "french": "Lys belle-de-minuit",
+      "german": "Mitternachtlilie",
+      "greek": "Midnight Lily",
+      "hungarian": "Éjféli Liliom",
+      "indonesian": "Midnight Lily",
+      "italian": "Midnight Lily",
+      "japanese": "Midnight Lily",
+      "koreana": "자정의 백합",
+      "latam": "Lirio de medianoche",
+      "norwegian": "Midnight Lily",
+      "polish": "Lilia północy",
+      "portuguese": "Midnight Lily",
+      "romanian": "Midnight Lily",
+      "russian": "Полуночная лилия",
+      "schinese": "午夜百合",
+      "schinese_pw": "Midnight Lily",
+      "spanish": "Lirio de medianoche",
+      "swedish": "Midnight Lily",
+      "tchinese": "午夜百合",
+      "thai": "Midnight Lily",
+      "turkish": "Gece Yarısı Zambağı",
+      "ukrainian": "Опівнічна лілія",
+      "vietnamese": "Midnight Lily"
+    },
+    "name": "Midnight Lily",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-727",
+  "localized_names": {
+    "brazilian": "AUG | Lírio da Meia-noite",
+    "bulgarian": "AUG | Среднощна лилия",
+    "czech": "AUG | Midnight Lily",
+    "danish": "AUG | Midnight Lily",
+    "dutch": "AUG | Midnight Lily",
+    "english": "AUG | Midnight Lily",
+    "finnish": "AUG | Keskiyön lilja",
+    "french": "AUG | Lys belle-de-minuit",
+    "german": "AUG | Mitternachtlilie",
+    "greek": "AUG | Midnight Lily",
+    "hungarian": "AUG | Éjféli Liliom",
+    "indonesian": "AUG | Midnight Lily",
+    "italian": "AUG | Midnight Lily",
+    "japanese": "AUG | Midnight Lily",
+    "koreana": "AUG | 자정의 백합",
+    "latam": "AUG | Lirio de medianoche",
+    "norwegian": "AUG | Midnight Lily",
+    "polish": "AUG | Lilia północy",
+    "portuguese": "AUG | Midnight Lily",
+    "romanian": "AUG | Midnight Lily",
+    "russian": "AUG | Полуночная лилия",
+    "schinese": "AUG | 午夜百合",
+    "schinese_pw": "AUG | Midnight Lily",
+    "spanish": "AUG | Lirio de medianoche",
+    "swedish": "AUG | Midnight Lily",
+    "tchinese": "AUG | 午夜百合",
+    "thai": "AUG | Midnight Lily",
+    "turkish": "AUG | Gece Yarısı Zambağı",
+    "ukrainian": "АУГ | Опівнічна лілія",
+    "vietnamese": "AUG | Midnight Lily"
+  },
+  "media": {
+    "asset_id": "skin__8-727",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-727/light.png",
+      "data/api/media/rendered/files/skins/8-727/medium.png",
+      "data/api/media/rendered/files/skins/8-727/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-727.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-727/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-727/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-727/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-727/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_am_bloom_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_am_bloom_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_am_bloom_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Midnight Lily",
+  "search_slug": "aug-midnight-lily",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_stmarc",
+        "name": "The St. Marc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4612",
+        "kind": "container",
+        "name": "The St. Marc Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-727__normal__battle-scarred",
+    "8-727__normal__factory-new",
+    "8-727__normal__field-tested",
+    "8-727__normal__minimal-wear",
+    "8-727__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

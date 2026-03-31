@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 236,
+    "id": 236,
+    "localized_names": {
+      "brazilian": "Operações Noturnas",
+      "bulgarian": "Нощна операция",
+      "czech": "Night Ops",
+      "danish": "Night Ops",
+      "dutch": "Night Ops",
+      "english": "Night Ops",
+      "finnish": "Yöllinen operaatio",
+      "french": "Opérations nocturnes",
+      "german": "Nachteinsätze",
+      "greek": "Night Ops",
+      "hungarian": "Éjszakai Műveletek",
+      "indonesian": "Night Ops",
+      "italian": "Night Ops",
+      "japanese": "Night Ops",
+      "koreana": "야간 작전 부대",
+      "latam": "Operaciones nocturnas",
+      "norwegian": "Night Ops",
+      "polish": "Nocne operacje",
+      "portuguese": "Night Ops",
+      "romanian": "Night Ops",
+      "russian": "Ночные операции",
+      "schinese": "午夜行动",
+      "schinese_pw": "Night Ops",
+      "spanish": "Operaciones nocturnas",
+      "swedish": "Night Ops",
+      "tchinese": "夜間行動",
+      "thai": "Night Ops",
+      "turkish": "Gece Operasyonu",
+      "ukrainian": "Нічні операції",
+      "vietnamese": "Night Ops"
+    },
+    "name": "Night Ops",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-236",
+  "localized_names": {
+    "brazilian": "PP-Bizon | Operações Noturnas",
+    "bulgarian": "PP-Bizon | Нощна операция",
+    "czech": "PP-Bizon | Night Ops",
+    "danish": "PP-Bizon | Night Ops",
+    "dutch": "PP-Bizon | Night Ops",
+    "english": "PP-Bizon | Night Ops",
+    "finnish": "PP-Bizon | Yöllinen operaatio",
+    "french": "PP-Bizon | Opérations nocturnes",
+    "german": "PP-Bizon | Nachteinsätze",
+    "greek": "PP-Bizon | Night Ops",
+    "hungarian": "PP-Bizon | Éjszakai Műveletek",
+    "indonesian": "PP-Bizon | Night Ops",
+    "italian": "PP-Bizon | Night Ops",
+    "japanese": "PP-Bizon | Night Ops",
+    "koreana": "PP 비존 | 야간 작전 부대",
+    "latam": "PP-Bizon | Operaciones nocturnas",
+    "norwegian": "PP-Bizon | Night Ops",
+    "polish": "PP-Bizon | Nocne operacje",
+    "portuguese": "PP-Bizon | Night Ops",
+    "romanian": "PP-Bizon | Night Ops",
+    "russian": "ПП-19 «Бизон» | Ночные операции",
+    "schinese": "PP-野牛 | 午夜行动",
+    "schinese_pw": "PP-Bizon | Night Ops",
+    "spanish": "PP-Bizon | Operaciones nocturnas",
+    "swedish": "PP-Bizon | Night Ops",
+    "tchinese": "PP-Bizon | 夜間行動",
+    "thai": "PP-Bizon | Night Ops",
+    "turkish": "PP-Bizon | Gece Operasyonu",
+    "ukrainian": "ПП «Бізон» | Нічні операції",
+    "vietnamese": "PP-Bizon | Night Ops"
+  },
+  "media": {
+    "asset_id": "skin__26-236",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-236/light.png",
+      "data/api/media/rendered/files/skins/26-236/medium.png",
+      "data/api/media/rendered/files/skins/26-236/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-236.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-236/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-236/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-236/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-236/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_hy_varicamo_night_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_hy_varicamo_night_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_hy_varicamo_night_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | Night Ops",
+  "search_slug": "pp-bizon-night-ops",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_lake",
+        "name": "The Lake Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "26-236__normal__battle-scarred",
+    "26-236__normal__factory-new",
+    "26-236__normal__field-tested",
+    "26-236__normal__minimal-wear",
+    "26-236__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

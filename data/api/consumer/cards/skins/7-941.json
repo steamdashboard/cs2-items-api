@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 941,
+    "id": 941,
+    "localized_names": {
+      "brazilian": "Disruptor Fantasma",
+      "bulgarian": "Фантомен разрушител",
+      "czech": "Phantom Disruptor",
+      "danish": "Phantom Disruptor",
+      "dutch": "Phantom Disruptor",
+      "english": "Phantom Disruptor",
+      "finnish": "Haamuilija",
+      "french": "Créature fantasmagorique",
+      "german": "Phantom-Disruptor",
+      "greek": "Phantom Disruptor",
+      "hungarian": "Zavaró Fantom",
+      "indonesian": "Phantom Disruptor",
+      "italian": "Phantom Disruptor",
+      "japanese": "Phantom Disruptor",
+      "koreana": "망령 교란자",
+      "latam": "Disruptor fantasma",
+      "norwegian": "Phantom Disruptor",
+      "polish": "Widmowy mąciciel",
+      "portuguese": "Phantom Disruptor",
+      "romanian": "Phantom Disruptor",
+      "russian": "Фантомный вредитель",
+      "schinese": "幻影破坏者",
+      "schinese_pw": "Phantom Disruptor",
+      "spanish": "Disruptor fantasma",
+      "swedish": "Phantom Disruptor",
+      "tchinese": "幻影破壞者",
+      "thai": "Phantom Disruptor",
+      "turkish": "Hayalet Bozguncu",
+      "ukrainian": "Фантомний руйнівник",
+      "vietnamese": "Phantom Disruptor"
+    },
+    "name": "Phantom Disruptor",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-941",
+  "localized_names": {
+    "brazilian": "AK-47 | Disruptor Fantasma",
+    "bulgarian": "AK-47 | Фантомен разрушител",
+    "czech": "AK-47 | Phantom Disruptor",
+    "danish": "AK-47 | Phantom Disruptor",
+    "dutch": "AK-47 | Phantom Disruptor",
+    "english": "AK-47 | Phantom Disruptor",
+    "finnish": "AK-47 | Haamuilija",
+    "french": "AK-47 | Créature fantasmagorique",
+    "german": "AK-47 | Phantom-Disruptor",
+    "greek": "AK-47 | Phantom Disruptor",
+    "hungarian": "AK-47 | Zavaró Fantom",
+    "indonesian": "AK-47 | Phantom Disruptor",
+    "italian": "AK-47 | Phantom Disruptor",
+    "japanese": "AK-47 | Phantom Disruptor",
+    "koreana": "AK-47 | 망령 교란자",
+    "latam": "AK-47 | Disruptor fantasma",
+    "norwegian": "AK-47 | Phantom Disruptor",
+    "polish": "AK-47 | Widmowy mąciciel",
+    "portuguese": "AK-47 | Phantom Disruptor",
+    "romanian": "AK-47 | Phantom Disruptor",
+    "russian": "AK-47 | Фантомный вредитель",
+    "schinese": "AK-47 | 幻影破坏者",
+    "schinese_pw": "AK-47 | Phantom Disruptor",
+    "spanish": "AK-47 | Disruptor fantasma",
+    "swedish": "AK-47 | Phantom Disruptor",
+    "tchinese": "AK-47 | 幻影破壞者",
+    "thai": "AK-47 | Phantom Disruptor",
+    "turkish": "AK-47 | Hayalet Bozguncu",
+    "ukrainian": "АК-47 | Фантомний руйнівник",
+    "vietnamese": "AK-47 | Phantom Disruptor"
+  },
+  "media": {
+    "asset_id": "skin__7-941",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-941/light.png",
+      "data/api/media/rendered/files/skins/7-941/medium.png",
+      "data/api/media/rendered/files/skins/7-941/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-941.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-941/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-941/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-941/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-941/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_cu_ak-47_phantom_disruptor_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_cu_ak-47_phantom_disruptor_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_cu_ak-47_phantom_disruptor_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Phantom Disruptor",
+  "search_slug": "ak-47-phantom-disruptor",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4695",
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_25",
+        "name": "The Prisma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-941__normal__battle-scarred",
+    "7-941__normal__factory-new",
+    "7-941__normal__field-tested",
+    "7-941__normal__minimal-wear",
+    "7-941__normal__well-worn",
+    "7-941__stattrak__battle-scarred",
+    "7-941__stattrak__factory-new",
+    "7-941__stattrak__field-tested",
+    "7-941__stattrak__minimal-wear",
+    "7-941__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

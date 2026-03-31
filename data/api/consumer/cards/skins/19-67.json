@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 67,
+    "id": 67,
+    "localized_names": {
+      "brazilian": "Sangue Frio",
+      "bulgarian": "Хладнокръвно",
+      "czech": "Cold Blooded",
+      "danish": "Cold Blooded",
+      "dutch": "Cold Blooded",
+      "english": "Cold Blooded",
+      "finnish": "Kylmäverinen",
+      "french": "Sang froid",
+      "german": "Kaltblütig",
+      "greek": "Cold Blooded",
+      "hungarian": "Hidegvérű",
+      "indonesian": "Cold Blooded",
+      "italian": "Cold Blooded",
+      "japanese": "Cold Blooded",
+      "koreana": "냉혈한",
+      "latam": "Sangre fría",
+      "norwegian": "Cold Blooded",
+      "polish": "Zimnokrwisty",
+      "portuguese": "Cold Blooded",
+      "romanian": "Cold Blooded",
+      "russian": "Холоднокровное",
+      "schinese": "冷血杀手",
+      "schinese_pw": "Cold Blooded",
+      "spanish": "Sangre fría",
+      "swedish": "Cold Blooded",
+      "tchinese": "冷冽血光",
+      "thai": "Cold Blooded",
+      "turkish": "Soğukkanlı",
+      "ukrainian": "Холоднокровний",
+      "vietnamese": "Cold Blooded"
+    },
+    "name": "Cold Blooded",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-67",
+  "localized_names": {
+    "brazilian": "P90 | Sangue Frio",
+    "bulgarian": "P90 | Хладнокръвно",
+    "czech": "P90 | Cold Blooded",
+    "danish": "P90 | Cold Blooded",
+    "dutch": "P90 | Cold Blooded",
+    "english": "P90 | Cold Blooded",
+    "finnish": "P90 | Kylmäverinen",
+    "french": "P90 | Sang froid",
+    "german": "P90 | Kaltblütig",
+    "greek": "P90 | Cold Blooded",
+    "hungarian": "P90 | Hidegvérű",
+    "indonesian": "P90 | Cold Blooded",
+    "italian": "P90 | Cold Blooded",
+    "japanese": "P90 | Cold Blooded",
+    "koreana": "P90 | 냉혈한",
+    "latam": "P90 | Sangre fría",
+    "norwegian": "P90 | Cold Blooded",
+    "polish": "P90 | Zimnokrwisty",
+    "portuguese": "P90 | Cold Blooded",
+    "romanian": "P90 | Cold Blooded",
+    "russian": "P90 | Холоднокровное",
+    "schinese": "P90 | 冷血杀手",
+    "schinese_pw": "P90 | Cold Blooded",
+    "spanish": "P90 | Sangre fría",
+    "swedish": "P90 | Cold Blooded",
+    "tchinese": "P90 | 冷冽血光",
+    "thai": "P90 | Cold Blooded",
+    "turkish": "P90 | Soğukkanlı",
+    "ukrainian": "П90 | Холоднокровний",
+    "vietnamese": "P90 | Cold Blooded"
+  },
+  "media": {
+    "asset_id": "skin__19-67",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-67/light.png",
+      "data/api/media/rendered/files/skins/19-67/medium.png",
+      "data/api/media/rendered/files/skins/19-67/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-67.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-67/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-67/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-67/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-67/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_am_slither_p90_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_am_slither_p90_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_am_slither_p90_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Cold Blooded",
+  "search_slug": "p90-cold-blooded",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-67__normal__factory-new",
+    "19-67__normal__minimal-wear",
+    "19-67__stattrak__factory-new",
+    "19-67__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

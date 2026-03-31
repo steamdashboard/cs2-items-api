@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 502,
+    "id": 502,
+    "localized_names": {
+      "brazilian": "Verde Marinho",
+      "bulgarian": "Зелен пехотинец",
+      "czech": "Green Marine",
+      "danish": "Green Marine",
+      "dutch": "Green Marine",
+      "english": "Green Marine",
+      "finnish": "Vihreä sotilas",
+      "french": "Vert marine",
+      "german": "Grüner Soldat",
+      "greek": "Green Marine",
+      "hungarian": "Zöld Tengerész",
+      "indonesian": "Green Marine",
+      "italian": "Green Marine",
+      "japanese": "Green Marine",
+      "koreana": "청록",
+      "latam": "Verde militar",
+      "norwegian": "Green Marine",
+      "polish": "Zielony marine",
+      "portuguese": "Green Marine",
+      "romanian": "Green Marine",
+      "russian": "Зелёный морпех",
+      "schinese": "绿色陆战队",
+      "schinese_pw": "Green Marine",
+      "spanish": "Verde militar",
+      "swedish": "Green Marine",
+      "tchinese": "綠色陸隊伍",
+      "thai": "Green Marine",
+      "turkish": "Yeşil Denizci",
+      "ukrainian": "Зелені берети",
+      "vietnamese": "Green Marine"
+    },
+    "name": "Green Marine",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "38-502",
+  "localized_names": {
+    "brazilian": "SCAR-20 | Verde Marinho",
+    "bulgarian": "SCAR-20 | Зелен пехотинец",
+    "czech": "SCAR-20 | Green Marine",
+    "danish": "SCAR-20 | Green Marine",
+    "dutch": "SCAR-20 | Green Marine",
+    "english": "SCAR-20 | Green Marine",
+    "finnish": "SCAR-20 | Vihreä sotilas",
+    "french": "SCAR-20 | Vert marine",
+    "german": "SCAR-20 | Grüner Soldat",
+    "greek": "SCAR-20 | Green Marine",
+    "hungarian": "SCAR-20 | Zöld Tengerész",
+    "indonesian": "SCAR-20 | Green Marine",
+    "italian": "SCAR-20 | Green Marine",
+    "japanese": "SCAR-20 | Green Marine",
+    "koreana": "SCAR-20 | 청록",
+    "latam": "SCAR-20 | Verde militar",
+    "norwegian": "SCAR-20 | Green Marine",
+    "polish": "SCAR-20 | Zielony marine",
+    "portuguese": "SCAR-20 | Green Marine",
+    "romanian": "SCAR-20 | Green Marine",
+    "russian": "SCAR-20 | Зелёный морпех",
+    "schinese": "SCAR-20 | 绿色陆战队",
+    "schinese_pw": "SCAR-20 | Green Marine",
+    "spanish": "SCAR-20 | Verde militar",
+    "swedish": "SCAR-20 | Green Marine",
+    "tchinese": "SCAR-20 | 綠色陸隊伍",
+    "thai": "SCAR-20 | Green Marine",
+    "turkish": "SCAR-20 | Yeşil Denizci",
+    "ukrainian": "СКАР-20 | Зелені берети",
+    "vietnamese": "SCAR-20 | Green Marine"
+  },
+  "media": {
+    "asset_id": "skin__38-502",
+    "images_png": [
+      "data/api/media/rendered/files/skins/38-502/light.png",
+      "data/api/media/rendered/files/skins/38-502/medium.png",
+      "data/api/media/rendered/files/skins/38-502/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/38-502.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/38-502/heavy.png",
+      "light": "data/api/media/rendered/files/skins/38-502/light.png",
+      "medium": "data/api/media/rendered/files/skins/38-502/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/38-502/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_scar20_gs_scar20_peacemaker03_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_scar20_gs_scar20_peacemaker03_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_scar20_gs_scar20_peacemaker03_medium_png.vtex_c"
+    }
+  },
+  "name": "SCAR-20 | Green Marine",
+  "search_slug": "scar-20-green-marine",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4138",
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_9",
+        "name": "The Shadow Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "38-502__normal__battle-scarred",
+    "38-502__normal__factory-new",
+    "38-502__normal__field-tested",
+    "38-502__normal__minimal-wear",
+    "38-502__normal__well-worn",
+    "38-502__stattrak__battle-scarred",
+    "38-502__stattrak__factory-new",
+    "38-502__stattrak__field-tested",
+    "38-502__stattrak__minimal-wear",
+    "38-502__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 38,
+    "localized_names": {
+      "brazilian": "SCAR-20",
+      "bulgarian": "SCAR-20",
+      "czech": "SCAR-20",
+      "danish": "SCAR-20",
+      "dutch": "SCAR-20",
+      "english": "SCAR-20",
+      "finnish": "SCAR-20",
+      "french": "SCAR-20",
+      "german": "SCAR-20",
+      "greek": "SCAR-20",
+      "hungarian": "SCAR-20",
+      "indonesian": "SCAR-20",
+      "italian": "SCAR-20",
+      "japanese": "SCAR-20",
+      "koreana": "SCAR-20",
+      "latam": "SCAR-20",
+      "norwegian": "SCAR-20",
+      "polish": "SCAR-20",
+      "portuguese": "SCAR-20",
+      "romanian": "SCAR-20",
+      "russian": "SCAR-20",
+      "schinese": "SCAR-20",
+      "schinese_pw": "SCAR-20",
+      "spanish": "SCAR-20",
+      "swedish": "SCAR-20",
+      "tchinese": "SCAR-20",
+      "thai": "SCAR-20",
+      "turkish": "SCAR-20",
+      "ukrainian": "СКАР-20",
+      "vietnamese": "SCAR-20"
+    },
+    "name": "SCAR-20",
+    "search_slug": "scar-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

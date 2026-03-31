@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1219,
+    "id": 1219,
+    "localized_names": {
+      "brazilian": "Camuflagem do Ieti",
+      "bulgarian": "Йети камуфлаж",
+      "czech": "Yeti Camo",
+      "danish": "Yeti Camo",
+      "dutch": "Yeti Camo",
+      "english": "Yeti Camo",
+      "finnish": "Lumimies",
+      "french": "Camouflage yéti",
+      "german": "Yeti-Tarnung",
+      "greek": "Yeti Camo",
+      "hungarian": "Jeti Terepminta",
+      "indonesian": "Yeti Camo",
+      "italian": "Yeti Camo",
+      "japanese": "Yeti Camo",
+      "koreana": "설원 위장",
+      "latam": "Camuflaje yeti",
+      "norwegian": "Yeti Camo",
+      "polish": "Kamuflaż Yeti",
+      "portuguese": "Yeti Camo",
+      "romanian": "Yeti Camo",
+      "russian": "Йети-камуфляж",
+      "schinese": "雪怪迷彩",
+      "schinese_pw": "Yeti Camo",
+      "spanish": "Camuflaje yeti",
+      "swedish": "Yeti Camo",
+      "tchinese": "雪怪迷彩",
+      "thai": "Yeti Camo",
+      "turkish": "Yeti Kamuflajı",
+      "ukrainian": "Камуфляж єті",
+      "vietnamese": "Yeti Camo"
+    },
+    "name": "Yeti Camo",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-1219",
+  "localized_names": {
+    "brazilian": "FAMAS | Camuflagem do Ieti",
+    "bulgarian": "FAMAS | Йети камуфлаж",
+    "czech": "FAMAS | Yeti Camo",
+    "danish": "FAMAS | Yeti Camo",
+    "dutch": "FAMAS | Yeti Camo",
+    "english": "FAMAS | Yeti Camo",
+    "finnish": "FAMAS | Lumimies",
+    "french": "FAMAS | Camouflage yéti",
+    "german": "FAMAS | Yeti-Tarnung",
+    "greek": "FAMAS | Yeti Camo",
+    "hungarian": "FAMAS | Jeti Terepminta",
+    "indonesian": "FAMAS | Yeti Camo",
+    "italian": "FAMAS | Yeti Camo",
+    "japanese": "FAMAS | Yeti Camo",
+    "koreana": "파마스 | 설원 위장",
+    "latam": "FAMAS | Camuflaje yeti",
+    "norwegian": "FAMAS | Yeti Camo",
+    "polish": "FAMAS | Kamuflaż Yeti",
+    "portuguese": "FAMAS | Yeti Camo",
+    "romanian": "FAMAS | Yeti Camo",
+    "russian": "FAMAS | Йети-камуфляж",
+    "schinese": "法玛斯 | 雪怪迷彩",
+    "schinese_pw": "FAMAS | Yeti Camo",
+    "spanish": "FAMAS | Camuflaje yeti",
+    "swedish": "FAMAS | Yeti Camo",
+    "tchinese": "FAMAS | 雪怪迷彩",
+    "thai": "FAMAS | Yeti Camo",
+    "turkish": "FAMAS | Yeti Kamuflajı",
+    "ukrainian": "ФАМАС | Камуфляж єті",
+    "vietnamese": "FAMAS | Yeti Camo"
+  },
+  "media": {
+    "asset_id": "skin__10-1219",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-1219/light.png",
+      "data/api/media/rendered/files/skins/10-1219/medium.png",
+      "data/api/media/rendered/files/skins/10-1219/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-1219.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-1219/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-1219/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-1219/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-1219/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_soe_blue_famas_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_soe_blue_famas_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_soe_blue_famas_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Yeti Camo",
+  "search_slug": "famas-yeti-camo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_cool",
+        "name": "The Ascent Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-1219__normal__battle-scarred",
+    "10-1219__normal__factory-new",
+    "10-1219__normal__field-tested",
+    "10-1219__normal__minimal-wear",
+    "10-1219__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

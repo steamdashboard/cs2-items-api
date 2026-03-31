@@ -1,0 +1,44 @@
+{
+  "classification": {
+    "group": "tool",
+    "kind": "tool",
+    "tool_type": "spray"
+  },
+  "game_id": 1348,
+  "id": 1348,
+  "name": "spray",
+  "prefab_chain": [
+    "csgo_tool"
+  ],
+  "prefab_spec": "csgo_tool",
+  "resolved": {
+    "capabilities": {
+      "usable_gc": "1",
+      "usable_out_of_game": "1"
+    },
+    "craft_class": "tool",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "first_sale_date": "2014/06/20",
+    "flexible_loadout_group": "spray0",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_graphic_art": "graffiti",
+    "item_class": "tool",
+    "item_description": "#CSGO_Tool_Spray_Desc",
+    "item_name": "#CSGO_Tool_Spray",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "type_tool",
+    "item_type_name": "#CSGO_Type_Spray",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "name": "spray",
+    "prefab": "csgo_tool",
+    "tool": {
+      "type": "spray",
+      "use_string": "#ConsumeItem"
+    }
+  }
+}

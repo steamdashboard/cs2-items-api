@@ -1,0 +1,66 @@
+{
+  "card_type": "knife",
+  "description": "This is the M-9 bayonet.  Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat.",
+  "id": 508,
+  "localized_names": {
+    "brazilian": "Baioneta M9",
+    "bulgarian": "M9 щик",
+    "czech": "Bajonet M9",
+    "danish": "M9-bajonet",
+    "dutch": "M9 Bajonet",
+    "english": "M9 Bayonet",
+    "finnish": "M9-pistin",
+    "french": "Baïonnette M9",
+    "german": "M9-Bajonett",
+    "greek": "Mπαγιονέτα M9",
+    "hungarian": "M9 bajonett",
+    "indonesian": "M9 Bayonet",
+    "italian": "Baionetta M9",
+    "japanese": "M9バヨネット",
+    "koreana": "M9 총검",
+    "latam": "Bayoneta M9",
+    "norwegian": "M9-bajonett",
+    "polish": "Bagnet M9",
+    "portuguese": "M9 Bayonet",
+    "romanian": "Baionetă M9",
+    "russian": "Штык-нож M9",
+    "schinese": "M9 刺刀",
+    "schinese_pw": "M9 Bayonet",
+    "spanish": "Bayoneta M9",
+    "swedish": "M9-bajonett",
+    "tchinese": "M9 刺刀",
+    "thai": "มีดเบโยเน็ตเอ็ม9",
+    "turkish": "M9 Bayonet",
+    "ukrainian": "Штик-ніж М9",
+    "vietnamese": "M9 Bayonet"
+  },
+  "media": {
+    "asset_id": "weapon__508",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/508/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/508.json",
+    "models": [
+      "weapons/models/knife/knife_m9/weapon_knife_m9.vmdl_c",
+      "phase2/weapons/models/knife/knife_m9/weapon_knife_m9_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/508/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.vtex_c"
+  },
+  "name": "M9 Bayonet",
+  "regular_skin_ids": [],
+  "search_slug": "m9-bayonet",
+  "side": null,
+  "special_pool_ids": [
+    "community_case_13_unusual",
+    "community_case_6_unusual",
+    "unusual_revolving_list"
+  ],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

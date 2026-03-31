@@ -1,0 +1,65 @@
+{
+  "classification": {
+    "group": "container",
+    "kind": "container"
+  },
+  "game_id": 4808,
+  "id": 4808,
+  "name": "crate_patch_pack_stockh2021_contenders",
+  "prefab_chain": [
+    "weapon_case_base",
+    "stockh2021_sticker_capsule_prefab",
+    "stockh2021_patch_capsule_prefab"
+  ],
+  "prefab_spec": "stockh2021_patch_capsule_prefab",
+  "resolved": {
+    "attributes": {
+      "set supply crate series": {
+        "attribute_class": "supply_crate_series",
+        "value": "329"
+      },
+      "tournament event id": {
+        "attribute_class": "tournament_event_id",
+        "value": "18"
+      }
+    },
+    "capabilities": {
+      "decodable": "1"
+    },
+    "drop_sound": "sounds/physics/plastic/plastic_box_impact_hard1.vsnd",
+    "first_sale_date": "2021-10-10",
+    "image_inventory": "econ/weapon_cases/crate_patch_pack_stockh2021_contenders",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "image_unusual_item": "econ/weapon_cases/default_rare_item",
+    "inv_container_and_tools": "patch_capsule",
+    "item_class": "supply_crate",
+    "item_description": "#CSGO_crate_patch_pack_stockh2021_contenders_desc",
+    "item_name": "#CSGO_crate_patch_pack_stockh2021_contenders",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type_name": "#CSGO_Type_WeaponCase",
+    "loot_list_rare_item_footer": "#Econ_Revolving_Loot_List_Rare_Item",
+    "loot_list_rare_item_name": "#Exceedingly_Rare_Item",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "model_player": "models/props/crates/patch_envelope_stockh2021_contenders.vmdl",
+    "mouse_pressed_sound": "sounds/physics/plastic/plastic_box_impact_soft1.vsnd",
+    "name": "crate_patch_pack_stockh2021_contenders",
+    "prefab": "stockh2021_patch_capsule_prefab",
+    "tags": {
+      "PatchCapsule": {
+        "tag_group": "PatchCapsule",
+        "tag_group_text": "#SFUI_InvTooltip_PatchCapsuleTag",
+        "tag_text": "#CSGO_crate_patch_pack_stockh2021_contenders_tag",
+        "tag_value": "crate_patch_pack_stockh2021_contenders_collection"
+      }
+    },
+    "tool": {
+      "type": "supply_crate",
+      "usage_capabilities": {
+        "usable_out_of_game": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 185,
+    "id": 185,
+    "localized_names": {
+      "brazilian": "Carpa Dourada",
+      "bulgarian": "Златен кои",
+      "czech": "Golden Koi",
+      "danish": "Golden Koi",
+      "dutch": "Golden Koi",
+      "english": "Golden Koi",
+      "finnish": "Kultainen koikarppi",
+      "french": "Koï doré",
+      "german": "Goldener Koi",
+      "greek": "Golden Koi",
+      "hungarian": "Arany Koi",
+      "indonesian": "Golden Koi",
+      "italian": "Golden Koi",
+      "japanese": "Golden Koi",
+      "koreana": "황금 잉어",
+      "latam": "Koi dorado",
+      "norwegian": "Golden Koi",
+      "polish": "Złoty koi",
+      "portuguese": "Golden Koi",
+      "romanian": "Golden Koi",
+      "russian": "Золотой карп",
+      "schinese": "黄金锦鲤",
+      "schinese_pw": "Golden Koi",
+      "spanish": "Koi dorado",
+      "swedish": "Golden Koi",
+      "tchinese": "黃金錦鯉",
+      "thai": "Golden Koi",
+      "turkish": "Altın Koi",
+      "ukrainian": "Золотий короп",
+      "vietnamese": "Golden Koi"
+    },
+    "name": "Golden Koi",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.12,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-185",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Carpa Dourada",
+    "bulgarian": "Desert Eagle | Златен кои",
+    "czech": "Desert Eagle | Golden Koi",
+    "danish": "Desert Eagle | Golden Koi",
+    "dutch": "Desert Eagle | Golden Koi",
+    "english": "Desert Eagle | Golden Koi",
+    "finnish": "Desert Eagle | Kultainen koikarppi",
+    "french": "Desert Eagle | Koï doré",
+    "german": "Desert Eagle | Goldener Koi",
+    "greek": "Desert Eagle | Golden Koi",
+    "hungarian": "Desert Eagle | Arany Koi",
+    "indonesian": "Desert Eagle | Golden Koi",
+    "italian": "Desert Eagle | Golden Koi",
+    "japanese": "Desert Eagle | Golden Koi",
+    "koreana": "데저트 이글 | 황금 잉어",
+    "latam": "Desert Eagle | Koi dorado",
+    "norwegian": "Desert Eagle | Golden Koi",
+    "polish": "Desert Eagle | Złoty koi",
+    "portuguese": "Desert Eagle | Golden Koi",
+    "romanian": "Desert Eagle | Golden Koi",
+    "russian": "Desert Eagle | Золотой карп",
+    "schinese": "沙漠之鹰 | 黄金锦鲤",
+    "schinese_pw": "Desert Eagle | Golden Koi",
+    "spanish": "Desert Eagle | Koi dorado",
+    "swedish": "Desert Eagle | Golden Koi",
+    "tchinese": "Desert Eagle | 黃金錦鯉",
+    "thai": "Desert Eagle | Golden Koi",
+    "turkish": "Desert Eagle | Altın Koi",
+    "ukrainian": "Пустельний орел | Золотий короп",
+    "vietnamese": "Desert Eagle | Golden Koi"
+  },
+  "media": {
+    "asset_id": "skin__1-185",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-185/light.png",
+      "data/api/media/rendered/files/skins/1-185/medium.png",
+      "data/api/media/rendered/files/skins/1-185/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-185.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-185/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-185/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-185/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-185/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_am_scales_bravo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_am_scales_bravo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_am_scales_bravo_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Golden Koi",
+  "search_slug": "desert-eagle-golden-koi",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-185__normal__factory-new",
+    "1-185__normal__minimal-wear",
+    "1-185__stattrak__factory-new",
+    "1-185__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

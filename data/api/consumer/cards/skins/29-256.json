@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 256,
+    "id": 256,
+    "localized_names": {
+      "brazilian": "O Kraken",
+      "bulgarian": "Кракенът",
+      "czech": "Kraken",
+      "danish": "The Kraken",
+      "dutch": "The Kraken",
+      "english": "The Kraken",
+      "finnish": "Kraken",
+      "french": "Kraken",
+      "german": "Der Kraken",
+      "greek": "Kraken",
+      "hungarian": "A Kraken",
+      "indonesian": "The Kraken",
+      "italian": "The Kraken",
+      "japanese": "クラーケン",
+      "koreana": "크라켄",
+      "latam": "El Kraken",
+      "norwegian": "The Kraken",
+      "polish": "Kraken",
+      "portuguese": "The Kraken",
+      "romanian": "The Kraken",
+      "russian": "Кракен",
+      "schinese": "北海巨妖",
+      "schinese_pw": "The Kraken",
+      "spanish": "El Kraken",
+      "swedish": "The Kraken",
+      "tchinese": "挪威海怪",
+      "thai": "The Kraken",
+      "turkish": "Kraken",
+      "ukrainian": "Кракен",
+      "vietnamese": "The Kraken"
+    },
+    "name": "The Kraken",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "29-256",
+  "localized_names": {
+    "brazilian": "Cano Curto | O Kraken",
+    "bulgarian": "Скъсена цев | Кракенът",
+    "czech": "Upilovaná brokovnice | Kraken",
+    "danish": "Sawed-off | The Kraken",
+    "dutch": "Sawed-Off | The Kraken",
+    "english": "Sawed-Off | The Kraken",
+    "finnish": "Katkaistu haulikko | Kraken",
+    "french": "Sawed-Off | Kraken",
+    "german": "Abgesägte Schrotflinte | Der Kraken",
+    "greek": "Sawed-Off | Kraken",
+    "hungarian": "Lefűrészelt csövű sörétes | A Kraken",
+    "indonesian": "Sawed-Off | The Kraken",
+    "italian": "Fucile a canne mozze | The Kraken",
+    "japanese": "Sawed-Off | クラーケン",
+    "koreana": "소드오프 | 크라켄",
+    "latam": "Recortada | El Kraken",
+    "norwegian": "Sawed-Off | The Kraken",
+    "polish": "Obrzyn | Kraken",
+    "portuguese": "Sawed-Off | The Kraken",
+    "romanian": "Sawed-Off | The Kraken",
+    "russian": "Обрез | Кракен",
+    "schinese": "截短霰弹枪 | 北海巨妖",
+    "schinese_pw": "Sawed-Off | The Kraken",
+    "spanish": "Recortada | El Kraken",
+    "swedish": "Sawed-Off | The Kraken",
+    "tchinese": "Sawed-Off | 挪威海怪",
+    "thai": "Sawed-Off | The Kraken",
+    "turkish": "Sawed-Off | Kraken",
+    "ukrainian": "Обріз | Кракен",
+    "vietnamese": "Súng nòng ngắn | The Kraken"
+  },
+  "media": {
+    "asset_id": "skin__29-256",
+    "images_png": [
+      "data/api/media/rendered/files/skins/29-256/light.png",
+      "data/api/media/rendered/files/skins/29-256/medium.png",
+      "data/api/media/rendered/files/skins/29-256/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/29-256.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/29-256/heavy.png",
+      "light": "data/api/media/rendered/files/skins/29-256/light.png",
+      "medium": "data/api/media/rendered/files/skins/29-256/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/29-256/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_octopump_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_octopump_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_octopump_medium_png.vtex_c"
+    }
+  },
+  "name": "Sawed-Off | The Kraken",
+  "search_slug": "sawed-off-the-kraken",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "29-256__normal__factory-new",
+    "29-256__normal__field-tested",
+    "29-256__normal__minimal-wear",
+    "29-256__normal__well-worn",
+    "29-256__stattrak__factory-new",
+    "29-256__stattrak__field-tested",
+    "29-256__stattrak__minimal-wear",
+    "29-256__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 29,
+    "localized_names": {
+      "brazilian": "Cano Curto",
+      "bulgarian": "Скъсена цев",
+      "czech": "Upilovaná brokovnice",
+      "danish": "Sawed-off",
+      "dutch": "Sawed-Off",
+      "english": "Sawed-Off",
+      "finnish": "Katkaistu haulikko",
+      "french": "Sawed-Off",
+      "german": "Abgesägte Schrotflinte",
+      "greek": "Sawed-Off",
+      "hungarian": "Lefűrészelt csövű sörétes",
+      "indonesian": "Sawed-Off",
+      "italian": "Fucile a canne mozze",
+      "japanese": "Sawed-Off",
+      "koreana": "소드오프",
+      "latam": "Recortada",
+      "norwegian": "Sawed-Off",
+      "polish": "Obrzyn",
+      "portuguese": "Sawed-Off",
+      "romanian": "Sawed-Off",
+      "russian": "Обрез",
+      "schinese": "截短霰弹枪",
+      "schinese_pw": "Sawed-Off",
+      "spanish": "Recortada",
+      "swedish": "Sawed-Off",
+      "tchinese": "Sawed-Off",
+      "thai": "Sawed-Off",
+      "turkish": "Sawed-Off",
+      "ukrainian": "Обріз",
+      "vietnamese": "Súng nòng ngắn"
+    },
+    "name": "Sawed-Off",
+    "search_slug": "sawed-off",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

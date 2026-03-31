@@ -1,0 +1,44 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_tornado",
+    "id": 101,
+    "name": "Tornado",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 101,
+    "weapon_id": 17
+  },
+  "id": "17-101",
+  "name": "MAC-10 | Tornado",
+  "search_slug": "mac-10-tornado",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_militia",
+        "name": "The Militia Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "17-101__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_mac10",
+    "id": 17,
+    "name": "MAC-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

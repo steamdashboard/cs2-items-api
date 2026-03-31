@@ -1,0 +1,200 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 295,
+    "id": 295,
+    "localized_names": {
+      "brazilian": "Franklin",
+      "bulgarian": "Франклин",
+      "czech": "Franklin",
+      "danish": "Franklin",
+      "dutch": "Franklin",
+      "english": "Franklin",
+      "finnish": "Franklin",
+      "french": "Franklin",
+      "german": "Franklin",
+      "greek": "Franklin",
+      "hungarian": "Franklin",
+      "indonesian": "Franklin",
+      "italian": "Franklin",
+      "japanese": "Franklin",
+      "koreana": "프랭클린",
+      "latam": "Franklin",
+      "norwegian": "Franklin",
+      "polish": "Franklin",
+      "portuguese": "Franklin",
+      "romanian": "Franklin",
+      "russian": "Франклин",
+      "schinese": "富兰克林",
+      "schinese_pw": "Franklin",
+      "spanish": "Franklin",
+      "swedish": "Franklin",
+      "tchinese": "富蘭克林",
+      "thai": "Franklin",
+      "turkish": "Franklin",
+      "ukrainian": "Франклін",
+      "vietnamese": "Franklin"
+    },
+    "name": "Franklin",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-295",
+  "localized_names": {
+    "brazilian": "P250 | Franklin",
+    "bulgarian": "P250 | Франклин",
+    "czech": "P250 | Franklin",
+    "danish": "P250 | Franklin",
+    "dutch": "P250 | Franklin",
+    "english": "P250 | Franklin",
+    "finnish": "P250 | Franklin",
+    "french": "P250 | Franklin",
+    "german": "P250 | Franklin",
+    "greek": "P250 | Franklin",
+    "hungarian": "P250 | Franklin",
+    "indonesian": "P250 | Franklin",
+    "italian": "P250 | Franklin",
+    "japanese": "P250 | Franklin",
+    "koreana": "P250 | 프랭클린",
+    "latam": "P250 | Franklin",
+    "norwegian": "P250 | Franklin",
+    "polish": "P250 | Franklin",
+    "portuguese": "P250 | Franklin",
+    "romanian": "P250 | Franklin",
+    "russian": "P250 | Франклин",
+    "schinese": "P250 | 富兰克林",
+    "schinese_pw": "P250 | Franklin",
+    "spanish": "P250 | Franklin",
+    "swedish": "P250 | Franklin",
+    "tchinese": "P250 | 富蘭克林",
+    "thai": "P250 | Franklin",
+    "turkish": "P250 | Franklin",
+    "ukrainian": "П250 | Франклін",
+    "vietnamese": "P250 | Franklin"
+  },
+  "media": {
+    "asset_id": "skin__36-295",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-295/light.png",
+      "data/api/media/rendered/files/skins/36-295/medium.png",
+      "data/api/media/rendered/files/skins/36-295/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-295.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-295/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-295/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-295/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-295/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_cu_money_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_cu_money_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_cu_money_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Franklin",
+  "search_slug": "p250-franklin",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-295__normal__factory-new",
+    "36-295__normal__field-tested",
+    "36-295__normal__minimal-wear",
+    "36-295__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

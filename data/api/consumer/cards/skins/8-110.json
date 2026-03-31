@@ -1,0 +1,168 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 110,
+    "id": 110,
+    "localized_names": {
+      "brazilian": "Condenado",
+      "bulgarian": "Обезлюдено",
+      "czech": "Condemned",
+      "danish": "Condemned",
+      "dutch": "Condemned",
+      "english": "Condemned",
+      "finnish": "Saastunut",
+      "french": "Condamné",
+      "german": "Verdammt",
+      "greek": "Condemned",
+      "hungarian": "Elítélt",
+      "indonesian": "Condemned",
+      "italian": "Condemned",
+      "japanese": "Condemned",
+      "koreana": "저주받은 자",
+      "latam": "Condena",
+      "norwegian": "Condemned",
+      "polish": "Skazany",
+      "portuguese": "Condemned",
+      "romanian": "Condemned",
+      "russian": "Осуждённый",
+      "schinese": "众枪之的",
+      "schinese_pw": "Condemned",
+      "spanish": "Condena",
+      "swedish": "Condemned",
+      "tchinese": "危險判定",
+      "thai": "Condemned",
+      "turkish": "Mahkûm",
+      "ukrainian": "Обгорілий",
+      "vietnamese": "Condemned"
+    },
+    "name": "Condemned",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "8-110",
+  "localized_names": {
+    "brazilian": "AUG | Condenado",
+    "bulgarian": "AUG | Обезлюдено",
+    "czech": "AUG | Condemned",
+    "danish": "AUG | Condemned",
+    "dutch": "AUG | Condemned",
+    "english": "AUG | Condemned",
+    "finnish": "AUG | Saastunut",
+    "french": "AUG | Condamné",
+    "german": "AUG | Verdammt",
+    "greek": "AUG | Condemned",
+    "hungarian": "AUG | Elítélt",
+    "indonesian": "AUG | Condemned",
+    "italian": "AUG | Condemned",
+    "japanese": "AUG | Condemned",
+    "koreana": "AUG | 저주받은 자",
+    "latam": "AUG | Condena",
+    "norwegian": "AUG | Condemned",
+    "polish": "AUG | Skazany",
+    "portuguese": "AUG | Condemned",
+    "romanian": "AUG | Condemned",
+    "russian": "AUG | Осуждённый",
+    "schinese": "AUG | 众枪之的",
+    "schinese_pw": "AUG | Condemned",
+    "spanish": "AUG | Condena",
+    "swedish": "AUG | Condemned",
+    "tchinese": "AUG | 危險判定",
+    "thai": "AUG | Condemned",
+    "turkish": "AUG | Mahkûm",
+    "ukrainian": "АУГ | Обгорілий",
+    "vietnamese": "AUG | Condemned"
+  },
+  "media": {
+    "asset_id": "skin__8-110",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-110/light.png",
+      "data/api/media/rendered/files/skins/8-110/medium.png",
+      "data/api/media/rendered/files/skins/8-110/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-110.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-110/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-110/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-110/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-110/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Condemned",
+  "search_slug": "aug-condemned",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_safehouse",
+        "name": "The Safehouse Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-110__normal__vanilla"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

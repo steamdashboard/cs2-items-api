@@ -1,0 +1,68 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_carbon_fiber",
+    "id": 70,
+    "name": "Carbon Fiber",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 70,
+    "weapon_id": 27
+  },
+  "id": "27-70",
+  "name": "MAG-7 | Carbon Fiber",
+  "search_slug": "mag-7-carbon-fiber",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_op10_ct",
+        "name": "The Control Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4720",
+        "kind": "container",
+        "name": "The Control Collection",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "27-70__normal__factory-new",
+    "27-70__normal__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_mag7",
+    "id": 27,
+    "name": "MAG-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1251,
+    "id": 1251,
+    "localized_names": {
+      "brazilian": "Glifo Celeste",
+      "bulgarian": "Лазурен глиф",
+      "czech": "Azure Glyph",
+      "danish": "Azure Glyph",
+      "dutch": "Azure Glyph",
+      "english": "Azure Glyph",
+      "finnish": "Merensiniset hieroglyfit",
+      "french": "Glyphe d'azur",
+      "german": "Azurblaue Glyphen",
+      "greek": "Azure Glyph",
+      "hungarian": "Azúrkék Jelek",
+      "indonesian": "Azure Glyph",
+      "italian": "Azure Glyph",
+      "japanese": "Azure Glyph",
+      "koreana": "하늘색 상형 문자",
+      "latam": "Glifo celeste",
+      "norwegian": "Azure Glyph",
+      "polish": "Lazurowy glif",
+      "portuguese": "Azure Glyph",
+      "romanian": "Azure Glyph",
+      "russian": "Лазурная роспись",
+      "schinese": "碧蓝雕文",
+      "schinese_pw": "Azure Glyph",
+      "spanish": "Glifo celeste",
+      "swedish": "Azure Glyph",
+      "tchinese": "蔚藍符文",
+      "thai": "Azure Glyph",
+      "turkish": "Mavi Glif",
+      "ukrainian": "Лазурний гліф",
+      "vietnamese": "Azure Glyph"
+    },
+    "name": "Azure Glyph",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.99,
+      "min_float": 0.01
+    }
+  },
+  "id": "40-1251",
+  "localized_names": {
+    "brazilian": "SSG 08 | Glifo Celeste",
+    "bulgarian": "SSG 08 | Лазурен глиф",
+    "czech": "SSG 08 | Azure Glyph",
+    "danish": "SSG 08 | Azure Glyph",
+    "dutch": "SSG 08 | Azure Glyph",
+    "english": "SSG 08 | Azure Glyph",
+    "finnish": "SSG 08 | Merensiniset hieroglyfit",
+    "french": "SSG 08 | Glyphe d'azur",
+    "german": "SSG 08 | Azurblaue Glyphen",
+    "greek": "SSG 08 | Azure Glyph",
+    "hungarian": "SSG 08 | Azúrkék Jelek",
+    "indonesian": "SSG 08 | Azure Glyph",
+    "italian": "SSG 08 | Azure Glyph",
+    "japanese": "SSG 08 | Azure Glyph",
+    "koreana": "SSG 08 | 하늘색 상형 문자",
+    "latam": "SSG 08 | Glifo celeste",
+    "norwegian": "SSG 08 | Azure Glyph",
+    "polish": "SSG 08 | Lazurowy glif",
+    "portuguese": "SSG 08 | Azure Glyph",
+    "romanian": "SSG 08 | Azure Glyph",
+    "russian": "SSG 08 | Лазурная роспись",
+    "schinese": "SSG 08 | 碧蓝雕文",
+    "schinese_pw": "SSG 08 | Azure Glyph",
+    "spanish": "SSG 08 | Glifo celeste",
+    "swedish": "SSG 08 | Azure Glyph",
+    "tchinese": "SSG 08 | 蔚藍符文",
+    "thai": "SSG 08 | Azure Glyph",
+    "turkish": "SSG 08 | Mavi Glif",
+    "ukrainian": "ССГ 08 | Лазурний гліф",
+    "vietnamese": "SSG 08 | Azure Glyph"
+  },
+  "media": {
+    "asset_id": "skin__40-1251",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-1251/light.png",
+      "data/api/media/rendered/files/skins/40-1251/medium.png",
+      "data/api/media/rendered/files/skins/40-1251/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-1251.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-1251/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-1251/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-1251/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-1251/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_gs_ssg08_anubis_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_gs_ssg08_anubis_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_gs_ssg08_anubis_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Azure Glyph",
+  "search_slug": "ssg-08-azure-glyph",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_anubis",
+        "name": "The Anubis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4882",
+        "kind": "container",
+        "name": "Anubis Collection Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4969",
+        "kind": "container",
+        "name": "Shanghai 2024 Anubis Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5122",
+        "kind": "container",
+        "name": "Austin 2025 Anubis Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4895",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Anubis Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4928",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "40-1251__normal__battle-scarred",
+    "40-1251__normal__factory-new",
+    "40-1251__normal__field-tested",
+    "40-1251__normal__minimal-wear",
+    "40-1251__normal__well-worn",
+    "40-1251__souvenir__battle-scarred",
+    "40-1251__souvenir__factory-new",
+    "40-1251__souvenir__field-tested",
+    "40-1251__souvenir__minimal-wear",
+    "40-1251__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.99,
+    "min_float": 0.01
+  }
+}

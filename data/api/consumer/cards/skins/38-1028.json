@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1028,
+    "id": 1028,
+    "localized_names": {
+      "brazilian": "Magna Carta",
+      "bulgarian": "Велика харта",
+      "czech": "Magna Carta",
+      "danish": "Magna Carta",
+      "dutch": "Magna Carta",
+      "english": "Magna Carta",
+      "finnish": "Magna Carta",
+      "french": "Magna Carta",
+      "german": "Magna Carta",
+      "greek": "Magna Carta",
+      "hungarian": "Magna Carta",
+      "indonesian": "Magna Carta",
+      "italian": "Magna Carta",
+      "japanese": "Magna Carta",
+      "koreana": "마그나 카르타",
+      "latam": "Carta Magna",
+      "norwegian": "Magna Carta",
+      "polish": "Wielka Karta Swobód",
+      "portuguese": "Magna Carta",
+      "romanian": "Magna Carta",
+      "russian": "Магна Карта",
+      "schinese": "大宪章",
+      "schinese_pw": "Magna Carta",
+      "spanish": "Carta Magna",
+      "swedish": "Magna Carta",
+      "tchinese": "大憲章",
+      "thai": "Magna Carta",
+      "turkish": "Magna Carta",
+      "ukrainian": "Велика хартія вольностей",
+      "vietnamese": "Magna Carta"
+    },
+    "name": "Magna Carta",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "38-1028",
+  "localized_names": {
+    "brazilian": "SCAR-20 | Magna Carta",
+    "bulgarian": "SCAR-20 | Велика харта",
+    "czech": "SCAR-20 | Magna Carta",
+    "danish": "SCAR-20 | Magna Carta",
+    "dutch": "SCAR-20 | Magna Carta",
+    "english": "SCAR-20 | Magna Carta",
+    "finnish": "SCAR-20 | Magna Carta",
+    "french": "SCAR-20 | Magna Carta",
+    "german": "SCAR-20 | Magna Carta",
+    "greek": "SCAR-20 | Magna Carta",
+    "hungarian": "SCAR-20 | Magna Carta",
+    "indonesian": "SCAR-20 | Magna Carta",
+    "italian": "SCAR-20 | Magna Carta",
+    "japanese": "SCAR-20 | Magna Carta",
+    "koreana": "SCAR-20 | 마그나 카르타",
+    "latam": "SCAR-20 | Carta Magna",
+    "norwegian": "SCAR-20 | Magna Carta",
+    "polish": "SCAR-20 | Wielka Karta Swobód",
+    "portuguese": "SCAR-20 | Magna Carta",
+    "romanian": "SCAR-20 | Magna Carta",
+    "russian": "SCAR-20 | Магна Карта",
+    "schinese": "SCAR-20 | 大宪章",
+    "schinese_pw": "SCAR-20 | Magna Carta",
+    "spanish": "SCAR-20 | Carta Magna",
+    "swedish": "SCAR-20 | Magna Carta",
+    "tchinese": "SCAR-20 | 大憲章",
+    "thai": "SCAR-20 | Magna Carta",
+    "turkish": "SCAR-20 | Magna Carta",
+    "ukrainian": "СКАР-20 | Велика хартія вольностей",
+    "vietnamese": "SCAR-20 | Magna Carta"
+  },
+  "media": {
+    "asset_id": "skin__38-1028",
+    "images_png": [
+      "data/api/media/rendered/files/skins/38-1028/light.png",
+      "data/api/media/rendered/files/skins/38-1028/medium.png",
+      "data/api/media/rendered/files/skins/38-1028/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/38-1028.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/38-1028/heavy.png",
+      "light": "data/api/media/rendered/files/skins/38-1028/light.png",
+      "medium": "data/api/media/rendered/files/skins/38-1028/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/38-1028/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_scar20_hy_authority_purple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_scar20_hy_authority_purple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_scar20_hy_authority_purple_medium_png.vtex_c"
+    }
+  },
+  "name": "SCAR-20 | Magna Carta",
+  "search_slug": "scar-20-magna-carta",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ct",
+        "name": "The Control Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4720",
+        "kind": "container",
+        "name": "The Control Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "38-1028__normal__battle-scarred",
+    "38-1028__normal__factory-new",
+    "38-1028__normal__field-tested",
+    "38-1028__normal__minimal-wear",
+    "38-1028__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 38,
+    "localized_names": {
+      "brazilian": "SCAR-20",
+      "bulgarian": "SCAR-20",
+      "czech": "SCAR-20",
+      "danish": "SCAR-20",
+      "dutch": "SCAR-20",
+      "english": "SCAR-20",
+      "finnish": "SCAR-20",
+      "french": "SCAR-20",
+      "german": "SCAR-20",
+      "greek": "SCAR-20",
+      "hungarian": "SCAR-20",
+      "indonesian": "SCAR-20",
+      "italian": "SCAR-20",
+      "japanese": "SCAR-20",
+      "koreana": "SCAR-20",
+      "latam": "SCAR-20",
+      "norwegian": "SCAR-20",
+      "polish": "SCAR-20",
+      "portuguese": "SCAR-20",
+      "romanian": "SCAR-20",
+      "russian": "SCAR-20",
+      "schinese": "SCAR-20",
+      "schinese_pw": "SCAR-20",
+      "spanish": "SCAR-20",
+      "swedish": "SCAR-20",
+      "tchinese": "SCAR-20",
+      "thai": "SCAR-20",
+      "turkish": "SCAR-20",
+      "ukrainian": "СКАР-20",
+      "vietnamese": "SCAR-20"
+    },
+    "name": "SCAR-20",
+    "search_slug": "scar-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

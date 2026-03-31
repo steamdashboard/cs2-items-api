@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1058,
+    "id": 1058,
+    "localized_names": {
+      "brazilian": "Efervescente",
+      "bulgarian": "AWP ПУКОТ",
+      "czech": "POP AWP",
+      "danish": "POP AWP",
+      "dutch": "POP AWP",
+      "english": "POP AWP",
+      "finnish": "AWPop",
+      "french": "AWPop art",
+      "german": "POP AWP",
+      "greek": "POP AWP",
+      "hungarian": "POP AWP",
+      "indonesian": "POP AWP",
+      "italian": "POP AWP",
+      "japanese": "POP AWP",
+      "koreana": "AWP 팝",
+      "latam": "POP AWP",
+      "norwegian": "POP AWP",
+      "polish": "Cyberwojna",
+      "portuguese": "POP AWP",
+      "romanian": "POP AWP",
+      "russian": "Поп-AWP",
+      "schinese": "复古流行",
+      "schinese_pw": "POP AWP",
+      "spanish": "POP AWP",
+      "swedish": "POP AWP",
+      "tchinese": "普普風 AWP",
+      "thai": "POP AWP",
+      "turkish": "Gazlı AWP",
+      "ukrainian": "ПОП-АВП",
+      "vietnamese": "POP AWP"
+    },
+    "name": "POP AWP",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.44,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-1058",
+  "localized_names": {
+    "brazilian": "AWP | Efervescente",
+    "bulgarian": "AWP | AWP ПУКОТ",
+    "czech": "AWP | POP AWP",
+    "danish": "AWP | POP AWP",
+    "dutch": "AWP | POP AWP",
+    "english": "AWP | POP AWP",
+    "finnish": "AWP | AWPop",
+    "french": "AWP | AWPop art",
+    "german": "AWP | POP AWP",
+    "greek": "AWP | POP AWP",
+    "hungarian": "AWP | POP AWP",
+    "indonesian": "AWP | POP AWP",
+    "italian": "AWP | POP AWP",
+    "japanese": "AWP | POP AWP",
+    "koreana": "AWP | AWP 팝",
+    "latam": "AWP | POP AWP",
+    "norwegian": "AWP | POP AWP",
+    "polish": "AWP | Cyberwojna",
+    "portuguese": "AWP | POP AWP",
+    "romanian": "AWP | POP AWP",
+    "russian": "AWP | Поп-AWP",
+    "schinese": "AWP | 复古流行",
+    "schinese_pw": "AWP | POP AWP",
+    "spanish": "AWP | POP AWP",
+    "swedish": "AWP | POP AWP",
+    "tchinese": "AWP | 普普風 AWP",
+    "thai": "AWP | POP AWP",
+    "turkish": "AWP | Gazlı AWP",
+    "ukrainian": "АВП | ПОП-АВП",
+    "vietnamese": "AWP | POP AWP"
+  },
+  "media": {
+    "asset_id": "skin__9-1058",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-1058/light.png",
+      "data/api/media/rendered/files/skins/9-1058/medium.png",
+      "data/api/media/rendered/files/skins/9-1058/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-1058.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-1058/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-1058/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-1058/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-1058/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_hy_technowar_rwb_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_hy_technowar_rwb_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_hy_technowar_rwb_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | POP AWP",
+  "search_slug": "awp-pop-awp",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2021",
+        "name": "The 2021 Train Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4786",
+        "kind": "container",
+        "name": "The 2021 Train Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-1058__normal__factory-new",
+    "9-1058__normal__field-tested",
+    "9-1058__normal__minimal-wear",
+    "9-1058__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.44,
+    "min_float": 0.0
+  }
+}

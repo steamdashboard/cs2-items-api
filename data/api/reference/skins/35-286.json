@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_nova_antique",
+    "id": 286,
+    "name": "Antique",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 286,
+    "weapon_id": 35
+  },
+  "id": "35-286",
+  "name": "Nova | Antique",
+  "search_slug": "nova-antique",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_2",
+        "name": "The Phoenix Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4011",
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "35-286__normal__factory-new",
+    "35-286__normal__minimal-wear",
+    "35-286__normal__field-tested",
+    "35-286__stattrak__factory-new",
+    "35-286__stattrak__minimal-wear",
+    "35-286__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_nova",
+    "id": 35,
+    "name": "Nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

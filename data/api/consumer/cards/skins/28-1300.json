@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1300,
+    "id": 1300,
+    "localized_names": {
+      "brazilian": "Cerâmica Fria",
+      "bulgarian": "Необработена керамика",
+      "czech": "Raw Ceramic",
+      "danish": "Raw Ceramic",
+      "dutch": "Raw Ceramic",
+      "english": "Raw Ceramic",
+      "finnish": "Raakakeramiikka",
+      "french": "Céramique écrue",
+      "german": "Rohkeramik",
+      "greek": "Raw Ceramic",
+      "hungarian": "Nyers Kerámia",
+      "indonesian": "Raw Ceramic",
+      "italian": "Raw Ceramic",
+      "japanese": "Raw Ceramic",
+      "koreana": "순수 세라믹",
+      "latam": "Cerámica natural",
+      "norwegian": "Raw Ceramic",
+      "polish": "Surowa ceramika",
+      "portuguese": "Raw Ceramic",
+      "romanian": "Raw Ceramic",
+      "russian": "Необработанная керамика",
+      "schinese": "生瓷",
+      "schinese_pw": "Raw Ceramic",
+      "spanish": "Cerámica cruda",
+      "swedish": "Raw Ceramic",
+      "tchinese": "生瓷",
+      "thai": "Raw Ceramic",
+      "turkish": "Ham Seramik",
+      "ukrainian": "Необроблена кераміка",
+      "vietnamese": "Raw Ceramic"
+    },
+    "name": "Raw Ceramic",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-1300",
+  "localized_names": {
+    "brazilian": "Negev | Cerâmica Fria",
+    "bulgarian": "Negev | Необработена керамика",
+    "czech": "Negev | Raw Ceramic",
+    "danish": "Negev | Raw Ceramic",
+    "dutch": "Negev | Raw Ceramic",
+    "english": "Negev | Raw Ceramic",
+    "finnish": "Negev | Raakakeramiikka",
+    "french": "Negev | Céramique écrue",
+    "german": "Negev | Rohkeramik",
+    "greek": "Negev | Raw Ceramic",
+    "hungarian": "Negev | Nyers Kerámia",
+    "indonesian": "Negev | Raw Ceramic",
+    "italian": "Negev | Raw Ceramic",
+    "japanese": "Negev | Raw Ceramic",
+    "koreana": "네게브 | 순수 세라믹",
+    "latam": "Negev | Cerámica natural",
+    "norwegian": "Negev | Raw Ceramic",
+    "polish": "Negev | Surowa ceramika",
+    "portuguese": "Negev | Raw Ceramic",
+    "romanian": "Negev | Raw Ceramic",
+    "russian": "Негев | Необработанная керамика",
+    "schinese": "内格夫 | 生瓷",
+    "schinese_pw": "Negev | Raw Ceramic",
+    "spanish": "Negev | Cerámica cruda",
+    "swedish": "Negev | Raw Ceramic",
+    "tchinese": "Negev | 生瓷",
+    "thai": "Negev | Raw Ceramic",
+    "turkish": "Negev | Ham Seramik",
+    "ukrainian": "Неґев | Необроблена кераміка",
+    "vietnamese": "Negev | Raw Ceramic"
+  },
+  "media": {
+    "asset_id": "skin__28-1300",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-1300/light.png",
+      "data/api/media/rendered/files/skins/28-1300/medium.png",
+      "data/api/media/rendered/files/skins/28-1300/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-1300.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-1300/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-1300/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-1300/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-1300/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_so_ceramic_negev_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_so_ceramic_negev_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_so_ceramic_negev_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Raw Ceramic",
+  "search_slug": "negev-raw-ceramic",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_neutral",
+        "name": "The Boreal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-1300__normal__battle-scarred",
+    "28-1300__normal__factory-new",
+    "28-1300__normal__field-tested",
+    "28-1300__normal__minimal-wear",
+    "28-1300__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

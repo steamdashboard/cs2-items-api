@@ -1,0 +1,185 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 216,
+    "id": 216,
+    "localized_names": {
+      "brazilian": "Titânio Azul",
+      "bulgarian": "Синьо титанов",
+      "czech": "Blue Titanium",
+      "danish": "Blue Titanium",
+      "dutch": "Blue Titanium",
+      "english": "Blue Titanium",
+      "finnish": "Sinititaani",
+      "french": "Bleu titane",
+      "german": "Blaues Titan",
+      "greek": "Blue Titanium",
+      "hungarian": "Kék Titán",
+      "indonesian": "Blue Titanium",
+      "italian": "Blue Titanium",
+      "japanese": "Blue Titanium",
+      "koreana": "푸른 티타늄",
+      "latam": "Titanio azul",
+      "norwegian": "Blue Titanium",
+      "polish": "Niebieski tytan",
+      "portuguese": "Blue Titanium",
+      "romanian": "Blue Titanium",
+      "russian": "Синий титан",
+      "schinese": "蓝钛",
+      "schinese_pw": "Blue Titanium",
+      "spanish": "Titanio azul",
+      "swedish": "Blue Titanium",
+      "tchinese": "藍鈦合金",
+      "thai": "Blue Titanium",
+      "turkish": "Mavi Titanyum",
+      "ukrainian": "Синій титан",
+      "vietnamese": "Blue Titanium"
+    },
+    "name": "Blue Titanium",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.04,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-216",
+  "localized_names": {
+    "brazilian": "Tec-9 | Titânio Azul",
+    "bulgarian": "Tec-9 | Синьо титанов",
+    "czech": "Tec-9 | Blue Titanium",
+    "danish": "Tec-9 | Blue Titanium",
+    "dutch": "Tec-9 | Blue Titanium",
+    "english": "Tec-9 | Blue Titanium",
+    "finnish": "Tec-9 | Sinititaani",
+    "french": "Tec-9 | Bleu titane",
+    "german": "Tec-9 | Blaues Titan",
+    "greek": "Tec-9 | Blue Titanium",
+    "hungarian": "Tec-9 | Kék Titán",
+    "indonesian": "Tec-9 | Blue Titanium",
+    "italian": "Tec-9 | Blue Titanium",
+    "japanese": "Tec-9 | Blue Titanium",
+    "koreana": "Tec-9 | 푸른 티타늄",
+    "latam": "Tec-9 | Titanio azul",
+    "norwegian": "Tec-9 | Blue Titanium",
+    "polish": "Tec-9 | Niebieski tytan",
+    "portuguese": "Tec-9 | Blue Titanium",
+    "romanian": "Tec-9 | Blue Titanium",
+    "russian": "Tec-9 | Синий титан",
+    "schinese": "Tec-9 | 蓝钛",
+    "schinese_pw": "Tec-9 | Blue Titanium",
+    "spanish": "Tec-9 | Titanio azul",
+    "swedish": "Tec-9 | Blue Titanium",
+    "tchinese": "Tec-9 | 藍鈦合金",
+    "thai": "Tec-9 | Blue Titanium",
+    "turkish": "Tec-9 | Mavi Titanyum",
+    "ukrainian": "ТЕК-9 | Синій титан",
+    "vietnamese": "Tec-9 | Blue Titanium"
+  },
+  "media": {
+    "asset_id": "skin__30-216",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-216/light.png",
+      "data/api/media/rendered/files/skins/30-216/medium.png",
+      "data/api/media/rendered/files/skins/30-216/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-216.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-216/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-216/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-216/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-216/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_an_titanium30v_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_an_titanium30v_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_an_titanium30v_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Blue Titanium",
+  "search_slug": "tec-9-blue-titanium",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-216__normal__factory-new",
+    "30-216__stattrak__factory-new"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.04,
+    "min_float": 0.0
+  }
+}

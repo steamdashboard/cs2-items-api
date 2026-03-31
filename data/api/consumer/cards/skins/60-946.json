@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 946,
+    "id": 946,
+    "localized_names": {
+      "brazilian": "Jogador Nº 2",
+      "bulgarian": "Втори играч",
+      "czech": "Player Two",
+      "danish": "Player Two",
+      "dutch": "Player Two",
+      "english": "Player Two",
+      "finnish": "Pelaaja 2",
+      "french": "Joueur 2",
+      "german": "Spieler zwei",
+      "greek": "Player Two",
+      "hungarian": "Kettes Játékos",
+      "indonesian": "Player Two",
+      "italian": "Player Two",
+      "japanese": "Player Two",
+      "koreana": "플레이어 2",
+      "latam": "Jugador dos",
+      "norwegian": "Player Two",
+      "polish": "Gracz 2",
+      "portuguese": "Player Two",
+      "romanian": "Player Two",
+      "russian": "Второй игрок",
+      "schinese": "二号玩家",
+      "schinese_pw": "Player Two",
+      "spanish": "Jugador dos",
+      "swedish": "Player Two",
+      "tchinese": "二號玩家",
+      "thai": "Player Two",
+      "turkish": "İkinci Oyuncu",
+      "ukrainian": "Другий гравець",
+      "vietnamese": "Player Two"
+    },
+    "name": "Player Two",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.84,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-946",
+  "localized_names": {
+    "brazilian": "M4A1-S | Jogador Nº 2",
+    "bulgarian": "M4A1-S | Втори играч",
+    "czech": "M4A1-S | Player Two",
+    "danish": "M4A1-S | Player Two",
+    "dutch": "M4A1-S | Player Two",
+    "english": "M4A1-S | Player Two",
+    "finnish": "M4A1-S | Pelaaja 2",
+    "french": "M4A1-S | Joueur 2",
+    "german": "M4A1-S | Spieler zwei",
+    "greek": "M4A1-S | Player Two",
+    "hungarian": "M4A1-S | Kettes Játékos",
+    "indonesian": "M4A1-S | Player Two",
+    "italian": "M4A1-S | Player Two",
+    "japanese": "M4A1-S | Player Two",
+    "koreana": "M4A1-S | 플레이어 2",
+    "latam": "M4A1-S | Jugador dos",
+    "norwegian": "M4A1-S | Player Two",
+    "polish": "M4A1-S | Gracz 2",
+    "portuguese": "M4A1-S | Player Two",
+    "romanian": "M4A1-S | Player Two",
+    "russian": "M4A1-S | Второй игрок",
+    "schinese": "M4A1消音版 | 二号玩家",
+    "schinese_pw": "M4A1-S | Player Two",
+    "spanish": "M4A1-S | Jugador dos",
+    "swedish": "M4A1-S | Player Two",
+    "tchinese": "M4A1-S | 二號玩家",
+    "thai": "M4A1-S | Player Two",
+    "turkish": "M4A1-S | İkinci Oyuncu",
+    "ukrainian": "М4А1-С | Другий гравець",
+    "vietnamese": "M4A1-S | Player Two"
+  },
+  "media": {
+    "asset_id": "skin__60-946",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-946/light.png",
+      "data/api/media/rendered/files/skins/60-946/medium.png",
+      "data/api/media/rendered/files/skins/60-946/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-946.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-946/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-946/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-946/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-946/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_csgo2048_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_csgo2048_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_csgo2048_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Player Two",
+  "search_slug": "m4a1-s-player-two",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4695",
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_25",
+        "name": "The Prisma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-946__normal__battle-scarred",
+    "60-946__normal__factory-new",
+    "60-946__normal__field-tested",
+    "60-946__normal__minimal-wear",
+    "60-946__normal__well-worn",
+    "60-946__stattrak__battle-scarred",
+    "60-946__stattrak__factory-new",
+    "60-946__stattrak__field-tested",
+    "60-946__stattrak__minimal-wear",
+    "60-946__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.84,
+    "min_float": 0.0
+  }
+}

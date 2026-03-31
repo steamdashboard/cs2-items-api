@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 212,
+    "id": 212,
+    "localized_names": {
+      "brazilian": "Grafite",
+      "bulgarian": "Графит",
+      "czech": "Graphite",
+      "danish": "Graphite",
+      "dutch": "Graphite",
+      "english": "Graphite",
+      "finnish": "Grafiitti",
+      "french": "Graphite",
+      "german": "Graphit",
+      "greek": "Graphite",
+      "hungarian": "Grafit",
+      "indonesian": "Graphite",
+      "italian": "Graphite",
+      "japanese": "Graphite",
+      "koreana": "흑연",
+      "latam": "Grafito",
+      "norwegian": "Graphite",
+      "polish": "Grafit",
+      "portuguese": "Graphite",
+      "romanian": "Graphite",
+      "russian": "Графит",
+      "schinese": "石墨黑",
+      "schinese_pw": "Graphite",
+      "spanish": "Grafito",
+      "swedish": "Graphite",
+      "tchinese": "石墨",
+      "thai": "Graphite",
+      "turkish": "Grafit",
+      "ukrainian": "Графіт",
+      "vietnamese": "Graphite"
+    },
+    "name": "Graphite",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.12,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-212",
+  "localized_names": {
+    "brazilian": "AWP | Grafite",
+    "bulgarian": "AWP | Графит",
+    "czech": "AWP | Graphite",
+    "danish": "AWP | Graphite",
+    "dutch": "AWP | Graphite",
+    "english": "AWP | Graphite",
+    "finnish": "AWP | Grafiitti",
+    "french": "AWP | Graphite",
+    "german": "AWP | Graphit",
+    "greek": "AWP | Graphite",
+    "hungarian": "AWP | Grafit",
+    "indonesian": "AWP | Graphite",
+    "italian": "AWP | Graphite",
+    "japanese": "AWP | Graphite",
+    "koreana": "AWP | 흑연",
+    "latam": "AWP | Grafito",
+    "norwegian": "AWP | Graphite",
+    "polish": "AWP | Grafit",
+    "portuguese": "AWP | Graphite",
+    "romanian": "AWP | Graphite",
+    "russian": "AWP | Графит",
+    "schinese": "AWP | 石墨黑",
+    "schinese_pw": "AWP | Graphite",
+    "spanish": "AWP | Grafito",
+    "swedish": "AWP | Graphite",
+    "tchinese": "AWP | 石墨",
+    "thai": "AWP | Graphite",
+    "turkish": "AWP | Grafit",
+    "ukrainian": "АВП | Графіт",
+    "vietnamese": "AWP | Graphite"
+  },
+  "media": {
+    "asset_id": "skin__9-212",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-212/light.png",
+      "data/api/media/rendered/files/skins/9-212/medium.png",
+      "data/api/media/rendered/files/skins/9-212/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-212.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-212/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-212/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-212/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-212/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_am_crumple_bravo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_am_crumple_bravo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_am_crumple_bravo_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Graphite",
+  "search_slug": "awp-graphite",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-212__normal__factory-new",
+    "9-212__normal__minimal-wear",
+    "9-212__stattrak__factory-new",
+    "9-212__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

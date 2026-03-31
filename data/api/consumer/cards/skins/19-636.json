@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 636,
+    "id": 636,
+    "localized_names": {
+      "brazilian": "Cova Rasa",
+      "bulgarian": "Плитък гроб",
+      "czech": "Shallow Grave",
+      "danish": "Shallow Grave",
+      "dutch": "Shallow Grave",
+      "english": "Shallow Grave",
+      "finnish": "Murhaleikki",
+      "french": "Tombe",
+      "german": "Flachgrab",
+      "greek": "Shallow Grave",
+      "hungarian": "Sekély Sírhant",
+      "indonesian": "Shallow Grave",
+      "italian": "Shallow Grave",
+      "japanese": "Shallow Grave",
+      "koreana": "얕은 무덤",
+      "latam": "Sepultura superficial",
+      "norwegian": "Shallow Grave",
+      "polish": "Płytki grób",
+      "portuguese": "Shallow Grave",
+      "romanian": "Shallow Grave",
+      "russian": "Неглубокая могила",
+      "schinese": "浅坟",
+      "schinese_pw": "Shallow Grave",
+      "spanish": "Sepultura superficial",
+      "swedish": "Shallow Grave",
+      "tchinese": "幽墳",
+      "thai": "Shallow Grave",
+      "turkish": "Sığ Mezar",
+      "ukrainian": "Неглибока могила",
+      "vietnamese": "Shallow Grave"
+    },
+    "name": "Shallow Grave",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-636",
+  "localized_names": {
+    "brazilian": "P90 | Cova Rasa",
+    "bulgarian": "P90 | Плитък гроб",
+    "czech": "P90 | Shallow Grave",
+    "danish": "P90 | Shallow Grave",
+    "dutch": "P90 | Shallow Grave",
+    "english": "P90 | Shallow Grave",
+    "finnish": "P90 | Murhaleikki",
+    "french": "P90 | Tombe",
+    "german": "P90 | Flachgrab",
+    "greek": "P90 | Shallow Grave",
+    "hungarian": "P90 | Sekély Sírhant",
+    "indonesian": "P90 | Shallow Grave",
+    "italian": "P90 | Shallow Grave",
+    "japanese": "P90 | Shallow Grave",
+    "koreana": "P90 | 얕은 무덤",
+    "latam": "P90 | Sepultura superficial",
+    "norwegian": "P90 | Shallow Grave",
+    "polish": "P90 | Płytki grób",
+    "portuguese": "P90 | Shallow Grave",
+    "romanian": "P90 | Shallow Grave",
+    "russian": "P90 | Неглубокая могила",
+    "schinese": "P90 | 浅坟",
+    "schinese_pw": "P90 | Shallow Grave",
+    "spanish": "P90 | Sepultura superficial",
+    "swedish": "P90 | Shallow Grave",
+    "tchinese": "P90 | 幽墳",
+    "thai": "P90 | Shallow Grave",
+    "turkish": "P90 | Sığ Mezar",
+    "ukrainian": "П90 | Неглибока могила",
+    "vietnamese": "P90 | Shallow Grave"
+  },
+  "media": {
+    "asset_id": "skin__19-636",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-636/light.png",
+      "data/api/media/rendered/files/skins/19-636/medium.png",
+      "data/api/media/rendered/files/skins/19-636/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-636.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-636/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-636/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-636/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-636/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_gs_p90_shallow_grave_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_gs_p90_shallow_grave_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_gs_p90_shallow_grave_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Shallow Grave",
+  "search_slug": "p90-shallow-grave",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4288",
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_15",
+        "name": "The Glove Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-636__normal__battle-scarred",
+    "19-636__normal__factory-new",
+    "19-636__normal__field-tested",
+    "19-636__normal__minimal-wear",
+    "19-636__normal__well-worn",
+    "19-636__stattrak__battle-scarred",
+    "19-636__stattrak__factory-new",
+    "19-636__stattrak__field-tested",
+    "19-636__stattrak__minimal-wear",
+    "19-636__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

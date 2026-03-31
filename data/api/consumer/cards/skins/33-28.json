@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 28,
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Azul-marinho Metalizado",
+      "bulgarian": "Анодно оксидирано тъмносиньо",
+      "czech": "Anodized Navy",
+      "danish": "Anodized Navy",
+      "dutch": "Anodized Navy",
+      "english": "Anodized Navy",
+      "finnish": "Anodisoitu laivastonsininen",
+      "french": "Bleu anodisé",
+      "german": "Marineblau eloxiert",
+      "greek": "Anodized Navy",
+      "hungarian": "Eloxált Haditengerészeti",
+      "indonesian": "Anodized Navy",
+      "italian": "Anodized Navy",
+      "japanese": "Anodized Navy",
+      "koreana": "도장 효과 군청색",
+      "latam": "Azul marino anodizado",
+      "norwegian": "Anodized Navy",
+      "polish": "Anodyzowany granatowy",
+      "portuguese": "Anodized Navy",
+      "romanian": "Anodized Navy",
+      "russian": "Анодированная синева",
+      "schinese": "深蓝电镀处理",
+      "schinese_pw": "Anodized Navy",
+      "spanish": "Azul marino anodizado",
+      "swedish": "Anodized Navy",
+      "tchinese": "海軍電鍍",
+      "thai": "Anodized Navy",
+      "turkish": "Eloksal Donanma",
+      "ukrainian": "Анодована синява",
+      "vietnamese": "Anodized Navy"
+    },
+    "name": "Anodized Navy",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-28",
+  "localized_names": {
+    "brazilian": "MP7 | Azul-marinho Metalizado",
+    "bulgarian": "MP7 | Анодно оксидирано тъмносиньо",
+    "czech": "MP7 | Anodized Navy",
+    "danish": "MP7 | Anodized Navy",
+    "dutch": "MP7 | Anodized Navy",
+    "english": "MP7 | Anodized Navy",
+    "finnish": "MP7 | Anodisoitu laivastonsininen",
+    "french": "MP7 | Bleu anodisé",
+    "german": "MP7 | Marineblau eloxiert",
+    "greek": "MP7 | Anodized Navy",
+    "hungarian": "MP7 | Eloxált Haditengerészeti",
+    "indonesian": "MP7 | Anodized Navy",
+    "italian": "MP7 | Anodized Navy",
+    "japanese": "MP7 | Anodized Navy",
+    "koreana": "MP7 | 도장 효과 군청색",
+    "latam": "MP7 | Azul marino anodizado",
+    "norwegian": "MP7 | Anodized Navy",
+    "polish": "MP7 | Anodyzowany granatowy",
+    "portuguese": "MP7 | Anodized Navy",
+    "romanian": "MP7 | Anodized Navy",
+    "russian": "MP7 | Анодированная синева",
+    "schinese": "MP7 | 深蓝电镀处理",
+    "schinese_pw": "MP7 | Anodized Navy",
+    "spanish": "MP7 | Azul marino anodizado",
+    "swedish": "MP7 | Anodized Navy",
+    "tchinese": "MP7 | 海軍電鍍",
+    "thai": "MP7 | Anodized Navy",
+    "turkish": "MP7 | Eloksal Donanma",
+    "ukrainian": "МП7 | Анодована синява",
+    "vietnamese": "MP7 | Anodized Navy"
+  },
+  "media": {
+    "asset_id": "skin__33-28",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-28/light.png",
+      "data/api/media/rendered/files/skins/33-28/medium.png",
+      "data/api/media/rendered/files/skins/33-28/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-28.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-28/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-28/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-28/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-28/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_an_navy_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_an_navy_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_an_navy_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Anodized Navy",
+  "search_slug": "mp7-anodized-navy",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_italy",
+        "name": "The Italy Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-28__normal__factory-new",
+    "33-28__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

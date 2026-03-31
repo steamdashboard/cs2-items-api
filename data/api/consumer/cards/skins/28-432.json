@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 432,
+    "id": 432,
+    "localized_names": {
+      "brazilian": "Man-o'-war",
+      "bulgarian": "Военнослужещ",
+      "czech": "Man-o'-war",
+      "danish": "Man-o'-war",
+      "dutch": "Man-o'-war",
+      "english": "Man-o'-war",
+      "finnish": "Sotalaiva",
+      "french": "Man-o'-war",
+      "german": "Man-o'-war",
+      "greek": "Man-o'-war",
+      "hungarian": "Hadfi",
+      "indonesian": "Man-o'-war",
+      "italian": "Man-o'-war",
+      "japanese": "Man-o'-war",
+      "koreana": "해상의 지배자",
+      "latam": "Héroe de guerra",
+      "norwegian": "Man-o'-war",
+      "polish": "Okręt wojenny",
+      "portuguese": "Man-o'-war",
+      "romanian": "Man-o'-war",
+      "russian": "Боец",
+      "schinese": "无畏战神",
+      "schinese_pw": "Man-o'-war",
+      "spanish": "Héroe de guerra",
+      "swedish": "Man-o'-war",
+      "tchinese": "戰神",
+      "thai": "Man-o'-war",
+      "turkish": "Man-o'-war",
+      "ukrainian": "Лінкор",
+      "vietnamese": "Man-o'-war"
+    },
+    "name": "Man-o'-war",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.1
+    }
+  },
+  "id": "28-432",
+  "localized_names": {
+    "brazilian": "Negev | Man-o'-war",
+    "bulgarian": "Negev | Военнослужещ",
+    "czech": "Negev | Man-o'-war",
+    "danish": "Negev | Man-o'-war",
+    "dutch": "Negev | Man-o'-war",
+    "english": "Negev | Man-o'-war",
+    "finnish": "Negev | Sotalaiva",
+    "french": "Negev | Man-o'-war",
+    "german": "Negev | Man-o'-war",
+    "greek": "Negev | Man-o'-war",
+    "hungarian": "Negev | Hadfi",
+    "indonesian": "Negev | Man-o'-war",
+    "italian": "Negev | Man-o'-war",
+    "japanese": "Negev | Man-o'-war",
+    "koreana": "네게브 | 해상의 지배자",
+    "latam": "Negev | Héroe de guerra",
+    "norwegian": "Negev | Man-o'-war",
+    "polish": "Negev | Okręt wojenny",
+    "portuguese": "Negev | Man-o'-war",
+    "romanian": "Negev | Man-o'-war",
+    "russian": "Негев | Боец",
+    "schinese": "内格夫 | 无畏战神",
+    "schinese_pw": "Negev | Man-o'-war",
+    "spanish": "Negev | Héroe de guerra",
+    "swedish": "Negev | Man-o'-war",
+    "tchinese": "Negev | 戰神",
+    "thai": "Negev | Man-o'-war",
+    "turkish": "Negev | Man-o'-war",
+    "ukrainian": "Неґев | Лінкор",
+    "vietnamese": "Negev | Man-o'-war"
+  },
+  "media": {
+    "asset_id": "skin__28-432",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-432/light.png",
+      "data/api/media/rendered/files/skins/28-432/medium.png",
+      "data/api/media/rendered/files/skins/28-432/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-432.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-432/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-432/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-432/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-432/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_am_negev_glory_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_am_negev_glory_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_am_negev_glory_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Man-o'-war",
+  "search_slug": "negev-man-o-war",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4089",
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_7",
+        "name": "The Chroma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-432__normal__field-tested",
+    "28-432__normal__minimal-wear",
+    "28-432__stattrak__field-tested",
+    "28-432__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.1
+  }
+}

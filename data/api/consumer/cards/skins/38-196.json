@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 196,
+    "id": 196,
+    "localized_names": {
+      "brazilian": "Esmeralda",
+      "bulgarian": "Изумруденозелено",
+      "czech": "Emerald",
+      "danish": "Emerald",
+      "dutch": "Emerald",
+      "english": "Emerald",
+      "finnish": "Smaragdi",
+      "french": "Émeraude",
+      "german": "Smaragd",
+      "greek": "Emerald",
+      "hungarian": "Smaragd",
+      "indonesian": "Emerald",
+      "italian": "Emerald",
+      "japanese": "Emerald",
+      "koreana": "에메랄드",
+      "latam": "Esmeralda",
+      "norwegian": "Emerald",
+      "polish": "Szmaragd",
+      "portuguese": "Emerald",
+      "romanian": "Emerald",
+      "russian": "Изумруд",
+      "schinese": "翡翠色调",
+      "schinese_pw": "Emerald",
+      "spanish": "Esmeralda",
+      "swedish": "Emerald",
+      "tchinese": "翠綠色",
+      "thai": "Emerald",
+      "turkish": "Zümrüt",
+      "ukrainian": "Смарагд",
+      "vietnamese": "Emerald"
+    },
+    "name": "Emerald",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "38-196",
+  "localized_names": {
+    "brazilian": "SCAR-20 | Esmeralda",
+    "bulgarian": "SCAR-20 | Изумруденозелено",
+    "czech": "SCAR-20 | Emerald",
+    "danish": "SCAR-20 | Emerald",
+    "dutch": "SCAR-20 | Emerald",
+    "english": "SCAR-20 | Emerald",
+    "finnish": "SCAR-20 | Smaragdi",
+    "french": "SCAR-20 | Émeraude",
+    "german": "SCAR-20 | Smaragd",
+    "greek": "SCAR-20 | Emerald",
+    "hungarian": "SCAR-20 | Smaragd",
+    "indonesian": "SCAR-20 | Emerald",
+    "italian": "SCAR-20 | Emerald",
+    "japanese": "SCAR-20 | Emerald",
+    "koreana": "SCAR-20 | 에메랄드",
+    "latam": "SCAR-20 | Esmeralda",
+    "norwegian": "SCAR-20 | Emerald",
+    "polish": "SCAR-20 | Szmaragd",
+    "portuguese": "SCAR-20 | Emerald",
+    "romanian": "SCAR-20 | Emerald",
+    "russian": "SCAR-20 | Изумруд",
+    "schinese": "SCAR-20 | 翡翠色调",
+    "schinese_pw": "SCAR-20 | Emerald",
+    "spanish": "SCAR-20 | Esmeralda",
+    "swedish": "SCAR-20 | Emerald",
+    "tchinese": "SCAR-20 | 翠綠色",
+    "thai": "SCAR-20 | Emerald",
+    "turkish": "SCAR-20 | Zümrüt",
+    "ukrainian": "СКАР-20 | Смарагд",
+    "vietnamese": "SCAR-20 | Emerald"
+  },
+  "media": {
+    "asset_id": "skin__38-196",
+    "images_png": [
+      "data/api/media/rendered/files/skins/38-196/light.png",
+      "data/api/media/rendered/files/skins/38-196/medium.png",
+      "data/api/media/rendered/files/skins/38-196/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/38-196.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/38-196/heavy.png",
+      "light": "data/api/media/rendered/files/skins/38-196/light.png",
+      "medium": "data/api/media/rendered/files/skins/38-196/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/38-196/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_scar20_an_emerald_bravo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_scar20_an_emerald_bravo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_scar20_an_emerald_bravo_medium_png.vtex_c"
+    }
+  },
+  "name": "SCAR-20 | Emerald",
+  "search_slug": "scar-20-emerald",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_bravo_ii",
+        "name": "The Alpha Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "38-196__normal__factory-new",
+    "38-196__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 38,
+    "localized_names": {
+      "brazilian": "SCAR-20",
+      "bulgarian": "SCAR-20",
+      "czech": "SCAR-20",
+      "danish": "SCAR-20",
+      "dutch": "SCAR-20",
+      "english": "SCAR-20",
+      "finnish": "SCAR-20",
+      "french": "SCAR-20",
+      "german": "SCAR-20",
+      "greek": "SCAR-20",
+      "hungarian": "SCAR-20",
+      "indonesian": "SCAR-20",
+      "italian": "SCAR-20",
+      "japanese": "SCAR-20",
+      "koreana": "SCAR-20",
+      "latam": "SCAR-20",
+      "norwegian": "SCAR-20",
+      "polish": "SCAR-20",
+      "portuguese": "SCAR-20",
+      "romanian": "SCAR-20",
+      "russian": "SCAR-20",
+      "schinese": "SCAR-20",
+      "schinese_pw": "SCAR-20",
+      "spanish": "SCAR-20",
+      "swedish": "SCAR-20",
+      "tchinese": "SCAR-20",
+      "thai": "SCAR-20",
+      "turkish": "SCAR-20",
+      "ukrainian": "СКАР-20",
+      "vietnamese": "SCAR-20"
+    },
+    "name": "SCAR-20",
+    "search_slug": "scar-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 705,
+    "id": 705,
+    "localized_names": {
+      "brazilian": "Córtex",
+      "bulgarian": "Кортекс",
+      "czech": "Cortex",
+      "danish": "Cortex",
+      "dutch": "Cortex",
+      "english": "Cortex",
+      "finnish": "Cortex",
+      "french": "Cortex",
+      "german": "Hirnrinde",
+      "greek": "Cortex",
+      "hungarian": "Agykéreg",
+      "indonesian": "Cortex",
+      "italian": "Cortex",
+      "japanese": "Cortex",
+      "koreana": "콜텍스",
+      "latam": "Córtex",
+      "norwegian": "Cortex",
+      "polish": "Kora mózgowa",
+      "portuguese": "Cortex",
+      "romanian": "Cortex",
+      "russian": "Извилины",
+      "schinese": "脑洞大开",
+      "schinese_pw": "Cortex",
+      "spanish": "Córtex",
+      "swedish": "Cortex",
+      "tchinese": "腦皮層",
+      "thai": "Cortex",
+      "turkish": "Kabuk",
+      "ukrainian": "Кортекс",
+      "vietnamese": "Cortex"
+    },
+    "name": "Cortex",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-705",
+  "localized_names": {
+    "brazilian": "USP-S | Córtex",
+    "bulgarian": "USP-S | Кортекс",
+    "czech": "USP-S | Cortex",
+    "danish": "USP-S | Cortex",
+    "dutch": "USP-S | Cortex",
+    "english": "USP-S | Cortex",
+    "finnish": "USP-S | Cortex",
+    "french": "USP-S | Cortex",
+    "german": "USP-S | Hirnrinde",
+    "greek": "USP-S | Cortex",
+    "hungarian": "USP-S | Agykéreg",
+    "indonesian": "USP-S | Cortex",
+    "italian": "USP-S | Cortex",
+    "japanese": "USP-S | Cortex",
+    "koreana": "USP-S | 콜텍스",
+    "latam": "USP-S | Córtex",
+    "norwegian": "USP-S | Cortex",
+    "polish": "USP-S | Kora mózgowa",
+    "portuguese": "USP-S | Cortex",
+    "romanian": "USP-S | Cortex",
+    "russian": "USP-S | Извилины",
+    "schinese": "USP消音版 | 脑洞大开",
+    "schinese_pw": "USP-S | Cortex",
+    "spanish": "USP-S | Córtex",
+    "swedish": "USP-S | Cortex",
+    "tchinese": "USP-S | 腦皮層",
+    "thai": "USP-S | Cortex",
+    "turkish": "USP-S | Kabuk",
+    "ukrainian": "УСП-С | Кортекс",
+    "vietnamese": "USP-S | Cortex"
+  },
+  "media": {
+    "asset_id": "skin__61-705",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-705/light.png",
+      "data/api/media/rendered/files/skins/61-705/medium.png",
+      "data/api/media/rendered/files/skins/61-705/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-705.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-705/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-705/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-705/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-705/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_cut_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_cut_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_cut_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Cortex",
+  "search_slug": "usp-s-cortex",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4471",
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_19",
+        "name": "The Clutch Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-705__normal__battle-scarred",
+    "61-705__normal__factory-new",
+    "61-705__normal__field-tested",
+    "61-705__normal__minimal-wear",
+    "61-705__normal__well-worn",
+    "61-705__stattrak__battle-scarred",
+    "61-705__stattrak__factory-new",
+    "61-705__stattrak__field-tested",
+    "61-705__stattrak__minimal-wear",
+    "61-705__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

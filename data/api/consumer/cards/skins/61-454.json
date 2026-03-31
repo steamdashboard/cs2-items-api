@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 454,
+    "id": 454,
+    "localized_names": {
+      "brazilian": "Verde-Cáqui",
+      "bulgarian": "Едва зелено",
+      "czech": "Para Green",
+      "danish": "Para Green",
+      "dutch": "Para Green",
+      "english": "Para Green",
+      "finnish": "Vihreä sotilas",
+      "french": "Para vert",
+      "german": "Paragrün",
+      "greek": "Para Green",
+      "hungarian": "Katonazöld",
+      "indonesian": "Para Green",
+      "italian": "Para Green",
+      "japanese": "Para Green",
+      "koreana": "카키 그린",
+      "latam": "Verde caqui",
+      "norwegian": "Para Green",
+      "polish": "Spadochroniarska zieleń",
+      "portuguese": "Para Green",
+      "romanian": "Para Green",
+      "russian": "Едва зелёный",
+      "schinese": "绿色伞兵",
+      "schinese_pw": "Para Green",
+      "spanish": "Verde caqui",
+      "swedish": "Para Green",
+      "tchinese": "傘兵綠",
+      "thai": "Para Green",
+      "turkish": "Asker Yeşili",
+      "ukrainian": "Десантний зелений",
+      "vietnamese": "Para Green"
+    },
+    "name": "Para Green",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-454",
+  "localized_names": {
+    "brazilian": "USP-S | Verde-Cáqui",
+    "bulgarian": "USP-S | Едва зелено",
+    "czech": "USP-S | Para Green",
+    "danish": "USP-S | Para Green",
+    "dutch": "USP-S | Para Green",
+    "english": "USP-S | Para Green",
+    "finnish": "USP-S | Vihreä sotilas",
+    "french": "USP-S | Para vert",
+    "german": "USP-S | Paragrün",
+    "greek": "USP-S | Para Green",
+    "hungarian": "USP-S | Katonazöld",
+    "indonesian": "USP-S | Para Green",
+    "italian": "USP-S | Para Green",
+    "japanese": "USP-S | Para Green",
+    "koreana": "USP-S | 카키 그린",
+    "latam": "USP-S | Verde caqui",
+    "norwegian": "USP-S | Para Green",
+    "polish": "USP-S | Spadochroniarska zieleń",
+    "portuguese": "USP-S | Para Green",
+    "romanian": "USP-S | Para Green",
+    "russian": "USP-S | Едва зелёный",
+    "schinese": "USP消音版 | 绿色伞兵",
+    "schinese_pw": "USP-S | Para Green",
+    "spanish": "USP-S | Verde caqui",
+    "swedish": "USP-S | Para Green",
+    "tchinese": "USP-S | 傘兵綠",
+    "thai": "USP-S | Para Green",
+    "turkish": "USP-S | Asker Yeşili",
+    "ukrainian": "УСП-С | Десантний зелений",
+    "vietnamese": "USP-S | Para Green"
+  },
+  "media": {
+    "asset_id": "skin__61-454",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-454/light.png",
+      "data/api/media/rendered/files/skins/61-454/medium.png",
+      "data/api/media/rendered/files/skins/61-454/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-454.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-454/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-454/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-454/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-454/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_so_khaki_green_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_so_khaki_green_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_so_khaki_green_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Para Green",
+  "search_slug": "usp-s-para-green",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-454__normal__battle-scarred",
+    "61-454__normal__factory-new",
+    "61-454__normal__field-tested",
+    "61-454__normal__minimal-wear",
+    "61-454__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

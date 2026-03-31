@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1002,
+    "id": 1002,
+    "localized_names": {
+      "brazilian": "Os Homi",
+      "bulgarian": "Боровинки и череши",
+      "czech": "Berries And Cherries",
+      "danish": "Berries And Cherries",
+      "dutch": "Berries And Cherries",
+      "english": "Berries And Cherries",
+      "finnish": "Mustikat ja mansikat",
+      "french": "Gyrophares",
+      "german": "Beeren und Kirschen",
+      "greek": "Berries And Cherries",
+      "hungarian": "Bogyók és Cseresznyék",
+      "indonesian": "Berries And Cherries",
+      "italian": "Berries And Cherries",
+      "japanese": "Berries And Cherries",
+      "koreana": "딸기와 체리",
+      "latam": "Bayas y cerezas",
+      "norwegian": "Berries And Cherries",
+      "polish": "Kogut",
+      "portuguese": "Berries And Cherries",
+      "romanian": "Berries And Cherries",
+      "russian": "Мигалка",
+      "schinese": "蓝莓樱桃",
+      "schinese_pw": "Berries And Cherries",
+      "spanish": "Bayas y cerezas",
+      "swedish": "Berries And Cherries",
+      "tchinese": "莓果櫻桃",
+      "thai": "Berries And Cherries",
+      "turkish": "Aynasızlar",
+      "ukrainian": "Ягоди та вишні",
+      "vietnamese": "Berries And Cherries"
+    },
+    "name": "Berries And Cherries",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.1,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-1002",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Os Homi",
+    "bulgarian": "Five-SeveN | Боровинки и череши",
+    "czech": "Five-SeveN | Berries And Cherries",
+    "danish": "Five-SeveN | Berries And Cherries",
+    "dutch": "Five-SeveN | Berries And Cherries",
+    "english": "Five-SeveN | Berries And Cherries",
+    "finnish": "Five-SeveN | Mustikat ja mansikat",
+    "french": "Five-SeveN | Gyrophares",
+    "german": "Five-SeveN | Beeren und Kirschen",
+    "greek": "Five-SeveN | Berries And Cherries",
+    "hungarian": "Five-SeveN | Bogyók és Cseresznyék",
+    "indonesian": "Five-SeveN | Berries And Cherries",
+    "italian": "Five-SeveN | Berries And Cherries",
+    "japanese": "Five-SeveN | Berries And Cherries",
+    "koreana": "파이브 세븐 | 딸기와 체리",
+    "latam": "Five-SeveN | Bayas y cerezas",
+    "norwegian": "Five-SeveN | Berries And Cherries",
+    "polish": "Five-SeveN | Kogut",
+    "portuguese": "Five-SeveN | Berries And Cherries",
+    "romanian": "Five-SeveN | Berries And Cherries",
+    "russian": "Five-SeveN | Мигалка",
+    "schinese": "FN57 | 蓝莓樱桃",
+    "schinese_pw": "Five-SeveN | Berries And Cherries",
+    "spanish": "Five-seveN | Bayas y cerezas",
+    "swedish": "Five-SeveN | Berries And Cherries",
+    "tchinese": "Five-SeveN | 莓果櫻桃",
+    "thai": "Five-SeveN | Berries And Cherries",
+    "turkish": "Five-SeveN | Aynasızlar",
+    "ukrainian": "Five-seveN | Ягоди та вишні",
+    "vietnamese": "Five-SeveN | Berries And Cherries"
+  },
+  "media": {
+    "asset_id": "skin__3-1002",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-1002/light.png",
+      "data/api/media/rendered/files/skins/3-1002/medium.png",
+      "data/api/media/rendered/files/skins/3-1002/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-1002.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-1002/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-1002/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-1002/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-1002/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_aa_fade_red_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_aa_fade_red_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_aa_fade_red_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Berries And Cherries",
+  "search_slug": "five-seven-berries-and-cherries",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ct",
+        "name": "The Control Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4720",
+        "kind": "container",
+        "name": "The Control Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-1002__normal__factory-new",
+    "3-1002__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.1,
+    "min_float": 0.0
+  }
+}

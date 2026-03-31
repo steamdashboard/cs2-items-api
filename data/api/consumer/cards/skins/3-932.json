@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 932,
+    "id": 932,
+    "localized_names": {
+      "brazilian": "Videira Murcha",
+      "bulgarian": "Повехнала лоза",
+      "czech": "Withered Vine",
+      "danish": "Withered Vine",
+      "dutch": "Withered Vine",
+      "english": "Withered Vine",
+      "finnish": "Kitulias köynnös",
+      "french": "Vigne flétrie",
+      "german": "Verdorrte Ranke",
+      "greek": "Withered Vine",
+      "hungarian": "Fonnyadt Indák",
+      "indonesian": "Withered Vine",
+      "italian": "Withered Vine",
+      "japanese": "Withered Vine",
+      "koreana": "시든 덩굴",
+      "latam": "Vid marchita",
+      "norwegian": "Withered Vine",
+      "polish": "Zwiędła winorośl",
+      "portuguese": "Withered Vine",
+      "romanian": "Withered Vine",
+      "russian": "Увядшая лоза",
+      "schinese": "紫藤老树",
+      "schinese_pw": "Withered Vine",
+      "spanish": "Enredadera marchita",
+      "swedish": "Withered Vine",
+      "tchinese": "紫藤老樹",
+      "thai": "Withered Vine",
+      "turkish": "Solmuş Sarmaşık",
+      "ukrainian": "Зів’яла лоза",
+      "vietnamese": "Withered Vine"
+    },
+    "name": "Withered Vine",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-932",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Videira Murcha",
+    "bulgarian": "Five-SeveN | Повехнала лоза",
+    "czech": "Five-SeveN | Withered Vine",
+    "danish": "Five-SeveN | Withered Vine",
+    "dutch": "Five-SeveN | Withered Vine",
+    "english": "Five-SeveN | Withered Vine",
+    "finnish": "Five-SeveN | Kitulias köynnös",
+    "french": "Five-SeveN | Vigne flétrie",
+    "german": "Five-SeveN | Verdorrte Ranke",
+    "greek": "Five-SeveN | Withered Vine",
+    "hungarian": "Five-SeveN | Fonnyadt Indák",
+    "indonesian": "Five-SeveN | Withered Vine",
+    "italian": "Five-SeveN | Withered Vine",
+    "japanese": "Five-SeveN | Withered Vine",
+    "koreana": "파이브 세븐 | 시든 덩굴",
+    "latam": "Five-SeveN | Vid marchita",
+    "norwegian": "Five-SeveN | Withered Vine",
+    "polish": "Five-SeveN | Zwiędła winorośl",
+    "portuguese": "Five-SeveN | Withered Vine",
+    "romanian": "Five-SeveN | Withered Vine",
+    "russian": "Five-SeveN | Увядшая лоза",
+    "schinese": "FN57 | 紫藤老树",
+    "schinese_pw": "Five-SeveN | Withered Vine",
+    "spanish": "Five-seveN | Enredadera marchita",
+    "swedish": "Five-SeveN | Withered Vine",
+    "tchinese": "Five-SeveN | 紫藤老樹",
+    "thai": "Five-SeveN | Withered Vine",
+    "turkish": "Five-SeveN | Solmuş Sarmaşık",
+    "ukrainian": "Five-seveN | Зів’яла лоза",
+    "vietnamese": "Five-SeveN | Withered Vine"
+  },
+  "media": {
+    "asset_id": "skin__3-932",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-932/light.png",
+      "data/api/media/rendered/files/skins/3-932/medium.png",
+      "data/api/media/rendered/files/skins/3-932/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-932.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-932/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-932/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-932/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-932/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_sp_moro_textile_purple_yellow_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_sp_moro_textile_purple_yellow_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_sp_moro_textile_purple_yellow_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Withered Vine",
+  "search_slug": "five-seven-withered-vine",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "3-932__normal__battle-scarred",
+    "3-932__normal__factory-new",
+    "3-932__normal__field-tested",
+    "3-932__normal__minimal-wear",
+    "3-932__normal__well-worn",
+    "3-932__souvenir__battle-scarred",
+    "3-932__souvenir__factory-new",
+    "3-932__souvenir__field-tested",
+    "3-932__souvenir__minimal-wear",
+    "3-932__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

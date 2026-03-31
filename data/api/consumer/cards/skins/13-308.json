@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 308,
+    "id": 308,
+    "localized_names": {
+      "brazilian": "Kami",
+      "bulgarian": "Ками",
+      "czech": "Kami",
+      "danish": "Kami",
+      "dutch": "Kami",
+      "english": "Kami",
+      "finnish": "Kami",
+      "french": "Kami",
+      "german": "Kami",
+      "greek": "Kami",
+      "hungarian": "Kami",
+      "indonesian": "Kami",
+      "italian": "Kami",
+      "japanese": "Kami",
+      "koreana": "종이",
+      "latam": "Kami",
+      "norwegian": "Kami",
+      "polish": "Kami",
+      "portuguese": "Kami",
+      "romanian": "Kami",
+      "russian": "Ками",
+      "schinese": "神祇",
+      "schinese_pw": "Kami",
+      "spanish": "Kami",
+      "swedish": "Kami",
+      "tchinese": "紙（Kami）",
+      "thai": "Kami",
+      "turkish": "Kami",
+      "ukrainian": "Камі",
+      "vietnamese": "Kami"
+    },
+    "name": "Kami",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-308",
+  "localized_names": {
+    "brazilian": "Galil AR | Kami",
+    "bulgarian": "Galil AR | Ками",
+    "czech": "Galil AR | Kami",
+    "danish": "Galil AR | Kami",
+    "dutch": "Galil AR | Kami",
+    "english": "Galil AR | Kami",
+    "finnish": "Galil AR | Kami",
+    "french": "Galil AR | Kami",
+    "german": "Galil AR | Kami",
+    "greek": "Galil AR | Kami",
+    "hungarian": "Galil AR | Kami",
+    "indonesian": "Galil AR | Kami",
+    "italian": "Galil AR | Kami",
+    "japanese": "Galil AR | Kami",
+    "koreana": "갈릴 돌격소총 | 종이",
+    "latam": "Galil AR | Kami",
+    "norwegian": "Galil AR | Kami",
+    "polish": "Galil AR | Kami",
+    "portuguese": "Galil AR | Kami",
+    "romanian": "Galil AR | Kami",
+    "russian": "Автомат «Галиль» | Ками",
+    "schinese": "加利尔AR | 神祇",
+    "schinese_pw": "Galil AR | Kami",
+    "spanish": "Galil AR | Kami",
+    "swedish": "Galil AR | Kami",
+    "tchinese": "Galil AR | 紙（Kami）",
+    "thai": "Galil AR | Kami",
+    "turkish": "Galil AR | Kami",
+    "ukrainian": "Ґаліл | Камі",
+    "vietnamese": "Galil AR | Kami"
+  },
+  "media": {
+    "asset_id": "skin__13-308",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-308/light.png",
+      "data/api/media/rendered/files/skins/13-308/medium.png",
+      "data/api/media/rendered/files/skins/13-308/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-308.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-308/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-308/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-308/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-308/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_hy_galil_kami_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_hy_galil_kami_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_hy_galil_kami_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Kami",
+  "search_slug": "galil-ar-kami",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4017",
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_3",
+        "name": "The Huntsman Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-308__normal__battle-scarred",
+    "13-308__normal__factory-new",
+    "13-308__normal__field-tested",
+    "13-308__normal__minimal-wear",
+    "13-308__normal__well-worn",
+    "13-308__stattrak__battle-scarred",
+    "13-308__stattrak__factory-new",
+    "13-308__stattrak__field-tested",
+    "13-308__stattrak__minimal-wear",
+    "13-308__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

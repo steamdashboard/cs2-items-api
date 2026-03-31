@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 709,
+    "id": 709,
+    "localized_names": {
+      "brazilian": "Ecológica",
+      "bulgarian": "Еко",
+      "czech": "Eco",
+      "danish": "Eco",
+      "dutch": "Eco",
+      "english": "Eco",
+      "finnish": "Säästö",
+      "french": "Éco",
+      "german": "Eco",
+      "greek": "Eco",
+      "hungarian": "Öko",
+      "indonesian": "Eco",
+      "italian": "Eco",
+      "japanese": "Eco",
+      "koreana": "친환경",
+      "latam": "Eco",
+      "norwegian": "Eco",
+      "polish": "Eco",
+      "portuguese": "Eco",
+      "romanian": "Eco",
+      "russian": "Эко",
+      "schinese": "经济",
+      "schinese_pw": "Eco",
+      "spanish": "Eco",
+      "swedish": "Eco",
+      "tchinese": "Eco",
+      "thai": "Eco",
+      "turkish": "Eko",
+      "ukrainian": "Еко",
+      "vietnamese": "Eco"
+    },
+    "name": "Eco",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-709",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Ecológica",
+    "bulgarian": "CZ75-Auto | Еко",
+    "czech": "CZ75-Auto | Eco",
+    "danish": "CZ75-Auto | Eco",
+    "dutch": "CZ75-Auto | Eco",
+    "english": "CZ75-Auto | Eco",
+    "finnish": "CZ75-Auto | Säästö",
+    "french": "CZ75-Auto | Éco",
+    "german": "CZ75-Auto | Eco",
+    "greek": "CZ75-Auto | Eco",
+    "hungarian": "CZ75-Auto | Öko",
+    "indonesian": "CZ75-Auto | Eco",
+    "italian": "CZ75-Auto | Eco",
+    "japanese": "CZ75-Auto | Eco",
+    "koreana": "CZ75 기관권총 | 친환경",
+    "latam": "CZ75-Auto | Eco",
+    "norwegian": "CZ75-Auto | Eco",
+    "polish": "CZ75-Auto | Eco",
+    "portuguese": "CZ75-Auto | Eco",
+    "romanian": "CZ75-Auto | Eco",
+    "russian": "CZ75-Auto | Эко",
+    "schinese": "CZ75自动型 | 经济",
+    "schinese_pw": "CZ75-Auto | Eco",
+    "spanish": "CZ75-Auto | Eco",
+    "swedish": "CZ75-Auto | Eco",
+    "tchinese": "CZ75-Auto | Eco",
+    "thai": "CZ75-Auto | Eco",
+    "turkish": "CZ75-Otomatik | Eko",
+    "ukrainian": "ЧЗ-75 авто | Еко",
+    "vietnamese": "CZ75-Auto | Eco"
+  },
+  "media": {
+    "asset_id": "skin__63-709",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-709/light.png",
+      "data/api/media/rendered/files/skins/63-709/medium.png",
+      "data/api/media/rendered/files/skins/63-709/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-709.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-709/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-709/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-709/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-709/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_cu_cz75_eco_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_cu_cz75_eco_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_cu_cz75_eco_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Eco",
+  "search_slug": "cz75-auto-eco",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4482",
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_20",
+        "name": "The Horizon Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-709__normal__battle-scarred",
+    "63-709__normal__factory-new",
+    "63-709__normal__field-tested",
+    "63-709__normal__minimal-wear",
+    "63-709__normal__well-worn",
+    "63-709__stattrak__battle-scarred",
+    "63-709__stattrak__factory-new",
+    "63-709__stattrak__field-tested",
+    "63-709__stattrak__minimal-wear",
+    "63-709__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

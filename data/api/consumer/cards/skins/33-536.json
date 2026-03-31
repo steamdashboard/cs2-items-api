@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 536,
+    "id": 536,
+    "localized_names": {
+      "brazilian": "Impire",
+      "bulgarian": "Таласъмска империя",
+      "czech": "Impire",
+      "danish": "Impire",
+      "dutch": "Impire",
+      "english": "Impire",
+      "finnish": "Pikkupiru",
+      "french": "Impire",
+      "german": "Impire",
+      "greek": "Impire",
+      "hungarian": "Ördögmanó",
+      "indonesian": "Impire",
+      "italian": "Impire",
+      "japanese": "Impire",
+      "koreana": "악동",
+      "latam": "Luciferino",
+      "norwegian": "Impire",
+      "polish": "Chochlik",
+      "portuguese": "Impire",
+      "romanian": "Impire",
+      "russian": "Чертята",
+      "schinese": "帝国",
+      "schinese_pw": "Impire",
+      "spanish": "Luciferino",
+      "swedish": "Impire",
+      "tchinese": "小惡魔帝國",
+      "thai": "Impire",
+      "turkish": "Impire",
+      "ukrainian": "Чортеня",
+      "vietnamese": "Impire"
+    },
+    "name": "Impire",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-536",
+  "localized_names": {
+    "brazilian": "MP7 | Impire",
+    "bulgarian": "MP7 | Таласъмска империя",
+    "czech": "MP7 | Impire",
+    "danish": "MP7 | Impire",
+    "dutch": "MP7 | Impire",
+    "english": "MP7 | Impire",
+    "finnish": "MP7 | Pikkupiru",
+    "french": "MP7 | Impire",
+    "german": "MP7 | Impire",
+    "greek": "MP7 | Impire",
+    "hungarian": "MP7 | Ördögmanó",
+    "indonesian": "MP7 | Impire",
+    "italian": "MP7 | Impire",
+    "japanese": "MP7 | Impire",
+    "koreana": "MP7 | 악동",
+    "latam": "MP7 | Luciferino",
+    "norwegian": "MP7 | Impire",
+    "polish": "MP7 | Chochlik",
+    "portuguese": "MP7 | Impire",
+    "romanian": "MP7 | Impire",
+    "russian": "MP7 | Чертята",
+    "schinese": "MP7 | 帝国",
+    "schinese_pw": "MP7 | Impire",
+    "spanish": "MP7 | Luciferino",
+    "swedish": "MP7 | Impire",
+    "tchinese": "MP7 | 小惡魔帝國",
+    "thai": "MP7 | Impire",
+    "turkish": "MP7 | Impire",
+    "ukrainian": "МП7 | Чортеня",
+    "vietnamese": "MP7 | Impire"
+  },
+  "media": {
+    "asset_id": "skin__33-536",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-536/light.png",
+      "data/api/media/rendered/files/skins/33-536/medium.png",
+      "data/api/media/rendered/files/skins/33-536/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-536.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-536/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-536/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-536/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-536/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_sp_mp7_impire_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_sp_mp7_impire_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_sp_mp7_impire_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Impire",
+  "search_slug": "mp7-impire",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4187",
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_11",
+        "name": "The Wildfire Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-536__normal__factory-new",
+    "33-536__normal__field-tested",
+    "33-536__normal__minimal-wear",
+    "33-536__normal__well-worn",
+    "33-536__stattrak__factory-new",
+    "33-536__stattrak__field-tested",
+    "33-536__stattrak__minimal-wear",
+    "33-536__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 965,
+    "id": 965,
+    "localized_names": {
+      "brazilian": "Fascinação",
+      "bulgarian": "Примамливост",
+      "czech": "Allure",
+      "danish": "Allure",
+      "dutch": "Allure",
+      "english": "Allure",
+      "finnish": "Vetovoima",
+      "french": "Charme",
+      "german": "Verlockung",
+      "greek": "Allure",
+      "hungarian": "Csábítás",
+      "indonesian": "Allure",
+      "italian": "Allure",
+      "japanese": "Allure",
+      "koreana": "매혹",
+      "latam": "Seducción",
+      "norwegian": "Allure",
+      "polish": "Powab",
+      "portuguese": "Allure",
+      "romanian": "Allure",
+      "russian": "Шарм",
+      "schinese": "魅惑",
+      "schinese_pw": "Allure",
+      "spanish": "Seducción",
+      "swedish": "Allure",
+      "tchinese": "誘惑",
+      "thai": "Allure",
+      "turkish": "Cazibe",
+      "ukrainian": "Спокуса",
+      "vietnamese": "Allure"
+    },
+    "name": "Allure",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-965",
+  "localized_names": {
+    "brazilian": "MAC-10 | Fascinação",
+    "bulgarian": "MAC-10 | Примамливост",
+    "czech": "MAC-10 | Allure",
+    "danish": "MAC-10 | Allure",
+    "dutch": "MAC-10 | Allure",
+    "english": "MAC-10 | Allure",
+    "finnish": "MAC-10 | Vetovoima",
+    "french": "MAC-10 | Charme",
+    "german": "MAC-10 | Verlockung",
+    "greek": "MAC-10 | Allure",
+    "hungarian": "MAC-10 | Csábítás",
+    "indonesian": "MAC-10 | Allure",
+    "italian": "MAC-10 | Allure",
+    "japanese": "MAC-10 | Allure",
+    "koreana": "MAC-10 | 매혹",
+    "latam": "MAC-10 | Seducción",
+    "norwegian": "MAC-10 | Allure",
+    "polish": "MAC-10 | Powab",
+    "portuguese": "MAC-10 | Allure",
+    "romanian": "MAC-10 | Allure",
+    "russian": "MAC-10 | Шарм",
+    "schinese": "MAC-10 | 魅惑",
+    "schinese_pw": "MAC-10 | Allure",
+    "spanish": "MAC-10 | Seducción",
+    "swedish": "MAC-10 | Allure",
+    "tchinese": "MAC-10 | 誘惑",
+    "thai": "MAC-10 | Allure",
+    "turkish": "MAC-10 | Cazibe",
+    "ukrainian": "МАК-10 | Спокуса",
+    "vietnamese": "MAC-10 | Allure"
+  },
+  "media": {
+    "asset_id": "skin__17-965",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-965/light.png",
+      "data/api/media/rendered/files/skins/17-965/medium.png",
+      "data/api/media/rendered/files/skins/17-965/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-965.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-965/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-965/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-965/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-965/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_isoonna_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_isoonna_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_isoonna_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Allure",
+  "search_slug": "mac-10-allure",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4698",
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_26",
+        "name": "The Fracture Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-965__normal__battle-scarred",
+    "17-965__normal__factory-new",
+    "17-965__normal__field-tested",
+    "17-965__normal__minimal-wear",
+    "17-965__normal__well-worn",
+    "17-965__stattrak__battle-scarred",
+    "17-965__stattrak__factory-new",
+    "17-965__stattrak__field-tested",
+    "17-965__stattrak__minimal-wear",
+    "17-965__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

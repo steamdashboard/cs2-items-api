@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 477,
+    "id": 477,
+    "localized_names": {
+      "brazilian": "Rede Neural",
+      "bulgarian": "Невронна мрежа",
+      "czech": "Neural Net",
+      "danish": "Neural Net",
+      "dutch": "Neural Net",
+      "english": "Neural Net",
+      "finnish": "Neuraaliverkko",
+      "french": "Réseau neuronal",
+      "german": "Neurales Netz",
+      "greek": "Neural Net",
+      "hungarian": "Idegháló",
+      "indonesian": "Neural Net",
+      "italian": "Neural Net",
+      "japanese": "Neural Net",
+      "koreana": "신경망",
+      "latam": "Red neural",
+      "norwegian": "Neural Net",
+      "polish": "Sieć neuronowa",
+      "portuguese": "Neural Net",
+      "romanian": "Neural Net",
+      "russian": "Нейронная сеть",
+      "schinese": "神经网",
+      "schinese_pw": "Neural Net",
+      "spanish": "Red neural",
+      "swedish": "Neural Net",
+      "tchinese": "神經網路",
+      "thai": "Neural Net",
+      "turkish": "Sinir Ağı",
+      "ukrainian": "Нейронна сітка",
+      "vietnamese": "Neural Net"
+    },
+    "name": "Neural Net",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-477",
+  "localized_names": {
+    "brazilian": "FAMAS | Rede Neural",
+    "bulgarian": "FAMAS | Невронна мрежа",
+    "czech": "FAMAS | Neural Net",
+    "danish": "FAMAS | Neural Net",
+    "dutch": "FAMAS | Neural Net",
+    "english": "FAMAS | Neural Net",
+    "finnish": "FAMAS | Neuraaliverkko",
+    "french": "FAMAS | Réseau neuronal",
+    "german": "FAMAS | Neurales Netz",
+    "greek": "FAMAS | Neural Net",
+    "hungarian": "FAMAS | Idegháló",
+    "indonesian": "FAMAS | Neural Net",
+    "italian": "FAMAS | Neural Net",
+    "japanese": "FAMAS | Neural Net",
+    "koreana": "파마스 | 신경망",
+    "latam": "FAMAS | Red neural",
+    "norwegian": "FAMAS | Neural Net",
+    "polish": "FAMAS | Sieć neuronowa",
+    "portuguese": "FAMAS | Neural Net",
+    "romanian": "FAMAS | Neural Net",
+    "russian": "FAMAS | Нейронная сеть",
+    "schinese": "法玛斯 | 神经网",
+    "schinese_pw": "FAMAS | Neural Net",
+    "spanish": "FAMAS | Red neural",
+    "swedish": "FAMAS | Neural Net",
+    "tchinese": "FAMAS | 神經網路",
+    "thai": "FAMAS | Neural Net",
+    "turkish": "FAMAS | Sinir Ağı",
+    "ukrainian": "ФАМАС | Нейронна сітка",
+    "vietnamese": "FAMAS | Neural Net"
+  },
+  "media": {
+    "asset_id": "skin__10-477",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-477/light.png",
+      "data/api/media/rendered/files/skins/10-477/medium.png",
+      "data/api/media/rendered/files/skins/10-477/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-477.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-477/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-477/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-477/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-477/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_am_famas_dots_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_am_famas_dots_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_am_famas_dots_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Neural Net",
+  "search_slug": "famas-neural-net",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4091",
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_8",
+        "name": "The Falchion Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-477__normal__battle-scarred",
+    "10-477__normal__factory-new",
+    "10-477__normal__field-tested",
+    "10-477__normal__minimal-wear",
+    "10-477__normal__well-worn",
+    "10-477__stattrak__battle-scarred",
+    "10-477__stattrak__factory-new",
+    "10-477__stattrak__field-tested",
+    "10-477__stattrak__minimal-wear",
+    "10-477__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

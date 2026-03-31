@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 953,
+    "id": 953,
+    "localized_names": {
+      "brazilian": "Apocalíptica",
+      "bulgarian": "Апокалипто",
+      "czech": "Apocalypto",
+      "danish": "Apocalypto",
+      "dutch": "Apocalypto",
+      "english": "Apocalypto",
+      "finnish": "Maailmanloppu",
+      "french": "Apocalypto",
+      "german": "Apokalypse",
+      "greek": "Apocalypto",
+      "hungarian": "Apocalypto",
+      "indonesian": "Apocalypto",
+      "italian": "Apocalypto",
+      "japanese": "Apocalypto",
+      "koreana": "아포칼립토",
+      "latam": "Apocalipsis",
+      "norwegian": "Apocalypto",
+      "polish": "Apocalypto",
+      "portuguese": "Apocalypto",
+      "romanian": "Apocalypto",
+      "russian": "Апокалипто",
+      "schinese": "启示录",
+      "schinese_pw": "Apocalypto",
+      "spanish": "Apocalipsis",
+      "swedish": "Apocalypto",
+      "tchinese": "啟示錄",
+      "thai": "Apocalypto",
+      "turkish": "Apokalipto",
+      "ukrainian": "Апокаліпто",
+      "vietnamese": "Apocalypto"
+    },
+    "name": "Apocalypto",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "29-953",
+  "localized_names": {
+    "brazilian": "Cano Curto | Apocalíptica",
+    "bulgarian": "Скъсена цев | Апокалипто",
+    "czech": "Upilovaná brokovnice | Apocalypto",
+    "danish": "Sawed-off | Apocalypto",
+    "dutch": "Sawed-Off | Apocalypto",
+    "english": "Sawed-Off | Apocalypto",
+    "finnish": "Katkaistu haulikko | Maailmanloppu",
+    "french": "Sawed-Off | Apocalypto",
+    "german": "Abgesägte Schrotflinte | Apokalypse",
+    "greek": "Sawed-Off | Apocalypto",
+    "hungarian": "Lefűrészelt csövű sörétes | Apocalypto",
+    "indonesian": "Sawed-Off | Apocalypto",
+    "italian": "Fucile a canne mozze | Apocalypto",
+    "japanese": "Sawed-Off | Apocalypto",
+    "koreana": "소드오프 | 아포칼립토",
+    "latam": "Recortada | Apocalipsis",
+    "norwegian": "Sawed-Off | Apocalypto",
+    "polish": "Obrzyn | Apocalypto",
+    "portuguese": "Sawed-Off | Apocalypto",
+    "romanian": "Sawed-Off | Apocalypto",
+    "russian": "Обрез | Апокалипто",
+    "schinese": "截短霰弹枪 | 启示录",
+    "schinese_pw": "Sawed-Off | Apocalypto",
+    "spanish": "Recortada | Apocalipsis",
+    "swedish": "Sawed-Off | Apocalypto",
+    "tchinese": "Sawed-Off | 啟示錄",
+    "thai": "Sawed-Off | Apocalypto",
+    "turkish": "Sawed-Off | Apokalipto",
+    "ukrainian": "Обріз | Апокаліпто",
+    "vietnamese": "Súng nòng ngắn | Apocalypto"
+  },
+  "media": {
+    "asset_id": "skin__29-953",
+    "images_png": [
+      "data/api/media/rendered/files/skins/29-953/light.png",
+      "data/api/media/rendered/files/skins/29-953/medium.png",
+      "data/api/media/rendered/files/skins/29-953/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/29-953.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/29-953/heavy.png",
+      "light": "data/api/media/rendered/files/skins/29-953/light.png",
+      "medium": "data/api/media/rendered/files/skins/29-953/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/29-953/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_apocalypto_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_apocalypto_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sawedoff_cu_sawedoff_apocalypto_medium_png.vtex_c"
+    }
+  },
+  "name": "Sawed-Off | Apocalypto",
+  "search_slug": "sawed-off-apocalypto",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4695",
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_25",
+        "name": "The Prisma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "29-953__normal__battle-scarred",
+    "29-953__normal__factory-new",
+    "29-953__normal__field-tested",
+    "29-953__normal__minimal-wear",
+    "29-953__normal__well-worn",
+    "29-953__stattrak__battle-scarred",
+    "29-953__stattrak__factory-new",
+    "29-953__stattrak__field-tested",
+    "29-953__stattrak__minimal-wear",
+    "29-953__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 29,
+    "localized_names": {
+      "brazilian": "Cano Curto",
+      "bulgarian": "Скъсена цев",
+      "czech": "Upilovaná brokovnice",
+      "danish": "Sawed-off",
+      "dutch": "Sawed-Off",
+      "english": "Sawed-Off",
+      "finnish": "Katkaistu haulikko",
+      "french": "Sawed-Off",
+      "german": "Abgesägte Schrotflinte",
+      "greek": "Sawed-Off",
+      "hungarian": "Lefűrészelt csövű sörétes",
+      "indonesian": "Sawed-Off",
+      "italian": "Fucile a canne mozze",
+      "japanese": "Sawed-Off",
+      "koreana": "소드오프",
+      "latam": "Recortada",
+      "norwegian": "Sawed-Off",
+      "polish": "Obrzyn",
+      "portuguese": "Sawed-Off",
+      "romanian": "Sawed-Off",
+      "russian": "Обрез",
+      "schinese": "截短霰弹枪",
+      "schinese_pw": "Sawed-Off",
+      "spanish": "Recortada",
+      "swedish": "Sawed-Off",
+      "tchinese": "Sawed-Off",
+      "thai": "Sawed-Off",
+      "turkish": "Sawed-Off",
+      "ukrainian": "Обріз",
+      "vietnamese": "Súng nòng ngắn"
+    },
+    "name": "Sawed-Off",
+    "search_slug": "sawed-off",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

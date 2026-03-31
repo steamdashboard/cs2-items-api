@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 398,
+    "id": 398,
+    "localized_names": {
+      "brazilian": "Tagarela",
+      "bulgarian": "Кречетало",
+      "czech": "Chatterbox",
+      "danish": "Chatterbox",
+      "dutch": "Chatterbox",
+      "english": "Chatterbox",
+      "finnish": "Vääräleuka",
+      "french": "Moulin à paroles",
+      "german": "Quasselstrippe",
+      "greek": "Chatterbox",
+      "hungarian": "Szószátyár",
+      "indonesian": "Chatterbox",
+      "italian": "Chatterbox",
+      "japanese": "Chatterbox",
+      "koreana": "속사포",
+      "latam": "Charlatán",
+      "norwegian": "Chatterbox",
+      "polish": "Papla",
+      "portuguese": "Chatterbox",
+      "romanian": "Chatterbox",
+      "russian": "Щелкунчик",
+      "schinese": "喧闹骷髅",
+      "schinese_pw": "Chatterbox",
+      "spanish": "Charlatán",
+      "swedish": "Chatterbox",
+      "tchinese": "喋喋不休",
+      "thai": "Chatterbox",
+      "turkish": "Geveze",
+      "ukrainian": "Тріскачка",
+      "vietnamese": "Chatterbox"
+    },
+    "name": "Chatterbox",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.85,
+      "min_float": 0.35
+    }
+  },
+  "id": "13-398",
+  "localized_names": {
+    "brazilian": "Galil AR | Tagarela",
+    "bulgarian": "Galil AR | Кречетало",
+    "czech": "Galil AR | Chatterbox",
+    "danish": "Galil AR | Chatterbox",
+    "dutch": "Galil AR | Chatterbox",
+    "english": "Galil AR | Chatterbox",
+    "finnish": "Galil AR | Vääräleuka",
+    "french": "Galil AR | Moulin à paroles",
+    "german": "Galil AR | Quasselstrippe",
+    "greek": "Galil AR | Chatterbox",
+    "hungarian": "Galil AR | Szószátyár",
+    "indonesian": "Galil AR | Chatterbox",
+    "italian": "Galil AR | Chatterbox",
+    "japanese": "Galil AR | Chatterbox",
+    "koreana": "갈릴 돌격소총 | 속사포",
+    "latam": "Galil AR | Charlatán",
+    "norwegian": "Galil AR | Chatterbox",
+    "polish": "Galil AR | Papla",
+    "portuguese": "Galil AR | Chatterbox",
+    "romanian": "Galil AR | Chatterbox",
+    "russian": "Автомат «Галиль» | Щелкунчик",
+    "schinese": "加利尔AR | 喧闹骷髅",
+    "schinese_pw": "Galil AR | Chatterbox",
+    "spanish": "Galil AR | Charlatán",
+    "swedish": "Galil AR | Chatterbox",
+    "tchinese": "Galil AR | 喋喋不休",
+    "thai": "Galil AR | Chatterbox",
+    "turkish": "Galil AR | Geveze",
+    "ukrainian": "Ґаліл | Тріскачка",
+    "vietnamese": "Galil AR | Chatterbox"
+  },
+  "media": {
+    "asset_id": "skin__13-398",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-398/light.png",
+      "data/api/media/rendered/files/skins/13-398/medium.png",
+      "data/api/media/rendered/files/skins/13-398/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-398.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-398/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-398/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-398/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-398/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_abrasion_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_abrasion_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_abrasion_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Chatterbox",
+  "search_slug": "galil-ar-chatterbox",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-398__normal__battle-scarred",
+    "13-398__normal__field-tested",
+    "13-398__normal__well-worn",
+    "13-398__stattrak__battle-scarred",
+    "13-398__stattrak__field-tested",
+    "13-398__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.85,
+    "min_float": 0.35
+  }
+}

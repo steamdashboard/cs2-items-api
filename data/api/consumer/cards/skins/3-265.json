@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 265,
+    "id": 265,
+    "localized_names": {
+      "brazilian": "Kami",
+      "bulgarian": "Ками",
+      "czech": "Kami",
+      "danish": "Kami",
+      "dutch": "Kami",
+      "english": "Kami",
+      "finnish": "Kami",
+      "french": "Kami",
+      "german": "Kami",
+      "greek": "Kami",
+      "hungarian": "Kami",
+      "indonesian": "Kami",
+      "italian": "Kami",
+      "japanese": "Kami",
+      "koreana": "종이",
+      "latam": "Kami",
+      "norwegian": "Kami",
+      "polish": "Kami",
+      "portuguese": "Kami",
+      "romanian": "Kami",
+      "russian": "Ками",
+      "schinese": "神祇",
+      "schinese_pw": "Kami",
+      "spanish": "Kami",
+      "swedish": "Kami",
+      "tchinese": "紙（Kami）",
+      "thai": "Kami",
+      "turkish": "Kami",
+      "ukrainian": "Камі",
+      "vietnamese": "Kami"
+    },
+    "name": "Kami",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-265",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Kami",
+    "bulgarian": "Five-SeveN | Ками",
+    "czech": "Five-SeveN | Kami",
+    "danish": "Five-SeveN | Kami",
+    "dutch": "Five-SeveN | Kami",
+    "english": "Five-SeveN | Kami",
+    "finnish": "Five-SeveN | Kami",
+    "french": "Five-SeveN | Kami",
+    "german": "Five-SeveN | Kami",
+    "greek": "Five-SeveN | Kami",
+    "hungarian": "Five-SeveN | Kami",
+    "indonesian": "Five-SeveN | Kami",
+    "italian": "Five-SeveN | Kami",
+    "japanese": "Five-SeveN | Kami",
+    "koreana": "파이브 세븐 | 종이",
+    "latam": "Five-SeveN | Kami",
+    "norwegian": "Five-SeveN | Kami",
+    "polish": "Five-SeveN | Kami",
+    "portuguese": "Five-SeveN | Kami",
+    "romanian": "Five-SeveN | Kami",
+    "russian": "Five-SeveN | Ками",
+    "schinese": "FN57 | 神祇",
+    "schinese_pw": "Five-SeveN | Kami",
+    "spanish": "Five-seveN | Kami",
+    "swedish": "Five-SeveN | Kami",
+    "tchinese": "Five-SeveN | 紙（Kami）",
+    "thai": "Five-SeveN | Kami",
+    "turkish": "Five-SeveN | Kami",
+    "ukrainian": "Five-seveN | Камі",
+    "vietnamese": "Five-SeveN | Kami"
+  },
+  "media": {
+    "asset_id": "skin__3-265",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-265/light.png",
+      "data/api/media/rendered/files/skins/3-265/medium.png",
+      "data/api/media/rendered/files/skins/3-265/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-265.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-265/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-265/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-265/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-265/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_hy_kami_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_hy_kami_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_hy_kami_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Kami",
+  "search_slug": "five-seven-kami",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-265__normal__factory-new",
+    "3-265__normal__field-tested",
+    "3-265__normal__minimal-wear",
+    "3-265__stattrak__factory-new",
+    "3-265__stattrak__field-tested",
+    "3-265__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

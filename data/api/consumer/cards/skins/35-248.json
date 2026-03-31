@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 248,
+    "id": 248,
+    "localized_names": {
+      "brazilian": "Quartzo Vermelho",
+      "bulgarian": "Червен кварц",
+      "czech": "Red Quartz",
+      "danish": "Red Quartz",
+      "dutch": "Red Quartz",
+      "english": "Red Quartz",
+      "finnish": "Punakvartsi",
+      "french": "Quartz rouge",
+      "german": "Roter Quarz",
+      "greek": "Red Quartz",
+      "hungarian": "Vörös Kvarc",
+      "indonesian": "Red Quartz",
+      "italian": "Red Quartz",
+      "japanese": "Red Quartz",
+      "koreana": "붉은 수정",
+      "latam": "Cuarzo rojo",
+      "norwegian": "Red Quartz",
+      "polish": "Czerwony kwarc",
+      "portuguese": "Red Quartz",
+      "romanian": "Red Quartz",
+      "russian": "Красный кварц",
+      "schinese": "晶红石英",
+      "schinese_pw": "Red Quartz",
+      "spanish": "Cuarzo rojo",
+      "swedish": "Red Quartz",
+      "tchinese": "紅色石英",
+      "thai": "Red Quartz",
+      "turkish": "Kırmızı Kuvars",
+      "ukrainian": "Червоний кварц",
+      "vietnamese": "Red Quartz"
+    },
+    "name": "Red Quartz",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-248",
+  "localized_names": {
+    "brazilian": "Nova | Quartzo Vermelho",
+    "bulgarian": "Nova | Червен кварц",
+    "czech": "Nova | Red Quartz",
+    "danish": "Nova | Red Quartz",
+    "dutch": "Nova | Red Quartz",
+    "english": "Nova | Red Quartz",
+    "finnish": "Nova | Punakvartsi",
+    "french": "Nova | Quartz rouge",
+    "german": "Nova | Roter Quarz",
+    "greek": "Nova | Red Quartz",
+    "hungarian": "Nova | Vörös Kvarc",
+    "indonesian": "Nova | Red Quartz",
+    "italian": "Nova | Red Quartz",
+    "japanese": "Nova | Red Quartz",
+    "koreana": "노바 | 붉은 수정",
+    "latam": "Nova | Cuarzo rojo",
+    "norwegian": "Nova | Red Quartz",
+    "polish": "Nova | Czerwony kwarc",
+    "portuguese": "Nova | Red Quartz",
+    "romanian": "Nova | Red Quartz",
+    "russian": "Nova | Красный кварц",
+    "schinese": "新星 | 晶红石英",
+    "schinese_pw": "Nova | Red Quartz",
+    "spanish": "Nova | Cuarzo rojo",
+    "swedish": "Nova | Red Quartz",
+    "tchinese": "Nova | 紅色石英",
+    "thai": "Nova | Red Quartz",
+    "turkish": "Nova | Kırmızı Kuvars",
+    "ukrainian": "Нова | Червоний кварц",
+    "vietnamese": "Nova | Red Quartz"
+  },
+  "media": {
+    "asset_id": "skin__35-248",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-248/light.png",
+      "data/api/media/rendered/files/skins/35-248/medium.png",
+      "data/api/media/rendered/files/skins/35-248/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-248.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-248/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-248/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-248/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-248/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_am_crystallized_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_am_crystallized_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_am_crystallized_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Red Quartz",
+  "search_slug": "nova-red-quartz",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2021",
+        "name": "The 2021 Train Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4786",
+        "kind": "container",
+        "name": "The 2021 Train Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-248__normal__factory-new",
+    "35-248__normal__field-tested",
+    "35-248__normal__minimal-wear",
+    "35-248__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

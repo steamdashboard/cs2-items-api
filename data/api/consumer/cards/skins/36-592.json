@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 592,
+    "id": 592,
+    "localized_names": {
+      "brazilian": "Cobertura Férrea",
+      "bulgarian": "Желязно покритие",
+      "czech": "Iron Clad",
+      "danish": "Iron Clad",
+      "dutch": "Iron Clad",
+      "english": "Iron Clad",
+      "finnish": "Rautaesirippu",
+      "french": "Soldat",
+      "german": "Eisenbeschichtet",
+      "greek": "Iron Clad",
+      "hungarian": "Vaspáncélos",
+      "indonesian": "Iron Clad",
+      "italian": "Iron Clad",
+      "japanese": "Iron Clad",
+      "koreana": "철갑",
+      "latam": "Blindado",
+      "norwegian": "Iron Clad",
+      "polish": "Żelazne okucie",
+      "portuguese": "Iron Clad",
+      "romanian": "Iron Clad",
+      "russian": "Железное покрытие",
+      "schinese": "铠甲",
+      "schinese_pw": "Iron Clad",
+      "spanish": "Blindado",
+      "swedish": "Iron Clad",
+      "tchinese": "鐵甲",
+      "thai": "Iron Clad",
+      "turkish": "Demir Zırhlı",
+      "ukrainian": "Металеве вбрання",
+      "vietnamese": "Iron Clad"
+    },
+    "name": "Iron Clad",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.05
+    }
+  },
+  "id": "36-592",
+  "localized_names": {
+    "brazilian": "P250 | Cobertura Férrea",
+    "bulgarian": "P250 | Желязно покритие",
+    "czech": "P250 | Iron Clad",
+    "danish": "P250 | Iron Clad",
+    "dutch": "P250 | Iron Clad",
+    "english": "P250 | Iron Clad",
+    "finnish": "P250 | Rautaesirippu",
+    "french": "P250 | Soldat",
+    "german": "P250 | Eisenbeschichtet",
+    "greek": "P250 | Iron Clad",
+    "hungarian": "P250 | Vaspáncélos",
+    "indonesian": "P250 | Iron Clad",
+    "italian": "P250 | Iron Clad",
+    "japanese": "P250 | Iron Clad",
+    "koreana": "P250 | 철갑",
+    "latam": "P250 | Blindado",
+    "norwegian": "P250 | Iron Clad",
+    "polish": "P250 | Żelazne okucie",
+    "portuguese": "P250 | Iron Clad",
+    "romanian": "P250 | Iron Clad",
+    "russian": "P250 | Железное покрытие",
+    "schinese": "P250 | 铠甲",
+    "schinese_pw": "P250 | Iron Clad",
+    "spanish": "P250 | Blindado",
+    "swedish": "P250 | Iron Clad",
+    "tchinese": "P250 | 鐵甲",
+    "thai": "P250 | Iron Clad",
+    "turkish": "P250 | Demir Zırhlı",
+    "ukrainian": "П250 | Металеве вбрання",
+    "vietnamese": "P250 | Iron Clad"
+  },
+  "media": {
+    "asset_id": "skin__36-592",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-592/light.png",
+      "data/api/media/rendered/files/skins/36-592/medium.png",
+      "data/api/media/rendered/files/skins/36-592/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-592.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-592/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-592/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-592/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-592/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_gs_p250_metal_panels_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_gs_p250_metal_panels_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_gs_p250_metal_panels_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Iron Clad",
+  "search_slug": "p250-iron-clad",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4236",
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_13",
+        "name": "The Gamma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-592__normal__battle-scarred",
+    "36-592__normal__factory-new",
+    "36-592__normal__field-tested",
+    "36-592__normal__minimal-wear",
+    "36-592__normal__well-worn",
+    "36-592__stattrak__battle-scarred",
+    "36-592__stattrak__factory-new",
+    "36-592__stattrak__field-tested",
+    "36-592__stattrak__minimal-wear",
+    "36-592__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.05
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 347,
+    "id": 347,
+    "localized_names": {
+      "brazilian": "Piloto",
+      "bulgarian": "Пилот",
+      "czech": "Pilot",
+      "danish": "Pilot",
+      "dutch": "Pilot",
+      "english": "Pilot",
+      "finnish": "Pilotti",
+      "french": "Aviateur",
+      "german": "Pilot",
+      "greek": "Pilot",
+      "hungarian": "Pilóta",
+      "indonesian": "Pilot",
+      "italian": "Pilot",
+      "japanese": "Pilot",
+      "koreana": "조종사",
+      "latam": "Piloto",
+      "norwegian": "Pilot",
+      "polish": "Pilot",
+      "portuguese": "Pilot",
+      "romanian": "Pilot",
+      "russian": "Пилот",
+      "schinese": "飞行员",
+      "schinese_pw": "Pilot",
+      "spanish": "Piloto",
+      "swedish": "Pilot",
+      "tchinese": "機長",
+      "thai": "Pilot",
+      "turkish": "Pilot",
+      "ukrainian": "Пілот",
+      "vietnamese": "Pilot"
+    },
+    "name": "Pilot",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-347",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Piloto",
+    "bulgarian": "Desert Eagle | Пилот",
+    "czech": "Desert Eagle | Pilot",
+    "danish": "Desert Eagle | Pilot",
+    "dutch": "Desert Eagle | Pilot",
+    "english": "Desert Eagle | Pilot",
+    "finnish": "Desert Eagle | Pilotti",
+    "french": "Desert Eagle | Aviateur",
+    "german": "Desert Eagle | Pilot",
+    "greek": "Desert Eagle | Pilot",
+    "hungarian": "Desert Eagle | Pilóta",
+    "indonesian": "Desert Eagle | Pilot",
+    "italian": "Desert Eagle | Pilot",
+    "japanese": "Desert Eagle | Pilot",
+    "koreana": "데저트 이글 | 조종사",
+    "latam": "Desert Eagle | Piloto",
+    "norwegian": "Desert Eagle | Pilot",
+    "polish": "Desert Eagle | Pilot",
+    "portuguese": "Desert Eagle | Pilot",
+    "romanian": "Desert Eagle | Pilot",
+    "russian": "Desert Eagle | Пилот",
+    "schinese": "沙漠之鹰 | 飞行员",
+    "schinese_pw": "Desert Eagle | Pilot",
+    "spanish": "Desert Eagle | Piloto",
+    "swedish": "Desert Eagle | Pilot",
+    "tchinese": "Desert Eagle | 機長",
+    "thai": "Desert Eagle | Pilot",
+    "turkish": "Desert Eagle | Pilot",
+    "ukrainian": "Пустельний орел | Пілот",
+    "vietnamese": "Desert Eagle | Pilot"
+  },
+  "media": {
+    "asset_id": "skin__1-347",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-347/light.png",
+      "data/api/media/rendered/files/skins/1-347/medium.png",
+      "data/api/media/rendered/files/skins/1-347/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-347.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-347/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-347/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-347/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-347/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_aq_pilot_deagle_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_aq_pilot_deagle_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_aq_pilot_deagle_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Pilot",
+  "search_slug": "desert-eagle-pilot",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_baggage",
+        "name": "The Baggage Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-347__normal__battle-scarred",
+    "1-347__normal__factory-new",
+    "1-347__normal__field-tested",
+    "1-347__normal__minimal-wear",
+    "1-347__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

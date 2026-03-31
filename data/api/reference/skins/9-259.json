@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_awp_cobra",
+    "id": 259,
+    "name": "Redline",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 259,
+    "weapon_id": 9
+  },
+  "id": "9-259",
+  "name": "AWP | Redline",
+  "search_slug": "awp-redline",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "9-259__normal__minimal-wear",
+    "9-259__normal__field-tested",
+    "9-259__normal__well-worn",
+    "9-259__stattrak__minimal-wear",
+    "9-259__stattrak__field-tested",
+    "9-259__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_awp",
+    "id": 9,
+    "name": "AWP",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.1
+  }
+}

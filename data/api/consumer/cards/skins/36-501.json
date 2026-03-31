@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 501,
+    "id": 501,
+    "localized_names": {
+      "brazilian": "Tiro Emplumado",
+      "bulgarian": "Окрилен изстрел",
+      "czech": "Wingshot",
+      "danish": "Wingshot",
+      "dutch": "Wingshot",
+      "english": "Wingshot",
+      "finnish": "Siipi-isku",
+      "french": "Tir emplumé",
+      "german": "Flügelschuss",
+      "greek": "Wingshot",
+      "hungarian": "Szárnylövés",
+      "indonesian": "Wingshot",
+      "italian": "Wingshot",
+      "japanese": "Wingshot",
+      "koreana": "윙샷",
+      "latam": "Disparo alado",
+      "norwegian": "Wingshot",
+      "polish": "Skrzydłowy",
+      "portuguese": "Wingshot",
+      "romanian": "Wingshot",
+      "russian": "Охотник",
+      "schinese": "翼击",
+      "schinese_pw": "Wingshot",
+      "spanish": "Disparo alado",
+      "swedish": "Wingshot",
+      "tchinese": "飛靶射擊",
+      "thai": "Wingshot",
+      "turkish": "Kanat Atışı",
+      "ukrainian": "Постріл у літуна",
+      "vietnamese": "Wingshot"
+    },
+    "name": "Wingshot",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.9,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-501",
+  "localized_names": {
+    "brazilian": "P250 | Tiro Emplumado",
+    "bulgarian": "P250 | Окрилен изстрел",
+    "czech": "P250 | Wingshot",
+    "danish": "P250 | Wingshot",
+    "dutch": "P250 | Wingshot",
+    "english": "P250 | Wingshot",
+    "finnish": "P250 | Siipi-isku",
+    "french": "P250 | Tir emplumé",
+    "german": "P250 | Flügelschuss",
+    "greek": "P250 | Wingshot",
+    "hungarian": "P250 | Szárnylövés",
+    "indonesian": "P250 | Wingshot",
+    "italian": "P250 | Wingshot",
+    "japanese": "P250 | Wingshot",
+    "koreana": "P250 | 윙샷",
+    "latam": "P250 | Disparo alado",
+    "norwegian": "P250 | Wingshot",
+    "polish": "P250 | Skrzydłowy",
+    "portuguese": "P250 | Wingshot",
+    "romanian": "P250 | Wingshot",
+    "russian": "P250 | Охотник",
+    "schinese": "P250 | 翼击",
+    "schinese_pw": "P250 | Wingshot",
+    "spanish": "P250 | Disparo alado",
+    "swedish": "P250 | Wingshot",
+    "tchinese": "P250 | 飛靶射擊",
+    "thai": "P250 | Wingshot",
+    "turkish": "P250 | Kanat Atışı",
+    "ukrainian": "П250 | Постріл у літуна",
+    "vietnamese": "P250 | Wingshot"
+  },
+  "media": {
+    "asset_id": "skin__36-501",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-501/light.png",
+      "data/api/media/rendered/files/skins/36-501/medium.png",
+      "data/api/media/rendered/files/skins/36-501/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-501.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-501/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-501/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-501/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-501/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_hy_p250_crackshot_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_hy_p250_crackshot_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_hy_p250_crackshot_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Wingshot",
+  "search_slug": "p250-wingshot",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4138",
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_9",
+        "name": "The Shadow Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-501__normal__battle-scarred",
+    "36-501__normal__factory-new",
+    "36-501__normal__field-tested",
+    "36-501__normal__minimal-wear",
+    "36-501__normal__well-worn",
+    "36-501__stattrak__battle-scarred",
+    "36-501__stattrak__factory-new",
+    "36-501__stattrak__field-tested",
+    "36-501__stattrak__minimal-wear",
+    "36-501__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.9,
+    "min_float": 0.0
+  }
+}

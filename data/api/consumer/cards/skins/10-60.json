@@ -1,0 +1,251 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 60,
+    "id": 60,
+    "localized_names": {
+      "brazilian": "Água Escura",
+      "bulgarian": "Черна вода",
+      "czech": "Dark Water",
+      "danish": "Dark Water",
+      "dutch": "Dark Water",
+      "english": "Dark Water",
+      "finnish": "Tumma vesi",
+      "french": "Eau sombre",
+      "german": "Dunkles Wasser",
+      "greek": "Dark Water",
+      "hungarian": "Fekete Víz",
+      "indonesian": "Dark Water",
+      "italian": "Dark Water",
+      "japanese": "Dark Water",
+      "koreana": "어두운 수면",
+      "latam": "Aguas profundas",
+      "norwegian": "Dark Water",
+      "polish": "Mroczne wody",
+      "portuguese": "Dark Water",
+      "romanian": "Dark Water",
+      "russian": "Тёмная вода",
+      "schinese": "黑水",
+      "schinese_pw": "Dark Water",
+      "spanish": "Aguas profundas",
+      "swedish": "Dark Water",
+      "tchinese": "濁水戰術",
+      "thai": "Dark Water",
+      "turkish": "Kara Su",
+      "ukrainian": "Темна вода",
+      "vietnamese": "Dark Water"
+    },
+    "name": "Dark Water",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.1
+    }
+  },
+  "id": "10-60",
+  "localized_names": {
+    "brazilian": "FAMAS | Água Escura",
+    "bulgarian": "FAMAS | Черна вода",
+    "czech": "FAMAS | Dark Water",
+    "danish": "FAMAS | Dark Water",
+    "dutch": "FAMAS | Dark Water",
+    "english": "FAMAS | Dark Water",
+    "finnish": "FAMAS | Tumma vesi",
+    "french": "FAMAS | Eau sombre",
+    "german": "FAMAS | Dunkles Wasser",
+    "greek": "FAMAS | Dark Water",
+    "hungarian": "FAMAS | Fekete Víz",
+    "indonesian": "FAMAS | Dark Water",
+    "italian": "FAMAS | Dark Water",
+    "japanese": "FAMAS | Dark Water",
+    "koreana": "파마스 | 어두운 수면",
+    "latam": "FAMAS | Aguas profundas",
+    "norwegian": "FAMAS | Dark Water",
+    "polish": "FAMAS | Mroczne wody",
+    "portuguese": "FAMAS | Dark Water",
+    "romanian": "FAMAS | Dark Water",
+    "russian": "FAMAS | Тёмная вода",
+    "schinese": "法玛斯 | 黑水",
+    "schinese_pw": "FAMAS | Dark Water",
+    "spanish": "FAMAS | Aguas profundas",
+    "swedish": "FAMAS | Dark Water",
+    "tchinese": "FAMAS | 濁水戰術",
+    "thai": "FAMAS | Dark Water",
+    "turkish": "FAMAS | Kara Su",
+    "ukrainian": "ФАМАС | Темна вода",
+    "vietnamese": "FAMAS | Dark Water"
+  },
+  "media": {
+    "asset_id": "skin__10-60",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-60/light.png",
+      "data/api/media/rendered/files/skins/10-60/medium.png",
+      "data/api/media/rendered/files/skins/10-60/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-60.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-60/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-60/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-60/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-60/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_am_zebra_dark_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_am_zebra_dark_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_am_zebra_dark_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Dark Water",
+  "search_slug": "famas-dark-water",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4722",
+        "kind": "container",
+        "name": "The Ancient Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4971",
+        "kind": "container",
+        "name": "Shanghai 2024 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5124",
+        "kind": "container",
+        "name": "Austin 2025 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5223",
+        "kind": "container",
+        "name": "Budapest 2025 Ancient Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4813",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4839",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4864",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4897",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4930",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "10-60__normal__field-tested",
+    "10-60__normal__minimal-wear",
+    "10-60__souvenir__field-tested",
+    "10-60__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.1
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "deagle_calligraff",
+    "id": 114,
+    "name": "PaintKit_deagle_calligraff_Tag",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 114,
+    "weapon_id": 1
+  },
+  "id": "1-114",
+  "name": "Desert Eagle | PaintKit_deagle_calligraff_Tag",
+  "search_slug": "desert-eagle-paintkit-deagle-calligraff-tag",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_34",
+        "name": "The Gallery Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "7003",
+        "kind": "weapon-case",
+        "name": "Gallery Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "1-114__normal__factory-new",
+    "1-114__normal__minimal-wear",
+    "1-114__normal__field-tested",
+    "1-114__normal__well-worn",
+    "1-114__normal__battle-scarred",
+    "1-114__stattrak__factory-new",
+    "1-114__stattrak__minimal-wear",
+    "1-114__stattrak__field-tested",
+    "1-114__stattrak__well-worn",
+    "1-114__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_deagle",
+    "id": 1,
+    "name": "Desert Eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

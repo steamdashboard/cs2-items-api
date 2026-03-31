@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1056,
+    "id": 1056,
+    "localized_names": {
+      "brazilian": "Sputnik",
+      "bulgarian": "Спътник",
+      "czech": "Sputnik",
+      "danish": "Sputnik",
+      "dutch": "Sputnik",
+      "english": "Sputnik",
+      "finnish": "Sputnik",
+      "french": "Spoutnik",
+      "german": "Sputnik",
+      "greek": "Sputnik",
+      "hungarian": "Szputnyik",
+      "indonesian": "Sputnik",
+      "italian": "Sputnik",
+      "japanese": "Sputnik",
+      "koreana": "스푸트니크",
+      "latam": "Sputnik",
+      "norwegian": "Sputnik",
+      "polish": "Sputnik",
+      "portuguese": "Sputnik",
+      "romanian": "Sputnik",
+      "russian": "Спутник",
+      "schinese": "人造卫星",
+      "schinese_pw": "Sputnik",
+      "spanish": "Sputnik",
+      "swedish": "Sputnik",
+      "tchinese": "人造衛星",
+      "thai": "Sputnik",
+      "turkish": "Sputnik",
+      "ukrainian": "Супутник",
+      "vietnamese": "Sputnik"
+    },
+    "name": "Sputnik",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-1056",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Sputnik",
+    "bulgarian": "Desert Eagle | Спътник",
+    "czech": "Desert Eagle | Sputnik",
+    "danish": "Desert Eagle | Sputnik",
+    "dutch": "Desert Eagle | Sputnik",
+    "english": "Desert Eagle | Sputnik",
+    "finnish": "Desert Eagle | Sputnik",
+    "french": "Desert Eagle | Spoutnik",
+    "german": "Desert Eagle | Sputnik",
+    "greek": "Desert Eagle | Sputnik",
+    "hungarian": "Desert Eagle | Szputnyik",
+    "indonesian": "Desert Eagle | Sputnik",
+    "italian": "Desert Eagle | Sputnik",
+    "japanese": "Desert Eagle | Sputnik",
+    "koreana": "데저트 이글 | 스푸트니크",
+    "latam": "Desert Eagle | Sputnik",
+    "norwegian": "Desert Eagle | Sputnik",
+    "polish": "Desert Eagle | Sputnik",
+    "portuguese": "Desert Eagle | Sputnik",
+    "romanian": "Desert Eagle | Sputnik",
+    "russian": "Desert Eagle | Спутник",
+    "schinese": "沙漠之鹰 | 人造卫星",
+    "schinese_pw": "Desert Eagle | Sputnik",
+    "spanish": "Desert Eagle | Sputnik",
+    "swedish": "Desert Eagle | Sputnik",
+    "tchinese": "Desert Eagle | 人造衛星",
+    "thai": "Desert Eagle | Sputnik",
+    "turkish": "Desert Eagle | Sputnik",
+    "ukrainian": "Пустельний орел | Супутник",
+    "vietnamese": "Desert Eagle | Sputnik"
+  },
+  "media": {
+    "asset_id": "skin__1-1056",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-1056/light.png",
+      "data/api/media/rendered/files/skins/1-1056/medium.png",
+      "data/api/media/rendered/files/skins/1-1056/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-1056.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-1056/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-1056/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-1056/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-1056/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_sp_spacerace_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_sp_spacerace_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_sp_spacerace_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Sputnik",
+  "search_slug": "desert-eagle-sputnik",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2021",
+        "name": "The 2021 Train Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4785",
+        "kind": "container",
+        "name": "The 2021 Train Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-1056__normal__battle-scarred",
+    "1-1056__normal__factory-new",
+    "1-1056__normal__field-tested",
+    "1-1056__normal__minimal-wear",
+    "1-1056__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

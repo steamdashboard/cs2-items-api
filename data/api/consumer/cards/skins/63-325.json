@@ -1,0 +1,265 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 325,
+    "id": 325,
+    "localized_names": {
+      "brazilian": "Cálice",
+      "bulgarian": "Бокал",
+      "czech": "Chalice",
+      "danish": "Chalice",
+      "dutch": "Chalice",
+      "english": "Chalice",
+      "finnish": "Malja",
+      "french": "Calice",
+      "german": "Kelch",
+      "greek": "Chalice",
+      "hungarian": "Serleg",
+      "indonesian": "Chalice",
+      "italian": "Chalice",
+      "japanese": "Chalice",
+      "koreana": "성배",
+      "latam": "Cáliz",
+      "norwegian": "Chalice",
+      "polish": "Kielich",
+      "portuguese": "Chalice",
+      "romanian": "Chalice",
+      "russian": "Чаша",
+      "schinese": "复古圣杯",
+      "schinese_pw": "Chalice",
+      "spanish": "Cáliz",
+      "swedish": "Chalice",
+      "tchinese": "聖盃",
+      "thai": "Chalice",
+      "turkish": "Kadeh",
+      "ukrainian": "Келих",
+      "vietnamese": "Chalice"
+    },
+    "name": "Chalice",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.1,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-325",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Cálice",
+    "bulgarian": "CZ75-Auto | Бокал",
+    "czech": "CZ75-Auto | Chalice",
+    "danish": "CZ75-Auto | Chalice",
+    "dutch": "CZ75-Auto | Chalice",
+    "english": "CZ75-Auto | Chalice",
+    "finnish": "CZ75-Auto | Malja",
+    "french": "CZ75-Auto | Calice",
+    "german": "CZ75-Auto | Kelch",
+    "greek": "CZ75-Auto | Chalice",
+    "hungarian": "CZ75-Auto | Serleg",
+    "indonesian": "CZ75-Auto | Chalice",
+    "italian": "CZ75-Auto | Chalice",
+    "japanese": "CZ75-Auto | Chalice",
+    "koreana": "CZ75 기관권총 | 성배",
+    "latam": "CZ75-Auto | Cáliz",
+    "norwegian": "CZ75-Auto | Chalice",
+    "polish": "CZ75-Auto | Kielich",
+    "portuguese": "CZ75-Auto | Chalice",
+    "romanian": "CZ75-Auto | Chalice",
+    "russian": "CZ75-Auto | Чаша",
+    "schinese": "CZ75自动型 | 复古圣杯",
+    "schinese_pw": "CZ75-Auto | Chalice",
+    "spanish": "CZ75-Auto | Cáliz",
+    "swedish": "CZ75-Auto | Chalice",
+    "tchinese": "CZ75-Auto | 聖盃",
+    "thai": "CZ75-Auto | Chalice",
+    "turkish": "CZ75-Otomatik | Kadeh",
+    "ukrainian": "ЧЗ-75 авто | Келих",
+    "vietnamese": "CZ75-Auto | Chalice"
+  },
+  "media": {
+    "asset_id": "skin__63-325",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-325/light.png",
+      "data/api/media/rendered/files/skins/63-325/medium.png",
+      "data/api/media/rendered/files/skins/63-325/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-325.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-325/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-325/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-325/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-325/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_am_royal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_am_royal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_am_royal_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Chalice",
+  "search_slug": "cz75-auto-chalice",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cobblestone",
+        "name": "The Cobblestone Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4602",
+        "kind": "container",
+        "name": "The Cobblestone Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4027",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4036",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4084",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4134",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4179",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4228",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4276",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4346",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4398",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4465",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cobblestone Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "63-325__normal__factory-new",
+    "63-325__normal__minimal-wear",
+    "63-325__souvenir__factory-new",
+    "63-325__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.1,
+    "min_float": 0.0
+  }
+}

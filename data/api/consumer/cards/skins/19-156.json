@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 156,
+    "id": 156,
+    "localized_names": {
+      "brazilian": "Gatinhos Mortais",
+      "bulgarian": "Смърт чрез котенце",
+      "czech": "Death by Kitty",
+      "danish": "Death by Kitty",
+      "dutch": "Death by Kitty",
+      "english": "Death by Kitty",
+      "finnish": "Kuolonkissa",
+      "french": "Death by Kitty",
+      "german": "Tod durch Kätzchen",
+      "greek": "Death by Kitty",
+      "hungarian": "Gyilkos Cica",
+      "indonesian": "Death by Kitty",
+      "italian": "Death by Kitty",
+      "japanese": "Death by Kitty",
+      "koreana": "해골 고양이",
+      "latam": "Muerte por gatito",
+      "norwegian": "Death by Kitty",
+      "polish": "Śmierć od kociaków",
+      "portuguese": "Death by Kitty",
+      "romanian": "Death by Kitty",
+      "russian": "Смертоносные кошечки",
+      "schinese": "喵之萌杀",
+      "schinese_pw": "Death by Kitty",
+      "spanish": "Muerte por gatito",
+      "swedish": "Death by Kitty",
+      "tchinese": "貓咪萌殺",
+      "thai": "Death by Kitty",
+      "turkish": "Ecel Kedisi",
+      "ukrainian": "Смерть від кицьок",
+      "vietnamese": "Death by Kitty"
+    },
+    "name": "Death by Kitty",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.32,
+      "min_float": 0.08
+    }
+  },
+  "id": "19-156",
+  "localized_names": {
+    "brazilian": "P90 | Gatinhos Mortais",
+    "bulgarian": "P90 | Смърт чрез котенце",
+    "czech": "P90 | Death by Kitty",
+    "danish": "P90 | Death by Kitty",
+    "dutch": "P90 | Death by Kitty",
+    "english": "P90 | Death by Kitty",
+    "finnish": "P90 | Kuolonkissa",
+    "french": "P90 | Death by Kitty",
+    "german": "P90 | Tod durch Kätzchen",
+    "greek": "P90 | Death by Kitty",
+    "hungarian": "P90 | Gyilkos Cica",
+    "indonesian": "P90 | Death by Kitty",
+    "italian": "P90 | Death by Kitty",
+    "japanese": "P90 | Death by Kitty",
+    "koreana": "P90 | 해골 고양이",
+    "latam": "P90 | Muerte por gatito",
+    "norwegian": "P90 | Death by Kitty",
+    "polish": "P90 | Śmierć od kociaków",
+    "portuguese": "P90 | Death by Kitty",
+    "romanian": "P90 | Death by Kitty",
+    "russian": "P90 | Смертоносные кошечки",
+    "schinese": "P90 | 喵之萌杀",
+    "schinese_pw": "P90 | Death by Kitty",
+    "spanish": "P90 | Muerte por gatito",
+    "swedish": "P90 | Death by Kitty",
+    "tchinese": "P90 | 貓咪萌殺",
+    "thai": "P90 | Death by Kitty",
+    "turkish": "P90 | Ecel Kedisi",
+    "ukrainian": "П90 | Смерть від кицьок",
+    "vietnamese": "P90 | Death by Kitty"
+  },
+  "media": {
+    "asset_id": "skin__19-156",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-156/light.png",
+      "data/api/media/rendered/files/skins/19-156/medium.png",
+      "data/api/media/rendered/files/skins/19-156/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-156.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-156/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-156/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-156/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-156/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_cu_catskulls_p90_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_cu_catskulls_p90_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_cu_catskulls_p90_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Death by Kitty",
+  "search_slug": "p90-death-by-kitty",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-156__normal__field-tested",
+    "19-156__normal__minimal-wear",
+    "19-156__stattrak__field-tested",
+    "19-156__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.32,
+    "min_float": 0.08
+  }
+}

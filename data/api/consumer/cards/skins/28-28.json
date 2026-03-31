@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 28,
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Azul-marinho Metalizado",
+      "bulgarian": "Анодно оксидирано тъмносиньо",
+      "czech": "Anodized Navy",
+      "danish": "Anodized Navy",
+      "dutch": "Anodized Navy",
+      "english": "Anodized Navy",
+      "finnish": "Anodisoitu laivastonsininen",
+      "french": "Bleu anodisé",
+      "german": "Marineblau eloxiert",
+      "greek": "Anodized Navy",
+      "hungarian": "Eloxált Haditengerészeti",
+      "indonesian": "Anodized Navy",
+      "italian": "Anodized Navy",
+      "japanese": "Anodized Navy",
+      "koreana": "도장 효과 군청색",
+      "latam": "Azul marino anodizado",
+      "norwegian": "Anodized Navy",
+      "polish": "Anodyzowany granatowy",
+      "portuguese": "Anodized Navy",
+      "romanian": "Anodized Navy",
+      "russian": "Анодированная синева",
+      "schinese": "深蓝电镀处理",
+      "schinese_pw": "Anodized Navy",
+      "spanish": "Azul marino anodizado",
+      "swedish": "Anodized Navy",
+      "tchinese": "海軍電鍍",
+      "thai": "Anodized Navy",
+      "turkish": "Eloksal Donanma",
+      "ukrainian": "Анодована синява",
+      "vietnamese": "Anodized Navy"
+    },
+    "name": "Anodized Navy",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-28",
+  "localized_names": {
+    "brazilian": "Negev | Azul-marinho Metalizado",
+    "bulgarian": "Negev | Анодно оксидирано тъмносиньо",
+    "czech": "Negev | Anodized Navy",
+    "danish": "Negev | Anodized Navy",
+    "dutch": "Negev | Anodized Navy",
+    "english": "Negev | Anodized Navy",
+    "finnish": "Negev | Anodisoitu laivastonsininen",
+    "french": "Negev | Bleu anodisé",
+    "german": "Negev | Marineblau eloxiert",
+    "greek": "Negev | Anodized Navy",
+    "hungarian": "Negev | Eloxált Haditengerészeti",
+    "indonesian": "Negev | Anodized Navy",
+    "italian": "Negev | Anodized Navy",
+    "japanese": "Negev | Anodized Navy",
+    "koreana": "네게브 | 도장 효과 군청색",
+    "latam": "Negev | Azul marino anodizado",
+    "norwegian": "Negev | Anodized Navy",
+    "polish": "Negev | Anodyzowany granatowy",
+    "portuguese": "Negev | Anodized Navy",
+    "romanian": "Negev | Anodized Navy",
+    "russian": "Негев | Анодированная синева",
+    "schinese": "内格夫 | 深蓝电镀处理",
+    "schinese_pw": "Negev | Anodized Navy",
+    "spanish": "Negev | Azul marino anodizado",
+    "swedish": "Negev | Anodized Navy",
+    "tchinese": "Negev | 海軍電鍍",
+    "thai": "Negev | Anodized Navy",
+    "turkish": "Negev | Eloksal Donanma",
+    "ukrainian": "Неґев | Анодована синява",
+    "vietnamese": "Negev | Anodized Navy"
+  },
+  "media": {
+    "asset_id": "skin__28-28",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-28/light.png",
+      "data/api/media/rendered/files/skins/28-28/medium.png",
+      "data/api/media/rendered/files/skins/28-28/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-28.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-28/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-28/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-28/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-28/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_an_navy_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_an_navy_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_an_navy_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Anodized Navy",
+  "search_slug": "negev-anodized-navy",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_assault",
+        "name": "The Assault Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-28__normal__factory-new",
+    "28-28__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

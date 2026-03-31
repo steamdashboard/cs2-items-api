@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 274,
+    "id": 274,
+    "localized_names": {
+      "brazilian": "Galáxia de Cobre",
+      "bulgarian": "Медна галактика",
+      "czech": "Copper Galaxy",
+      "danish": "Copper Galaxy",
+      "dutch": "Copper Galaxy",
+      "english": "Copper Galaxy",
+      "finnish": "Kuparigalaksi",
+      "french": "Galaxie cuivrée",
+      "german": "Kupfergalaxie",
+      "greek": "Copper Galaxy",
+      "hungarian": "Réz Galaxis",
+      "indonesian": "Copper Galaxy",
+      "italian": "Copper Galaxy",
+      "japanese": "Copper Galaxy",
+      "koreana": "구릿빛 우주",
+      "latam": "Cobre galaxia",
+      "norwegian": "Copper Galaxy",
+      "polish": "Kosmiczna miedź",
+      "portuguese": "Copper Galaxy",
+      "romanian": "Copper Galaxy",
+      "russian": "Медная галактика",
+      "schinese": "铜色星系",
+      "schinese_pw": "Copper Galaxy",
+      "spanish": "Cobre galaxia",
+      "swedish": "Copper Galaxy",
+      "tchinese": "銅質宇宙",
+      "thai": "Copper Galaxy",
+      "turkish": "Bakır Galaksi",
+      "ukrainian": "Мідна галактика",
+      "vietnamese": "Copper Galaxy"
+    },
+    "name": "Copper Galaxy",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-274",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Galáxia de Cobre",
+    "bulgarian": "Five-SeveN | Медна галактика",
+    "czech": "Five-SeveN | Copper Galaxy",
+    "danish": "Five-SeveN | Copper Galaxy",
+    "dutch": "Five-SeveN | Copper Galaxy",
+    "english": "Five-SeveN | Copper Galaxy",
+    "finnish": "Five-SeveN | Kuparigalaksi",
+    "french": "Five-SeveN | Galaxie cuivrée",
+    "german": "Five-SeveN | Kupfergalaxie",
+    "greek": "Five-SeveN | Copper Galaxy",
+    "hungarian": "Five-SeveN | Réz Galaxis",
+    "indonesian": "Five-SeveN | Copper Galaxy",
+    "italian": "Five-SeveN | Copper Galaxy",
+    "japanese": "Five-SeveN | Copper Galaxy",
+    "koreana": "파이브 세븐 | 구릿빛 우주",
+    "latam": "Five-SeveN | Cobre galaxia",
+    "norwegian": "Five-SeveN | Copper Galaxy",
+    "polish": "Five-SeveN | Kosmiczna miedź",
+    "portuguese": "Five-SeveN | Copper Galaxy",
+    "romanian": "Five-SeveN | Copper Galaxy",
+    "russian": "Five-SeveN | Медная галактика",
+    "schinese": "FN57 | 铜色星系",
+    "schinese_pw": "Five-SeveN | Copper Galaxy",
+    "spanish": "Five-seveN | Cobre galaxia",
+    "swedish": "Five-SeveN | Copper Galaxy",
+    "tchinese": "Five-SeveN | 銅質宇宙",
+    "thai": "Five-SeveN | Copper Galaxy",
+    "turkish": "Five-SeveN | Bakır Galaksi",
+    "ukrainian": "Five-seveN | Мідна галактика",
+    "vietnamese": "Five-SeveN | Copper Galaxy"
+  },
+  "media": {
+    "asset_id": "skin__3-274",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-274/light.png",
+      "data/api/media/rendered/files/skins/3-274/medium.png",
+      "data/api/media/rendered/files/skins/3-274/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-274.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-274/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-274/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-274/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-274/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_am_copper_flecks_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_am_copper_flecks_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_am_copper_flecks_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Copper Galaxy",
+  "search_slug": "five-seven-copper-galaxy",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4010",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_iii",
+        "name": "The Arms Deal 3 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-274__normal__factory-new",
+    "3-274__normal__field-tested",
+    "3-274__normal__minimal-wear",
+    "3-274__stattrak__factory-new",
+    "3-274__stattrak__field-tested",
+    "3-274__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

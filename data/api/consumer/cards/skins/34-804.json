@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 804,
+    "id": 804,
+    "localized_names": {
+      "brazilian": "Ameaça Modesta",
+      "bulgarian": "Скромна заплаха",
+      "czech": "Modest Threat",
+      "danish": "Modest Threat",
+      "dutch": "Modest Threat",
+      "english": "Modest Threat",
+      "finnish": "Maltillinen uhka",
+      "french": "Modeste menace",
+      "german": "Bescheidene Drohung",
+      "greek": "Modest Threat",
+      "hungarian": "Mérsékelt Fenyegetés",
+      "indonesian": "Modest Threat",
+      "italian": "Modest Threat",
+      "japanese": "Modest Threat",
+      "koreana": "평범한 위협",
+      "latam": "Amenaza moderada",
+      "norwegian": "Modest Threat",
+      "polish": "Niepozorne zagrożenie",
+      "portuguese": "Modest Threat",
+      "romanian": "Modest Threat",
+      "russian": "Скромная угроза",
+      "schinese": "中度威胁",
+      "schinese_pw": "Modest Threat",
+      "spanish": "Amenaza moderada",
+      "swedish": "Modest Threat",
+      "tchinese": "適度威脅",
+      "thai": "Modest Threat",
+      "turkish": "Mütevazı Tehdit",
+      "ukrainian": "Скромна загроза",
+      "vietnamese": "Modest Threat"
+    },
+    "name": "Modest Threat",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-804",
+  "localized_names": {
+    "brazilian": "MP9 | Ameaça Modesta",
+    "bulgarian": "MP9 | Скромна заплаха",
+    "czech": "MP9 | Modest Threat",
+    "danish": "MP9 | Modest Threat",
+    "dutch": "MP9 | Modest Threat",
+    "english": "MP9 | Modest Threat",
+    "finnish": "MP9 | Maltillinen uhka",
+    "french": "MP9 | Modeste menace",
+    "german": "MP9 | Bescheidene Drohung",
+    "greek": "MP9 | Modest Threat",
+    "hungarian": "MP9 | Mérsékelt Fenyegetés",
+    "indonesian": "MP9 | Modest Threat",
+    "italian": "MP9 | Modest Threat",
+    "japanese": "MP9 | Modest Threat",
+    "koreana": "MP9 | 평범한 위협",
+    "latam": "MP9 | Amenaza moderada",
+    "norwegian": "MP9 | Modest Threat",
+    "polish": "MP9 | Niepozorne zagrożenie",
+    "portuguese": "MP9 | Modest Threat",
+    "romanian": "MP9 | Modest Threat",
+    "russian": "MP9 | Скромная угроза",
+    "schinese": "MP9 | 中度威胁",
+    "schinese_pw": "MP9 | Modest Threat",
+    "spanish": "MP9 | Amenaza moderada",
+    "swedish": "MP9 | Modest Threat",
+    "tchinese": "MP9 | 適度威脅",
+    "thai": "MP9 | Modest Threat",
+    "turkish": "MP9 | Mütevazı Tehdit",
+    "ukrainian": "МП9 | Скромна загроза",
+    "vietnamese": "MP9 | Modest Threat"
+  },
+  "media": {
+    "asset_id": "skin__34-804",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-804/light.png",
+      "data/api/media/rendered/files/skins/34-804/medium.png",
+      "data/api/media/rendered/files/skins/34-804/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-804.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-804/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-804/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-804/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-804/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_gs_mp9_colony01_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_gs_mp9_colony01_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_gs_mp9_colony01_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Modest Threat",
+  "search_slug": "mp9-modest-threat",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4548",
+        "kind": "weapon-case",
+        "name": "Danger Zone Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_21",
+        "name": "The Danger Zone Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-804__normal__battle-scarred",
+    "34-804__normal__factory-new",
+    "34-804__normal__field-tested",
+    "34-804__normal__minimal-wear",
+    "34-804__normal__well-worn",
+    "34-804__stattrak__battle-scarred",
+    "34-804__stattrak__factory-new",
+    "34-804__stattrak__field-tested",
+    "34-804__stattrak__minimal-wear",
+    "34-804__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

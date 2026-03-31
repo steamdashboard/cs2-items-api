@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1347,
+    "id": 1347,
+    "localized_names": {
+      "brazilian": "Olhos Angelicais",
+      "bulgarian": "Ангелски очи",
+      "czech": "Angel Eyes",
+      "danish": "Angel Eyes",
+      "dutch": "Angel Eyes",
+      "english": "Angel Eyes",
+      "finnish": "Enkelin silmät",
+      "french": "Yeux angéliques",
+      "german": "Engelsaugen",
+      "greek": "Angel Eyes",
+      "hungarian": "Angyalszemek",
+      "indonesian": "Angel Eyes",
+      "italian": "Angel Eyes",
+      "japanese": "Angel Eyes",
+      "koreana": "천사의 눈",
+      "latam": "Ojos de ángel",
+      "norwegian": "Angel Eyes",
+      "polish": "Anielskie oczy",
+      "portuguese": "Angel Eyes",
+      "romanian": "Angel Eyes",
+      "russian": "Ангельские глаза",
+      "schinese": "天矢之眼",
+      "schinese_pw": "Angel Eyes",
+      "spanish": "Ojos angelicales",
+      "swedish": "Angel Eyes",
+      "tchinese": "天使之眼",
+      "thai": "Angel Eyes",
+      "turkish": "Meleksi Gözler",
+      "ukrainian": "Ангельські очі",
+      "vietnamese": "Angel Eyes"
+    },
+    "name": "Angel Eyes",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-1347",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Olhos Angelicais",
+    "bulgarian": "Два Beretta | Ангелски очи",
+    "czech": "Dual Berettas | Angel Eyes",
+    "danish": "Dual Berettas | Angel Eyes",
+    "dutch": "Dual Berettas | Angel Eyes",
+    "english": "Dual Berettas | Angel Eyes",
+    "finnish": "Tupla-Berettat | Enkelin silmät",
+    "french": "Dual Berettas | Yeux angéliques",
+    "german": "Akimbo-Berettas | Engelsaugen",
+    "greek": "Dual Berettas | Angel Eyes",
+    "hungarian": "Dupla Beretta | Angyalszemek",
+    "indonesian": "Dual Berettas | Angel Eyes",
+    "italian": "Doppia Beretta | Angel Eyes",
+    "japanese": "Dual Berettas | Angel Eyes",
+    "koreana": "듀얼 베레타 | 천사의 눈",
+    "latam": "Berettas dobles | Ojos de ángel",
+    "norwegian": "Dual Berettas | Angel Eyes",
+    "polish": "Dwie beretty | Anielskie oczy",
+    "portuguese": "Dual Berettas | Angel Eyes",
+    "romanian": "Dual Berettas | Angel Eyes",
+    "russian": "Dual Berettas | Ангельские глаза",
+    "schinese": "双持贝瑞塔 | 天矢之眼",
+    "schinese_pw": "Dual Berettas | Angel Eyes",
+    "spanish": "Berettas dobles | Ojos angelicales",
+    "swedish": "Dual Berettas | Angel Eyes",
+    "tchinese": "Dual Berettas | 天使之眼",
+    "thai": "Dual Berettas | Angel Eyes",
+    "turkish": "Çift Beretta | Meleksi Gözler",
+    "ukrainian": "Подвійні «Беретти» | Ангельські очі",
+    "vietnamese": "Dual Berettas | Angel Eyes"
+  },
+  "media": {
+    "asset_id": "skin__2-1347",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-1347/light.png",
+      "data/api/media/rendered/files/skins/2-1347/medium.png",
+      "data/api/media/rendered/files/skins/2-1347/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-1347.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-1347/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-1347/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-1347/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-1347/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_dual_elite_biblical_angel_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_dual_elite_biblical_angel_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_dual_elite_biblical_angel_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Angel Eyes",
+  "search_slug": "dual-berettas-angel-eyes",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_community_36",
+        "name": "The Genesis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5176",
+        "kind": "container",
+        "name": "Sealed Genesis Terminal",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "2-1347__normal__battle-scarred",
+    "2-1347__normal__factory-new",
+    "2-1347__normal__field-tested",
+    "2-1347__normal__minimal-wear",
+    "2-1347__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

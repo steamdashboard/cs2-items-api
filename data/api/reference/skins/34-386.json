@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_mp9_chevron",
+    "id": 386,
+    "name": "Dart",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 386,
+    "weapon_id": 34
+  },
+  "id": "34-386",
+  "name": "MP9 | Dart",
+  "search_slug": "mp9-dart",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_5",
+        "name": "The Vanguard Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4029",
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "34-386__normal__factory-new",
+    "34-386__normal__minimal-wear",
+    "34-386__normal__field-tested",
+    "34-386__normal__well-worn",
+    "34-386__normal__battle-scarred",
+    "34-386__stattrak__factory-new",
+    "34-386__stattrak__minimal-wear",
+    "34-386__stattrak__field-tested",
+    "34-386__stattrak__well-worn",
+    "34-386__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_mp9",
+    "id": 34,
+    "name": "MP9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.46,
+    "min_float": 0.0
+  }
+}

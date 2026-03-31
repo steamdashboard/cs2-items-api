@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 740,
+    "id": 740,
+    "localized_names": {
+      "brazilian": "Murano Azul-marinho",
+      "bulgarian": "Тъмносиньо Мурано",
+      "czech": "Navy Murano",
+      "danish": "Navy Murano",
+      "dutch": "Navy Murano",
+      "english": "Navy Murano",
+      "finnish": "Laivastonsininen Murano",
+      "french": "Murano bleu marine",
+      "german": "Marineblauer Muranostil",
+      "greek": "Navy Murano",
+      "hungarian": "Tengerészkék Murano",
+      "indonesian": "Navy Murano",
+      "italian": "Navy Murano",
+      "japanese": "Navy Murano",
+      "koreana": "파란색 무라노",
+      "latam": "Murano azul marino",
+      "norwegian": "Navy Murano",
+      "polish": "Granatowe szkło murańskie",
+      "portuguese": "Navy Murano",
+      "romanian": "Navy Murano",
+      "russian": "Синее Мурано",
+      "schinese": "穆拉诺之蓝",
+      "schinese_pw": "Navy Murano",
+      "spanish": "Murano azul",
+      "swedish": "Navy Murano",
+      "tchinese": "藏青穆拉諾",
+      "thai": "Navy Murano",
+      "turkish": "Lacivert Murano",
+      "ukrainian": "Синє Мурано",
+      "vietnamese": "Navy Murano"
+    },
+    "name": "Navy Murano",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-740",
+  "localized_names": {
+    "brazilian": "AUG | Murano Azul-marinho",
+    "bulgarian": "AUG | Тъмносиньо Мурано",
+    "czech": "AUG | Navy Murano",
+    "danish": "AUG | Navy Murano",
+    "dutch": "AUG | Navy Murano",
+    "english": "AUG | Navy Murano",
+    "finnish": "AUG | Laivastonsininen Murano",
+    "french": "AUG | Murano bleu marine",
+    "german": "AUG | Marineblauer Muranostil",
+    "greek": "AUG | Navy Murano",
+    "hungarian": "AUG | Tengerészkék Murano",
+    "indonesian": "AUG | Navy Murano",
+    "italian": "AUG | Navy Murano",
+    "japanese": "AUG | Navy Murano",
+    "koreana": "AUG | 파란색 무라노",
+    "latam": "AUG | Murano azul marino",
+    "norwegian": "AUG | Navy Murano",
+    "polish": "AUG | Granatowe szkło murańskie",
+    "portuguese": "AUG | Navy Murano",
+    "romanian": "AUG | Navy Murano",
+    "russian": "AUG | Синее Мурано",
+    "schinese": "AUG | 穆拉诺之蓝",
+    "schinese_pw": "AUG | Navy Murano",
+    "spanish": "AUG | Murano azul",
+    "swedish": "AUG | Navy Murano",
+    "tchinese": "AUG | 藏青穆拉諾",
+    "thai": "AUG | Navy Murano",
+    "turkish": "AUG | Lacivert Murano",
+    "ukrainian": "АУГ | Синє Мурано",
+    "vietnamese": "AUG | Navy Murano"
+  },
+  "media": {
+    "asset_id": "skin__8-740",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-740/light.png",
+      "data/api/media/rendered/files/skins/8-740/medium.png",
+      "data/api/media/rendered/files/skins/8-740/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-740.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-740/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-740/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-740/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-740/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_hy_murano_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_hy_murano_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_hy_murano_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Navy Murano",
+  "search_slug": "aug-navy-murano",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_canals",
+        "name": "The Canals Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4608",
+        "kind": "container",
+        "name": "The Canals Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-740__normal__battle-scarred",
+    "8-740__normal__factory-new",
+    "8-740__normal__field-tested",
+    "8-740__normal__minimal-wear",
+    "8-740__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

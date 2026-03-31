@@ -1,0 +1,265 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 799,
+    "id": 799,
+    "localized_names": {
+      "brazilian": "Farol Alto",
+      "bulgarian": "Дълги светлини",
+      "czech": "High Beam",
+      "danish": "High Beam",
+      "dutch": "High Beam",
+      "english": "High Beam",
+      "finnish": "Pitkät valot",
+      "french": "Phare",
+      "german": "Fernlicht",
+      "greek": "High Beam",
+      "hungarian": "Fényszóró",
+      "indonesian": "High Beam",
+      "italian": "High Beam",
+      "japanese": "High Beam",
+      "koreana": "하이빔",
+      "latam": "Luz alta",
+      "norwegian": "High Beam",
+      "polish": "Światła drogowe",
+      "portuguese": "High Beam",
+      "romanian": "High Beam",
+      "russian": "Дальний свет",
+      "schinese": "远光灯",
+      "schinese_pw": "High Beam",
+      "spanish": "Luz de carretera",
+      "swedish": "High Beam",
+      "tchinese": "遠光燈",
+      "thai": "High Beam",
+      "turkish": "Uzun Far",
+      "ukrainian": "Дальнє світло",
+      "vietnamese": "High Beam"
+    },
+    "name": "High Beam",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-799",
+  "localized_names": {
+    "brazilian": "Glock-18 | Farol Alto",
+    "bulgarian": "Glock-18 | Дълги светлини",
+    "czech": "Glock-18 | High Beam",
+    "danish": "Glock-18 | High Beam",
+    "dutch": "Glock-18 | High Beam",
+    "english": "Glock-18 | High Beam",
+    "finnish": "Glock-18 | Pitkät valot",
+    "french": "Glock-18 | Phare",
+    "german": "Glock-18 | Fernlicht",
+    "greek": "Glock-18 | High Beam",
+    "hungarian": "Glock-18 | Fényszóró",
+    "indonesian": "Glock-18 | High Beam",
+    "italian": "Glock-18 | High Beam",
+    "japanese": "Glock-18 | High Beam",
+    "koreana": "글록 18 | 하이빔",
+    "latam": "Glock-18 | Luz alta",
+    "norwegian": "Glock-18 | High Beam",
+    "polish": "Glock-18 | Światła drogowe",
+    "portuguese": "Glock-18 | High Beam",
+    "romanian": "Glock-18 | High Beam",
+    "russian": "Glock-18 | Дальний свет",
+    "schinese": "格洛克18型 | 远光灯",
+    "schinese_pw": "Glock-18 | High Beam",
+    "spanish": "Glock-18 | Luz de carretera",
+    "swedish": "Glock-18 | High Beam",
+    "tchinese": "Glock-18 | 遠光燈",
+    "thai": "Glock-18 | High Beam",
+    "turkish": "Glock-18 | Uzun Far",
+    "ukrainian": "Ґлок-18 | Дальнє світло",
+    "vietnamese": "Glock-18 | High Beam"
+  },
+  "media": {
+    "asset_id": "skin__4-799",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-799/light.png",
+      "data/api/media/rendered/files/skins/4-799/medium.png",
+      "data/api/media/rendered/files/skins/4-799/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-799.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-799/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-799/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-799/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-799/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_aa_vertigo_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_aa_vertigo_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_aa_vertigo_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | High Beam",
+  "search_slug": "glock-18-high-beam",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_inferno_2",
+        "name": "The 2018 Inferno Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4967",
+        "kind": "container",
+        "name": "Shanghai 2024 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5120",
+        "kind": "container",
+        "name": "Austin 2025 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5219",
+        "kind": "container",
+        "name": "Budapest 2025 Inferno Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4540",
+        "kind": "souvenir-package",
+        "name": "London 2018 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4590",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4660",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4809",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4835",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4860",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4893",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4926",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Inferno Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "4-799__normal__factory-new",
+    "4-799__normal__minimal-wear",
+    "4-799__souvenir__factory-new",
+    "4-799__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

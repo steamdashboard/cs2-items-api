@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 48,
+    "id": 48,
+    "localized_names": {
+      "brazilian": "Tatuagem de Dragão",
+      "bulgarian": "Драконова татуировка",
+      "czech": "Dragon Tattoo",
+      "danish": "Dragon Tattoo",
+      "dutch": "Dragon Tattoo",
+      "english": "Dragon Tattoo",
+      "finnish": "Lohikäärmetatuointi",
+      "french": "Décalco de dragon",
+      "german": "Drachentattoo",
+      "greek": "Dragon Tattoo",
+      "hungarian": "Sárkány Tetoválás",
+      "indonesian": "Dragon Tattoo",
+      "italian": "Dragon Tattoo",
+      "japanese": "Dragon Tattoo",
+      "koreana": "용 문신",
+      "latam": "Tatuaje de dragón",
+      "norwegian": "Dragon Tattoo",
+      "polish": "Smoczy tatuaż",
+      "portuguese": "Dragon Tattoo",
+      "romanian": "Dragon Tattoo",
+      "russian": "Татуировка дракона",
+      "schinese": "黑龙纹身",
+      "schinese_pw": "Dragon Tattoo",
+      "spanish": "Tatuaje de dragón",
+      "swedish": "Dragon Tattoo",
+      "tchinese": "猛龍騰紋",
+      "thai": "Dragon Tattoo",
+      "turkish": "Ejderha Dövmesi",
+      "ukrainian": "Тату дракона",
+      "vietnamese": "Dragon Tattoo"
+    },
+    "name": "Dragon Tattoo",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-48",
+  "localized_names": {
+    "brazilian": "Glock-18 | Tatuagem de Dragão",
+    "bulgarian": "Glock-18 | Драконова татуировка",
+    "czech": "Glock-18 | Dragon Tattoo",
+    "danish": "Glock-18 | Dragon Tattoo",
+    "dutch": "Glock-18 | Dragon Tattoo",
+    "english": "Glock-18 | Dragon Tattoo",
+    "finnish": "Glock-18 | Lohikäärmetatuointi",
+    "french": "Glock-18 | Décalco de dragon",
+    "german": "Glock-18 | Drachentattoo",
+    "greek": "Glock-18 | Dragon Tattoo",
+    "hungarian": "Glock-18 | Sárkány Tetoválás",
+    "indonesian": "Glock-18 | Dragon Tattoo",
+    "italian": "Glock-18 | Dragon Tattoo",
+    "japanese": "Glock-18 | Dragon Tattoo",
+    "koreana": "글록 18 | 용 문신",
+    "latam": "Glock-18 | Tatuaje de dragón",
+    "norwegian": "Glock-18 | Dragon Tattoo",
+    "polish": "Glock-18 | Smoczy tatuaż",
+    "portuguese": "Glock-18 | Dragon Tattoo",
+    "romanian": "Glock-18 | Dragon Tattoo",
+    "russian": "Glock-18 | Татуировка дракона",
+    "schinese": "格洛克18型 | 黑龙纹身",
+    "schinese_pw": "Glock-18 | Dragon Tattoo",
+    "spanish": "Glock-18 | Tatuaje de dragón",
+    "swedish": "Glock-18 | Dragon Tattoo",
+    "tchinese": "Glock-18 | 猛龍騰紋",
+    "thai": "Glock-18 | Dragon Tattoo",
+    "turkish": "Glock-18 | Ejderha Dövmesi",
+    "ukrainian": "Ґлок-18 | Тату дракона",
+    "vietnamese": "Glock-18 | Dragon Tattoo"
+  },
+  "media": {
+    "asset_id": "skin__4-48",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-48/light.png",
+      "data/api/media/rendered/files/skins/4-48/medium.png",
+      "data/api/media/rendered/files/skins/4-48/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-48.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-48/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-48/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-48/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-48/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_am_dragon_glock_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_am_dragon_glock_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_am_dragon_glock_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Dragon Tattoo",
+  "search_slug": "glock-18-dragon-tattoo",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-48__normal__factory-new",
+    "4-48__normal__minimal-wear",
+    "4-48__stattrak__factory-new",
+    "4-48__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

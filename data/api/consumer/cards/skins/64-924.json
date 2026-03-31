@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 924,
+    "id": 924,
+    "localized_names": {
+      "brazilian": "Camuflagem Desértica",
+      "bulgarian": "Пустинен щрих",
+      "czech": "Desert Brush",
+      "danish": "Desert Brush",
+      "dutch": "Desert Brush",
+      "english": "Desert Brush",
+      "finnish": "Pensasaro",
+      "french": "Teinte désertique",
+      "german": "Desert Brush",
+      "greek": "Desert Brush",
+      "hungarian": "Sivatagi Bozót",
+      "indonesian": "Desert Brush",
+      "italian": "Desert Brush",
+      "japanese": "Desert Brush",
+      "koreana": "사막 브러시",
+      "latam": "Arbustos desérticos",
+      "norwegian": "Desert Brush",
+      "polish": "Pustynne pociągnięcia",
+      "portuguese": "Desert Brush",
+      "romanian": "Desert Brush",
+      "russian": "Пустынный окрас",
+      "schinese": "沙漠伪装",
+      "schinese_pw": "Desert Brush",
+      "spanish": "Pinceladas del desierto",
+      "swedish": "Desert Brush",
+      "tchinese": "沙漠筆刷",
+      "thai": "Desert Brush",
+      "turkish": "Çöl Çalısı",
+      "ukrainian": "Пустельні штрихи",
+      "vietnamese": "Desert Brush"
+    },
+    "name": "Desert Brush",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "64-924",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Camuflagem Desértica",
+    "bulgarian": "Револвер R8 | Пустинен щрих",
+    "czech": "Revolver R8 | Desert Brush",
+    "danish": "R8-revolver | Desert Brush",
+    "dutch": "R8-revolver | Desert Brush",
+    "english": "R8 Revolver | Desert Brush",
+    "finnish": "R8-revolveri | Pensasaro",
+    "french": "Révolver R8 | Teinte désertique",
+    "german": "R8-Revolver | Desert Brush",
+    "greek": "R8 Revolver | Desert Brush",
+    "hungarian": "R8 revolver | Sivatagi Bozót",
+    "indonesian": "R8 Revolver | Desert Brush",
+    "italian": "Revolver R8 | Desert Brush",
+    "japanese": "R8 Revolver | Desert Brush",
+    "koreana": "R8 리볼버 | 사막 브러시",
+    "latam": "Revólver R8 | Arbustos desérticos",
+    "norwegian": "R8 Revolver | Desert Brush",
+    "polish": "Rewolwer R8 | Pustynne pociągnięcia",
+    "portuguese": "R8 Revolver | Desert Brush",
+    "romanian": "Revolver R8 | Desert Brush",
+    "russian": "Револьвер R8 | Пустынный окрас",
+    "schinese": "R8左轮手枪 | 沙漠伪装",
+    "schinese_pw": "R8 Revolver | Desert Brush",
+    "spanish": "Revólver R8 | Pinceladas del desierto",
+    "swedish": "R8 Revolver | Desert Brush",
+    "tchinese": "R8 Revolver | 沙漠筆刷",
+    "thai": "ปืนลูกโม่ R8 | Desert Brush",
+    "turkish": "R8 Revolver | Çöl Çalısı",
+    "ukrainian": "Револьвер Р8 | Пустельні штрихи",
+    "vietnamese": "Súng lục R8 | Desert Brush"
+  },
+  "media": {
+    "asset_id": "skin__64-924",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-924/light.png",
+      "data/api/media/rendered/files/skins/64-924/medium.png",
+      "data/api/media/rendered/files/skins/64-924/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-924.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-924/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-924/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-924/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-924/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_hy_brush_camo_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_hy_brush_camo_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_hy_brush_camo_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Desert Brush",
+  "search_slug": "r8-revolver-desert-brush",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "64-924__normal__battle-scarred",
+    "64-924__normal__factory-new",
+    "64-924__normal__field-tested",
+    "64-924__normal__minimal-wear",
+    "64-924__normal__well-worn",
+    "64-924__souvenir__battle-scarred",
+    "64-924__souvenir__factory-new",
+    "64-924__souvenir__field-tested",
+    "64-924__souvenir__minimal-wear",
+    "64-924__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

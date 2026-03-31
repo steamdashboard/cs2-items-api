@@ -1,0 +1,61 @@
+{
+  "classification": {
+    "group": "container",
+    "kind": "container"
+  },
+  "game_id": 4665,
+  "id": 4665,
+  "name": "crate_berlin2019_promo_de_nuke",
+  "prefab_chain": [
+    "weapon_case_base",
+    "weapon_case_souvenirpkg"
+  ],
+  "prefab_spec": "weapon_case_souvenirpkg",
+  "resolved": {
+    "attributes": {
+      "set supply crate series": {
+        "attribute_class": "supply_crate_series",
+        "value": "289"
+      },
+      "tournament event id": {
+        "attribute_class": "tournament_event_id",
+        "value": "16"
+      }
+    },
+    "capabilities": {
+      "decodable": "1"
+    },
+    "drop_sound": "sounds/physics/plastic/plastic_box_impact_hard1.vsnd",
+    "image_inventory": "econ/weapon_cases/crate_berlin2019_promo_de_nuke",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "image_unusual_item": "econ/weapon_cases/default_rare_item",
+    "inv_container_and_tools": "souvenir_case",
+    "item_class": "supply_crate",
+    "item_name": "#CSGO_crate_berlin2019_promo_de_nuke",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type_name": "#CSGO_Type_WeaponCase",
+    "loot_list_rare_item_footer": "#Econ_Revolving_Loot_List_Rare_Item",
+    "loot_list_rare_item_name": "#Exceedingly_Rare_Item",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/physics/plastic/plastic_box_impact_soft1.vsnd",
+    "name": "crate_berlin2019_promo_de_nuke",
+    "prefab": "weapon_case_souvenirpkg",
+    "tags": {
+      "ItemSet": {
+        "tag_group": "ItemSet",
+        "tag_group_text": "#SFUI_InvTooltip_SetTag",
+        "tag_text": "#CSGO_set_nuke_2",
+        "tag_value": "set_nuke_2"
+      }
+    },
+    "tool": {
+      "type": "supply_crate",
+      "usage_capabilities": {
+        "usable_out_of_game": "1"
+      }
+    }
+  }
+}

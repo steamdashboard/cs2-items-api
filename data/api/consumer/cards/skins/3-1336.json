@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1336,
+    "id": 1336,
+    "localized_names": {
+      "brazilian": "Matagal Outonal",
+      "bulgarian": "Есенен гъсталак",
+      "czech": "Autumn Thicket",
+      "danish": "Autumn Thicket",
+      "dutch": "Autumn Thicket",
+      "english": "Autumn Thicket",
+      "finnish": "Syksyn sävel",
+      "french": "Buisson d'automne",
+      "german": "Herbstliches Dickicht",
+      "greek": "Autumn Thicket",
+      "hungarian": "Őszi Bozót",
+      "indonesian": "Autumn Thicket",
+      "italian": "Autumn Thicket",
+      "japanese": "Autumn Thicket",
+      "koreana": "가을 덤불",
+      "latam": "Matorral de otoño",
+      "norwegian": "Autumn Thicket",
+      "polish": "Jesienne zarośla",
+      "portuguese": "Autumn Thicket",
+      "romanian": "Autumn Thicket",
+      "russian": "Осенняя чаща",
+      "schinese": "秋日灌木",
+      "schinese_pw": "Autumn Thicket",
+      "spanish": "Matorral de otoño",
+      "swedish": "Autumn Thicket",
+      "tchinese": "秋季灌木",
+      "thai": "Autumn Thicket",
+      "turkish": "Sonbahar Çalılığı",
+      "ukrainian": "Осінні хащі",
+      "vietnamese": "Autumn Thicket"
+    },
+    "name": "Autumn Thicket",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.636986,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-1336",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Matagal Outonal",
+    "bulgarian": "Five-SeveN | Есенен гъсталак",
+    "czech": "Five-SeveN | Autumn Thicket",
+    "danish": "Five-SeveN | Autumn Thicket",
+    "dutch": "Five-SeveN | Autumn Thicket",
+    "english": "Five-SeveN | Autumn Thicket",
+    "finnish": "Five-SeveN | Syksyn sävel",
+    "french": "Five-SeveN | Buisson d'automne",
+    "german": "Five-SeveN | Herbstliches Dickicht",
+    "greek": "Five-SeveN | Autumn Thicket",
+    "hungarian": "Five-SeveN | Őszi Bozót",
+    "indonesian": "Five-SeveN | Autumn Thicket",
+    "italian": "Five-SeveN | Autumn Thicket",
+    "japanese": "Five-SeveN | Autumn Thicket",
+    "koreana": "파이브 세븐 | 가을 덤불",
+    "latam": "Five-SeveN | Matorral de otoño",
+    "norwegian": "Five-SeveN | Autumn Thicket",
+    "polish": "Five-SeveN | Jesienne zarośla",
+    "portuguese": "Five-SeveN | Autumn Thicket",
+    "romanian": "Five-SeveN | Autumn Thicket",
+    "russian": "Five-SeveN | Осенняя чаща",
+    "schinese": "FN57 | 秋日灌木",
+    "schinese_pw": "Five-SeveN | Autumn Thicket",
+    "spanish": "Five-seveN | Matorral de otoño",
+    "swedish": "Five-SeveN | Autumn Thicket",
+    "tchinese": "Five-SeveN | 秋季灌木",
+    "thai": "Five-SeveN | Autumn Thicket",
+    "turkish": "Five-SeveN | Sonbahar Çalılığı",
+    "ukrainian": "Five-seveN | Осінні хащі",
+    "vietnamese": "Five-SeveN | Autumn Thicket"
+  },
+  "media": {
+    "asset_id": "skin__3-1336",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-1336/light.png",
+      "data/api/media/rendered/files/skins/3-1336/medium.png",
+      "data/api/media/rendered/files/skins/3-1336/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-1336.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-1336/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-1336/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-1336/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-1336/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_soo_branches_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_soo_branches_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_soo_branches_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Autumn Thicket",
+  "search_slug": "five-seven-autumn-thicket",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-1336__normal__battle-scarred",
+    "3-1336__normal__factory-new",
+    "3-1336__normal__field-tested",
+    "3-1336__normal__minimal-wear",
+    "3-1336__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.636986,
+    "min_float": 0.0
+  }
+}

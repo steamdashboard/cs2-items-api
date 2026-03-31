@@ -1,0 +1,52 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "so_night",
+    "id": 40,
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1
+  },
+  "game_ref": {
+    "paint_kit_id": 40,
+    "weapon_id": 1
+  },
+  "id": "1-40",
+  "name": "Desert Eagle | Night",
+  "search_slug": "desert-eagle-night",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "1-40__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_deagle",
+    "id": 1,
+    "name": "Desert Eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_ssg08_immortal",
+    "id": 304,
+    "name": "Slashed",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 304,
+    "weapon_id": 40
+  },
+  "id": "40-304",
+  "name": "SSG 08 | Slashed",
+  "search_slug": "ssg-08-slashed",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_3",
+        "name": "The Huntsman Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4017",
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "40-304__normal__field-tested",
+    "40-304__normal__well-worn",
+    "40-304__normal__battle-scarred",
+    "40-304__stattrak__field-tested",
+    "40-304__stattrak__well-worn",
+    "40-304__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_ssg08",
+    "id": 40,
+    "name": "SSG 08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.15
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_ossify_red",
+    "id": 220,
+    "name": "Hemoglobin",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 220,
+    "weapon_id": 2
+  },
+  "id": "2-220",
+  "name": "Dual Berettas | Hemoglobin",
+  "search_slug": "dual-berettas-hemoglobin",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "2-220__normal__factory-new",
+    "2-220__normal__minimal-wear",
+    "2-220__normal__field-tested",
+    "2-220__stattrak__factory-new",
+    "2-220__stattrak__minimal-wear",
+    "2-220__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_elite",
+    "id": 2,
+    "name": "Dual Berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

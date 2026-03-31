@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 653,
+    "id": 653,
+    "localized_names": {
+      "brazilian": "Neo-Noir",
+      "bulgarian": "Нео-ноар",
+      "czech": "Neo-Noir",
+      "danish": "Neo-Noir",
+      "dutch": "Neo-Noir",
+      "english": "Neo-Noir",
+      "finnish": "Neo-Noir",
+      "french": "Néo-noir",
+      "german": "Neo-Noir",
+      "greek": "Neo-Noir",
+      "hungarian": "Neonoir",
+      "indonesian": "Neo-Noir",
+      "italian": "Neo-Noir",
+      "japanese": "Neo-Noir",
+      "koreana": "네오 누와르",
+      "latam": "Neonoir",
+      "norwegian": "Neo-Noir",
+      "polish": "Neo-noir",
+      "portuguese": "Neo-Noir",
+      "romanian": "Neo-Noir",
+      "russian": "Неонуар",
+      "schinese": "黑色魅影",
+      "schinese_pw": "Neo-Noir",
+      "spanish": "Neonoir",
+      "swedish": "Neo-Noir",
+      "tchinese": "穎黑",
+      "thai": "Neo-Noir",
+      "turkish": "Neo-Noir",
+      "ukrainian": "Нео-нуар",
+      "vietnamese": "Neo-Noir"
+    },
+    "name": "Neo-Noir",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-653",
+  "localized_names": {
+    "brazilian": "USP-S | Neo-Noir",
+    "bulgarian": "USP-S | Нео-ноар",
+    "czech": "USP-S | Neo-Noir",
+    "danish": "USP-S | Neo-Noir",
+    "dutch": "USP-S | Neo-Noir",
+    "english": "USP-S | Neo-Noir",
+    "finnish": "USP-S | Neo-Noir",
+    "french": "USP-S | Néo-noir",
+    "german": "USP-S | Neo-Noir",
+    "greek": "USP-S | Neo-Noir",
+    "hungarian": "USP-S | Neonoir",
+    "indonesian": "USP-S | Neo-Noir",
+    "italian": "USP-S | Neo-Noir",
+    "japanese": "USP-S | Neo-Noir",
+    "koreana": "USP-S | 네오 누와르",
+    "latam": "USP-S | Neonoir",
+    "norwegian": "USP-S | Neo-Noir",
+    "polish": "USP-S | Neo-noir",
+    "portuguese": "USP-S | Neo-Noir",
+    "romanian": "USP-S | Neo-Noir",
+    "russian": "USP-S | Неонуар",
+    "schinese": "USP消音版 | 黑色魅影",
+    "schinese_pw": "USP-S | Neo-Noir",
+    "spanish": "USP-S | Neonoir",
+    "swedish": "USP-S | Neo-Noir",
+    "tchinese": "USP-S | 穎黑",
+    "thai": "USP-S | Neo-Noir",
+    "turkish": "USP-S | Neo-Noir",
+    "ukrainian": "УСП-С | Нео-нуар",
+    "vietnamese": "USP-S | Neo-Noir"
+  },
+  "media": {
+    "asset_id": "skin__61-653",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-653/light.png",
+      "data/api/media/rendered/files/skins/61-653/medium.png",
+      "data/api/media/rendered/files/skins/61-653/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-653.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-653/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-653/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-653/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-653/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usps_noir_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usps_noir_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usps_noir_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Neo-Noir",
+  "search_slug": "usp-s-neo-noir",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4351",
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_16",
+        "name": "The Spectrum Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-653__normal__battle-scarred",
+    "61-653__normal__factory-new",
+    "61-653__normal__field-tested",
+    "61-653__normal__minimal-wear",
+    "61-653__normal__well-worn",
+    "61-653__stattrak__battle-scarred",
+    "61-653__stattrak__factory-new",
+    "61-653__stattrak__field-tested",
+    "61-653__stattrak__minimal-wear",
+    "61-653__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

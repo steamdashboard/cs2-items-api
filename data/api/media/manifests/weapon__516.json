@@ -1,0 +1,59 @@
+{
+  "codename": "weapon_knife_push",
+  "entity_id": "516",
+  "entity_type": "weapon",
+  "id": "weapon__516",
+  "name": "Shadow Daggers",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_knife_push.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_knife_push",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "30.0 -90.0 25.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "7.0 2.0 -1.5",
+      "override_default_light": "1",
+      "point_light_accent": {
+        "color": "1 1 1",
+        "position": "0 0 -50"
+      },
+      "spot_light_key": {
+        "color": "0.95 0.98 1",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "0 -30 40"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "0 -30 -120"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/knife/knife_push/weapon_knife_push_ag2.vmdl",
+    "model_player": "weapons/models/knife/knife_push/weapon_knife_push.vmdl",
+    "model_world": "weapons/models/knife/knife_push/weapon_knife_push.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/knife/knife_push/weapon_knife_push_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/knife/knife_push/weapon_knife_push.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/knife/knife_push/weapon_knife_push.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

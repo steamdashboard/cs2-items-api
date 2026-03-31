@@ -1,0 +1,46 @@
+{
+  "classification": {
+    "group": "tool",
+    "kind": "tool",
+    "tool_type": "decoder_ring"
+  },
+  "game_id": 1325,
+  "id": 1325,
+  "name": "Community Case Key 7",
+  "prefab_chain": [
+    "csgo_tool",
+    "weapon_case_key"
+  ],
+  "prefab_spec": "weapon_case_key",
+  "resolved": {
+    "craft_class": "tool",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/doors/handle_pushbar_locked1.vsnd",
+    "first_sale_date": "2015/4/15",
+    "image_inventory": "econ/tools/crate_key_community_7",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_container_and_tools": "tool",
+    "item_class": "tool",
+    "item_description": "#CSGO_community_crate_key_7_desc",
+    "item_name": "#CSGO_community_crate_key_7",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "type_tool",
+    "item_type_name": "#CSGO_Tool_WeaponCase_KeyTag",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/doors/door_lock_1.vsnd",
+    "name": "Community Case Key 7",
+    "prefab": "weapon_case_key",
+    "tool": {
+      "restriction": "community_case_7",
+      "type": "decoder_ring",
+      "usage_capabilities": {
+        "decodable": "1",
+        "usable_out_of_game": "1"
+      },
+      "use_string": "#UnlockUse"
+    }
+  }
+}

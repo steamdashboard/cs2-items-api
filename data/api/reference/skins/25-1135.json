@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_xm_zombie_offensive",
+    "id": 1135,
+    "name": "Zombie Offensive",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 1135,
+    "weapon_id": 25
+  },
+  "id": "25-1135",
+  "name": "XM1014 | Zombie Offensive",
+  "search_slug": "xm1014-zombie-offensive",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_30",
+        "name": "The Dreams & Nightmares Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4818",
+        "kind": "weapon-case",
+        "name": "Dreams & Nightmares Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "25-1135__normal__factory-new",
+    "25-1135__normal__minimal-wear",
+    "25-1135__normal__field-tested",
+    "25-1135__normal__well-worn",
+    "25-1135__normal__battle-scarred",
+    "25-1135__stattrak__factory-new",
+    "25-1135__stattrak__minimal-wear",
+    "25-1135__stattrak__field-tested",
+    "25-1135__stattrak__well-worn",
+    "25-1135__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_xm1014",
+    "id": 25,
+    "name": "XM1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

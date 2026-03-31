@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 843,
+    "id": 843,
+    "localized_names": {
+      "brazilian": "Esmagadora de Crânios",
+      "bulgarian": "Черепотрошач",
+      "czech": "Skull Crusher",
+      "danish": "Skull Crusher",
+      "dutch": "Skull Crusher",
+      "english": "Skull Crusher",
+      "finnish": "Kallonmurskaaja",
+      "french": "Briseur de crânes",
+      "german": "Schädelbrecher",
+      "greek": "Skull Crusher",
+      "hungarian": "Koponyatörő",
+      "indonesian": "Skull Crusher",
+      "italian": "Skull Crusher",
+      "japanese": "Skull Crusher",
+      "koreana": "두개골 분쇄자",
+      "latam": "Pulverizador de cráneos",
+      "norwegian": "Skull Crusher",
+      "polish": "Miażdżyciel czasek",
+      "portuguese": "Skull Crusher",
+      "romanian": "Skull Crusher",
+      "russian": "Отбойный череп",
+      "schinese": "头骨粉碎者",
+      "schinese_pw": "Skull Crusher",
+      "spanish": "Machacacráneos",
+      "swedish": "Skull Crusher",
+      "tchinese": "碎顱者",
+      "thai": "Skull Crusher",
+      "turkish": "Kafatası Ezici",
+      "ukrainian": "Череполом",
+      "vietnamese": "Skull Crusher"
+    },
+    "name": "Skull Crusher",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.25
+    }
+  },
+  "id": "64-843",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Esmagadora de Crânios",
+    "bulgarian": "Револвер R8 | Черепотрошач",
+    "czech": "Revolver R8 | Skull Crusher",
+    "danish": "R8-revolver | Skull Crusher",
+    "dutch": "R8-revolver | Skull Crusher",
+    "english": "R8 Revolver | Skull Crusher",
+    "finnish": "R8-revolveri | Kallonmurskaaja",
+    "french": "Révolver R8 | Briseur de crânes",
+    "german": "R8-Revolver | Schädelbrecher",
+    "greek": "R8 Revolver | Skull Crusher",
+    "hungarian": "R8 revolver | Koponyatörő",
+    "indonesian": "R8 Revolver | Skull Crusher",
+    "italian": "Revolver R8 | Skull Crusher",
+    "japanese": "R8 Revolver | Skull Crusher",
+    "koreana": "R8 리볼버 | 두개골 분쇄자",
+    "latam": "Revólver R8 | Pulverizador de cráneos",
+    "norwegian": "R8 Revolver | Skull Crusher",
+    "polish": "Rewolwer R8 | Miażdżyciel czasek",
+    "portuguese": "R8 Revolver | Skull Crusher",
+    "romanian": "Revolver R8 | Skull Crusher",
+    "russian": "Револьвер R8 | Отбойный череп",
+    "schinese": "R8左轮手枪 | 头骨粉碎者",
+    "schinese_pw": "R8 Revolver | Skull Crusher",
+    "spanish": "Revólver R8 | Machacacráneos",
+    "swedish": "R8 Revolver | Skull Crusher",
+    "tchinese": "R8 Revolver | 碎顱者",
+    "thai": "ปืนลูกโม่ R8 | Skull Crusher",
+    "turkish": "R8 Revolver | Kafatası Ezici",
+    "ukrainian": "Револьвер Р8 | Череполом",
+    "vietnamese": "Súng lục R8 | Skull Crusher"
+  },
+  "media": {
+    "asset_id": "skin__64-843",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-843/light.png",
+      "data/api/media/rendered/files/skins/64-843/medium.png",
+      "data/api/media/rendered/files/skins/64-843/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-843.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-843/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-843/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-843/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-843/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_cu_revolver_oppressor_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_cu_revolver_oppressor_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_cu_revolver_oppressor_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Skull Crusher",
+  "search_slug": "r8-revolver-skull-crusher",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4598",
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_22",
+        "name": "The Prisma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-843__normal__battle-scarred",
+    "64-843__normal__field-tested",
+    "64-843__normal__well-worn",
+    "64-843__stattrak__battle-scarred",
+    "64-843__stattrak__field-tested",
+    "64-843__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.25
+  }
+}

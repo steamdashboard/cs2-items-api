@@ -1,0 +1,70 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_zebra_dark",
+    "id": 60,
+    "name": "Dark Water",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 60,
+    "weapon_id": 61
+  },
+  "id": "61-60",
+  "name": "USP-S | Dark Water",
+  "search_slug": "usp-s-dark-water",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "61-60__normal__minimal-wear",
+    "61-60__normal__field-tested",
+    "61-60__stattrak__minimal-wear",
+    "61-60__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_usp_silencer",
+    "id": 61,
+    "name": "USP-S",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.1
+  }
+}

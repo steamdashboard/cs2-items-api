@@ -1,0 +1,55 @@
+{
+  "codename": "weapon_flashbang",
+  "entity_id": "43",
+  "entity_type": "weapon",
+  "id": "weapon__43",
+  "name": "weapon_flashbang",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_flashbang.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_flashbang",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "0.0 -130.0 -10.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "0.0 0.0 -1.5",
+      "override_default_light": "1",
+      "spot_light_key": {
+        "color": "2 2.1 2.3",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-120 120 180"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "10.0 -90.0 -60.0"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/grenade/flashbang/weapon_flashbang_ag2.vmdl",
+    "model_player": "weapons/models/grenade/flashbang/weapon_flashbang.vmdl",
+    "model_world": "weapons/models/grenade/flashbang/weapon_flashbang.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/grenade/flashbang/weapon_flashbang_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/grenade/flashbang/weapon_flashbang.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/grenade/flashbang/weapon_flashbang.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

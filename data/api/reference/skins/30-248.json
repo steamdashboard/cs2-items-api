@@ -1,0 +1,151 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_crystallized",
+    "id": 248,
+    "name": "Red Quartz",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 248,
+    "weapon_id": 30
+  },
+  "id": "30-248",
+  "name": "Tec-9 | Red Quartz",
+  "search_slug": "tec-9-red-quartz",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_train",
+        "name": "The Train Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4137",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4182",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4231",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4279",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4349",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4401",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4468",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4545",
+        "kind": "souvenir-package",
+        "name": "London 2018 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4595",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4664",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Train Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "30-248__normal__factory-new",
+    "30-248__normal__minimal-wear",
+    "30-248__normal__field-tested",
+    "30-248__normal__well-worn",
+    "30-248__souvenir__factory-new",
+    "30-248__souvenir__minimal-wear",
+    "30-248__souvenir__field-tested",
+    "30-248__souvenir__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_tec9",
+    "id": 30,
+    "name": "Tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1204,
+    "id": 1204,
+    "localized_names": {
+      "brazilian": "Descarrilamento",
+      "bulgarian": "Дерайлиране",
+      "czech": "Derailment",
+      "danish": "Derailment",
+      "dutch": "Derailment",
+      "english": "Derailment",
+      "finnish": "Suistuva juna",
+      "french": "Déraillement",
+      "german": "Entgleisung",
+      "greek": "Derailment",
+      "hungarian": "Kisiklatás",
+      "indonesian": "Derailment",
+      "italian": "Derailment",
+      "japanese": "Derailment",
+      "koreana": "탈선",
+      "latam": "Descarrilamiento",
+      "norwegian": "Derailment",
+      "polish": "Wykolejenie",
+      "portuguese": "Derailment",
+      "romanian": "Derailment",
+      "russian": "Сход с рельсов",
+      "schinese": "脱轨",
+      "schinese_pw": "Derailment",
+      "spanish": "Desacarrilamiento",
+      "swedish": "Derailment",
+      "tchinese": "火車脱軌",
+      "thai": "Derailment",
+      "turkish": "Raydan Çıkma",
+      "ukrainian": "Схід із рейок",
+      "vietnamese": "Derailment"
+    },
+    "name": "Derailment",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-1204",
+  "localized_names": {
+    "brazilian": "MAC-10 | Descarrilamento",
+    "bulgarian": "MAC-10 | Дерайлиране",
+    "czech": "MAC-10 | Derailment",
+    "danish": "MAC-10 | Derailment",
+    "dutch": "MAC-10 | Derailment",
+    "english": "MAC-10 | Derailment",
+    "finnish": "MAC-10 | Suistuva juna",
+    "french": "MAC-10 | Déraillement",
+    "german": "MAC-10 | Entgleisung",
+    "greek": "MAC-10 | Derailment",
+    "hungarian": "MAC-10 | Kisiklatás",
+    "indonesian": "MAC-10 | Derailment",
+    "italian": "MAC-10 | Derailment",
+    "japanese": "MAC-10 | Derailment",
+    "koreana": "MAC-10 | 탈선",
+    "latam": "MAC-10 | Descarrilamiento",
+    "norwegian": "MAC-10 | Derailment",
+    "polish": "MAC-10 | Wykolejenie",
+    "portuguese": "MAC-10 | Derailment",
+    "romanian": "MAC-10 | Derailment",
+    "russian": "MAC-10 | Сход с рельсов",
+    "schinese": "MAC-10 | 脱轨",
+    "schinese_pw": "MAC-10 | Derailment",
+    "spanish": "MAC-10 | Desacarrilamiento",
+    "swedish": "MAC-10 | Derailment",
+    "tchinese": "MAC-10 | 火車脱軌",
+    "thai": "MAC-10 | Derailment",
+    "turkish": "MAC-10 | Raydan Çıkma",
+    "ukrainian": "МАК-10 | Схід із рейок",
+    "vietnamese": "MAC-10 | Derailment"
+  },
+  "media": {
+    "asset_id": "skin__17-1204",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-1204/light.png",
+      "data/api/media/rendered/files/skins/17-1204/medium.png",
+      "data/api/media/rendered/files/skins/17-1204/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-1204.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-1204/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-1204/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-1204/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-1204/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_mac10_train_crash_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_mac10_train_crash_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_mac10_train_crash_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Derailment",
+  "search_slug": "mac-10-derailment",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2025",
+        "name": "The Train 2025 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5126",
+        "kind": "container",
+        "name": "Austin 2025 Train Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5225",
+        "kind": "container",
+        "name": "Budapest 2025 Train Souvenir Package",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-1204__normal__battle-scarred",
+    "17-1204__normal__factory-new",
+    "17-1204__normal__field-tested",
+    "17-1204__normal__minimal-wear",
+    "17-1204__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

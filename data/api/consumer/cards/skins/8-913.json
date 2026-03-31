@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 913,
+    "id": 913,
+    "localized_names": {
+      "brazilian": "Morte por Filhote",
+      "bulgarian": "Смърт чрез пале",
+      "czech": "Death by Puppy",
+      "danish": "Death by Puppy",
+      "dutch": "Death by Puppy",
+      "english": "Death by Puppy",
+      "finnish": "Kuolonpentu",
+      "french": "Death by Puppy",
+      "german": "Tod durch Welpe",
+      "greek": "Death by Puppy",
+      "hungarian": "Gyilkos Kutyus",
+      "indonesian": "Death by Puppy",
+      "italian": "Death by Puppy",
+      "japanese": "Death by Puppy",
+      "koreana": "강아지 팝아트",
+      "latam": "Muerte por cachorrito",
+      "norwegian": "Death by Puppy",
+      "polish": "Śmierć od szczeniaczków",
+      "portuguese": "Death by Puppy",
+      "romanian": "Death by Puppy",
+      "russian": "Смертоносные пёсики",
+      "schinese": "汪之萌杀",
+      "schinese_pw": "Death by Puppy",
+      "spanish": "Muerte por perrito",
+      "swedish": "Death by Puppy",
+      "tchinese": "鄰狗而死",
+      "thai": "Death by Puppy",
+      "turkish": "Death by Puppy",
+      "ukrainian": "Смерть від цуценят",
+      "vietnamese": "Death by Puppy"
+    },
+    "name": "Death by Puppy",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-913",
+  "localized_names": {
+    "brazilian": "AUG | Morte por Filhote",
+    "bulgarian": "AUG | Смърт чрез пале",
+    "czech": "AUG | Death by Puppy",
+    "danish": "AUG | Death by Puppy",
+    "dutch": "AUG | Death by Puppy",
+    "english": "AUG | Death by Puppy",
+    "finnish": "AUG | Kuolonpentu",
+    "french": "AUG | Death by Puppy",
+    "german": "AUG | Tod durch Welpe",
+    "greek": "AUG | Death by Puppy",
+    "hungarian": "AUG | Gyilkos Kutyus",
+    "indonesian": "AUG | Death by Puppy",
+    "italian": "AUG | Death by Puppy",
+    "japanese": "AUG | Death by Puppy",
+    "koreana": "AUG | 강아지 팝아트",
+    "latam": "AUG | Muerte por cachorrito",
+    "norwegian": "AUG | Death by Puppy",
+    "polish": "AUG | Śmierć od szczeniaczków",
+    "portuguese": "AUG | Death by Puppy",
+    "romanian": "AUG | Death by Puppy",
+    "russian": "AUG | Смертоносные пёсики",
+    "schinese": "AUG | 汪之萌杀",
+    "schinese_pw": "AUG | Death by Puppy",
+    "spanish": "AUG | Muerte por perrito",
+    "swedish": "AUG | Death by Puppy",
+    "tchinese": "AUG | 鄰狗而死",
+    "thai": "AUG | Death by Puppy",
+    "turkish": "AUG | Death by Puppy",
+    "ukrainian": "АУГ | Смерть від цуценят",
+    "vietnamese": "AUG | Death by Puppy"
+  },
+  "media": {
+    "asset_id": "skin__8-913",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-913/light.png",
+      "data/api/media/rendered/files/skins/8-913/medium.png",
+      "data/api/media/rendered/files/skins/8-913/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-913.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-913/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-913/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-913/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-913/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_am_aug_death_by_doggy_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_am_aug_death_by_doggy_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_am_aug_death_by_doggy_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Death by Puppy",
+  "search_slug": "aug-death-by-puppy",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4669",
+        "kind": "weapon-case",
+        "name": "CS20 Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_24",
+        "name": "The CS20 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-913__normal__factory-new",
+    "8-913__normal__field-tested",
+    "8-913__normal__minimal-wear",
+    "8-913__normal__well-worn",
+    "8-913__stattrak__factory-new",
+    "8-913__stattrak__field-tested",
+    "8-913__stattrak__minimal-wear",
+    "8-913__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

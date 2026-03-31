@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 388,
+    "id": 388,
+    "localized_names": {
+      "brazilian": "Cartel",
+      "bulgarian": "Картел",
+      "czech": "Cartel",
+      "danish": "Cartel",
+      "dutch": "Cartel",
+      "english": "Cartel",
+      "finnish": "Kartelli",
+      "french": "Cartel",
+      "german": "Kartell",
+      "greek": "Cartel",
+      "hungarian": "Kartell",
+      "indonesian": "Cartel",
+      "italian": "Cartel",
+      "japanese": "Cartel",
+      "koreana": "카르텔",
+      "latam": "Cartel",
+      "norwegian": "Cartel",
+      "polish": "Kartel",
+      "portuguese": "Cartel",
+      "romanian": "Cartel",
+      "russian": "Картель",
+      "schinese": "卡特尔",
+      "schinese_pw": "Cartel",
+      "spanish": "Cartel",
+      "swedish": "Cartel",
+      "tchinese": "卡特爾",
+      "thai": "Cartel",
+      "turkish": "Kartel",
+      "ukrainian": "Картель",
+      "vietnamese": "Cartel"
+    },
+    "name": "Cartel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-388",
+  "localized_names": {
+    "brazilian": "P250 | Cartel",
+    "bulgarian": "P250 | Картел",
+    "czech": "P250 | Cartel",
+    "danish": "P250 | Cartel",
+    "dutch": "P250 | Cartel",
+    "english": "P250 | Cartel",
+    "finnish": "P250 | Kartelli",
+    "french": "P250 | Cartel",
+    "german": "P250 | Kartell",
+    "greek": "P250 | Cartel",
+    "hungarian": "P250 | Kartell",
+    "indonesian": "P250 | Cartel",
+    "italian": "P250 | Cartel",
+    "japanese": "P250 | Cartel",
+    "koreana": "P250 | 카르텔",
+    "latam": "P250 | Cartel",
+    "norwegian": "P250 | Cartel",
+    "polish": "P250 | Kartel",
+    "portuguese": "P250 | Cartel",
+    "romanian": "P250 | Cartel",
+    "russian": "P250 | Картель",
+    "schinese": "P250 | 卡特尔",
+    "schinese_pw": "P250 | Cartel",
+    "spanish": "P250 | Cartel",
+    "swedish": "P250 | Cartel",
+    "tchinese": "P250 | 卡特爾",
+    "thai": "P250 | Cartel",
+    "turkish": "P250 | Kartel",
+    "ukrainian": "П250 | Картель",
+    "vietnamese": "P250 | Cartel"
+  },
+  "media": {
+    "asset_id": "skin__36-388",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-388/light.png",
+      "data/api/media/rendered/files/skins/36-388/medium.png",
+      "data/api/media/rendered/files/skins/36-388/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-388.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-388/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-388/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-388/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-388/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_aq_p250_cartel_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_aq_p250_cartel_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_aq_p250_cartel_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Cartel",
+  "search_slug": "p250-cartel",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4029",
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_5",
+        "name": "The Vanguard Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-388__normal__battle-scarred",
+    "36-388__normal__factory-new",
+    "36-388__normal__field-tested",
+    "36-388__normal__minimal-wear",
+    "36-388__normal__well-worn",
+    "36-388__stattrak__battle-scarred",
+    "36-388__stattrak__factory-new",
+    "36-388__stattrak__field-tested",
+    "36-388__stattrak__minimal-wear",
+    "36-388__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

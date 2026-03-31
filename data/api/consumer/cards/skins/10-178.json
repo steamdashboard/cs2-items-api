@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 178,
+    "id": 178,
+    "localized_names": {
+      "brazilian": "Gatinhos Caóticos",
+      "bulgarian": "Котенце на гибелта",
+      "czech": "Doomkitty",
+      "danish": "Doomkitty",
+      "dutch": "Doomkitty",
+      "english": "Doomkitty",
+      "finnish": "Tuomionturri",
+      "french": "Doomkitty",
+      "german": "Kätzchen der Verdammnis",
+      "greek": "Doomkitty",
+      "hungarian": "Végzetcica",
+      "indonesian": "Doomkitty",
+      "italian": "Doomkitty",
+      "japanese": "Doomkitty",
+      "koreana": "죽음의 고양이",
+      "latam": "Perdición gatuna",
+      "norwegian": "Doomkitty",
+      "polish": "Kotek zagłady",
+      "portuguese": "Doomkitty",
+      "romanian": "Doomkitty",
+      "russian": "Смертенок",
+      "schinese": "厄运之喵",
+      "schinese_pw": "Doomkitty",
+      "spanish": "Perdición gatuna",
+      "swedish": "Doomkitty",
+      "tchinese": "末日貓咪",
+      "thai": "Doomkitty",
+      "turkish": "Lanetli Kedi",
+      "ukrainian": "Смертеня",
+      "vietnamese": "Doomkitty"
+    },
+    "name": "Doomkitty",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.22,
+      "min_float": 0.08
+    }
+  },
+  "id": "10-178",
+  "localized_names": {
+    "brazilian": "FAMAS | Gatinhos Caóticos",
+    "bulgarian": "FAMAS | Котенце на гибелта",
+    "czech": "FAMAS | Doomkitty",
+    "danish": "FAMAS | Doomkitty",
+    "dutch": "FAMAS | Doomkitty",
+    "english": "FAMAS | Doomkitty",
+    "finnish": "FAMAS | Tuomionturri",
+    "french": "FAMAS | Doomkitty",
+    "german": "FAMAS | Kätzchen der Verdammnis",
+    "greek": "FAMAS | Doomkitty",
+    "hungarian": "FAMAS | Végzetcica",
+    "indonesian": "FAMAS | Doomkitty",
+    "italian": "FAMAS | Doomkitty",
+    "japanese": "FAMAS | Doomkitty",
+    "koreana": "파마스 | 죽음의 고양이",
+    "latam": "FAMAS | Perdición gatuna",
+    "norwegian": "FAMAS | Doomkitty",
+    "polish": "FAMAS | Kotek zagłady",
+    "portuguese": "FAMAS | Doomkitty",
+    "romanian": "FAMAS | Doomkitty",
+    "russian": "FAMAS | Смертенок",
+    "schinese": "法玛斯 | 厄运之喵",
+    "schinese_pw": "FAMAS | Doomkitty",
+    "spanish": "FAMAS | Perdición gatuna",
+    "swedish": "FAMAS | Doomkitty",
+    "tchinese": "FAMAS | 末日貓咪",
+    "thai": "FAMAS | Doomkitty",
+    "turkish": "FAMAS | Lanetli Kedi",
+    "ukrainian": "ФАМАС | Смертеня",
+    "vietnamese": "FAMAS | Doomkitty"
+  },
+  "media": {
+    "asset_id": "skin__10-178",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-178/light.png",
+      "data/api/media/rendered/files/skins/10-178/medium.png",
+      "data/api/media/rendered/files/skins/10-178/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-178.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-178/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-178/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-178/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-178/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_hy_doomkitty_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_hy_doomkitty_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_hy_doomkitty_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Doomkitty",
+  "search_slug": "famas-doomkitty",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-178__normal__field-tested",
+    "10-178__normal__minimal-wear",
+    "10-178__stattrak__field-tested",
+    "10-178__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.22,
+    "min_float": 0.08
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1038,
+    "id": 1038,
+    "localized_names": {
+      "brazilian": "Aberração Cromática",
+      "bulgarian": "Хроматична аберация",
+      "czech": "Chromatic Aberration",
+      "danish": "Chromatic Aberration",
+      "dutch": "Chromatic Aberration",
+      "english": "Chromatic Aberration",
+      "finnish": "Värivääristymä",
+      "french": "Aberration chromatique",
+      "german": "Chromatische Aberration",
+      "greek": "Chromatic Aberration",
+      "hungarian": "Kromatikus Aberráció",
+      "indonesian": "Chromatic Aberration",
+      "italian": "Chromatic Aberration",
+      "japanese": "Chromatic Aberration",
+      "koreana": "크로마틱 에버레이션",
+      "latam": "Aberración cromática",
+      "norwegian": "Chromatic Aberration",
+      "polish": "Aberracja chromatyczna",
+      "portuguese": "Chromatic Aberration",
+      "romanian": "Chromatic Aberration",
+      "russian": "Хроматическая аберрация",
+      "schinese": "迷人眼",
+      "schinese_pw": "Chromatic Aberration",
+      "spanish": "Aberración cromática",
+      "swedish": "Chromatic Aberration",
+      "tchinese": "色差",
+      "thai": "Chromatic Aberration",
+      "turkish": "Renk Sapmaları",
+      "ukrainian": "Хроматична аберація",
+      "vietnamese": "Chromatic Aberration"
+    },
+    "name": "Chromatic Aberration",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-1038",
+  "localized_names": {
+    "brazilian": "Galil AR | Aberração Cromática",
+    "bulgarian": "Galil AR | Хроматична аберация",
+    "czech": "Galil AR | Chromatic Aberration",
+    "danish": "Galil AR | Chromatic Aberration",
+    "dutch": "Galil AR | Chromatic Aberration",
+    "english": "Galil AR | Chromatic Aberration",
+    "finnish": "Galil AR | Värivääristymä",
+    "french": "Galil AR | Aberration chromatique",
+    "german": "Galil AR | Chromatische Aberration",
+    "greek": "Galil AR | Chromatic Aberration",
+    "hungarian": "Galil AR | Kromatikus Aberráció",
+    "indonesian": "Galil AR | Chromatic Aberration",
+    "italian": "Galil AR | Chromatic Aberration",
+    "japanese": "Galil AR | Chromatic Aberration",
+    "koreana": "갈릴 돌격소총 | 크로마틱 에버레이션",
+    "latam": "Galil AR | Aberración cromática",
+    "norwegian": "Galil AR | Chromatic Aberration",
+    "polish": "Galil AR | Aberracja chromatyczna",
+    "portuguese": "Galil AR | Chromatic Aberration",
+    "romanian": "Galil AR | Chromatic Aberration",
+    "russian": "Автомат «Галиль» | Хроматическая аберрация",
+    "schinese": "加利尔AR | 迷人眼",
+    "schinese_pw": "Galil AR | Chromatic Aberration",
+    "spanish": "Galil AR | Aberración cromática",
+    "swedish": "Galil AR | Chromatic Aberration",
+    "tchinese": "Galil AR | 色差",
+    "thai": "Galil AR | Chromatic Aberration",
+    "turkish": "Galil AR | Renk Sapmaları",
+    "ukrainian": "Ґаліл | Хроматична аберація",
+    "vietnamese": "Galil AR | Chromatic Aberration"
+  },
+  "media": {
+    "asset_id": "skin__13-1038",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-1038/light.png",
+      "data/api/media/rendered/files/skins/13-1038/medium.png",
+      "data/api/media/rendered/files/skins/13-1038/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-1038.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-1038/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-1038/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-1038/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-1038/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_chroma_pink_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_chroma_pink_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_cu_galil_chroma_pink_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Chromatic Aberration",
+  "search_slug": "galil-ar-chromatic-aberration",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4747",
+        "kind": "weapon-case",
+        "name": "Snakebite Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_28",
+        "name": "The Snakebite Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-1038__normal__battle-scarred",
+    "13-1038__normal__factory-new",
+    "13-1038__normal__field-tested",
+    "13-1038__normal__minimal-wear",
+    "13-1038__normal__well-worn",
+    "13-1038__stattrak__battle-scarred",
+    "13-1038__stattrak__factory-new",
+    "13-1038__stattrak__field-tested",
+    "13-1038__stattrak__minimal-wear",
+    "13-1038__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

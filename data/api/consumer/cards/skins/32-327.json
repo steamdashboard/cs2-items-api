@@ -1,0 +1,274 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 327,
+    "id": 327,
+    "localized_names": {
+      "brazilian": "Cota de Malha",
+      "bulgarian": "Ризница",
+      "czech": "Chainmail",
+      "danish": "Chainmail",
+      "dutch": "Chainmail",
+      "english": "Chainmail",
+      "finnish": "Rengaspanssari",
+      "french": "Cotte de mailles",
+      "german": "Kettenhemd",
+      "greek": "Chainmail",
+      "hungarian": "Láncing",
+      "indonesian": "Chainmail",
+      "italian": "Chainmail",
+      "japanese": "Chainmail",
+      "koreana": "쇄자갑",
+      "latam": "Cota de malla",
+      "norwegian": "Chainmail",
+      "polish": "Kolczuga",
+      "portuguese": "Chainmail",
+      "romanian": "Chainmail",
+      "russian": "Кольчуга",
+      "schinese": "坚固链甲",
+      "schinese_pw": "Chainmail",
+      "spanish": "Cota de malla",
+      "swedish": "Chainmail",
+      "tchinese": "鎖鏈禁錮",
+      "thai": "Chainmail",
+      "turkish": "Zincir Zırh",
+      "ukrainian": "Кольчуга",
+      "vietnamese": "Chainmail"
+    },
+    "name": "Chainmail",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.22,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-327",
+  "localized_names": {
+    "brazilian": "P2000 | Cota de Malha",
+    "bulgarian": "P2000 | Ризница",
+    "czech": "P2000 | Chainmail",
+    "danish": "P2000 | Chainmail",
+    "dutch": "P2000 | Chainmail",
+    "english": "P2000 | Chainmail",
+    "finnish": "P2000 | Rengaspanssari",
+    "french": "P2000 | Cotte de mailles",
+    "german": "P2000 | Kettenhemd",
+    "greek": "P2000 | Chainmail",
+    "hungarian": "P2000 | Láncing",
+    "indonesian": "P2000 | Chainmail",
+    "italian": "P2000 | Chainmail",
+    "japanese": "P2000 | Chainmail",
+    "koreana": "P2000 | 쇄자갑",
+    "latam": "P2000 | Cota de malla",
+    "norwegian": "P2000 | Chainmail",
+    "polish": "P2000 | Kolczuga",
+    "portuguese": "P2000 | Chainmail",
+    "romanian": "P2000 | Chainmail",
+    "russian": "P2000 | Кольчуга",
+    "schinese": "P2000 | 坚固链甲",
+    "schinese_pw": "P2000 | Chainmail",
+    "spanish": "P2000 | Cota de malla",
+    "swedish": "P2000 | Chainmail",
+    "tchinese": "P2000 | 鎖鏈禁錮",
+    "thai": "P2000 | Chainmail",
+    "turkish": "P2000 | Zincir Zırh",
+    "ukrainian": "П2000 | Кольчуга",
+    "vietnamese": "P2000 | Chainmail"
+  },
+  "media": {
+    "asset_id": "skin__32-327",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-327/light.png",
+      "data/api/media/rendered/files/skins/32-327/medium.png",
+      "data/api/media/rendered/files/skins/32-327/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-327.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-327/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-327/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-327/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-327/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_am_chainmail_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_am_chainmail_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_am_chainmail_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Chainmail",
+  "search_slug": "p2000-chainmail",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cobblestone",
+        "name": "The Cobblestone Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4602",
+        "kind": "container",
+        "name": "The Cobblestone Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4027",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4036",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cobblestone Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4084",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4134",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4179",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4228",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cobblestone Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4276",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cobblestone Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4346",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cobblestone Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4398",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4465",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cobblestone Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "32-327__normal__factory-new",
+    "32-327__normal__field-tested",
+    "32-327__normal__minimal-wear",
+    "32-327__souvenir__factory-new",
+    "32-327__souvenir__field-tested",
+    "32-327__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.22,
+    "min_float": 0.0
+  }
+}

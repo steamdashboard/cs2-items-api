@@ -1,0 +1,70 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_feathers_aug",
+    "id": 73,
+    "name": "Wings",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 73,
+    "weapon_id": 8
+  },
+  "id": "8-73",
+  "name": "AUG | Wings",
+  "search_slug": "aug-wings",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "8-73__normal__factory-new",
+    "8-73__normal__minimal-wear",
+    "8-73__stattrak__factory-new",
+    "8-73__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_aug",
+    "id": 8,
+    "name": "AUG",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.14,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_zombie",
+    "id": 20,
+    "name": "Virus",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 20,
+    "weapon_id": 19
+  },
+  "id": "19-20",
+  "name": "P90 | Virus",
+  "search_slug": "p90-virus",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "19-20__normal__vanilla",
+    "19-20__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_p90",
+    "id": 19,
+    "name": "P90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

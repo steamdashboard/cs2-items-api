@@ -1,0 +1,71 @@
+{
+  "codename": "customplayer_tm_professional_var2",
+  "entity_id": "5050",
+  "entity_type": "agent",
+  "id": "agent__5050",
+  "name": "customplayer_tm_professional_var2",
+  "refs": {
+    "image_inventory": "econ/characters/customplayer_tm_professional_var2",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "ambient_light": "0.19 0.22 0.29",
+      "camera_angles": "-1.15 138.06 0.00",
+      "camera_fov": "20.000000",
+      "camera_offset": "75.28 -73.31 60.16",
+      "directional_light_0": {
+        "color": "0.21 0.21 0.22",
+        "direction": "-0.50 0.80 0.00"
+      },
+      "directional_light_1": {
+        "color": "0.07 0.10 0.13",
+        "direction": "0.70 -0.80 0.00"
+      },
+      "override_camera_lookat": "1",
+      "override_default_light": "1",
+      "pose_sequence": "cu_ct_pose01",
+      "root_mdl": "models/player/custom_player/uiplayer/animset_uiplayer.vmdl",
+      "shadow_light_angles": "39.57 165.58 0.00",
+      "shadow_light_atten_farz": "512.000000",
+      "shadow_light_color": "4.38 4.98 5.41",
+      "shadow_light_fov": "54.000000",
+      "shadow_light_offset": "66.32 -17.06 124.60",
+      "shadow_light_zfar": "256.000000",
+      "shadow_light_znear": "4.000000",
+      "spot_light_key": {
+        "color": "2.1 2.1 2.1",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-120 120 180"
+      },
+      "spot_light_rim": {
+        "color": "4 4 4",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "10.0 -90.0 -60.0"
+      }
+    },
+    "model_ag2": "phase2/characters/models/tm_phoenix/tm_phoenix_ag2.vmdl",
+    "model_player": "characters/models/tm_phoenix/tm_phoenix.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/characters/customplayer_tm_professional_var2_png.vtex_c",
+      "panorama/images/econ/characters/customplayer_tm_professional_var2_square_png.vtex_c"
+    ],
+    "inventory_image_data.root_mdl": [
+      "characters/models/shared/animsets/animset_uiplayer.vmdl_c"
+    ],
+    "model_ag2": [
+      "phase2/characters/models/tm_phoenix/tm_phoenix_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "characters/models/tm_phoenix/tm_phoenix.vmdl_c"
+    ]
+  },
+  "unresolved_refs": []
+}

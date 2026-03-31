@@ -1,0 +1,62 @@
+{
+  "card_type": "weapon",
+  "description": "Medi-Shot",
+  "id": 57,
+  "localized_names": {
+    "brazilian": "Injeção Médica",
+    "bulgarian": "Медицинска инжекция",
+    "czech": "Adrenalin",
+    "danish": "Medicinsprøjte",
+    "dutch": "Herstelinjectie",
+    "english": "Medi-Shot",
+    "finnish": "Lääkepiikki",
+    "french": "Seringue médicale",
+    "german": "Heilungsspritze",
+    "greek": "Γιατρικό",
+    "hungarian": "Elsősegély-injekció",
+    "indonesian": "Medi-Shot",
+    "italian": "Iniezione medica",
+    "japanese": "メディショット",
+    "koreana": "의료 주사",
+    "latam": "Inyección medicinal",
+    "norwegian": "Helsesprøyte",
+    "polish": "Zastrzyk wzmacniający",
+    "portuguese": "Injeção Médica",
+    "romanian": "Injecție medicală",
+    "russian": "Медшприц",
+    "schinese": "医疗针",
+    "schinese_pw": "Medi-Shot",
+    "spanish": "Inyección medicinal",
+    "swedish": "Hälsospruta",
+    "tchinese": "醫療針",
+    "thai": "เข็มฉีดยา",
+    "turkish": "Sağlık Aşısı",
+    "ukrainian": "Лікувальна ін’єкція",
+    "vietnamese": "Medi-Shot"
+  },
+  "media": {
+    "asset_id": "weapon__57",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/57/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/57.json",
+    "models": [
+      "weapons/models/healthshot/weapon_healthshot.vmdl_c",
+      "phase2/weapons/models/healthshot/weapon_healthshot_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/57/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.vtex_c"
+  },
+  "name": "Medi-Shot",
+  "regular_skin_ids": [],
+  "search_slug": "medi-shot",
+  "side": null,
+  "special_pool_ids": [],
+  "supports_vanilla": false,
+  "type_name": "Equipment",
+  "weapon_group": "other-weapon"
+}

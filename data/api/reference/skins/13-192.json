@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_crumple_bravo",
+    "id": 192,
+    "name": "Shattered",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 192,
+    "weapon_id": 13
+  },
+  "id": "13-192",
+  "name": "Galil AR | Shattered",
+  "search_slug": "galil-ar-shattered",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "13-192__normal__vanilla",
+    "13-192__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_galilar",
+    "id": 13,
+    "name": "Galil AR",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

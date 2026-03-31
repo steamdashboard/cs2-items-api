@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 716,
+    "id": 716,
+    "localized_names": {
+      "brazilian": "Soldado de Brinquedo",
+      "bulgarian": "Войниче играчка",
+      "czech": "Toy Soldier",
+      "danish": "Toy Soldier",
+      "dutch": "Toy Soldier",
+      "english": "Toy Soldier",
+      "finnish": "Muovisotilas",
+      "french": "Soldat de plomb",
+      "german": "Spielzeugsoldat",
+      "greek": "Toy Soldier",
+      "hungarian": "Játék Katona",
+      "indonesian": "Toy Soldier",
+      "italian": "Toy Soldier",
+      "japanese": "Toy Soldier",
+      "koreana": "장난감 병정",
+      "latam": "Soldado de juguete",
+      "norwegian": "Toy Soldier",
+      "polish": "Zabawkowy żołnierzyk",
+      "portuguese": "Toy Soldier",
+      "romanian": "Toy Soldier",
+      "russian": "Солдатик",
+      "schinese": "玩具士兵",
+      "schinese_pw": "Toy Soldier",
+      "spanish": "Soldado de juguete",
+      "swedish": "Toy Soldier",
+      "tchinese": "玩具士兵",
+      "thai": "Toy Soldier",
+      "turkish": "Oyuncak Asker",
+      "ukrainian": "Іграшковий солдатик",
+      "vietnamese": "Toy Soldier"
+    },
+    "name": "Toy Soldier",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-716",
+  "localized_names": {
+    "brazilian": "Nova | Soldado de Brinquedo",
+    "bulgarian": "Nova | Войниче играчка",
+    "czech": "Nova | Toy Soldier",
+    "danish": "Nova | Toy Soldier",
+    "dutch": "Nova | Toy Soldier",
+    "english": "Nova | Toy Soldier",
+    "finnish": "Nova | Muovisotilas",
+    "french": "Nova | Soldat de plomb",
+    "german": "Nova | Spielzeugsoldat",
+    "greek": "Nova | Toy Soldier",
+    "hungarian": "Nova | Játék Katona",
+    "indonesian": "Nova | Toy Soldier",
+    "italian": "Nova | Toy Soldier",
+    "japanese": "Nova | Toy Soldier",
+    "koreana": "노바 | 장난감 병정",
+    "latam": "Nova | Soldado de juguete",
+    "norwegian": "Nova | Toy Soldier",
+    "polish": "Nova | Zabawkowy żołnierzyk",
+    "portuguese": "Nova | Toy Soldier",
+    "romanian": "Nova | Toy Soldier",
+    "russian": "Nova | Солдатик",
+    "schinese": "新星 | 玩具士兵",
+    "schinese_pw": "Nova | Toy Soldier",
+    "spanish": "Nova | Soldado de juguete",
+    "swedish": "Nova | Toy Soldier",
+    "tchinese": "Nova | 玩具士兵",
+    "thai": "Nova | Toy Soldier",
+    "turkish": "Nova | Oyuncak Asker",
+    "ukrainian": "Нова | Іграшковий солдатик",
+    "vietnamese": "Nova | Toy Soldier"
+  },
+  "media": {
+    "asset_id": "skin__35-716",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-716/light.png",
+      "data/api/media/rendered/files/skins/35-716/medium.png",
+      "data/api/media/rendered/files/skins/35-716/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-716.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-716/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-716/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-716/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-716/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_cu_nova_toy_soldier_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_cu_nova_toy_soldier_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_cu_nova_toy_soldier_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Toy Soldier",
+  "search_slug": "nova-toy-soldier",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4482",
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_20",
+        "name": "The Horizon Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-716__normal__battle-scarred",
+    "35-716__normal__factory-new",
+    "35-716__normal__field-tested",
+    "35-716__normal__minimal-wear",
+    "35-716__normal__well-worn",
+    "35-716__stattrak__battle-scarred",
+    "35-716__stattrak__factory-new",
+    "35-716__stattrak__field-tested",
+    "35-716__stattrak__minimal-wear",
+    "35-716__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

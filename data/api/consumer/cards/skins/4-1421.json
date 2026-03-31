@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1421,
+    "id": 1421,
+    "localized_names": {
+      "brazilian": "Totalmente Tunada",
+      "bulgarian": "Напълно тунинговано",
+      "czech": "Fully Tuned",
+      "danish": "Fully Tuned",
+      "dutch": "Fully Tuned",
+      "english": "Fully Tuned",
+      "finnish": "Täysin tuunattu",
+      "french": "Modification totale",
+      "german": "Aufgemotzt",
+      "greek": "Fully Tuned",
+      "hungarian": "Teljes Tuning",
+      "indonesian": "Fully Tuned",
+      "italian": "Fully Tuned",
+      "japanese": "Fully Tuned",
+      "koreana": "완벽 튜닝",
+      "latam": "Modificación total",
+      "norwegian": "Fully Tuned",
+      "polish": "Pełen tuning",
+      "portuguese": "Fully Tuned",
+      "romanian": "Fully Tuned",
+      "russian": "Полный раскрас",
+      "schinese": "巅峰状态",
+      "schinese_pw": "Fully Tuned",
+      "spanish": "Modificación total",
+      "swedish": "Fully Tuned",
+      "tchinese": "完全調諧",
+      "thai": "Fully Tuned",
+      "turkish": "Tam Ayarlı",
+      "ukrainian": "Повний фарш",
+      "vietnamese": "Fully Tuned"
+    },
+    "name": "Fully Tuned",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-1421",
+  "localized_names": {
+    "brazilian": "Glock-18 | Totalmente Tunada",
+    "bulgarian": "Glock-18 | Напълно тунинговано",
+    "czech": "Glock-18 | Fully Tuned",
+    "danish": "Glock-18 | Fully Tuned",
+    "dutch": "Glock-18 | Fully Tuned",
+    "english": "Glock-18 | Fully Tuned",
+    "finnish": "Glock-18 | Täysin tuunattu",
+    "french": "Glock-18 | Modification totale",
+    "german": "Glock-18 | Aufgemotzt",
+    "greek": "Glock-18 | Fully Tuned",
+    "hungarian": "Glock-18 | Teljes Tuning",
+    "indonesian": "Glock-18 | Fully Tuned",
+    "italian": "Glock-18 | Fully Tuned",
+    "japanese": "Glock-18 | Fully Tuned",
+    "koreana": "글록 18 | 완벽 튜닝",
+    "latam": "Glock-18 | Modificación total",
+    "norwegian": "Glock-18 | Fully Tuned",
+    "polish": "Glock-18 | Pełen tuning",
+    "portuguese": "Glock-18 | Fully Tuned",
+    "romanian": "Glock-18 | Fully Tuned",
+    "russian": "Glock-18 | Полный раскрас",
+    "schinese": "格洛克18型 | 巅峰状态",
+    "schinese_pw": "Glock-18 | Fully Tuned",
+    "spanish": "Glock-18 | Modificación total",
+    "swedish": "Glock-18 | Fully Tuned",
+    "tchinese": "Glock-18 | 完全調諧",
+    "thai": "Glock-18 | Fully Tuned",
+    "turkish": "Glock-18 | Tam Ayarlı",
+    "ukrainian": "Ґлок-18 | Повний фарш",
+    "vietnamese": "Glock-18 | Fully Tuned"
+  },
+  "media": {
+    "asset_id": "skin__4-1421",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-1421/light.png",
+      "data/api/media/rendered/files/skins/4-1421/medium.png",
+      "data/api/media/rendered/files/skins/4-1421/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-1421.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-1421/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-1421/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-1421/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-1421/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_glock_jdpeek_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_glock_jdpeek_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_glock_jdpeek_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Fully Tuned",
+  "search_slug": "glock-18-fully-tuned",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_community_37",
+        "name": "The Dead Hand Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5181",
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "tier": "ancient"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-1421__normal__battle-scarred",
+    "4-1421__normal__factory-new",
+    "4-1421__normal__field-tested",
+    "4-1421__normal__minimal-wear",
+    "4-1421__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

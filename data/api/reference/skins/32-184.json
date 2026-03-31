@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_favela_p2000",
+    "id": 184,
+    "name": "Corticera",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 184,
+    "weapon_id": 32
+  },
+  "id": "32-184",
+  "name": "P2000 | Corticera",
+  "search_slug": "p2000-corticera",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "32-184__normal__vanilla",
+    "32-184__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_hkp2000",
+    "id": 32,
+    "name": "P2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": null
+  }
+}

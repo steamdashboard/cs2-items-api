@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 71,
+    "id": 71,
+    "localized_names": {
+      "brazilian": "Escorpião",
+      "bulgarian": "Скорпион",
+      "czech": "Scorpion",
+      "danish": "Scorpion",
+      "dutch": "Scorpion",
+      "english": "Scorpion",
+      "finnish": "Skorpioni",
+      "french": "Scorpion",
+      "german": "Skorpion",
+      "greek": "Scorpion",
+      "hungarian": "Skorpió",
+      "indonesian": "Scorpion",
+      "italian": "Scorpion",
+      "japanese": "Scorpion",
+      "koreana": "전갈",
+      "latam": "Escorpión",
+      "norwegian": "Scorpion",
+      "polish": "Skorpion",
+      "portuguese": "Scorpion",
+      "romanian": "Scorpion",
+      "russian": "Скорпион",
+      "schinese": "致命红蝎",
+      "schinese_pw": "Scorpion",
+      "spanish": "Escorpión",
+      "swedish": "Scorpion",
+      "tchinese": "毒蠍",
+      "thai": "Scorpion",
+      "turkish": "Akrep",
+      "ukrainian": "Скорпіон",
+      "vietnamese": "Scorpion"
+    },
+    "name": "Scorpion",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-71",
+  "localized_names": {
+    "brazilian": "P2000 | Escorpião",
+    "bulgarian": "P2000 | Скорпион",
+    "czech": "P2000 | Scorpion",
+    "danish": "P2000 | Scorpion",
+    "dutch": "P2000 | Scorpion",
+    "english": "P2000 | Scorpion",
+    "finnish": "P2000 | Skorpioni",
+    "french": "P2000 | Scorpion",
+    "german": "P2000 | Skorpion",
+    "greek": "P2000 | Scorpion",
+    "hungarian": "P2000 | Skorpió",
+    "indonesian": "P2000 | Scorpion",
+    "italian": "P2000 | Scorpion",
+    "japanese": "P2000 | Scorpion",
+    "koreana": "P2000 | 전갈",
+    "latam": "P2000 | Escorpión",
+    "norwegian": "P2000 | Scorpion",
+    "polish": "P2000 | Skorpion",
+    "portuguese": "P2000 | Scorpion",
+    "romanian": "P2000 | Scorpion",
+    "russian": "P2000 | Скорпион",
+    "schinese": "P2000 | 致命红蝎",
+    "schinese_pw": "P2000 | Scorpion",
+    "spanish": "P2000 | Escorpión",
+    "swedish": "P2000 | Scorpion",
+    "tchinese": "P2000 | 毒蠍",
+    "thai": "P2000 | Scorpion",
+    "turkish": "P2000 | Akrep",
+    "ukrainian": "П2000 | Скорпіон",
+    "vietnamese": "P2000 | Scorpion"
+  },
+  "media": {
+    "asset_id": "skin__32-71",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-71/light.png",
+      "data/api/media/rendered/files/skins/32-71/medium.png",
+      "data/api/media/rendered/files/skins/32-71/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-71.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-71/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-71/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-71/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-71/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_am_scorpion_p2000_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_am_scorpion_p2000_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_am_scorpion_p2000_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Scorpion",
+  "search_slug": "p2000-scorpion",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust",
+        "name": "The Dust Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "32-71__normal__factory-new",
+    "32-71__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

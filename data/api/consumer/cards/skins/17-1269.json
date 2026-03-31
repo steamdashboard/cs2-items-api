@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1269,
+    "id": 1269,
+    "localized_names": {
+      "brazilian": "Camuflagem Tempestuosa",
+      "bulgarian": "Буреносен камуфлаж",
+      "czech": "Storm Camo",
+      "danish": "Storm Camo",
+      "dutch": "Storm Camo",
+      "english": "Storm Camo",
+      "finnish": "Myrskymaasto",
+      "french": "Camouflage tempête",
+      "german": "Sturmtarnung",
+      "greek": "Storm Camo",
+      "hungarian": "Vihar Álca",
+      "indonesian": "Storm Camo",
+      "italian": "Storm Camo",
+      "japanese": "Storm Camo",
+      "koreana": "폭풍 위장",
+      "latam": "Camuflaje de tormenta",
+      "norwegian": "Storm Camo",
+      "polish": "Burzowe moro",
+      "portuguese": "Storm Camo",
+      "romanian": "Storm Camo",
+      "russian": "Грозовой камуфляж",
+      "schinese": "风暴迷彩",
+      "schinese_pw": "Storm Camo",
+      "spanish": "Camuflaje de tormenta",
+      "swedish": "Storm Camo",
+      "tchinese": "風暴迷彩",
+      "thai": "Storm Camo",
+      "turkish": "Fırtına Kamuflaj",
+      "ukrainian": "Штормовий камуфляж",
+      "vietnamese": "Storm Camo"
+    },
+    "name": "Storm Camo",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.637288,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-1269",
+  "localized_names": {
+    "brazilian": "MAC-10 | Camuflagem Tempestuosa",
+    "bulgarian": "MAC-10 | Буреносен камуфлаж",
+    "czech": "MAC-10 | Storm Camo",
+    "danish": "MAC-10 | Storm Camo",
+    "dutch": "MAC-10 | Storm Camo",
+    "english": "MAC-10 | Storm Camo",
+    "finnish": "MAC-10 | Myrskymaasto",
+    "french": "MAC-10 | Camouflage tempête",
+    "german": "MAC-10 | Sturmtarnung",
+    "greek": "MAC-10 | Storm Camo",
+    "hungarian": "MAC-10 | Vihar Álca",
+    "indonesian": "MAC-10 | Storm Camo",
+    "italian": "MAC-10 | Storm Camo",
+    "japanese": "MAC-10 | Storm Camo",
+    "koreana": "MAC-10 | 폭풍 위장",
+    "latam": "MAC-10 | Camuflaje de tormenta",
+    "norwegian": "MAC-10 | Storm Camo",
+    "polish": "MAC-10 | Burzowe moro",
+    "portuguese": "MAC-10 | Storm Camo",
+    "romanian": "MAC-10 | Storm Camo",
+    "russian": "MAC-10 | Грозовой камуфляж",
+    "schinese": "MAC-10 | 风暴迷彩",
+    "schinese_pw": "MAC-10 | Storm Camo",
+    "spanish": "MAC-10 | Camuflaje de tormenta",
+    "swedish": "MAC-10 | Storm Camo",
+    "tchinese": "MAC-10 | 風暴迷彩",
+    "thai": "MAC-10 | Storm Camo",
+    "turkish": "MAC-10 | Fırtına Kamuflaj",
+    "ukrainian": "МАК-10 | Штормовий камуфляж",
+    "vietnamese": "MAC-10 | Storm Camo"
+  },
+  "media": {
+    "asset_id": "skin__17-1269",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-1269/light.png",
+      "data/api/media/rendered/files/skins/17-1269/medium.png",
+      "data/api/media/rendered/files/skins/17-1269/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-1269.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-1269/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-1269/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-1269/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-1269/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_soo_mac10_blueberry_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_soo_mac10_blueberry_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_soo_mac10_blueberry_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Storm Camo",
+  "search_slug": "mac-10-storm-camo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_cool",
+        "name": "The Ascent Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-1269__normal__battle-scarred",
+    "17-1269__normal__factory-new",
+    "17-1269__normal__field-tested",
+    "17-1269__normal__minimal-wear",
+    "17-1269__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.637288,
+    "min_float": 0.0
+  }
+}

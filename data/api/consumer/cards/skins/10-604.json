@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 604,
+    "id": 604,
+    "localized_names": {
+      "brazilian": "Gaiola de Proteção",
+      "bulgarian": "Ролбар",
+      "czech": "Roll Cage",
+      "danish": "Roll Cage",
+      "dutch": "Roll Cage",
+      "english": "Roll Cage",
+      "finnish": "Ralliroiskeet",
+      "french": "Rally",
+      "german": "Überrollkäfig",
+      "greek": "Roll Cage",
+      "hungarian": "Bukókeret",
+      "indonesian": "Roll Cage",
+      "italian": "Roll Cage",
+      "japanese": "Roll Cage",
+      "koreana": "롤 케이지",
+      "latam": "Jaula antivuelco",
+      "norwegian": "Roll Cage",
+      "polish": "Klatka bezpieczeństwa",
+      "portuguese": "Roll Cage",
+      "romanian": "Roll Cage",
+      "russian": "Защитный каркас",
+      "schinese": "防滚架",
+      "schinese_pw": "Roll Cage",
+      "spanish": "Jaula antivuelco",
+      "swedish": "Roll Cage",
+      "tchinese": "防滾架",
+      "thai": "Roll Cage",
+      "turkish": "Ralli",
+      "ukrainian": "Каркас",
+      "vietnamese": "Roll Cage"
+    },
+    "name": "Roll Cage",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-604",
+  "localized_names": {
+    "brazilian": "FAMAS | Gaiola de Proteção",
+    "bulgarian": "FAMAS | Ролбар",
+    "czech": "FAMAS | Roll Cage",
+    "danish": "FAMAS | Roll Cage",
+    "dutch": "FAMAS | Roll Cage",
+    "english": "FAMAS | Roll Cage",
+    "finnish": "FAMAS | Ralliroiskeet",
+    "french": "FAMAS | Rally",
+    "german": "FAMAS | Überrollkäfig",
+    "greek": "FAMAS | Roll Cage",
+    "hungarian": "FAMAS | Bukókeret",
+    "indonesian": "FAMAS | Roll Cage",
+    "italian": "FAMAS | Roll Cage",
+    "japanese": "FAMAS | Roll Cage",
+    "koreana": "파마스 | 롤 케이지",
+    "latam": "FAMAS | Jaula antivuelco",
+    "norwegian": "FAMAS | Roll Cage",
+    "polish": "FAMAS | Klatka bezpieczeństwa",
+    "portuguese": "FAMAS | Roll Cage",
+    "romanian": "FAMAS | Roll Cage",
+    "russian": "FAMAS | Защитный каркас",
+    "schinese": "法玛斯 | 防滚架",
+    "schinese_pw": "FAMAS | Roll Cage",
+    "spanish": "FAMAS | Jaula antivuelco",
+    "swedish": "FAMAS | Roll Cage",
+    "tchinese": "FAMAS | 防滾架",
+    "thai": "FAMAS | Roll Cage",
+    "turkish": "FAMAS | Ralli",
+    "ukrainian": "ФАМАС | Каркас",
+    "vietnamese": "FAMAS | Roll Cage"
+  },
+  "media": {
+    "asset_id": "skin__10-604",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-604/light.png",
+      "data/api/media/rendered/files/skins/10-604/medium.png",
+      "data/api/media/rendered/files/skins/10-604/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-604.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-604/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-604/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-604/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-604/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_gs_famas_rally_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_gs_famas_rally_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_gs_famas_rally_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Roll Cage",
+  "search_slug": "famas-roll-cage",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4281",
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_gamma_2",
+        "name": "set_gamma_2"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-604__normal__battle-scarred",
+    "10-604__normal__factory-new",
+    "10-604__normal__field-tested",
+    "10-604__normal__minimal-wear",
+    "10-604__normal__well-worn",
+    "10-604__stattrak__battle-scarred",
+    "10-604__stattrak__factory-new",
+    "10-604__stattrak__field-tested",
+    "10-604__stattrak__minimal-wear",
+    "10-604__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

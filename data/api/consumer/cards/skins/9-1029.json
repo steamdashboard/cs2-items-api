@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1029,
+    "id": 1029,
+    "localized_names": {
+      "brazilian": "Tigre de Seda",
+      "bulgarian": "Копринен тигър",
+      "czech": "Silk Tiger",
+      "danish": "Silk Tiger",
+      "dutch": "Silk Tiger",
+      "english": "Silk Tiger",
+      "finnish": "Silkkitiikeri",
+      "french": "Tigre de soie",
+      "german": "Seidentiger",
+      "greek": "Silk Tiger",
+      "hungarian": "Selyemtigris",
+      "indonesian": "Silk Tiger",
+      "italian": "Silk Tiger",
+      "japanese": "Silk Tiger",
+      "koreana": "실크 타이거",
+      "latam": "Tigre de seda",
+      "norwegian": "Silk Tiger",
+      "polish": "Jedwabny tygrys",
+      "portuguese": "Silk Tiger",
+      "romanian": "Silk Tiger",
+      "russian": "Шёлковый тигр",
+      "schinese": "锦虎",
+      "schinese_pw": "Silk Tiger",
+      "spanish": "Tigre de seda",
+      "swedish": "Silk Tiger",
+      "tchinese": "錦虎",
+      "thai": "Silk Tiger",
+      "turkish": "İpek Kaplan",
+      "ukrainian": "Шовковий тигр",
+      "vietnamese": "Silk Tiger"
+    },
+    "name": "Silk Tiger",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-1029",
+  "localized_names": {
+    "brazilian": "AWP | Tigre de Seda",
+    "bulgarian": "AWP | Копринен тигър",
+    "czech": "AWP | Silk Tiger",
+    "danish": "AWP | Silk Tiger",
+    "dutch": "AWP | Silk Tiger",
+    "english": "AWP | Silk Tiger",
+    "finnish": "AWP | Silkkitiikeri",
+    "french": "AWP | Tigre de soie",
+    "german": "AWP | Seidentiger",
+    "greek": "AWP | Silk Tiger",
+    "hungarian": "AWP | Selyemtigris",
+    "indonesian": "AWP | Silk Tiger",
+    "italian": "AWP | Silk Tiger",
+    "japanese": "AWP | Silk Tiger",
+    "koreana": "AWP | 실크 타이거",
+    "latam": "AWP | Tigre de seda",
+    "norwegian": "AWP | Silk Tiger",
+    "polish": "AWP | Jedwabny tygrys",
+    "portuguese": "AWP | Silk Tiger",
+    "romanian": "AWP | Silk Tiger",
+    "russian": "AWP | Шёлковый тигр",
+    "schinese": "AWP | 锦虎",
+    "schinese_pw": "AWP | Silk Tiger",
+    "spanish": "AWP | Tigre de seda",
+    "swedish": "AWP | Silk Tiger",
+    "tchinese": "AWP | 錦虎",
+    "thai": "AWP | Silk Tiger",
+    "turkish": "AWP | İpek Kaplan",
+    "ukrainian": "АВП | Шовковий тигр",
+    "vietnamese": "AWP | Silk Tiger"
+  },
+  "media": {
+    "asset_id": "skin__9-1029",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-1029/light.png",
+      "data/api/media/rendered/files/skins/9-1029/medium.png",
+      "data/api/media/rendered/files/skins/9-1029/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-1029.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-1029/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-1029/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-1029/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-1029/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_am_tigers_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_am_tigers_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_am_tigers_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Silk Tiger",
+  "search_slug": "awp-silk-tiger",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_t",
+        "name": "The Havoc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4721",
+        "kind": "container",
+        "name": "The Havoc Collection",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-1029__normal__battle-scarred",
+    "9-1029__normal__factory-new",
+    "9-1029__normal__field-tested",
+    "9-1029__normal__minimal-wear",
+    "9-1029__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

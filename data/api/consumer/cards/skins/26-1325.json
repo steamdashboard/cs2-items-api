@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1325,
+    "id": 1325,
+    "localized_names": {
+      "brazilian": "Camuflagem Amadeirada",
+      "bulgarian": "Дръвников камуфлаж",
+      "czech": "Wood Block Camo",
+      "danish": "Wood Block Camo",
+      "dutch": "Wood Block Camo",
+      "english": "Wood Block Camo",
+      "finnish": "Metsä puilta",
+      "french": "Camouflage sur bois",
+      "german": "Holzblocktarnung",
+      "greek": "Wood Block Camo",
+      "hungarian": "Fablokk Álca",
+      "indonesian": "Wood Block Camo",
+      "italian": "Wood Block Camo",
+      "japanese": "Wood Block Camo",
+      "koreana": "나뭇결 위장",
+      "latam": "Camuflaje en bloques de madera",
+      "norwegian": "Wood Block Camo",
+      "polish": "Deska moro",
+      "portuguese": "Wood Block Camo",
+      "romanian": "Wood Block Camo",
+      "russian": "Дощатый камуфляж",
+      "schinese": "木纹迷彩",
+      "schinese_pw": "Wood Block Camo",
+      "spanish": "Camuflaje forestal",
+      "swedish": "Wood Block Camo",
+      "tchinese": "木塊迷彩",
+      "thai": "Wood Block Camo",
+      "turkish": "Ahşap Blok Kamuflaj",
+      "ukrainian": "Дерев’яний камуфляж",
+      "vietnamese": "Wood Block Camo"
+    },
+    "name": "Wood Block Camo",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-1325",
+  "localized_names": {
+    "brazilian": "PP-Bizon | Camuflagem Amadeirada",
+    "bulgarian": "PP-Bizon | Дръвников камуфлаж",
+    "czech": "PP-Bizon | Wood Block Camo",
+    "danish": "PP-Bizon | Wood Block Camo",
+    "dutch": "PP-Bizon | Wood Block Camo",
+    "english": "PP-Bizon | Wood Block Camo",
+    "finnish": "PP-Bizon | Metsä puilta",
+    "french": "PP-Bizon | Camouflage sur bois",
+    "german": "PP-Bizon | Holzblocktarnung",
+    "greek": "PP-Bizon | Wood Block Camo",
+    "hungarian": "PP-Bizon | Fablokk Álca",
+    "indonesian": "PP-Bizon | Wood Block Camo",
+    "italian": "PP-Bizon | Wood Block Camo",
+    "japanese": "PP-Bizon | Wood Block Camo",
+    "koreana": "PP 비존 | 나뭇결 위장",
+    "latam": "PP-Bizon | Camuflaje en bloques de madera",
+    "norwegian": "PP-Bizon | Wood Block Camo",
+    "polish": "PP-Bizon | Deska moro",
+    "portuguese": "PP-Bizon | Wood Block Camo",
+    "romanian": "PP-Bizon | Wood Block Camo",
+    "russian": "ПП-19 «Бизон» | Дощатый камуфляж",
+    "schinese": "PP-野牛 | 木纹迷彩",
+    "schinese_pw": "PP-Bizon | Wood Block Camo",
+    "spanish": "PP-Bizon | Camuflaje forestal",
+    "swedish": "PP-Bizon | Wood Block Camo",
+    "tchinese": "PP-Bizon | 木塊迷彩",
+    "thai": "PP-Bizon | Wood Block Camo",
+    "turkish": "PP-Bizon | Ahşap Blok Kamuflaj",
+    "ukrainian": "ПП «Бізон» | Дерев’яний камуфляж",
+    "vietnamese": "PP-Bizon | Wood Block Camo"
+  },
+  "media": {
+    "asset_id": "skin__26-1325",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-1325/light.png",
+      "data/api/media/rendered/files/skins/26-1325/medium.png",
+      "data/api/media/rendered/files/skins/26-1325/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-1325.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-1325/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-1325/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-1325/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-1325/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_hy_wood_grain_camo_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_hy_wood_grain_camo_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_hy_wood_grain_camo_red_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | Wood Block Camo",
+  "search_slug": "pp-bizon-wood-block-camo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "26-1325__normal__battle-scarred",
+    "26-1325__normal__factory-new",
+    "26-1325__normal__field-tested",
+    "26-1325__normal__minimal-wear",
+    "26-1325__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

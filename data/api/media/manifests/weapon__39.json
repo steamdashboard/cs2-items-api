@@ -1,0 +1,55 @@
+{
+  "codename": "weapon_sg556",
+  "entity_id": "39",
+  "entity_type": "weapon",
+  "id": "weapon__39",
+  "name": "SG 553",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_sg556.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_sg556",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "-12.0 -130.0 0.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "17.0 3.3 -3.4",
+      "override_default_light": "1",
+      "spot_light_key": {
+        "color": "2 2.1 2.3",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-120 120 180"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "10.0 -90.0 -60.0"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/sg556/weapon_rif_sg556_ag2.vmdl",
+    "model_player": "weapons/models/sg556/weapon_rif_sg556.vmdl",
+    "model_world": "weapons/models/sg556/weapon_rif_sg556.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_sg556_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/sg556/weapon_rif_sg556_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/sg556/weapon_rif_sg556.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/sg556/weapon_rif_sg556.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

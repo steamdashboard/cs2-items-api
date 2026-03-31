@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1304,
+    "id": 1304,
+    "localized_names": {
+      "brazilian": "Cerâmica Verde",
+      "bulgarian": "Зелена керамика",
+      "czech": "Green Ceramic",
+      "danish": "Green Ceramic",
+      "dutch": "Green Ceramic",
+      "english": "Green Ceramic",
+      "finnish": "Vihreää keramiikkaa",
+      "french": "Céramique verte",
+      "german": "Grüne Keramik",
+      "greek": "Green Ceramic",
+      "hungarian": "Zöld Kerámia",
+      "indonesian": "Green Ceramic",
+      "italian": "Green Ceramic",
+      "japanese": "Green Ceramic",
+      "koreana": "초록 세라믹",
+      "latam": "Cerámica verde",
+      "norwegian": "Green Ceramic",
+      "polish": "Zielona ceramika",
+      "portuguese": "Green Ceramic",
+      "romanian": "Green Ceramic",
+      "russian": "Зелёная керамика",
+      "schinese": "绿陶",
+      "schinese_pw": "Green Ceramic",
+      "spanish": "Cerámica verde",
+      "swedish": "Green Ceramic",
+      "tchinese": "綠色陶瓷",
+      "thai": "Green Ceramic",
+      "turkish": "Yeşil Seramik",
+      "ukrainian": "Зелена кераміка",
+      "vietnamese": "Green Ceramic"
+    },
+    "name": "Green Ceramic",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-1304",
+  "localized_names": {
+    "brazilian": "SSG 08 | Cerâmica Verde",
+    "bulgarian": "SSG 08 | Зелена керамика",
+    "czech": "SSG 08 | Green Ceramic",
+    "danish": "SSG 08 | Green Ceramic",
+    "dutch": "SSG 08 | Green Ceramic",
+    "english": "SSG 08 | Green Ceramic",
+    "finnish": "SSG 08 | Vihreää keramiikkaa",
+    "french": "SSG 08 | Céramique verte",
+    "german": "SSG 08 | Grüne Keramik",
+    "greek": "SSG 08 | Green Ceramic",
+    "hungarian": "SSG 08 | Zöld Kerámia",
+    "indonesian": "SSG 08 | Green Ceramic",
+    "italian": "SSG 08 | Green Ceramic",
+    "japanese": "SSG 08 | Green Ceramic",
+    "koreana": "SSG 08 | 초록 세라믹",
+    "latam": "SSG 08 | Cerámica verde",
+    "norwegian": "SSG 08 | Green Ceramic",
+    "polish": "SSG 08 | Zielona ceramika",
+    "portuguese": "SSG 08 | Green Ceramic",
+    "romanian": "SSG 08 | Green Ceramic",
+    "russian": "SSG 08 | Зелёная керамика",
+    "schinese": "SSG 08 | 绿陶",
+    "schinese_pw": "SSG 08 | Green Ceramic",
+    "spanish": "SSG 08 | Cerámica verde",
+    "swedish": "SSG 08 | Green Ceramic",
+    "tchinese": "SSG 08 | 綠色陶瓷",
+    "thai": "SSG 08 | Green Ceramic",
+    "turkish": "SSG 08 | Yeşil Seramik",
+    "ukrainian": "ССГ 08 | Зелена кераміка",
+    "vietnamese": "SSG 08 | Green Ceramic"
+  },
+  "media": {
+    "asset_id": "skin__40-1304",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-1304/light.png",
+      "data/api/media/rendered/files/skins/40-1304/medium.png",
+      "data/api/media/rendered/files/skins/40-1304/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-1304.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-1304/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-1304/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-1304/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-1304/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_so_ceramic_green_ssg08_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_so_ceramic_green_ssg08_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_so_ceramic_green_ssg08_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Green Ceramic",
+  "search_slug": "ssg-08-green-ceramic",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_neutral",
+        "name": "The Boreal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-1304__normal__battle-scarred",
+    "40-1304__normal__factory-new",
+    "40-1304__normal__field-tested",
+    "40-1304__normal__minimal-wear",
+    "40-1304__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

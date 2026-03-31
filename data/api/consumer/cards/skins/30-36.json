@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 36,
+    "id": 36,
+    "localized_names": {
+      "brazilian": "Ossificado",
+      "bulgarian": "Вкостенено",
+      "czech": "Ossified",
+      "danish": "Ossified",
+      "dutch": "Ossified",
+      "english": "Ossified",
+      "finnish": "Luutunut",
+      "french": "Sclérosé",
+      "german": "Verknöchert",
+      "greek": "Ossified",
+      "hungarian": "Csontosított",
+      "indonesian": "Ossified",
+      "italian": "Ossified",
+      "japanese": "Ossified",
+      "koreana": "골화",
+      "latam": "Osificado",
+      "norwegian": "Ossified",
+      "polish": "Skostniały",
+      "portuguese": "Ossified",
+      "romanian": "Ossified",
+      "russian": "Окостеневший",
+      "schinese": "骨化之色",
+      "schinese_pw": "Ossified",
+      "spanish": "Osificado",
+      "swedish": "Ossified",
+      "tchinese": "冷酷無情",
+      "thai": "Ossified",
+      "turkish": "Kemikleşmiş",
+      "ukrainian": "Закостенілий",
+      "vietnamese": "Ossified"
+    },
+    "name": "Ossified",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-36",
+  "localized_names": {
+    "brazilian": "Tec-9 | Ossificado",
+    "bulgarian": "Tec-9 | Вкостенено",
+    "czech": "Tec-9 | Ossified",
+    "danish": "Tec-9 | Ossified",
+    "dutch": "Tec-9 | Ossified",
+    "english": "Tec-9 | Ossified",
+    "finnish": "Tec-9 | Luutunut",
+    "french": "Tec-9 | Sclérosé",
+    "german": "Tec-9 | Verknöchert",
+    "greek": "Tec-9 | Ossified",
+    "hungarian": "Tec-9 | Csontosított",
+    "indonesian": "Tec-9 | Ossified",
+    "italian": "Tec-9 | Ossified",
+    "japanese": "Tec-9 | Ossified",
+    "koreana": "Tec-9 | 골화",
+    "latam": "Tec-9 | Osificado",
+    "norwegian": "Tec-9 | Ossified",
+    "polish": "Tec-9 | Skostniały",
+    "portuguese": "Tec-9 | Ossified",
+    "romanian": "Tec-9 | Ossified",
+    "russian": "Tec-9 | Окостеневший",
+    "schinese": "Tec-9 | 骨化之色",
+    "schinese_pw": "Tec-9 | Ossified",
+    "spanish": "Tec-9 | Osificado",
+    "swedish": "Tec-9 | Ossified",
+    "tchinese": "Tec-9 | 冷酷無情",
+    "thai": "Tec-9 | Ossified",
+    "turkish": "Tec-9 | Kemikleşmiş",
+    "ukrainian": "ТЕК-9 | Закостенілий",
+    "vietnamese": "Tec-9 | Ossified"
+  },
+  "media": {
+    "asset_id": "skin__30-36",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-36/light.png",
+      "data/api/media/rendered/files/skins/30-36/medium.png",
+      "data/api/media/rendered/files/skins/30-36/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-36.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-36/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-36/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-36/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-36/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_am_ossify_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_am_ossify_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_am_ossify_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Ossified",
+  "search_slug": "tec-9-ossified",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_aztec",
+        "name": "The Aztec Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-36__normal__factory-new",
+    "30-36__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

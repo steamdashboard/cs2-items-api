@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "aq_sawedoff_blackgold",
+    "id": 390,
+    "name": "Highwayman",
+    "rarity_ref": null,
+    "style_code": 8
+  },
+  "game_ref": {
+    "paint_kit_id": 390,
+    "weapon_id": 29
+  },
+  "id": "29-390",
+  "name": "Sawed-Off | Highwayman",
+  "search_slug": "sawed-off-highwayman",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_5",
+        "name": "The Vanguard Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4029",
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "29-390__normal__factory-new",
+    "29-390__normal__minimal-wear",
+    "29-390__normal__field-tested",
+    "29-390__normal__well-worn",
+    "29-390__normal__battle-scarred",
+    "29-390__stattrak__factory-new",
+    "29-390__stattrak__minimal-wear",
+    "29-390__stattrak__field-tested",
+    "29-390__stattrak__well-worn",
+    "29-390__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_sawedoff",
+    "id": 29,
+    "name": "Sawed-Off",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

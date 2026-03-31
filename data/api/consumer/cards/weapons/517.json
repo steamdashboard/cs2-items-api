@@ -1,0 +1,66 @@
+{
+  "card_type": "knife",
+  "description": "This fixed-blade survival knife is designed to withstand being used as both a weapon and a tool, such as for setting traps, hunting animals or cutting foliage. The handle is wrapped in a length of multi-purpose paracord.",
+  "id": 517,
+  "localized_names": {
+    "brazilian": "Faca de Cordame",
+    "bulgarian": "Паракорд нож",
+    "czech": "Výsadkářský nůž",
+    "danish": "Paracordkniv",
+    "dutch": "Paracordmes",
+    "english": "Paracord Knife",
+    "finnish": "Paracord-kahvainen kenttäpuukko",
+    "french": "Couteau en paracorde",
+    "german": "Fallschirm-Messer",
+    "greek": "Μαχαίρι Paracord",
+    "hungarian": "Paracord kés",
+    "indonesian": "Pisau Paracord",
+    "italian": "Coltello Paracord",
+    "japanese": "Paracord ナイフ",
+    "koreana": "파라코드 칼",
+    "latam": "Cuchillo encordado",
+    "norwegian": "Paracordkniv",
+    "polish": "Nóż paracord",
+    "portuguese": "Faca Paracord",
+    "romanian": "Cuțit Paracord",
+    "russian": "Паракорд-нож",
+    "schinese": "系绳匕首",
+    "schinese_pw": "Paracord Knife",
+    "spanish": "Cuchillo encordado",
+    "swedish": "Paracordkniv",
+    "tchinese": "繩柄刀",
+    "thai": "มีดพาราคอร์ด",
+    "turkish": "Paraşüt Kordonu Saplı Bıçak",
+    "ukrainian": "Тактичний ніж",
+    "vietnamese": "Dao Paracord"
+  },
+  "media": {
+    "asset_id": "weapon__517",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/517/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/517.json",
+    "models": [
+      "weapons/models/knife/knife_cord/weapon_knife_cord.vmdl_c",
+      "phase2/weapons/models/knife/knife_cord/weapon_knife_cord_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/517/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.vtex_c"
+  },
+  "name": "Paracord Knife",
+  "regular_skin_ids": [],
+  "search_slug": "paracord-knife",
+  "side": null,
+  "special_pool_ids": [
+    "gamma2_knives2_unusual",
+    "set_community_23_unusual",
+    "set_community_35_unusual"
+  ],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

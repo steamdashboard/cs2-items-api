@@ -1,0 +1,76 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_labyrinth2",
+    "id": 443,
+    "name": "Pathfinder",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 443,
+    "weapon_id": 61
+  },
+  "id": "61-443",
+  "name": "USP-S | Pathfinder",
+  "search_slug": "usp-s-pathfinder",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "61-443__normal__factory-new",
+    "61-443__normal__minimal-wear",
+    "61-443__normal__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_usp_silencer",
+    "id": 61,
+    "name": "USP-S",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.35,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 396,
+    "id": 396,
+    "localized_names": {
+      "brazilian": "Choque Urbano",
+      "bulgarian": "Градски сблъсък",
+      "czech": "Urban Shock",
+      "danish": "Urban Shock",
+      "dutch": "Urban Shock",
+      "english": "Urban Shock",
+      "finnish": "Urbaani shokki",
+      "french": "Choc urbain",
+      "german": "Städtischer Schock",
+      "greek": "Urban Shock",
+      "hungarian": "Városi Roham",
+      "indonesian": "Urban Shock",
+      "italian": "Urban Shock",
+      "japanese": "Urban Shock",
+      "koreana": "도시 습격",
+      "latam": "Choque urbano",
+      "norwegian": "Urban Shock",
+      "polish": "Miejski wstrząs",
+      "portuguese": "Urban Shock",
+      "romanian": "Urban Shock",
+      "russian": "Городской шок",
+      "schinese": "都市冲击",
+      "schinese_pw": "Urban Shock",
+      "spanish": "Choque urbano",
+      "swedish": "Urban Shock",
+      "tchinese": "都市衝擊",
+      "thai": "Urban Shock",
+      "turkish": "Şehir Şoku",
+      "ukrainian": "Міський перламутр",
+      "vietnamese": "Urban Shock"
+    },
+    "name": "Urban Shock",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.47,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-396",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Choque Urbano",
+    "bulgarian": "Два Beretta | Градски сблъсък",
+    "czech": "Dual Berettas | Urban Shock",
+    "danish": "Dual Berettas | Urban Shock",
+    "dutch": "Dual Berettas | Urban Shock",
+    "english": "Dual Berettas | Urban Shock",
+    "finnish": "Tupla-Berettat | Urbaani shokki",
+    "french": "Dual Berettas | Choc urbain",
+    "german": "Akimbo-Berettas | Städtischer Schock",
+    "greek": "Dual Berettas | Urban Shock",
+    "hungarian": "Dupla Beretta | Városi Roham",
+    "indonesian": "Dual Berettas | Urban Shock",
+    "italian": "Doppia Beretta | Urban Shock",
+    "japanese": "Dual Berettas | Urban Shock",
+    "koreana": "듀얼 베레타 | 도시 습격",
+    "latam": "Berettas dobles | Choque urbano",
+    "norwegian": "Dual Berettas | Urban Shock",
+    "polish": "Dwie beretty | Miejski wstrząs",
+    "portuguese": "Dual Berettas | Urban Shock",
+    "romanian": "Dual Berettas | Urban Shock",
+    "russian": "Dual Berettas | Городской шок",
+    "schinese": "双持贝瑞塔 | 都市冲击",
+    "schinese_pw": "Dual Berettas | Urban Shock",
+    "spanish": "Berettas dobles | Choque urbano",
+    "swedish": "Dual Berettas | Urban Shock",
+    "tchinese": "Dual Berettas | 都市衝擊",
+    "thai": "Dual Berettas | Urban Shock",
+    "turkish": "Çift Beretta | Şehir Şoku",
+    "ukrainian": "Подвійні «Беретти» | Міський перламутр",
+    "vietnamese": "Dual Berettas | Urban Shock"
+  },
+  "media": {
+    "asset_id": "skin__2-396",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-396/light.png",
+      "data/api/media/rendered/files/skins/2-396/medium.png",
+      "data/api/media/rendered/files/skins/2-396/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-396.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-396/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-396/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-396/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-396/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_cu_elites_urbanstorm_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_cu_elites_urbanstorm_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_cu_elites_urbanstorm_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Urban Shock",
+  "search_slug": "dual-berettas-urban-shock",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "2-396__normal__battle-scarred",
+    "2-396__normal__factory-new",
+    "2-396__normal__field-tested",
+    "2-396__normal__minimal-wear",
+    "2-396__normal__well-worn",
+    "2-396__stattrak__battle-scarred",
+    "2-396__stattrak__factory-new",
+    "2-396__stattrak__field-tested",
+    "2-396__stattrak__minimal-wear",
+    "2-396__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.47,
+    "min_float": 0.0
+  }
+}

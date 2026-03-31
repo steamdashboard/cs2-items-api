@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 290,
+    "id": 290,
+    "localized_names": {
+      "brazilian": "Guardião",
+      "bulgarian": "Пазител",
+      "czech": "Guardian",
+      "danish": "Guardian",
+      "dutch": "Guardian",
+      "english": "Guardian",
+      "finnish": "Vartija",
+      "french": "Gardien",
+      "german": "Wächter",
+      "greek": "Guardian",
+      "hungarian": "Őrző",
+      "indonesian": "Guardian",
+      "italian": "Guardian",
+      "japanese": "Guardian",
+      "koreana": "수호자",
+      "latam": "Guardián",
+      "norwegian": "Guardian",
+      "polish": "Obrońca",
+      "portuguese": "Guardian",
+      "romanian": "Guardian",
+      "russian": "Страж",
+      "schinese": "守护者",
+      "schinese_pw": "Guardian",
+      "spanish": "Guardián",
+      "swedish": "Guardian",
+      "tchinese": "捍將",
+      "thai": "Guardian",
+      "turkish": "Muhafız",
+      "ukrainian": "Вартовий",
+      "vietnamese": "Guardian"
+    },
+    "name": "Guardian",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.38,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-290",
+  "localized_names": {
+    "brazilian": "USP-S | Guardião",
+    "bulgarian": "USP-S | Пазител",
+    "czech": "USP-S | Guardian",
+    "danish": "USP-S | Guardian",
+    "dutch": "USP-S | Guardian",
+    "english": "USP-S | Guardian",
+    "finnish": "USP-S | Vartija",
+    "french": "USP-S | Gardien",
+    "german": "USP-S | Wächter",
+    "greek": "USP-S | Guardian",
+    "hungarian": "USP-S | Őrző",
+    "indonesian": "USP-S | Guardian",
+    "italian": "USP-S | Guardian",
+    "japanese": "USP-S | Guardian",
+    "koreana": "USP-S | 수호자",
+    "latam": "USP-S | Guardián",
+    "norwegian": "USP-S | Guardian",
+    "polish": "USP-S | Obrońca",
+    "portuguese": "USP-S | Guardian",
+    "romanian": "USP-S | Guardian",
+    "russian": "USP-S | Страж",
+    "schinese": "USP消音版 | 守护者",
+    "schinese_pw": "USP-S | Guardian",
+    "spanish": "USP-S | Guardián",
+    "swedish": "USP-S | Guardian",
+    "tchinese": "USP-S | 捍將",
+    "thai": "USP-S | Guardian",
+    "turkish": "USP-S | Muhafız",
+    "ukrainian": "УСП-С | Вартовий",
+    "vietnamese": "USP-S | Guardian"
+  },
+  "media": {
+    "asset_id": "skin__61-290",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-290/light.png",
+      "data/api/media/rendered/files/skins/61-290/medium.png",
+      "data/api/media/rendered/files/skins/61-290/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-290.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-290/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-290/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-290/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-290/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_elegant_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_elegant_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_elegant_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Guardian",
+  "search_slug": "usp-s-guardian",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4011",
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_2",
+        "name": "The Phoenix Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-290__normal__factory-new",
+    "61-290__normal__field-tested",
+    "61-290__normal__minimal-wear",
+    "61-290__stattrak__factory-new",
+    "61-290__stattrak__field-tested",
+    "61-290__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.38,
+    "min_float": 0.0
+  }
+}

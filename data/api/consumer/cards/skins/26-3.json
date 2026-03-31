@@ -1,0 +1,274 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 3,
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Maçã do Amor",
+      "bulgarian": "Захаросана ябълка",
+      "czech": "Candy Apple",
+      "danish": "Candy Apple",
+      "dutch": "Candy Apple",
+      "english": "Candy Apple",
+      "finnish": "Karamelliomena",
+      "french": "Pomme d'amour",
+      "german": "Kandierter Apfel",
+      "greek": "Candy Apple",
+      "hungarian": "Candy Apple",
+      "indonesian": "Candy Apple",
+      "italian": "Candy Apple",
+      "japanese": "Candy Apple",
+      "koreana": "사과 사탕",
+      "latam": "Manzana caramelizada",
+      "norwegian": "Candy Apple",
+      "polish": "Jabłko kandyzowane",
+      "portuguese": "Candy Apple",
+      "romanian": "Candy Apple",
+      "russian": "Карамельное яблоко",
+      "schinese": "红苹果",
+      "schinese_pw": "Candy Apple",
+      "spanish": "Manzana de caramelo",
+      "swedish": "Candy Apple",
+      "tchinese": "蜜糖紅蘋",
+      "thai": "Candy Apple",
+      "turkish": "Elma Şekeri",
+      "ukrainian": "Карамельне яблуко",
+      "vietnamese": "Candy Apple"
+    },
+    "name": "Candy Apple",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-3",
+  "localized_names": {
+    "brazilian": "PP-Bizon | Maçã do Amor",
+    "bulgarian": "PP-Bizon | Захаросана ябълка",
+    "czech": "PP-Bizon | Candy Apple",
+    "danish": "PP-Bizon | Candy Apple",
+    "dutch": "PP-Bizon | Candy Apple",
+    "english": "PP-Bizon | Candy Apple",
+    "finnish": "PP-Bizon | Karamelliomena",
+    "french": "PP-Bizon | Pomme d'amour",
+    "german": "PP-Bizon | Kandierter Apfel",
+    "greek": "PP-Bizon | Candy Apple",
+    "hungarian": "PP-Bizon | Candy Apple",
+    "indonesian": "PP-Bizon | Candy Apple",
+    "italian": "PP-Bizon | Candy Apple",
+    "japanese": "PP-Bizon | Candy Apple",
+    "koreana": "PP 비존 | 사과 사탕",
+    "latam": "PP-Bizon | Manzana caramelizada",
+    "norwegian": "PP-Bizon | Candy Apple",
+    "polish": "PP-Bizon | Jabłko kandyzowane",
+    "portuguese": "PP-Bizon | Candy Apple",
+    "romanian": "PP-Bizon | Candy Apple",
+    "russian": "ПП-19 «Бизон» | Карамельное яблоко",
+    "schinese": "PP-野牛 | 红苹果",
+    "schinese_pw": "PP-Bizon | Candy Apple",
+    "spanish": "PP-Bizon | Manzana de caramelo",
+    "swedish": "PP-Bizon | Candy Apple",
+    "tchinese": "PP-Bizon | 蜜糖紅蘋",
+    "thai": "PP-Bizon | Candy Apple",
+    "turkish": "PP-Bizon | Elma Şekeri",
+    "ukrainian": "ПП «Бізон» | Карамельне яблуко",
+    "vietnamese": "PP-Bizon | Candy Apple"
+  },
+  "media": {
+    "asset_id": "skin__26-3",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-3/light.png",
+      "data/api/media/rendered/files/skins/26-3/medium.png",
+      "data/api/media/rendered/files/skins/26-3/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-3.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-3/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-3/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-3/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-3/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_so_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_so_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_so_red_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | Candy Apple",
+  "search_slug": "pp-bizon-candy-apple",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_inferno_2",
+        "name": "The 2018 Inferno Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4967",
+        "kind": "container",
+        "name": "Shanghai 2024 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5120",
+        "kind": "container",
+        "name": "Austin 2025 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5219",
+        "kind": "container",
+        "name": "Budapest 2025 Inferno Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4540",
+        "kind": "souvenir-package",
+        "name": "London 2018 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4590",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4660",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4809",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4835",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4860",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4893",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Inferno Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4926",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Inferno Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "26-3__normal__factory-new",
+    "26-3__normal__field-tested",
+    "26-3__normal__minimal-wear",
+    "26-3__souvenir__factory-new",
+    "26-3__souvenir__field-tested",
+    "26-3__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

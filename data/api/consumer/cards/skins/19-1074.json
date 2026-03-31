@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1074,
+    "id": 1074,
+    "localized_names": {
+      "brazilian": "Esquemática",
+      "bulgarian": "Схема",
+      "czech": "Schematic",
+      "danish": "Schematic",
+      "dutch": "Schematic",
+      "english": "Schematic",
+      "finnish": "Kaavamainen",
+      "french": "Schéma",
+      "german": "Schaltplan",
+      "greek": "Schematic",
+      "hungarian": "Vázlat",
+      "indonesian": "Schematic",
+      "italian": "Schematic",
+      "japanese": "Schematic",
+      "koreana": "도식",
+      "latam": "Esquemas",
+      "norwegian": "Schematic",
+      "polish": "Schematyczny",
+      "portuguese": "Schematic",
+      "romanian": "Schematic",
+      "russian": "Схематика",
+      "schinese": "解视图",
+      "schinese_pw": "Schematic",
+      "spanish": "Esquemático",
+      "swedish": "Schematic",
+      "tchinese": "剖視圖",
+      "thai": "Schematic",
+      "turkish": "Şematik",
+      "ukrainian": "Схема",
+      "vietnamese": "Schematic"
+    },
+    "name": "Schematic",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-1074",
+  "localized_names": {
+    "brazilian": "P90 | Esquemática",
+    "bulgarian": "P90 | Схема",
+    "czech": "P90 | Schematic",
+    "danish": "P90 | Schematic",
+    "dutch": "P90 | Schematic",
+    "english": "P90 | Schematic",
+    "finnish": "P90 | Kaavamainen",
+    "french": "P90 | Schéma",
+    "german": "P90 | Schaltplan",
+    "greek": "P90 | Schematic",
+    "hungarian": "P90 | Vázlat",
+    "indonesian": "P90 | Schematic",
+    "italian": "P90 | Schematic",
+    "japanese": "P90 | Schematic",
+    "koreana": "P90 | 도식",
+    "latam": "P90 | Esquemas",
+    "norwegian": "P90 | Schematic",
+    "polish": "P90 | Schematyczny",
+    "portuguese": "P90 | Schematic",
+    "romanian": "P90 | Schematic",
+    "russian": "P90 | Схематика",
+    "schinese": "P90 | 解视图",
+    "schinese_pw": "P90 | Schematic",
+    "spanish": "P90 | Esquemático",
+    "swedish": "P90 | Schematic",
+    "tchinese": "P90 | 剖視圖",
+    "thai": "P90 | Schematic",
+    "turkish": "P90 | Şematik",
+    "ukrainian": "П90 | Схема",
+    "vietnamese": "P90 | Schematic"
+  },
+  "media": {
+    "asset_id": "skin__19-1074",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-1074/light.png",
+      "data/api/media/rendered/files/skins/19-1074/medium.png",
+      "data/api/media/rendered/files/skins/19-1074/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-1074.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-1074/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-1074/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-1074/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-1074/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_hy_vertigogeo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_hy_vertigogeo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_hy_vertigogeo_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Schematic",
+  "search_slug": "p90-schematic",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_vertigo_2021",
+        "name": "The 2021 Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4792",
+        "kind": "container",
+        "name": "The 2021 Vertigo Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4973",
+        "kind": "container",
+        "name": "Shanghai 2024 Vertigo Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4815",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Vertigo Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4841",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Vertigo Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4866",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Vertigo Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4899",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Vertigo Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4932",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Vertigo Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "19-1074__normal__battle-scarred",
+    "19-1074__normal__factory-new",
+    "19-1074__normal__field-tested",
+    "19-1074__normal__minimal-wear",
+    "19-1074__normal__well-worn",
+    "19-1074__souvenir__battle-scarred",
+    "19-1074__souvenir__factory-new",
+    "19-1074__souvenir__field-tested",
+    "19-1074__souvenir__minimal-wear",
+    "19-1074__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

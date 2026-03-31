@@ -1,0 +1,223 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1200,
+    "id": 1200,
+    "localized_names": {
+      "brazilian": "Linha Verde",
+      "bulgarian": "Зелена линия",
+      "czech": "Green Line",
+      "danish": "Green Line",
+      "dutch": "Green Line",
+      "english": "Green Line",
+      "finnish": "Vihreä linja",
+      "french": "Ligne verte",
+      "german": "Grüne Linie",
+      "greek": "Green Line",
+      "hungarian": "Zöld Vonal",
+      "indonesian": "Green Line",
+      "italian": "Green Line",
+      "japanese": "Green Line",
+      "koreana": "초록색 노선",
+      "latam": "Línea verde",
+      "norwegian": "Green Line",
+      "polish": "Zielona linia",
+      "portuguese": "Green Line",
+      "romanian": "Green Line",
+      "russian": "Зелёная ветка",
+      "schinese": "格林线",
+      "schinese_pw": "Green Line",
+      "spanish": "Línea verde",
+      "swedish": "Green Line",
+      "tchinese": "綠線火車",
+      "thai": "Green Line",
+      "turkish": "Yeşil Hat",
+      "ukrainian": "Зелена лінія",
+      "vietnamese": "Green Line"
+    },
+    "name": "Green Line",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "4-1200",
+  "localized_names": {
+    "brazilian": "Glock-18 | Linha Verde",
+    "bulgarian": "Glock-18 | Зелена линия",
+    "czech": "Glock-18 | Green Line",
+    "danish": "Glock-18 | Green Line",
+    "dutch": "Glock-18 | Green Line",
+    "english": "Glock-18 | Green Line",
+    "finnish": "Glock-18 | Vihreä linja",
+    "french": "Glock-18 | Ligne verte",
+    "german": "Glock-18 | Grüne Linie",
+    "greek": "Glock-18 | Green Line",
+    "hungarian": "Glock-18 | Zöld Vonal",
+    "indonesian": "Glock-18 | Green Line",
+    "italian": "Glock-18 | Green Line",
+    "japanese": "Glock-18 | Green Line",
+    "koreana": "글록 18 | 초록색 노선",
+    "latam": "Glock-18 | Línea verde",
+    "norwegian": "Glock-18 | Green Line",
+    "polish": "Glock-18 | Zielona linia",
+    "portuguese": "Glock-18 | Green Line",
+    "romanian": "Glock-18 | Green Line",
+    "russian": "Glock-18 | Зелёная ветка",
+    "schinese": "格洛克18型 | 格林线",
+    "schinese_pw": "Glock-18 | Green Line",
+    "spanish": "Glock-18 | Línea verde",
+    "swedish": "Glock-18 | Green Line",
+    "tchinese": "Glock-18 | 綠線火車",
+    "thai": "Glock-18 | Green Line",
+    "turkish": "Glock-18 | Yeşil Hat",
+    "ukrainian": "Ґлок-18 | Зелена лінія",
+    "vietnamese": "Glock-18 | Green Line"
+  },
+  "media": {
+    "asset_id": "skin__4-1200",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-1200/light.png",
+      "data/api/media/rendered/files/skins/4-1200/medium.png",
+      "data/api/media/rendered/files/skins/4-1200/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-1200.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-1200/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-1200/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-1200/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-1200/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_glock_train_green_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_glock_train_green_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_glock_train_green_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Green Line",
+  "search_slug": "glock-18-green-line",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2025",
+        "name": "The Train 2025 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5126",
+        "kind": "container",
+        "name": "Austin 2025 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5225",
+        "kind": "container",
+        "name": "Budapest 2025 Train Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-1200__normal__battle-scarred",
+    "4-1200__normal__factory-new",
+    "4-1200__normal__field-tested",
+    "4-1200__normal__minimal-wear",
+    "4-1200__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

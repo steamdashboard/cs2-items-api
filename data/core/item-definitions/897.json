@@ -1,0 +1,52 @@
+{
+  "classification": {
+    "group": "other",
+    "kind": "other"
+  },
+  "game_id": 897,
+  "id": 897,
+  "name": "ESL One Katowice 2015 CS:GO Champion",
+  "prefab_chain": [
+    "collectible",
+    "collectible_untradable",
+    "majors_trophy"
+  ],
+  "prefab_spec": "majors_trophy",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "pedestal display model": "models/inventory_items/katowice2015_trophy_champion.vmdl",
+      "tournament event id": {
+        "attribute_class": "tournament_event_id",
+        "value": "6"
+      }
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/status_icons/kat_2015_champion",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_CollectibleCoin_Kat2015_Champion_Desc",
+    "item_name": "#CSGO_CollectibleCoin_Kat2015_Champion",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "name": "ESL One Katowice 2015 CS:GO Champion",
+    "prefab": "majors_trophy",
+    "taxonomy": {
+      "table_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

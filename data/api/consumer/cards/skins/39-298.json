@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 298,
+    "id": 298,
+    "localized_names": {
+      "brazilian": "Brilho Militar",
+      "bulgarian": "Армейски гланц",
+      "czech": "Army Sheen",
+      "danish": "Army Sheen",
+      "dutch": "Army Sheen",
+      "english": "Army Sheen",
+      "finnish": "Armeijakiilto",
+      "french": "Armée éclatante",
+      "german": "Militärglanz",
+      "greek": "Army Sheen",
+      "hungarian": "Katonai Ragyogás",
+      "indonesian": "Army Sheen",
+      "italian": "Army Sheen",
+      "japanese": "Army Sheen",
+      "koreana": "광택 위장 무늬",
+      "latam": "Brillo militar",
+      "norwegian": "Army Sheen",
+      "polish": "Wojskowy połysk",
+      "portuguese": "Army Sheen",
+      "romanian": "Army Sheen",
+      "russian": "Армейский блеск",
+      "schinese": "军队之辉",
+      "schinese_pw": "Army Sheen",
+      "spanish": "Brillo militar",
+      "swedish": "Army Sheen",
+      "tchinese": "軍隊光輝",
+      "thai": "Army Sheen",
+      "turkish": "Parlak Ordu",
+      "ukrainian": "Армійська сталь",
+      "vietnamese": "Army Sheen"
+    },
+    "name": "Army Sheen",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "39-298",
+  "localized_names": {
+    "brazilian": "SG 553 | Brilho Militar",
+    "bulgarian": "SG 553 | Армейски гланц",
+    "czech": "SG 553 | Army Sheen",
+    "danish": "SG 553 | Army Sheen",
+    "dutch": "SG 553 | Army Sheen",
+    "english": "SG 553 | Army Sheen",
+    "finnish": "SG 553 | Armeijakiilto",
+    "french": "SG 553 | Armée éclatante",
+    "german": "SG 553 | Militärglanz",
+    "greek": "SG 553 | Army Sheen",
+    "hungarian": "SG 553 | Katonai Ragyogás",
+    "indonesian": "SG 553 | Army Sheen",
+    "italian": "SG 553 | Army Sheen",
+    "japanese": "SG 553 | Army Sheen",
+    "koreana": "SG 553 | 광택 위장 무늬",
+    "latam": "SG 553 | Brillo militar",
+    "norwegian": "SG 553 | Army Sheen",
+    "polish": "SG 553 | Wojskowy połysk",
+    "portuguese": "SG 553 | Army Sheen",
+    "romanian": "SG 553 | Army Sheen",
+    "russian": "SG 553 | Армейский блеск",
+    "schinese": "SG 553 | 军队之辉",
+    "schinese_pw": "SG 553 | Army Sheen",
+    "spanish": "SG 553 | Brillo militar",
+    "swedish": "SG 553 | Army Sheen",
+    "tchinese": "SG 553 | 軍隊光輝",
+    "thai": "SG 553 | Army Sheen",
+    "turkish": "SG 553 | Parlak Ordu",
+    "ukrainian": "СГ 553 | Армійська сталь",
+    "vietnamese": "SG 553 | Army Sheen"
+  },
+  "media": {
+    "asset_id": "skin__39-298",
+    "images_png": [
+      "data/api/media/rendered/files/skins/39-298/light.png",
+      "data/api/media/rendered/files/skins/39-298/medium.png",
+      "data/api/media/rendered/files/skins/39-298/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/39-298.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/39-298/heavy.png",
+      "light": "data/api/media/rendered/files/skins/39-298/light.png",
+      "medium": "data/api/media/rendered/files/skins/39-298/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/39-298/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sg556_am_army_shine_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sg556_am_army_shine_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sg556_am_army_shine_medium_png.vtex_c"
+    }
+  },
+  "name": "SG 553 | Army Sheen",
+  "search_slug": "sg-553-army-sheen",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "39-298__normal__factory-new",
+    "39-298__normal__field-tested",
+    "39-298__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 39,
+    "localized_names": {
+      "brazilian": "SG 553",
+      "bulgarian": "SG 553",
+      "czech": "SG 553",
+      "danish": "SG 553",
+      "dutch": "SG 553",
+      "english": "SG 553",
+      "finnish": "SG 553",
+      "french": "SG 553",
+      "german": "SG 553",
+      "greek": "SG 553",
+      "hungarian": "SG 553",
+      "indonesian": "SG 553",
+      "italian": "SG 553",
+      "japanese": "SG 553",
+      "koreana": "SG 553",
+      "latam": "SG 553",
+      "norwegian": "SG 553",
+      "polish": "SG 553",
+      "portuguese": "SG 553",
+      "romanian": "SG 553",
+      "russian": "SG 553",
+      "schinese": "SG 553",
+      "schinese_pw": "SG 553",
+      "spanish": "SG 553",
+      "swedish": "SG 553",
+      "tchinese": "SG 553",
+      "thai": "SG 553",
+      "turkish": "SG 553",
+      "ukrainian": "СГ 553",
+      "vietnamese": "SG 553"
+    },
+    "name": "SG 553",
+    "search_slug": "sg-553",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

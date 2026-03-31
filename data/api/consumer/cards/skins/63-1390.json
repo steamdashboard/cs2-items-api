@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1390,
+    "id": 1390,
+    "localized_names": {
+      "brazilian": "Paisley Mélico",
+      "bulgarian": "Меден пейсли",
+      "czech": "Honey Paisley",
+      "danish": "Honey Paisley",
+      "dutch": "Honey Paisley",
+      "english": "Honey Paisley",
+      "finnish": "Kultainen kasmir",
+      "french": "Nectar cachemire",
+      "german": "Honigfarbenes Paisley",
+      "greek": "Honey Paisley",
+      "hungarian": "Mézszínű Kasmír",
+      "indonesian": "Honey Paisley",
+      "italian": "Honey Paisley",
+      "japanese": "Honey Paisley",
+      "koreana": "허니 페이즐리",
+      "latam": "Cachemira de miel",
+      "norwegian": "Honey Paisley",
+      "polish": "Miodowa bandana",
+      "portuguese": "Honey Paisley",
+      "romanian": "Honey Paisley",
+      "russian": "Медовый пейсли",
+      "schinese": "蜜金佩斯利",
+      "schinese_pw": "Honey Paisley",
+      "spanish": "Cachemir de miel",
+      "swedish": "Honey Paisley",
+      "tchinese": "蜂蜜佩利斯",
+      "thai": "Honey Paisley",
+      "turkish": "Ballı Pateh",
+      "ukrainian": "Медове пейслі",
+      "vietnamese": "Honey Paisley"
+    },
+    "name": "Honey Paisley",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-1390",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Paisley Mélico",
+    "bulgarian": "CZ75-Auto | Меден пейсли",
+    "czech": "CZ75-Auto | Honey Paisley",
+    "danish": "CZ75-Auto | Honey Paisley",
+    "dutch": "CZ75-Auto | Honey Paisley",
+    "english": "CZ75-Auto | Honey Paisley",
+    "finnish": "CZ75-Auto | Kultainen kasmir",
+    "french": "CZ75-Auto | Nectar cachemire",
+    "german": "CZ75-Auto | Honigfarbenes Paisley",
+    "greek": "CZ75-Auto | Honey Paisley",
+    "hungarian": "CZ75-Auto | Mézszínű Kasmír",
+    "indonesian": "CZ75-Auto | Honey Paisley",
+    "italian": "CZ75-Auto | Honey Paisley",
+    "japanese": "CZ75-Auto | Honey Paisley",
+    "koreana": "CZ75 기관권총 | 허니 페이즐리",
+    "latam": "CZ75-Auto | Cachemira de miel",
+    "norwegian": "CZ75-Auto | Honey Paisley",
+    "polish": "CZ75-Auto | Miodowa bandana",
+    "portuguese": "CZ75-Auto | Honey Paisley",
+    "romanian": "CZ75-Auto | Honey Paisley",
+    "russian": "CZ75-Auto | Медовый пейсли",
+    "schinese": "CZ75自动型 | 蜜金佩斯利",
+    "schinese_pw": "CZ75-Auto | Honey Paisley",
+    "spanish": "CZ75-Auto | Cachemir de miel",
+    "swedish": "CZ75-Auto | Honey Paisley",
+    "tchinese": "CZ75-Auto | 蜂蜜佩利斯",
+    "thai": "CZ75-Auto | Honey Paisley",
+    "turkish": "CZ75-Otomatik | Ballı Pateh",
+    "ukrainian": "ЧЗ-75 авто | Медове пейслі",
+    "vietnamese": "CZ75-Auto | Honey Paisley"
+  },
+  "media": {
+    "asset_id": "skin__63-1390",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-1390/light.png",
+      "data/api/media/rendered/files/skins/63-1390/medium.png",
+      "data/api/media/rendered/files/skins/63-1390/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-1390.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-1390/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-1390/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-1390/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-1390/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_hye_paisley_desat_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_hye_paisley_desat_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_hye_paisley_desat_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Honey Paisley",
+  "search_slug": "cz75-auto-honey-paisley",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_exuberant",
+        "name": "The Harlequin Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-1390__normal__battle-scarred",
+    "63-1390__normal__factory-new",
+    "63-1390__normal__field-tested",
+    "63-1390__normal__minimal-wear",
+    "63-1390__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

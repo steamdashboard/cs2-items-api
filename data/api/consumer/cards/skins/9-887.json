@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 887,
+    "id": 887,
+    "localized_names": {
+      "brazilian": "Falha de Contenção",
+      "bulgarian": "Изолационен пробив",
+      "czech": "Containment Breach",
+      "danish": "Containment Breach",
+      "dutch": "Containment Breach",
+      "english": "Containment Breach",
+      "finnish": "Pako eristyksestä",
+      "french": "Brèche de confinement",
+      "german": "Eindämmungsbruch",
+      "greek": "Containment Breach",
+      "hungarian": "Elszabadulás",
+      "indonesian": "Containment Breach",
+      "italian": "Containment Breach",
+      "japanese": "Containment Breach",
+      "koreana": "탈출",
+      "latam": "Brecha de contención",
+      "norwegian": "Containment Breach",
+      "polish": "Naruszenie kwarantanny",
+      "portuguese": "Containment Breach",
+      "romanian": "Containment Breach",
+      "russian": "Распространение",
+      "schinese": "冲出重围",
+      "schinese_pw": "Containment Breach",
+      "spanish": "Brecha de contención",
+      "swedish": "Containment Breach",
+      "tchinese": "突破重圍",
+      "thai": "Containment Breach",
+      "turkish": "Karantinadan Kaçış",
+      "ukrainian": "Прорив ізоляції",
+      "vietnamese": "Containment Breach"
+    },
+    "name": "Containment Breach",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-887",
+  "localized_names": {
+    "brazilian": "AWP | Falha de Contenção",
+    "bulgarian": "AWP | Изолационен пробив",
+    "czech": "AWP | Containment Breach",
+    "danish": "AWP | Containment Breach",
+    "dutch": "AWP | Containment Breach",
+    "english": "AWP | Containment Breach",
+    "finnish": "AWP | Pako eristyksestä",
+    "french": "AWP | Brèche de confinement",
+    "german": "AWP | Eindämmungsbruch",
+    "greek": "AWP | Containment Breach",
+    "hungarian": "AWP | Elszabadulás",
+    "indonesian": "AWP | Containment Breach",
+    "italian": "AWP | Containment Breach",
+    "japanese": "AWP | Containment Breach",
+    "koreana": "AWP | 탈출",
+    "latam": "AWP | Brecha de contención",
+    "norwegian": "AWP | Containment Breach",
+    "polish": "AWP | Naruszenie kwarantanny",
+    "portuguese": "AWP | Containment Breach",
+    "romanian": "AWP | Containment Breach",
+    "russian": "AWP | Распространение",
+    "schinese": "AWP | 冲出重围",
+    "schinese_pw": "AWP | Containment Breach",
+    "spanish": "AWP | Brecha de contención",
+    "swedish": "AWP | Containment Breach",
+    "tchinese": "AWP | 突破重圍",
+    "thai": "AWP | Containment Breach",
+    "turkish": "AWP | Karantinadan Kaçış",
+    "ukrainian": "АВП | Прорив ізоляції",
+    "vietnamese": "AWP | Containment Breach"
+  },
+  "media": {
+    "asset_id": "skin__9-887",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-887/light.png",
+      "data/api/media/rendered/files/skins/9-887/medium.png",
+      "data/api/media/rendered/files/skins/9-887/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-887.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-887/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-887/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-887/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-887/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_cu_awp_virus_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_cu_awp_virus_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_cu_awp_virus_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Containment Breach",
+  "search_slug": "awp-containment-breach",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4620",
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_23",
+        "name": "The Shattered Web Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-887__normal__battle-scarred",
+    "9-887__normal__factory-new",
+    "9-887__normal__field-tested",
+    "9-887__normal__minimal-wear",
+    "9-887__normal__well-worn",
+    "9-887__stattrak__battle-scarred",
+    "9-887__stattrak__factory-new",
+    "9-887__stattrak__field-tested",
+    "9-887__stattrak__minimal-wear",
+    "9-887__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 90,
+    "id": 90,
+    "localized_names": {
+      "brazilian": "Lama",
+      "bulgarian": "Тиня",
+      "czech": "Mudder",
+      "danish": "Mudder",
+      "dutch": "Mudder",
+      "english": "Mudder",
+      "finnish": "Muta",
+      "french": "Bourbier",
+      "german": "Matschig",
+      "greek": "Mudder",
+      "hungarian": "Saras",
+      "indonesian": "Mudder",
+      "italian": "Mudder",
+      "japanese": "Mudder",
+      "koreana": "진흙탕",
+      "latam": "Embarrada",
+      "norwegian": "Mudder",
+      "polish": "Błotniak",
+      "portuguese": "Mudder",
+      "romanian": "Mudder",
+      "russian": "Внедорожник",
+      "schinese": "泥地杀手",
+      "schinese_pw": "Mudder",
+      "spanish": "Embarrada",
+      "swedish": "Mudder",
+      "tchinese": "泥地",
+      "thai": "Mudder",
+      "turkish": "Çamurlu",
+      "ukrainian": "Бруд",
+      "vietnamese": "Mudder"
+    },
+    "name": "Mudder",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "1-90",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Lama",
+    "bulgarian": "Desert Eagle | Тиня",
+    "czech": "Desert Eagle | Mudder",
+    "danish": "Desert Eagle | Mudder",
+    "dutch": "Desert Eagle | Mudder",
+    "english": "Desert Eagle | Mudder",
+    "finnish": "Desert Eagle | Muta",
+    "french": "Desert Eagle | Bourbier",
+    "german": "Desert Eagle | Matschig",
+    "greek": "Desert Eagle | Mudder",
+    "hungarian": "Desert Eagle | Saras",
+    "indonesian": "Desert Eagle | Mudder",
+    "italian": "Desert Eagle | Mudder",
+    "japanese": "Desert Eagle | Mudder",
+    "koreana": "데저트 이글 | 진흙탕",
+    "latam": "Desert Eagle | Embarrada",
+    "norwegian": "Desert Eagle | Mudder",
+    "polish": "Desert Eagle | Błotniak",
+    "portuguese": "Desert Eagle | Mudder",
+    "romanian": "Desert Eagle | Mudder",
+    "russian": "Desert Eagle | Внедорожник",
+    "schinese": "沙漠之鹰 | 泥地杀手",
+    "schinese_pw": "Desert Eagle | Mudder",
+    "spanish": "Desert Eagle | Embarrada",
+    "swedish": "Desert Eagle | Mudder",
+    "tchinese": "Desert Eagle | 泥地",
+    "thai": "Desert Eagle | Mudder",
+    "turkish": "Desert Eagle | Çamurlu",
+    "ukrainian": "Пустельний орел | Бруд",
+    "vietnamese": "Desert Eagle | Mudder"
+  },
+  "media": {
+    "asset_id": "skin__1-90",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-90/light.png",
+      "data/api/media/rendered/files/skins/1-90/medium.png",
+      "data/api/media/rendered/files/skins/1-90/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-90.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-90/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-90/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-90/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-90/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_hy_mottled_sand_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_hy_mottled_sand_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_hy_mottled_sand_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Mudder",
+  "search_slug": "desert-eagle-mudder",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_lake",
+        "name": "The Lake Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-90__normal__vanilla"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

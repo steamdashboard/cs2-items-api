@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "aq_xm1014_hot_rod",
+    "id": 521,
+    "name": "Teclu Burner",
+    "rarity_ref": null,
+    "style_code": 8
+  },
+  "game_ref": {
+    "paint_kit_id": 521,
+    "weapon_id": 25
+  },
+  "id": "25-521",
+  "name": "XM1014 | Teclu Burner",
+  "search_slug": "xm1014-teclu-burner",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "25-521__normal__factory-new",
+    "25-521__normal__minimal-wear",
+    "25-521__normal__field-tested",
+    "25-521__normal__well-worn",
+    "25-521__normal__battle-scarred",
+    "25-521__stattrak__factory-new",
+    "25-521__stattrak__minimal-wear",
+    "25-521__stattrak__field-tested",
+    "25-521__stattrak__well-worn",
+    "25-521__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_xm1014",
+    "id": 25,
+    "name": "XM1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

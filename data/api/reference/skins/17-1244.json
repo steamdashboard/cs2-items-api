@@ -1,0 +1,125 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "cu_mac10_scarab",
+    "id": 1244,
+    "name": "Echoing Sands",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 1244,
+    "weapon_id": 17
+  },
+  "id": "17-1244",
+  "name": "MAC-10 | Echoing Sands",
+  "search_slug": "mac-10-echoing-sands",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_anubis",
+        "name": "The Anubis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4882",
+        "kind": "container",
+        "name": "Anubis Collection Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4895",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Anubis Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4928",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4969",
+        "kind": "container",
+        "name": "Shanghai 2024 Anubis Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5122",
+        "kind": "container",
+        "name": "Austin 2025 Anubis Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "17-1244__normal__factory-new",
+    "17-1244__normal__minimal-wear",
+    "17-1244__normal__field-tested",
+    "17-1244__normal__well-worn",
+    "17-1244__normal__battle-scarred",
+    "17-1244__souvenir__factory-new",
+    "17-1244__souvenir__minimal-wear",
+    "17-1244__souvenir__field-tested",
+    "17-1244__souvenir__well-worn",
+    "17-1244__souvenir__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_mac10",
+    "id": 17,
+    "name": "MAC-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.02
+  }
+}

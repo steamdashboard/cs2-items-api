@@ -1,0 +1,33 @@
+{
+  "card_type": "weapon",
+  "description": "The non-lethal flashbang grenade temporarily blinds anybody within its concussive blast, making it perfect for flushing out closed-in areas. Its loud explosion also temporarily masks the sound of footsteps.",
+  "id": 43,
+  "localized_names": {
+    "english": "weapon_flashbang"
+  },
+  "media": {
+    "asset_id": "weapon__43",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/43/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/43.json",
+    "models": [
+      "weapons/models/grenade/flashbang/weapon_flashbang.vmdl_c",
+      "phase2/weapons/models/grenade/flashbang/weapon_flashbang_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/43/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.vtex_c"
+  },
+  "name": "weapon_flashbang",
+  "regular_skin_ids": [],
+  "search_slug": "weapon-flashbang",
+  "side": null,
+  "special_pool_ids": [],
+  "supports_vanilla": false,
+  "type_name": "Grenade",
+  "weapon_group": "other-weapon"
+}

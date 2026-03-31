@@ -1,0 +1,60 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "aa_fade",
+    "id": 38,
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6
+  },
+  "game_ref": {
+    "paint_kit_id": 38,
+    "weapon_id": 4
+  },
+  "id": "4-38",
+  "name": "Glock-18 | Fade",
+  "search_slug": "glock-18-fade",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_assault",
+        "name": "The Assault Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "4-38__normal__factory-new",
+    "4-38__normal__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_glock",
+    "id": 4,
+    "name": "Glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

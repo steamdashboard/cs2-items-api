@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 485,
+    "id": 485,
+    "localized_names": {
+      "brazilian": "Arma de Dedos",
+      "bulgarian": "Пищов",
+      "czech": "Handgun",
+      "danish": "Handgun",
+      "dutch": "Handgun",
+      "english": "Handgun",
+      "finnish": "Käsikanuuna",
+      "french": "Pistolet",
+      "german": "Pistole",
+      "greek": "Handgun",
+      "hungarian": "Kézifegyver",
+      "indonesian": "Handgun",
+      "italian": "Handgun",
+      "japanese": "Handgun",
+      "koreana": "권총",
+      "latam": "Revólver",
+      "norwegian": "Handgun",
+      "polish": "Pistolero",
+      "portuguese": "Handgun",
+      "romanian": "Handgun",
+      "russian": "Пистолет",
+      "schinese": "手炮",
+      "schinese_pw": "Handgun",
+      "spanish": "Revólver",
+      "swedish": "Handgun",
+      "tchinese": "手槍",
+      "thai": "Handgun",
+      "turkish": "El Tabancası",
+      "ukrainian": "Пістолет",
+      "vietnamese": "Handgun"
+    },
+    "name": "Handgun",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-485",
+  "localized_names": {
+    "brazilian": "P2000 | Arma de Dedos",
+    "bulgarian": "P2000 | Пищов",
+    "czech": "P2000 | Handgun",
+    "danish": "P2000 | Handgun",
+    "dutch": "P2000 | Handgun",
+    "english": "P2000 | Handgun",
+    "finnish": "P2000 | Käsikanuuna",
+    "french": "P2000 | Pistolet",
+    "german": "P2000 | Pistole",
+    "greek": "P2000 | Handgun",
+    "hungarian": "P2000 | Kézifegyver",
+    "indonesian": "P2000 | Handgun",
+    "italian": "P2000 | Handgun",
+    "japanese": "P2000 | Handgun",
+    "koreana": "P2000 | 권총",
+    "latam": "P2000 | Revólver",
+    "norwegian": "P2000 | Handgun",
+    "polish": "P2000 | Pistolero",
+    "portuguese": "P2000 | Handgun",
+    "romanian": "P2000 | Handgun",
+    "russian": "P2000 | Пистолет",
+    "schinese": "P2000 | 手炮",
+    "schinese_pw": "P2000 | Handgun",
+    "spanish": "P2000 | Revólver",
+    "swedish": "P2000 | Handgun",
+    "tchinese": "P2000 | 手槍",
+    "thai": "P2000 | Handgun",
+    "turkish": "P2000 | El Tabancası",
+    "ukrainian": "П2000 | Пістолет",
+    "vietnamese": "P2000 | Handgun"
+  },
+  "media": {
+    "asset_id": "skin__32-485",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-485/light.png",
+      "data/api/media/rendered/files/skins/32-485/medium.png",
+      "data/api/media/rendered/files/skins/32-485/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-485.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-485/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-485/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-485/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-485/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_aq_p2000_boom_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_aq_p2000_boom_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_aq_p2000_boom_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Handgun",
+  "search_slug": "p2000-handgun",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4091",
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_8",
+        "name": "The Falchion Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "32-485__normal__battle-scarred",
+    "32-485__normal__factory-new",
+    "32-485__normal__field-tested",
+    "32-485__normal__minimal-wear",
+    "32-485__normal__well-worn",
+    "32-485__stattrak__battle-scarred",
+    "32-485__stattrak__factory-new",
+    "32-485__stattrak__field-tested",
+    "32-485__stattrak__minimal-wear",
+    "32-485__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

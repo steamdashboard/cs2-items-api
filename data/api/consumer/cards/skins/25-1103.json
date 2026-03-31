@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1103,
+    "id": 1103,
+    "localized_names": {
+      "brazilian": "Cães de Guarda",
+      "bulgarian": "Стража",
+      "czech": "Watchdog",
+      "danish": "Watchdog",
+      "dutch": "Watchdog",
+      "english": "Watchdog",
+      "finnish": "Vahtikoira",
+      "french": "Lion de garde",
+      "german": "Wachhund",
+      "greek": "Watchdog",
+      "hungarian": "Házőrző",
+      "indonesian": "Watchdog",
+      "italian": "Watchdog",
+      "japanese": "Watchdog",
+      "koreana": "감시자",
+      "latam": "Perro guardián",
+      "norwegian": "Watchdog",
+      "polish": "Czuwający",
+      "portuguese": "Watchdog",
+      "romanian": "Watchdog",
+      "russian": "Настороже",
+      "schinese": "狻猊",
+      "schinese_pw": "Watchdog",
+      "spanish": "Guardián",
+      "swedish": "Watchdog",
+      "tchinese": "看門石獅",
+      "thai": "Watchdog",
+      "turkish": "Bekçi Köpeği",
+      "ukrainian": "Сторож",
+      "vietnamese": "Watchdog"
+    },
+    "name": "Watchdog",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "25-1103",
+  "localized_names": {
+    "brazilian": "XM1014 | Cães de Guarda",
+    "bulgarian": "XM1014 | Стража",
+    "czech": "XM1014 | Watchdog",
+    "danish": "XM1014 | Watchdog",
+    "dutch": "XM1014 | Watchdog",
+    "english": "XM1014 | Watchdog",
+    "finnish": "XM1014 | Vahtikoira",
+    "french": "XM1014 | Lion de garde",
+    "german": "XM1014 | Wachhund",
+    "greek": "XM1014 | Watchdog",
+    "hungarian": "XM1014 | Házőrző",
+    "indonesian": "XM1014 | Watchdog",
+    "italian": "XM1014 | Watchdog",
+    "japanese": "XM1014 | Watchdog",
+    "koreana": "XM1014 | 감시자",
+    "latam": "XM1014 | Perro guardián",
+    "norwegian": "XM1014 | Watchdog",
+    "polish": "XM1014 | Czuwający",
+    "portuguese": "XM1014 | Watchdog",
+    "romanian": "XM1014 | Watchdog",
+    "russian": "XM1014 | Настороже",
+    "schinese": "XM1014 | 狻猊",
+    "schinese_pw": "XM1014 | Watchdog",
+    "spanish": "XM1014 | Guardián",
+    "swedish": "XM1014 | Watchdog",
+    "tchinese": "XM1014 | 看門石獅",
+    "thai": "XM1014 | Watchdog",
+    "turkish": "XM1014 | Bekçi Köpeği",
+    "ukrainian": "М1014 | Сторож",
+    "vietnamese": "XM1014 | Watchdog"
+  },
+  "media": {
+    "asset_id": "skin__25-1103",
+    "images_png": [
+      "data/api/media/rendered/files/skins/25-1103/light.png",
+      "data/api/media/rendered/files/skins/25-1103/medium.png",
+      "data/api/media/rendered/files/skins/25-1103/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/25-1103.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/25-1103/heavy.png",
+      "light": "data/api/media/rendered/files/skins/25-1103/light.png",
+      "medium": "data/api/media/rendered/files/skins/25-1103/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/25-1103/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_xm1014_gs_xm1014_watchdog_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_xm1014_gs_xm1014_watchdog_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_xm1014_gs_xm1014_watchdog_medium_png.vtex_c"
+    }
+  },
+  "name": "XM1014 | Watchdog",
+  "search_slug": "xm1014-watchdog",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4790",
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_29",
+        "name": "The Operation Riptide Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "25-1103__normal__battle-scarred",
+    "25-1103__normal__factory-new",
+    "25-1103__normal__field-tested",
+    "25-1103__normal__minimal-wear",
+    "25-1103__normal__well-worn",
+    "25-1103__stattrak__battle-scarred",
+    "25-1103__stattrak__factory-new",
+    "25-1103__stattrak__field-tested",
+    "25-1103__stattrak__minimal-wear",
+    "25-1103__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 25,
+    "localized_names": {
+      "brazilian": "XM1014",
+      "bulgarian": "XM1014",
+      "czech": "XM1014",
+      "danish": "XM1014",
+      "dutch": "XM1014",
+      "english": "XM1014",
+      "finnish": "XM1014",
+      "french": "XM1014",
+      "german": "XM1014",
+      "greek": "XM1014",
+      "hungarian": "XM1014",
+      "indonesian": "XM1014",
+      "italian": "XM1014",
+      "japanese": "XM1014",
+      "koreana": "XM1014",
+      "latam": "XM1014",
+      "norwegian": "XM1014",
+      "polish": "XM1014",
+      "portuguese": "XM1014",
+      "romanian": "XM1014",
+      "russian": "XM1014",
+      "schinese": "XM1014",
+      "schinese_pw": "XM1014",
+      "spanish": "XM1014",
+      "swedish": "XM1014",
+      "tchinese": "XM1014",
+      "thai": "XM1014",
+      "turkish": "XM1014",
+      "ukrainian": "М1014",
+      "vietnamese": "XM1014"
+    },
+    "name": "XM1014",
+    "search_slug": "xm1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

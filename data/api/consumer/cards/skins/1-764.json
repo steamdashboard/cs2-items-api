@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 764,
+    "id": 764,
+    "localized_names": {
+      "brazilian": "Feneco",
+      "bulgarian": "Фенек лисица",
+      "czech": "Fennec Fox",
+      "danish": "Fennec Fox",
+      "dutch": "Fennec Fox",
+      "english": "Fennec Fox",
+      "finnish": "Aavikkokettu",
+      "french": "Fennec",
+      "german": "Wüstenfuchs",
+      "greek": "Fennec Fox",
+      "hungarian": "Sivatagi Róka",
+      "indonesian": "Fennec Fox",
+      "italian": "Fennec Fox",
+      "japanese": "Fennec Fox",
+      "koreana": "사막여우",
+      "latam": "Zorro del desierto",
+      "norwegian": "Fennec Fox",
+      "polish": "Fenek pustynny",
+      "portuguese": "Fennec Fox",
+      "romanian": "Fennec Fox",
+      "russian": "Фенек",
+      "schinese": "沙漠之狐",
+      "schinese_pw": "Fennec Fox",
+      "spanish": "Zorro fénec",
+      "swedish": "Fennec Fox",
+      "tchinese": "沙漠之狐",
+      "thai": "Fennec Fox",
+      "turkish": "Çöl Tilkisi",
+      "ukrainian": "Фенек",
+      "vietnamese": "Fennec Fox"
+    },
+    "name": "Fennec Fox",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-764",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Feneco",
+    "bulgarian": "Desert Eagle | Фенек лисица",
+    "czech": "Desert Eagle | Fennec Fox",
+    "danish": "Desert Eagle | Fennec Fox",
+    "dutch": "Desert Eagle | Fennec Fox",
+    "english": "Desert Eagle | Fennec Fox",
+    "finnish": "Desert Eagle | Aavikkokettu",
+    "french": "Desert Eagle | Fennec",
+    "german": "Desert Eagle | Wüstenfuchs",
+    "greek": "Desert Eagle | Fennec Fox",
+    "hungarian": "Desert Eagle | Sivatagi Róka",
+    "indonesian": "Desert Eagle | Fennec Fox",
+    "italian": "Desert Eagle | Fennec Fox",
+    "japanese": "Desert Eagle | Fennec Fox",
+    "koreana": "데저트 이글 | 사막여우",
+    "latam": "Desert Eagle | Zorro del desierto",
+    "norwegian": "Desert Eagle | Fennec Fox",
+    "polish": "Desert Eagle | Fenek pustynny",
+    "portuguese": "Desert Eagle | Fennec Fox",
+    "romanian": "Desert Eagle | Fennec Fox",
+    "russian": "Desert Eagle | Фенек",
+    "schinese": "沙漠之鹰 | 沙漠之狐",
+    "schinese_pw": "Desert Eagle | Fennec Fox",
+    "spanish": "Desert Eagle | Zorro fénec",
+    "swedish": "Desert Eagle | Fennec Fox",
+    "tchinese": "Desert Eagle | 沙漠之狐",
+    "thai": "Desert Eagle | Fennec Fox",
+    "turkish": "Desert Eagle | Çöl Tilkisi",
+    "ukrainian": "Пустельний орел | Фенек",
+    "vietnamese": "Desert Eagle | Fennec Fox"
+  },
+  "media": {
+    "asset_id": "skin__1-764",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-764/light.png",
+      "data/api/media/rendered/files/skins/1-764/medium.png",
+      "data/api/media/rendered/files/skins/1-764/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-764.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-764/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-764/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-764/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-764/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_gs_deagle_fennec_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_gs_deagle_fennec_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_gs_deagle_fennec_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Fennec Fox",
+  "search_slug": "desert-eagle-fennec-fox",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "variant_ids": [
+    "1-764__normal__battle-scarred",
+    "1-764__normal__factory-new",
+    "1-764__normal__field-tested",
+    "1-764__normal__minimal-wear",
+    "1-764__normal__well-worn",
+    "1-764__souvenir__battle-scarred",
+    "1-764__souvenir__factory-new",
+    "1-764__souvenir__field-tested",
+    "1-764__souvenir__minimal-wear",
+    "1-764__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

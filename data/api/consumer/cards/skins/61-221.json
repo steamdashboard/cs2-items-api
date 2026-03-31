@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 221,
+    "id": 221,
+    "localized_names": {
+      "brazilian": "Soro",
+      "bulgarian": "Серум",
+      "czech": "Serum",
+      "danish": "Serum",
+      "dutch": "Serum",
+      "english": "Serum",
+      "finnish": "Seerumi",
+      "french": "Sérum",
+      "german": "Serum",
+      "greek": "Serum",
+      "hungarian": "Szérum",
+      "indonesian": "Serum",
+      "italian": "Serum",
+      "japanese": "Serum",
+      "koreana": "혈청",
+      "latam": "Suero",
+      "norwegian": "Serum",
+      "polish": "Serum",
+      "portuguese": "Serum",
+      "romanian": "Serum",
+      "russian": "Сыворотка",
+      "schinese": "血清",
+      "schinese_pw": "Serum",
+      "spanish": "Suero",
+      "swedish": "Serum",
+      "tchinese": "血清迷彩",
+      "thai": "Serum",
+      "turkish": "Serum",
+      "ukrainian": "Сироватка",
+      "vietnamese": "Serum"
+    },
+    "name": "Serum",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.25,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-221",
+  "localized_names": {
+    "brazilian": "USP-S | Soro",
+    "bulgarian": "USP-S | Серум",
+    "czech": "USP-S | Serum",
+    "danish": "USP-S | Serum",
+    "dutch": "USP-S | Serum",
+    "english": "USP-S | Serum",
+    "finnish": "USP-S | Seerumi",
+    "french": "USP-S | Sérum",
+    "german": "USP-S | Serum",
+    "greek": "USP-S | Serum",
+    "hungarian": "USP-S | Szérum",
+    "indonesian": "USP-S | Serum",
+    "italian": "USP-S | Serum",
+    "japanese": "USP-S | Serum",
+    "koreana": "USP-S | 혈청",
+    "latam": "USP-S | Suero",
+    "norwegian": "USP-S | Serum",
+    "polish": "USP-S | Serum",
+    "portuguese": "USP-S | Serum",
+    "romanian": "USP-S | Serum",
+    "russian": "USP-S | Сыворотка",
+    "schinese": "USP消音版 | 血清",
+    "schinese_pw": "USP-S | Serum",
+    "spanish": "USP-S | Suero",
+    "swedish": "USP-S | Serum",
+    "tchinese": "USP-S | 血清迷彩",
+    "thai": "USP-S | Serum",
+    "turkish": "USP-S | Serum",
+    "ukrainian": "УСП-С | Сироватка",
+    "vietnamese": "USP-S | Serum"
+  },
+  "media": {
+    "asset_id": "skin__61-221",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-221/light.png",
+      "data/api/media/rendered/files/skins/61-221/medium.png",
+      "data/api/media/rendered/files/skins/61-221/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-221.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-221/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-221/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-221/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-221/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_am_electric_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_am_electric_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_am_electric_red_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Serum",
+  "search_slug": "usp-s-serum",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-221__normal__factory-new",
+    "61-221__normal__field-tested",
+    "61-221__normal__minimal-wear",
+    "61-221__stattrak__factory-new",
+    "61-221__stattrak__field-tested",
+    "61-221__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.25,
+    "min_float": 0.0
+  }
+}

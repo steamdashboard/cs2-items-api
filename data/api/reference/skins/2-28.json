@@ -1,0 +1,119 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "an_navy",
+    "id": 28,
+    "name": "Anodized Navy",
+    "rarity_ref": null,
+    "style_code": 4
+  },
+  "game_ref": {
+    "paint_kit_id": 28,
+    "weapon_id": 2
+  },
+  "id": "2-28",
+  "name": "Dual Berettas | Anodized Navy",
+  "search_slug": "dual-berettas-anodized-navy",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_inferno",
+        "name": "The Inferno Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4023",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4032",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4080",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4133",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4178",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4227",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4396",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4463",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Inferno Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "2-28__normal__factory-new",
+    "2-28__normal__minimal-wear",
+    "2-28__souvenir__factory-new",
+    "2-28__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_elite",
+    "id": 2,
+    "name": "Dual Berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

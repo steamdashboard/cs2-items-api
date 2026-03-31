@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 660,
+    "id": 660,
+    "localized_names": {
+      "brazilian": "Hiper Fera",
+      "bulgarian": "Хипер звяр",
+      "czech": "Hyper Beast",
+      "danish": "Hyper Beast",
+      "dutch": "Hyper Beast",
+      "english": "Hyper Beast",
+      "finnish": "Hyperpeto",
+      "french": "Bête déchainée",
+      "german": "Hyperbestie",
+      "greek": "Hyper Beast",
+      "hungarian": "Hiperbestia",
+      "indonesian": "Hyper Beast",
+      "italian": "Hyper Beast",
+      "japanese": "Hyper Beast",
+      "koreana": "괴수",
+      "latam": "Hiperbestia",
+      "norwegian": "Hyper Beast",
+      "polish": "Hiperbestia",
+      "portuguese": "Hyper Beast",
+      "romanian": "Hyper Beast",
+      "russian": "Скоростной зверь",
+      "schinese": "暴怒野兽",
+      "schinese_pw": "Hyper Beast",
+      "spanish": "Hiperbestia",
+      "swedish": "Hyper Beast",
+      "tchinese": "亢奮野獸",
+      "thai": "Hyper Beast",
+      "turkish": "Hiper Canavar",
+      "ukrainian": "Гіперчудовисько",
+      "vietnamese": "Hyper Beast"
+    },
+    "name": "Hyper Beast",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-660",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Hiper Fera",
+    "bulgarian": "Five-SeveN | Хипер звяр",
+    "czech": "Five-SeveN | Hyper Beast",
+    "danish": "Five-SeveN | Hyper Beast",
+    "dutch": "Five-SeveN | Hyper Beast",
+    "english": "Five-SeveN | Hyper Beast",
+    "finnish": "Five-SeveN | Hyperpeto",
+    "french": "Five-SeveN | Bête déchainée",
+    "german": "Five-SeveN | Hyperbestie",
+    "greek": "Five-SeveN | Hyper Beast",
+    "hungarian": "Five-SeveN | Hiperbestia",
+    "indonesian": "Five-SeveN | Hyper Beast",
+    "italian": "Five-SeveN | Hyper Beast",
+    "japanese": "Five-SeveN | Hyper Beast",
+    "koreana": "파이브 세븐 | 괴수",
+    "latam": "Five-SeveN | Hiperbestia",
+    "norwegian": "Five-SeveN | Hyper Beast",
+    "polish": "Five-SeveN | Hiperbestia",
+    "portuguese": "Five-SeveN | Hyper Beast",
+    "romanian": "Five-SeveN | Hyper Beast",
+    "russian": "Five-SeveN | Скоростной зверь",
+    "schinese": "FN57 | 暴怒野兽",
+    "schinese_pw": "Five-SeveN | Hyper Beast",
+    "spanish": "Five-seveN | Hiperbestia",
+    "swedish": "Five-SeveN | Hyper Beast",
+    "tchinese": "Five-SeveN | 亢奮野獸",
+    "thai": "Five-SeveN | Hyper Beast",
+    "turkish": "Five-SeveN | Hiper Canavar",
+    "ukrainian": "Five-seveN | Гіперчудовисько",
+    "vietnamese": "Five-SeveN | Hyper Beast"
+  },
+  "media": {
+    "asset_id": "skin__3-660",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-660/light.png",
+      "data/api/media/rendered/files/skins/3-660/medium.png",
+      "data/api/media/rendered/files/skins/3-660/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-660.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-660/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-660/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-660/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-660/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_cu_fiveseven_hyperbeast_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_cu_fiveseven_hyperbeast_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_cu_fiveseven_hyperbeast_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Hyper Beast",
+  "search_slug": "five-seven-hyper-beast",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4352",
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_17",
+        "name": "The Operation Hydra Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-660__normal__battle-scarred",
+    "3-660__normal__factory-new",
+    "3-660__normal__field-tested",
+    "3-660__normal__minimal-wear",
+    "3-660__normal__well-worn",
+    "3-660__stattrak__battle-scarred",
+    "3-660__stattrak__factory-new",
+    "3-660__stattrak__field-tested",
+    "3-660__stattrak__minimal-wear",
+    "3-660__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

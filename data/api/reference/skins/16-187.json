@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "sp_star_bravo",
+    "id": 187,
+    "name": "Zirka",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 187,
+    "weapon_id": 16
+  },
+  "id": "16-187",
+  "name": "M4A4 | Zirka",
+  "search_slug": "m4a4-zirka",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "16-187__normal__vanilla",
+    "16-187__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_m4a1",
+    "id": 16,
+    "name": "M4A4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.42,
+    "min_float": null
+  }
+}

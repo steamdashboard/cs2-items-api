@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1293,
+    "id": 1293,
+    "localized_names": {
+      "brazilian": "Cigarra",
+      "bulgarian": "Листоносец",
+      "czech": "Leafhopper",
+      "danish": "Leafhopper",
+      "dutch": "Leafhopper",
+      "english": "Leafhopper",
+      "finnish": "Heinäsirkka",
+      "french": "Cicadelle",
+      "german": "Zikade",
+      "greek": "Leafhopper",
+      "hungarian": "Lombszöcske",
+      "indonesian": "Leafhopper",
+      "italian": "Leafhopper",
+      "japanese": "Leafhopper",
+      "koreana": "수풀 잠입",
+      "latam": "Saltamontes",
+      "norwegian": "Leafhopper",
+      "polish": "Konik polny",
+      "portuguese": "Leafhopper",
+      "romanian": "Leafhopper",
+      "russian": "Цикадка",
+      "schinese": "叶蝉",
+      "schinese_pw": "Leafhopper",
+      "spanish": "Chicharra",
+      "swedish": "Leafhopper",
+      "tchinese": "葉蟬",
+      "thai": "Leafhopper",
+      "turkish": "Yaprak Piresi",
+      "ukrainian": "Цикадка",
+      "vietnamese": "Leafhopper"
+    },
+    "name": "Leafhopper",
+    "rarity_ref": null,
+    "style_code": 4,
+    "style_name": "Anodized",
+    "wear": {
+      "max_float": 0.65098,
+      "min_float": 0.0
+    }
+  },
+  "id": "64-1293",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Cigarra",
+    "bulgarian": "Револвер R8 | Листоносец",
+    "czech": "Revolver R8 | Leafhopper",
+    "danish": "R8-revolver | Leafhopper",
+    "dutch": "R8-revolver | Leafhopper",
+    "english": "R8 Revolver | Leafhopper",
+    "finnish": "R8-revolveri | Heinäsirkka",
+    "french": "Révolver R8 | Cicadelle",
+    "german": "R8-Revolver | Zikade",
+    "greek": "R8 Revolver | Leafhopper",
+    "hungarian": "R8 revolver | Lombszöcske",
+    "indonesian": "R8 Revolver | Leafhopper",
+    "italian": "Revolver R8 | Leafhopper",
+    "japanese": "R8 Revolver | Leafhopper",
+    "koreana": "R8 리볼버 | 수풀 잠입",
+    "latam": "Revólver R8 | Saltamontes",
+    "norwegian": "R8 Revolver | Leafhopper",
+    "polish": "Rewolwer R8 | Konik polny",
+    "portuguese": "R8 Revolver | Leafhopper",
+    "romanian": "Revolver R8 | Leafhopper",
+    "russian": "Револьвер R8 | Цикадка",
+    "schinese": "R8左轮手枪 | 叶蝉",
+    "schinese_pw": "R8 Revolver | Leafhopper",
+    "spanish": "Revólver R8 | Chicharra",
+    "swedish": "R8 Revolver | Leafhopper",
+    "tchinese": "R8 Revolver | 葉蟬",
+    "thai": "ปืนลูกโม่ R8 | Leafhopper",
+    "turkish": "R8 Revolver | Yaprak Piresi",
+    "ukrainian": "Револьвер Р8 | Цикадка",
+    "vietnamese": "Súng lục R8 | Leafhopper"
+  },
+  "media": {
+    "asset_id": "skin__64-1293",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-1293/light.png",
+      "data/api/media/rendered/files/skins/64-1293/medium.png",
+      "data/api/media/rendered/files/skins/64-1293/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-1293.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-1293/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-1293/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-1293/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-1293/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_aq_titanium_acid_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_aq_titanium_acid_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_aq_titanium_acid_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Leafhopper",
+  "search_slug": "r8-revolver-leafhopper",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_neutral",
+        "name": "The Boreal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-1293__normal__battle-scarred",
+    "64-1293__normal__factory-new",
+    "64-1293__normal__field-tested",
+    "64-1293__normal__minimal-wear",
+    "64-1293__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.65098,
+    "min_float": 0.0
+  }
+}

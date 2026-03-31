@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 762,
+    "id": 762,
+    "localized_names": {
+      "brazilian": "Pedra Vermelha",
+      "bulgarian": "Червен камък",
+      "czech": "Red Stone",
+      "danish": "Red Stone",
+      "dutch": "Red Stone",
+      "english": "Red Stone",
+      "finnish": "Punakivi",
+      "french": "Pierre rouge",
+      "german": "Rotstein",
+      "greek": "Red Stone",
+      "hungarian": "Vörös Kő",
+      "indonesian": "Red Stone",
+      "italian": "Red Stone",
+      "japanese": "Red Stone",
+      "koreana": "레드 스톤",
+      "latam": "Piedra roja",
+      "norwegian": "Red Stone",
+      "polish": "Czerwony kamień",
+      "portuguese": "Red Stone",
+      "romanian": "Red Stone",
+      "russian": "Красный камень",
+      "schinese": "血染风采",
+      "schinese_pw": "Red Stone",
+      "spanish": "Piedra roja",
+      "swedish": "Red Stone",
+      "tchinese": "紅石",
+      "thai": "Red Stone",
+      "turkish": "Kızıl Taş",
+      "ukrainian": "Червоний камінь",
+      "vietnamese": "Red Stone"
+    },
+    "name": "Red Stone",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.06
+    }
+  },
+  "id": "40-762",
+  "localized_names": {
+    "brazilian": "SSG 08 | Pedra Vermelha",
+    "bulgarian": "SSG 08 | Червен камък",
+    "czech": "SSG 08 | Red Stone",
+    "danish": "SSG 08 | Red Stone",
+    "dutch": "SSG 08 | Red Stone",
+    "english": "SSG 08 | Red Stone",
+    "finnish": "SSG 08 | Punakivi",
+    "french": "SSG 08 | Pierre rouge",
+    "german": "SSG 08 | Rotstein",
+    "greek": "SSG 08 | Red Stone",
+    "hungarian": "SSG 08 | Vörös Kő",
+    "indonesian": "SSG 08 | Red Stone",
+    "italian": "SSG 08 | Red Stone",
+    "japanese": "SSG 08 | Red Stone",
+    "koreana": "SSG 08 | 레드 스톤",
+    "latam": "SSG 08 | Piedra roja",
+    "norwegian": "SSG 08 | Red Stone",
+    "polish": "SSG 08 | Czerwony kamień",
+    "portuguese": "SSG 08 | Red Stone",
+    "romanian": "SSG 08 | Red Stone",
+    "russian": "SSG 08 | Красный камень",
+    "schinese": "SSG 08 | 血染风采",
+    "schinese_pw": "SSG 08 | Red Stone",
+    "spanish": "SSG 08 | Piedra roja",
+    "swedish": "SSG 08 | Red Stone",
+    "tchinese": "SSG 08 | 紅石",
+    "thai": "SSG 08 | Red Stone",
+    "turkish": "SSG 08 | Kızıl Taş",
+    "ukrainian": "ССГ 08 | Червоний камінь",
+    "vietnamese": "SSG 08 | Red Stone"
+  },
+  "media": {
+    "asset_id": "skin__40-762",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-762/light.png",
+      "data/api/media/rendered/files/skins/40-762/medium.png",
+      "data/api/media/rendered/files/skins/40-762/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-762.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-762/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-762/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-762/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-762/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_so_rune_stone_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_so_rune_stone_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_so_rune_stone_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Red Stone",
+  "search_slug": "ssg-08-red-stone",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-762__normal__battle-scarred",
+    "40-762__normal__factory-new",
+    "40-762__normal__field-tested",
+    "40-762__normal__minimal-wear",
+    "40-762__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.06
+  }
+}

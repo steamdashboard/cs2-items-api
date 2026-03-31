@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1376,
+    "id": 1376,
+    "localized_names": {
+      "brazilian": "Festeira",
+      "bulgarian": "Празнично животно",
+      "czech": "Party Animal",
+      "danish": "Party Animal",
+      "dutch": "Party Animal",
+      "english": "Party Animal",
+      "finnish": "Himobilettäjä",
+      "french": "Bringue bigarrée",
+      "german": "Partylöwe",
+      "greek": "Party Animal",
+      "hungarian": "Buliállat",
+      "indonesian": "Party Animal",
+      "italian": "Party Animal",
+      "japanese": "Party Animal",
+      "koreana": "파티광",
+      "latam": "Parrandero",
+      "norwegian": "Party Animal",
+      "polish": "Dziki imprezowicz",
+      "portuguese": "Party Animal",
+      "romanian": "Party Animal",
+      "russian": "Дикий тусовщик",
+      "schinese": "夜店王子",
+      "schinese_pw": "Party Animal",
+      "spanish": "Juerguista bestial",
+      "swedish": "Party Animal",
+      "tchinese": "派對動物",
+      "thai": "Party Animal",
+      "turkish": "Parti Canavarı",
+      "ukrainian": "Неонові джунглі",
+      "vietnamese": "Party Animal"
+    },
+    "name": "Party Animal",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-1376",
+  "localized_names": {
+    "brazilian": "M4A1-S | Festeira",
+    "bulgarian": "M4A1-S | Празнично животно",
+    "czech": "M4A1-S | Party Animal",
+    "danish": "M4A1-S | Party Animal",
+    "dutch": "M4A1-S | Party Animal",
+    "english": "M4A1-S | Party Animal",
+    "finnish": "M4A1-S | Himobilettäjä",
+    "french": "M4A1-S | Bringue bigarrée",
+    "german": "M4A1-S | Partylöwe",
+    "greek": "M4A1-S | Party Animal",
+    "hungarian": "M4A1-S | Buliállat",
+    "indonesian": "M4A1-S | Party Animal",
+    "italian": "M4A1-S | Party Animal",
+    "japanese": "M4A1-S | Party Animal",
+    "koreana": "M4A1-S | 파티광",
+    "latam": "M4A1-S | Parrandero",
+    "norwegian": "M4A1-S | Party Animal",
+    "polish": "M4A1-S | Dziki imprezowicz",
+    "portuguese": "M4A1-S | Party Animal",
+    "romanian": "M4A1-S | Party Animal",
+    "russian": "M4A1-S | Дикий тусовщик",
+    "schinese": "M4A1消音版 | 夜店王子",
+    "schinese_pw": "M4A1-S | Party Animal",
+    "spanish": "M4A1-S | Juerguista bestial",
+    "swedish": "M4A1-S | Party Animal",
+    "tchinese": "M4A1-S | 派對動物",
+    "thai": "M4A1-S | Party Animal",
+    "turkish": "M4A1-S | Parti Canavarı",
+    "ukrainian": "М4А1-С | Неонові джунглі",
+    "vietnamese": "M4A1-S | Party Animal"
+  },
+  "media": {
+    "asset_id": "skin__60-1376",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-1376/light.png",
+      "data/api/media/rendered/files/skins/60-1376/medium.png",
+      "data/api/media/rendered/files/skins/60-1376/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-1376.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-1376/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-1376/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-1376/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-1376/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hye_animal_print_90s_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hye_animal_print_90s_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hye_animal_print_90s_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Party Animal",
+  "search_slug": "m4a1-s-party-animal",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_exuberant",
+        "name": "The Harlequin Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-1376__normal__battle-scarred",
+    "60-1376__normal__factory-new",
+    "60-1376__normal__field-tested",
+    "60-1376__normal__minimal-wear",
+    "60-1376__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 785,
+    "id": 785,
+    "localized_names": {
+      "brazilian": "Mandril",
+      "bulgarian": "Дорник",
+      "czech": "Mandrel",
+      "danish": "Mandrel",
+      "dutch": "Mandrel",
+      "english": "Mandrel",
+      "finnish": "Kara",
+      "french": "Mandrin",
+      "german": "Dorn",
+      "greek": "Mandrel",
+      "hungarian": "Vezetőtüske",
+      "indonesian": "Mandrel",
+      "italian": "Mandrel",
+      "japanese": "Mandrel",
+      "koreana": "맨드릴",
+      "latam": "Mandril",
+      "norwegian": "Mandrel",
+      "polish": "Trzpień",
+      "portuguese": "Mandrel",
+      "romanian": "Mandrel",
+      "russian": "Сердечник",
+      "schinese": "芯轴",
+      "schinese_pw": "Mandrel",
+      "spanish": "Mandril",
+      "swedish": "Mandrel",
+      "tchinese": "心軸",
+      "thai": "Mandrel",
+      "turkish": "Mandrel",
+      "ukrainian": "Осердя",
+      "vietnamese": "Mandrel"
+    },
+    "name": "Mandrel",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-785",
+  "localized_names": {
+    "brazilian": "Nova | Mandril",
+    "bulgarian": "Nova | Дорник",
+    "czech": "Nova | Mandrel",
+    "danish": "Nova | Mandrel",
+    "dutch": "Nova | Mandrel",
+    "english": "Nova | Mandrel",
+    "finnish": "Nova | Kara",
+    "french": "Nova | Mandrin",
+    "german": "Nova | Dorn",
+    "greek": "Nova | Mandrel",
+    "hungarian": "Nova | Vezetőtüske",
+    "indonesian": "Nova | Mandrel",
+    "italian": "Nova | Mandrel",
+    "japanese": "Nova | Mandrel",
+    "koreana": "노바 | 맨드릴",
+    "latam": "Nova | Mandril",
+    "norwegian": "Nova | Mandrel",
+    "polish": "Nova | Trzpień",
+    "portuguese": "Nova | Mandrel",
+    "romanian": "Nova | Mandrel",
+    "russian": "Nova | Сердечник",
+    "schinese": "新星 | 芯轴",
+    "schinese_pw": "Nova | Mandrel",
+    "spanish": "Nova | Mandril",
+    "swedish": "Nova | Mandrel",
+    "tchinese": "Nova | 心軸",
+    "thai": "Nova | Mandrel",
+    "turkish": "Nova | Mandrel",
+    "ukrainian": "Нова | Осердя",
+    "vietnamese": "Nova | Mandrel"
+  },
+  "media": {
+    "asset_id": "skin__35-785",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-785/light.png",
+      "data/api/media/rendered/files/skins/35-785/medium.png",
+      "data/api/media/rendered/files/skins/35-785/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-785.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-785/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-785/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-785/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-785/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_hy_ducts_grey_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_hy_ducts_grey_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_hy_ducts_grey_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Mandrel",
+  "search_slug": "nova-mandrel",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_nuke_2",
+        "name": "The 2018 Nuke Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4972",
+        "kind": "container",
+        "name": "Shanghai 2024 Nuke Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5125",
+        "kind": "container",
+        "name": "Austin 2025 Nuke Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5224",
+        "kind": "container",
+        "name": "Budapest 2025 Nuke Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4546",
+        "kind": "souvenir-package",
+        "name": "London 2018 Nuke Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4596",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Nuke Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4665",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Nuke Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4814",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Nuke Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4840",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Nuke Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4865",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Nuke Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4898",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Nuke Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4931",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Nuke Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "35-785__normal__battle-scarred",
+    "35-785__normal__factory-new",
+    "35-785__normal__field-tested",
+    "35-785__normal__minimal-wear",
+    "35-785__normal__well-worn",
+    "35-785__souvenir__battle-scarred",
+    "35-785__souvenir__factory-new",
+    "35-785__souvenir__field-tested",
+    "35-785__souvenir__minimal-wear",
+    "35-785__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

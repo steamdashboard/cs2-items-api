@@ -1,0 +1,266 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 3,
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Maçã do Amor",
+      "bulgarian": "Захаросана ябълка",
+      "czech": "Candy Apple",
+      "danish": "Candy Apple",
+      "dutch": "Candy Apple",
+      "english": "Candy Apple",
+      "finnish": "Karamelliomena",
+      "french": "Pomme d'amour",
+      "german": "Kandierter Apfel",
+      "greek": "Candy Apple",
+      "hungarian": "Candy Apple",
+      "indonesian": "Candy Apple",
+      "italian": "Candy Apple",
+      "japanese": "Candy Apple",
+      "koreana": "사과 사탕",
+      "latam": "Manzana caramelizada",
+      "norwegian": "Candy Apple",
+      "polish": "Jabłko kandyzowane",
+      "portuguese": "Candy Apple",
+      "romanian": "Candy Apple",
+      "russian": "Карамельное яблоко",
+      "schinese": "红苹果",
+      "schinese_pw": "Candy Apple",
+      "spanish": "Manzana de caramelo",
+      "swedish": "Candy Apple",
+      "tchinese": "蜜糖紅蘋",
+      "thai": "Candy Apple",
+      "turkish": "Elma Şekeri",
+      "ukrainian": "Карамельне яблуко",
+      "vietnamese": "Candy Apple"
+    },
+    "name": "Candy Apple",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-3",
+  "localized_names": {
+    "brazilian": "MAC-10 | Maçã do Amor",
+    "bulgarian": "MAC-10 | Захаросана ябълка",
+    "czech": "MAC-10 | Candy Apple",
+    "danish": "MAC-10 | Candy Apple",
+    "dutch": "MAC-10 | Candy Apple",
+    "english": "MAC-10 | Candy Apple",
+    "finnish": "MAC-10 | Karamelliomena",
+    "french": "MAC-10 | Pomme d'amour",
+    "german": "MAC-10 | Kandierter Apfel",
+    "greek": "MAC-10 | Candy Apple",
+    "hungarian": "MAC-10 | Candy Apple",
+    "indonesian": "MAC-10 | Candy Apple",
+    "italian": "MAC-10 | Candy Apple",
+    "japanese": "MAC-10 | Candy Apple",
+    "koreana": "MAC-10 | 사과 사탕",
+    "latam": "MAC-10 | Manzana caramelizada",
+    "norwegian": "MAC-10 | Candy Apple",
+    "polish": "MAC-10 | Jabłko kandyzowane",
+    "portuguese": "MAC-10 | Candy Apple",
+    "romanian": "MAC-10 | Candy Apple",
+    "russian": "MAC-10 | Карамельное яблоко",
+    "schinese": "MAC-10 | 红苹果",
+    "schinese_pw": "MAC-10 | Candy Apple",
+    "spanish": "MAC-10 | Manzana de caramelo",
+    "swedish": "MAC-10 | Candy Apple",
+    "tchinese": "MAC-10 | 蜜糖紅蘋",
+    "thai": "MAC-10 | Candy Apple",
+    "turkish": "MAC-10 | Elma Şekeri",
+    "ukrainian": "МАК-10 | Карамельне яблуко",
+    "vietnamese": "MAC-10 | Candy Apple"
+  },
+  "media": {
+    "asset_id": "skin__17-3",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-3/light.png",
+      "data/api/media/rendered/files/skins/17-3/medium.png",
+      "data/api/media/rendered/files/skins/17-3/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-3.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-3/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-3/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-3/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-3/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_so_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_so_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_so_red_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Candy Apple",
+  "search_slug": "mac-10-candy-apple",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train",
+        "name": "The Train Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4137",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4182",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4231",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4279",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4349",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4401",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4468",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4545",
+        "kind": "souvenir-package",
+        "name": "London 2018 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4595",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4664",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Train Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "17-3__normal__factory-new",
+    "17-3__normal__field-tested",
+    "17-3__normal__minimal-wear",
+    "17-3__souvenir__factory-new",
+    "17-3__souvenir__field-tested",
+    "17-3__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 252,
+    "id": 252,
+    "localized_names": {
+      "brazilian": "Quartzo de Prata",
+      "bulgarian": "Сребърен кварц",
+      "czech": "Silver Quartz",
+      "danish": "Silver Quartz",
+      "dutch": "Silver Quartz",
+      "english": "Silver Quartz",
+      "finnish": "Hopeakvartsi",
+      "french": "Quartz argent",
+      "german": "Silberner Quarz",
+      "greek": "Silver Quartz",
+      "hungarian": "Ezüst Kvarc",
+      "indonesian": "Silver Quartz",
+      "italian": "Silver Quartz",
+      "japanese": "Silver Quartz",
+      "koreana": "은빛 수정",
+      "latam": "Cuarzo plateado",
+      "norwegian": "Silver Quartz",
+      "polish": "Srebrny kwarc",
+      "portuguese": "Silver Quartz",
+      "romanian": "Silver Quartz",
+      "russian": "Серебряный кварц",
+      "schinese": "银白石英",
+      "schinese_pw": "Silver Quartz",
+      "spanish": "Cuarzo plateado",
+      "swedish": "Silver Quartz",
+      "tchinese": "銀石英",
+      "thai": "Silver Quartz",
+      "turkish": "Gümüş Kuvars",
+      "ukrainian": "Срібний кварц",
+      "vietnamese": "Silver Quartz"
+    },
+    "name": "Silver Quartz",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-252",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Quartzo de Prata",
+    "bulgarian": "Five-SeveN | Сребърен кварц",
+    "czech": "Five-SeveN | Silver Quartz",
+    "danish": "Five-SeveN | Silver Quartz",
+    "dutch": "Five-SeveN | Silver Quartz",
+    "english": "Five-SeveN | Silver Quartz",
+    "finnish": "Five-SeveN | Hopeakvartsi",
+    "french": "Five-SeveN | Quartz argent",
+    "german": "Five-SeveN | Silberner Quarz",
+    "greek": "Five-SeveN | Silver Quartz",
+    "hungarian": "Five-SeveN | Ezüst Kvarc",
+    "indonesian": "Five-SeveN | Silver Quartz",
+    "italian": "Five-SeveN | Silver Quartz",
+    "japanese": "Five-SeveN | Silver Quartz",
+    "koreana": "파이브 세븐 | 은빛 수정",
+    "latam": "Five-SeveN | Cuarzo plateado",
+    "norwegian": "Five-SeveN | Silver Quartz",
+    "polish": "Five-SeveN | Srebrny kwarc",
+    "portuguese": "Five-SeveN | Silver Quartz",
+    "romanian": "Five-SeveN | Silver Quartz",
+    "russian": "Five-SeveN | Серебряный кварц",
+    "schinese": "FN57 | 银白石英",
+    "schinese_pw": "Five-SeveN | Silver Quartz",
+    "spanish": "Five-seveN | Cuarzo plateado",
+    "swedish": "Five-SeveN | Silver Quartz",
+    "tchinese": "Five-SeveN | 銀石英",
+    "thai": "Five-SeveN | Silver Quartz",
+    "turkish": "Five-SeveN | Gümüş Kuvars",
+    "ukrainian": "Five-seveN | Срібний кварц",
+    "vietnamese": "Five-SeveN | Silver Quartz"
+  },
+  "media": {
+    "asset_id": "skin__3-252",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-252/light.png",
+      "data/api/media/rendered/files/skins/3-252/medium.png",
+      "data/api/media/rendered/files/skins/3-252/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-252.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-252/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-252/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-252/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-252/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Silver Quartz",
+  "search_slug": "five-seven-silver-quartz",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_safehouse",
+        "name": "The Safehouse Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-252__normal__factory-new",
+    "3-252__normal__field-tested",
+    "3-252__normal__minimal-wear",
+    "3-252__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

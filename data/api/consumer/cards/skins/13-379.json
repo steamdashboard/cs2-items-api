@@ -1,0 +1,306 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 379,
+    "id": 379,
+    "localized_names": {
+      "brazilian": "Cérbero",
+      "bulgarian": "Цербер",
+      "czech": "Cerberus",
+      "danish": "Cerberus",
+      "dutch": "Cerberus",
+      "english": "Cerberus",
+      "finnish": "Kerberos",
+      "french": "Cerbère",
+      "german": "Cerberus",
+      "greek": "Cerberus",
+      "hungarian": "Kerberosz",
+      "indonesian": "Cerberus",
+      "italian": "Cerberus",
+      "japanese": "Cerberus",
+      "koreana": "케르베로스",
+      "latam": "Cerbero",
+      "norwegian": "Cerberus",
+      "polish": "Cerber",
+      "portuguese": "Cerberus",
+      "romanian": "Cerberus",
+      "russian": "Цербер",
+      "schinese": "地狱看门犬",
+      "schinese_pw": "Cerberus",
+      "spanish": "Cerbero",
+      "swedish": "Cerberus",
+      "tchinese": "地獄犬",
+      "thai": "Cerberus",
+      "turkish": "Kerberos",
+      "ukrainian": "Цербер",
+      "vietnamese": "Cerberus"
+    },
+    "name": "Cerberus",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.9,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-379",
+  "localized_names": {
+    "brazilian": "Galil AR | Cérbero",
+    "bulgarian": "Galil AR | Цербер",
+    "czech": "Galil AR | Cerberus",
+    "danish": "Galil AR | Cerberus",
+    "dutch": "Galil AR | Cerberus",
+    "english": "Galil AR | Cerberus",
+    "finnish": "Galil AR | Kerberos",
+    "french": "Galil AR | Cerbère",
+    "german": "Galil AR | Cerberus",
+    "greek": "Galil AR | Cerberus",
+    "hungarian": "Galil AR | Kerberosz",
+    "indonesian": "Galil AR | Cerberus",
+    "italian": "Galil AR | Cerberus",
+    "japanese": "Galil AR | Cerberus",
+    "koreana": "갈릴 돌격소총 | 케르베로스",
+    "latam": "Galil AR | Cerbero",
+    "norwegian": "Galil AR | Cerberus",
+    "polish": "Galil AR | Cerber",
+    "portuguese": "Galil AR | Cerberus",
+    "romanian": "Galil AR | Cerberus",
+    "russian": "Автомат «Галиль» | Цербер",
+    "schinese": "加利尔AR | 地狱看门犬",
+    "schinese_pw": "Galil AR | Cerberus",
+    "spanish": "Galil AR | Cerbero",
+    "swedish": "Galil AR | Cerberus",
+    "tchinese": "Galil AR | 地獄犬",
+    "thai": "Galil AR | Cerberus",
+    "turkish": "Galil AR | Kerberos",
+    "ukrainian": "Ґаліл | Цербер",
+    "vietnamese": "Galil AR | Cerberus"
+  },
+  "media": {
+    "asset_id": "skin__13-379",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-379/light.png",
+      "data/api/media/rendered/files/skins/13-379/medium.png",
+      "data/api/media/rendered/files/skins/13-379/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-379.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-379/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-379/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-379/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-379/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_cu_cerbrus_galil_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_cu_cerbrus_galil_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_cu_cerbrus_galil_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Cerberus",
+  "search_slug": "galil-ar-cerberus",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cache",
+        "name": "The Cache Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4603",
+        "kind": "container",
+        "name": "The Cache Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4026",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4035",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4083",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4136",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4181",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4230",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4278",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4348",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4400",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4467",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4544",
+        "kind": "souvenir-package",
+        "name": "London 2018 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4594",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Cache Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "13-379__normal__battle-scarred",
+    "13-379__normal__factory-new",
+    "13-379__normal__field-tested",
+    "13-379__normal__minimal-wear",
+    "13-379__normal__well-worn",
+    "13-379__souvenir__battle-scarred",
+    "13-379__souvenir__factory-new",
+    "13-379__souvenir__field-tested",
+    "13-379__souvenir__minimal-wear",
+    "13-379__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.9,
+    "min_float": 0.0
+  }
+}

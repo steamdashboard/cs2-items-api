@@ -1,0 +1,65 @@
+{
+  "card_type": "knife",
+  "description": "A knife designed for modern tactical uses, the blade is well suited for a range of both combat and utilitarian needs.  The unique Tanto point allows for maximum penetration through even the toughest of surfaces.",
+  "id": 509,
+  "localized_names": {
+    "brazilian": "Faca do Caçador",
+    "bulgarian": "Ловджийски нож",
+    "czech": "Lovecký nůž",
+    "danish": "Huntsman-kniv",
+    "dutch": "Jagersmes",
+    "english": "Huntsman Knife",
+    "finnish": "Metsämiehen veitsi",
+    "french": "Couteau de chasse",
+    "german": "Jagdmesser",
+    "greek": "Μαχαίρι Huntsman",
+    "hungarian": "Vadászkés",
+    "indonesian": "Pisau Pemburu",
+    "italian": "Coltello da cacciatore",
+    "japanese": "Huntsman ナイフ",
+    "koreana": "헌츠맨 칼",
+    "latam": "Cuchillo de cazador",
+    "norwegian": "Jegerkniv",
+    "polish": "Nóż myśliwski",
+    "portuguese": "Faca Huntsman",
+    "romanian": "Cuțit Huntsman",
+    "russian": "Охотничий нож",
+    "schinese": "猎杀者匕首",
+    "schinese_pw": "Huntsman Knife",
+    "spanish": "Cuchillo del Cazador",
+    "swedish": "Huntsmankniv",
+    "tchinese": "獵刀",
+    "thai": "มีดนายพราน",
+    "turkish": "Avcı Bıçağı",
+    "ukrainian": "Мисливський ніж",
+    "vietnamese": "Dao Huntsman"
+  },
+  "media": {
+    "asset_id": "weapon__509",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_tactical_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/509/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/509.json",
+    "models": [
+      "weapons/models/knife/knife_tactical/weapon_knife_tactical.vmdl_c",
+      "phase2/weapons/models/knife/knife_tactical/weapon_knife_tactical_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/509/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_tactical_png.vtex_c"
+  },
+  "name": "Huntsman Knife",
+  "regular_skin_ids": [],
+  "search_slug": "huntsman-knife",
+  "side": null,
+  "special_pool_ids": [
+    "community_case_3_unusual",
+    "spectrum_unusual"
+  ],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

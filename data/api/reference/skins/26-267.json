@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_turqoise_halftone",
+    "id": 267,
+    "name": "Cobalt Halftone",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 267,
+    "weapon_id": 26
+  },
+  "id": "26-267",
+  "name": "PP-Bizon | Cobalt Halftone",
+  "search_slug": "pp-bizon-cobalt-halftone",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_1",
+        "name": "The Winter Offensive Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4009",
+        "kind": "weapon-case",
+        "name": "Winter Offensive Weapon Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "26-267__normal__factory-new",
+    "26-267__normal__minimal-wear",
+    "26-267__normal__field-tested",
+    "26-267__normal__well-worn",
+    "26-267__stattrak__factory-new",
+    "26-267__stattrak__minimal-wear",
+    "26-267__stattrak__field-tested",
+    "26-267__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_bizon",
+    "id": 26,
+    "name": "PP-Bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.45,
+    "min_float": 0.05
+  }
+}

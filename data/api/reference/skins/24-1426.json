@@ -1,0 +1,92 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "ump_fragment",
+    "id": 1426,
+    "name": "Fragment",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 1426,
+    "weapon_id": 24
+  },
+  "id": "24-1426",
+  "name": "UMP-45 | Fragment",
+  "search_slug": "ump-45-fragment",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_37",
+        "name": "The Dead Hand Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5181",
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "24-1426__normal__factory-new",
+    "24-1426__normal__minimal-wear",
+    "24-1426__normal__field-tested",
+    "24-1426__normal__well-worn",
+    "24-1426__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_ump45",
+    "id": 24,
+    "name": "UMP-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

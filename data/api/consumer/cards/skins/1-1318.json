@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1318,
+    "id": 1318,
+    "localized_names": {
+      "brazilian": "Amoreira",
+      "bulgarian": "Черница",
+      "czech": "Mulberry",
+      "danish": "Mulberry",
+      "dutch": "Mulberry",
+      "english": "Mulberry",
+      "finnish": "Silkkiäispuu",
+      "french": "Glamûre",
+      "german": "Maulbeere",
+      "greek": "Mulberry",
+      "hungarian": "Faeper",
+      "indonesian": "Mulberry",
+      "italian": "Mulberry",
+      "japanese": "Mulberry",
+      "koreana": "멀베리",
+      "latam": "Mora",
+      "norwegian": "Mulberry",
+      "polish": "Morwa",
+      "portuguese": "Mulberry",
+      "romanian": "Mulberry",
+      "russian": "Шелковица",
+      "schinese": "玛珀丽",
+      "schinese_pw": "Mulberry",
+      "spanish": "Mora",
+      "swedish": "Mulberry",
+      "tchinese": "桑紅",
+      "thai": "Mulberry",
+      "turkish": "Dut",
+      "ukrainian": "Шовковиця",
+      "vietnamese": "Mulberry"
+    },
+    "name": "Mulberry",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-1318",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Amoreira",
+    "bulgarian": "Desert Eagle | Черница",
+    "czech": "Desert Eagle | Mulberry",
+    "danish": "Desert Eagle | Mulberry",
+    "dutch": "Desert Eagle | Mulberry",
+    "english": "Desert Eagle | Mulberry",
+    "finnish": "Desert Eagle | Silkkiäispuu",
+    "french": "Desert Eagle | Glamûre",
+    "german": "Desert Eagle | Maulbeere",
+    "greek": "Desert Eagle | Mulberry",
+    "hungarian": "Desert Eagle | Faeper",
+    "indonesian": "Desert Eagle | Mulberry",
+    "italian": "Desert Eagle | Mulberry",
+    "japanese": "Desert Eagle | Mulberry",
+    "koreana": "데저트 이글 | 멀베리",
+    "latam": "Desert Eagle | Mora",
+    "norwegian": "Desert Eagle | Mulberry",
+    "polish": "Desert Eagle | Morwa",
+    "portuguese": "Desert Eagle | Mulberry",
+    "romanian": "Desert Eagle | Mulberry",
+    "russian": "Desert Eagle | Шелковица",
+    "schinese": "沙漠之鹰 | 玛珀丽",
+    "schinese_pw": "Desert Eagle | Mulberry",
+    "spanish": "Desert Eagle | Mora",
+    "swedish": "Desert Eagle | Mulberry",
+    "tchinese": "Desert Eagle | 桑紅",
+    "thai": "Desert Eagle | Mulberry",
+    "turkish": "Desert Eagle | Dut",
+    "ukrainian": "Пустельний орел | Шовковиця",
+    "vietnamese": "Desert Eagle | Mulberry"
+  },
+  "media": {
+    "asset_id": "skin__1-1318",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-1318/light.png",
+      "data/api/media/rendered/files/skins/1-1318/medium.png",
+      "data/api/media/rendered/files/skins/1-1318/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-1318.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-1318/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-1318/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-1318/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-1318/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_soe_plum_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_soe_plum_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_soe_plum_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Mulberry",
+  "search_slug": "desert-eagle-mulberry",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-1318__normal__battle-scarred",
+    "1-1318__normal__factory-new",
+    "1-1318__normal__field-tested",
+    "1-1318__normal__minimal-wear",
+    "1-1318__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

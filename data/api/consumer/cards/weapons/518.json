@@ -1,0 +1,66 @@
+{
+  "card_type": "knife",
+  "description": "This multi-purpose tactical knife features a serrated edge for ripping through coarse material like bone or fiber, plus a sharp gutting hook. The composite material handle is bolted to the blade with hex nuts.",
+  "id": 518,
+  "localized_names": {
+    "brazilian": "Faca de Sobrevivência",
+    "bulgarian": "Нож за оцеляване",
+    "czech": "Záchranářský nůž",
+    "danish": "Overlevelseskniv",
+    "dutch": "Overlevingsmes",
+    "english": "Survival Knife",
+    "finnish": "Selviytymisveitsi",
+    "french": "Couteau de survie",
+    "german": "Survival-Messer",
+    "greek": "Μαχαίρι Survival",
+    "hungarian": "Túlélőkés",
+    "indonesian": "Pisau Survival",
+    "italian": "Coltello da sopravvivenza",
+    "japanese": "サバイバルナイフ",
+    "koreana": "서바이벌 칼",
+    "latam": "Cuchillo de supervivencia",
+    "norwegian": "Overlevelseskniv",
+    "polish": "Nóż survivalowy",
+    "portuguese": "Faca Survival",
+    "romanian": "Cuțit de supraviețuire",
+    "russian": "Нож выживания",
+    "schinese": "求生匕首",
+    "schinese_pw": "Survival Knife",
+    "spanish": "Cuchillo de supervivencia",
+    "swedish": "Överlevnadskniv",
+    "tchinese": "求生刀",
+    "thai": "มีดเซอร์ไวเวอร์",
+    "turkish": "Hayatta Kalma Bıçağı",
+    "ukrainian": "Ніж для виживання",
+    "vietnamese": "Dao sinh tồn"
+  },
+  "media": {
+    "asset_id": "weapon__518",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/518/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/518.json",
+    "models": [
+      "weapons/models/knife/knife_canis/weapon_knife_canis.vmdl_c",
+      "phase2/weapons/models/knife/knife_canis/weapon_knife_canis_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/518/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.vtex_c"
+  },
+  "name": "Survival Knife",
+  "regular_skin_ids": [],
+  "search_slug": "survival-knife",
+  "side": null,
+  "special_pool_ids": [
+    "gamma2_knives2_unusual",
+    "set_community_23_unusual",
+    "set_community_35_unusual"
+  ],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

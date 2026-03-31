@@ -1,0 +1,76 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_labyrinth2",
+    "id": 443,
+    "name": "Pathfinder",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 443,
+    "weapon_id": 32
+  },
+  "id": "32-443",
+  "name": "P2000 | Pathfinder",
+  "search_slug": "p2000-pathfinder",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_gods_and_monsters",
+        "name": "The Gods and Monsters Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4604",
+        "kind": "container",
+        "name": "The Gods and Monsters Collection",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "32-443__normal__factory-new",
+    "32-443__normal__minimal-wear",
+    "32-443__normal__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_hkp2000",
+    "id": 32,
+    "name": "P2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.35,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "card_type": "knife",
+  "description": "This ergonomic tactical hunting lock-blade knife features composite handle inserts and a broad, sturdy blade, useful for cutting and prying apart material.",
+  "id": 521,
+  "localized_names": {
+    "brazilian": "Faca Nômade",
+    "bulgarian": "Номадският нож",
+    "czech": "Outdoorový nůž",
+    "danish": "Nomadekniv",
+    "dutch": "Nomademes",
+    "english": "Nomad Knife",
+    "finnish": "Nomad-puukko",
+    "french": "Couteau de nomade",
+    "german": "Nomadenmesser",
+    "greek": "Μαχαίρι Nomad",
+    "hungarian": "Nomád kés",
+    "indonesian": "Pisau Nomad",
+    "italian": "Coltello Nomade",
+    "japanese": "Nomad ナイフ",
+    "koreana": "노매드 칼",
+    "latam": "Cuchillo nómada",
+    "norwegian": "Nomadekniv",
+    "polish": "Nóż nomada",
+    "portuguese": "Faca Nomad",
+    "romanian": "Cuțit Nomad",
+    "russian": "Нож «Бродяга»",
+    "schinese": "流浪者匕首",
+    "schinese_pw": "Nomad Knife",
+    "spanish": "Cuchillo nómada",
+    "swedish": "Nomad-kniv",
+    "tchinese": "流浪者小刀",
+    "thai": "มีดโนแมด",
+    "turkish": "Göçebe Bıçağı",
+    "ukrainian": "Польовий ніж",
+    "vietnamese": "Dao Nomad"
+  },
+  "media": {
+    "asset_id": "weapon__521",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/521/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/521.json",
+    "models": [
+      "weapons/models/knife/knife_outdoor/weapon_knife_outdoor.vmdl_c",
+      "phase2/weapons/models/knife/knife_outdoor/weapon_knife_outdoor_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/521/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.vtex_c"
+  },
+  "name": "Nomad Knife",
+  "regular_skin_ids": [],
+  "search_slug": "nomad-knife",
+  "side": null,
+  "special_pool_ids": [
+    "gamma2_knives2_unusual",
+    "set_community_23_unusual",
+    "set_community_35_unusual"
+  ],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

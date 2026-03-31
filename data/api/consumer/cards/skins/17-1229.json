@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1229,
+    "id": 1229,
+    "localized_names": {
+      "brazilian": "Sakkaku",
+      "bulgarian": "Саккаку",
+      "czech": "Sakkaku",
+      "danish": "Sakkaku",
+      "dutch": "Sakkaku",
+      "english": "Sakkaku",
+      "finnish": "Sakkaku",
+      "french": "Sakkaku",
+      "german": "Sakkaku",
+      "greek": "Sakkaku",
+      "hungarian": "Sakkaku",
+      "indonesian": "Sakkaku",
+      "italian": "Sakkaku",
+      "japanese": "Sakkaku",
+      "koreana": "사카쿠",
+      "latam": "Sakkaku",
+      "norwegian": "Sakkaku",
+      "polish": "Sakkaku",
+      "portuguese": "Sakkaku",
+      "romanian": "Sakkaku",
+      "russian": "Саккаку",
+      "schinese": "错觉",
+      "schinese_pw": "Sakkaku",
+      "spanish": "Sakkaku",
+      "swedish": "Sakkaku",
+      "tchinese": "錯覺",
+      "thai": "Sakkaku",
+      "turkish": "Sakkaku",
+      "ukrainian": "Саккаку",
+      "vietnamese": "Sakkaku"
+    },
+    "name": "Sakkaku",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.79,
+      "min_float": 0.21
+    }
+  },
+  "id": "17-1229",
+  "localized_names": {
+    "brazilian": "MAC-10 | Sakkaku",
+    "bulgarian": "MAC-10 | Саккаку",
+    "czech": "MAC-10 | Sakkaku",
+    "danish": "MAC-10 | Sakkaku",
+    "dutch": "MAC-10 | Sakkaku",
+    "english": "MAC-10 | Sakkaku",
+    "finnish": "MAC-10 | Sakkaku",
+    "french": "MAC-10 | Sakkaku",
+    "german": "MAC-10 | Sakkaku",
+    "greek": "MAC-10 | Sakkaku",
+    "hungarian": "MAC-10 | Sakkaku",
+    "indonesian": "MAC-10 | Sakkaku",
+    "italian": "MAC-10 | Sakkaku",
+    "japanese": "MAC-10 | Sakkaku",
+    "koreana": "MAC-10 | 사카쿠",
+    "latam": "MAC-10 | Sakkaku",
+    "norwegian": "MAC-10 | Sakkaku",
+    "polish": "MAC-10 | Sakkaku",
+    "portuguese": "MAC-10 | Sakkaku",
+    "romanian": "MAC-10 | Sakkaku",
+    "russian": "MAC-10 | Саккаку",
+    "schinese": "MAC-10 | 错觉",
+    "schinese_pw": "MAC-10 | Sakkaku",
+    "spanish": "MAC-10 | Sakkaku",
+    "swedish": "MAC-10 | Sakkaku",
+    "tchinese": "MAC-10 | 錯覺",
+    "thai": "MAC-10 | Sakkaku",
+    "turkish": "MAC-10 | Sakkaku",
+    "ukrainian": "МАК-10 | Саккаку",
+    "vietnamese": "MAC-10 | Sakkaku"
+  },
+  "media": {
+    "asset_id": "skin__17-1229",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-1229/light.png",
+      "data/api/media/rendered/files/skins/17-1229/medium.png",
+      "data/api/media/rendered/files/skins/17-1229/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-1229.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-1229/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-1229/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-1229/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-1229/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_sakkaku_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_sakkaku_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_sakkaku_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Sakkaku",
+  "search_slug": "mac-10-sakkaku",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4880",
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_32",
+        "name": "The Revolution Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-1229__normal__battle-scarred",
+    "17-1229__normal__field-tested",
+    "17-1229__normal__well-worn",
+    "17-1229__stattrak__battle-scarred",
+    "17-1229__stattrak__field-tested",
+    "17-1229__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.79,
+    "min_float": 0.21
+  }
+}

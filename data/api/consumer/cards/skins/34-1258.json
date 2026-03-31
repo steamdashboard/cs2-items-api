@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1258,
+    "id": 1258,
+    "localized_names": {
+      "brazilian": "Paisley Cobáltico",
+      "bulgarian": "Кобалтов пейсли",
+      "czech": "Cobalt Paisley",
+      "danish": "Cobalt Paisley",
+      "dutch": "Cobalt Paisley",
+      "english": "Cobalt Paisley",
+      "finnish": "Koboltinsininen paisley",
+      "french": "Cachemire cobalt",
+      "german": "Kobaltblaues Paisley",
+      "greek": "Cobalt Paisley",
+      "hungarian": "Kobalt Kasmír",
+      "indonesian": "Cobalt Paisley",
+      "italian": "Cobalt Paisley",
+      "japanese": "Cobalt Paisley",
+      "koreana": "코발트 페이즐리",
+      "latam": "Azul cachemir",
+      "norwegian": "Cobalt Paisley",
+      "polish": "Kobaltowy wzór turecki",
+      "portuguese": "Cobalt Paisley",
+      "romanian": "Cobalt Paisley",
+      "russian": "Кобальтовый пейсли",
+      "schinese": "钴蓝佩斯利",
+      "schinese_pw": "Cobalt Paisley",
+      "spanish": "Cachemir azul",
+      "swedish": "Cobalt Paisley",
+      "tchinese": "鈷藍佩斯利",
+      "thai": "Cobalt Paisley",
+      "turkish": "Kobalt Şal",
+      "ukrainian": "Кобальтові краплі",
+      "vietnamese": "Cobalt Paisley"
+    },
+    "name": "Cobalt Paisley",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-1258",
+  "localized_names": {
+    "brazilian": "MP9 | Paisley Cobáltico",
+    "bulgarian": "MP9 | Кобалтов пейсли",
+    "czech": "MP9 | Cobalt Paisley",
+    "danish": "MP9 | Cobalt Paisley",
+    "dutch": "MP9 | Cobalt Paisley",
+    "english": "MP9 | Cobalt Paisley",
+    "finnish": "MP9 | Koboltinsininen paisley",
+    "french": "MP9 | Cachemire cobalt",
+    "german": "MP9 | Kobaltblaues Paisley",
+    "greek": "MP9 | Cobalt Paisley",
+    "hungarian": "MP9 | Kobalt Kasmír",
+    "indonesian": "MP9 | Cobalt Paisley",
+    "italian": "MP9 | Cobalt Paisley",
+    "japanese": "MP9 | Cobalt Paisley",
+    "koreana": "MP9 | 코발트 페이즐리",
+    "latam": "MP9 | Azul cachemir",
+    "norwegian": "MP9 | Cobalt Paisley",
+    "polish": "MP9 | Kobaltowy wzór turecki",
+    "portuguese": "MP9 | Cobalt Paisley",
+    "romanian": "MP9 | Cobalt Paisley",
+    "russian": "MP9 | Кобальтовый пейсли",
+    "schinese": "MP9 | 钴蓝佩斯利",
+    "schinese_pw": "MP9 | Cobalt Paisley",
+    "spanish": "MP9 | Cachemir azul",
+    "swedish": "MP9 | Cobalt Paisley",
+    "tchinese": "MP9 | 鈷藍佩斯利",
+    "thai": "MP9 | Cobalt Paisley",
+    "turkish": "MP9 | Kobalt Şal",
+    "ukrainian": "МП9 | Кобальтові краплі",
+    "vietnamese": "MP9 | Cobalt Paisley"
+  },
+  "media": {
+    "asset_id": "skin__34-1258",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-1258/light.png",
+      "data/api/media/rendered/files/skins/34-1258/medium.png",
+      "data/api/media/rendered/files/skins/34-1258/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-1258.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-1258/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-1258/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-1258/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-1258/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_hye_blue_paisley_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_hye_blue_paisley_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_hye_blue_paisley_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Cobalt Paisley",
+  "search_slug": "mp9-cobalt-paisley",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_cool",
+        "name": "The Ascent Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-1258__normal__battle-scarred",
+    "34-1258__normal__factory-new",
+    "34-1258__normal__field-tested",
+    "34-1258__normal__minimal-wear",
+    "34-1258__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

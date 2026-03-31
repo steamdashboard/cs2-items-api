@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 481,
+    "id": 481,
+    "localized_names": {
+      "brazilian": "Nêmesis",
+      "bulgarian": "Възмездие",
+      "czech": "Nemesis",
+      "danish": "Nemesis",
+      "dutch": "Nemesis",
+      "english": "Nemesis",
+      "finnish": "Perivihollinen",
+      "french": "Némésis",
+      "german": "Nemesis",
+      "greek": "Nemesis",
+      "hungarian": "Nemezis",
+      "indonesian": "Nemesis",
+      "italian": "Nemesis",
+      "japanese": "Nemesis",
+      "koreana": "강적",
+      "latam": "Némesis",
+      "norwegian": "Nemesis",
+      "polish": "Nemezis",
+      "portuguese": "Nemesis",
+      "romanian": "Nemesis",
+      "russian": "Заклятый враг",
+      "schinese": "复仇者",
+      "schinese_pw": "Nemesis",
+      "spanish": "Némesis",
+      "swedish": "Nemesis",
+      "tchinese": "復仇者",
+      "thai": "Nemesis",
+      "turkish": "Ezelî Rakip",
+      "ukrainian": "Запеклий ворог",
+      "vietnamese": "Nemesis"
+    },
+    "name": "Nemesis",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.32,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-481",
+  "localized_names": {
+    "brazilian": "MP7 | Nêmesis",
+    "bulgarian": "MP7 | Възмездие",
+    "czech": "MP7 | Nemesis",
+    "danish": "MP7 | Nemesis",
+    "dutch": "MP7 | Nemesis",
+    "english": "MP7 | Nemesis",
+    "finnish": "MP7 | Perivihollinen",
+    "french": "MP7 | Némésis",
+    "german": "MP7 | Nemesis",
+    "greek": "MP7 | Nemesis",
+    "hungarian": "MP7 | Nemezis",
+    "indonesian": "MP7 | Nemesis",
+    "italian": "MP7 | Nemesis",
+    "japanese": "MP7 | Nemesis",
+    "koreana": "MP7 | 강적",
+    "latam": "MP7 | Némesis",
+    "norwegian": "MP7 | Nemesis",
+    "polish": "MP7 | Nemezis",
+    "portuguese": "MP7 | Nemesis",
+    "romanian": "MP7 | Nemesis",
+    "russian": "MP7 | Заклятый враг",
+    "schinese": "MP7 | 复仇者",
+    "schinese_pw": "MP7 | Nemesis",
+    "spanish": "MP7 | Némesis",
+    "swedish": "MP7 | Nemesis",
+    "tchinese": "MP7 | 復仇者",
+    "thai": "MP7 | Nemesis",
+    "turkish": "MP7 | Ezelî Rakip",
+    "ukrainian": "МП7 | Запеклий ворог",
+    "vietnamese": "MP7 | Nemesis"
+  },
+  "media": {
+    "asset_id": "skin__33-481",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-481/light.png",
+      "data/api/media/rendered/files/skins/33-481/medium.png",
+      "data/api/media/rendered/files/skins/33-481/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-481.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-481/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-481/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-481/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-481/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_cu_mp7_nemsis_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_cu_mp7_nemsis_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_cu_mp7_nemsis_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Nemesis",
+  "search_slug": "mp7-nemesis",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4091",
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_8",
+        "name": "The Falchion Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-481__normal__factory-new",
+    "33-481__normal__field-tested",
+    "33-481__normal__minimal-wear",
+    "33-481__stattrak__factory-new",
+    "33-481__stattrak__field-tested",
+    "33-481__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.32,
+    "min_float": 0.0
+  }
+}

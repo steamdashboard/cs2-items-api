@@ -1,0 +1,27 @@
+{
+  "id": "quest_prefab",
+  "name": "quest_prefab",
+  "prefab_chain": [
+    "quest_prefab"
+  ],
+  "resolved": {
+    "capabilities": {
+      "can_delete": "1"
+    },
+    "drop_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "icon_default_image": "materials/icons/inventory_icon_quest.vtf",
+    "image_inventory": "econ/tools/mission",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_Quest_Desc",
+    "item_name": "#CSGO_Type_Quest",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type_name": "#CSGO_Type_Quest",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "name": "quest_item"
+  }
+}

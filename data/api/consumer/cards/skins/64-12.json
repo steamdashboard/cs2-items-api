@@ -1,0 +1,177 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 12,
+    "id": 12,
+    "localized_names": {
+      "brazilian": "Teia Rubra",
+      "bulgarian": "Пурпурна паяжина",
+      "czech": "Crimson Web",
+      "danish": "Crimson Web",
+      "dutch": "Crimson Web",
+      "english": "Crimson Web",
+      "finnish": "Verenpunainen seitti",
+      "french": "Toile pourpre",
+      "german": "Purpurnes Netz",
+      "greek": "Crimson Web",
+      "hungarian": "Karmazsin Háló",
+      "indonesian": "Crimson Web",
+      "italian": "Crimson Web",
+      "japanese": "Crimson Web",
+      "koreana": "붉은 그물",
+      "latam": "Tela escarlata",
+      "norwegian": "Crimson Web",
+      "polish": "Szkarłatna sieć",
+      "portuguese": "Crimson Web",
+      "romanian": "Crimson Web",
+      "russian": "Кровавая паутина",
+      "schinese": "深红之网",
+      "schinese_pw": "Crimson Web",
+      "spanish": "Tela escarlata",
+      "swedish": "Crimson Web",
+      "tchinese": "赤紅之網",
+      "thai": "Crimson Web",
+      "turkish": "Kızıl Ağ",
+      "ukrainian": "Криваве павутиння",
+      "vietnamese": "Crimson Web"
+    },
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "64-12",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Teia Rubra",
+    "bulgarian": "Револвер R8 | Пурпурна паяжина",
+    "czech": "Revolver R8 | Crimson Web",
+    "danish": "R8-revolver | Crimson Web",
+    "dutch": "R8-revolver | Crimson Web",
+    "english": "R8 Revolver | Crimson Web",
+    "finnish": "R8-revolveri | Verenpunainen seitti",
+    "french": "Révolver R8 | Toile pourpre",
+    "german": "R8-Revolver | Purpurnes Netz",
+    "greek": "R8 Revolver | Crimson Web",
+    "hungarian": "R8 revolver | Karmazsin Háló",
+    "indonesian": "R8 Revolver | Crimson Web",
+    "italian": "Revolver R8 | Crimson Web",
+    "japanese": "R8 Revolver | Crimson Web",
+    "koreana": "R8 리볼버 | 붉은 그물",
+    "latam": "Revólver R8 | Tela escarlata",
+    "norwegian": "R8 Revolver | Crimson Web",
+    "polish": "Rewolwer R8 | Szkarłatna sieć",
+    "portuguese": "R8 Revolver | Crimson Web",
+    "romanian": "Revolver R8 | Crimson Web",
+    "russian": "Револьвер R8 | Кровавая паутина",
+    "schinese": "R8左轮手枪 | 深红之网",
+    "schinese_pw": "R8 Revolver | Crimson Web",
+    "spanish": "Revólver R8 | Tela escarlata",
+    "swedish": "R8 Revolver | Crimson Web",
+    "tchinese": "R8 Revolver | 赤紅之網",
+    "thai": "ปืนลูกโม่ R8 | Crimson Web",
+    "turkish": "R8 Revolver | Kızıl Ağ",
+    "ukrainian": "Револьвер Р8 | Криваве павутиння",
+    "vietnamese": "Súng lục R8 | Crimson Web"
+  },
+  "media": {
+    "asset_id": "skin__64-12",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-12/light.png",
+      "data/api/media/rendered/files/skins/64-12/medium.png",
+      "data/api/media/rendered/files/skins/64-12/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-12.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-12/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-12/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-12/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-12/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_hy_webs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_hy_webs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_hy_webs_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Crimson Web",
+  "search_slug": "r8-revolver-crimson-web",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-12__normal__vanilla",
+    "64-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

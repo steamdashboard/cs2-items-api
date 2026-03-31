@@ -1,0 +1,250 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1244,
+    "id": 1244,
+    "localized_names": {
+      "brazilian": "Areias Ecoantes",
+      "bulgarian": "Отекващи пясъци",
+      "czech": "Echoing Sands",
+      "danish": "Echoing Sands",
+      "dutch": "Echoing Sands",
+      "english": "Echoing Sands",
+      "finnish": "Aavikolla kaikuu",
+      "french": "Sables résonnants",
+      "german": "Singende Sande",
+      "greek": "Echoing Sands",
+      "hungarian": "Visszhangzó Homok",
+      "indonesian": "Echoing Sands",
+      "italian": "Echoing Sands",
+      "japanese": "Echoing Sands",
+      "koreana": "샌드 에코",
+      "latam": "Eco en las dunas",
+      "norwegian": "Echoing Sands",
+      "polish": "Rozbrzmiewające echem piaski",
+      "portuguese": "Echoing Sands",
+      "romanian": "Echoing Sands",
+      "russian": "Эхо песков",
+      "schinese": "鸣沙",
+      "schinese_pw": "Echoing Sands",
+      "spanish": "Eco en la arena",
+      "swedish": "Echoing Sands",
+      "tchinese": "迴沙",
+      "thai": "Echoing Sands",
+      "turkish": "Yankılanan Kumlar",
+      "ukrainian": "Відлуння пісків",
+      "vietnamese": "Echoing Sands"
+    },
+    "name": "Echoing Sands",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.02
+    }
+  },
+  "id": "17-1244",
+  "localized_names": {
+    "brazilian": "MAC-10 | Areias Ecoantes",
+    "bulgarian": "MAC-10 | Отекващи пясъци",
+    "czech": "MAC-10 | Echoing Sands",
+    "danish": "MAC-10 | Echoing Sands",
+    "dutch": "MAC-10 | Echoing Sands",
+    "english": "MAC-10 | Echoing Sands",
+    "finnish": "MAC-10 | Aavikolla kaikuu",
+    "french": "MAC-10 | Sables résonnants",
+    "german": "MAC-10 | Singende Sande",
+    "greek": "MAC-10 | Echoing Sands",
+    "hungarian": "MAC-10 | Visszhangzó Homok",
+    "indonesian": "MAC-10 | Echoing Sands",
+    "italian": "MAC-10 | Echoing Sands",
+    "japanese": "MAC-10 | Echoing Sands",
+    "koreana": "MAC-10 | 샌드 에코",
+    "latam": "MAC-10 | Eco en las dunas",
+    "norwegian": "MAC-10 | Echoing Sands",
+    "polish": "MAC-10 | Rozbrzmiewające echem piaski",
+    "portuguese": "MAC-10 | Echoing Sands",
+    "romanian": "MAC-10 | Echoing Sands",
+    "russian": "MAC-10 | Эхо песков",
+    "schinese": "MAC-10 | 鸣沙",
+    "schinese_pw": "MAC-10 | Echoing Sands",
+    "spanish": "MAC-10 | Eco en la arena",
+    "swedish": "MAC-10 | Echoing Sands",
+    "tchinese": "MAC-10 | 迴沙",
+    "thai": "MAC-10 | Echoing Sands",
+    "turkish": "MAC-10 | Yankılanan Kumlar",
+    "ukrainian": "МАК-10 | Відлуння пісків",
+    "vietnamese": "MAC-10 | Echoing Sands"
+  },
+  "media": {
+    "asset_id": "skin__17-1244",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-1244/light.png",
+      "data/api/media/rendered/files/skins/17-1244/medium.png",
+      "data/api/media/rendered/files/skins/17-1244/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-1244.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-1244/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-1244/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-1244/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-1244/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_scarab_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_scarab_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_scarab_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Echoing Sands",
+  "search_slug": "mac-10-echoing-sands",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_anubis",
+        "name": "The Anubis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4882",
+        "kind": "container",
+        "name": "Anubis Collection Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4969",
+        "kind": "container",
+        "name": "Shanghai 2024 Anubis Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5122",
+        "kind": "container",
+        "name": "Austin 2025 Anubis Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4895",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Anubis Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4928",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "17-1244__normal__battle-scarred",
+    "17-1244__normal__factory-new",
+    "17-1244__normal__field-tested",
+    "17-1244__normal__minimal-wear",
+    "17-1244__normal__well-worn",
+    "17-1244__souvenir__battle-scarred",
+    "17-1244__souvenir__factory-new",
+    "17-1244__souvenir__field-tested",
+    "17-1244__souvenir__minimal-wear",
+    "17-1244__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.02
+  }
+}

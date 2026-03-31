@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 145,
+    "id": 145,
+    "localized_names": {
+      "brazilian": "Wurst Hölle",
+      "bulgarian": "Адска наденица",
+      "czech": "Wurst Hölle",
+      "danish": "Wurst Hölle",
+      "dutch": "Wurst Hölle",
+      "english": "Wurst Hölle",
+      "finnish": "Makkarahorna",
+      "french": "Wurst Hölle",
+      "german": "Wurst-Hölle",
+      "greek": "Wurst Hölle",
+      "hungarian": "Wurst Hölle",
+      "indonesian": "Wurst Hölle",
+      "italian": "Wurst Hölle",
+      "japanese": "Wurst Hölle",
+      "koreana": "불타는 소시지",
+      "latam": "Wurst Hölle",
+      "norwegian": "Wurst Hölle",
+      "polish": "Wurst Hölle",
+      "portuguese": "Wurst Hölle",
+      "romanian": "Wurst Hölle",
+      "russian": "Сосисочный ад",
+      "schinese": "香肠地狱",
+      "schinese_pw": "Wurst Hölle",
+      "spanish": "Wurst Hölle",
+      "swedish": "Wurst Hölle",
+      "tchinese": "香腸地獄",
+      "thai": "Wurst Hölle",
+      "turkish": "Wurst Hölle",
+      "ukrainian": "Сосискове пекло",
+      "vietnamese": "Wurst Hölle"
+    },
+    "name": "Wurst Hölle",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-145",
+  "localized_names": {
+    "brazilian": "Nova | Wurst Hölle",
+    "bulgarian": "Nova | Адска наденица",
+    "czech": "Nova | Wurst Hölle",
+    "danish": "Nova | Wurst Hölle",
+    "dutch": "Nova | Wurst Hölle",
+    "english": "Nova | Wurst Hölle",
+    "finnish": "Nova | Makkarahorna",
+    "french": "Nova | Wurst Hölle",
+    "german": "Nova | Wurst-Hölle",
+    "greek": "Nova | Wurst Hölle",
+    "hungarian": "Nova | Wurst Hölle",
+    "indonesian": "Nova | Wurst Hölle",
+    "italian": "Nova | Wurst Hölle",
+    "japanese": "Nova | Wurst Hölle",
+    "koreana": "노바 | 불타는 소시지",
+    "latam": "Nova | Wurst Hölle",
+    "norwegian": "Nova | Wurst Hölle",
+    "polish": "Nova | Wurst Hölle",
+    "portuguese": "Nova | Wurst Hölle",
+    "romanian": "Nova | Wurst Hölle",
+    "russian": "Nova | Сосисочный ад",
+    "schinese": "新星 | 香肠地狱",
+    "schinese_pw": "Nova | Wurst Hölle",
+    "spanish": "Nova | Wurst Hölle",
+    "swedish": "Nova | Wurst Hölle",
+    "tchinese": "Nova | 香腸地獄",
+    "thai": "Nova | Wurst Hölle",
+    "turkish": "Nova | Wurst Hölle",
+    "ukrainian": "Нова | Сосискове пекло",
+    "vietnamese": "Nova | Wurst Hölle"
+  },
+  "media": {
+    "asset_id": "skin__35-145",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-145/light.png",
+      "data/api/media/rendered/files/skins/35-145/medium.png",
+      "data/api/media/rendered/files/skins/35-145/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-145.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-145/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-145/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-145/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-145/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_cu_overpass_wurst_nova_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_cu_overpass_wurst_nova_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_cu_overpass_wurst_nova_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Wurst Hölle",
+  "search_slug": "nova-wurst-h-lle",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_overpass_2024",
+        "name": "The Overpass 2024 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5221",
+        "kind": "container",
+        "name": "Budapest 2025 Overpass Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-145__normal__battle-scarred",
+    "35-145__normal__factory-new",
+    "35-145__normal__field-tested",
+    "35-145__normal__minimal-wear",
+    "35-145__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

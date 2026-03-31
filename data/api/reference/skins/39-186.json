@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "sp_spray_waves_bravo",
+    "id": 186,
+    "name": "Wave Spray",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 186,
+    "weapon_id": 39
+  },
+  "id": "39-186",
+  "name": "SG 553 | Wave Spray",
+  "search_slug": "sg-553-wave-spray",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "39-186__normal__vanilla",
+    "39-186__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_sg556",
+    "id": 39,
+    "name": "SG 553",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

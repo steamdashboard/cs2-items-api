@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 211,
+    "id": 211,
+    "localized_names": {
+      "brazilian": "Como uma Onda",
+      "bulgarian": "Морска пяна",
+      "czech": "Ocean Foam",
+      "danish": "Ocean Foam",
+      "dutch": "Ocean Foam",
+      "english": "Ocean Foam",
+      "finnish": "Merivaahto",
+      "french": "Écume océanique",
+      "german": "Ozeanschaum",
+      "greek": "Ocean Foam",
+      "hungarian": "Óceánhab",
+      "indonesian": "Ocean Foam",
+      "italian": "Ocean Foam",
+      "japanese": "Ocean Foam",
+      "koreana": "바다거품",
+      "latam": "Espuma oceánica",
+      "norwegian": "Ocean Foam",
+      "polish": "Piana morska",
+      "portuguese": "Ocean Foam",
+      "romanian": "Ocean Foam",
+      "russian": "Океанская пена",
+      "schinese": "海之泡沫",
+      "schinese_pw": "Ocean Foam",
+      "spanish": "Espuma oceánica",
+      "swedish": "Ocean Foam",
+      "tchinese": "海洋泡沫",
+      "thai": "Ocean Foam",
+      "turkish": "Okyanus Köpüğü",
+      "ukrainian": "Морська піна",
+      "vietnamese": "Ocean Foam"
+    },
+    "name": "Ocean Foam",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.12,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-211",
+  "localized_names": {
+    "brazilian": "P2000 | Como uma Onda",
+    "bulgarian": "P2000 | Морска пяна",
+    "czech": "P2000 | Ocean Foam",
+    "danish": "P2000 | Ocean Foam",
+    "dutch": "P2000 | Ocean Foam",
+    "english": "P2000 | Ocean Foam",
+    "finnish": "P2000 | Merivaahto",
+    "french": "P2000 | Écume océanique",
+    "german": "P2000 | Ozeanschaum",
+    "greek": "P2000 | Ocean Foam",
+    "hungarian": "P2000 | Óceánhab",
+    "indonesian": "P2000 | Ocean Foam",
+    "italian": "P2000 | Ocean Foam",
+    "japanese": "P2000 | Ocean Foam",
+    "koreana": "P2000 | 바다거품",
+    "latam": "P2000 | Espuma oceánica",
+    "norwegian": "P2000 | Ocean Foam",
+    "polish": "P2000 | Piana morska",
+    "portuguese": "P2000 | Ocean Foam",
+    "romanian": "P2000 | Ocean Foam",
+    "russian": "P2000 | Океанская пена",
+    "schinese": "P2000 | 海之泡沫",
+    "schinese_pw": "P2000 | Ocean Foam",
+    "spanish": "P2000 | Espuma oceánica",
+    "swedish": "P2000 | Ocean Foam",
+    "tchinese": "P2000 | 海洋泡沫",
+    "thai": "P2000 | Ocean Foam",
+    "turkish": "P2000 | Okyanus Köpüğü",
+    "ukrainian": "П2000 | Морська піна",
+    "vietnamese": "P2000 | Ocean Foam"
+  },
+  "media": {
+    "asset_id": "skin__32-211",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-211/light.png",
+      "data/api/media/rendered/files/skins/32-211/medium.png",
+      "data/api/media/rendered/files/skins/32-211/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-211.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-211/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-211/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-211/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-211/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_am_ossify_blue_p2000_bravo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_am_ossify_blue_p2000_bravo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_am_ossify_blue_p2000_bravo_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Ocean Foam",
+  "search_slug": "p2000-ocean-foam",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "32-211__normal__factory-new",
+    "32-211__normal__minimal-wear",
+    "32-211__stattrak__factory-new",
+    "32-211__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

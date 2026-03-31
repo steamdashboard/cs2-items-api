@@ -1,0 +1,52 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "aa_fade_grassland",
+    "id": 253,
+    "name": "Acid Fade",
+    "rarity_ref": null,
+    "style_code": 6
+  },
+  "game_ref": {
+    "paint_kit_id": 253,
+    "weapon_id": 40
+  },
+  "id": "40-253",
+  "name": "SSG 08 | Acid Fade",
+  "search_slug": "ssg-08-acid-fade",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_safehouse",
+        "name": "The Safehouse Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    }
+  ],
+  "variant_ids": [
+    "40-253__normal__factory-new"
+  ],
+  "weapon": {
+    "codename": "weapon_ssg08",
+    "id": 40,
+    "name": "SSG 08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.03,
+    "min_float": 0.0
+  }
+}

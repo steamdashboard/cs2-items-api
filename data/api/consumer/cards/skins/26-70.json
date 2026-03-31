@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 70,
+    "id": 70,
+    "localized_names": {
+      "brazilian": "Fibra de Carbono",
+      "bulgarian": "Карбонови нишки",
+      "czech": "Carbon Fiber",
+      "danish": "Carbon Fiber",
+      "dutch": "Carbon Fiber",
+      "english": "Carbon Fiber",
+      "finnish": "Hiilikuitu",
+      "french": "Fibre de carbone",
+      "german": "Kohlefaser",
+      "greek": "Carbon Fiber",
+      "hungarian": "Szénszálas",
+      "indonesian": "Carbon Fiber",
+      "italian": "Carbon Fiber",
+      "japanese": "Carbon Fiber",
+      "koreana": "탄소 섬유",
+      "latam": "Fibra de carbono",
+      "norwegian": "Carbon Fiber",
+      "polish": "Włókno węglowe",
+      "portuguese": "Carbon Fiber",
+      "romanian": "Carbon Fiber",
+      "russian": "Углепластик",
+      "schinese": "碳素纤维",
+      "schinese_pw": "Carbon Fiber",
+      "spanish": "Fibra de carbono",
+      "swedish": "Carbon Fiber",
+      "tchinese": "碳纖維",
+      "thai": "Carbon Fiber",
+      "turkish": "Karbon Fiber",
+      "ukrainian": "Вуглепластик",
+      "vietnamese": "Carbon Fiber"
+    },
+    "name": "Carbon Fiber",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.12,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-70",
+  "localized_names": {
+    "brazilian": "PP-Bizon | Fibra de Carbono",
+    "bulgarian": "PP-Bizon | Карбонови нишки",
+    "czech": "PP-Bizon | Carbon Fiber",
+    "danish": "PP-Bizon | Carbon Fiber",
+    "dutch": "PP-Bizon | Carbon Fiber",
+    "english": "PP-Bizon | Carbon Fiber",
+    "finnish": "PP-Bizon | Hiilikuitu",
+    "french": "PP-Bizon | Fibre de carbone",
+    "german": "PP-Bizon | Kohlefaser",
+    "greek": "PP-Bizon | Carbon Fiber",
+    "hungarian": "PP-Bizon | Szénszálas",
+    "indonesian": "PP-Bizon | Carbon Fiber",
+    "italian": "PP-Bizon | Carbon Fiber",
+    "japanese": "PP-Bizon | Carbon Fiber",
+    "koreana": "PP 비존 | 탄소 섬유",
+    "latam": "PP-Bizon | Fibra de carbono",
+    "norwegian": "PP-Bizon | Carbon Fiber",
+    "polish": "PP-Bizon | Włókno węglowe",
+    "portuguese": "PP-Bizon | Carbon Fiber",
+    "romanian": "PP-Bizon | Carbon Fiber",
+    "russian": "ПП-19 «Бизон» | Углепластик",
+    "schinese": "PP-野牛 | 碳素纤维",
+    "schinese_pw": "PP-Bizon | Carbon Fiber",
+    "spanish": "PP-Bizon | Fibra de carbono",
+    "swedish": "PP-Bizon | Carbon Fiber",
+    "tchinese": "PP-Bizon | 碳纖維",
+    "thai": "PP-Bizon | Carbon Fiber",
+    "turkish": "PP-Bizon | Karbon Fiber",
+    "ukrainian": "ПП «Бізон» | Вуглепластик",
+    "vietnamese": "PP-Bizon | Carbon Fiber"
+  },
+  "media": {
+    "asset_id": "skin__26-70",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-70/light.png",
+      "data/api/media/rendered/files/skins/26-70/medium.png",
+      "data/api/media/rendered/files/skins/26-70/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-70.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-70/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-70/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-70/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-70/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_am_carbon_fiber_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_am_carbon_fiber_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_am_carbon_fiber_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | Carbon Fiber",
+  "search_slug": "pp-bizon-carbon-fiber",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_vertigo",
+        "name": "The Vertigo Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4666",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "26-70__normal__factory-new",
+    "26-70__normal__minimal-wear",
+    "26-70__souvenir__factory-new",
+    "26-70__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "am_carbon_fiber",
+    "id": 70,
+    "name": "Carbon Fiber",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 70,
+    "weapon_id": 24
+  },
+  "id": "24-70",
+  "name": "UMP-45 | Carbon Fiber",
+  "search_slug": "ump-45-carbon-fiber",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "variant_ids": [
+    "24-70__normal__factory-new",
+    "24-70__normal__minimal-wear"
+  ],
+  "weapon": {
+    "codename": "weapon_ump45",
+    "id": 24,
+    "name": "UMP-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

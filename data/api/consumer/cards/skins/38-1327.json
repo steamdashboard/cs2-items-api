@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1327,
+    "id": 1327,
+    "localized_names": {
+      "brazilian": "Ocre Curta",
+      "bulgarian": "Къса охра",
+      "czech": "Short Ochre",
+      "danish": "Short Ochre",
+      "dutch": "Short Ochre",
+      "english": "Short Ochre",
+      "finnish": "Lyhyt okra",
+      "french": "Ocre court",
+      "german": "Kleines Ockerfarbenes",
+      "greek": "Short Ochre",
+      "hungarian": "Rövid Okker",
+      "indonesian": "Short Ochre",
+      "italian": "Short Ochre",
+      "japanese": "Short Ochre",
+      "koreana": "쇼트 오커",
+      "latam": "Ocre corto",
+      "norwegian": "Short Ochre",
+      "polish": "Krótka ochra",
+      "portuguese": "Short Ochre",
+      "romanian": "Short Ochre",
+      "russian": "Короткая охра",
+      "schinese": "赭石短调",
+      "schinese_pw": "Short Ochre",
+      "spanish": "Ocre corto",
+      "swedish": "Short Ochre",
+      "tchinese": "黃赭短式",
+      "thai": "Short Ochre",
+      "turkish": "Kısa Sarı",
+      "ukrainian": "Коротка охра",
+      "vietnamese": "Short Ochre"
+    },
+    "name": "Short Ochre",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.746575,
+      "min_float": 0.0
+    }
+  },
+  "id": "38-1327",
+  "localized_names": {
+    "brazilian": "SCAR-20 | Ocre Curta",
+    "bulgarian": "SCAR-20 | Къса охра",
+    "czech": "SCAR-20 | Short Ochre",
+    "danish": "SCAR-20 | Short Ochre",
+    "dutch": "SCAR-20 | Short Ochre",
+    "english": "SCAR-20 | Short Ochre",
+    "finnish": "SCAR-20 | Lyhyt okra",
+    "french": "SCAR-20 | Ocre court",
+    "german": "SCAR-20 | Kleines Ockerfarbenes",
+    "greek": "SCAR-20 | Short Ochre",
+    "hungarian": "SCAR-20 | Rövid Okker",
+    "indonesian": "SCAR-20 | Short Ochre",
+    "italian": "SCAR-20 | Short Ochre",
+    "japanese": "SCAR-20 | Short Ochre",
+    "koreana": "SCAR-20 | 쇼트 오커",
+    "latam": "SCAR-20 | Ocre corto",
+    "norwegian": "SCAR-20 | Short Ochre",
+    "polish": "SCAR-20 | Krótka ochra",
+    "portuguese": "SCAR-20 | Short Ochre",
+    "romanian": "SCAR-20 | Short Ochre",
+    "russian": "SCAR-20 | Короткая охра",
+    "schinese": "SCAR-20 | 赭石短调",
+    "schinese_pw": "SCAR-20 | Short Ochre",
+    "spanish": "SCAR-20 | Ocre corto",
+    "swedish": "SCAR-20 | Short Ochre",
+    "tchinese": "SCAR-20 | 黃赭短式",
+    "thai": "SCAR-20 | Short Ochre",
+    "turkish": "SCAR-20 | Kısa Sarı",
+    "ukrainian": "СКАР-20 | Коротка охра",
+    "vietnamese": "SCAR-20 | Short Ochre"
+  },
+  "media": {
+    "asset_id": "skin__38-1327",
+    "images_png": [
+      "data/api/media/rendered/files/skins/38-1327/light.png",
+      "data/api/media/rendered/files/skins/38-1327/medium.png",
+      "data/api/media/rendered/files/skins/38-1327/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/38-1327.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/38-1327/heavy.png",
+      "light": "data/api/media/rendered/files/skins/38-1327/light.png",
+      "medium": "data/api/media/rendered/files/skins/38-1327/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/38-1327/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_scar20_so_mustard_scar20_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_scar20_so_mustard_scar20_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_scar20_so_mustard_scar20_medium_png.vtex_c"
+    }
+  },
+  "name": "SCAR-20 | Short Ochre",
+  "search_slug": "scar-20-short-ochre",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "38-1327__normal__battle-scarred",
+    "38-1327__normal__factory-new",
+    "38-1327__normal__field-tested",
+    "38-1327__normal__minimal-wear",
+    "38-1327__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 38,
+    "localized_names": {
+      "brazilian": "SCAR-20",
+      "bulgarian": "SCAR-20",
+      "czech": "SCAR-20",
+      "danish": "SCAR-20",
+      "dutch": "SCAR-20",
+      "english": "SCAR-20",
+      "finnish": "SCAR-20",
+      "french": "SCAR-20",
+      "german": "SCAR-20",
+      "greek": "SCAR-20",
+      "hungarian": "SCAR-20",
+      "indonesian": "SCAR-20",
+      "italian": "SCAR-20",
+      "japanese": "SCAR-20",
+      "koreana": "SCAR-20",
+      "latam": "SCAR-20",
+      "norwegian": "SCAR-20",
+      "polish": "SCAR-20",
+      "portuguese": "SCAR-20",
+      "romanian": "SCAR-20",
+      "russian": "SCAR-20",
+      "schinese": "SCAR-20",
+      "schinese_pw": "SCAR-20",
+      "spanish": "SCAR-20",
+      "swedish": "SCAR-20",
+      "tchinese": "SCAR-20",
+      "thai": "SCAR-20",
+      "turkish": "SCAR-20",
+      "ukrainian": "СКАР-20",
+      "vietnamese": "SCAR-20"
+    },
+    "name": "SCAR-20",
+    "search_slug": "scar-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.746575,
+    "min_float": 0.0
+  }
+}

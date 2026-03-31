@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 670,
+    "id": 670,
+    "localized_names": {
+      "brazilian": "Borboleta-caveira",
+      "bulgarian": "Мъртвешка глава",
+      "czech": "Death's Head",
+      "danish": "Death's Head",
+      "dutch": "Death's Head",
+      "english": "Death's Head",
+      "finnish": "Pääkallokiitäjä",
+      "french": "Tête de mort",
+      "german": "Totenkopf",
+      "greek": "Death's Head",
+      "hungarian": "Halálfej",
+      "indonesian": "Death's Head",
+      "italian": "Death's Head",
+      "japanese": "Death's Head",
+      "koreana": "해골",
+      "latam": "Acherontia",
+      "norwegian": "Death's Head",
+      "polish": "Trupia główka",
+      "portuguese": "Death's Head",
+      "romanian": "Death's Head",
+      "russian": "Мёртвые головы",
+      "schinese": "鬼脸天蛾",
+      "schinese_pw": "Death's Head",
+      "spanish": "Acherontia",
+      "swedish": "Death's Head",
+      "tchinese": "鬼臉天蛾",
+      "thai": "Death's Head",
+      "turkish": "Kuru Kafa Kelebeği",
+      "ukrainian": "Голова смерті",
+      "vietnamese": "Death's Head"
+    },
+    "name": "Death's Head",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.51,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-670",
+  "localized_names": {
+    "brazilian": "SSG 08 | Borboleta-caveira",
+    "bulgarian": "SSG 08 | Мъртвешка глава",
+    "czech": "SSG 08 | Death's Head",
+    "danish": "SSG 08 | Death's Head",
+    "dutch": "SSG 08 | Death's Head",
+    "english": "SSG 08 | Death's Head",
+    "finnish": "SSG 08 | Pääkallokiitäjä",
+    "french": "SSG 08 | Tête de mort",
+    "german": "SSG 08 | Totenkopf",
+    "greek": "SSG 08 | Death's Head",
+    "hungarian": "SSG 08 | Halálfej",
+    "indonesian": "SSG 08 | Death's Head",
+    "italian": "SSG 08 | Death's Head",
+    "japanese": "SSG 08 | Death's Head",
+    "koreana": "SSG 08 | 해골",
+    "latam": "SSG 08 | Acherontia",
+    "norwegian": "SSG 08 | Death's Head",
+    "polish": "SSG 08 | Trupia główka",
+    "portuguese": "SSG 08 | Death's Head",
+    "romanian": "SSG 08 | Death's Head",
+    "russian": "SSG 08 | Мёртвые головы",
+    "schinese": "SSG 08 | 鬼脸天蛾",
+    "schinese_pw": "SSG 08 | Death's Head",
+    "spanish": "SSG 08 | Acherontia",
+    "swedish": "SSG 08 | Death's Head",
+    "tchinese": "SSG 08 | 鬼臉天蛾",
+    "thai": "SSG 08 | Death's Head",
+    "turkish": "SSG 08 | Kuru Kafa Kelebeği",
+    "ukrainian": "ССГ 08 | Голова смерті",
+    "vietnamese": "SSG 08 | Death's Head"
+  },
+  "media": {
+    "asset_id": "skin__40-670",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-670/light.png",
+      "data/api/media/rendered/files/skins/40-670/medium.png",
+      "data/api/media/rendered/files/skins/40-670/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-670.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-670/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-670/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-670/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-670/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_deathshead_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_deathshead_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_deathshead_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Death's Head",
+  "search_slug": "ssg-08-death-s-head",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4352",
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_17",
+        "name": "The Operation Hydra Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-670__normal__battle-scarred",
+    "40-670__normal__factory-new",
+    "40-670__normal__field-tested",
+    "40-670__normal__minimal-wear",
+    "40-670__normal__well-worn",
+    "40-670__stattrak__battle-scarred",
+    "40-670__stattrak__factory-new",
+    "40-670__stattrak__field-tested",
+    "40-670__stattrak__minimal-wear",
+    "40-670__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.51,
+    "min_float": 0.0
+  }
+}

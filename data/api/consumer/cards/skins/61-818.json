@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 818,
+    "id": 818,
+    "localized_names": {
+      "brazilian": "Camuflagem Digital — Roxo",
+      "bulgarian": "Лилава разпокъсана цифрова шарка",
+      "czech": "Purple DDPAT",
+      "danish": "Purple DDPAT",
+      "dutch": "Purple DDPAT",
+      "english": "Purple DDPAT",
+      "finnish": "Purppura DDPAT",
+      "french": "Pourpre numérique",
+      "german": "Violettes DDPAT",
+      "greek": "Purple DDPAT",
+      "hungarian": "Lila DDPAT",
+      "indonesian": "Purple DDPAT",
+      "italian": "Purple DDPAT",
+      "japanese": "Purple DDPAT",
+      "koreana": "보라색 디지털 위장 무늬",
+      "latam": "DDPAT púrpura",
+      "norwegian": "Purple DDPAT",
+      "polish": "Fioletowy DDPAT",
+      "portuguese": "Purple DDPAT",
+      "romanian": "Purple DDPAT",
+      "russian": "Пиксельный камуфляж «Фиолетовый»",
+      "schinese": "紫色 DDPAT",
+      "schinese_pw": "Purple DDPAT",
+      "spanish": "DDPAT púrpura",
+      "swedish": "Purple DDPAT",
+      "tchinese": "紫調數位迷彩",
+      "thai": "Purple DDPAT",
+      "turkish": "Mor DDPAT",
+      "ukrainian": "Пікс. камуфляж «Пурпуровий»",
+      "vietnamese": "Purple DDPAT"
+    },
+    "name": "Purple DDPAT",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-818",
+  "localized_names": {
+    "brazilian": "USP-S | Camuflagem Digital — Roxo",
+    "bulgarian": "USP-S | Лилава разпокъсана цифрова шарка",
+    "czech": "USP-S | Purple DDPAT",
+    "danish": "USP-S | Purple DDPAT",
+    "dutch": "USP-S | Purple DDPAT",
+    "english": "USP-S | Purple DDPAT",
+    "finnish": "USP-S | Purppura DDPAT",
+    "french": "USP-S | Pourpre numérique",
+    "german": "USP-S | Violettes DDPAT",
+    "greek": "USP-S | Purple DDPAT",
+    "hungarian": "USP-S | Lila DDPAT",
+    "indonesian": "USP-S | Purple DDPAT",
+    "italian": "USP-S | Purple DDPAT",
+    "japanese": "USP-S | Purple DDPAT",
+    "koreana": "USP-S | 보라색 디지털 위장 무늬",
+    "latam": "USP-S | DDPAT púrpura",
+    "norwegian": "USP-S | Purple DDPAT",
+    "polish": "USP-S | Fioletowy DDPAT",
+    "portuguese": "USP-S | Purple DDPAT",
+    "romanian": "USP-S | Purple DDPAT",
+    "russian": "USP-S | Пиксельный камуфляж «Фиолетовый»",
+    "schinese": "USP消音版 | 紫色 DDPAT",
+    "schinese_pw": "USP-S | Purple DDPAT",
+    "spanish": "USP-S | DDPAT púrpura",
+    "swedish": "USP-S | Purple DDPAT",
+    "tchinese": "USP-S | 紫調數位迷彩",
+    "thai": "USP-S | Purple DDPAT",
+    "turkish": "USP-S | Mor DDPAT",
+    "ukrainian": "УСП-С | Пікс. камуфляж «Пурпуровий»",
+    "vietnamese": "USP-S | Purple DDPAT"
+  },
+  "media": {
+    "asset_id": "skin__61-818",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-818/light.png",
+      "data/api/media/rendered/files/skins/61-818/medium.png",
+      "data/api/media/rendered/files/skins/61-818/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-818.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-818/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-818/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-818/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-818/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_am_ddpat_purple_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_am_ddpat_purple_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_am_ddpat_purple_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Purple DDPAT",
+  "search_slug": "usp-s-purple-ddpat",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "61-818__normal__battle-scarred",
+    "61-818__normal__factory-new",
+    "61-818__normal__field-tested",
+    "61-818__normal__minimal-wear",
+    "61-818__normal__well-worn",
+    "61-818__souvenir__battle-scarred",
+    "61-818__souvenir__factory-new",
+    "61-818__souvenir__field-tested",
+    "61-818__souvenir__minimal-wear",
+    "61-818__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

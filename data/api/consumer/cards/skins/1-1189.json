@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1189,
+    "id": 1189,
+    "localized_names": {
+      "brazilian": "Ataque da Serpente",
+      "bulgarian": "Змиевидно нападение",
+      "czech": "Serpent Strike",
+      "danish": "Serpent Strike",
+      "dutch": "Serpent Strike",
+      "english": "Serpent Strike",
+      "finnish": "Käärme luo nahkaansa",
+      "french": "Attaque du serpent",
+      "german": "Schlangenbiss",
+      "greek": "Serpent Strike",
+      "hungarian": "Kígyótámadás",
+      "indonesian": "Serpent Strike",
+      "italian": "Serpent Strike",
+      "japanese": "Serpent Strike",
+      "koreana": "뱀의 일격",
+      "latam": "Golpe serpentino",
+      "norwegian": "Serpent Strike",
+      "polish": "Atak węża",
+      "portuguese": "Serpent Strike",
+      "romanian": "Serpent Strike",
+      "russian": "Змеиный выпад",
+      "schinese": "巨蟒冲击",
+      "schinese_pw": "Serpent Strike",
+      "spanish": "Ataque ofidio",
+      "swedish": "Serpent Strike",
+      "tchinese": "蛇紋攻擊",
+      "thai": "Serpent Strike",
+      "turkish": "Yılan Saldırısı",
+      "ukrainian": "Зміїний удар",
+      "vietnamese": "Serpent Strike"
+    },
+    "name": "Serpent Strike",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.57,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-1189",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Ataque da Serpente",
+    "bulgarian": "Desert Eagle | Змиевидно нападение",
+    "czech": "Desert Eagle | Serpent Strike",
+    "danish": "Desert Eagle | Serpent Strike",
+    "dutch": "Desert Eagle | Serpent Strike",
+    "english": "Desert Eagle | Serpent Strike",
+    "finnish": "Desert Eagle | Käärme luo nahkaansa",
+    "french": "Desert Eagle | Attaque du serpent",
+    "german": "Desert Eagle | Schlangenbiss",
+    "greek": "Desert Eagle | Serpent Strike",
+    "hungarian": "Desert Eagle | Kígyótámadás",
+    "indonesian": "Desert Eagle | Serpent Strike",
+    "italian": "Desert Eagle | Serpent Strike",
+    "japanese": "Desert Eagle | Serpent Strike",
+    "koreana": "데저트 이글 | 뱀의 일격",
+    "latam": "Desert Eagle | Golpe serpentino",
+    "norwegian": "Desert Eagle | Serpent Strike",
+    "polish": "Desert Eagle | Atak węża",
+    "portuguese": "Desert Eagle | Serpent Strike",
+    "romanian": "Desert Eagle | Serpent Strike",
+    "russian": "Desert Eagle | Змеиный выпад",
+    "schinese": "沙漠之鹰 | 巨蟒冲击",
+    "schinese_pw": "Desert Eagle | Serpent Strike",
+    "spanish": "Desert Eagle | Ataque ofidio",
+    "swedish": "Desert Eagle | Serpent Strike",
+    "tchinese": "Desert Eagle | 蛇紋攻擊",
+    "thai": "Desert Eagle | Serpent Strike",
+    "turkish": "Desert Eagle | Yılan Saldırısı",
+    "ukrainian": "Пустельний орел | Зміїний удар",
+    "vietnamese": "Desert Eagle | Serpent Strike"
+  },
+  "media": {
+    "asset_id": "skin__1-1189",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-1189/light.png",
+      "data/api/media/rendered/files/skins/1-1189/medium.png",
+      "data/api/media/rendered/files/skins/1-1189/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-1189.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-1189/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-1189/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-1189/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-1189/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_deagle_snake_pattern_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_deagle_snake_pattern_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_deagle_snake_pattern_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Serpent Strike",
+  "search_slug": "desert-eagle-serpent-strike",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "7007",
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_35",
+        "name": "The Fever Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-1189__normal__battle-scarred",
+    "1-1189__normal__factory-new",
+    "1-1189__normal__field-tested",
+    "1-1189__normal__minimal-wear",
+    "1-1189__normal__well-worn",
+    "1-1189__stattrak__battle-scarred",
+    "1-1189__stattrak__factory-new",
+    "1-1189__stattrak__field-tested",
+    "1-1189__stattrak__minimal-wear",
+    "1-1189__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.57,
+    "min_float": 0.0
+  }
+}

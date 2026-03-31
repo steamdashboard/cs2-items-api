@@ -1,0 +1,306 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 370,
+    "id": 370,
+    "localized_names": {
+      "brazilian": "Máquina Ossificada",
+      "bulgarian": "Машина за кости",
+      "czech": "Bone Machine",
+      "danish": "Bone Machine",
+      "dutch": "Bone Machine",
+      "english": "Bone Machine",
+      "finnish": "Luunmurskaaja",
+      "french": "Broyeur d'os",
+      "german": "Knochenmaschine",
+      "greek": "Bone Machine",
+      "hungarian": "Csontdaráló",
+      "indonesian": "Bone Machine",
+      "italian": "Bone Machine",
+      "japanese": "Bone Machine",
+      "koreana": "뼈 분쇄기",
+      "latam": "Máquina ósea",
+      "norwegian": "Bone Machine",
+      "polish": "Kościana machina",
+      "portuguese": "Bone Machine",
+      "romanian": "Bone Machine",
+      "russian": "Костемолка",
+      "schinese": "碾骨机",
+      "schinese_pw": "Bone Machine",
+      "spanish": "Máquina ósea",
+      "swedish": "Bone Machine",
+      "tchinese": "骨頭機械",
+      "thai": "Bone Machine",
+      "turkish": "Kemik Makinesi",
+      "ukrainian": "Кістяник",
+      "vietnamese": "Bone Machine"
+    },
+    "name": "Bone Machine",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "25-370",
+  "localized_names": {
+    "brazilian": "XM1014 | Máquina Ossificada",
+    "bulgarian": "XM1014 | Машина за кости",
+    "czech": "XM1014 | Bone Machine",
+    "danish": "XM1014 | Bone Machine",
+    "dutch": "XM1014 | Bone Machine",
+    "english": "XM1014 | Bone Machine",
+    "finnish": "XM1014 | Luunmurskaaja",
+    "french": "XM1014 | Broyeur d'os",
+    "german": "XM1014 | Knochenmaschine",
+    "greek": "XM1014 | Bone Machine",
+    "hungarian": "XM1014 | Csontdaráló",
+    "indonesian": "XM1014 | Bone Machine",
+    "italian": "XM1014 | Bone Machine",
+    "japanese": "XM1014 | Bone Machine",
+    "koreana": "XM1014 | 뼈 분쇄기",
+    "latam": "XM1014 | Máquina ósea",
+    "norwegian": "XM1014 | Bone Machine",
+    "polish": "XM1014 | Kościana machina",
+    "portuguese": "XM1014 | Bone Machine",
+    "romanian": "XM1014 | Bone Machine",
+    "russian": "XM1014 | Костемолка",
+    "schinese": "XM1014 | 碾骨机",
+    "schinese_pw": "XM1014 | Bone Machine",
+    "spanish": "XM1014 | Máquina ósea",
+    "swedish": "XM1014 | Bone Machine",
+    "tchinese": "XM1014 | 骨頭機械",
+    "thai": "XM1014 | Bone Machine",
+    "turkish": "XM1014 | Kemik Makinesi",
+    "ukrainian": "М1014 | Кістяник",
+    "vietnamese": "XM1014 | Bone Machine"
+  },
+  "media": {
+    "asset_id": "skin__25-370",
+    "images_png": [
+      "data/api/media/rendered/files/skins/25-370/light.png",
+      "data/api/media/rendered/files/skins/25-370/medium.png",
+      "data/api/media/rendered/files/skins/25-370/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/25-370.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/25-370/heavy.png",
+      "light": "data/api/media/rendered/files/skins/25-370/light.png",
+      "medium": "data/api/media/rendered/files/skins/25-370/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/25-370/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_xm1014_am_nuclear_skulls1_xm1014_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_xm1014_am_nuclear_skulls1_xm1014_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_xm1014_am_nuclear_skulls1_xm1014_medium_png.vtex_c"
+    }
+  },
+  "name": "XM1014 | Bone Machine",
+  "search_slug": "xm1014-bone-machine",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cache",
+        "name": "The Cache Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4603",
+        "kind": "container",
+        "name": "The Cache Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4026",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4035",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4083",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4136",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4181",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4230",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4278",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4348",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4400",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4467",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4544",
+        "kind": "souvenir-package",
+        "name": "London 2018 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4594",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Cache Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "25-370__normal__battle-scarred",
+    "25-370__normal__factory-new",
+    "25-370__normal__field-tested",
+    "25-370__normal__minimal-wear",
+    "25-370__normal__well-worn",
+    "25-370__souvenir__battle-scarred",
+    "25-370__souvenir__factory-new",
+    "25-370__souvenir__field-tested",
+    "25-370__souvenir__minimal-wear",
+    "25-370__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 25,
+    "localized_names": {
+      "brazilian": "XM1014",
+      "bulgarian": "XM1014",
+      "czech": "XM1014",
+      "danish": "XM1014",
+      "dutch": "XM1014",
+      "english": "XM1014",
+      "finnish": "XM1014",
+      "french": "XM1014",
+      "german": "XM1014",
+      "greek": "XM1014",
+      "hungarian": "XM1014",
+      "indonesian": "XM1014",
+      "italian": "XM1014",
+      "japanese": "XM1014",
+      "koreana": "XM1014",
+      "latam": "XM1014",
+      "norwegian": "XM1014",
+      "polish": "XM1014",
+      "portuguese": "XM1014",
+      "romanian": "XM1014",
+      "russian": "XM1014",
+      "schinese": "XM1014",
+      "schinese_pw": "XM1014",
+      "spanish": "XM1014",
+      "swedish": "XM1014",
+      "tchinese": "XM1014",
+      "thai": "XM1014",
+      "turkish": "XM1014",
+      "ukrainian": "М1014",
+      "vietnamese": "XM1014"
+    },
+    "name": "XM1014",
+    "search_slug": "xm1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_siege_bravo",
+    "id": 183,
+    "name": "Overgrowth",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 183,
+    "weapon_id": 61
+  },
+  "id": "61-183",
+  "name": "USP-S | Overgrowth",
+  "search_slug": "usp-s-overgrowth",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "61-183__normal__vanilla",
+    "61-183__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_usp_silencer",
+    "id": 61,
+    "name": "USP-S",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

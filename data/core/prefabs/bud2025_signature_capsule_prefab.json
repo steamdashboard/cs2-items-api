@@ -1,0 +1,51 @@
+{
+  "id": "bud2025_signature_capsule_prefab",
+  "name": "bud2025_signature_capsule_prefab",
+  "prefab_chain": [
+    "weapon_case_base",
+    "bud2025_sticker_capsule_prefab",
+    "bud2025_signature_capsule_prefab"
+  ],
+  "resolved": {
+    "attributes": {
+      "tournament event id": {
+        "attribute_class": "tournament_event_id",
+        "value": "25"
+      }
+    },
+    "capabilities": {
+      "decodable": "1"
+    },
+    "drop_sound": "sounds/physics/plastic/plastic_box_impact_hard1.vsnd",
+    "first_sale_date": "2025-11-10",
+    "image_inventory": "econ/weapon_cases/weapon_case_generic",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "image_unusual_item": "econ/weapon_cases/default_rare_item",
+    "inv_container_and_tools": "sticker_capsule",
+    "item_class": "supply_crate",
+    "item_name": "#CSGO_WeaponCase_Standard",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type_name": "#CSGO_Type_WeaponCase",
+    "loot_list_rare_item_footer": "#Econ_Revolving_Loot_List_Rare_Item",
+    "loot_list_rare_item_name": "#Exceedingly_Rare_Item",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/physics/plastic/plastic_box_impact_soft1.vsnd",
+    "tags": {
+      "StickerCapsule": {
+        "tag_group": "StickerCapsule",
+        "tag_group_text": "#SFUI_InvTooltip_StickerCapsuleTag",
+        "tag_text": "#CSGO_crate_signature_pack_bud2025_group_players_tag",
+        "tag_value": "crate_signature_pack_bud2025_group_players_collection"
+      }
+    },
+    "tool": {
+      "type": "supply_crate",
+      "usage_capabilities": {
+        "usable_out_of_game": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1233,
+    "id": 1233,
+    "localized_names": {
+      "brazilian": "Neorrainha",
+      "bulgarian": "Нео кралица",
+      "czech": "Neoqueen",
+      "danish": "Neoqueen",
+      "dutch": "Neoqueen",
+      "english": "Neoqueen",
+      "finnish": "Neoqueen",
+      "french": "Néoreine",
+      "german": "Neokönigin",
+      "greek": "Neoqueen",
+      "hungarian": "Neo-királynő",
+      "indonesian": "Neoqueen",
+      "italian": "Neoqueen",
+      "japanese": "Neoqueen",
+      "koreana": "네오퀸",
+      "latam": "Neorreina",
+      "norwegian": "Neoqueen",
+      "polish": "Neokrólowa",
+      "portuguese": "Neoqueen",
+      "romanian": "Neoqueen",
+      "russian": "Неокоролева",
+      "schinese": "元女王",
+      "schinese_pw": "Neoqueen",
+      "spanish": "Neorreina",
+      "swedish": "Neoqueen",
+      "tchinese": "新女王",
+      "thai": "Neoqueen",
+      "turkish": "Yeni Kraliçe",
+      "ukrainian": "Неокоролева",
+      "vietnamese": "Neoqueen"
+    },
+    "name": "Neoqueen",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-1233",
+  "localized_names": {
+    "brazilian": "P90 | Neorrainha",
+    "bulgarian": "P90 | Нео кралица",
+    "czech": "P90 | Neoqueen",
+    "danish": "P90 | Neoqueen",
+    "dutch": "P90 | Neoqueen",
+    "english": "P90 | Neoqueen",
+    "finnish": "P90 | Neoqueen",
+    "french": "P90 | Néoreine",
+    "german": "P90 | Neokönigin",
+    "greek": "P90 | Neoqueen",
+    "hungarian": "P90 | Neo-királynő",
+    "indonesian": "P90 | Neoqueen",
+    "italian": "P90 | Neoqueen",
+    "japanese": "P90 | Neoqueen",
+    "koreana": "P90 | 네오퀸",
+    "latam": "P90 | Neorreina",
+    "norwegian": "P90 | Neoqueen",
+    "polish": "P90 | Neokrólowa",
+    "portuguese": "P90 | Neoqueen",
+    "romanian": "P90 | Neoqueen",
+    "russian": "P90 | Неокоролева",
+    "schinese": "P90 | 元女王",
+    "schinese_pw": "P90 | Neoqueen",
+    "spanish": "P90 | Neorreina",
+    "swedish": "P90 | Neoqueen",
+    "tchinese": "P90 | 新女王",
+    "thai": "P90 | Neoqueen",
+    "turkish": "P90 | Yeni Kraliçe",
+    "ukrainian": "П90 | Неокоролева",
+    "vietnamese": "P90 | Neoqueen"
+  },
+  "media": {
+    "asset_id": "skin__19-1233",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-1233/light.png",
+      "data/api/media/rendered/files/skins/19-1233/medium.png",
+      "data/api/media/rendered/files/skins/19-1233/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-1233.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-1233/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-1233/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-1233/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-1233/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_gs_p90_neoqueen_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_gs_p90_neoqueen_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_gs_p90_neoqueen_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Neoqueen",
+  "search_slug": "p90-neoqueen",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4880",
+        "kind": "weapon-case",
+        "name": "Revolution Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_32",
+        "name": "The Revolution Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-1233__normal__battle-scarred",
+    "19-1233__normal__factory-new",
+    "19-1233__normal__field-tested",
+    "19-1233__normal__minimal-wear",
+    "19-1233__normal__well-worn",
+    "19-1233__stattrak__battle-scarred",
+    "19-1233__stattrak__factory-new",
+    "19-1233__stattrak__field-tested",
+    "19-1233__stattrak__minimal-wear",
+    "19-1233__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

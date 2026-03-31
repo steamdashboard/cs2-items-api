@@ -1,0 +1,64 @@
+{
+  "card_type": "glove",
+  "description": "Preferred by hand-to-hand fighters, these wraps protect the knuckles and stabilize the wrist when punching.",
+  "id": 5032,
+  "localized_names": {
+    "brazilian": "Faixas",
+    "bulgarian": "Превръзки за ръце",
+    "czech": "Bandáže",
+    "danish": "Håndbind",
+    "dutch": "Bandages",
+    "english": "Hand Wraps",
+    "finnish": "Käsisiteet",
+    "french": "Bandages",
+    "german": "Handbandagen",
+    "greek": "Περιτυλίγματα χεριών",
+    "hungarian": "Kézkötések",
+    "indonesian": "Hand Wraps",
+    "italian": "Fasce per le mani",
+    "japanese": "Hand Wraps",
+    "koreana": "핸드랩",
+    "latam": "Vendas de cuero",
+    "norwegian": "Boksebandasje",
+    "polish": "Bandaże bokserskie",
+    "portuguese": "Faixas de Mão",
+    "romanian": "Feșe pentru mâini",
+    "russian": "Обмотки рук",
+    "schinese": "裹手",
+    "schinese_pw": "Hand Wraps",
+    "spanish": "Vendas de cuero",
+    "swedish": "Handlindor",
+    "tchinese": "手綁帶",
+    "thai": "ผ้าพันมือ",
+    "turkish": "El Sargıları",
+    "ukrainian": "Бинти на руки",
+    "vietnamese": "Bọc tay"
+  },
+  "media": {
+    "asset_id": "weapon__5032",
+    "images": [],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/5032/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/5032.json",
+    "models": [
+      "characters/models/shared/arms/glove_handwrap/v_glove_handwrap.vmdl_c",
+      "characters/models/shared/arms/glove_handwrap/w_glove_handwrap.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/5032/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/t_gloves_png.vtex_c"
+  },
+  "name": "Hand Wraps",
+  "regular_skin_ids": [],
+  "search_slug": "hand-wraps",
+  "side": null,
+  "special_pool_ids": [
+    "community_case_15_unusual",
+    "set_community_19_unusual",
+    "set_glove_3_unusual"
+  ],
+  "supports_vanilla": false,
+  "type_name": "Gloves",
+  "weapon_group": "glove"
+}

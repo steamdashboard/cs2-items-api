@@ -1,0 +1,176 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 40,
+    "id": 40,
+    "localized_names": {
+      "brazilian": "Noite",
+      "bulgarian": "Нощно",
+      "czech": "Night",
+      "danish": "Night",
+      "dutch": "Night",
+      "english": "Night",
+      "finnish": "Yö",
+      "french": "Nuit",
+      "german": "Nacht",
+      "greek": "Night",
+      "hungarian": "Éjszaka",
+      "indonesian": "Night",
+      "italian": "Night",
+      "japanese": "Night",
+      "koreana": "밤",
+      "latam": "Nocturno",
+      "norwegian": "Night",
+      "polish": "Noc",
+      "portuguese": "Night",
+      "romanian": "Night",
+      "russian": "Ночь",
+      "schinese": "噩梦之夜",
+      "schinese_pw": "Night",
+      "spanish": "Noche cerrada",
+      "swedish": "Night",
+      "tchinese": "惡夢之夜",
+      "thai": "Night",
+      "turkish": "Gece",
+      "ukrainian": "Ніч",
+      "vietnamese": "Night"
+    },
+    "name": "Night",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "1-40",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Noite",
+    "bulgarian": "Desert Eagle | Нощно",
+    "czech": "Desert Eagle | Night",
+    "danish": "Desert Eagle | Night",
+    "dutch": "Desert Eagle | Night",
+    "english": "Desert Eagle | Night",
+    "finnish": "Desert Eagle | Yö",
+    "french": "Desert Eagle | Nuit",
+    "german": "Desert Eagle | Nacht",
+    "greek": "Desert Eagle | Night",
+    "hungarian": "Desert Eagle | Éjszaka",
+    "indonesian": "Desert Eagle | Night",
+    "italian": "Desert Eagle | Night",
+    "japanese": "Desert Eagle | Night",
+    "koreana": "데저트 이글 | 밤",
+    "latam": "Desert Eagle | Nocturno",
+    "norwegian": "Desert Eagle | Night",
+    "polish": "Desert Eagle | Noc",
+    "portuguese": "Desert Eagle | Night",
+    "romanian": "Desert Eagle | Night",
+    "russian": "Desert Eagle | Ночь",
+    "schinese": "沙漠之鹰 | 噩梦之夜",
+    "schinese_pw": "Desert Eagle | Night",
+    "spanish": "Desert Eagle | Noche cerrada",
+    "swedish": "Desert Eagle | Night",
+    "tchinese": "Desert Eagle | 惡夢之夜",
+    "thai": "Desert Eagle | Night",
+    "turkish": "Desert Eagle | Gece",
+    "ukrainian": "Пустельний орел | Ніч",
+    "vietnamese": "Desert Eagle | Night"
+  },
+  "media": {
+    "asset_id": "skin__1-40",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-40/light.png",
+      "data/api/media/rendered/files/skins/1-40/medium.png",
+      "data/api/media/rendered/files/skins/1-40/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-40.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-40/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-40/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-40/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-40/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_so_night_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_so_night_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_so_night_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Night",
+  "search_slug": "desert-eagle-night",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-40__normal__vanilla"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

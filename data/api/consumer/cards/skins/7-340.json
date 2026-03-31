@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 340,
+    "id": 340,
+    "localized_names": {
+      "brazilian": "Viajante",
+      "bulgarian": "Туристически стикери",
+      "czech": "Jet Set",
+      "danish": "Jet Set",
+      "dutch": "Jet Set",
+      "english": "Jet Set",
+      "finnish": "Maailmanmatkaaja",
+      "french": "Jet set",
+      "german": "Jetset",
+      "greek": "Jet Set",
+      "hungarian": "Világutazó",
+      "indonesian": "Jet Set",
+      "italian": "Jet Set",
+      "japanese": "Jet Set",
+      "koreana": "제트족",
+      "latam": "Jet set",
+      "norwegian": "Jet Set",
+      "polish": "Turysta",
+      "portuguese": "Jet Set",
+      "romanian": "Jet Set",
+      "russian": "Путешественник",
+      "schinese": "酷炫涂鸦皮革",
+      "schinese_pw": "Jet Set",
+      "spanish": "Jet set",
+      "swedish": "Jet Set",
+      "tchinese": "炫富旅人",
+      "thai": "Jet Set",
+      "turkish": "Zengin Sınıfı",
+      "ukrainian": "Турист",
+      "vietnamese": "Jet Set"
+    },
+    "name": "Jet Set",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-340",
+  "localized_names": {
+    "brazilian": "AK-47 | Viajante",
+    "bulgarian": "AK-47 | Туристически стикери",
+    "czech": "AK-47 | Jet Set",
+    "danish": "AK-47 | Jet Set",
+    "dutch": "AK-47 | Jet Set",
+    "english": "AK-47 | Jet Set",
+    "finnish": "AK-47 | Maailmanmatkaaja",
+    "french": "AK-47 | Jet set",
+    "german": "AK-47 | Jetset",
+    "greek": "AK-47 | Jet Set",
+    "hungarian": "AK-47 | Világutazó",
+    "indonesian": "AK-47 | Jet Set",
+    "italian": "AK-47 | Jet Set",
+    "japanese": "AK-47 | Jet Set",
+    "koreana": "AK-47 | 제트족",
+    "latam": "AK-47 | Jet set",
+    "norwegian": "AK-47 | Jet Set",
+    "polish": "AK-47 | Turysta",
+    "portuguese": "AK-47 | Jet Set",
+    "romanian": "AK-47 | Jet Set",
+    "russian": "AK-47 | Путешественник",
+    "schinese": "AK-47 | 酷炫涂鸦皮革",
+    "schinese_pw": "AK-47 | Jet Set",
+    "spanish": "AK-47 | Jet set",
+    "swedish": "AK-47 | Jet Set",
+    "tchinese": "AK-47 | 炫富旅人",
+    "thai": "AK-47 | Jet Set",
+    "turkish": "AK-47 | Zengin Sınıfı",
+    "ukrainian": "АК-47 | Турист",
+    "vietnamese": "AK-47 | Jet Set"
+  },
+  "media": {
+    "asset_id": "skin__7-340",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-340/light.png",
+      "data/api/media/rendered/files/skins/7-340/medium.png",
+      "data/api/media/rendered/files/skins/7-340/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-340.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-340/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-340/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-340/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-340/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_cu_well_traveled_ak47_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_cu_well_traveled_ak47_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_cu_well_traveled_ak47_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Jet Set",
+  "search_slug": "ak-47-jet-set",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_baggage",
+        "name": "The Baggage Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-340__normal__battle-scarred",
+    "7-340__normal__factory-new",
+    "7-340__normal__field-tested",
+    "7-340__normal__minimal-wear",
+    "7-340__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

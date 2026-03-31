@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 822,
+    "id": 822,
+    "localized_names": {
+      "brazilian": "Brilho Marinho",
+      "bulgarian": "Тъмносин гланц",
+      "czech": "Navy Sheen",
+      "danish": "Navy Sheen",
+      "dutch": "Navy Sheen",
+      "english": "Navy Sheen",
+      "finnish": "Sininen hohde",
+      "french": "Éclat marin",
+      "german": "Marineglanz",
+      "greek": "Navy Sheen",
+      "hungarian": "Tengerfény",
+      "indonesian": "Navy Sheen",
+      "italian": "Navy Sheen",
+      "japanese": "Navy Sheen",
+      "koreana": "청색 위장 무늬",
+      "latam": "Brillo azul marino",
+      "norwegian": "Navy Sheen",
+      "polish": "Morski połysk",
+      "portuguese": "Navy Sheen",
+      "romanian": "Navy Sheen",
+      "russian": "Флотский блеск",
+      "schinese": "海军之辉",
+      "schinese_pw": "Navy Sheen",
+      "spanish": "Brillo azul marino",
+      "swedish": "Navy Sheen",
+      "tchinese": "海軍之輝",
+      "thai": "Navy Sheen",
+      "turkish": "Parlak Lacivert",
+      "ukrainian": "Морська сталь",
+      "vietnamese": "Navy Sheen"
+    },
+    "name": "Navy Sheen",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-822",
+  "localized_names": {
+    "brazilian": "MAG-7 | Brilho Marinho",
+    "bulgarian": "MAG-7 | Тъмносин гланц",
+    "czech": "MAG-7 | Navy Sheen",
+    "danish": "MAG-7 | Navy Sheen",
+    "dutch": "MAG-7 | Navy Sheen",
+    "english": "MAG-7 | Navy Sheen",
+    "finnish": "MAG-7 | Sininen hohde",
+    "french": "MAG-7 | Éclat marin",
+    "german": "MAG-7 | Marineglanz",
+    "greek": "MAG-7 | Navy Sheen",
+    "hungarian": "MAG-7 | Tengerfény",
+    "indonesian": "MAG-7 | Navy Sheen",
+    "italian": "MAG-7 | Navy Sheen",
+    "japanese": "MAG-7 | Navy Sheen",
+    "koreana": "MAG-7 | 청색 위장 무늬",
+    "latam": "MAG-7 | Brillo azul marino",
+    "norwegian": "MAG-7 | Navy Sheen",
+    "polish": "MAG-7 | Morski połysk",
+    "portuguese": "MAG-7 | Navy Sheen",
+    "romanian": "MAG-7 | Navy Sheen",
+    "russian": "MAG-7 | Флотский блеск",
+    "schinese": "MAG-7 | 海军之辉",
+    "schinese_pw": "MAG-7 | Navy Sheen",
+    "spanish": "MAG-7 | Brillo azul marino",
+    "swedish": "MAG-7 | Navy Sheen",
+    "tchinese": "MAG-7 | 海軍之輝",
+    "thai": "MAG-7 | Navy Sheen",
+    "turkish": "MAG-7 | Parlak Lacivert",
+    "ukrainian": "МАГ-7 | Морська сталь",
+    "vietnamese": "MAG-7 | Navy Sheen"
+  },
+  "media": {
+    "asset_id": "skin__27-822",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-822/light.png",
+      "data/api/media/rendered/files/skins/27-822/medium.png",
+      "data/api/media/rendered/files/skins/27-822/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-822.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-822/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-822/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-822/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-822/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_am_navy_shine_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_am_navy_shine_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_am_navy_shine_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Navy Sheen",
+  "search_slug": "mag-7-navy-sheen",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "27-822__normal__battle-scarred",
+    "27-822__normal__factory-new",
+    "27-822__normal__field-tested",
+    "27-822__normal__minimal-wear",
+    "27-822__normal__well-worn",
+    "27-822__souvenir__battle-scarred",
+    "27-822__souvenir__factory-new",
+    "27-822__souvenir__field-tested",
+    "27-822__souvenir__minimal-wear",
+    "27-822__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "classification": {
+    "group": "collectible",
+    "kind": "collectible"
+  },
+  "game_id": 5244,
+  "id": 5244,
+  "name": "premier season coin s=4 c=2 b=5",
+  "prefab_chain": [
+    "collectible",
+    "collectible_untradable",
+    "prestige_coin",
+    "premier_season_coin"
+  ],
+  "prefab_spec": "premier_season_coin",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "pedestal display model": "models/inventory_items/premier_seasons/premier_season_4_coin_eg.vmdl",
+      "premier season": "4",
+      "premier season bars": "5",
+      "premier season bars max": "5",
+      "premier season clrs": "2",
+      "premier season clrs max": "7"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/premier_seasons/premier_season_4_coin_25",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "inventory_image_section": "premier_season_coin",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_Collectible_PremierSeason4Coin_Desc",
+    "item_name": "#CSGO_Collectible_PremierSeason4Coin",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type": "premier_season_coin",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "name": "premier season coin s=4 c=2 b=5",
+    "prefab": "premier_season_coin",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

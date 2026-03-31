@@ -1,0 +1,274 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 294,
+    "id": 294,
+    "localized_names": {
+      "brazilian": "Maçã Verde",
+      "bulgarian": "Зелена ябълка",
+      "czech": "Green Apple",
+      "danish": "Green Apple",
+      "dutch": "Green Apple",
+      "english": "Green Apple",
+      "finnish": "Vihreä omena",
+      "french": "Pomme verte",
+      "german": "Grüner Apfel",
+      "greek": "Green Apple",
+      "hungarian": "Zöld Alma",
+      "indonesian": "Green Apple",
+      "italian": "Green Apple",
+      "japanese": "Green Apple",
+      "koreana": "청사과",
+      "latam": "Manzana verde",
+      "norwegian": "Green Apple",
+      "polish": "Zielone jabłuszko",
+      "portuguese": "Green Apple",
+      "romanian": "Green Apple",
+      "russian": "Зеленое яблоко",
+      "schinese": "绿苹果",
+      "schinese_pw": "Green Apple",
+      "spanish": "Manzana verde",
+      "swedish": "Green Apple",
+      "tchinese": "青蘋果",
+      "thai": "Green Apple",
+      "turkish": "Yeşil Elma",
+      "ukrainian": "Зелене яблуко",
+      "vietnamese": "Green Apple"
+    },
+    "name": "Green Apple",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-294",
+  "localized_names": {
+    "brazilian": "Nova | Maçã Verde",
+    "bulgarian": "Nova | Зелена ябълка",
+    "czech": "Nova | Green Apple",
+    "danish": "Nova | Green Apple",
+    "dutch": "Nova | Green Apple",
+    "english": "Nova | Green Apple",
+    "finnish": "Nova | Vihreä omena",
+    "french": "Nova | Pomme verte",
+    "german": "Nova | Grüner Apfel",
+    "greek": "Nova | Green Apple",
+    "hungarian": "Nova | Zöld Alma",
+    "indonesian": "Nova | Green Apple",
+    "italian": "Nova | Green Apple",
+    "japanese": "Nova | Green Apple",
+    "koreana": "노바 | 청사과",
+    "latam": "Nova | Manzana verde",
+    "norwegian": "Nova | Green Apple",
+    "polish": "Nova | Zielone jabłuszko",
+    "portuguese": "Nova | Green Apple",
+    "romanian": "Nova | Green Apple",
+    "russian": "Nova | Зеленое яблоко",
+    "schinese": "新星 | 绿苹果",
+    "schinese_pw": "Nova | Green Apple",
+    "spanish": "Nova | Manzana verde",
+    "swedish": "Nova | Green Apple",
+    "tchinese": "Nova | 青蘋果",
+    "thai": "Nova | Green Apple",
+    "turkish": "Nova | Yeşil Elma",
+    "ukrainian": "Нова | Зелене яблуко",
+    "vietnamese": "Nova | Green Apple"
+  },
+  "media": {
+    "asset_id": "skin__35-294",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-294/light.png",
+      "data/api/media/rendered/files/skins/35-294/medium.png",
+      "data/api/media/rendered/files/skins/35-294/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-294.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-294/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-294/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-294/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-294/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_so_green_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_so_green_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_so_green_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Green Apple",
+  "search_slug": "nova-green-apple",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cobblestone",
+        "name": "The Cobblestone Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4602",
+        "kind": "container",
+        "name": "The Cobblestone Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4027",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4036",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4084",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4134",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4179",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4228",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4276",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4346",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4398",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4465",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cobblestone Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "35-294__normal__factory-new",
+    "35-294__normal__field-tested",
+    "35-294__normal__minimal-wear",
+    "35-294__souvenir__factory-new",
+    "35-294__souvenir__field-tested",
+    "35-294__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

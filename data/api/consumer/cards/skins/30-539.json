@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 539,
+    "id": 539,
+    "localized_names": {
+      "brazilian": "Jambiya",
+      "bulgarian": "Джамбия",
+      "czech": "Jambiya",
+      "danish": "Jambiya",
+      "dutch": "Jambiya",
+      "english": "Jambiya",
+      "finnish": "Jambiya",
+      "french": "Jambiya",
+      "german": "Jambiya",
+      "greek": "Jambiya",
+      "hungarian": "Jambiya",
+      "indonesian": "Jambiya",
+      "italian": "Jambiya",
+      "japanese": "Jambiya",
+      "koreana": "잠비야",
+      "latam": "Jambiya",
+      "norwegian": "Jambiya",
+      "polish": "Dżambia",
+      "portuguese": "Jambiya",
+      "romanian": "Jambiya",
+      "russian": "Джамбия",
+      "schinese": "贾姆比亚",
+      "schinese_pw": "Jambiya",
+      "spanish": "Jambiya",
+      "swedish": "Jambiya",
+      "tchinese": "贊比亞",
+      "thai": "Jambiya",
+      "turkish": "Jambiya",
+      "ukrainian": "Джамбія",
+      "vietnamese": "Jambiya"
+    },
+    "name": "Jambiya",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-539",
+  "localized_names": {
+    "brazilian": "Tec-9 | Jambiya",
+    "bulgarian": "Tec-9 | Джамбия",
+    "czech": "Tec-9 | Jambiya",
+    "danish": "Tec-9 | Jambiya",
+    "dutch": "Tec-9 | Jambiya",
+    "english": "Tec-9 | Jambiya",
+    "finnish": "Tec-9 | Jambiya",
+    "french": "Tec-9 | Jambiya",
+    "german": "Tec-9 | Jambiya",
+    "greek": "Tec-9 | Jambiya",
+    "hungarian": "Tec-9 | Jambiya",
+    "indonesian": "Tec-9 | Jambiya",
+    "italian": "Tec-9 | Jambiya",
+    "japanese": "Tec-9 | Jambiya",
+    "koreana": "Tec-9 | 잠비야",
+    "latam": "Tec-9 | Jambiya",
+    "norwegian": "Tec-9 | Jambiya",
+    "polish": "Tec-9 | Dżambia",
+    "portuguese": "Tec-9 | Jambiya",
+    "romanian": "Tec-9 | Jambiya",
+    "russian": "Tec-9 | Джамбия",
+    "schinese": "Tec-9 | 贾姆比亚",
+    "schinese_pw": "Tec-9 | Jambiya",
+    "spanish": "Tec-9 | Jambiya",
+    "swedish": "Tec-9 | Jambiya",
+    "tchinese": "Tec-9 | 贊比亞",
+    "thai": "Tec-9 | Jambiya",
+    "turkish": "Tec-9 | Jambiya",
+    "ukrainian": "ТЕК-9 | Джамбія",
+    "vietnamese": "Tec-9 | Jambiya"
+  },
+  "media": {
+    "asset_id": "skin__30-539",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-539/light.png",
+      "data/api/media/rendered/files/skins/30-539/medium.png",
+      "data/api/media/rendered/files/skins/30-539/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-539.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-539/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-539/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-539/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-539/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_gs_tec9_jambiya_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_gs_tec9_jambiya_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_gs_tec9_jambiya_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Jambiya",
+  "search_slug": "tec-9-jambiya",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4187",
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_11",
+        "name": "The Wildfire Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-539__normal__battle-scarred",
+    "30-539__normal__factory-new",
+    "30-539__normal__field-tested",
+    "30-539__normal__minimal-wear",
+    "30-539__normal__well-worn",
+    "30-539__stattrak__battle-scarred",
+    "30-539__stattrak__factory-new",
+    "30-539__stattrak__field-tested",
+    "30-539__stattrak__minimal-wear",
+    "30-539__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

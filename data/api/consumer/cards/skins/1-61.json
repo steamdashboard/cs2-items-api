@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 61,
+    "id": 61,
+    "localized_names": {
+      "brazilian": "Hipnótico",
+      "bulgarian": "Хипнотично",
+      "czech": "Hypnotic",
+      "danish": "Hypnotic",
+      "dutch": "Hypnotic",
+      "english": "Hypnotic",
+      "finnish": "Hypnoottinen",
+      "french": "Hypnotique",
+      "german": "Hypnotisch",
+      "greek": "Hypnotic",
+      "hungarian": "Hipnotikus",
+      "indonesian": "Hypnotic",
+      "italian": "Hypnotic",
+      "japanese": "Hypnotic",
+      "koreana": "최면",
+      "latam": "Hipnótico",
+      "norwegian": "Hypnotic",
+      "polish": "Hipnoza",
+      "portuguese": "Hypnotic",
+      "romanian": "Hypnotic",
+      "russian": "Гипноз",
+      "schinese": "蛊惑之色",
+      "schinese_pw": "Hypnotic",
+      "spanish": "Hipnótico",
+      "swedish": "Hypnotic",
+      "tchinese": "催眠曲",
+      "thai": "Hypnotic",
+      "turkish": "Hipnotik",
+      "ukrainian": "Гіпноз",
+      "vietnamese": "Hypnotic"
+    },
+    "name": "Hypnotic",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-61",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Hipnótico",
+    "bulgarian": "Desert Eagle | Хипнотично",
+    "czech": "Desert Eagle | Hypnotic",
+    "danish": "Desert Eagle | Hypnotic",
+    "dutch": "Desert Eagle | Hypnotic",
+    "english": "Desert Eagle | Hypnotic",
+    "finnish": "Desert Eagle | Hypnoottinen",
+    "french": "Desert Eagle | Hypnotique",
+    "german": "Desert Eagle | Hypnotisch",
+    "greek": "Desert Eagle | Hypnotic",
+    "hungarian": "Desert Eagle | Hipnotikus",
+    "indonesian": "Desert Eagle | Hypnotic",
+    "italian": "Desert Eagle | Hypnotic",
+    "japanese": "Desert Eagle | Hypnotic",
+    "koreana": "데저트 이글 | 최면",
+    "latam": "Desert Eagle | Hipnótico",
+    "norwegian": "Desert Eagle | Hypnotic",
+    "polish": "Desert Eagle | Hipnoza",
+    "portuguese": "Desert Eagle | Hypnotic",
+    "romanian": "Desert Eagle | Hypnotic",
+    "russian": "Desert Eagle | Гипноз",
+    "schinese": "沙漠之鹰 | 蛊惑之色",
+    "schinese_pw": "Desert Eagle | Hypnotic",
+    "spanish": "Desert Eagle | Hipnótico",
+    "swedish": "Desert Eagle | Hypnotic",
+    "tchinese": "Desert Eagle | 催眠曲",
+    "thai": "Desert Eagle | Hypnotic",
+    "turkish": "Desert Eagle | Hipnotik",
+    "ukrainian": "Пустельний орел | Гіпноз",
+    "vietnamese": "Desert Eagle | Hypnotic"
+  },
+  "media": {
+    "asset_id": "skin__1-61",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-61/light.png",
+      "data/api/media/rendered/files/skins/1-61/medium.png",
+      "data/api/media/rendered/files/skins/1-61/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-61.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-61/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-61/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-61/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-61/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_aa_vertigo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_aa_vertigo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_aa_vertigo_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Hypnotic",
+  "search_slug": "desert-eagle-hypnotic",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-61__normal__factory-new",
+    "1-61__normal__minimal-wear",
+    "1-61__stattrak__factory-new",
+    "1-61__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

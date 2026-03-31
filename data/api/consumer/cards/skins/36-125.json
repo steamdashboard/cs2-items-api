@@ -1,0 +1,202 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 125,
+    "id": 125,
+    "localized_names": {
+      "brazilian": "Raio-X",
+      "bulgarian": "Рентген",
+      "czech": "X-Ray",
+      "danish": "X-Ray",
+      "dutch": "X-Ray",
+      "english": "X-Ray",
+      "finnish": "Röntgen",
+      "french": "Rayons X",
+      "german": "Röntgen",
+      "greek": "X-Ray",
+      "hungarian": "Röntgen",
+      "indonesian": "X-Ray",
+      "italian": "X-Ray",
+      "japanese": "X-Ray",
+      "koreana": "X-Ray",
+      "latam": "Rayos X",
+      "norwegian": "X-Ray",
+      "polish": "Rentgen",
+      "portuguese": "X-Ray",
+      "romanian": "X-Ray",
+      "russian": "Рентген",
+      "schinese": "X 射线",
+      "schinese_pw": "X-Ray",
+      "spanish": "Rayos X",
+      "swedish": "X-Ray",
+      "tchinese": "X 射線",
+      "thai": "X-Ray",
+      "turkish": "X Işını",
+      "ukrainian": "Рентген",
+      "vietnamese": "X-Ray"
+    },
+    "name": "X-Ray",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-125",
+  "localized_names": {
+    "brazilian": "P250 | Raio-X",
+    "bulgarian": "P250 | Рентген",
+    "czech": "P250 | X-Ray",
+    "danish": "P250 | X-Ray",
+    "dutch": "P250 | X-Ray",
+    "english": "P250 | X-Ray",
+    "finnish": "P250 | Röntgen",
+    "french": "P250 | Rayons X",
+    "german": "P250 | Röntgen",
+    "greek": "P250 | X-Ray",
+    "hungarian": "P250 | Röntgen",
+    "indonesian": "P250 | X-Ray",
+    "italian": "P250 | X-Ray",
+    "japanese": "P250 | X-Ray",
+    "koreana": "P250 | X-Ray",
+    "latam": "P250 | Rayos X",
+    "norwegian": "P250 | X-Ray",
+    "polish": "P250 | Rentgen",
+    "portuguese": "P250 | X-Ray",
+    "romanian": "P250 | X-Ray",
+    "russian": "P250 | Рентген",
+    "schinese": "P250 | X 射线",
+    "schinese_pw": "P250 | X-Ray",
+    "spanish": "P250 | Rayos X",
+    "swedish": "P250 | X-Ray",
+    "tchinese": "P250 | X 射線",
+    "thai": "P250 | X-Ray",
+    "turkish": "P250 | X Işını",
+    "ukrainian": "П250 | Рентген",
+    "vietnamese": "P250 | X-Ray"
+  },
+  "media": {
+    "asset_id": "skin__36-125",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-125/light.png",
+      "data/api/media/rendered/files/skins/36-125/medium.png",
+      "data/api/media/rendered/files/skins/36-125/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-125.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-125/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-125/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-125/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-125/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_cu_xray_p250_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_cu_xray_p250_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_cu_xray_p250_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | X-Ray",
+  "search_slug": "p250-x-ray",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_xraymachine",
+        "name": "The X-Ray Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [
+          "item_set_fallback"
+        ],
+        "id": "4668",
+        "kind": "container",
+        "name": "X-Ray P250 Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-125__normal__factory-new",
+    "36-125__normal__field-tested",
+    "36-125__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

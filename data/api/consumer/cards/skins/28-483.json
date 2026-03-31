@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 483,
+    "id": 483,
+    "localized_names": {
+      "brazilian": "Linguarudo",
+      "bulgarian": "Гръмогласен",
+      "czech": "Loudmouth",
+      "danish": "Loudmouth",
+      "dutch": "Loudmouth",
+      "english": "Loudmouth",
+      "finnish": "Suurisuu",
+      "french": "Grande gueule",
+      "german": "Maulheld",
+      "greek": "Loudmouth",
+      "hungarian": "Hangoskodó",
+      "indonesian": "Loudmouth",
+      "italian": "Loudmouth",
+      "japanese": "Loudmouth",
+      "koreana": "떠버리",
+      "latam": "Bocazas",
+      "norwegian": "Loudmouth",
+      "polish": "Chwalipięta",
+      "portuguese": "Loudmouth",
+      "romanian": "Loudmouth",
+      "russian": "Крикун",
+      "schinese": "大嘴巴",
+      "schinese_pw": "Loudmouth",
+      "spanish": "Bocazas",
+      "swedish": "Loudmouth",
+      "tchinese": "大聲公",
+      "thai": "Loudmouth",
+      "turkish": "Gürültücü",
+      "ukrainian": "Крикун",
+      "vietnamese": "Loudmouth"
+    },
+    "name": "Loudmouth",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.14
+    }
+  },
+  "id": "28-483",
+  "localized_names": {
+    "brazilian": "Negev | Linguarudo",
+    "bulgarian": "Negev | Гръмогласен",
+    "czech": "Negev | Loudmouth",
+    "danish": "Negev | Loudmouth",
+    "dutch": "Negev | Loudmouth",
+    "english": "Negev | Loudmouth",
+    "finnish": "Negev | Suurisuu",
+    "french": "Negev | Grande gueule",
+    "german": "Negev | Maulheld",
+    "greek": "Negev | Loudmouth",
+    "hungarian": "Negev | Hangoskodó",
+    "indonesian": "Negev | Loudmouth",
+    "italian": "Negev | Loudmouth",
+    "japanese": "Negev | Loudmouth",
+    "koreana": "네게브 | 떠버리",
+    "latam": "Negev | Bocazas",
+    "norwegian": "Negev | Loudmouth",
+    "polish": "Negev | Chwalipięta",
+    "portuguese": "Negev | Loudmouth",
+    "romanian": "Negev | Loudmouth",
+    "russian": "Негев | Крикун",
+    "schinese": "内格夫 | 大嘴巴",
+    "schinese_pw": "Negev | Loudmouth",
+    "spanish": "Negev | Bocazas",
+    "swedish": "Negev | Loudmouth",
+    "tchinese": "Negev | 大聲公",
+    "thai": "Negev | Loudmouth",
+    "turkish": "Negev | Gürültücü",
+    "ukrainian": "Неґев | Крикун",
+    "vietnamese": "Negev | Loudmouth"
+  },
+  "media": {
+    "asset_id": "skin__28-483",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-483/light.png",
+      "data/api/media/rendered/files/skins/28-483/medium.png",
+      "data/api/media/rendered/files/skins/28-483/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-483.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-483/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-483/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-483/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-483/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_cu_negev_annihilator_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_cu_negev_annihilator_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_cu_negev_annihilator_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Loudmouth",
+  "search_slug": "negev-loudmouth",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4091",
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_8",
+        "name": "The Falchion Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-483__normal__battle-scarred",
+    "28-483__normal__field-tested",
+    "28-483__normal__minimal-wear",
+    "28-483__normal__well-worn",
+    "28-483__stattrak__battle-scarred",
+    "28-483__stattrak__field-tested",
+    "28-483__stattrak__minimal-wear",
+    "28-483__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.14
+  }
+}

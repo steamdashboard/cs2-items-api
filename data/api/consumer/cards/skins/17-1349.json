@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1349,
+    "id": 1349,
+    "localized_names": {
+      "brazilian": "Gatirador",
+      "bulgarian": "Котешко сражение",
+      "czech": "Cat Fight",
+      "danish": "Cat Fight",
+      "dutch": "Cat Fight",
+      "english": "Cat Fight",
+      "finnish": "Kissatappelu",
+      "french": "Chatmailleur",
+      "german": "Katzenkampf",
+      "greek": "Cat Fight",
+      "hungarian": "Cicaharc",
+      "indonesian": "Cat Fight",
+      "italian": "Cat Fight",
+      "japanese": "Cat Fight",
+      "koreana": "고양이 싸움",
+      "latam": "Pelea de gatos",
+      "norwegian": "Cat Fight",
+      "polish": "Krewki kot",
+      "portuguese": "Cat Fight",
+      "romanian": "Cat Fight",
+      "russian": "Кошачий бой",
+      "schinese": "纸老虎",
+      "schinese_pw": "Cat Fight",
+      "spanish": "Pelea gatuna",
+      "swedish": "Cat Fight",
+      "tchinese": "小貓發威",
+      "thai": "Cat Fight",
+      "turkish": "Kavgacı Kedi",
+      "ukrainian": "Котячий бій",
+      "vietnamese": "Cat Fight"
+    },
+    "name": "Cat Fight",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-1349",
+  "localized_names": {
+    "brazilian": "MAC-10 | Gatirador",
+    "bulgarian": "MAC-10 | Котешко сражение",
+    "czech": "MAC-10 | Cat Fight",
+    "danish": "MAC-10 | Cat Fight",
+    "dutch": "MAC-10 | Cat Fight",
+    "english": "MAC-10 | Cat Fight",
+    "finnish": "MAC-10 | Kissatappelu",
+    "french": "MAC-10 | Chatmailleur",
+    "german": "MAC-10 | Katzenkampf",
+    "greek": "MAC-10 | Cat Fight",
+    "hungarian": "MAC-10 | Cicaharc",
+    "indonesian": "MAC-10 | Cat Fight",
+    "italian": "MAC-10 | Cat Fight",
+    "japanese": "MAC-10 | Cat Fight",
+    "koreana": "MAC-10 | 고양이 싸움",
+    "latam": "MAC-10 | Pelea de gatos",
+    "norwegian": "MAC-10 | Cat Fight",
+    "polish": "MAC-10 | Krewki kot",
+    "portuguese": "MAC-10 | Cat Fight",
+    "romanian": "MAC-10 | Cat Fight",
+    "russian": "MAC-10 | Кошачий бой",
+    "schinese": "MAC-10 | 纸老虎",
+    "schinese_pw": "MAC-10 | Cat Fight",
+    "spanish": "MAC-10 | Pelea gatuna",
+    "swedish": "MAC-10 | Cat Fight",
+    "tchinese": "MAC-10 | 小貓發威",
+    "thai": "MAC-10 | Cat Fight",
+    "turkish": "MAC-10 | Kavgacı Kedi",
+    "ukrainian": "МАК-10 | Котячий бій",
+    "vietnamese": "MAC-10 | Cat Fight"
+  },
+  "media": {
+    "asset_id": "skin__17-1349",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-1349/light.png",
+      "data/api/media/rendered/files/skins/17-1349/medium.png",
+      "data/api/media/rendered/files/skins/17-1349/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-1349.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-1349/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-1349/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-1349/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-1349/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_mac10_kamicatze_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_mac10_kamicatze_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_mac10_kamicatze_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Cat Fight",
+  "search_slug": "mac-10-cat-fight",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_community_36",
+        "name": "The Genesis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5176",
+        "kind": "container",
+        "name": "Sealed Genesis Terminal",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-1349__normal__battle-scarred",
+    "17-1349__normal__factory-new",
+    "17-1349__normal__field-tested",
+    "17-1349__normal__minimal-wear",
+    "17-1349__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

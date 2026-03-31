@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1152,
+    "id": 1152,
+    "localized_names": {
+      "brazilian": "Me Solta",
+      "bulgarian": "Строполи ме",
+      "czech": "Drop Me",
+      "danish": "Drop Me",
+      "dutch": "Drop Me",
+      "english": "Drop Me",
+      "finnish": "Pudota Minut",
+      "french": "Lâche-moi",
+      "german": "Lass-mich-fallen",
+      "greek": "Drop Me",
+      "hungarian": "Szedj Le",
+      "indonesian": "Drop Me",
+      "italian": "Drop Me",
+      "japanese": "Drop Me",
+      "koreana": "드롭",
+      "latam": "Lánzame",
+      "norwegian": "Drop Me",
+      "polish": "Zostaw mnie",
+      "portuguese": "Drop Me",
+      "romanian": "Drop Me",
+      "russian": "Отвали",
+      "schinese": "丢把枪",
+      "schinese_pw": "Drop Me",
+      "spanish": "Déjame",
+      "swedish": "Drop Me",
+      "tchinese": "放馬過來",
+      "thai": "Drop Me",
+      "turkish": "Beni At",
+      "ukrainian": "Відчепись",
+      "vietnamese": "Drop Me"
+    },
+    "name": "Drop Me",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-1152",
+  "localized_names": {
+    "brazilian": "Negev | Me Solta",
+    "bulgarian": "Negev | Строполи ме",
+    "czech": "Negev | Drop Me",
+    "danish": "Negev | Drop Me",
+    "dutch": "Negev | Drop Me",
+    "english": "Negev | Drop Me",
+    "finnish": "Negev | Pudota Minut",
+    "french": "Negev | Lâche-moi",
+    "german": "Negev | Lass-mich-fallen",
+    "greek": "Negev | Drop Me",
+    "hungarian": "Negev | Szedj Le",
+    "indonesian": "Negev | Drop Me",
+    "italian": "Negev | Drop Me",
+    "japanese": "Negev | Drop Me",
+    "koreana": "네게브 | 드롭",
+    "latam": "Negev | Lánzame",
+    "norwegian": "Negev | Drop Me",
+    "polish": "Negev | Zostaw mnie",
+    "portuguese": "Negev | Drop Me",
+    "romanian": "Negev | Drop Me",
+    "russian": "Негев | Отвали",
+    "schinese": "内格夫 | 丢把枪",
+    "schinese_pw": "Negev | Drop Me",
+    "spanish": "Negev | Déjame",
+    "swedish": "Negev | Drop Me",
+    "tchinese": "Negev | 放馬過來",
+    "thai": "Negev | Drop Me",
+    "turkish": "Negev | Beni At",
+    "ukrainian": "Неґев | Відчепись",
+    "vietnamese": "Negev | Drop Me"
+  },
+  "media": {
+    "asset_id": "skin__28-1152",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-1152/light.png",
+      "data/api/media/rendered/files/skins/28-1152/medium.png",
+      "data/api/media/rendered/files/skins/28-1152/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-1152.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-1152/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-1152/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-1152/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-1152/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_cu_negev_clear_sky_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_cu_negev_clear_sky_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_cu_negev_clear_sky_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Drop Me",
+  "search_slug": "negev-drop-me",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4846",
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_31",
+        "name": "The Recoil Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-1152__normal__battle-scarred",
+    "28-1152__normal__factory-new",
+    "28-1152__normal__field-tested",
+    "28-1152__normal__minimal-wear",
+    "28-1152__normal__well-worn",
+    "28-1152__stattrak__battle-scarred",
+    "28-1152__stattrak__factory-new",
+    "28-1152__stattrak__field-tested",
+    "28-1152__stattrak__minimal-wear",
+    "28-1152__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sawedoff_fusion",
+    "id": 1427,
+    "name": "Fusion",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 1427,
+    "weapon_id": 29
+  },
+  "id": "29-1427",
+  "name": "Sawed-Off | Fusion",
+  "search_slug": "sawed-off-fusion",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_37",
+        "name": "The Dead Hand Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5181",
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "29-1427__normal__factory-new",
+    "29-1427__normal__minimal-wear",
+    "29-1427__normal__field-tested",
+    "29-1427__normal__well-worn",
+    "29-1427__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_sawedoff",
+    "id": 29,
+    "name": "Sawed-Off",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

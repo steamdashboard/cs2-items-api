@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 403,
+    "id": 403,
+    "localized_names": {
+      "brazilian": "Veneno Mortal",
+      "bulgarian": "Смъртоносна отрова",
+      "czech": "Deadly Poison",
+      "danish": "Deadly Poison",
+      "dutch": "Deadly Poison",
+      "english": "Deadly Poison",
+      "finnish": "Tappava myrkky",
+      "french": "Poison mortel",
+      "german": "Tödliches Gift",
+      "greek": "Deadly Poison",
+      "hungarian": "Halálos Méreg",
+      "indonesian": "Deadly Poison",
+      "italian": "Deadly Poison",
+      "japanese": "Deadly Poison",
+      "koreana": "극약",
+      "latam": "Veneno mortal",
+      "norwegian": "Deadly Poison",
+      "polish": "Śmiertelna trucizna",
+      "portuguese": "Deadly Poison",
+      "romanian": "Deadly Poison",
+      "russian": "Смертельный яд",
+      "schinese": "致命毒药",
+      "schinese_pw": "Deadly Poison",
+      "spanish": "Veneno mortal",
+      "swedish": "Deadly Poison",
+      "tchinese": "致命毒藥",
+      "thai": "Deadly Poison",
+      "turkish": "Ölümcül Zehir",
+      "ukrainian": "Смертельна отрута",
+      "vietnamese": "Deadly Poison"
+    },
+    "name": "Deadly Poison",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-403",
+  "localized_names": {
+    "brazilian": "MP9 | Veneno Mortal",
+    "bulgarian": "MP9 | Смъртоносна отрова",
+    "czech": "MP9 | Deadly Poison",
+    "danish": "MP9 | Deadly Poison",
+    "dutch": "MP9 | Deadly Poison",
+    "english": "MP9 | Deadly Poison",
+    "finnish": "MP9 | Tappava myrkky",
+    "french": "MP9 | Poison mortel",
+    "german": "MP9 | Tödliches Gift",
+    "greek": "MP9 | Deadly Poison",
+    "hungarian": "MP9 | Halálos Méreg",
+    "indonesian": "MP9 | Deadly Poison",
+    "italian": "MP9 | Deadly Poison",
+    "japanese": "MP9 | Deadly Poison",
+    "koreana": "MP9 | 극약",
+    "latam": "MP9 | Veneno mortal",
+    "norwegian": "MP9 | Deadly Poison",
+    "polish": "MP9 | Śmiertelna trucizna",
+    "portuguese": "MP9 | Deadly Poison",
+    "romanian": "MP9 | Deadly Poison",
+    "russian": "MP9 | Смертельный яд",
+    "schinese": "MP9 | 致命毒药",
+    "schinese_pw": "MP9 | Deadly Poison",
+    "spanish": "MP9 | Veneno mortal",
+    "swedish": "MP9 | Deadly Poison",
+    "tchinese": "MP9 | 致命毒藥",
+    "thai": "MP9 | Deadly Poison",
+    "turkish": "MP9 | Ölümcül Zehir",
+    "ukrainian": "МП9 | Смертельна отрута",
+    "vietnamese": "MP9 | Deadly Poison"
+  },
+  "media": {
+    "asset_id": "skin__34-403",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-403/light.png",
+      "data/api/media/rendered/files/skins/34-403/medium.png",
+      "data/api/media/rendered/files/skins/34-403/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-403.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-403/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-403/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-403/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-403/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_deadly_poison_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_deadly_poison_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_deadly_poison_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Deadly Poison",
+  "search_slug": "mp9-deadly-poison",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-403__normal__battle-scarred",
+    "34-403__normal__factory-new",
+    "34-403__normal__field-tested",
+    "34-403__normal__minimal-wear",
+    "34-403__normal__well-worn",
+    "34-403__stattrak__battle-scarred",
+    "34-403__stattrak__factory-new",
+    "34-403__stattrak__field-tested",
+    "34-403__stattrak__minimal-wear",
+    "34-403__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

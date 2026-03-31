@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "m4a4_snakebite",
+    "id": 1165,
+    "name": "Etch Lord",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 1165,
+    "weapon_id": 16
+  },
+  "id": "16-1165",
+  "name": "M4A4 | Etch Lord",
+  "search_slug": "m4a4-etch-lord",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_33",
+        "name": "The Kilowatt Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4904",
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "16-1165__normal__factory-new",
+    "16-1165__normal__minimal-wear",
+    "16-1165__normal__field-tested",
+    "16-1165__normal__well-worn",
+    "16-1165__normal__battle-scarred",
+    "16-1165__stattrak__factory-new",
+    "16-1165__stattrak__minimal-wear",
+    "16-1165__stattrak__field-tested",
+    "16-1165__stattrak__well-worn",
+    "16-1165__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_m4a1",
+    "id": 16,
+    "name": "M4A4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

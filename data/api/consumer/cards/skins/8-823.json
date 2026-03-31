@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 823,
+    "id": 823,
+    "localized_names": {
+      "brazilian": "Tempestade de Areia",
+      "bulgarian": "Пясъчна буря",
+      "czech": "Sand Storm",
+      "danish": "Sand Storm",
+      "dutch": "Sand Storm",
+      "english": "Sand Storm",
+      "finnish": "Hiekkamyrsky",
+      "french": "Tempête de sable",
+      "german": "Sandsturm",
+      "greek": "Sand Storm",
+      "hungarian": "Homokvihar",
+      "indonesian": "Sand Storm",
+      "italian": "Sand Storm",
+      "japanese": "Sand Storm",
+      "koreana": "모래 폭풍",
+      "latam": "Tormenta de arena",
+      "norwegian": "Sand Storm",
+      "polish": "Burza piaskowa",
+      "portuguese": "Sand Storm",
+      "romanian": "Sand Storm",
+      "russian": "Песчаная буря",
+      "schinese": "夜空沙暴",
+      "schinese_pw": "Sand Storm",
+      "spanish": "Tormenta de arena",
+      "swedish": "Sand Storm",
+      "tchinese": "沙塵暴",
+      "thai": "Sand Storm",
+      "turkish": "Kum Fırtınası",
+      "ukrainian": "Піщана буря",
+      "vietnamese": "Sand Storm"
+    },
+    "name": "Sand Storm",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-823",
+  "localized_names": {
+    "brazilian": "AUG | Tempestade de Areia",
+    "bulgarian": "AUG | Пясъчна буря",
+    "czech": "AUG | Sand Storm",
+    "danish": "AUG | Sand Storm",
+    "dutch": "AUG | Sand Storm",
+    "english": "AUG | Sand Storm",
+    "finnish": "AUG | Hiekkamyrsky",
+    "french": "AUG | Tempête de sable",
+    "german": "AUG | Sandsturm",
+    "greek": "AUG | Sand Storm",
+    "hungarian": "AUG | Homokvihar",
+    "indonesian": "AUG | Sand Storm",
+    "italian": "AUG | Sand Storm",
+    "japanese": "AUG | Sand Storm",
+    "koreana": "AUG | 모래 폭풍",
+    "latam": "AUG | Tormenta de arena",
+    "norwegian": "AUG | Sand Storm",
+    "polish": "AUG | Burza piaskowa",
+    "portuguese": "AUG | Sand Storm",
+    "romanian": "AUG | Sand Storm",
+    "russian": "AUG | Песчаная буря",
+    "schinese": "AUG | 夜空沙暴",
+    "schinese_pw": "AUG | Sand Storm",
+    "spanish": "AUG | Tormenta de arena",
+    "swedish": "AUG | Sand Storm",
+    "tchinese": "AUG | 沙塵暴",
+    "thai": "AUG | Sand Storm",
+    "turkish": "AUG | Kum Fırtınası",
+    "ukrainian": "АУГ | Піщана буря",
+    "vietnamese": "AUG | Sand Storm"
+  },
+  "media": {
+    "asset_id": "skin__8-823",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-823/light.png",
+      "data/api/media/rendered/files/skins/8-823/medium.png",
+      "data/api/media/rendered/files/skins/8-823/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-823.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-823/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-823/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-823/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-823/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_gs_aug_sand_storm_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_gs_aug_sand_storm_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_gs_aug_sand_storm_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Sand Storm",
+  "search_slug": "aug-sand-storm",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "8-823__normal__battle-scarred",
+    "8-823__normal__factory-new",
+    "8-823__normal__field-tested",
+    "8-823__normal__minimal-wear",
+    "8-823__normal__well-worn",
+    "8-823__souvenir__battle-scarred",
+    "8-823__souvenir__factory-new",
+    "8-823__souvenir__field-tested",
+    "8-823__souvenir__minimal-wear",
+    "8-823__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

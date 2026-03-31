@@ -1,0 +1,291 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 247,
+    "id": 247,
+    "localized_names": {
+      "brazilian": "Aço de Damasco",
+      "bulgarian": "Дамаска стомана",
+      "czech": "Damascus Steel",
+      "danish": "Damascus Steel",
+      "dutch": "Damascus Steel",
+      "english": "Damascus Steel",
+      "finnish": "Damaskiteräs",
+      "french": "Acier de Damas",
+      "german": "Damaszener Stahl",
+      "greek": "Damascus Steel",
+      "hungarian": "Damaszkuszi Acél",
+      "indonesian": "Damascus Steel",
+      "italian": "Damascus Steel",
+      "japanese": "Damascus Steel",
+      "koreana": "다마스크 강철",
+      "latam": "Acero de damasco",
+      "norwegian": "Damascus Steel",
+      "polish": "Stal damasceńska",
+      "portuguese": "Damascus Steel",
+      "romanian": "Damascus Steel",
+      "russian": "Дамасская сталь",
+      "schinese": "大马士革钢",
+      "schinese_pw": "Damascus Steel",
+      "spanish": "Acero de damasco",
+      "swedish": "Damascus Steel",
+      "tchinese": "大馬士革鋼",
+      "thai": "Damascus Steel",
+      "turkish": "Şam Çeliği",
+      "ukrainian": "Дамаська сталь",
+      "vietnamese": "Damascus Steel"
+    },
+    "name": "Damascus Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "39-247",
+  "localized_names": {
+    "brazilian": "SG 553 | Aço de Damasco",
+    "bulgarian": "SG 553 | Дамаска стомана",
+    "czech": "SG 553 | Damascus Steel",
+    "danish": "SG 553 | Damascus Steel",
+    "dutch": "SG 553 | Damascus Steel",
+    "english": "SG 553 | Damascus Steel",
+    "finnish": "SG 553 | Damaskiteräs",
+    "french": "SG 553 | Acier de Damas",
+    "german": "SG 553 | Damaszener Stahl",
+    "greek": "SG 553 | Damascus Steel",
+    "hungarian": "SG 553 | Damaszkuszi Acél",
+    "indonesian": "SG 553 | Damascus Steel",
+    "italian": "SG 553 | Damascus Steel",
+    "japanese": "SG 553 | Damascus Steel",
+    "koreana": "SG 553 | 다마스크 강철",
+    "latam": "SG 553 | Acero de damasco",
+    "norwegian": "SG 553 | Damascus Steel",
+    "polish": "SG 553 | Stal damasceńska",
+    "portuguese": "SG 553 | Damascus Steel",
+    "romanian": "SG 553 | Damascus Steel",
+    "russian": "SG 553 | Дамасская сталь",
+    "schinese": "SG 553 | 大马士革钢",
+    "schinese_pw": "SG 553 | Damascus Steel",
+    "spanish": "SG 553 | Acero de damasco",
+    "swedish": "SG 553 | Damascus Steel",
+    "tchinese": "SG 553 | 大馬士革鋼",
+    "thai": "SG 553 | Damascus Steel",
+    "turkish": "SG 553 | Şam Çeliği",
+    "ukrainian": "СГ 553 | Дамаська сталь",
+    "vietnamese": "SG 553 | Damascus Steel"
+  },
+  "media": {
+    "asset_id": "skin__39-247",
+    "images_png": [
+      "data/api/media/rendered/files/skins/39-247/light.png",
+      "data/api/media/rendered/files/skins/39-247/medium.png",
+      "data/api/media/rendered/files/skins/39-247/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/39-247.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/39-247/heavy.png",
+      "light": "data/api/media/rendered/files/skins/39-247/light.png",
+      "medium": "data/api/media/rendered/files/skins/39-247/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/39-247/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_medium_png.vtex_c"
+    }
+  },
+  "name": "SG 553 | Damascus Steel",
+  "search_slug": "sg-553-damascus-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2",
+        "name": "The Dust 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4022",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4031",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4079",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4131",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4176",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4225",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4274",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4344",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4542",
+        "kind": "souvenir-package",
+        "name": "London 2018 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4592",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4662",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Dust II Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "39-247__normal__battle-scarred",
+    "39-247__normal__factory-new",
+    "39-247__normal__field-tested",
+    "39-247__normal__minimal-wear",
+    "39-247__normal__well-worn",
+    "39-247__souvenir__battle-scarred",
+    "39-247__souvenir__factory-new",
+    "39-247__souvenir__field-tested",
+    "39-247__souvenir__minimal-wear",
+    "39-247__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 39,
+    "localized_names": {
+      "brazilian": "SG 553",
+      "bulgarian": "SG 553",
+      "czech": "SG 553",
+      "danish": "SG 553",
+      "dutch": "SG 553",
+      "english": "SG 553",
+      "finnish": "SG 553",
+      "french": "SG 553",
+      "german": "SG 553",
+      "greek": "SG 553",
+      "hungarian": "SG 553",
+      "indonesian": "SG 553",
+      "italian": "SG 553",
+      "japanese": "SG 553",
+      "koreana": "SG 553",
+      "latam": "SG 553",
+      "norwegian": "SG 553",
+      "polish": "SG 553",
+      "portuguese": "SG 553",
+      "romanian": "SG 553",
+      "russian": "SG 553",
+      "schinese": "SG 553",
+      "schinese_pw": "SG 553",
+      "spanish": "SG 553",
+      "swedish": "SG 553",
+      "tchinese": "SG 553",
+      "thai": "SG 553",
+      "turkish": "SG 553",
+      "ukrainian": "СГ 553",
+      "vietnamese": "SG 553"
+    },
+    "name": "SG 553",
+    "search_slug": "sg-553",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

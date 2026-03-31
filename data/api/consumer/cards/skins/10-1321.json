@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1321,
+    "id": 1321,
+    "localized_names": {
+      "brazilian": "Fantasma Cinza",
+      "bulgarian": "Сив призрак",
+      "czech": "Grey Ghost",
+      "danish": "Grey Ghost",
+      "dutch": "Grey Ghost",
+      "english": "Grey Ghost",
+      "finnish": "Harmaa haamu",
+      "french": "Fantôme gris",
+      "german": "Grauer Geist",
+      "greek": "Grey Ghost",
+      "hungarian": "Szürke Szellem",
+      "indonesian": "Grey Ghost",
+      "italian": "Grey Ghost",
+      "japanese": "Grey Ghost",
+      "koreana": "회색 유령",
+      "latam": "Gris fantasmal",
+      "norwegian": "Grey Ghost",
+      "polish": "Szary duch",
+      "portuguese": "Grey Ghost",
+      "romanian": "Grey Ghost",
+      "russian": "Серый призрак",
+      "schinese": "灰色幽灵",
+      "schinese_pw": "Grey Ghost",
+      "spanish": "Fantasma gris",
+      "swedish": "Grey Ghost",
+      "tchinese": "灰色幽靈",
+      "thai": "Grey Ghost",
+      "turkish": "Gri Hayalet",
+      "ukrainian": "Сірий привид",
+      "vietnamese": "Grey Ghost"
+    },
+    "name": "Grey Ghost",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.637288,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-1321",
+  "localized_names": {
+    "brazilian": "FAMAS | Fantasma Cinza",
+    "bulgarian": "FAMAS | Сив призрак",
+    "czech": "FAMAS | Grey Ghost",
+    "danish": "FAMAS | Grey Ghost",
+    "dutch": "FAMAS | Grey Ghost",
+    "english": "FAMAS | Grey Ghost",
+    "finnish": "FAMAS | Harmaa haamu",
+    "french": "FAMAS | Fantôme gris",
+    "german": "FAMAS | Grauer Geist",
+    "greek": "FAMAS | Grey Ghost",
+    "hungarian": "FAMAS | Szürke Szellem",
+    "indonesian": "FAMAS | Grey Ghost",
+    "italian": "FAMAS | Grey Ghost",
+    "japanese": "FAMAS | Grey Ghost",
+    "koreana": "파마스 | 회색 유령",
+    "latam": "FAMAS | Gris fantasmal",
+    "norwegian": "FAMAS | Grey Ghost",
+    "polish": "FAMAS | Szary duch",
+    "portuguese": "FAMAS | Grey Ghost",
+    "romanian": "FAMAS | Grey Ghost",
+    "russian": "FAMAS | Серый призрак",
+    "schinese": "法玛斯 | 灰色幽灵",
+    "schinese_pw": "FAMAS | Grey Ghost",
+    "spanish": "FAMAS | Fantasma gris",
+    "swedish": "FAMAS | Grey Ghost",
+    "tchinese": "FAMAS | 灰色幽靈",
+    "thai": "FAMAS | Grey Ghost",
+    "turkish": "FAMAS | Gri Hayalet",
+    "ukrainian": "ФАМАС | Сірий привид",
+    "vietnamese": "FAMAS | Grey Ghost"
+  },
+  "media": {
+    "asset_id": "skin__10-1321",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-1321/light.png",
+      "data/api/media/rendered/files/skins/10-1321/medium.png",
+      "data/api/media/rendered/files/skins/10-1321/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-1321.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-1321/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-1321/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-1321/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-1321/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_soo_famas_grey_ghost_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_soo_famas_grey_ghost_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_soo_famas_grey_ghost_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Grey Ghost",
+  "search_slug": "famas-grey-ghost",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "10-1321__normal__battle-scarred",
+    "10-1321__normal__factory-new",
+    "10-1321__normal__field-tested",
+    "10-1321__normal__minimal-wear",
+    "10-1321__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.637288,
+    "min_float": 0.0
+  }
+}

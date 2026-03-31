@@ -1,0 +1,291 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 235,
+    "id": 235,
+    "localized_names": {
+      "brazilian": "VariCamo",
+      "bulgarian": "Променлив камуфлаж",
+      "czech": "VariCamo",
+      "danish": "VariCamo",
+      "dutch": "VariCamo",
+      "english": "VariCamo",
+      "finnish": "VariCamo",
+      "french": "VariCamo",
+      "german": "VariCamo",
+      "greek": "VariCamo",
+      "hungarian": "VariCamo",
+      "indonesian": "VariCamo",
+      "italian": "VariCamo",
+      "japanese": "VariCamo",
+      "koreana": "얼룩 위장",
+      "latam": "Camuflaje variado",
+      "norwegian": "VariCamo",
+      "polish": "VariCamo",
+      "portuguese": "VariCamo",
+      "romanian": "VariCamo",
+      "russian": "Смешанный камуфляж",
+      "schinese": "多变迷彩",
+      "schinese_pw": "VariCamo",
+      "spanish": "Camuflaje variado",
+      "swedish": "VariCamo",
+      "tchinese": "多重迷彩",
+      "thai": "VariCamo",
+      "turkish": "Vari Kamuflaj",
+      "ukrainian": "Змішаний камуфляж",
+      "vietnamese": "VariCamo"
+    },
+    "name": "VariCamo",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-235",
+  "localized_names": {
+    "brazilian": "M4A1-S | VariCamo",
+    "bulgarian": "M4A1-S | Променлив камуфлаж",
+    "czech": "M4A1-S | VariCamo",
+    "danish": "M4A1-S | VariCamo",
+    "dutch": "M4A1-S | VariCamo",
+    "english": "M4A1-S | VariCamo",
+    "finnish": "M4A1-S | VariCamo",
+    "french": "M4A1-S | VariCamo",
+    "german": "M4A1-S | VariCamo",
+    "greek": "M4A1-S | VariCamo",
+    "hungarian": "M4A1-S | VariCamo",
+    "indonesian": "M4A1-S | VariCamo",
+    "italian": "M4A1-S | VariCamo",
+    "japanese": "M4A1-S | VariCamo",
+    "koreana": "M4A1-S | 얼룩 위장",
+    "latam": "M4A1-S | Camuflaje variado",
+    "norwegian": "M4A1-S | VariCamo",
+    "polish": "M4A1-S | VariCamo",
+    "portuguese": "M4A1-S | VariCamo",
+    "romanian": "M4A1-S | VariCamo",
+    "russian": "M4A1-S | Смешанный камуфляж",
+    "schinese": "M4A1消音版 | 多变迷彩",
+    "schinese_pw": "M4A1-S | VariCamo",
+    "spanish": "M4A1-S | Camuflaje variado",
+    "swedish": "M4A1-S | VariCamo",
+    "tchinese": "M4A1-S | 多重迷彩",
+    "thai": "M4A1-S | VariCamo",
+    "turkish": "M4A1-S | Vari Kamuflaj",
+    "ukrainian": "М4А1-С | Змішаний камуфляж",
+    "vietnamese": "M4A1-S | VariCamo"
+  },
+  "media": {
+    "asset_id": "skin__60-235",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-235/light.png",
+      "data/api/media/rendered/files/skins/60-235/medium.png",
+      "data/api/media/rendered/files/skins/60-235/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-235.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-235/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-235/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-235/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-235/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | VariCamo",
+  "search_slug": "m4a1-s-varicamo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2",
+        "name": "The Dust 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4022",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4031",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4079",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4131",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4176",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4225",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4274",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4344",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4542",
+        "kind": "souvenir-package",
+        "name": "London 2018 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4592",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4662",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Dust II Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "60-235__normal__battle-scarred",
+    "60-235__normal__factory-new",
+    "60-235__normal__field-tested",
+    "60-235__normal__minimal-wear",
+    "60-235__normal__well-worn",
+    "60-235__souvenir__battle-scarred",
+    "60-235__souvenir__factory-new",
+    "60-235__souvenir__field-tested",
+    "60-235__souvenir__minimal-wear",
+    "60-235__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

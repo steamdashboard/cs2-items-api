@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1089,
+    "id": 1089,
+    "localized_names": {
+      "brazilian": "Espectro Bi83",
+      "bulgarian": "Bi83 спектър",
+      "czech": "BI83 Spectrum",
+      "danish": "BI83 Spectrum",
+      "dutch": "BI83 Spectrum",
+      "english": "BI83 Spectrum",
+      "finnish": "Bi83-spektrumi",
+      "french": "Spectre Bi83",
+      "german": "BI83-Spektrum",
+      "greek": "BI83 Spectrum",
+      "hungarian": "BI83 Színkép",
+      "indonesian": "BI83 Spectrum",
+      "italian": "BI83 Spectrum",
+      "japanese": "BI83 Spectrum",
+      "koreana": "BI83 스펙트럼",
+      "latam": "BI83 Spectrum",
+      "norwegian": "BI83 Spectrum",
+      "polish": "BI83 Spectrum",
+      "portuguese": "BI83 Spectrum",
+      "romanian": "BI83 Spectrum",
+      "russian": "Висмутовый спектр",
+      "schinese": "铋晶体",
+      "schinese_pw": "BI83 Spectrum",
+      "spanish": "Espectro Bi83",
+      "swedish": "BI83 Spectrum",
+      "tchinese": "BI83 虹彩光輝",
+      "thai": "BI83 Spectrum",
+      "turkish": "BI83 Spektrumu",
+      "ukrainian": "Спектральний вісмут 83",
+      "vietnamese": "BI83 Spectrum"
+    },
+    "name": "BI83 Spectrum",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-1089",
+  "localized_names": {
+    "brazilian": "MAG-7 | Espectro Bi83",
+    "bulgarian": "MAG-7 | Bi83 спектър",
+    "czech": "MAG-7 | BI83 Spectrum",
+    "danish": "MAG-7 | BI83 Spectrum",
+    "dutch": "MAG-7 | BI83 Spectrum",
+    "english": "MAG-7 | BI83 Spectrum",
+    "finnish": "MAG-7 | Bi83-spektrumi",
+    "french": "MAG-7 | Spectre Bi83",
+    "german": "MAG-7 | BI83-Spektrum",
+    "greek": "MAG-7 | BI83 Spectrum",
+    "hungarian": "MAG-7 | BI83 Színkép",
+    "indonesian": "MAG-7 | BI83 Spectrum",
+    "italian": "MAG-7 | BI83 Spectrum",
+    "japanese": "MAG-7 | BI83 Spectrum",
+    "koreana": "MAG-7 | BI83 스펙트럼",
+    "latam": "MAG-7 | BI83 Spectrum",
+    "norwegian": "MAG-7 | BI83 Spectrum",
+    "polish": "MAG-7 | BI83 Spectrum",
+    "portuguese": "MAG-7 | BI83 Spectrum",
+    "romanian": "MAG-7 | BI83 Spectrum",
+    "russian": "MAG-7 | Висмутовый спектр",
+    "schinese": "MAG-7 | 铋晶体",
+    "schinese_pw": "MAG-7 | BI83 Spectrum",
+    "spanish": "MAG-7 | Espectro Bi83",
+    "swedish": "MAG-7 | BI83 Spectrum",
+    "tchinese": "MAG-7 | BI83 虹彩光輝",
+    "thai": "MAG-7 | BI83 Spectrum",
+    "turkish": "MAG-7 | BI83 Spektrumu",
+    "ukrainian": "МАГ-7 | Спектральний вісмут 83",
+    "vietnamese": "MAG-7 | BI83 Spectrum"
+  },
+  "media": {
+    "asset_id": "skin__27-1089",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-1089/light.png",
+      "data/api/media/rendered/files/skins/27-1089/medium.png",
+      "data/api/media/rendered/files/skins/27-1089/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-1089.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-1089/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-1089/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-1089/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-1089/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_gs_mag7_bismuth_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_gs_mag7_bismuth_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_gs_mag7_bismuth_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | BI83 Spectrum",
+  "search_slug": "mag-7-bi83-spectrum",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4790",
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_29",
+        "name": "The Operation Riptide Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "27-1089__normal__battle-scarred",
+    "27-1089__normal__factory-new",
+    "27-1089__normal__field-tested",
+    "27-1089__normal__minimal-wear",
+    "27-1089__normal__well-worn",
+    "27-1089__stattrak__battle-scarred",
+    "27-1089__stattrak__factory-new",
+    "27-1089__stattrak__field-tested",
+    "27-1089__stattrak__minimal-wear",
+    "27-1089__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

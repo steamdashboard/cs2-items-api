@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 859,
+    "id": 859,
+    "localized_names": {
+      "brazilian": "Quartzo Esmeralda",
+      "bulgarian": "Изумруден кварц",
+      "czech": "Emerald Quartz",
+      "danish": "Emerald Quartz",
+      "dutch": "Emerald Quartz",
+      "english": "Emerald Quartz",
+      "finnish": "Smaragdinvihreä kvartsi",
+      "french": "Quartz émeraude",
+      "german": "Smaragdgrüner Quarz",
+      "greek": "Emerald Quartz",
+      "hungarian": "Smaragd Kvarc",
+      "indonesian": "Emerald Quartz",
+      "italian": "Emerald Quartz",
+      "japanese": "Emerald Quartz",
+      "koreana": "에메랄드 석영",
+      "latam": "Cuarzo esmeralda",
+      "norwegian": "Emerald Quartz",
+      "polish": "Szmaragdowy kwarc",
+      "portuguese": "Emerald Quartz",
+      "romanian": "Emerald Quartz",
+      "russian": "Изумрудный кварц",
+      "schinese": "翡翠石英",
+      "schinese_pw": "Emerald Quartz",
+      "spanish": "Cuarzo esmeralda",
+      "swedish": "Emerald Quartz",
+      "tchinese": "翠綠石英",
+      "thai": "Emerald Quartz",
+      "turkish": "Yeşil Kuvars",
+      "ukrainian": "Смарагдовий кварц",
+      "vietnamese": "Emerald Quartz"
+    },
+    "name": "Emerald Quartz",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-859",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Quartzo Esmeralda",
+    "bulgarian": "CZ75-Auto | Изумруден кварц",
+    "czech": "CZ75-Auto | Emerald Quartz",
+    "danish": "CZ75-Auto | Emerald Quartz",
+    "dutch": "CZ75-Auto | Emerald Quartz",
+    "english": "CZ75-Auto | Emerald Quartz",
+    "finnish": "CZ75-Auto | Smaragdinvihreä kvartsi",
+    "french": "CZ75-Auto | Quartz émeraude",
+    "german": "CZ75-Auto | Smaragdgrüner Quarz",
+    "greek": "CZ75-Auto | Emerald Quartz",
+    "hungarian": "CZ75-Auto | Smaragd Kvarc",
+    "indonesian": "CZ75-Auto | Emerald Quartz",
+    "italian": "CZ75-Auto | Emerald Quartz",
+    "japanese": "CZ75-Auto | Emerald Quartz",
+    "koreana": "CZ75 기관권총 | 에메랄드 석영",
+    "latam": "CZ75-Auto | Cuarzo esmeralda",
+    "norwegian": "CZ75-Auto | Emerald Quartz",
+    "polish": "CZ75-Auto | Szmaragdowy kwarc",
+    "portuguese": "CZ75-Auto | Emerald Quartz",
+    "romanian": "CZ75-Auto | Emerald Quartz",
+    "russian": "CZ75-Auto | Изумрудный кварц",
+    "schinese": "CZ75自动型 | 翡翠石英",
+    "schinese_pw": "CZ75-Auto | Emerald Quartz",
+    "spanish": "CZ75-Auto | Cuarzo esmeralda",
+    "swedish": "CZ75-Auto | Emerald Quartz",
+    "tchinese": "CZ75-Auto | 翠綠石英",
+    "thai": "CZ75-Auto | Emerald Quartz",
+    "turkish": "CZ75-Otomatik | Yeşil Kuvars",
+    "ukrainian": "ЧЗ-75 авто | Смарагдовий кварц",
+    "vietnamese": "CZ75-Auto | Emerald Quartz"
+  },
+  "media": {
+    "asset_id": "skin__63-859",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-859/light.png",
+      "data/api/media/rendered/files/skins/63-859/medium.png",
+      "data/api/media/rendered/files/skins/63-859/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-859.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-859/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-859/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-859/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-859/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_am_crystallized_green_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_am_crystallized_green_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_am_crystallized_green_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Emerald Quartz",
+  "search_slug": "cz75-auto-emerald-quartz",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_norse",
+        "name": "The Norse Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4611",
+        "kind": "container",
+        "name": "The Norse Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-859__normal__battle-scarred",
+    "63-859__normal__factory-new",
+    "63-859__normal__field-tested",
+    "63-859__normal__minimal-wear",
+    "63-859__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

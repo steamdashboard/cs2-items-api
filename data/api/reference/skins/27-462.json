@@ -1,0 +1,92 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "hy_geometric_steps_green",
+    "id": 462,
+    "name": "Counter Terrace",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 462,
+    "weapon_id": 27
+  },
+  "id": "27-462",
+  "name": "MAG-7 | Counter Terrace",
+  "search_slug": "mag-7-counter-terrace",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_kimono",
+        "name": "The Rising Sun Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4606",
+        "kind": "container",
+        "name": "The Rising Sun Collection",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "27-462__normal__factory-new",
+    "27-462__normal__minimal-wear",
+    "27-462__normal__field-tested",
+    "27-462__normal__well-worn",
+    "27-462__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_mag7",
+    "id": 27,
+    "name": "MAG-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

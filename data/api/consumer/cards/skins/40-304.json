@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 304,
+    "id": 304,
+    "localized_names": {
+      "brazilian": "Rasgado",
+      "bulgarian": "Разсечено",
+      "czech": "Slashed",
+      "danish": "Slashed",
+      "dutch": "Slashed",
+      "english": "Slashed",
+      "finnish": "Viilletty",
+      "french": "Griffure",
+      "german": "Aufgeschlitzt",
+      "greek": "Slashed",
+      "hungarian": "Hasított",
+      "indonesian": "Slashed",
+      "italian": "Slashed",
+      "japanese": "Slashed",
+      "koreana": "빗금무늬",
+      "latam": "Cortado",
+      "norwegian": "Slashed",
+      "polish": "Pazury",
+      "portuguese": "Slashed",
+      "romanian": "Slashed",
+      "russian": "Когти",
+      "schinese": "裂痕",
+      "schinese_pw": "Slashed",
+      "spanish": "Cortado",
+      "swedish": "Slashed",
+      "tchinese": "撕裂",
+      "thai": "Slashed",
+      "turkish": "Kesilmiş",
+      "ukrainian": "Роздертий",
+      "vietnamese": "Slashed"
+    },
+    "name": "Slashed",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.15
+    }
+  },
+  "id": "40-304",
+  "localized_names": {
+    "brazilian": "SSG 08 | Rasgado",
+    "bulgarian": "SSG 08 | Разсечено",
+    "czech": "SSG 08 | Slashed",
+    "danish": "SSG 08 | Slashed",
+    "dutch": "SSG 08 | Slashed",
+    "english": "SSG 08 | Slashed",
+    "finnish": "SSG 08 | Viilletty",
+    "french": "SSG 08 | Griffure",
+    "german": "SSG 08 | Aufgeschlitzt",
+    "greek": "SSG 08 | Slashed",
+    "hungarian": "SSG 08 | Hasított",
+    "indonesian": "SSG 08 | Slashed",
+    "italian": "SSG 08 | Slashed",
+    "japanese": "SSG 08 | Slashed",
+    "koreana": "SSG 08 | 빗금무늬",
+    "latam": "SSG 08 | Cortado",
+    "norwegian": "SSG 08 | Slashed",
+    "polish": "SSG 08 | Pazury",
+    "portuguese": "SSG 08 | Slashed",
+    "romanian": "SSG 08 | Slashed",
+    "russian": "SSG 08 | Когти",
+    "schinese": "SSG 08 | 裂痕",
+    "schinese_pw": "SSG 08 | Slashed",
+    "spanish": "SSG 08 | Cortado",
+    "swedish": "SSG 08 | Slashed",
+    "tchinese": "SSG 08 | 撕裂",
+    "thai": "SSG 08 | Slashed",
+    "turkish": "SSG 08 | Kesilmiş",
+    "ukrainian": "ССГ 08 | Роздертий",
+    "vietnamese": "SSG 08 | Slashed"
+  },
+  "media": {
+    "asset_id": "skin__40-304",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-304/light.png",
+      "data/api/media/rendered/files/skins/40-304/medium.png",
+      "data/api/media/rendered/files/skins/40-304/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-304.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-304/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-304/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-304/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-304/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_immortal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_immortal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_immortal_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Slashed",
+  "search_slug": "ssg-08-slashed",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4017",
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_3",
+        "name": "The Huntsman Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-304__normal__battle-scarred",
+    "40-304__normal__field-tested",
+    "40-304__normal__well-worn",
+    "40-304__stattrak__battle-scarred",
+    "40-304__stattrak__field-tested",
+    "40-304__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.15
+  }
+}

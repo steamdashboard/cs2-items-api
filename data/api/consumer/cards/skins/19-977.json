@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 977,
+    "id": 977,
+    "localized_names": {
+      "brazilian": "Fúria Jurássica",
+      "bulgarian": "Какаово развилняване",
+      "czech": "Cocoa Rampage",
+      "danish": "Cocoa Rampage",
+      "dutch": "Cocoa Rampage",
+      "english": "Cocoa Rampage",
+      "finnish": "Kaakaonruskea mellakka",
+      "french": "Fureur du jurassique",
+      "german": "Schokorausch",
+      "greek": "Cocoa Rampage",
+      "hungarian": "Kakaószín Tombolás",
+      "indonesian": "Cocoa Rampage",
+      "italian": "Cocoa Rampage",
+      "japanese": "Cocoa Rampage",
+      "koreana": "광란",
+      "latam": "Cacao Rampage",
+      "norwegian": "Cocoa Rampage",
+      "polish": "Kakaowy szał",
+      "portuguese": "Cocoa Rampage",
+      "romanian": "Cocoa Rampage",
+      "russian": "Какао-буйство",
+      "schinese": "大怪兽 RUSH",
+      "schinese_pw": "Cocoa Rampage",
+      "spanish": "Chocoexterminio",
+      "swedish": "Cocoa Rampage",
+      "tchinese": "可可暴亂",
+      "thai": "Cocoa Rampage",
+      "turkish": "Kakao Çıldırışı",
+      "ukrainian": "Какаове шаленство",
+      "vietnamese": "Cocoa Rampage"
+    },
+    "name": "Cocoa Rampage",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-977",
+  "localized_names": {
+    "brazilian": "P90 | Fúria Jurássica",
+    "bulgarian": "P90 | Какаово развилняване",
+    "czech": "P90 | Cocoa Rampage",
+    "danish": "P90 | Cocoa Rampage",
+    "dutch": "P90 | Cocoa Rampage",
+    "english": "P90 | Cocoa Rampage",
+    "finnish": "P90 | Kaakaonruskea mellakka",
+    "french": "P90 | Fureur du jurassique",
+    "german": "P90 | Schokorausch",
+    "greek": "P90 | Cocoa Rampage",
+    "hungarian": "P90 | Kakaószín Tombolás",
+    "indonesian": "P90 | Cocoa Rampage",
+    "italian": "P90 | Cocoa Rampage",
+    "japanese": "P90 | Cocoa Rampage",
+    "koreana": "P90 | 광란",
+    "latam": "P90 | Cacao Rampage",
+    "norwegian": "P90 | Cocoa Rampage",
+    "polish": "P90 | Kakaowy szał",
+    "portuguese": "P90 | Cocoa Rampage",
+    "romanian": "P90 | Cocoa Rampage",
+    "russian": "P90 | Какао-буйство",
+    "schinese": "P90 | 大怪兽 RUSH",
+    "schinese_pw": "P90 | Cocoa Rampage",
+    "spanish": "P90 | Chocoexterminio",
+    "swedish": "P90 | Cocoa Rampage",
+    "tchinese": "P90 | 可可暴亂",
+    "thai": "P90 | Cocoa Rampage",
+    "turkish": "P90 | Kakao Çıldırışı",
+    "ukrainian": "П90 | Какаове шаленство",
+    "vietnamese": "P90 | Cocoa Rampage"
+  },
+  "media": {
+    "asset_id": "skin__19-977",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-977/light.png",
+      "data/api/media/rendered/files/skins/19-977/medium.png",
+      "data/api/media/rendered/files/skins/19-977/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-977.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-977/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-977/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-977/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-977/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_hy_p90_dino_rampage_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_hy_p90_dino_rampage_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_hy_p90_dino_rampage_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Cocoa Rampage",
+  "search_slug": "p90-cocoa-rampage",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4717",
+        "kind": "weapon-case",
+        "name": "Operation Broken Fang Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_27",
+        "name": "The Operation Broken Fang Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-977__normal__battle-scarred",
+    "19-977__normal__factory-new",
+    "19-977__normal__field-tested",
+    "19-977__normal__minimal-wear",
+    "19-977__normal__well-worn",
+    "19-977__stattrak__battle-scarred",
+    "19-977__stattrak__factory-new",
+    "19-977__stattrak__field-tested",
+    "19-977__stattrak__minimal-wear",
+    "19-977__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

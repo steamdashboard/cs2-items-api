@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 634,
+    "id": 634,
+    "localized_names": {
+      "brazilian": "Gila",
+      "bulgarian": "Отровен брадавичар",
+      "czech": "Gila",
+      "danish": "Gila",
+      "dutch": "Gila",
+      "english": "Gila",
+      "finnish": "Gila",
+      "french": "Gila",
+      "german": "Gila",
+      "greek": "Gila",
+      "hungarian": "Gila",
+      "indonesian": "Gila",
+      "italian": "Gila",
+      "japanese": "Gila",
+      "koreana": "미국독도마뱀",
+      "latam": "Gila",
+      "norwegian": "Gila",
+      "polish": "Gila",
+      "portuguese": "Gila",
+      "romanian": "Gila",
+      "russian": "Ядозуб",
+      "schinese": "毒蜥",
+      "schinese_pw": "Gila",
+      "spanish": "Gila",
+      "swedish": "Gila",
+      "tchinese": "毒蜥",
+      "thai": "Gila",
+      "turkish": "Gila",
+      "ukrainian": "Жилатьє",
+      "vietnamese": "Gila"
+    },
+    "name": "Gila",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-634",
+  "localized_names": {
+    "brazilian": "Nova | Gila",
+    "bulgarian": "Nova | Отровен брадавичар",
+    "czech": "Nova | Gila",
+    "danish": "Nova | Gila",
+    "dutch": "Nova | Gila",
+    "english": "Nova | Gila",
+    "finnish": "Nova | Gila",
+    "french": "Nova | Gila",
+    "german": "Nova | Gila",
+    "greek": "Nova | Gila",
+    "hungarian": "Nova | Gila",
+    "indonesian": "Nova | Gila",
+    "italian": "Nova | Gila",
+    "japanese": "Nova | Gila",
+    "koreana": "노바 | 미국독도마뱀",
+    "latam": "Nova | Gila",
+    "norwegian": "Nova | Gila",
+    "polish": "Nova | Gila",
+    "portuguese": "Nova | Gila",
+    "romanian": "Nova | Gila",
+    "russian": "Nova | Ядозуб",
+    "schinese": "新星 | 毒蜥",
+    "schinese_pw": "Nova | Gila",
+    "spanish": "Nova | Gila",
+    "swedish": "Nova | Gila",
+    "tchinese": "Nova | 毒蜥",
+    "thai": "Nova | Gila",
+    "turkish": "Nova | Gila",
+    "ukrainian": "Нова | Жилатьє",
+    "vietnamese": "Nova | Gila"
+  },
+  "media": {
+    "asset_id": "skin__35-634",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-634/light.png",
+      "data/api/media/rendered/files/skins/35-634/medium.png",
+      "data/api/media/rendered/files/skins/35-634/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-634.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-634/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-634/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-634/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-634/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_am_nova_sand_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_am_nova_sand_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_am_nova_sand_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Gila",
+  "search_slug": "nova-gila",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4288",
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_15",
+        "name": "The Glove Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-634__normal__factory-new",
+    "35-634__normal__field-tested",
+    "35-634__normal__minimal-wear",
+    "35-634__stattrak__factory-new",
+    "35-634__stattrak__field-tested",
+    "35-634__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

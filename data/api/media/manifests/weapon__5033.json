@@ -1,0 +1,44 @@
+{
+  "codename": "motorcycle_gloves",
+  "entity_id": "5033",
+  "entity_type": "weapon",
+  "id": "weapon__5033",
+  "name": "Moto Gloves",
+  "refs": {
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "2.0 -130.0 0.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "0.0 1.0 -2.0",
+      "override_default_light": "1",
+      "spot_light_key": {
+        "color": "2.1 2.1 2.1",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-120 120 180"
+      },
+      "spot_light_rim": {
+        "color": "4 4 4",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "10.0 -90.0 -60.0"
+      }
+    },
+    "model_player": "characters/models/shared/arms/glove_motorcycle/v_glove_motorcycle.vmdl",
+    "model_world": "characters/models/shared/arms/glove_motorcycle/w_glove_motorcycle.vmdl"
+  },
+  "resolved_refs": {
+    "model_player": [
+      "characters/models/shared/arms/glove_motorcycle/v_glove_motorcycle.vmdl_c"
+    ],
+    "model_world": [
+      "characters/models/shared/arms/glove_motorcycle/w_glove_motorcycle.vmdl_c"
+    ]
+  },
+  "unresolved_refs": []
+}

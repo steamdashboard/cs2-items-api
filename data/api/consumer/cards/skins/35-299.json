@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 299,
+    "id": 299,
+    "localized_names": {
+      "brazilian": "Aço Enjaulado",
+      "bulgarian": "Стоманена клетка",
+      "czech": "Caged Steel",
+      "danish": "Caged Steel",
+      "dutch": "Caged Steel",
+      "english": "Caged Steel",
+      "finnish": "Teräshäkki",
+      "french": "Cage d'acier",
+      "german": "Stahlkäfig",
+      "greek": "Caged Steel",
+      "hungarian": "Ketrecbe Zárt Acél",
+      "indonesian": "Caged Steel",
+      "italian": "Caged Steel",
+      "japanese": "Caged Steel",
+      "koreana": "철창",
+      "latam": "Acero enjaulado",
+      "norwegian": "Caged Steel",
+      "polish": "Więzienna stal",
+      "portuguese": "Caged Steel",
+      "romanian": "Caged Steel",
+      "russian": "Клетчатая сталь",
+      "schinese": "钢笼",
+      "schinese_pw": "Caged Steel",
+      "spanish": "Acero enjaulado",
+      "swedish": "Caged Steel",
+      "tchinese": "鋼籠",
+      "thai": "Caged Steel",
+      "turkish": "Çelik Kafes",
+      "ukrainian": "Сталь у клітинку",
+      "vietnamese": "Caged Steel"
+    },
+    "name": "Caged Steel",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-299",
+  "localized_names": {
+    "brazilian": "Nova | Aço Enjaulado",
+    "bulgarian": "Nova | Стоманена клетка",
+    "czech": "Nova | Caged Steel",
+    "danish": "Nova | Caged Steel",
+    "dutch": "Nova | Caged Steel",
+    "english": "Nova | Caged Steel",
+    "finnish": "Nova | Teräshäkki",
+    "french": "Nova | Cage d'acier",
+    "german": "Nova | Stahlkäfig",
+    "greek": "Nova | Caged Steel",
+    "hungarian": "Nova | Ketrecbe Zárt Acél",
+    "indonesian": "Nova | Caged Steel",
+    "italian": "Nova | Caged Steel",
+    "japanese": "Nova | Caged Steel",
+    "koreana": "노바 | 철창",
+    "latam": "Nova | Acero enjaulado",
+    "norwegian": "Nova | Caged Steel",
+    "polish": "Nova | Więzienna stal",
+    "portuguese": "Nova | Caged Steel",
+    "romanian": "Nova | Caged Steel",
+    "russian": "Nova | Клетчатая сталь",
+    "schinese": "新星 | 钢笼",
+    "schinese_pw": "Nova | Caged Steel",
+    "spanish": "Nova | Acero enjaulado",
+    "swedish": "Nova | Caged Steel",
+    "tchinese": "Nova | 鋼籠",
+    "thai": "Nova | Caged Steel",
+    "turkish": "Nova | Çelik Kafes",
+    "ukrainian": "Нова | Сталь у клітинку",
+    "vietnamese": "Nova | Caged Steel"
+  },
+  "media": {
+    "asset_id": "skin__35-299",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-299/light.png",
+      "data/api/media/rendered/files/skins/35-299/medium.png",
+      "data/api/media/rendered/files/skins/35-299/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-299.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-299/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-299/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-299/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-299/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_am_oval_hex_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_am_oval_hex_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_am_oval_hex_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Caged Steel",
+  "search_slug": "nova-caged-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_bank",
+        "name": "The Bank Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-299__normal__factory-new",
+    "35-299__normal__field-tested",
+    "35-299__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

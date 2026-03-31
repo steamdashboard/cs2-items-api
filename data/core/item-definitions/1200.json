@@ -1,0 +1,43 @@
+{
+  "classification": {
+    "group": "tool",
+    "kind": "tool",
+    "tool_type": "name"
+  },
+  "game_id": 1200,
+  "id": 1200,
+  "name": "Name Tag",
+  "prefab_chain": [
+    "valve",
+    "csgo_tool"
+  ],
+  "prefab_spec": "valve csgo_tool",
+  "resolved": {
+    "craft_class": "tool",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "first_sale_date": "2013/08/28",
+    "image_inventory": "econ/tools/tag",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_container_and_tools": "tool",
+    "item_class": "tool",
+    "item_description": "#CSGO_Tool_Name_Tag_Desc",
+    "item_name": "#CSGO_Tool_Name_Tag",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "type_tool",
+    "item_type_name": "#CSGO_Tool_Name_TagTag",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "name": "Name Tag",
+    "prefab": "valve csgo_tool",
+    "tool": {
+      "type": "name",
+      "usage_capabilities": {
+        "nameable": "1"
+      }
+    }
+  }
+}

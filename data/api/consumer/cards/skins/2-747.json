@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 747,
+    "id": 747,
+    "localized_names": {
+      "brazilian": "Twin Turbo",
+      "bulgarian": "Турбо чифт",
+      "czech": "Twin Turbo",
+      "danish": "Twin Turbo",
+      "dutch": "Twin Turbo",
+      "english": "Twin Turbo",
+      "finnish": "Turbovaihde",
+      "french": "Duo turbo",
+      "german": "Turbozwillinge",
+      "greek": "Twin Turbo",
+      "hungarian": "Ikerturbó",
+      "indonesian": "Twin Turbo",
+      "italian": "Twin Turbo",
+      "japanese": "Twin Turbo",
+      "koreana": "트윈 터보",
+      "latam": "Twin Turbo",
+      "norwegian": "Twin Turbo",
+      "polish": "Podwójny dopalacz",
+      "portuguese": "Twin Turbo",
+      "romanian": "Twin Turbo",
+      "russian": "Турбодвойники",
+      "schinese": "双涡轮",
+      "schinese_pw": "Twin Turbo",
+      "spanish": "Twin turbo",
+      "swedish": "Twin Turbo",
+      "tchinese": "雙渦輪",
+      "thai": "Twin Turbo",
+      "turkish": "Çift Turbo",
+      "ukrainian": "Подвійне турбо",
+      "vietnamese": "Twin Turbo"
+    },
+    "name": "Twin Turbo",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-747",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Twin Turbo",
+    "bulgarian": "Два Beretta | Турбо чифт",
+    "czech": "Dual Berettas | Twin Turbo",
+    "danish": "Dual Berettas | Twin Turbo",
+    "dutch": "Dual Berettas | Twin Turbo",
+    "english": "Dual Berettas | Twin Turbo",
+    "finnish": "Tupla-Berettat | Turbovaihde",
+    "french": "Dual Berettas | Duo turbo",
+    "german": "Akimbo-Berettas | Turbozwillinge",
+    "greek": "Dual Berettas | Twin Turbo",
+    "hungarian": "Dupla Beretta | Ikerturbó",
+    "indonesian": "Dual Berettas | Twin Turbo",
+    "italian": "Doppia Beretta | Twin Turbo",
+    "japanese": "Dual Berettas | Twin Turbo",
+    "koreana": "듀얼 베레타 | 트윈 터보",
+    "latam": "Berettas dobles | Twin Turbo",
+    "norwegian": "Dual Berettas | Twin Turbo",
+    "polish": "Dwie beretty | Podwójny dopalacz",
+    "portuguese": "Dual Berettas | Twin Turbo",
+    "romanian": "Dual Berettas | Twin Turbo",
+    "russian": "Dual Berettas | Турбодвойники",
+    "schinese": "双持贝瑞塔 | 双涡轮",
+    "schinese_pw": "Dual Berettas | Twin Turbo",
+    "spanish": "Berettas dobles | Twin turbo",
+    "swedish": "Dual Berettas | Twin Turbo",
+    "tchinese": "Dual Berettas | 雙渦輪",
+    "thai": "Dual Berettas | Twin Turbo",
+    "turkish": "Çift Beretta | Çift Turbo",
+    "ukrainian": "Подвійні «Беретти» | Подвійне турбо",
+    "vietnamese": "Dual Berettas | Twin Turbo"
+  },
+  "media": {
+    "asset_id": "skin__2-747",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-747/light.png",
+      "data/api/media/rendered/files/skins/2-747/medium.png",
+      "data/api/media/rendered/files/skins/2-747/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-747.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-747/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-747/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-747/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-747/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_cu_dual_elites_rally_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_cu_dual_elites_rally_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_cu_dual_elites_rally_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Twin Turbo",
+  "search_slug": "dual-berettas-twin-turbo",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_inferno_2",
+        "name": "The 2018 Inferno Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4967",
+        "kind": "container",
+        "name": "Shanghai 2024 Inferno Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5120",
+        "kind": "container",
+        "name": "Austin 2025 Inferno Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5219",
+        "kind": "container",
+        "name": "Budapest 2025 Inferno Souvenir Package",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4540",
+        "kind": "souvenir-package",
+        "name": "London 2018 Inferno Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4590",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Inferno Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4660",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Inferno Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4809",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Inferno Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4835",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Inferno Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4860",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Inferno Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4893",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Inferno Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4926",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Inferno Souvenir Package",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "variant_ids": [
+    "2-747__normal__battle-scarred",
+    "2-747__normal__factory-new",
+    "2-747__normal__field-tested",
+    "2-747__normal__minimal-wear",
+    "2-747__normal__well-worn",
+    "2-747__souvenir__battle-scarred",
+    "2-747__souvenir__factory-new",
+    "2-747__souvenir__field-tested",
+    "2-747__souvenir__minimal-wear",
+    "2-747__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

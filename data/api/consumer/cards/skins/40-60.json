@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 60,
+    "id": 60,
+    "localized_names": {
+      "brazilian": "Água Escura",
+      "bulgarian": "Черна вода",
+      "czech": "Dark Water",
+      "danish": "Dark Water",
+      "dutch": "Dark Water",
+      "english": "Dark Water",
+      "finnish": "Tumma vesi",
+      "french": "Eau sombre",
+      "german": "Dunkles Wasser",
+      "greek": "Dark Water",
+      "hungarian": "Fekete Víz",
+      "indonesian": "Dark Water",
+      "italian": "Dark Water",
+      "japanese": "Dark Water",
+      "koreana": "어두운 수면",
+      "latam": "Aguas profundas",
+      "norwegian": "Dark Water",
+      "polish": "Mroczne wody",
+      "portuguese": "Dark Water",
+      "romanian": "Dark Water",
+      "russian": "Тёмная вода",
+      "schinese": "黑水",
+      "schinese_pw": "Dark Water",
+      "spanish": "Aguas profundas",
+      "swedish": "Dark Water",
+      "tchinese": "濁水戰術",
+      "thai": "Dark Water",
+      "turkish": "Kara Su",
+      "ukrainian": "Темна вода",
+      "vietnamese": "Dark Water"
+    },
+    "name": "Dark Water",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.1
+    }
+  },
+  "id": "40-60",
+  "localized_names": {
+    "brazilian": "SSG 08 | Água Escura",
+    "bulgarian": "SSG 08 | Черна вода",
+    "czech": "SSG 08 | Dark Water",
+    "danish": "SSG 08 | Dark Water",
+    "dutch": "SSG 08 | Dark Water",
+    "english": "SSG 08 | Dark Water",
+    "finnish": "SSG 08 | Tumma vesi",
+    "french": "SSG 08 | Eau sombre",
+    "german": "SSG 08 | Dunkles Wasser",
+    "greek": "SSG 08 | Dark Water",
+    "hungarian": "SSG 08 | Fekete Víz",
+    "indonesian": "SSG 08 | Dark Water",
+    "italian": "SSG 08 | Dark Water",
+    "japanese": "SSG 08 | Dark Water",
+    "koreana": "SSG 08 | 어두운 수면",
+    "latam": "SSG 08 | Aguas profundas",
+    "norwegian": "SSG 08 | Dark Water",
+    "polish": "SSG 08 | Mroczne wody",
+    "portuguese": "SSG 08 | Dark Water",
+    "romanian": "SSG 08 | Dark Water",
+    "russian": "SSG 08 | Тёмная вода",
+    "schinese": "SSG 08 | 黑水",
+    "schinese_pw": "SSG 08 | Dark Water",
+    "spanish": "SSG 08 | Aguas profundas",
+    "swedish": "SSG 08 | Dark Water",
+    "tchinese": "SSG 08 | 濁水戰術",
+    "thai": "SSG 08 | Dark Water",
+    "turkish": "SSG 08 | Kara Su",
+    "ukrainian": "ССГ 08 | Темна вода",
+    "vietnamese": "SSG 08 | Dark Water"
+  },
+  "media": {
+    "asset_id": "skin__40-60",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-60/light.png",
+      "data/api/media/rendered/files/skins/40-60/medium.png",
+      "data/api/media/rendered/files/skins/40-60/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-60.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-60/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-60/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-60/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-60/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_am_zebra_dark_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_am_zebra_dark_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_am_zebra_dark_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Dark Water",
+  "search_slug": "ssg-08-dark-water",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-60__normal__field-tested",
+    "40-60__normal__minimal-wear",
+    "40-60__stattrak__field-tested",
+    "40-60__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.1
+  }
+}

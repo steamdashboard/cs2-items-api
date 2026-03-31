@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1291,
+    "id": 1291,
+    "localized_names": {
+      "brazilian": "Gás Mostarda",
+      "bulgarian": "Горчичен газ",
+      "czech": "Mustard Gas",
+      "danish": "Mustard Gas",
+      "dutch": "Mustard Gas",
+      "english": "Mustard Gas",
+      "finnish": "Sinappikaasu",
+      "french": "Gaz moutarde",
+      "german": "Senfgas",
+      "greek": "Mustard Gas",
+      "hungarian": "Mustárgáz",
+      "indonesian": "Mustard Gas",
+      "italian": "Mustard Gas",
+      "japanese": "Mustard Gas",
+      "koreana": "머스타드 가스",
+      "latam": "Gas mostaza",
+      "norwegian": "Mustard Gas",
+      "polish": "Gaz musztardowy",
+      "portuguese": "Mustard Gas",
+      "romanian": "Mustard Gas",
+      "russian": "Горчичный газ",
+      "schinese": "芥子气",
+      "schinese_pw": "Mustard Gas",
+      "spanish": "Gas mostaza",
+      "swedish": "Mustard Gas",
+      "tchinese": "芥子毒氣",
+      "thai": "Mustard Gas",
+      "turkish": "Hardal Gazı",
+      "ukrainian": "Гірчичний газ",
+      "vietnamese": "Mustard Gas"
+    },
+    "name": "Mustard Gas",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.63,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-1291",
+  "localized_names": {
+    "brazilian": "P90 | Gás Mostarda",
+    "bulgarian": "P90 | Горчичен газ",
+    "czech": "P90 | Mustard Gas",
+    "danish": "P90 | Mustard Gas",
+    "dutch": "P90 | Mustard Gas",
+    "english": "P90 | Mustard Gas",
+    "finnish": "P90 | Sinappikaasu",
+    "french": "P90 | Gaz moutarde",
+    "german": "P90 | Senfgas",
+    "greek": "P90 | Mustard Gas",
+    "hungarian": "P90 | Mustárgáz",
+    "indonesian": "P90 | Mustard Gas",
+    "italian": "P90 | Mustard Gas",
+    "japanese": "P90 | Mustard Gas",
+    "koreana": "P90 | 머스타드 가스",
+    "latam": "P90 | Gas mostaza",
+    "norwegian": "P90 | Mustard Gas",
+    "polish": "P90 | Gaz musztardowy",
+    "portuguese": "P90 | Mustard Gas",
+    "romanian": "P90 | Mustard Gas",
+    "russian": "P90 | Горчичный газ",
+    "schinese": "P90 | 芥子气",
+    "schinese_pw": "P90 | Mustard Gas",
+    "spanish": "P90 | Gas mostaza",
+    "swedish": "P90 | Mustard Gas",
+    "tchinese": "P90 | 芥子毒氣",
+    "thai": "P90 | Mustard Gas",
+    "turkish": "P90 | Hardal Gazı",
+    "ukrainian": "П90 | Гірчичний газ",
+    "vietnamese": "P90 | Mustard Gas"
+  },
+  "media": {
+    "asset_id": "skin__19-1291",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-1291/light.png",
+      "data/api/media/rendered/files/skins/19-1291/medium.png",
+      "data/api/media/rendered/files/skins/19-1291/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-1291.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-1291/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-1291/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-1291/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-1291/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_hye_zoom_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_hye_zoom_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_hye_zoom_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Mustard Gas",
+  "search_slug": "p90-mustard-gas",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_neutral",
+        "name": "The Boreal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-1291__normal__battle-scarred",
+    "19-1291__normal__factory-new",
+    "19-1291__normal__field-tested",
+    "19-1291__normal__minimal-wear",
+    "19-1291__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.63,
+    "min_float": 0.0
+  }
+}

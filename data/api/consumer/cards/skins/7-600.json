@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 600,
+    "id": 600,
+    "localized_names": {
+      "brazilian": "Revolução Neon",
+      "bulgarian": "Неонова революция",
+      "czech": "Neon Revolution",
+      "danish": "Neon Revolution",
+      "dutch": "Neon Revolution",
+      "english": "Neon Revolution",
+      "finnish": "Neonvallankumous",
+      "french": "Révolution néon",
+      "german": "Neonrevolution",
+      "greek": "Neon Revolution",
+      "hungarian": "Neon Forradalom",
+      "indonesian": "Neon Revolution",
+      "italian": "Neon Revolution",
+      "japanese": "Neon Revolution",
+      "koreana": "네온 레볼루션",
+      "latam": "Revolución de neón",
+      "norwegian": "Neon Revolution",
+      "polish": "Neonowa rewolucja",
+      "portuguese": "Neon Revolution",
+      "romanian": "Neon Revolution",
+      "russian": "Неоновая революция",
+      "schinese": "霓虹革命",
+      "schinese_pw": "Neon Revolution",
+      "spanish": "Revolución de neón",
+      "swedish": "Neon Revolution",
+      "tchinese": "霓虹革命",
+      "thai": "Neon Revolution",
+      "turkish": "Neon Devrimi",
+      "ukrainian": "Неонова революція",
+      "vietnamese": "Neon Revolution"
+    },
+    "name": "Neon Revolution",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-600",
+  "localized_names": {
+    "brazilian": "AK-47 | Revolução Neon",
+    "bulgarian": "AK-47 | Неонова революция",
+    "czech": "AK-47 | Neon Revolution",
+    "danish": "AK-47 | Neon Revolution",
+    "dutch": "AK-47 | Neon Revolution",
+    "english": "AK-47 | Neon Revolution",
+    "finnish": "AK-47 | Neonvallankumous",
+    "french": "AK-47 | Révolution néon",
+    "german": "AK-47 | Neonrevolution",
+    "greek": "AK-47 | Neon Revolution",
+    "hungarian": "AK-47 | Neon Forradalom",
+    "indonesian": "AK-47 | Neon Revolution",
+    "italian": "AK-47 | Neon Revolution",
+    "japanese": "AK-47 | Neon Revolution",
+    "koreana": "AK-47 | 네온 레볼루션",
+    "latam": "AK-47 | Revolución de neón",
+    "norwegian": "AK-47 | Neon Revolution",
+    "polish": "AK-47 | Neonowa rewolucja",
+    "portuguese": "AK-47 | Neon Revolution",
+    "romanian": "AK-47 | Neon Revolution",
+    "russian": "AK-47 | Неоновая революция",
+    "schinese": "AK-47 | 霓虹革命",
+    "schinese_pw": "AK-47 | Neon Revolution",
+    "spanish": "AK-47 | Revolución de neón",
+    "swedish": "AK-47 | Neon Revolution",
+    "tchinese": "AK-47 | 霓虹革命",
+    "thai": "AK-47 | Neon Revolution",
+    "turkish": "AK-47 | Neon Devrimi",
+    "ukrainian": "АК-47 | Неонова революція",
+    "vietnamese": "AK-47 | Neon Revolution"
+  },
+  "media": {
+    "asset_id": "skin__7-600",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-600/light.png",
+      "data/api/media/rendered/files/skins/7-600/medium.png",
+      "data/api/media/rendered/files/skins/7-600/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-600.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-600/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-600/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-600/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-600/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_anarchy_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_anarchy_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_cu_ak47_anarchy_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Neon Revolution",
+  "search_slug": "ak-47-neon-revolution",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4281",
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_gamma_2",
+        "name": "set_gamma_2"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-600__normal__battle-scarred",
+    "7-600__normal__factory-new",
+    "7-600__normal__field-tested",
+    "7-600__normal__minimal-wear",
+    "7-600__normal__well-worn",
+    "7-600__stattrak__battle-scarred",
+    "7-600__stattrak__factory-new",
+    "7-600__stattrak__field-tested",
+    "7-600__stattrak__minimal-wear",
+    "7-600__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

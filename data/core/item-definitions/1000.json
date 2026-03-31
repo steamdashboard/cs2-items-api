@@ -1,0 +1,48 @@
+{
+  "classification": {
+    "group": "tool",
+    "kind": "tool",
+    "tool_type": "season_pass"
+  },
+  "game_id": 1000,
+  "id": 1000,
+  "name": "Community Season One Spring 2013",
+  "prefab_chain": [
+    "csgo_tool",
+    "season_pass"
+  ],
+  "prefab_spec": "season_pass",
+  "resolved": {
+    "attributes": {
+      "season access": "0"
+    },
+    "capabilities": {
+      "usable_gc": "1",
+      "usable_out_of_game": "1"
+    },
+    "craft_class": "tool",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "first_sale_date": "2013/04/24",
+    "image_inventory": "econ/status_icons/community_support_pass",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_container_and_tools": "tool",
+    "item_class": "tool",
+    "item_description": "#CSGO_Ticket_CommunitySeasonOneSpring2013_Desc",
+    "item_name": "#CSGO_Ticket_CommunitySeasonOneSpring2013",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "type_tool",
+    "item_type_name": "#CSGO_Type_Ticket",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "name": "Community Season One Spring 2013",
+    "prefab": "season_pass",
+    "tool": {
+      "type": "season_pass",
+      "use_string": "#ConsumeItem"
+    }
+  }
+}

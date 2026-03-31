@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "an_royalbleed",
+    "id": 335,
+    "name": "Module",
+    "rarity_ref": null,
+    "style_code": 8
+  },
+  "game_ref": {
+    "paint_kit_id": 335,
+    "weapon_id": 19
+  },
+  "id": "19-335",
+  "name": "P90 | Module",
+  "search_slug": "p90-module",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_3",
+        "name": "The Huntsman Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4017",
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "19-335__normal__factory-new",
+    "19-335__normal__minimal-wear",
+    "19-335__normal__field-tested",
+    "19-335__stattrak__factory-new",
+    "19-335__stattrak__minimal-wear",
+    "19-335__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_p90",
+    "id": 19,
+    "name": "P90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.35,
+    "min_float": 0.0
+  }
+}

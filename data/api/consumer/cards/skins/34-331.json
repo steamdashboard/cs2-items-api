@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 331,
+    "id": 331,
+    "localized_names": {
+      "brazilian": "Tricolártica",
+      "bulgarian": "Арктически в три нюанса",
+      "czech": "Arctic Tri-Tone",
+      "danish": "Arctic Tri-Tone",
+      "dutch": "Arctic Tri-Tone",
+      "english": "Arctic Tri-Tone",
+      "finnish": "Arktinen kolmisävy",
+      "french": "Arctique assorti",
+      "german": "Arktische Tarnung",
+      "greek": "Arctic Tri-Tone",
+      "hungarian": "Havas Háromszínű",
+      "indonesian": "Arctic Tri-Tone",
+      "italian": "Arctic Tri-Tone",
+      "japanese": "Arctic Tri-Tone",
+      "koreana": "아크틱 트라이톤",
+      "latam": "Tricolor ártico",
+      "norwegian": "Arctic Tri-Tone",
+      "polish": "Arktyczny trójbarwny",
+      "portuguese": "Arctic Tri-Tone",
+      "romanian": "Arctic Tri-Tone",
+      "russian": "Арктический триколор",
+      "schinese": "极寒三色",
+      "schinese_pw": "Arctic Tri-Tone",
+      "spanish": "Tricolor ártico",
+      "swedish": "Arctic Tri-Tone",
+      "tchinese": "極地三色",
+      "thai": "Arctic Tri-Tone",
+      "turkish": "Buzul Üç Ton",
+      "ukrainian": "Арктичні кольори",
+      "vietnamese": "Arctic Tri-Tone"
+    },
+    "name": "Arctic Tri-Tone",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-331",
+  "localized_names": {
+    "brazilian": "MP9 | Tricolártica",
+    "bulgarian": "MP9 | Арктически в три нюанса",
+    "czech": "MP9 | Arctic Tri-Tone",
+    "danish": "MP9 | Arctic Tri-Tone",
+    "dutch": "MP9 | Arctic Tri-Tone",
+    "english": "MP9 | Arctic Tri-Tone",
+    "finnish": "MP9 | Arktinen kolmisävy",
+    "french": "MP9 | Arctique assorti",
+    "german": "MP9 | Arktische Tarnung",
+    "greek": "MP9 | Arctic Tri-Tone",
+    "hungarian": "MP9 | Havas Háromszínű",
+    "indonesian": "MP9 | Arctic Tri-Tone",
+    "italian": "MP9 | Arctic Tri-Tone",
+    "japanese": "MP9 | Arctic Tri-Tone",
+    "koreana": "MP9 | 아크틱 트라이톤",
+    "latam": "MP9 | Tricolor ártico",
+    "norwegian": "MP9 | Arctic Tri-Tone",
+    "polish": "MP9 | Arktyczny trójbarwny",
+    "portuguese": "MP9 | Arctic Tri-Tone",
+    "romanian": "MP9 | Arctic Tri-Tone",
+    "russian": "MP9 | Арктический триколор",
+    "schinese": "MP9 | 极寒三色",
+    "schinese_pw": "MP9 | Arctic Tri-Tone",
+    "spanish": "MP9 | Tricolor ártico",
+    "swedish": "MP9 | Arctic Tri-Tone",
+    "tchinese": "MP9 | 極地三色",
+    "thai": "MP9 | Arctic Tri-Tone",
+    "turkish": "MP9 | Buzul Üç Ton",
+    "ukrainian": "МП9 | Арктичні кольори",
+    "vietnamese": "MP9 | Arctic Tri-Tone"
+  },
+  "media": {
+    "asset_id": "skin__34-331",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-331/light.png",
+      "data/api/media/rendered/files/skins/34-331/medium.png",
+      "data/api/media/rendered/files/skins/34-331/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-331.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-331/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-331/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-331/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-331/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_gs_arctic_mp9_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_gs_arctic_mp9_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_gs_arctic_mp9_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Arctic Tri-Tone",
+  "search_slug": "mp9-arctic-tri-tone",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_realism_camo",
+        "name": "The Sport & Field Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-331__normal__battle-scarred",
+    "34-331__normal__factory-new",
+    "34-331__normal__field-tested",
+    "34-331__normal__minimal-wear",
+    "34-331__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

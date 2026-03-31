@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 303,
+    "id": 303,
+    "localized_names": {
+      "brazilian": "Isaac",
+      "bulgarian": "Айзък",
+      "czech": "Isaac",
+      "danish": "Isaac",
+      "dutch": "Isaac",
+      "english": "Isaac",
+      "finnish": "Isaac",
+      "french": "Isaac",
+      "german": "Isaac",
+      "greek": "Isaac",
+      "hungarian": "Isaac",
+      "indonesian": "Isaac",
+      "italian": "Isaac",
+      "japanese": "Isaac",
+      "koreana": "아이작",
+      "latam": "Isaac",
+      "norwegian": "Isaac",
+      "polish": "Izaak",
+      "portuguese": "Isaac",
+      "romanian": "Isaac",
+      "russian": "Айзек",
+      "schinese": "艾萨克",
+      "schinese_pw": "Isaac",
+      "spanish": "Isaac",
+      "swedish": "Isaac",
+      "tchinese": "艾薩克",
+      "thai": "Isaac",
+      "turkish": "Isaac",
+      "ukrainian": "Айзек",
+      "vietnamese": "Isaac"
+    },
+    "name": "Isaac",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-303",
+  "localized_names": {
+    "brazilian": "Tec-9 | Isaac",
+    "bulgarian": "Tec-9 | Айзък",
+    "czech": "Tec-9 | Isaac",
+    "danish": "Tec-9 | Isaac",
+    "dutch": "Tec-9 | Isaac",
+    "english": "Tec-9 | Isaac",
+    "finnish": "Tec-9 | Isaac",
+    "french": "Tec-9 | Isaac",
+    "german": "Tec-9 | Isaac",
+    "greek": "Tec-9 | Isaac",
+    "hungarian": "Tec-9 | Isaac",
+    "indonesian": "Tec-9 | Isaac",
+    "italian": "Tec-9 | Isaac",
+    "japanese": "Tec-9 | Isaac",
+    "koreana": "Tec-9 | 아이작",
+    "latam": "Tec-9 | Isaac",
+    "norwegian": "Tec-9 | Isaac",
+    "polish": "Tec-9 | Izaak",
+    "portuguese": "Tec-9 | Isaac",
+    "romanian": "Tec-9 | Isaac",
+    "russian": "Tec-9 | Айзек",
+    "schinese": "Tec-9 | 艾萨克",
+    "schinese_pw": "Tec-9 | Isaac",
+    "spanish": "Tec-9 | Isaac",
+    "swedish": "Tec-9 | Isaac",
+    "tchinese": "Tec-9 | 艾薩克",
+    "thai": "Tec-9 | Isaac",
+    "turkish": "Tec-9 | Isaac",
+    "ukrainian": "ТЕК-9 | Айзек",
+    "vietnamese": "Tec-9 | Isaac"
+  },
+  "media": {
+    "asset_id": "skin__30-303",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-303/light.png",
+      "data/api/media/rendered/files/skins/30-303/medium.png",
+      "data/api/media/rendered/files/skins/30-303/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-303.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-303/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-303/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-303/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-303/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_cu_tec9_asiimov_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_cu_tec9_asiimov_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_cu_tec9_asiimov_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Isaac",
+  "search_slug": "tec-9-isaac",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4017",
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_3",
+        "name": "The Huntsman Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-303__normal__battle-scarred",
+    "30-303__normal__factory-new",
+    "30-303__normal__field-tested",
+    "30-303__normal__minimal-wear",
+    "30-303__normal__well-worn",
+    "30-303__stattrak__battle-scarred",
+    "30-303__stattrak__factory-new",
+    "30-303__stattrak__field-tested",
+    "30-303__stattrak__minimal-wear",
+    "30-303__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

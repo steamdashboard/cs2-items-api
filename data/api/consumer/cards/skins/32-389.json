@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 389,
+    "id": 389,
+    "localized_names": {
+      "brazilian": "Elemental de Fogo",
+      "bulgarian": "Огнена стихия",
+      "czech": "Fire Elemental",
+      "danish": "Fire Elemental",
+      "dutch": "Fire Elemental",
+      "english": "Fire Elemental",
+      "finnish": "Tulielementaali",
+      "french": "Élémentaire de feu",
+      "german": "Feuerelementar",
+      "greek": "Fire Elemental",
+      "hungarian": "Elemi Tűz",
+      "indonesian": "Fire Elemental",
+      "italian": "Fire Elemental",
+      "japanese": "Fire Elemental",
+      "koreana": "불의 원소",
+      "latam": "Elemental de fuego",
+      "norwegian": "Fire Elemental",
+      "polish": "Żywiołak ognia",
+      "portuguese": "Fire Elemental",
+      "romanian": "Fire Elemental",
+      "russian": "Дух огня",
+      "schinese": "火灵",
+      "schinese_pw": "Fire Elemental",
+      "spanish": "Elemental de fuego",
+      "swedish": "Fire Elemental",
+      "tchinese": "火元素",
+      "thai": "Fire Elemental",
+      "turkish": "Ateş Elementali",
+      "ukrainian": "Дух вогню",
+      "vietnamese": "Fire Elemental"
+    },
+    "name": "Fire Elemental",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-389",
+  "localized_names": {
+    "brazilian": "P2000 | Elemental de Fogo",
+    "bulgarian": "P2000 | Огнена стихия",
+    "czech": "P2000 | Fire Elemental",
+    "danish": "P2000 | Fire Elemental",
+    "dutch": "P2000 | Fire Elemental",
+    "english": "P2000 | Fire Elemental",
+    "finnish": "P2000 | Tulielementaali",
+    "french": "P2000 | Élémentaire de feu",
+    "german": "P2000 | Feuerelementar",
+    "greek": "P2000 | Fire Elemental",
+    "hungarian": "P2000 | Elemi Tűz",
+    "indonesian": "P2000 | Fire Elemental",
+    "italian": "P2000 | Fire Elemental",
+    "japanese": "P2000 | Fire Elemental",
+    "koreana": "P2000 | 불의 원소",
+    "latam": "P2000 | Elemental de fuego",
+    "norwegian": "P2000 | Fire Elemental",
+    "polish": "P2000 | Żywiołak ognia",
+    "portuguese": "P2000 | Fire Elemental",
+    "romanian": "P2000 | Fire Elemental",
+    "russian": "P2000 | Дух огня",
+    "schinese": "P2000 | 火灵",
+    "schinese_pw": "P2000 | Fire Elemental",
+    "spanish": "P2000 | Elemental de fuego",
+    "swedish": "P2000 | Fire Elemental",
+    "tchinese": "P2000 | 火元素",
+    "thai": "P2000 | Fire Elemental",
+    "turkish": "P2000 | Ateş Elementali",
+    "ukrainian": "П2000 | Дух вогню",
+    "vietnamese": "P2000 | Fire Elemental"
+  },
+  "media": {
+    "asset_id": "skin__32-389",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-389/light.png",
+      "data/api/media/rendered/files/skins/32-389/medium.png",
+      "data/api/media/rendered/files/skins/32-389/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-389.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-389/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-389/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-389/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-389/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_cu_p2000_fire_elemental_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_cu_p2000_fire_elemental_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_cu_p2000_fire_elemental_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Fire Elemental",
+  "search_slug": "p2000-fire-elemental",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4029",
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_5",
+        "name": "The Vanguard Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "32-389__normal__battle-scarred",
+    "32-389__normal__factory-new",
+    "32-389__normal__field-tested",
+    "32-389__normal__minimal-wear",
+    "32-389__normal__well-worn",
+    "32-389__stattrak__battle-scarred",
+    "32-389__stattrak__factory-new",
+    "32-389__stattrak__field-tested",
+    "32-389__stattrak__minimal-wear",
+    "32-389__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

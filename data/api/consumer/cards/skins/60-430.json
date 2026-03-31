@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 430,
+    "id": 430,
+    "localized_names": {
+      "brazilian": "Hiper Fera",
+      "bulgarian": "Хипер звяр",
+      "czech": "Hyper Beast",
+      "danish": "Hyper Beast",
+      "dutch": "Hyper Beast",
+      "english": "Hyper Beast",
+      "finnish": "Hyperpeto",
+      "french": "Bête déchainée",
+      "german": "Hyperbestie",
+      "greek": "Hyper Beast",
+      "hungarian": "Hiperbestia",
+      "indonesian": "Hyper Beast",
+      "italian": "Hyper Beast",
+      "japanese": "Hyper Beast",
+      "koreana": "괴수",
+      "latam": "Hiperbestia",
+      "norwegian": "Hyper Beast",
+      "polish": "Hiperbestia",
+      "portuguese": "Hyper Beast",
+      "romanian": "Hyper Beast",
+      "russian": "Скоростной зверь",
+      "schinese": "暴怒野兽",
+      "schinese_pw": "Hyper Beast",
+      "spanish": "Hiperbestia",
+      "swedish": "Hyper Beast",
+      "tchinese": "亢奮野獸",
+      "thai": "Hyper Beast",
+      "turkish": "Hiper Canavar",
+      "ukrainian": "Гіперчудовисько",
+      "vietnamese": "Hyper Beast"
+    },
+    "name": "Hyper Beast",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-430",
+  "localized_names": {
+    "brazilian": "M4A1-S | Hiper Fera",
+    "bulgarian": "M4A1-S | Хипер звяр",
+    "czech": "M4A1-S | Hyper Beast",
+    "danish": "M4A1-S | Hyper Beast",
+    "dutch": "M4A1-S | Hyper Beast",
+    "english": "M4A1-S | Hyper Beast",
+    "finnish": "M4A1-S | Hyperpeto",
+    "french": "M4A1-S | Bête déchainée",
+    "german": "M4A1-S | Hyperbestie",
+    "greek": "M4A1-S | Hyper Beast",
+    "hungarian": "M4A1-S | Hiperbestia",
+    "indonesian": "M4A1-S | Hyper Beast",
+    "italian": "M4A1-S | Hyper Beast",
+    "japanese": "M4A1-S | Hyper Beast",
+    "koreana": "M4A1-S | 괴수",
+    "latam": "M4A1-S | Hiperbestia",
+    "norwegian": "M4A1-S | Hyper Beast",
+    "polish": "M4A1-S | Hiperbestia",
+    "portuguese": "M4A1-S | Hyper Beast",
+    "romanian": "M4A1-S | Hyper Beast",
+    "russian": "M4A1-S | Скоростной зверь",
+    "schinese": "M4A1消音版 | 暴怒野兽",
+    "schinese_pw": "M4A1-S | Hyper Beast",
+    "spanish": "M4A1-S | Hiperbestia",
+    "swedish": "M4A1-S | Hyper Beast",
+    "tchinese": "M4A1-S | 亢奮野獸",
+    "thai": "M4A1-S | Hyper Beast",
+    "turkish": "M4A1-S | Hiper Canavar",
+    "ukrainian": "М4А1-С | Гіперчудовисько",
+    "vietnamese": "M4A1-S | Hyper Beast"
+  },
+  "media": {
+    "asset_id": "skin__60-430",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-430/light.png",
+      "data/api/media/rendered/files/skins/60-430/medium.png",
+      "data/api/media/rendered/files/skins/60-430/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-430.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-430/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-430/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-430/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-430/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1_hyper_beast_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1_hyper_beast_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1_hyper_beast_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Hyper Beast",
+  "search_slug": "m4a1-s-hyper-beast",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4089",
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_7",
+        "name": "The Chroma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-430__normal__battle-scarred",
+    "60-430__normal__factory-new",
+    "60-430__normal__field-tested",
+    "60-430__normal__minimal-wear",
+    "60-430__normal__well-worn",
+    "60-430__stattrak__battle-scarred",
+    "60-430__stattrak__factory-new",
+    "60-430__stattrak__field-tested",
+    "60-430__stattrak__minimal-wear",
+    "60-430__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

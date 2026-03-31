@@ -1,0 +1,306 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 371,
+    "id": 371,
+    "localized_names": {
+      "brazilian": "Styx",
+      "bulgarian": "Стикс",
+      "czech": "Styx",
+      "danish": "Styx",
+      "dutch": "Styx",
+      "english": "Styx",
+      "finnish": "Styks",
+      "french": "Styx",
+      "german": "Styx",
+      "greek": "Styx",
+      "hungarian": "Sztüx",
+      "indonesian": "Styx",
+      "italian": "Styx",
+      "japanese": "Styx",
+      "koreana": "스틱스 강",
+      "latam": "Styx",
+      "norwegian": "Styx",
+      "polish": "Styks",
+      "portuguese": "Styx",
+      "romanian": "Styx",
+      "russian": "Стикс",
+      "schinese": "冥界之憎",
+      "schinese_pw": "Styx",
+      "spanish": "Styx",
+      "swedish": "Styx",
+      "tchinese": "冥河",
+      "thai": "Styx",
+      "turkish": "Styx",
+      "ukrainian": "Стікс",
+      "vietnamese": "Styx"
+    },
+    "name": "Styx",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "10-371",
+  "localized_names": {
+    "brazilian": "FAMAS | Styx",
+    "bulgarian": "FAMAS | Стикс",
+    "czech": "FAMAS | Styx",
+    "danish": "FAMAS | Styx",
+    "dutch": "FAMAS | Styx",
+    "english": "FAMAS | Styx",
+    "finnish": "FAMAS | Styks",
+    "french": "FAMAS | Styx",
+    "german": "FAMAS | Styx",
+    "greek": "FAMAS | Styx",
+    "hungarian": "FAMAS | Sztüx",
+    "indonesian": "FAMAS | Styx",
+    "italian": "FAMAS | Styx",
+    "japanese": "FAMAS | Styx",
+    "koreana": "파마스 | 스틱스 강",
+    "latam": "FAMAS | Styx",
+    "norwegian": "FAMAS | Styx",
+    "polish": "FAMAS | Styks",
+    "portuguese": "FAMAS | Styx",
+    "romanian": "FAMAS | Styx",
+    "russian": "FAMAS | Стикс",
+    "schinese": "法玛斯 | 冥界之憎",
+    "schinese_pw": "FAMAS | Styx",
+    "spanish": "FAMAS | Styx",
+    "swedish": "FAMAS | Styx",
+    "tchinese": "FAMAS | 冥河",
+    "thai": "FAMAS | Styx",
+    "turkish": "FAMAS | Styx",
+    "ukrainian": "ФАМАС | Стікс",
+    "vietnamese": "FAMAS | Styx"
+  },
+  "media": {
+    "asset_id": "skin__10-371",
+    "images_png": [
+      "data/api/media/rendered/files/skins/10-371/light.png",
+      "data/api/media/rendered/files/skins/10-371/medium.png",
+      "data/api/media/rendered/files/skins/10-371/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/10-371.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/10-371/heavy.png",
+      "light": "data/api/media/rendered/files/skins/10-371/light.png",
+      "medium": "data/api/media/rendered/files/skins/10-371/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/10-371/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_famas_am_nuclear_skulls2_famas_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_famas_am_nuclear_skulls2_famas_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_famas_am_nuclear_skulls2_famas_medium_png.vtex_c"
+    }
+  },
+  "name": "FAMAS | Styx",
+  "search_slug": "famas-styx",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cache",
+        "name": "The Cache Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4603",
+        "kind": "container",
+        "name": "The Cache Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4026",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4035",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4083",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4136",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4181",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4230",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4278",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4348",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4400",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4467",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4544",
+        "kind": "souvenir-package",
+        "name": "London 2018 Cache Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4594",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Cache Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "10-371__normal__battle-scarred",
+    "10-371__normal__factory-new",
+    "10-371__normal__field-tested",
+    "10-371__normal__minimal-wear",
+    "10-371__normal__well-worn",
+    "10-371__souvenir__battle-scarred",
+    "10-371__souvenir__factory-new",
+    "10-371__souvenir__field-tested",
+    "10-371__souvenir__minimal-wear",
+    "10-371__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 10,
+    "localized_names": {
+      "brazilian": "FAMAS",
+      "bulgarian": "FAMAS",
+      "czech": "FAMAS",
+      "danish": "FAMAS",
+      "dutch": "FAMAS",
+      "english": "FAMAS",
+      "finnish": "FAMAS",
+      "french": "FAMAS",
+      "german": "FAMAS",
+      "greek": "FAMAS",
+      "hungarian": "FAMAS",
+      "indonesian": "FAMAS",
+      "italian": "FAMAS",
+      "japanese": "FAMAS",
+      "koreana": "파마스",
+      "latam": "FAMAS",
+      "norwegian": "FAMAS",
+      "polish": "FAMAS",
+      "portuguese": "FAMAS",
+      "romanian": "FAMAS",
+      "russian": "FAMAS",
+      "schinese": "法玛斯",
+      "schinese_pw": "FAMAS",
+      "spanish": "FAMAS",
+      "swedish": "FAMAS",
+      "tchinese": "FAMAS",
+      "thai": "FAMAS",
+      "turkish": "FAMAS",
+      "ukrainian": "ФАМАС",
+      "vietnamese": "FAMAS"
+    },
+    "name": "FAMAS",
+    "search_slug": "famas",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 900,
+    "id": 900,
+    "localized_names": {
+      "brazilian": "Caça Antigo",
+      "bulgarian": "Бойна птичка",
+      "czech": "Warbird",
+      "danish": "Warbird",
+      "dutch": "Warbird",
+      "english": "Warbird",
+      "finnish": "Sotalintu",
+      "french": "Vieux coucou",
+      "german": "Kriegsvogel",
+      "greek": "Warbird",
+      "hungarian": "Harci Madár",
+      "indonesian": "Warbird",
+      "italian": "Warbird",
+      "japanese": "Warbird",
+      "koreana": "군용기",
+      "latam": "Pájaro de guerra",
+      "norwegian": "Warbird",
+      "polish": "Demobil",
+      "portuguese": "Warbird",
+      "romanian": "Warbird",
+      "russian": "Ветеран полётов",
+      "schinese": "战隼",
+      "schinese_pw": "Warbird",
+      "spanish": "Pájaro de guerra",
+      "swedish": "Warbird",
+      "tchinese": "戰鳥",
+      "thai": "Warbird",
+      "turkish": "Savaş Kuşu",
+      "ukrainian": "Льотчик-ветеран",
+      "vietnamese": "Warbird"
+    },
+    "name": "Warbird",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.05
+    }
+  },
+  "id": "14-900",
+  "localized_names": {
+    "brazilian": "M249 | Caça Antigo",
+    "bulgarian": "M249 | Бойна птичка",
+    "czech": "M249 | Warbird",
+    "danish": "M249 | Warbird",
+    "dutch": "M249 | Warbird",
+    "english": "M249 | Warbird",
+    "finnish": "M249 | Sotalintu",
+    "french": "M249 | Vieux coucou",
+    "german": "M249 | Kriegsvogel",
+    "greek": "M249 | Warbird",
+    "hungarian": "M249 | Harci Madár",
+    "indonesian": "M249 | Warbird",
+    "italian": "M249 | Warbird",
+    "japanese": "M249 | Warbird",
+    "koreana": "M249 | 군용기",
+    "latam": "M249 | Pájaro de guerra",
+    "norwegian": "M249 | Warbird",
+    "polish": "M249 | Demobil",
+    "portuguese": "M249 | Warbird",
+    "romanian": "M249 | Warbird",
+    "russian": "M249 | Ветеран полётов",
+    "schinese": "M249 | 战隼",
+    "schinese_pw": "M249 | Warbird",
+    "spanish": "M249 | Pájaro de guerra",
+    "swedish": "M249 | Warbird",
+    "tchinese": "M249 | 戰鳥",
+    "thai": "M249 | Warbird",
+    "turkish": "M249 | Savaş Kuşu",
+    "ukrainian": "М249 | Льотчик-ветеран",
+    "vietnamese": "M249 | Warbird"
+  },
+  "media": {
+    "asset_id": "skin__14-900",
+    "images_png": [
+      "data/api/media/rendered/files/skins/14-900/light.png",
+      "data/api/media/rendered/files/skins/14-900/medium.png",
+      "data/api/media/rendered/files/skins/14-900/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/14-900.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/14-900/heavy.png",
+      "light": "data/api/media/rendered/files/skins/14-900/light.png",
+      "medium": "data/api/media/rendered/files/skins/14-900/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/14-900/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m249_gs_m249_warbird_veteran_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m249_gs_m249_warbird_veteran_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m249_gs_m249_warbird_veteran_medium_png.vtex_c"
+    }
+  },
+  "name": "M249 | Warbird",
+  "search_slug": "m249-warbird",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4620",
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_23",
+        "name": "The Shattered Web Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "14-900__normal__battle-scarred",
+    "14-900__normal__factory-new",
+    "14-900__normal__field-tested",
+    "14-900__normal__minimal-wear",
+    "14-900__normal__well-worn",
+    "14-900__stattrak__battle-scarred",
+    "14-900__stattrak__factory-new",
+    "14-900__stattrak__field-tested",
+    "14-900__stattrak__minimal-wear",
+    "14-900__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 14,
+    "localized_names": {
+      "brazilian": "M249",
+      "bulgarian": "M249",
+      "czech": "M249",
+      "danish": "M249",
+      "dutch": "M249",
+      "english": "M249",
+      "finnish": "M249",
+      "french": "M249",
+      "german": "M249",
+      "greek": "M249",
+      "hungarian": "M249",
+      "indonesian": "M249",
+      "italian": "M249",
+      "japanese": "M249",
+      "koreana": "M249",
+      "latam": "M249",
+      "norwegian": "M249",
+      "polish": "M249",
+      "portuguese": "M249",
+      "romanian": "M249",
+      "russian": "M249",
+      "schinese": "M249",
+      "schinese_pw": "M249",
+      "spanish": "M249",
+      "swedish": "M249",
+      "tchinese": "M249",
+      "thai": "M249",
+      "turkish": "M249",
+      "ukrainian": "М249",
+      "vietnamese": "M249"
+    },
+    "name": "M249",
+    "search_slug": "m249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.05
+  }
+}

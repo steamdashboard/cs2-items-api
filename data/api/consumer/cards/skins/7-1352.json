@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1352,
+    "id": 1352,
+    "localized_names": {
+      "brazilian": "A Oligarca",
+      "bulgarian": "Олигархът",
+      "czech": "Oligarch",
+      "danish": "The Oligarch",
+      "dutch": "The Oligarch",
+      "english": "The Oligarch",
+      "finnish": "Oligarkki",
+      "french": "L'oligarque",
+      "german": "Der Oligarch",
+      "greek": "The Oligarch",
+      "hungarian": "Az Oligarcha",
+      "indonesian": "The Oligarch",
+      "italian": "The Oligarch",
+      "japanese": "The Oligarch",
+      "koreana": "권력자",
+      "latam": "El oligarca",
+      "norwegian": "The Oligarch",
+      "polish": "Oligarcha",
+      "portuguese": "The Oligarch",
+      "romanian": "The Oligarch",
+      "russian": "Олигарх",
+      "schinese": "流金王朝",
+      "schinese_pw": "The Oligarch",
+      "spanish": "El oligarca",
+      "swedish": "The Oligarch",
+      "tchinese": "寡頭霸權",
+      "thai": "The Oligarch",
+      "turkish": "Oligark",
+      "ukrainian": "Олігарх",
+      "vietnamese": "The Oligarch"
+    },
+    "name": "The Oligarch",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-1352",
+  "localized_names": {
+    "brazilian": "AK-47 | A Oligarca",
+    "bulgarian": "AK-47 | Олигархът",
+    "czech": "AK-47 | Oligarch",
+    "danish": "AK-47 | The Oligarch",
+    "dutch": "AK-47 | The Oligarch",
+    "english": "AK-47 | The Oligarch",
+    "finnish": "AK-47 | Oligarkki",
+    "french": "AK-47 | L'oligarque",
+    "german": "AK-47 | Der Oligarch",
+    "greek": "AK-47 | The Oligarch",
+    "hungarian": "AK-47 | Az Oligarcha",
+    "indonesian": "AK-47 | The Oligarch",
+    "italian": "AK-47 | The Oligarch",
+    "japanese": "AK-47 | The Oligarch",
+    "koreana": "AK-47 | 권력자",
+    "latam": "AK-47 | El oligarca",
+    "norwegian": "AK-47 | The Oligarch",
+    "polish": "AK-47 | Oligarcha",
+    "portuguese": "AK-47 | The Oligarch",
+    "romanian": "AK-47 | The Oligarch",
+    "russian": "AK-47 | Олигарх",
+    "schinese": "AK-47 | 流金王朝",
+    "schinese_pw": "AK-47 | The Oligarch",
+    "spanish": "AK-47 | El oligarca",
+    "swedish": "AK-47 | The Oligarch",
+    "tchinese": "AK-47 | 寡頭霸權",
+    "thai": "AK-47 | The Oligarch",
+    "turkish": "AK-47 | Oligark",
+    "ukrainian": "АК-47 | Олігарх",
+    "vietnamese": "AK-47 | The Oligarch"
+  },
+  "media": {
+    "asset_id": "skin__7-1352",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-1352/light.png",
+      "data/api/media/rendered/files/skins/7-1352/medium.png",
+      "data/api/media/rendered/files/skins/7-1352/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-1352.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-1352/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-1352/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-1352/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-1352/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_ak47_puffer_custom_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_ak47_puffer_custom_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_ak47_puffer_custom_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | The Oligarch",
+  "search_slug": "ak-47-the-oligarch",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_community_36",
+        "name": "The Genesis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5176",
+        "kind": "container",
+        "name": "Sealed Genesis Terminal",
+        "tier": "ancient"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-1352__normal__battle-scarred",
+    "7-1352__normal__factory-new",
+    "7-1352__normal__field-tested",
+    "7-1352__normal__minimal-wear",
+    "7-1352__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

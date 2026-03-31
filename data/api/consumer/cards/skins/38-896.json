@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 896,
+    "id": 896,
+    "localized_names": {
+      "brazilian": "Rasgos",
+      "bulgarian": "Разкъсано",
+      "czech": "Torn",
+      "danish": "Torn",
+      "dutch": "Torn",
+      "english": "Torn",
+      "finnish": "Raavittu",
+      "french": "Rayures",
+      "german": "Zerrissen",
+      "greek": "Torn",
+      "hungarian": "Tépett",
+      "indonesian": "Torn",
+      "italian": "Torn",
+      "japanese": "Torn",
+      "koreana": "상처",
+      "latam": "Rasgado",
+      "norwegian": "Torn",
+      "polish": "Rozdarty",
+      "portuguese": "Torn",
+      "romanian": "Torn",
+      "russian": "Надрыв",
+      "schinese": "撕起来",
+      "schinese_pw": "Torn",
+      "spanish": "Rasgado",
+      "swedish": "Torn",
+      "tchinese": "破碎",
+      "thai": "Torn",
+      "turkish": "Yırtık",
+      "ukrainian": "Розрив",
+      "vietnamese": "Torn"
+    },
+    "name": "Torn",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.45,
+      "min_float": 0.0
+    }
+  },
+  "id": "38-896",
+  "localized_names": {
+    "brazilian": "SCAR-20 | Rasgos",
+    "bulgarian": "SCAR-20 | Разкъсано",
+    "czech": "SCAR-20 | Torn",
+    "danish": "SCAR-20 | Torn",
+    "dutch": "SCAR-20 | Torn",
+    "english": "SCAR-20 | Torn",
+    "finnish": "SCAR-20 | Raavittu",
+    "french": "SCAR-20 | Rayures",
+    "german": "SCAR-20 | Zerrissen",
+    "greek": "SCAR-20 | Torn",
+    "hungarian": "SCAR-20 | Tépett",
+    "indonesian": "SCAR-20 | Torn",
+    "italian": "SCAR-20 | Torn",
+    "japanese": "SCAR-20 | Torn",
+    "koreana": "SCAR-20 | 상처",
+    "latam": "SCAR-20 | Rasgado",
+    "norwegian": "SCAR-20 | Torn",
+    "polish": "SCAR-20 | Rozdarty",
+    "portuguese": "SCAR-20 | Torn",
+    "romanian": "SCAR-20 | Torn",
+    "russian": "SCAR-20 | Надрыв",
+    "schinese": "SCAR-20 | 撕起来",
+    "schinese_pw": "SCAR-20 | Torn",
+    "spanish": "SCAR-20 | Rasgado",
+    "swedish": "SCAR-20 | Torn",
+    "tchinese": "SCAR-20 | 破碎",
+    "thai": "SCAR-20 | Torn",
+    "turkish": "SCAR-20 | Yırtık",
+    "ukrainian": "СКАР-20 | Розрив",
+    "vietnamese": "SCAR-20 | Torn"
+  },
+  "media": {
+    "asset_id": "skin__38-896",
+    "images_png": [
+      "data/api/media/rendered/files/skins/38-896/light.png",
+      "data/api/media/rendered/files/skins/38-896/medium.png",
+      "data/api/media/rendered/files/skins/38-896/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/38-896.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/38-896/heavy.png",
+      "light": "data/api/media/rendered/files/skins/38-896/light.png",
+      "medium": "data/api/media/rendered/files/skins/38-896/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/38-896/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_scar20_sp_scar20_striker_dust_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_scar20_sp_scar20_striker_dust_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_scar20_sp_scar20_striker_dust_medium_png.vtex_c"
+    }
+  },
+  "name": "SCAR-20 | Torn",
+  "search_slug": "scar-20-torn",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4620",
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_23",
+        "name": "The Shattered Web Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "38-896__normal__factory-new",
+    "38-896__normal__field-tested",
+    "38-896__normal__minimal-wear",
+    "38-896__normal__well-worn",
+    "38-896__stattrak__factory-new",
+    "38-896__stattrak__field-tested",
+    "38-896__stattrak__minimal-wear",
+    "38-896__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 38,
+    "localized_names": {
+      "brazilian": "SCAR-20",
+      "bulgarian": "SCAR-20",
+      "czech": "SCAR-20",
+      "danish": "SCAR-20",
+      "dutch": "SCAR-20",
+      "english": "SCAR-20",
+      "finnish": "SCAR-20",
+      "french": "SCAR-20",
+      "german": "SCAR-20",
+      "greek": "SCAR-20",
+      "hungarian": "SCAR-20",
+      "indonesian": "SCAR-20",
+      "italian": "SCAR-20",
+      "japanese": "SCAR-20",
+      "koreana": "SCAR-20",
+      "latam": "SCAR-20",
+      "norwegian": "SCAR-20",
+      "polish": "SCAR-20",
+      "portuguese": "SCAR-20",
+      "romanian": "SCAR-20",
+      "russian": "SCAR-20",
+      "schinese": "SCAR-20",
+      "schinese_pw": "SCAR-20",
+      "spanish": "SCAR-20",
+      "swedish": "SCAR-20",
+      "tchinese": "SCAR-20",
+      "thai": "SCAR-20",
+      "turkish": "SCAR-20",
+      "ukrainian": "СКАР-20",
+      "vietnamese": "SCAR-20"
+    },
+    "name": "SCAR-20",
+    "search_slug": "scar-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.45,
+    "min_float": 0.0
+  }
+}

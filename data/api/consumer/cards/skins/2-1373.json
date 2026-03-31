@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1373,
+    "id": 1373,
+    "localized_names": {
+      "brazilian": "Prata Derramada",
+      "bulgarian": "Разлято сребро",
+      "czech": "Silver Pour",
+      "danish": "Silver Pour",
+      "dutch": "Silver Pour",
+      "english": "Silver Pour",
+      "finnish": "Hopeavalu",
+      "french": "Déversement argenté",
+      "german": "Silberguss",
+      "greek": "Silver Pour",
+      "hungarian": "Ezüst Öntés",
+      "indonesian": "Silver Pour",
+      "italian": "Silver Pour",
+      "japanese": "Silver Pour",
+      "koreana": "실버 푸어",
+      "latam": "Derrame de plata",
+      "norwegian": "Silver Pour",
+      "polish": "Srebrna dolewka",
+      "portuguese": "Silver Pour",
+      "romanian": "Silver Pour",
+      "russian": "Серебряный налив",
+      "schinese": "银流",
+      "schinese_pw": "Silver Pour",
+      "spanish": "Derrame de plata",
+      "swedish": "Silver Pour",
+      "tchinese": "銀色傾倒",
+      "thai": "Silver Pour",
+      "turkish": "Gümüş Döküm",
+      "ukrainian": "Срібні розводи",
+      "vietnamese": "Silver Pour"
+    },
+    "name": "Silver Pour",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.678431,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-1373",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Prata Derramada",
+    "bulgarian": "Два Beretta | Разлято сребро",
+    "czech": "Dual Berettas | Silver Pour",
+    "danish": "Dual Berettas | Silver Pour",
+    "dutch": "Dual Berettas | Silver Pour",
+    "english": "Dual Berettas | Silver Pour",
+    "finnish": "Tupla-Berettat | Hopeavalu",
+    "french": "Dual Berettas | Déversement argenté",
+    "german": "Akimbo-Berettas | Silberguss",
+    "greek": "Dual Berettas | Silver Pour",
+    "hungarian": "Dupla Beretta | Ezüst Öntés",
+    "indonesian": "Dual Berettas | Silver Pour",
+    "italian": "Doppia Beretta | Silver Pour",
+    "japanese": "Dual Berettas | Silver Pour",
+    "koreana": "듀얼 베레타 | 실버 푸어",
+    "latam": "Berettas dobles | Derrame de plata",
+    "norwegian": "Dual Berettas | Silver Pour",
+    "polish": "Dwie beretty | Srebrna dolewka",
+    "portuguese": "Dual Berettas | Silver Pour",
+    "romanian": "Dual Berettas | Silver Pour",
+    "russian": "Dual Berettas | Серебряный налив",
+    "schinese": "双持贝瑞塔 | 银流",
+    "schinese_pw": "Dual Berettas | Silver Pour",
+    "spanish": "Berettas dobles | Derrame de plata",
+    "swedish": "Dual Berettas | Silver Pour",
+    "tchinese": "Dual Berettas | 銀色傾倒",
+    "thai": "Dual Berettas | Silver Pour",
+    "turkish": "Çift Beretta | Gümüş Döküm",
+    "ukrainian": "Подвійні «Беретти» | Срібні розводи",
+    "vietnamese": "Dual Berettas | Silver Pour"
+  },
+  "media": {
+    "asset_id": "skin__2-1373",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-1373/light.png",
+      "data/api/media/rendered/files/skins/2-1373/medium.png",
+      "data/api/media/rendered/files/skins/2-1373/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-1373.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-1373/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-1373/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-1373/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-1373/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_soe_acrylic_flow3_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_soe_acrylic_flow3_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_soe_acrylic_flow3_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Silver Pour",
+  "search_slug": "dual-berettas-silver-pour",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_achroma",
+        "name": "The Achroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "2-1373__normal__battle-scarred",
+    "2-1373__normal__factory-new",
+    "2-1373__normal__field-tested",
+    "2-1373__normal__minimal-wear",
+    "2-1373__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.678431,
+    "min_float": 0.0
+  }
+}

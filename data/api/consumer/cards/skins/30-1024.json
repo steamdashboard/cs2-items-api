@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1024,
+    "id": 1024,
+    "localized_names": {
+      "brazilian": "Explosão do Passado",
+      "bulgarian": "Проблясък от миналото",
+      "czech": "Blast From the Past",
+      "danish": "Blast From the Past",
+      "dutch": "Blast From the Past",
+      "english": "Blast From the Past",
+      "finnish": "Tuulahdus menneisyydestä",
+      "french": "Attrait du passé",
+      "german": "Gruß aus der Vergangenheit",
+      "greek": "Blast From the Past",
+      "hungarian": "Nosztalgia",
+      "indonesian": "Blast From the Past",
+      "italian": "Blast From the Past",
+      "japanese": "Blast From the Past",
+      "koreana": "고대 타일",
+      "latam": "Recuerdos del pasado",
+      "norwegian": "Blast From the Past",
+      "polish": "Powrót do przeszłości",
+      "portuguese": "Blast From the Past",
+      "romanian": "Blast From the Past",
+      "russian": "Привет из прошлого",
+      "schinese": "上古图腾",
+      "schinese_pw": "Blast From the Past",
+      "spanish": "Recuerdos del pasado",
+      "swedish": "Blast From the Past",
+      "tchinese": "舊日情懷",
+      "thai": "Blast From the Past",
+      "turkish": "Geçmişten Bir Anı",
+      "ukrainian": "Вибух із минулого",
+      "vietnamese": "Blast From the Past"
+    },
+    "name": "Blast From the Past",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-1024",
+  "localized_names": {
+    "brazilian": "Tec-9 | Explosão do Passado",
+    "bulgarian": "Tec-9 | Проблясък от миналото",
+    "czech": "Tec-9 | Blast From the Past",
+    "danish": "Tec-9 | Blast From the Past",
+    "dutch": "Tec-9 | Blast From the Past",
+    "english": "Tec-9 | Blast From the Past",
+    "finnish": "Tec-9 | Tuulahdus menneisyydestä",
+    "french": "Tec-9 | Attrait du passé",
+    "german": "Tec-9 | Gruß aus der Vergangenheit",
+    "greek": "Tec-9 | Blast From the Past",
+    "hungarian": "Tec-9 | Nosztalgia",
+    "indonesian": "Tec-9 | Blast From the Past",
+    "italian": "Tec-9 | Blast From the Past",
+    "japanese": "Tec-9 | Blast From the Past",
+    "koreana": "Tec-9 | 고대 타일",
+    "latam": "Tec-9 | Recuerdos del pasado",
+    "norwegian": "Tec-9 | Blast From the Past",
+    "polish": "Tec-9 | Powrót do przeszłości",
+    "portuguese": "Tec-9 | Blast From the Past",
+    "romanian": "Tec-9 | Blast From the Past",
+    "russian": "Tec-9 | Привет из прошлого",
+    "schinese": "Tec-9 | 上古图腾",
+    "schinese_pw": "Tec-9 | Blast From the Past",
+    "spanish": "Tec-9 | Recuerdos del pasado",
+    "swedish": "Tec-9 | Blast From the Past",
+    "tchinese": "Tec-9 | 舊日情懷",
+    "thai": "Tec-9 | Blast From the Past",
+    "turkish": "Tec-9 | Geçmişten Bir Anı",
+    "ukrainian": "ТЕК-9 | Вибух із минулого",
+    "vietnamese": "Tec-9 | Blast From the Past"
+  },
+  "media": {
+    "asset_id": "skin__30-1024",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-1024/light.png",
+      "data/api/media/rendered/files/skins/30-1024/medium.png",
+      "data/api/media/rendered/files/skins/30-1024/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-1024.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-1024/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-1024/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-1024/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-1024/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_hy_ancient_tiles_peach_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_hy_ancient_tiles_peach_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_hy_ancient_tiles_peach_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Blast From the Past",
+  "search_slug": "tec-9-blast-from-the-past",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4722",
+        "kind": "container",
+        "name": "The Ancient Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4971",
+        "kind": "container",
+        "name": "Shanghai 2024 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5124",
+        "kind": "container",
+        "name": "Austin 2025 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5223",
+        "kind": "container",
+        "name": "Budapest 2025 Ancient Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4813",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4839",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4864",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4897",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Ancient Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4930",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "30-1024__normal__battle-scarred",
+    "30-1024__normal__factory-new",
+    "30-1024__normal__field-tested",
+    "30-1024__normal__minimal-wear",
+    "30-1024__normal__well-worn",
+    "30-1024__souvenir__battle-scarred",
+    "30-1024__souvenir__factory-new",
+    "30-1024__souvenir__field-tested",
+    "30-1024__souvenir__minimal-wear",
+    "30-1024__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

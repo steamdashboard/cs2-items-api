@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 446,
+    "id": 446,
+    "localized_names": {
+      "brazilian": "Medusa",
+      "bulgarian": "Медуза",
+      "czech": "Medusa",
+      "danish": "Medusa",
+      "dutch": "Medusa",
+      "english": "Medusa",
+      "finnish": "Medusa",
+      "french": "Méduse",
+      "german": "Medusa",
+      "greek": "Medusa",
+      "hungarian": "Medusza",
+      "indonesian": "Medusa",
+      "italian": "Medusa",
+      "japanese": "Medusa",
+      "koreana": "메두사",
+      "latam": "Medusa",
+      "norwegian": "Medusa",
+      "polish": "Meduza",
+      "portuguese": "Medusa",
+      "romanian": "Medusa",
+      "russian": "Медуза",
+      "schinese": "美杜莎",
+      "schinese_pw": "Medusa",
+      "spanish": "Medusa",
+      "swedish": "Medusa",
+      "tchinese": "梅杜莎",
+      "thai": "Medusa",
+      "turkish": "Medusa",
+      "ukrainian": "Медуза",
+      "vietnamese": "Medusa"
+    },
+    "name": "Medusa",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-446",
+  "localized_names": {
+    "brazilian": "AWP | Medusa",
+    "bulgarian": "AWP | Медуза",
+    "czech": "AWP | Medusa",
+    "danish": "AWP | Medusa",
+    "dutch": "AWP | Medusa",
+    "english": "AWP | Medusa",
+    "finnish": "AWP | Medusa",
+    "french": "AWP | Méduse",
+    "german": "AWP | Medusa",
+    "greek": "AWP | Medusa",
+    "hungarian": "AWP | Medusza",
+    "indonesian": "AWP | Medusa",
+    "italian": "AWP | Medusa",
+    "japanese": "AWP | Medusa",
+    "koreana": "AWP | 메두사",
+    "latam": "AWP | Medusa",
+    "norwegian": "AWP | Medusa",
+    "polish": "AWP | Meduza",
+    "portuguese": "AWP | Medusa",
+    "romanian": "AWP | Medusa",
+    "russian": "AWP | Медуза",
+    "schinese": "AWP | 美杜莎",
+    "schinese_pw": "AWP | Medusa",
+    "spanish": "AWP | Medusa",
+    "swedish": "AWP | Medusa",
+    "tchinese": "AWP | 梅杜莎",
+    "thai": "AWP | Medusa",
+    "turkish": "AWP | Medusa",
+    "ukrainian": "АВП | Медуза",
+    "vietnamese": "AWP | Medusa"
+  },
+  "media": {
+    "asset_id": "skin__9-446",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-446/light.png",
+      "data/api/media/rendered/files/skins/9-446/medium.png",
+      "data/api/media/rendered/files/skins/9-446/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-446.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-446/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-446/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-446/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-446/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_cu_medusa_awp_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_cu_medusa_awp_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_cu_medusa_awp_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Medusa",
+  "search_slug": "awp-medusa",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_gods_and_monsters",
+        "name": "The Gods and Monsters Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4604",
+        "kind": "container",
+        "name": "The Gods and Monsters Collection",
+        "tier": "ancient"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-446__normal__battle-scarred",
+    "9-446__normal__factory-new",
+    "9-446__normal__field-tested",
+    "9-446__normal__minimal-wear",
+    "9-446__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

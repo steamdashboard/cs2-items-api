@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1326,
+    "id": 1326,
+    "localized_names": {
+      "brazilian": "Ocre Curta",
+      "bulgarian": "Къса охра",
+      "czech": "Short Ochre",
+      "danish": "Short Ochre",
+      "dutch": "Short Ochre",
+      "english": "Short Ochre",
+      "finnish": "Lyhyt okra",
+      "french": "Ocre court",
+      "german": "Kleines Ockerfarbenes",
+      "greek": "Short Ochre",
+      "hungarian": "Rövid Okker",
+      "indonesian": "Short Ochre",
+      "italian": "Short Ochre",
+      "japanese": "Short Ochre",
+      "koreana": "쇼트 오커",
+      "latam": "Ocre corto",
+      "norwegian": "Short Ochre",
+      "polish": "Krótka ochra",
+      "portuguese": "Short Ochre",
+      "romanian": "Short Ochre",
+      "russian": "Короткая охра",
+      "schinese": "赭石短调",
+      "schinese_pw": "Short Ochre",
+      "spanish": "Ocre corto",
+      "swedish": "Short Ochre",
+      "tchinese": "黃赭短式",
+      "thai": "Short Ochre",
+      "turkish": "Kısa Sarı",
+      "ukrainian": "Коротка охра",
+      "vietnamese": "Short Ochre"
+    },
+    "name": "Short Ochre",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.746575,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-1326",
+  "localized_names": {
+    "brazilian": "MP7 | Ocre Curta",
+    "bulgarian": "MP7 | Къса охра",
+    "czech": "MP7 | Short Ochre",
+    "danish": "MP7 | Short Ochre",
+    "dutch": "MP7 | Short Ochre",
+    "english": "MP7 | Short Ochre",
+    "finnish": "MP7 | Lyhyt okra",
+    "french": "MP7 | Ocre court",
+    "german": "MP7 | Kleines Ockerfarbenes",
+    "greek": "MP7 | Short Ochre",
+    "hungarian": "MP7 | Rövid Okker",
+    "indonesian": "MP7 | Short Ochre",
+    "italian": "MP7 | Short Ochre",
+    "japanese": "MP7 | Short Ochre",
+    "koreana": "MP7 | 쇼트 오커",
+    "latam": "MP7 | Ocre corto",
+    "norwegian": "MP7 | Short Ochre",
+    "polish": "MP7 | Krótka ochra",
+    "portuguese": "MP7 | Short Ochre",
+    "romanian": "MP7 | Short Ochre",
+    "russian": "MP7 | Короткая охра",
+    "schinese": "MP7 | 赭石短调",
+    "schinese_pw": "MP7 | Short Ochre",
+    "spanish": "MP7 | Ocre corto",
+    "swedish": "MP7 | Short Ochre",
+    "tchinese": "MP7 | 黃赭短式",
+    "thai": "MP7 | Short Ochre",
+    "turkish": "MP7 | Kısa Sarı",
+    "ukrainian": "МП7 | Коротка охра",
+    "vietnamese": "MP7 | Short Ochre"
+  },
+  "media": {
+    "asset_id": "skin__33-1326",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-1326/light.png",
+      "data/api/media/rendered/files/skins/33-1326/medium.png",
+      "data/api/media/rendered/files/skins/33-1326/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-1326.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-1326/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-1326/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-1326/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-1326/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_so_mustard_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_so_mustard_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_so_mustard_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Short Ochre",
+  "search_slug": "mp7-short-ochre",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-1326__normal__battle-scarred",
+    "33-1326__normal__factory-new",
+    "33-1326__normal__field-tested",
+    "33-1326__normal__minimal-wear",
+    "33-1326__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.746575,
+    "min_float": 0.0
+  }
+}

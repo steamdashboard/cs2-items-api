@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 381,
+    "id": 381,
+    "localized_names": {
+      "brazilian": "Partido",
+      "bulgarian": "Шлайфмашина",
+      "czech": "Grinder",
+      "danish": "Grinder",
+      "dutch": "Grinder",
+      "english": "Grinder",
+      "finnish": "Murskaaja",
+      "french": "Broyeur",
+      "german": "Mahlwerk",
+      "greek": "Grinder",
+      "hungarian": "Daráló",
+      "indonesian": "Grinder",
+      "italian": "Grinder",
+      "japanese": "Grinder",
+      "koreana": "분쇄기",
+      "latam": "Afilado",
+      "norwegian": "Grinder",
+      "polish": "Młynek",
+      "portuguese": "Grinder",
+      "romanian": "Grinder",
+      "russian": "Жернов",
+      "schinese": "粉碎者",
+      "schinese_pw": "Grinder",
+      "spanish": "Afilado",
+      "swedish": "Grinder",
+      "tchinese": "粉碎者",
+      "thai": "Grinder",
+      "turkish": "Öğütücü",
+      "ukrainian": "Жорно",
+      "vietnamese": "Grinder"
+    },
+    "name": "Grinder",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 0.25,
+      "min_float": 0.02
+    }
+  },
+  "id": "4-381",
+  "localized_names": {
+    "brazilian": "Glock-18 | Partido",
+    "bulgarian": "Glock-18 | Шлайфмашина",
+    "czech": "Glock-18 | Grinder",
+    "danish": "Glock-18 | Grinder",
+    "dutch": "Glock-18 | Grinder",
+    "english": "Glock-18 | Grinder",
+    "finnish": "Glock-18 | Murskaaja",
+    "french": "Glock-18 | Broyeur",
+    "german": "Glock-18 | Mahlwerk",
+    "greek": "Glock-18 | Grinder",
+    "hungarian": "Glock-18 | Daráló",
+    "indonesian": "Glock-18 | Grinder",
+    "italian": "Glock-18 | Grinder",
+    "japanese": "Glock-18 | Grinder",
+    "koreana": "글록 18 | 분쇄기",
+    "latam": "Glock-18 | Afilado",
+    "norwegian": "Glock-18 | Grinder",
+    "polish": "Glock-18 | Młynek",
+    "portuguese": "Glock-18 | Grinder",
+    "romanian": "Glock-18 | Grinder",
+    "russian": "Glock-18 | Жернов",
+    "schinese": "格洛克18型 | 粉碎者",
+    "schinese_pw": "Glock-18 | Grinder",
+    "spanish": "Glock-18 | Afilado",
+    "swedish": "Glock-18 | Grinder",
+    "tchinese": "Glock-18 | 粉碎者",
+    "thai": "Glock-18 | Grinder",
+    "turkish": "Glock-18 | Öğütücü",
+    "ukrainian": "Ґлок-18 | Жорно",
+    "vietnamese": "Glock-18 | Grinder"
+  },
+  "media": {
+    "asset_id": "skin__4-381",
+    "images_png": [
+      "data/api/media/rendered/files/skins/4-381/light.png",
+      "data/api/media/rendered/files/skins/4-381/medium.png",
+      "data/api/media/rendered/files/skins/4-381/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/4-381.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/4-381/heavy.png",
+      "light": "data/api/media/rendered/files/skins/4-381/light.png",
+      "medium": "data/api/media/rendered/files/skins/4-381/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/4-381/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_glock_aq_glock_coiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_glock_aq_glock_coiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_glock_aq_glock_coiled_medium_png.vtex_c"
+    }
+  },
+  "name": "Glock-18 | Grinder",
+  "search_slug": "glock-18-grinder",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4029",
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_5",
+        "name": "The Vanguard Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "4-381__normal__factory-new",
+    "4-381__normal__field-tested",
+    "4-381__normal__minimal-wear",
+    "4-381__stattrak__factory-new",
+    "4-381__stattrak__field-tested",
+    "4-381__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 4,
+    "localized_names": {
+      "brazilian": "Glock-18",
+      "bulgarian": "Glock-18",
+      "czech": "Glock-18",
+      "danish": "Glock-18",
+      "dutch": "Glock-18",
+      "english": "Glock-18",
+      "finnish": "Glock-18",
+      "french": "Glock-18",
+      "german": "Glock-18",
+      "greek": "Glock-18",
+      "hungarian": "Glock-18",
+      "indonesian": "Glock-18",
+      "italian": "Glock-18",
+      "japanese": "Glock-18",
+      "koreana": "글록 18",
+      "latam": "Glock-18",
+      "norwegian": "Glock-18",
+      "polish": "Glock-18",
+      "portuguese": "Glock-18",
+      "romanian": "Glock-18",
+      "russian": "Glock-18",
+      "schinese": "格洛克18型",
+      "schinese_pw": "Glock-18",
+      "spanish": "Glock-18",
+      "swedish": "Glock-18",
+      "tchinese": "Glock-18",
+      "thai": "Glock-18",
+      "turkish": "Glock-18",
+      "ukrainian": "Ґлок-18",
+      "vietnamese": "Glock-18"
+    },
+    "name": "Glock-18",
+    "search_slug": "glock-18",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.25,
+    "min_float": 0.02
+  }
+}

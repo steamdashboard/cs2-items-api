@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 824,
+    "id": 824,
+    "localized_names": {
+      "brazilian": "Madeira Flutuante",
+      "bulgarian": "Плаващи трупи",
+      "czech": "Drift Wood",
+      "danish": "Drift Wood",
+      "dutch": "Drift Wood",
+      "english": "Drift Wood",
+      "finnish": "Ajopuu",
+      "french": "Bois de grève",
+      "german": "Treibholz",
+      "greek": "Drift Wood",
+      "hungarian": "Uszadékfa",
+      "indonesian": "Drift Wood",
+      "italian": "Drift Wood",
+      "japanese": "Drift Wood",
+      "koreana": "유목",
+      "latam": "Madera flotante",
+      "norwegian": "Drift Wood",
+      "polish": "Dryfujące drewno",
+      "portuguese": "Drift Wood",
+      "romanian": "Drift Wood",
+      "russian": "Сплавной лес",
+      "schinese": "浮木",
+      "schinese_pw": "Drift Wood",
+      "spanish": "Madera a la deriva",
+      "swedish": "Drift Wood",
+      "tchinese": "漂流木",
+      "thai": "Drift Wood",
+      "turkish": "Sürüklenen Ahşap",
+      "ukrainian": "Корч",
+      "vietnamese": "Drift Wood"
+    },
+    "name": "Drift Wood",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-824",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Madeira Flutuante",
+    "bulgarian": "Два Beretta | Плаващи трупи",
+    "czech": "Dual Berettas | Drift Wood",
+    "danish": "Dual Berettas | Drift Wood",
+    "dutch": "Dual Berettas | Drift Wood",
+    "english": "Dual Berettas | Drift Wood",
+    "finnish": "Tupla-Berettat | Ajopuu",
+    "french": "Dual Berettas | Bois de grève",
+    "german": "Akimbo-Berettas | Treibholz",
+    "greek": "Dual Berettas | Drift Wood",
+    "hungarian": "Dupla Beretta | Uszadékfa",
+    "indonesian": "Dual Berettas | Drift Wood",
+    "italian": "Doppia Beretta | Drift Wood",
+    "japanese": "Dual Berettas | Drift Wood",
+    "koreana": "듀얼 베레타 | 유목",
+    "latam": "Berettas dobles | Madera flotante",
+    "norwegian": "Dual Berettas | Drift Wood",
+    "polish": "Dwie beretty | Dryfujące drewno",
+    "portuguese": "Dual Berettas | Drift Wood",
+    "romanian": "Dual Berettas | Drift Wood",
+    "russian": "Dual Berettas | Сплавной лес",
+    "schinese": "双持贝瑞塔 | 浮木",
+    "schinese_pw": "Dual Berettas | Drift Wood",
+    "spanish": "Berettas dobles | Madera a la deriva",
+    "swedish": "Dual Berettas | Drift Wood",
+    "tchinese": "Dual Berettas | 漂流木",
+    "thai": "Dual Berettas | Drift Wood",
+    "turkish": "Çift Beretta | Sürüklenen Ahşap",
+    "ukrainian": "Подвійні «Беретти» | Корч",
+    "vietnamese": "Dual Berettas | Drift Wood"
+  },
+  "media": {
+    "asset_id": "skin__2-824",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-824/light.png",
+      "data/api/media/rendered/files/skins/2-824/medium.png",
+      "data/api/media/rendered/files/skins/2-824/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-824.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-824/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-824/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-824/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-824/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_sp_dry_wood_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_sp_dry_wood_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_sp_dry_wood_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Drift Wood",
+  "search_slug": "dual-berettas-drift-wood",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "2-824__normal__battle-scarred",
+    "2-824__normal__factory-new",
+    "2-824__normal__field-tested",
+    "2-824__normal__minimal-wear",
+    "2-824__normal__well-worn",
+    "2-824__souvenir__battle-scarred",
+    "2-824__souvenir__factory-new",
+    "2-824__souvenir__field-tested",
+    "2-824__souvenir__minimal-wear",
+    "2-824__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

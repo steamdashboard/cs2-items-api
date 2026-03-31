@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 387,
+    "id": 387,
+    "localized_names": {
+      "brazilian": "Perigo Urbano",
+      "bulgarian": "Градска заплаха",
+      "czech": "Urban Hazard",
+      "danish": "Urban Hazard",
+      "dutch": "Urban Hazard",
+      "english": "Urban Hazard",
+      "finnish": "Urbaani uhka",
+      "french": "Danger urbain",
+      "german": "Städtische Gefahr",
+      "greek": "Urban Hazard",
+      "hungarian": "Városi Veszély",
+      "indonesian": "Urban Hazard",
+      "italian": "Urban Hazard",
+      "japanese": "Urban Hazard",
+      "koreana": "시가지 위험요소",
+      "latam": "Peligro urbano",
+      "norwegian": "Urban Hazard",
+      "polish": "Miejskie ryzyko",
+      "portuguese": "Urban Hazard",
+      "romanian": "Urban Hazard",
+      "russian": "Городская опасность",
+      "schinese": "都市危机",
+      "schinese_pw": "Urban Hazard",
+      "spanish": "Peligro urbano",
+      "swedish": "Urban Hazard",
+      "tchinese": "都市危機",
+      "thai": "Urban Hazard",
+      "turkish": "Şehir Tehlikesi",
+      "ukrainian": "Міський захисний",
+      "vietnamese": "Urban Hazard"
+    },
+    "name": "Urban Hazard",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.25,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-387",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Perigo Urbano",
+    "bulgarian": "Five-SeveN | Градска заплаха",
+    "czech": "Five-SeveN | Urban Hazard",
+    "danish": "Five-SeveN | Urban Hazard",
+    "dutch": "Five-SeveN | Urban Hazard",
+    "english": "Five-SeveN | Urban Hazard",
+    "finnish": "Five-SeveN | Urbaani uhka",
+    "french": "Five-SeveN | Danger urbain",
+    "german": "Five-SeveN | Städtische Gefahr",
+    "greek": "Five-SeveN | Urban Hazard",
+    "hungarian": "Five-SeveN | Városi Veszély",
+    "indonesian": "Five-SeveN | Urban Hazard",
+    "italian": "Five-SeveN | Urban Hazard",
+    "japanese": "Five-SeveN | Urban Hazard",
+    "koreana": "파이브 세븐 | 시가지 위험요소",
+    "latam": "Five-SeveN | Peligro urbano",
+    "norwegian": "Five-SeveN | Urban Hazard",
+    "polish": "Five-SeveN | Miejskie ryzyko",
+    "portuguese": "Five-SeveN | Urban Hazard",
+    "romanian": "Five-SeveN | Urban Hazard",
+    "russian": "Five-SeveN | Городская опасность",
+    "schinese": "FN57 | 都市危机",
+    "schinese_pw": "Five-SeveN | Urban Hazard",
+    "spanish": "Five-seveN | Peligro urbano",
+    "swedish": "Five-SeveN | Urban Hazard",
+    "tchinese": "Five-SeveN | 都市危機",
+    "thai": "Five-SeveN | Urban Hazard",
+    "turkish": "Five-SeveN | Şehir Tehlikesi",
+    "ukrainian": "Five-seveN | Міський захисний",
+    "vietnamese": "Five-SeveN | Urban Hazard"
+  },
+  "media": {
+    "asset_id": "skin__3-387",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-387/light.png",
+      "data/api/media/rendered/files/skins/3-387/medium.png",
+      "data/api/media/rendered/files/skins/3-387/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-387.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-387/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-387/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-387/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-387/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_cu_fiveseven_urban_hazard_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_cu_fiveseven_urban_hazard_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_cu_fiveseven_urban_hazard_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Urban Hazard",
+  "search_slug": "five-seven-urban-hazard",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4029",
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_5",
+        "name": "The Vanguard Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-387__normal__factory-new",
+    "3-387__normal__field-tested",
+    "3-387__normal__minimal-wear",
+    "3-387__stattrak__factory-new",
+    "3-387__stattrak__field-tested",
+    "3-387__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.25,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1253,
+    "id": 1253,
+    "localized_names": {
+      "brazilian": "Tática Desértica",
+      "bulgarian": "Пустинно тактическо",
+      "czech": "Desert Tactical",
+      "danish": "Desert Tactical",
+      "dutch": "Desert Tactical",
+      "english": "Desert Tactical",
+      "finnish": "Aavikkokuvio",
+      "french": "Tactique du désert",
+      "german": "Wüstentarnung",
+      "greek": "Desert Tactical",
+      "hungarian": "Sivatagi Taktikai",
+      "indonesian": "Desert Tactical",
+      "italian": "Desert Tactical",
+      "japanese": "Desert Tactical",
+      "koreana": "사막 전술",
+      "latam": "Tácticas del desierto",
+      "norwegian": "Desert Tactical",
+      "polish": "Pustynny taktyczny",
+      "portuguese": "Desert Tactical",
+      "romanian": "Desert Tactical",
+      "russian": "Пустынная тактика",
+      "schinese": "沙漠战术",
+      "schinese_pw": "Desert Tactical",
+      "spanish": "Tácticas del desierto",
+      "swedish": "Desert Tactical",
+      "tchinese": "沙漠戰術",
+      "thai": "Desert Tactical",
+      "turkish": "Çöl Taktikleri",
+      "ukrainian": "Пустельна тактика",
+      "vietnamese": "Desert Tactical"
+    },
+    "name": "Desert Tactical",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-1253",
+  "localized_names": {
+    "brazilian": "USP-S | Tática Desértica",
+    "bulgarian": "USP-S | Пустинно тактическо",
+    "czech": "USP-S | Desert Tactical",
+    "danish": "USP-S | Desert Tactical",
+    "dutch": "USP-S | Desert Tactical",
+    "english": "USP-S | Desert Tactical",
+    "finnish": "USP-S | Aavikkokuvio",
+    "french": "USP-S | Tactique du désert",
+    "german": "USP-S | Wüstentarnung",
+    "greek": "USP-S | Desert Tactical",
+    "hungarian": "USP-S | Sivatagi Taktikai",
+    "indonesian": "USP-S | Desert Tactical",
+    "italian": "USP-S | Desert Tactical",
+    "japanese": "USP-S | Desert Tactical",
+    "koreana": "USP-S | 사막 전술",
+    "latam": "USP-S | Tácticas del desierto",
+    "norwegian": "USP-S | Desert Tactical",
+    "polish": "USP-S | Pustynny taktyczny",
+    "portuguese": "USP-S | Desert Tactical",
+    "romanian": "USP-S | Desert Tactical",
+    "russian": "USP-S | Пустынная тактика",
+    "schinese": "USP消音版 | 沙漠战术",
+    "schinese_pw": "USP-S | Desert Tactical",
+    "spanish": "USP-S | Tácticas del desierto",
+    "swedish": "USP-S | Desert Tactical",
+    "tchinese": "USP-S | 沙漠戰術",
+    "thai": "USP-S | Desert Tactical",
+    "turkish": "USP-S | Çöl Taktikleri",
+    "ukrainian": "УСП-С | Пустельна тактика",
+    "vietnamese": "USP-S | Desert Tactical"
+  },
+  "media": {
+    "asset_id": "skin__61-1253",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-1253/light.png",
+      "data/api/media/rendered/files/skins/61-1253/medium.png",
+      "data/api/media/rendered/files/skins/61-1253/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-1253.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-1253/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-1253/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-1253/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-1253/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_gs_usps_tactical_camo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_gs_usps_tactical_camo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_gs_usps_tactical_camo_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Desert Tactical",
+  "search_slug": "usp-s-desert-tactical",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_anubis",
+        "name": "The Anubis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4882",
+        "kind": "container",
+        "name": "Anubis Collection Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4969",
+        "kind": "container",
+        "name": "Shanghai 2024 Anubis Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5122",
+        "kind": "container",
+        "name": "Austin 2025 Anubis Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4895",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Anubis Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4928",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "61-1253__normal__battle-scarred",
+    "61-1253__normal__factory-new",
+    "61-1253__normal__field-tested",
+    "61-1253__normal__minimal-wear",
+    "61-1253__normal__well-worn",
+    "61-1253__souvenir__battle-scarred",
+    "61-1253__souvenir__factory-new",
+    "61-1253__souvenir__field-tested",
+    "61-1253__souvenir__minimal-wear",
+    "61-1253__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

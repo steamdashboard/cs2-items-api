@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 285,
+    "id": 285,
+    "localized_names": {
+      "brazilian": "Terreno",
+      "bulgarian": "Почва",
+      "czech": "Terrain",
+      "danish": "Terrain",
+      "dutch": "Terrain",
+      "english": "Terrain",
+      "finnish": "Maasto",
+      "french": "Terrain",
+      "german": "Terrain",
+      "greek": "Terrain",
+      "hungarian": "Terep",
+      "indonesian": "Terrain",
+      "italian": "Terrain",
+      "japanese": "地形",
+      "koreana": "지형지물",
+      "latam": "Terreno",
+      "norwegian": "Terrain",
+      "polish": "Teren",
+      "portuguese": "Terrain",
+      "romanian": "Terrain",
+      "russian": "Почва",
+      "schinese": "青绿地形",
+      "schinese_pw": "Terrain",
+      "spanish": "Terreno",
+      "swedish": "Terrain",
+      "tchinese": "地形",
+      "thai": "Terrain",
+      "turkish": "Arazi",
+      "ukrainian": "Ґрунт",
+      "vietnamese": "Terrain"
+    },
+    "name": "Terrain",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.45,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-285",
+  "localized_names": {
+    "brazilian": "Negev | Terreno",
+    "bulgarian": "Negev | Почва",
+    "czech": "Negev | Terrain",
+    "danish": "Negev | Terrain",
+    "dutch": "Negev | Terrain",
+    "english": "Negev | Terrain",
+    "finnish": "Negev | Maasto",
+    "french": "Negev | Terrain",
+    "german": "Negev | Terrain",
+    "greek": "Negev | Terrain",
+    "hungarian": "Negev | Terep",
+    "indonesian": "Negev | Terrain",
+    "italian": "Negev | Terrain",
+    "japanese": "Negev | 地形",
+    "koreana": "네게브 | 지형지물",
+    "latam": "Negev | Terreno",
+    "norwegian": "Negev | Terrain",
+    "polish": "Negev | Teren",
+    "portuguese": "Negev | Terrain",
+    "romanian": "Negev | Terrain",
+    "russian": "Негев | Почва",
+    "schinese": "内格夫 | 青绿地形",
+    "schinese_pw": "Negev | Terrain",
+    "spanish": "Negev | Terreno",
+    "swedish": "Negev | Terrain",
+    "tchinese": "Negev | 地形",
+    "thai": "Negev | Terrain",
+    "turkish": "Negev | Arazi",
+    "ukrainian": "Неґев | Ґрунт",
+    "vietnamese": "Negev | Terrain"
+  },
+  "media": {
+    "asset_id": "skin__28-285",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-285/light.png",
+      "data/api/media/rendered/files/skins/28-285/medium.png",
+      "data/api/media/rendered/files/skins/28-285/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-285.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-285/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-285/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-285/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-285/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_sp_negev_turq_terrain_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_sp_negev_turq_terrain_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_sp_negev_turq_terrain_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Terrain",
+  "search_slug": "negev-terrain",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4011",
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_2",
+        "name": "The Phoenix Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-285__normal__factory-new",
+    "28-285__normal__field-tested",
+    "28-285__normal__minimal-wear",
+    "28-285__normal__well-worn",
+    "28-285__stattrak__factory-new",
+    "28-285__stattrak__field-tested",
+    "28-285__stattrak__minimal-wear",
+    "28-285__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.45,
+    "min_float": 0.0
+  }
+}

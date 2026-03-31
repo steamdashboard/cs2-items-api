@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 978,
+    "id": 978,
+    "localized_names": {
+      "brazilian": "Dezastre",
+      "bulgarian": "Бедствие",
+      "czech": "Dezastre",
+      "danish": "Dezastre",
+      "dutch": "Dezastre",
+      "english": "Dezastre",
+      "finnish": "Dezastre",
+      "french": "Dézastre",
+      "german": "Dezastre",
+      "greek": "Dezastre",
+      "hungarian": "Csapás",
+      "indonesian": "Dezastre",
+      "italian": "Dezastre",
+      "japanese": "Dezastre",
+      "koreana": "디재스터",
+      "latam": "Desastre",
+      "norwegian": "Dezastre",
+      "polish": "Dezastre",
+      "portuguese": "Dezastre",
+      "romanian": "Dezastre",
+      "russian": "Катастрофа",
+      "schinese": "灾难",
+      "schinese_pw": "Dezastre",
+      "spanish": "Desastre",
+      "swedish": "Dezastre",
+      "tchinese": "劫難",
+      "thai": "Dezastre",
+      "turkish": "Dezastre",
+      "ukrainian": "Катастрофа",
+      "vietnamese": "Dezastre"
+    },
+    "name": "Dezastre",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-978",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Dezastre",
+    "bulgarian": "Два Beretta | Бедствие",
+    "czech": "Dual Berettas | Dezastre",
+    "danish": "Dual Berettas | Dezastre",
+    "dutch": "Dual Berettas | Dezastre",
+    "english": "Dual Berettas | Dezastre",
+    "finnish": "Tupla-Berettat | Dezastre",
+    "french": "Dual Berettas | Dézastre",
+    "german": "Akimbo-Berettas | Dezastre",
+    "greek": "Dual Berettas | Dezastre",
+    "hungarian": "Dupla Beretta | Csapás",
+    "indonesian": "Dual Berettas | Dezastre",
+    "italian": "Doppia Beretta | Dezastre",
+    "japanese": "Dual Berettas | Dezastre",
+    "koreana": "듀얼 베레타 | 디재스터",
+    "latam": "Berettas dobles | Desastre",
+    "norwegian": "Dual Berettas | Dezastre",
+    "polish": "Dwie beretty | Dezastre",
+    "portuguese": "Dual Berettas | Dezastre",
+    "romanian": "Dual Berettas | Dezastre",
+    "russian": "Dual Berettas | Катастрофа",
+    "schinese": "双持贝瑞塔 | 灾难",
+    "schinese_pw": "Dual Berettas | Dezastre",
+    "spanish": "Berettas dobles | Desastre",
+    "swedish": "Dual Berettas | Dezastre",
+    "tchinese": "Dual Berettas | 劫難",
+    "thai": "Dual Berettas | Dezastre",
+    "turkish": "Çift Beretta | Dezastre",
+    "ukrainian": "Подвійні «Беретти» | Катастрофа",
+    "vietnamese": "Dual Berettas | Dezastre"
+  },
+  "media": {
+    "asset_id": "skin__2-978",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-978/light.png",
+      "data/api/media/rendered/files/skins/2-978/medium.png",
+      "data/api/media/rendered/files/skins/2-978/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-978.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-978/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-978/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-978/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-978/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_gs_dual_elites_dezastre_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_gs_dual_elites_dezastre_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_gs_dual_elites_dezastre_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Dezastre",
+  "search_slug": "dual-berettas-dezastre",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4717",
+        "kind": "weapon-case",
+        "name": "Operation Broken Fang Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_27",
+        "name": "The Operation Broken Fang Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "2-978__normal__battle-scarred",
+    "2-978__normal__factory-new",
+    "2-978__normal__field-tested",
+    "2-978__normal__minimal-wear",
+    "2-978__normal__well-worn",
+    "2-978__stattrak__battle-scarred",
+    "2-978__stattrak__factory-new",
+    "2-978__stattrak__field-tested",
+    "2-978__stattrak__minimal-wear",
+    "2-978__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

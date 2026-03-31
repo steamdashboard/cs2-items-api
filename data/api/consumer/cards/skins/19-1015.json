@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1015,
+    "id": 1015,
+    "localized_names": {
+      "brazilian": "Covil do Tigre",
+      "bulgarian": "Тигров ров",
+      "czech": "Tiger Pit",
+      "danish": "Tiger Pit",
+      "dutch": "Tiger Pit",
+      "english": "Tiger Pit",
+      "finnish": "Tiikeriansa",
+      "french": "Fosse aux tigres",
+      "german": "Tigergrube",
+      "greek": "Tiger Pit",
+      "hungarian": "Tigrisverem",
+      "indonesian": "Tiger Pit",
+      "italian": "Tiger Pit",
+      "japanese": "Tiger Pit",
+      "koreana": "타이거 피트",
+      "latam": "Foso del tigre",
+      "norwegian": "Tiger Pit",
+      "polish": "Tygrysia jama",
+      "portuguese": "Tiger Pit",
+      "romanian": "Tiger Pit",
+      "russian": "Тигриная яма",
+      "schinese": "困兽之斗",
+      "schinese_pw": "Tiger Pit",
+      "spanish": "Foso del tigre",
+      "swedish": "Tiger Pit",
+      "tchinese": "困獸之鬥",
+      "thai": "Tiger Pit",
+      "turkish": "Kaplan Çukuru",
+      "ukrainian": "Яма з тиграми",
+      "vietnamese": "Tiger Pit"
+    },
+    "name": "Tiger Pit",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-1015",
+  "localized_names": {
+    "brazilian": "P90 | Covil do Tigre",
+    "bulgarian": "P90 | Тигров ров",
+    "czech": "P90 | Tiger Pit",
+    "danish": "P90 | Tiger Pit",
+    "dutch": "P90 | Tiger Pit",
+    "english": "P90 | Tiger Pit",
+    "finnish": "P90 | Tiikeriansa",
+    "french": "P90 | Fosse aux tigres",
+    "german": "P90 | Tigergrube",
+    "greek": "P90 | Tiger Pit",
+    "hungarian": "P90 | Tigrisverem",
+    "indonesian": "P90 | Tiger Pit",
+    "italian": "P90 | Tiger Pit",
+    "japanese": "P90 | Tiger Pit",
+    "koreana": "P90 | 타이거 피트",
+    "latam": "P90 | Foso del tigre",
+    "norwegian": "P90 | Tiger Pit",
+    "polish": "P90 | Tygrysia jama",
+    "portuguese": "P90 | Tiger Pit",
+    "romanian": "P90 | Tiger Pit",
+    "russian": "P90 | Тигриная яма",
+    "schinese": "P90 | 困兽之斗",
+    "schinese_pw": "P90 | Tiger Pit",
+    "spanish": "P90 | Foso del tigre",
+    "swedish": "P90 | Tiger Pit",
+    "tchinese": "P90 | 困獸之鬥",
+    "thai": "P90 | Tiger Pit",
+    "turkish": "P90 | Kaplan Çukuru",
+    "ukrainian": "П90 | Яма з тиграми",
+    "vietnamese": "P90 | Tiger Pit"
+  },
+  "media": {
+    "asset_id": "skin__19-1015",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-1015/light.png",
+      "data/api/media/rendered/files/skins/19-1015/medium.png",
+      "data/api/media/rendered/files/skins/19-1015/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-1015.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-1015/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-1015/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-1015/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-1015/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_am_tigers_brown_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_am_tigers_brown_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_am_tigers_brown_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Tiger Pit",
+  "search_slug": "p90-tiger-pit",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_t",
+        "name": "The Havoc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4721",
+        "kind": "container",
+        "name": "The Havoc Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-1015__normal__battle-scarred",
+    "19-1015__normal__factory-new",
+    "19-1015__normal__field-tested",
+    "19-1015__normal__minimal-wear",
+    "19-1015__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "card_type": "knife",
+  "description": "Quiet and always available, the knife has a fast, low-damage primary attack and a slow, high-damage secondary attack. A backstab will earn quiet players an instant kill.",
+  "id": 42,
+  "localized_names": {
+    "brazilian": "Faca",
+    "bulgarian": "Нож",
+    "czech": "Nůž",
+    "danish": "Kniv",
+    "dutch": "Mes",
+    "english": "Knife",
+    "finnish": "Veitsi",
+    "french": "Couteau",
+    "german": "Messer",
+    "greek": "Μαχαίρι",
+    "hungarian": "Kés",
+    "indonesian": "Pisau",
+    "italian": "Coltello",
+    "japanese": "ナイフ",
+    "koreana": "칼",
+    "latam": "Cuchillo",
+    "norwegian": "Kniv",
+    "polish": "Nóż",
+    "portuguese": "Faca",
+    "romanian": "Cuțit",
+    "russian": "Нож",
+    "schinese": "匕首",
+    "schinese_pw": "Knife",
+    "spanish": "Cuchillo",
+    "swedish": "Kniv",
+    "tchinese": "軍刀",
+    "thai": "มีด",
+    "turkish": "Bıçak",
+    "ukrainian": "Ніж",
+    "vietnamese": "Dao"
+  },
+  "media": {
+    "asset_id": "weapon__42",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/42/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/42.json",
+    "models": [
+      "weapons/models/knife/knife_default_ct/weapon_knife_default_ct.vmdl_c",
+      "phase2/weapons/models/knife/knife_default_ct/weapon_knife_default_ct_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/42/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_knife_png.vtex_c"
+  },
+  "name": "Knife",
+  "regular_skin_ids": [],
+  "search_slug": "knife",
+  "side": null,
+  "special_pool_ids": [],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

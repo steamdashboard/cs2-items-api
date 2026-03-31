@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 829,
+    "id": 829,
+    "localized_names": {
+      "brazilian": "Anolis",
+      "bulgarian": "Анолис",
+      "czech": "Anolis",
+      "danish": "Anolis",
+      "dutch": "Anolis",
+      "english": "Anolis",
+      "finnish": "Anolislisko",
+      "french": "Anolis",
+      "german": "Anolis",
+      "greek": "Anolis",
+      "hungarian": "Anolisz",
+      "indonesian": "Anolis",
+      "italian": "Anolis",
+      "japanese": "Anolis",
+      "koreana": "아놀리스",
+      "latam": "Anolis",
+      "norwegian": "Anolis",
+      "polish": "Anolis",
+      "portuguese": "Anolis",
+      "romanian": "Anolis",
+      "russian": "Анолис",
+      "schinese": "安乐蜥",
+      "schinese_pw": "Anolis",
+      "spanish": "Anolis",
+      "swedish": "Anolis",
+      "tchinese": "安樂蜥",
+      "thai": "Anolis",
+      "turkish": "Anolis",
+      "ukrainian": "Аноліс",
+      "vietnamese": "Anolis"
+    },
+    "name": "Anolis",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-829",
+  "localized_names": {
+    "brazilian": "PP-Bizon | Anolis",
+    "bulgarian": "PP-Bizon | Анолис",
+    "czech": "PP-Bizon | Anolis",
+    "danish": "PP-Bizon | Anolis",
+    "dutch": "PP-Bizon | Anolis",
+    "english": "PP-Bizon | Anolis",
+    "finnish": "PP-Bizon | Anolislisko",
+    "french": "PP-Bizon | Anolis",
+    "german": "PP-Bizon | Anolis",
+    "greek": "PP-Bizon | Anolis",
+    "hungarian": "PP-Bizon | Anolisz",
+    "indonesian": "PP-Bizon | Anolis",
+    "italian": "PP-Bizon | Anolis",
+    "japanese": "PP-Bizon | Anolis",
+    "koreana": "PP 비존 | 아놀리스",
+    "latam": "PP-Bizon | Anolis",
+    "norwegian": "PP-Bizon | Anolis",
+    "polish": "PP-Bizon | Anolis",
+    "portuguese": "PP-Bizon | Anolis",
+    "romanian": "PP-Bizon | Anolis",
+    "russian": "ПП-19 «Бизон» | Анолис",
+    "schinese": "PP-野牛 | 安乐蜥",
+    "schinese_pw": "PP-Bizon | Anolis",
+    "spanish": "PP-Bizon | Anolis",
+    "swedish": "PP-Bizon | Anolis",
+    "tchinese": "PP-Bizon | 安樂蜥",
+    "thai": "PP-Bizon | Anolis",
+    "turkish": "PP-Bizon | Anolis",
+    "ukrainian": "ПП «Бізон» | Аноліс",
+    "vietnamese": "PP-Bizon | Anolis"
+  },
+  "media": {
+    "asset_id": "skin__26-829",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-829/light.png",
+      "data/api/media/rendered/files/skins/26-829/medium.png",
+      "data/api/media/rendered/files/skins/26-829/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-829.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-829/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-829/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-829/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-829/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_hy_lizard_skin_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_hy_lizard_skin_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_hy_lizard_skin_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | Anolis",
+  "search_slug": "pp-bizon-anolis",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage_2021",
+        "name": "The 2021 Mirage Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4794",
+        "kind": "container",
+        "name": "The 2021 Mirage Collection",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4968",
+        "kind": "container",
+        "name": "Shanghai 2024 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5121",
+        "kind": "container",
+        "name": "Austin 2025 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "5220",
+        "kind": "container",
+        "name": "Budapest 2025 Mirage Souvenir Package",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4810",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4836",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4861",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4894",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Mirage Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4927",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "26-829__normal__battle-scarred",
+    "26-829__normal__factory-new",
+    "26-829__normal__field-tested",
+    "26-829__normal__minimal-wear",
+    "26-829__normal__well-worn",
+    "26-829__souvenir__battle-scarred",
+    "26-829__souvenir__factory-new",
+    "26-829__souvenir__field-tested",
+    "26-829__souvenir__minimal-wear",
+    "26-829__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

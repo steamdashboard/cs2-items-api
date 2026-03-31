@@ -1,0 +1,274 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 330,
+    "id": 330,
+    "localized_names": {
+      "brazilian": "Roseira",
+      "bulgarian": "Трънаци",
+      "czech": "Briar",
+      "danish": "Briar",
+      "dutch": "Briar",
+      "english": "Briar",
+      "finnish": "Orjantappura",
+      "french": "Églantier",
+      "german": "Brombeere",
+      "greek": "Briar",
+      "hungarian": "Vadrózsa",
+      "indonesian": "Briar",
+      "italian": "Briar",
+      "japanese": "Briar",
+      "koreana": "들장미",
+      "latam": "Zarza",
+      "norwegian": "Briar",
+      "polish": "Dzika róża",
+      "portuguese": "Briar",
+      "romanian": "Briar",
+      "russian": "Терн",
+      "schinese": "蔷薇",
+      "schinese_pw": "Briar",
+      "spanish": "Zarza",
+      "swedish": "Briar",
+      "tchinese": "薔薇",
+      "thai": "Briar",
+      "turkish": "Funda",
+      "ukrainian": "Шипшина",
+      "vietnamese": "Briar"
+    },
+    "name": "Briar",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.22,
+      "min_float": 0.0
+    }
+  },
+  "id": "2-330",
+  "localized_names": {
+    "brazilian": "Berettas Duplas | Roseira",
+    "bulgarian": "Два Beretta | Трънаци",
+    "czech": "Dual Berettas | Briar",
+    "danish": "Dual Berettas | Briar",
+    "dutch": "Dual Berettas | Briar",
+    "english": "Dual Berettas | Briar",
+    "finnish": "Tupla-Berettat | Orjantappura",
+    "french": "Dual Berettas | Églantier",
+    "german": "Akimbo-Berettas | Brombeere",
+    "greek": "Dual Berettas | Briar",
+    "hungarian": "Dupla Beretta | Vadrózsa",
+    "indonesian": "Dual Berettas | Briar",
+    "italian": "Doppia Beretta | Briar",
+    "japanese": "Dual Berettas | Briar",
+    "koreana": "듀얼 베레타 | 들장미",
+    "latam": "Berettas dobles | Zarza",
+    "norwegian": "Dual Berettas | Briar",
+    "polish": "Dwie beretty | Dzika róża",
+    "portuguese": "Dual Berettas | Briar",
+    "romanian": "Dual Berettas | Briar",
+    "russian": "Dual Berettas | Терн",
+    "schinese": "双持贝瑞塔 | 蔷薇",
+    "schinese_pw": "Dual Berettas | Briar",
+    "spanish": "Berettas dobles | Zarza",
+    "swedish": "Dual Berettas | Briar",
+    "tchinese": "Dual Berettas | 薔薇",
+    "thai": "Dual Berettas | Briar",
+    "turkish": "Çift Beretta | Funda",
+    "ukrainian": "Подвійні «Беретти» | Шипшина",
+    "vietnamese": "Dual Berettas | Briar"
+  },
+  "media": {
+    "asset_id": "skin__2-330",
+    "images_png": [
+      "data/api/media/rendered/files/skins/2-330/light.png",
+      "data/api/media/rendered/files/skins/2-330/medium.png",
+      "data/api/media/rendered/files/skins/2-330/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/2-330.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/2-330/heavy.png",
+      "light": "data/api/media/rendered/files/skins/2-330/light.png",
+      "medium": "data/api/media/rendered/files/skins/2-330/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/2-330/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_elite_hy_vines_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_elite_hy_vines_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_elite_hy_vines_medium_png.vtex_c"
+    }
+  },
+  "name": "Dual Berettas | Briar",
+  "search_slug": "dual-berettas-briar",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cobblestone",
+        "name": "The Cobblestone Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4602",
+        "kind": "container",
+        "name": "The Cobblestone Collection",
+        "tier": null
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4027",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4036",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cobblestone Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4084",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4134",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4179",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cobblestone Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4228",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cobblestone Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4276",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cobblestone Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4346",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cobblestone Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4398",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
+        "tier": null
+      },
+      {
+        "flags": [],
+        "id": "4465",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cobblestone Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "variant_ids": [
+    "2-330__normal__factory-new",
+    "2-330__normal__field-tested",
+    "2-330__normal__minimal-wear",
+    "2-330__souvenir__factory-new",
+    "2-330__souvenir__field-tested",
+    "2-330__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 2,
+    "localized_names": {
+      "brazilian": "Berettas Duplas",
+      "bulgarian": "Два Beretta",
+      "czech": "Dual Berettas",
+      "danish": "Dual Berettas",
+      "dutch": "Dual Berettas",
+      "english": "Dual Berettas",
+      "finnish": "Tupla-Berettat",
+      "french": "Dual Berettas",
+      "german": "Akimbo-Berettas",
+      "greek": "Dual Berettas",
+      "hungarian": "Dupla Beretta",
+      "indonesian": "Dual Berettas",
+      "italian": "Doppia Beretta",
+      "japanese": "Dual Berettas",
+      "koreana": "듀얼 베레타",
+      "latam": "Berettas dobles",
+      "norwegian": "Dual Berettas",
+      "polish": "Dwie beretty",
+      "portuguese": "Dual Berettas",
+      "romanian": "Dual Berettas",
+      "russian": "Dual Berettas",
+      "schinese": "双持贝瑞塔",
+      "schinese_pw": "Dual Berettas",
+      "spanish": "Berettas dobles",
+      "swedish": "Dual Berettas",
+      "tchinese": "Dual Berettas",
+      "thai": "Dual Berettas",
+      "turkish": "Çift Beretta",
+      "ukrainian": "Подвійні «Беретти»",
+      "vietnamese": "Dual Berettas"
+    },
+    "name": "Dual Berettas",
+    "search_slug": "dual-berettas",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.22,
+    "min_float": 0.0
+  }
+}

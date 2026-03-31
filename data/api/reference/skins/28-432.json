@@ -1,0 +1,70 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "am_negev_glory",
+    "id": 432,
+    "name": "Man-o'-war",
+    "rarity_ref": null,
+    "style_code": 5
+  },
+  "game_ref": {
+    "paint_kit_id": 432,
+    "weapon_id": 28
+  },
+  "id": "28-432",
+  "name": "Negev | Man-o'-war",
+  "search_slug": "negev-man-o-war",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_7",
+        "name": "The Chroma 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4089",
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "28-432__normal__minimal-wear",
+    "28-432__normal__field-tested",
+    "28-432__stattrak__minimal-wear",
+    "28-432__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_negev",
+    "id": 28,
+    "name": "Negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.1
+  }
+}

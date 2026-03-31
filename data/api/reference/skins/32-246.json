@@ -1,0 +1,158 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "aa_fade_metallic",
+    "id": 246,
+    "name": "Amber Fade",
+    "rarity_ref": null,
+    "style_code": 6
+  },
+  "game_ref": {
+    "paint_kit_id": 246,
+    "weapon_id": 32
+  },
+  "id": "32-246",
+  "name": "P2000 | Amber Fade",
+  "search_slug": "p2000-amber-fade",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_dust_2",
+        "name": "The Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4022",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4031",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4079",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4131",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4176",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4225",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4274",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4344",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4542",
+        "kind": "souvenir-package",
+        "name": "London 2018 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4592",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4662",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Dust II Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "32-246__normal__factory-new",
+    "32-246__normal__minimal-wear",
+    "32-246__normal__field-tested",
+    "32-246__normal__well-worn",
+    "32-246__souvenir__factory-new",
+    "32-246__souvenir__minimal-wear",
+    "32-246__souvenir__field-tested",
+    "32-246__souvenir__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_hkp2000",
+    "id": 32,
+    "name": "P2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

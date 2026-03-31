@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 952,
+    "id": 952,
+    "localized_names": {
+      "brazilian": "Forjada em Osso",
+      "bulgarian": "Изковано от кости",
+      "czech": "Bone Forged",
+      "danish": "Bone Forged",
+      "dutch": "Bone Forged",
+      "english": "Bone Forged",
+      "finnish": "Luukaiverrus",
+      "french": "Carcasse",
+      "german": "Knochengeschmiedet",
+      "greek": "Bone Forged",
+      "hungarian": "Csontból Kovácsolt",
+      "indonesian": "Bone Forged",
+      "italian": "Bone Forged",
+      "japanese": "Bone Forged",
+      "koreana": "단조된 뼈",
+      "latam": "Forjado óseo",
+      "norwegian": "Bone Forged",
+      "polish": "Kościana robota",
+      "portuguese": "Bone Forged",
+      "romanian": "Bone Forged",
+      "russian": "Кованая кость",
+      "schinese": "骸骨锻造",
+      "schinese_pw": "Bone Forged",
+      "spanish": "Forjado óseo",
+      "swedish": "Bone Forged",
+      "tchinese": "骨骸鍛造",
+      "thai": "Bone Forged",
+      "turkish": "Kadim Kadavra",
+      "ukrainian": "Кована кістка",
+      "vietnamese": "Bone Forged"
+    },
+    "name": "Bone Forged",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "64-952",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Forjada em Osso",
+    "bulgarian": "Револвер R8 | Изковано от кости",
+    "czech": "Revolver R8 | Bone Forged",
+    "danish": "R8-revolver | Bone Forged",
+    "dutch": "R8-revolver | Bone Forged",
+    "english": "R8 Revolver | Bone Forged",
+    "finnish": "R8-revolveri | Luukaiverrus",
+    "french": "Révolver R8 | Carcasse",
+    "german": "R8-Revolver | Knochengeschmiedet",
+    "greek": "R8 Revolver | Bone Forged",
+    "hungarian": "R8 revolver | Csontból Kovácsolt",
+    "indonesian": "R8 Revolver | Bone Forged",
+    "italian": "Revolver R8 | Bone Forged",
+    "japanese": "R8 Revolver | Bone Forged",
+    "koreana": "R8 리볼버 | 단조된 뼈",
+    "latam": "Revólver R8 | Forjado óseo",
+    "norwegian": "R8 Revolver | Bone Forged",
+    "polish": "Rewolwer R8 | Kościana robota",
+    "portuguese": "R8 Revolver | Bone Forged",
+    "romanian": "Revolver R8 | Bone Forged",
+    "russian": "Револьвер R8 | Кованая кость",
+    "schinese": "R8左轮手枪 | 骸骨锻造",
+    "schinese_pw": "R8 Revolver | Bone Forged",
+    "spanish": "Revólver R8 | Forjado óseo",
+    "swedish": "R8 Revolver | Bone Forged",
+    "tchinese": "R8 Revolver | 骨骸鍛造",
+    "thai": "ปืนลูกโม่ R8 | Bone Forged",
+    "turkish": "R8 Revolver | Kadim Kadavra",
+    "ukrainian": "Револьвер Р8 | Кована кістка",
+    "vietnamese": "Súng lục R8 | Bone Forged"
+  },
+  "media": {
+    "asset_id": "skin__64-952",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-952/light.png",
+      "data/api/media/rendered/files/skins/64-952/medium.png",
+      "data/api/media/rendered/files/skins/64-952/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-952.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-952/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-952/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-952/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-952/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_gs_r8_leviathan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_gs_r8_leviathan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_gs_r8_leviathan_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Bone Forged",
+  "search_slug": "r8-revolver-bone-forged",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4695",
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_25",
+        "name": "The Prisma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-952__normal__battle-scarred",
+    "64-952__normal__factory-new",
+    "64-952__normal__field-tested",
+    "64-952__normal__minimal-wear",
+    "64-952__normal__well-worn",
+    "64-952__stattrak__battle-scarred",
+    "64-952__stattrak__factory-new",
+    "64-952__stattrak__field-tested",
+    "64-952__stattrak__minimal-wear",
+    "64-952__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

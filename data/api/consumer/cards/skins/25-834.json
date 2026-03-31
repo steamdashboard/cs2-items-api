@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 834,
+    "id": 834,
+    "localized_names": {
+      "brazilian": "Mudança Meio-Tom",
+      "bulgarian": "Полутоново изместване",
+      "czech": "Halftone Shift",
+      "danish": "Halftone Shift",
+      "dutch": "Halftone Shift",
+      "english": "Halftone Shift",
+      "finnish": "Siirtymärasteri",
+      "french": "Négatif en demi-teinte",
+      "german": "Wechselndes Halbtonmuster",
+      "greek": "Halftone Shift",
+      "hungarian": "Halvány Váltás",
+      "indonesian": "Halftone Shift",
+      "italian": "Halftone Shift",
+      "japanese": "Halftone Shift",
+      "koreana": "하프톤 시프트",
+      "latam": "Cambio de semitono",
+      "norwegian": "Halftone Shift",
+      "polish": "Przejście półtonu",
+      "portuguese": "Halftone Shift",
+      "romanian": "Halftone Shift",
+      "russian": "Игра полутонов",
+      "schinese": "半调转换",
+      "schinese_pw": "Halftone Shift",
+      "spanish": "Cambio de semitono",
+      "swedish": "Halftone Shift",
+      "tchinese": "半色調漸變",
+      "thai": "Halftone Shift",
+      "turkish": "Ara Ton Geçişi",
+      "ukrainian": "Півтонове зміщення",
+      "vietnamese": "Halftone Shift"
+    },
+    "name": "Halftone Shift",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "25-834",
+  "localized_names": {
+    "brazilian": "XM1014 | Mudança Meio-Tom",
+    "bulgarian": "XM1014 | Полутоново изместване",
+    "czech": "XM1014 | Halftone Shift",
+    "danish": "XM1014 | Halftone Shift",
+    "dutch": "XM1014 | Halftone Shift",
+    "english": "XM1014 | Halftone Shift",
+    "finnish": "XM1014 | Siirtymärasteri",
+    "french": "XM1014 | Négatif en demi-teinte",
+    "german": "XM1014 | Wechselndes Halbtonmuster",
+    "greek": "XM1014 | Halftone Shift",
+    "hungarian": "XM1014 | Halvány Váltás",
+    "indonesian": "XM1014 | Halftone Shift",
+    "italian": "XM1014 | Halftone Shift",
+    "japanese": "XM1014 | Halftone Shift",
+    "koreana": "XM1014 | 하프톤 시프트",
+    "latam": "XM1014 | Cambio de semitono",
+    "norwegian": "XM1014 | Halftone Shift",
+    "polish": "XM1014 | Przejście półtonu",
+    "portuguese": "XM1014 | Halftone Shift",
+    "romanian": "XM1014 | Halftone Shift",
+    "russian": "XM1014 | Игра полутонов",
+    "schinese": "XM1014 | 半调转换",
+    "schinese_pw": "XM1014 | Halftone Shift",
+    "spanish": "XM1014 | Cambio de semitono",
+    "swedish": "XM1014 | Halftone Shift",
+    "tchinese": "XM1014 | 半色調漸變",
+    "thai": "XM1014 | Halftone Shift",
+    "turkish": "XM1014 | Ara Ton Geçişi",
+    "ukrainian": "М1014 | Півтонове зміщення",
+    "vietnamese": "XM1014 | Halftone Shift"
+  },
+  "media": {
+    "asset_id": "skin__25-834",
+    "images_png": [
+      "data/api/media/rendered/files/skins/25-834/light.png",
+      "data/api/media/rendered/files/skins/25-834/medium.png",
+      "data/api/media/rendered/files/skins/25-834/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/25-834.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/25-834/heavy.png",
+      "light": "data/api/media/rendered/files/skins/25-834/light.png",
+      "medium": "data/api/media/rendered/files/skins/25-834/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/25-834/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_xm1014_ht_shapes_xm1014_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_xm1014_ht_shapes_xm1014_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_xm1014_ht_shapes_xm1014_medium_png.vtex_c"
+    }
+  },
+  "name": "XM1014 | Halftone Shift",
+  "search_slug": "xm1014-halftone-shift",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_graphic_design",
+        "name": "The Graphic Design Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "25-834__normal__battle-scarred",
+    "25-834__normal__factory-new",
+    "25-834__normal__field-tested",
+    "25-834__normal__minimal-wear",
+    "25-834__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 25,
+    "localized_names": {
+      "brazilian": "XM1014",
+      "bulgarian": "XM1014",
+      "czech": "XM1014",
+      "danish": "XM1014",
+      "dutch": "XM1014",
+      "english": "XM1014",
+      "finnish": "XM1014",
+      "french": "XM1014",
+      "german": "XM1014",
+      "greek": "XM1014",
+      "hungarian": "XM1014",
+      "indonesian": "XM1014",
+      "italian": "XM1014",
+      "japanese": "XM1014",
+      "koreana": "XM1014",
+      "latam": "XM1014",
+      "norwegian": "XM1014",
+      "polish": "XM1014",
+      "portuguese": "XM1014",
+      "romanian": "XM1014",
+      "russian": "XM1014",
+      "schinese": "XM1014",
+      "schinese_pw": "XM1014",
+      "spanish": "XM1014",
+      "swedish": "XM1014",
+      "tchinese": "XM1014",
+      "thai": "XM1014",
+      "turkish": "XM1014",
+      "ukrainian": "М1014",
+      "vietnamese": "XM1014"
+    },
+    "name": "XM1014",
+    "search_slug": "xm1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

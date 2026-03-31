@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1299,
+    "id": 1299,
+    "localized_names": {
+      "brazilian": "Cerâmica Fria",
+      "bulgarian": "Необработена керамика",
+      "czech": "Raw Ceramic",
+      "danish": "Raw Ceramic",
+      "dutch": "Raw Ceramic",
+      "english": "Raw Ceramic",
+      "finnish": "Raakakeramiikka",
+      "french": "Céramique écrue",
+      "german": "Rohkeramik",
+      "greek": "Raw Ceramic",
+      "hungarian": "Nyers Kerámia",
+      "indonesian": "Raw Ceramic",
+      "italian": "Raw Ceramic",
+      "japanese": "Raw Ceramic",
+      "koreana": "순수 세라믹",
+      "latam": "Cerámica natural",
+      "norwegian": "Raw Ceramic",
+      "polish": "Surowa ceramika",
+      "portuguese": "Raw Ceramic",
+      "romanian": "Raw Ceramic",
+      "russian": "Необработанная керамика",
+      "schinese": "生瓷",
+      "schinese_pw": "Raw Ceramic",
+      "spanish": "Cerámica cruda",
+      "swedish": "Raw Ceramic",
+      "tchinese": "生瓷",
+      "thai": "Raw Ceramic",
+      "turkish": "Ham Seramik",
+      "ukrainian": "Необроблена кераміка",
+      "vietnamese": "Raw Ceramic"
+    },
+    "name": "Raw Ceramic",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.75,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-1299",
+  "localized_names": {
+    "brazilian": "Tec-9 | Cerâmica Fria",
+    "bulgarian": "Tec-9 | Необработена керамика",
+    "czech": "Tec-9 | Raw Ceramic",
+    "danish": "Tec-9 | Raw Ceramic",
+    "dutch": "Tec-9 | Raw Ceramic",
+    "english": "Tec-9 | Raw Ceramic",
+    "finnish": "Tec-9 | Raakakeramiikka",
+    "french": "Tec-9 | Céramique écrue",
+    "german": "Tec-9 | Rohkeramik",
+    "greek": "Tec-9 | Raw Ceramic",
+    "hungarian": "Tec-9 | Nyers Kerámia",
+    "indonesian": "Tec-9 | Raw Ceramic",
+    "italian": "Tec-9 | Raw Ceramic",
+    "japanese": "Tec-9 | Raw Ceramic",
+    "koreana": "Tec-9 | 순수 세라믹",
+    "latam": "Tec-9 | Cerámica natural",
+    "norwegian": "Tec-9 | Raw Ceramic",
+    "polish": "Tec-9 | Surowa ceramika",
+    "portuguese": "Tec-9 | Raw Ceramic",
+    "romanian": "Tec-9 | Raw Ceramic",
+    "russian": "Tec-9 | Необработанная керамика",
+    "schinese": "Tec-9 | 生瓷",
+    "schinese_pw": "Tec-9 | Raw Ceramic",
+    "spanish": "Tec-9 | Cerámica cruda",
+    "swedish": "Tec-9 | Raw Ceramic",
+    "tchinese": "Tec-9 | 生瓷",
+    "thai": "Tec-9 | Raw Ceramic",
+    "turkish": "Tec-9 | Ham Seramik",
+    "ukrainian": "ТЕК-9 | Необроблена кераміка",
+    "vietnamese": "Tec-9 | Raw Ceramic"
+  },
+  "media": {
+    "asset_id": "skin__30-1299",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-1299/light.png",
+      "data/api/media/rendered/files/skins/30-1299/medium.png",
+      "data/api/media/rendered/files/skins/30-1299/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-1299.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-1299/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-1299/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-1299/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-1299/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_so_ceramic_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_so_ceramic_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_so_ceramic_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Raw Ceramic",
+  "search_slug": "tec-9-raw-ceramic",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_timed_drops_neutral",
+        "name": "The Boreal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-1299__normal__battle-scarred",
+    "30-1299__normal__factory-new",
+    "30-1299__normal__field-tested",
+    "30-1299__normal__minimal-wear",
+    "30-1299__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.75,
+    "min_float": 0.0
+  }
+}

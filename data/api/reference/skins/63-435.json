@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_cz75_precision",
+    "id": 435,
+    "name": "Pole Position",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 435,
+    "weapon_id": 63
+  },
+  "id": "63-435",
+  "name": "CZ75-Auto | Pole Position",
+  "search_slug": "cz75-auto-pole-position",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_7",
+        "name": "The Chroma 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4089",
+        "kind": "weapon-case",
+        "name": "Chroma 2 Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "63-435__normal__factory-new",
+    "63-435__normal__minimal-wear",
+    "63-435__normal__field-tested",
+    "63-435__normal__well-worn",
+    "63-435__normal__battle-scarred",
+    "63-435__stattrak__factory-new",
+    "63-435__stattrak__minimal-wear",
+    "63-435__stattrak__field-tested",
+    "63-435__stattrak__well-worn",
+    "63-435__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_cz75a",
+    "id": 63,
+    "name": "CZ75-Auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

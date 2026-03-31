@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_revolver_oppressor",
+    "id": 843,
+    "name": "Skull Crusher",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 843,
+    "weapon_id": 64
+  },
+  "id": "64-843",
+  "name": "R8 Revolver | Skull Crusher",
+  "search_slug": "r8-revolver-skull-crusher",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_22",
+        "name": "The Prisma Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4598",
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "64-843__normal__field-tested",
+    "64-843__normal__well-worn",
+    "64-843__normal__battle-scarred",
+    "64-843__stattrak__field-tested",
+    "64-843__stattrak__well-worn",
+    "64-843__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_revolver",
+    "id": 64,
+    "name": "R8 Revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.25
+  }
+}

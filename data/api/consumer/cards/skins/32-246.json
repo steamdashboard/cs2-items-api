@@ -1,0 +1,282 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 246,
+    "id": 246,
+    "localized_names": {
+      "brazilian": "Âmbar",
+      "bulgarian": "Избледняващ кехлибар",
+      "czech": "Amber Fade",
+      "danish": "Amber Fade",
+      "dutch": "Amber Fade",
+      "english": "Amber Fade",
+      "finnish": "Himmeä meripihka",
+      "french": "Dégradé ambré",
+      "german": "Bernsteinfärbung",
+      "greek": "Amber Fade",
+      "hungarian": "Halvány Borostyán",
+      "indonesian": "Amber Fade",
+      "italian": "Amber Fade",
+      "japanese": "Amber Fade",
+      "koreana": "호박빛 배색",
+      "latam": "Ámbar desteñido",
+      "norwegian": "Amber Fade",
+      "polish": "Spłowiały bursztyn",
+      "portuguese": "Amber Fade",
+      "romanian": "Amber Fade",
+      "russian": "Янтарный градиент",
+      "schinese": "渐变琥珀",
+      "schinese_pw": "Amber Fade",
+      "spanish": "Ámbar desteñido",
+      "swedish": "Amber Fade",
+      "tchinese": "琥珀漸層",
+      "thai": "Amber Fade",
+      "turkish": "Solgun Sarı",
+      "ukrainian": "Бурштиновий градієнт",
+      "vietnamese": "Amber Fade"
+    },
+    "name": "Amber Fade",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "32-246",
+  "localized_names": {
+    "brazilian": "P2000 | Âmbar",
+    "bulgarian": "P2000 | Избледняващ кехлибар",
+    "czech": "P2000 | Amber Fade",
+    "danish": "P2000 | Amber Fade",
+    "dutch": "P2000 | Amber Fade",
+    "english": "P2000 | Amber Fade",
+    "finnish": "P2000 | Himmeä meripihka",
+    "french": "P2000 | Dégradé ambré",
+    "german": "P2000 | Bernsteinfärbung",
+    "greek": "P2000 | Amber Fade",
+    "hungarian": "P2000 | Halvány Borostyán",
+    "indonesian": "P2000 | Amber Fade",
+    "italian": "P2000 | Amber Fade",
+    "japanese": "P2000 | Amber Fade",
+    "koreana": "P2000 | 호박빛 배색",
+    "latam": "P2000 | Ámbar desteñido",
+    "norwegian": "P2000 | Amber Fade",
+    "polish": "P2000 | Spłowiały bursztyn",
+    "portuguese": "P2000 | Amber Fade",
+    "romanian": "P2000 | Amber Fade",
+    "russian": "P2000 | Янтарный градиент",
+    "schinese": "P2000 | 渐变琥珀",
+    "schinese_pw": "P2000 | Amber Fade",
+    "spanish": "P2000 | Ámbar desteñido",
+    "swedish": "P2000 | Amber Fade",
+    "tchinese": "P2000 | 琥珀漸層",
+    "thai": "P2000 | Amber Fade",
+    "turkish": "P2000 | Solgun Sarı",
+    "ukrainian": "П2000 | Бурштиновий градієнт",
+    "vietnamese": "P2000 | Amber Fade"
+  },
+  "media": {
+    "asset_id": "skin__32-246",
+    "images_png": [
+      "data/api/media/rendered/files/skins/32-246/light.png",
+      "data/api/media/rendered/files/skins/32-246/medium.png",
+      "data/api/media/rendered/files/skins/32-246/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/32-246.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/32-246/heavy.png",
+      "light": "data/api/media/rendered/files/skins/32-246/light.png",
+      "medium": "data/api/media/rendered/files/skins/32-246/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/32-246/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_medium_png.vtex_c"
+    }
+  },
+  "name": "P2000 | Amber Fade",
+  "search_slug": "p2000-amber-fade",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2",
+        "name": "The Dust 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4022",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4031",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4079",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4131",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4176",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4225",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4274",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4344",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4542",
+        "kind": "souvenir-package",
+        "name": "London 2018 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4592",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4662",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Dust II Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "32-246__normal__factory-new",
+    "32-246__normal__field-tested",
+    "32-246__normal__minimal-wear",
+    "32-246__normal__well-worn",
+    "32-246__souvenir__factory-new",
+    "32-246__souvenir__field-tested",
+    "32-246__souvenir__minimal-wear",
+    "32-246__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 32,
+    "localized_names": {
+      "brazilian": "P2000",
+      "bulgarian": "P2000",
+      "czech": "P2000",
+      "danish": "P2000",
+      "dutch": "P2000",
+      "english": "P2000",
+      "finnish": "P2000",
+      "french": "P2000",
+      "german": "P2000",
+      "greek": "P2000",
+      "hungarian": "P2000",
+      "indonesian": "P2000",
+      "italian": "P2000",
+      "japanese": "P2000",
+      "koreana": "P2000",
+      "latam": "P2000",
+      "norwegian": "P2000",
+      "polish": "P2000",
+      "portuguese": "P2000",
+      "romanian": "P2000",
+      "russian": "P2000",
+      "schinese": "P2000",
+      "schinese_pw": "P2000",
+      "spanish": "P2000",
+      "swedish": "P2000",
+      "tchinese": "P2000",
+      "thai": "P2000",
+      "turkish": "P2000",
+      "ukrainian": "П2000",
+      "vietnamese": "P2000"
+    },
+    "name": "P2000",
+    "search_slug": "p2000",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

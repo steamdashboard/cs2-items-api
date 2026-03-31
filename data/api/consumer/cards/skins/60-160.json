@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 160,
+    "id": 160,
+    "localized_names": {
+      "brazilian": "Me Lave, Por Favor",
+      "bulgarian": "Измий ме, моля",
+      "czech": "Wash me plz",
+      "danish": "Wash me plz",
+      "dutch": "Wash me plz",
+      "english": "Wash me plz",
+      "finnish": "Kipeästi pesua vailla",
+      "french": "Sale",
+      "german": "Bitte wasch mich!",
+      "greek": "Wash me plz",
+      "hungarian": "Lécci Moss Le",
+      "indonesian": "Wash me plz",
+      "italian": "Wash me plz",
+      "japanese": "Wash me plz",
+      "koreana": "세척 요망",
+      "latam": "Lávame ya",
+      "norwegian": "Wash me plz",
+      "polish": "Umyj mnie, proszę",
+      "portuguese": "Wash me plz",
+      "romanian": "Wash me plz",
+      "russian": "Помой меня пж",
+      "schinese": "请擦擦",
+      "schinese_pw": "Wash me plz",
+      "spanish": "Lávame ya",
+      "swedish": "Wash me plz",
+      "tchinese": "請洗洗我",
+      "thai": "Wash me plz",
+      "turkish": "Beni yıka lütfen",
+      "ukrainian": "Помийте мене, будь ласка",
+      "vietnamese": "Wash me plz"
+    },
+    "name": "Wash me plz",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.58,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-160",
+  "localized_names": {
+    "brazilian": "M4A1-S | Me Lave, Por Favor",
+    "bulgarian": "M4A1-S | Измий ме, моля",
+    "czech": "M4A1-S | Wash me plz",
+    "danish": "M4A1-S | Wash me plz",
+    "dutch": "M4A1-S | Wash me plz",
+    "english": "M4A1-S | Wash me plz",
+    "finnish": "M4A1-S | Kipeästi pesua vailla",
+    "french": "M4A1-S | Sale",
+    "german": "M4A1-S | Bitte wasch mich!",
+    "greek": "M4A1-S | Wash me plz",
+    "hungarian": "M4A1-S | Lécci Moss Le",
+    "indonesian": "M4A1-S | Wash me plz",
+    "italian": "M4A1-S | Wash me plz",
+    "japanese": "M4A1-S | Wash me plz",
+    "koreana": "M4A1-S | 세척 요망",
+    "latam": "M4A1-S | Lávame ya",
+    "norwegian": "M4A1-S | Wash me plz",
+    "polish": "M4A1-S | Umyj mnie, proszę",
+    "portuguese": "M4A1-S | Wash me plz",
+    "romanian": "M4A1-S | Wash me plz",
+    "russian": "M4A1-S | Помой меня пж",
+    "schinese": "M4A1消音版 | 请擦擦",
+    "schinese_pw": "M4A1-S | Wash me plz",
+    "spanish": "M4A1-S | Lávame ya",
+    "swedish": "M4A1-S | Wash me plz",
+    "tchinese": "M4A1-S | 請洗洗我",
+    "thai": "M4A1-S | Wash me plz",
+    "turkish": "M4A1-S | Beni yıka lütfen",
+    "ukrainian": "М4А1-С | Помийте мене, будь ласка",
+    "vietnamese": "M4A1-S | Wash me plz"
+  },
+  "media": {
+    "asset_id": "skin__60-160",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-160/light.png",
+      "data/api/media/rendered/files/skins/60-160/medium.png",
+      "data/api/media/rendered/files/skins/60-160/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-160.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-160/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-160/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-160/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-160/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_overpass_doodle_m4a1s_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_overpass_doodle_m4a1s_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_overpass_doodle_m4a1s_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Wash me plz",
+  "search_slug": "m4a1-s-wash-me-plz",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_overpass_2024",
+        "name": "The Overpass 2024 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5221",
+        "kind": "container",
+        "name": "Budapest 2025 Overpass Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-160__normal__battle-scarred",
+    "60-160__normal__factory-new",
+    "60-160__normal__field-tested",
+    "60-160__normal__minimal-wear",
+    "60-160__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.58,
+    "min_float": 0.0
+  }
+}

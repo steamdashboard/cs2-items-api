@@ -1,0 +1,59 @@
+{
+  "codename": "weapon_awp",
+  "entity_id": "9",
+  "entity_type": "weapon",
+  "id": "weapon__9",
+  "name": "AWP",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_awp.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_awp",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "-5.0 -140.0 0.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "25.0 0.6 -3.5",
+      "override_default_light": "1",
+      "point_light_accent": {
+        "color": "3 3 3",
+        "position": "0 20 25"
+      },
+      "spot_light_key": {
+        "color": "2 2.1 2.3",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-90 80 220"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "0 -130 -80"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/awp/weapon_snip_awp_ag2.vmdl",
+    "model_player": "weapons/models/awp/weapon_snip_awp.vmdl",
+    "model_world": "weapons/models/awp/weapon_snip_awp.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_awp_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/awp/weapon_snip_awp_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/awp/weapon_snip_awp.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/awp/weapon_snip_awp.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

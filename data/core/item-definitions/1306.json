@@ -1,0 +1,37 @@
+{
+  "classification": {
+    "group": "other",
+    "kind": "other"
+  },
+  "game_id": 1306,
+  "id": 1306,
+  "name": "quest",
+  "prefab_chain": [
+    "quest_prefab"
+  ],
+  "prefab_spec": "quest_prefab",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1"
+    },
+    "capabilities": {
+      "can_delete": "1"
+    },
+    "drop_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "icon_default_image": "materials/icons/inventory_icon_quest.vtf",
+    "image_inventory": "econ/tools/mission",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "item_class": "collectible_item",
+    "item_description": "#quest_desc",
+    "item_name": "#quest",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type_name": "#CSGO_Type_Quest",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "name": "quest",
+    "prefab": "quest_prefab"
+  }
+}

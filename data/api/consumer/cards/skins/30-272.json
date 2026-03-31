@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 272,
+    "id": 272,
+    "localized_names": {
+      "brazilian": "Fragmento de Titânio",
+      "bulgarian": "Титаниева частица",
+      "czech": "Titanium Bit",
+      "danish": "Titanium Bit",
+      "dutch": "Titanium Bit",
+      "english": "Titanium Bit",
+      "finnish": "Pala titaania",
+      "french": "Fragment de titane",
+      "german": "Titanmeißel",
+      "greek": "Titanium Bit",
+      "hungarian": "Titános",
+      "indonesian": "Titanium Bit",
+      "italian": "Titanium Bit",
+      "japanese": "Titanium Bit",
+      "koreana": "티타늄 비트",
+      "latam": "Trozo de titanio",
+      "norwegian": "Titanium Bit",
+      "polish": "Odłamek tytanu",
+      "portuguese": "Titanium Bit",
+      "romanian": "Titanium Bit",
+      "russian": "Частица титана",
+      "schinese": "钛片",
+      "schinese_pw": "Titanium Bit",
+      "spanish": "Trozo de titanio",
+      "swedish": "Titanium Bit",
+      "tchinese": "金剛鑽",
+      "thai": "Titanium Bit",
+      "turkish": "Titanyum Matkap",
+      "ukrainian": "Титановий шмат",
+      "vietnamese": "Titanium Bit"
+    },
+    "name": "Titanium Bit",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-272",
+  "localized_names": {
+    "brazilian": "Tec-9 | Fragmento de Titânio",
+    "bulgarian": "Tec-9 | Титаниева частица",
+    "czech": "Tec-9 | Titanium Bit",
+    "danish": "Tec-9 | Titanium Bit",
+    "dutch": "Tec-9 | Titanium Bit",
+    "english": "Tec-9 | Titanium Bit",
+    "finnish": "Tec-9 | Pala titaania",
+    "french": "Tec-9 | Fragment de titane",
+    "german": "Tec-9 | Titanmeißel",
+    "greek": "Tec-9 | Titanium Bit",
+    "hungarian": "Tec-9 | Titános",
+    "indonesian": "Tec-9 | Titanium Bit",
+    "italian": "Tec-9 | Titanium Bit",
+    "japanese": "Tec-9 | Titanium Bit",
+    "koreana": "Tec-9 | 티타늄 비트",
+    "latam": "Tec-9 | Trozo de titanio",
+    "norwegian": "Tec-9 | Titanium Bit",
+    "polish": "Tec-9 | Odłamek tytanu",
+    "portuguese": "Tec-9 | Titanium Bit",
+    "romanian": "Tec-9 | Titanium Bit",
+    "russian": "Tec-9 | Частица титана",
+    "schinese": "Tec-9 | 钛片",
+    "schinese_pw": "Tec-9 | Titanium Bit",
+    "spanish": "Tec-9 | Trozo de titanio",
+    "swedish": "Tec-9 | Titanium Bit",
+    "tchinese": "Tec-9 | 金剛鑽",
+    "thai": "Tec-9 | Titanium Bit",
+    "turkish": "Tec-9 | Titanyum Matkap",
+    "ukrainian": "ТЕК-9 | Титановий шмат",
+    "vietnamese": "Tec-9 | Titanium Bit"
+  },
+  "media": {
+    "asset_id": "skin__30-272",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-272/light.png",
+      "data/api/media/rendered/files/skins/30-272/medium.png",
+      "data/api/media/rendered/files/skins/30-272/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-272.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-272/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-272/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-272/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-272/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_am_fluted_tec9_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_am_fluted_tec9_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_am_fluted_tec9_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Titanium Bit",
+  "search_slug": "tec-9-titanium-bit",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4010",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_iii",
+        "name": "The Arms Deal 3 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-272__normal__factory-new",
+    "30-272__normal__field-tested",
+    "30-272__normal__minimal-wear",
+    "30-272__stattrak__factory-new",
+    "30-272__stattrak__field-tested",
+    "30-272__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

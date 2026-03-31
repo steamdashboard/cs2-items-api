@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 647,
+    "id": 647,
+    "localized_names": {
+      "brazilian": "Tsunami Carmesim",
+      "bulgarian": "Пурпурно цунами",
+      "czech": "Crimson Tsunami",
+      "danish": "Crimson Tsunami",
+      "dutch": "Crimson Tsunami",
+      "english": "Crimson Tsunami",
+      "finnish": "Verenpunainen tsunami",
+      "french": "Tsunami grenat",
+      "german": "Purpurner Tsunami",
+      "greek": "Crimson Tsunami",
+      "hungarian": "Karmazsin Szökőár",
+      "indonesian": "Crimson Tsunami",
+      "italian": "Crimson Tsunami",
+      "japanese": "Crimson Tsunami",
+      "koreana": "핏빛 쓰나미",
+      "latam": "Tsunami carmesí",
+      "norwegian": "Crimson Tsunami",
+      "polish": "Szkarłatne tsunami",
+      "portuguese": "Crimson Tsunami",
+      "romanian": "Crimson Tsunami",
+      "russian": "Багровое цунами",
+      "schinese": "深红海啸",
+      "schinese_pw": "Crimson Tsunami",
+      "spanish": "Tsunami carmesí",
+      "swedish": "Crimson Tsunami",
+      "tchinese": "緋紅海嘯",
+      "thai": "Crimson Tsunami",
+      "turkish": "Kızıl Tsunami",
+      "ukrainian": "Багряне цунамі",
+      "vietnamese": "Crimson Tsunami"
+    },
+    "name": "Crimson Tsunami",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-647",
+  "localized_names": {
+    "brazilian": "Galil AR | Tsunami Carmesim",
+    "bulgarian": "Galil AR | Пурпурно цунами",
+    "czech": "Galil AR | Crimson Tsunami",
+    "danish": "Galil AR | Crimson Tsunami",
+    "dutch": "Galil AR | Crimson Tsunami",
+    "english": "Galil AR | Crimson Tsunami",
+    "finnish": "Galil AR | Verenpunainen tsunami",
+    "french": "Galil AR | Tsunami grenat",
+    "german": "Galil AR | Purpurner Tsunami",
+    "greek": "Galil AR | Crimson Tsunami",
+    "hungarian": "Galil AR | Karmazsin Szökőár",
+    "indonesian": "Galil AR | Crimson Tsunami",
+    "italian": "Galil AR | Crimson Tsunami",
+    "japanese": "Galil AR | Crimson Tsunami",
+    "koreana": "갈릴 돌격소총 | 핏빛 쓰나미",
+    "latam": "Galil AR | Tsunami carmesí",
+    "norwegian": "Galil AR | Crimson Tsunami",
+    "polish": "Galil AR | Szkarłatne tsunami",
+    "portuguese": "Galil AR | Crimson Tsunami",
+    "romanian": "Galil AR | Crimson Tsunami",
+    "russian": "Автомат «Галиль» | Багровое цунами",
+    "schinese": "加利尔AR | 深红海啸",
+    "schinese_pw": "Galil AR | Crimson Tsunami",
+    "spanish": "Galil AR | Tsunami carmesí",
+    "swedish": "Galil AR | Crimson Tsunami",
+    "tchinese": "Galil AR | 緋紅海嘯",
+    "thai": "Galil AR | Crimson Tsunami",
+    "turkish": "Galil AR | Kızıl Tsunami",
+    "ukrainian": "Ґаліл | Багряне цунамі",
+    "vietnamese": "Galil AR | Crimson Tsunami"
+  },
+  "media": {
+    "asset_id": "skin__13-647",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-647/light.png",
+      "data/api/media/rendered/files/skins/13-647/medium.png",
+      "data/api/media/rendered/files/skins/13-647/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-647.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-647/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-647/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-647/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-647/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_sp_galil_wave_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_sp_galil_wave_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_sp_galil_wave_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Crimson Tsunami",
+  "search_slug": "galil-ar-crimson-tsunami",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4351",
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_16",
+        "name": "The Spectrum Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-647__normal__battle-scarred",
+    "13-647__normal__factory-new",
+    "13-647__normal__field-tested",
+    "13-647__normal__minimal-wear",
+    "13-647__normal__well-worn",
+    "13-647__stattrak__battle-scarred",
+    "13-647__stattrak__factory-new",
+    "13-647__stattrak__field-tested",
+    "13-647__stattrak__minimal-wear",
+    "13-647__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

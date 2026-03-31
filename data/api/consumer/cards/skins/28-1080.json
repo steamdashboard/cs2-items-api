@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1080,
+    "id": 1080,
+    "localized_names": {
+      "brazilian": "Infraestrutura",
+      "bulgarian": "Инфраструктура",
+      "czech": "Infrastructure",
+      "danish": "Infrastructure",
+      "dutch": "Infrastructure",
+      "english": "Infrastructure",
+      "finnish": "Infrastruktuuri",
+      "french": "Infrastructure",
+      "german": "Infrastruktur",
+      "greek": "Infrastructure",
+      "hungarian": "Infrastruktúra",
+      "indonesian": "Infrastructure",
+      "italian": "Infrastructure",
+      "japanese": "Infrastructure",
+      "koreana": "인프라",
+      "latam": "Infraestructura",
+      "norwegian": "Infrastructure",
+      "polish": "Infrastruktura",
+      "portuguese": "Infrastructure",
+      "romanian": "Infrastructure",
+      "russian": "Инфраструктура",
+      "schinese": "基础建设",
+      "schinese_pw": "Infrastructure",
+      "spanish": "Infraestructura",
+      "swedish": "Infrastructure",
+      "tchinese": "建築結構",
+      "thai": "Infrastructure",
+      "turkish": "Altyapı",
+      "ukrainian": "Інфраструктура",
+      "vietnamese": "Infrastructure"
+    },
+    "name": "Infrastructure",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.49,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-1080",
+  "localized_names": {
+    "brazilian": "Negev | Infraestrutura",
+    "bulgarian": "Negev | Инфраструктура",
+    "czech": "Negev | Infrastructure",
+    "danish": "Negev | Infrastructure",
+    "dutch": "Negev | Infrastructure",
+    "english": "Negev | Infrastructure",
+    "finnish": "Negev | Infrastruktuuri",
+    "french": "Negev | Infrastructure",
+    "german": "Negev | Infrastruktur",
+    "greek": "Negev | Infrastructure",
+    "hungarian": "Negev | Infrastruktúra",
+    "indonesian": "Negev | Infrastructure",
+    "italian": "Negev | Infrastructure",
+    "japanese": "Negev | Infrastructure",
+    "koreana": "네게브 | 인프라",
+    "latam": "Negev | Infraestructura",
+    "norwegian": "Negev | Infrastructure",
+    "polish": "Negev | Infrastruktura",
+    "portuguese": "Negev | Infrastructure",
+    "romanian": "Negev | Infrastructure",
+    "russian": "Негев | Инфраструктура",
+    "schinese": "内格夫 | 基础建设",
+    "schinese_pw": "Negev | Infrastructure",
+    "spanish": "Negev | Infraestructura",
+    "swedish": "Negev | Infrastructure",
+    "tchinese": "Negev | 建築結構",
+    "thai": "Negev | Infrastructure",
+    "turkish": "Negev | Altyapı",
+    "ukrainian": "Неґев | Інфраструктура",
+    "vietnamese": "Negev | Infrastructure"
+  },
+  "media": {
+    "asset_id": "skin__28-1080",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-1080/light.png",
+      "data/api/media/rendered/files/skins/28-1080/medium.png",
+      "data/api/media/rendered/files/skins/28-1080/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-1080.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-1080/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-1080/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-1080/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-1080/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_hy_vertigospray_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_hy_vertigospray_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_hy_vertigospray_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Infrastructure",
+  "search_slug": "negev-infrastructure",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_vertigo_2021",
+        "name": "The 2021 Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4792",
+        "kind": "container",
+        "name": "The 2021 Vertigo Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4973",
+        "kind": "container",
+        "name": "Shanghai 2024 Vertigo Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4815",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Vertigo Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4841",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Vertigo Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4866",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Vertigo Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4899",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Vertigo Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4932",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Vertigo Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "28-1080__normal__battle-scarred",
+    "28-1080__normal__factory-new",
+    "28-1080__normal__field-tested",
+    "28-1080__normal__minimal-wear",
+    "28-1080__normal__well-worn",
+    "28-1080__souvenir__battle-scarred",
+    "28-1080__souvenir__factory-new",
+    "28-1080__souvenir__field-tested",
+    "28-1080__souvenir__minimal-wear",
+    "28-1080__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.49,
+    "min_float": 0.0
+  }
+}

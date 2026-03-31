@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 555,
+    "id": 555,
+    "localized_names": {
+      "brazilian": "Reentrada",
+      "bulgarian": "Повторно влизане",
+      "czech": "Re-Entry",
+      "danish": "Re-Entry",
+      "dutch": "Re-Entry",
+      "english": "Re-Entry",
+      "finnish": "Toistotuli",
+      "french": "Retour de flamme",
+      "german": "Wiedereintritt",
+      "greek": "Re-Entry",
+      "hungarian": "Visszatérés",
+      "indonesian": "Re-Entry",
+      "italian": "Re-Entry",
+      "japanese": "Re-Entry",
+      "koreana": "재진입",
+      "latam": "Ignición",
+      "norwegian": "Re-Entry",
+      "polish": "Zapłon",
+      "portuguese": "Re-Entry",
+      "romanian": "Re-Entry",
+      "russian": "Возвращение",
+      "schinese": "战火重燃",
+      "schinese_pw": "Re-Entry",
+      "spanish": "Ignición",
+      "swedish": "Re-Entry",
+      "tchinese": "重臨戰場",
+      "thai": "Re-Entry",
+      "turkish": "Yeniden Giriş",
+      "ukrainian": "Зворотний вхід",
+      "vietnamese": "Re-Entry"
+    },
+    "name": "Re-Entry",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.43,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-555",
+  "localized_names": {
+    "brazilian": "Tec-9 | Reentrada",
+    "bulgarian": "Tec-9 | Повторно влизане",
+    "czech": "Tec-9 | Re-Entry",
+    "danish": "Tec-9 | Re-Entry",
+    "dutch": "Tec-9 | Re-Entry",
+    "english": "Tec-9 | Re-Entry",
+    "finnish": "Tec-9 | Toistotuli",
+    "french": "Tec-9 | Retour de flamme",
+    "german": "Tec-9 | Wiedereintritt",
+    "greek": "Tec-9 | Re-Entry",
+    "hungarian": "Tec-9 | Visszatérés",
+    "indonesian": "Tec-9 | Re-Entry",
+    "italian": "Tec-9 | Re-Entry",
+    "japanese": "Tec-9 | Re-Entry",
+    "koreana": "Tec-9 | 재진입",
+    "latam": "Tec-9 | Ignición",
+    "norwegian": "Tec-9 | Re-Entry",
+    "polish": "Tec-9 | Zapłon",
+    "portuguese": "Tec-9 | Re-Entry",
+    "romanian": "Tec-9 | Re-Entry",
+    "russian": "Tec-9 | Возвращение",
+    "schinese": "Tec-9 | 战火重燃",
+    "schinese_pw": "Tec-9 | Re-Entry",
+    "spanish": "Tec-9 | Ignición",
+    "swedish": "Tec-9 | Re-Entry",
+    "tchinese": "Tec-9 | 重臨戰場",
+    "thai": "Tec-9 | Re-Entry",
+    "turkish": "Tec-9 | Yeniden Giriş",
+    "ukrainian": "ТЕК-9 | Зворотний вхід",
+    "vietnamese": "Tec-9 | Re-Entry"
+  },
+  "media": {
+    "asset_id": "skin__30-555",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-555/light.png",
+      "data/api/media/rendered/files/skins/30-555/medium.png",
+      "data/api/media/rendered/files/skins/30-555/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-555.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-555/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-555/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-555/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-555/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_am_tec9_redblast_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_am_tec9_redblast_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_am_tec9_redblast_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Re-Entry",
+  "search_slug": "tec-9-re-entry",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4233",
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_12",
+        "name": "The Chroma 3 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "30-555__normal__factory-new",
+    "30-555__normal__field-tested",
+    "30-555__normal__minimal-wear",
+    "30-555__normal__well-worn",
+    "30-555__stattrak__factory-new",
+    "30-555__stattrak__field-tested",
+    "30-555__stattrak__minimal-wear",
+    "30-555__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.43,
+    "min_float": 0.0
+  }
+}

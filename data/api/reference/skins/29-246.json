@@ -1,0 +1,151 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "aa_fade_metallic",
+    "id": 246,
+    "name": "Amber Fade",
+    "rarity_ref": null,
+    "style_code": 6
+  },
+  "game_ref": {
+    "paint_kit_id": 246,
+    "weapon_id": 29
+  },
+  "id": "29-246",
+  "name": "Sawed-Off | Amber Fade",
+  "search_slug": "sawed-off-amber-fade",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_train",
+        "name": "The Train Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4137",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4182",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4231",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4279",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4349",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4401",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4468",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4545",
+        "kind": "souvenir-package",
+        "name": "London 2018 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4595",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4664",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Train Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "29-246__normal__factory-new",
+    "29-246__normal__minimal-wear",
+    "29-246__normal__field-tested",
+    "29-246__normal__well-worn",
+    "29-246__souvenir__factory-new",
+    "29-246__souvenir__minimal-wear",
+    "29-246__souvenir__field-tested",
+    "29-246__souvenir__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_sawedoff",
+    "id": 29,
+    "name": "Sawed-Off",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

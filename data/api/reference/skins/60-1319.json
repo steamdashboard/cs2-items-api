@@ -1,0 +1,84 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "hy_hexagon",
+    "id": 1319,
+    "name": "Rose Hex",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 1319,
+    "weapon_id": 60
+  },
+  "id": "60-1319",
+  "name": "M4A1-S | Rose Hex",
+  "search_slug": "m4a1-s-rose-hex",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "60-1319__normal__factory-new",
+    "60-1319__normal__minimal-wear",
+    "60-1319__normal__field-tested",
+    "60-1319__normal__well-worn",
+    "60-1319__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_m4a1_silencer",
+    "id": 60,
+    "name": "M4A1-S",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

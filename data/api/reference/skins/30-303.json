@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_tec9_asiimov",
+    "id": 303,
+    "name": "Isaac",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 303,
+    "weapon_id": 30
+  },
+  "id": "30-303",
+  "name": "Tec-9 | Isaac",
+  "search_slug": "tec-9-isaac",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_3",
+        "name": "The Huntsman Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4017",
+        "kind": "weapon-case",
+        "name": "Huntsman Weapon Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "30-303__normal__factory-new",
+    "30-303__normal__minimal-wear",
+    "30-303__normal__field-tested",
+    "30-303__normal__well-worn",
+    "30-303__normal__battle-scarred",
+    "30-303__stattrak__factory-new",
+    "30-303__stattrak__minimal-wear",
+    "30-303__stattrak__field-tested",
+    "30-303__stattrak__well-worn",
+    "30-303__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_tec9",
+    "id": 30,
+    "name": "Tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

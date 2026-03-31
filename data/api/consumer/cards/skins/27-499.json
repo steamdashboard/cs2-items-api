@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 499,
+    "id": 499,
+    "localized_names": {
+      "brazilian": "Núcleo de Cobalto",
+      "bulgarian": "Кобалтово ядро",
+      "czech": "Cobalt Core",
+      "danish": "Cobalt Core",
+      "dutch": "Cobalt Core",
+      "english": "Cobalt Core",
+      "finnish": "Kobolttiydin",
+      "french": "Cœur cobalt",
+      "german": "Kobaltkern",
+      "greek": "Cobalt Core",
+      "hungarian": "Kobaltmag",
+      "indonesian": "Cobalt Core",
+      "italian": "Cobalt Core",
+      "japanese": "Cobalt Core",
+      "koreana": "코발트 핵",
+      "latam": "Núcleo de cobalto",
+      "norwegian": "Cobalt Core",
+      "polish": "Kobaltowy rdzeń",
+      "portuguese": "Cobalt Core",
+      "romanian": "Cobalt Core",
+      "russian": "Ядро кобальта",
+      "schinese": "钴核",
+      "schinese_pw": "Cobalt Core",
+      "spanish": "Núcleo de cobalto",
+      "swedish": "Cobalt Core",
+      "tchinese": "鈷核心",
+      "thai": "Cobalt Core",
+      "turkish": "Kobalt Çekirdeği",
+      "ukrainian": "Ядро з кобальту",
+      "vietnamese": "Cobalt Core"
+    },
+    "name": "Cobalt Core",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-499",
+  "localized_names": {
+    "brazilian": "MAG-7 | Núcleo de Cobalto",
+    "bulgarian": "MAG-7 | Кобалтово ядро",
+    "czech": "MAG-7 | Cobalt Core",
+    "danish": "MAG-7 | Cobalt Core",
+    "dutch": "MAG-7 | Cobalt Core",
+    "english": "MAG-7 | Cobalt Core",
+    "finnish": "MAG-7 | Kobolttiydin",
+    "french": "MAG-7 | Cœur cobalt",
+    "german": "MAG-7 | Kobaltkern",
+    "greek": "MAG-7 | Cobalt Core",
+    "hungarian": "MAG-7 | Kobaltmag",
+    "indonesian": "MAG-7 | Cobalt Core",
+    "italian": "MAG-7 | Cobalt Core",
+    "japanese": "MAG-7 | Cobalt Core",
+    "koreana": "MAG-7 | 코발트 핵",
+    "latam": "MAG-7 | Núcleo de cobalto",
+    "norwegian": "MAG-7 | Cobalt Core",
+    "polish": "MAG-7 | Kobaltowy rdzeń",
+    "portuguese": "MAG-7 | Cobalt Core",
+    "romanian": "MAG-7 | Cobalt Core",
+    "russian": "MAG-7 | Ядро кобальта",
+    "schinese": "MAG-7 | 钴核",
+    "schinese_pw": "MAG-7 | Cobalt Core",
+    "spanish": "MAG-7 | Núcleo de cobalto",
+    "swedish": "MAG-7 | Cobalt Core",
+    "tchinese": "MAG-7 | 鈷核心",
+    "thai": "MAG-7 | Cobalt Core",
+    "turkish": "MAG-7 | Kobalt Çekirdeği",
+    "ukrainian": "МАГ-7 | Ядро з кобальту",
+    "vietnamese": "MAG-7 | Cobalt Core"
+  },
+  "media": {
+    "asset_id": "skin__27-499",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-499/light.png",
+      "data/api/media/rendered/files/skins/27-499/medium.png",
+      "data/api/media/rendered/files/skins/27-499/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-499.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-499/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-499/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-499/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-499/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_cu_mag7_myrcene_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_cu_mag7_myrcene_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_cu_mag7_myrcene_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Cobalt Core",
+  "search_slug": "mag-7-cobalt-core",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4138",
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_9",
+        "name": "The Shadow Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "27-499__normal__battle-scarred",
+    "27-499__normal__factory-new",
+    "27-499__normal__field-tested",
+    "27-499__normal__minimal-wear",
+    "27-499__normal__well-worn",
+    "27-499__stattrak__battle-scarred",
+    "27-499__stattrak__factory-new",
+    "27-499__stattrak__field-tested",
+    "27-499__stattrak__minimal-wear",
+    "27-499__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

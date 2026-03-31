@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1418,
+    "id": 1418,
+    "localized_names": {
+      "brazilian": "RMX",
+      "bulgarian": "Ремикс",
+      "czech": "RMX",
+      "danish": "RMX",
+      "dutch": "RMX",
+      "english": "RMX",
+      "finnish": "RMX",
+      "french": "RMX",
+      "german": "RMX",
+      "greek": "RMX",
+      "hungarian": "RMX",
+      "indonesian": "RMX",
+      "italian": "RMX",
+      "japanese": "RMX",
+      "koreana": "RMX",
+      "latam": "RMX",
+      "norwegian": "RMX",
+      "polish": "RMX",
+      "portuguese": "RMX",
+      "romanian": "RMX",
+      "russian": "RMX",
+      "schinese": "混音",
+      "schinese_pw": "RMX",
+      "spanish": "RMX",
+      "swedish": "RMX",
+      "tchinese": "RMX",
+      "thai": "RMX",
+      "turkish": "RMX",
+      "ukrainian": "RMX",
+      "vietnamese": "RMX"
+    },
+    "name": "RMX",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "26-1418",
+  "localized_names": {
+    "brazilian": "PP-Bizon | RMX",
+    "bulgarian": "PP-Bizon | Ремикс",
+    "czech": "PP-Bizon | RMX",
+    "danish": "PP-Bizon | RMX",
+    "dutch": "PP-Bizon | RMX",
+    "english": "PP-Bizon | RMX",
+    "finnish": "PP-Bizon | RMX",
+    "french": "PP-Bizon | RMX",
+    "german": "PP-Bizon | RMX",
+    "greek": "PP-Bizon | RMX",
+    "hungarian": "PP-Bizon | RMX",
+    "indonesian": "PP-Bizon | RMX",
+    "italian": "PP-Bizon | RMX",
+    "japanese": "PP-Bizon | RMX",
+    "koreana": "PP 비존 | RMX",
+    "latam": "PP-Bizon | RMX",
+    "norwegian": "PP-Bizon | RMX",
+    "polish": "PP-Bizon | RMX",
+    "portuguese": "PP-Bizon | RMX",
+    "romanian": "PP-Bizon | RMX",
+    "russian": "ПП-19 «Бизон» | RMX",
+    "schinese": "PP-野牛 | 混音",
+    "schinese_pw": "PP-Bizon | RMX",
+    "spanish": "PP-Bizon | RMX",
+    "swedish": "PP-Bizon | RMX",
+    "tchinese": "PP-Bizon | RMX",
+    "thai": "PP-Bizon | RMX",
+    "turkish": "PP-Bizon | RMX",
+    "ukrainian": "ПП «Бізон» | RMX",
+    "vietnamese": "PP-Bizon | RMX"
+  },
+  "media": {
+    "asset_id": "skin__26-1418",
+    "images_png": [
+      "data/api/media/rendered/files/skins/26-1418/light.png",
+      "data/api/media/rendered/files/skins/26-1418/medium.png",
+      "data/api/media/rendered/files/skins/26-1418/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/26-1418.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/26-1418/heavy.png",
+      "light": "data/api/media/rendered/files/skins/26-1418/light.png",
+      "medium": "data/api/media/rendered/files/skins/26-1418/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/26-1418/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_bizon_bizon_rmx_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_bizon_bizon_rmx_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_bizon_bizon_rmx_medium_png.vtex_c"
+    }
+  },
+  "name": "PP-Bizon | RMX",
+  "search_slug": "pp-bizon-rmx",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_community_37",
+        "name": "The Dead Hand Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5181",
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "26-1418__normal__battle-scarred",
+    "26-1418__normal__factory-new",
+    "26-1418__normal__field-tested",
+    "26-1418__normal__minimal-wear",
+    "26-1418__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 26,
+    "localized_names": {
+      "brazilian": "PP-Bizon",
+      "bulgarian": "PP-Bizon",
+      "czech": "PP-Bizon",
+      "danish": "PP-Bizon",
+      "dutch": "PP-Bizon",
+      "english": "PP-Bizon",
+      "finnish": "PP-Bizon",
+      "french": "PP-Bizon",
+      "german": "PP-Bizon",
+      "greek": "PP-Bizon",
+      "hungarian": "PP-Bizon",
+      "indonesian": "PP-Bizon",
+      "italian": "PP-Bizon",
+      "japanese": "PP-Bizon",
+      "koreana": "PP 비존",
+      "latam": "PP-Bizon",
+      "norwegian": "PP-Bizon",
+      "polish": "PP-Bizon",
+      "portuguese": "PP-Bizon",
+      "romanian": "PP-Bizon",
+      "russian": "ПП-19 «Бизон»",
+      "schinese": "PP-野牛",
+      "schinese_pw": "PP-Bizon",
+      "spanish": "PP-Bizon",
+      "swedish": "PP-Bizon",
+      "tchinese": "PP-Bizon",
+      "thai": "PP-Bizon",
+      "turkish": "PP-Bizon",
+      "ukrainian": "ПП «Бізон»",
+      "vietnamese": "PP-Bizon"
+    },
+    "name": "PP-Bizon",
+    "search_slug": "pp-bizon",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

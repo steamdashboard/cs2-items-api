@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 73,
+    "id": 73,
+    "localized_names": {
+      "brazilian": "Asas",
+      "bulgarian": "Криле",
+      "czech": "Wings",
+      "danish": "Wings",
+      "dutch": "Wings",
+      "english": "Wings",
+      "finnish": "Siivet",
+      "french": "Ailé",
+      "german": "Flügel",
+      "greek": "Wings",
+      "hungarian": "Szárnyak",
+      "indonesian": "Wings",
+      "italian": "Wings",
+      "japanese": "Wings",
+      "koreana": "날개",
+      "latam": "Alas",
+      "norwegian": "Wings",
+      "polish": "Skrzydła",
+      "portuguese": "Wings",
+      "romanian": "Wings",
+      "russian": "Крылья",
+      "schinese": "鹰翼",
+      "schinese_pw": "Wings",
+      "spanish": "Alas",
+      "swedish": "Wings",
+      "tchinese": "雙翼",
+      "thai": "Wings",
+      "turkish": "Kanatlar",
+      "ukrainian": "Крила",
+      "vietnamese": "Wings"
+    },
+    "name": "Wings",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.14,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-73",
+  "localized_names": {
+    "brazilian": "AUG | Asas",
+    "bulgarian": "AUG | Криле",
+    "czech": "AUG | Wings",
+    "danish": "AUG | Wings",
+    "dutch": "AUG | Wings",
+    "english": "AUG | Wings",
+    "finnish": "AUG | Siivet",
+    "french": "AUG | Ailé",
+    "german": "AUG | Flügel",
+    "greek": "AUG | Wings",
+    "hungarian": "AUG | Szárnyak",
+    "indonesian": "AUG | Wings",
+    "italian": "AUG | Wings",
+    "japanese": "AUG | Wings",
+    "koreana": "AUG | 날개",
+    "latam": "AUG | Alas",
+    "norwegian": "AUG | Wings",
+    "polish": "AUG | Skrzydła",
+    "portuguese": "AUG | Wings",
+    "romanian": "AUG | Wings",
+    "russian": "AUG | Крылья",
+    "schinese": "AUG | 鹰翼",
+    "schinese_pw": "AUG | Wings",
+    "spanish": "AUG | Alas",
+    "swedish": "AUG | Wings",
+    "tchinese": "AUG | 雙翼",
+    "thai": "AUG | Wings",
+    "turkish": "AUG | Kanatlar",
+    "ukrainian": "АУГ | Крила",
+    "vietnamese": "AUG | Wings"
+  },
+  "media": {
+    "asset_id": "skin__8-73",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-73/light.png",
+      "data/api/media/rendered/files/skins/8-73/medium.png",
+      "data/api/media/rendered/files/skins/8-73/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-73.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-73/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-73/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-73/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-73/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_hy_feathers_aug_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_hy_feathers_aug_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_hy_feathers_aug_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Wings",
+  "search_slug": "aug-wings",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-73__normal__factory-new",
+    "8-73__normal__minimal-wear",
+    "8-73__stattrak__factory-new",
+    "8-73__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.14,
+    "min_float": 0.0
+  }
+}

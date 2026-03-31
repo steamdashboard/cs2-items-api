@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 231,
+    "id": 231,
+    "localized_names": {
+      "brazilian": "Camuflagem de Cobalto",
+      "bulgarian": "Кобалтов разрив",
+      "czech": "Cobalt Disruption",
+      "danish": "Cobalt Disruption",
+      "dutch": "Cobalt Disruption",
+      "english": "Cobalt Disruption",
+      "finnish": "Koboltinsininen häiriö",
+      "french": "Cobalt disruptif",
+      "german": "Kobaltbruch",
+      "greek": "Cobalt Disruption",
+      "hungarian": "Kobalt Álca",
+      "indonesian": "Cobalt Disruption",
+      "italian": "Cobald Disruption",
+      "japanese": "Cobalt Disruption",
+      "koreana": "코발트색 디지털 위장 무늬",
+      "latam": "DDPAT de cobalto",
+      "norwegian": "Cobalt Disruption",
+      "polish": "Kobaltowy zamęt",
+      "portuguese": "Cobalt Disruption",
+      "romanian": "Cobalt Disruption",
+      "russian": "Ржавый кобальт",
+      "schinese": "钴蓝禁锢",
+      "schinese_pw": "Cobalt Disruption",
+      "spanish": "DDPAT cobalto",
+      "swedish": "Cobalt Disruption",
+      "tchinese": "鈷分裂",
+      "thai": "Cobalt Disruption",
+      "turkish": "Parçalı Kobalt",
+      "ukrainian": "Іржавий кобальт",
+      "vietnamese": "Cobalt Disruption"
+    },
+    "name": "Cobalt Disruption",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-231",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Camuflagem de Cobalto",
+    "bulgarian": "Desert Eagle | Кобалтов разрив",
+    "czech": "Desert Eagle | Cobalt Disruption",
+    "danish": "Desert Eagle | Cobalt Disruption",
+    "dutch": "Desert Eagle | Cobalt Disruption",
+    "english": "Desert Eagle | Cobalt Disruption",
+    "finnish": "Desert Eagle | Koboltinsininen häiriö",
+    "french": "Desert Eagle | Cobalt disruptif",
+    "german": "Desert Eagle | Kobaltbruch",
+    "greek": "Desert Eagle | Cobalt Disruption",
+    "hungarian": "Desert Eagle | Kobalt Álca",
+    "indonesian": "Desert Eagle | Cobalt Disruption",
+    "italian": "Desert Eagle | Cobald Disruption",
+    "japanese": "Desert Eagle | Cobalt Disruption",
+    "koreana": "데저트 이글 | 코발트색 디지털 위장 무늬",
+    "latam": "Desert Eagle | DDPAT de cobalto",
+    "norwegian": "Desert Eagle | Cobalt Disruption",
+    "polish": "Desert Eagle | Kobaltowy zamęt",
+    "portuguese": "Desert Eagle | Cobalt Disruption",
+    "romanian": "Desert Eagle | Cobalt Disruption",
+    "russian": "Desert Eagle | Ржавый кобальт",
+    "schinese": "沙漠之鹰 | 钴蓝禁锢",
+    "schinese_pw": "Desert Eagle | Cobalt Disruption",
+    "spanish": "Desert Eagle | DDPAT cobalto",
+    "swedish": "Desert Eagle | Cobalt Disruption",
+    "tchinese": "Desert Eagle | 鈷分裂",
+    "thai": "Desert Eagle | Cobalt Disruption",
+    "turkish": "Desert Eagle | Parçalı Kobalt",
+    "ukrainian": "Пустельний орел | Іржавий кобальт",
+    "vietnamese": "Desert Eagle | Cobalt Disruption"
+  },
+  "media": {
+    "asset_id": "skin__1-231",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-231/light.png",
+      "data/api/media/rendered/files/skins/1-231/medium.png",
+      "data/api/media/rendered/files/skins/1-231/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-231.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-231/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-231/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-231/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-231/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_am_ddpatdense_peacock_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_am_ddpatdense_peacock_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_am_ddpatdense_peacock_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Cobalt Disruption",
+  "search_slug": "desert-eagle-cobalt-disruption",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4005",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Winter Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_ii",
+        "name": "The eSports 2013 Winter Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-231__normal__factory-new",
+    "1-231__normal__field-tested",
+    "1-231__normal__minimal-wear",
+    "1-231__stattrak__factory-new",
+    "1-231__stattrak__field-tested",
+    "1-231__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

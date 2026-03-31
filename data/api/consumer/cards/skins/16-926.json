@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 926,
+    "id": 926,
+    "localized_names": {
+      "brazilian": "Camuflagem Digital — Vermelho",
+      "bulgarian": "Червена разпокъсана цифрова шарка",
+      "czech": "Red DDPAT",
+      "danish": "Red DDPAT",
+      "dutch": "Red DDPAT",
+      "english": "Red DDPAT",
+      "finnish": "Punainen DDPAT",
+      "french": "Rouge numérique",
+      "german": "Rotes DDPAT",
+      "greek": "Red DDPAT",
+      "hungarian": "Piros DDPAT",
+      "indonesian": "Red DDPAT",
+      "italian": "Red DDPAT",
+      "japanese": "Red DDPAT",
+      "koreana": "빨간색 디지털 위장 무늬",
+      "latam": "DDPAT rojo",
+      "norwegian": "Red DDPAT",
+      "polish": "Czerwony DDPAT",
+      "portuguese": "Red DDPAT",
+      "romanian": "Red DDPAT",
+      "russian": "Пиксельный камуфляж «Красный»",
+      "schinese": "红色 DDPAT",
+      "schinese_pw": "Red DDPAT",
+      "spanish": "DDPAT rojo",
+      "swedish": "Red DDPAT",
+      "tchinese": "紅色數位迷彩",
+      "thai": "Red DDPAT",
+      "turkish": "Kırmızı DDPAT",
+      "ukrainian": "Пікс. камуфляж «Червоний»",
+      "vietnamese": "Red DDPAT"
+    },
+    "name": "Red DDPAT",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "16-926",
+  "localized_names": {
+    "brazilian": "M4A4 | Camuflagem Digital — Vermelho",
+    "bulgarian": "M4A4 | Червена разпокъсана цифрова шарка",
+    "czech": "M4A4 | Red DDPAT",
+    "danish": "M4A4 | Red DDPAT",
+    "dutch": "M4A4 | Red DDPAT",
+    "english": "M4A4 | Red DDPAT",
+    "finnish": "M4A4 | Punainen DDPAT",
+    "french": "M4A4 | Rouge numérique",
+    "german": "M4A4 | Rotes DDPAT",
+    "greek": "M4A4 | Red DDPAT",
+    "hungarian": "M4A4 | Piros DDPAT",
+    "indonesian": "M4A4 | Red DDPAT",
+    "italian": "M4A4 | Red DDPAT",
+    "japanese": "M4A4 | Red DDPAT",
+    "koreana": "M4A4 | 빨간색 디지털 위장 무늬",
+    "latam": "M4A4 | DDPAT rojo",
+    "norwegian": "M4A4 | Red DDPAT",
+    "polish": "M4A4 | Czerwony DDPAT",
+    "portuguese": "M4A4 | Red DDPAT",
+    "romanian": "M4A4 | Red DDPAT",
+    "russian": "M4A4 | Пиксельный камуфляж «Красный»",
+    "schinese": "M4A4 | 红色 DDPAT",
+    "schinese_pw": "M4A4 | Red DDPAT",
+    "spanish": "M4A4 | DDPAT rojo",
+    "swedish": "M4A4 | Red DDPAT",
+    "tchinese": "M4A4 | 紅色數位迷彩",
+    "thai": "M4A4 | Red DDPAT",
+    "turkish": "M4A4 | Kırmızı DDPAT",
+    "ukrainian": "М4А4 | Пікс. камуфляж «Червоний»",
+    "vietnamese": "M4A4 | Red DDPAT"
+  },
+  "media": {
+    "asset_id": "skin__16-926",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-926/light.png",
+      "data/api/media/rendered/files/skins/16-926/medium.png",
+      "data/api/media/rendered/files/skins/16-926/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-926.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-926/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-926/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-926/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-926/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_hy_ddpat_urban_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_hy_ddpat_urban_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_hy_ddpat_urban_red_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Red DDPAT",
+  "search_slug": "m4a4-red-ddpat",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "16-926__normal__battle-scarred",
+    "16-926__normal__factory-new",
+    "16-926__normal__field-tested",
+    "16-926__normal__minimal-wear",
+    "16-926__normal__well-worn",
+    "16-926__souvenir__battle-scarred",
+    "16-926__souvenir__factory-new",
+    "16-926__souvenir__field-tested",
+    "16-926__souvenir__minimal-wear",
+    "16-926__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

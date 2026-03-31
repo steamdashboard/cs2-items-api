@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 718,
+    "id": 718,
+    "localized_names": {
+      "brazilian": "P.A.T.A.",
+      "bulgarian": "ЛАПА",
+      "czech": "PAW",
+      "danish": "PAW",
+      "dutch": "PAW",
+      "english": "PAW",
+      "finnish": "PAW",
+      "french": "PATTE",
+      "german": "TATZEN",
+      "greek": "PAW",
+      "hungarian": "Mancs",
+      "indonesian": "PAW",
+      "italian": "PAW",
+      "japanese": "PAW",
+      "koreana": "PAW",
+      "latam": "PAW",
+      "norwegian": "PAW",
+      "polish": "Łapa",
+      "portuguese": "PAW",
+      "romanian": "PAW",
+      "russian": "ЛАПКИ",
+      "schinese": "猫猫狗狗",
+      "schinese_pw": "PAW",
+      "spanish": "Gatetes y perretes",
+      "swedish": "PAW",
+      "tchinese": "肉球天堂",
+      "thai": "PAW",
+      "turkish": "PATİ",
+      "ukrainian": "ЛАПА",
+      "vietnamese": "PAW"
+    },
+    "name": "PAW",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "9-718",
+  "localized_names": {
+    "brazilian": "AWP | P.A.T.A.",
+    "bulgarian": "AWP | ЛАПА",
+    "czech": "AWP | PAW",
+    "danish": "AWP | PAW",
+    "dutch": "AWP | PAW",
+    "english": "AWP | PAW",
+    "finnish": "AWP | PAW",
+    "french": "AWP | PATTE",
+    "german": "AWP | TATZEN",
+    "greek": "AWP | PAW",
+    "hungarian": "AWP | Mancs",
+    "indonesian": "AWP | PAW",
+    "italian": "AWP | PAW",
+    "japanese": "AWP | PAW",
+    "koreana": "AWP | PAW",
+    "latam": "AWP | PAW",
+    "norwegian": "AWP | PAW",
+    "polish": "AWP | Łapa",
+    "portuguese": "AWP | PAW",
+    "romanian": "AWP | PAW",
+    "russian": "AWP | ЛАПКИ",
+    "schinese": "AWP | 猫猫狗狗",
+    "schinese_pw": "AWP | PAW",
+    "spanish": "AWP | Gatetes y perretes",
+    "swedish": "AWP | PAW",
+    "tchinese": "AWP | 肉球天堂",
+    "thai": "AWP | PAW",
+    "turkish": "AWP | PATİ",
+    "ukrainian": "АВП | ЛАПА",
+    "vietnamese": "AWP | PAW"
+  },
+  "media": {
+    "asset_id": "skin__9-718",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-718/light.png",
+      "data/api/media/rendered/files/skins/9-718/medium.png",
+      "data/api/media/rendered/files/skins/9-718/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-718.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-718/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-718/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-718/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-718/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_am_awp_pawpaw_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_am_awp_pawpaw_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_am_awp_pawpaw_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | PAW",
+  "search_slug": "awp-paw",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4482",
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_20",
+        "name": "The Horizon Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-718__normal__battle-scarred",
+    "9-718__normal__factory-new",
+    "9-718__normal__field-tested",
+    "9-718__normal__minimal-wear",
+    "9-718__normal__well-worn",
+    "9-718__stattrak__battle-scarred",
+    "9-718__stattrak__factory-new",
+    "9-718__stattrak__field-tested",
+    "9-718__stattrak__minimal-wear",
+    "9-718__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

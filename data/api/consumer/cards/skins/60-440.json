@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 440,
+    "id": 440,
+    "localized_names": {
+      "brazilian": "Queda de Ícaro",
+      "bulgarian": "Падането на Икар",
+      "czech": "Icarus Fell",
+      "danish": "Icarus Fell",
+      "dutch": "Icarus Fell",
+      "english": "Icarus Fell",
+      "finnish": "Ikaroksen lasku",
+      "french": "Chute d'Icare",
+      "german": "Icarus Fell",
+      "greek": "Icarus Fell",
+      "hungarian": "Ikarosz Bukása",
+      "indonesian": "Icarus Fell",
+      "italian": "Icarus Fell",
+      "japanese": "Icarus Fell",
+      "koreana": "추락한 이카루스",
+      "latam": "Caída de Ícaro",
+      "norwegian": "Icarus Fell",
+      "polish": "Upadek Ikara",
+      "portuguese": "Icarus Fell",
+      "romanian": "Icarus Fell",
+      "russian": "Падение Икара",
+      "schinese": "伊卡洛斯殒落",
+      "schinese_pw": "Icarus Fell",
+      "spanish": "Caída de Ícaro",
+      "swedish": "Icarus Fell",
+      "tchinese": "伊卡洛斯殞落",
+      "thai": "Icarus Fell",
+      "turkish": "İkarus Düştü",
+      "ukrainian": "Падіння Ікара",
+      "vietnamese": "Icarus Fell"
+    },
+    "name": "Icarus Fell",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.1,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-440",
+  "localized_names": {
+    "brazilian": "M4A1-S | Queda de Ícaro",
+    "bulgarian": "M4A1-S | Падането на Икар",
+    "czech": "M4A1-S | Icarus Fell",
+    "danish": "M4A1-S | Icarus Fell",
+    "dutch": "M4A1-S | Icarus Fell",
+    "english": "M4A1-S | Icarus Fell",
+    "finnish": "M4A1-S | Ikaroksen lasku",
+    "french": "M4A1-S | Chute d'Icare",
+    "german": "M4A1-S | Icarus Fell",
+    "greek": "M4A1-S | Icarus Fell",
+    "hungarian": "M4A1-S | Ikarosz Bukása",
+    "indonesian": "M4A1-S | Icarus Fell",
+    "italian": "M4A1-S | Icarus Fell",
+    "japanese": "M4A1-S | Icarus Fell",
+    "koreana": "M4A1-S | 추락한 이카루스",
+    "latam": "M4A1-S | Caída de Ícaro",
+    "norwegian": "M4A1-S | Icarus Fell",
+    "polish": "M4A1-S | Upadek Ikara",
+    "portuguese": "M4A1-S | Icarus Fell",
+    "romanian": "M4A1-S | Icarus Fell",
+    "russian": "M4A1-S | Падение Икара",
+    "schinese": "M4A1消音版 | 伊卡洛斯殒落",
+    "schinese_pw": "M4A1-S | Icarus Fell",
+    "spanish": "M4A1-S | Caída de Ícaro",
+    "swedish": "M4A1-S | Icarus Fell",
+    "tchinese": "M4A1-S | 伊卡洛斯殞落",
+    "thai": "M4A1-S | Icarus Fell",
+    "turkish": "M4A1-S | İkarus Düştü",
+    "ukrainian": "М4А1-С | Падіння Ікара",
+    "vietnamese": "M4A1-S | Icarus Fell"
+  },
+  "media": {
+    "asset_id": "skin__60-440",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-440/light.png",
+      "data/api/media/rendered/files/skins/60-440/medium.png",
+      "data/api/media/rendered/files/skins/60-440/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-440.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-440/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-440/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-440/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-440/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_icarus_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_icarus_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_icarus_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Icarus Fell",
+  "search_slug": "m4a1-s-icarus-fell",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_gods_and_monsters",
+        "name": "The Gods and Monsters Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4604",
+        "kind": "container",
+        "name": "The Gods and Monsters Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-440__normal__factory-new",
+    "60-440__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.1,
+    "min_float": 0.0
+  }
+}

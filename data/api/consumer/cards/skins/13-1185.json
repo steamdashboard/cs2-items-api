@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1185,
+    "id": 1185,
+    "localized_names": {
+      "brazilian": "Controle",
+      "bulgarian": "Контрол",
+      "czech": "Control",
+      "danish": "Control",
+      "dutch": "Control",
+      "english": "Control",
+      "finnish": "Kuskin paikalla",
+      "french": "Contrôle",
+      "german": "Kontrolle",
+      "greek": "Control",
+      "hungarian": "Irányítás",
+      "indonesian": "Control",
+      "italian": "Control",
+      "japanese": "Control",
+      "koreana": "통제",
+      "latam": "Control",
+      "norwegian": "Control",
+      "polish": "Kontrola",
+      "portuguese": "Control",
+      "romanian": "Control",
+      "russian": "Контроль",
+      "schinese": "控制",
+      "schinese_pw": "Control",
+      "spanish": "Control",
+      "swedish": "Control",
+      "tchinese": "控制",
+      "thai": "Control",
+      "turkish": "Kontrol",
+      "ukrainian": "Контроль",
+      "vietnamese": "Control"
+    },
+    "name": "Control",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.798995,
+      "min_float": 0.0
+    }
+  },
+  "id": "13-1185",
+  "localized_names": {
+    "brazilian": "Galil AR | Controle",
+    "bulgarian": "Galil AR | Контрол",
+    "czech": "Galil AR | Control",
+    "danish": "Galil AR | Control",
+    "dutch": "Galil AR | Control",
+    "english": "Galil AR | Control",
+    "finnish": "Galil AR | Kuskin paikalla",
+    "french": "Galil AR | Contrôle",
+    "german": "Galil AR | Kontrolle",
+    "greek": "Galil AR | Control",
+    "hungarian": "Galil AR | Irányítás",
+    "indonesian": "Galil AR | Control",
+    "italian": "Galil AR | Control",
+    "japanese": "Galil AR | Control",
+    "koreana": "갈릴 돌격소총 | 통제",
+    "latam": "Galil AR | Control",
+    "norwegian": "Galil AR | Control",
+    "polish": "Galil AR | Kontrola",
+    "portuguese": "Galil AR | Control",
+    "romanian": "Galil AR | Control",
+    "russian": "Автомат «Галиль» | Контроль",
+    "schinese": "加利尔AR | 控制",
+    "schinese_pw": "Galil AR | Control",
+    "spanish": "Galil AR | Control",
+    "swedish": "Galil AR | Control",
+    "tchinese": "Galil AR | 控制",
+    "thai": "Galil AR | Control",
+    "turkish": "Galil AR | Kontrol",
+    "ukrainian": "Ґаліл | Контроль",
+    "vietnamese": "Galil AR | Control"
+  },
+  "media": {
+    "asset_id": "skin__13-1185",
+    "images_png": [
+      "data/api/media/rendered/files/skins/13-1185/light.png",
+      "data/api/media/rendered/files/skins/13-1185/medium.png",
+      "data/api/media/rendered/files/skins/13-1185/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/13-1185.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/13-1185/heavy.png",
+      "light": "data/api/media/rendered/files/skins/13-1185/light.png",
+      "medium": "data/api/media/rendered/files/skins/13-1185/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/13-1185/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_galilar_galil_control_strike_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_galilar_galil_control_strike_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_galilar_galil_control_strike_medium_png.vtex_c"
+    }
+  },
+  "name": "Galil AR | Control",
+  "search_slug": "galil-ar-control",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "7007",
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_35",
+        "name": "The Fever Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "13-1185__normal__battle-scarred",
+    "13-1185__normal__factory-new",
+    "13-1185__normal__field-tested",
+    "13-1185__normal__minimal-wear",
+    "13-1185__normal__well-worn",
+    "13-1185__stattrak__battle-scarred",
+    "13-1185__stattrak__factory-new",
+    "13-1185__stattrak__field-tested",
+    "13-1185__stattrak__minimal-wear",
+    "13-1185__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 13,
+    "localized_names": {
+      "brazilian": "Galil AR",
+      "bulgarian": "Galil AR",
+      "czech": "Galil AR",
+      "danish": "Galil AR",
+      "dutch": "Galil AR",
+      "english": "Galil AR",
+      "finnish": "Galil AR",
+      "french": "Galil AR",
+      "german": "Galil AR",
+      "greek": "Galil AR",
+      "hungarian": "Galil AR",
+      "indonesian": "Galil AR",
+      "italian": "Galil AR",
+      "japanese": "Galil AR",
+      "koreana": "갈릴 돌격소총",
+      "latam": "Galil AR",
+      "norwegian": "Galil AR",
+      "polish": "Galil AR",
+      "portuguese": "Galil AR",
+      "romanian": "Galil AR",
+      "russian": "Автомат «Галиль»",
+      "schinese": "加利尔AR",
+      "schinese_pw": "Galil AR",
+      "spanish": "Galil AR",
+      "swedish": "Galil AR",
+      "tchinese": "Galil AR",
+      "thai": "Galil AR",
+      "turkish": "Galil AR",
+      "ukrainian": "Ґаліл",
+      "vietnamese": "Galil AR"
+    },
+    "name": "Galil AR",
+    "search_slug": "galil-ar",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.798995,
+    "min_float": 0.0
+  }
+}

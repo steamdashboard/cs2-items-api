@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 786,
+    "id": 786,
+    "localized_names": {
+      "brazilian": "Trocador",
+      "bulgarian": "Обменник",
+      "czech": "Exchanger",
+      "danish": "Exchanger",
+      "dutch": "Exchanger",
+      "english": "Exchanger",
+      "finnish": "Lämmönvaihdin",
+      "french": "Échangeur",
+      "german": "Umwandler",
+      "greek": "Exchanger",
+      "hungarian": "Hőcserélő",
+      "indonesian": "Exchanger",
+      "italian": "Exchanger",
+      "japanese": "Exchanger",
+      "koreana": "교환원",
+      "latam": "Intercambiador",
+      "norwegian": "Exchanger",
+      "polish": "Wymiennik",
+      "portuguese": "Exchanger",
+      "romanian": "Exchanger",
+      "russian": "Обменник",
+      "schinese": "交换机",
+      "schinese_pw": "Exchanger",
+      "spanish": "Intercambiador",
+      "swedish": "Exchanger",
+      "tchinese": "交換器",
+      "thai": "Exchanger",
+      "turkish": "Eşanjör",
+      "ukrainian": "Обмінник",
+      "vietnamese": "Exchanger"
+    },
+    "name": "Exchanger",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-786",
+  "localized_names": {
+    "brazilian": "P250 | Trocador",
+    "bulgarian": "P250 | Обменник",
+    "czech": "P250 | Exchanger",
+    "danish": "P250 | Exchanger",
+    "dutch": "P250 | Exchanger",
+    "english": "P250 | Exchanger",
+    "finnish": "P250 | Lämmönvaihdin",
+    "french": "P250 | Échangeur",
+    "german": "P250 | Umwandler",
+    "greek": "P250 | Exchanger",
+    "hungarian": "P250 | Hőcserélő",
+    "indonesian": "P250 | Exchanger",
+    "italian": "P250 | Exchanger",
+    "japanese": "P250 | Exchanger",
+    "koreana": "P250 | 교환원",
+    "latam": "P250 | Intercambiador",
+    "norwegian": "P250 | Exchanger",
+    "polish": "P250 | Wymiennik",
+    "portuguese": "P250 | Exchanger",
+    "romanian": "P250 | Exchanger",
+    "russian": "P250 | Обменник",
+    "schinese": "P250 | 交换机",
+    "schinese_pw": "P250 | Exchanger",
+    "spanish": "P250 | Intercambiador",
+    "swedish": "P250 | Exchanger",
+    "tchinese": "P250 | 交換器",
+    "thai": "P250 | Exchanger",
+    "turkish": "P250 | Eşanjör",
+    "ukrainian": "П250 | Обмінник",
+    "vietnamese": "P250 | Exchanger"
+  },
+  "media": {
+    "asset_id": "skin__36-786",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-786/light.png",
+      "data/api/media/rendered/files/skins/36-786/medium.png",
+      "data/api/media/rendered/files/skins/36-786/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-786.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-786/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-786/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-786/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-786/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_hy_ducts_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_hy_ducts_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_hy_ducts_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Exchanger",
+  "search_slug": "p250-exchanger",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_nuke_2",
+        "name": "The 2018 Nuke Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4972",
+        "kind": "container",
+        "name": "Shanghai 2024 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5125",
+        "kind": "container",
+        "name": "Austin 2025 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5224",
+        "kind": "container",
+        "name": "Budapest 2025 Nuke Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4546",
+        "kind": "souvenir-package",
+        "name": "London 2018 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4596",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4665",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4814",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4840",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4865",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4898",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Nuke Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4931",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Nuke Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "36-786__normal__battle-scarred",
+    "36-786__normal__factory-new",
+    "36-786__normal__field-tested",
+    "36-786__normal__minimal-wear",
+    "36-786__normal__well-worn",
+    "36-786__souvenir__battle-scarred",
+    "36-786__souvenir__factory-new",
+    "36-786__souvenir__field-tested",
+    "36-786__souvenir__minimal-wear",
+    "36-786__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

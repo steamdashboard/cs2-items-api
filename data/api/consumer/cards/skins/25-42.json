@@ -1,0 +1,208 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 42,
+    "id": 42,
+    "localized_names": {
+      "brazilian": "Aço Azul",
+      "bulgarian": "Синя стомана",
+      "czech": "Blue Steel",
+      "danish": "Blue Steel",
+      "dutch": "Blue Steel",
+      "english": "Blue Steel",
+      "finnish": "Sininen teräs",
+      "french": "Acier bleui",
+      "german": "Blauer Stahl",
+      "greek": "Blue Steel",
+      "hungarian": "Kék Acél",
+      "indonesian": "Blue Steel",
+      "italian": "Blue Steel",
+      "japanese": "Blue Steel",
+      "koreana": "푸른 강철",
+      "latam": "Azul metalizado",
+      "norwegian": "Blue Steel",
+      "polish": "Niebieska stal",
+      "portuguese": "Blue Steel",
+      "romanian": "Blue Steel",
+      "russian": "Вороненая сталь",
+      "schinese": "蓝钢",
+      "schinese_pw": "Blue Steel",
+      "spanish": "Azul metalizado",
+      "swedish": "Blue Steel",
+      "tchinese": "藍鋼",
+      "thai": "Blue Steel",
+      "turkish": "Mavi Çelik",
+      "ukrainian": "Блакитна сталь",
+      "vietnamese": "Blue Steel"
+    },
+    "name": "Blue Steel",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "25-42",
+  "localized_names": {
+    "brazilian": "XM1014 | Aço Azul",
+    "bulgarian": "XM1014 | Синя стомана",
+    "czech": "XM1014 | Blue Steel",
+    "danish": "XM1014 | Blue Steel",
+    "dutch": "XM1014 | Blue Steel",
+    "english": "XM1014 | Blue Steel",
+    "finnish": "XM1014 | Sininen teräs",
+    "french": "XM1014 | Acier bleui",
+    "german": "XM1014 | Blauer Stahl",
+    "greek": "XM1014 | Blue Steel",
+    "hungarian": "XM1014 | Kék Acél",
+    "indonesian": "XM1014 | Blue Steel",
+    "italian": "XM1014 | Blue Steel",
+    "japanese": "XM1014 | Blue Steel",
+    "koreana": "XM1014 | 푸른 강철",
+    "latam": "XM1014 | Azul metalizado",
+    "norwegian": "XM1014 | Blue Steel",
+    "polish": "XM1014 | Niebieska stal",
+    "portuguese": "XM1014 | Blue Steel",
+    "romanian": "XM1014 | Blue Steel",
+    "russian": "XM1014 | Вороненая сталь",
+    "schinese": "XM1014 | 蓝钢",
+    "schinese_pw": "XM1014 | Blue Steel",
+    "spanish": "XM1014 | Azul metalizado",
+    "swedish": "XM1014 | Blue Steel",
+    "tchinese": "XM1014 | 藍鋼",
+    "thai": "XM1014 | Blue Steel",
+    "turkish": "XM1014 | Mavi Çelik",
+    "ukrainian": "М1014 | Блакитна сталь",
+    "vietnamese": "XM1014 | Blue Steel"
+  },
+  "media": {
+    "asset_id": "skin__25-42",
+    "images_png": [
+      "data/api/media/rendered/files/skins/25-42/light.png",
+      "data/api/media/rendered/files/skins/25-42/medium.png",
+      "data/api/media/rendered/files/skins/25-42/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/25-42.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/25-42/heavy.png",
+      "light": "data/api/media/rendered/files/skins/25-42/light.png",
+      "medium": "data/api/media/rendered/files/skins/25-42/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/25-42/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_xm1014_aq_blued_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_xm1014_aq_blued_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_xm1014_aq_blued_medium_png.vtex_c"
+    }
+  },
+  "name": "XM1014 | Blue Steel",
+  "search_slug": "xm1014-blue-steel",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_lake",
+        "name": "The Lake Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "25-42__normal__battle-scarred",
+    "25-42__normal__factory-new",
+    "25-42__normal__field-tested",
+    "25-42__normal__minimal-wear",
+    "25-42__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 25,
+    "localized_names": {
+      "brazilian": "XM1014",
+      "bulgarian": "XM1014",
+      "czech": "XM1014",
+      "danish": "XM1014",
+      "dutch": "XM1014",
+      "english": "XM1014",
+      "finnish": "XM1014",
+      "french": "XM1014",
+      "german": "XM1014",
+      "greek": "XM1014",
+      "hungarian": "XM1014",
+      "indonesian": "XM1014",
+      "italian": "XM1014",
+      "japanese": "XM1014",
+      "koreana": "XM1014",
+      "latam": "XM1014",
+      "norwegian": "XM1014",
+      "polish": "XM1014",
+      "portuguese": "XM1014",
+      "romanian": "XM1014",
+      "russian": "XM1014",
+      "schinese": "XM1014",
+      "schinese_pw": "XM1014",
+      "spanish": "XM1014",
+      "swedish": "XM1014",
+      "tchinese": "XM1014",
+      "thai": "XM1014",
+      "turkish": "XM1014",
+      "ukrainian": "М1014",
+      "vietnamese": "XM1014"
+    },
+    "name": "XM1014",
+    "search_slug": "xm1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

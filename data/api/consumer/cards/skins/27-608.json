@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 608,
+    "id": 608,
+    "localized_names": {
+      "brazilian": "Pteróglifo",
+      "bulgarian": "Петроглиф",
+      "czech": "Petroglyph",
+      "danish": "Petroglyph",
+      "dutch": "Petroglyph",
+      "english": "Petroglyph",
+      "finnish": "Petroglyfi",
+      "french": "Pétroglyphe",
+      "german": "Felsbild",
+      "greek": "Petroglyph",
+      "hungarian": "Petroglifa",
+      "indonesian": "Petroglyph",
+      "italian": "Petroglyph",
+      "japanese": "Petroglyph",
+      "koreana": "암각화",
+      "latam": "Petroglifo",
+      "norwegian": "Petroglyph",
+      "polish": "Petroglif",
+      "portuguese": "Petroglyph",
+      "romanian": "Petroglyph",
+      "russian": "Петроглиф",
+      "schinese": "石雕",
+      "schinese_pw": "Petroglyph",
+      "spanish": "Petroglifo",
+      "swedish": "Petroglyph",
+      "tchinese": "岩畫",
+      "thai": "Petroglyph",
+      "turkish": "Mağara Sanatı",
+      "ukrainian": "Петрогліф",
+      "vietnamese": "Petroglyph"
+    },
+    "name": "Petroglyph",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.44,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-608",
+  "localized_names": {
+    "brazilian": "MAG-7 | Pteróglifo",
+    "bulgarian": "MAG-7 | Петроглиф",
+    "czech": "MAG-7 | Petroglyph",
+    "danish": "MAG-7 | Petroglyph",
+    "dutch": "MAG-7 | Petroglyph",
+    "english": "MAG-7 | Petroglyph",
+    "finnish": "MAG-7 | Petroglyfi",
+    "french": "MAG-7 | Pétroglyphe",
+    "german": "MAG-7 | Felsbild",
+    "greek": "MAG-7 | Petroglyph",
+    "hungarian": "MAG-7 | Petroglifa",
+    "indonesian": "MAG-7 | Petroglyph",
+    "italian": "MAG-7 | Petroglyph",
+    "japanese": "MAG-7 | Petroglyph",
+    "koreana": "MAG-7 | 암각화",
+    "latam": "MAG-7 | Petroglifo",
+    "norwegian": "MAG-7 | Petroglyph",
+    "polish": "MAG-7 | Petroglif",
+    "portuguese": "MAG-7 | Petroglyph",
+    "romanian": "MAG-7 | Petroglyph",
+    "russian": "MAG-7 | Петроглиф",
+    "schinese": "MAG-7 | 石雕",
+    "schinese_pw": "MAG-7 | Petroglyph",
+    "spanish": "MAG-7 | Petroglifo",
+    "swedish": "MAG-7 | Petroglyph",
+    "tchinese": "MAG-7 | 岩畫",
+    "thai": "MAG-7 | Petroglyph",
+    "turkish": "MAG-7 | Mağara Sanatı",
+    "ukrainian": "МАГ-7 | Петрогліф",
+    "vietnamese": "MAG-7 | Petroglyph"
+  },
+  "media": {
+    "asset_id": "skin__27-608",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-608/light.png",
+      "data/api/media/rendered/files/skins/27-608/medium.png",
+      "data/api/media/rendered/files/skins/27-608/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-608.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-608/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-608/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-608/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-608/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_cu_mag7_tribal_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_cu_mag7_tribal_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_cu_mag7_tribal_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Petroglyph",
+  "search_slug": "mag-7-petroglyph",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4281",
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_gamma_2",
+        "name": "set_gamma_2"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "27-608__normal__factory-new",
+    "27-608__normal__field-tested",
+    "27-608__normal__minimal-wear",
+    "27-608__normal__well-worn",
+    "27-608__stattrak__factory-new",
+    "27-608__stattrak__field-tested",
+    "27-608__stattrak__minimal-wear",
+    "27-608__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.44,
+    "min_float": 0.0
+  }
+}

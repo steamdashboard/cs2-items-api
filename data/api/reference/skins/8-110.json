@@ -1,0 +1,44 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_mesh_forest_fire",
+    "id": 110,
+    "name": "Condemned",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 110,
+    "weapon_id": 8
+  },
+  "id": "8-110",
+  "name": "AUG | Condemned",
+  "search_slug": "aug-condemned",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_safehouse",
+        "name": "The Safehouse Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "8-110__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_aug",
+    "id": 8,
+    "name": "AUG",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

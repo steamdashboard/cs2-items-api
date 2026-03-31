@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_mac10_toybox",
+    "id": 1098,
+    "name": "Toybox",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 1098,
+    "weapon_id": 17
+  },
+  "id": "17-1098",
+  "name": "MAC-10 | Toybox",
+  "search_slug": "mac-10-toybox",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_29",
+        "name": "The Operation Riptide Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4790",
+        "kind": "weapon-case",
+        "name": "Operation Riptide Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "17-1098__normal__factory-new",
+    "17-1098__normal__minimal-wear",
+    "17-1098__normal__field-tested",
+    "17-1098__normal__well-worn",
+    "17-1098__normal__battle-scarred",
+    "17-1098__stattrak__factory-new",
+    "17-1098__stattrak__minimal-wear",
+    "17-1098__stattrak__field-tested",
+    "17-1098__stattrak__well-worn",
+    "17-1098__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_mac10",
+    "id": 17,
+    "name": "MAC-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

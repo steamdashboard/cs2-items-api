@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 269,
+    "id": 269,
+    "localized_names": {
+      "brazilian": "A Hora da Fúcsia",
+      "bulgarian": "Моментът на фуксията",
+      "czech": "Fuchsia Is Now",
+      "danish": "The Fuchsia Is Now",
+      "dutch": "The Fuchsia Is Now",
+      "english": "The Fuschia Is Now",
+      "finnish": "Purppurapaholainen",
+      "french": "Le fuchsia, c'est ça !",
+      "german": "Fuchsia Is Now",
+      "greek": "The Fuchsia Is Now",
+      "hungarian": "Na Most Lila",
+      "indonesian": "The Fuschia Is Now",
+      "italian": "The Fuchsia Is Now",
+      "japanese": "The Fuschia Is Now",
+      "koreana": "진분홍은 지금이다",
+      "latam": "Hoy toca Fucsia",
+      "norwegian": "The Fuchsia Is Now",
+      "polish": "Fuksja już dziś",
+      "portuguese": "The Fuchsia Is Now",
+      "romanian": "The Fuchsia Is Now",
+      "russian": "Новая фуксия",
+      "schinese": "梅红时刻",
+      "schinese_pw": "The Fuschia Is Now",
+      "spanish": "Hoy toca Fucsia",
+      "swedish": "The Fuchsia Is Now",
+      "tchinese": "品紅時刻",
+      "thai": "The Fuchsia Is Now",
+      "turkish": "Fuşya Zamanı",
+      "ukrainian": "Пурпурпур",
+      "vietnamese": "The Fuchsia Is Now"
+    },
+    "name": "The Fuschia Is Now",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-269",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | A Hora da Fúcsia",
+    "bulgarian": "CZ75-Auto | Моментът на фуксията",
+    "czech": "CZ75-Auto | Fuchsia Is Now",
+    "danish": "CZ75-Auto | The Fuchsia Is Now",
+    "dutch": "CZ75-Auto | The Fuchsia Is Now",
+    "english": "CZ75-Auto | The Fuschia Is Now",
+    "finnish": "CZ75-Auto | Purppurapaholainen",
+    "french": "CZ75-Auto | Le fuchsia, c'est ça !",
+    "german": "CZ75-Auto | Fuchsia Is Now",
+    "greek": "CZ75-Auto | The Fuchsia Is Now",
+    "hungarian": "CZ75-Auto | Na Most Lila",
+    "indonesian": "CZ75-Auto | The Fuschia Is Now",
+    "italian": "CZ75-Auto | The Fuchsia Is Now",
+    "japanese": "CZ75-Auto | The Fuschia Is Now",
+    "koreana": "CZ75 기관권총 | 진분홍은 지금이다",
+    "latam": "CZ75-Auto | Hoy toca Fucsia",
+    "norwegian": "CZ75-Auto | The Fuchsia Is Now",
+    "polish": "CZ75-Auto | Fuksja już dziś",
+    "portuguese": "CZ75-Auto | The Fuchsia Is Now",
+    "romanian": "CZ75-Auto | The Fuchsia Is Now",
+    "russian": "CZ75-Auto | Новая фуксия",
+    "schinese": "CZ75自动型 | 梅红时刻",
+    "schinese_pw": "CZ75-Auto | The Fuschia Is Now",
+    "spanish": "CZ75-Auto | Hoy toca Fucsia",
+    "swedish": "CZ75-Auto | The Fuchsia Is Now",
+    "tchinese": "CZ75-Auto | 品紅時刻",
+    "thai": "CZ75-Auto | The Fuchsia Is Now",
+    "turkish": "CZ75-Otomatik | Fuşya Zamanı",
+    "ukrainian": "ЧЗ-75 авто | Пурпурпур",
+    "vietnamese": "CZ75-Auto | The Fuchsia Is Now"
+  },
+  "media": {
+    "asset_id": "skin__63-269",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-269/light.png",
+      "data/api/media/rendered/files/skins/63-269/medium.png",
+      "data/api/media/rendered/files/skins/63-269/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-269.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-269/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-269/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-269/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-269/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_am_fuschia_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_am_fuschia_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_am_fuschia_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | The Fuschia Is Now",
+  "search_slug": "cz75-auto-the-fuschia-is-now",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4010",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_iii",
+        "name": "The Arms Deal 3 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-269__normal__factory-new",
+    "63-269__normal__field-tested",
+    "63-269__normal__minimal-wear",
+    "63-269__normal__well-worn",
+    "63-269__stattrak__factory-new",
+    "63-269__stattrak__field-tested",
+    "63-269__stattrak__minimal-wear",
+    "63-269__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

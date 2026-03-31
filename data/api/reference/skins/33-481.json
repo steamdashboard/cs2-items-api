@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_mp7_nemsis",
+    "id": 481,
+    "name": "Nemesis",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 481,
+    "weapon_id": 33
+  },
+  "id": "33-481",
+  "name": "MP7 | Nemesis",
+  "search_slug": "mp7-nemesis",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_8",
+        "name": "The Falchion Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4091",
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "33-481__normal__factory-new",
+    "33-481__normal__minimal-wear",
+    "33-481__normal__field-tested",
+    "33-481__stattrak__factory-new",
+    "33-481__stattrak__minimal-wear",
+    "33-481__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_mp7",
+    "id": 33,
+    "name": "MP7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.32,
+    "min_float": 0.0
+  }
+}

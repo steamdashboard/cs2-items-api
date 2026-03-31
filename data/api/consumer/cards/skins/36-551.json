@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 551,
+    "id": 551,
+    "localized_names": {
+      "brazilian": "Asiimov",
+      "bulgarian": "Азимов",
+      "czech": "Asiimov",
+      "danish": "Asiimov",
+      "dutch": "Asiimov",
+      "english": "Asiimov",
+      "finnish": "Asiimov",
+      "french": "Asiimov",
+      "german": "Asiimov",
+      "greek": "Asiimov",
+      "hungarian": "Asiimov",
+      "indonesian": "Asiimov",
+      "italian": "Asiimov",
+      "japanese": "アシモフ",
+      "koreana": "아시모프",
+      "latam": "Asiimov",
+      "norwegian": "Asiimov",
+      "polish": "Asiimov",
+      "portuguese": "Asiimov",
+      "romanian": "Asiimov",
+      "russian": "Азимов",
+      "schinese": "二西莫夫",
+      "schinese_pw": "Asiimov",
+      "spanish": "Asiimov",
+      "swedish": "Asiimov",
+      "tchinese": "艾西莫夫",
+      "thai": "Asiimov",
+      "turkish": "Asiimov",
+      "ukrainian": "Азімов",
+      "vietnamese": "Asiimov"
+    },
+    "name": "Asiimov",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.1
+    }
+  },
+  "id": "36-551",
+  "localized_names": {
+    "brazilian": "P250 | Asiimov",
+    "bulgarian": "P250 | Азимов",
+    "czech": "P250 | Asiimov",
+    "danish": "P250 | Asiimov",
+    "dutch": "P250 | Asiimov",
+    "english": "P250 | Asiimov",
+    "finnish": "P250 | Asiimov",
+    "french": "P250 | Asiimov",
+    "german": "P250 | Asiimov",
+    "greek": "P250 | Asiimov",
+    "hungarian": "P250 | Asiimov",
+    "indonesian": "P250 | Asiimov",
+    "italian": "P250 | Asiimov",
+    "japanese": "P250 | アシモフ",
+    "koreana": "P250 | 아시모프",
+    "latam": "P250 | Asiimov",
+    "norwegian": "P250 | Asiimov",
+    "polish": "P250 | Asiimov",
+    "portuguese": "P250 | Asiimov",
+    "romanian": "P250 | Asiimov",
+    "russian": "P250 | Азимов",
+    "schinese": "P250 | 二西莫夫",
+    "schinese_pw": "P250 | Asiimov",
+    "spanish": "P250 | Asiimov",
+    "swedish": "P250 | Asiimov",
+    "tchinese": "P250 | 艾西莫夫",
+    "thai": "P250 | Asiimov",
+    "turkish": "P250 | Asiimov",
+    "ukrainian": "П250 | Азімов",
+    "vietnamese": "P250 | Asiimov"
+  },
+  "media": {
+    "asset_id": "skin__36-551",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-551/light.png",
+      "data/api/media/rendered/files/skins/36-551/medium.png",
+      "data/api/media/rendered/files/skins/36-551/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-551.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-551/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-551/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-551/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-551/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_cu_p250_asiimov_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_cu_p250_asiimov_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_cu_p250_asiimov_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Asiimov",
+  "search_slug": "p250-asiimov",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4233",
+        "kind": "weapon-case",
+        "name": "Chroma 3 Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_12",
+        "name": "The Chroma 3 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-551__normal__battle-scarred",
+    "36-551__normal__field-tested",
+    "36-551__normal__minimal-wear",
+    "36-551__normal__well-worn",
+    "36-551__stattrak__battle-scarred",
+    "36-551__stattrak__field-tested",
+    "36-551__stattrak__minimal-wear",
+    "36-551__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.1
+  }
+}

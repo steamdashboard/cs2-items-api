@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 699,
+    "id": 699,
+    "localized_names": {
+      "brazilian": "Seis Selvagem",
+      "bulgarian": "Дива шесторка",
+      "czech": "Wild Six",
+      "danish": "Wild Six",
+      "dutch": "Wild Six",
+      "english": "Wild Six",
+      "finnish": "Villi kutonen",
+      "french": "Six déjanté",
+      "german": "Wilde Sechs",
+      "greek": "Wild Six",
+      "hungarian": "Vad Hatos",
+      "indonesian": "Wild Six",
+      "italian": "Wild Six",
+      "japanese": "Wild Six",
+      "koreana": "와일드 식스",
+      "latam": "Seis salvaje",
+      "norwegian": "Wild Six",
+      "polish": "Dzika szóstka",
+      "portuguese": "Wild Six",
+      "romanian": "Wild Six",
+      "russian": "Дикая шестёрка",
+      "schinese": "狂野六号",
+      "schinese_pw": "Wild Six",
+      "spanish": "Seis salvaje",
+      "swedish": "Wild Six",
+      "tchinese": "狂野六號",
+      "thai": "Wild Six",
+      "turkish": "Vahşi Altı",
+      "ukrainian": "Дика шістка",
+      "vietnamese": "Wild Six"
+    },
+    "name": "Wild Six",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-699",
+  "localized_names": {
+    "brazilian": "Nova | Seis Selvagem",
+    "bulgarian": "Nova | Дива шесторка",
+    "czech": "Nova | Wild Six",
+    "danish": "Nova | Wild Six",
+    "dutch": "Nova | Wild Six",
+    "english": "Nova | Wild Six",
+    "finnish": "Nova | Villi kutonen",
+    "french": "Nova | Six déjanté",
+    "german": "Nova | Wilde Sechs",
+    "greek": "Nova | Wild Six",
+    "hungarian": "Nova | Vad Hatos",
+    "indonesian": "Nova | Wild Six",
+    "italian": "Nova | Wild Six",
+    "japanese": "Nova | Wild Six",
+    "koreana": "노바 | 와일드 식스",
+    "latam": "Nova | Seis salvaje",
+    "norwegian": "Nova | Wild Six",
+    "polish": "Nova | Dzika szóstka",
+    "portuguese": "Nova | Wild Six",
+    "romanian": "Nova | Wild Six",
+    "russian": "Nova | Дикая шестёрка",
+    "schinese": "新星 | 狂野六号",
+    "schinese_pw": "Nova | Wild Six",
+    "spanish": "Nova | Seis salvaje",
+    "swedish": "Nova | Wild Six",
+    "tchinese": "Nova | 狂野六號",
+    "thai": "Nova | Wild Six",
+    "turkish": "Nova | Vahşi Altı",
+    "ukrainian": "Нова | Дика шістка",
+    "vietnamese": "Nova | Wild Six"
+  },
+  "media": {
+    "asset_id": "skin__35-699",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-699/light.png",
+      "data/api/media/rendered/files/skins/35-699/medium.png",
+      "data/api/media/rendered/files/skins/35-699/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-699.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-699/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-699/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-699/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-699/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_gs_nova_anchorite_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_gs_nova_anchorite_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_gs_nova_anchorite_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Wild Six",
+  "search_slug": "nova-wild-six",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4471",
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_19",
+        "name": "The Clutch Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-699__normal__battle-scarred",
+    "35-699__normal__factory-new",
+    "35-699__normal__field-tested",
+    "35-699__normal__minimal-wear",
+    "35-699__normal__well-worn",
+    "35-699__stattrak__battle-scarred",
+    "35-699__stattrak__factory-new",
+    "35-699__stattrak__field-tested",
+    "35-699__stattrak__minimal-wear",
+    "35-699__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

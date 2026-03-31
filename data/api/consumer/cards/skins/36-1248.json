@@ -1,0 +1,250 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1248,
+    "id": 1248,
+    "localized_names": {
+      "brazilian": "Maldição de Apófis",
+      "bulgarian": "Проклятието на Апофис",
+      "czech": "Apep's Curse",
+      "danish": "Apep's Curse",
+      "dutch": "Apep's Curse",
+      "english": "Apep's Curse",
+      "finnish": "Apepin kirous",
+      "french": "Malédiction d'Apep",
+      "german": "Apophis’ Fluch",
+      "greek": "Apep's Curse",
+      "hungarian": "Apóphisz Átka",
+      "indonesian": "Apep's Curse",
+      "italian": "Apep's Curse",
+      "japanese": "Apep's Curse",
+      "koreana": "아펩의 저주",
+      "latam": "Maldición de Apofis",
+      "norwegian": "Apep's Curse",
+      "polish": "Klątwa Apopa",
+      "portuguese": "Apep's Curse",
+      "romanian": "Apep's Curse",
+      "russian": "Проклятие Апопа",
+      "schinese": "阿佩普之咒",
+      "schinese_pw": "Apep's Curse",
+      "spanish": "Maldición de Apep",
+      "swedish": "Apep's Curse",
+      "tchinese": "阿佩普詛咒",
+      "thai": "Apep's Curse",
+      "turkish": "Apep'in Laneti",
+      "ukrainian": "Прокляття Апепа",
+      "vietnamese": "Apep's Curse"
+    },
+    "name": "Apep's Curse",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-1248",
+  "localized_names": {
+    "brazilian": "P250 | Maldição de Apófis",
+    "bulgarian": "P250 | Проклятието на Апофис",
+    "czech": "P250 | Apep's Curse",
+    "danish": "P250 | Apep's Curse",
+    "dutch": "P250 | Apep's Curse",
+    "english": "P250 | Apep's Curse",
+    "finnish": "P250 | Apepin kirous",
+    "french": "P250 | Malédiction d'Apep",
+    "german": "P250 | Apophis’ Fluch",
+    "greek": "P250 | Apep's Curse",
+    "hungarian": "P250 | Apóphisz Átka",
+    "indonesian": "P250 | Apep's Curse",
+    "italian": "P250 | Apep's Curse",
+    "japanese": "P250 | Apep's Curse",
+    "koreana": "P250 | 아펩의 저주",
+    "latam": "P250 | Maldición de Apofis",
+    "norwegian": "P250 | Apep's Curse",
+    "polish": "P250 | Klątwa Apopa",
+    "portuguese": "P250 | Apep's Curse",
+    "romanian": "P250 | Apep's Curse",
+    "russian": "P250 | Проклятие Апопа",
+    "schinese": "P250 | 阿佩普之咒",
+    "schinese_pw": "P250 | Apep's Curse",
+    "spanish": "P250 | Maldición de Apep",
+    "swedish": "P250 | Apep's Curse",
+    "tchinese": "P250 | 阿佩普詛咒",
+    "thai": "P250 | Apep's Curse",
+    "turkish": "P250 | Apep'in Laneti",
+    "ukrainian": "П250 | Прокляття Апепа",
+    "vietnamese": "P250 | Apep's Curse"
+  },
+  "media": {
+    "asset_id": "skin__36-1248",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-1248/light.png",
+      "data/api/media/rendered/files/skins/36-1248/medium.png",
+      "data/api/media/rendered/files/skins/36-1248/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-1248.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-1248/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-1248/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-1248/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-1248/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_gs_p250_apep_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_gs_p250_apep_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_gs_p250_apep_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Apep's Curse",
+  "search_slug": "p250-apep-s-curse",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_anubis",
+        "name": "The Anubis Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4882",
+        "kind": "container",
+        "name": "Anubis Collection Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4969",
+        "kind": "container",
+        "name": "Shanghai 2024 Anubis Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5122",
+        "kind": "container",
+        "name": "Austin 2025 Anubis Souvenir Package",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4895",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Anubis Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4928",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "variant_ids": [
+    "36-1248__normal__battle-scarred",
+    "36-1248__normal__factory-new",
+    "36-1248__normal__field-tested",
+    "36-1248__normal__minimal-wear",
+    "36-1248__normal__well-worn",
+    "36-1248__souvenir__battle-scarred",
+    "36-1248__souvenir__factory-new",
+    "36-1248__souvenir__field-tested",
+    "36-1248__souvenir__minimal-wear",
+    "36-1248__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

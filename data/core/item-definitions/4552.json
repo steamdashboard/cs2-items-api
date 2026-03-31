@@ -1,0 +1,56 @@
+{
+  "classification": {
+    "group": "collectible",
+    "kind": "collectible"
+  },
+  "game_id": 4552,
+  "id": 4552,
+  "name": "CommunitySeasonNine2019 Coin 3",
+  "prefab_chain": [
+    "collectible",
+    "collectible_untradable",
+    "operation_coin",
+    "season9_coin"
+  ],
+  "prefab_spec": "season9_coin",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "minutes played": {
+        "attribute_class": "minutes_played",
+        "value": "1"
+      },
+      "pedestal display model": "models/inventory_items/operation_9_gold.vmdl",
+      "season access": "8",
+      "upgrade threshold": "100"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/status_icons/operation_9_gold",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_Collectible_CommunitySeasonNine2019_Coin3_Desc",
+    "item_name": "#CSGO_Collectible_CommunitySeasonNine2019_Coin3",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type": "operation_coin",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "3",
+    "min_ilevel": "3",
+    "mouse_pressed_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "name": "CommunitySeasonNine2019 Coin 3",
+    "prefab": "season9_coin",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

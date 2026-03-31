@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1164,
+    "id": 1164,
+    "localized_names": {
+      "brazilian": "Caixa de Luz",
+      "bulgarian": "Светлинна кутия",
+      "czech": "Light Box",
+      "danish": "Light Box",
+      "dutch": "Light Box",
+      "english": "Light Box",
+      "finnish": "Light Box",
+      "french": "Cube lumineux",
+      "german": "Unendlichkeitsspiegel",
+      "greek": "Light Box",
+      "hungarian": "Fénydoboz",
+      "indonesian": "Light Box",
+      "italian": "Light Box",
+      "japanese": "Light Box",
+      "koreana": "라이트 박스",
+      "latam": "Caja de luz",
+      "norwegian": "Light Box",
+      "polish": "Podświetlona nieskończoność",
+      "portuguese": "Light Box",
+      "romanian": "Light Box",
+      "russian": "Световой короб",
+      "schinese": "灯箱",
+      "schinese_pw": "Light Box",
+      "spanish": "Caja de luz",
+      "swedish": "Light Box",
+      "tchinese": "光盒",
+      "thai": "Light Box",
+      "turkish": "Işık Kutusu",
+      "ukrainian": "Світловий ящик",
+      "vietnamese": "Light Box"
+    },
+    "name": "Light Box",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-1164",
+  "localized_names": {
+    "brazilian": "MAC-10 | Caixa de Luz",
+    "bulgarian": "MAC-10 | Светлинна кутия",
+    "czech": "MAC-10 | Light Box",
+    "danish": "MAC-10 | Light Box",
+    "dutch": "MAC-10 | Light Box",
+    "english": "MAC-10 | Light Box",
+    "finnish": "MAC-10 | Light Box",
+    "french": "MAC-10 | Cube lumineux",
+    "german": "MAC-10 | Unendlichkeitsspiegel",
+    "greek": "MAC-10 | Light Box",
+    "hungarian": "MAC-10 | Fénydoboz",
+    "indonesian": "MAC-10 | Light Box",
+    "italian": "MAC-10 | Light Box",
+    "japanese": "MAC-10 | Light Box",
+    "koreana": "MAC-10 | 라이트 박스",
+    "latam": "MAC-10 | Caja de luz",
+    "norwegian": "MAC-10 | Light Box",
+    "polish": "MAC-10 | Podświetlona nieskończoność",
+    "portuguese": "MAC-10 | Light Box",
+    "romanian": "MAC-10 | Light Box",
+    "russian": "MAC-10 | Световой короб",
+    "schinese": "MAC-10 | 灯箱",
+    "schinese_pw": "MAC-10 | Light Box",
+    "spanish": "MAC-10 | Caja de luz",
+    "swedish": "MAC-10 | Light Box",
+    "tchinese": "MAC-10 | 光盒",
+    "thai": "MAC-10 | Light Box",
+    "turkish": "MAC-10 | Işık Kutusu",
+    "ukrainian": "МАК-10 | Світловий ящик",
+    "vietnamese": "MAC-10 | Light Box"
+  },
+  "media": {
+    "asset_id": "skin__17-1164",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-1164/light.png",
+      "data/api/media/rendered/files/skins/17-1164/medium.png",
+      "data/api/media/rendered/files/skins/17-1164/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-1164.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-1164/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-1164/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-1164/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-1164/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_mac10_illusion_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_mac10_illusion_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_mac10_illusion_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Light Box",
+  "search_slug": "mac-10-light-box",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4904",
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_33",
+        "name": "The Kilowatt Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-1164__normal__battle-scarred",
+    "17-1164__normal__factory-new",
+    "17-1164__normal__field-tested",
+    "17-1164__normal__minimal-wear",
+    "17-1164__normal__well-worn",
+    "17-1164__stattrak__battle-scarred",
+    "17-1164__stattrak__factory-new",
+    "17-1164__stattrak__field-tested",
+    "17-1164__stattrak__minimal-wear",
+    "17-1164__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

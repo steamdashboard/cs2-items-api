@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 930,
+    "id": 930,
+    "localized_names": {
+      "brazilian": "Raízes Novas",
+      "bulgarian": "Нови корени",
+      "czech": "New Roots",
+      "danish": "New Roots",
+      "dutch": "New Roots",
+      "english": "New Roots",
+      "finnish": "Uudet juuret",
+      "french": "Nouvelles racines",
+      "german": "Neue Wurzeln",
+      "greek": "New Roots",
+      "hungarian": "Új Hajtások",
+      "indonesian": "New Roots",
+      "italian": "New Roots",
+      "japanese": "New Roots",
+      "koreana": "새로운 뿌리",
+      "latam": "Raíces nuevas",
+      "norwegian": "New Roots",
+      "polish": "Nowe korzenie",
+      "portuguese": "New Roots",
+      "romanian": "New Roots",
+      "russian": "Новые корни",
+      "schinese": "碧藤青翠",
+      "schinese_pw": "New Roots",
+      "spanish": "Nuevas raíces",
+      "swedish": "New Roots",
+      "tchinese": "綠意新生",
+      "thai": "New Roots",
+      "turkish": "Yeni Kökler",
+      "ukrainian": "Нове коріння",
+      "vietnamese": "New Roots"
+    },
+    "name": "New Roots",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "11-930",
+  "localized_names": {
+    "brazilian": "G3SG1 | Raízes Novas",
+    "bulgarian": "G3SG1 | Нови корени",
+    "czech": "G3SG1 | New Roots",
+    "danish": "G3SG1 | New Roots",
+    "dutch": "G3SG1 | New Roots",
+    "english": "G3SG1 | New Roots",
+    "finnish": "G3SG1 | Uudet juuret",
+    "french": "G3SG1 | Nouvelles racines",
+    "german": "G3SG1 | Neue Wurzeln",
+    "greek": "G3SG1 | New Roots",
+    "hungarian": "G3SG1 | Új Hajtások",
+    "indonesian": "G3SG1 | New Roots",
+    "italian": "G3SG1 | New Roots",
+    "japanese": "G3SG1 | New Roots",
+    "koreana": "G3SG1 | 새로운 뿌리",
+    "latam": "G3SG1 | Raíces nuevas",
+    "norwegian": "G3SG1 | New Roots",
+    "polish": "G3SG1 | Nowe korzenie",
+    "portuguese": "G3SG1 | New Roots",
+    "romanian": "G3SG1 | New Roots",
+    "russian": "G3SG1 | Новые корни",
+    "schinese": "G3SG1 | 碧藤青翠",
+    "schinese_pw": "G3SG1 | New Roots",
+    "spanish": "G3SG1 | Nuevas raíces",
+    "swedish": "G3SG1 | New Roots",
+    "tchinese": "G3SG1 | 綠意新生",
+    "thai": "G3SG1 | New Roots",
+    "turkish": "G3SG1 | Yeni Kökler",
+    "ukrainian": "Г3-СГ1 | Нове коріння",
+    "vietnamese": "G3SG1 | New Roots"
+  },
+  "media": {
+    "asset_id": "skin__11-930",
+    "images_png": [
+      "data/api/media/rendered/files/skins/11-930/light.png",
+      "data/api/media/rendered/files/skins/11-930/medium.png",
+      "data/api/media/rendered/files/skins/11-930/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/11-930.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/11-930/heavy.png",
+      "light": "data/api/media/rendered/files/skins/11-930/light.png",
+      "medium": "data/api/media/rendered/files/skins/11-930/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/11-930/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_g3sg1_sp_moro_carving_lightblue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_g3sg1_sp_moro_carving_lightblue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_g3sg1_sp_moro_carving_lightblue_medium_png.vtex_c"
+    }
+  },
+  "name": "G3SG1 | New Roots",
+  "search_slug": "g3sg1-new-roots",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "11-930__normal__battle-scarred",
+    "11-930__normal__factory-new",
+    "11-930__normal__field-tested",
+    "11-930__normal__minimal-wear",
+    "11-930__normal__well-worn",
+    "11-930__souvenir__battle-scarred",
+    "11-930__souvenir__factory-new",
+    "11-930__souvenir__field-tested",
+    "11-930__souvenir__minimal-wear",
+    "11-930__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 11,
+    "localized_names": {
+      "brazilian": "G3SG1",
+      "bulgarian": "G3SG1",
+      "czech": "G3SG1",
+      "danish": "G3SG1",
+      "dutch": "G3SG1",
+      "english": "G3SG1",
+      "finnish": "G3SG1",
+      "french": "G3SG1",
+      "german": "G3SG1",
+      "greek": "G3SG1",
+      "hungarian": "G3SG1",
+      "indonesian": "G3SG1",
+      "italian": "G3SG1",
+      "japanese": "G3SG1",
+      "koreana": "G3SG1",
+      "latam": "G3SG1",
+      "norwegian": "G3SG1",
+      "polish": "G3SG1",
+      "portuguese": "G3SG1",
+      "romanian": "G3SG1",
+      "russian": "G3SG1",
+      "schinese": "G3SG1",
+      "schinese_pw": "G3SG1",
+      "spanish": "G3SG1",
+      "swedish": "G3SG1",
+      "tchinese": "G3SG1",
+      "thai": "G3SG1",
+      "turkish": "G3SG1",
+      "ukrainian": "Г3-СГ1",
+      "vietnamese": "G3SG1"
+    },
+    "name": "G3SG1",
+    "search_slug": "g3sg1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

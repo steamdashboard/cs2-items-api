@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_mesh_glacier",
+    "id": 111,
+    "name": "Glacier Mesh",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 111,
+    "weapon_id": 19
+  },
+  "id": "19-111",
+  "name": "P90 | Glacier Mesh",
+  "search_slug": "p90-glacier-mesh",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_vertigo",
+        "name": "The Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4666",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Vertigo Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "19-111__normal__vanilla",
+    "19-111__souvenir__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_p90",
+    "id": 19,
+    "name": "P90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

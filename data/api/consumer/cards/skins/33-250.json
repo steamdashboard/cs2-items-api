@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 250,
+    "id": 250,
+    "localized_names": {
+      "brazilian": "Para Tudo",
+      "bulgarian": "Пълен запор",
+      "czech": "Full Stop",
+      "danish": "Full Stop",
+      "dutch": "Full Stop",
+      "english": "Full Stop",
+      "finnish": "Stoppi",
+      "french": "Arrêt complet",
+      "german": "Punkt",
+      "greek": "Full Stop",
+      "hungarian": "Pont",
+      "indonesian": "Full Stop",
+      "italian": "Full Stop",
+      "japanese": "Full Stop",
+      "koreana": "종지부",
+      "latam": "Arresto total",
+      "norwegian": "Full Stop",
+      "polish": "Kropka",
+      "portuguese": "Full Stop",
+      "romanian": "Full Stop",
+      "russian": "Полная остановка",
+      "schinese": "逮捕者",
+      "schinese_pw": "Full Stop",
+      "spanish": "Arresto total",
+      "swedish": "Full Stop",
+      "tchinese": "句點",
+      "thai": "Full Stop",
+      "turkish": "Son Durak",
+      "ukrainian": "Крапка",
+      "vietnamese": "Full Stop"
+    },
+    "name": "Full Stop",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-250",
+  "localized_names": {
+    "brazilian": "MP7 | Para Tudo",
+    "bulgarian": "MP7 | Пълен запор",
+    "czech": "MP7 | Full Stop",
+    "danish": "MP7 | Full Stop",
+    "dutch": "MP7 | Full Stop",
+    "english": "MP7 | Full Stop",
+    "finnish": "MP7 | Stoppi",
+    "french": "MP7 | Arrêt complet",
+    "german": "MP7 | Punkt",
+    "greek": "MP7 | Full Stop",
+    "hungarian": "MP7 | Pont",
+    "indonesian": "MP7 | Full Stop",
+    "italian": "MP7 | Full Stop",
+    "japanese": "MP7 | Full Stop",
+    "koreana": "MP7 | 종지부",
+    "latam": "MP7 | Arresto total",
+    "norwegian": "MP7 | Full Stop",
+    "polish": "MP7 | Kropka",
+    "portuguese": "MP7 | Full Stop",
+    "romanian": "MP7 | Full Stop",
+    "russian": "MP7 | Полная остановка",
+    "schinese": "MP7 | 逮捕者",
+    "schinese_pw": "MP7 | Full Stop",
+    "spanish": "MP7 | Arresto total",
+    "swedish": "MP7 | Full Stop",
+    "tchinese": "MP7 | 句點",
+    "thai": "MP7 | Full Stop",
+    "turkish": "MP7 | Son Durak",
+    "ukrainian": "МП7 | Крапка",
+    "vietnamese": "MP7 | Full Stop"
+  },
+  "media": {
+    "asset_id": "skin__33-250",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-250/light.png",
+      "data/api/media/rendered/files/skins/33-250/medium.png",
+      "data/api/media/rendered/files/skins/33-250/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-250.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-250/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-250/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-250/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-250/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_hy_varicamo_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_hy_varicamo_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_hy_varicamo_red_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Full Stop",
+  "search_slug": "mp7-full-stop",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-250__normal__battle-scarred",
+    "33-250__normal__factory-new",
+    "33-250__normal__field-tested",
+    "33-250__normal__minimal-wear",
+    "33-250__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

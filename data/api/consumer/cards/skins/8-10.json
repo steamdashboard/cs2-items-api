@@ -1,0 +1,184 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 10,
+    "id": 10,
+    "localized_names": {
+      "brazilian": "Víbora",
+      "bulgarian": "Медноглава змия",
+      "czech": "Copperhead",
+      "danish": "Copperhead",
+      "dutch": "Copperhead",
+      "english": "Copperhead",
+      "finnish": "Kuparipää",
+      "french": "Vipère cuivrée",
+      "german": "Kupferkopf",
+      "greek": "Copperhead",
+      "hungarian": "Rezesfejű",
+      "indonesian": "Copperhead",
+      "italian": "Copperhead",
+      "japanese": "Copperhead",
+      "koreana": "코퍼헤드 독사",
+      "latam": "Cabeza de cobre",
+      "norwegian": "Copperhead",
+      "polish": "Miedziogłowiec",
+      "portuguese": "Copperhead",
+      "romanian": "Copperhead",
+      "russian": "Медянка",
+      "schinese": "铜斑蛇",
+      "schinese_pw": "Copperhead",
+      "spanish": "Cabeza de cobre",
+      "swedish": "Copperhead",
+      "tchinese": "銅頭蝮",
+      "thai": "Copperhead",
+      "turkish": "Bakır Kafalı",
+      "ukrainian": "Гадюка",
+      "vietnamese": "Copperhead"
+    },
+    "name": "Copperhead",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.38,
+      "min_float": 0.12
+    }
+  },
+  "id": "8-10",
+  "localized_names": {
+    "brazilian": "AUG | Víbora",
+    "bulgarian": "AUG | Медноглава змия",
+    "czech": "AUG | Copperhead",
+    "danish": "AUG | Copperhead",
+    "dutch": "AUG | Copperhead",
+    "english": "AUG | Copperhead",
+    "finnish": "AUG | Kuparipää",
+    "french": "AUG | Vipère cuivrée",
+    "german": "AUG | Kupferkopf",
+    "greek": "AUG | Copperhead",
+    "hungarian": "AUG | Rezesfejű",
+    "indonesian": "AUG | Copperhead",
+    "italian": "AUG | Copperhead",
+    "japanese": "AUG | Copperhead",
+    "koreana": "AUG | 코퍼헤드 독사",
+    "latam": "AUG | Cabeza de cobre",
+    "norwegian": "AUG | Copperhead",
+    "polish": "AUG | Miedziogłowiec",
+    "portuguese": "AUG | Copperhead",
+    "romanian": "AUG | Copperhead",
+    "russian": "AUG | Медянка",
+    "schinese": "AUG | 铜斑蛇",
+    "schinese_pw": "AUG | Copperhead",
+    "spanish": "AUG | Cabeza de cobre",
+    "swedish": "AUG | Copperhead",
+    "tchinese": "AUG | 銅頭蝮",
+    "thai": "AUG | Copperhead",
+    "turkish": "AUG | Bakır Kafalı",
+    "ukrainian": "АУГ | Гадюка",
+    "vietnamese": "AUG | Copperhead"
+  },
+  "media": {
+    "asset_id": "skin__8-10",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-10/light.png",
+      "data/api/media/rendered/files/skins/8-10/medium.png",
+      "data/api/media/rendered/files/skins/8-10/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-10.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-10/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-10/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-10/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-10/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_hy_copperhead_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_hy_copperhead_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_hy_copperhead_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Copperhead",
+  "search_slug": "aug-copperhead",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust",
+        "name": "The Dust Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-10__normal__field-tested",
+    "8-10__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.38,
+    "min_float": 0.12
+  }
+}

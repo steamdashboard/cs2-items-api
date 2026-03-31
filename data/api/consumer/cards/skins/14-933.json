@@ -1,0 +1,264 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 933,
+    "id": 933,
+    "localized_names": {
+      "brazilian": "Palmeira da Meia-Noite",
+      "bulgarian": "Среднощна палма",
+      "czech": "Midnight Palm",
+      "danish": "Midnight Palm",
+      "dutch": "Midnight Palm",
+      "english": "Midnight Palm",
+      "finnish": "Keskiyön palmu",
+      "french": "Palmier de minuit",
+      "german": "Mitternachtspalme",
+      "greek": "Midnight Palm",
+      "hungarian": "Éjféli Pálma",
+      "indonesian": "Midnight Palm ",
+      "italian": "Midnight Palm",
+      "japanese": "Midnight Palm",
+      "koreana": "미드나잇 팜",
+      "latam": "Palmera de medianoche",
+      "norwegian": "Midnight Palm",
+      "polish": "Palma północy",
+      "portuguese": "Midnight Palm",
+      "romanian": "Midnight Palm",
+      "russian": "Полуночная пальма",
+      "schinese": "夜半棕榈",
+      "schinese_pw": "Midnight Palm",
+      "spanish": "Palmera de medianoche",
+      "swedish": "Midnight Palm",
+      "tchinese": "午夜棕櫚",
+      "thai": "Midnight Palm",
+      "turkish": "Gece Yarısı Palmiyesi",
+      "ukrainian": "Опівнічна пальма",
+      "vietnamese": "Midnight Palm"
+    },
+    "name": "Midnight Palm",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "14-933",
+  "localized_names": {
+    "brazilian": "M249 | Palmeira da Meia-Noite",
+    "bulgarian": "M249 | Среднощна палма",
+    "czech": "M249 | Midnight Palm",
+    "danish": "M249 | Midnight Palm",
+    "dutch": "M249 | Midnight Palm",
+    "english": "M249 | Midnight Palm",
+    "finnish": "M249 | Keskiyön palmu",
+    "french": "M249 | Palmier de minuit",
+    "german": "M249 | Mitternachtspalme",
+    "greek": "M249 | Midnight Palm",
+    "hungarian": "M249 | Éjféli Pálma",
+    "indonesian": "M249 | Midnight Palm ",
+    "italian": "M249 | Midnight Palm",
+    "japanese": "M249 | Midnight Palm",
+    "koreana": "M249 | 미드나잇 팜",
+    "latam": "M249 | Palmera de medianoche",
+    "norwegian": "M249 | Midnight Palm",
+    "polish": "M249 | Palma północy",
+    "portuguese": "M249 | Midnight Palm",
+    "romanian": "M249 | Midnight Palm",
+    "russian": "M249 | Полуночная пальма",
+    "schinese": "M249 | 夜半棕榈",
+    "schinese_pw": "M249 | Midnight Palm",
+    "spanish": "M249 | Palmera de medianoche",
+    "swedish": "M249 | Midnight Palm",
+    "tchinese": "M249 | 午夜棕櫚",
+    "thai": "M249 | Midnight Palm",
+    "turkish": "M249 | Gece Yarısı Palmiyesi",
+    "ukrainian": "М249 | Опівнічна пальма",
+    "vietnamese": "M249 | Midnight Palm"
+  },
+  "media": {
+    "asset_id": "skin__14-933",
+    "images_png": [
+      "data/api/media/rendered/files/skins/14-933/light.png",
+      "data/api/media/rendered/files/skins/14-933/medium.png",
+      "data/api/media/rendered/files/skins/14-933/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/14-933.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/14-933/heavy.png",
+      "light": "data/api/media/rendered/files/skins/14-933/light.png",
+      "medium": "data/api/media/rendered/files/skins/14-933/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/14-933/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m249_sp_palm_night_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m249_sp_palm_night_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m249_sp_palm_night_medium_png.vtex_c"
+    }
+  },
+  "name": "M249 | Midnight Palm",
+  "search_slug": "m249-midnight-palm",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_dust_2_2021",
+        "name": "The 2021 Dust 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4793",
+        "kind": "container",
+        "name": "The 2021 Dust 2 Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4970",
+        "kind": "container",
+        "name": "Shanghai 2024 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5123",
+        "kind": "container",
+        "name": "Austin 2025 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5222",
+        "kind": "container",
+        "name": "Budapest 2025 Dust II Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4811",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4837",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Dust II Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4862",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Dust II Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "14-933__normal__battle-scarred",
+    "14-933__normal__factory-new",
+    "14-933__normal__field-tested",
+    "14-933__normal__minimal-wear",
+    "14-933__normal__well-worn",
+    "14-933__souvenir__battle-scarred",
+    "14-933__souvenir__factory-new",
+    "14-933__souvenir__field-tested",
+    "14-933__souvenir__minimal-wear",
+    "14-933__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 14,
+    "localized_names": {
+      "brazilian": "M249",
+      "bulgarian": "M249",
+      "czech": "M249",
+      "danish": "M249",
+      "dutch": "M249",
+      "english": "M249",
+      "finnish": "M249",
+      "french": "M249",
+      "german": "M249",
+      "greek": "M249",
+      "hungarian": "M249",
+      "indonesian": "M249",
+      "italian": "M249",
+      "japanese": "M249",
+      "koreana": "M249",
+      "latam": "M249",
+      "norwegian": "M249",
+      "polish": "M249",
+      "portuguese": "M249",
+      "romanian": "M249",
+      "russian": "M249",
+      "schinese": "M249",
+      "schinese_pw": "M249",
+      "spanish": "M249",
+      "swedish": "M249",
+      "tchinese": "M249",
+      "thai": "M249",
+      "turkish": "M249",
+      "ukrainian": "М249",
+      "vietnamese": "M249"
+    },
+    "name": "M249",
+    "search_slug": "m249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

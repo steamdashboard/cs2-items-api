@@ -1,0 +1,223 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1198,
+    "id": 1198,
+    "localized_names": {
+      "brazilian": "Sentinela de Aço",
+      "bulgarian": "Стоманен часовой",
+      "czech": "Steel Sentinel",
+      "danish": "Steel Sentinel",
+      "dutch": "Steel Sentinel",
+      "english": "Steel Sentinel",
+      "finnish": "Teräksenluja",
+      "french": "Sentinelle d'acier",
+      "german": "Stählerner Wächter",
+      "greek": "Steel Sentinel",
+      "hungarian": "Acél Őrszem",
+      "indonesian": "Steel Sentinel",
+      "italian": "Steel Sentinel",
+      "japanese": "Steel Sentinel",
+      "koreana": "강철 파수꾼",
+      "latam": "Centinela de acero",
+      "norwegian": "Steel Sentinel",
+      "polish": "Stalowy strażnik",
+      "portuguese": "Steel Sentinel",
+      "romanian": "Steel Sentinel",
+      "russian": "Стальной смотритель",
+      "schinese": "钢铁哨兵",
+      "schinese_pw": "Steel Sentinel",
+      "spanish": "Centinela de acero",
+      "swedish": "Steel Sentinel",
+      "tchinese": "鋼鐵哨兵",
+      "thai": "Steel Sentinel",
+      "turkish": "Çelik Nöbetçi",
+      "ukrainian": "Сталевий страж",
+      "vietnamese": "Steel Sentinel"
+    },
+    "name": "Steel Sentinel",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-1198",
+  "localized_names": {
+    "brazilian": "AUG | Sentinela de Aço",
+    "bulgarian": "AUG | Стоманен часовой",
+    "czech": "AUG | Steel Sentinel",
+    "danish": "AUG | Steel Sentinel",
+    "dutch": "AUG | Steel Sentinel",
+    "english": "AUG | Steel Sentinel",
+    "finnish": "AUG | Teräksenluja",
+    "french": "AUG | Sentinelle d'acier",
+    "german": "AUG | Stählerner Wächter",
+    "greek": "AUG | Steel Sentinel",
+    "hungarian": "AUG | Acél Őrszem",
+    "indonesian": "AUG | Steel Sentinel",
+    "italian": "AUG | Steel Sentinel",
+    "japanese": "AUG | Steel Sentinel",
+    "koreana": "AUG | 강철 파수꾼",
+    "latam": "AUG | Centinela de acero",
+    "norwegian": "AUG | Steel Sentinel",
+    "polish": "AUG | Stalowy strażnik",
+    "portuguese": "AUG | Steel Sentinel",
+    "romanian": "AUG | Steel Sentinel",
+    "russian": "AUG | Стальной смотритель",
+    "schinese": "AUG | 钢铁哨兵",
+    "schinese_pw": "AUG | Steel Sentinel",
+    "spanish": "AUG | Centinela de acero",
+    "swedish": "AUG | Steel Sentinel",
+    "tchinese": "AUG | 鋼鐵哨兵",
+    "thai": "AUG | Steel Sentinel",
+    "turkish": "AUG | Çelik Nöbetçi",
+    "ukrainian": "АУГ | Сталевий страж",
+    "vietnamese": "AUG | Steel Sentinel"
+  },
+  "media": {
+    "asset_id": "skin__8-1198",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-1198/light.png",
+      "data/api/media/rendered/files/skins/8-1198/medium.png",
+      "data/api/media/rendered/files/skins/8-1198/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-1198.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-1198/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-1198/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-1198/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-1198/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_aug_cold_sentinel_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_aug_cold_sentinel_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_aug_cold_sentinel_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Steel Sentinel",
+  "search_slug": "aug-steel-sentinel",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2025",
+        "name": "The Train 2025 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5126",
+        "kind": "container",
+        "name": "Austin 2025 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "5225",
+        "kind": "container",
+        "name": "Budapest 2025 Train Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-1198__normal__battle-scarred",
+    "8-1198__normal__factory-new",
+    "8-1198__normal__field-tested",
+    "8-1198__normal__minimal-wear",
+    "8-1198__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

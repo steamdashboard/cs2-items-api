@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_scar20_intervention",
+    "id": 391,
+    "name": "Cardiac",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 391,
+    "weapon_id": 38
+  },
+  "id": "38-391",
+  "name": "SCAR-20 | Cardiac",
+  "search_slug": "scar-20-cardiac",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_5",
+        "name": "The Vanguard Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4029",
+        "kind": "weapon-case",
+        "name": "Operation Vanguard Weapon Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "38-391__normal__factory-new",
+    "38-391__normal__minimal-wear",
+    "38-391__normal__field-tested",
+    "38-391__normal__well-worn",
+    "38-391__normal__battle-scarred",
+    "38-391__stattrak__factory-new",
+    "38-391__stattrak__minimal-wear",
+    "38-391__stattrak__field-tested",
+    "38-391__stattrak__well-worn",
+    "38-391__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_scar20",
+    "id": 38,
+    "name": "SCAR-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_awp_vein",
+    "id": 943,
+    "name": "Capillary",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 943,
+    "weapon_id": 9
+  },
+  "id": "9-943",
+  "name": "AWP | Capillary",
+  "search_slug": "awp-capillary",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_25",
+        "name": "The Prisma 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4695",
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "9-943__normal__factory-new",
+    "9-943__normal__minimal-wear",
+    "9-943__normal__field-tested",
+    "9-943__normal__well-worn",
+    "9-943__normal__battle-scarred",
+    "9-943__stattrak__factory-new",
+    "9-943__stattrak__minimal-wear",
+    "9-943__stattrak__field-tested",
+    "9-943__stattrak__well-worn",
+    "9-943__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_awp",
+    "id": 9,
+    "name": "AWP",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.05
+  }
+}

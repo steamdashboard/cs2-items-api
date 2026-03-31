@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1012,
+    "id": 1012,
+    "localized_names": {
+      "brazilian": "Estêncil da Fênix",
+      "bulgarian": "„Феникс“ шаблон",
+      "czech": "Phoenix Stencil",
+      "danish": "Phoenix Stencil",
+      "dutch": "Phoenix Stencil",
+      "english": "Phoenix Stencil",
+      "finnish": "Phoenix-sapluuna",
+      "french": "Pochoir Phoenix",
+      "german": "Phönix-Schablone",
+      "greek": "Phoenix Stencil",
+      "hungarian": "Phoenix Sablon",
+      "indonesian": "Phoenix Stencil",
+      "italian": "Phoenix Stencil",
+      "japanese": "Phoenix Stencil",
+      "koreana": "피닉스(스텐실)",
+      "latam": "Plantilla de Phoenix",
+      "norwegian": "Phoenix Stencil",
+      "polish": "Szablon Phoenix",
+      "portuguese": "Phoenix Stencil",
+      "romanian": "Phoenix Stencil",
+      "russian": "Трафарет «Феникса»",
+      "schinese": "凤凰徽记",
+      "schinese_pw": "Phoenix Stencil",
+      "spanish": "Plantilla de Phoenix",
+      "swedish": "Phoenix Stencil",
+      "tchinese": "鳳凰徽記",
+      "thai": "Phoenix Stencil",
+      "turkish": "Anka Şablonu",
+      "ukrainian": "Трафарет «Фенікса»",
+      "vietnamese": "Phoenix Stencil"
+    },
+    "name": "Phoenix Stencil",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-1012",
+  "localized_names": {
+    "brazilian": "Negev | Estêncil da Fênix",
+    "bulgarian": "Negev | „Феникс“ шаблон",
+    "czech": "Negev | Phoenix Stencil",
+    "danish": "Negev | Phoenix Stencil",
+    "dutch": "Negev | Phoenix Stencil",
+    "english": "Negev | Phoenix Stencil",
+    "finnish": "Negev | Phoenix-sapluuna",
+    "french": "Negev | Pochoir Phoenix",
+    "german": "Negev | Phönix-Schablone",
+    "greek": "Negev | Phoenix Stencil",
+    "hungarian": "Negev | Phoenix Sablon",
+    "indonesian": "Negev | Phoenix Stencil",
+    "italian": "Negev | Phoenix Stencil",
+    "japanese": "Negev | Phoenix Stencil",
+    "koreana": "네게브 | 피닉스(스텐실)",
+    "latam": "Negev | Plantilla de Phoenix",
+    "norwegian": "Negev | Phoenix Stencil",
+    "polish": "Negev | Szablon Phoenix",
+    "portuguese": "Negev | Phoenix Stencil",
+    "romanian": "Negev | Phoenix Stencil",
+    "russian": "Негев | Трафарет «Феникса»",
+    "schinese": "内格夫 | 凤凰徽记",
+    "schinese_pw": "Negev | Phoenix Stencil",
+    "spanish": "Negev | Plantilla de Phoenix",
+    "swedish": "Negev | Phoenix Stencil",
+    "tchinese": "Negev | 鳳凰徽記",
+    "thai": "Negev | Phoenix Stencil",
+    "turkish": "Negev | Anka Şablonu",
+    "ukrainian": "Неґев | Трафарет «Фенікса»",
+    "vietnamese": "Negev | Phoenix Stencil"
+  },
+  "media": {
+    "asset_id": "skin__28-1012",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-1012/light.png",
+      "data/api/media/rendered/files/skins/28-1012/medium.png",
+      "data/api/media/rendered/files/skins/28-1012/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-1012.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-1012/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-1012/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-1012/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-1012/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_hy_phoenix_tags_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_hy_phoenix_tags_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_hy_phoenix_tags_red_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | Phoenix Stencil",
+  "search_slug": "negev-phoenix-stencil",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_t",
+        "name": "The Havoc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4721",
+        "kind": "container",
+        "name": "The Havoc Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-1012__normal__battle-scarred",
+    "28-1012__normal__factory-new",
+    "28-1012__normal__field-tested",
+    "28-1012__normal__minimal-wear",
+    "28-1012__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

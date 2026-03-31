@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 650,
+    "id": 650,
+    "localized_names": {
+      "brazilian": "Ondulação",
+      "bulgarian": "Вълничка",
+      "czech": "Ripple",
+      "danish": "Ripple",
+      "dutch": "Ripple",
+      "english": "Ripple",
+      "finnish": "Väre",
+      "french": "Ondulations",
+      "german": "Plätschern",
+      "greek": "Ripple",
+      "hungarian": "Fodrozódás",
+      "indonesian": "Ripple",
+      "italian": "Ripple",
+      "japanese": "Ripple",
+      "koreana": "파란 물결",
+      "latam": "Onda",
+      "norwegian": "Ripple",
+      "polish": "Plusk",
+      "portuguese": "Ripple",
+      "romanian": "Ripple",
+      "russian": "Зыбь",
+      "schinese": "涟漪",
+      "schinese_pw": "Ripple",
+      "spanish": "Onda",
+      "swedish": "Ripple",
+      "tchinese": "波紋",
+      "thai": "Ripple",
+      "turkish": "Dalgalanma",
+      "ukrainian": "Пульсація",
+      "vietnamese": "Ripple"
+    },
+    "name": "Ripple",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-650",
+  "localized_names": {
+    "brazilian": "P250 | Ondulação",
+    "bulgarian": "P250 | Вълничка",
+    "czech": "P250 | Ripple",
+    "danish": "P250 | Ripple",
+    "dutch": "P250 | Ripple",
+    "english": "P250 | Ripple",
+    "finnish": "P250 | Väre",
+    "french": "P250 | Ondulations",
+    "german": "P250 | Plätschern",
+    "greek": "P250 | Ripple",
+    "hungarian": "P250 | Fodrozódás",
+    "indonesian": "P250 | Ripple",
+    "italian": "P250 | Ripple",
+    "japanese": "P250 | Ripple",
+    "koreana": "P250 | 파란 물결",
+    "latam": "P250 | Onda",
+    "norwegian": "P250 | Ripple",
+    "polish": "P250 | Plusk",
+    "portuguese": "P250 | Ripple",
+    "romanian": "P250 | Ripple",
+    "russian": "P250 | Зыбь",
+    "schinese": "P250 | 涟漪",
+    "schinese_pw": "P250 | Ripple",
+    "spanish": "P250 | Onda",
+    "swedish": "P250 | Ripple",
+    "tchinese": "P250 | 波紋",
+    "thai": "P250 | Ripple",
+    "turkish": "P250 | Dalgalanma",
+    "ukrainian": "П250 | Пульсація",
+    "vietnamese": "P250 | Ripple"
+  },
+  "media": {
+    "asset_id": "skin__36-650",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-650/light.png",
+      "data/api/media/rendered/files/skins/36-650/medium.png",
+      "data/api/media/rendered/files/skins/36-650/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-650.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-650/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-650/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-650/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-650/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_am_p250_sputnik_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_am_p250_sputnik_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_am_p250_sputnik_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Ripple",
+  "search_slug": "p250-ripple",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4351",
+        "kind": "weapon-case",
+        "name": "Spectrum Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_16",
+        "name": "The Spectrum Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "36-650__normal__battle-scarred",
+    "36-650__normal__factory-new",
+    "36-650__normal__field-tested",
+    "36-650__normal__minimal-wear",
+    "36-650__normal__well-worn",
+    "36-650__stattrak__battle-scarred",
+    "36-650__stattrak__factory-new",
+    "36-650__stattrak__field-tested",
+    "36-650__stattrak__minimal-wear",
+    "36-650__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

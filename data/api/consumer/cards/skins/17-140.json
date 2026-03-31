@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 140,
+    "id": 140,
+    "localized_names": {
+      "brazilian": "Ratinho",
+      "bulgarian": "Пискливец",
+      "czech": "Pipsqueak",
+      "danish": "Pipsqueak",
+      "dutch": "Pipsqueak",
+      "english": "Pipsqueak",
+      "finnish": "Hiirulainen",
+      "french": "Rongeur",
+      "german": "Störenfried",
+      "greek": "Pipsqueak",
+      "hungarian": "Kukucs",
+      "indonesian": "Pipsqueak",
+      "italian": "Pipsqueak",
+      "japanese": "Pipsqueak",
+      "koreana": "찍찍이 생쥐",
+      "latam": "Ratoncito",
+      "norwegian": "Pipsqueak",
+      "polish": "Szczurek",
+      "portuguese": "Pipsqueak",
+      "romanian": "Pipsqueak",
+      "russian": "Пискля",
+      "schinese": "鼠鼠我呀",
+      "schinese_pw": "Pipsqueak",
+      "spanish": "Cucú",
+      "swedish": "Pipsqueak",
+      "tchinese": "小不點",
+      "thai": "Pipsqueak",
+      "turkish": "Farecik",
+      "ukrainian": "Пискавка",
+      "vietnamese": "Pipsqueak"
+    },
+    "name": "Pipsqueak",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.9,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-140",
+  "localized_names": {
+    "brazilian": "MAC-10 | Ratinho",
+    "bulgarian": "MAC-10 | Пискливец",
+    "czech": "MAC-10 | Pipsqueak",
+    "danish": "MAC-10 | Pipsqueak",
+    "dutch": "MAC-10 | Pipsqueak",
+    "english": "MAC-10 | Pipsqueak",
+    "finnish": "MAC-10 | Hiirulainen",
+    "french": "MAC-10 | Rongeur",
+    "german": "MAC-10 | Störenfried",
+    "greek": "MAC-10 | Pipsqueak",
+    "hungarian": "MAC-10 | Kukucs",
+    "indonesian": "MAC-10 | Pipsqueak",
+    "italian": "MAC-10 | Pipsqueak",
+    "japanese": "MAC-10 | Pipsqueak",
+    "koreana": "MAC-10 | 찍찍이 생쥐",
+    "latam": "MAC-10 | Ratoncito",
+    "norwegian": "MAC-10 | Pipsqueak",
+    "polish": "MAC-10 | Szczurek",
+    "portuguese": "MAC-10 | Pipsqueak",
+    "romanian": "MAC-10 | Pipsqueak",
+    "russian": "MAC-10 | Пискля",
+    "schinese": "MAC-10 | 鼠鼠我呀",
+    "schinese_pw": "MAC-10 | Pipsqueak",
+    "spanish": "MAC-10 | Cucú",
+    "swedish": "MAC-10 | Pipsqueak",
+    "tchinese": "MAC-10 | 小不點",
+    "thai": "MAC-10 | Pipsqueak",
+    "turkish": "MAC-10 | Farecik",
+    "ukrainian": "МАК-10 | Пискавка",
+    "vietnamese": "MAC-10 | Pipsqueak"
+  },
+  "media": {
+    "asset_id": "skin__17-140",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-140/light.png",
+      "data/api/media/rendered/files/skins/17-140/medium.png",
+      "data/api/media/rendered/files/skins/17-140/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-140.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-140/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-140/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-140/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-140/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_cu_overpass_squeak_mac10_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_cu_overpass_squeak_mac10_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_cu_overpass_squeak_mac10_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Pipsqueak",
+  "search_slug": "mac-10-pipsqueak",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_overpass_2024",
+        "name": "The Overpass 2024 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5221",
+        "kind": "container",
+        "name": "Budapest 2025 Overpass Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-140__normal__battle-scarred",
+    "17-140__normal__factory-new",
+    "17-140__normal__field-tested",
+    "17-140__normal__minimal-wear",
+    "17-140__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.9,
+    "min_float": 0.0
+  }
+}

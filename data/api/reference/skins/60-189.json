@@ -1,0 +1,70 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_ocean_bravo",
+    "id": 189,
+    "name": "Bright Water",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 189,
+    "weapon_id": 60
+  },
+  "id": "60-189",
+  "name": "M4A1-S | Bright Water",
+  "search_slug": "m4a1-s-bright-water",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "60-189__normal__minimal-wear",
+    "60-189__normal__field-tested",
+    "60-189__stattrak__minimal-wear",
+    "60-189__stattrak__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_m4a1_silencer",
+    "id": 60,
+    "name": "M4A1-S",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.22,
+    "min_float": 0.1
+  }
+}

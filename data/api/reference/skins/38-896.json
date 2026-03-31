@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "sp_scar20_striker_dust",
+    "id": 896,
+    "name": "Torn",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 896,
+    "weapon_id": 38
+  },
+  "id": "38-896",
+  "name": "SCAR-20 | Torn",
+  "search_slug": "scar-20-torn",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_23",
+        "name": "The Shattered Web Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4620",
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "38-896__normal__factory-new",
+    "38-896__normal__minimal-wear",
+    "38-896__normal__field-tested",
+    "38-896__normal__well-worn",
+    "38-896__stattrak__factory-new",
+    "38-896__stattrak__minimal-wear",
+    "38-896__stattrak__field-tested",
+    "38-896__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_scar20",
+    "id": 38,
+    "name": "SCAR-20",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.45,
+    "min_float": 0.0
+  }
+}

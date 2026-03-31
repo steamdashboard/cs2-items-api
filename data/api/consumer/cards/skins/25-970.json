@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 970,
+    "id": 970,
+    "localized_names": {
+      "brazilian": "Faraônica",
+      "bulgarian": "Погребан",
+      "czech": "Entombed",
+      "danish": "Entombed",
+      "dutch": "Entombed",
+      "english": "Entombed",
+      "finnish": "Haudattu",
+      "french": "Vestige",
+      "german": "Begraben",
+      "greek": "Entombed",
+      "hungarian": "Eltemetve",
+      "indonesian": "Entombed",
+      "italian": "Entombed",
+      "japanese": "Entombed",
+      "koreana": "안치된 무덤",
+      "latam": "Sepultada",
+      "norwegian": "Entombed",
+      "polish": "Złożony do grobu",
+      "portuguese": "Entombed",
+      "romanian": "Entombed",
+      "russian": "Погребённый",
+      "schinese": "埋葬之影",
+      "schinese_pw": "Entombed",
+      "spanish": "Sepultada",
+      "swedish": "Entombed",
+      "tchinese": "千年葬品",
+      "thai": "Entombed",
+      "turkish": "Gömülmüş",
+      "ukrainian": "Похований",
+      "vietnamese": "Entombed"
+    },
+    "name": "Entombed",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "25-970",
+  "localized_names": {
+    "brazilian": "XM1014 | Faraônica",
+    "bulgarian": "XM1014 | Погребан",
+    "czech": "XM1014 | Entombed",
+    "danish": "XM1014 | Entombed",
+    "dutch": "XM1014 | Entombed",
+    "english": "XM1014 | Entombed",
+    "finnish": "XM1014 | Haudattu",
+    "french": "XM1014 | Vestige",
+    "german": "XM1014 | Begraben",
+    "greek": "XM1014 | Entombed",
+    "hungarian": "XM1014 | Eltemetve",
+    "indonesian": "XM1014 | Entombed",
+    "italian": "XM1014 | Entombed",
+    "japanese": "XM1014 | Entombed",
+    "koreana": "XM1014 | 안치된 무덤",
+    "latam": "XM1014 | Sepultada",
+    "norwegian": "XM1014 | Entombed",
+    "polish": "XM1014 | Złożony do grobu",
+    "portuguese": "XM1014 | Entombed",
+    "romanian": "XM1014 | Entombed",
+    "russian": "XM1014 | Погребённый",
+    "schinese": "XM1014 | 埋葬之影",
+    "schinese_pw": "XM1014 | Entombed",
+    "spanish": "XM1014 | Sepultada",
+    "swedish": "XM1014 | Entombed",
+    "tchinese": "XM1014 | 千年葬品",
+    "thai": "XM1014 | Entombed",
+    "turkish": "XM1014 | Gömülmüş",
+    "ukrainian": "М1014 | Похований",
+    "vietnamese": "XM1014 | Entombed"
+  },
+  "media": {
+    "asset_id": "skin__25-970",
+    "images_png": [
+      "data/api/media/rendered/files/skins/25-970/light.png",
+      "data/api/media/rendered/files/skins/25-970/medium.png",
+      "data/api/media/rendered/files/skins/25-970/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/25-970.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/25-970/heavy.png",
+      "light": "data/api/media/rendered/files/skins/25-970/light.png",
+      "medium": "data/api/media/rendered/files/skins/25-970/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/25-970/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_xm1014_cu_xm1014_amulet_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_xm1014_cu_xm1014_amulet_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_xm1014_cu_xm1014_amulet_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "XM1014 | Entombed",
+  "search_slug": "xm1014-entombed",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4698",
+        "kind": "weapon-case",
+        "name": "Fracture Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_26",
+        "name": "The Fracture Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "25-970__normal__battle-scarred",
+    "25-970__normal__factory-new",
+    "25-970__normal__field-tested",
+    "25-970__normal__minimal-wear",
+    "25-970__normal__well-worn",
+    "25-970__stattrak__battle-scarred",
+    "25-970__stattrak__factory-new",
+    "25-970__stattrak__field-tested",
+    "25-970__stattrak__minimal-wear",
+    "25-970__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 25,
+    "localized_names": {
+      "brazilian": "XM1014",
+      "bulgarian": "XM1014",
+      "czech": "XM1014",
+      "danish": "XM1014",
+      "dutch": "XM1014",
+      "english": "XM1014",
+      "finnish": "XM1014",
+      "french": "XM1014",
+      "german": "XM1014",
+      "greek": "XM1014",
+      "hungarian": "XM1014",
+      "indonesian": "XM1014",
+      "italian": "XM1014",
+      "japanese": "XM1014",
+      "koreana": "XM1014",
+      "latam": "XM1014",
+      "norwegian": "XM1014",
+      "polish": "XM1014",
+      "portuguese": "XM1014",
+      "romanian": "XM1014",
+      "russian": "XM1014",
+      "schinese": "XM1014",
+      "schinese_pw": "XM1014",
+      "spanish": "XM1014",
+      "swedish": "XM1014",
+      "tchinese": "XM1014",
+      "thai": "XM1014",
+      "turkish": "XM1014",
+      "ukrainian": "М1014",
+      "vietnamese": "XM1014"
+    },
+    "name": "XM1014",
+    "search_slug": "xm1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

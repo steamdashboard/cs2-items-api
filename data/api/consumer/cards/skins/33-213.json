@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 213,
+    "id": 213,
+    "localized_names": {
+      "brazilian": "Como uma Onda",
+      "bulgarian": "Морска пяна",
+      "czech": "Ocean Foam",
+      "danish": "Ocean Foam",
+      "dutch": "Ocean Foam",
+      "english": "Ocean Foam",
+      "finnish": "Merivaahto",
+      "french": "Écume océanique",
+      "german": "Ozeanschaum",
+      "greek": "Ocean Foam",
+      "hungarian": "Óceánhab",
+      "indonesian": "Ocean Foam",
+      "italian": "Ocean Foam",
+      "japanese": "Ocean Foam",
+      "koreana": "바다거품",
+      "latam": "Espuma oceánica",
+      "norwegian": "Ocean Foam",
+      "polish": "Piana morska",
+      "portuguese": "Ocean Foam",
+      "romanian": "Ocean Foam",
+      "russian": "Океанская пена",
+      "schinese": "海之泡沫",
+      "schinese_pw": "Ocean Foam",
+      "spanish": "Espuma oceánica",
+      "swedish": "Ocean Foam",
+      "tchinese": "海洋泡沫",
+      "thai": "Ocean Foam",
+      "turkish": "Okyanus Köpüğü",
+      "ukrainian": "Морська піна",
+      "vietnamese": "Ocean Foam"
+    },
+    "name": "Ocean Foam",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-213",
+  "localized_names": {
+    "brazilian": "MP7 | Como uma Onda",
+    "bulgarian": "MP7 | Морска пяна",
+    "czech": "MP7 | Ocean Foam",
+    "danish": "MP7 | Ocean Foam",
+    "dutch": "MP7 | Ocean Foam",
+    "english": "MP7 | Ocean Foam",
+    "finnish": "MP7 | Merivaahto",
+    "french": "MP7 | Écume océanique",
+    "german": "MP7 | Ozeanschaum",
+    "greek": "MP7 | Ocean Foam",
+    "hungarian": "MP7 | Óceánhab",
+    "indonesian": "MP7 | Ocean Foam",
+    "italian": "MP7 | Ocean Foam",
+    "japanese": "MP7 | Ocean Foam",
+    "koreana": "MP7 | 바다거품",
+    "latam": "MP7 | Espuma oceánica",
+    "norwegian": "MP7 | Ocean Foam",
+    "polish": "MP7 | Piana morska",
+    "portuguese": "MP7 | Ocean Foam",
+    "romanian": "MP7 | Ocean Foam",
+    "russian": "MP7 | Океанская пена",
+    "schinese": "MP7 | 海之泡沫",
+    "schinese_pw": "MP7 | Ocean Foam",
+    "spanish": "MP7 | Espuma oceánica",
+    "swedish": "MP7 | Ocean Foam",
+    "tchinese": "MP7 | 海洋泡沫",
+    "thai": "MP7 | Ocean Foam",
+    "turkish": "MP7 | Okyanus Köpüğü",
+    "ukrainian": "МП7 | Морська піна",
+    "vietnamese": "MP7 | Ocean Foam"
+  },
+  "media": {
+    "asset_id": "skin__33-213",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-213/light.png",
+      "data/api/media/rendered/files/skins/33-213/medium.png",
+      "data/api/media/rendered/files/skins/33-213/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-213.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-213/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-213/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-213/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-213/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_am_ossify_blue_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_am_ossify_blue_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_am_ossify_blue_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Ocean Foam",
+  "search_slug": "mp7-ocean-foam",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-213__normal__factory-new",
+    "33-213__normal__minimal-wear",
+    "33-213__stattrak__factory-new",
+    "33-213__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

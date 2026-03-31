@@ -1,0 +1,168 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 101,
+    "id": 101,
+    "localized_names": {
+      "brazilian": "Tornado",
+      "bulgarian": "„Торнадо“",
+      "czech": "Tornado",
+      "danish": "Tornado",
+      "dutch": "Tornado",
+      "english": "Tornado",
+      "finnish": "Tornado",
+      "french": "Tornade",
+      "german": "Tornado",
+      "greek": "Tornado",
+      "hungarian": "Tornádó",
+      "indonesian": "Tornado",
+      "italian": "Tornado",
+      "japanese": "Tornado",
+      "koreana": "토네이도",
+      "latam": "Tornado",
+      "norwegian": "Tornado",
+      "polish": "Tornado",
+      "portuguese": "Tornado",
+      "romanian": "Tornado",
+      "russian": "Смерч",
+      "schinese": "狂哮飓风",
+      "schinese_pw": "Tornado",
+      "spanish": "Tornado",
+      "swedish": "Tornado",
+      "tchinese": "颶風咆哮",
+      "thai": "Tornado",
+      "turkish": "Kasırga",
+      "ukrainian": "Смерч",
+      "vietnamese": "Tornado"
+    },
+    "name": "Tornado",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "17-101",
+  "localized_names": {
+    "brazilian": "MAC-10 | Tornado",
+    "bulgarian": "MAC-10 | „Торнадо“",
+    "czech": "MAC-10 | Tornado",
+    "danish": "MAC-10 | Tornado",
+    "dutch": "MAC-10 | Tornado",
+    "english": "MAC-10 | Tornado",
+    "finnish": "MAC-10 | Tornado",
+    "french": "MAC-10 | Tornade",
+    "german": "MAC-10 | Tornado",
+    "greek": "MAC-10 | Tornado",
+    "hungarian": "MAC-10 | Tornádó",
+    "indonesian": "MAC-10 | Tornado",
+    "italian": "MAC-10 | Tornado",
+    "japanese": "MAC-10 | Tornado",
+    "koreana": "MAC-10 | 토네이도",
+    "latam": "MAC-10 | Tornado",
+    "norwegian": "MAC-10 | Tornado",
+    "polish": "MAC-10 | Tornado",
+    "portuguese": "MAC-10 | Tornado",
+    "romanian": "MAC-10 | Tornado",
+    "russian": "MAC-10 | Смерч",
+    "schinese": "MAC-10 | 狂哮飓风",
+    "schinese_pw": "MAC-10 | Tornado",
+    "spanish": "MAC-10 | Tornado",
+    "swedish": "MAC-10 | Tornado",
+    "tchinese": "MAC-10 | 颶風咆哮",
+    "thai": "MAC-10 | Tornado",
+    "turkish": "MAC-10 | Kasırga",
+    "ukrainian": "МАК-10 | Смерч",
+    "vietnamese": "MAC-10 | Tornado"
+  },
+  "media": {
+    "asset_id": "skin__17-101",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-101/light.png",
+      "data/api/media/rendered/files/skins/17-101/medium.png",
+      "data/api/media/rendered/files/skins/17-101/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-101.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-101/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-101/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-101/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-101/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_so_tornado_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_so_tornado_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_so_tornado_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Tornado",
+  "search_slug": "mac-10-tornado",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_militia",
+        "name": "The Militia Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-101__normal__vanilla"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

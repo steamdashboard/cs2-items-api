@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 351,
+    "id": 351,
+    "localized_names": {
+      "brazilian": "Conspiração",
+      "bulgarian": "Конспирация",
+      "czech": "Conspiracy",
+      "danish": "Conspiracy",
+      "dutch": "Conspiracy",
+      "english": "Conspiracy",
+      "finnish": "Salaliitto",
+      "french": "Conspiration",
+      "german": "Verschwörung",
+      "greek": "Conspiracy",
+      "hungarian": "Összeesküvés",
+      "indonesian": "Conspiracy",
+      "italian": "Conspiracy",
+      "japanese": "Conspiracy",
+      "koreana": "음모론",
+      "latam": "Conspiración",
+      "norwegian": "Conspiracy",
+      "polish": "Konspiracja",
+      "portuguese": "Conspiracy",
+      "romanian": "Conspiracy",
+      "russian": "Заговор",
+      "schinese": "阴谋者",
+      "schinese_pw": "Conspiracy",
+      "spanish": "Conspiración",
+      "swedish": "Conspiracy",
+      "tchinese": "陰謀",
+      "thai": "Conspiracy",
+      "turkish": "Suikast",
+      "ukrainian": "Змова",
+      "vietnamese": "Conspiracy"
+    },
+    "name": "Conspiracy",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "1-351",
+  "localized_names": {
+    "brazilian": "Desert Eagle | Conspiração",
+    "bulgarian": "Desert Eagle | Конспирация",
+    "czech": "Desert Eagle | Conspiracy",
+    "danish": "Desert Eagle | Conspiracy",
+    "dutch": "Desert Eagle | Conspiracy",
+    "english": "Desert Eagle | Conspiracy",
+    "finnish": "Desert Eagle | Salaliitto",
+    "french": "Desert Eagle | Conspiration",
+    "german": "Desert Eagle | Verschwörung",
+    "greek": "Desert Eagle | Conspiracy",
+    "hungarian": "Desert Eagle | Összeesküvés",
+    "indonesian": "Desert Eagle | Conspiracy",
+    "italian": "Desert Eagle | Conspiracy",
+    "japanese": "Desert Eagle | Conspiracy",
+    "koreana": "데저트 이글 | 음모론",
+    "latam": "Desert Eagle | Conspiración",
+    "norwegian": "Desert Eagle | Conspiracy",
+    "polish": "Desert Eagle | Konspiracja",
+    "portuguese": "Desert Eagle | Conspiracy",
+    "romanian": "Desert Eagle | Conspiracy",
+    "russian": "Desert Eagle | Заговор",
+    "schinese": "沙漠之鹰 | 阴谋者",
+    "schinese_pw": "Desert Eagle | Conspiracy",
+    "spanish": "Desert Eagle | Conspiración",
+    "swedish": "Desert Eagle | Conspiracy",
+    "tchinese": "Desert Eagle | 陰謀",
+    "thai": "Desert Eagle | Conspiracy",
+    "turkish": "Desert Eagle | Suikast",
+    "ukrainian": "Пустельний орел | Змова",
+    "vietnamese": "Desert Eagle | Conspiracy"
+  },
+  "media": {
+    "asset_id": "skin__1-351",
+    "images_png": [
+      "data/api/media/rendered/files/skins/1-351/light.png",
+      "data/api/media/rendered/files/skins/1-351/medium.png",
+      "data/api/media/rendered/files/skins/1-351/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/1-351.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/1-351/heavy.png",
+      "light": "data/api/media/rendered/files/skins/1-351/light.png",
+      "medium": "data/api/media/rendered/files/skins/1-351/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/1-351/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_deagle_cu_deagle_aureus_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_deagle_cu_deagle_aureus_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_deagle_cu_deagle_aureus_medium_png.vtex_c"
+    }
+  },
+  "name": "Desert Eagle | Conspiracy",
+  "search_slug": "desert-eagle-conspiracy",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4018",
+        "kind": "weapon-case",
+        "name": "Operation Breakout Weapon Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_4",
+        "name": "The Breakout Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "1-351__normal__factory-new",
+    "1-351__normal__field-tested",
+    "1-351__normal__minimal-wear",
+    "1-351__stattrak__factory-new",
+    "1-351__stattrak__field-tested",
+    "1-351__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 1,
+    "localized_names": {
+      "brazilian": "Desert Eagle",
+      "bulgarian": "Desert Eagle",
+      "czech": "Desert Eagle",
+      "danish": "Desert Eagle",
+      "dutch": "Desert Eagle",
+      "english": "Desert Eagle",
+      "finnish": "Desert Eagle",
+      "french": "Desert Eagle",
+      "german": "Desert Eagle",
+      "greek": "Desert Eagle",
+      "hungarian": "Desert Eagle",
+      "indonesian": "Desert Eagle",
+      "italian": "Desert Eagle",
+      "japanese": "Desert Eagle",
+      "koreana": "데저트 이글",
+      "latam": "Desert Eagle",
+      "norwegian": "Desert Eagle",
+      "polish": "Desert Eagle",
+      "portuguese": "Desert Eagle",
+      "romanian": "Desert Eagle",
+      "russian": "Desert Eagle",
+      "schinese": "沙漠之鹰",
+      "schinese_pw": "Desert Eagle",
+      "spanish": "Desert Eagle",
+      "swedish": "Desert Eagle",
+      "tchinese": "Desert Eagle",
+      "thai": "Desert Eagle",
+      "turkish": "Desert Eagle",
+      "ukrainian": "Пустельний орел",
+      "vietnamese": "Desert Eagle"
+    },
+    "name": "Desert Eagle",
+    "search_slug": "desert-eagle",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1193,
+    "id": 1193,
+    "localized_names": {
+      "brazilian": "Nexus",
+      "bulgarian": "Нитова връзка",
+      "czech": "Nexus",
+      "danish": "Nexus",
+      "dutch": "Nexus",
+      "english": "Nexus",
+      "finnish": "Nexus",
+      "french": "Nexus",
+      "german": "Nexus",
+      "greek": "Nexus",
+      "hungarian": "Nexus",
+      "indonesian": "Nexus",
+      "italian": "Nexus",
+      "japanese": "Nexus",
+      "koreana": "넥서스",
+      "latam": "Nexus",
+      "norwegian": "Nexus",
+      "polish": "Ogniwo",
+      "portuguese": "Nexus",
+      "romanian": "Nexus",
+      "russian": "Связующая нить",
+      "schinese": "中枢",
+      "schinese_pw": "Nexus",
+      "spanish": "Nexus",
+      "swedish": "Nexus",
+      "tchinese": "聯繫",
+      "thai": "Nexus",
+      "turkish": "Nexus",
+      "ukrainian": "Нексус",
+      "vietnamese": "Nexus"
+    },
+    "name": "Nexus",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-1193",
+  "localized_names": {
+    "brazilian": "MP9 | Nexus",
+    "bulgarian": "MP9 | Нитова връзка",
+    "czech": "MP9 | Nexus",
+    "danish": "MP9 | Nexus",
+    "dutch": "MP9 | Nexus",
+    "english": "MP9 | Nexus",
+    "finnish": "MP9 | Nexus",
+    "french": "MP9 | Nexus",
+    "german": "MP9 | Nexus",
+    "greek": "MP9 | Nexus",
+    "hungarian": "MP9 | Nexus",
+    "indonesian": "MP9 | Nexus",
+    "italian": "MP9 | Nexus",
+    "japanese": "MP9 | Nexus",
+    "koreana": "MP9 | 넥서스",
+    "latam": "MP9 | Nexus",
+    "norwegian": "MP9 | Nexus",
+    "polish": "MP9 | Ogniwo",
+    "portuguese": "MP9 | Nexus",
+    "romanian": "MP9 | Nexus",
+    "russian": "MP9 | Связующая нить",
+    "schinese": "MP9 | 中枢",
+    "schinese_pw": "MP9 | Nexus",
+    "spanish": "MP9 | Nexus",
+    "swedish": "MP9 | Nexus",
+    "tchinese": "MP9 | 聯繫",
+    "thai": "MP9 | Nexus",
+    "turkish": "MP9 | Nexus",
+    "ukrainian": "МП9 | Нексус",
+    "vietnamese": "MP9 | Nexus"
+  },
+  "media": {
+    "asset_id": "skin__34-1193",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-1193/light.png",
+      "data/api/media/rendered/files/skins/34-1193/medium.png",
+      "data/api/media/rendered/files/skins/34-1193/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-1193.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-1193/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-1193/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-1193/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-1193/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_mp9_nexus_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_mp9_nexus_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_mp9_nexus_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Nexus",
+  "search_slug": "mp9-nexus",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "7007",
+        "kind": "weapon-case",
+        "name": "Fever Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_35",
+        "name": "The Fever Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-1193__normal__battle-scarred",
+    "34-1193__normal__factory-new",
+    "34-1193__normal__field-tested",
+    "34-1193__normal__minimal-wear",
+    "34-1193__normal__well-worn",
+    "34-1193__stattrak__battle-scarred",
+    "34-1193__stattrak__factory-new",
+    "34-1193__stattrak__field-tested",
+    "34-1193__stattrak__minimal-wear",
+    "34-1193__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

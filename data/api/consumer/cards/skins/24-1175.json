@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1175,
+    "id": 1175,
+    "localized_names": {
+      "brazilian": "Motorizada",
+      "bulgarian": "Моторизирано",
+      "czech": "Motorized",
+      "danish": "Motorized",
+      "dutch": "Motorized",
+      "english": "Motorized",
+      "finnish": "Moottoroitu",
+      "french": "Sous le capot",
+      "german": "Motorblock",
+      "greek": "Motorized",
+      "hungarian": "Motorizált",
+      "indonesian": "Motorized",
+      "italian": "Motorized",
+      "japanese": "Motorized",
+      "koreana": "모터라이즈드",
+      "latam": "Motorizado",
+      "norwegian": "Motorized",
+      "polish": "Zmotoryzowany",
+      "portuguese": "Motorized",
+      "romanian": "Motorized",
+      "russian": "Мотор",
+      "schinese": "机动化",
+      "schinese_pw": "Motorized",
+      "spanish": "Motorizado",
+      "swedish": "Motorized",
+      "tchinese": "機動化",
+      "thai": "Motorized",
+      "turkish": "Motorlu",
+      "ukrainian": "Мотор",
+      "vietnamese": "Motorized"
+    },
+    "name": "Motorized",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.801418,
+      "min_float": 0.0
+    }
+  },
+  "id": "24-1175",
+  "localized_names": {
+    "brazilian": "UMP-45 | Motorizada",
+    "bulgarian": "UMP-45 | Моторизирано",
+    "czech": "UMP-45 | Motorized",
+    "danish": "UMP-45 | Motorized",
+    "dutch": "UMP-45 | Motorized",
+    "english": "UMP-45 | Motorized",
+    "finnish": "UMP-45 | Moottoroitu",
+    "french": "UMP-45 | Sous le capot",
+    "german": "UMP-45 | Motorblock",
+    "greek": "UMP-45 | Motorized",
+    "hungarian": "UMP-45 | Motorizált",
+    "indonesian": "UMP-45 | Motorized",
+    "italian": "UMP-45 | Motorized",
+    "japanese": "UMP-45 | Motorized",
+    "koreana": "UMP-45 | 모터라이즈드",
+    "latam": "UMP-45 | Motorizado",
+    "norwegian": "UMP-45 | Motorized",
+    "polish": "UMP-45 | Zmotoryzowany",
+    "portuguese": "UMP-45 | Motorized",
+    "romanian": "UMP-45 | Motorized",
+    "russian": "UMP-45 | Мотор",
+    "schinese": "UMP-45 | 机动化",
+    "schinese_pw": "UMP-45 | Motorized",
+    "spanish": "UMP-45 | Motorizado",
+    "swedish": "UMP-45 | Motorized",
+    "tchinese": "UMP-45 | 機動化",
+    "thai": "UMP-45 | Motorized",
+    "turkish": "UMP-45 | Motorlu",
+    "ukrainian": "УМП-45 | Мотор",
+    "vietnamese": "UMP-45 | Motorized"
+  },
+  "media": {
+    "asset_id": "skin__24-1175",
+    "images_png": [
+      "data/api/media/rendered/files/skins/24-1175/light.png",
+      "data/api/media/rendered/files/skins/24-1175/medium.png",
+      "data/api/media/rendered/files/skins/24-1175/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/24-1175.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/24-1175/heavy.png",
+      "light": "data/api/media/rendered/files/skins/24-1175/light.png",
+      "medium": "data/api/media/rendered/files/skins/24-1175/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/24-1175/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ump45_ump45_assembled_engine_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ump45_ump45_assembled_engine_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ump45_ump45_assembled_engine_medium_png.vtex_c"
+    }
+  },
+  "name": "UMP-45 | Motorized",
+  "search_slug": "ump-45-motorized",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4904",
+        "kind": "weapon-case",
+        "name": "Kilowatt Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_33",
+        "name": "The Kilowatt Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "24-1175__normal__battle-scarred",
+    "24-1175__normal__factory-new",
+    "24-1175__normal__field-tested",
+    "24-1175__normal__minimal-wear",
+    "24-1175__normal__well-worn",
+    "24-1175__stattrak__battle-scarred",
+    "24-1175__stattrak__factory-new",
+    "24-1175__stattrak__field-tested",
+    "24-1175__stattrak__minimal-wear",
+    "24-1175__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 24,
+    "localized_names": {
+      "brazilian": "UMP-45",
+      "bulgarian": "UMP-45",
+      "czech": "UMP-45",
+      "danish": "UMP-45",
+      "dutch": "UMP-45",
+      "english": "UMP-45",
+      "finnish": "UMP-45",
+      "french": "UMP-45",
+      "german": "UMP-45",
+      "greek": "UMP-45",
+      "hungarian": "UMP-45",
+      "indonesian": "UMP-45",
+      "italian": "UMP-45",
+      "japanese": "UMP-45",
+      "koreana": "UMP-45",
+      "latam": "UMP-45",
+      "norwegian": "UMP-45",
+      "polish": "UMP-45",
+      "portuguese": "UMP-45",
+      "romanian": "UMP-45",
+      "russian": "UMP-45",
+      "schinese": "UMP-45",
+      "schinese_pw": "UMP-45",
+      "spanish": "UMP-45",
+      "swedish": "UMP-45",
+      "tchinese": "UMP-45",
+      "thai": "UMP-45",
+      "turkish": "UMP-45",
+      "ukrainian": "УМП-45",
+      "vietnamese": "UMP-45"
+    },
+    "name": "UMP-45",
+    "search_slug": "ump-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.801418,
+    "min_float": 0.0
+  }
+}

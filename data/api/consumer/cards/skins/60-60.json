@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 60,
+    "id": 60,
+    "localized_names": {
+      "brazilian": "Água Escura",
+      "bulgarian": "Черна вода",
+      "czech": "Dark Water",
+      "danish": "Dark Water",
+      "dutch": "Dark Water",
+      "english": "Dark Water",
+      "finnish": "Tumma vesi",
+      "french": "Eau sombre",
+      "german": "Dunkles Wasser",
+      "greek": "Dark Water",
+      "hungarian": "Fekete Víz",
+      "indonesian": "Dark Water",
+      "italian": "Dark Water",
+      "japanese": "Dark Water",
+      "koreana": "어두운 수면",
+      "latam": "Aguas profundas",
+      "norwegian": "Dark Water",
+      "polish": "Mroczne wody",
+      "portuguese": "Dark Water",
+      "romanian": "Dark Water",
+      "russian": "Тёмная вода",
+      "schinese": "黑水",
+      "schinese_pw": "Dark Water",
+      "spanish": "Aguas profundas",
+      "swedish": "Dark Water",
+      "tchinese": "濁水戰術",
+      "thai": "Dark Water",
+      "turkish": "Kara Su",
+      "ukrainian": "Темна вода",
+      "vietnamese": "Dark Water"
+    },
+    "name": "Dark Water",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.1
+    }
+  },
+  "id": "60-60",
+  "localized_names": {
+    "brazilian": "M4A1-S | Água Escura",
+    "bulgarian": "M4A1-S | Черна вода",
+    "czech": "M4A1-S | Dark Water",
+    "danish": "M4A1-S | Dark Water",
+    "dutch": "M4A1-S | Dark Water",
+    "english": "M4A1-S | Dark Water",
+    "finnish": "M4A1-S | Tumma vesi",
+    "french": "M4A1-S | Eau sombre",
+    "german": "M4A1-S | Dunkles Wasser",
+    "greek": "M4A1-S | Dark Water",
+    "hungarian": "M4A1-S | Fekete Víz",
+    "indonesian": "M4A1-S | Dark Water",
+    "italian": "M4A1-S | Dark Water",
+    "japanese": "M4A1-S | Dark Water",
+    "koreana": "M4A1-S | 어두운 수면",
+    "latam": "M4A1-S | Aguas profundas",
+    "norwegian": "M4A1-S | Dark Water",
+    "polish": "M4A1-S | Mroczne wody",
+    "portuguese": "M4A1-S | Dark Water",
+    "romanian": "M4A1-S | Dark Water",
+    "russian": "M4A1-S | Тёмная вода",
+    "schinese": "M4A1消音版 | 黑水",
+    "schinese_pw": "M4A1-S | Dark Water",
+    "spanish": "M4A1-S | Aguas profundas",
+    "swedish": "M4A1-S | Dark Water",
+    "tchinese": "M4A1-S | 濁水戰術",
+    "thai": "M4A1-S | Dark Water",
+    "turkish": "M4A1-S | Kara Su",
+    "ukrainian": "М4А1-С | Темна вода",
+    "vietnamese": "M4A1-S | Dark Water"
+  },
+  "media": {
+    "asset_id": "skin__60-60",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-60/light.png",
+      "data/api/media/rendered/files/skins/60-60/medium.png",
+      "data/api/media/rendered/files/skins/60-60/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-60.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-60/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-60/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-60/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-60/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_am_zebra_dark_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_am_zebra_dark_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_am_zebra_dark_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Dark Water",
+  "search_slug": "m4a1-s-dark-water",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-60__normal__field-tested",
+    "60-60__normal__minimal-wear",
+    "60-60__stattrak__field-tested",
+    "60-60__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.1
+  }
+}

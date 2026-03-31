@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 484,
+    "id": 484,
+    "localized_names": {
+      "brazilian": "Patrulheiro",
+      "bulgarian": "Лесничей",
+      "czech": "Ranger",
+      "danish": "Ranger",
+      "dutch": "Ranger",
+      "english": "Ranger",
+      "finnish": "Metsänvartija",
+      "french": "Ranger",
+      "german": "Waldhüter",
+      "greek": "Ranger",
+      "hungarian": "Vadőr",
+      "indonesian": "Ranger",
+      "italian": "Ranger",
+      "japanese": "Ranger",
+      "koreana": "레인저",
+      "latam": "Guardabosque",
+      "norwegian": "Ranger",
+      "polish": "Ranger",
+      "portuguese": "Ranger",
+      "romanian": "Ranger",
+      "russian": "Лесничий",
+      "schinese": "游侠",
+      "schinese_pw": "Ranger",
+      "spanish": "Guardabosque",
+      "swedish": "Ranger",
+      "tchinese": "遊俠",
+      "thai": "Ranger",
+      "turkish": "Korucu",
+      "ukrainian": "Рейнджер",
+      "vietnamese": "Ranger"
+    },
+    "name": "Ranger",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "35-484",
+  "localized_names": {
+    "brazilian": "Nova | Patrulheiro",
+    "bulgarian": "Nova | Лесничей",
+    "czech": "Nova | Ranger",
+    "danish": "Nova | Ranger",
+    "dutch": "Nova | Ranger",
+    "english": "Nova | Ranger",
+    "finnish": "Nova | Metsänvartija",
+    "french": "Nova | Ranger",
+    "german": "Nova | Waldhüter",
+    "greek": "Nova | Ranger",
+    "hungarian": "Nova | Vadőr",
+    "indonesian": "Nova | Ranger",
+    "italian": "Nova | Ranger",
+    "japanese": "Nova | Ranger",
+    "koreana": "노바 | 레인저",
+    "latam": "Nova | Guardabosque",
+    "norwegian": "Nova | Ranger",
+    "polish": "Nova | Ranger",
+    "portuguese": "Nova | Ranger",
+    "romanian": "Nova | Ranger",
+    "russian": "Nova | Лесничий",
+    "schinese": "新星 | 游侠",
+    "schinese_pw": "Nova | Ranger",
+    "spanish": "Nova | Guardabosque",
+    "swedish": "Nova | Ranger",
+    "tchinese": "Nova | 遊俠",
+    "thai": "Nova | Ranger",
+    "turkish": "Nova | Korucu",
+    "ukrainian": "Нова | Рейнджер",
+    "vietnamese": "Nova | Ranger"
+  },
+  "media": {
+    "asset_id": "skin__35-484",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-484/light.png",
+      "data/api/media/rendered/files/skins/35-484/medium.png",
+      "data/api/media/rendered/files/skins/35-484/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-484.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-484/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-484/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-484/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-484/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_cu_nova_ranger_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_cu_nova_ranger_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_cu_nova_ranger_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Ranger",
+  "search_slug": "nova-ranger",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4091",
+        "kind": "weapon-case",
+        "name": "Falchion Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_8",
+        "name": "The Falchion Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-484__normal__battle-scarred",
+    "35-484__normal__factory-new",
+    "35-484__normal__field-tested",
+    "35-484__normal__minimal-wear",
+    "35-484__normal__well-worn",
+    "35-484__stattrak__battle-scarred",
+    "35-484__stattrak__factory-new",
+    "35-484__stattrak__field-tested",
+    "35-484__stattrak__minimal-wear",
+    "35-484__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

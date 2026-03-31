@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 280,
+    "id": 280,
+    "localized_names": {
+      "brazilian": "Camaleão",
+      "bulgarian": "Хамелеон",
+      "czech": "Chameleon",
+      "danish": "Chameleon",
+      "dutch": "Chameleon",
+      "english": "Chameleon",
+      "finnish": "Kameleontti",
+      "french": "Caméléon",
+      "german": "Chamäleon",
+      "greek": "Chameleon",
+      "hungarian": "Kaméleon",
+      "indonesian": "Chameleon",
+      "italian": "Chameleon",
+      "japanese": "カメレオン",
+      "koreana": "카멜레온",
+      "latam": "Camaleón",
+      "norwegian": "Chameleon",
+      "polish": "Kameleon",
+      "portuguese": "Chameleon",
+      "romanian": "Chameleon",
+      "russian": "Хамелеон",
+      "schinese": "变色龙",
+      "schinese_pw": "Chameleon",
+      "spanish": "Camaleón",
+      "swedish": "Chameleon",
+      "tchinese": "變色龍",
+      "thai": "Chameleon",
+      "turkish": "Bukalemun",
+      "ukrainian": "Хамелеон",
+      "vietnamese": "Chameleon"
+    },
+    "name": "Chameleon",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "8-280",
+  "localized_names": {
+    "brazilian": "AUG | Camaleão",
+    "bulgarian": "AUG | Хамелеон",
+    "czech": "AUG | Chameleon",
+    "danish": "AUG | Chameleon",
+    "dutch": "AUG | Chameleon",
+    "english": "AUG | Chameleon",
+    "finnish": "AUG | Kameleontti",
+    "french": "AUG | Caméléon",
+    "german": "AUG | Chamäleon",
+    "greek": "AUG | Chameleon",
+    "hungarian": "AUG | Kaméleon",
+    "indonesian": "AUG | Chameleon",
+    "italian": "AUG | Chameleon",
+    "japanese": "AUG | カメレオン",
+    "koreana": "AUG | 카멜레온",
+    "latam": "AUG | Camaleón",
+    "norwegian": "AUG | Chameleon",
+    "polish": "AUG | Kameleon",
+    "portuguese": "AUG | Chameleon",
+    "romanian": "AUG | Chameleon",
+    "russian": "AUG | Хамелеон",
+    "schinese": "AUG | 变色龙",
+    "schinese_pw": "AUG | Chameleon",
+    "spanish": "AUG | Camaleón",
+    "swedish": "AUG | Chameleon",
+    "tchinese": "AUG | 變色龍",
+    "thai": "AUG | Chameleon",
+    "turkish": "AUG | Bukalemun",
+    "ukrainian": "АУГ | Хамелеон",
+    "vietnamese": "AUG | Chameleon"
+  },
+  "media": {
+    "asset_id": "skin__8-280",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-280/light.png",
+      "data/api/media/rendered/files/skins/8-280/medium.png",
+      "data/api/media/rendered/files/skins/8-280/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-280.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-280/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-280/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-280/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-280/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_cu_aug_chameleonaire_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_cu_aug_chameleonaire_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_cu_aug_chameleonaire_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Chameleon",
+  "search_slug": "aug-chameleon",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4011",
+        "kind": "weapon-case",
+        "name": "Operation Phoenix Weapon Case",
+        "tier": "ancient"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_2",
+        "name": "The Phoenix Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-280__normal__battle-scarred",
+    "8-280__normal__factory-new",
+    "8-280__normal__field-tested",
+    "8-280__normal__minimal-wear",
+    "8-280__normal__well-worn",
+    "8-280__stattrak__battle-scarred",
+    "8-280__stattrak__factory-new",
+    "8-280__stattrak__field-tested",
+    "8-280__stattrak__minimal-wear",
+    "8-280__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

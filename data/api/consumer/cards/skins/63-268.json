@@ -1,0 +1,203 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 268,
+    "id": 268,
+    "localized_names": {
+      "brazilian": "Chapa de Metal",
+      "bulgarian": "Защитна метална плоча",
+      "czech": "Tread Plate",
+      "danish": "Tread Plate",
+      "dutch": "Tread Plate",
+      "english": "Tread Plate",
+      "finnish": "Teräskuvio",
+      "french": "Plaque de roulement",
+      "german": "Trittblech",
+      "greek": "Tread Plate",
+      "hungarian": "Csúszásgátló",
+      "indonesian": "Tread Plate",
+      "italian": "Tread Plate",
+      "japanese": "Tread Plate",
+      "koreana": "트레드 플레이트",
+      "latam": "Chapa diamantada",
+      "norwegian": "Tread Plate",
+      "polish": "Blacha łezkowa",
+      "portuguese": "Tread Plate",
+      "romanian": "Tread Plate",
+      "russian": "Листовая сталь",
+      "schinese": "花纹钢板",
+      "schinese_pw": "Tread Plate",
+      "spanish": "Chapa diamantada",
+      "swedish": "Tread Plate",
+      "tchinese": "花紋鋼板",
+      "thai": "Tread Plate",
+      "turkish": "Baskı Plaka",
+      "ukrainian": "Слід протектора",
+      "vietnamese": "Tread Plate"
+    },
+    "name": "Tread Plate",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.2,
+      "min_float": 0.0
+    }
+  },
+  "id": "63-268",
+  "localized_names": {
+    "brazilian": "CZ75-Auto | Chapa de Metal",
+    "bulgarian": "CZ75-Auto | Защитна метална плоча",
+    "czech": "CZ75-Auto | Tread Plate",
+    "danish": "CZ75-Auto | Tread Plate",
+    "dutch": "CZ75-Auto | Tread Plate",
+    "english": "CZ75-Auto | Tread Plate",
+    "finnish": "CZ75-Auto | Teräskuvio",
+    "french": "CZ75-Auto | Plaque de roulement",
+    "german": "CZ75-Auto | Trittblech",
+    "greek": "CZ75-Auto | Tread Plate",
+    "hungarian": "CZ75-Auto | Csúszásgátló",
+    "indonesian": "CZ75-Auto | Tread Plate",
+    "italian": "CZ75-Auto | Tread Plate",
+    "japanese": "CZ75-Auto | Tread Plate",
+    "koreana": "CZ75 기관권총 | 트레드 플레이트",
+    "latam": "CZ75-Auto | Chapa diamantada",
+    "norwegian": "CZ75-Auto | Tread Plate",
+    "polish": "CZ75-Auto | Blacha łezkowa",
+    "portuguese": "CZ75-Auto | Tread Plate",
+    "romanian": "CZ75-Auto | Tread Plate",
+    "russian": "CZ75-Auto | Листовая сталь",
+    "schinese": "CZ75自动型 | 花纹钢板",
+    "schinese_pw": "CZ75-Auto | Tread Plate",
+    "spanish": "CZ75-Auto | Chapa diamantada",
+    "swedish": "CZ75-Auto | Tread Plate",
+    "tchinese": "CZ75-Auto | 花紋鋼板",
+    "thai": "CZ75-Auto | Tread Plate",
+    "turkish": "CZ75-Otomatik | Baskı Plaka",
+    "ukrainian": "ЧЗ-75 авто | Слід протектора",
+    "vietnamese": "CZ75-Auto | Tread Plate"
+  },
+  "media": {
+    "asset_id": "skin__63-268",
+    "images_png": [
+      "data/api/media/rendered/files/skins/63-268/light.png",
+      "data/api/media/rendered/files/skins/63-268/medium.png",
+      "data/api/media/rendered/files/skins/63-268/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/63-268.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/63-268/heavy.png",
+      "light": "data/api/media/rendered/files/skins/63-268/light.png",
+      "medium": "data/api/media/rendered/files/skins/63-268/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/63-268/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_cz75a_am_diamond_plate_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_cz75a_am_diamond_plate_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_cz75a_am_diamond_plate_medium_png.vtex_c"
+    }
+  },
+  "name": "CZ75-Auto | Tread Plate",
+  "search_slug": "cz75-auto-tread-plate",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4010",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 3",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_iii",
+        "name": "The Arms Deal 3 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "63-268__normal__factory-new",
+    "63-268__normal__field-tested",
+    "63-268__normal__minimal-wear",
+    "63-268__stattrak__factory-new",
+    "63-268__stattrak__field-tested",
+    "63-268__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 63,
+    "localized_names": {
+      "brazilian": "CZ75-Auto",
+      "bulgarian": "CZ75-Auto",
+      "czech": "CZ75-Auto",
+      "danish": "CZ75-Auto",
+      "dutch": "CZ75-Auto",
+      "english": "CZ75-Auto",
+      "finnish": "CZ75-Auto",
+      "french": "CZ75-Auto",
+      "german": "CZ75-Auto",
+      "greek": "CZ75-Auto",
+      "hungarian": "CZ75-Auto",
+      "indonesian": "CZ75-Auto",
+      "italian": "CZ75-Auto",
+      "japanese": "CZ75-Auto",
+      "koreana": "CZ75 기관권총",
+      "latam": "CZ75-Auto",
+      "norwegian": "CZ75-Auto",
+      "polish": "CZ75-Auto",
+      "portuguese": "CZ75-Auto",
+      "romanian": "CZ75-Auto",
+      "russian": "CZ75-Auto",
+      "schinese": "CZ75自动型",
+      "schinese_pw": "CZ75-Auto",
+      "spanish": "CZ75-Auto",
+      "swedish": "CZ75-Auto",
+      "tchinese": "CZ75-Auto",
+      "thai": "CZ75-Auto",
+      "turkish": "CZ75-Otomatik",
+      "ukrainian": "ЧЗ-75 авто",
+      "vietnamese": "CZ75-Auto"
+    },
+    "name": "CZ75-Auto",
+    "search_slug": "cz75-auto",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": 0.0
+  }
+}

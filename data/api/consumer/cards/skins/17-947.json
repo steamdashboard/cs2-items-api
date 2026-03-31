@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 947,
+    "id": 947,
+    "localized_names": {
+      "brazilian": "Discoteca",
+      "bulgarian": "Диско техника",
+      "czech": "Disco Tech",
+      "danish": "Disco Tech",
+      "dutch": "Disco Tech",
+      "english": "Disco Tech",
+      "finnish": "Diskonikkari",
+      "french": "Disco-tech",
+      "german": "Disco-Tech",
+      "greek": "Disco Tech",
+      "hungarian": "Diszkó-tech",
+      "indonesian": "Disco Tech",
+      "italian": "Disco Tech",
+      "japanese": "Disco Tech",
+      "koreana": "디스코 테크놀로지",
+      "latam": "Disco Tech",
+      "norwegian": "Disco Tech",
+      "polish": "Dyskotechnologia",
+      "portuguese": "Disco Tech",
+      "romanian": "Disco Tech",
+      "russian": "Дискотехника",
+      "schinese": "渐变迪斯科",
+      "schinese_pw": "Disco Tech",
+      "spanish": "Discotech",
+      "swedish": "Disco Tech",
+      "tchinese": "迪斯可",
+      "thai": "Disco Tech",
+      "turkish": "Disko Teknolojisi",
+      "ukrainian": "Диско-технології",
+      "vietnamese": "Disco Tech"
+    },
+    "name": "Disco Tech",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-947",
+  "localized_names": {
+    "brazilian": "MAC-10 | Discoteca",
+    "bulgarian": "MAC-10 | Диско техника",
+    "czech": "MAC-10 | Disco Tech",
+    "danish": "MAC-10 | Disco Tech",
+    "dutch": "MAC-10 | Disco Tech",
+    "english": "MAC-10 | Disco Tech",
+    "finnish": "MAC-10 | Diskonikkari",
+    "french": "MAC-10 | Disco-tech",
+    "german": "MAC-10 | Disco-Tech",
+    "greek": "MAC-10 | Disco Tech",
+    "hungarian": "MAC-10 | Diszkó-tech",
+    "indonesian": "MAC-10 | Disco Tech",
+    "italian": "MAC-10 | Disco Tech",
+    "japanese": "MAC-10 | Disco Tech",
+    "koreana": "MAC-10 | 디스코 테크놀로지",
+    "latam": "MAC-10 | Disco Tech",
+    "norwegian": "MAC-10 | Disco Tech",
+    "polish": "MAC-10 | Dyskotechnologia",
+    "portuguese": "MAC-10 | Disco Tech",
+    "romanian": "MAC-10 | Disco Tech",
+    "russian": "MAC-10 | Дискотехника",
+    "schinese": "MAC-10 | 渐变迪斯科",
+    "schinese_pw": "MAC-10 | Disco Tech",
+    "spanish": "MAC-10 | Discotech",
+    "swedish": "MAC-10 | Disco Tech",
+    "tchinese": "MAC-10 | 迪斯可",
+    "thai": "MAC-10 | Disco Tech",
+    "turkish": "MAC-10 | Disko Teknolojisi",
+    "ukrainian": "МАК-10 | Диско-технології",
+    "vietnamese": "MAC-10 | Disco Tech"
+  },
+  "media": {
+    "asset_id": "skin__17-947",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-947/light.png",
+      "data/api/media/rendered/files/skins/17-947/medium.png",
+      "data/api/media/rendered/files/skins/17-947/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-947.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-947/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-947/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-947/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-947/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_nacre_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_nacre_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_cu_mac10_nacre_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Disco Tech",
+  "search_slug": "mac-10-disco-tech",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4695",
+        "kind": "weapon-case",
+        "name": "Prisma 2 Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_25",
+        "name": "The Prisma 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-947__normal__battle-scarred",
+    "17-947__normal__factory-new",
+    "17-947__normal__field-tested",
+    "17-947__normal__minimal-wear",
+    "17-947__normal__well-worn",
+    "17-947__stattrak__battle-scarred",
+    "17-947__stattrak__factory-new",
+    "17-947__stattrak__field-tested",
+    "17-947__stattrak__minimal-wear",
+    "17-947__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

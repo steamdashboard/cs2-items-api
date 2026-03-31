@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 445,
+    "id": 445,
+    "localized_names": {
+      "brazilian": "Arma Esportiva",
+      "bulgarian": "Хот род",
+      "czech": "Hot Rod",
+      "danish": "Hot Rod",
+      "dutch": "Hot Rod",
+      "english": "Hot Rod",
+      "finnish": "Kuumakalle",
+      "french": "Hot rod",
+      "german": "Hot Rod",
+      "greek": "Hot Rod",
+      "hungarian": "Izzó Króm",
+      "indonesian": "Hot Rod",
+      "italian": "Hot Rod",
+      "japanese": "Hot Rod",
+      "koreana": "핫 로드",
+      "latam": "Hot rod",
+      "norwegian": "Hot Rod",
+      "polish": "Hot rod",
+      "portuguese": "Hot Rod",
+      "romanian": "Hot Rod",
+      "russian": "Хот-род",
+      "schinese": "赤红新星",
+      "schinese_pw": "Hot Rod",
+      "spanish": "Hot rod",
+      "swedish": "Hot Rod",
+      "tchinese": "赤熱紅焰",
+      "thai": "Hot Rod",
+      "turkish": "Sıcak Güç",
+      "ukrainian": "Хот-род",
+      "vietnamese": "Hot Rod"
+    },
+    "name": "Hot Rod",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "60-445",
+  "localized_names": {
+    "brazilian": "M4A1-S | Arma Esportiva",
+    "bulgarian": "M4A1-S | Хот род",
+    "czech": "M4A1-S | Hot Rod",
+    "danish": "M4A1-S | Hot Rod",
+    "dutch": "M4A1-S | Hot Rod",
+    "english": "M4A1-S | Hot Rod",
+    "finnish": "M4A1-S | Kuumakalle",
+    "french": "M4A1-S | Hot rod",
+    "german": "M4A1-S | Hot Rod",
+    "greek": "M4A1-S | Hot Rod",
+    "hungarian": "M4A1-S | Izzó Króm",
+    "indonesian": "M4A1-S | Hot Rod",
+    "italian": "M4A1-S | Hot Rod",
+    "japanese": "M4A1-S | Hot Rod",
+    "koreana": "M4A1-S | 핫 로드",
+    "latam": "M4A1-S | Hot rod",
+    "norwegian": "M4A1-S | Hot Rod",
+    "polish": "M4A1-S | Hot rod",
+    "portuguese": "M4A1-S | Hot Rod",
+    "romanian": "M4A1-S | Hot Rod",
+    "russian": "M4A1-S | Хот-род",
+    "schinese": "M4A1消音版 | 赤红新星",
+    "schinese_pw": "M4A1-S | Hot Rod",
+    "spanish": "M4A1-S | Hot rod",
+    "swedish": "M4A1-S | Hot Rod",
+    "tchinese": "M4A1-S | 赤熱紅焰",
+    "thai": "M4A1-S | Hot Rod",
+    "turkish": "M4A1-S | Sıcak Güç",
+    "ukrainian": "М4А1-С | Хот-род",
+    "vietnamese": "M4A1-S | Hot Rod"
+  },
+  "media": {
+    "asset_id": "skin__60-445",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-445/light.png",
+      "data/api/media/rendered/files/skins/60-445/medium.png",
+      "data/api/media/rendered/files/skins/60-445/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-445.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-445/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-445/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-445/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-445/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_an_red_m4a1s_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_an_red_m4a1s_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_an_red_m4a1s_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Hot Rod",
+  "search_slug": "m4a1-s-hot-rod",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_chopshop",
+        "name": "The Chop Shop Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4605",
+        "kind": "container",
+        "name": "The Chop Shop Collection",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-445__normal__factory-new",
+    "60-445__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

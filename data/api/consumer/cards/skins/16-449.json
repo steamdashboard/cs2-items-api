@@ -1,0 +1,200 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 449,
+    "id": 449,
+    "localized_names": {
+      "brazilian": "Poseidon",
+      "bulgarian": "Посейдон",
+      "czech": "Poseidon",
+      "danish": "Poseidon",
+      "dutch": "Poseidon",
+      "english": "Poseidon",
+      "finnish": "Poseidon",
+      "french": "Poséidon",
+      "german": "Poseidon",
+      "greek": "Poseidon",
+      "hungarian": "Poszeidón",
+      "indonesian": "Poseidon",
+      "italian": "Poseidon",
+      "japanese": "ポセイドン",
+      "koreana": "포세이돈",
+      "latam": "Poseidón",
+      "norwegian": "Poseidon",
+      "polish": "Posejdon",
+      "portuguese": "Poseidon",
+      "romanian": "Poseidon",
+      "russian": "Посейдон",
+      "schinese": "波塞冬",
+      "schinese_pw": "Poseidon",
+      "spanish": "Poseidón",
+      "swedish": "Poseidon",
+      "tchinese": "波賽頓",
+      "thai": "Poseidon",
+      "turkish": "Poseydon",
+      "ukrainian": "Посейдон",
+      "vietnamese": "Poseidon"
+    },
+    "name": "Poseidon",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.33,
+      "min_float": 0.0
+    }
+  },
+  "id": "16-449",
+  "localized_names": {
+    "brazilian": "M4A4 | Poseidon",
+    "bulgarian": "M4A4 | Посейдон",
+    "czech": "M4A4 | Poseidon",
+    "danish": "M4A4 | Poseidon",
+    "dutch": "M4A4 | Poseidon",
+    "english": "M4A4 | Poseidon",
+    "finnish": "M4A4 | Poseidon",
+    "french": "M4A4 | Poséidon",
+    "german": "M4A4 | Poseidon",
+    "greek": "M4A4 | Poseidon",
+    "hungarian": "M4A4 | Poszeidón",
+    "indonesian": "M4A4 | Poseidon",
+    "italian": "M4A4 | Poseidon",
+    "japanese": "M4A4 | ポセイドン",
+    "koreana": "M4A4 | 포세이돈",
+    "latam": "M4A4 | Poseidón",
+    "norwegian": "M4A4 | Poseidon",
+    "polish": "M4A4 | Posejdon",
+    "portuguese": "M4A4 | Poseidon",
+    "romanian": "M4A4 | Poseidon",
+    "russian": "M4A4 | Посейдон",
+    "schinese": "M4A4 | 波塞冬",
+    "schinese_pw": "M4A4 | Poseidon",
+    "spanish": "M4A4 | Poseidón",
+    "swedish": "M4A4 | Poseidon",
+    "tchinese": "M4A4 | 波賽頓",
+    "thai": "M4A4 | Poseidon",
+    "turkish": "M4A4 | Poseydon",
+    "ukrainian": "М4А4 | Посейдон",
+    "vietnamese": "M4A4 | Poseidon"
+  },
+  "media": {
+    "asset_id": "skin__16-449",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-449/light.png",
+      "data/api/media/rendered/files/skins/16-449/medium.png",
+      "data/api/media/rendered/files/skins/16-449/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-449.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-449/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-449/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-449/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-449/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_cu_poseidon_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_cu_poseidon_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_cu_poseidon_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Poseidon",
+  "search_slug": "m4a4-poseidon",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_gods_and_monsters",
+        "name": "The Gods and Monsters Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4604",
+        "kind": "container",
+        "name": "The Gods and Monsters Collection",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "16-449__normal__factory-new",
+    "16-449__normal__field-tested",
+    "16-449__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.33,
+    "min_float": 0.0
+  }
+}

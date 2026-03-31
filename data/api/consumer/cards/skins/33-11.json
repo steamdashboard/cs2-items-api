@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 11,
+    "id": 11,
+    "localized_names": {
+      "brazilian": "Crânios",
+      "bulgarian": "Черепи",
+      "czech": "Skulls",
+      "danish": "Skulls",
+      "dutch": "Skulls",
+      "english": "Skulls",
+      "finnish": "Kallot",
+      "french": "Crânes",
+      "german": "Totenschädel",
+      "greek": "Skulls",
+      "hungarian": "Koponyák",
+      "indonesian": "Skulls",
+      "italian": "Skulls",
+      "japanese": "Skulls",
+      "koreana": "해골",
+      "latam": "Calaveras",
+      "norwegian": "Skulls",
+      "polish": "Czaszki",
+      "portuguese": "Skulls",
+      "romanian": "Skulls",
+      "russian": "Черепа",
+      "schinese": "死亡骷髅",
+      "schinese_pw": "Skulls",
+      "spanish": "Calaveras",
+      "swedish": "Skulls",
+      "tchinese": "亡命骷髏",
+      "thai": "Skulls",
+      "turkish": "Kafatasları",
+      "ukrainian": "Черепи",
+      "vietnamese": "Skulls"
+    },
+    "name": "Skulls",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.26,
+      "min_float": 0.1
+    }
+  },
+  "id": "33-11",
+  "localized_names": {
+    "brazilian": "MP7 | Crânios",
+    "bulgarian": "MP7 | Черепи",
+    "czech": "MP7 | Skulls",
+    "danish": "MP7 | Skulls",
+    "dutch": "MP7 | Skulls",
+    "english": "MP7 | Skulls",
+    "finnish": "MP7 | Kallot",
+    "french": "MP7 | Crânes",
+    "german": "MP7 | Totenschädel",
+    "greek": "MP7 | Skulls",
+    "hungarian": "MP7 | Koponyák",
+    "indonesian": "MP7 | Skulls",
+    "italian": "MP7 | Skulls",
+    "japanese": "MP7 | Skulls",
+    "koreana": "MP7 | 해골",
+    "latam": "MP7 | Calaveras",
+    "norwegian": "MP7 | Skulls",
+    "polish": "MP7 | Czaszki",
+    "portuguese": "MP7 | Skulls",
+    "romanian": "MP7 | Skulls",
+    "russian": "MP7 | Черепа",
+    "schinese": "MP7 | 死亡骷髅",
+    "schinese_pw": "MP7 | Skulls",
+    "spanish": "MP7 | Calaveras",
+    "swedish": "MP7 | Skulls",
+    "tchinese": "MP7 | 亡命骷髏",
+    "thai": "MP7 | Skulls",
+    "turkish": "MP7 | Kafatasları",
+    "ukrainian": "МП7 | Черепи",
+    "vietnamese": "MP7 | Skulls"
+  },
+  "media": {
+    "asset_id": "skin__33-11",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-11/light.png",
+      "data/api/media/rendered/files/skins/33-11/medium.png",
+      "data/api/media/rendered/files/skins/33-11/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-11.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-11/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-11/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-11/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-11/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_hy_skulls_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_hy_skulls_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_hy_skulls_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Skulls",
+  "search_slug": "mp7-skulls",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-11__normal__field-tested",
+    "33-11__normal__minimal-wear",
+    "33-11__stattrak__field-tested",
+    "33-11__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.26,
+    "min_float": 0.1
+  }
+}

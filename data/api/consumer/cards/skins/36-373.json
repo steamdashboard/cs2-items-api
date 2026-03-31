@@ -1,0 +1,306 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 373,
+    "id": 373,
+    "localized_names": {
+      "brazilian": "Contaminação",
+      "bulgarian": "Заразяване",
+      "czech": "Contamination",
+      "danish": "Contamination",
+      "dutch": "Contamination",
+      "english": "Contamination",
+      "finnish": "Saastunut",
+      "french": "Contamination",
+      "german": "Kontamination",
+      "greek": "Contamination",
+      "hungarian": "Szennyeződés",
+      "indonesian": "Contamination",
+      "italian": "Contamination",
+      "japanese": "Contamination",
+      "koreana": "오염",
+      "latam": "Contaminación",
+      "norwegian": "Contamination",
+      "polish": "Skażenie",
+      "portuguese": "Contamination",
+      "romanian": "Contamination",
+      "russian": "Заражение",
+      "schinese": "核子污染",
+      "schinese_pw": "Contamination",
+      "spanish": "Contaminación",
+      "swedish": "Contamination",
+      "tchinese": "污染",
+      "thai": "Contamination",
+      "turkish": "Kirlilik",
+      "ukrainian": "Забруднення",
+      "vietnamese": "Contamination"
+    },
+    "name": "Contamination",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.83,
+      "min_float": 0.0
+    }
+  },
+  "id": "36-373",
+  "localized_names": {
+    "brazilian": "P250 | Contaminação",
+    "bulgarian": "P250 | Заразяване",
+    "czech": "P250 | Contamination",
+    "danish": "P250 | Contamination",
+    "dutch": "P250 | Contamination",
+    "english": "P250 | Contamination",
+    "finnish": "P250 | Saastunut",
+    "french": "P250 | Contamination",
+    "german": "P250 | Kontamination",
+    "greek": "P250 | Contamination",
+    "hungarian": "P250 | Szennyeződés",
+    "indonesian": "P250 | Contamination",
+    "italian": "P250 | Contamination",
+    "japanese": "P250 | Contamination",
+    "koreana": "P250 | 오염",
+    "latam": "P250 | Contaminación",
+    "norwegian": "P250 | Contamination",
+    "polish": "P250 | Skażenie",
+    "portuguese": "P250 | Contamination",
+    "romanian": "P250 | Contamination",
+    "russian": "P250 | Заражение",
+    "schinese": "P250 | 核子污染",
+    "schinese_pw": "P250 | Contamination",
+    "spanish": "P250 | Contaminación",
+    "swedish": "P250 | Contamination",
+    "tchinese": "P250 | 污染",
+    "thai": "P250 | Contamination",
+    "turkish": "P250 | Kirlilik",
+    "ukrainian": "П250 | Забруднення",
+    "vietnamese": "P250 | Contamination"
+  },
+  "media": {
+    "asset_id": "skin__36-373",
+    "images_png": [
+      "data/api/media/rendered/files/skins/36-373/light.png",
+      "data/api/media/rendered/files/skins/36-373/medium.png",
+      "data/api/media/rendered/files/skins/36-373/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/36-373.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/36-373/heavy.png",
+      "light": "data/api/media/rendered/files/skins/36-373/light.png",
+      "medium": "data/api/media/rendered/files/skins/36-373/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/36-373/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p250_hy_nuclear_skulls4_p250_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p250_hy_nuclear_skulls4_p250_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p250_hy_nuclear_skulls4_p250_medium_png.vtex_c"
+    }
+  },
+  "name": "P250 | Contamination",
+  "search_slug": "p250-contamination",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cache",
+        "name": "The Cache Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4603",
+        "kind": "container",
+        "name": "The Cache Collection",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4026",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4035",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4083",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4136",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4181",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4230",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4278",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4348",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4400",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4467",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4544",
+        "kind": "souvenir-package",
+        "name": "London 2018 Cache Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4594",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Cache Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "36-373__normal__battle-scarred",
+    "36-373__normal__factory-new",
+    "36-373__normal__field-tested",
+    "36-373__normal__minimal-wear",
+    "36-373__normal__well-worn",
+    "36-373__souvenir__battle-scarred",
+    "36-373__souvenir__factory-new",
+    "36-373__souvenir__field-tested",
+    "36-373__souvenir__minimal-wear",
+    "36-373__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 36,
+    "localized_names": {
+      "brazilian": "P250",
+      "bulgarian": "P250",
+      "czech": "P250",
+      "danish": "P250",
+      "dutch": "P250",
+      "english": "P250",
+      "finnish": "P250",
+      "french": "P250",
+      "german": "P250",
+      "greek": "P250",
+      "hungarian": "P250",
+      "indonesian": "P250",
+      "italian": "P250",
+      "japanese": "P250",
+      "koreana": "P250",
+      "latam": "P250",
+      "norwegian": "P250",
+      "polish": "P250",
+      "portuguese": "P250",
+      "romanian": "P250",
+      "russian": "P250",
+      "schinese": "P250",
+      "schinese_pw": "P250",
+      "spanish": "P250",
+      "swedish": "P250",
+      "tchinese": "P250",
+      "thai": "P250",
+      "turkish": "P250",
+      "ukrainian": "П250",
+      "vietnamese": "P250"
+    },
+    "name": "P250",
+    "search_slug": "p250",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.83,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 719,
+    "id": 719,
+    "localized_names": {
+      "brazilian": "Núcleo Energético",
+      "bulgarian": "Захранващо ядро",
+      "czech": "Powercore",
+      "danish": "Powercore",
+      "dutch": "Powercore",
+      "english": "Powercore",
+      "finnish": "Voimaydin",
+      "french": "Transformateur électrique",
+      "german": "Powercore",
+      "greek": "Powercore",
+      "hungarian": "Akksi",
+      "indonesian": "Powercore",
+      "italian": "Powercore",
+      "japanese": "Powercore",
+      "koreana": "파워코어",
+      "latam": "Núcleo de energía",
+      "norwegian": "Powercore",
+      "polish": "Rdzeń mocy",
+      "portuguese": "Powercore",
+      "romanian": "Powercore",
+      "russian": "Генератор",
+      "schinese": "权力之心",
+      "schinese_pw": "Powercore",
+      "spanish": "Núcleo de energía",
+      "swedish": "Powercore",
+      "tchinese": "動力核心",
+      "thai": "Powercore",
+      "turkish": "Güç Çekirdeği",
+      "ukrainian": "Енергогенератор",
+      "vietnamese": "Powercore"
+    },
+    "name": "Powercore",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.8,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-719",
+  "localized_names": {
+    "brazilian": "MP7 | Núcleo Energético",
+    "bulgarian": "MP7 | Захранващо ядро",
+    "czech": "MP7 | Powercore",
+    "danish": "MP7 | Powercore",
+    "dutch": "MP7 | Powercore",
+    "english": "MP7 | Powercore",
+    "finnish": "MP7 | Voimaydin",
+    "french": "MP7 | Transformateur électrique",
+    "german": "MP7 | Powercore",
+    "greek": "MP7 | Powercore",
+    "hungarian": "MP7 | Akksi",
+    "indonesian": "MP7 | Powercore",
+    "italian": "MP7 | Powercore",
+    "japanese": "MP7 | Powercore",
+    "koreana": "MP7 | 파워코어",
+    "latam": "MP7 | Núcleo de energía",
+    "norwegian": "MP7 | Powercore",
+    "polish": "MP7 | Rdzeń mocy",
+    "portuguese": "MP7 | Powercore",
+    "romanian": "MP7 | Powercore",
+    "russian": "MP7 | Генератор",
+    "schinese": "MP7 | 权力之心",
+    "schinese_pw": "MP7 | Powercore",
+    "spanish": "MP7 | Núcleo de energía",
+    "swedish": "MP7 | Powercore",
+    "tchinese": "MP7 | 動力核心",
+    "thai": "MP7 | Powercore",
+    "turkish": "MP7 | Güç Çekirdeği",
+    "ukrainian": "МП7 | Енергогенератор",
+    "vietnamese": "MP7 | Powercore"
+  },
+  "media": {
+    "asset_id": "skin__33-719",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-719/light.png",
+      "data/api/media/rendered/files/skins/33-719/medium.png",
+      "data/api/media/rendered/files/skins/33-719/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-719.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-719/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-719/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-719/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-719/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_gs_powercore_mp7_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_gs_powercore_mp7_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_gs_powercore_mp7_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Powercore",
+  "search_slug": "mp7-powercore",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4482",
+        "kind": "weapon-case",
+        "name": "Horizon Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_20",
+        "name": "The Horizon Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-719__normal__battle-scarred",
+    "33-719__normal__factory-new",
+    "33-719__normal__field-tested",
+    "33-719__normal__minimal-wear",
+    "33-719__normal__well-worn",
+    "33-719__stattrak__battle-scarred",
+    "33-719__stattrak__factory-new",
+    "33-719__stattrak__field-tested",
+    "33-719__stattrak__minimal-wear",
+    "33-719__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

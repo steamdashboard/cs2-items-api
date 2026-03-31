@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "sp_mp7_impire",
+    "id": 536,
+    "name": "Impire",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 536,
+    "weapon_id": 33
+  },
+  "id": "33-536",
+  "name": "MP7 | Impire",
+  "search_slug": "mp7-impire",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_11",
+        "name": "The Wildfire Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4187",
+        "kind": "weapon-case",
+        "name": "Operation Wildfire Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "33-536__normal__factory-new",
+    "33-536__normal__minimal-wear",
+    "33-536__normal__field-tested",
+    "33-536__normal__well-worn",
+    "33-536__stattrak__factory-new",
+    "33-536__stattrak__minimal-wear",
+    "33-536__stattrak__field-tested",
+    "33-536__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_mp7",
+    "id": 33,
+    "name": "MP7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

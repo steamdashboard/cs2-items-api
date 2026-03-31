@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1436,
+    "id": 1436,
+    "localized_names": {
+      "brazilian": "Linhâmbar",
+      "bulgarian": "Кехлибарената линия",
+      "czech": "Amberline",
+      "danish": "Amberline",
+      "dutch": "Amberline",
+      "english": "Amberline",
+      "finnish": "Kullan kajo",
+      "french": "Lueur ambrée",
+      "german": "Bernsteineinschluss",
+      "greek": "Amberline",
+      "hungarian": "Amberline",
+      "indonesian": "Amberline",
+      "italian": "Amberline",
+      "japanese": "Amberline",
+      "koreana": "엠버라인",
+      "latam": "Línea Ámbar",
+      "norwegian": "Amberline",
+      "polish": "Bursztynowa linia",
+      "portuguese": "Amberline",
+      "romanian": "Amberline",
+      "russian": "Янтарная линия",
+      "schinese": "琥珀流光",
+      "schinese_pw": "Amberline",
+      "spanish": "Línea ámbar",
+      "swedish": "Amberline",
+      "tchinese": "琥珀線",
+      "thai": "Amberline",
+      "turkish": "Çizik Amber",
+      "ukrainian": "Смугастий бурштин",
+      "vietnamese": "Amberline"
+    },
+    "name": "Amberline",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-1436",
+  "localized_names": {
+    "brazilian": "MP7 | Linhâmbar",
+    "bulgarian": "MP7 | Кехлибарената линия",
+    "czech": "MP7 | Amberline",
+    "danish": "MP7 | Amberline",
+    "dutch": "MP7 | Amberline",
+    "english": "MP7 | Amberline",
+    "finnish": "MP7 | Kullan kajo",
+    "french": "MP7 | Lueur ambrée",
+    "german": "MP7 | Bernsteineinschluss",
+    "greek": "MP7 | Amberline",
+    "hungarian": "MP7 | Amberline",
+    "indonesian": "MP7 | Amberline",
+    "italian": "MP7 | Amberline",
+    "japanese": "MP7 | Amberline",
+    "koreana": "MP7 | 엠버라인",
+    "latam": "MP7 | Línea Ámbar",
+    "norwegian": "MP7 | Amberline",
+    "polish": "MP7 | Bursztynowa linia",
+    "portuguese": "MP7 | Amberline",
+    "romanian": "MP7 | Amberline",
+    "russian": "MP7 | Янтарная линия",
+    "schinese": "MP7 | 琥珀流光",
+    "schinese_pw": "MP7 | Amberline",
+    "spanish": "MP7 | Línea ámbar",
+    "swedish": "MP7 | Amberline",
+    "tchinese": "MP7 | 琥珀線",
+    "thai": "MP7 | Amberline",
+    "turkish": "MP7 | Çizik Amber",
+    "ukrainian": "МП7 | Смугастий бурштин",
+    "vietnamese": "MP7 | Amberline"
+  },
+  "media": {
+    "asset_id": "skin__33-1436",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-1436/light.png",
+      "data/api/media/rendered/files/skins/33-1436/medium.png",
+      "data/api/media/rendered/files/skins/33-1436/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-1436.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-1436/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-1436/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-1436/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-1436/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_mp7_amberline_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_mp7_amberline_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_mp7_amberline_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Amberline",
+  "search_slug": "mp7-amberline",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_community_37",
+        "name": "The Dead Hand Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5181",
+        "kind": "container",
+        "name": "Sealed Dead Hand Terminal",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-1436__normal__battle-scarred",
+    "33-1436__normal__factory-new",
+    "33-1436__normal__field-tested",
+    "33-1436__normal__minimal-wear",
+    "33-1436__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 44,
+    "id": 44,
+    "localized_names": {
+      "brazilian": "Aquecimento de Aço",
+      "bulgarian": "Закалено",
+      "czech": "Case Hardened",
+      "danish": "Case Hardened",
+      "dutch": "Case Hardened",
+      "english": "Case Hardened",
+      "finnish": "Hiiletyskarkaistu",
+      "french": "Cémenté",
+      "german": "Einsatzgehärtet",
+      "greek": "Case Hardened",
+      "hungarian": "Edzett",
+      "indonesian": "Case Hardened",
+      "italian": "Case Hardened",
+      "japanese": "Case Hardened",
+      "koreana": "표면 경화",
+      "latam": "Acero templado",
+      "norwegian": "Case Hardened",
+      "polish": "Stal nawęglana",
+      "portuguese": "Case Hardened",
+      "romanian": "Case Hardened",
+      "russian": "Поверхностная закалка",
+      "schinese": "表面淬火",
+      "schinese_pw": "Case Hardened",
+      "spanish": "Acero templado",
+      "swedish": "Case Hardened",
+      "tchinese": "外殼硬化",
+      "thai": "Case Hardened",
+      "turkish": "Sertleştirilmiş Kasa",
+      "ukrainian": "Поверхневий гарт",
+      "vietnamese": "Case Hardened"
+    },
+    "name": "Case Hardened",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "7-44",
+  "localized_names": {
+    "brazilian": "AK-47 | Aquecimento de Aço",
+    "bulgarian": "AK-47 | Закалено",
+    "czech": "AK-47 | Case Hardened",
+    "danish": "AK-47 | Case Hardened",
+    "dutch": "AK-47 | Case Hardened",
+    "english": "AK-47 | Case Hardened",
+    "finnish": "AK-47 | Hiiletyskarkaistu",
+    "french": "AK-47 | Cémenté",
+    "german": "AK-47 | Einsatzgehärtet",
+    "greek": "AK-47 | Case Hardened",
+    "hungarian": "AK-47 | Edzett",
+    "indonesian": "AK-47 | Case Hardened",
+    "italian": "AK-47 | Case Hardened",
+    "japanese": "AK-47 | Case Hardened",
+    "koreana": "AK-47 | 표면 경화",
+    "latam": "AK-47 | Acero templado",
+    "norwegian": "AK-47 | Case Hardened",
+    "polish": "AK-47 | Stal nawęglana",
+    "portuguese": "AK-47 | Case Hardened",
+    "romanian": "AK-47 | Case Hardened",
+    "russian": "AK-47 | Поверхностная закалка",
+    "schinese": "AK-47 | 表面淬火",
+    "schinese_pw": "AK-47 | Case Hardened",
+    "spanish": "AK-47 | Acero templado",
+    "swedish": "AK-47 | Case Hardened",
+    "tchinese": "AK-47 | 外殼硬化",
+    "thai": "AK-47 | Case Hardened",
+    "turkish": "AK-47 | Sertleştirilmiş Kasa",
+    "ukrainian": "АК-47 | Поверхневий гарт",
+    "vietnamese": "AK-47 | Case Hardened"
+  },
+  "media": {
+    "asset_id": "skin__7-44",
+    "images_png": [
+      "data/api/media/rendered/files/skins/7-44/light.png",
+      "data/api/media/rendered/files/skins/7-44/medium.png",
+      "data/api/media/rendered/files/skins/7-44/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/7-44.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/7-44/heavy.png",
+      "light": "data/api/media/rendered/files/skins/7-44/light.png",
+      "medium": "data/api/media/rendered/files/skins/7-44/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/7-44/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ak47_aq_oiled_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ak47_aq_oiled_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ak47_aq_oiled_medium_png.vtex_c"
+    }
+  },
+  "name": "AK-47 | Case Hardened",
+  "search_slug": "ak-47-case-hardened",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4001",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_weapons_i",
+        "name": "The Arms Deal Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "7-44__normal__battle-scarred",
+    "7-44__normal__factory-new",
+    "7-44__normal__field-tested",
+    "7-44__normal__minimal-wear",
+    "7-44__normal__well-worn",
+    "7-44__stattrak__battle-scarred",
+    "7-44__stattrak__factory-new",
+    "7-44__stattrak__field-tested",
+    "7-44__stattrak__minimal-wear",
+    "7-44__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 7,
+    "localized_names": {
+      "brazilian": "AK-47",
+      "bulgarian": "AK-47",
+      "czech": "AK-47",
+      "danish": "AK-47",
+      "dutch": "AK-47",
+      "english": "AK-47",
+      "finnish": "AK-47",
+      "french": "AK-47",
+      "german": "AK-47",
+      "greek": "AK-47",
+      "hungarian": "AK-47",
+      "indonesian": "AK-47",
+      "italian": "AK-47",
+      "japanese": "AK-47",
+      "koreana": "AK-47",
+      "latam": "AK-47",
+      "norwegian": "AK-47",
+      "polish": "AK-47",
+      "portuguese": "AK-47",
+      "romanian": "AK-47",
+      "russian": "AK-47",
+      "schinese": "AK-47",
+      "schinese_pw": "AK-47",
+      "spanish": "AK-47",
+      "swedish": "AK-47",
+      "tchinese": "AK-47",
+      "thai": "AK-47",
+      "turkish": "AK-47",
+      "ukrainian": "АК-47",
+      "vietnamese": "AK-47"
+    },
+    "name": "AK-47",
+    "search_slug": "ak-47",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

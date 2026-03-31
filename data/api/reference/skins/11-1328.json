@@ -1,0 +1,84 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "soo_g3sg1_tomato",
+    "id": 1328,
+    "name": "Red Jasper",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 1328,
+    "weapon_id": 11
+  },
+  "id": "11-1328",
+  "name": "G3SG1 | Red Jasper",
+  "search_slug": "g3sg1-red-jasper",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_timed_drops_warm",
+        "name": "The Radiant Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "11-1328__normal__factory-new",
+    "11-1328__normal__minimal-wear",
+    "11-1328__normal__field-tested",
+    "11-1328__normal__well-worn",
+    "11-1328__normal__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_g3sg1",
+    "id": 11,
+    "name": "G3SG1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.637288,
+    "min_float": 0.0
+  }
+}

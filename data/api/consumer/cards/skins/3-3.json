@@ -1,0 +1,192 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 3,
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Maçã do Amor",
+      "bulgarian": "Захаросана ябълка",
+      "czech": "Candy Apple",
+      "danish": "Candy Apple",
+      "dutch": "Candy Apple",
+      "english": "Candy Apple",
+      "finnish": "Karamelliomena",
+      "french": "Pomme d'amour",
+      "german": "Kandierter Apfel",
+      "greek": "Candy Apple",
+      "hungarian": "Candy Apple",
+      "indonesian": "Candy Apple",
+      "italian": "Candy Apple",
+      "japanese": "Candy Apple",
+      "koreana": "사과 사탕",
+      "latam": "Manzana caramelizada",
+      "norwegian": "Candy Apple",
+      "polish": "Jabłko kandyzowane",
+      "portuguese": "Candy Apple",
+      "romanian": "Candy Apple",
+      "russian": "Карамельное яблоко",
+      "schinese": "红苹果",
+      "schinese_pw": "Candy Apple",
+      "spanish": "Manzana de caramelo",
+      "swedish": "Candy Apple",
+      "tchinese": "蜜糖紅蘋",
+      "thai": "Candy Apple",
+      "turkish": "Elma Şekeri",
+      "ukrainian": "Карамельне яблуко",
+      "vietnamese": "Candy Apple"
+    },
+    "name": "Candy Apple",
+    "rarity_ref": null,
+    "style_code": 1,
+    "style_name": "Solid Color",
+    "wear": {
+      "max_float": 0.3,
+      "min_float": 0.0
+    }
+  },
+  "id": "3-3",
+  "localized_names": {
+    "brazilian": "Five-SeveN | Maçã do Amor",
+    "bulgarian": "Five-SeveN | Захаросана ябълка",
+    "czech": "Five-SeveN | Candy Apple",
+    "danish": "Five-SeveN | Candy Apple",
+    "dutch": "Five-SeveN | Candy Apple",
+    "english": "Five-SeveN | Candy Apple",
+    "finnish": "Five-SeveN | Karamelliomena",
+    "french": "Five-SeveN | Pomme d'amour",
+    "german": "Five-SeveN | Kandierter Apfel",
+    "greek": "Five-SeveN | Candy Apple",
+    "hungarian": "Five-SeveN | Candy Apple",
+    "indonesian": "Five-SeveN | Candy Apple",
+    "italian": "Five-SeveN | Candy Apple",
+    "japanese": "Five-SeveN | Candy Apple",
+    "koreana": "파이브 세븐 | 사과 사탕",
+    "latam": "Five-SeveN | Manzana caramelizada",
+    "norwegian": "Five-SeveN | Candy Apple",
+    "polish": "Five-SeveN | Jabłko kandyzowane",
+    "portuguese": "Five-SeveN | Candy Apple",
+    "romanian": "Five-SeveN | Candy Apple",
+    "russian": "Five-SeveN | Карамельное яблоко",
+    "schinese": "FN57 | 红苹果",
+    "schinese_pw": "Five-SeveN | Candy Apple",
+    "spanish": "Five-seveN | Manzana de caramelo",
+    "swedish": "Five-SeveN | Candy Apple",
+    "tchinese": "Five-SeveN | 蜜糖紅蘋",
+    "thai": "Five-SeveN | Candy Apple",
+    "turkish": "Five-SeveN | Elma Şekeri",
+    "ukrainian": "Five-seveN | Карамельне яблуко",
+    "vietnamese": "Five-SeveN | Candy Apple"
+  },
+  "media": {
+    "asset_id": "skin__3-3",
+    "images_png": [
+      "data/api/media/rendered/files/skins/3-3/light.png",
+      "data/api/media/rendered/files/skins/3-3/medium.png",
+      "data/api/media/rendered/files/skins/3-3/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/3-3.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/3-3/heavy.png",
+      "light": "data/api/media/rendered/files/skins/3-3/light.png",
+      "medium": "data/api/media/rendered/files/skins/3-3/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/3-3/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_fiveseven_so_red_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_fiveseven_so_red_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_fiveseven_so_red_medium_png.vtex_c"
+    }
+  },
+  "name": "Five-SeveN | Candy Apple",
+  "search_slug": "five-seven-candy-apple",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_assault",
+        "name": "The Assault Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "3-3__normal__factory-new",
+    "3-3__normal__field-tested",
+    "3-3__normal__minimal-wear"
+  ],
+  "weapon": {
+    "id": 3,
+    "localized_names": {
+      "brazilian": "Five-SeveN",
+      "bulgarian": "Five-SeveN",
+      "czech": "Five-SeveN",
+      "danish": "Five-SeveN",
+      "dutch": "Five-SeveN",
+      "english": "Five-SeveN",
+      "finnish": "Five-SeveN",
+      "french": "Five-SeveN",
+      "german": "Five-SeveN",
+      "greek": "Five-SeveN",
+      "hungarian": "Five-SeveN",
+      "indonesian": "Five-SeveN",
+      "italian": "Five-SeveN",
+      "japanese": "Five-SeveN",
+      "koreana": "파이브 세븐",
+      "latam": "Five-SeveN",
+      "norwegian": "Five-SeveN",
+      "polish": "Five-SeveN",
+      "portuguese": "Five-SeveN",
+      "romanian": "Five-SeveN",
+      "russian": "Five-SeveN",
+      "schinese": "FN57",
+      "schinese_pw": "Five-SeveN",
+      "spanish": "Five-seveN",
+      "swedish": "Five-SeveN",
+      "tchinese": "Five-SeveN",
+      "thai": "Five-SeveN",
+      "turkish": "Five-SeveN",
+      "ukrainian": "Five-seveN",
+      "vietnamese": "Five-SeveN"
+    },
+    "name": "Five-SeveN",
+    "search_slug": "five-seven",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": 0.0
+  }
+}

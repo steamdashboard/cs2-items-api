@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1148,
+    "id": 1148,
+    "localized_names": {
+      "brazilian": "Centro da Cidade",
+      "bulgarian": "В центъра на града",
+      "czech": "Downtown",
+      "danish": "Downtown",
+      "dutch": "Downtown",
+      "english": "Downtown",
+      "finnish": "Downtown",
+      "french": "La zone",
+      "german": "Innenstadt",
+      "greek": "Downtown",
+      "hungarian": "Belváros",
+      "indonesian": "Downtown",
+      "italian": "Downtown",
+      "japanese": "Downtown",
+      "koreana": "다운타운",
+      "latam": "Downtown",
+      "norwegian": "Downtown",
+      "polish": "Śródmieście",
+      "portuguese": "Downtown",
+      "romanian": "Downtown",
+      "russian": "Деловой центр",
+      "schinese": "闹市区",
+      "schinese_pw": "Downtown",
+      "spanish": "Centro urbano",
+      "swedish": "Downtown",
+      "tchinese": "繁忙市中心",
+      "thai": "Downtown",
+      "turkish": "Downtown",
+      "ukrainian": "Діловий центр",
+      "vietnamese": "Downtown"
+    },
+    "name": "Downtown",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.0
+    }
+  },
+  "id": "14-1148",
+  "localized_names": {
+    "brazilian": "M249 | Centro da Cidade",
+    "bulgarian": "M249 | В центъра на града",
+    "czech": "M249 | Downtown",
+    "danish": "M249 | Downtown",
+    "dutch": "M249 | Downtown",
+    "english": "M249 | Downtown",
+    "finnish": "M249 | Downtown",
+    "french": "M249 | La zone",
+    "german": "M249 | Innenstadt",
+    "greek": "M249 | Downtown",
+    "hungarian": "M249 | Belváros",
+    "indonesian": "M249 | Downtown",
+    "italian": "M249 | Downtown",
+    "japanese": "M249 | Downtown",
+    "koreana": "M249 | 다운타운",
+    "latam": "M249 | Downtown",
+    "norwegian": "M249 | Downtown",
+    "polish": "M249 | Śródmieście",
+    "portuguese": "M249 | Downtown",
+    "romanian": "M249 | Downtown",
+    "russian": "M249 | Деловой центр",
+    "schinese": "M249 | 闹市区",
+    "schinese_pw": "M249 | Downtown",
+    "spanish": "M249 | Centro urbano",
+    "swedish": "M249 | Downtown",
+    "tchinese": "M249 | 繁忙市中心",
+    "thai": "M249 | Downtown",
+    "turkish": "M249 | Downtown",
+    "ukrainian": "М249 | Діловий центр",
+    "vietnamese": "M249 | Downtown"
+  },
+  "media": {
+    "asset_id": "skin__14-1148",
+    "images_png": [
+      "data/api/media/rendered/files/skins/14-1148/light.png",
+      "data/api/media/rendered/files/skins/14-1148/medium.png",
+      "data/api/media/rendered/files/skins/14-1148/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/14-1148.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/14-1148/heavy.png",
+      "light": "data/api/media/rendered/files/skins/14-1148/light.png",
+      "medium": "data/api/media/rendered/files/skins/14-1148/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/14-1148/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m249_cu_m249_downvote_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m249_cu_m249_downvote_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m249_cu_m249_downvote_medium_png.vtex_c"
+    }
+  },
+  "name": "M249 | Downtown",
+  "search_slug": "m249-downtown",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4846",
+        "kind": "weapon-case",
+        "name": "Recoil Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_31",
+        "name": "The Recoil Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "14-1148__normal__battle-scarred",
+    "14-1148__normal__factory-new",
+    "14-1148__normal__field-tested",
+    "14-1148__normal__minimal-wear",
+    "14-1148__normal__well-worn",
+    "14-1148__stattrak__battle-scarred",
+    "14-1148__stattrak__factory-new",
+    "14-1148__stattrak__field-tested",
+    "14-1148__stattrak__minimal-wear",
+    "14-1148__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 14,
+    "localized_names": {
+      "brazilian": "M249",
+      "bulgarian": "M249",
+      "czech": "M249",
+      "danish": "M249",
+      "dutch": "M249",
+      "english": "M249",
+      "finnish": "M249",
+      "french": "M249",
+      "german": "M249",
+      "greek": "M249",
+      "hungarian": "M249",
+      "indonesian": "M249",
+      "italian": "M249",
+      "japanese": "M249",
+      "koreana": "M249",
+      "latam": "M249",
+      "norwegian": "M249",
+      "polish": "M249",
+      "portuguese": "M249",
+      "romanian": "M249",
+      "russian": "M249",
+      "schinese": "M249",
+      "schinese_pw": "M249",
+      "spanish": "M249",
+      "swedish": "M249",
+      "tchinese": "M249",
+      "thai": "M249",
+      "turkish": "M249",
+      "ukrainian": "М249",
+      "vietnamese": "M249"
+    },
+    "name": "M249",
+    "search_slug": "m249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

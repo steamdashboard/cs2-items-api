@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 734,
+    "id": 734,
+    "localized_names": {
+      "brazilian": "Lírio Selvagem",
+      "bulgarian": "Дива лилия",
+      "czech": "Wild Lily",
+      "danish": "Wild Lily",
+      "dutch": "Wild Lily",
+      "english": "Wild Lily",
+      "finnish": "Villililja",
+      "french": "Lys sauvage",
+      "german": "Wilde Lilie",
+      "greek": "Wild Lily",
+      "hungarian": "Vad Liliom",
+      "indonesian": "Wild Lily",
+      "italian": "Wild Lily",
+      "japanese": "Wild Lily",
+      "koreana": "야생 백합",
+      "latam": "Lirio silvestre",
+      "norwegian": "Wild Lily",
+      "polish": "Dzika lilia",
+      "portuguese": "Wild Lily",
+      "romanian": "Wild Lily",
+      "russian": "Дикая лилия",
+      "schinese": "野百合",
+      "schinese_pw": "Wild Lily",
+      "spanish": "Lirio salvaje",
+      "swedish": "Wild Lily",
+      "tchinese": "野百合",
+      "thai": "Wild Lily",
+      "turkish": "Yabani Zambak",
+      "ukrainian": "Дика лілія",
+      "vietnamese": "Wild Lily"
+    },
+    "name": "Wild Lily",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-734",
+  "localized_names": {
+    "brazilian": "MP9 | Lírio Selvagem",
+    "bulgarian": "MP9 | Дива лилия",
+    "czech": "MP9 | Wild Lily",
+    "danish": "MP9 | Wild Lily",
+    "dutch": "MP9 | Wild Lily",
+    "english": "MP9 | Wild Lily",
+    "finnish": "MP9 | Villililja",
+    "french": "MP9 | Lys sauvage",
+    "german": "MP9 | Wilde Lilie",
+    "greek": "MP9 | Wild Lily",
+    "hungarian": "MP9 | Vad Liliom",
+    "indonesian": "MP9 | Wild Lily",
+    "italian": "MP9 | Wild Lily",
+    "japanese": "MP9 | Wild Lily",
+    "koreana": "MP9 | 야생 백합",
+    "latam": "MP9 | Lirio silvestre",
+    "norwegian": "MP9 | Wild Lily",
+    "polish": "MP9 | Dzika lilia",
+    "portuguese": "MP9 | Wild Lily",
+    "romanian": "MP9 | Wild Lily",
+    "russian": "MP9 | Дикая лилия",
+    "schinese": "MP9 | 野百合",
+    "schinese_pw": "MP9 | Wild Lily",
+    "spanish": "MP9 | Lirio salvaje",
+    "swedish": "MP9 | Wild Lily",
+    "tchinese": "MP9 | 野百合",
+    "thai": "MP9 | Wild Lily",
+    "turkish": "MP9 | Yabani Zambak",
+    "ukrainian": "МП9 | Дика лілія",
+    "vietnamese": "MP9 | Wild Lily"
+  },
+  "media": {
+    "asset_id": "skin__34-734",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-734/light.png",
+      "data/api/media/rendered/files/skins/34-734/medium.png",
+      "data/api/media/rendered/files/skins/34-734/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-734.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-734/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-734/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-734/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-734/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_island_floral_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_island_floral_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_island_floral_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Wild Lily",
+  "search_slug": "mp9-wild-lily",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_stmarc",
+        "name": "The St. Marc Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4612",
+        "kind": "container",
+        "name": "The St. Marc Collection",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-734__normal__battle-scarred",
+    "34-734__normal__factory-new",
+    "34-734__normal__field-tested",
+    "34-734__normal__minimal-wear",
+    "34-734__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_webs",
+    "id": 12,
+    "name": "Crimson Web",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 12,
+    "weapon_id": 64
+  },
+  "id": "64-12",
+  "name": "R8 Revolver | Crimson Web",
+  "search_slug": "r8-revolver-crimson-web",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "64-12__normal__vanilla",
+    "64-12__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_revolver",
+    "id": 64,
+    "name": "R8 Revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

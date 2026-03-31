@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "gs_awp_phobos",
+    "id": 584,
+    "name": "Phobos",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 584,
+    "weapon_id": 9
+  },
+  "id": "9-584",
+  "name": "AWP | Phobos",
+  "search_slug": "awp-phobos",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_13",
+        "name": "The Gamma Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4236",
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "9-584__normal__factory-new",
+    "9-584__normal__minimal-wear",
+    "9-584__normal__field-tested",
+    "9-584__normal__well-worn",
+    "9-584__stattrak__factory-new",
+    "9-584__stattrak__minimal-wear",
+    "9-584__stattrak__field-tested",
+    "9-584__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_awp",
+    "id": 9,
+    "name": "AWP",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "hy_labrat_mp5",
+    "id": 800,
+    "name": "Lab Rats",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 800,
+    "weapon_id": 23
+  },
+  "id": "23-800",
+  "name": "MP5-SD | Lab Rats",
+  "search_slug": "mp5-sd-lab-rats",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_blacksite",
+        "name": "The Blacksite Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "variant_ids": [
+    "23-800__normal__factory-new",
+    "23-800__normal__minimal-wear",
+    "23-800__normal__field-tested"
+  ],
+  "weapon": {
+    "codename": "weapon_mp5sd",
+    "id": 23,
+    "name": "MP5-SD",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.35,
+    "min_float": 0.0
+  }
+}

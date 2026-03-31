@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 787,
+    "id": 787,
+    "localized_names": {
+      "brazilian": "Vazamento Nuclear",
+      "bulgarian": "Пробив в ядрото",
+      "czech": "Core Breach",
+      "danish": "Core Breach",
+      "dutch": "Core Breach",
+      "english": "Core Breach",
+      "finnish": "Ydinvuoto",
+      "french": "Réacteur en fusion",
+      "german": "Fusionsreaktor",
+      "greek": "Core Breach",
+      "hungarian": "Maghasadás",
+      "indonesian": "Core Breach",
+      "italian": "Core Breach",
+      "japanese": "Core Breach",
+      "koreana": "코어 브리치",
+      "latam": "Brecha en el núcleo",
+      "norwegian": "Core Breach",
+      "polish": "Naruszenie rdzenia",
+      "portuguese": "Core Breach",
+      "romanian": "Core Breach",
+      "russian": "Разрушение ядра",
+      "schinese": "核芯破裂",
+      "schinese_pw": "Core Breach",
+      "spanish": "Brecha en el núcleo",
+      "swedish": "Core Breach",
+      "tchinese": "核心外洩",
+      "thai": "Core Breach",
+      "turkish": "Çekirdek Bozunması",
+      "ukrainian": "Витік реактора",
+      "vietnamese": "Core Breach"
+    },
+    "name": "Core Breach",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-787",
+  "localized_names": {
+    "brazilian": "MAG-7 | Vazamento Nuclear",
+    "bulgarian": "MAG-7 | Пробив в ядрото",
+    "czech": "MAG-7 | Core Breach",
+    "danish": "MAG-7 | Core Breach",
+    "dutch": "MAG-7 | Core Breach",
+    "english": "MAG-7 | Core Breach",
+    "finnish": "MAG-7 | Ydinvuoto",
+    "french": "MAG-7 | Réacteur en fusion",
+    "german": "MAG-7 | Fusionsreaktor",
+    "greek": "MAG-7 | Core Breach",
+    "hungarian": "MAG-7 | Maghasadás",
+    "indonesian": "MAG-7 | Core Breach",
+    "italian": "MAG-7 | Core Breach",
+    "japanese": "MAG-7 | Core Breach",
+    "koreana": "MAG-7 | 코어 브리치",
+    "latam": "MAG-7 | Brecha en el núcleo",
+    "norwegian": "MAG-7 | Core Breach",
+    "polish": "MAG-7 | Naruszenie rdzenia",
+    "portuguese": "MAG-7 | Core Breach",
+    "romanian": "MAG-7 | Core Breach",
+    "russian": "MAG-7 | Разрушение ядра",
+    "schinese": "MAG-7 | 核芯破裂",
+    "schinese_pw": "MAG-7 | Core Breach",
+    "spanish": "MAG-7 | Brecha en el núcleo",
+    "swedish": "MAG-7 | Core Breach",
+    "tchinese": "MAG-7 | 核心外洩",
+    "thai": "MAG-7 | Core Breach",
+    "turkish": "MAG-7 | Çekirdek Bozunması",
+    "ukrainian": "МАГ-7 | Витік реактора",
+    "vietnamese": "MAG-7 | Core Breach"
+  },
+  "media": {
+    "asset_id": "skin__27-787",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-787/light.png",
+      "data/api/media/rendered/files/skins/27-787/medium.png",
+      "data/api/media/rendered/files/skins/27-787/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-787.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-787/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-787/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-787/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-787/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_hy_nuclear_hotorange_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_hy_nuclear_hotorange_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_hy_nuclear_hotorange_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Core Breach",
+  "search_slug": "mag-7-core-breach",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_nuke_2",
+        "name": "The 2018 Nuke Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4972",
+        "kind": "container",
+        "name": "Shanghai 2024 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5125",
+        "kind": "container",
+        "name": "Austin 2025 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "5224",
+        "kind": "container",
+        "name": "Budapest 2025 Nuke Souvenir Package",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4546",
+        "kind": "souvenir-package",
+        "name": "London 2018 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4596",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4665",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4814",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4840",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4865",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4898",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Nuke Souvenir Package",
+        "tier": "mythical"
+      },
+      {
+        "flags": [],
+        "id": "4931",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Nuke Souvenir Package",
+        "tier": "mythical"
+      }
+    ]
+  },
+  "variant_ids": [
+    "27-787__normal__battle-scarred",
+    "27-787__normal__factory-new",
+    "27-787__normal__field-tested",
+    "27-787__normal__minimal-wear",
+    "27-787__normal__well-worn",
+    "27-787__souvenir__battle-scarred",
+    "27-787__souvenir__factory-new",
+    "27-787__souvenir__field-tested",
+    "27-787__souvenir__minimal-wear",
+    "27-787__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

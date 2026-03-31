@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_tape_dots_urban",
+    "id": 135,
+    "name": "Urban Perforated",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 135,
+    "weapon_id": 25
+  },
+  "id": "25-135",
+  "name": "XM1014 | Urban Perforated",
+  "search_slug": "xm1014-urban-perforated",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_vertigo",
+        "name": "The Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4666",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Vertigo Souvenir Package",
+        "tier": null
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "25-135__normal__vanilla",
+    "25-135__souvenir__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_xm1014",
+    "id": 25,
+    "name": "XM1014",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

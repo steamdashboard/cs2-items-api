@@ -1,0 +1,177 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 191,
+    "id": 191,
+    "localized_names": {
+      "brazilian": "Tempestade",
+      "bulgarian": "Силна буря",
+      "czech": "Tempest",
+      "danish": "Tempest",
+      "dutch": "Tempest",
+      "english": "Tempest",
+      "finnish": "Myrsky",
+      "french": "Tempête",
+      "german": "Unwetter",
+      "greek": "Tempest",
+      "hungarian": "Vihar",
+      "indonesian": "Tempest",
+      "italian": "Tempest",
+      "japanese": "Tempest",
+      "koreana": "온화한 폭풍",
+      "latam": "Tempestad",
+      "norwegian": "Tempest",
+      "polish": "Nawałnica",
+      "portuguese": "Tempest",
+      "romanian": "Tempest",
+      "russian": "Буря",
+      "schinese": "兴风作浪",
+      "schinese_pw": "Tempest",
+      "spanish": "Tempestad",
+      "swedish": "Tempest",
+      "tchinese": "暴風驟雨",
+      "thai": "Tempest",
+      "turkish": "Bora",
+      "ukrainian": "Шторм",
+      "vietnamese": "Tempest"
+    },
+    "name": "Tempest",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.22,
+      "min_float": null
+    }
+  },
+  "id": "35-191",
+  "localized_names": {
+    "brazilian": "Nova | Tempestade",
+    "bulgarian": "Nova | Силна буря",
+    "czech": "Nova | Tempest",
+    "danish": "Nova | Tempest",
+    "dutch": "Nova | Tempest",
+    "english": "Nova | Tempest",
+    "finnish": "Nova | Myrsky",
+    "french": "Nova | Tempête",
+    "german": "Nova | Unwetter",
+    "greek": "Nova | Tempest",
+    "hungarian": "Nova | Vihar",
+    "indonesian": "Nova | Tempest",
+    "italian": "Nova | Tempest",
+    "japanese": "Nova | Tempest",
+    "koreana": "노바 | 온화한 폭풍",
+    "latam": "Nova | Tempestad",
+    "norwegian": "Nova | Tempest",
+    "polish": "Nova | Nawałnica",
+    "portuguese": "Nova | Tempest",
+    "romanian": "Nova | Tempest",
+    "russian": "Nova | Буря",
+    "schinese": "新星 | 兴风作浪",
+    "schinese_pw": "Nova | Tempest",
+    "spanish": "Nova | Tempestad",
+    "swedish": "Nova | Tempest",
+    "tchinese": "Nova | 暴風驟雨",
+    "thai": "Nova | Tempest",
+    "turkish": "Nova | Bora",
+    "ukrainian": "Нова | Шторм",
+    "vietnamese": "Nova | Tempest"
+  },
+  "media": {
+    "asset_id": "skin__35-191",
+    "images_png": [
+      "data/api/media/rendered/files/skins/35-191/light.png",
+      "data/api/media/rendered/files/skins/35-191/medium.png",
+      "data/api/media/rendered/files/skins/35-191/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/35-191.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/35-191/heavy.png",
+      "light": "data/api/media/rendered/files/skins/35-191/light.png",
+      "medium": "data/api/media/rendered/files/skins/35-191/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/35-191/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_nova_hy_seaside_bravo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_nova_hy_seaside_bravo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_nova_hy_seaside_bravo_medium_png.vtex_c"
+    }
+  },
+  "name": "Nova | Tempest",
+  "search_slug": "nova-tempest",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "35-191__normal__vanilla",
+    "35-191__stattrak__vanilla"
+  ],
+  "weapon": {
+    "id": 35,
+    "localized_names": {
+      "brazilian": "Nova",
+      "bulgarian": "Nova",
+      "czech": "Nova",
+      "danish": "Nova",
+      "dutch": "Nova",
+      "english": "Nova",
+      "finnish": "Nova",
+      "french": "Nova",
+      "german": "Nova",
+      "greek": "Nova",
+      "hungarian": "Nova",
+      "indonesian": "Nova",
+      "italian": "Nova",
+      "japanese": "Nova",
+      "koreana": "노바",
+      "latam": "Nova",
+      "norwegian": "Nova",
+      "polish": "Nova",
+      "portuguese": "Nova",
+      "romanian": "Nova",
+      "russian": "Nova",
+      "schinese": "新星",
+      "schinese_pw": "Nova",
+      "spanish": "Nova",
+      "swedish": "Nova",
+      "tchinese": "Nova",
+      "thai": "Nova",
+      "turkish": "Nova",
+      "ukrainian": "Нова",
+      "vietnamese": "Nova"
+    },
+    "name": "Nova",
+    "search_slug": "nova",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.22,
+    "min_float": null
+  }
+}

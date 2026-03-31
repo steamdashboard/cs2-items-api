@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "gs_aug_syd_mead",
+    "id": 601,
+    "name": "Syd Mead",
+    "rarity_ref": null,
+    "style_code": 9
+  },
+  "game_ref": {
+    "paint_kit_id": 601,
+    "weapon_id": 8
+  },
+  "id": "8-601",
+  "name": "AUG | Syd Mead",
+  "search_slug": "aug-syd-mead",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_gamma_2",
+        "name": "set_gamma_2"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4281",
+        "kind": "weapon-case",
+        "name": "crate_gamma_2",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "8-601__normal__factory-new",
+    "8-601__normal__minimal-wear",
+    "8-601__normal__field-tested",
+    "8-601__normal__well-worn",
+    "8-601__normal__battle-scarred",
+    "8-601__stattrak__factory-new",
+    "8-601__stattrak__minimal-wear",
+    "8-601__stattrak__field-tested",
+    "8-601__stattrak__well-worn",
+    "8-601__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_aug",
+    "id": 8,
+    "name": "AUG",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.8,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_m249_deep_relief",
+    "id": 983,
+    "name": "Deep Relief",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 983,
+    "weapon_id": 14
+  },
+  "id": "14-983",
+  "name": "M249 | Deep Relief",
+  "search_slug": "m249-deep-relief",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_27",
+        "name": "The Operation Broken Fang Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4717",
+        "kind": "weapon-case",
+        "name": "Operation Broken Fang Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "variant_ids": [
+    "14-983__normal__factory-new",
+    "14-983__normal__minimal-wear",
+    "14-983__normal__field-tested",
+    "14-983__normal__well-worn",
+    "14-983__normal__battle-scarred",
+    "14-983__stattrak__factory-new",
+    "14-983__stattrak__minimal-wear",
+    "14-983__stattrak__field-tested",
+    "14-983__stattrak__well-worn",
+    "14-983__stattrak__battle-scarred"
+  ],
+  "weapon": {
+    "codename": "weapon_m249",
+    "id": 14,
+    "name": "M249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

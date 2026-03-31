@@ -1,0 +1,275 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 234,
+    "id": 234,
+    "localized_names": {
+      "brazilian": "Madeira Cinzenta",
+      "bulgarian": "Изпепелено дърво",
+      "czech": "Ash Wood",
+      "danish": "Ash Wood",
+      "dutch": "Ash Wood",
+      "english": "Ash Wood",
+      "finnish": "Tuhkapuu",
+      "french": "Cendre de bois",
+      "german": "Eschenholz",
+      "greek": "Ash Wood",
+      "hungarian": "Kőrisfa",
+      "indonesian": "Ash Wood",
+      "italian": "Ash Wood",
+      "japanese": "Ash Wood",
+      "koreana": "까맣게 탄 나무",
+      "latam": "Madera de fresno",
+      "norwegian": "Ash Wood",
+      "polish": "Jesion",
+      "portuguese": "Ash Wood",
+      "romanian": "Ash Wood",
+      "russian": "Ясень",
+      "schinese": "白蜡木",
+      "schinese_pw": "Ash Wood",
+      "spanish": "Madera de fresno",
+      "swedish": "Ash Wood",
+      "tchinese": "白蠟木",
+      "thai": "Ash Wood",
+      "turkish": "Odun Külü",
+      "ukrainian": "Ясен",
+      "vietnamese": "Ash Wood"
+    },
+    "name": "Ash Wood",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": 0.45,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-234",
+  "localized_names": {
+    "brazilian": "P90 | Madeira Cinzenta",
+    "bulgarian": "P90 | Изпепелено дърво",
+    "czech": "P90 | Ash Wood",
+    "danish": "P90 | Ash Wood",
+    "dutch": "P90 | Ash Wood",
+    "english": "P90 | Ash Wood",
+    "finnish": "P90 | Tuhkapuu",
+    "french": "P90 | Cendre de bois",
+    "german": "P90 | Eschenholz",
+    "greek": "P90 | Ash Wood",
+    "hungarian": "P90 | Kőrisfa",
+    "indonesian": "P90 | Ash Wood",
+    "italian": "P90 | Ash Wood",
+    "japanese": "P90 | Ash Wood",
+    "koreana": "P90 | 까맣게 탄 나무",
+    "latam": "P90 | Madera de fresno",
+    "norwegian": "P90 | Ash Wood",
+    "polish": "P90 | Jesion",
+    "portuguese": "P90 | Ash Wood",
+    "romanian": "P90 | Ash Wood",
+    "russian": "P90 | Ясень",
+    "schinese": "P90 | 白蜡木",
+    "schinese_pw": "P90 | Ash Wood",
+    "spanish": "P90 | Madera de fresno",
+    "swedish": "P90 | Ash Wood",
+    "tchinese": "P90 | 白蠟木",
+    "thai": "P90 | Ash Wood",
+    "turkish": "P90 | Odun Külü",
+    "ukrainian": "П90 | Ясен",
+    "vietnamese": "P90 | Ash Wood"
+  },
+  "media": {
+    "asset_id": "skin__19-234",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-234/light.png",
+      "data/api/media/rendered/files/skins/19-234/medium.png",
+      "data/api/media/rendered/files/skins/19-234/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-234.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-234/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-234/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-234/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-234/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_sp_twigs_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_sp_twigs_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_sp_twigs_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Ash Wood",
+  "search_slug": "p90-ash-wood",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train",
+        "name": "The Train Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4137",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4182",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4231",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4279",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4349",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4401",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4468",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4545",
+        "kind": "souvenir-package",
+        "name": "London 2018 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4595",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Train Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4664",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Train Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "19-234__normal__factory-new",
+    "19-234__normal__field-tested",
+    "19-234__normal__minimal-wear",
+    "19-234__normal__well-worn",
+    "19-234__souvenir__factory-new",
+    "19-234__souvenir__field-tested",
+    "19-234__souvenir__minimal-wear",
+    "19-234__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.45,
+    "min_float": 0.0
+  }
+}

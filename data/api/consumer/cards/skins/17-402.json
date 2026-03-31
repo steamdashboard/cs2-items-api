@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 402,
+    "id": 402,
+    "localized_names": {
+      "brazilian": "Malaquita",
+      "bulgarian": "Малахит",
+      "czech": "Malachite",
+      "danish": "Malachite",
+      "dutch": "Malachite",
+      "english": "Malachite",
+      "finnish": "Malakiitti",
+      "french": "Malachite",
+      "german": "Malachit",
+      "greek": "Malachite",
+      "hungarian": "Malachit",
+      "indonesian": "Malachite",
+      "italian": "Malachite",
+      "japanese": "Malachite",
+      "koreana": "공작석",
+      "latam": "Malaquita",
+      "norwegian": "Malachite",
+      "polish": "Malachit",
+      "portuguese": "Malachite",
+      "romanian": "Malachite",
+      "russian": "Малахит",
+      "schinese": "孔雀石",
+      "schinese_pw": "Malachite",
+      "spanish": "Malaquita",
+      "swedish": "Malachite",
+      "tchinese": "孔雀石",
+      "thai": "Malachite",
+      "turkish": "Bakır Taşı",
+      "ukrainian": "Малахіт",
+      "vietnamese": "Malachite"
+    },
+    "name": "Malachite",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.5,
+      "min_float": 0.0
+    }
+  },
+  "id": "17-402",
+  "localized_names": {
+    "brazilian": "MAC-10 | Malaquita",
+    "bulgarian": "MAC-10 | Малахит",
+    "czech": "MAC-10 | Malachite",
+    "danish": "MAC-10 | Malachite",
+    "dutch": "MAC-10 | Malachite",
+    "english": "MAC-10 | Malachite",
+    "finnish": "MAC-10 | Malakiitti",
+    "french": "MAC-10 | Malachite",
+    "german": "MAC-10 | Malachit",
+    "greek": "MAC-10 | Malachite",
+    "hungarian": "MAC-10 | Malachit",
+    "indonesian": "MAC-10 | Malachite",
+    "italian": "MAC-10 | Malachite",
+    "japanese": "MAC-10 | Malachite",
+    "koreana": "MAC-10 | 공작석",
+    "latam": "MAC-10 | Malaquita",
+    "norwegian": "MAC-10 | Malachite",
+    "polish": "MAC-10 | Malachit",
+    "portuguese": "MAC-10 | Malachite",
+    "romanian": "MAC-10 | Malachite",
+    "russian": "MAC-10 | Малахит",
+    "schinese": "MAC-10 | 孔雀石",
+    "schinese_pw": "MAC-10 | Malachite",
+    "spanish": "MAC-10 | Malaquita",
+    "swedish": "MAC-10 | Malachite",
+    "tchinese": "MAC-10 | 孔雀石",
+    "thai": "MAC-10 | Malachite",
+    "turkish": "MAC-10 | Bakır Taşı",
+    "ukrainian": "МАК-10 | Малахіт",
+    "vietnamese": "MAC-10 | Malachite"
+  },
+  "media": {
+    "asset_id": "skin__17-402",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-402/light.png",
+      "data/api/media/rendered/files/skins/17-402/medium.png",
+      "data/api/media/rendered/files/skins/17-402/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-402.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-402/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-402/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-402/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-402/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_am_mac10_malachite_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_am_mac10_malachite_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_am_mac10_malachite_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Malachite",
+  "search_slug": "mac-10-malachite",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4061",
+        "kind": "weapon-case",
+        "name": "Chroma Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_6",
+        "name": "The Chroma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-402__normal__battle-scarred",
+    "17-402__normal__factory-new",
+    "17-402__normal__field-tested",
+    "17-402__normal__minimal-wear",
+    "17-402__normal__well-worn",
+    "17-402__stattrak__battle-scarred",
+    "17-402__stattrak__factory-new",
+    "17-402__stattrak__field-tested",
+    "17-402__stattrak__minimal-wear",
+    "17-402__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.5,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "sp_zebracam_bw",
+    "id": 176,
+    "name": "Faded Zebra",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 176,
+    "weapon_id": 16
+  },
+  "id": "16-176",
+  "name": "M4A4 | Faded Zebra",
+  "search_slug": "m4a4-faded-zebra",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "16-176__normal__vanilla",
+    "16-176__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_m4a1",
+    "id": 16,
+    "name": "M4A4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

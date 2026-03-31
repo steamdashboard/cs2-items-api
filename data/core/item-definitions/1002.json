@@ -1,0 +1,56 @@
+{
+  "classification": {
+    "group": "collectible",
+    "kind": "collectible"
+  },
+  "game_id": 1002,
+  "id": 1002,
+  "name": "Community Season One Spring 2013 Coin 2",
+  "prefab_chain": [
+    "collectible",
+    "collectible_untradable",
+    "operation_coin",
+    "season1_coin"
+  ],
+  "prefab_spec": "season1_coin",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "minutes played": {
+        "attribute_class": "minutes_played",
+        "force_gc_to_generate": "1",
+        "value": "1"
+      },
+      "pedestal display model": "models/inventory_items/payback_silver_01.vmdl",
+      "season access": "0"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/status_icons/community_support_pass_coin2",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_Collectible_CommunitySeasonOneSpring2013_Coin2_Desc",
+    "item_name": "#CSGO_Collectible_CommunitySeasonOneSpring2013_Coin2",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type": "operation_coin",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "2",
+    "min_ilevel": "2",
+    "mouse_pressed_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "name": "Community Season One Spring 2013 Coin 2",
+    "prefab": "season1_coin",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 374,
+    "id": 374,
+    "localized_names": {
+      "brazilian": "Tóxica",
+      "bulgarian": "Токсично",
+      "czech": "Toxic",
+      "danish": "Toxic",
+      "dutch": "Toxic",
+      "english": "Toxic",
+      "finnish": "Ydinjäte",
+      "french": "Toxique",
+      "german": "Toxisch",
+      "greek": "Toxic",
+      "hungarian": "Méreg",
+      "indonesian": "Toxic",
+      "italian": "Toxic",
+      "japanese": "Toxic",
+      "koreana": "중독",
+      "latam": "Tóxico",
+      "norwegian": "Toxic",
+      "polish": "Toksyczny",
+      "portuguese": "Toxic",
+      "romanian": "Toxic",
+      "russian": "Токсичность",
+      "schinese": "核子剧毒",
+      "schinese_pw": "Toxic",
+      "spanish": "Tóxico",
+      "swedish": "Toxic",
+      "tchinese": "毒藥",
+      "thai": "Toxic",
+      "turkish": "Toksik",
+      "ukrainian": "Токсичний",
+      "vietnamese": "Toxic"
+    },
+    "name": "Toxic",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.0
+    }
+  },
+  "id": "30-374",
+  "localized_names": {
+    "brazilian": "Tec-9 | Tóxica",
+    "bulgarian": "Tec-9 | Токсично",
+    "czech": "Tec-9 | Toxic",
+    "danish": "Tec-9 | Toxic",
+    "dutch": "Tec-9 | Toxic",
+    "english": "Tec-9 | Toxic",
+    "finnish": "Tec-9 | Ydinjäte",
+    "french": "Tec-9 | Toxique",
+    "german": "Tec-9 | Toxisch",
+    "greek": "Tec-9 | Toxic",
+    "hungarian": "Tec-9 | Méreg",
+    "indonesian": "Tec-9 | Toxic",
+    "italian": "Tec-9 | Toxic",
+    "japanese": "Tec-9 | Toxic",
+    "koreana": "Tec-9 | 중독",
+    "latam": "Tec-9 | Tóxico",
+    "norwegian": "Tec-9 | Toxic",
+    "polish": "Tec-9 | Toksyczny",
+    "portuguese": "Tec-9 | Toxic",
+    "romanian": "Tec-9 | Toxic",
+    "russian": "Tec-9 | Токсичность",
+    "schinese": "Tec-9 | 核子剧毒",
+    "schinese_pw": "Tec-9 | Toxic",
+    "spanish": "Tec-9 | Tóxico",
+    "swedish": "Tec-9 | Toxic",
+    "tchinese": "Tec-9 | 毒藥",
+    "thai": "Tec-9 | Toxic",
+    "turkish": "Tec-9 | Toksik",
+    "ukrainian": "ТЕК-9 | Токсичний",
+    "vietnamese": "Tec-9 | Toxic"
+  },
+  "media": {
+    "asset_id": "skin__30-374",
+    "images_png": [
+      "data/api/media/rendered/files/skins/30-374/light.png",
+      "data/api/media/rendered/files/skins/30-374/medium.png",
+      "data/api/media/rendered/files/skins/30-374/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/30-374.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/30-374/heavy.png",
+      "light": "data/api/media/rendered/files/skins/30-374/light.png",
+      "medium": "data/api/media/rendered/files/skins/30-374/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/30-374/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_tec9_hy_nuclear_skulls5_tec9_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_tec9_hy_nuclear_skulls5_tec9_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_tec9_hy_nuclear_skulls5_tec9_medium_png.vtex_c"
+    }
+  },
+  "name": "Tec-9 | Toxic",
+  "search_slug": "tec-9-toxic",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_cache",
+        "name": "The Cache Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4603",
+        "kind": "container",
+        "name": "The Cache Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4026",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4035",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4083",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4136",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4181",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4230",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4278",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4348",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4400",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4467",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4544",
+        "kind": "souvenir-package",
+        "name": "London 2018 Cache Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4594",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Cache Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "30-374__normal__battle-scarred",
+    "30-374__normal__factory-new",
+    "30-374__normal__field-tested",
+    "30-374__normal__minimal-wear",
+    "30-374__normal__well-worn",
+    "30-374__souvenir__battle-scarred",
+    "30-374__souvenir__factory-new",
+    "30-374__souvenir__field-tested",
+    "30-374__souvenir__minimal-wear",
+    "30-374__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 30,
+    "localized_names": {
+      "brazilian": "Tec-9",
+      "bulgarian": "Tec-9",
+      "czech": "Tec-9",
+      "danish": "Tec-9",
+      "dutch": "Tec-9",
+      "english": "Tec-9",
+      "finnish": "Tec-9",
+      "french": "Tec-9",
+      "german": "Tec-9",
+      "greek": "Tec-9",
+      "hungarian": "Tec-9",
+      "indonesian": "Tec-9",
+      "italian": "Tec-9",
+      "japanese": "Tec-9",
+      "koreana": "Tec-9",
+      "latam": "Tec-9",
+      "norwegian": "Tec-9",
+      "polish": "Tec-9",
+      "portuguese": "Tec-9",
+      "romanian": "Tec-9",
+      "russian": "Tec-9",
+      "schinese": "Tec-9",
+      "schinese_pw": "Tec-9",
+      "spanish": "Tec-9",
+      "swedish": "Tec-9",
+      "tchinese": "Tec-9",
+      "thai": "Tec-9",
+      "turkish": "Tec-9",
+      "ukrainian": "ТЕК-9",
+      "vietnamese": "Tec-9"
+    },
+    "name": "Tec-9",
+    "search_slug": "tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.0
+  }
+}

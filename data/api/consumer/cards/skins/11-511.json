@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 511,
+    "id": 511,
+    "localized_names": {
+      "brazilian": "O Carrasco",
+      "bulgarian": "Екзекуторът",
+      "czech": "Executioner",
+      "danish": "The Executioner",
+      "dutch": "The Executioner",
+      "english": "The Executioner",
+      "finnish": "Teloittaja",
+      "french": "Bourreau",
+      "german": "Henker",
+      "greek": "The Executioner",
+      "hungarian": "A Hóhér",
+      "indonesian": "The Executioner",
+      "italian": "The Executioner",
+      "japanese": "The Executioner",
+      "koreana": "사형 집행인",
+      "latam": "El verdugo",
+      "norwegian": "The Executioner",
+      "polish": "Kat",
+      "portuguese": "The Executioner",
+      "romanian": "The Executioner",
+      "russian": "Палач",
+      "schinese": "行刑者",
+      "schinese_pw": "The Executioner",
+      "spanish": "El verdugo",
+      "swedish": "The Executioner",
+      "tchinese": "劊子手",
+      "thai": "The Executioner",
+      "turkish": "Cellat",
+      "ukrainian": "Кат",
+      "vietnamese": "The Executioner"
+    },
+    "name": "The Executioner",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.85,
+      "min_float": 0.14
+    }
+  },
+  "id": "11-511",
+  "localized_names": {
+    "brazilian": "G3SG1 | O Carrasco",
+    "bulgarian": "G3SG1 | Екзекуторът",
+    "czech": "G3SG1 | Executioner",
+    "danish": "G3SG1 | The Executioner",
+    "dutch": "G3SG1 | The Executioner",
+    "english": "G3SG1 | The Executioner",
+    "finnish": "G3SG1 | Teloittaja",
+    "french": "G3SG1 | Bourreau",
+    "german": "G3SG1 | Henker",
+    "greek": "G3SG1 | The Executioner",
+    "hungarian": "G3SG1 | A Hóhér",
+    "indonesian": "G3SG1 | The Executioner",
+    "italian": "G3SG1 | The Executioner",
+    "japanese": "G3SG1 | The Executioner",
+    "koreana": "G3SG1 | 사형 집행인",
+    "latam": "G3SG1 | El verdugo",
+    "norwegian": "G3SG1 | The Executioner",
+    "polish": "G3SG1 | Kat",
+    "portuguese": "G3SG1 | The Executioner",
+    "romanian": "G3SG1 | The Executioner",
+    "russian": "G3SG1 | Палач",
+    "schinese": "G3SG1 | 行刑者",
+    "schinese_pw": "G3SG1 | The Executioner",
+    "spanish": "G3SG1 | El verdugo",
+    "swedish": "G3SG1 | The Executioner",
+    "tchinese": "G3SG1 | 劊子手",
+    "thai": "G3SG1 | The Executioner",
+    "turkish": "G3SG1 | Cellat",
+    "ukrainian": "Г3-СГ1 | Кат",
+    "vietnamese": "G3SG1 | The Executioner"
+  },
+  "media": {
+    "asset_id": "skin__11-511",
+    "images_png": [
+      "data/api/media/rendered/files/skins/11-511/light.png",
+      "data/api/media/rendered/files/skins/11-511/medium.png",
+      "data/api/media/rendered/files/skins/11-511/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/11-511.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/11-511/heavy.png",
+      "light": "data/api/media/rendered/files/skins/11-511/light.png",
+      "medium": "data/api/media/rendered/files/skins/11-511/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/11-511/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_g3sg1_cu_g3sg1_executioner_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_g3sg1_cu_g3sg1_executioner_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_g3sg1_cu_g3sg1_executioner_medium_png.vtex_c"
+    }
+  },
+  "name": "G3SG1 | The Executioner",
+  "search_slug": "g3sg1-the-executioner",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "11-511__normal__battle-scarred",
+    "11-511__normal__field-tested",
+    "11-511__normal__minimal-wear",
+    "11-511__normal__well-worn",
+    "11-511__stattrak__battle-scarred",
+    "11-511__stattrak__field-tested",
+    "11-511__stattrak__minimal-wear",
+    "11-511__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 11,
+    "localized_names": {
+      "brazilian": "G3SG1",
+      "bulgarian": "G3SG1",
+      "czech": "G3SG1",
+      "danish": "G3SG1",
+      "dutch": "G3SG1",
+      "english": "G3SG1",
+      "finnish": "G3SG1",
+      "french": "G3SG1",
+      "german": "G3SG1",
+      "greek": "G3SG1",
+      "hungarian": "G3SG1",
+      "indonesian": "G3SG1",
+      "italian": "G3SG1",
+      "japanese": "G3SG1",
+      "koreana": "G3SG1",
+      "latam": "G3SG1",
+      "norwegian": "G3SG1",
+      "polish": "G3SG1",
+      "portuguese": "G3SG1",
+      "romanian": "G3SG1",
+      "russian": "G3SG1",
+      "schinese": "G3SG1",
+      "schinese_pw": "G3SG1",
+      "spanish": "G3SG1",
+      "swedish": "G3SG1",
+      "tchinese": "G3SG1",
+      "thai": "G3SG1",
+      "turkish": "G3SG1",
+      "ukrainian": "Г3-СГ1",
+      "vietnamese": "G3SG1"
+    },
+    "name": "G3SG1",
+    "search_slug": "g3sg1",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.85,
+    "min_float": 0.14
+  }
+}

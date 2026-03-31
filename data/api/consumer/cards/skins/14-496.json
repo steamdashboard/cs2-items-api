@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 496,
+    "id": 496,
+    "localized_names": {
+      "brazilian": "Cruzada Nebulosa",
+      "bulgarian": "Междузвезден кръстоносец",
+      "czech": "Nebula Crusader",
+      "danish": "Nebula Crusader",
+      "dutch": "Nebula Crusader",
+      "english": "Nebula Crusader",
+      "finnish": "Tähtivaeltaja",
+      "french": "Croisade nébuleuse",
+      "german": "Nebelkreuzritter",
+      "greek": "Nebula Crusader",
+      "hungarian": "Csillagköd Vitéz",
+      "indonesian": "Nebula Crusader",
+      "italian": "Nebula Crusader",
+      "japanese": "Nebula Crusader",
+      "koreana": "성운의 성전사",
+      "latam": "Defensor nebulosa",
+      "norwegian": "Nebula Crusader",
+      "polish": "Kosmiczny krzyżowiec",
+      "portuguese": "Nebula Crusader",
+      "romanian": "Nebula Crusader",
+      "russian": "Космический воитель",
+      "schinese": "星云十字军",
+      "schinese_pw": "Nebula Crusader",
+      "spanish": "Defensor nebulosa",
+      "swedish": "Nebula Crusader",
+      "tchinese": "星雲十字軍",
+      "thai": "Nebula Crusader",
+      "turkish": "Nebula Savaşçısı",
+      "ukrainian": "Космічний хрестоносець",
+      "vietnamese": "Nebula Crusader"
+    },
+    "name": "Nebula Crusader",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "14-496",
+  "localized_names": {
+    "brazilian": "M249 | Cruzada Nebulosa",
+    "bulgarian": "M249 | Междузвезден кръстоносец",
+    "czech": "M249 | Nebula Crusader",
+    "danish": "M249 | Nebula Crusader",
+    "dutch": "M249 | Nebula Crusader",
+    "english": "M249 | Nebula Crusader",
+    "finnish": "M249 | Tähtivaeltaja",
+    "french": "M249 | Croisade nébuleuse",
+    "german": "M249 | Nebelkreuzritter",
+    "greek": "M249 | Nebula Crusader",
+    "hungarian": "M249 | Csillagköd Vitéz",
+    "indonesian": "M249 | Nebula Crusader",
+    "italian": "M249 | Nebula Crusader",
+    "japanese": "M249 | Nebula Crusader",
+    "koreana": "M249 | 성운의 성전사",
+    "latam": "M249 | Defensor nebulosa",
+    "norwegian": "M249 | Nebula Crusader",
+    "polish": "M249 | Kosmiczny krzyżowiec",
+    "portuguese": "M249 | Nebula Crusader",
+    "romanian": "M249 | Nebula Crusader",
+    "russian": "M249 | Космический воитель",
+    "schinese": "M249 | 星云十字军",
+    "schinese_pw": "M249 | Nebula Crusader",
+    "spanish": "M249 | Defensor nebulosa",
+    "swedish": "M249 | Nebula Crusader",
+    "tchinese": "M249 | 星雲十字軍",
+    "thai": "M249 | Nebula Crusader",
+    "turkish": "M249 | Nebula Savaşçısı",
+    "ukrainian": "М249 | Космічний хрестоносець",
+    "vietnamese": "M249 | Nebula Crusader"
+  },
+  "media": {
+    "asset_id": "skin__14-496",
+    "images_png": [
+      "data/api/media/rendered/files/skins/14-496/light.png",
+      "data/api/media/rendered/files/skins/14-496/medium.png",
+      "data/api/media/rendered/files/skins/14-496/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/14-496.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/14-496/heavy.png",
+      "light": "data/api/media/rendered/files/skins/14-496/light.png",
+      "medium": "data/api/media/rendered/files/skins/14-496/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/14-496/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m249_gs_m249_nebula_crusader_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m249_gs_m249_nebula_crusader_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m249_gs_m249_nebula_crusader_medium_png.vtex_c"
+    }
+  },
+  "name": "M249 | Nebula Crusader",
+  "search_slug": "m249-nebula-crusader",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4138",
+        "kind": "weapon-case",
+        "name": "Shadow Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_9",
+        "name": "The Shadow Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "14-496__normal__battle-scarred",
+    "14-496__normal__factory-new",
+    "14-496__normal__field-tested",
+    "14-496__normal__minimal-wear",
+    "14-496__normal__well-worn",
+    "14-496__stattrak__battle-scarred",
+    "14-496__stattrak__factory-new",
+    "14-496__stattrak__field-tested",
+    "14-496__stattrak__minimal-wear",
+    "14-496__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 14,
+    "localized_names": {
+      "brazilian": "M249",
+      "bulgarian": "M249",
+      "czech": "M249",
+      "danish": "M249",
+      "dutch": "M249",
+      "english": "M249",
+      "finnish": "M249",
+      "french": "M249",
+      "german": "M249",
+      "greek": "M249",
+      "hungarian": "M249",
+      "indonesian": "M249",
+      "italian": "M249",
+      "japanese": "M249",
+      "koreana": "M249",
+      "latam": "M249",
+      "norwegian": "M249",
+      "polish": "M249",
+      "portuguese": "M249",
+      "romanian": "M249",
+      "russian": "M249",
+      "schinese": "M249",
+      "schinese_pw": "M249",
+      "spanish": "M249",
+      "swedish": "M249",
+      "tchinese": "M249",
+      "thai": "M249",
+      "turkish": "M249",
+      "ukrainian": "М249",
+      "vietnamese": "M249"
+    },
+    "name": "M249",
+    "search_slug": "m249",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

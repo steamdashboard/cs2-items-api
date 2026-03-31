@@ -1,0 +1,101 @@
+{
+  "classification": {
+    "group": "collectible",
+    "kind": "collectible"
+  },
+  "game_id": 1026,
+  "id": 1026,
+  "name": "Community Season Three Spring 2014 Coin 3",
+  "prefab_chain": [
+    "collectible",
+    "collectible_untradable",
+    "operation_coin",
+    "season3_coin"
+  ],
+  "prefab_spec": "season3_coin",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "competitive 3k": {
+        "attribute_class": "competitive_3k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive 4k": {
+        "attribute_class": "competitive_4k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive 5k": {
+        "attribute_class": "competitive_5k",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive hsp": {
+        "attribute_class": "competitive_hsp",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive kills": {
+        "attribute_class": "competitive_kills",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive minutes played": {
+        "attribute_class": "competitive_minutes_played",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive mvps": {
+        "attribute_class": "competitive_mvps",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "competitive wins": {
+        "attribute_class": "competitive_wins",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "match wins": {
+        "attribute_class": "match_wins",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "minutes played": {
+        "attribute_class": "minutes_played",
+        "force_gc_to_generate": "1",
+        "value": "1"
+      },
+      "pedestal display model": "models/inventory_items/phoenix_gold_01.vmdl",
+      "season access": "2"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/status_icons/operation_phoenix_gold",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_Collectible_CommunitySeasonThreeSpring2014_Coin3_Desc",
+    "item_name": "#CSGO_Collectible_CommunitySeasonThreeSpring2014_Coin3",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type": "operation_coin",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "3",
+    "min_ilevel": "3",
+    "mouse_pressed_sound": "sounds/physics/meta/chain_impact_hard1.vsnd",
+    "name": "Community Season Three Spring 2014 Coin 3",
+    "prefab": "season3_coin",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

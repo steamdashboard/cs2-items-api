@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 471,
+    "id": 471,
+    "localized_names": {
+      "brazilian": "Aurora",
+      "bulgarian": "Зазоряване",
+      "czech": "Daybreak",
+      "danish": "Daybreak",
+      "dutch": "Daybreak",
+      "english": "Daybreak",
+      "finnish": "Päivänkoitto",
+      "french": "Aube",
+      "german": "Morgengrauen",
+      "greek": "Daybreak",
+      "hungarian": "Hajnalhasadás",
+      "indonesian": "Daybreak",
+      "italian": "Daybreak",
+      "japanese": "Daybreak",
+      "koreana": "새벽녘",
+      "latam": "Alba",
+      "norwegian": "Daybreak",
+      "polish": "Brzask",
+      "portuguese": "Daybreak",
+      "romanian": "Daybreak",
+      "russian": "Рассвет",
+      "schinese": "破晓",
+      "schinese_pw": "Daybreak",
+      "spanish": "Alba",
+      "swedish": "Daybreak",
+      "tchinese": "破曉",
+      "thai": "Daybreak",
+      "turkish": "Şafak",
+      "ukrainian": "Світанок",
+      "vietnamese": "Daybreak"
+    },
+    "name": "Daybreak",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "16-471",
+  "localized_names": {
+    "brazilian": "M4A4 | Aurora",
+    "bulgarian": "M4A4 | Зазоряване",
+    "czech": "M4A4 | Daybreak",
+    "danish": "M4A4 | Daybreak",
+    "dutch": "M4A4 | Daybreak",
+    "english": "M4A4 | Daybreak",
+    "finnish": "M4A4 | Päivänkoitto",
+    "french": "M4A4 | Aube",
+    "german": "M4A4 | Morgengrauen",
+    "greek": "M4A4 | Daybreak",
+    "hungarian": "M4A4 | Hajnalhasadás",
+    "indonesian": "M4A4 | Daybreak",
+    "italian": "M4A4 | Daybreak",
+    "japanese": "M4A4 | Daybreak",
+    "koreana": "M4A4 | 새벽녘",
+    "latam": "M4A4 | Alba",
+    "norwegian": "M4A4 | Daybreak",
+    "polish": "M4A4 | Brzask",
+    "portuguese": "M4A4 | Daybreak",
+    "romanian": "M4A4 | Daybreak",
+    "russian": "M4A4 | Рассвет",
+    "schinese": "M4A4 | 破晓",
+    "schinese_pw": "M4A4 | Daybreak",
+    "spanish": "M4A4 | Alba",
+    "swedish": "M4A4 | Daybreak",
+    "tchinese": "M4A4 | 破曉",
+    "thai": "M4A4 | Daybreak",
+    "turkish": "M4A4 | Şafak",
+    "ukrainian": "М4А4 | Світанок",
+    "vietnamese": "M4A4 | Daybreak"
+  },
+  "media": {
+    "asset_id": "skin__16-471",
+    "images_png": [
+      "data/api/media/rendered/files/skins/16-471/light.png",
+      "data/api/media/rendered/files/skins/16-471/medium.png",
+      "data/api/media/rendered/files/skins/16-471/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/16-471.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/16-471/heavy.png",
+      "light": "data/api/media/rendered/files/skins/16-471/light.png",
+      "medium": "data/api/media/rendered/files/skins/16-471/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/16-471/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_am_kimono_sunrise_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_am_kimono_sunrise_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_am_kimono_sunrise_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A4 | Daybreak",
+  "search_slug": "m4a4-daybreak",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_kimono",
+        "name": "The Rising Sun Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4606",
+        "kind": "container",
+        "name": "The Rising Sun Collection",
+        "tier": "mythical"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "16-471__normal__battle-scarred",
+    "16-471__normal__factory-new",
+    "16-471__normal__field-tested",
+    "16-471__normal__minimal-wear",
+    "16-471__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 16,
+    "localized_names": {
+      "brazilian": "M4A4",
+      "bulgarian": "M4A4",
+      "czech": "M4A4",
+      "danish": "M4A4",
+      "dutch": "M4A4",
+      "english": "M4A4",
+      "finnish": "M4A4",
+      "french": "M4A4",
+      "german": "M4A4",
+      "greek": "M4A4",
+      "hungarian": "M4A4",
+      "indonesian": "M4A4",
+      "italian": "M4A4",
+      "japanese": "M4A4",
+      "koreana": "M4A4",
+      "latam": "M4A4",
+      "norwegian": "M4A4",
+      "polish": "M4A4",
+      "portuguese": "M4A4",
+      "romanian": "M4A4",
+      "russian": "M4A4",
+      "schinese": "M4A4",
+      "schinese_pw": "M4A4",
+      "spanish": "M4A4",
+      "swedish": "M4A4",
+      "tchinese": "M4A4",
+      "thai": "M4A4",
+      "turkish": "M4A4",
+      "ukrainian": "М4А4",
+      "vietnamese": "M4A4"
+    },
+    "name": "M4A4",
+    "search_slug": "m4a4",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

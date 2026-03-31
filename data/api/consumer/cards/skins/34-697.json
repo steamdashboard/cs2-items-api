@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 697,
+    "id": 697,
+    "localized_names": {
+      "brazilian": "Areia Preta",
+      "bulgarian": "Черен пясък",
+      "czech": "Black Sand",
+      "danish": "Black Sand",
+      "dutch": "Black Sand",
+      "english": "Black Sand",
+      "finnish": "Musta hiekka",
+      "french": "Sable noir",
+      "german": "Schwarzer Sand",
+      "greek": "Black Sand",
+      "hungarian": "Fekete Homok",
+      "indonesian": "Black Sand",
+      "italian": "Black Sand",
+      "japanese": "Black Sand",
+      "koreana": "검은 모래",
+      "latam": "Arena negra",
+      "norwegian": "Black Sand",
+      "polish": "Czarny piasek",
+      "portuguese": "Black Sand",
+      "romanian": "Black Sand",
+      "russian": "Чёрный песок",
+      "schinese": "黑砂",
+      "schinese_pw": "Black Sand",
+      "spanish": "Arena negra",
+      "swedish": "Black Sand",
+      "tchinese": "黑沙",
+      "thai": "Black Sand",
+      "turkish": "Kara Kum",
+      "ukrainian": "Чорний пісок",
+      "vietnamese": "Black Sand"
+    },
+    "name": "Black Sand",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "34-697",
+  "localized_names": {
+    "brazilian": "MP9 | Areia Preta",
+    "bulgarian": "MP9 | Черен пясък",
+    "czech": "MP9 | Black Sand",
+    "danish": "MP9 | Black Sand",
+    "dutch": "MP9 | Black Sand",
+    "english": "MP9 | Black Sand",
+    "finnish": "MP9 | Musta hiekka",
+    "french": "MP9 | Sable noir",
+    "german": "MP9 | Schwarzer Sand",
+    "greek": "MP9 | Black Sand",
+    "hungarian": "MP9 | Fekete Homok",
+    "indonesian": "MP9 | Black Sand",
+    "italian": "MP9 | Black Sand",
+    "japanese": "MP9 | Black Sand",
+    "koreana": "MP9 | 검은 모래",
+    "latam": "MP9 | Arena negra",
+    "norwegian": "MP9 | Black Sand",
+    "polish": "MP9 | Czarny piasek",
+    "portuguese": "MP9 | Black Sand",
+    "romanian": "MP9 | Black Sand",
+    "russian": "MP9 | Чёрный песок",
+    "schinese": "MP9 | 黑砂",
+    "schinese_pw": "MP9 | Black Sand",
+    "spanish": "MP9 | Arena negra",
+    "swedish": "MP9 | Black Sand",
+    "tchinese": "MP9 | 黑沙",
+    "thai": "MP9 | Black Sand",
+    "turkish": "MP9 | Kara Kum",
+    "ukrainian": "МП9 | Чорний пісок",
+    "vietnamese": "MP9 | Black Sand"
+  },
+  "media": {
+    "asset_id": "skin__34-697",
+    "images_png": [
+      "data/api/media/rendered/files/skins/34-697/light.png",
+      "data/api/media/rendered/files/skins/34-697/medium.png",
+      "data/api/media/rendered/files/skins/34-697/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/34-697.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/34-697/heavy.png",
+      "light": "data/api/media/rendered/files/skins/34-697/light.png",
+      "medium": "data/api/media/rendered/files/skins/34-697/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/34-697/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_black_sand_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_black_sand_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp9_cu_mp9_black_sand_medium_png.vtex_c"
+    }
+  },
+  "name": "MP9 | Black Sand",
+  "search_slug": "mp9-black-sand",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4471",
+        "kind": "weapon-case",
+        "name": "Clutch Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_19",
+        "name": "The Clutch Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "34-697__normal__battle-scarred",
+    "34-697__normal__factory-new",
+    "34-697__normal__field-tested",
+    "34-697__normal__minimal-wear",
+    "34-697__normal__well-worn",
+    "34-697__stattrak__battle-scarred",
+    "34-697__stattrak__factory-new",
+    "34-697__stattrak__field-tested",
+    "34-697__stattrak__minimal-wear",
+    "34-697__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 34,
+    "localized_names": {
+      "brazilian": "MP9",
+      "bulgarian": "MP9",
+      "czech": "MP9",
+      "danish": "MP9",
+      "dutch": "MP9",
+      "english": "MP9",
+      "finnish": "MP9",
+      "french": "MP9",
+      "german": "MP9",
+      "greek": "MP9",
+      "hungarian": "MP9",
+      "indonesian": "MP9",
+      "italian": "MP9",
+      "japanese": "MP9",
+      "koreana": "MP9",
+      "latam": "MP9",
+      "norwegian": "MP9",
+      "polish": "MP9",
+      "portuguese": "MP9",
+      "romanian": "MP9",
+      "russian": "MP9",
+      "schinese": "MP9",
+      "schinese_pw": "MP9",
+      "spanish": "MP9",
+      "swedish": "MP9",
+      "tchinese": "MP9",
+      "thai": "MP9",
+      "turkish": "MP9",
+      "ukrainian": "МП9",
+      "vietnamese": "MP9"
+    },
+    "name": "MP9",
+    "search_slug": "mp9",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

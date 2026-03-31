@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 683,
+    "id": 683,
+    "localized_names": {
+      "brazilian": "Canhão de Lhama",
+      "bulgarian": "Оръдейна лама",
+      "czech": "Llama Cannon",
+      "danish": "Llama Cannon",
+      "dutch": "Llama Cannon",
+      "english": "Llama Cannon",
+      "finnish": "Laamakanuuna",
+      "french": "Lama-canon",
+      "german": "Lamakanone",
+      "greek": "Llama Cannon",
+      "hungarian": "Láma Ágyú",
+      "indonesian": "Llama Cannon",
+      "italian": "Llama Cannon",
+      "japanese": "Llama Cannon",
+      "koreana": "대포 라마",
+      "latam": "Cañón llama",
+      "norwegian": "Llama Cannon",
+      "polish": "Działo lamy",
+      "portuguese": "Llama Cannon",
+      "romanian": "Llama Cannon",
+      "russian": "Лама-пушка",
+      "schinese": "美洲驼炮",
+      "schinese_pw": "Llama Cannon",
+      "spanish": "Cañón llama",
+      "swedish": "Llama Cannon",
+      "tchinese": "駱馬加農",
+      "thai": "Llama Cannon",
+      "turkish": "Lama Topu",
+      "ukrainian": "Ламогармата",
+      "vietnamese": "LLama Cannon"
+    },
+    "name": "Llama Cannon",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.7,
+      "min_float": 0.03
+    }
+  },
+  "id": "64-683",
+  "localized_names": {
+    "brazilian": "Revólver R8 | Canhão de Lhama",
+    "bulgarian": "Револвер R8 | Оръдейна лама",
+    "czech": "Revolver R8 | Llama Cannon",
+    "danish": "R8-revolver | Llama Cannon",
+    "dutch": "R8-revolver | Llama Cannon",
+    "english": "R8 Revolver | Llama Cannon",
+    "finnish": "R8-revolveri | Laamakanuuna",
+    "french": "Révolver R8 | Lama-canon",
+    "german": "R8-Revolver | Lamakanone",
+    "greek": "R8 Revolver | Llama Cannon",
+    "hungarian": "R8 revolver | Láma Ágyú",
+    "indonesian": "R8 Revolver | Llama Cannon",
+    "italian": "Revolver R8 | Llama Cannon",
+    "japanese": "R8 Revolver | Llama Cannon",
+    "koreana": "R8 리볼버 | 대포 라마",
+    "latam": "Revólver R8 | Cañón llama",
+    "norwegian": "R8 Revolver | Llama Cannon",
+    "polish": "Rewolwer R8 | Działo lamy",
+    "portuguese": "R8 Revolver | Llama Cannon",
+    "romanian": "Revolver R8 | Llama Cannon",
+    "russian": "Револьвер R8 | Лама-пушка",
+    "schinese": "R8左轮手枪 | 美洲驼炮",
+    "schinese_pw": "R8 Revolver | Llama Cannon",
+    "spanish": "Revólver R8 | Cañón llama",
+    "swedish": "R8 Revolver | Llama Cannon",
+    "tchinese": "R8 Revolver | 駱馬加農",
+    "thai": "ปืนลูกโม่ R8 | Llama Cannon",
+    "turkish": "R8 Revolver | Lama Topu",
+    "ukrainian": "Револьвер Р8 | Ламогармата",
+    "vietnamese": "Súng lục R8 | LLama Cannon"
+  },
+  "media": {
+    "asset_id": "skin__64-683",
+    "images_png": [
+      "data/api/media/rendered/files/skins/64-683/light.png",
+      "data/api/media/rendered/files/skins/64-683/medium.png",
+      "data/api/media/rendered/files/skins/64-683/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/64-683.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/64-683/heavy.png",
+      "light": "data/api/media/rendered/files/skins/64-683/light.png",
+      "medium": "data/api/media/rendered/files/skins/64-683/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/64-683/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_revolver_gs_r8_llamacannon_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_revolver_gs_r8_llamacannon_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_revolver_gs_r8_llamacannon_medium_png.vtex_c"
+    }
+  },
+  "name": "R8 Revolver | Llama Cannon",
+  "search_slug": "r8-revolver-llama-cannon",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4403",
+        "kind": "weapon-case",
+        "name": "Spectrum 2 Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_18",
+        "name": "The Spectrum 2 Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "64-683__normal__battle-scarred",
+    "64-683__normal__factory-new",
+    "64-683__normal__field-tested",
+    "64-683__normal__minimal-wear",
+    "64-683__normal__well-worn",
+    "64-683__stattrak__battle-scarred",
+    "64-683__stattrak__factory-new",
+    "64-683__stattrak__field-tested",
+    "64-683__stattrak__minimal-wear",
+    "64-683__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 64,
+    "localized_names": {
+      "brazilian": "Revólver R8",
+      "bulgarian": "Револвер R8",
+      "czech": "Revolver R8",
+      "danish": "R8-revolver",
+      "dutch": "R8-revolver",
+      "english": "R8 Revolver",
+      "finnish": "R8-revolveri",
+      "french": "Révolver R8",
+      "german": "R8-Revolver",
+      "greek": "R8 Revolver",
+      "hungarian": "R8 revolver",
+      "indonesian": "R8 Revolver",
+      "italian": "Revolver R8",
+      "japanese": "R8 Revolver",
+      "koreana": "R8 리볼버",
+      "latam": "Revólver R8",
+      "norwegian": "R8 Revolver",
+      "polish": "Rewolwer R8",
+      "portuguese": "R8 Revolver",
+      "romanian": "Revolver R8",
+      "russian": "Револьвер R8",
+      "schinese": "R8左轮手枪",
+      "schinese_pw": "R8 Revolver",
+      "spanish": "Revólver R8",
+      "swedish": "R8 Revolver",
+      "tchinese": "R8 Revolver",
+      "thai": "ปืนลูกโม่ R8",
+      "turkish": "R8 Revolver",
+      "ukrainian": "Револьвер Р8",
+      "vietnamese": "Súng lục R8"
+    },
+    "name": "R8 Revolver",
+    "search_slug": "r8-revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.7,
+    "min_float": 0.03
+  }
+}

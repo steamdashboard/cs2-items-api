@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 37,
+    "id": 37,
+    "localized_names": {
+      "brazilian": "Chamas",
+      "bulgarian": "Лумване",
+      "czech": "Blaze",
+      "danish": "Blaze",
+      "dutch": "Blaze",
+      "english": "Blaze",
+      "finnish": "Roihu",
+      "french": "Flamme",
+      "german": "Großbrand",
+      "greek": "Blaze",
+      "hungarian": "Lángoló",
+      "indonesian": "Blaze",
+      "italian": "Blaze",
+      "japanese": "Blaze",
+      "koreana": "주홍 불길",
+      "latam": "Llamarada",
+      "norwegian": "Blaze",
+      "polish": "Żar",
+      "portuguese": "Blaze",
+      "romanian": "Blaze",
+      "russian": "Пламя",
+      "schinese": "炽烈之炎",
+      "schinese_pw": "Blaze",
+      "spanish": "Llamarada",
+      "swedish": "Blaze",
+      "tchinese": "熱焰",
+      "thai": "Blaze",
+      "turkish": "Alev",
+      "ukrainian": "Полум’я",
+      "vietnamese": "Blaze"
+    },
+    "name": "Blaze",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.08,
+      "min_float": 0.0
+    }
+  },
+  "id": "24-37",
+  "localized_names": {
+    "brazilian": "UMP-45 | Chamas",
+    "bulgarian": "UMP-45 | Лумване",
+    "czech": "UMP-45 | Blaze",
+    "danish": "UMP-45 | Blaze",
+    "dutch": "UMP-45 | Blaze",
+    "english": "UMP-45 | Blaze",
+    "finnish": "UMP-45 | Roihu",
+    "french": "UMP-45 | Flamme",
+    "german": "UMP-45 | Großbrand",
+    "greek": "UMP-45 | Blaze",
+    "hungarian": "UMP-45 | Lángoló",
+    "indonesian": "UMP-45 | Blaze",
+    "italian": "UMP-45 | Blaze",
+    "japanese": "UMP-45 | Blaze",
+    "koreana": "UMP-45 | 주홍 불길",
+    "latam": "UMP-45 | Llamarada",
+    "norwegian": "UMP-45 | Blaze",
+    "polish": "UMP-45 | Żar",
+    "portuguese": "UMP-45 | Blaze",
+    "romanian": "UMP-45 | Blaze",
+    "russian": "UMP-45 | Пламя",
+    "schinese": "UMP-45 | 炽烈之炎",
+    "schinese_pw": "UMP-45 | Blaze",
+    "spanish": "UMP-45 | Llamarada",
+    "swedish": "UMP-45 | Blaze",
+    "tchinese": "UMP-45 | 熱焰",
+    "thai": "UMP-45 | Blaze",
+    "turkish": "UMP-45 | Alev",
+    "ukrainian": "УМП-45 | Полум’я",
+    "vietnamese": "UMP-45 | Blaze"
+  },
+  "media": {
+    "asset_id": "skin__24-37",
+    "images_png": [
+      "data/api/media/rendered/files/skins/24-37/light.png",
+      "data/api/media/rendered/files/skins/24-37/medium.png",
+      "data/api/media/rendered/files/skins/24-37/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/24-37.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/24-37/heavy.png",
+      "light": "data/api/media/rendered/files/skins/24-37/light.png",
+      "medium": "data/api/media/rendered/files/skins/24-37/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/24-37/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ump45_aa_flames_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ump45_aa_flames_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ump45_aa_flames_medium_png.vtex_c"
+    }
+  },
+  "name": "UMP-45 | Blaze",
+  "search_slug": "ump-45-blaze",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_mirage",
+        "name": "The Mirage Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4024",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2014 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4033",
+        "kind": "souvenir-package",
+        "name": "DreamHack 2014 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4081",
+        "kind": "souvenir-package",
+        "name": "ESL One Katowice 2015 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4132",
+        "kind": "souvenir-package",
+        "name": "ESL One Cologne 2015 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4177",
+        "kind": "souvenir-package",
+        "name": "DreamHack Cluj-Napoca 2015 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4226",
+        "kind": "souvenir-package",
+        "name": "MLG Columbus 2016 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4275",
+        "kind": "souvenir-package",
+        "name": "Cologne 2016 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4345",
+        "kind": "souvenir-package",
+        "name": "Atlanta 2017 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4397",
+        "kind": "souvenir-package",
+        "name": "Krakow 2017 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4464",
+        "kind": "souvenir-package",
+        "name": "Boston 2018 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4541",
+        "kind": "souvenir-package",
+        "name": "London 2018 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4591",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Mirage Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4661",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Mirage Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "24-37__normal__factory-new",
+    "24-37__normal__minimal-wear",
+    "24-37__souvenir__factory-new",
+    "24-37__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 24,
+    "localized_names": {
+      "brazilian": "UMP-45",
+      "bulgarian": "UMP-45",
+      "czech": "UMP-45",
+      "danish": "UMP-45",
+      "dutch": "UMP-45",
+      "english": "UMP-45",
+      "finnish": "UMP-45",
+      "french": "UMP-45",
+      "german": "UMP-45",
+      "greek": "UMP-45",
+      "hungarian": "UMP-45",
+      "indonesian": "UMP-45",
+      "italian": "UMP-45",
+      "japanese": "UMP-45",
+      "koreana": "UMP-45",
+      "latam": "UMP-45",
+      "norwegian": "UMP-45",
+      "polish": "UMP-45",
+      "portuguese": "UMP-45",
+      "romanian": "UMP-45",
+      "russian": "UMP-45",
+      "schinese": "UMP-45",
+      "schinese_pw": "UMP-45",
+      "spanish": "UMP-45",
+      "swedish": "UMP-45",
+      "tchinese": "UMP-45",
+      "thai": "UMP-45",
+      "turkish": "UMP-45",
+      "ukrainian": "УМП-45",
+      "vietnamese": "UMP-45"
+    },
+    "name": "UMP-45",
+    "search_slug": "ump-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.08,
+    "min_float": 0.0
+  }
+}

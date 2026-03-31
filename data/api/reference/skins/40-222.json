@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_shark",
+    "id": 222,
+    "name": "Blood in the Water",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 222,
+    "weapon_id": 40
+  },
+  "id": "40-222",
+  "name": "SSG 08 | Blood in the Water",
+  "search_slug": "ssg-08-blood-in-the-water",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "40-222__normal__vanilla",
+    "40-222__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_ssg08",
+    "id": 40,
+    "name": "SSG 08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.2,
+    "min_float": null
+  }
+}

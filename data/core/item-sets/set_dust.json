@@ -1,0 +1,71 @@
+{
+  "description": "",
+  "description_token": "#CSGO_set_dust_desc",
+  "display_name": "The Dust Collection",
+  "display_name_token": "#CSGO_set_dust",
+  "game_id": "set_dust",
+  "id": "set_dust",
+  "items": [
+    {
+      "entry": "[hy_desert]weapon_m4a1",
+      "target": "weapon_m4a1",
+      "token": "hy_desert"
+    },
+    {
+      "entry": "[sp_palm]weapon_scar20",
+      "target": "weapon_scar20",
+      "token": "sp_palm"
+    },
+    {
+      "entry": "[sp_zebracam]weapon_ak47",
+      "target": "weapon_ak47",
+      "token": "sp_zebracam"
+    },
+    {
+      "entry": "[hy_copperhead]weapon_aug",
+      "target": "weapon_aug",
+      "token": "hy_copperhead"
+    },
+    {
+      "entry": "[sp_snake]weapon_awp",
+      "target": "weapon_awp",
+      "token": "sp_snake"
+    },
+    {
+      "entry": "[aq_copper]weapon_sawedoff",
+      "target": "weapon_sawedoff",
+      "token": "aq_copper"
+    },
+    {
+      "entry": "[aa_flames]weapon_deagle",
+      "target": "weapon_deagle",
+      "token": "aa_flames"
+    },
+    {
+      "entry": "[am_scorpion_p2000]weapon_hkp2000",
+      "target": "weapon_hkp2000",
+      "token": "am_scorpion_p2000"
+    },
+    {
+      "entry": "[aq_brass]weapon_glock",
+      "target": "weapon_glock",
+      "token": "aq_brass"
+    }
+  ],
+  "resolved": {
+    "is_collection": "1",
+    "items": {
+      "[aa_flames]weapon_deagle": "1",
+      "[am_scorpion_p2000]weapon_hkp2000": "1",
+      "[aq_brass]weapon_glock": "1",
+      "[aq_copper]weapon_sawedoff": "1",
+      "[hy_copperhead]weapon_aug": "1",
+      "[hy_desert]weapon_m4a1": "1",
+      "[sp_palm]weapon_scar20": "1",
+      "[sp_snake]weapon_awp": "1",
+      "[sp_zebracam]weapon_ak47": "1"
+    },
+    "name": "#CSGO_set_dust",
+    "set_description": "#CSGO_set_dust_desc"
+  }
+}

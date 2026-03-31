@@ -1,0 +1,31 @@
+{
+  "id": "recipe",
+  "name": "recipe",
+  "prefab_chain": [
+    "csgo_tool",
+    "recipe"
+  ],
+  "resolved": {
+    "craft_class": "tool",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "image_inventory": "econ/tools/crafting_contract",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "item_class": "tool",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "type_tool",
+    "item_type_name": "#CSGO_Type_recipe",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "tool": {
+      "type": "recipe",
+      "usage_capabilities": {
+        "recipe": "1",
+        "usable_out_of_game": "1"
+      }
+    }
+  }
+}

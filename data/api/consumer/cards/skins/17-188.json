@@ -1,0 +1,177 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 188,
+    "id": 188,
+    "localized_names": {
+      "brazilian": "Escultura",
+      "bulgarian": "Гравирано",
+      "czech": "Graven",
+      "danish": "Graven",
+      "dutch": "Graven",
+      "english": "Graven",
+      "finnish": "Kaiverrettu",
+      "french": "Graven",
+      "german": "Graviert",
+      "greek": "Graven",
+      "hungarian": "Vésett",
+      "indonesian": "Graven",
+      "italian": "Graven",
+      "japanese": "Graven",
+      "koreana": "각인",
+      "latam": "Grabado",
+      "norwegian": "Graven",
+      "polish": "Grawer",
+      "portuguese": "Graven",
+      "romanian": "Graven",
+      "russian": "Гравировка",
+      "schinese": "不可磨灭",
+      "schinese_pw": "Graven",
+      "spanish": "Grabado",
+      "swedish": "Graven",
+      "tchinese": "雕刻",
+      "thai": "Graven",
+      "turkish": "Oyma",
+      "ukrainian": "Гравірований",
+      "vietnamese": "Graven"
+    },
+    "name": "Graven",
+    "rarity_ref": null,
+    "style_code": 8,
+    "style_name": "Patina",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "17-188",
+  "localized_names": {
+    "brazilian": "MAC-10 | Escultura",
+    "bulgarian": "MAC-10 | Гравирано",
+    "czech": "MAC-10 | Graven",
+    "danish": "MAC-10 | Graven",
+    "dutch": "MAC-10 | Graven",
+    "english": "MAC-10 | Graven",
+    "finnish": "MAC-10 | Kaiverrettu",
+    "french": "MAC-10 | Graven",
+    "german": "MAC-10 | Graviert",
+    "greek": "MAC-10 | Graven",
+    "hungarian": "MAC-10 | Vésett",
+    "indonesian": "MAC-10 | Graven",
+    "italian": "MAC-10 | Graven",
+    "japanese": "MAC-10 | Graven",
+    "koreana": "MAC-10 | 각인",
+    "latam": "MAC-10 | Grabado",
+    "norwegian": "MAC-10 | Graven",
+    "polish": "MAC-10 | Grawer",
+    "portuguese": "MAC-10 | Graven",
+    "romanian": "MAC-10 | Graven",
+    "russian": "MAC-10 | Гравировка",
+    "schinese": "MAC-10 | 不可磨灭",
+    "schinese_pw": "MAC-10 | Graven",
+    "spanish": "MAC-10 | Grabado",
+    "swedish": "MAC-10 | Graven",
+    "tchinese": "MAC-10 | 雕刻",
+    "thai": "MAC-10 | Graven",
+    "turkish": "MAC-10 | Oyma",
+    "ukrainian": "МАК-10 | Гравірований",
+    "vietnamese": "MAC-10 | Graven"
+  },
+  "media": {
+    "asset_id": "skin__17-188",
+    "images_png": [
+      "data/api/media/rendered/files/skins/17-188/light.png",
+      "data/api/media/rendered/files/skins/17-188/medium.png",
+      "data/api/media/rendered/files/skins/17-188/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/17-188.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/17-188/heavy.png",
+      "light": "data/api/media/rendered/files/skins/17-188/light.png",
+      "medium": "data/api/media/rendered/files/skins/17-188/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/17-188/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mac10_aq_etched_mac10_bravo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mac10_aq_etched_mac10_bravo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mac10_aq_etched_mac10_bravo_medium_png.vtex_c"
+    }
+  },
+  "name": "MAC-10 | Graven",
+  "search_slug": "mac-10-graven",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "17-188__normal__vanilla",
+    "17-188__stattrak__vanilla"
+  ],
+  "weapon": {
+    "id": 17,
+    "localized_names": {
+      "brazilian": "MAC-10",
+      "bulgarian": "MAC-10",
+      "czech": "MAC-10",
+      "danish": "MAC-10",
+      "dutch": "MAC-10",
+      "english": "MAC-10",
+      "finnish": "MAC-10",
+      "french": "MAC-10",
+      "german": "MAC-10",
+      "greek": "MAC-10",
+      "hungarian": "MAC-10",
+      "indonesian": "MAC-10",
+      "italian": "MAC-10",
+      "japanese": "MAC-10",
+      "koreana": "MAC-10",
+      "latam": "MAC-10",
+      "norwegian": "MAC-10",
+      "polish": "MAC-10",
+      "portuguese": "MAC-10",
+      "romanian": "MAC-10",
+      "russian": "MAC-10",
+      "schinese": "MAC-10",
+      "schinese_pw": "MAC-10",
+      "spanish": "MAC-10",
+      "swedish": "MAC-10",
+      "tchinese": "MAC-10",
+      "thai": "MAC-10",
+      "turkish": "MAC-10",
+      "ukrainian": "МАК-10",
+      "vietnamese": "MAC-10"
+    },
+    "name": "MAC-10",
+    "search_slug": "mac-10",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

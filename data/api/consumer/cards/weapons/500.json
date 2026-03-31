@@ -1,0 +1,66 @@
+{
+  "card_type": "knife",
+  "description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan.",
+  "id": 500,
+  "localized_names": {
+    "brazilian": "Baioneta",
+    "bulgarian": "Щик",
+    "czech": "Bajonet",
+    "danish": "Bajonet",
+    "dutch": "Bajonet",
+    "english": "Bayonet",
+    "finnish": "Pistin",
+    "french": "Baïonnette",
+    "german": "Bajonett",
+    "greek": "Mπαγιονέτα",
+    "hungarian": "Bajonett",
+    "indonesian": "Bayonet",
+    "italian": "Baionetta",
+    "japanese": "銃剣",
+    "koreana": "총검",
+    "latam": "Bayoneta",
+    "norwegian": "Bajonett",
+    "polish": "Bagnet",
+    "portuguese": "Bayonet",
+    "romanian": "Baionetă",
+    "russian": "Штык-нож",
+    "schinese": "刺刀",
+    "schinese_pw": "Bayonet",
+    "spanish": "Bayoneta",
+    "swedish": "Bajonett",
+    "tchinese": "刺刀",
+    "thai": "มีดเบโยเน็ต",
+    "turkish": "Bayonet",
+    "ukrainian": "Штик-ніж",
+    "vietnamese": "Bayonet"
+  },
+  "media": {
+    "asset_id": "weapon__500",
+    "images": [
+      "panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.vtex_c"
+    ],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/500/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/500.json",
+    "models": [
+      "weapons/models/knife/knife_bayonet/weapon_knife_bayonet.vmdl_c",
+      "phase2/weapons/models/knife/knife_bayonet/weapon_knife_bayonet_ag2.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/500/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.vtex_c"
+  },
+  "name": "Bayonet",
+  "regular_skin_ids": [],
+  "search_slug": "bayonet",
+  "side": null,
+  "special_pool_ids": [
+    "community_case_13_unusual",
+    "community_case_6_unusual",
+    "unusual_revolving_list"
+  ],
+  "supports_vanilla": true,
+  "type_name": "Knife",
+  "weapon_group": "knife"
+}

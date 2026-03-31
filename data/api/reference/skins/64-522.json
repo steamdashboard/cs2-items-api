@@ -1,0 +1,88 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "aa_fade_revolver",
+    "id": 522,
+    "name": "Fade",
+    "rarity_ref": null,
+    "style_code": 6
+  },
+  "game_ref": {
+    "paint_kit_id": 522,
+    "weapon_id": 64
+  },
+  "id": "64-522",
+  "name": "R8 Revolver | Fade",
+  "search_slug": "r8-revolver-fade",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_community_10",
+        "name": "The Revolver Case Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4186",
+        "kind": "weapon-case",
+        "name": "Revolver Case",
+        "tier": "ancient"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "variant_ids": [
+    "64-522__normal__factory-new",
+    "64-522__normal__minimal-wear",
+    "64-522__normal__field-tested",
+    "64-522__normal__well-worn",
+    "64-522__stattrak__factory-new",
+    "64-522__stattrak__minimal-wear",
+    "64-522__stattrak__field-tested",
+    "64-522__stattrak__well-worn"
+  ],
+  "weapon": {
+    "codename": "weapon_revolver",
+    "id": 64,
+    "name": "R8 Revolver",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

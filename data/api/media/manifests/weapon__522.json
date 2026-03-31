@@ -1,0 +1,59 @@
+{
+  "codename": "weapon_knife_stiletto",
+  "entity_id": "522",
+  "entity_type": "weapon",
+  "id": "weapon__522",
+  "name": "Stiletto Knife",
+  "refs": {
+    "icon_default_image": "materials/icons/inventory_icon_weapon_knife_stiletto.vtf",
+    "image_inventory": "econ/weapons/base_weapons/weapon_knife_stiletto",
+    "image_inventory_size": {
+      "h": 82,
+      "w": 128
+    },
+    "inventory_image_data": {
+      "camera_angles": "30.0 -90.0 25.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "7.0 2.0 -1.5",
+      "override_default_light": "1",
+      "point_light_accent": {
+        "color": "0.65 0.65 0.66",
+        "position": "-85 60 65"
+      },
+      "spot_light_key": {
+        "color": "0.65 0.65 0.66",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.500000",
+        "position": "-10 60 0"
+      },
+      "spot_light_rim": {
+        "color": "3 5 5",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "0 -30 -120"
+      }
+    },
+    "model_ag2": "phase2/weapons/models/knife/knife_stiletto/weapon_knife_stiletto_ag2.vmdl",
+    "model_player": "weapons/models/knife/knife_stiletto/weapon_knife_stiletto.vmdl",
+    "model_world": "weapons/models/knife/knife_stiletto/weapon_knife_stiletto.vmdl"
+  },
+  "resolved_refs": {
+    "image_inventory": [
+      "panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.vtex_c"
+    ],
+    "model_ag2": [
+      "phase2/weapons/models/knife/knife_stiletto/weapon_knife_stiletto_ag2.vmdl_c"
+    ],
+    "model_player": [
+      "weapons/models/knife/knife_stiletto/weapon_knife_stiletto.vmdl_c"
+    ],
+    "model_world": [
+      "weapons/models/knife/knife_stiletto/weapon_knife_stiletto.vmdl_c"
+    ]
+  },
+  "unresolved_refs": [
+    "icon_default_image"
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 70,
+    "id": 70,
+    "localized_names": {
+      "brazilian": "Fibra de Carbono",
+      "bulgarian": "Карбонови нишки",
+      "czech": "Carbon Fiber",
+      "danish": "Carbon Fiber",
+      "dutch": "Carbon Fiber",
+      "english": "Carbon Fiber",
+      "finnish": "Hiilikuitu",
+      "french": "Fibre de carbone",
+      "german": "Kohlefaser",
+      "greek": "Carbon Fiber",
+      "hungarian": "Szénszálas",
+      "indonesian": "Carbon Fiber",
+      "italian": "Carbon Fiber",
+      "japanese": "Carbon Fiber",
+      "koreana": "탄소 섬유",
+      "latam": "Fibra de carbono",
+      "norwegian": "Carbon Fiber",
+      "polish": "Włókno węglowe",
+      "portuguese": "Carbon Fiber",
+      "romanian": "Carbon Fiber",
+      "russian": "Углепластик",
+      "schinese": "碳素纤维",
+      "schinese_pw": "Carbon Fiber",
+      "spanish": "Fibra de carbono",
+      "swedish": "Carbon Fiber",
+      "tchinese": "碳纖維",
+      "thai": "Carbon Fiber",
+      "turkish": "Karbon Fiber",
+      "ukrainian": "Вуглепластик",
+      "vietnamese": "Carbon Fiber"
+    },
+    "name": "Carbon Fiber",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.12,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-70",
+  "localized_names": {
+    "brazilian": "SSG 08 | Fibra de Carbono",
+    "bulgarian": "SSG 08 | Карбонови нишки",
+    "czech": "SSG 08 | Carbon Fiber",
+    "danish": "SSG 08 | Carbon Fiber",
+    "dutch": "SSG 08 | Carbon Fiber",
+    "english": "SSG 08 | Carbon Fiber",
+    "finnish": "SSG 08 | Hiilikuitu",
+    "french": "SSG 08 | Fibre de carbone",
+    "german": "SSG 08 | Kohlefaser",
+    "greek": "SSG 08 | Carbon Fiber",
+    "hungarian": "SSG 08 | Szénszálas",
+    "indonesian": "SSG 08 | Carbon Fiber",
+    "italian": "SSG 08 | Carbon Fiber",
+    "japanese": "SSG 08 | Carbon Fiber",
+    "koreana": "SSG 08 | 탄소 섬유",
+    "latam": "SSG 08 | Fibra de carbono",
+    "norwegian": "SSG 08 | Carbon Fiber",
+    "polish": "SSG 08 | Włókno węglowe",
+    "portuguese": "SSG 08 | Carbon Fiber",
+    "romanian": "SSG 08 | Carbon Fiber",
+    "russian": "SSG 08 | Углепластик",
+    "schinese": "SSG 08 | 碳素纤维",
+    "schinese_pw": "SSG 08 | Carbon Fiber",
+    "spanish": "SSG 08 | Fibra de carbono",
+    "swedish": "SSG 08 | Carbon Fiber",
+    "tchinese": "SSG 08 | 碳纖維",
+    "thai": "SSG 08 | Carbon Fiber",
+    "turkish": "SSG 08 | Karbon Fiber",
+    "ukrainian": "ССГ 08 | Вуглепластик",
+    "vietnamese": "SSG 08 | Carbon Fiber"
+  },
+  "media": {
+    "asset_id": "skin__40-70",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-70/light.png",
+      "data/api/media/rendered/files/skins/40-70/medium.png",
+      "data/api/media/rendered/files/skins/40-70/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-70.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-70/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-70/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-70/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-70/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_am_carbon_fiber_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_am_carbon_fiber_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_am_carbon_fiber_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Carbon Fiber",
+  "search_slug": "ssg-08-carbon-fiber",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_vertigo_2021",
+        "name": "The 2021 Vertigo Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4792",
+        "kind": "container",
+        "name": "The 2021 Vertigo Collection",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4973",
+        "kind": "container",
+        "name": "Shanghai 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4815",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4841",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4866",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4899",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      },
+      {
+        "flags": [],
+        "id": "4932",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Vertigo Souvenir Package",
+        "tier": "uncommon"
+      }
+    ]
+  },
+  "variant_ids": [
+    "40-70__normal__factory-new",
+    "40-70__normal__minimal-wear",
+    "40-70__souvenir__factory-new",
+    "40-70__souvenir__minimal-wear"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.12,
+    "min_float": 0.0
+  }
+}

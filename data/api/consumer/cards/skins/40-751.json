@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 751,
+    "id": 751,
+    "localized_names": {
+      "brazilian": "Freio de Mão",
+      "bulgarian": "Ръчна спирачка",
+      "czech": "Hand Brake",
+      "danish": "Hand Brake",
+      "dutch": "Hand Brake",
+      "english": "Hand Brake",
+      "finnish": "Käsijarru",
+      "french": "Frein à main",
+      "german": "Handbremse",
+      "greek": "Hand Brake",
+      "hungarian": "Kézifék",
+      "indonesian": "Hand Brake",
+      "italian": "Hand Brake",
+      "japanese": "Hand Brake",
+      "koreana": "핸드 브레이크",
+      "latam": "Freno de mano",
+      "norwegian": "Hand Brake",
+      "polish": "Hamulec ręczny",
+      "portuguese": "Hand Brake",
+      "romanian": "Hand Brake",
+      "russian": "Ручной тормоз",
+      "schinese": "手刹",
+      "schinese_pw": "Hand Brake",
+      "spanish": "Freno de mano",
+      "swedish": "Hand Brake",
+      "tchinese": "手煞車",
+      "thai": "Hand Brake",
+      "turkish": "El Freni",
+      "ukrainian": "Ручне гальмо",
+      "vietnamese": "Hand Brake"
+    },
+    "name": "Hand Brake",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-751",
+  "localized_names": {
+    "brazilian": "SSG 08 | Freio de Mão",
+    "bulgarian": "SSG 08 | Ръчна спирачка",
+    "czech": "SSG 08 | Hand Brake",
+    "danish": "SSG 08 | Hand Brake",
+    "dutch": "SSG 08 | Hand Brake",
+    "english": "SSG 08 | Hand Brake",
+    "finnish": "SSG 08 | Käsijarru",
+    "french": "SSG 08 | Frein à main",
+    "german": "SSG 08 | Handbremse",
+    "greek": "SSG 08 | Hand Brake",
+    "hungarian": "SSG 08 | Kézifék",
+    "indonesian": "SSG 08 | Hand Brake",
+    "italian": "SSG 08 | Hand Brake",
+    "japanese": "SSG 08 | Hand Brake",
+    "koreana": "SSG 08 | 핸드 브레이크",
+    "latam": "SSG 08 | Freno de mano",
+    "norwegian": "SSG 08 | Hand Brake",
+    "polish": "SSG 08 | Hamulec ręczny",
+    "portuguese": "SSG 08 | Hand Brake",
+    "romanian": "SSG 08 | Hand Brake",
+    "russian": "SSG 08 | Ручной тормоз",
+    "schinese": "SSG 08 | 手刹",
+    "schinese_pw": "SSG 08 | Hand Brake",
+    "spanish": "SSG 08 | Freno de mano",
+    "swedish": "SSG 08 | Hand Brake",
+    "tchinese": "SSG 08 | 手煞車",
+    "thai": "SSG 08 | Hand Brake",
+    "turkish": "SSG 08 | El Freni",
+    "ukrainian": "ССГ 08 | Ручне гальмо",
+    "vietnamese": "SSG 08 | Hand Brake"
+  },
+  "media": {
+    "asset_id": "skin__40-751",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-751/light.png",
+      "data/api/media/rendered/files/skins/40-751/medium.png",
+      "data/api/media/rendered/files/skins/40-751/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-751.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-751/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-751/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-751/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-751/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_gs_ssg08_checker_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_gs_ssg08_checker_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_gs_ssg08_checker_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Hand Brake",
+  "search_slug": "ssg-08-hand-brake",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_inferno_2",
+        "name": "The 2018 Inferno Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4967",
+        "kind": "container",
+        "name": "Shanghai 2024 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5120",
+        "kind": "container",
+        "name": "Austin 2025 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5219",
+        "kind": "container",
+        "name": "Budapest 2025 Inferno Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4540",
+        "kind": "souvenir-package",
+        "name": "London 2018 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4590",
+        "kind": "souvenir-package",
+        "name": "Katowice 2019 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4660",
+        "kind": "souvenir-package",
+        "name": "Berlin 2019 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4809",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4835",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4860",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4893",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Inferno Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "4926",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Inferno Souvenir Package",
+        "tier": "rare"
+      }
+    ]
+  },
+  "variant_ids": [
+    "40-751__normal__battle-scarred",
+    "40-751__normal__factory-new",
+    "40-751__normal__field-tested",
+    "40-751__normal__minimal-wear",
+    "40-751__normal__well-worn",
+    "40-751__souvenir__battle-scarred",
+    "40-751__souvenir__factory-new",
+    "40-751__souvenir__field-tested",
+    "40-751__souvenir__minimal-wear",
+    "40-751__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 593,
+    "id": 593,
+    "localized_names": {
+      "brazilian": "Fogosa",
+      "bulgarian": "Чопър",
+      "czech": "Chopper",
+      "danish": "Chopper",
+      "dutch": "Chopper",
+      "english": "Chopper",
+      "finnish": "Amislieskat",
+      "french": "Turbo",
+      "german": "Chopper",
+      "greek": "Chopper",
+      "hungarian": "Chopper",
+      "indonesian": "Chopper",
+      "italian": "Chopper",
+      "japanese": "Chopper",
+      "koreana": "절단기",
+      "latam": "Acribillador",
+      "norwegian": "Chopper",
+      "polish": "Chopper",
+      "portuguese": "Chopper",
+      "romanian": "Chopper",
+      "russian": "Воин дорог",
+      "schinese": "夺命器",
+      "schinese_pw": "Chopper",
+      "spanish": "Acribillador",
+      "swedish": "Chopper",
+      "tchinese": "斷路器",
+      "thai": "Chopper",
+      "turkish": "Mavi Alev",
+      "ukrainian": "Чоппер",
+      "vietnamese": "Chopper"
+    },
+    "name": "Chopper",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-593",
+  "localized_names": {
+    "brazilian": "P90 | Fogosa",
+    "bulgarian": "P90 | Чопър",
+    "czech": "P90 | Chopper",
+    "danish": "P90 | Chopper",
+    "dutch": "P90 | Chopper",
+    "english": "P90 | Chopper",
+    "finnish": "P90 | Amislieskat",
+    "french": "P90 | Turbo",
+    "german": "P90 | Chopper",
+    "greek": "P90 | Chopper",
+    "hungarian": "P90 | Chopper",
+    "indonesian": "P90 | Chopper",
+    "italian": "P90 | Chopper",
+    "japanese": "P90 | Chopper",
+    "koreana": "P90 | 절단기",
+    "latam": "P90 | Acribillador",
+    "norwegian": "P90 | Chopper",
+    "polish": "P90 | Chopper",
+    "portuguese": "P90 | Chopper",
+    "romanian": "P90 | Chopper",
+    "russian": "P90 | Воин дорог",
+    "schinese": "P90 | 夺命器",
+    "schinese_pw": "P90 | Chopper",
+    "spanish": "P90 | Acribillador",
+    "swedish": "P90 | Chopper",
+    "tchinese": "P90 | 斷路器",
+    "thai": "P90 | Chopper",
+    "turkish": "P90 | Mavi Alev",
+    "ukrainian": "П90 | Чоппер",
+    "vietnamese": "P90 | Chopper"
+  },
+  "media": {
+    "asset_id": "skin__19-593",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-593/light.png",
+      "data/api/media/rendered/files/skins/19-593/medium.png",
+      "data/api/media/rendered/files/skins/19-593/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-593.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-593/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-593/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-593/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-593/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_gs_p90_full_throttle_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_gs_p90_full_throttle_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_gs_p90_full_throttle_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Chopper",
+  "search_slug": "p90-chopper",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4236",
+        "kind": "weapon-case",
+        "name": "Gamma Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_13",
+        "name": "The Gamma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "19-593__normal__battle-scarred",
+    "19-593__normal__factory-new",
+    "19-593__normal__field-tested",
+    "19-593__normal__minimal-wear",
+    "19-593__normal__well-worn",
+    "19-593__stattrak__battle-scarred",
+    "19-593__stattrak__factory-new",
+    "19-593__stattrak__field-tested",
+    "19-593__stattrak__minimal-wear",
+    "19-593__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.0
+  }
+}

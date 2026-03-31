@@ -1,0 +1,79 @@
+{
+  "classification": {
+    "group": "other",
+    "kind": "other"
+  },
+  "game_id": 5213,
+  "id": 5213,
+  "name": "tournament_journal_bud2025_crystal",
+  "prefab_chain": [
+    "csgo_tool",
+    "fan_shield",
+    "bud2025_tournament_journal_prefab"
+  ],
+  "prefab_spec": "bud2025_tournament_journal_prefab",
+  "resolved": {
+    "attributes": {
+      "campaign completion bitfield": {
+        "attribute_class": "campaign_completion_bitfield",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "campaign id": {
+        "attribute_class": "campaign_id",
+        "value": "19"
+      },
+      "cannot trade": "1",
+      "operation drops awarded 0": {
+        "attribute_class": "operation_drops_awarded",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "operation drops awarded 1": {
+        "attribute_class": "operation_drops_awarded",
+        "force_gc_to_generate": "1",
+        "value": "0"
+      },
+      "pedestal display model": "models/inventory_items/bud2025_coin_crystal.vmdl",
+      "sticker slot 0 id": {
+        "attribute_class": "sticker_slot_id",
+        "force_gc_to_generate": "1",
+        "value": "9653"
+      },
+      "tournament event id": {
+        "attribute_class": "tournament_event_id",
+        "value": "25"
+      },
+      "upgrade level": "3"
+    },
+    "craft_class": "collectable",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "first_sale_date": "2025-11-10",
+    "flexible_loadout_category": "flair0",
+    "flexible_loadout_group": "flair0",
+    "flexible_loadout_slot": "flair0",
+    "image_inventory": "econ/tournaments/bud2025/bud2025_coin_crystal",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_display_slot": "flair0",
+    "item_class": "collectible_item",
+    "item_description": "#CSGO_TournamentJournal_bud2025_Desc",
+    "item_name": "#CSGO_TournamentJournal_bud2025_Crystal",
+    "item_quality": "unique",
+    "item_rarity": "ancient",
+    "item_type": "fan_shield",
+    "item_type_name": "#CSGO_Type_Collectible",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "name": "tournament_journal_bud2025_crystal",
+    "prefab": "bud2025_tournament_journal_prefab",
+    "taxonomy": {
+      "wall_display": "1"
+    },
+    "used_by_classes": {
+      "noteam": "1"
+    }
+  }
+}

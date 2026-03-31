@@ -1,0 +1,216 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1060,
+    "id": 1060,
+    "localized_names": {
+      "brazilian": "Formas Primaveris",
+      "bulgarian": "Пролетен фасон",
+      "czech": "Spring Twilly",
+      "danish": "Spring Twilly",
+      "dutch": "Spring Twilly",
+      "english": "Spring Twilly",
+      "finnish": "Kevätkuosi",
+      "french": "Twill printanier",
+      "german": "Frühlingsschal",
+      "greek": "Spring Twilly",
+      "hungarian": "Tavaszi Formák",
+      "indonesian": "Spring Twilly",
+      "italian": "Spring Twilly",
+      "japanese": "Spring Twilly",
+      "koreana": "봄 트윌리",
+      "latam": "Sarga primaveral",
+      "norwegian": "Spring Twilly",
+      "polish": "Wiosenny szal",
+      "portuguese": "Spring Twilly",
+      "romanian": "Spring Twilly",
+      "russian": "Весенний фасон",
+      "schinese": "春季方巾",
+      "schinese_pw": "Spring Twilly",
+      "spanish": "Sarga primaveral",
+      "swedish": "Spring Twilly",
+      "tchinese": "春風絲巾",
+      "thai": "Spring Twilly",
+      "turkish": "İlkbahar Eşarbı",
+      "ukrainian": "Весняний фасон",
+      "vietnamese": "Spring Twilly"
+    },
+    "name": "Spring Twilly",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "40-1060",
+  "localized_names": {
+    "brazilian": "SSG 08 | Formas Primaveris",
+    "bulgarian": "SSG 08 | Пролетен фасон",
+    "czech": "SSG 08 | Spring Twilly",
+    "danish": "SSG 08 | Spring Twilly",
+    "dutch": "SSG 08 | Spring Twilly",
+    "english": "SSG 08 | Spring Twilly",
+    "finnish": "SSG 08 | Kevätkuosi",
+    "french": "SSG 08 | Twill printanier",
+    "german": "SSG 08 | Frühlingsschal",
+    "greek": "SSG 08 | Spring Twilly",
+    "hungarian": "SSG 08 | Tavaszi Formák",
+    "indonesian": "SSG 08 | Spring Twilly",
+    "italian": "SSG 08 | Spring Twilly",
+    "japanese": "SSG 08 | Spring Twilly",
+    "koreana": "SSG 08 | 봄 트윌리",
+    "latam": "SSG 08 | Sarga primaveral",
+    "norwegian": "SSG 08 | Spring Twilly",
+    "polish": "SSG 08 | Wiosenny szal",
+    "portuguese": "SSG 08 | Spring Twilly",
+    "romanian": "SSG 08 | Spring Twilly",
+    "russian": "SSG 08 | Весенний фасон",
+    "schinese": "SSG 08 | 春季方巾",
+    "schinese_pw": "SSG 08 | Spring Twilly",
+    "spanish": "SSG 08 | Sarga primaveral",
+    "swedish": "SSG 08 | Spring Twilly",
+    "tchinese": "SSG 08 | 春風絲巾",
+    "thai": "SSG 08 | Spring Twilly",
+    "turkish": "SSG 08 | İlkbahar Eşarbı",
+    "ukrainian": "ССГ 08 | Весняний фасон",
+    "vietnamese": "SSG 08 | Spring Twilly"
+  },
+  "media": {
+    "asset_id": "skin__40-1060",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-1060/light.png",
+      "data/api/media/rendered/files/skins/40-1060/medium.png",
+      "data/api/media/rendered/files/skins/40-1060/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-1060.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-1060/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-1060/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-1060/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-1060/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_hy_trainarchitect_green_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_hy_trainarchitect_green_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_hy_trainarchitect_green_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Spring Twilly",
+  "search_slug": "ssg-08-spring-twilly",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2021",
+        "name": "The 2021 Train Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4785",
+        "kind": "container",
+        "name": "The 2021 Train Collection",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-1060__normal__battle-scarred",
+    "40-1060__normal__factory-new",
+    "40-1060__normal__field-tested",
+    "40-1060__normal__minimal-wear",
+    "40-1060__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

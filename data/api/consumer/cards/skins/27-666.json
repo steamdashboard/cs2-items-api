@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 666,
+    "id": 666,
+    "localized_names": {
+      "brazilian": "Água Mineral",
+      "bulgarian": "Твърда вода",
+      "czech": "Hard Water",
+      "danish": "Hard Water",
+      "dutch": "Hard Water",
+      "english": "Hard Water",
+      "finnish": "Hard Water",
+      "french": "Caustique",
+      "german": "Kalkwasser",
+      "greek": "Hard Water",
+      "hungarian": "Kemény Víz",
+      "indonesian": "Hard Water",
+      "italian": "Hard Water",
+      "japanese": "Hard Water",
+      "koreana": "센물",
+      "latam": "Agua dura",
+      "norwegian": "Hard Water",
+      "polish": "Twarda woda",
+      "portuguese": "Hard Water",
+      "romanian": "Hard Water",
+      "russian": "Насыщенная вода",
+      "schinese": "硬水",
+      "schinese_pw": "Hard Water",
+      "spanish": "Agua dura",
+      "swedish": "Hard Water",
+      "tchinese": "硬水",
+      "thai": "Hard Water",
+      "turkish": "Sert Su",
+      "ukrainian": "Жорстка вода",
+      "vietnamese": "Hard Water"
+    },
+    "name": "Hard Water",
+    "rarity_ref": null,
+    "style_code": 5,
+    "style_name": "Anodized Multicolored",
+    "wear": {
+      "max_float": 0.45,
+      "min_float": 0.0
+    }
+  },
+  "id": "27-666",
+  "localized_names": {
+    "brazilian": "MAG-7 | Água Mineral",
+    "bulgarian": "MAG-7 | Твърда вода",
+    "czech": "MAG-7 | Hard Water",
+    "danish": "MAG-7 | Hard Water",
+    "dutch": "MAG-7 | Hard Water",
+    "english": "MAG-7 | Hard Water",
+    "finnish": "MAG-7 | Hard Water",
+    "french": "MAG-7 | Caustique",
+    "german": "MAG-7 | Kalkwasser",
+    "greek": "MAG-7 | Hard Water",
+    "hungarian": "MAG-7 | Kemény Víz",
+    "indonesian": "MAG-7 | Hard Water",
+    "italian": "MAG-7 | Hard Water",
+    "japanese": "MAG-7 | Hard Water",
+    "koreana": "MAG-7 | 센물",
+    "latam": "MAG-7 | Agua dura",
+    "norwegian": "MAG-7 | Hard Water",
+    "polish": "MAG-7 | Twarda woda",
+    "portuguese": "MAG-7 | Hard Water",
+    "romanian": "MAG-7 | Hard Water",
+    "russian": "MAG-7 | Насыщенная вода",
+    "schinese": "MAG-7 | 硬水",
+    "schinese_pw": "MAG-7 | Hard Water",
+    "spanish": "MAG-7 | Agua dura",
+    "swedish": "MAG-7 | Hard Water",
+    "tchinese": "MAG-7 | 硬水",
+    "thai": "MAG-7 | Hard Water",
+    "turkish": "MAG-7 | Sert Su",
+    "ukrainian": "МАГ-7 | Жорстка вода",
+    "vietnamese": "MAG-7 | Hard Water"
+  },
+  "media": {
+    "asset_id": "skin__27-666",
+    "images_png": [
+      "data/api/media/rendered/files/skins/27-666/light.png",
+      "data/api/media/rendered/files/skins/27-666/medium.png",
+      "data/api/media/rendered/files/skins/27-666/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/27-666.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/27-666/heavy.png",
+      "light": "data/api/media/rendered/files/skins/27-666/light.png",
+      "medium": "data/api/media/rendered/files/skins/27-666/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/27-666/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mag7_am_mag7_caustic_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mag7_am_mag7_caustic_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mag7_am_mag7_caustic_medium_png.vtex_c"
+    }
+  },
+  "name": "MAG-7 | Hard Water",
+  "search_slug": "mag-7-hard-water",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4352",
+        "kind": "weapon-case",
+        "name": "Operation Hydra Case",
+        "tier": "rare"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_17",
+        "name": "The Operation Hydra Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "27-666__normal__factory-new",
+    "27-666__normal__field-tested",
+    "27-666__normal__minimal-wear",
+    "27-666__normal__well-worn",
+    "27-666__stattrak__factory-new",
+    "27-666__stattrak__field-tested",
+    "27-666__stattrak__minimal-wear",
+    "27-666__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 27,
+    "localized_names": {
+      "brazilian": "MAG-7",
+      "bulgarian": "MAG-7",
+      "czech": "MAG-7",
+      "danish": "MAG-7",
+      "dutch": "MAG-7",
+      "english": "MAG-7",
+      "finnish": "MAG-7",
+      "french": "MAG-7",
+      "german": "MAG-7",
+      "greek": "MAG-7",
+      "hungarian": "MAG-7",
+      "indonesian": "MAG-7",
+      "italian": "MAG-7",
+      "japanese": "MAG-7",
+      "koreana": "MAG-7",
+      "latam": "MAG-7",
+      "norwegian": "MAG-7",
+      "polish": "MAG-7",
+      "portuguese": "MAG-7",
+      "romanian": "MAG-7",
+      "russian": "MAG-7",
+      "schinese": "MAG-7",
+      "schinese_pw": "MAG-7",
+      "spanish": "MAG-7",
+      "swedish": "MAG-7",
+      "tchinese": "MAG-7",
+      "thai": "MAG-7",
+      "turkish": "MAG-7",
+      "ukrainian": "МАГ-7",
+      "vietnamese": "MAG-7"
+    },
+    "name": "MAG-7",
+    "search_slug": "mag-7",
+    "weapon_group": "shotgun"
+  },
+  "wear": {
+    "max_float": 0.45,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 893,
+    "id": 893,
+    "localized_names": {
+      "brazilian": "Dobras Neon",
+      "bulgarian": "Неонов пласт",
+      "czech": "Neon Ply",
+      "danish": "Neon Ply",
+      "dutch": "Neon Ply",
+      "english": "Neon Ply",
+      "finnish": "Neonviilu",
+      "french": "Surcouche néon",
+      "german": "Neonschicht",
+      "greek": "Neon Ply",
+      "hungarian": "Neon Kavalkád",
+      "indonesian": "Neon Ply",
+      "italian": "Neon Ply",
+      "japanese": "Neon Ply",
+      "koreana": "네온 플라이",
+      "latam": "Capa de neón",
+      "norwegian": "Neon Ply",
+      "polish": "Neonowe fałdy",
+      "portuguese": "Neon Ply",
+      "romanian": "Neon Ply",
+      "russian": "Неоновая фанера",
+      "schinese": "七彩斑斓",
+      "schinese_pw": "Neon Ply",
+      "spanish": "Capa de neón",
+      "swedish": "Neon Ply",
+      "tchinese": "霓虹合板",
+      "thai": "Neon Ply",
+      "turkish": "Neon Kaplama",
+      "ukrainian": "Неонові жили",
+      "vietnamese": "Neon Ply"
+    },
+    "name": "Neon Ply",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "33-893",
+  "localized_names": {
+    "brazilian": "MP7 | Dobras Neon",
+    "bulgarian": "MP7 | Неонов пласт",
+    "czech": "MP7 | Neon Ply",
+    "danish": "MP7 | Neon Ply",
+    "dutch": "MP7 | Neon Ply",
+    "english": "MP7 | Neon Ply",
+    "finnish": "MP7 | Neonviilu",
+    "french": "MP7 | Surcouche néon",
+    "german": "MP7 | Neonschicht",
+    "greek": "MP7 | Neon Ply",
+    "hungarian": "MP7 | Neon Kavalkád",
+    "indonesian": "MP7 | Neon Ply",
+    "italian": "MP7 | Neon Ply",
+    "japanese": "MP7 | Neon Ply",
+    "koreana": "MP7 | 네온 플라이",
+    "latam": "MP7 | Capa de neón",
+    "norwegian": "MP7 | Neon Ply",
+    "polish": "MP7 | Neonowe fałdy",
+    "portuguese": "MP7 | Neon Ply",
+    "romanian": "MP7 | Neon Ply",
+    "russian": "MP7 | Неоновая фанера",
+    "schinese": "MP7 | 七彩斑斓",
+    "schinese_pw": "MP7 | Neon Ply",
+    "spanish": "MP7 | Capa de neón",
+    "swedish": "MP7 | Neon Ply",
+    "tchinese": "MP7 | 霓虹合板",
+    "thai": "MP7 | Neon Ply",
+    "turkish": "MP7 | Neon Kaplama",
+    "ukrainian": "МП7 | Неонові жили",
+    "vietnamese": "MP7 | Neon Ply"
+  },
+  "media": {
+    "asset_id": "skin__33-893",
+    "images_png": [
+      "data/api/media/rendered/files/skins/33-893/light.png",
+      "data/api/media/rendered/files/skins/33-893/medium.png",
+      "data/api/media/rendered/files/skins/33-893/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/33-893.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/33-893/heavy.png",
+      "light": "data/api/media/rendered/files/skins/33-893/light.png",
+      "medium": "data/api/media/rendered/files/skins/33-893/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/33-893/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_mp7_cu_mp7_replica_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_mp7_cu_mp7_replica_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_mp7_cu_mp7_replica_medium_png.vtex_c"
+    }
+  },
+  "name": "MP7 | Neon Ply",
+  "search_slug": "mp7-neon-ply",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4620",
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_23",
+        "name": "The Shattered Web Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "33-893__normal__battle-scarred",
+    "33-893__normal__factory-new",
+    "33-893__normal__field-tested",
+    "33-893__normal__minimal-wear",
+    "33-893__normal__well-worn",
+    "33-893__stattrak__battle-scarred",
+    "33-893__stattrak__factory-new",
+    "33-893__stattrak__field-tested",
+    "33-893__stattrak__minimal-wear",
+    "33-893__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 33,
+    "localized_names": {
+      "brazilian": "MP7",
+      "bulgarian": "MP7",
+      "czech": "MP7",
+      "danish": "MP7",
+      "dutch": "MP7",
+      "english": "MP7",
+      "finnish": "MP7",
+      "french": "MP7",
+      "german": "MP7",
+      "greek": "MP7",
+      "hungarian": "MP7",
+      "indonesian": "MP7",
+      "italian": "MP7",
+      "japanese": "MP7",
+      "koreana": "MP7",
+      "latam": "MP7",
+      "norwegian": "MP7",
+      "polish": "MP7",
+      "portuguese": "MP7",
+      "romanian": "MP7",
+      "russian": "MP7",
+      "schinese": "MP7",
+      "schinese_pw": "MP7",
+      "spanish": "MP7",
+      "swedish": "MP7",
+      "tchinese": "MP7",
+      "thai": "MP7",
+      "turkish": "MP7",
+      "ukrainian": "МП7",
+      "vietnamese": "MP7"
+    },
+    "name": "MP7",
+    "search_slug": "mp7",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "classification": {
+    "group": "glove",
+    "kind": "weapon"
+  },
+  "game_id": 5030,
+  "id": 5030,
+  "name": "sporty_gloves",
+  "prefab_chain": [
+    "wearable",
+    "hands",
+    "hands_paintable"
+  ],
+  "prefab_spec": "hands_paintable",
+  "resolved": {
+    "capabilities": {
+      "nameable": "0",
+      "paintable": "1"
+    },
+    "craft_class": "unusual",
+    "drop_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "flexible_loadout_category": "clothing",
+    "flexible_loadout_group": "clothing_hands",
+    "flexible_loadout_slot": "clothing_hands",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_group_equipment": "clothing_hands",
+    "inventory_image_data": {
+      "camera_angles": "2.0 -130.0 0.0",
+      "camera_fov": "35.000000",
+      "camera_offset": "0.0 1.0 -2.0",
+      "override_default_light": "1",
+      "spot_light_key": {
+        "color": "2.1 2.1 2.1",
+        "inner_cone": "0.500000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "1.000000",
+        "position": "-120 120 180"
+      },
+      "spot_light_rim": {
+        "color": "4 4 4",
+        "inner_cone": "0.040000",
+        "lookat": "0.0 0.0 0.0",
+        "outer_cone": "0.500000",
+        "position": "10.0 -90.0 -60.0"
+      }
+    },
+    "item_class": "wearable_item",
+    "item_description": "#CSGO_Wearable_v_sporty_glove_Desc",
+    "item_name": "#CSGO_Wearable_v_sporty_glove",
+    "item_quality": "normal",
+    "item_rarity": "common",
+    "item_type_name": "#Type_Hands",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "model_player": "characters/models/shared/arms/glove_sporty/v_glove_sporty.vmdl",
+    "model_world": "characters/models/shared/arms/glove_sporty/w_glove_sporty.vmdl",
+    "mouse_pressed_sound": "sounds/ui/item_paper_pickup.vsnd",
+    "name": "sporty_gloves",
+    "prefab": "hands_paintable",
+    "used_by_classes": {
+      "counter-terrorists": "1",
+      "terrorists": "1"
+    },
+    "visuals": {
+      "player_bodygroups": {
+        "gloves": "0"
+      }
+    }
+  }
+}

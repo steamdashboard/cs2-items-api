@@ -1,0 +1,168 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 72,
+    "id": 72,
+    "localized_names": {
+      "brazilian": "Grade de Safári",
+      "bulgarian": "Мрежа за сафари",
+      "czech": "Safari Mesh",
+      "danish": "Safari Mesh",
+      "dutch": "Safari Mesh",
+      "english": "Safari Mesh",
+      "finnish": "Safariverkko",
+      "french": "Maillage safari",
+      "german": "Safarinetz",
+      "greek": "Safari Mesh",
+      "hungarian": "Szafari Háló",
+      "indonesian": "Safari Mesh",
+      "italian": "Safari Mesh",
+      "japanese": "Safari Mesh",
+      "koreana": "사파리 격자 무늬",
+      "latam": "Malla de safari",
+      "norwegian": "Safari Mesh",
+      "polish": "Siatka safari",
+      "portuguese": "Safari Mesh",
+      "romanian": "Safari Mesh",
+      "russian": "Африканская сетка",
+      "schinese": "狩猎网格",
+      "schinese_pw": "Safari Mesh",
+      "spanish": "Malla de safari",
+      "swedish": "Safari Mesh",
+      "tchinese": "狩獵網格",
+      "thai": "Safari Mesh",
+      "turkish": "Safari Ağı",
+      "ukrainian": "Сітка сафарі",
+      "vietnamese": "Safari Mesh"
+    },
+    "name": "Safari Mesh",
+    "rarity_ref": null,
+    "style_code": 3,
+    "style_name": "Spray-Paint",
+    "wear": {
+      "max_float": null,
+      "min_float": null
+    }
+  },
+  "id": "9-72",
+  "localized_names": {
+    "brazilian": "AWP | Grade de Safári",
+    "bulgarian": "AWP | Мрежа за сафари",
+    "czech": "AWP | Safari Mesh",
+    "danish": "AWP | Safari Mesh",
+    "dutch": "AWP | Safari Mesh",
+    "english": "AWP | Safari Mesh",
+    "finnish": "AWP | Safariverkko",
+    "french": "AWP | Maillage safari",
+    "german": "AWP | Safarinetz",
+    "greek": "AWP | Safari Mesh",
+    "hungarian": "AWP | Szafari Háló",
+    "indonesian": "AWP | Safari Mesh",
+    "italian": "AWP | Safari Mesh",
+    "japanese": "AWP | Safari Mesh",
+    "koreana": "AWP | 사파리 격자 무늬",
+    "latam": "AWP | Malla de safari",
+    "norwegian": "AWP | Safari Mesh",
+    "polish": "AWP | Siatka safari",
+    "portuguese": "AWP | Safari Mesh",
+    "romanian": "AWP | Safari Mesh",
+    "russian": "AWP | Африканская сетка",
+    "schinese": "AWP | 狩猎网格",
+    "schinese_pw": "AWP | Safari Mesh",
+    "spanish": "AWP | Malla de safari",
+    "swedish": "AWP | Safari Mesh",
+    "tchinese": "AWP | 狩獵網格",
+    "thai": "AWP | Safari Mesh",
+    "turkish": "AWP | Safari Ağı",
+    "ukrainian": "АВП | Сітка сафарі",
+    "vietnamese": "AWP | Safari Mesh"
+  },
+  "media": {
+    "asset_id": "skin__9-72",
+    "images_png": [
+      "data/api/media/rendered/files/skins/9-72/light.png",
+      "data/api/media/rendered/files/skins/9-72/medium.png",
+      "data/api/media/rendered/files/skins/9-72/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/9-72.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/9-72/heavy.png",
+      "light": "data/api/media/rendered/files/skins/9-72/light.png",
+      "medium": "data/api/media/rendered/files/skins/9-72/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/9-72/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_awp_sp_mesh_tan_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_awp_sp_mesh_tan_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_awp_sp_mesh_tan_medium_png.vtex_c"
+    }
+  },
+  "name": "AWP | Safari Mesh",
+  "search_slug": "awp-safari-mesh",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_lake",
+        "name": "The Lake Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "9-72__normal__vanilla"
+  ],
+  "weapon": {
+    "id": 9,
+    "localized_names": {
+      "brazilian": "AWP",
+      "bulgarian": "AWP",
+      "czech": "AWP",
+      "danish": "AWP",
+      "dutch": "AWP",
+      "english": "AWP",
+      "finnish": "AWP",
+      "french": "AWP",
+      "german": "AWP",
+      "greek": "AWP",
+      "hungarian": "AWP",
+      "indonesian": "AWP",
+      "italian": "AWP",
+      "japanese": "AWP",
+      "koreana": "AWP",
+      "latam": "AWP",
+      "norwegian": "AWP",
+      "polish": "AWP",
+      "portuguese": "AWP",
+      "romanian": "AWP",
+      "russian": "AWP",
+      "schinese": "AWP",
+      "schinese_pw": "AWP",
+      "spanish": "AWP",
+      "swedish": "AWP",
+      "tchinese": "AWP",
+      "thai": "AWP",
+      "turkish": "AWP",
+      "ukrainian": "АВП",
+      "vietnamese": "AWP"
+    },
+    "name": "AWP",
+    "search_slug": "awp",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

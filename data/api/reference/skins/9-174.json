@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "hy_blam_simple",
+    "id": 174,
+    "name": "BOOM",
+    "rarity_ref": null,
+    "style_code": 2
+  },
+  "game_ref": {
+    "paint_kit_id": 174,
+    "weapon_id": 9
+  },
+  "id": "9-174",
+  "name": "AWP | BOOM",
+  "search_slug": "awp-boom",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports",
+        "name": "The eSports 2013 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4002",
+        "kind": "weapon-case",
+        "name": "eSports 2013 Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "9-174__normal__vanilla",
+    "9-174__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_awp",
+    "id": 9,
+    "name": "AWP",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.28,
+    "min_float": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "browse": {
+    "agents": "data/api/consumer/browse/agents.json",
+    "capsules": "data/api/consumer/browse/capsules.json",
+    "cases": "data/api/consumer/browse/cases.json",
+    "categories": "data/api/consumer/browse/categories.json",
+    "charms": "data/api/consumer/browse/charms.json",
+    "collections": "data/api/consumer/browse/collections.json",
+    "home": "data/api/consumer/browse/home.json",
+    "music-kits": "data/api/consumer/browse/music-kits.json",
+    "skins": "data/api/consumer/browse/skins.json",
+    "souvenir-packages": "data/api/consumer/browse/souvenir-packages.json",
+    "special-pools": "data/api/consumer/browse/special-pools.json",
+    "stickers": "data/api/consumer/browse/stickers.json",
+    "tournaments": "data/api/consumer/browse/tournaments.json",
+    "weapons": "data/api/consumer/browse/weapons.json"
+  },
+  "cards": {
+    "agents": "data/api/consumer/cards/agents/<id>.json",
+    "capsules": "data/api/consumer/cards/capsules/<id>.json",
+    "cases": "data/api/consumer/cards/cases/<id>.json",
+    "charms": "data/api/consumer/cards/charms/<id>.json",
+    "collections": "data/api/consumer/cards/collections/<id>.json",
+    "containers": "data/api/consumer/cards/containers/<id>.json",
+    "graffiti": "data/api/consumer/cards/graffiti/<id>.json",
+    "music-kits": "data/api/consumer/cards/music-kits/<id>.json",
+    "patches": "data/api/consumer/cards/patches/<id>.json",
+    "players": "data/api/consumer/cards/players/<id>.json",
+    "skin-variants": "data/api/consumer/cards/skin-variants/<id>.json",
+    "skins": "data/api/consumer/cards/skins/<id>.json",
+    "souvenir-packages": "data/api/consumer/cards/souvenir-packages/<id>.json",
+    "special-pools": "data/api/consumer/cards/special-pools/<id>.json",
+    "stickers": "data/api/consumer/cards/stickers/<id>.json",
+    "teams": "data/api/consumer/cards/teams/<id>.json",
+    "tournaments": "data/api/consumer/cards/tournaments/<id>.json",
+    "weapons": "data/api/consumer/cards/weapons/<id>.json"
+  },
+  "generated_at": "2026-03-31T12:48:38.914261+00:00",
+  "lists": {
+    "by-case": "data/api/consumer/lists/by-case/<key>.json",
+    "by-collection": "data/api/consumer/lists/by-collection/<key>.json",
+    "by-finish": "data/api/consumer/lists/by-finish/<key>.json",
+    "by-market-hash-name": "data/api/consumer/lists/by-market-hash-name/<key>.json",
+    "by-search-slug": "data/api/consumer/lists/by-search-slug/<key>.json",
+    "by-type": "data/api/consumer/lists/by-type/<key>.json",
+    "by-weapon": "data/api/consumer/lists/by-weapon/<key>.json"
+  }
+}

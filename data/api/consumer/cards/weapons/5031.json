@@ -1,0 +1,65 @@
+{
+  "card_type": "glove",
+  "description": "These driving gloves offer protection from the elements while still maintaining tactile sensation.",
+  "id": 5031,
+  "localized_names": {
+    "brazilian": "Luvas de Motorista",
+    "bulgarian": "Шофьорски ръкавици",
+    "czech": "Řidičské rukavice",
+    "danish": "Kørehandsker",
+    "dutch": "Rijhandschoenen",
+    "english": "Driver Gloves",
+    "finnish": "Ajohanskat",
+    "french": "Gants de pilote",
+    "german": "Chauffeurshandschuhe",
+    "greek": "Γάντια οδηγού",
+    "hungarian": "Sofőrkesztyű",
+    "indonesian": "Sarung Tangan Pengemudi",
+    "italian": "Guanti da autista",
+    "japanese": "Driver Gloves",
+    "koreana": "운전용 장갑",
+    "latam": "Guantes de conductor",
+    "norwegian": "Kjørehansker",
+    "polish": "Rękawiczki samochodowe",
+    "portuguese": "Luvas de Condutor",
+    "romanian": "Mănuși de condus",
+    "russian": "Водительские перчатки",
+    "schinese": "驾驶手套",
+    "schinese_pw": "Driver Gloves",
+    "spanish": "Guantes de conductor",
+    "swedish": "Förarhandskar",
+    "tchinese": "駕駛手套",
+    "thai": "ถุงมือขับรถ",
+    "turkish": "Sürücü Eldivenleri",
+    "ukrainian": "Рукавиці водія",
+    "vietnamese": "Găng tay lái xe"
+  },
+  "media": {
+    "asset_id": "weapon__5031",
+    "images": [],
+    "images_png": [
+      "data/api/media/rendered/files/weapons/5031/primary.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/weapons/5031.json",
+    "models": [
+      "characters/models/shared/arms/glove_slick/v_glove_slick.vmdl_c",
+      "characters/models/shared/arms/glove_slick/w_glove_slick.vmdl_c"
+    ],
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/weapons/5031/primary.png",
+    "source_texture_path": "panorama/images/econ/weapons/base_weapons/t_gloves_png.vtex_c"
+  },
+  "name": "Driver Gloves",
+  "regular_skin_ids": [],
+  "search_slug": "driver-gloves",
+  "side": null,
+  "special_pool_ids": [
+    "community_case_15_unusual",
+    "set_community_19_unusual",
+    "set_community_37_unusual",
+    "set_glove_3_unusual"
+  ],
+  "supports_vanilla": false,
+  "type_name": "Gloves",
+  "weapon_group": "glove"
+}

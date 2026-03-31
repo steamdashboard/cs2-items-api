@@ -1,0 +1,223 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1203,
+    "id": 1203,
+    "localized_names": {
+      "brazilian": "Transporte Noturno",
+      "bulgarian": "Късен нощен превоз",
+      "czech": "Late Night Transit",
+      "danish": "Late Night Transit",
+      "dutch": "Late Night Transit",
+      "english": "Late Night Transit",
+      "finnish": "Yölinjalla",
+      "french": "Trains de nuit",
+      "german": "Nächtlicher Linienverkehr",
+      "greek": "Late Night Transit",
+      "hungarian": "Éjszakai Utazás",
+      "indonesian": "Late Night Transit",
+      "italian": "Late Night Transit",
+      "japanese": "Late Night Transit",
+      "koreana": "심야 교통",
+      "latam": "Tránsito nocturno",
+      "norwegian": "Late Night Transit",
+      "polish": "Przewóz nocny",
+      "portuguese": "Late Night Transit",
+      "romanian": "Late Night Transit",
+      "russian": "Поздняя поездка",
+      "schinese": "深夜通勤",
+      "schinese_pw": "Late Night Transit",
+      "spanish": "Tránsito nocturno",
+      "swedish": "Late Night Transit",
+      "tchinese": "深夜通勤",
+      "thai": "Late Night Transit",
+      "turkish": "Gece Ulaşımı",
+      "ukrainian": "Нічний транзит",
+      "vietnamese": "Late Night Transit"
+    },
+    "name": "Late Night Transit",
+    "rarity_ref": null,
+    "style_code": 9,
+    "style_name": "Gunsmith",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "24-1203",
+  "localized_names": {
+    "brazilian": "UMP-45 | Transporte Noturno",
+    "bulgarian": "UMP-45 | Късен нощен превоз",
+    "czech": "UMP-45 | Late Night Transit",
+    "danish": "UMP-45 | Late Night Transit",
+    "dutch": "UMP-45 | Late Night Transit",
+    "english": "UMP-45 | Late Night Transit",
+    "finnish": "UMP-45 | Yölinjalla",
+    "french": "UMP-45 | Trains de nuit",
+    "german": "UMP-45 | Nächtlicher Linienverkehr",
+    "greek": "UMP-45 | Late Night Transit",
+    "hungarian": "UMP-45 | Éjszakai Utazás",
+    "indonesian": "UMP-45 | Late Night Transit",
+    "italian": "UMP-45 | Late Night Transit",
+    "japanese": "UMP-45 | Late Night Transit",
+    "koreana": "UMP-45 | 심야 교통",
+    "latam": "UMP-45 | Tránsito nocturno",
+    "norwegian": "UMP-45 | Late Night Transit",
+    "polish": "UMP-45 | Przewóz nocny",
+    "portuguese": "UMP-45 | Late Night Transit",
+    "romanian": "UMP-45 | Late Night Transit",
+    "russian": "UMP-45 | Поздняя поездка",
+    "schinese": "UMP-45 | 深夜通勤",
+    "schinese_pw": "UMP-45 | Late Night Transit",
+    "spanish": "UMP-45 | Tránsito nocturno",
+    "swedish": "UMP-45 | Late Night Transit",
+    "tchinese": "UMP-45 | 深夜通勤",
+    "thai": "UMP-45 | Late Night Transit",
+    "turkish": "UMP-45 | Gece Ulaşımı",
+    "ukrainian": "УМП-45 | Нічний транзит",
+    "vietnamese": "UMP-45 | Late Night Transit"
+  },
+  "media": {
+    "asset_id": "skin__24-1203",
+    "images_png": [
+      "data/api/media/rendered/files/skins/24-1203/light.png",
+      "data/api/media/rendered/files/skins/24-1203/medium.png",
+      "data/api/media/rendered/files/skins/24-1203/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/24-1203.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/24-1203/heavy.png",
+      "light": "data/api/media/rendered/files/skins/24-1203/light.png",
+      "medium": "data/api/media/rendered/files/skins/24-1203/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/24-1203/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ump45_ump_transit_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ump45_ump_transit_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ump45_ump_transit_medium_png.vtex_c"
+    }
+  },
+  "name": "UMP-45 | Late Night Transit",
+  "search_slug": "ump-45-late-night-transit",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_train_2025",
+        "name": "The Train 2025 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "5126",
+        "kind": "container",
+        "name": "Austin 2025 Train Souvenir Package",
+        "tier": "rare"
+      },
+      {
+        "flags": [],
+        "id": "5225",
+        "kind": "container",
+        "name": "Budapest 2025 Train Souvenir Package",
+        "tier": "rare"
+      }
+    ],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "24-1203__normal__battle-scarred",
+    "24-1203__normal__factory-new",
+    "24-1203__normal__field-tested",
+    "24-1203__normal__minimal-wear",
+    "24-1203__normal__well-worn"
+  ],
+  "weapon": {
+    "id": 24,
+    "localized_names": {
+      "brazilian": "UMP-45",
+      "bulgarian": "UMP-45",
+      "czech": "UMP-45",
+      "danish": "UMP-45",
+      "dutch": "UMP-45",
+      "english": "UMP-45",
+      "finnish": "UMP-45",
+      "french": "UMP-45",
+      "german": "UMP-45",
+      "greek": "UMP-45",
+      "hungarian": "UMP-45",
+      "indonesian": "UMP-45",
+      "italian": "UMP-45",
+      "japanese": "UMP-45",
+      "koreana": "UMP-45",
+      "latam": "UMP-45",
+      "norwegian": "UMP-45",
+      "polish": "UMP-45",
+      "portuguese": "UMP-45",
+      "romanian": "UMP-45",
+      "russian": "UMP-45",
+      "schinese": "UMP-45",
+      "schinese_pw": "UMP-45",
+      "spanish": "UMP-45",
+      "swedish": "UMP-45",
+      "tchinese": "UMP-45",
+      "thai": "UMP-45",
+      "turkish": "UMP-45",
+      "ukrainian": "УМП-45",
+      "vietnamese": "UMP-45"
+    },
+    "name": "UMP-45",
+    "search_slug": "ump-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "an_titanium30v",
+    "id": 216,
+    "name": "Blue Titanium",
+    "rarity_ref": null,
+    "style_code": 4
+  },
+  "game_ref": {
+    "paint_kit_id": 216,
+    "weapon_id": 30
+  },
+  "id": "30-216",
+  "name": "Tec-9 | Blue Titanium",
+  "search_slug": "tec-9-blue-titanium",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_weapons_ii",
+        "name": "The Arms Deal 2 Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4004",
+        "kind": "weapon-case",
+        "name": "CS:GO Weapon Case 2",
+        "tier": "rare"
+      }
+    ]
+  },
+  "supported_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    }
+  ],
+  "variant_ids": [
+    "30-216__normal__factory-new",
+    "30-216__stattrak__factory-new"
+  ],
+  "weapon": {
+    "codename": "weapon_tec9",
+    "id": 30,
+    "name": "Tec-9",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.04,
+    "min_float": 0.0
+  }
+}

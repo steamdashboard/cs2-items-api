@@ -1,0 +1,44 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": false
+  },
+  "finish": {
+    "codename": "sp_leaves",
+    "id": 25,
+    "name": "Forest Leaves",
+    "rarity_ref": null,
+    "style_code": 3
+  },
+  "game_ref": {
+    "paint_kit_id": 25,
+    "weapon_id": 61
+  },
+  "id": "61-25",
+  "name": "USP-S | Forest Leaves",
+  "search_slug": "usp-s-forest-leaves",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_safehouse",
+        "name": "The Safehouse Collection"
+      }
+    ],
+    "containers": []
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "61-25__normal__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_usp_silencer",
+    "id": 61,
+    "name": "USP-S",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": null,
+    "min_float": null
+  }
+}

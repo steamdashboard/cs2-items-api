@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 851,
+    "id": 851,
+    "localized_names": {
+      "brazilian": "Nascer da Lua",
+      "bulgarian": "Лунен изгрев",
+      "czech": "Moonrise",
+      "danish": "Moonrise",
+      "dutch": "Moonrise",
+      "english": "Moonrise",
+      "finnish": "Kuutamo",
+      "french": "Lever de lune",
+      "german": "Mondaufgang",
+      "greek": "Moonrise",
+      "hungarian": "Holdkelte",
+      "indonesian": "Moonrise",
+      "italian": "Moonrise",
+      "japanese": "Moonrise",
+      "koreana": "월출",
+      "latam": "Superluna",
+      "norwegian": "Moonrise",
+      "polish": "Wschód Księżyca",
+      "portuguese": "Moonrise",
+      "romanian": "Moonrise",
+      "russian": "Лунная ночь",
+      "schinese": "城里的月光",
+      "schinese_pw": "Moonrise",
+      "spanish": "Atardecer",
+      "swedish": "Moonrise",
+      "tchinese": "月出",
+      "thai": "Moonrise",
+      "turkish": "Ay Doğumu",
+      "ukrainian": "Схід місяця",
+      "vietnamese": "Moonrise"
+    },
+    "name": "Moonrise",
+    "rarity_ref": null,
+    "style_code": 6,
+    "style_name": "Anodized Airbrushed",
+    "wear": {
+      "max_float": 0.4,
+      "min_float": 0.0
+    }
+  },
+  "id": "24-851",
+  "localized_names": {
+    "brazilian": "UMP-45 | Nascer da Lua",
+    "bulgarian": "UMP-45 | Лунен изгрев",
+    "czech": "UMP-45 | Moonrise",
+    "danish": "UMP-45 | Moonrise",
+    "dutch": "UMP-45 | Moonrise",
+    "english": "UMP-45 | Moonrise",
+    "finnish": "UMP-45 | Kuutamo",
+    "french": "UMP-45 | Lever de lune",
+    "german": "UMP-45 | Mondaufgang",
+    "greek": "UMP-45 | Moonrise",
+    "hungarian": "UMP-45 | Holdkelte",
+    "indonesian": "UMP-45 | Moonrise",
+    "italian": "UMP-45 | Moonrise",
+    "japanese": "UMP-45 | Moonrise",
+    "koreana": "UMP-45 | 월출",
+    "latam": "UMP-45 | Superluna",
+    "norwegian": "UMP-45 | Moonrise",
+    "polish": "UMP-45 | Wschód Księżyca",
+    "portuguese": "UMP-45 | Moonrise",
+    "romanian": "UMP-45 | Moonrise",
+    "russian": "UMP-45 | Лунная ночь",
+    "schinese": "UMP-45 | 城里的月光",
+    "schinese_pw": "UMP-45 | Moonrise",
+    "spanish": "UMP-45 | Atardecer",
+    "swedish": "UMP-45 | Moonrise",
+    "tchinese": "UMP-45 | 月出",
+    "thai": "UMP-45 | Moonrise",
+    "turkish": "UMP-45 | Ay Doğumu",
+    "ukrainian": "УМП-45 | Схід місяця",
+    "vietnamese": "UMP-45 | Moonrise"
+  },
+  "media": {
+    "asset_id": "skin__24-851",
+    "images_png": [
+      "data/api/media/rendered/files/skins/24-851/light.png",
+      "data/api/media/rendered/files/skins/24-851/medium.png",
+      "data/api/media/rendered/files/skins/24-851/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/24-851.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/24-851/heavy.png",
+      "light": "data/api/media/rendered/files/skins/24-851/light.png",
+      "medium": "data/api/media/rendered/files/skins/24-851/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/24-851/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ump45_aa_ump45_moonrise_sunset_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ump45_aa_ump45_moonrise_sunset_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ump45_aa_ump45_moonrise_sunset_medium_png.vtex_c"
+    }
+  },
+  "name": "UMP-45 | Moonrise",
+  "search_slug": "ump-45-moonrise",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4598",
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_22",
+        "name": "The Prisma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "24-851__normal__factory-new",
+    "24-851__normal__field-tested",
+    "24-851__normal__minimal-wear",
+    "24-851__normal__well-worn",
+    "24-851__stattrak__factory-new",
+    "24-851__stattrak__field-tested",
+    "24-851__stattrak__minimal-wear",
+    "24-851__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 24,
+    "localized_names": {
+      "brazilian": "UMP-45",
+      "bulgarian": "UMP-45",
+      "czech": "UMP-45",
+      "danish": "UMP-45",
+      "dutch": "UMP-45",
+      "english": "UMP-45",
+      "finnish": "UMP-45",
+      "french": "UMP-45",
+      "german": "UMP-45",
+      "greek": "UMP-45",
+      "hungarian": "UMP-45",
+      "indonesian": "UMP-45",
+      "italian": "UMP-45",
+      "japanese": "UMP-45",
+      "koreana": "UMP-45",
+      "latam": "UMP-45",
+      "norwegian": "UMP-45",
+      "polish": "UMP-45",
+      "portuguese": "UMP-45",
+      "romanian": "UMP-45",
+      "russian": "UMP-45",
+      "schinese": "UMP-45",
+      "schinese_pw": "UMP-45",
+      "spanish": "UMP-45",
+      "swedish": "UMP-45",
+      "tchinese": "UMP-45",
+      "thai": "UMP-45",
+      "turkish": "UMP-45",
+      "ukrainian": "УМП-45",
+      "vietnamese": "UMP-45"
+    },
+    "name": "UMP-45",
+    "search_slug": "ump-45",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 0.4,
+    "min_float": 0.0
+  }
+}

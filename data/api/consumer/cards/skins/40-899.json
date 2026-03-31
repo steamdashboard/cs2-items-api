@@ -1,0 +1,212 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 899,
+    "id": 899,
+    "localized_names": {
+      "brazilian": "Disparo Sangrento",
+      "bulgarian": "Кървясало",
+      "czech": "Bloodshot",
+      "danish": "Bloodshot",
+      "dutch": "Bloodshot",
+      "english": "Bloodshot",
+      "finnish": "Verestävä",
+      "french": "Hyperémie oculaire",
+      "german": "Blutunterlaufen",
+      "greek": "Bloodshot",
+      "hungarian": "Véreres",
+      "indonesian": "Bloodshot",
+      "italian": "Bloodshot",
+      "japanese": "Bloodshot",
+      "koreana": "블러드 샷",
+      "latam": "Inyectado de sangre",
+      "norwegian": "Bloodshot",
+      "polish": "Przekrwiony",
+      "portuguese": "Bloodshot",
+      "romanian": "Bloodshot",
+      "russian": "Кровавая пелена",
+      "schinese": "喋血战士",
+      "schinese_pw": "Bloodshot",
+      "spanish": "Inyectado en sangre",
+      "swedish": "Bloodshot",
+      "tchinese": "嗜血怪獸",
+      "thai": "Bloodshot",
+      "turkish": "Kan Çanağı",
+      "ukrainian": "Червоні очі",
+      "vietnamese": "Bloodshot"
+    },
+    "name": "Bloodshot",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.6,
+      "min_float": 0.14
+    }
+  },
+  "id": "40-899",
+  "localized_names": {
+    "brazilian": "SSG 08 | Disparo Sangrento",
+    "bulgarian": "SSG 08 | Кървясало",
+    "czech": "SSG 08 | Bloodshot",
+    "danish": "SSG 08 | Bloodshot",
+    "dutch": "SSG 08 | Bloodshot",
+    "english": "SSG 08 | Bloodshot",
+    "finnish": "SSG 08 | Verestävä",
+    "french": "SSG 08 | Hyperémie oculaire",
+    "german": "SSG 08 | Blutunterlaufen",
+    "greek": "SSG 08 | Bloodshot",
+    "hungarian": "SSG 08 | Véreres",
+    "indonesian": "SSG 08 | Bloodshot",
+    "italian": "SSG 08 | Bloodshot",
+    "japanese": "SSG 08 | Bloodshot",
+    "koreana": "SSG 08 | 블러드 샷",
+    "latam": "SSG 08 | Inyectado de sangre",
+    "norwegian": "SSG 08 | Bloodshot",
+    "polish": "SSG 08 | Przekrwiony",
+    "portuguese": "SSG 08 | Bloodshot",
+    "romanian": "SSG 08 | Bloodshot",
+    "russian": "SSG 08 | Кровавая пелена",
+    "schinese": "SSG 08 | 喋血战士",
+    "schinese_pw": "SSG 08 | Bloodshot",
+    "spanish": "SSG 08 | Inyectado en sangre",
+    "swedish": "SSG 08 | Bloodshot",
+    "tchinese": "SSG 08 | 嗜血怪獸",
+    "thai": "SSG 08 | Bloodshot",
+    "turkish": "SSG 08 | Kan Çanağı",
+    "ukrainian": "ССГ 08 | Червоні очі",
+    "vietnamese": "SSG 08 | Bloodshot"
+  },
+  "media": {
+    "asset_id": "skin__40-899",
+    "images_png": [
+      "data/api/media/rendered/files/skins/40-899/light.png",
+      "data/api/media/rendered/files/skins/40-899/medium.png",
+      "data/api/media/rendered/files/skins/40-899/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/40-899.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/40-899/heavy.png",
+      "light": "data/api/media/rendered/files/skins/40-899/light.png",
+      "medium": "data/api/media/rendered/files/skins/40-899/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/40-899/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_tickler_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_tickler_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_ssg08_cu_ssg08_tickler_medium_png.vtex_c"
+    }
+  },
+  "name": "SSG 08 | Bloodshot",
+  "search_slug": "ssg-08-bloodshot",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4620",
+        "kind": "weapon-case",
+        "name": "Shattered Web Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_23",
+        "name": "The Shattered Web Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "40-899__normal__battle-scarred",
+    "40-899__normal__field-tested",
+    "40-899__normal__minimal-wear",
+    "40-899__normal__well-worn",
+    "40-899__stattrak__battle-scarred",
+    "40-899__stattrak__field-tested",
+    "40-899__stattrak__minimal-wear",
+    "40-899__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 40,
+    "localized_names": {
+      "brazilian": "SSG 08",
+      "bulgarian": "SSG 08",
+      "czech": "SSG 08",
+      "danish": "SSG 08",
+      "dutch": "SSG 08",
+      "english": "SSG 08",
+      "finnish": "SSG 08",
+      "french": "SSG 08",
+      "german": "SSG 08",
+      "greek": "SSG 08",
+      "hungarian": "SSG 08",
+      "indonesian": "SSG 08",
+      "italian": "SSG 08",
+      "japanese": "SSG 08",
+      "koreana": "SSG 08",
+      "latam": "SSG 08",
+      "norwegian": "SSG 08",
+      "polish": "SSG 08",
+      "portuguese": "SSG 08",
+      "romanian": "SSG 08",
+      "russian": "SSG 08",
+      "schinese": "SSG 08",
+      "schinese_pw": "SSG 08",
+      "spanish": "SSG 08",
+      "swedish": "SSG 08",
+      "tchinese": "SSG 08",
+      "thai": "SSG 08",
+      "turkish": "SSG 08",
+      "ukrainian": "ССГ 08",
+      "vietnamese": "SSG 08"
+    },
+    "name": "SSG 08",
+    "search_slug": "ssg-08",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.6,
+    "min_float": 0.14
+  }
+}

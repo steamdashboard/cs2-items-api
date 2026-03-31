@@ -1,0 +1,194 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 189,
+    "id": 189,
+    "localized_names": {
+      "brazilian": "Águas Claras",
+      "bulgarian": "Бистра вода",
+      "czech": "Bright Water",
+      "danish": "Bright Water",
+      "dutch": "Bright Water",
+      "english": "Bright Water",
+      "finnish": "Kirkas vesi",
+      "french": "Eau vive",
+      "german": "Klares Wasser",
+      "greek": "Bright Water",
+      "hungarian": "Fényes Víz",
+      "indonesian": "Bright Water",
+      "italian": "Bright Water",
+      "japanese": "Bright Water",
+      "koreana": "밝은 물결",
+      "latam": "Aguas brillantes",
+      "norwegian": "Bright Water",
+      "polish": "Jasne wody",
+      "portuguese": "Bright Water",
+      "romanian": "Bright Water",
+      "russian": "Чистая вода",
+      "schinese": "澄澈之水",
+      "schinese_pw": "Bright Water",
+      "spanish": "Aguas brillantes",
+      "swedish": "Bright Water",
+      "tchinese": "澄水",
+      "thai": "Bright Water",
+      "turkish": "Parlak Su",
+      "ukrainian": "Чиста вода",
+      "vietnamese": "Bright Water"
+    },
+    "name": "Bright Water",
+    "rarity_ref": null,
+    "style_code": 2,
+    "style_name": "Hydrographic",
+    "wear": {
+      "max_float": 0.22,
+      "min_float": 0.1
+    }
+  },
+  "id": "60-189",
+  "localized_names": {
+    "brazilian": "M4A1-S | Águas Claras",
+    "bulgarian": "M4A1-S | Бистра вода",
+    "czech": "M4A1-S | Bright Water",
+    "danish": "M4A1-S | Bright Water",
+    "dutch": "M4A1-S | Bright Water",
+    "english": "M4A1-S | Bright Water",
+    "finnish": "M4A1-S | Kirkas vesi",
+    "french": "M4A1-S | Eau vive",
+    "german": "M4A1-S | Klares Wasser",
+    "greek": "M4A1-S | Bright Water",
+    "hungarian": "M4A1-S | Fényes Víz",
+    "indonesian": "M4A1-S | Bright Water",
+    "italian": "M4A1-S | Bright Water",
+    "japanese": "M4A1-S | Bright Water",
+    "koreana": "M4A1-S | 밝은 물결",
+    "latam": "M4A1-S | Aguas brillantes",
+    "norwegian": "M4A1-S | Bright Water",
+    "polish": "M4A1-S | Jasne wody",
+    "portuguese": "M4A1-S | Bright Water",
+    "romanian": "M4A1-S | Bright Water",
+    "russian": "M4A1-S | Чистая вода",
+    "schinese": "M4A1消音版 | 澄澈之水",
+    "schinese_pw": "M4A1-S | Bright Water",
+    "spanish": "M4A1-S | Aguas brillantes",
+    "swedish": "M4A1-S | Bright Water",
+    "tchinese": "M4A1-S | 澄水",
+    "thai": "M4A1-S | Bright Water",
+    "turkish": "M4A1-S | Parlak Su",
+    "ukrainian": "М4А1-С | Чиста вода",
+    "vietnamese": "M4A1-S | Bright Water"
+  },
+  "media": {
+    "asset_id": "skin__60-189",
+    "images_png": [
+      "data/api/media/rendered/files/skins/60-189/light.png",
+      "data/api/media/rendered/files/skins/60-189/medium.png",
+      "data/api/media/rendered/files/skins/60-189/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/60-189.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/60-189/heavy.png",
+      "light": "data/api/media/rendered/files/skins/60-189/light.png",
+      "medium": "data/api/media/rendered/files/skins/60-189/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/60-189/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_ocean_bravo_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_ocean_bravo_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_ocean_bravo_medium_png.vtex_c"
+    }
+  },
+  "name": "M4A1-S | Bright Water",
+  "search_slug": "m4a1-s-bright-water",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4003",
+        "kind": "weapon-case",
+        "name": "Operation Bravo Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_bravo_i",
+        "name": "The Bravo Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "60-189__normal__field-tested",
+    "60-189__normal__minimal-wear",
+    "60-189__stattrak__field-tested",
+    "60-189__stattrak__minimal-wear"
+  ],
+  "weapon": {
+    "id": 60,
+    "localized_names": {
+      "brazilian": "M4A1-S",
+      "bulgarian": "M4A1-S",
+      "czech": "M4A1-S",
+      "danish": "M4A1-S",
+      "dutch": "M4A1-S",
+      "english": "M4A1-S",
+      "finnish": "M4A1-S",
+      "french": "M4A1-S",
+      "german": "M4A1-S",
+      "greek": "M4A1-S",
+      "hungarian": "M4A1-S",
+      "indonesian": "M4A1-S",
+      "italian": "M4A1-S",
+      "japanese": "M4A1-S",
+      "koreana": "M4A1-S",
+      "latam": "M4A1-S",
+      "norwegian": "M4A1-S",
+      "polish": "M4A1-S",
+      "portuguese": "M4A1-S",
+      "romanian": "M4A1-S",
+      "russian": "M4A1-S",
+      "schinese": "M4A1消音版",
+      "schinese_pw": "M4A1-S",
+      "spanish": "M4A1-S",
+      "swedish": "M4A1-S",
+      "tchinese": "M4A1-S",
+      "thai": "M4A1-S",
+      "turkish": "M4A1-S",
+      "ukrainian": "М4А1-С",
+      "vietnamese": "M4A1-S"
+    },
+    "name": "M4A1-S",
+    "search_slug": "m4a1-s",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 0.22,
+    "min_float": 0.1
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 845,
+    "id": 845,
+    "localized_names": {
+      "brazilian": "Momento",
+      "bulgarian": "Инерция",
+      "czech": "Momentum",
+      "danish": "Momentum",
+      "dutch": "Momentum",
+      "english": "Momentum",
+      "finnish": "Momentti",
+      "french": "Momentum",
+      "german": "Impuls",
+      "greek": "Momentum",
+      "hungarian": "Lendület",
+      "indonesian": "Momentum",
+      "italian": "Momentum",
+      "japanese": "Momentum",
+      "koreana": "모멘텀",
+      "latam": "Impulso",
+      "norwegian": "Momentum",
+      "polish": "Pęd",
+      "portuguese": "Momentum",
+      "romanian": "Momentum",
+      "russian": "Динамика",
+      "schinese": "动量",
+      "schinese_pw": "Momentum",
+      "spanish": "Impulso",
+      "swedish": "Momentum",
+      "tchinese": "動量",
+      "thai": "Momentum",
+      "turkish": "Momentum",
+      "ukrainian": "Імпульс",
+      "vietnamese": "Momentum"
+    },
+    "name": "Momentum",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.05
+    }
+  },
+  "id": "8-845",
+  "localized_names": {
+    "brazilian": "AUG | Momento",
+    "bulgarian": "AUG | Инерция",
+    "czech": "AUG | Momentum",
+    "danish": "AUG | Momentum",
+    "dutch": "AUG | Momentum",
+    "english": "AUG | Momentum",
+    "finnish": "AUG | Momentti",
+    "french": "AUG | Momentum",
+    "german": "AUG | Impuls",
+    "greek": "AUG | Momentum",
+    "hungarian": "AUG | Lendület",
+    "indonesian": "AUG | Momentum",
+    "italian": "AUG | Momentum",
+    "japanese": "AUG | Momentum",
+    "koreana": "AUG | 모멘텀",
+    "latam": "AUG | Impulso",
+    "norwegian": "AUG | Momentum",
+    "polish": "AUG | Pęd",
+    "portuguese": "AUG | Momentum",
+    "romanian": "AUG | Momentum",
+    "russian": "AUG | Динамика",
+    "schinese": "AUG | 动量",
+    "schinese_pw": "AUG | Momentum",
+    "spanish": "AUG | Impulso",
+    "swedish": "AUG | Momentum",
+    "tchinese": "AUG | 動量",
+    "thai": "AUG | Momentum",
+    "turkish": "AUG | Momentum",
+    "ukrainian": "АУГ | Імпульс",
+    "vietnamese": "AUG | Momentum"
+  },
+  "media": {
+    "asset_id": "skin__8-845",
+    "images_png": [
+      "data/api/media/rendered/files/skins/8-845/light.png",
+      "data/api/media/rendered/files/skins/8-845/medium.png",
+      "data/api/media/rendered/files/skins/8-845/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/8-845.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/8-845/heavy.png",
+      "light": "data/api/media/rendered/files/skins/8-845/light.png",
+      "medium": "data/api/media/rendered/files/skins/8-845/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/8-845/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_aug_cu_aug_momentum_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_aug_cu_aug_momentum_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_aug_cu_aug_momentum_medium_png.vtex_c"
+    }
+  },
+  "name": "AUG | Momentum",
+  "search_slug": "aug-momentum",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4598",
+        "kind": "weapon-case",
+        "name": "Prisma Case",
+        "tier": "legendary"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_22",
+        "name": "The Prisma Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "8-845__normal__battle-scarred",
+    "8-845__normal__factory-new",
+    "8-845__normal__field-tested",
+    "8-845__normal__minimal-wear",
+    "8-845__normal__well-worn",
+    "8-845__stattrak__battle-scarred",
+    "8-845__stattrak__factory-new",
+    "8-845__stattrak__field-tested",
+    "8-845__stattrak__minimal-wear",
+    "8-845__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 8,
+    "localized_names": {
+      "brazilian": "AUG",
+      "bulgarian": "AUG",
+      "czech": "AUG",
+      "danish": "AUG",
+      "dutch": "AUG",
+      "english": "AUG",
+      "finnish": "AUG",
+      "french": "AUG",
+      "german": "AUG",
+      "greek": "AUG",
+      "hungarian": "AUG",
+      "indonesian": "AUG",
+      "italian": "AUG",
+      "japanese": "AUG",
+      "koreana": "AUG",
+      "latam": "AUG",
+      "norwegian": "AUG",
+      "polish": "AUG",
+      "portuguese": "AUG",
+      "romanian": "AUG",
+      "russian": "AUG",
+      "schinese": "AUG",
+      "schinese_pw": "AUG",
+      "spanish": "AUG",
+      "swedish": "AUG",
+      "tchinese": "AUG",
+      "thai": "AUG",
+      "turkish": "AUG",
+      "ukrainian": "АУГ",
+      "vietnamese": "AUG"
+    },
+    "name": "AUG",
+    "search_slug": "aug",
+    "weapon_group": "rifle"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.05
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 637,
+    "id": 637,
+    "localized_names": {
+      "brazilian": "Cyrex",
+      "bulgarian": "Сайрекс",
+      "czech": "Cyrex",
+      "danish": "Cyrex",
+      "dutch": "Cyrex",
+      "english": "Cyrex",
+      "finnish": "Cyrex",
+      "french": "Cyrex",
+      "german": "Cyrex",
+      "greek": "Cyrex",
+      "hungarian": "Cyrex",
+      "indonesian": "Cyrex",
+      "italian": "Cyrex",
+      "japanese": "Cyrex",
+      "koreana": "사이렉스",
+      "latam": "Cyrex",
+      "norwegian": "Cyrex",
+      "polish": "Cyrex",
+      "portuguese": "Cyrex",
+      "romanian": "Cyrex",
+      "russian": "Сайрекс",
+      "schinese": "次时代",
+      "schinese_pw": "Cyrex",
+      "spanish": "Cyrex",
+      "swedish": "Cyrex",
+      "tchinese": "賽瑞克斯",
+      "thai": "Cyrex",
+      "turkish": "Cyrex",
+      "ukrainian": "Сайрекс",
+      "vietnamese": "Cyrex"
+    },
+    "name": "Cyrex",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.55,
+      "min_float": 0.0
+    }
+  },
+  "id": "61-637",
+  "localized_names": {
+    "brazilian": "USP-S | Cyrex",
+    "bulgarian": "USP-S | Сайрекс",
+    "czech": "USP-S | Cyrex",
+    "danish": "USP-S | Cyrex",
+    "dutch": "USP-S | Cyrex",
+    "english": "USP-S | Cyrex",
+    "finnish": "USP-S | Cyrex",
+    "french": "USP-S | Cyrex",
+    "german": "USP-S | Cyrex",
+    "greek": "USP-S | Cyrex",
+    "hungarian": "USP-S | Cyrex",
+    "indonesian": "USP-S | Cyrex",
+    "italian": "USP-S | Cyrex",
+    "japanese": "USP-S | Cyrex",
+    "koreana": "USP-S | 사이렉스",
+    "latam": "USP-S | Cyrex",
+    "norwegian": "USP-S | Cyrex",
+    "polish": "USP-S | Cyrex",
+    "portuguese": "USP-S | Cyrex",
+    "romanian": "USP-S | Cyrex",
+    "russian": "USP-S | Сайрекс",
+    "schinese": "USP消音版 | 次时代",
+    "schinese_pw": "USP-S | Cyrex",
+    "spanish": "USP-S | Cyrex",
+    "swedish": "USP-S | Cyrex",
+    "tchinese": "USP-S | 賽瑞克斯",
+    "thai": "USP-S | Cyrex",
+    "turkish": "USP-S | Cyrex",
+    "ukrainian": "УСП-С | Сайрекс",
+    "vietnamese": "USP-S | Cyrex"
+  },
+  "media": {
+    "asset_id": "skin__61-637",
+    "images_png": [
+      "data/api/media/rendered/files/skins/61-637/light.png",
+      "data/api/media/rendered/files/skins/61-637/medium.png",
+      "data/api/media/rendered/files/skins/61-637/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/61-637.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/61-637/heavy.png",
+      "light": "data/api/media/rendered/files/skins/61-637/light.png",
+      "medium": "data/api/media/rendered/files/skins/61-637/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/61-637/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_cyrex_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_cyrex_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_cyrex_medium_png.vtex_c"
+    }
+  },
+  "name": "USP-S | Cyrex",
+  "search_slug": "usp-s-cyrex",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4288",
+        "kind": "weapon-case",
+        "name": "Glove Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_15",
+        "name": "The Glove Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "61-637__normal__battle-scarred",
+    "61-637__normal__factory-new",
+    "61-637__normal__field-tested",
+    "61-637__normal__minimal-wear",
+    "61-637__normal__well-worn",
+    "61-637__stattrak__battle-scarred",
+    "61-637__stattrak__factory-new",
+    "61-637__stattrak__field-tested",
+    "61-637__stattrak__minimal-wear",
+    "61-637__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 61,
+    "localized_names": {
+      "brazilian": "USP-S",
+      "bulgarian": "USP-S",
+      "czech": "USP-S",
+      "danish": "USP-S",
+      "dutch": "USP-S",
+      "english": "USP-S",
+      "finnish": "USP-S",
+      "french": "USP-S",
+      "german": "USP-S",
+      "greek": "USP-S",
+      "hungarian": "USP-S",
+      "indonesian": "USP-S",
+      "italian": "USP-S",
+      "japanese": "USP-S",
+      "koreana": "USP-S",
+      "latam": "USP-S",
+      "norwegian": "USP-S",
+      "polish": "USP-S",
+      "portuguese": "USP-S",
+      "romanian": "USP-S",
+      "russian": "USP-S",
+      "schinese": "USP消音版",
+      "schinese_pw": "USP-S",
+      "spanish": "USP-S",
+      "swedish": "USP-S",
+      "tchinese": "USP-S",
+      "thai": "USP-S",
+      "turkish": "USP-S",
+      "ukrainian": "УСП-С",
+      "vietnamese": "USP-S"
+    },
+    "name": "USP-S",
+    "search_slug": "usp-s",
+    "weapon_group": "pistol"
+  },
+  "wear": {
+    "max_float": 0.55,
+    "min_float": 0.0
+  }
+}

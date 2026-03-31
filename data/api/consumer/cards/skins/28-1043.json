@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1043,
+    "id": 1043,
+    "localized_names": {
+      "brazilian": "dev_textura",
+      "bulgarian": "Текстура_за_разработка",
+      "czech": "dev_texture",
+      "danish": "dev_texture",
+      "dutch": "dev_texture",
+      "english": "dev_texture",
+      "finnish": "dev_texture",
+      "french": "texture_dév",
+      "german": "dev_texture",
+      "greek": "dev_texture",
+      "hungarian": "dev_texture",
+      "indonesian": "dev_texture",
+      "italian": "dev_texture",
+      "japanese": "dev_texture",
+      "koreana": "개발자 텍스처",
+      "latam": "dev_texture",
+      "norwegian": "dev_texture",
+      "polish": "dev_texture",
+      "portuguese": "dev_texture",
+      "romanian": "dev_texture",
+      "russian": "dev_texture",
+      "schinese": "橙灰之名",
+      "schinese_pw": "dev_texture",
+      "spanish": "dev_texture",
+      "swedish": "dev_texture",
+      "tchinese": "dev_texture",
+      "thai": "dev_texture",
+      "turkish": "dev_texture",
+      "ukrainian": "dev_texture",
+      "vietnamese": "dev_texture"
+    },
+    "name": "dev_texture",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 0.65,
+      "min_float": 0.0
+    }
+  },
+  "id": "28-1043",
+  "localized_names": {
+    "brazilian": "Negev | dev_textura",
+    "bulgarian": "Negev | Текстура_за_разработка",
+    "czech": "Negev | dev_texture",
+    "danish": "Negev | dev_texture",
+    "dutch": "Negev | dev_texture",
+    "english": "Negev | dev_texture",
+    "finnish": "Negev | dev_texture",
+    "french": "Negev | texture_dév",
+    "german": "Negev | dev_texture",
+    "greek": "Negev | dev_texture",
+    "hungarian": "Negev | dev_texture",
+    "indonesian": "Negev | dev_texture",
+    "italian": "Negev | dev_texture",
+    "japanese": "Negev | dev_texture",
+    "koreana": "네게브 | 개발자 텍스처",
+    "latam": "Negev | dev_texture",
+    "norwegian": "Negev | dev_texture",
+    "polish": "Negev | dev_texture",
+    "portuguese": "Negev | dev_texture",
+    "romanian": "Negev | dev_texture",
+    "russian": "Негев | dev_texture",
+    "schinese": "内格夫 | 橙灰之名",
+    "schinese_pw": "Negev | dev_texture",
+    "spanish": "Negev | dev_texture",
+    "swedish": "Negev | dev_texture",
+    "tchinese": "Negev | dev_texture",
+    "thai": "Negev | dev_texture",
+    "turkish": "Negev | dev_texture",
+    "ukrainian": "Неґев | dev_texture",
+    "vietnamese": "Negev | dev_texture"
+  },
+  "media": {
+    "asset_id": "skin__28-1043",
+    "images_png": [
+      "data/api/media/rendered/files/skins/28-1043/light.png",
+      "data/api/media/rendered/files/skins/28-1043/medium.png",
+      "data/api/media/rendered/files/skins/28-1043/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/28-1043.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/28-1043/heavy.png",
+      "light": "data/api/media/rendered/files/skins/28-1043/light.png",
+      "medium": "data/api/media/rendered/files/skins/28-1043/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/28-1043/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_negev_cu_negev_devtexture_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_negev_cu_negev_devtexture_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_negev_cu_negev_devtexture_medium_png.vtex_c"
+    }
+  },
+  "name": "Negev | dev_texture",
+  "search_slug": "negev-dev-texture",
+  "sources": {
+    "capsules": [],
+    "cases": [
+      {
+        "flags": [],
+        "id": "4747",
+        "kind": "weapon-case",
+        "name": "Snakebite Case",
+        "tier": "mythical"
+      }
+    ],
+    "collections": [
+      {
+        "id": "set_community_28",
+        "name": "The Snakebite Collection"
+      }
+    ],
+    "containers": [],
+    "souvenir_packages": []
+  },
+  "variant_ids": [
+    "28-1043__normal__battle-scarred",
+    "28-1043__normal__factory-new",
+    "28-1043__normal__field-tested",
+    "28-1043__normal__minimal-wear",
+    "28-1043__normal__well-worn",
+    "28-1043__stattrak__battle-scarred",
+    "28-1043__stattrak__factory-new",
+    "28-1043__stattrak__field-tested",
+    "28-1043__stattrak__minimal-wear",
+    "28-1043__stattrak__well-worn"
+  ],
+  "weapon": {
+    "id": 28,
+    "localized_names": {
+      "brazilian": "Negev",
+      "bulgarian": "Negev",
+      "czech": "Negev",
+      "danish": "Negev",
+      "dutch": "Negev",
+      "english": "Negev",
+      "finnish": "Negev",
+      "french": "Negev",
+      "german": "Negev",
+      "greek": "Negev",
+      "hungarian": "Negev",
+      "indonesian": "Negev",
+      "italian": "Negev",
+      "japanese": "Negev",
+      "koreana": "네게브",
+      "latam": "Negev",
+      "norwegian": "Negev",
+      "polish": "Negev",
+      "portuguese": "Negev",
+      "romanian": "Negev",
+      "russian": "Негев",
+      "schinese": "内格夫",
+      "schinese_pw": "Negev",
+      "spanish": "Negev",
+      "swedish": "Negev",
+      "tchinese": "Negev",
+      "thai": "Negev",
+      "turkish": "Negev",
+      "ukrainian": "Неґев",
+      "vietnamese": "Negev"
+    },
+    "name": "Negev",
+    "search_slug": "negev",
+    "weapon_group": "machinegun"
+  },
+  "wear": {
+    "max_float": 0.65,
+    "min_float": 0.0
+  }
+}

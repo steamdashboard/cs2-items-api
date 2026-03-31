@@ -1,0 +1,53 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": false,
+    "stattrak": true
+  },
+  "finish": {
+    "codename": "cu_favela_awp",
+    "id": 181,
+    "name": "Corticera",
+    "rarity_ref": null,
+    "style_code": 7
+  },
+  "game_ref": {
+    "paint_kit_id": 181,
+    "weapon_id": 9
+  },
+  "id": "9-181",
+  "name": "AWP | Corticera",
+  "search_slug": "awp-corticera",
+  "sources": {
+    "collections": [
+      {
+        "id": "set_esports_iii",
+        "name": "The eSports 2014 Summer Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4019",
+        "kind": "weapon-case",
+        "name": "eSports 2014 Summer Case",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "supported_exteriors": [],
+  "variant_ids": [
+    "9-181__normal__vanilla",
+    "9-181__stattrak__vanilla"
+  ],
+  "weapon": {
+    "codename": "weapon_awp",
+    "id": 9,
+    "name": "AWP",
+    "weapon_group": "sniper-rifle"
+  },
+  "wear": {
+    "max_float": 0.3,
+    "min_float": null
+  }
+}

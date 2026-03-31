@@ -1,0 +1,51 @@
+{
+  "classification": {
+    "group": "tool",
+    "kind": "tool",
+    "tool_type": "seasontiers"
+  },
+  "game_id": 4673,
+  "id": 4673,
+  "name": "CommunitySeasonNine2019_PlusStars100",
+  "prefab_chain": [
+    "valve",
+    "csgo_tool",
+    "season_tiers"
+  ],
+  "prefab_spec": "valve season_tiers",
+  "resolved": {
+    "attributes": {
+      "cannot trade": "1",
+      "season access": "8",
+      "upgrade level": "100"
+    },
+    "capabilities": {
+      "usable_gc": "1",
+      "usable_out_of_game": "1"
+    },
+    "craft_class": "tool",
+    "craft_material_type": "tool",
+    "drop_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "first_sale_date": "2019/05/23",
+    "image_inventory": "econ/status_icons/operation_9_plusstars100",
+    "image_inventory_size_h": "82",
+    "image_inventory_size_w": "128",
+    "inv_container_and_tools": "tool",
+    "item_class": "tool",
+    "item_description": "#CSGO_Collectible_CommunitySeasonNine2019_PlusStars100_Desc",
+    "item_name": "#CSGO_Collectible_CommunitySeasonNine2019_PlusStars100",
+    "item_quality": "unique",
+    "item_rarity": "common",
+    "item_type": "type_tool",
+    "item_type_name": "#CSGO_Type_Ticket",
+    "max_ilevel": "1",
+    "min_ilevel": "1",
+    "mouse_pressed_sound": "sounds/weapons/c4/c4_disarm.vsnd",
+    "name": "CommunitySeasonNine2019_PlusStars100",
+    "prefab": "valve season_tiers",
+    "tool": {
+      "type": "seasontiers",
+      "use_string": "#ConsumeItem"
+    }
+  }
+}

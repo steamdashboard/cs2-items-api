@@ -1,0 +1,278 @@
+{
+  "availability": {
+    "normal": true,
+    "souvenir": true,
+    "stattrak": false
+  },
+  "available_exteriors": [
+    {
+      "id": "factory-new",
+      "max_float": 0.07,
+      "min_float": 0.0,
+      "name": "Factory New",
+      "short_name": "FN"
+    },
+    {
+      "id": "minimal-wear",
+      "max_float": 0.15,
+      "min_float": 0.07,
+      "name": "Minimal Wear",
+      "short_name": "MW"
+    },
+    {
+      "id": "field-tested",
+      "max_float": 0.38,
+      "min_float": 0.15,
+      "name": "Field-Tested",
+      "short_name": "FT"
+    },
+    {
+      "id": "well-worn",
+      "max_float": 0.45,
+      "min_float": 0.38,
+      "name": "Well-Worn",
+      "short_name": "WW"
+    },
+    {
+      "id": "battle-scarred",
+      "max_float": 1.0,
+      "min_float": 0.45,
+      "name": "Battle-Scarred",
+      "short_name": "BS"
+    }
+  ],
+  "card_type": "weapon-skin",
+  "finish": {
+    "catalog_id": 1000,
+    "id": 1000,
+    "localized_names": {
+      "brazilian": "Salve-se Quem Puder",
+      "bulgarian": "Бягайте и се скрийте",
+      "czech": "Run and Hide",
+      "danish": "Run and Hide",
+      "dutch": "Run and Hide",
+      "english": "Run and Hide",
+      "finnish": "Pakoon",
+      "french": "Cours te cacher",
+      "german": "Rennen und verstecken",
+      "greek": "Run and Hide",
+      "hungarian": "Fuss és Rejtőzz",
+      "indonesian": "Run and Hide",
+      "italian": "Run and Hide",
+      "japanese": "Run and Hide",
+      "koreana": "꼭꼭 숨어라",
+      "latam": "Huye y escóndete",
+      "norwegian": "Run and Hide",
+      "polish": "Uciekaj i kryj się",
+      "portuguese": "Run and Hide",
+      "romanian": "Run and Hide",
+      "russian": "Беги и прячься",
+      "schinese": "豹走",
+      "schinese_pw": "Run and Hide",
+      "spanish": "Huye y escóndete",
+      "swedish": "Run and Hide",
+      "tchinese": "東躲西跑",
+      "thai": "Run and Hide",
+      "turkish": "Koş ve Saklan",
+      "ukrainian": "Біжи й ховайся",
+      "vietnamese": "Run and Hide"
+    },
+    "name": "Run and Hide",
+    "rarity_ref": null,
+    "style_code": 7,
+    "style_name": "Custom Paint Job",
+    "wear": {
+      "max_float": 1.0,
+      "min_float": 0.0
+    }
+  },
+  "id": "19-1000",
+  "localized_names": {
+    "brazilian": "P90 | Salve-se Quem Puder",
+    "bulgarian": "P90 | Бягайте и се скрийте",
+    "czech": "P90 | Run and Hide",
+    "danish": "P90 | Run and Hide",
+    "dutch": "P90 | Run and Hide",
+    "english": "P90 | Run and Hide",
+    "finnish": "P90 | Pakoon",
+    "french": "P90 | Cours te cacher",
+    "german": "P90 | Rennen und verstecken",
+    "greek": "P90 | Run and Hide",
+    "hungarian": "P90 | Fuss és Rejtőzz",
+    "indonesian": "P90 | Run and Hide",
+    "italian": "P90 | Run and Hide",
+    "japanese": "P90 | Run and Hide",
+    "koreana": "P90 | 꼭꼭 숨어라",
+    "latam": "P90 | Huye y escóndete",
+    "norwegian": "P90 | Run and Hide",
+    "polish": "P90 | Uciekaj i kryj się",
+    "portuguese": "P90 | Run and Hide",
+    "romanian": "P90 | Run and Hide",
+    "russian": "P90 | Беги и прячься",
+    "schinese": "P90 | 豹走",
+    "schinese_pw": "P90 | Run and Hide",
+    "spanish": "P90 | Huye y escóndete",
+    "swedish": "P90 | Run and Hide",
+    "tchinese": "P90 | 東躲西跑",
+    "thai": "P90 | Run and Hide",
+    "turkish": "P90 | Koş ve Saklan",
+    "ukrainian": "П90 | Біжи й ховайся",
+    "vietnamese": "P90 | Run and Hide"
+  },
+  "media": {
+    "asset_id": "skin__19-1000",
+    "images_png": [
+      "data/api/media/rendered/files/skins/19-1000/light.png",
+      "data/api/media/rendered/files/skins/19-1000/medium.png",
+      "data/api/media/rendered/files/skins/19-1000/heavy.png"
+    ],
+    "manifest_path": "data/api/media/rendered/manifests/skins/19-1000.json",
+    "models": [],
+    "preview_images": {
+      "heavy": "data/api/media/rendered/files/skins/19-1000/heavy.png",
+      "light": "data/api/media/rendered/files/skins/19-1000/light.png",
+      "medium": "data/api/media/rendered/files/skins/19-1000/medium.png"
+    },
+    "preview_status": "rendered",
+    "primary_image_png": "data/api/media/rendered/files/skins/19-1000/light.png",
+    "primary_preview_tier": "light",
+    "source_texture_paths": {
+      "heavy": "panorama/images/econ/default_generated/weapon_p90_cu_jaguar_p90_heavy_png.vtex_c",
+      "light": "panorama/images/econ/default_generated/weapon_p90_cu_jaguar_p90_light_png.vtex_c",
+      "medium": "panorama/images/econ/default_generated/weapon_p90_cu_jaguar_p90_medium_png.vtex_c"
+    }
+  },
+  "name": "P90 | Run and Hide",
+  "search_slug": "p90-run-and-hide",
+  "sources": {
+    "capsules": [],
+    "cases": [],
+    "collections": [
+      {
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection"
+      }
+    ],
+    "containers": [
+      {
+        "flags": [],
+        "id": "4722",
+        "kind": "container",
+        "name": "The Ancient Collection",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4971",
+        "kind": "container",
+        "name": "Shanghai 2024 Ancient Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5124",
+        "kind": "container",
+        "name": "Austin 2025 Ancient Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "5223",
+        "kind": "container",
+        "name": "Budapest 2025 Ancient Souvenir Package",
+        "tier": "legendary"
+      }
+    ],
+    "souvenir_packages": [
+      {
+        "flags": [],
+        "id": "4813",
+        "kind": "souvenir-package",
+        "name": "Stockholm 2021 Ancient Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4839",
+        "kind": "souvenir-package",
+        "name": "Antwerp 2022 Ancient Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4864",
+        "kind": "souvenir-package",
+        "name": "Rio 2022 Ancient Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4897",
+        "kind": "souvenir-package",
+        "name": "Paris 2023 Ancient Souvenir Package",
+        "tier": "legendary"
+      },
+      {
+        "flags": [],
+        "id": "4930",
+        "kind": "souvenir-package",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "tier": "legendary"
+      }
+    ]
+  },
+  "variant_ids": [
+    "19-1000__normal__battle-scarred",
+    "19-1000__normal__factory-new",
+    "19-1000__normal__field-tested",
+    "19-1000__normal__minimal-wear",
+    "19-1000__normal__well-worn",
+    "19-1000__souvenir__battle-scarred",
+    "19-1000__souvenir__factory-new",
+    "19-1000__souvenir__field-tested",
+    "19-1000__souvenir__minimal-wear",
+    "19-1000__souvenir__well-worn"
+  ],
+  "weapon": {
+    "id": 19,
+    "localized_names": {
+      "brazilian": "P90",
+      "bulgarian": "P90",
+      "czech": "P90",
+      "danish": "P90",
+      "dutch": "P90",
+      "english": "P90",
+      "finnish": "P90",
+      "french": "P90",
+      "german": "P90",
+      "greek": "P90",
+      "hungarian": "P90",
+      "indonesian": "P90",
+      "italian": "P90",
+      "japanese": "P90",
+      "koreana": "P90",
+      "latam": "P90",
+      "norwegian": "P90",
+      "polish": "P90",
+      "portuguese": "P90",
+      "romanian": "P90",
+      "russian": "P90",
+      "schinese": "P90",
+      "schinese_pw": "P90",
+      "spanish": "P90",
+      "swedish": "P90",
+      "tchinese": "P90",
+      "thai": "P90",
+      "turkish": "P90",
+      "ukrainian": "П90",
+      "vietnamese": "P90"
+    },
+    "name": "P90",
+    "search_slug": "p90",
+    "weapon_group": "smg"
+  },
+  "wear": {
+    "max_float": 1.0,
+    "min_float": 0.0
+  }
+}
